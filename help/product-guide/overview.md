@@ -2,10 +2,10 @@
 title: Documentação dos guias do Experience Manager
 description: Encontre a documentação do produto para Guias do Experience Manager (antigo XML Documentation para Adobe Experience Manager). Saiba mais sobre o suporte ao DITA nativo e a criação estruturada no Experience Manager.
 exl-id: 06dd1b77-1a98-430f-8322-475d4fa4947b
-source-git-commit: 6c54daa8807f4f5900367205c6f51046e13eeca2
+source-git-commit: 0afe8bf9b16b1d1367971462b0d44f1721b317c5
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 1%
+source-wordcount: '291'
+ht-degree: 0%
 
 ---
 
@@ -88,9 +88,11 @@ Dummy links cause validation to fail
 
 -->
 
+<!--
 
-## Recursos adicionais
+## Additional Resources
 
-* [[!DNL AEM Guides] Guia do usuário on-line](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html)
-* [[!DNL AEM Guides] Guias do PDF](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
-* [Experience League - Explorar AEM](https://experienceleague.adobe.com/?lang=pt-BR#recommended/solutions/experience-manager)
+* [[!DNL AEM Guides] Online User Guide](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html)
+* [[!DNL AEM Guides] PDF Guides](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
+* [Experience League - Explore AEM](https://experienceleague.adobe.com/#recommended/solutions/experience-manager)
+-->

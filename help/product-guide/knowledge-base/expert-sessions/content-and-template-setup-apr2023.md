@@ -2,9 +2,9 @@
 title: Configuração de conteúdo e modelo
 description: Saiba o que deve ser feito com toda a consideração para configurar o conteúdo e os modelos nos Guias do AEM.
 exl-id: f125bad9-33a2-4de5-b43f-d6368d61879b
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 0afe8bf9b16b1d1367971462b0d44f1721b317c5
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '274'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,9 @@ O volume de conteúdo que você gerencia em um sistema, para oferecer suporte a 
 ## Visão geral da sessão
 
 Nesta sessão, abordamos amplamente o seguinte:
+
 - diferentes aspectos da configuração do conteúdo (categorização, classificação, metadados)
 - configuração do modelo de conteúdo (modelos de tópico, modelos de mapa, snippets)
-
 
 
 ## Gravação da sessão
@@ -38,6 +38,7 @@ Nesta sessão, abordamos amplamente o seguinte:
 ## Principais aprendizados
 
 Nesta sessão, você aprendeu sobre o seguinte:
+
 - Dedicar tempo para analisar e pensar antes de importar/criar conteúdo
 - Classificar e categorizar o conteúdo para atender a diferentes segmentos de usuários (usuários finais ou autor)
 - Aproveitar os recursos de metadados para melhorar a produtividade do usuário
@@ -51,13 +52,14 @@ Nesta sessão, você aprendeu sobre o seguinte:
 
 - **Vídeos em destaque** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/folder-profiles.html)
 
-- **Guia do usuário** - [Conteúdo do autor](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
+- **Guia do usuário** - [Conteúdo do autor](/help/product-guide/user-guide/reports-intro.md)
 
 - **Fórum da comunidade** - Para interações da comunidade específicas por sessão no Experience League, visite  [Fórum de guias do AEM](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
 > Os recursos mostrados nesta sessão estão disponíveis nas seguintes versões dos Guias do AEM:
+>
 > - No local: 4.2 ou posterior
 > - Cloud Service: 2303 ou posterior
 

@@ -1,10 +1,10 @@
 ---
 title: Sobre este guia
-description: Saiba mais sobre este guia
+description: Saiba como baixar, instalar e configurar os Guias do AEM.
 exl-id: 90d5ad94-eb68-4d73-9b23-a1f3d4b802ba
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: b8fba97d5e686fd09b094a6cf5b52aa08ef2d069
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '583'
 ht-degree: 0%
 
 ---

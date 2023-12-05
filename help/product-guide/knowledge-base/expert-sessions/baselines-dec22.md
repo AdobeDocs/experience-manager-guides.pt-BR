@@ -2,9 +2,9 @@
 title: Gerenciar conteúdo usando linhas de base
 description: Saiba como usar linhas de base para gerenciar seu conteúdo de maneira eficaz.
 exl-id: 3fc2e889-b255-4e8d-9750-ab61337107ae
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 0afe8bf9b16b1d1367971462b0d44f1721b317c5
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '182'
 ht-degree: 1%
 
 ---
@@ -41,7 +41,7 @@ Nesta sessão, você aprenderá sobre o seguinte:
 
 - **Vídeos em destaque** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
-- **Guia do usuário** - [Trabalhar com a linha de base](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html)
+- **Guia do usuário** - [Trabalhar com a linha de base](/help/product-guide/user-guide/generate-output-use-baseline-for-publishing.md)
 
 - **Fórum da comunidade** - Para interações da comunidade específicas por sessão no Experience League, visite [Fórum de guias do AEM](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
