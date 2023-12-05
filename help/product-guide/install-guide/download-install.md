@@ -1,10 +1,10 @@
 ---
 title: Baixar e instalar
-description: Saiba como baixar e instalar
+description: Saiba como baixar e instalar guias do AEM
 exl-id: 40ea0510-b25e-4180-b076-c4f771071dda
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 02b33615669945cf65f70d6fd2de81bfd340a0ab
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '136'
 ht-degree: 0%
 
 ---

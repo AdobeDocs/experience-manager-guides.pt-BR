@@ -1,15 +1,15 @@
 ---
-title: Sobre este guia
+title: Instalação no local
 description: Saiba como baixar, instalar e configurar os Guias do AEM.
 exl-id: 90d5ad94-eb68-4d73-9b23-a1f3d4b802ba
-source-git-commit: b8fba97d5e686fd09b094a6cf5b52aa08ef2d069
+source-git-commit: 02b33615669945cf65f70d6fd2de81bfd340a0ab
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
 
-# Sobre este guia {#id175MC0P0S5Z}
+# Instalação no local {#id175MC0P0S5Z}
 
 Guias do Adobe Experience Manager \(mais tarde referidos como *Guias do AEM* O \) é uma poderosa solução de gerenciamento de conteúdo de componentes corporativos \(CCMS\). Ela permite o suporte ao DITA nativo no Adobe Experience Manager, permitindo que o AEM lide forma a lidar com a criação e a entrega de conteúdo baseado em DITA. Ele permite que os autores criem conteúdo usando qualquer ferramenta de criação DITA offline, como o Adobe FrameMaker ou um Editor da Web integrado e fácil de usar.
 
