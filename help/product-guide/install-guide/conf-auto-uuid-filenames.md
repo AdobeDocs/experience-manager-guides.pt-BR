@@ -1,0 +1,37 @@
+---
+title: Configurar nomes de arquivo automáticos com base no UUID
+description: Saiba como Configurar nomes de arquivo automáticos com base na UUID
+exl-id: 2a599228-6d46-494f-a57a-96c3f30e073a
+source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+workflow-type: tm+mt
+source-wordcount: '217'
+ht-degree: 0%
+
+---
+
+# Configurar nomes de arquivo automáticos com base no UUID {#id205QG070D5Z}
+
+Por padrão, quando um tópico ou arquivo de mapa é criado, os autores têm a opção de especificar também o nome do arquivo. Os autores podem atribuir os nomes de arquivo de acordo com seus requisitos. No entanto, isso pode gerar inconsistência e uma grande variedade de nomes de arquivos pode ser vista em um grande sistema de documentação. Como administrador, você pode impedir que seus autores atribuam nomes de arquivos aos arquivos que eles criam em seu sistema. Para cada novo tópico ou arquivo de mapa, você pode optar por atribuir nomes de arquivo baseados em UUID automaticamente.
+
+Execute as seguintes etapas para atribuir automaticamente o nome de arquivo baseado em UUID para todos os novos arquivos criados no sistema:
+
+1. Abra a página Configuração do console da Web do Adobe Experience Manager.
+
+   O URL padrão para acessar a página de configuração é:
+
+   ```http
+   http://<server name>:<port>/system/console/configMgr
+   ```
+
+1. Procure por e clique no link *com.adobe.fmdita.xmleditor.config.XmlEditorConfig* pacote.
+
+1. Selecione o **Usar nomes de arquivo do sistema baseados em UUID** opção.
+
+1. Clique em **Salvar**.
+
+
+>[!NOTE]
+>
+> Por padrão, essa opção está desativada. Quando essa opção estiver ativada, os autores não verão a opção para especificar o nome do arquivo ao criar um novo tópico ou arquivo de mapa. Um novo tópico ou arquivo de mapa pode ser criado na interface do usuário do Assets e no Editor da Web.
+
+**Tópico pai:**[ Configurar nomes de arquivo](conf-file-names.md)
