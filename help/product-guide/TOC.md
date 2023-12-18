@@ -2,9 +2,9 @@
 user-guide-title: Guias do Experience Manager
 user-guide-description: Leia a documentação do produto para os Guias do Adobe Experience Manager.
 breadcrumb-title: Guia do AEM
-source-git-commit: 31dc283a5e51fc9c504ac4e75a9719dc247e90eb
+source-git-commit: 757371f7d9e9029096abd2f269b3bdd715d1c965
 workflow-type: tm+mt
-source-wordcount: '1639'
+source-wordcount: '1635'
 ht-degree: 3%
 
 ---
@@ -213,8 +213,8 @@ ht-degree: 3%
       + Migração de conteúdo {#content-migration}
          + [Migração de conteúdo não UUID para UUID](./install-guide/migrate-uuid-non-uuid.md)
          + Processo de migração {#migration-process}
-            + [Migrar conteúdo não UUID com versões](./install-guide/migrate-non-uuid-uuid-with-versions.md)
-            + [Migrar conteúdo não UUID sem versões](./install-guide/migrate-non-uuid-uuid-without-versions.md)
+            + [Migrar conteúdo com versão](./install-guide/migrate-non-uuid-uuid-with-versions.md)
+            + [Migrar conteúdo sem versão](./install-guide/migrate-non-uuid-uuid-without-versions.md)
          + [Migrar conteúdo existente](./install-guide/migrate-content.md)
          + [Fazer upload de conteúdo DITA existente](./install-guide/migrate-content-upload-existing-dita-content.md)
          + [Migrar conteúdo não DITA](./install-guide/migrate-content-non-dita.md)
