@@ -1,7 +1,7 @@
 ---
 title: Converter conteúdo não UUID com versões em conteúdo UUID
 description: Saiba como migrar conteúdo não UUID com versões para conteúdo UUID.
-source-git-commit: 0d985688af601ca51822b116ea4baafce19f0658
+source-git-commit: b57364fa52d48791fbab07125f13007c563b7781
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 0%
@@ -53,19 +53,19 @@ Execute as seguintes verificações na versão não UUID (4.1 não UUID ou 4.3.0
    >
    >* Você precisa de permissão de administrador para executar a migração.
    >* Recomenda-se a correção de arquivos com erros antes de prosseguir com a migração.
-1. (Opcional) Execute a limpeza de versões no conteúdo para remover versões desnecessárias e acelerar o processo de migração. Para executar a expurgação de versão, selecione a opção **Limpeza de versão** na tela de migração e acesse a interface do usuário usando o URL `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
+
+1. (Opcional) Execute a limpeza de versões no conteúdo para remover versões desnecessárias e acelerar o processo de migração. Para executar a expurgação de versão, selecione a opção
+   **Limpeza de versão** na tela de migração e acesse a interface do usuário usando o URL `http://<server- name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
    >[!NOTE]
    >
    >Este utilitário não remove nenhuma versão usada em linhas de base ou revisões ou tem rótulos.
-1. Launch `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
+1. Launch `http://<server- name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
 1. Selecionar **Avaliação de compatibilidade**  no painel esquerdo e procure um caminho de pasta.
 1. Verifique a compatibilidade para listar as seguintes informações:
    * Total de arquivos
    * Total de versões
    * Tempo estimado para migração
    * Número de arquivos com erros
-
-
 
    ![guia avaliação de compatibilidade na migração](assets/migration-compatibility-assessment.png){width="800" align="left"}
 
