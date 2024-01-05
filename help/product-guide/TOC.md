@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leia a documentação do produto para o Adobe Experience Manager Guides.
 breadcrumb-title: Guia do AEM Guides
-source-git-commit: 5962414dfc065543b946cac1468a5f62013073cf
+source-git-commit: 2f5e951d3452e05fb307d6c34487269b5172000e
 workflow-type: tm+mt
-source-wordcount: '1660'
+source-wordcount: '1679'
 ht-degree: 4%
 
 ---
@@ -392,6 +392,18 @@ ht-degree: 4%
             + Schematron {#schematron}
                + [Validação do esquema](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
       + Estrutura de extensão do Guides {#extention-framework}
+         + Estrutura Do Aem Guides {#aem-guides-framework}
+            + [Personalizações básicas](./guides-ui-extensions/aem_guides_framework/basic-customisation.md)
+            + [Estrutura JUI](./guides-ui-extensions/aem_guides_framework/jui-framework.md)
+            + Componentes {#framework-components}
+               + [Botão](./guides-ui-extensions/aem_guides_framework/components/button.md)
+               + [Ícone](./guides-ui-extensions/aem_guides_framework/components/icon.md)
+               + [Etiqueta](./guides-ui-extensions/aem_guides_framework/components/label.md)
+               + [Lista](./guides-ui-extensions/aem_guides_framework/components/list.md)
+               + [Área do texto](./guides-ui-extensions/aem_guides_framework/components/textArea.md)
+            + Widgets {#framework-widgets}
+               + [Widgets de renderização](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
+               + [Widgets básicos](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
          + Introdução {#getting-started}
             + [Introdução](./guides-ui-extensions/getting-started/Introduction.md)
             + [Guia de instalação](./guides-ui-extensions/getting-started/integrating-customisations.md)
@@ -400,8 +412,9 @@ ht-degree: 4%
             + [Personalização simples](./guides-ui-extensions/customisations/add-button.md)
             + [Personalização de menus de contexto](./guides-ui-extensions/customisations/context-menus.md)
             + [Personalizando barra de ferramentas e barra de topo](./guides-ui-extensions/customisations/toolbar-topbar.md)
-         + Revisão{#review-app-customisations}
-            + [Componentes](./guides-ui-extensions/customisations/ReviewApp/components.md)
+            + Revisão{#review-app-customisations}
+               + [Componentes](./guides-ui-extensions/customisations/ReviewApp/components.md)
+               + [Personalização](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
       + Publicação {#publishing}
          + [Configuração do ambiente AEM para publicação de PDF nativo](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
          + [FMPS e guias](./knowledge-base/kb-articles/publishing/fmpsandguides.md)

@@ -1,10 +1,14 @@
 ---
-source-git-commit: 5962414dfc065543b946cac1468a5f62013073cf
+title: Personalização
+description: Personalização do aplicativo de revisão
+source-git-commit: a61abc0d2b480e276991db916ba0cbf630ca7996
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
+
+
 # Personalização do aplicativo de revisão
 
 Para facilitar a personalização do aplicativo de revisão, fornecemos alguns ganchos listados e explicados abaixo:
@@ -14,7 +18,7 @@ Para facilitar a personalização do aplicativo de revisão, fornecemos alguns g
 - id: `review_comment`
 - gancho: `this.updateExtraProps`:
 
-Como discutido [aqui](../../aem_guides_framework/basic_customisation.md), qualquer novo atributo adicionado durante a personalização fica em `this.model.extraProps`. O método `updateExtraProps` permite adicionar atributos a um comentário de revisão, lidando com a atualização e o armazenamento do atributo adicionado no servidor também.
+Como discutido [aqui](../../aem_guides_framework/basic-customisation.md), qualquer novo atributo adicionado durante a personalização fica em `this.model.extraProps`. O método `updateExtraProps` permite adicionar atributos a um comentário de revisão, lidando com a atualização e o armazenamento do atributo adicionado no servidor também.
 
 ### Exemplo de uso
 

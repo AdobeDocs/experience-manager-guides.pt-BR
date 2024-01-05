@@ -1,12 +1,12 @@
 ---
-sidebar_position: 5
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+title: Lista
+description: Lista
+source-git-commit: dfd4c898d3c093bfee1a8a6efff4e395efd20c60
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 1%
+source-wordcount: '59'
+ht-degree: 5%
 
 ---
-
 
 # Lista
 
@@ -33,7 +33,7 @@ const listJSON =  {
 },
 ```
 
-Normalmente itemConfig é um `widget`. Para saber mais sobre widgets, acesse [Widgets](../Widgets/basic_widget.md)
+Normalmente itemConfig é um `widget`. Para saber mais sobre widgets, acesse [Widgets](../Widgets/basic-widget.md)
 
 A lista renderizada terá esta aparência:
 
