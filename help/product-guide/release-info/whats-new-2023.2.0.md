@@ -1,10 +1,10 @@
 ---
-title: Notas de versão | Adobe Experience Manager Guides as a Cloud Service, versão de fevereiro de 2023
+title: Notas de versão | Guias do Adobe Experience Manager as a Cloud Service, versão de fevereiro de 2023
 description: Lançamento do Adobe Experience Manager Guides as a Cloud Service em fevereiro
 exl-id: 090eaf94-fe3a-47e9-9937-f84f8434550d
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '1425'
+source-wordcount: '1426'
 ht-degree: 0%
 
 ---
@@ -121,7 +121,7 @@ O novo microsserviço de publicação permite que você execute grandes cargas d
 
 Para cada solicitação de publicação, o AEM Guides as a Cloud Service executa um contêiner separado que é dimensionado horizontalmente de acordo com as solicitações do usuário. Isso permite executar várias solicitações de publicação e obter um desempenho aprimorado.
 
-Para obter mais detalhes, consulte [Configure a nova publicação baseada em microsserviços para os Guias do AEM as a Cloud Service](/help/product-guide/knowledge-base/publishing/configure-microservices.md).
+Para obter mais detalhes, consulte [Configure a nova publicação baseada em microsserviços para os Guias do AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/publishing/configure-microservices.md).
 
 ## PDF nativo | Adicionar um marcador personalizado na saída do PDF
 

@@ -2,9 +2,9 @@
 title: Usar HTML5
 description: Saiba como criar uma predefinição HTML5 no editor da Web e no painel de mapa. Configurar a predefinição de saída HTML5 nos Guias AEM.
 exl-id: b54bf3a0-7a13-41a0-ae72-cdf2caf8d974
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: b8c90eb8d1acfe6777a615bd71367027cd8d1c3b
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1142'
 ht-degree: 1%
 
 ---
@@ -65,6 +65,6 @@ As seguintes opções estão disponíveis para a saída de HTML5:
 | Caminho de destino | O caminho dentro do repositório AEM onde a saída de HTML5 é armazenada. |
 | Limpar arquivos temporários DITA-OT | Selecione esta opção para limpar os arquivos temporários gerados pelo DITA-OT. O local onde o DITA-OT armazena arquivos temporários pode ser encontrado no log de geração de saída.<br><br>Se ocorrerem erros durante a geração de saída por meio do DITA-OT, é possível desmarcar essa opção para manter os arquivos temporários. Você pode usar esses arquivos para solucionar problemas de erros de geração de saída. |
 | Usar Linha de Base | Se tiver criado uma Linha de Base para o mapa DITA selecionado, selecione essa opção para especificar a versão que deseja publicar.<br><br>Consulte [Trabalhar com linha de base](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) para obter mais detalhes. |
-| Propriedades | Selecione as propriedades que deseja processar como metadados. Essas propriedades são definidas na página Propriedades do mapa DITA ou do arquivo de mapa. As propriedades selecionadas na lista suspensa estão listadas abaixo do campo Propriedades e são removidas da lista suspensa. Depois de definidas, essas propriedades também são copiadas para os tópicos no mapa.<br><br>**Nota**: também é possível transmitir os metadados para a saída usando a publicação DITA-OT. Para obter mais detalhes, consulte [Transmita os metadados para a saída usando DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
+| Propriedades | Selecione as propriedades que deseja processar como metadados. Essas propriedades são definidas na página Propriedades do mapa DITA ou do arquivo de mapa. As propriedades selecionadas na lista suspensa são exibidas na **Propriedades** campo. Selecione o ícone cruzado ao lado da propriedade para removê-la. <br><br>**Nota**: também é possível transmitir os metadados para a saída usando a publicação DITA-OT. Para obter mais detalhes, consulte [Transmita os metadados para a saída usando DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
 
 **Tópico pai:**[ Noções básicas sobre as predefinições de saída](generate-output-understand-presets.md)

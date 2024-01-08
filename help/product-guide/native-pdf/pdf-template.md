@@ -2,9 +2,9 @@
 title: Criar e personalizar modelos de PDF nativos
 description: Saiba como criar e personalizar modelos de PDF nativo.
 exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1154'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Selecione esta opção para exibir e editar as propriedades do modelo. Você pod
 Selecione esta opção para exibir o modelo na interface do usuário do Assets. Ao abrir o local raiz do modelo, você pode visualizar todos os recursos do modelo.
 
 Depois de criar o modelo personalizado, você pode escolhê-lo nos Layouts de página na predefinição de saída PDF.
-Saiba como [publicar uma saída de PDF](/help/product-guide/web-editor/native-pdf-web-editor.md).
+Saiba como [publicar uma saída de PDF](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=en).
 
 >[!NOTE]
 >
@@ -112,7 +112,6 @@ Para obter detalhes sobre a configuração de perfis globais e de nível de past
 É possível personalizar modelos ajustando os componentes do modelo e aplicando formatos de estilo usando folhas de estilos.
 
 Para personalizar um modelo de PDF, execute as seguintes etapas:
-
 1. No Editor da Web, vá para a **Output** guia.
 1. Expanda a barra lateral esquerda e selecione **Modelos**.
 
@@ -138,7 +137,7 @@ Para personalizar um modelo de PDF, execute as seguintes etapas:
 
    * Folhas de estilos: as configurações na seção Folhas de estilos permitem personalizar a aparência dos componentes de layout da página, como índice, glossário, citações e muito mais. Além disso, também é possível personalizar os estilos do conteúdo DITA, como cabeçalhos, parágrafos, listas e muito mais. Para saber mais sobre como usar as folhas de estilos, consulte [Usar folhas de estilos para personalizar o PDF](components-pdf-template.md#stylesheet-customization).
    * Recursos: armazene arquivos de ativos que você precisaria personalizar ou criar modelos de PDF. Ativos como logotipos, fontes personalizadas, imagens de fundo e muito mais são armazenados em Recursos.
-Você também pode usar os recursos presentes em qualquer outro local no repositório. Não é necessário criar recursos duplicados para cada modelo, e você pode mantê-los em uma pasta compartilhada e usá-los em todos os modelos de PDF nativo.
+Você também pode usar os recursos presentes em qualquer outro local no repositório. Não é necessário criar recursos duplicados para cada modelo, e você pode mantê-los em uma pasta compartilhada e usá-los em todos os modelos de PDF nativos.
 
      Para saber mais sobre a utilização de recursos, consulte [Trabalhar com recursos](components-pdf-template.md#work-with-resources).
    * Configurações: defina as configurações de saída para gerar um PDF usando o modelo. Esta seção permite definir o mapeamento de modelo para várias páginas em um PDF, página inicial de capítulo, marcadores de impressão, citações e muito mais.

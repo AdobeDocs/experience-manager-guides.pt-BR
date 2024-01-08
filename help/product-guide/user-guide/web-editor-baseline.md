@@ -2,9 +2,9 @@
 title: Criar e gerenciar linhas de base no Editor da Web
 description: Criar e gerenciar linhas de base do editor da Web no AEM Guides. Saiba como criar linhas de base com base em rótulos e aplicar filtros às linhas de base.
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: f02a9e4a71796996a4ea933cb3c5b983103a251b
 workflow-type: tm+mt
-source-wordcount: '1468'
+source-wordcount: '1617'
 ht-degree: 0%
 
 ---
@@ -26,19 +26,19 @@ Você pode criar uma linha de base no Editor da Web executando as seguintes etap
 
    ![Painel Linha de base](images/baseline-manage.png){width="800" align="left"}
 
-1. No **Linha de base** clique no ícone + no canto superior direito. Você pode criar uma linha de base com uma versão específica dos tópicos e conteúdo referenciado disponível em uma data e hora específicas, ou com um rótulo definido para uma versão dos tópicos.
-1. Insira um nome para a linha de base em **Nome da Linha de Base**.
-1. Entrada **Opção de Linha de Base**, você pode escolher **Usar versão do arquivo** ou **Usar rótulos** opção:
+1. No **Linha de base** selecione o ícone + na parte superior direita para começar a criar uma linha de base.
+1. Insira um nome para a linha de base em **Nome**.
+1. Entrada **Configuração**, você pode escolher **Atualização manual** ou **Atualização automática** opção:
 
-   **Usar versão do arquivo**: Você pode criar uma linha de base estática com uma versão específica dos tópicos e conteúdo referenciado disponível em uma data e hora específicas, ou com um rótulo definido para uma versão de tópicos:
+   **Atualização manual**: Você pode criar manualmente uma linha de base estática com uma versão específica dos tópicos e conteúdo referenciado disponível em uma data e hora específicas, ou com um rótulo definido para uma versão de tópicos:
 
-   - Entrada **Definir a versão mais recente com base em,** selecione uma das seguintes opções:
+   - Entrada **Selecione a versão com base em,** selecione uma das seguintes opções:
 
 
       1. **Data** &lt;time stamp=&quot;&quot;>: Seleciona a versão do tópico como na data e hora especificadas.
       1. **Rótulo**: selecione essa opção para escolher os tópicos de acordo com o rótulo aplicado a eles. Se os tópicos tiverem rótulos especificados para eles, eles serão listados na lista suspensa. Você pode escolher um rótulo na lista. Também é possível adicionar um rótulo na caixa de texto.
 
-         Para as referências diretas em linhas de base estáticas, os rótulos são extraídos da versão salva mais recente do mapa. Por exemplo, se você tiver criado rótulos `Label Release 1.0` e `Label Release 1.1` para as versões 1.0 e 1.1 do Tópico A e, em seguida, adicione o Tópico A ao mapa salvo como versão 1.0. Nesse caso, é possível visualizar os rótulos `Label Release 1.0` e `Label Release 1.1` no menu suspenso para rótulos de linha de base estáticos.
+         Para as referências diretas em linhas de base estáticas, os rótulos são extraídos da versão salva mais recente do mapa. Por exemplo, se você tiver criado rótulos `Label Release 1.0` e `Label Release 1.1` para as versões 1.0 e 1.1 do Tópico A e, em seguida, adicione o Tópico A ao mapa salvo como versão 1.0. Nesse caso, é possível visualizar os rótulos `Label Release 1.0` e `Label Release 1.1` na lista suspensa para rótulos de linha de base estáticos.
 
 
          Ao selecionar **Label,** você pode escolher as referências diretas e indiretas.
@@ -52,9 +52,9 @@ Você pode criar uma linha de base no Editor da Web executando as seguintes etap
 
          Depois de selecionar um rótulo ou uma versão como na data, todos os tópicos e arquivos de mídia referenciados no mapa são selecionados adequadamente. Essa seleção de tópicos não é exibida na interface do usuário, mas é salva no back-end.
 
-   **Usar rótulos**: selecione essa opção para que a criação da linha de base escolha os tópicos de acordo com o rótulo aplicado a eles.
+   **Atualização automática**: selecione essa opção para que a criação da linha de base escolha automaticamente os tópicos de acordo com o rótulo aplicado a eles.
 
-   As linhas de base baseadas em rótulos são atualizadas dinamicamente. Se você gerar uma linha de base, baixar uma linha de base ou criar um projeto de tradução usando uma linha de base, os arquivos serão selecionados dinamicamente com base nos rótulos atualizados. Por exemplo, se você tiver usado a versão 1.2 de um tópico com Rótulo Versão 1.0 para a linha de base e a versão mais recente atualizada 1.5 com Rótulo Versão 1.0, a linha de base será atualizada dinamicamente e a versão 1.5 será usada.
+   As linhas de base criadas usando a configuração de atualização automática são atualizadas dinamicamente. Se você gerar uma linha de base, baixar uma linha de base ou criar um projeto de tradução usando uma linha de base, os arquivos serão selecionados dinamicamente com base nos rótulos atualizados. Por exemplo, se você tiver usado a versão 1.2 de um tópico com Rótulo Versão 1.0 para a linha de base e a versão mais recente atualizada 1.5 com Rótulo Versão 1.0, a linha de base será atualizada dinamicamente e a versão 1.5 será usada.
 
    ![Criar uma linha de base](images/dynamic-baseline.png){width="550" align="left"}
 
@@ -78,16 +78,7 @@ Você pode gerenciar suas linhas de base existentes usando os vários recursos n
 
 - Você pode pesquisar uma linha de base existente usando a caixa de texto no painel Linha de base. Use o **Aplicar filtro** ícone para mostrar todas as linhas de base ou listar as linhas de base com o status de criação como Bem-sucedido, Em Andamento ou Falha.
 - Use o **Atualizar** ícone no painel Linha de Base para verificar novamente todas as linhas de base e exibir uma nova lista de linhas de base para o mapa DITA aberto na Exibição de Mapa.
-- Você pode exibir ou editar o conteúdo de uma linha de base estática existente clicando duas vezes na linha de base na lista do painel Linha de base. A janela de edição da linha de base no centro exibe o arquivo de mapa DITA, o conteúdo do mapa ou os tópicos e o conteúdo referenciado.
-
-
-  ![opções de uma linha de base](images/baseline-options.png){width="800" align="left"}
-
-
-
-  Você também pode executar as seguintes operações na linha de base a partir do menu Opções:
-
-- **Editar**, **Duplicar,** **Renomear** ou **Excluir** uma linha de base existente.
+- Você pode exibir ou editar o conteúdo de uma linha de base estática existente clicando duas vezes na linha de base da lista na **Linha de base** painel. A janela de edição da linha de base no centro exibe o arquivo de mapa DITA, o conteúdo do mapa ou os tópicos e o conteúdo referenciado.
 
   >[!NOTE]
   >
@@ -95,6 +86,24 @@ Você pode gerenciar suas linhas de base existentes usando os vários recursos n
   >
   >Editar operação no caso de linha de base dinâmica permite editar as propriedades da linha de base, pois as referências para linhas de base dinâmicas são geradas no tempo de execução usando os rótulos.
 
+  ![opções de uma linha de base](images/baseline-options.png){width="800" align="left"}
+
+
+
+  Você também pode executar as seguintes operações na linha de base a partir do menu Opções:
+- **Duplicar uma linha de base**: você pode duplicar uma linha de base e modificá-la de acordo com suas necessidades.
+  ![duplicar uma linha de base](images/baseline-duplicate.png){width="300" align="left"}
+  *Duplique uma linha de base com base em um rótulo ou crie uma cópia exata.*
+
+   1. Selecionar **Duplicar** no menu Opções de uma linha de base. A variável **Duplicar linha de base** é aberta.
+      >[!NOTE]
+      > 
+      >O nome default da linha de base é `<selected baseline name>`_suffix (como sample-baseline_1). Você pode alterar o nome de acordo com suas necessidades.
+   1. Entrada **Selecione a versão com base em**, você pode escolher a variável **Cópia exata** ou a opção **Rótulo** opção:
+      - **Cópia exata**: o Experience Manager Guides escolhe a mesma versão de todos os tópicos e cria uma cópia exata da linha de base duplicada.
+      - **Rótulo**: é possível escolher um rótulo na lista suspensa. Os Guias do Experience Manager escolhem as versões dos tópicos com o rótulo selecionado definido para eles, enquanto para os tópicos restantes, ele escolhe a versão da linha de base duplicada. Por exemplo, você seleciona o rótulo `Release 1.0` na lista suspensa, ele escolhe as versões dos tópicos para os quais você definiu esse rótulo. Para todos os outros tópicos, ele escolhe a versão da linha de base duplicada.
+   1. Clique em **Duplicar**.
+- **Renomear** ou **Excluir** uma linha de base existente.
 - Adicionar, remover ou fazer alterações em rótulos existentes do **Gerenciar rótulos** opção para linhas de base estáticas. Se o administrador tiver configurado rótulos predefinidos, esses rótulos serão exibidos na lista suspensa Adicionar rótulo. Para obter mais informações sobre como adicionar rótulos, consulte [Usar rótulos](web-editor-use-label.md#).
 
   >[!NOTE]
@@ -123,3 +132,4 @@ Uso do ícone Filtros no **Filtros da linha de base** painel é possível aplica
 Depois de editar a linha de base, você pode clicar no link **Salvar** botão na parte superior para salvar as alterações na linha de base. Você pode clicar no link **Redefinir** se não quiser salvar a alteração e redefinir a linha de base. Ao clicar no botão **Redefinir** botão, um aviso será exibido informando que as alterações não salvas serão perdidas.
 
 **Tópico pai:**[ Trabalhar com o editor da Web](web-editor.md)
+

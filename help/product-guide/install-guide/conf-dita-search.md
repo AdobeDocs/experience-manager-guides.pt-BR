@@ -2,9 +2,9 @@
 title: Configurar pesquisa para a interface do usuário do AEM Assets
 description: Saiba como configurar a pesquisa para a interface do usuário do AEM Assets
 exl-id: b920ba7f-e8fc-4af6-aa8a-b8516b1cffc0
-source-git-commit: 31dc283a5e51fc9c504ac4e75a9719dc247e90eb
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '1696'
+source-wordcount: '1697'
 ht-degree: 1%
 
 ---
@@ -70,7 +70,6 @@ Execute o seguinte para adicionar o componente de pesquisa baseada em UUID na in
 
    - **Rótulo do campo**: UUID
    - **Nome da propriedade**: jcr:content/fmUuid
-
 1. Clique em **Concluído** para salvar as alterações.
 
    Ao acessar a opção Filtros na interface do usuário do Assets, você terá a opção de filtragem de pesquisa baseada em UIS.
@@ -119,7 +118,7 @@ A configuração de pesquisa padrão permite procurar todos os elementos e atrib
 >
 > Se você quiser usar a configuração de pesquisa padrão na variável `prolog` elemento, você poderá ignorar esse processo.
 
-Este arquivo contém duas seções principais conjunto de atributos e conjunto de regras. Um trecho da seção do conjunto de regras é fornecido abaixo:
+Esse arquivo contém duas seções principais: conjunto de atributos e conjunto de regras. Um trecho da seção do conjunto de regras é fornecido abaixo:
 
 ```XML
 <ruleset filetypes="xml dita"><!-- Element rules --><rule xpath="//[contains(@class, 'topic/topic')]/[contains(@class, 'topic/prolog')]//*[not(*)]" text="yes" attributeset="all-attrs" /><!-- Attribute rules --><rule xpath="//[contains(@class, 'topic/topic')]/[contains(@class, 'topic/prolog')]///@[local-name() != 'class']" /></ruleset>
@@ -128,6 +127,7 @@ Este arquivo contém duas seções principais conjunto de atributos e conjunto d
 Na seção do conjunto de regras, você pode especificar:
 
 - Regras para extrair os elementos
+
 - Regras para extrair atributos
 
 
@@ -135,15 +135,15 @@ Uma regra consiste no seguinte:
 
 xpath : esta é a consulta XPath que recupera os elementos ou atributos de arquivos DITA. A configuração padrão para a regra de elemento recupera todas `prolog` elementos. E a configuração padrão para a regra de atributo recupera todos os atributos de `prolog` elementos. Você pode especificar uma consulta XPath para serializar os elementos ou atributos que deseja pesquisar.
 
-A consulta XPath contém o nome de classe do tipo de documento. A variável `topic/topic` classe é usada para documentos DITA do tipo tópico. Se você quiser criar uma regra para outros documentos DITA, use os seguintes nomes de classe:
-
-| Tipo de documento | Nome da classe |
-|-------------|----------|
-| Tópico | - tópico/tópico |
-| Tarefa | - tópico/tópico tarefa/tarefa |
-| Conceito | - tópico/tópico conceito/conceito |
-| Referência | - tópico/tópico referência/referência |
-| Mapa | - mapa/mapa |
+    A consulta XPath contém o nome de classe do tipo de documento. A classe &quot;topic/topic&quot; é usada para documentos DITA do tipo de tópico. Se você quiser criar uma regra para outros documentos DITA, use os seguintes nomes de classe:
+    
+    |Tipo de documento|Nome da classe|
+    |—|—|
+    |Topic|- topic/topic|
+    |Task|- topic/topic/task|
+    |Conceito|- tópico/tópico/conceito|
+    |Referência|- tópico/referência/referência de tópico|
+    |Mapa|- mapa/mapa|
 
 texto : se você quiser pesquisar o texto dentro do elemento especificado, especifique o valor yes. Se você especificar não como valor, apenas os atributos dentro do elemento serão serializados. Os atributos que você deseja pesquisar precisam ser especificados na seção de conjunto de atributos.
 

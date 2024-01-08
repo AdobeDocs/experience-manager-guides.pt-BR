@@ -1,8 +1,8 @@
 ---
 sidebar_position: 8
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Nesse arquivo, calculamos e atribuímos a ID de comentário exclusiva, mencionad
 5. [Painel de análises de tópico](../../src/review_app_examples/topic_reviews.ts): Este arquivo estende [Painel de revisão em linha](../../src/review_app_examples/inline_review_panel.ts) para que as personalizações adicionadas também funcionem no lado do Aplicativo de revisão.
 
 6. [Aceitar com caixa de diálogo de modificação](../../src/review_app_examples/accept_with_modification_dialog.ts)
-Este é um exemplo de adição de um novo widget ao aplicativo. Aqui criamos uma nova caixa de diálogo, que tem dois campos de texto de entrada: `Revised Text` e `Adjudicator Comment Rationale`
+Este é um exemplo de adição de novos widgets ao aplicativo. Aqui criamos uma nova caixa de diálogo, que tem dois campos de texto de entrada: `Revised Text` e `Adjudicator Comment Rationale`
 
 ![Caixa de diálogo Aceitar com modificação](./imgs/accept_with_modification_dialogue.png)
 

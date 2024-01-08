@@ -2,9 +2,9 @@
 title: Gerar PDF
 description: Saiba como criar uma predefinição de PDF no editor da Web e no painel de mapa. Configurar a predefinição de saída PDF nos Guias AEM.
 exl-id: f12c91fd-3f95-478e-a9cd-68d037206ee8
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: b8c90eb8d1acfe6777a615bd71367027cd8d1c3b
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1006'
 ht-degree: 1%
 
 ---
@@ -63,6 +63,6 @@ As seguintes opções estão disponíveis para a saída de PDF:
 | Caminho de destino | O caminho no repositório AEM onde o PDF está armazenado.<br><br>Você também pode usar variáveis ao definir o Caminho de destino. Para obter mais detalhes sobre o uso de variáveis, consulte [Use variáveis para definir as opções Caminho de destino, Nome do site ou Nome do arquivo](generate-output-use-variables.md#id18BUG70K05Z). |
 | Limpar arquivos temporários DITA-OT | Selecione esta opção para limpar os arquivos temporários gerados pelo DITA-OT. O local onde o DITA-OT armazena arquivos temporários pode ser encontrado no log de geração de saída.<br><br>Se ocorrerem erros durante a geração de saída por meio do DITA-OT, é possível desmarcar essa opção para manter os arquivos temporários. Você pode usar esses arquivos para solucionar problemas de erros de geração de saída. |
 | Usar Linha de Base | Se tiver criado uma Linha de Base para o mapa DITA selecionado, selecione essa opção para especificar a versão que deseja publicar.<br><br>Consulte [Trabalhar com linha de base](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) para obter mais detalhes. |
-| Propriedades | Selecione as propriedades que deseja processar como metadados. Essas propriedades são definidas na página Propriedades do mapa DITA ou do arquivo de mapa. As propriedades selecionadas na lista suspensa estão listadas abaixo da **Propriedades** e são removidos da lista suspensa. Depois de definidas, essas propriedades também são copiadas para os tópicos no mapa.<br><br>Observação: você também pode transmitir os metadados para a saída usando a publicação DITA-OT. Para obter mais detalhes, consulte [Transmita os metadados para a saída usando DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
+| Propriedades | Selecione as propriedades que deseja processar como metadados. Essas propriedades são definidas na página Propriedades do mapa DITA ou do arquivo de mapa. As propriedades selecionadas na lista suspensa são exibidas na **Propriedades** campo. Selecione o ícone cruzado ao lado da propriedade para removê-la. <br><br>Observação: você também pode transmitir os metadados para a saída usando a publicação DITA-OT. Para obter mais detalhes, consulte [Transmita os metadados para a saída usando DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
 
 **Tópico pai:**[ Noções básicas sobre as predefinições de saída](generate-output-understand-presets.md)

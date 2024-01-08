@@ -2,9 +2,9 @@
 title: Site AEM
 description: Criar e configurar a predefinição do site AEM nos Guias AEM. Use o suporte do site AEM para gerar saída baseada em artigo, tópicos de vinculação de saída, conref de publicação e pesquisar uma string no conteúdo.
 exl-id: 019d9fbf-2f23-4669-8022-d693be75c1c3
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: b8c90eb8d1acfe6777a615bd71367027cd8d1c3b
 workflow-type: tm+mt
-source-wordcount: '2570'
+source-wordcount: '2577'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ As seguintes opções estão disponíveis para a saída do site AEM:
 
 É possível criar a predefinição do site AEM de duas maneiras:
 
-**No Editor da Web:** No painel Repositório, abra o arquivo de mapa DITA na Exibição de mapa e, na guia Saída, selecione o ícone + para criar uma predefinição de saída e selecione Site AEM no menu suspenso Tipo na caixa de diálogo Adicionar predefinição.No editor da Web, as configurações foram organizadas nas guias Geral e Avançado:
+**No Editor da Web:** No painel Repositório, abra o arquivo de mapa DITA na Exibição de mapa e, na guia Saída, selecione o ícone + para criar uma predefinição de saída e selecione Site AEM no menu suspenso de tipo na caixa de diálogo Adicionar predefinição. No editor da Web, as configurações foram organizadas em guias Gerais e Avançadas:
 
 **Geral**
 
@@ -65,7 +65,7 @@ As seguintes opções estão disponíveis para a saída do site AEM:
 | Gerar PDF separado para cada tópico | Se selecionada, um PDF também será criado para cada tópico no mapa DITA. Ao escolher essa opção, uma nova opção Dividir caminho de PDF é exibida.<br><br>No campo Dividir caminho do PDF, especifique o caminho para armazenar os PDF gerados para cada tópico.<br><br>**Nota**: o Guias do AEM usa o plug-in DITA-OT chamado pdfx para gerar o PDF para cada tópico. Esse plug-in é fornecido com o pacote DITA-OT pronto para uso. Você pode personalizar esse plug-in para gerar PDF de acordo com seus requisitos. Se você usar um plug-in DITA-OT personalizado, certifique-se de integrar o plug-in pdfx para ter o recurso de geração de PDF no nível do tópico. |
 | Executar fluxo de trabalho de pós-geração | Ao escolher essa opção, uma nova lista suspensa Fluxo de trabalho de pós-geração é exibida contendo todos os fluxos de trabalho configurados no AEM. Você deve selecionar um workflow que deseja executar após a conclusão do workflow de geração de saída. |
 | Usar Linha de Base | Se tiver criado uma Linha de Base para o mapa DITA selecionado, selecione essa opção para especificar a versão que deseja publicar.<br><br>**Importante**: Quando você está gerando uma saída incremental para o Site AEM, a saída é criada usando a versão atual dos arquivos e não a Linha de base anexada.<br><br>Consulte [Trabalhar com linha de base](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) para obter mais detalhes. |
-| Propriedades | Selecione as propriedades que deseja processar como metadados. Essas propriedades são definidas na página Propriedades do mapa DITA ou do arquivo de mapa. As propriedades selecionadas na lista suspensa estão listadas abaixo do campo Propriedades e são removidas da lista suspensa.<br><br>**Nota**: as propriedades dos metadados fazem distinção entre maiúsculas e minúsculas.<br><br>*Se você tiver selecionado uma Linha de Base, os valores das propriedades serão baseados na versão da Linha de Base selecionada.<br>* Se você não tiver selecionado uma Linha de Base, os valores das propriedades serão baseados na versão mais recente.<br><br>Também é possível transmitir os metadados para a saída usando a publicação DITA-OT. Para obter mais detalhes, consulte [Transmita os metadados para a saída usando DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA).<br><br>**Nota**: Se você não tiver definido a variável `cq:tags` na opção Propriedades, os valores de `cq:tags` são separados da cópia de trabalho atual mesmo se você tiver selecionado uma Linha de base para publicação. |
+| Propriedades | Selecione as propriedades que deseja processar como metadados. Essas propriedades são definidas na página Propriedades do mapa DITA ou do arquivo de mapa. As propriedades selecionadas na lista suspensa são exibidas na **Propriedades** campo. Selecione o ícone cruzado ao lado da propriedade para removê-la. <br><br>**Nota**: as propriedades dos metadados fazem distinção entre maiúsculas e minúsculas.<br><br>*Se você tiver selecionado uma Linha de Base, os valores das propriedades serão baseados na versão da Linha de Base selecionada.<br>* Se você não tiver selecionado uma Linha de Base, os valores das propriedades serão baseados na versão mais recente.<br><br>Também é possível transmitir os metadados para a saída usando a publicação DITA-OT. Para obter mais detalhes, consulte [Transmita os metadados para a saída usando DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA).<br><br>**Nota**: Se você não tiver definido a variável `cq:tags` na opção Propriedades, os valores de `cq:tags` são separados da cópia de trabalho atual mesmo se você tiver selecionado uma Linha de base para publicação. |
 | Usar Propriedades Do Mapa Se Estiver Ausente No Tópico | Se essa opção for selecionada, as propriedades definidas para o arquivo de mapa também serão copiadas para os tópicos em que essas propriedades não estão definidas. Considere os seguintes pontos ao usar essa opção:<br><br>*Somente as propriedades String, Date ou Long (único e com vários valores) podem ser passadas para as páginas do site AEM.<br>* Os valores de metadados de uma propriedade do tipo String não são compatíveis com caracteres especiais (como `@, #, " "`).<br>* Esta opção deve ser usada juntamente com o `Properties` opção. |
 
 ## Observação adicional no site AEM
@@ -78,7 +78,7 @@ Você pode gerar a saída do site AEM para um ou mais tópicos ou para o mapa DI
 
 É um cenário muito comum ter um grande conjunto de documentações espalhadas em várias pastas e mapas DITA. A publicação de conteúdo vinculado de vários lugares torna-se extremamente complexo. Por padrão, todos os links `<xref>` são criados com o `local` `@scope`. A publicação desses tópicos não envolve nenhum desafio, pois usa um link direto para o tópico. Caso o tópico esteja fora do mapa DITA atual, o link não mostra o conteúdo vinculado.
 
-Outra maneira de vincular conteúdo é criar um link usando o `peer` `@scope`. Para esse conteúdo, o link é resolvido no tempo de execução ao escolher o contexto configurado para o tópico vinculado no contexto de publicação do mapa DITA. A captura de tela a seguir mostra o painel Propriedades de um link que tem o `peer` `@scope`:
+Outra maneira de vincular conteúdo é criar um link usando o `peer` `@scope`. Para esse conteúdo, o link é resolvido no tempo de execução ao escolher o título do arquivo e o contexto configurado para o tópico vinculado no contexto de publicação do mapa DITA. A captura de tela a seguir mostra o painel Propriedades de um link que tem o `peer` `@scope`:
 
 ![](images/peer-link-scope-link.png){width="800" align="left"}
 

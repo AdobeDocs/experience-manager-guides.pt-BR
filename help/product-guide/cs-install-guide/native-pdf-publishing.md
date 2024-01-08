@@ -2,9 +2,9 @@
 title: Personalizar e configurar o recurso de publicação PDF nativo
 description: Saiba como personalizar e configurar os vários componentes do Recurso de PDF nativo.
 exl-id: 00bc894a-031e-4d09-bd30-331399fedbc8
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: c79f1d114d8a708cd088f2846243bbcfeed6e620
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,7 @@ Para obter mais detalhes, veja o seguinte:
 * [Componentes de um modelo de PDF](../native-pdf/components-pdf-template.md)
 * [Criar um layout de página](../native-pdf/design-page-layout.md)
 * [Suporte para variáveis de idioma](../native-pdf/native-pdf-language-variables.md)
+* [Variáveis na saída do PDF](../native-pdf/native-pdf-variables.md)
 * Estilos de conteúdo comuns {#content-styles}
    * [Trabalhar com os estilos de conteúdo comuns](../native-pdf/stylesheet.md)
    * [Trabalhar com estilos de barras de alteração personalizados](../native-pdf/change-bar-style.md)

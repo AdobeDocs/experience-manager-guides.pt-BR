@@ -2,9 +2,9 @@
 title: Gerenciar tags para arquivos DITA nos Guias AEM
 description: Breve artigo para informar sobre o gerenciamento de cq:tags em guias AEM
 exl-id: 2d805c26-df9b-405a-81ca-7aa84c6f86c8
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '280'
 ht-degree: 1%
 
 ---
@@ -43,7 +43,7 @@ Também é possível remover tags existentes que são comuns em arquivos selecio
 
 ### A lista em gerenciar->metadados está vazia ou incompleta
 
-Se a lista estiver vazia ou incompleta, talvez seja necessário executar a indexação no ditamap. É possível consultar [Instruções de atualização (indexar o conteúdo)](/help/product-guide/install-guide/upgrade-xml-documentation.md#steps-to-index-the-existing-content-to-use-the-new-find-and-replace%3A)
+`If list is empty or  incomplete then you may need to run the indexing on your ditamap, You can refer` [Instruções de atualização (indexar o conteúdo)](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/download-install-upgrade-aemg/upgrade-xml-documentation.html?lang=en#steps-to-index-the-existing-content-to-use-the-new-find-and-replace%3A)
 
 ### Os metadados personalizados não estão aparecendo na lista
 
@@ -54,8 +54,8 @@ Se a lista estiver vazia ou incompleta, talvez seja necessário executar a index
 
 ## Outros recursos úteis
 
-- [Marcação em massa usando o painel de mapa (interface do usuário do Assets)](/help/product-guide/user-guide/map-editor-bulk-tagging.md)
-- [Relatórios Ditamap no editor da Web](/help/product-guide/user-guide/reports-web-editor.md)
+- [Marcação em massa usando o painel de mapa (interface do usuário do Assets)](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/manaege-metadata/map-editor-bulk-tagging.html?lang=en)
+- [Relatórios Ditamap no editor da Web](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/reports-aem-guide/reports-web-editor.html?lang=en)
 - [Marcação no AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/configuring/tagging.html?lang=en)
 
 

@@ -2,9 +2,9 @@
 title: Conhecer os recursos do Editor da Web
 description: Descubra os recursos do editor da Web em Guias do AEM. Conhecer a interface do editor da Web, incluindo a barra de ferramentas principal, a barra de ferramentas secundária, o painel esquerdo, a área de edição de conteúdo e o painel direito.
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 9d9a1f270873869ce8261aae439f0ecd7d9fea94
 workflow-type: tm+mt
-source-wordcount: '17222'
+source-wordcount: '17364'
 ht-degree: 0%
 
 ---
@@ -147,9 +147,11 @@ Na captura de tela a seguir, apenas 3 dos 4 elementos configurados da captura de
 
   ![](images/editor-setting-add-attributes-list.png-to-element.PNG){width="300" align="left"}
 
-- **Publicar perfil**: contém os Perfis de publicação que podem ser usados para publicar a saída da base de conhecimento. Você pode criar um novo perfil para um tipo de consumidor selecionado. Por exemplo, Salesforce.
+- **Publicar perfil**: contém os Perfis de publicação que podem ser usados para publicar o **Knowledge base** saída. Você pode criar um novo perfil para uma base de dados de conhecimento de destino. Por exemplo, Salesforce ou ServiceNow.
 
-   - **Requisitos para criar um perfil de publicação do Salesforce**
+   - **Criar um perfil de publicação do Salesforce**
+
+     **Pré-requisitos**
 
       - Crie um aplicativo conectado para o Salesforce. Para obter mais detalhes, consulte [Habilitar configurações do OAuth para integração com a API](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&amp;type=5).
 
@@ -157,7 +159,7 @@ Na captura de tela a seguir, apenas 3 dos 4 elementos configurados da captura de
 
          - Especifique o retorno de chamada.
 
-           `URL: http://: <server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
+           `URL: http://<server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
 
          - Selecione os seguintes escopos do OAuth:
             - Acesso total (total)
@@ -166,18 +168,38 @@ Na captura de tela a seguir, apenas 3 dos 4 elementos configurados da captura de
   Depois que o aplicativo é configurado, o Salesforce fornece uma **Chave do consumidor** e **Segredo do consumidor**.
 
   Eles podem ser usados para criar o Perfil de publicação do Salesforce.
-  ![perfis nas configurações do editor](./images/create-profile-editor-settings.png){width="300" align="left"}
 
 
+   - Para criar um Perfil de publicação do Salesforce, selecione **Salesforce** Base de conhecimento da **Tipo de servidor** lista suspensa. Insira um Nome de perfil. No **URL do site**, insira o site do consumidor que você usaria para publicar a saída e adicionar o **Chave do consumidor** e **Segredo do consumidor** fornecido pelo site do consumidor do Salesforce. Em seguida, **Validar** e **Salvar** o perfil recém-criado.
+     ![perfil de publicação do salesforce nas configurações do editor](./images/salesforce-publish-profile.png){width="550" align="left"}
 
-- Para criar um Perfil de publicação, você pode selecionar uma base de conhecimento como Salesforce no **Tipo de servidor** lista suspensa. Insira um Nome de perfil. No **URL do site** insira o site do consumidor que você usaria para publicar a saída e adicionar o **Chave do consumidor** e **Segredo do consumidor** fornecido pelo site do consumidor, como o Salesforce. Em seguida, faça logon no perfil recém-criado.
-
-  >[!NOTE]
-  >
-  >Para configurar um proxy para o Salesforce nos Guias do Experience Manager, use a Configuração de proxy dos componentes HTTP do Apache no AEM. Saiba como [configurar proxy para o Verificador de links AEM](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
+     >[!NOTE]
+     >
+     >Para configurar um proxy para o Salesforce nos Guias do Experience Manager, use a Configuração de proxy dos componentes HTTP do Apache no AEM. Saiba como [configurar proxy para o Verificador de links AEM](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
 
 
-  Depois de fazer logon, é possível selecionar o Perfil de publicação nas predefinições de saída de um Mapa DITA e usar o para gerar a saída dos artigos selecionados. Para obter mais detalhes, consulte [Publicação baseada em artigos no Editor da Web](../install-guide/configure-article-based-publishing.md) no Guia de instalação e configuração.
+   - **Criar um perfil de publicação do ServiceNow**
+
+     **Pré-requisitos**
+
+     Configure o servidor ServiceNow para fazer upload dos ativos.
+      - Conecte-se à **ServiceNow** servidor.
+      - Navegue até **Propriedades do sistema** > **Segurança**.
+      - Desmarque a seguinte opção:
+
+        **Essa propriedade deve ser definida para ativar a verificação de tipo MIME para uploads (Todas as versões Eureka e superior). Ativa (true) ou desativa (false) a validação do tipo MIME para os anexos de arquivo. Extensões de arquivo configuradas via glide.attachment.extensions serão verificadas em busca de tipo MIME durante o upload.**
+
+      - Clique em **Salvar**.
+
+     Depois de configurar o aplicativo, crie o **ServiceNow** Perfil de publicação.
+   - Para criar um Perfil de publicação, selecione a Base de conhecimento ServiceNow na **Tipo de servidor** lista suspensa. Inserir um perfil **Nome**. No **URL do ServiceNow**, insira o site do consumidor que você usaria para publicar a saída e, em seguida, adicione o **Nome de usuário** e **Senha** fornecido pelo site do consumidor ServiceNow. Em seguida, **Validar** e **Salvar** o perfil recém-criado.
+
+     ![Perfil de publicação do ServiceNow](./images/service-now-publish-profile.png){width="550" align="left"}
+
+  Depois de validar, é possível selecionar o Perfil de publicação nas predefinições de saída de um Mapa DITA e usá-lo para gerar a saída para o  **Salesforce** ou **ServiceNow** servidor que você escolheu.
+
+  Saiba mais sobre o [Knowledge base](../user-guide/generate-output-knowledge-base.md) de saída.
+
 
 - **Validação**: esta guia contém opções para configurar as Validações de Schematron no editor da Web. Você pode ativar os seguintes recursos:
 
@@ -186,7 +208,7 @@ Na captura de tela a seguir, apenas 3 dos 4 elementos configurados da captura de
      >[!NOTE]
      >O(s) arquivo(s) de esquema selecionado(s) persistirá(ão) no perfil de pasta selecionado.
 
-     ![Validação nas configurações do editor](./images/editor-setting-validation.png){width="300" align="left"}
+     ![Validação nas configurações do editor](./images/editor-setting-validation.png){width="550" align="left"}
 Isso impede que os usuários salvem qualquer arquivo que quebre uma regra definida no(s) arquivo(s) selecionado(s) do Schematron. Se esta opção não estiver selecionada, o arquivo não será validado antes de salvar as alterações.
 
    - **Permitir que todos os usuários adicionem arquivos de esquemas no painel de validação**: selecione essa opção para permitir que os usuários adicionem qualquer arquivo do Schematron no painel Validação do Editor da Web. Isso permite que os usuários adicionem arquivos do Schematron e, em seguida, validem os tópicos em relação ao arquivo Schematron. Se essa opção não estiver selecionada, a variável **Adicionar arquivo de esquema** O botão não está disponível para os usuários na **Painel de validação** do Editor da Web.
@@ -232,9 +254,8 @@ As Preferências do usuário estão disponíveis para todos os autores. Usando a
 
 - **Selecionar mapa raiz**: selecione um arquivo de mapa DITA para resolver referências principais ou entradas de glossário. O mapa raiz selecionado tem a precedência mais alta para resolver referências principais. Para obter mais detalhes, consulte [Resolver referências de chave](map-editor-other-features.md#id176GD01H05Z).
 
-
 >[!NOTE]
->
+> 
 > Se não quiser usar nenhum mapa raiz, verifique se **Selecionar mapa raiz** está em branco.
 
 **Modos Autor, Origem e Visualização**
@@ -666,7 +687,7 @@ Guias de AEM permitem especificar rótulos em um formato de texto livre ou usar 
 
 Esses rótulos são mostrados na forma de uma lista suspensa para os autores sempre que eles precisarem especificar um rótulo. Isso garante que somente rótulos predefinidos e consistentes sejam usados no sistema.
 
-Há diferentes métodos pelos quais você pode aplicar rótulos aos seus tópicos - [Histórico da versão](web-editor-use-label.md#) painel na interface do usuário do Assets, [Linhas de Base](/help/product-guide/user-guide/generate-output-use-baseline-for-publishing.md#id184KD0T305Z) Interface do usuário do e Editor da Web. O recurso Rótulo de versão no Editor da Web fornece aos autores uma maneira rápida e fácil de atribuir rótulos a seus tópicos.
+Há diferentes métodos pelos quais você pode aplicar rótulos aos seus tópicos - [Histórico da versão](web-editor-use-label.md) painel na interface do usuário do Assets, [Linhas de Base](/help/product-guide/user-guide/generate-output-use-baseline-for-publishing.md) Interface do usuário do e Editor da Web. O recurso Rótulo de versão no Editor da Web fornece aos autores uma maneira rápida e fácil de atribuir rótulos a seus tópicos.
 
 Para adicionar rótulos ao seu tópico a partir do Editor da Web, execute as seguintes etapas:
 

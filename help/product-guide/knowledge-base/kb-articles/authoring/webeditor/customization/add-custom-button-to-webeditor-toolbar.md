@@ -2,9 +2,9 @@
 title: Adicionar novo botão acionável personalizado na barra de ferramentas do editor da Web
 description: Saiba como adicionar um novo botão personalizado na barra de ferramentas do editor da Web e chamar javascript para personalizá-lo.
 exl-id: 34999db6-027a-4d93-944f-b285b4a44288
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
@@ -60,10 +60,7 @@ Use os perfis de pasta para verificar a *ui_config.json* na guia &quot;Configura
 
 ### Manipular o evento ao clicar para o novo botão
 
->[!NOTE]
->
->As etapas mencionadas abaixo estão disponíveis como pacote anexado nesta publicação
-
+    OBSERVAÇÃO: as etapas mencionadas abaixo estão disponíveis como pacote anexado a esta publicação
 
 
 - Depois de salvar o perfil de pasta, crie um &quot;cq:ClientLibraryFolder&quot; em um diretório de projeto (pode estar em */apps*) e adicione propriedades conforme mostrado na captura de tela abaixo:

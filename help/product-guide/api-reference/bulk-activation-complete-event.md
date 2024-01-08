@@ -1,7 +1,7 @@
 ---
 title: Manipulador de eventos de ativação em massa concluída
 description: Saiba mais sobre o manipulador de eventos de ativação em massa concluída
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 8f1bb12a92ab9a63aef1765e51159644242683a0
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 1%
@@ -11,7 +11,6 @@ ht-degree: 1%
 # Manipulador de eventos de ativação em massa concluída
 
 As guias de Experience Manager expõem `com/adobe/fmdita/replication/complete` evento usado para executar quaisquer operações após a conclusão de um processo de ativação em massa. Esse evento é acionado sempre que um processo de ativação em massa é concluído. Por exemplo, se você executar a ativação em massa de uma predefinição de site AEM de um mapa, esse evento será chamado após o término do processo de ativação.
-
 
 É necessário criar um manipulador de eventos do AEM para ler as propriedades disponíveis nesse evento e executar processamento adicional.
 
