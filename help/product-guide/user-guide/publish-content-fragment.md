@@ -2,7 +2,9 @@
 title: Publicar um tópico em um fragmento de conteúdo
 description: Publique um tópico ou os elementos dentro de um tópico em um fragmento de conteúdo nos Guias do AEM.  Saiba como visualizar os fragmentos de conteúdo presentes em um tópico e republicá-los.
 exl-id: b1769e48-d721-4e93-b10f-04b385272be7
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Publishing
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 0%

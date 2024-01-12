@@ -1,8 +1,10 @@
 ---
-title: Notas de versão | Instruções de atualização e problemas corrigidos na versão 4.2.1 do Adobe Experience Manager Guides
+title: Notas de versão | Instruções de atualização e problemas corrigidos na versão 4.2.1 dos Guias do Adobe Experience Manager
 description: Saiba mais sobre as correções de erros e como atualizar para as versões 4.2.1 do Adobe Experience Manager Guides
 exl-id: a75ec83f-564b-4243-b5c5-341049521adb
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 1%
@@ -79,7 +81,7 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 * Ao criar no elemento exibido em verde (Controlar alterações), o novo conteúdo é exibido como rastrear alteração mesmo que a opção rastrear alteração esteja desativada. (7021)
 * O navegador (Editor da Web) congela ao carregar conteúdo com um esquema personalizado. (11211)
 * PDF nativo | Ao criar uma predefinição de saída com a opção &quot;Adicionar ao perfil de pasta&quot;, a geração de PDF falha com uma exceção de ponteiro nulo. (10950)
-* PDF nativo | Marca de imagem adiciona o atributo display-inline a todas as imagens. (10653)
+* PDF nativo | A tag de imagem adiciona o atributo display-inline a todas as imagens. (10653)
 * A inserção para arquivos multimídia de áudio e vídeo falha no formato YouTube na **Inserir multimídia** ícone. (11320)
 * O erro de validação ocorre quando um mapa é criado usando o modelo que tem um elemento de título especializado. (11212)
 * Editor da Web | O espaço sem quebra é adicionado no Editor de XML ao editar um tópico. (11786)
@@ -93,7 +95,7 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 
 ### Publicação
 
-* PDF nativo | A publicação de conteúdo que tem uma classe de saída com colchetes() resulta em um congelamento da publicação. (1936)
+* PDF nativo | A publicação de conteúdo que tem uma classe de saída com colchetes() leva a um congelamento da publicação. (1936)
 * Saída JSON | Mapear metadados com o valor de propriedade como `"value in spaces and double quotes"` leva a um erro de publicação. (1933)
 * Problema ocorre na pesquisa do site AEM (não funciona além de 2-3 nós de nível). (11352)
 * Editor da Web | O caminho de saída e o modelo não podem ser selecionados na Predefinição de AEM. (11530)
@@ -101,7 +103,7 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 * O processo de PDF de download não está funcionando adequadamente no Editor da Web. (11496)
 * PDF nativo | Comentários de rascunho são ocultos por padrão na saída gerada. (10560)
 * PDF nativo | navtitle não é homenageado por topichead. (10509)
-* PDF nativo | Adição `xref` a uma Imagem não renderiza a imagem no PDF gerado. (11346)
+* PDF nativo | Adicionando `xref` a uma Imagem não renderiza a imagem no PDF gerado. (11346)
 * PDF nativo | a nota de rodapé presente no cabeçalho da tabela leva a negrito e texto alinhado ao centro no rodapé da página correspondente na saída do PDF. (10610)
 
 ### Tradução

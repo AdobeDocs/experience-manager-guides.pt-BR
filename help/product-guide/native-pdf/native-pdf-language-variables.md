@@ -2,7 +2,10 @@
 title: PDF nativo | Suporte para variáveis de idioma
 description: Usar variáveis de linguagem nos modelos de saída e saída de PDF
 exl-id: 2335a7d5-251b-4266-8bba-9c9935e7bbf4
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Output Generation
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1589'
 ht-degree: 0%
@@ -39,7 +42,7 @@ Por exemplo, você pode ter as seguintes maneiras de apresentar o rótulo `Note`
 
 O Guia AEM suporta dois tipos de variáveis: Variáveis de aplicativo e de usuário.
 
-### Variáveis do aplicativo
+### Variáveis de aplicativo
 
 Os Guias do AEM fornecem um conjunto de variáveis de aplicativo predefinidas ou prontas para uso. Você pode usar essas variáveis predefinidas para adicionar informações sobre um documento específico aos Guias do AEM. Por exemplo, a variável `chapter-number` se incluída em uma página, exibe o número do capítulo ao qual a página pertence. A variável `author-label` exibe o nome do autor do documento.
 

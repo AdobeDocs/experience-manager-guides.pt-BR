@@ -1,8 +1,10 @@
 ---
-title: Notas de versão | Versão do Adobe Experience Manager Guides 4.2
+title: Notas de versão | Versão 4.2 do Adobe Experience Manager Guides
 description: Saiba mais sobre as correções de erros e como atualizar para as versões 4.2 do Adobe Experience Manager Guides
 exl-id: 8a7fef77-63af-462f-89c5-054ab31e079b
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1391'
 ht-degree: 1%
@@ -107,7 +109,7 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 * Tradução | A tarefa de tradução não é iniciada devido a /libs/fmdita/i18n/ja.json inválido. (10543)
 * Tradução | Ocorre um erro em um projeto de tradução de escopo criado a partir do painel de tradução (Tradução humana). (10526)
 * Tradução | O pós-processamento está bloqueado para toda a pasta de idioma cujos ativos estão presentes em um projeto de tradução ativo. (10332)
-* Tradução | Os metadados e as tags não estão sendo propagados para as cópias traduzidas. (4696)
+* Tradução| Os metadados e as tags não estão sendo propagados para as cópias traduzidas. (4696)
 * Vários pop-ups são exibidos para qualquer ativo se a versão for alterada e salva no editor de linha de base. (10399)
 * O vazamento da sessão ocorre em com.day.cq.search.impl.builder.QueryBuilderImpl.createResourceResolver(QueryBuilderImpl.java:210). (10279)
 * O arquivo de vídeo está ausente na linha de base se a pasta pai contiver espaço no nome. (10031)
@@ -120,18 +122,18 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 * O Publishlistener não exibe os dados solicitados em logs de informações e também contém alguns logs de lixo eletrônico.(10567)
 * PDF nativo | Falha na geração de PDF com uma exceção de Null Pointer. (10950)
 * PDF nativo | conkeyref não está sendo resolvido na saída gerada. (10564)
-* PDF nativo | Problemas ocorrem com os metadados de um mapa que precisa ser referido na saída do PDF.(10556)
-* PDF nativo | Problemas ao girar o cabeçalho da tabela. (10555)
+* PDF nativo | Ocorrem problemas com os metadados de um mapa que precisa ser referido na saída do PDF.(10556)
+* PDF nativo | Ocorrem problemas ao girar o cabeçalho da tabela. (10555)
 * PDF nativo | Ocorrem problemas ao remover tópicos com função de processamento=&#39;resource-only&#39;. (10554)
-* PDF nativo | Teclas vazias são exibidas na saída do PDF. (10553)
+* PDF nativo | Keyrefs vazios são exibidos na saída de PDF. (10553)
 * PDF nativo | Aninhado `<indexterm>` não estão aninhados na exportação de PDF nativa. (10521)
-* PDF nativo | O PDF nativo usa o estilo em linha em vez do nome da classe para as tags geradas. (10498)
+* PDF nativo | O PDF nativo usa estilo em linha em vez do nome da classe para as tags geradas. (10498)
 * PDF nativo | Tópicos aninhados nos apêndices são todos transformados em h1 no HTML temporário.(10454)
-* PDF nativo | Não é possível ocultar tópicos do assunto principal do sumário. (10355)
+* PDF nativo | Não é possível ocultar tópicos de destaque do sumário. (10355)
 * PDF nativo | Atributo de quadro de tabela não propagado para o HTML temporário (como classe). (10353)
-* PDF nativo | Arquivos de HTML temporários adicionam as classes colsep e rowsep a <td> e <th> mesmo que o valor seja 0 no DITA de origem. (10352)
+* PDF nativo | Arquivos HTML temporários adicionam as classes colsep e rowsep a <td> e <th> mesmo que o valor seja 0 no DITA de origem. (10352)
 * PDF nativo | Reiniciar os números de página no layout do capítulo inicia aleatoriamente a numeração a partir do final do capítulo anterior. (10154)
-* PDF nativo | As referências principais de keydefs com imagem ou links externos não estão sendo resolvidas. (10063)
+* PDF nativo | As principais referências para keydefs com imagem ou links externos não estão sendo resolvidas. (10063)
 * PDF nativo | O apêndice está sendo exibido como um capítulo no PDF gerado. (9829)
 * A guia Modelo no editor xml não está sendo exibida para os administradores de Perfil de pasta. (10266)
 * Falha na publicação da linha de base para o PDF gerado usando o FrameMaker Publishing Server 2020. (10551)

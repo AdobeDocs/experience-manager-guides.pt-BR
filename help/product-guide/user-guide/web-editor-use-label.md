@@ -2,7 +2,9 @@
 title: Usar rótulos
 description: Descubra o uso de rótulos para diferentes versões de um arquivo nos Guias do AEM. Saiba como adicionar ou excluir um rótulo a uma versão de um tópico.
 exl-id: d116906d-b469-4a97-b0af-4fadbe15222b
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring, Features of Web Editor, Publishing
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 0%

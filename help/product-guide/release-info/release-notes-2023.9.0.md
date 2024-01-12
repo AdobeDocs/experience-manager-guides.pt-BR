@@ -2,7 +2,9 @@
 title: Notas de versão | Instruções de atualização e problemas corrigidos nos Guias da Adobe Experience Manager, versão de setembro de 2023
 description: Saiba mais sobre as correções de erros e como atualizar para a versão de setembro de 2023 do Adobe Experience Manager Guides as a Cloud Service
 exl-id: 795b86a0-e763-404a-a4bb-35d3d2a42672
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1486'
 ht-degree: 0%
@@ -88,7 +90,7 @@ Execute as seguintes etapas para o pós-processamento do conteúdo existente e u
 
 Execute as seguintes etapas para indexar o conteúdo existente e usar o novo texto de localização e substituição no nível do mapa e da lista de tópicos na guia relatórios:
 
-1. Executar uma solicitação POST no servidor \(com autenticação correta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Opcional: é possível passar caminhos específicos dos mapas para indexá-los. Por padrão, todos os mapas serão indexados \|\| Por exemplo: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+1. Executar uma solicitação POST no servidor \(com autenticação correta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Opcional: é possível passar caminhos específicos dos mapas para indexá-los; por padrão, todos os mapas serão indexados \|\| Por exemplo: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 1. Você também pode passar uma pasta raiz para indexar os mapas DITA de uma pasta específica (e suas subpastas). Por exemplo, `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Observe que se os parâmetros de caminhos e de raiz forem transmitidos, somente o parâmetro de caminhos será considerado.
 
@@ -159,11 +161,11 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 - Falha na publicação ao renomear uma predefinição de PDF nativa. (12564)
 - A duplicação de um modelo de PDF nativo duplica para o local do modelo padrão em vez do local do modelo personalizado fornecido. (12563)
 
-- PDF nativo | A inclusão de várias xrefs estende o texto além da largura da coluna. (13004)
+- PDF nativo | A inclusão de várias referências cruzadas estende o texto além da largura da coluna. (13004)
 - PDF nativo | Quando o tópico e o título têm a mesma ID, isso resulta em uma geração mal formada da saída em PDF. (12644)
 - PDF nativo | Ao adicionar uma classe de saída a um pai `<topicref>` elemento em um mapa DITA e aplicando um estilo personalizado à classe de saída, o estilo é aplicado aos elementos no corpo do tópico, incluindo títulos de seção.(12166)
 - A publicação incremental não funciona se um mapa DITA tiver várias ditavalrefs. (12117)
-- Site AEM | Ao criar um mapa com keydef apontando para um tópico como uma variável e adicionar processing-role=resource-only, serão criadas algumas páginas inesperadas. (12099)
+- Site AEM | Ao criar um mapa com keydef apontando para um tópico como uma variável e adicionar processing-role=resource-only, você cria algumas páginas inesperadas. (12099)
 - Se qualquer ativo do DAM do AEM for usado em qualquer saída diferente do site AEM, os metadados &quot;jcr:createdBy&quot; não refletirão o nome do editor nem o nome do usuário que modificou o mapa ou tópico DITA por último. (12090)
 - AEM Sites | O mapa DITA com cabeçalho de tópico no navtitle (com caracteres não compatíveis) resulta em URLs de página inválidos. (1978)
 - PDF nativo | Problemas ocorrem no suporte a topichead / topicmeta / navtitle no Frontmatter e Backmatter. (1969)

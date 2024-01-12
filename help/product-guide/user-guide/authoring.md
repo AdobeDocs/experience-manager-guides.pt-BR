@@ -2,7 +2,9 @@
 title: Gerenciar conteúdo
 description: Gerencie conteúdo e identifique suas funções e permissões nos Guias do AEM. Saiba mais sobre os principais conceitos de gerenciamento de conteúdo e trabalho com perfis globais ou de nível de pasta.
 exl-id: 84926dc2-1180-48ef-85d0-50e3478bf26a
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Content Management
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '717'
 ht-degree: 10%

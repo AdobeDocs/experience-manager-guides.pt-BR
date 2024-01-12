@@ -2,7 +2,9 @@
 title: Estado do documento
 description: Saiba mais sobre os tipos de estados de documentos em Guias do AEM. Saber como alterar ou exibir o estado do documento e usar o estado do documento no DDLC.
 exl-id: 3a68b2ed-b917-4f05-8b2b-d2722a740502
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring, Features of Web Editor, Document State
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '936'
 ht-degree: 0%

@@ -1,8 +1,10 @@
 ---
-title: Notas de versão | Adobe Experience Manager Guides as a Cloud Service, versão de abril de 2023
+title: Notas de versão | Guias do Adobe Experience Manager as a Cloud Service, versão de abril de 2023
 description: Versão de abril de 2023 do Adobe Experience Manager Guides as a Cloud Service
 exl-id: fa339eab-d3d0-4763-adbf-6411e39aa213
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '598'
 ht-degree: 0%
@@ -60,7 +62,7 @@ Esta seção lista a matriz de compatibilidade dos aplicativos de software compa
 
 Os bugs corrigidos em várias áreas estão listados abaixo:
 
-* PDF nativo | A publicação de conteúdo que tem uma classe de saída com colchetes() resulta em um congelamento da publicação. (11596)
+* PDF nativo | A publicação de conteúdo que tem uma classe de saída com colchetes() leva a um congelamento da publicação. (11596)
 * Ocorre um problema ao mover (arrastar e soltar) no lugar de um item de lista existente com o Controle de alterações ativado. (11570)
 * Ocorre um problema ao mover (arrastar e soltar) como um novo item de lista com a opção Controlar alterações ativada. (11569)
 * O recuo ou o recuo de itens de lista não funciona como esperado quando a opção Controlar alterações está ativada. (11568)

@@ -2,7 +2,9 @@
 title: Notas de versão | Guias do Adobe Experience Manager as a Cloud Service, versão de agosto de 2022
 description: Versão de agosto do Adobe Experience Manager Guides as a Cloud Service
 exl-id: a01bfe8a-4715-438c-bb94-aa1d31f6662d
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 0%
@@ -96,7 +98,7 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 * O tópico DITA não é atualizado automaticamente com as alterações feitas no **Propriedades** página. (8745)
 * O elemento Frontmatter, quando adicionado a um mapa DITA, não funciona corretamente. (9507)
 * PDF nativo | Um PDF em branco é gerado ao usar **Geração rápida** para vários arquivos quando um elemento vazio é selecionado. (9822)
-* PDF nativo | O apêndice é publicado como um capítulo na saída do PDF. (9829)
+* PDF nativo | O Apêndice é publicado como um capítulo na saída do PDF. (9829)
 * PDF nativo | Quando uma imagem de SVG é editada, ela não é mostrada atualizada no layout da página. (9069)
 * Um caractere de hífen regular é inserido quando um `Nonbreaking Hyphen` caractere é inserido usando o **Inserir caractere especial** diálogo. (8919)
 * O Editor de XML não mostra imagens atualizadas nos tópicos se elas tiverem sido editadas. (9500)

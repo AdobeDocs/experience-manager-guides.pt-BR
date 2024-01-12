@@ -2,7 +2,9 @@
 title: Notas de versão | Instruções de atualização e problemas corrigidos na versão 4.3.1 do Adobe Experience Manager Guides
 description: Saiba mais sobre as correções de erros e como atualizar para as versões 4.3.1 do Adobe Experience Manager Guides
 exl-id: 3fb6dc31-ec6e-40f5-ab3f-a6e591da315e
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1306'
 ht-degree: 1%
@@ -105,16 +107,16 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 ### Publicação
 
 - PDF nativo | A ordem dos tópicos não é corrigida quando a saída de PDF é gerada. (13157)
-- PDF nativo| Nenhuma tag de estilo padrão disponível para `<p>`elemento. (12559)
-- PDF nativo | Os estilos em linha aplicados à região de conteúdo não se aplicam aos tópicos em primeiro e segundo plano. (13510)
+- PDF nativo| Nenhuma tag de estilo padrão está disponível para `<p>`elemento. (12559)
+- PDF nativo | Os estilos embutidos aplicados à região de conteúdo não se aplicam aos tópicos em primeiro e segundo plano. (13510)
 - A variável `DeliveryTarget` O atributo não é propagado ao gerar a saída do site AEM.  (13132)
 - A variável **Publish** O fluxo de trabalho fica travado ao gerar a saída do site AEM para conteúdo com determinados erros. (12000)
 
-- PDF nativo | A inclusão de várias xrefs estende o texto além da largura da coluna. (13004)
+- PDF nativo | A inclusão de várias referências cruzadas estende o texto além da largura da coluna. (13004)
 - PDF nativo | Quando o tópico e o título têm a mesma ID, isso resulta em uma geração mal formada da saída em PDF. (12644)
 - PDF nativo | Ao adicionar uma classe de saída a um pai `<topicref>` elemento em um mapa DITA e aplicando um estilo personalizado à classe de saída, o estilo é aplicado aos elementos no corpo do tópico, incluindo títulos de seção. (12166)
 - A publicação incremental não funciona se um mapa DITA tiver várias ditavalrefs. (12117)
-- Site AEM | Ao criar um mapa com keydef apontando para um tópico como uma variável e adicionar processing-role=resource-only, serão criadas algumas páginas inesperadas. (12099)
+- Site AEM | Ao criar um mapa com keydef apontando para um tópico como uma variável e adicionar processing-role=resource-only, você cria algumas páginas inesperadas. (12099)
 - Se qualquer ativo do DAM do AEM for usado em qualquer saída diferente do site AEM, os metadados &quot;jcr:createdBy&quot; não refletirão o nome do editor nem o nome do usuário que modificou o mapa ou tópico DITA por último. (12090)
 - AEM Sites | O mapa DITA com cabeçalho de tópico no navtitle (com caracteres não compatíveis) resulta em URLs de página inválidos. (1978)
 - PDF nativo | Problemas ocorrem no suporte a topichead / topicmeta / navtitle no Frontmatter e Backmatter. (1969)

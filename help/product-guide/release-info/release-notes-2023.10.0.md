@@ -2,7 +2,9 @@
 title: Notas de versão | Instruções de atualização e problemas corrigidos nos Guias da Adobe Experience Manager, versão de outubro de 2023
 description: Saiba mais sobre as correções de erros e como atualizar para a versão de outubro de 2023 do Adobe Experience Manager Guides as a Cloud Service
 exl-id: 536d2ec2-31a0-4533-9c29-16a27525acca
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1045'
 ht-degree: 1%
@@ -88,7 +90,7 @@ Execute as seguintes etapas para pós-processar o conteúdo existente e usar o n
 
 Execute as seguintes etapas para indexar o conteúdo existente e usar o novo texto de localização e substituição no nível do mapa e da lista de tópicos na guia relatórios:
 
-1. Executar uma solicitação POST no servidor \(com autenticação correta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Opcional: é possível passar caminhos específicos dos mapas para indexá-los. Por padrão, todos os mapas serão indexados \|\| Por exemplo: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+1. Executar uma solicitação POST no servidor \(com autenticação correta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Opcional: é possível passar caminhos específicos dos mapas para indexá-los; por padrão, todos os mapas serão indexados \|\| Por exemplo: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 1. Você também pode passar uma pasta raiz para indexar os mapas DITA de uma pasta específica (e suas subpastas). Por exemplo, `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Observe que se os parâmetros de caminhos e de raiz forem transmitidos, somente o parâmetro de caminhos será considerado.
 
@@ -138,8 +140,8 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 ### Publicação
 
 - PDF nativo | A ordem dos tópicos não é corrigida quando a saída de PDF é gerada. (13157)
-- PDF nativo| Nenhuma tag de estilo padrão disponível para `<p>`elemento. (12559)
-- PDF nativo | Os estilos em linha aplicados à região de conteúdo não se aplicam aos tópicos em primeiro e segundo plano. (13510)
+- PDF nativo| Nenhuma tag de estilo padrão está disponível para `<p>`elemento. (12559)
+- PDF nativo | Os estilos embutidos aplicados à região de conteúdo não se aplicam aos tópicos em primeiro e segundo plano. (13510)
 - A variável `DeliveryTarget` O atributo não é propagado ao gerar a saída do site AEM.  (13132)
 - A variável **Publish** O fluxo de trabalho fica travado ao gerar a saída do site AEM para conteúdo com determinados erros. (12000)
 

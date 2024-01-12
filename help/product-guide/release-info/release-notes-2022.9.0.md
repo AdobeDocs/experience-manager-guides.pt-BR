@@ -1,8 +1,10 @@
 ---
-title: Notas de versão | Adobe Experience Manager Guides as a Cloud Service, versão de setembro de 2022
+title: Notas de versão | Guias do Adobe Experience Manager as a Cloud Service, versão de setembro de 2022
 description: Versão de setembro do Adobe Experience Manager Guides as a Cloud Service
 exl-id: f6247f91-43cc-43a4-a6f8-3b1f09d0533f
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1299'
 ht-degree: 0%
@@ -95,30 +97,30 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 * Editor da Web | Ao mover elementos em um tópico, as IDs atribuídas nos elementos são substituídas pelas IDs atribuídas automaticamente. (7895)
 * Controlar alterações | O conteúdo é perdido quando um novo elemento é inserido usando a tecla Enter. (10246)
 * Submapa referido ao mapa principal em dita-templates não está sendo criado. (10231)
-* Editor XML | Copiar-colar não funciona no modo de autor. (10309)
+* Editor XML | O comando copiar-colar não funciona no modo de autor. (10309)
 * Vários rótulos de versão, uma vez selecionados, não são desmarcados. (9561)
 * A navegação automática para o caminho na caixa de diálogo de navegação do site não funciona como a navegação de arquivo. (9920)
 * O painel Estrutura de Tópicos não exibe conteúdo quando alternado de **Autor** para **Origem** modo. (10319)
 * O Conref em um novo tópico criado usando um conteúdo no modelo de tópico não funciona. A ID de hash copiada não é atualizada na cópia de conteúdo. (9890)
 * Editor da Web | Não existe carregador ao criar um mapa a partir do modelo de mapa. (9891)
-* Novo Editor de Mapa | O texto em negrito ou itálico adicionado no título do mapa não será retido se mudarmos de **Autor** para o **Layout** exibição. (10218)
+* Novo Editor de Mapa | O texto em negrito ou itálico adicionado no título do mapa não será retido se alternarmos de **Autor** para o **Layout** exibição. (10218)
 * Novo Editor de Mapa | As condições aplicadas em qualquer referência não podem ser removidas da exibição de layout. (10213)
-* Novo Editor de Mapa | A aplicação de referências de condições não funciona na exibição de Layout, como na exibição Autor. (10198)
+* Novo Editor de Mapa | A aplicação de referências de condições não funciona na exibição de layout como na exibição de autor. (10198)
 * Novo Editor de Mapa | Mover para a esquerda no menu de contexto remove a referência se ela não puder ser movida para a esquerda. (10219)
 * Novo Editor de Mapa |O ícone é exibido incorretamente para as referências em um mapa criado usando o modo Layout. (10197)
-* Painel Repositório | Clicar com o botão direito do mouse no painel repositório gera um erro de aplicativo. (10123)
+* Painel Repositório | O clique com o botão direito do mouse no painel repositório fornece um erro de aplicativo. (10123)
 * Localizar e substituir | O modo escuro não é legível para Resultados de pesquisa no Editor da Web. (9978)
 * Tradução | Os metadados e as tags não são propagados para as cópias traduzidas. (4696)
 * O conteúdo de copiar e colar (ctrl+c/ctrl+v) gera um erro no modo de autor. (10304)
-* Modelo PDF | Adicionar imagens de plano de fundo a qualquer layout de página exibe Caminho da imagem absoluto e as imagens não são exibidas no PDF de saída. (10297)
+* Modelo PDF | A adição de imagens de plano de fundo a qualquer layout de página exibe Caminho da imagem absoluto e as imagens não são exibidas no PDF de saída. (10297)
 * PDF nativo | O título do capítulo e o cabeçalho do capítulo não estão funcionando na publicação do PDF. (9947)
 * PDF nativo | `xref` para um conceito não é resolvido corretamente para um tópico DITA específico. (10229)
 * PDF nativo | Não é possível exibir o texto de legenda de uma tabela na saída de PDF gerada. (9827)
-* PDF nativo | As referências nos apêndices não são exibidas como apêndices na saída do PDF. (10182)
+* PDF nativo | As referências nos apêndices não são exibidas como apêndices na saída de PDF. (10182)
 * PDF nativo | O atributo de quadro de uma tabela não é propagado para o HTML temporário (como classe). (10353)
-* PDF nativo | arquivos de HTML temporários adicionam as classes colsep e rowsep a td e o mesmo se o valor for 0 no DITA de origem. (10352)
+* PDF nativo | os arquivos de HTML temporários adicionam as classes colsep e rowsep a td e o mesmo se o valor for 0 no DITA de origem. (10352)
 * PDF nativo | Os metadados para o critério adicionado no layout da página não estão sendo respeitados. (10377)
-* PDF nativo | Geração de PDF falha para conteúdo específico. (9927)
+* PDF nativo | A geração de PDF falha para um conteúdo específico. (9927)
 * PDF nativo | O conteúdo via conkeyref não é exibido na saída do PDF. (9836)
 * PDF nativo | As principais referências de Keydefs com imagens ou links externos não são resolvidas. (10063)
 * A visualização de autor de um mapa não exibe o texto do espaço reservado para a lista de tabelas e a lista de figuras. (10330)

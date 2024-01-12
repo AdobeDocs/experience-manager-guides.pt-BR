@@ -2,7 +2,9 @@
 title: Notas de versão | Instruções de atualização e problemas corrigidos na versão 4.3.0 do Adobe Experience Manager Guides
 description: Saiba mais sobre as correções de erros e como atualizar para as versões 4.3.0 do Adobe Experience Manager Guides
 exl-id: 7fb568a0-0b88-4ea0-9b79-2625336348ff
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1086'
 ht-degree: 1%
@@ -116,9 +118,9 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 - PDF nativo | Java OutOfMemoryError ocorre ao publicar conteúdo grande. (11789)
 - PDF nativo | Xref está imprimindo o conteúdo do título do tópico href em vez do rótulo Xref. (11322)
 - PDF nativo | Não é possível salvar as configurações do modelo de PDF. (10751)
-- PDF nativo | O texto se estende além da largura da coluna ao incluir vários xrefs. (10876)
+- PDF nativo | O texto se estende além da largura da coluna ao incluir várias xrefs. (10876)
 - PDF nativo | `<note>``</note>` O elemento não gera um título de extensão extra de seu tipo. (10549)
-- Saída JSON | O `fmUuid` no nó jcr:content do JSON é diferente da &quot;id&quot; dentro do JSON. (11564)
+- Saída JSON | A variável `fmUuid` no nó jcr:content do JSON é diferente da &quot;id&quot; dentro do JSON. (11564)
 - Saída JSON | Se o mapa e o tópico com o mesmo nome de arquivo estiverem presentes, o JSON do mapa será removido. (11524)
 
 ## Problema conhecido

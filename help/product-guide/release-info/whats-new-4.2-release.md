@@ -2,7 +2,9 @@
 title: Notas de versão | Novidades na versão 4.2 dos Guias do Adobe Experience Manager
 description: Conheça os recursos novos e aprimorados das versões 4.2 do Adobe Experience Manager Guides
 exl-id: 46367ccf-58ff-4889-8314-cdd5bf5d0f1d
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: What's New
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '2423'
 ht-degree: 0%
@@ -199,7 +201,7 @@ Uma barra de alteração aparece no PDF para indicar o conteúdo modificado, ins
 * Mostrar o conteúdo inserido em verde e sublinhado
 * Mostrar o conteúdo excluído em vermelho e marcado com um tachado
 
-## PDF nativo | Suporte a variáveis para caminho de saída e nome do arquivo PDF
+## PDF nativo | Suporte de variável para caminho de saída e nome do arquivo PDF
 
 Agora, você também pode usar as variáveis prontas para uso a seguir para definir o Caminho de saída e o Arquivo PDF. Você pode usar uma única variável ou uma combinação de variáveis para definir essas opções:
 * `${map_filename}`

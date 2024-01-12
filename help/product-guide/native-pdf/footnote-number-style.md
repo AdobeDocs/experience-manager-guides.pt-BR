@@ -2,7 +2,10 @@
 title: Recurso de publicação de PDF nativo | Usar estilos personalizados em notas de rodapé
 description: Saiba como aplicar estilo aos números em notas de rodapé.
 exl-id: f1068f2f-2ace-4bdb-b5a4-46b03d4e43d6
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Output Generation
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '667'
 ht-degree: 0%

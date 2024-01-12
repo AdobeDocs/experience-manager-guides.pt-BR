@@ -1,8 +1,10 @@
 ---
-title: Notas de versão | Adobe Experience Manager Guides as a Cloud Service, versão de fevereiro de 2023
+title: Notas de versão | Guias do Adobe Experience Manager as a Cloud Service, versão de fevereiro de 2023
 description: Lançamento do Adobe Experience Manager Guides as a Cloud Service em fevereiro
 exl-id: c639b136-11ed-4a8b-a595-4bb5da879747
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 0%
@@ -90,11 +92,11 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 * A regeneração de tópico não está funcionando para alguns cenários. (10635)
 * O Publishlistener não exibe os dados solicitados em logs de informações e também contém alguns logs de lixo eletrônico.(10567)
 * PDF nativo | Ao criar uma predefinição de saída com a opção &quot;Adicionar ao perfil de pasta&quot;, a geração de PDF falha com uma exceção de ponteiro nulo. (10950)
-* PDF nativo | Problemas ao girar o cabeçalho da tabela. (10555)
+* PDF nativo | Ocorrem problemas ao girar o cabeçalho da tabela. (10555)
 * PDF nativo | Aninhado `<indexterm>` não estão aninhados na exportação de PDF nativa. (10521)
 * PDF nativo | Tópicos aninhados nos apêndices são todos transformados em h1 no HTML temporário. (10454)
 * Falha na publicação da linha de base para o PDF gerado usando o FrameMaker Publishing Server 2020. (10551)
-* PDF nativo | Adição `xref` a uma Imagem não renderiza a imagem no PDF gerado. (11346)
-* PDF nativo | Marca de imagem adiciona o atributo display-inline a todas as imagens. (10653)
+* PDF nativo | Adicionando `xref` a uma Imagem não renderiza a imagem no PDF gerado. (11346)
+* PDF nativo | A tag de imagem adiciona o atributo display-inline a todas as imagens. (10653)
 * PDF nativo | Comentários de rascunho são ocultos por padrão na saída gerada. (10560)
 * PDF nativo | navtitle não é homenageado por topichead. (10509)
