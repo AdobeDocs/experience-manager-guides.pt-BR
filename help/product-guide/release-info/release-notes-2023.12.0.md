@@ -3,7 +3,7 @@ title: Notas de versão | Instruções de atualização e problemas corrigidos n
 description: Saiba mais sobre as correções de erros e como atualizar para a versão de dezembro de 2023 do Adobe Experience Manager Guides as a Cloud Service.
 feature: Release Notes
 role: Leader
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 110a358ce6c0525f7b1eae075d89d78f8014ceff
 workflow-type: tm+mt
 source-wordcount: '1319'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Para obter mais informações sobre os novos recursos e aprimoramentos, consulte
 Atualize sua configuração as a Cloud Service do Experience Manager Guides executando as seguintes etapas:
 
 1. Confira o código Git do Cloud Service e alterne para a ramificação configurada no pipeline Cloud Service correspondente ao ambiente que você deseja atualizar.
-2. Atualizar `<dox.version>` propriedade no `/dox/dox.installer/pom.xml` arquivo do seu código Git Cloud Service para 2023.12.0.15.
+2. Atualizar `<dox.version>` propriedade no `/dox/dox.installer/pom.xml` arquivo do seu código Git Cloud Service para 2023.12.0.16.
 3. Confirme as alterações e execute o pipeline do Cloud Service para atualizar para a versão de dezembro de 2023 do as a Cloud Service Guias de Experience Manager.
 
 ## Etapas para ativar o acionador de um script por meio de um servlet
