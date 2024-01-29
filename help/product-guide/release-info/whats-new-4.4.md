@@ -1,9 +1,9 @@
 ---
 title: Notas de versão | Novidades na versão 4.4.0 dos Guias do Adobe Experience Manager
 description: Saiba mais sobre os recursos novos e aprimorados da versão 4.4.0 dos Guias do Adobe Experience Manager
-source-git-commit: ca86700d033ad8eb7cdba917f010f3aa71113a19
+source-git-commit: 027e8e6a6119145a5b2255449514a76488c90463
 workflow-type: tm+mt
-source-wordcount: '2293'
+source-wordcount: '2307'
 ht-degree: 0%
 
 ---
@@ -177,6 +177,7 @@ O Experience Manager Guides permite que você, como administrador, configure o U
 
 Experience Manager fornece o recurso para criar linhas de base ao selecionar automaticamente os tópicos de acordo com o rótulo aplicado a eles. Agora, você também pode publicar facilmente várias predefinições de saída com linhas de base automáticas do mesmo mapa DITA. Não é necessário publicar apenas uma predefinição por vez, mas é possível publicar facilmente várias predefinições de saída em paralelo.
 
+Saiba como [criar e gerenciar linhas de base no Editor da Web](../user-guide/web-editor-baseline.md).
 
 ## Aprimoramentos de PDF nativo
 
