@@ -4,9 +4,9 @@ description: Traduza o conteúdo para vários idiomas no editor da Web. Saiba co
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '1907'
+source-wordcount: '1925'
 ht-degree: 0%
 
 ---
@@ -37,8 +37,8 @@ Antes de executar etapas neste procedimento, verifique se você criou a raiz de 
 ## Criar um novo projeto de tradução
 
 1. No painel Repositório, abra o arquivo de mapa DITA na exibição de mapa.
-1. Clique em **Gerenciar** guia. O painel Tradução exibe o título com hiperlink do mapa DITA junto com a tag **Idiomas** lista.
-1. No **Idiomas** selecione o local para o qual deseja traduzir o projeto. É possível selecionar **Todos** para traduzir o projeto para todos os idiomas disponíveis.
+1. Clique em **Gerenciar** guia. O painel Tradução exibe a **Idiomas disponíveis** lista.
+1. No **Idiomas disponíveis** selecione o local para o qual deseja traduzir o projeto. Você pode escolher **Selecionar tudo** para traduzir o projeto para todos os idiomas disponíveis.
 
    >[!NOTE]
    >
@@ -46,11 +46,13 @@ Antes de executar etapas neste procedimento, verifique se você criou a raiz de 
 
    >[!IMPORTANT]
    >
-   > Idioma mostra apenas os idiomas para os quais uma pasta de idioma é criada paralelamente ao idioma de origem. Uma pasta de idioma criada em qualquer outro nível, como um nível abaixo da pasta de idioma de origem, também não é exibida. Crie todas as pastas de idioma de destino no mesmo nível que a pasta de idioma de origem.
+   > A lista mostra apenas os idiomas para os quais uma pasta de idioma é criada paralelamente ao idioma de origem. Uma pasta de idioma criada em qualquer outro nível, como um nível abaixo da pasta de idioma de origem, também não é exibida. Crie todas as pastas de idioma de destino no mesmo nível que a pasta de idioma de origem.
 
-   ![](images/translation-languages.png){width="350" align="left"}
+   ![](images/translation-languages.png){width="300" align="left"}
 
-1. Você também pode usar as seguintes opções:
+1. Você também pode selecionar uma das seguintes opções para traduzir o projeto:
+
+   **Nenhum** Selecione essa opção para traduzir as versões padrão dos arquivos. Essa opção é selecionada por padrão.
 
    **Usar Linha de Base:** Você pode selecionar uma linha de base para traduzir o projeto. Clique em Usar Linha de Base e escolha uma linha de base criada no mapa. Todos os arquivos que fazem parte da Linha de base selecionada são mostrados na página Tradução. Depois que o conteúdo for traduzido, você poderá exportar a Linha de base traduzida. Para obter mais detalhes sobre como exportar a Linha de Base traduzida, consulte [Exportar Linha de Base traduzida](generate-output-use-baseline-for-publishing.md#id196SE600GHS).
 
@@ -146,7 +148,7 @@ Por exemplo, se você tiver alguns arquivos de código-fonte com o rótulo da ve
 
 O Guia AEM fornece o recurso para verificar as diferenças entre a versão selecionada e a última versão de origem traduzida dos tópicos. Você pode optar por traduzir a variável **Fora de sincronia** arquivos com base nas alterações feitas.
 
-![](images/translation-version-diff.png){width="800" align="left"}
+![](images/translation-version-diff.png){width="650" align="left"}
 
 Selecione o **Mostrar diferença**&#x200B;ícone \(![](images/show-difference-icon.svg)\) para que um tópico veja as diferenças entre a última versão traduzida e a versão atual do arquivo selecionado.
 

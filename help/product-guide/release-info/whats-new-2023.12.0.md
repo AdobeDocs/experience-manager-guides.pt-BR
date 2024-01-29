@@ -3,9 +3,9 @@ title: Notas de versão | Novidades nos Guias da Adobe Experience Manager, vers�
 description: Conheça os recursos novos e aprimorados da versão de dezembro de 2023 do Adobe Experience Manager Guides as a Cloud Service.
 feature: What's New
 role: Leader
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '966'
 ht-degree: 0%
 
 ---
@@ -128,13 +128,6 @@ Também permite duplicar uma linha de base com base no rótulo. A versão de ref
 *Duplique uma linha de base com base em um rótulo ou crie uma cópia exata.*
 
 Saiba como [criar e gerenciar linhas de base no Editor da Web](../user-guide/web-editor-baseline.md).
-
-## Processo aprimorado para a criação de coleção de mapas de ativação em massa
-
-O processo de criação de uma coleção de mapas de ativação em massa agora é mais harmonioso. Agora, quando a página Resultados da ativação for exibida, você poderá visualizar os resultados da ativação e os logs.
-Para obter mais detalhes, consulte [Criar uma coleção de mapas de ativação em massa](../user-guide/conf-bulk-activation-create-map-collection.md).
-
-
 
 ## Resolver links entre mapas na saída do site AEM
 

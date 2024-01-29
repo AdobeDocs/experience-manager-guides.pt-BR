@@ -4,9 +4,9 @@ description: Saiba como criar uma predefinição JSON no editor da Web e no pain
 exl-id: 9eb426fc-ca0a-4932-8a55-fea731281a0a
 feature: Publishing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '626'
 ht-degree: 1%
 
 ---
@@ -28,9 +28,6 @@ No editor da Web, as seguintes configurações foram organizadas no **Geral** gu
 
 Para obter detalhes, consulte [Configuração JSON](#id231KJA00REJ).
 
-**No painel do mapa**
-
-Para abrir as predefinições de saída para o PDF, clique em um arquivo de mapa DITA na interface do usuário do Assets, clique em Predefinições de saída e, em seguida, clique na opção HTML 5. No painel do Mapa, clique em **Editar** na parte superior para atualizar as várias configurações e clique em **Salvar**.
 
 **Configuração JSON**
 

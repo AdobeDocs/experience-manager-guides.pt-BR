@@ -4,9 +4,9 @@ description: Descubra os recursos do editor da Web em Guias do AEM. Conhecer a i
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '17364'
+source-wordcount: '17861'
 ht-degree: 0%
 
 ---
@@ -228,6 +228,27 @@ Isso impede que os usuários salvem qualquer arquivo que quebre uma regra defini
 
   ![](images/editor-setting-translation.png){width="550" align="left"}
 
+- **Metadados**: Você pode controlar os metadados da versão do tópico e seus valores a serem exibidos no **Histórico da versão** caixa de diálogo.  No caminho dos metadados, especifique a localização dos nós dos quais deseja selecionar os metadados. Também é possível definir um nome personalizado para os metadados como o rótulo. As propriedades padrão são Título, Estado do documento e Tags.
+
+  Os metadados podem ser selecionados de qualquer propriedade na `/jcr:content` do ativo, para que você possa adicionar o caminho da propriedade como o caminho dos Metadados.
+
+
+  Um erro é exibido se o caminho de metadados estiver em branco. Se você deixar o rótulo em branco, o último elemento será escolhido como o rótulo.
+
+
+
+
+  ![guia metadados nas configurações do editor](images/editor-setting-metadata.png){width="550" align="left"}
+
+  *Configure os metadados para o **Histórico da versão**caixa de diálogo.*
+
+
+
+
+  Você também pode definir a ordem em que essas tags de metadados são exibidas. Para alterar a ordem padrão dessas tags, selecione as barras pontilhadas para arrastar e soltar as tags no local desejado.
+Os rótulos de metadados aparecem na mesma sequência no **Histórico da versão** do Editor da Web.
+
+
 
 **Preferências do usuário** - ![](images/user_preference_editor_icon.svg)
 
@@ -270,9 +291,16 @@ A barra de ferramentas secundária é exibida quando você abre um tópico para 
 
 **Inserir elemento** - ![](images/Add_icon.svg)
 
-Insere um elemento válido no local válido atual ou próximo. Se você estiver trabalhando dentro de um elemento de bloco como um `note`, em seguida, use o ícone Inserir elemento para inserir um novo elemento após a variável `note` elemento. Na captura de tela a seguir, um elemento de nota foi inserido no elemento p \(parágrafo\):
+Insere um elemento válido no local válido atual ou próximo. Você também pode usar o atalho de teclado ***Alt***+***Enter*** para abrir o pop-up Inserir elemento. Por exemplo, você está editando um parágrafo e depois no **Inserir elemento** aparece uma lista de elementos que podem ser inseridos no parágrafo. Selecione o elemento que deseja inserir. Use o teclado para rolar pela lista de elementos e pressione ***Enter*** para inserir o elemento necessário. Você também pode digitar um caractere ou sequência de caracteres na caixa de pesquisa e pesquisar os elementos que começam com ele.
 
-![](images/note-in-para-insert-element_cs.png){width="800" align="left"}
+
+![inserir elemento](images/insert-element.png){width="300" align="left"}
+
+*Digite ‘t’ para procurar todos os elementos válidos que comecem com ‘t’.*
+
+Se você estiver trabalhando dentro de um elemento de bloco como um `note`, em seguida, use o ícone Inserir elemento para inserir um novo elemento após a variável `note` elemento. Na captura de tela a seguir, um elemento de nota foi inserido no elemento p \(parágrafo\):
+
+![Inserir elemento em um elemento de bloco](images/note-in-para-insert-element_cs.png){width="800" align="left"}
 
 Se você pressionar Enter no elemento de nota, um novo parágrafo será criado dentro do próprio elemento de nota. Para inserir um novo elemento fora da observação, clique no elemento p \(destacado na captura de tela\) na navegação estrutural dos elementos e clique no ícone Inserir elemento ou pressione ***Alt***+***Enter*** para abrir o pop-up Inserir elemento. Em seguida, selecione o elemento desejado e pressione Enter para inserir o elemento selecionado após o elemento de nota.
 
@@ -282,7 +310,7 @@ Você também pode adicionar um elemento entre dois elementos quando um cursor d
 
 Por exemplo, se você estiver trabalhando em um tópico DITA e o cursor de bloco estiver piscando entre a descrição curta e o corpo, é possível adicionar `prolog` elemento e, em seguida, adicione copyright, autor e outros detalhes.
 
-Outra maneira de inserir o novo elemento é usando o menu de contexto. Clique com o botão direito do mouse em qualquer lugar do documento para chamar o menu de contexto. Nesse menu, escolha Inserir elemento para exibir a caixa de diálogo Inserir elemento e escolha o elemento que deseja inserir.
+Outra maneira de inserir o novo elemento é usando o menu de contexto. Clique com o botão direito do mouse em qualquer lugar do documento para chamar o menu de contexto. Nesse menu, escolha **Inserir elemento** para exibir o **Inserir elemento** e escolha o elemento que deseja inserir.
 
 ![](images/insert-element-before-after.png){width="300" align="left"}
 
@@ -297,6 +325,10 @@ Cria uma lista numerada no local válido atual ou próximo. Se você estiver em 
 **Inserir/Remover Lista com Marcadores** - ![](images/BulletList_icon.svg)
 
 Cria uma lista com marcadores no local válido atual ou próximo. Se você estiver em uma lista com marcadores e clicar nesse ícone, o item será convertido em um parágrafo normal.
+
+>[!NOTE]
+>
+>Você também pode selecionar a variável **Dividir lista** opção do menu de contexto de um item de lista para dividir a lista atual e iniciar uma nova lista no mesmo nível.
 
 **Inserir tabela** - ![](images/Table_icon.svg)
 
@@ -640,9 +672,10 @@ Para mesclar alterações em um arquivo de mapa, execute as seguintes etapas:
 
 **Histórico da versão** - ![](images/version-history-web-editor-ico.svg)
 
-Os Guias do AEM fornecem várias maneiras de exibir as versões criadas para seus arquivos de tópico e também maneiras de reverter para uma versão específica. No entanto, a maioria desses recursos está disponível fora do Editor da Web.
 
-O recurso Histórico de versões no Editor da Web permite não apenas verificar as versões e rótulos disponíveis no tópico ativo, mas também oferece a flexibilidade de reverter para qualquer versão do próprio editor.
+A variável **Histórico da versão** O recurso no Editor da Web permite verificar as versões disponíveis dos arquivos DITA, compará-las e reverter para qualquer versão do próprio editor.
+
+No histórico de versões, é possível comparar o conteúdo e os metadados da versão atual (que também pode ser uma cópia de trabalho) com qualquer versão anterior do mesmo arquivo. Também é possível exibir os rótulos e comentários das versões comparadas.
 
 Para acessar o histórico de versões e reverter para uma versão específica do seu tópico, execute as seguintes etapas:
 
@@ -650,19 +683,39 @@ Para acessar o histórico de versões e reverter para uma versão específica do
 
 1. Clique em **Histórico da versão**.
 
-   A caixa de diálogo Histórico de versão é exibida.
+   A variável **Histórico da versão** é exibida.
 
-   ![](images/version-history-dialog-web-editor.png){width="550" align="left"}
+   ![Caixa de diálogo Histórico de versão](images/version-history-dialog-web-editor.png){width="550" align="left"}
+   *Visualizar as alterações nas diferentes versões de um tópico.*
 
-1. Escolha uma versão do tópico para a qual você deseja reverter na **Selecionar versão** lista suspensa.
+1. Escolha uma versão do tópico que você deseja comparar ou reverter na **Comparar com** lista suspensa.
 
    >[!NOTE]
    >
    > Se uma versão tiver rótulos aplicados a ela, eles também serão mostrados \(entre colchetes\) junto com o número da versão.
 
-   Depois de escolher uma versão na lista suspensa, a opção Reverter para a versão selecionada é disponibilizada. A janela de visualização exibe as diferenças entre a versão atual e a versão selecionada do tópico.
 
-   ![](images/version-history-revert-diff-dialog-web-editor.png){width="550" align="left"}
+
+1. Ativar **Exibir rótulos e comentários** opção para exibir os rótulos e comentários aplicados às versões atual e comparada.
+
+1. Você também pode exibir as seguintes informações na **Histórico da versão** caixa de diálogo:
+
+   **Visualizar** Guia: o conteúdo recém-adicionado está em fonte verde e o conteúdo excluído está em fonte vermelha.
+
+   **Metadados** Guia: os metadados recém-adicionados estão em fonte verde e os metadados excluídos estão em fonte vermelha.
+   ![Diferença de metadados para versões ](images/metadata-version-diff.png){width="550" align="left"}
+   *Compare os metadados de diferentes versões no Histórico de versões.*
+
+   >[!NOTE]
+   >
+   > O administrador do sistema pode alterar os metadados a serem mostrados na guia Metadados nas Configurações do editor.
+
+   Você também pode exibir os detalhes de usuário e tempo da versão atual e da versão comparada.
+
+
+
+1. Depois de escolher uma versão na lista suspensa, **Opção Reverter para a versão selecionada** é disponibilizado. A janela de visualização exibe as diferenças entre a versão atual e a versão selecionada do tópico.
+
 
 1. Clique em **Reverter para a versão selecionada** para reverter sua cópia de trabalho com a versão selecionada do tópico.
 
@@ -1107,14 +1160,17 @@ Você pode executar as seguintes ações usando o menu Opções do arquivo de ma
 - **Abrir painel do mapa**: abra o painel do mapa.
 
 - **Exibir na interface do usuário do Assets**: use essa opção para mostrar uma pré-visualização do arquivo de mapa na interface do usuário do Assets. Nesta exibição, todos os arquivos de tópico no mapa são mostrados em uma única exibição unificada página por página.
-- **Baixar mapa**: selecione esta opção para abrir a variável **Baixar mapa** diálogo.
-No **Baixar mapa** você pode escolher as seguintes opções:
+- **Baixar mapa**: selecione esta opção para abrir a variável **Baixar mapa** caixa de diálogo.
+No **Baixar mapa** caixa de diálogo, você pode escolher as seguintes opções:
    - **Usar Linha de Base**: selecione esta opção para obter uma lista de Linhas de Base criadas para o mapa DITA. Para baixar o arquivo de mapa e seu conteúdo com base em uma Linha de Base específica, selecione a Linha de Base na lista suspensa. Para obter mais detalhes sobre como trabalhar com Linhas de Base, exiba [trabalhar com Linha de Base](./generate-output-use-baseline-for-publishing.md).
    - **Nivelar Hierarquia de Arquivo**: selecione esta opção para salvar todos os tópicos e arquivos de mídia referenciados em uma única pasta.
 
   Também é possível baixar o arquivo de mapa sem selecionar nenhuma opção. Nesse caso, as últimas versões persistentes dos tópicos e arquivos de mídia referenciados são baixadas.
 
-  Depois de clicar no botão **Baixar** , a solicitação de download de mapa é enfileirada. Você recebe a notificação de que o mapa está pronto para download se estiver pronto para download. Caso o download falhe, você receberá a notificação de que o download do mapa falhou
+
+  Depois de clicar no botão **Baixar** , a solicitação de pacote de exportação de mapa é enfileirada. A variável **Sucesso** será exibida se o pacote for criado com sucesso.  Você pode clicar no link **Baixar** botão no **Sucesso** caixa de diálogo.
+
+  Você recebe a notificação de que o mapa está pronto para download se estiver pronto para download. Caso o download falhe, você receberá a notificação de que o download do mapa falhou.
 
   Você pode acessar o link de download na Caixa de entrada de notificação do AEM. Selecione a notificação de mapa gerada na Caixa de entrada para baixar o mapa no formato .zip.
 
@@ -1801,7 +1857,9 @@ Se o administrador tiver criado um perfil para atributos, você obterá esses at
 
 **Propriedades do arquivo** -  ![](images/topic-properties-icon.svg)
 
-Visualize as propriedades do arquivo selecionado clicando no ícone Propriedades do arquivo no painel direito. As Propriedades do arquivo têm as duas seções a seguir:
+Exibir as propriedades do arquivo selecionado clicando em Propriedades do Arquivo ![](images/topic-properties-icon.svg) no painel direito. O recurso Propriedades do arquivo está disponível em todos os quatro modos ou visualizações: Layout, Autor, Origem e Visualização.
+
+As Propriedades do arquivo têm as duas seções a seguir:
 
 **Geral**
 

@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leia a documentação do produto para o Adobe Experience Manager Guides.
 breadcrumb-title: Documentação do AEM Guides
-source-git-commit: 4bb3a064a44b0b0c638ef22d0d7c219c77a20b20
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '1686'
+source-wordcount: '1699'
 ht-degree: 4%
 
 ---
@@ -58,23 +58,28 @@ ht-degree: 4%
             + [Notas de versão de fevereiro](./release-info/release-notes-2022.2.0.md)
             + [Notas de versão de janeiro](./release-info/release-notes-2022.1.0.md)
       + No local/Managed Services {#on-prem-release-notes}
-         + Versão 4.3.0 {#43-release}
-            + Novidades {#43-whats-new}
-               + [4.3.1 Novidades](./release-info/whats-new-4.3.1-release.md)
-               + [4.3.0 Novidades](./release-info/whats-new-4.3-release.md)
-            + Notas de versão {#43-release-notes}
-               + [Notas de versão do 4.3.1](./release-info/release-notes-4.3.1.md)
-               + [Notas de versão 4.3.0](./release-info/release-notes-4.3.md)
-         + Versão 4.2 {#42-release}
-            + Novidades {#42-whats-new}
-               + [4.2.1 Novidades](./release-info/whats-new-4.2.1-release.md)
-               + [4.2 Novidades](./release-info/whats-new-4.2-release.md)
-            + Notas de versão {#42-release-notes}
-               + [Notas de versão 4.2.1](./release-info/release-notes-4.2.1.md)
-               + [Notas de versão 4.2](./release-info/release-notes-4.2.md)
-         + [Notas de versão 4.1.x](./release-info/release-notes-4.1.md)
-         + [Notas de versão 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         + [Notas de versão do 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+      + Versão 4.4.0 {#44-release}
+         + Novidades {#44-whats-new}
+            + [4.4 Novidades](./release-info/whats-new-4.4.md)
+         + Notas de versão {#43-release-notes}
+            + [Notas de versão 4.4](./release-info/release-notes-4.4.md)
+      + Versão 4.3.0 {#43-release}
+         + Novidades {#43-whats-new}
+            + [4.3.1 Novidades](./release-info/whats-new-4.3.1-release.md)
+            + [4.3.0 Novidades](./release-info/whats-new-4.3-release.md)
+         + Notas de versão {#43-release-notes}
+            + [Notas de versão do 4.3.1](./release-info/release-notes-4.3.1.md)
+            + [Notas de versão 4.3.0](./release-info/release-notes-4.3.md)
+      + Versão 4.2 {#42-release}
+         + Novidades {#42-whats-new}
+            + [4.2.1 Novidades](./release-info/whats-new-4.2.1-release.md)
+            + [4.2 Novidades](./release-info/whats-new-4.2-release.md)
+         + Notas de versão {#42-release-notes}
+            + [Notas de versão 4.2.1](./release-info/release-notes-4.2.1.md)
+            + [Notas de versão 4.2](./release-info/release-notes-4.2.md)
+      + [Notas de versão 4.1.x](./release-info/release-notes-4.1.md)
+      + [Notas de versão 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+      + [Notas de versão do 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 + Guia do usuário {#user-guide}
    + Introdução {#about-aem-guide}
       + [Sobre [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -400,7 +405,7 @@ ht-degree: 4%
             + Componentes {#framework-components}
                + [Botão](./guides-ui-extensions/aem_guides_framework/components/button.md)
                + [Ícone](./guides-ui-extensions/aem_guides_framework/components/icon.md)
-               + [Etiqueta](./guides-ui-extensions/aem_guides_framework/components/label.md)
+               + [Rótulo](./guides-ui-extensions/aem_guides_framework/components/label.md)
                + [Lista](./guides-ui-extensions/aem_guides_framework/components/list.md)
                + [Área do texto](./guides-ui-extensions/aem_guides_framework/components/textArea.md)
             + Widgets {#framework-widgets}
