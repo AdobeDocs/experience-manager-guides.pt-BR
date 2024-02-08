@@ -4,7 +4,7 @@ description: Saiba mais sobre Ativação em massa de conteúdo publicado. Saiba 
 exl-id: 3643ecab-b5c1-41ea-8b7b-1470ead63aec
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 5dac015816317ee9739c7c3678541592a7145e89
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Ativação em massa de conteúdo publicado {#id214GG080LE8}
 
-Em um cenário de palavras reais, seus autores teriam acesso à instância de criação do AEM, enquanto o conteúdo real seria publicado na instância de publicação do AEM. As instâncias de publicação poderiam então ser implantadas ainda mais em diferentes geolocalizações. A saída publicada deve ser movida para esses servidores de publicação por meio de diferentes processos. O processo de mover o conteúdo da instância de criação para a instância de publicação é chamado de ativação ou replicação de conteúdo.
+Em um cenário do mundo real, seus autores teriam acesso à instância de criação do AEM, enquanto o conteúdo real é publicado na instância de publicação do AEM. As instâncias de publicação poderiam então ser implantadas ainda mais em diferentes geolocalizações. A saída publicada deve ser movida para esses servidores de publicação por meio de diferentes processos. O processo de mover o conteúdo da instância de criação para a instância de publicação é chamado de ativação ou replicação de conteúdo.
 
 >[!NOTE]
 >
