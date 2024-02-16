@@ -5,7 +5,7 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: 5a444e88b0adba7fa3d498437df39b729b10b5eb
 workflow-type: tm+mt
 source-wordcount: '5744'
 ht-degree: 0%
@@ -237,7 +237,7 @@ Depois de instalar o Experience Manager Guides, você pode mesclar as várias co
    - ui\_config.json\(pode ter sido definido em perfis de pasta\)
    - alterado `com.adobe.fmdita.config.ConfigManager`
    - Verifique se qualquer um dos códigos personalizados estava usando caminhos antigos \(como mencionado na [Mapeamento de migração](#id2244LE040XA) section\) - deve ser atualizado para os novos caminhos para que as personalizações também funcionem conforme esperado.
-1. Leia sobre as novas configurações trazidas na versão atual \(verifique [Notas de versão](../release-info/release-notes-4.3.md)\) e veja se alguma funcionalidade foi afetada, em seguida, tome as medidas apropriadas. Um exemplo pode ser o uso da seção &quot;Manuseio aprimorado de arquivos e versões&quot;, introduzida na versão 4.0, para a qual é necessário ativar uma configuração.
+1. Leia sobre as novas configurações trazidas na versão atual \(verifique [Notas de versão](../release-info/release-notes-4-3.md)\) e veja se alguma funcionalidade foi afetada, em seguida, tome as medidas apropriadas. Um exemplo pode ser o uso da seção &quot;Manuseio aprimorado de arquivos e versões&quot;, introduzida na versão 4.0, para a qual é necessário ativar uma configuração.
 
 ## Etapas para indexar o conteúdo existente para usar a nova localização e substituição:
 
@@ -452,7 +452,7 @@ Depois de instalar o Experience Manager Guides, você pode mesclar as várias co
    - ui\_config.json\(pode ter sido definido em perfis de pasta\)
    - alterado `com.adobe.fmdita.config.ConfigManager`
    - Verifique se qualquer um dos códigos personalizados estava usando caminhos antigos \(como mencionado na [Mapeamento de migração](#id2244LE040XA) section\) - deve ser atualizado para os novos caminhos para que as personalizações também funcionem conforme esperado.
-1. Leia sobre as novas configurações trazidas na versão atual \(verifique [Notas de versão](../release-info/release-notes-4.2.1.md)\) e veja se alguma funcionalidade foi afetada, em seguida, tome as medidas apropriadas. Um exemplo pode ser o uso da seção &quot;Manuseio aprimorado de arquivos e versões&quot;, introduzida na versão 4.0, para a qual é necessário ativar uma configuração.
+1. Leia sobre as novas configurações trazidas na versão atual \(verifique [Notas de versão](../release-info/release-notes-4-2-1.md)\) e veja se alguma funcionalidade foi afetada, em seguida, tome as medidas apropriadas. Um exemplo pode ser o uso da seção &quot;Manuseio aprimorado de arquivos e versões&quot;, introduzida na versão 4.0, para a qual é necessário ativar uma configuração.
 
 ## Etapas para indexar o conteúdo existente para usar a nova localização e substituição:
 
