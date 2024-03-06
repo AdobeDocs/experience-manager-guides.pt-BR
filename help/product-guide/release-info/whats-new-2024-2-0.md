@@ -1,34 +1,41 @@
 ---
-title: Notas de versão | Novidades nos Guias da Adobe Experience Manager, versão de fevereiro de 2024
-description: Conheça os recursos novos e aprimorados da versão de fevereiro de 2024 do Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+title: Notas de versão | Novidades nos Guias da Adobe Experience Manager, versão 2024.2.0
+description: Saiba mais sobre os recursos novos e aprimorados da versão 2024.2.0 do Adobe Experience Manager Guides as a Cloud Service.
+source-git-commit: f5940d0ddf19733411532281fb614690075c02ee
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1069'
 ht-degree: 0%
 
 ---
 
-# Novidades da versão de fevereiro de 2024 do Adobe Experience Manager Guides as a Cloud Service
+# Novidades da versão 2024.2.0
 
-Este artigo aborda os recursos novos e aprimorados da versão de fevereiro de 2024 dos Guias do Adobe Experience Manager (mais tarde chamados de *Guias do Experience Manager as a Cloud Service*).
+Este artigo aborda os recursos novos e aprimorados da versão 2024.2.0 dos Guias do Adobe Experience Manager.
 
-Para obter mais detalhes sobre as instruções de atualização, a matriz de compatibilidade e os problemas corrigidos nesta versão, consulte [Notas de versão](release-notes-2023-12-0.md).
+Para obter a lista de problemas que foram corrigidos nesta versão, consulte [Correção de problemas na versão 2024.2.0](fixed-issues-2024-2-0.md).
 
-## Sugestões inteligentes baseadas em IA para criar conteúdo
+
+Saiba mais sobre [instruções de atualização da versão 2024.2.0](upgrade-instructions-2024-2-0.md).
+
+
+
+## Sugestões inteligentes habilitadas por IA para adicionar referências de conteúdo durante a criação de conteúdo
 
 Agora, você pode aprimorar sua jornada de criação com as Sugestões inteligentes, um novo recurso baseado em IA no Editor da Web. Enquanto você cria seu conteúdo, esse recurso inteligente fornece sugestões em tempo real para referências de conteúdo, melhorando seu fluxo de trabalho, adicionando precisão e garantindo uma eficiência inigualável.
 
 
 Para manter o conteúdo correto e consistente, a pesquisa e as sugestões estão limitadas ao conteúdo de propriedade da organização e correspondem estreitamente às palavras-chave que você pesquisa.
 
-![Painel de sugestões inteligentes no Editor da Web ](web-editor-smart-suggestion.png) {width="800" align="left"}
+![Painel de sugestões inteligentes no Editor da Web ](assets/web-editor-smart-suggestion.png) {width="800" align="left"}
 
 
 *Exiba as Sugestões inteligentes para localizar e adicionar referências de conteúdo correspondentes a partir do seu repositório de conteúdo.*
 
-Você também pode comparar o conteúdo atual com conteúdo semelhante nos outros tópicos. Em seguida, você pode selecionar facilmente as partes do conteúdo de vários tópicos e adicioná-las como referências de conteúdo ao tópico atual. Adicionar as referências de conteúdo torna as atualizações mais gerenciáveis, especialmente em projetos de documentação maiores. Por exemplo, suponha que você esteja criando um folheto sobre os recursos mais recentes de seu produto. Nesse caso, você pode adicionar rapidamente as especificações atualizadas como referências de conteúdo dos documentos de recursos relacionados.
+Você também pode comparar o conteúdo atual com conteúdo semelhante nos outros tópicos. Em seguida, você pode selecionar facilmente as partes do conteúdo de vários tópicos e adicioná-las como referências de conteúdo ao tópico atual. Adicionar as referências de conteúdo torna as atualizações mais gerenciáveis, especialmente em projetos de documentação maiores. Por exemplo, você está criando um folheto sobre os recursos mais recentes do seu produto. Nesse caso, você pode adicionar rapidamente as especificações atualizadas como referências de conteúdo dos documentos de recursos relacionados.
 
 Usar esse recurso inteligente reduz o esforço manual de pesquisa de conteúdo relacionado e ajuda você a se concentrar na criação de novo conteúdo.  Também ajuda a manter a consistência e também facilita uma melhor colaboração em equipe.
+
+Saiba mais sobre [Sugestões inteligentes habilitadas por IA para criar conteúdo](../user-guide/authoring-ai-based-smart-suggestions.md).
 
 ## Recurso de histórico de versão remodelado no Editor da Web
 
@@ -40,7 +47,7 @@ Agora, os Guias do Experience Manager fornecem um recurso aprimorado de históri
 
 Saiba mais sobre o **Histórico da versão** descrição do recurso na [Painel esquerdo](../user-guide/web-editor-features.md#id2051EA0M0HS) seção.
 
-## Painel Tradução aprimorada
+## Experiência do usuário aprimorada no painel Tradução
 
 A variável **Tradução** foi melhorado.  É possível exibir a **Idiomas disponíveis** e selecione rapidamente o local em que deseja traduzir o projeto. Com uma única seleção, você também pode escolher **Selecionar tudo** para traduzir o projeto para todos os idiomas disponíveis.
 
@@ -66,7 +73,7 @@ Por exemplo, ao editar um parágrafo em que você deseja inserir um elemento, é
 Para obter mais detalhes, consulte **Inserir elemento** descrição do recurso na [Painel esquerdo](../user-guide/web-editor-features.md#id2051EA0M0HS) seção.
 
 
-## Capacidade de dividir uma lista no mesmo nível
+## Capacidade de dividir a lista atual e iniciar com um novo item de lista no mesmo nível
 
 Agora, você pode dividir facilmente sua lista no Editor da Web. Selecione o **Dividir lista** opção do menu de contexto de um item de lista para dividir a lista atual. Uma nova lista é criada no mesmo nível, começando com o item de lista selecionado para a divisão.
 
@@ -82,14 +89,14 @@ Agora você pode acessar o painel direito **Propriedades do arquivo** nos quatro
 
 Para obter mais detalhes, consulte **Propriedades do arquivo** descrição do recurso na [Painel direito](../user-guide/web-editor-features.md#id2051EB003YK) seção.
 
-## Publicar várias predefinições de saída em paralelo
+## Capacidade de publicar várias predefinições de saída com linhas de base dinâmicas em paralelo
 
 Experience Manager fornece o recurso para criar linhas de base ao selecionar automaticamente os tópicos de acordo com o rótulo aplicado a eles. Agora, você também pode publicar facilmente várias predefinições de saída com linhas de base automáticas do mesmo mapa DITA. Não é necessário publicar apenas uma predefinição por vez, mas é possível publicar facilmente várias predefinições de saída em paralelo.
 
 
 ## Aprimoramentos de PDF nativo
 
-Os seguintes aprimoramentos do PDF nativo foram feitos na versão de fevereiro de 2024:
+Os seguintes aprimoramentos do PDF nativo foram feitos na versão 2024.2.0:
 
 ### Passar metadados de ativos para a saída do PDF
 

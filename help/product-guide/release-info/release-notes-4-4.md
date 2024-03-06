@@ -1,9 +1,9 @@
 ---
 title: Notas de versão | Instruções de atualização e problemas corrigidos na versão 4.4.0 do Adobe Experience Manager Guides
 description: Saiba mais sobre as correções de erros e como atualizar para a versão 4.4.0 do Adobe Experience Manager Guides
-source-git-commit: 5a444e88b0adba7fa3d498437df39b729b10b5eb
+source-git-commit: 1b25f1df67fa2442ab79830dc2ac5a6eabd0394c
 workflow-type: tm+mt
-source-wordcount: '1808'
+source-wordcount: '1820'
 ht-degree: 0%
 
 ---
@@ -17,14 +17,14 @@ Para obter mais informações sobre os novos recursos e aprimoramentos, consulte
 ## Atualização para a versão 4.4.0 dos Guias do Experience Manager
 
 
-Você pode atualizar facilmente sua versão atual do Guides para a versão 4.4.0. Antes de prosseguir com a atualização para a versão 4.4.0 dos Guias do Experience Manager, você deve considerar os seguintes pontos:
+Você pode facilmente atualizar sua versão atual dos Guias do Experience Manager para a versão 4.4.0. Antes de prosseguir com a atualização para a versão 4.4.0 dos Guias do Experience Manager, você deve considerar os seguintes pontos:
 
 
 - Se você estiver usando a versão 4.3.1, 4.3.0 ou 4.2.1 (Hotfix 4.2.1.3), é possível atualizar diretamente para a versão 4.4.0.
 - Se você estiver usando a versão 4.2, 4.1 ou 4.1.x, será necessário atualizar para a versão 4.3.1, 4.3.0 ou 4.2.1 (Hotfix 4.2.1.3) antes de atualizar para a versão 4.4.0.
 - Se você estiver usando a versão 4.0, será necessário atualizar para a versão 4.2 antes de atualizar para a versão 4.3.x.
 - Se você estiver usando a versão 3.8.5, será necessário atualizar para a versão 4.0 antes de atualizar para a versão 4.2.
-- Se você estiver em uma versão anterior à 3.8.5, consulte a seção Guias de atualização de Experience Manager no guia de instalação específico do produto.
+- Se você estiver usando uma versão anterior à 3.8.5, consulte a seção Guias de atualização de Experience Manager no guia de instalação específico do produto, disponível em [Arquivos de Ajuda do Adobe Experience Manager Guides PDF](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 
 
