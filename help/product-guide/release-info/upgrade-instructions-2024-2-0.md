@@ -1,7 +1,7 @@
 ---
 title: Notas de versão | Instruções de atualização e problemas corrigidos nos Guias da Adobe Experience Manager, versão 2024.2.0
 description: Saiba mais sobre a matriz de compatibilidade e como atualizar para a versão 2024.2.0 do Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: e7457762ced59f696c5bd762c719cfd59b357250
+source-git-commit: 9022b8fbae9ff9eba962ca75e25c1f1137b008f8
 workflow-type: tm+mt
 source-wordcount: '866'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Esta seção lista a matriz de compatibilidade para os aplicativos de software c
 
 | Versão do Experience Manager Guides as a Cloud | Janelas do conector Oxygen | Conector Oxygen Mac | Editar no Oxygen Windows | Editar no Oxygen Mac |
 | --- | --- | --- | --- | --- |
-| 2024.2.0 | 3.4-uuid 1 | 3.4-uuid 1 | 2,3 | 2,3 |
+| 2024.2.0 | 3.5-uuid 1 | 3.5-uuid 1 | 2,3 | 2,3 |
 |  |  |  |  |
 
 
