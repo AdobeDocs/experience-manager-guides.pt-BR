@@ -5,7 +5,7 @@ exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: e3fcfeb94c77ee9e499425608048fc882eaa293b
+source-git-commit: 7790aa9dce9a586b8b422dc6deeecab3d53aca8d
 workflow-type: tm+mt
 source-wordcount: '1151'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Você pode criar modelos de PDF personalizados com layouts de página específic
 Para criar um novo modelo de PDF, execute as seguintes etapas:
 
 1. No Editor da Web, vá para a **Output** guia.
-1. Selecionar **Modelos** <img src="./assets/template.svg" alt= "ícone de modelos" width="25"> no painel esquerdo.
+1. Selecionar **Modelos** ![ícone de modelos](./assets/template.svg) no painel esquerdo.
 
    <img src="assets/create-pdf-template.png" alt="Criar modelo de PDF" width="400">
 
