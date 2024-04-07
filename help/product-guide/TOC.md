@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leia a documentação do produto para o Adobe Experience Manager Guides.
 breadcrumb-title: Documentação do AEM Guides
-source-git-commit: fa6486d7a1ca392742968fc4adad3e3910a91903
+source-git-commit: 6ff99d32dd7a30c1104a79da4f223defe109f190
 workflow-type: tm+mt
-source-wordcount: '1749'
-ht-degree: 6%
+source-wordcount: '1754'
+ht-degree: 5%
 
 ---
 
@@ -402,6 +402,7 @@ ht-degree: 6%
          - Relatórios {#reports}
             - [Gerenciar metadados para seu conteúdo DITA](./knowledge-base/kb-articles/authoring/reports/manage-metadata.md)
          - Editor da Web {#webeditor}
+            - [Reutilização de conteúdo em guias AEM](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
             - Personalização {#customizing}
                - [Adicionar botão personalizado à barra de ferramentas](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
                - [Adicionar estilos personalizados ao Editor da Web](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
