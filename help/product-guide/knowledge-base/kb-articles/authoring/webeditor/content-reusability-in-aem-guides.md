@@ -2,9 +2,10 @@
 title: Reutilização de conteúdo DITA nos guias AEM
 description: Este breve artigo informa como os Guias do AEM e o DITA ajudam a economizar tempo e esforço ao usar a reutilização de conteúdo
 role: User, Admin
-source-git-commit: 8fceb5e76dcc946efc118b217e93088619c5c5c6
+exl-id: 1522ebf5-2aea-4d8f-ade7-367227b31dd9
+source-git-commit: 4160c990bafe41611714ef66ee361aba0ef47c0a
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '553'
 ht-degree: 0%
 
 ---
@@ -15,9 +16,9 @@ Os Guias do Adobe AEM aproveitam os pontos fortes do DITA para fornecer uma inte
 
 Neste artigo falamos sobre:
 
-1. Reutilização usando referência de tópico (`topicrefs`)
-2. Reutilização usando referência de conteúdo (`conref` e `conkeyref`)
-3. Dica de bônus para reutilizar o conteúdo com arrastar e soltar nas Guias AEM
+1. [Reusabilidade usando referência de tópico (](#reusability-using-topic-referencestopicref)
+2. [Reutilização usando referência de conteúdo (](#reusability-using-content-reference-conref--conkeyref)
+3. [Dica de bônus para reutilizar o conteúdo ao arrastar e soltar nas Guias do AEM](#reuse-content-with-a-single-click-in-aem-guides)
 
 ## Reusabilidade usando referências de tópico (topicref)
 
@@ -80,7 +81,7 @@ Aqui `conref=kyc_procedures.dita#indvidual_kyc` kyc_procedures.dita é o identif
 
 Kyc_procedure.dita continua a ser a única fonte de informação. Se houver alterações no processo KYC conforme exigido pelos regulamentos, basta atualizar um tópico e essas alterações serão refletidas automaticamente em todos os tópicos que se referem a ele.
 
-Usando Guias AEM, Seus dois cliques
+Usando Guias AEM, seus dois cliques
 
 Etapa 1: Clique em Inserir conteúdo reutilizável
 ![barra de ferramentas](../../assets/publishing/content-reusability_image1.png)
@@ -124,7 +125,7 @@ Chave - &quot;Kyc_procedure&quot; continuará sendo a única fonte de informaç�
 
 Aqui, o caminho do tópico é alterado de &quot;kyc_procedure_2020.dita&quot; para &quot;kyc_procedure_2024.dita&quot; devido a alterações recentes na regulamentação.
 
-Usando Guias AEM, Seus dois cliques
+Usando Guias AEM, seus dois cliques
 
 Etapa 1: Clique em Inserir conteúdo reutilizável
 ![barra de ferramentas](../../assets/publishing/content-reusability_image1.png)
@@ -153,7 +154,7 @@ Etapa 2: Depois de adicionado, arraste e solte o fragmento que deseja reutilizar
 
 - ### Todo o conteúdo não é exibido após a seleção do arquivo/chave na caixa de diálogo Reutilizar conteúdo
 
-Você precisa atribuir IDs a fragmentos (elementos Dita ) que gostaria de reutilizar em outros tópicos
+Você deve atribuir IDs a fragmentos (elementos Dita ) que deseja reutilizar em outros tópicos
 
 - ## As chaves não são exibidas na caixa de diálogo Reutilizar conteúdo
 
@@ -164,4 +165,3 @@ Verifique se você abriu o mapa raiz/mapa pai na exibição de mapa que tem uma 
 
 
 Publicar na comunidade do AEM Guides [fórum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) para qualquer consulta.
-
