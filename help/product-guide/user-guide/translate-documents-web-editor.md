@@ -4,9 +4,9 @@ description: Traduza o conteúdo para vários idiomas no editor da Web. Saiba co
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: ce7619538b229625277a552071bed8800e67f677
 workflow-type: tm+mt
-source-wordcount: '1925'
+source-wordcount: '2246'
 ht-degree: 0%
 
 ---
@@ -36,19 +36,37 @@ Antes de executar etapas neste procedimento, verifique se você criou a raiz de 
 
 ## Criar um novo projeto de tradução
 
-1. No painel Repositório, abra o arquivo de mapa DITA na exibição de mapa.
-1. Clique em **Gerenciar** guia. O painel Tradução exibe a **Idiomas disponíveis** lista.
-1. No **Idiomas disponíveis** selecione o local para o qual deseja traduzir o projeto. Você pode escolher **Selecionar tudo** para traduzir o projeto para todos os idiomas disponíveis.
+1. No **Repositório** abra o arquivo de mapa DITA na exibição de mapa.
+1. Clique em **Gerenciar** guia. A variável **Painel Tradução** exibe os grupos de idiomas disponíveis.
 
-   >[!NOTE]
-   >
-   > A lista contém as pastas de idioma junto com seus códigos de idioma. Por exemplo, francês \(fr\) e alemão \(de\).
+1. Como usuário, você pode exibir os grupos de idiomas configurados para o perfil da pasta. Os grupos de idiomas exibem as pastas de idiomas junto com seus códigos de idioma. Por exemplo, o grupo de idiomas denominado G1 contém as pastas de idiomas \(it\), Alemão \(de\), Francês \(fr\) e Inglês \(en\).
+
+   ![painel tradução](images/translation-languages.png){width="300" align="left"}
+
+   *Selecione os grupos de idiomas ou idiomas nos quais deseja traduzir os documentos.*
+
 
    >[!IMPORTANT]
    >
-   > A lista mostra apenas os idiomas para os quais uma pasta de idioma é criada paralelamente ao idioma de origem. Uma pasta de idioma criada em qualquer outro nível, como um nível abaixo da pasta de idioma de origem, também não é exibida. Crie todas as pastas de idioma de destino no mesmo nível que a pasta de idioma de origem.
+   > Você só pode selecionar e traduzir para os idiomas para os quais criou a pasta de destino paralelamente ao idioma de origem. Uma pasta de idioma criada em qualquer outro nível, como um nível abaixo da pasta de idioma de origem, também não é exibida. Crie todas as pastas de idioma de destino no mesmo nível que a pasta de idioma de origem.
 
-   ![](images/translation-languages.png){width="300" align="left"}
+
+
+1. Você pode selecionar qualquer grupo de idiomas como destino para a tradução. Se você **Selecionar tudo**, os arquivos selecionados são traduzidos para todos os idiomas disponíveis nos grupos de idiomas existentes.
+
+   A opção de pasta de idioma aparece esmaecida e mostra um sinal de aviso:
+
+   - Se a pasta de destino de um idioma estiver ausente.
+   - Se o idioma de destino for o mesmo do idioma de origem.
+
+
+   >[!NOTE]
+   >
+   > Se você criar a pasta de destino para um idioma depois de criar o grupo de idiomas, atualize o navegador para habilitar o idioma nos grupos de idiomas.
+
+1. Se você escolher um idioma específico, ele será exibido como selecionado em todos os grupos de idiomas selecionados. Então, quando você traduz para qualquer idioma, ela é traduzida de uma só vez para todos os grupos de idiomas. Por exemplo, se o alemão estiver presente nos grupos de idiomas G1 e G2, ele será selecionado para ambos.
+
+1. No **Outros idiomas**, você pode escolher qualquer idioma para o qual criou a pasta de destino, mas não faz parte de nenhum grupo de idiomas.
 
 1. Você também pode selecionar uma das seguintes opções para traduzir o projeto:
 
@@ -113,7 +131,7 @@ O Guia AEM permite que os administradores configurem as regras de tradução. O 
 
 Os arquivos SRX devem ser nomeados como `<language-code>.srx`. Por exemplo, en-US ou ar-AE.
 
->[Nota]
+>[!NOTE]
 >O título não diferencia maiúsculas de minúsculas, portanto, você pode ter &quot;en-US&quot;, &quot;en-us&quot; ou &quot;EN-us&quot;. Além disso, os guias de AEM podem resolver &#39;-&#39; (hífen) ou &#39;_&#39; (sublinhado). Então, você pode ter &quot;en-US&quot; ou &quot;en_US&quot;.
 
 Além disso, você pode colocar esses arquivos dentro de qualquer pasta na raiz de ativos AEM `./content/dam`.
@@ -188,5 +206,19 @@ Algumas das referências no painel de tradução podem estar com o status em and
 Clique no nome da referência na caixa de diálogo para abri-la no modo de visualização. Você também pode clicar no projeto de tradução para iniciar a tradução.
 
 ![](images/translation-in-progress.png){width="550" align="left"}
+
+
+## Excluir ou desabilitar automaticamente um projeto de tradução concluído
+
+>[!NOTE]
+> 
+>Esse recurso está disponível para os novos projetos de tradução criados usando a versão 2404 ou posterior do Guias do Experience Manager.  Isso não afetará nenhum projeto existente.
+
+O administrador pode configurar o **Limpeza do projeto de tradução após a conclusão** opção no campo **Tradução** guia em **Configurações do editor** para desativar ou excluir os projetos de tradução automaticamente.
+
+Para afetar o gerenciamento de documentos, os Guias do Experience Manager fornecem a capacidade de excluir os projetos de tradução depois que você conclui a tradução.
+
+Você também pode desativar os projetos de tradução se desejar usá-los posteriormente. A exclusão de um projeto exclui todos os arquivos e pastas presentes no projeto. Desativar um projeto não o exclui, mas o mantém no repositório. Mas não é possível atualizar ou editar um projeto desativado.  A exclusão ou desativação de um projeto não afetará o status de tradução de nenhuma referência.
+
 
 **Tópico pai:**[ Trabalhar com o editor da Web](web-editor.md)

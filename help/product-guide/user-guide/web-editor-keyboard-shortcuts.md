@@ -4,9 +4,9 @@ description: Descubra atalhos de teclado que economizam tempo no editor da Web d
 exl-id: d843c5a9-04f8-44f2-9bf5-60cb4ed7fa38
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 33da473cfa8c654a5413f9d8cbe9c43acaf65766
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -49,5 +49,6 @@ Há muitas operações no Editor da Web que você pode executar usando os atalho
 | Abrir caixa de diálogo Imprimir | ***Ctrl***+**P** | ***Comando***+**P** |
 | Desfazer a última ação | ***Ctrl***+**Z** | ***Comando***+**Z** |
 | Refazer a última ação | ***Ctrl***+**Y** | ***Comando***+**Y** |
+| Inserir espaço sem quebra `(&nbsp;)` | ***Alt***+**Espaço** | ***Opção***+**Espaço** |
 
 **Tópico pai:** [Trabalhar com o editor da Web](web-editor.md)

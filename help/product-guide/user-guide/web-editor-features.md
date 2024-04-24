@@ -4,9 +4,9 @@ description: Descubra os recursos do editor da Web em Guias do AEM. Conhecer a i
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: 43bdcba4642c9d75585bc571acf0cb0da22a5f4c
 workflow-type: tm+mt
-source-wordcount: '17861'
+source-wordcount: '18678'
 ht-degree: 0%
 
 ---
@@ -222,11 +222,33 @@ Isso impede que os usuários salvem qualquer arquivo que quebre uma regra defini
 
   ![](images/editor-settings-display-attributes.png){width="550" align="left"}
 
-- **Tradução**: Esta guia contém a opção para propagar os labels de origem para a versão de destino.
+- **Tradução**: essa guia contém as opções para criar grupos de idiomas, propagar os rótulos de origem para a versão de destino e limpar o projeto de tradução.
+  ![](images/editor-setting-translation.png){width="550" align="left"}
+
+   - **Grupos de idiomas**: como administrador, você pode criar um grupo de idiomas e usá-los como um conjunto para traduzir o conteúdo.\
+     Execute as seguintes etapas para criar um novo grupo de idiomas:
+      1. Selecione a opção Adicionar ![ícone adicionar](images/Add_icon.svg) ícone.
+      1. Informe o nome do grupo de idiomas. Cada idioma deve ter um nome exclusivo. Você pode exibir um erro se o campo de nome estiver vazio ou se o nome não for exclusivo.
+      1. Selecione os idiomas na lista suspensa. Você pode selecionar vários idiomas.
+
+     Digite os primeiros caracteres do idioma ou o código do idioma para filtrar os idiomas desejados. Por exemplo, digite &quot;en&quot; para filtrar todos os idiomas que contêm &quot;en&quot; no início do nome ou código.
+      1. Selecionar **Concluído** para adicionar os idiomas selecionados ao grupo. Os idiomas são exibidos. Ao adicionar três ou mais idiomas, **Mostrar mais** é exibido. É possível selecionar **Mostrar mais** para exibir todos os idiomas presentes no grupo.
+         >[!TIP]
+         >
+         > Alternar **Mostrar mais** para **Mostrar menos** e exibir apenas alguns idiomas.
+
+      1. Passe o mouse sobre os idiomas em um grupo para editar ![ícone editar](images/edit_pencil_icon.svg) ou excluir ![excluir](images/Delete_icon.svg) os grupos de idiomas.
+      1. Salve o **Configurações do editor**.
+
+         >[!NOTE]
+         >
+         >Como usuário, você pode exibir os grupos de idiomas configurados para o perfil da pasta.
 
    - **Propagar rótulos de versão de origem para a versão de destino**: selecione essa opção para passar o rótulo da versão do arquivo de origem para o arquivo traduzido. Por padrão, está desativado.
+   - **Limpeza do projeto de tradução após a conclusão**: selecione essa opção para configurar os projetos de tradução para serem desabilitados ou excluídos automaticamente após a tradução. Por padrão, **Nenhum** for selecionada, de modo que o projeto exista após a tradução.
 
-  ![](images/editor-setting-translation.png){width="550" align="left"}
+     Você pode desativar os projetos de tradução se desejar usá-los posteriormente. A exclusão de um projeto exclui permanentemente todos os arquivos e pastas presentes no projeto.
+
 
 - **Metadados**: Você pode controlar os metadados da versão do tópico e seus valores a serem exibidos no **Histórico da versão** caixa de diálogo.  No caminho dos metadados, especifique a localização dos nós dos quais deseja selecionar os metadados. Também é possível definir um nome personalizado para os metadados como o rótulo. As propriedades padrão são Título, Estado do documento e Tags.
 
@@ -250,36 +272,48 @@ Os rótulos de metadados aparecem na mesma sequência no **Histórico da versão
 
 
 
-**Preferências do usuário** - ![](images/user_preference_editor_icon.svg)
+**Preferências do usuário** - ![ícone de preferências do usuário](images/user_preference_editor_icon.svg)
 
-As Preferências do usuário estão disponíveis para todos os autores. Usando as preferências, um autor pode definir as seguintes configurações:
+As preferências do usuário estão disponíveis para todos os autores. Usando as preferências, um autor pode definir as seguintes configurações:
 
-![](images/user_preference_editor.PNG){width="550" align="left"}
 
-- **Usar tema do dispositivo**: marque essa caixa de seleção para permitir que Guias do AEM alternem automaticamente entre temas claros e escuros com base no tema do seu dispositivo.
 
-- **Exibir arquivos por**: selecione a maneira padrão de exibir os arquivos no Editor da Web. Você pode visualizar a lista de arquivos pelos títulos ou pelos nomes de arquivos dos vários painéis no **Autor** exibição.
-  >[!NOTE]
-  >
-  > Por padrão, os arquivos são exibidos por título no Editor da Web.
+- **Geral**: A guia General permite definir as seguintes configurações:
 
-- **Tema**: Você pode escolher entre os temas Claro, Mais claro, Escuro ou Mais escuro do editor. No caso do tema Mais claro, as barras de ferramentas e os painéis usam um plano de fundo de cor cinza mais claro. No caso do tema claro, as barras de ferramentas e os painéis usam o plano de fundo cinza-claro. No caso do tema Mais escuro, as barras de ferramentas e os painéis usam um plano de fundo de cor preta mais escuro. No caso do tema Escuro, as barras de ferramentas e os painéis usam o plano de fundo preto. Em todos os temas, a área de edição de conteúdo é mostrada em fundo branco.
+  ![Guia Geral das preferências do usuário](images/user_preference_editor.PNG){width="550" align="left"}
 
-- **Perfis de pasta**: o Perfil de pasta controla várias configurações relacionadas a atributos condicionais, modelos de criação, predefinições de saída e configurações do Editor da Web. O Perfil global é exibido por padrão. Além disso, se o administrador tiver configurado perfis de pastas no sistema, esses perfis de pastas também serão mostrados na lista Perfis de pastas.
+   - **Perfis de pasta**: o Perfil de pasta controla várias configurações relacionadas a atributos condicionais, modelos de criação, predefinições de saída e configurações do Editor da Web. O Perfil global é exibido por padrão. Além disso, se o administrador tiver configurado perfis de pastas no sistema, esses perfis de pastas também serão mostrados na lista Perfis de pastas.
 
-  As configurações do Editor da Web que um administrador pode definir no perfil da pasta incluem: personalização da interface do usuário, incluindo ícones da barra de ferramentas, layout do Editor da Web, trechos e mapa raiz. Para obter mais detalhes, consulte *Configurar perfis globais ou de nível de pasta* em Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service.
+     As configurações do Editor da Web que um administrador pode definir no perfil da pasta incluem: personalização da interface do usuário, incluindo ícones da barra de ferramentas, layout do Editor da Web, trechos e mapa raiz. Para obter mais detalhes, consulte *Configurar perfis globais ou de nível de pasta* em Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service.
 
-  >[!NOTE]
-  >
-  > O nome do Perfil de pasta atual é exibido como um rótulo para o ícone Preferências do usuário na barra de ferramentas principal.
+     >[!NOTE]
+     >
+     > O nome do Perfil de pasta atual é exibido como um rótulo para o ícone de Preferências do usuário na barra de ferramentas principal.
 
-- **Caminho base**: por padrão, ao acessar o repositório AEM no Editor da Web, você verá os ativos no local /content/dam. Sua pasta de trabalho provavelmente seria algumas pastas dentro da pasta /content/dam/. Você levaria alguns cliques para acessar a pasta de trabalho todas as vezes. Você pode definir o Caminho base para sua pasta de trabalho e a Visualização do repositório, em seguida, mostra o conteúdo desse local antecipadamente. Isso reduz o tempo de acesso à pasta de trabalho. Além disso, quando você insere qualquer referência ou arquivo de mídia no tópico, o local de navegação do arquivo começa com a pasta definida no Caminho base.
+   - **Caminho base**: por padrão, ao acessar o repositório AEM no Editor da Web, você verá os ativos no local /content/dam. Sua pasta de trabalho provavelmente seria algumas pastas dentro da pasta /content/dam/. Você levaria alguns cliques para acessar a pasta de trabalho todas as vezes. Você pode definir o Caminho base para sua pasta de trabalho e a Visualização do repositório, em seguida, mostra o conteúdo desse local antecipadamente. Isso reduz o tempo de acesso à pasta de trabalho. Além disso, quando você insere qualquer referência ou arquivo de mídia no tópico, o local de navegação do arquivo começa com a pasta definida no Caminho base.
 
-- **Selecionar mapa raiz**: selecione um arquivo de mapa DITA para resolver referências principais ou entradas de glossário. O mapa raiz selecionado tem a precedência mais alta para resolver referências principais. Para obter mais detalhes, consulte [Resolver referências de chave](map-editor-other-features.md#id176GD01H05Z).
+   - **Selecionar mapa raiz**: selecione um arquivo de mapa DITA para resolver referências principais ou entradas de glossário. O mapa raiz selecionado tem a precedência mais alta para resolver referências principais. Para obter mais detalhes, consulte [Resolver referências de chave](map-editor-other-features.md#id176GD01H05Z).
 
->[!NOTE]
-> 
-> Se não quiser usar nenhum mapa raiz, verifique se **Selecionar mapa raiz** está em branco.
+     >[!NOTE]
+     >    
+     > Se não quiser usar nenhum mapa raiz, verifique se **Selecionar mapa raiz** está em branco.
+
+- **Aparência**: selecione os temas para a aplicação Web Editor e a visualização de origem da área de edição de conteúdo.
+
+  ![guia aparência das preferências do usuário](images/user_preference_editor_appearance.png){width="550" align="left"}
+
+   - **Exibir arquivos por**: selecione a maneira padrão de exibir os arquivos no Editor da Web. Você pode visualizar a lista de arquivos pelos títulos ou pelos nomes de arquivos dos vários painéis no **Autor** exibição.
+     >[!NOTE]
+     >
+     > Por padrão, os arquivos são exibidos por título no Editor da Web.
+
+   - **Tema do aplicativo**: você pode escolher entre as opções **Leve** ou **Escuro** temas para o aplicativo. No caso do **Leve** tema, as barras de ferramentas e os painéis usam um plano de fundo de cor cinza-claro. No caso do **Escuro** tema, as barras de ferramentas e os painéis usam um plano de fundo preto. Selecionar **Usar tema do dispositivo** para permitir que o Experience Manager Guides selecione os temas claro e escuro com base no tema do seu dispositivo.  Em todos os temas, a área de edição de conteúdo é mostrada em fundo branco na **Autor** exibição.
+
+   - **Tema de exibição de origem**: - Você pode escolher entre as opções **Leve** ou **Escuro** temas para a área de edição de conteúdo na exibição de origem. No caso do **Leve** tema, a área de edição de conteúdo usa um plano de fundo cinza-claro para a visualização de origem enquanto, no caso de **Escuro** tema, ele usa um plano de fundo preto. Selecionar **Usar tema do dispositivo** para permitir que o Experience Manager Guides selecione os temas claro e escuro com base no tema do seu dispositivo.
+
+   - **Sempre localizar arquivos no repositório**: selecione esta opção para mostrar o local de um arquivo no repositório ao editá-lo no Editor da Web.
+
+   - **Mostrar indicador de espaço não separável no modo de autor**: selecione esta opção para mostrar um indicador dos espaços não separáveis ao editá-lo no Editor da Web. Está ativado por padrão.
 
 **Modos Autor, Origem e Visualização**
 
@@ -291,7 +325,19 @@ A barra de ferramentas secundária é exibida quando você abre um tópico para 
 
 **Inserir elemento** - ![](images/Add_icon.svg)
 
-Insere um elemento válido no local válido atual ou próximo. Você também pode usar o atalho de teclado ***Alt***+***Enter*** para abrir o pop-up Inserir elemento. Por exemplo, você está editando um parágrafo e depois no **Inserir elemento** aparece uma lista de elementos que podem ser inseridos no parágrafo. Selecione o elemento que deseja inserir. Use o teclado para rolar pela lista de elementos e pressione ***Enter*** para inserir o elemento necessário. Você também pode digitar um caractere ou sequência de caracteres na caixa de pesquisa e pesquisar os elementos que começam com ele.
+Insere um elemento válido no local válido atual ou próximo. Você também pode usar o atalho de teclado ***Alt***+***Enter*** para abrir o pop-up Inserir elemento. Por exemplo, você está editando um parágrafo e depois no **Inserir elemento** aparece uma lista de elementos que podem ser inseridos no parágrafo. Selecione o elemento que deseja inserir. Use o teclado para rolar pela lista de elementos e pressione ***Enter*** para inserir o elemento necessário.
+
+Você pode exibir dois tipos de elementos válidos:
+
+- **Elementos válidos no local atual**: a lista exibe os elementos que você pode inserir no próprio local do cursor atual.
+
+- **Elementos válidos fora do local atual**: a lista exibe os elementos que você pode inserir depois de qualquer um dos pais do elemento atual na hierarquia de elementos.
+
+
+
+Por exemplo, se você estiver dentro da variável `<b>` elemento, é possível inserir elementos como `<u>`, `<xref>`, `<i>` no local atual. Por outro lado, é possível inserir elementos como `<table>` e `<topic>` fora do local atual.
+
+Você também pode digitar um caractere ou sequência de caracteres na caixa de pesquisa e pesquisar os elementos que começam com ele.
 
 
 ![inserir elemento](images/insert-element.png){width="300" align="left"}
@@ -863,22 +909,70 @@ Selecione um mapa e pressione Enter ou clique duas vezes para abri-lo no **Exibi
 
 **Filtrar pesquisa**
 
-O Editor da Web fornece filtros aprimorados para pesquisar texto. Clique em Filtrar pesquisa \(![](images/filter-search-icon.svg)\) ícone para abrir o painel filtros. Você pode procurar um texto nos arquivos presentes no caminho selecionado do repositório AEM. Por exemplo, é feita uma pesquisa de &quot;finalidade geral&quot; na captura de tela a seguir.
+O Editor da Web fornece filtros aprimorados para pesquisar texto. Você pode pesquisar e filtrar por um texto nos arquivos presentes no caminho selecionado do repositório do Adobe Experience Manager. Ele pesquisa o título, o nome do arquivo e o conteúdo nos arquivos.
 
-![](images/repository-filter-search.png){width="400" align="left"}
 
-Você também tem as seguintes opções para filtrar os arquivos e restringir sua pesquisa no repositório AEM:
+![pesquisar arquivos na visualização de repositório](images/repository-filter-search.png){width="300" align="left"}
 
-- **Arquivos DITA**: você pode procurar todos **Tópicos DITA** e **Mapas DITA** presente no caminho selecionado.
-- **Arquivos não-DITA**: Você pode pesquisar por **Arquivos de imagem**, **Multimídia**, e **Documentos** no caminho selecionado.
+*Aplicar filtros para pesquisar os arquivos que contêm o texto`general purpose.`*
+
+Selecione o **Filtrar pesquisa** \(![Ícone de filtro de pesquisa](images/filter-search-icon.svg)\) para abrir o pop-up Filtrar por.
+
+>[!NOTE]
+>
+> Quando você pesquisa qualquer texto ou filtra qualquer arquivo, um ponto azul é exibido no **Filtrar pesquisa**  \(![Ícone de filtro de pesquisa](images/filter-search-icon.svg)\) para indicar que estamos no painel de pesquisa e que alguns filtros foram aplicados.
+
+
+Você tem as seguintes opções para filtrar os arquivos e restringir sua pesquisa no repositório do Adobe Experience Manager:
+
+- **Arquivos DITA**: você pode procurar todos **Tópicos DITA** e **Mapas DITA** presente no caminho selecionado. Elas são selecionadas por padrão.
+- **Arquivos não-DITA**: Você pode pesquisar por **Arquivos Digital**,  **Arquivos de imagem**, **Multimídia**, **Documentos**, e **Json** no caminho selecionado.
+
+![filtro de pesquisa rápida ](images/repository-filter-search-quick.png) {width="300" align="left"}
+
+*Use os filtros rápidos para procurar arquivos DITA e não DITA.*
+
+**Filtragem avançada**
+
+Selecione o **Filtragem avançada** ![ícone de filtro avançado](images/advanced-filter-gear-icon.svg)ícone para exibir o **Filtro avançado** caixa de diálogo.
+
+Você pode exibir as seguintes opções na **Geral** e **Avançado** guias.
+
+![caixa de diálogo filtro avançado](images/repository-filter-search-advanced.png) {width="800" align="left"}
+
+
+**Geral**
+
+- **Os resultados da pesquisa serão os seguintes**: procure algum texto nos arquivos presentes no caminho selecionado do repositório do Adobe Experience Manager. O texto é pesquisado no título, nome de arquivo e conteúdo nos arquivos.
+
+Está sincronizado com a caixa de pesquisa na janela do repositório. Por exemplo, se você digitar `general purpose` na caixa de pesquisa do painel repositório, ele também aparece no campo **Filtro avançado** e vice-versa.
+
+- **Pesquisar em**: selecione o caminho no qual deseja pesquisar os arquivos presentes no repositório do Adobe Experience Manager.
+
+- **Retirado por**: Você pode procurar arquivos cujo check-out o usuário especificado fez.
+- **Última modificação**: é possível procurar arquivos que foram modificados pela última vez após uma data selecionada, mas antes de uma data selecionada.
+- **Modificado antes de**: é possível procurar arquivos que foram modificados pela última vez antes de uma data selecionada.
+- **Período de tempo**: Você também pode procurar arquivos que foram modificados pela última vez nas últimas duas horas, na semana passada, no mês passado ou no ano passado.
+- **Tags**: é possível procurar arquivos que tenham tags específicas aplicadas a eles. Você pode digitar a tag ou selecioná-la na lista suspensa.
+
+**Avançado**
+
 - **Elementos DITA**: também é possível pesquisar valores específicos nos atributos dos elementos DITA especificados.
-- **Retirado por**: Você pode procurar arquivos nos quais o usuário especificado fez check-out.
-- **Última modificação**: é possível procurar arquivos que foram modificados pela última vez após uma data selecionada, mas antes de uma data selecionada. Você também pode procurar arquivos que foram modificados pela última vez nas últimas 2 horas, na semana passada, no mês passado ou no ano passado.
-- **Tags**: é possível procurar arquivos que tenham tags específicas aplicadas. Você pode digitar a tag ou selecioná-la na lista suspensa.
+   - Selecionar **Adicionar elemento** ![ícone adicionar](images/Add_icon.svg) para adicionar os elementos, atributos e valores.
+   - Aplique os filtros selecionados.
 
-**Nota:** O administrador do sistema também pode configurar os filtros de texto e mostrar ou ocultar outros filtros. Para obter mais detalhes, consulte *Configurar filtros de texto* na seção Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service.
+- Selecionar **Limpar tudo** para limpar todos os filtros aplicados.
 
-A lista de arquivos filtrados que contém o texto pesquisado é exibida. Por exemplo, na captura de tela acima, os arquivos que contêm o texto &quot;finalidade geral&quot; são listados. Você pode selecionar vários arquivos da lista filtrada para arrastá-los e soltá-los em um mapa aberto para edição.
+
+- Selecione o **Fechar filtro** ![ícone fechar](images/close-icon.svg) ícone para fechar o filtro e retornar à exibição em árvore do repositório.
+  >[!NOTE]
+  >
+  >O administrador do sistema também pode configurar os filtros de texto e mostrar ou ocultar outros filtros. Para obter mais detalhes, consulte *Configurar filtros de texto* na seção Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service.
+
+  A lista de arquivos filtrados que contêm o texto pesquisado é exibida. Por exemplo, os arquivos que contêm o texto `general purpose` estão listados na captura de tela anterior. Você pode selecionar vários arquivos da lista filtrada para arrastá-los e soltá-los em um mapa aberto para edição.
+
+
+
 
 **Menu Opções**
 
@@ -895,7 +989,7 @@ Você pode executar as seguintes ações usando o menu Opções disponível para
 
 
 
-- **Fazer upload de ativos**: carregue um arquivo do sistema local para a pasta selecionada no repositório AEM. Você também pode arrastar e soltar arquivos do seu sistema local no tópico de trabalho atual. Isso é muito útil se você quiser inserir imagens do sistema local no tópico.
+- **Fazer upload de ativos**: carregue um arquivo do sistema local para a pasta selecionada no repositório do Adobe Experience Manager. Você também pode arrastar e soltar arquivos do seu sistema local no tópico de trabalho atual. Isso é muito útil se você quiser inserir imagens do sistema local no tópico.
 
   ![](images/upload-assets.png){width="550" align="left"}
 
@@ -928,7 +1022,7 @@ Você pode executar as seguintes ações usando o menu Opções disponível para
 
 Você verá diferentes opções no menu Opções dependendo se você seleciona um arquivo de mídia ou um arquivo DITA. Algumas opções comuns disponíveis para arquivos de mídia e DITA são:
 
-- Duplicar
+- Duplicata
 - Check-out/Check-in
 - Visualização
 - Mover para
@@ -1576,7 +1670,7 @@ Por exemplo, use a seguinte enumeração para restringir o `@platform` atributo 
 </details>
 
 
-**Menu suspenso Atributos**
+**Atributos** menu suspenso
 
 Também é possível alterar o valor do esquema do assunto usando a variável **Atributos** lista suspensa no **Propriedades de conteúdo** no painel **Autor** exibição.
 ![](images/subject-scheme-attribute-dropdown.png){width="200" align="left"}
@@ -1828,10 +1922,13 @@ O painel direito é um painel persistente que contém informações sobre o docu
 
 O painel direito fornece acesso aos seguintes recursos:
 
-**Propriedades de conteúdo** -  ![](images/content-properties-icon.svg)
+**Propriedades de conteúdo** -  ![propriedades do conteúdo](images/content-properties-icon.svg)
 
-Você pode acessar o recurso Propriedades de conteúdo clicando no ícone Propriedades de conteúdo no painel direito. O painel Propriedades de conteúdo contém informações sobre o tipo de elemento atualmente selecionado no documento e seus atributos.
-É possível adicionar, editar ou excluir facilmente os atributos.
+Você pode acessar o **Propriedades de conteúdo** selecionando o **Propriedades de conteúdo** no painel direito. A variável **Propriedades de conteúdo** contém informações sobre o tipo de elemento atualmente selecionado no documento e seus atributos.
+
+**Tipo**: é possível visualizar e selecionar as tags da hierarquia completa para a tag atual na lista suspensa.
+
+**Atributos**: A variável **Atributos** o painel suspenso está disponível nas exibições Layout, Autor e Origem. É possível adicionar, editar ou excluir facilmente os atributos.
 
 1. Clique em **+ Adicionar**.
 

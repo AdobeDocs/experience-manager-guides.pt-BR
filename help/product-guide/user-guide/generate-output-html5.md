@@ -4,9 +4,9 @@ description: Saiba como criar uma predefinição HTML5 no editor da Web e no pai
 exl-id: b54bf3a0-7a13-41a0-ae72-cdf2caf8d974
 feature: Publishing
 role: User
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: b82f1f3b42f85cce8420d3962c69cd3bafc5728d
 workflow-type: tm+mt
-source-wordcount: '1145'
+source-wordcount: '1187'
 ht-degree: 1%
 
 ---
@@ -41,7 +41,7 @@ A variável **Geral** contém as seguintes configurações:
 A guia Advanced contém as seguintes configurações:
 
 - Nome da transformação
-- Limpar arquivos temporários DITA-OT
+- Baixar arquivos temporários
 - Propriedades do arquivo
 
 Para obter detalhes, consulte [configuração HTML5](#id231KJA00REJ).
@@ -65,7 +65,7 @@ As seguintes opções estão disponíveis para a saída de HTML5:
 | Nome do arquivo | Especifique o nome do arquivo com o qual deseja salvar a saída de HTML 5.<br><br>**Nota**:Se você não fornecer um nome de arquivo, o título do mapa DITA será usado para gerar o nome final do arquivo de saída HTML5. Se o mapa não tiver um título, o nome do arquivo do mapa DITA será usado para nomear a saída final em HTML5. O nome do arquivo é limpo usando as regras configuradas no sistema para lidar com qualquer caractere inválido. |
 | Executar fluxo de trabalho de pós-geração | Ao escolher essa opção, uma nova lista suspensa Fluxo de trabalho de pós-geração é exibida contendo todos os fluxos de trabalho configurados no AEM. Você deve selecionar um workflow que deseja executar após a conclusão do workflow de geração de saída.<br><br>**Nota**:Para obter mais informações sobre como criar um fluxo de trabalho personalizado de geração de pós-saída, consulte _Personalizar fluxo de trabalho de geração de pós-saída_ em Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service. |
 | Caminho de destino | O caminho dentro do repositório AEM onde a saída de HTML5 é armazenada. |
-| Limpar arquivos temporários DITA-OT | Selecione esta opção para limpar os arquivos temporários gerados pelo DITA-OT. O local onde o DITA-OT armazena arquivos temporários pode ser encontrado no log de geração de saída.<br><br>Se ocorrerem erros durante a geração de saída por meio do DITA-OT, é possível desmarcar essa opção para manter os arquivos temporários. Você pode usar esses arquivos para solucionar problemas de erros de geração de saída. |
+| Baixar arquivos temporários | Selecione essa opção para baixar os arquivos temporários gerados pelo DITA-OT. O local onde o DITA-OT armazena arquivos temporários pode ser encontrado no log de geração de saída. Se ocorrerem erros durante a geração de saída pelo DITA-OT, selecione essa opção para manter os arquivos temporários. Você pode usar esses arquivos para solucionar problemas de erros de geração de saída.<br> <br>  Após gerar a saída, selecione o **Baixar arquivos temporários** ![ícone baixar arquivos temporários](images/download-temp-files-icon.png) ícone para baixar a pasta ZIP que contém os arquivos temporários. <br><br> **Nota**: se você selecionar algumas propriedades do arquivo e baixar os arquivos temporários, também receberá a *metadata.xml* arquivo na pasta ZIP. |
 | Usar Linha de Base | Se tiver criado uma Linha de Base para o mapa DITA selecionado, selecione essa opção para especificar a versão que deseja publicar.<br><br>Consulte [Trabalhar com linha de base](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) para obter mais detalhes. |
 | Propriedades do arquivo | Selecione as propriedades que deseja processar como metadados. Essas propriedades são definidas na página Propriedades do mapa DITA ou do arquivo de mapa. As propriedades selecionadas na lista suspensa são exibidas na **Propriedades do arquivo** campo. Selecione o ícone cruzado ao lado da propriedade para removê-la. <br><br>**Nota**: também é possível transmitir os metadados para a saída usando a publicação DITA-OT. Para obter mais detalhes, consulte [Transmita os metadados para a saída usando DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
 

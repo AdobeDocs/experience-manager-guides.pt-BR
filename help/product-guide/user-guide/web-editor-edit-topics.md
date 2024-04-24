@@ -4,9 +4,9 @@ description: Saiba como editar tópicos no editor da Web. Saiba mais sobre vári
 exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
 feature: Authoring, Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 05848b381999bf00d480b618ccb604c1798cc5dd
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---
@@ -35,23 +35,34 @@ O Editor da Web vem com uma variedade de recursos de edição que permitem criar
    >
    > Se não quiser confirmar as alterações no repositório AEM, clique em **Fechar** e clique em **Fechar sem salvar** no diálogo Alterações não salvas.
 
-   **Atualizar o navegador ao editar os arquivos**
+## Atualizar o navegador ao editar os arquivos
+
 Os Guias do Experience Manager fornecem suporte para atualizar o navegador enquanto você edita seu conteúdo no Editor da Web. Este recurso ajuda você a continuar editando o conteúdo caso encontre um erro no aplicativo durante o trabalho. Se você clicar em Atualizar do navegador enquanto um ou mais arquivos com alterações não salvas estiverem abertos para edição, você será avisado de que as alterações não salvas podem ser perdidas. Você tem a opção de cancelar a operação de atualização e salvar os arquivos para preservar as alterações.
 
-   Mesmo ao atualizar o navegador, as exibições do painel esquerdo e direito são mantidas no Editor da Web. O Experience Manager Guides restaura o último estado salvo dos arquivos abertos no Editor da Web quando você atualiza o navegador. Por exemplo, os arquivos abertos no painel Repositório são abertos novamente. O painel de mapa é mantido junto com o mapa aberto anteriormente.
+Mesmo ao atualizar o navegador, as exibições do painel esquerdo e direito são mantidas no Editor da Web. O Experience Manager Guides restaura o último estado salvo dos arquivos abertos no Editor da Web quando você atualiza o navegador. Por exemplo, os arquivos abertos no painel Repositório são abertos novamente. O painel de mapa é mantido junto com o mapa aberto anteriormente.
 
-   O tópico ativo ou mapa DITA é reaberto na área de edição de conteúdo.
+O tópico ativo ou mapa DITA é reaberto na área de edição de conteúdo.
 
-   O painel direito também é reaberto e exibe a mesma visualização de antes da atualização.
+O painel direito também é reaberto e exibe a mesma visualização de antes da atualização.
 
-   **Indicador de cópia de trabalho**
+## Indicador de cópia de trabalho
+
 Guias do AEM fornecem o indicador da cópia de trabalho que mostra se a \(cópia de trabalho\) atual do arquivo está sincronizada ou não com a versão salva. Se você tiver alterado sua cópia atual e não tiver salvado o arquivo, uma marca \* será exibida junto com o título na guia do arquivo do tópico. Esse indicador atua como um lembrete para salvar suas alterações e desaparece ao salvar o arquivo.
 
-   ![](images/working-copy-text-update-indicator.png){width="550" align="left"}
+![indicador da cópia de trabalho](images/working-copy-text-update-indicator.png){width="550" align="left"}
 
-   Os Guias do AEM também indicam se a última cópia \(em funcionamento\) salva do arquivo está ou não sincronizada com a versão salva. Se você tiver algumas alterações não salvas entre a cópia de trabalho e a última versão salva, uma marca \* será exibida juntamente com as informações da versão mostradas no canto superior direito da guia Arquivo do tópico. Esse indicador atua como um lembrete para salvar e criar uma versão da sua cópia \(em funcionamento\) atual do arquivo.
+Os Guias do AEM também indicam se a última cópia \(em funcionamento\) salva do arquivo está ou não sincronizada com a versão salva. Se você tiver algumas alterações não salvas entre a cópia de trabalho e a última versão salva, uma marca \* será exibida juntamente com as informações da versão mostradas no canto superior direito da guia Arquivo do tópico. Esse indicador atua como um lembrete para salvar e criar uma versão da sua cópia \(em funcionamento\) atual do arquivo.
 
-   ![](images/version-update-indicator.png){width="550" align="left"}
+![Indicador de atualização de versão](images/version-update-indicator.png){width="550" align="left"}
+
+
+
+
+## Localizar um arquivo aberto na Exibição do repositório
+
+Enquanto você abre um arquivo no Editor da Web, o Experience Manager Guides fornece o recurso para localizar o arquivo na Exibição do repositório. Por exemplo, ela localiza o tópico atual enquanto você o edita.
+
+Você pode desativar o recurso para localizar o arquivo com a tag **Sempre localizar arquivos no repositório** opção no **Aparência** guia do **Preferências do usuário**.
 
 
 **Tópico pai:**[ Trabalhar com o editor da Web](web-editor.md)

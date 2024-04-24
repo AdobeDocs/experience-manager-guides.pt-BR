@@ -4,9 +4,9 @@ description: Explore outros recursos do editor da Web em Guias do AEM. Saiba com
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: caf00a014838751675aed11e5687a81fe7ad2e7c
 workflow-type: tm+mt
-source-wordcount: '2247'
+source-wordcount: '2532'
 ht-degree: 0%
 
 ---
@@ -159,15 +159,25 @@ Você pode ver as seguintes opções, dependendo se o arquivo está bloqueado/de
 
 **Inserir equações MathML**
 
-- O Guia AEM oferece suporte pronto para uso para inserir equações MathML por integração com o [Web MathType](https://docs.wiris.com/en/mathtype/mathtype_web/intro) aplicação. Para inserir uma equação de MathML, clique na **Inserir elemento** ícone e digite mathml. Quando você seleciona um elemento matemático na lista, a caixa de diálogo Inserir MathML é exibida:
+- O Experience Manager Guides oferece suporte pronto para inserir equações MathML por integração com o [Web MathType](https://docs.wiris.com/en/mathtype/mathtype_web/intro) aplicação. Para inserir uma equação de MathML, selecione a **Inserir elemento** ícone e digite mathml. Quando você seleciona um elemento matemático na lista, a variável **Inserir MathML** é exibida:
 
-![](images/insert-mathml-equation.png){width="550" align="left"}
+![inserir equação matemática no editor matemático](images/insert-mathml-equation.png){width="550" align="left"}
 
-Usando as ferramentas de equação do MathML, crie a equação e clique em Inserir para adicioná-la ao documento. A equação é inserida com o plano de fundo cinza-claro, conforme mostrado abaixo:
+Usando as ferramentas de equação do MathML, crie sua equação e clique em **Inserir** para adicioná-lo ao documento. A equação é inserida com o plano de fundo cinza-claro, conforme mostrado abaixo:
 
-![](images/sample-mathml-equation.PNG){width="400" align="left"}
+![exemplo de equação matemática](images/sample-mathml-equation.PNG){width="400" align="left"}
 
 A qualquer momento, você pode atualizar uma equação clicando com o botão direito do mouse em uma equação existente e selecionando **Editar MathML** no menu de contexto.
+
+- **Validação de equações no editor MathML**
+
+  O Experience Manager Guides valida as equações MathML quando você salva um tópico contendo elas.
+Quando você insere uma equação usando o editor MathML, o Experience Manager Guides realça a equação em vermelho se houver problemas de sintaxe. Você pode corrigi-la antes de inseri-la. Se você não fizer alterações, mas selecionar **Inserir**, ele exibe um aviso.
+
+  ![validar equação matemática](images/validate-mathml-equation.png){width="400" align="left"}
+
+  Se você inserir a equação MathML que contém um erro de sintaxe, ocorrerá um erro de validação quando você tentar salvar o tópico.
+
 
 **Inserir notas de rodapé**
 
@@ -203,11 +213,30 @@ Além do menu de contexto da navegação estrutural, a caixa de diálogo Renomea
 
 - Desfazer a quebra de um elemento permite remover a tag do elemento do texto selecionado e mesclá-lo com seu elemento pai. Por exemplo, se você tiver uma `p` elemento dentro de um `note` elemento, você pode decodificar o `p` elemento para mesclar o texto diretamente na `note` elemento. A variável **Decodificar Elemento** está disponível no menu de contexto da navegação estrutural do tópico. Para decodificar um elemento, clique com o botão direito do mouse no elemento para abrir o menu de contexto e selecione **Decodificar Elemento** para remover o elemento e mesclar o texto do elemento com seu elemento pai.
 
+**Manuseio de espaço em branco para elementos DITA**
+
+- Em XML, os espaços em branco incluem espaços, tabulações, retornos de carro e linhas em branco. Guias de Experience Manager converte vários espaços em branco consequentes em um espaço. Isso ajuda a preservar a visualização WYSIWYG do Editor da Web.
+
+  >[!NOTE]
+  >
+  >Em alguns elementos em que os espaços em branco precisam ser preservados de acordo com as regras DITA, os vários espaços em branco resultantes são retidos. Por exemplo, `<pre>` e `<codeblock>` elementos.
+
+
 **Preservando quebras de linha e recuo**
 
 - Os elementos DITA que contêm quebra de linha e espaços são suportados e renderizados de acordo com sua definição nos modos Autor, Fonte ou Visualização, e também na saída final publicada. A captura de tela a seguir mostra o conteúdo da `msgblock` elemento em que as quebras de linha e os espaços \(recuo\) foram preservados:
 
 ![](images/new-line-support_cs.png){width="500" align="left"}
+
+
+
+**Tratamento de espaços não separáveis no Editor da Web**
+
+- É possível inserir espaços não separáveis no documento usando o **Inserir caracteres especiais**  ![ícone inserir caracteres especiais](images/insert-special-chars-icon.svg) ícone ou a variável **Alt** + **Espaço** teclas de atalho.  Esses espaços não separáveis aparecem como um indicador enquanto você edita um tópico no Editor da Web. Você pode desativar a exibição dos espaços não separáveis com o **Mostrar indicador de espaço não separável no modo de autor** opção no **Aparência** guia do **Preferências do usuário** ![Ícone de preferências do usuário](images/user_preference_editor_icon.svg)..
+
+- Se você copiar e colar o conteúdo com um espaço sem quebra de qualquer origem externa na **Autor** exibir, o espaço sem quebra é convertido em um espaço.
+No entanto, se você copiar e colar o conteúdo com um espaço sem quebra do **Autor** na visualização, é preservado.
+
 
 **Gerar ID de elemento automaticamente**
 

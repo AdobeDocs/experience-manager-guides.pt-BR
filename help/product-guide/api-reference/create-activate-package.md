@@ -1,18 +1,18 @@
 ---
-title: API REST para criar e ativar pacotes
-description: Saiba mais sobre a API REST para criar e ativar pacotes
+title: REST API para criação e ativação de pacotes
+description: Saiba mais sobre a REST API para criar e ativar pacotes
 exl-id: 90686f77-a769-44bc-90eb-116cf9d0341e
 feature: Rest API Packages
 role: Developer
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 32da48d82b1267bb220424edf385035426293b66
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
 
-# API REST para criar e ativar pacotes {#id198CF0260Y4}
+# REST API para criação e ativação de pacotes {#id198CF0260Y4}
 
 A API REST a seguir permite criar e ativar pacotes CRX.
 
@@ -20,12 +20,33 @@ A API REST a seguir permite criar e ativar pacotes CRX.
 
 Um método POST que cria e ativa o pacote CRX.
 
-**URL de solicitação**: http://*&lt;aem-guides-server>*: *&lt;port-number>*/bin/fmdita/ativate
+**Solicitar URL**:
+*&lt;aem-guides-server\>* http://: *&lt;port-number\>*/bin/fmdita/activate&lt;/port-number\>&lt;/aem-guides-server\>
 
-**Parâmetros**: a consulta de solicitação consiste na cadeia de caracteres de regras JSON. O tipo de conteúdo da solicitação POST deve ser definido como `application/json; charset=UTF-8`.
+**Parâmetros**:
+O solicitação query consiste na string de regras JSON. A tipo de conteúdo da solicitação POST deve ser definida como `application/json; charset=UTF-8`.
 
-**Exemplo**: os exemplos a seguir mostram a chamada da API usando o comando curl:
+**Exemplo**:
+O exemplo a seguir mostra a chamada da API usando o comando curl:
 
-    &quot;
-    curl -u &lt;*username*>:&lt;*password*> -H &quot;Content-Type: application/json; charset=UTF-8&quot; -k -X POST -d &quot;{[Cadeia de caracteres de regras JSON](create-ativate-package-java.md#example-create-ativate-package-id198JH0B905Z)}&quot; http://&lt;*aem-guides-server*>:&lt;*port-number*>/bin/fmdita/ativate
-    &quot;
+```XML
+curl -u <*username*>:<*password*> -H "Content-Type: application/json; charset=UTF-8"  -k -X POST -d "{[JSON rules string](create-activate-package-java.md#example-create-activate-package-id198JH0B905Z)}" http://<*aem-guides-server*>:<*port-number*>/bin/fmdita/activate
+```
+
+
+**Parâmetro opcional**
+
+`activationTarget`
+
+**Valores válidos**
+
+`preview` ou `publish` para Cloud Service e `publish` software No local
+
+Se o parâmetro contiver um valor de inválido, a ativação do pacote falhará. O exemplo a seguir mostra a chamada da API usando o comando curl com parâmetro opcional:
+
+
+    &#39;&#39;&#39;XML
+    
+    curl -u &lt;*username*>:&lt;*password*> -H &quot;Content-Type: aplicativo/json; charset=UTF-8&quot; -k -X POST -d &quot;{[JSON rules string](create-activate-package-java.md#example-create-activate-package-id198JH0B905Z)}&quot; http://&lt;*aem-guides-server*>:&lt;*port-number*>/bin/fmdita/activate?activationTarget=&lt;validActivationTargetValue>&#39;&#39;&#39;
+    &#39;&#39;
+&lt;/validActivationTargetValue>&lt;/*port-number*>&lt;/*aem-guides-server*>&lt;/*password*>&lt;/*username*>

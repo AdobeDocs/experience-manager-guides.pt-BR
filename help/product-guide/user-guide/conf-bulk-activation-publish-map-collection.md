@@ -4,10 +4,10 @@ description: Ative a saída de mapas DITA em guias AEM. Saiba como ativar o cont
 exl-id: 4da644b9-8c5f-4976-a212-960085b693b8
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 66d22560d40012a7475026ed44cec7bf301c1a97
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 2%
+source-wordcount: '444'
+ht-degree: 1%
 
 ---
 
@@ -27,14 +27,62 @@ Depois de criar uma coleção de mapas para ativação em massa, a próxima etap
 
    ![](images/bulk-activation-collection-open.png){width="800" align="left"}
 
-1. \(*Opcional*\) Aplique os filtros necessários a partir do painel esquerdo para filtrar o mapa com base em sua \(status\), predefinição de saída ou linguagem modificada:
-1. Siga uma das seguintes opções:
+1. \(*Opcional*\) Aplique os filtros necessários a partir do painel esquerdo para filtrar o mapa com base em sua \(status\), predefinição de saída ou linguagem modificada.
 
-   - Para ativar a saída de mapas selecionados, selecione os arquivos de mapa e clique em **Publicação rápida**.
-   - Para ativar a saída de todos os mapas DITA com suas predefinições configuradas, marque a caixa de seleção ao lado de Mapa \(coluna\) e clique em **Publicação rápida.**
-     ![](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
+   >[!NOTE]
+   >
+   >Gere a saída do mapa usando a predefinição de saída antes de ativá-la na coleção de mapas.
 
 
-Quando a saída for ativada para os arquivos de mapa selecionados, a coluna Publicado será atualizada com a data e a hora atuais.
+Veja as diferentes maneiras de ativar sua coleção com base em sua configuração.
 
-**Tópico pai:**[ Ativação em massa de conteúdo publicado](conf-bulk-activation.md)
+<details>
+<summary> Cloud Services </summary>
+
+![bulk-collection-publish no cloud service](images/bulk-activation-collection-quick-publish-CS.png){width="650" align="left"}
+
+Você pode ativar a saída para a variável **Visualizar** ou **Publish** instâncias.
+
+**Visualização**
+
+* Para ativar a saída de mapas selecionados, selecione a saída de mapa pré-gerada e selecione **Publicar em** > **Visualizar**.
+* Para ativar a saída de todos os mapas DITA com suas predefinições configuradas, marque a caixa de seleção ao lado da **Mapa** e selecione **Publicar em** > **Publish**.
+
+
+**Publish**
+
+* Para ativar a saída de mapas selecionados, selecione a saída de mapa pré-gerada e selecione **Publicar em** > **Publish**.
+
+* Para ativar a saída de todos os mapas DITA com suas predefinições configuradas, marque a caixa de seleção ao lado do Mapa (coluna) e selecione **Publicar em** > **Publish**.
+
+
+>[!NOTE]
+> 
+> A caixa de seleção de uma saída de mapa é ativada somente se você tiver gerado a saída de um mapa.
+
+Uma mensagem de sucesso é exibida quando a saída do mapa é colocada em fila para publicação.
+
+Depois que a saída é ativada para os arquivos de mapa selecionados, a guia histórico de auditoria é atualizada e a saída ativada mais recente é exibida na parte superior. A variável **Publicado** A coluna é atualizada com a data e a hora da publicação.
+
+</details>
+
+<details>    
+<summary>  Software local </summary>
+
+
+Siga uma das seguintes opções:
+
+* Para ativar a saída de mapas selecionados, selecione a saída de mapa pré-gerada e selecione **Publicação rápida**.
+* Para ativar a saída de todos os mapas DITA com suas predefinições configuradas, marque a caixa de seleção ao lado do Mapa (coluna) e selecione **Publicação rápida.**
+  ![bulk-collection-publish](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
+
+  >[!NOTE]
+  > 
+  >A caixa de seleção de uma saída de mapa é ativada somente se você tiver gerado a saída de um mapa.
+
+
+Uma mensagem de sucesso é exibida quando a saída do mapa é colocada em fila para publicação.
+
+Depois que a saída é ativada para os arquivos de mapa selecionados, a guia histórico de auditoria é atualizada e a saída ativada mais recente é exibida na parte superior. A variável **Publicado** A coluna é atualizada com a data e a hora da publicação.
+
+**Tópico principal: **[Ativação em massa de conteúdo publicado](conf-bulk-activation.md)

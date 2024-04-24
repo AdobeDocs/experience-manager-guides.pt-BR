@@ -4,9 +4,9 @@ description: Use dados da sua fonte de dados em Guias do AEM. Saiba como inserir
 exl-id: fbd5eff2-451b-49d6-ba77-6eb271e94349
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 2e5bf87b65cca6b522fcb97db1f40f98f020927a
 workflow-type: tm+mt
-source-wordcount: '2066'
+source-wordcount: '2389'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,11 @@ ht-degree: 0%
 
 A **fonte de dados** O é um sistema no qual você armazena e gerencia os dados de sua organização. Esses são seus sistemas de registro como JIRA, bancos de dados SQL, PIM ou PLM. Guias de AEM fornece o recurso para se conectar com sua fonte de dados e usar os dados deles.
 
+Você também pode se conectar a arquivos de dados JSON usando um conector de arquivos. Faça upload do arquivo JSON do seu computador ou navegue pelos ativos do Adobe Experience Manager. Em seguida, crie trechos de conteúdo ou tópicos usando os geradores.
+
 ## Painel Fontes de dados
 
-Selecionar **Fontes de dados** ![](images/data-source-icon.svg) no painel esquerdo para exibir as fontes de dados conectadas. O painel Fontes de dados é aberto e exibe todas as fontes de dados conectadas.
+Selecionar **Fontes de dados** ![fonte de dados](images/data-source-icon.svg) no painel esquerdo para exibir as fontes de dados conectadas. O painel Fontes de dados é aberto e exibe todas as fontes de dados conectadas.
 
 Com base na sua configuração, o administrador pode configurar um conector de fonte de dados:
 
@@ -80,11 +82,23 @@ Execute as seguintes etapas para criar um trecho de conteúdo usando o gerador d
 1. Selecione uma fonte de dados para exibir os geradores de trecho de conteúdo disponíveis para a fonte de dados selecionada.
 
    ![](images/code-snippet-generator.png){width="300" align="left"}
+
    *O painel Fontes de dados lista os geradores de snippet de conteúdo disponíveis.*
 
 1. Selecionar **Adicionar** para adicionar um novo gerador de trecho de conteúdo. A variável **Adicionar gerador de trecho de conteúdo** é aberto.
 
-1. Insira a consulta na caixa de texto Data query.
+1. Insira a consulta no **Consulta de dados** texto.  Selecionar **Copiar exemplo de consulta** para copiar rapidamente uma consulta de dados. Em vez de criar manualmente a query, você pode copiar e colar a amostra de query na **Consulta de dados** texto. Em seguida, basta editar a query de acordo com seus requisitos de dados.
+
+   >[!NOTE]
+   >
+   >O Experience Manager fornece exemplos diferentes de consulta para todos os recursos nas várias fontes de dados. Eles são mapeados para a fonte de dados da qual você está buscando os dados.
+
+1. Se você usar um conector de arquivo, poderá fazer upload do arquivo JSON do seu computador ou procurar um arquivo JSON nos ativos da Adobe Experience Manager.
+
+   >[!NOTE]
+   >
+   > Você visualizará as opções para fazer upload ou procurar arquivos no lugar de uma consulta de dados se usar um conector de arquivos.
+
 1. Selecione o modelo que mapeia com sua fonte de dados na **Modelo de mapeamento de dados** lista suspensa.
 Os modelos prontos para uso da fonte de dados selecionada são exibidos na lista suspensa. Por exemplo, você pode exibir o modelo &quot;sql-table&quot; para a origem de dados denominada &quot;PostgreSQL&quot;.
 
@@ -93,6 +107,12 @@ Os modelos prontos para uso da fonte de dados selecionada são exibidos na lista
    > Se o administrador tiver configurado modelos personalizados, esses modelos também serão exibidos na lista suspensa (com base nas configurações de caminho do modelo feitas pelo administrador).
    >   
    >Também é possível usar as ferramentas do Velocity nos modelos. Saiba como [usar as ferramentas do Velocity](#use-velocity-tools).
+
+1. A variável **Recurso** é exibida para alguns conectores, como REST Client, Salsify, Akeneo e Microsoft ADO.  Selecione qualquer recurso na lista suspensa e conecte-se a ele para criar um trecho de conteúdo ou um tópico usando o gerador para ele.
+
+   >[!NOTE]
+   >
+   > O administrador pode configurar recursos padrão ou adicionar recursos para vários URLs ao configurar os conectores de origem de dados.
 
 1. Clique em **Buscar** para buscar os dados da fonte de dados e aplicar o modelo nos dados resultantes da consulta SQL.
 
@@ -144,6 +164,8 @@ O gerador de tópicos pode criar os tópicos que contêm os dados e um mapa DITA
 
 
 
+
+
 ### Criar um tópico
 
 Execute as seguintes etapas para criar um tópico usando o gerador de tópicos:
@@ -166,7 +188,18 @@ Execute as seguintes etapas para criar um tópico usando o gerador de tópicos:
 
    *Adicione a Consulta de dados, o modelo de mapeamento de dados e os detalhes do nó Raiz do gerador de tópicos e dê a ele um nome exclusivo no painel Buscar configuração.*
 
-   1. Insira a consulta no **Consulta de dados** texto.
+   1. Insira a consulta no **Consulta de dados** texto. Selecionar **Copiar exemplo de consulta** para copiar rapidamente uma consulta de dados. Em vez de criar manualmente a query, você pode copiar e colar a amostra de query na **Consulta de dados** texto. Em seguida, basta editar a query de acordo com seus requisitos de dados.
+
+      >[!NOTE]
+      >
+      >O Experience Manager fornece exemplos diferentes de consulta para todos os recursos nas várias fontes de dados. Eles são mapeados para a fonte de dados da qual você está buscando os dados.
+
+   1. Se você usar um conector de arquivo, poderá fazer upload do arquivo JSON do seu computador ou procurar um arquivo JSON nos ativos da Adobe Experience Manager.
+
+      >[!NOTE]
+      >
+      > Você visualizará as opções para fazer upload ou procurar arquivos no lugar de uma consulta de dados se usar um conector de arquivos.
+
    1. Selecione o modelo que mapeia com sua fonte de dados na **Modelo de mapeamento de dados** lista suspensa.
 
       >[!NOTE]

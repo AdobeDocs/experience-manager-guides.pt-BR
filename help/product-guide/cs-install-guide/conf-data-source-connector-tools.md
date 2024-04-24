@@ -5,9 +5,9 @@ exl-id: d7cd412b-89ea-43a5-97b3-09944863bbee
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: acd16f23a7b3023a62b3c15007b03d4f3b2cfb4f
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '788'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 # Configurar um conector de fonte de dados na interface do usuário
 
 Os Guias do Experience Manager vêm com a tag **Fontes de dados** ferramenta que ajuda a configurar conectores prontos para uso para fontes de dados. Você pode configurar os conectores JIRA, SQL (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce, Elasticsearch e Generic REST Client.
+
+Além desses conectores prontos para uso, o Experience Manager Guides fornece os conectores para fontes de dados do Salsify, Akeneo e Microsoft Azure DevOps Boards (ADO). Você pode baixá-los e instalá-los. Os usuários podem então configurar esses conectores.
+
+Você também pode se conectar a arquivos de dados JSON usando um conector de arquivos. Faça upload do arquivo JSON do seu computador ou navegue pelos ativos do Adobe Experience Manager. Em seguida, crie trechos de conteúdo ou tópicos usando os geradores.
 
 Para configurar um conector, execute as seguintes etapas:
 
@@ -37,14 +41,19 @@ Para configurar um conector, execute as seguintes etapas:
 1. Insira os detalhes de configuração e conexão de acordo com o banco de dados.
 
    >[!TIP]
+   >
    >* Focalizar <img src="./assets/info-details.svg" alt= "ícone de informações" width="25"> próximo ao campo para exibir mais detalhes sobre ele.
    > * Os campos com * são obrigatórios. Por exemplo, você pode inserir os seguintes detalhes para o conector Elasticsearch.
 
    * **Nome**: digite o nome da fonte de dados.
-   * Tipo de autenticação: selecione o tipo de autenticação no menu suspenso. Por exemplo, Autenticação básica de nome de usuário e senha
+   * **Tipo de autenticação**: selecione o tipo de autenticação no menu suspenso. Por exemplo, Autenticação básica de nome de usuário e senha
    * **Nome de usuário**: digite seu nome de usuário.
    * **Senha**: digite seu nome de usuário e senha.
    * **URL**: adicione o URL da API.
+
+
+1. Selecione o **Excluir modelos de fábrica** opção para excluir os modelos de fábrica de serem usados para geração de tópico e snippet. Eles não aparecerão sob o **Modelo de mapeamento de dados** na lista suspensa  **Adicionar gerador de trecho de conteúdo** ou o **Adicionar gerador de tópico** caixa de diálogo.
+
 
 1. Selecionar **Testar conexão**. É possível exibir a **Testar conexão** botão ativado somente após adicionar os detalhes necessários. Veja uma mensagem de sucesso se os detalhes da conexão estiverem corretos. Caso contrário, você poderá exibir uma mensagem de erro.
 
@@ -54,6 +63,21 @@ Para configurar um conector, execute as seguintes etapas:
 
 
    Se o conector for salvo com sucesso, você poderá exibir a fonte de dados conectada na página.
+
+**Conectar a vários recursos**
+
+Você pode adicionar ou usar vários recursos com base em URLs diferentes para alguns conectores, como Cliente REST genérico, Salsify, Akeneo e placas DevOps (ADO) do Microsoft Azure. Em seguida, conecte-se com eles para criar trechos de conteúdo ou tópicos usando os geradores para eles.
+
+Execute as seguintes etapas para criar um recurso:
+
+1. Selecionar ![ícone adicionar](assets/Add_icon.svg) no **Seção de recurso de URL** para adicionar um recurso para cada URL.
+1. Configure todos os detalhes no **Adicionar recurso** caixa de diálogo.
+1. Clique em **Adicionar**.
+1. É possível editar ![ícone editar](assets/edit_pencil_icon.svg) ou excluir ![excluir](assets/Delete_icon.svg) o recurso na lista de recursos de URL.
+
+1. Você também pode usar os recursos padrão disponíveis para fontes de dados como Salsify, Akeneo e Microsoft ADO. Ative as opções DESATIVADAS para o recurso que você não deseja configurar para uma fonte de dados.
+
+Isso ajuda a buscar dados rapidamente de qualquer um dos recursos de uma fonte de dados específica em um único trecho de conteúdo ou tópico.
 
 ## Recursos disponíveis para um conector
 

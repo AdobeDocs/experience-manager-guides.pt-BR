@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leia a documentação do produto para o Adobe Experience Manager Guides.
 breadcrumb-title: Documentação do AEM Guides
-source-git-commit: 6ff99d32dd7a30c1104a79da4f223defe109f190
+source-git-commit: e8febe389ed805375d4b79570cd9a0e023e046f3
 workflow-type: tm+mt
-source-wordcount: '1754'
-ht-degree: 5%
+source-wordcount: '1777'
+ht-degree: 6%
 
 ---
 
@@ -19,6 +19,10 @@ ht-degree: 5%
       - Cloud Services {#cloud-release-notes}
          - [Instruções de implantação](./release-info/deploy-xml-on-aemaacs.md)
          - Versões de 2024 {#2024-releases}
+            - Versão 2024.4.0 {#2404-release}
+               - [Novidades](./release-info/whats-new-2024-04-0.md)
+               - [Problemas corrigidos](./release-info/fixed-issues-2024-04-0.md)
+               - [Instruções de atualização](./release-info/upgrade-instructions-2024-04-0.md)
             - Versão 2024.2.0 {#2402-release}
                - [Novidades](./release-info/whats-new-2024-2-0.md)
                - [Problemas corrigidos](./release-info/fixed-issues-2024-2-0.md)
@@ -115,7 +119,7 @@ ht-degree: 5%
                - [Outros recursos no Editor da Web](./user-guide/web-editor-other-features.md)
                - [Visualizações do Editor da Web](./user-guide/web-editor-views.md)
                - [Suporte para arquivos do Schematron](./user-guide/support-schematron-file.md)
-               - [Sugestões inteligentes habilitadas por IA (beta) para criar conteúdo](./user-guide/authoring-ai-based-smart-suggestions.md)
+               - [Sugestões inteligentes alimentadas por IA para criar conteúdo](./user-guide/authoring-ai-based-smart-suggestions.md)
                - [Criação de documentos do Markdown no editor da Web](./user-guide/web-editor-markdown-topic.md)
                - [Adicionar citações ao seu conteúdo](./user-guide/web-editor-apply-citations.md)
                - [Usar dados de suas fontes de dados](./user-guide/web-editor-content-snippet.md)
@@ -317,6 +321,7 @@ ht-degree: 5%
       - Trabalhar com DITA-OT personalizado e especialização {#custom-dita-ot-spec-cs}
          - [Usar a especialização personalizada do DITA-OT e do DITA](./cs-install-guide/dita-ot-specialization.md)
       - Configurar UUID e nomes de arquivo não baseados em UUID {#conf-non-uuid-filename-cs}
+         - [Configurar pós-processamento para uma pasta](./cs-install-guide/conf-folder-post-processing.md)
          - [Configurar nomes de arquivo](./cs-install-guide/conf-file-names.md)
          - [Configurar nomes de arquivo automáticos com base no UUID](./cs-install-guide/conf-auto-uuid-filenames.md)
          - [Configurar Regx para caracteres válidos de nome de arquivo](./cs-install-guide/conf-file-names-valid-regx.md)
@@ -441,7 +446,9 @@ ht-degree: 5%
 
          - [FMPS e guias](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
          - [Arquitetura e desempenho de microsserviços](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
-         - [Configurar publicação baseada em microsserviços](./knowledge-base/publishing/configure-microservices.md)
+         - [Configurar a publicação baseada em microsserviços com autenticação JWT](./knowledge-base/publishing/configure-microservices.md)
+         - [Configurar a publicação baseada em microsserviço com autenticação OAuth](./knowledge-base/publishing/configure-microservices-imt-config.md)
+
          - [Publicação de referências de desempenho na nuvem do AEM](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
          - [Configurar um DITA-OT personalizado](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
       - Fluxos de trabalho {#workflows}

@@ -4,9 +4,9 @@ description: Saiba como trabalhar com o editor de mapa avançado em Guias do AEM
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 6201434d3dd8336bf9fe1bce6368d5dbb9c56162
 workflow-type: tm+mt
-source-wordcount: '3695'
+source-wordcount: '3788'
 ht-degree: 0%
 
 ---
@@ -340,7 +340,12 @@ Para editar tópicos por meio de um mapa DITA, execute as seguintes etapas:
 
      Você pode optar por salvar todos os tópicos selecionados ou desmarcar os tópicos que não deseja salvar.
 
-   - Você pode fazer check-in do tópico usando a **Salvar como nova versão e desbloquear** botão. Quando você salva uma revisão do tópico, uma nova revisão é criada e o bloqueio também é liberado.
+   - Você pode fazer check-in do tópico usando a **Salvar como nova versão e desbloquear** botão. Quando você salva uma versão do tópico, uma nova versão é criada e o bloqueio também é lançado.
+
+     É recomendável salvar as alterações antes de fazer check-in dos arquivos.  Quando você salva as alterações, o arquivo XML é validado.
+
+   - Você também pode selecionar e fazer check-in de vários tópicos usando a **Salvar como nova versão e desbloquear** botão. Quando você salva uma versão dos tópicos, uma nova versão é criada para cada tópico e o bloqueio também é lançado. Você também pode visualizar o progresso da verificação nos tópicos da **Salvar como nova versão e desbloquear** caixa de diálogo. Uma mensagem de sucesso é mostrada quando os arquivos são verificados.
+
    - Se o administrador tiver ativado a opção de fazer check-in de arquivos ao fechar, você receberá um prompt para salvar os arquivos sempre que os arquivos com check-out forem fechados. Com essa opção ativada, ao fechar o editor com arquivos alterados, você verá a lista de arquivos com check-out que precisam ser salvos. Os arquivos com check-out são mostrados com um ícone de cadeado:
 
      ![](images/save-on-close.PNG){width="550" align="left"}

@@ -4,9 +4,9 @@ description: Saiba como criar uma predefinição de PDF no editor da Web e no pa
 exl-id: f12c91fd-3f95-478e-a9cd-68d037206ee8
 feature: Publishing
 role: User
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: b82f1f3b42f85cce8420d3962c69cd3bafc5728d
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1050'
 ht-degree: 1%
 
 ---
@@ -40,7 +40,7 @@ A variável **Geral** contém as seguintes configurações:
 A guia Advanced contém as seguintes configurações:
 
 - Ativar controle de versão
-- Limpar arquivos temporários DITA-OT
+- Baixar arquivos temporários
 
 Para obter detalhes, consulte [configuração de PDF](#id231KIM004X1).
 
@@ -63,7 +63,7 @@ As seguintes opções estão disponíveis para a saída de PDF:
 | Nome da transformação | Especifique o tipo de saída que deseja gerar. Isso é necessário se você quiser gerar saída usando seu próprio plug-in personalizado, que está integrado ao plug-in DITA-OT. Por exemplo, se você deseja gerar uma saída XHTML, especifique `xhtml`. Para obter uma lista de transformações disponíveis no DITA-OT, consulte [Transformações DITA-OT (formatos de saída)](http://www.dita-ot.org/2.3/user-guide/AvailableTransforms.html) no Guia do usuário do OASIS DITA-OT. |
 | Nome do arquivo | Especifique o nome do arquivo com o qual deseja salvar o PDF.<br><br>Você também pode usar variáveis ao configurar o Nome do arquivo de PDF. Para obter mais detalhes sobre o uso de variáveis, consulte [Use variáveis para definir as opções Caminho de destino, Nome do site ou Nome do arquivo](generate-output-use-variables.md#id18BUG70K05Z).<br><br>**Nota**: Se você não fornecer um nome de arquivo, o título do mapa DITA será usado para gerar o nome final do arquivo de PDF. Se o mapa não tiver um título, o nome do arquivo do mapa DITA será usado para nomear o PDF final. O nome do arquivo é limpo usando as regras configuradas no sistema para lidar com qualquer caractere inválido. |
 | Caminho de destino | O caminho no repositório AEM onde o PDF está armazenado.<br><br>Você também pode usar variáveis ao definir o Caminho de destino. Para obter mais detalhes sobre o uso de variáveis, consulte [Use variáveis para definir as opções Caminho de destino, Nome do site ou Nome do arquivo](generate-output-use-variables.md#id18BUG70K05Z). |
-| Limpar arquivos temporários DITA-OT | Selecione esta opção para limpar os arquivos temporários gerados pelo DITA-OT. O local onde o DITA-OT armazena arquivos temporários pode ser encontrado no log de geração de saída.<br><br>Se ocorrerem erros durante a geração de saída por meio do DITA-OT, é possível desmarcar essa opção para manter os arquivos temporários. Você pode usar esses arquivos para solucionar problemas de erros de geração de saída. |
+| Baixar arquivos temporários | Selecione essa opção para baixar os arquivos temporários gerados pelo DITA-OT. O local onde o DITA-OT armazena arquivos temporários pode ser encontrado no log de geração de saída. Se ocorrerem erros durante a geração de saída pelo DITA-OT, selecione essa opção para manter os arquivos temporários. Você pode usar esses arquivos para solucionar problemas de erros de geração de saída.<br> <br>  Após gerar a saída, selecione o **Baixar arquivos temporários** ![ícone baixar arquivos temporários](images/download-temp-files-icon.png) ícone para baixar a pasta ZIP que contém os arquivos temporários. <br><br> **Nota**: se você selecionar algumas propriedades do arquivo e baixar os arquivos temporários, também receberá a *metadata.xml* arquivo na pasta ZIP. |
 | Usar Linha de Base | Se tiver criado uma Linha de Base para o mapa DITA selecionado, selecione essa opção para especificar a versão que deseja publicar.<br><br>Consulte [Trabalhar com linha de base](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) para obter mais detalhes. |
 | Propriedades do arquivo | Selecione as propriedades que deseja processar como metadados. Essas propriedades são definidas na página Propriedades do mapa DITA ou do arquivo de mapa. As propriedades selecionadas na lista suspensa são exibidas na **Propriedades do arquivo** campo. Selecione o ícone cruzado ao lado da propriedade para removê-la. <br><br>Observação: você também pode transmitir os metadados para a saída usando a publicação DITA-OT. Para obter mais detalhes, consulte [Transmita os metadados para a saída usando DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
 
