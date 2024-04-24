@@ -2,7 +2,7 @@
 title: Configurar as sugestões inteligentes de criação
 description: Saiba como configurar as sugestões inteligentes para criação
 exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
-source-git-commit: b2042431e96f2cbd90eea9c8cfcdb3e7033e26bb
+source-git-commit: d3e0c475ebd50a2664ea45c293d34b3a10772633
 workflow-type: tm+mt
 source-wordcount: '745'
 ht-degree: 0%
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Configurar as sugestões inteligentes habilitadas por IA para criação
 
-Como administrador, você pode configurar o recurso Sugestões inteligentes para os autores. O serviço de sugestão inteligente é protegido pela autenticação baseada em autenticação do Adobe IMS. Integre seu ambiente com os workflows de autenticação segura baseada em token do Adobe e comece a usar o novo recurso de sugestão inteligente. A configuração a seguir ajuda a adicionar o **Configuração de IA** guia para o perfil da pasta. Depois de adicionado, você pode usar o recurso de sugestões inteligentes no Editor da Web.
+Como administrador, você pode configurar o recurso Sugestões inteligentes para os autores. O serviço de sugestão inteligente é protegido pela autenticação baseada em autenticação do Adobe IMS. Integre seu ambiente com workflows de autenticação baseados em token do Adobe e comece a usar o novo recurso de sugestão inteligente. A configuração a seguir ajuda a adicionar o **Configuração de IA** guia para o perfil da pasta. Depois de adicionado, você pode usar o recurso de sugestões inteligentes no Editor da Web.
 
 ## Criar configurações do IMS no console do Adobe Developer
 
@@ -34,7 +34,9 @@ Execute as seguintes etapas para criar configurações do IMS no Console do Adob
    *Adicione a API de gerenciamento de E/S ao projeto.*
 
 1. Criar um novo **Credencial OAuth** e salve-o.
-   ![Mosaico de credenciais OAuth na API de configuração](assets/conf-ss-OAuth-credential.png) {width="3000" align="left"}
+
+   ![Mosaico de credenciais OAuth na API de configuração](assets/conf-ss-OAuth-credential.png)
+
    *Configure a credencial OAuth para sua API.*
 
 1. No  **Projetos** escolha **Servidor OAuth para servidor** e selecione as credenciais recém-criadas.
