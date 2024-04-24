@@ -4,7 +4,7 @@ description: Descubra os recursos do editor da Web em Guias do AEM. Conhecer a i
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
+source-git-commit: 1b338bb702267640bc3f5b5de4b00051979b562f
 workflow-type: tm+mt
 source-wordcount: '18678'
 ht-degree: 0%
@@ -233,6 +233,7 @@ Isso impede que os usuários salvem qualquer arquivo que quebre uma regra defini
 
      Digite os primeiros caracteres do idioma ou o código do idioma para filtrar os idiomas desejados. Por exemplo, digite &#39;en&#39; para filtrar todos os idiomas que contêm &#39;en&#39; no início de seu nome ou código.
       1. Selecionar **Concluído** para adicionar os idiomas selecionados ao grupo. Os idiomas são exibidos. Ao adicionar três ou mais idiomas, **Mostrar mais** é exibido. É possível selecionar **Mostrar mais** para exibir todos os idiomas presentes no grupo.
+
          >[!TIP]
          >
          > Alternar **Mostrar mais** para **Mostrar menos** e exibir apenas alguns idiomas.
@@ -303,6 +304,7 @@ As preferências do usuário estão disponíveis para todos os autores. Usando a
   ![guia aparência das preferências do usuário](images/user_preference_editor_appearance.png){width="550" align="left"}
 
    - **Exibir arquivos por**: selecione a maneira padrão de exibir os arquivos no Editor da Web. Você pode visualizar a lista de arquivos pelos títulos ou pelos nomes de arquivos dos vários painéis no **Autor** exibição.
+
      >[!NOTE]
      >
      > Por padrão, os arquivos são exibidos por título no Editor da Web.
@@ -846,7 +848,9 @@ O painel esquerdo fornece acesso aos seguintes recursos:
 **Favoritos** -  ![](images/favorite-collections.svg)
 
 Se você trabalhar em um conjunto de arquivos ou pastas, poderá adicioná-los à sua lista de favoritos para acessá-los rapidamente. A lista Favoritos mostra a lista de documentos adicionados e outras listas de documentos favoritos acessíveis publicamente dos outros usuários.
+
 Por padrão, é possível visualizar os arquivos por títulos. Ao passar o mouse sobre um arquivo, é possível visualizar o título do arquivo e o caminho do arquivo como uma dica de ferramenta.
+
 >[!NOTE]
 >
 > Como administrador, você também pode optar por exibir a lista de arquivos por nomes de arquivo no Editor da Web. Selecione o **Nome do arquivo** opção do **Exibir arquivos por** seção em **Preferências do usuário** ![](images/user_preference_editor_icon.svg).
@@ -878,6 +882,7 @@ Para adicionar um arquivo à sua coleção favorita, use um dos seguintes métod
 Também é possível executar muitas ações usando o menu Opções disponível para uma coleção Favoritos:
 
 ![](images/favorites-options.png){width="400" align="left"}
+
 - **Renomear**: renomeie a coleção selecionada.
 - **Excluir**: exclui a coleção selecionada.
 - **Atualizar**: obtenha uma nova lista de arquivos e pastas do repositório.
@@ -965,11 +970,12 @@ Está sincronizado com a caixa de pesquisa na janela do repositório. Por exempl
 
 
 - Selecione o **Fechar filtro** ![ícone fechar](images/close-icon.svg) ícone para fechar o filtro e retornar à exibição em árvore do repositório.
+
   >[!NOTE]
   >
   >O administrador do sistema também pode configurar os filtros de texto e mostrar ou ocultar outros filtros. Para obter mais detalhes, consulte *Configurar filtros de texto* na seção Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service.
-
-  A lista de arquivos filtrados que contêm o texto pesquisado é exibida. Por exemplo, os arquivos que contêm o texto `general purpose` estão listados na captura de tela anterior. Você pode selecionar vários arquivos da lista filtrada para arrastá-los e soltá-los em um mapa aberto para edição.
+  >
+  >A lista de arquivos filtrados que contêm o texto pesquisado é exibida. Por exemplo, os arquivos que contêm o texto `general purpose` estão listados na captura de tela anterior. Você pode selecionar vários arquivos da lista filtrada para arrastá-los e soltá-los em um mapa aberto para edição.
 
 
 
@@ -1067,6 +1073,7 @@ As várias opções no menu Opções são explicadas abaixo:
   ![](images/rename-move-asset.png){width="550" align="left"}
 
   >[!NOTE]
+  >
   > Você também pode arrastar e soltar um arquivo em outra pasta de destino.
 
   **Cenários de exclusão**
@@ -1078,6 +1085,7 @@ As várias opções no menu Opções são explicadas abaixo:
    - Se qualquer outro usuário fizer check-out do arquivo, você não poderá renomeá-lo ou movê-lo. Você não verá a opção Renomear ou Mover para do arquivo.
 
   >[!NOTE]
+  >
   > Se o administrador tiver concedido as permissões em uma pasta, somente a variável **Renomear** ou **Mover para** são exibidas.
 
   <details>
@@ -1206,6 +1214,7 @@ Insira um **Título** para a pasta, que é convertida automaticamente no nome da
 Ao clicar no ícone Exibição de mapa, você obtém uma lista de tópicos dentro do arquivo de mapa. Se você não tiver aberto nenhum arquivo de mapa, a Exibição de mapa aparecerá em branco. Clicar duas vezes em qualquer arquivo de mapa abre o arquivo de mapa nesta exibição. Você pode clicar duas vezes em qualquer arquivo no mapa para abri-lo no Editor da Web.
 
 Por padrão, é possível visualizar os arquivos por títulos. Ao passar o mouse sobre um arquivo, é possível visualizar o título do arquivo e o caminho do arquivo como uma dica de ferramenta.
+
 >[!NOTE]
 >
 >Como administrador, você também pode optar por exibir o nome do arquivo do mapa pai que está aberto na exibição de mapa. Selecione o **Nome do arquivo** opção do **Exibir arquivos por** seção em **Preferências do usuário** ![](images/user_preference_editor_icon.svg).
@@ -1255,12 +1264,13 @@ Você pode executar as seguintes ações usando o menu Opções do arquivo de ma
 
 - **Exibir na interface do usuário do Assets**: use essa opção para mostrar uma pré-visualização do arquivo de mapa na interface do usuário do Assets. Nesta exibição, todos os arquivos de tópico no mapa são mostrados em uma única exibição unificada página por página.
 - **Baixar mapa**: selecione esta opção para abrir a variável **Baixar mapa** caixa de diálogo.
+
 No **Baixar mapa** caixa de diálogo, você pode escolher as seguintes opções:
-   - **Usar Linha de Base**: selecione esta opção para obter uma lista de Linhas de Base criadas para o mapa DITA. Para baixar o arquivo de mapa e seu conteúdo com base em uma Linha de Base específica, selecione a Linha de Base na lista suspensa. Para obter mais detalhes sobre como trabalhar com Linhas de Base, exiba [trabalhar com Linha de Base](./generate-output-use-baseline-for-publishing.md).
-   - **Nivelar Hierarquia de Arquivo**: selecione esta opção para salvar todos os tópicos e arquivos de mídia referenciados em uma única pasta.
+
+- **Usar Linha de Base**: selecione esta opção para obter uma lista de Linhas de Base criadas para o mapa DITA. Para baixar o arquivo de mapa e seu conteúdo com base em uma Linha de Base específica, selecione a Linha de Base na lista suspensa. Para obter mais detalhes sobre como trabalhar com Linhas de Base, exiba [trabalhar com Linha de Base](./generate-output-use-baseline-for-publishing.md).
+- **Nivelar Hierarquia de Arquivo**: selecione esta opção para salvar todos os tópicos e arquivos de mídia referenciados em uma única pasta.
 
   Também é possível baixar o arquivo de mapa sem selecionar nenhuma opção. Nesse caso, as últimas versões persistentes dos tópicos e arquivos de mídia referenciados são baixadas.
-
 
   Depois de clicar no botão **Baixar** , a solicitação de pacote de exportação de mapa é enfileirada. A variável **Sucesso** será exibida se o pacote for criado com sucesso.  Você pode clicar no link **Baixar** botão no **Sucesso** caixa de diálogo.
 
@@ -1387,6 +1397,7 @@ Um dos principais recursos do DITA é a capacidade de reutilizar conteúdo. O pa
 Você pode simplesmente arrastar e soltar o conteúdo reutilizável do painel no seu tópico atual e ele é inserido de forma fácil e rápida. Você também pode obter uma visualização do conteúdo antes de inseri-lo no documento.
 
 Por padrão, é possível visualizar os arquivos por títulos. Ao passar o mouse sobre um arquivo, é possível visualizar o título do arquivo e o caminho do arquivo como uma dica de ferramenta.
+
 >[!NOTE]
 >
 > Como administrador, você também pode optar por exibir a lista de arquivos por nomes de arquivo no Editor da Web. Selecione o **Nome do arquivo** opção do **Exibir arquivos por** seção em **Preferências do usuário** ![](images/user_preference_editor_icon.svg).
@@ -1770,7 +1781,9 @@ Usando o menu Opções em um modelo existente, você pode optar por **Editar** o
 **Revisão** -  ![](images/active-review-tasklist-icon.svg)
 
 O Guias do AEM fornece o recurso para exibir todas as tarefas de revisão em seus projetos. Você pode exibir todos os projetos de revisão e as tarefas de revisão ativas nos projetos de revisão, dos quais você faz parte no **Revisão** painel.  É possível abrir as tarefas de revisão para exibir os comentários dos vários revisores.
+
 O painel de revisão exibe as tarefas de revisão. Por padrão, é possível visualizar os arquivos por títulos. Ao passar o mouse sobre um arquivo, é possível visualizar o título do arquivo e o caminho do arquivo como uma dica de ferramenta.
+
 >[!NOTE]
 >
 > Como administrador, você também pode optar por exibir a lista de arquivos por nomes de arquivo no Editor da Web. Selecione o **Nome do arquivo** opção do **Exibir arquivos por** seção em **Preferências do usuário** ![](images/user_preference_editor_icon.svg).
@@ -1805,6 +1818,7 @@ Para exibir os comentários de revisão nas tarefas de revisão ativas que estã
    >[!NOTE]
    > 
    > A variável **Revisão** e o painel **Comentários** Os painéis do estão sincronizados o tempo todo. No painel Comentários, os comentários são carregados com base na tarefa de revisão carregada no painel Revisão.
+   >
    > Para obter mais informações sobre como tratar os comentários, consulte [Comentários de revisão de endereço](review-address-review-comments.md#).
 
 **Localizar e substituir** -  ![](images/FindAndReplace_icon.svg)
@@ -1814,6 +1828,7 @@ O ícone Localizar e substituir é encontrado na parte inferior do painel esquer
 ![](images/map-find-replace.png){width="800" align="left"}
 
 Por padrão, é possível visualizar os arquivos por títulos. Ao passar o mouse sobre um arquivo, é possível visualizar o título do arquivo e o caminho do arquivo como uma dica de ferramenta.
+
 >[!NOTE]
 >
 > Como administrador, você também pode optar por exibir a lista de nomes de arquivo no Editor da Web. Selecione o **Nome do arquivo** opção do **Exibir arquivos por** seção em **Preferências do usuário** ![](images/user_preference_editor_icon.svg).
@@ -1822,6 +1837,7 @@ Para executar a pesquisa global e substituir, execute as seguintes etapas:
 
 1. Abrir o global **Localizar e substituir** painel.
 1. Clique em **Examinar** selecione uma das seguintes opções para realizar a pesquisa.
+
    - **Mapa atual**: Para pesquisar no mapa aberto no momento
 
      >[!NOTE]
@@ -1875,9 +1891,7 @@ Para executar a pesquisa global e substituir, execute as seguintes etapas:
 
 1. Pressione Enter ou selecione **Pesquisar** ícone \( ![](images/search-icon.svg)\) para realizar a pesquisa.
 1. Selecione um arquivo na lista de resultados da pesquisa. O arquivo é aberto na área de edição de conteúdo com o termo pesquisado realçado no conteúdo.
-
 1. Clique em **Substituir ocorrência única** \( ![](images/replace-icon.svg)\) para substituir o termo de pesquisa destacado no tópico ou clique em Próxima correspondência ![](images/next-match-in-search.png) ou ![](images/previous-match-in-search.png) Anterior Corresponder para mover para a próxima ocorrência ou ocorrência anterior do texto.
-
 1. Clique em **Substituir tudo no arquivo** \( ![](images/replace-all-in-file-icon.svg)\) para substituir todas as ocorrências do termo pesquisado em um único arquivo pelo termo de substituição em um único clique. Você verá uma notificação depois de substituir todas as ocorrências no arquivo selecionado.
 
    >[!NOTE]
@@ -1904,6 +1918,7 @@ Você também pode usar a variável **Localizar no mapa** opção no **Opções*
 A área de edição de conteúdo é onde o conteúdo do tópico ou mapa é exibido. Você faz todas as edições de conteúdo nesta área. Ele fornece uma visualização WYSIWYG do conteúdo que você está editando. É possível abrir vários tópicos ao mesmo tempo, que são exibidos em suas respectivas guias.
 
 Por padrão, é possível exibir os títulos dos arquivos nas guias. Ao passar o mouse sobre um arquivo, é possível visualizar o título do arquivo e o caminho do arquivo como uma dica de ferramenta.
+
 >[!NOTE]
 >
 > Como administrador, você também pode optar por exibir a lista de arquivos por nomes de arquivo nas guias. Selecione o **Nome do arquivo** opção do **Exibir arquivos por** seção em **Preferências do usuário** ![](images/user_preference_editor_icon.svg).
@@ -1985,6 +2000,7 @@ A seção Referências fornece acesso aos seguintes recursos:
 - **Links de saída:** Os Links de Saída listam os documentos referenciados no documento atual.
 
 Por padrão, é possível visualizar os arquivos por títulos. Ao passar o mouse sobre um arquivo, é possível visualizar o título do arquivo e o caminho do arquivo como uma dica de ferramenta.
+
 >[!NOTE]
 >
 > Como administrador, você também pode optar por exibir a lista de arquivos por nomes de arquivo no Editor da Web. Selecione o **Nome do arquivo** opção do **Exibir arquivos por** seção em **Preferências do usuário** ![](images/user_preference_editor_icon.svg).
@@ -2014,4 +2030,3 @@ Usando o recurso Alterações controladas do painel direito, você pode exibir a
 > O recurso Alterações controladas mostra todas as atualizações que foram controladas usando o recurso Habilitar/Desabilitar Controlar alterações da barra de ferramentas principal. Para obter mais detalhes, consulte [Ativar/desativar o controle de alterações](#id205DF0203Y4).
 
 **Tópico pai:**[ Trabalhar com o editor da Web](web-editor.md)
-
