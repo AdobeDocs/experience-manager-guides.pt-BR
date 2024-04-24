@@ -5,7 +5,7 @@ exl-id: 5af78233-343e-47ba-b60c-b7f4789e2406
 feature: Translation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
 workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 11%
@@ -49,7 +49,7 @@ Para ocultar a guia Tradução no painel de mapa DITA, execute as seguintes etap
 1. Use as instruções fornecidas em [Substituições de configuração](download-install-additional-config-override.md#) para criar o arquivo de configuração.
 1. No arquivo de configuração, forneça os seguintes detalhes \(propriedade\) para configurar a guia tradução no painel de mapa:
 
-   | PID | Chave de propriedade | Valor da propriedade |
+   | PID | Chave de propriedade | Valor de propriedade |
    |---|------------|--------------|
    | `com.adobe.fmdita.config.ConfigManager` | `tabs.translation` | Booleano\\ ( true/ false\).<br> **Valor padrão**: `true` |
 
@@ -64,7 +64,7 @@ Se o conector do fornecedor de tradução não suportar conteúdo DITA, o fluxo 
 
 Com base no fluxo de trabalho de tradução usado na configuração, a opção de fluxo de trabalho de tradução baseado em componentes deve ser configurada. Use as instruções fornecidas em [Substituições de configuração](download-install-additional-config-override.md#) para criar o arquivo de configuração. No arquivo de configuração, forneça os seguintes detalhes \(propriedade\) para configurar o fluxo de trabalho de tradução baseado em componentes:
 
-| PID | Chave de propriedade | Valor da propriedade |
+| PID | Chave de propriedade | Valor de propriedade |
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `component.translation` | Booleano: <br> - Se você estiver usando tradução humana, então *Desativar* \( `false`\) o **Fluxo de trabalho de tradução baseado em componentes** opção. <br> - Se você estiver usando tradução automática, então *Habilitar \( `true`\)* o **Fluxo de trabalho de tradução baseado em componentes** opção. |
 
@@ -82,6 +82,7 @@ Quando você inicia o fluxo de trabalho de tradução, o sistema cria cópias te
 
 Use as instruções fornecidas em [Substituições de configuração](download-install-additional-config-override.md#) para criar o arquivo de configuração. No arquivo de configuração, forneça os seguintes detalhes \(propriedade\) para configurar o pós-processamento de cópias de idioma temporárias:
 
-| PID | Chave de propriedade | Valor da propriedade |
+| PID | Chave de propriedade | Valor de propriedade |
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | Booleano: <br> - Se você não quiser executar a operação de pós-processamento nos arquivos temporários, *Desativar* \( false\) o **Pós-processamento de cópias de idioma** opção.<br> - Se você quiser executar a operação de pós-processamento nos arquivos temporários, *Ativar* \( true\) o **Pós-processamento de cópias de idioma** opção.<br> **Valor padrão**: falso |
+

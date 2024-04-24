@@ -3,7 +3,7 @@ title: Configure a publicação com base em microsserviço com a autenticação 
 description: Saiba como configurar a publicação baseada em microsserviços com autenticação OAuth para Guias do AEM.
 feature: Microservice in AEM Guides
 role: User, Admin
-source-git-commit: 17116ed5619b7177cf0174449d67cfebf5b9cf46
+source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 0%
@@ -21,9 +21,6 @@ Para cada solicitação de publicação, o Experience Manager Guides as a Cloud 
 > A publicação com base em microsserviços nos Guias do Experience Manager suporta os tipos de predefinições de saída PDF (baseado em DITA e nativo), HTML5, JSON e CUSTOM.
 
 Como o serviço de publicação na nuvem é protegido pela autenticação baseada em OAuth do Adobe IMS, execute as seguintes etapas para integrar seus ambientes com fluxos de trabalho de autenticação baseados em token seguro do Adobe e comece a usar a solução de publicação escalável baseada em nuvem.
-
-
-
 
 
 ## Criar configurações do IMS no console do Adobe Developer

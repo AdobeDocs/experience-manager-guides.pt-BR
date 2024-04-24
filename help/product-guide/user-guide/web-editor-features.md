@@ -4,7 +4,7 @@ description: Descubra os recursos do editor da Web em Guias do AEM. Conhecer a i
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 43bdcba4642c9d75585bc571acf0cb0da22a5f4c
+source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
 workflow-type: tm+mt
 source-wordcount: '18678'
 ht-degree: 0%
@@ -231,7 +231,7 @@ Isso impede que os usuários salvem qualquer arquivo que quebre uma regra defini
       1. Informe o nome do grupo de idiomas. Cada idioma deve ter um nome exclusivo. Você pode exibir um erro se o campo de nome estiver vazio ou se o nome não for exclusivo.
       1. Selecione os idiomas na lista suspensa. Você pode selecionar vários idiomas.
 
-     Digite os primeiros caracteres do idioma ou o código do idioma para filtrar os idiomas desejados. Por exemplo, digite &quot;en&quot; para filtrar todos os idiomas que contêm &quot;en&quot; no início do nome ou código.
+     Digite os primeiros caracteres do idioma ou o código do idioma para filtrar os idiomas desejados. Por exemplo, digite &#39;en&#39; para filtrar todos os idiomas que contêm &#39;en&#39; no início de seu nome ou código.
       1. Selecionar **Concluído** para adicionar os idiomas selecionados ao grupo. Os idiomas são exibidos. Ao adicionar três ou mais idiomas, **Mostrar mais** é exibido. É possível selecionar **Mostrar mais** para exibir todos os idiomas presentes no grupo.
          >[!TIP]
          >
@@ -342,7 +342,7 @@ Você também pode digitar um caractere ou sequência de caracteres na caixa de 
 
 ![inserir elemento](images/insert-element.png){width="300" align="left"}
 
-*Digite ‘t’ para procurar todos os elementos válidos que comecem com ‘t’.*
+*Digite &#39;t&#39; para procurar todos os elementos válidos que comecem com &#39;t&#39;.*
 
 Se você estiver trabalhando dentro de um elemento de bloco como um `note`, em seguida, use o ícone Inserir elemento para inserir um novo elemento após a variável `note` elemento. Na captura de tela a seguir, um elemento de nota foi inserido no elemento p \(parágrafo\):
 
@@ -2014,3 +2014,4 @@ Usando o recurso Alterações controladas do painel direito, você pode exibir a
 > O recurso Alterações controladas mostra todas as atualizações que foram controladas usando o recurso Habilitar/Desabilitar Controlar alterações da barra de ferramentas principal. Para obter mais detalhes, consulte [Ativar/desativar o controle de alterações](#id205DF0203Y4).
 
 **Tópico pai:**[ Trabalhar com o editor da Web](web-editor.md)
+
