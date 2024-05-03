@@ -1,19 +1,19 @@
 ---
 title: Ícone de configuração para tipos personalizados
 description: Saiba como definir ícones para tipos de listas personalizadas para mostrar seus ícones em diferentes interfaces do usuário no AEM
-source-git-commit: 60d4aeec9841fdab8ff97d975fbbe4a640ccf9e8
+source-git-commit: de281989de21d8bf4ba771670d7cb871a089b1e1
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
 
-# Configuração do ícone para tipos dita personalizados (tópico ou mapa)
+# Configuração do ícone para tipos dita personalizados/especializados (tópico ou mapa)
 
 
 ## Declaração do problema
 
-Com o esquema personalizado usado nos Guias do AEM, é possível criar tópicos personalizados ou tipos de mapa e, com isso, você pode notar que os tópicos/mapas personalizados não mostram o ícone no editor da Web ou na interface do usuário do Assets. Consulte a captura de tela abaixo para referência
+Com o esquema personalizado usado nos Guias do AEM, é possível criar tópicos personalizados ou tipos de mapa e, com isso, você pode notar que os tipos de tópico/mapa personalizados não mostram o ícone no editor da Web ou na interface do usuário do Assets. Consulte a captura de tela abaixo para referência
 
 ![captura de tela para referência](../assets/authoring/custom-ditatype-icon-notshown.png)
 
