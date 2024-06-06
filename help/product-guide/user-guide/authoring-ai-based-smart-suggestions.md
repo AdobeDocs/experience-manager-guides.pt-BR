@@ -1,14 +1,13 @@
 ---
 title: Sugestões inteligentes alimentadas por IA para criar conteúdo
 description: Saiba como visualizar e utilizar Sugestões inteligentes habilitadas por IA no Editor da Web.
-source-git-commit: eea4a30b91fd5c28647fd7ea95dd8058ec411adc
+exl-id: 23c5285e-0d4f-484a-a062-fe1ba1608b8d
+source-git-commit: 75425d82ee55485503ea6678030c5e919e50a691
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '789'
 ht-degree: 0%
 
 ---
-
-
 
 # Sugestões inteligentes alimentadas por IA para criar conteúdo
 
@@ -76,6 +75,8 @@ Execute as seguintes etapas para exibir as sugestões inteligentes para adiciona
 1. Também é possível selecionar **Aceitar** ou **Recusar** no **Reutilização de conteúdo** sugestões para as recomendações apropriadas.
 
 
-
 Esse recurso inteligente é útil e minimiza o esforço de pesquisa manual de conteúdo, permitindo que você se concentre mais na geração de novo conteúdo. Também facilita uma melhor colaboração em equipe e ajuda a manter a consistência no conteúdo criado por vários autores.
 
+>[!NOTE]
+>
+>As sugestões inteligentes não retêm os dados além da sessão atual. Para respostas do, as sugestões inteligentes dependem apenas do índice criado no conteúdo que reside no banco de dados interno. As ferramentas de IA externa não são usadas, garantindo que os dados permaneçam no sistema.
