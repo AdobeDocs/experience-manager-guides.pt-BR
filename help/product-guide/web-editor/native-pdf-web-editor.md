@@ -4,9 +4,9 @@ description: Saiba como usar a publicação de PDF nativo, criar e gerar uma pre
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
 feature: Publishing, Web Editor, Native PDF Output
 role: User
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: e78749b1d5b4ba944cbca69ba65c6d28355b2c34
 workflow-type: tm+mt
-source-wordcount: '3293'
+source-wordcount: '3362'
 ht-degree: 0%
 
 ---
@@ -212,3 +212,10 @@ Se você selecionar a variável **Baixar arquivos temporários** nas Configuraç
 
 Guias de AEM também fornecem suporte para variáveis de idioma. Selecionar **Variáveis de idioma** <img src="./assets/language-variables.svg" width="25">  no painel esquerdo para definir uma versão localizada dos rótulos prontos para uso como Observação, Cuidado e Aviso ou texto estático na saída de PDF. Para obter mais detalhes, consulte [Suporte para variáveis de idioma](../native-pdf/native-pdf-language-variables.md).
 
+
+
+### Suporte para documentos do Markdown
+
+Os Guias do Experience Manager também fornecem suporte para seus documentos do Markdown.  Os arquivos do Markdown são fáceis de criar e também fornecem uma variedade de opções de formatação. Saiba como [documentos do Markdown do autor no Editor da Web](../user-guide/web-editor-markdown-topic.md).
+
+Você pode adicionar os tópicos do Markdown ao mapa DITA e gerar a saída de PDF usando as predefinições de saída de PDF nativo.  Saiba como configurar ou [criar uma predefinição de saída de PDF](#create-a-pdf-output-preset-create-output-preset).

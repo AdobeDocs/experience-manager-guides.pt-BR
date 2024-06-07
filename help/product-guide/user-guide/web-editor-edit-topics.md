@@ -4,9 +4,9 @@ description: Saiba como editar tópicos no editor da Web. Saiba mais sobre vári
 exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 05848b381999bf00d480b618ccb604c1798cc5dd
+source-git-commit: d30f05ff614693beca5d9cf7f206a36f3dadfc8b
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '889'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,24 @@ O Editor da Web vem com uma variedade de recursos de edição que permitem criar
    >[!NOTE]
    >
    > Se não quiser confirmar as alterações no repositório AEM, clique em **Fechar** e clique em **Fechar sem salvar** no diálogo Alterações não salvas.
+
+
+## Seleção parcial de conteúdo entre elementos
+
+Os Guias do Experience Manager também permitem selecionar conteúdo entre elementos. Após selecionar o conteúdo, você pode executar as seguintes operações:
+- Formatação e exclusão: deixe o conteúdo selecionado em negrito, itálico, sublinhado ou até mesmo exclua o conteúdo selecionado. O conteúdo das tags abertas válidas é então mesclado e exibido em um único elemento. Por exemplo, é possível selecionar o conteúdo em um parágrafo e estender a seleção para outro parágrafo. Em seguida, se você colocar o conteúdo selecionado em negrito, todo o conteúdo em negrito das tags abertas será mesclado e exibido em um único elemento de parágrafo.
+
+Da mesma forma, se você excluir o conteúdo selecionado, o conteúdo restante após a exclusão nas tags abertas será mesclado.
+
+- Circundar o conteúdo com um elemento válido: execute as seguintes etapas para envolver o conteúdo com um elemento válido:
+   - Selecione o conteúdo em um elemento.
+   - Selecione o ![adicionar](images/Add_icon.svg) ícone na barra de ferramentas secundária na parte superior para exibir o **Circundar com elemento** caixa de diálogo. A caixa de diálogo lista os elementos válidos para o conteúdo selecionado.
+     >[!NOTE]
+     >
+     > Você também pode visualizar a caixa de diálogo Circular com elemento selecionando o menu de contexto do conteúdo selecionado.
+
+   - Selecione um elemento na caixa de diálogo. O conteúdo selecionado é colocado sob esse elemento. Por exemplo, se você selecionar o conteúdo em um parágrafo e escolher a variável `<note>` elemento do **Circundar com elemento** caixa de diálogo, o conteúdo selecionado aparece sob uma nota.\
+     ![caixa de diálogo surround element](./images/surround-element.png) {width="300" align="left"}
 
 ## Atualizar o navegador ao editar os arquivos
 

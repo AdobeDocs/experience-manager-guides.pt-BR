@@ -5,9 +5,9 @@ exl-id: 438e2964-b9c7-462a-a68c-8031bd97911c
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: f8c71e18f5e2e5dbc5a2abdbb92c72fdad3bb233
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
@@ -94,4 +94,4 @@ Arquivo de exemplo:
 ]
 ```
 
-Você pode publicar todo o tópico com o mapeamento padrão. Selecione o `Full Topic` mapeamento na lista suspensa no **Publicar como fragmento de conteúdo** e têm o campo &quot;topicData&quot; no modelo de fragmento de conteúdo.
+Você pode publicar todo o tópico com o mapeamento padrão. Selecione o `Full Topic` mapeamento na lista suspensa **Gerar fragmento de conteúdo** e têm o campo &quot;topicData&quot; no modelo de fragmento de conteúdo.

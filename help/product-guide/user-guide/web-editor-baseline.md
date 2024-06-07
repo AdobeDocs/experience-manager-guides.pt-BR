@@ -4,9 +4,9 @@ description: Criar e gerenciar linhas de base do editor da Web no AEM Guides. Sa
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: c4c5fa16daf3f713f85783152094c8af59eb4f8c
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1699'
 ht-degree: 0%
 
 ---
@@ -60,8 +60,12 @@ Você pode criar uma linha de base no Editor da Web executando as seguintes etap
 
    ![Criar uma linha de base](images/dynamic-baseline.png){width="300" align="left"}
 
-   - **Selecionar rótulos**: Se os tópicos tiverem rótulos especificados para eles, use o **Selecionar rótulos** selecione na lista suspensa [rótulos listados](#labels-list).
+   - **Rótulos**: Se os tópicos tiverem rótulos especificados para eles, use o **Rótulos** selecione na lista suspensa [rótulos listados](#labels-list).
 Os rótulos selecionados primeiro recebem prioridade mais alta sobre os posteriores.
+
+     >[!NOTE]
+     >
+     >Enquanto os rótulos estão sendo puxados, um carregador é exibido e a lista suspensa é desativada.
 
      Para linhas de base dinâmicas, os rótulos são extraídos da versão salva mais recente e da cópia de trabalho atual do mapa. Por exemplo, se você tiver criado rótulos   `Label Release A.1.0 ` e `Label Release A.1.1` para as versões 1.0 e 1.1 do Tópico A e rótulos `Label Release B.1.0` e `Label Release B.1.1` para as versões 1.0 e 1.1 do Tópico B. Em seguida, você pode adicionar o Tópico A ao Mapa A na versão 1.0 e o Tópico B ao Mapa A no 1.0* (cópia de trabalho). Nesse caso, você pode exibir  `Label Release A.1.0 `, `Label Release A.1.1`, `Label Release B.1.0`, e `Label Release B.1.1` na lista suspensa de rótulos de linha de base dinâmicos.
 

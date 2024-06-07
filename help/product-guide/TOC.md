@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leia a documentação do produto para o Adobe Experience Manager Guides.
 breadcrumb-title: Documentação do AEM Guides
-source-git-commit: 56fa545f1dd32bcc3ec533cffb14a364b934ba20
+source-git-commit: bcb61127f5f69ac39860a90eac2e1a56ecd1de31
 workflow-type: tm+mt
-source-wordcount: '1792'
+source-wordcount: '1815'
 ht-degree: 6%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 6%
       - Cloud Services {#cloud-release-notes}
          - [Instruções de implantação](./release-info/deploy-xml-on-aemaacs.md)
          - Versões de 2024 {#2024-releases}
+            - Versão 2024.6.0 {#2406-release}
+               - [Novidades](./release-info/whats-new-2024-06-0.md)
+               - [Problemas corrigidos](./release-info/fixed-issues-2024-06-0.md)
+               - [Instruções de atualização](./release-info/upgrade-instructions-2024-06-0.md)
             - Versão 2024.4.0 {#2404-release}
                - [Novidades](./release-info/whats-new-2024-04-0.md)
                - [Problemas corrigidos](./release-info/fixed-issues-2024-04-0.md)
@@ -121,6 +125,7 @@ ht-degree: 6%
                - [Visualizações do Editor da Web](./user-guide/web-editor-views.md)
                - [Suporte para arquivos do Schematron](./user-guide/support-schematron-file.md)
                - [Sugestões inteligentes alimentadas por IA para criar conteúdo](./user-guide/authoring-ai-based-smart-suggestions.md)
+
                - [Criação de documentos do Markdown no editor da Web](./user-guide/web-editor-markdown-topic.md)
                - [Adicionar citações ao seu conteúdo](./user-guide/web-editor-apply-citations.md)
                - [Usar dados de suas fontes de dados](./user-guide/web-editor-content-snippet.md)
@@ -191,7 +196,8 @@ ht-degree: 6%
          - [Configurar caracteres especiais adicionais](./web-editor/configure-additional-special-characters.md)
       - [Gerenciar tarefas de publicação usando o Painel de publicação](./user-guide/generate-output-publish-dashboard.md)
       - [Solução básica de problemas](./user-guide/generate-output-basic-troubleshooting.md)
-      - [Publicar em um fragmento de conteúdo](./user-guide/publish-content-fragment.md)
+      - [Publicar fragmentos de conteúdo](./user-guide/publish-content-fragment.md)
+      - [Publicar fragmentos de experiência](./user-guide/publish-experience-fragment.md)
       - Ativação em massa de conteúdo {#bulk-activation}
          - [Ativação em massa de conteúdo publicado](./user-guide/conf-bulk-activation.md)
          - [Criar uma coleção de mapas de ativação em massa](./user-guide/conf-bulk-activation-create-map-collection.md)
@@ -240,10 +246,11 @@ ht-degree: 6%
       - Trabalhar com DITA-OT personalizado e especialização {#custom-dita-ot-spec}
          - [Usar a especialização personalizada do DITA-OT e do DITA](./install-guide/dita-ot-specialization.md)
       - Configurar UUID e nomes de arquivo não baseados em UUID {#conf-non-uuid-filename}
-         - [Configurar nomes de arquivo](./install-guide/conf-file-names.md)
-         - [Configurar nomes de arquivo automáticos com base no UUID](./install-guide/conf-auto-uuid-filenames.md)
-         - [Configurar Regx para caracteres válidos de nome de arquivo](./install-guide/conf-file-names-valid-regx.md)
-         - [Configurar nomes de arquivo válidos para saída do site AEM](./install-guide/conf-file-names-valid-regx-aem-site-output.md)
+      - [Configurar pós-processamento para uma pasta](./install-guide/conf-folder-post-processing.md)
+      - [Configurar nomes de arquivo](./install-guide/conf-file-names.md)
+      - [Configurar nomes de arquivo automáticos com base no UUID](./install-guide/conf-auto-uuid-filenames.md)
+      - [Configurar Regx para caracteres válidos de nome de arquivo](./install-guide/conf-file-names-valid-regx.md)
+      - [Configurar nomes de arquivo válidos para saída do site AEM](./install-guide/conf-file-names-valid-regx-aem-site-output.md)
       - Trabalhar com modelos de tópico e mapa {#topic-map-template}
          - [Configurar tópico e modelos de mapa](./install-guide/conf-template-tags.md)
          - [Configurar modelo de tópico DITA personalizado](./install-guide/conf-template-tags-custom-dita-topic-template.md)
@@ -287,6 +294,7 @@ ht-degree: 6%
             - [Criar um layout de página](./native-pdf/design-page-layout.md)
             - [Variáveis na saída do PDF](./native-pdf/native-pdf-variables.md)
             - [Suporte para variáveis de idioma](./native-pdf/native-pdf-language-variables.md)
+            - [Adicionar um código de barras à saída do PDF](./native-pdf/add-barcode.md)
             - Estilos de conteúdo comuns {#content-styles}
                - [Trabalhar com os estilos de conteúdo comuns](./native-pdf/stylesheet.md)
                - [Trabalhar com estilos de barras de alteração personalizados](./native-pdf/change-bar-style.md)
@@ -295,8 +303,7 @@ ht-degree: 6%
                - [Usar JavaScript para trabalhar com conteúdo ou estilo](./native-pdf/use-javascript-content-style.md)
                - [Aplicar estilos a notas de rodapé](./native-pdf/footnote-number-style.md)
          - [Configurar sinalizadores JVM para publicação de PDF nativo](./native-pdf/configure-jvm-flags.md)
-         - [Criar um mapeamento entre um tópico e um fragmento de conteúdo](./install-guide/conf-content-fragment-mapping.md)
-      - Trabalhar com fluxos de trabalho personalizados {#custom-workflow}
+         - Trabalhar com fluxos de trabalho personalizados {#custom-workflow}
          - [Configurar e personalizar workflows](./install-guide/customize-workflows.md)
       - Trabalhar com configurações de tradução {#translate-config}
          - [Traduzir conteúdo](./install-guide/translation.md)
@@ -365,6 +372,7 @@ ht-degree: 6%
          - [Publicação de PDF nativo](./cs-install-guide/native-pdf-publishing.md)
          - [Configurar processo de nó para publicação de PDF nativo](./native-pdf/configure-node-options.md)
          - [Criar um mapeamento entre um tópico e um fragmento de conteúdo](./cs-install-guide/conf-content-fragment-mapping-cs.md)
+         - [Criar um mapeamento entre um tópico e um fragmento de experiência](./cs-install-guide/conf-experience-fragment-mapping-cs.md)
       - Trabalhar com fluxos de trabalho personalizados {#custom-workflow-cs}
          - [Configurar e personalizar workflows](./cs-install-guide/customize-workflows.md)
       - Trabalhar com configurações de tradução {#translate-config-cs}

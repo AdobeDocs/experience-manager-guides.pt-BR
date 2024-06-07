@@ -5,9 +5,9 @@ exl-id: b801c2b3-445f-4aa7-a4f2-029563d7cb3a
 feature: Java-Based API Packages
 role: Developer
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 4ce78061ddb193d3c16241ff32fa87060c9c7bd6
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,10 @@ A variável `activate` O método cria um pacote CRX na instância do autor e o r
 >
 > Os erros encontrados durante o processo de criação ou ativação são gravados na `outputstream`.
 
+### Exemplo com dois parâmetros
+
 **Sintaxe**:
+
 
 ```JAVA
 public static void activate
@@ -54,9 +57,28 @@ public static void activate
 throws GuidesApiException
 ```
 
-**Parâmetros**: |Nome|Tipo|Descrição| |—|—|—| |`json`Cadeia de caracteres|Cadeia de caracteres JSON que determina o pacote CRX a ser criado. Use o formato a seguir para criar a cadeia de caracteres JSON: <br>- `activate`: É do tipo Booleano \(`true`/`false`\). Determina se o pacote CRX criado na instância do autor é replicado para a instância de publicação. <br> - `rules`: é do tipo Matriz JSON. Uma matriz de regras JSON que são processadas sequencialmente para criar o pacote CRX. <br> - `rootPath`: É do tipo String. O caminho base no qual as consultas de nó/propriedade são executadas. Se nenhuma consulta de nó/propriedade estiver presente, o caminho raiz e todos os nós presentes no caminho raiz serão incluídos no pacote CRX. <br> - `nodeQueries`: é do tipo Matriz Regex. Uma matriz de expressões regulares usadas para incluir arquivos específicos no caminho raiz. <br> - `propertyQueries`: é do tipo Matriz JSON. Uma matriz de Objetos JSON com cada Objeto JSON que consiste em uma consulta XPath a ser executada no caminho raiz e o nome de uma propriedade presente em cada nó JCR após a execução da consulta. O valor da propriedade em cada nó JCR deve ser um caminho ou uma matriz de caminhos. Os caminhos presentes nessa propriedade são adicionados ao pacote CRX.| |`outputstream`|java.io.OutputStream|Usado para gravar o resultado de vários estágios, como execução de consulta, inclusão de arquivos, criação de pacotes CRX ou ativação. Qualquer erro encontrado durante o processo de criação ou ativação é gravado no `outputstream`. Isso é útil para depuração.| |`session`|String|Uma sessão JCR válida com permissão de ativação.|
+### Exemplo com o terceiro parâmetro opcional
 
-**Exceção**: Lançamentos ``java.io.IOException``.
+```JAVA
+public static void activate
+(
+  String json, 
+  OutputStream outputstream,
+  String activationTarget, 
+  Session session
+) 
+throws GuidesApiException
+```
+
+**Parâmetros**: |Nome|Tipo|Descrição| |—|—|—| |`json`Cadeia de caracteres|Cadeia de caracteres JSON que determina o pacote CRX a ser criado. Use o formato a seguir para criar a cadeia de caracteres JSON: <br>- `activate`: É do tipo Booleano \(`true`/`false`\). Determina se o pacote CRX criado na instância do autor é replicado para a instância de publicação. <br> - `rules`: é do tipo Matriz JSON. Uma matriz de regras JSON, que são processadas sequencialmente para criar o pacote CRX. <br> - `rootPath`: É do tipo String. O caminho base no qual as consultas de nó/propriedade são executadas. Se nenhuma consulta de nó/propriedade estiver presente, o caminho raiz e todos os nós presentes no caminho raiz serão incluídos no pacote CRX. <br> - `nodeQueries`: é do tipo Matriz Regex. Uma matriz de expressões regulares usadas para incluir arquivos específicos no caminho raiz. <br> - `propertyQueries`: é do tipo Matriz JSON. Uma matriz de Objetos JSON com cada Objeto JSON que consiste em uma consulta XPath a ser executada no caminho raiz e o nome de uma propriedade presente em cada nó JCR após a execução da consulta. O valor da propriedade em cada nó JCR deve ser um caminho ou uma matriz de caminhos. Os caminhos presentes nessa propriedade são adicionados ao pacote CRX.| |`outputstream`|java.io.OutputStream|Usado para gravar o resultado de vários estágios, como execução de consulta, inclusão de arquivos, criação de pacotes CRX ou ativação. Qualquer erro encontrado durante o processo de criação ou ativação é gravado no `outputstream`. Isso é útil para depuração.| |`session`|String|Uma sessão JCR válida com permissão de ativação.| |`activationTarget`|String|(*Opcional*) `preview` ou `publish` para o Cloud Service e `publish` para software local <br> - Para Cloud Service, se o parâmetro contiver um valor inválido, a ativação do pacote falhará. <br> - Para software no local, se o parâmetro contiver um valor inválido, o erro será registrado e a publicação será feita usando o valor padrão, `publish`. |
+
+**Exceção**:
+
+Lança `java.io.IOException` e `java.io.IllegalArgumentException`
+
+
+Se você não definir o parâmetro opcional, `activationTarget`, ele ativa o uso do agente de publicação padrão para o Cloud Service e o Software local.
+
 
 **Exemplo**: o exemplo a seguir mostra como criar uma consulta JSON:
 

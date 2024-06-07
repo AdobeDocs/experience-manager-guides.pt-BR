@@ -4,7 +4,7 @@ description: Explore outros recursos do editor da Web em Guias do AEM. Saiba com
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: caf00a014838751675aed11e5687a81fe7ad2e7c
+source-git-commit: d30f05ff614693beca5d9cf7f206a36f3dadfc8b
 workflow-type: tm+mt
 source-wordcount: '2532'
 ht-degree: 0%
@@ -182,6 +182,7 @@ Quando você insere uma equação usando o editor MathML, o Experience Manager G
 **Inserir notas de rodapé**
 
 - Insira uma nota de rodapé em seu conteúdo usando o `fn` elemento. No modo de criação, o valor da nota de rodapé é mostrado em linha com o conteúdo. No entanto, ao alternar entre o modo de Visualização e a publicação do documento, a nota de rodapé é exibida no final do tópico.
+
 
 **Renomear ou substituir um elemento**
 

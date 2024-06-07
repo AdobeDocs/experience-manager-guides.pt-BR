@@ -5,9 +5,9 @@ exl-id: 42ba7347-d81d-45d9-9627-8d164e4f9539
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: f98aa2b4b196ee0fd46542317894163b64b8a486
 workflow-type: tm+mt
-source-wordcount: '3525'
+source-wordcount: '3778'
 ht-degree: 0%
 
 ---
@@ -131,16 +131,16 @@ As propriedades do estilo h1 são mostradas no painel Propriedades junto com sua
    | h1 | Estilo | Decimal | Essas propriedades estão na categoria Autonumeração |
    |  | Formato | `Capter <x>:` |  |
    |  | Largura do prefixo | 160px |  |
-   |  | Fonte > Alinhamento de texto | Esquerda | Certifique-se de que &#39;Aplicar formatação a&#39; esteja definido como &#39;Numeração&#39; |
+   |  | Fonte > Alinhamento de texto | À esquerda | Certifique-se de que &#39;Aplicar formatação a&#39; esteja definido como &#39;Numeração&#39; |
    | h2 | Estilo | Decimal | Essas propriedades estão na categoria Autonumeração |
    |  | Formato | `Section <x>:` |  |
    |  | Largura do prefixo | 125 px |  |
-   |  | Fonte > Alinhamento de texto | Esquerda | Certifique-se de que &#39;Aplicar formatação a&#39; esteja definido como &#39;Numeração&#39; |
+   |  | Fonte > Alinhamento de texto | À esquerda | Certifique-se de que &#39;Aplicar formatação a&#39; esteja definido como &#39;Numeração&#39; |
    | h3 | Estilo | Decimal | Essas propriedades estão na categoria Autonumeração |
    |  | Inserir Nível | 2 |  |
    |  | Formato | `Section <2>.<x>:` |  |
    |  | Largura do prefixo | 125 px |  |
-   |  | Fonte > Alinhamento de texto | Esquerda | Certifique-se de que &#39;Aplicar formatação a&#39; esteja definido como &#39;Numeração&#39; |
+   |  | Fonte > Alinhamento de texto | À esquerda | Certifique-se de que &#39;Aplicar formatação a&#39; esteja definido como &#39;Numeração&#39; |
    |  |
 
    <img src="./assets/auto-number-output.png" width="500">
@@ -374,3 +374,63 @@ No exemplo a seguir, criaremos um novo título de janela (`wintitle`) estilo:
 A captura de tela a seguir exibe o estilo wintitle que está sendo aplicado ao texto &quot;Controle principal&quot;.
 
 <img src="./assets/other-style-wintitle.png" width="500">
+
+
+## Definir um estilo exclusivo para um layout de página única
+
+Ao publicar a saída de PDF nativo, todos os estilos são mesclados no PDF final e é crucial atribuir um estilo exclusivo a cada modelo no CSS.
+Use nomes de estilo CSS distintos para aplicar fontes e estilos específicos a diferentes seções de um PDF. Por exemplo, você pode definir a fonte desejada para a página de capa usando o seguinte CSS.
+
+```css
+...
+[data-page-layout="Front"] * { 
+    font-size: 18pt; 
+}  
+...
+```
+
+
+O restante do documento usará a fonte padrão especificada para a marca de corpo no `content.css` ou `layout.css`. Isso garante que os estilos não sejam mesclados e que cada seção mantenha o design pretendido. Se quiser tamanhos de fonte diferentes, crie estilos específicos para eles.
+
+Por exemplo, você pode definir os seguintes estilos para definir o tamanho de fonte 18 nos parágrafos da folha de rosto e o tamanho de fonte 11 pt para a página de capa traseira:
+
+```css
+[data-page-layout="Front"] p { //For all paragraphs inside Front page
+  font-size: 18pt; 
+} 
+  
+[data-page-layout="Back"] p { //For all paragraphs inside Back page
+  font-size: 11pt; 
+}
+```
+
+>[!NOTE]
+>
+No exemplo anterior, &quot;Frente&quot; e &quot;Voltar&quot; são os nomes de exemplo dos arquivos de layout que podem ser usados nos modelos.
+
+
+## Definir o estilo CSS personalizado para o conteúdo de prefixo e sufixo
+
+Se você definir os estilos CSS personalizados, eles terão a primeira precedência ao gerar a saída de PDF nativo.
+O estilo CSS padrão a seguir oculta o conteúdo do prefixo e do sufixo.
+
+```css
+...
+.prefix-content, .suffix-content{
+    display: none;
+} 
+...
+```
+
+Para permitir esses prefixos no `<note>` inclua o seguinte CSS na `content.css`:
+
+```css
+...
+.prefix-content{
+    display: inline !important;
+}
+...
+```
+
+A variável `<note>` elemento gera um adicional `<span>` com a classe prefix-content correspondente ao seu atributo type. Essa regra CSS destina-se aos `.prefix-content` classe dentro de `<note>` elementos com um atributo de tipo, permitindo estilizar ou manipular o conteúdo do prefixo conforme necessário.
+

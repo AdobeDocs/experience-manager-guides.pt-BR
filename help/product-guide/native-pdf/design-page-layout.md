@@ -5,9 +5,9 @@ exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: aad652509c54b516fca49b7ca28d7dd5547f9a1b
 workflow-type: tm+mt
-source-wordcount: '4825'
+source-wordcount: '4972'
 ht-degree: 0%
 
 ---
@@ -352,25 +352,39 @@ Os campos são muito úteis quando você deseja inserir informações predefinid
 
 Há as seguintes categorias para campos que você pode inserir no layout da página:
 
+* Metadados
+* Título do tópico
+* Título do capítulo
+* Título do mapa
+* Número da página
+* Número do capítulo
+* Total de páginas
 * Data
 * Hora
-* Título do tópico
-* Título do projeto
-* Número da página
-* Página total
-* Título do capítulo
-* Número do capítulo
-* Metadados
+
 
 Cada uma dessas categorias de campo contém diferentes variações nas quais as informações de campo podem ser inseridas. Por exemplo, um campo Data pode ter variações diferentes, como `YYYY-MM-DD`, `MM/DD/YY`, `MM/DD/YYYY` e assim por diante. Da mesma forma, o Número de página pode ter variações na forma de formatos romanos, decimais ou até mesmo específicos do local, como _Árabe_, _Devanágari_, _Hebraico_ e muito mais.
 
-Além dos campos predefinidos, também é possível adicionar informações de metadados como variáveis ou campos no layout da página. Esses metadados são armazenados no conteúdo do mapa DITA de origem e podem ser facilmente inseridos no layout da página.
 
-Você também pode selecionar as propriedades de metadados dos seus ativos e adicioná-las ao layout da página. Os metadados do ativo são publicados para a saída do PDF. Essas propriedades de metadados dos ativos são definidas no **Propriedades** página do mapa DITA ou do arquivo de mapa.
+Além dos campos predefinidos, também é possível adicionar informações de metadados como variáveis ou campos no layout da página. Esses metadados são armazenados no DITA de origem **Mapear conteúdo** ou ele pode ser retirado do DITA **Mapear propriedades do arquivo** ou o **Propriedades do arquivo de tópico** e facilmente inserida no layout da página.
+
+Você pode selecionar os metadados nas seguintes opções:
+
+* **Mapear conteúdo** inclui os metadados definidos na variável `<topicmeta>` elemento do mapa DITA.
+* **Mapear propriedades do arquivo** inclui os metadados, que podem ser acessados no **Propriedades** página de um mapa DITA.
+* **Propriedades do arquivo de tópico** inclui os metadados, que podem ser acessados no **Propriedades** página de um Tópico.
+
+
+É possível combinar metadados de **Mapear propriedades do arquivo** e **Propriedades do arquivo de tópico** num único documento. Por exemplo, você pode publicar um PDF com o título do mapa na página de capa e o título do tópico no cabeçalho de outras páginas. Para fazer isso, é possível adicionar os metadados do título do mapa do **Mapear propriedades do arquivo** para o layout da página de capa. Em seguida, adicione os metadados do título do tópico da **Propriedades do arquivo de tópico**  ao cabeçalho no layout da página Capítulos e tópicos.
+
+Se um tópico terminar em uma página enquanto o outro começar na mesma página, os metadados do primeiro tópico serão escolhidos. Você também pode adicionar propriedades personalizadas e inseri-las como campos no layout da página.
+
 
 >[!NOTE]
 >
 > Os campos de metadados são exibidos de acordo com a seleção de ativo ou mapa no **De** lista suspensa.
+
+
 
 
 <!--For more information, see [Add fields and metadata](design-page-layout.md#add-fields-and-metadata).-->
@@ -395,7 +409,7 @@ No exemplo a seguir, inseriremos um número de página e um título de capítulo
 
 1. Selecione o **Número da página** categoria da lista Campo, a variável **padrão(1)** formato de número de página na lista Formato e clique em **Inserir**.
 
-   <img src="./assets/insert-page-number-field.svg" width="400">
+   <img src="./assets/insert-page-number-field.png" width="400">
 
    >[!NOTE]
    >
