@@ -1,9 +1,10 @@
 ---
-title: Configure a publicação com base em microsserviço com a autenticação OAuth para o AEM Guides as a Cloud Service
-description: Saiba como configurar a publicação baseada em microsserviços com autenticação OAuth para Guias do AEM.
+title: Configurar a publicação baseada em microsserviço com a autenticação OAuth para o AEM Guides as a Cloud Service
+description: Saiba como configurar a publicação baseada em microsserviços com autenticação OAuth para o AEM Guides.
 feature: Microservice in AEM Guides
 role: User, Admin
-source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
+exl-id: db0c83c7-1ece-4010-b214-f8d806d26bc9
+source-git-commit: 6d935ce934890066de358c434717efeef2c997cb
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 0%
@@ -12,34 +13,34 @@ ht-degree: 0%
 
 # Configurar a publicação baseada em microsserviço com autenticação OAuth
 
-O microsserviço de publicação permite executar grandes cargas de trabalho de publicação simultaneamente nos Guias do Experience Manager as a Cloud Service e aproveitar a plataforma sem servidor Adobe I/O Runtime, líder do setor.
+O microsserviço de publicação permite executar grandes cargas de trabalho de publicação simultaneamente no Experience Manager Guides as a Cloud Service e aproveitar a plataforma Adobe I/O Runtime sem servidor, líder do setor.
 
-Para cada solicitação de publicação, o Experience Manager Guides as a Cloud Service executa um contêiner separado que é dimensionado horizontalmente de acordo com as solicitações do usuário. Dessa forma, você pode executar várias solicitações de publicação e obter um desempenho melhor do que seus grandes servidores locais do Adobe Experience Manager.
+Para cada solicitação de publicação, o Experience Manager Guides as a Cloud Service um contêiner separado que é dimensionado horizontalmente de acordo com as solicitações do usuário. Dessa forma, você pode executar várias solicitações de publicação e obter um desempenho melhor do que seus grandes servidores locais do Adobe Experience Manager.
 
 >[!NOTE]
 >
-> A publicação com base em microsserviços nos Guias do Experience Manager suporta os tipos de predefinições de saída PDF (baseado em DITA e nativo), HTML5, JSON e CUSTOM.
+> A publicação com base em microsserviços no Experience Manager Guides é compatível com os tipos de predefinições de saída PDF (baseado em DITA e nativo), HTML5, JSON e CUSTOM.
 
 Como o serviço de publicação na nuvem é protegido pela autenticação baseada em OAuth do Adobe IMS, execute as seguintes etapas para integrar seus ambientes com fluxos de trabalho de autenticação baseados em token seguro do Adobe e comece a usar a solução de publicação escalável baseada em nuvem.
 
 
-## Criar configurações do IMS no console do Adobe Developer
+## Criar configurações do IMS no Adobe Developer Console
 
 **Função necessária para criar as configurações**: Administrador do sistema
 
-Execute as seguintes etapas para criar configurações de IMS no **Console do Adobe Developer**:
+Execute as seguintes etapas para criar configurações de IMS no **Adobe Developer Console**:
 
 >[!NOTE]
 >
 >Se você já criou um projeto OAuth para configurar as sugestões inteligentes habilitadas pela IA para criação, ignore as etapas a seguir para criar o projeto.
 
-1. Abertura **Console do desenvolvedor**: `https://developer.adobe.com/console`.
+1. Abertura **Developer Console**: `https://developer.adobe.com/console`.
 
 1. Alterne para a **Projetos** da parte superior.
 
    <img src="assets/projects-tab.png" alt="guia projetos" width="500">
 
-   *Selecione o **Projetos**na guia **Console do Adobe Developer***
+   *Selecione o **Projetos**na guia **Adobe Developer Console***
 
 1. Para criar um novo projeto vazio, selecione **Projeto vazio** do **Criar novo projeto** lista suspensa.
 
@@ -127,7 +128,7 @@ Para usar um microsserviço de publicação pela primeira vez, atualize as confi
 >
 > Ignore as seguintes etapas se já estiver usando a publicação com base em microsserviços:
 
-Depois de adicionar a configuração IMS ao ambiente, execute as seguintes etapas para vincular essas propriedades com os Guias de Experience Manager usando OSGi:
+Depois de adicionar a configuração IMS ao ambiente, execute as seguintes etapas para vincular essas propriedades ao Experience Manager Guides usando OSGi:
 
 1. Em seu código do projeto Git do Cloud Manager, adicione os dois arquivos a seguir (para conteúdo de arquivo, exibir [Apêndice](#appendix)).
 
