@@ -2,7 +2,7 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leia a documentação do produto para o Adobe Experience Manager Guides.
 breadcrumb-title: Documentação do AEM Guides
-source-git-commit: 1ec647821129467ecbf3641fcee0360e37e91fc0
+source-git-commit: 05a21c8b18d5eb79447423d48e1d65b4d6b44242
 workflow-type: tm+mt
 source-wordcount: '1819'
 ht-degree: 6%
@@ -138,8 +138,8 @@ ht-degree: 6%
                - Publicação baseada em artigo {#article-based-pub}
                   - [Publicação baseada em artigos no Editor da Web](./user-guide/web-editor-article-publishing.md)
                   - [Criar predefinições de saída no Editor da Web](./user-guide/web-editor-article-publishing-presets.md)
-                  - [Saída do generate do painel Repositório ou do painel Exibição de mapa](./user-guide/web-editor-article-publishing-output.md)
-                  - [Use o painel Quick Generate para generate e visualizar a saída](./user-guide/web-editor-quick-generate-panel.md)
+                  - [Gerar saída a partir do painel Repositório ou do painel Exibição de mapa](./user-guide/web-editor-article-publishing-output.md)
+                  - [Usar o painel Geração rápida para gerar e visualizar a saída](./user-guide/web-editor-quick-generate-panel.md)
                - [Traduzir documentos do Editor da Web](./user-guide/translate-documents-web-editor.md)
                - [Criar e gerenciar linhas de base no Editor da Web](./user-guide/web-editor-baseline.md)
                - [Estado do documento](./user-guide/web-editor-document-states.md)
@@ -197,7 +197,7 @@ ht-degree: 6%
       - [Criação de perfil de atributo condicional](./user-guide/generate-output-conditional-attribute-profiling.md)
       - [Usar predefinições de condição](./user-guide/generate-output-use-condition-presets.md)
       - [Trabalhar com linha de base](./user-guide/generate-output-use-baseline-for-publishing.md)
-      - [Saída do generate para um mapa DITA do console de mapas](./user-guide/generate-output-for-a-dita-map.md)
+      - [Gerar saída para um mapa DITA a partir do console de mapas](./user-guide/generate-output-for-a-dita-map.md)
       - [Usar coleção de mapas para geração de saída](./user-guide/generate-output-use-map-collection-output-generation.md)
       - Usar recurso de publicação de PDF nativo {#web-editor}
          - [Saída de PDF do Publish](./web-editor/native-pdf-web-editor.md)
@@ -213,13 +213,13 @@ ht-degree: 6%
          - [Editar uma coleção de mapas de ativação em massa](./user-guide/conf-bulk-activation-edit-map-collection.md)
          - [Excluir uma coleção de mapas de ativação em massa](./user-guide/conf-bulk-activation-delete-map-collection.md)
    - Geração de saída de documentos do FrameMaker {#generate-fm-output}
-      - [Saída generate de documentos do FrameMaker](./user-guide/fm-output-generatation.md)
+      - [Gerar saída de documentos de FrameMaker](./user-guide/fm-output-generatation.md)
       - Predefinições suportadas {#fm-docs-generating-presets}
          - [Predefinições para gerar documentos do FrameMaker](./user-guide/fm-output-understand-presets.md)
          - [PDF](./user-guide/fm-output-pdf-preset.md)
          - [HTML 5](./user-guide/fm-output-html5-preset.md)
          - [EPUB](./user-guide/fm-output-epub-preset.md)
-      - [Saída generate de arquivos .book ou .fm](./user-guide/fm-output-generate.md)
+      - [Gerar saída de arquivos .book ou .fm](./user-guide/fm-output-generate.md)
       - [Exibir o status da tarefa de geração de saída](./user-guide/fm-output-view-status.md)
    - Relatórios no AEM Guides {#reports-aem-guide}
       - [Introdução aos relatórios](./user-guide/reports-intro.md)
@@ -277,9 +277,9 @@ ht-degree: 6%
          - [Configurar o salvamento automático de arquivos no Editor da Web](./install-guide/auto-save-in-editor.md)
          - [Configurar filtros para a caixa de diálogo de procura de arquivos](./install-guide/conf-custom-file-filters.md)
          - [Configurar o prompt para salvar como uma nova versão ao fechar](./install-guide/conf-save-as-new-version-close.md)
-         - [Configurar o prompt para fazer check-in de um arquivo ao fechar](./install-guide/conf-checkin-file-close.md)
+         - [Configurar prompt para fazer check-in de um arquivo ao fechar](./install-guide/conf-checkin-file-close.md)
          - [Configurar caracteres especiais permitidos](./install-guide/conf-special-chars.md)
-         - [IDs de elemento do generate automático](./install-guide/auto-generate-ids.md)
+         - [Gerar IDs de elemento automaticamente](./install-guide/auto-generate-ids.md)
          - [Personalizar o dicionário padrão do AEM](./install-guide/customize-aem-custom-dictionary.md)
          - [Configurar filtros de texto](./install-guide/config-text-filters.md)
          - [Configurar o número de LimitReads para uma consulta](./install-guide/conf-query-limitreads.md)
@@ -359,9 +359,9 @@ ht-degree: 6%
          - [Configurar um painel personalizado no painel esquerdo](./cs-install-guide/configure-custom-panel.md)
          - [Configurar o salvamento automático de arquivos no Editor da Web](./cs-install-guide/auto-save-in-editor.md)
          - [Configurar o prompt para salvar como uma nova versão ao fechar](./cs-install-guide/conf-save-as-new-version-close.md)
-         - [Configurar o prompt para fazer check-in de um arquivo ao fechar](./cs-install-guide/conf-checkin-file-close.md)
+         - [Configurar prompt para fazer check-in de um arquivo ao fechar](./cs-install-guide/conf-checkin-file-close.md)
          - [Configurar caracteres especiais permitidos](./cs-install-guide/conf-special-chars.md)
-         - [IDs de elemento do generate automático](./cs-install-guide/auto-generate-ids.md)
+         - [Gerar IDs de elemento automaticamente](./cs-install-guide/auto-generate-ids.md)
          - [Personalizar o dicionário padrão do AEM](./cs-install-guide/customize-aem-custom-dictionary.md)
          - [Configurar filtros de texto](./cs-install-guide/config-text-filters.md)
          - [Configurar filtros para a caixa de diálogo de procura de arquivos](./cs-install-guide/conf-custom-file-filters.md)
@@ -422,7 +422,7 @@ ht-degree: 6%
       - [Integração com fonte de dados externa](./knowledge-base/expert-sessions/external-datasource-integration-dec2023.md)
       - [Traduzir conteúdo nas Guias - parte 2](./knowledge-base/expert-sessions/translating-content-using-aem-guides-part2-feb2024.md)
       - [Definir, gerenciar e utilizar metadados](./knowledge-base/expert-sessions/metadata-define-manage-utilize-may2024.md)
-      - [Variações de saída do local de AEM](./knowledge-base/expert-sessions/aem-site-output-variations-27jun.md)
+      - [Variações de saída do local de AEM](./knowledge-base/expert-sessions/aem-site-output-variations-jun2024.md)
    - Artigos {#kb-articles}
 
       - Criação {#authoring}
@@ -466,7 +466,7 @@ ht-degree: 6%
 
          - [Configuração do ambiente AEM para publicação de PDF nativo](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
 
-         - [Índice do generate Bookmap na Publicação de PDF nativo](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
+         - [Gerar índice do mapa de livros na publicação do PDF nativo](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
 
          - [FMPS e guias](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
          - [Arquitetura e desempenho de microsserviços](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
