@@ -14,22 +14,22 @@ ht-degree: 4%
 
 # Baixar e instalar {#id1645E0O04MK}
 
-O Guia do AEM é disponibilizado pelo Portal de distribuição de software Adobe. Você pode baixar os Guias do AEM na sua conta do Portal de distribuição de software Adobe e instalá-los em todas as instâncias do Adobe Experience Manager \(AEM\) na sua configuração. Normalmente, sua instância de criação e instância de produção do AEM serão hospedadas em servidores diferentes. Você terá que instalar Guias do AEM em todas as instâncias do AEM que pretende usar.
+O AEM Guides é disponibilizado pelo Portal de distribuição de software Adobe. Você pode baixar o AEM Guides na sua conta do Portal de distribuição de software Adobe e instalá-lo em todas as instâncias do Adobe Experience Manager \(AEM\) na sua configuração. Normalmente, sua instância de criação e instância de produção do AEM serão hospedadas em servidores diferentes. Você terá que instalar o AEM Guides em todas as instâncias de AEM que pretende usar.
 
-Antes de iniciar o processo de download e instalação, você deve garantir que seu sistema atenda aos requisitos técnicos para instalar os Guias AEM.
+Antes de começar o processo de download e instalação, você deve garantir que seu sistema atenda aos requisitos técnicos para instalar o AEM Guides.
 
 - **[Requisitos técnicos](download-install-technical-requirements.md)**
 
 - **[Instalar o Adobe Experience Manager](download-install-aem.md)**
 
-- **[Baixe e instale os Guias do AEM pela primeira vez](download-install-aemg-first-time.md)**
+- **[Baixe e instale o AEM Guides pela primeira vez](download-install-aemg-first-time.md)**
 
-- **[Configurar o Dispatcher](download-install-configure-dispatcher.md)**
+- **[Configurar Dispatcher](download-install-configure-dispatcher.md)**
 
-- **[Verificar a instalação dos Guias do AEM](download-install-verify-aemg-installation.md)**
+- **[Verificar a instalação do AEM Guides](download-install-verify-aemg-installation.md)**
 
-- **[Atualização dos Guias do Adobe Experience Manager](upgrade-xml-documentation.md)**
+- **[Atualizar o Adobe Experience Manager Guides](upgrade-xml-documentation.md)**
 
-- **[Desinstalar guias do AEM](download-install-unistall-aemg.md)**
+- **[Desinstalar o AEM Guides](download-install-unistall-aemg.md)**
 
 - **[Recommendations para otimização de desempenho](download-install-recommend-perf-optimiz.md)**
