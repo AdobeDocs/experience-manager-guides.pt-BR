@@ -1,7 +1,8 @@
 ---
-title: Notas de versão | Novidades nos Guias da Adobe Experience Manager, versão 2024.4.0
+title: Notas de versão | Novidades da versão 2024.4.0 do Adobe Experience Manager Guides
 description: Saiba mais sobre os recursos novos e aprimorados da versão 2024.4.0 do Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
+exl-id: e9db535a-5ad5-4ff0-94af-b4425594316a
+source-git-commit: 5d99274da8fdacbd255d426fa4913b5773ca45f8
 workflow-type: tm+mt
 source-wordcount: '1806'
 ht-degree: 0%
@@ -10,11 +11,11 @@ ht-degree: 0%
 
 # Novidades da versão 2024.4.0
 
-Este artigo aborda os recursos novos e aprimorados da versão 2024.4.0 dos Guias do Adobe Experience Manager.
+Este artigo aborda os recursos novos e aprimorados da versão 2024.4.0 do Adobe Experience Manager Guides.
 
-Para obter a lista de problemas corrigidos nessa versão, consulte [Correção de problemas na versão 2024.4.0](fixed-issues-2024-04-0.md).
+Para obter a lista de problemas corrigidos nesta versão, consulte [Problemas corrigidos na versão 2024.4.0](fixed-issues-2024-04-0.md).
 
-Saiba mais sobre [instruções de atualização da versão 2024.4.0](upgrade-instructions-2024-04-0.md).
+Saiba mais sobre [as instruções de atualização para a versão 2024.4.0](upgrade-instructions-2024-04-0.md).
 
 ## Capacidade de traduzir conteúdo em vários idiomas usando grupos de idiomas pré-configurados
 
@@ -24,9 +25,9 @@ Por exemplo, se você precisar traduzir o conteúdo para alguns países na Europ
 
 
 
-![painel tradução](assets/translation-languages-2404.png){width="300" align="left"}
+![painel de tradução](assets/translation-languages-2404.png){width="300" align="left"}
 
-*Selecione os grupos de idiomas ou idiomas para os quais deseja traduzir os documentos.*
+*Selecione os grupos de idiomas ou idiomas para os quais você deseja traduzir os documentos.*
 
 >[!NOTE]
 >
@@ -38,7 +39,7 @@ Como administrador, você pode criar grupos de idiomas e configurá-los para vá
 De modo geral, a criação de grupos de idiomas aumenta a eficiência e a produtividade dos projetos de tradução, melhorando, em última análise, o processo de localização em vários idiomas.
 
 
-Saiba como [traduzir documentos a partir do Editor da Web](../user-guide/translate-documents-web-editor.md).
+Saiba como [traduzir documentos do Editor da Web](../user-guide/translate-documents-web-editor.md).
 
 
 
@@ -53,26 +54,26 @@ Você pode desativar os projetos de tradução se desejar usá-los posteriorment
 ![](assets/editor-setting-translation.png){width="550" align="left"}
 
 
-*Definir grupos de idiomas e as configurações de limpeza para projetos de tradução.*
+*Defina os grupos de idiomas e as configurações de limpeza para projetos de tradução.*
 
 
-Saiba como [excluir ou desabilitar automaticamente o projeto de tradução](../user-guide/translate-documents-web-editor.md#automatically-delete-or-disable-a-completed-translation-project).
+Saiba mais sobre como [excluir ou desabilitar automaticamente o projeto de tradução](../user-guide/translate-documents-web-editor.md#automatically-delete-or-disable-a-completed-translation-project).
 
 
 ## Ativar a saída dos mapas na coleção de ativação em massa na instância de Visualização
 
-Agora, além de ativar a saída para sua coleção de ativação em massa na instância de publicação, o Experience Manager Gudies as Cloud Service fornece o recurso para ativá-la no estado **Visualizar** instância.
+Agora, além de ativar a saída para sua coleção de ativação em massa na instância de publicação, o Experience Manager Gudies as Cloud Service fornece o recurso para ativá-lo na instância **Preview**.
 
 
-Esse recurso ajuda a ativar o conteúdo para uma instância de visualização, permitindo verificar sua aparência e funcionamento antes de ativá-lo para a **Publish** instância.
+Este recurso ajuda a ativar o conteúdo para uma instância de visualização, permitindo verificar sua aparência e funcionamento antes de ativá-lo para a instância do **Publish**.
 
 
-![ guia histórico de auditoria de coleção de ativação em massa criada](assets/bulk-collection-audit-history.png){width="800" align="left"}
+![ criou a guia de histórico de auditoria da coleção de ativação em massa](assets/bulk-collection-audit-history.png){width="800" align="left"}
 
-*Exibir as informações sobre as saídas do mapa ativado na **Histórico de auditoria**guia.*
+*Exiba as informações sobre as saídas do mapa ativado na guia **Histórico de Auditoria**.*
 
 
-Saiba mais sobre  [ativação em massa](../user-guide/conf-bulk-activation-publish-map-collection.md).
+Saiba mais sobre a [ativação em massa](../user-guide/conf-bulk-activation-publish-map-collection.md).
 
 ## Aprimoramentos nos conectores de fonte de dados
 
@@ -86,9 +87,9 @@ Além dos conectores prontos para uso existentes, o Experience Manager Guides ta
 
 Você pode copiar e colar facilmente uma amostra de consulta de dados no gerador para criar um trecho de conteúdo ou tópico. Com esse recurso, não é necessário lembrar a sintaxe ou criar um query manualmente. Em vez de digitar manualmente a consulta, você pode copiar e colar uma consulta de exemplo, editá-la e usá-la para buscar os dados de acordo com suas necessidades.
 
-![caixa de diálogo inserir trecho de conteúdo](assets/insert-content-snippet.png){width="800" align="left"}
+![caixa de diálogo inserir trecho do conteúdo](assets/insert-content-snippet.png){width="800" align="left"}
 
-*Copie e edite um exemplo de consulta para criar o trecho de conteúdo.*
+*Copie e edite uma consulta de exemplo para criar o trecho de conteúdo.*
 
 ### Conectar-se a arquivos de dados JSON usando um conector de arquivos
 
@@ -109,7 +110,7 @@ Saiba como [usar dados da sua fonte de dados](../user-guide/web-editor-content-s
 
 ## Personalizar sua experiência no Editor da Web com a nova interface do usuário de preferências do usuário
 
-A variável **Preferências do usuário** no Editor da Web agora inclui uma nova **Aparência** guia. Esta nova guia permite configurar convenientemente as preferências mais comuns de aparência na interface do Editor da Web.
+A caixa de diálogo **Preferências do Usuário** no Editor da Web agora inclui uma nova guia **Aparência**. Esta nova guia permite configurar convenientemente as preferências mais comuns de aparência na interface do Editor da Web.
 
 Você pode configurar a exibição dos arquivos por título ou nome de arquivo e alterar o tema do aplicativo e a exibição do código-fonte. Também ajuda a definir as configurações para localizar um arquivo aberto na exibição de repositório e lidar com espaços não separáveis.
 
@@ -117,24 +118,24 @@ Você pode configurar a exibição dos arquivos por título ou nome de arquivo e
 
 *Personalize a aparência de acordo com suas preferências.*
 
-Saiba mais sobre o **Preferências do usuário** descrição do recurso na [Painel esquerdo](../user-guide/web-editor-features.md#id2051EA0M0HS) seção.
+Saiba mais sobre a descrição do recurso **Preferências do usuário** na seção [Painel esquerdo](../user-guide/web-editor-features.md#id2051EA0M0HS).
 
 ## Localizar um arquivo aberto na visualização de repositório do Editor da Web
 
-Selecione o **Sempre localizar arquivos no repositório** opção no **Preferências do usuário** para navegar e localizar rapidamente o arquivo na visualização de repositório. Você não precisa pesquisá-la manualmente.
+Selecione a opção **Sempre localizar arquivos no repositório** em **Preferências do Usuário** para navegar rapidamente e localizar seu arquivo no modo de exibição de repositório. Você não precisa pesquisá-la manualmente.
 
 Ao editar, esse recurso também ajuda a visualizar facilmente o local do arquivo na hierarquia do repositório.
 
-Para obter mais detalhes, consulte [localizar um arquivo aberto na exibição repositório](../user-guide/web-editor-edit-topics.md#locate-an-open-file-in-the-repository-view).
+Para obter mais detalhes, exiba [localizar um arquivo aberto na exibição de repositório](../user-guide/web-editor-edit-topics.md#locate-an-open-file-in-the-repository-view).
 
 
 ## Manuseio aprimorado de espaços não separáveis no Editor da Web
 
-O Experience Manager Guides permite que você mostre um indicador de espaço ininterrupto ao editar documentos no Editor da Web. Também melhora o manuseio de espaços não separáveis.
+O Experience Manager Guides permite que você mostre um indicador de espaço sem quebra ao editar documentos no Editor da Web. Também melhora o manuseio de espaços não separáveis.
 Ele converte vários espaços em branco consecutivos em um único espaço para preservar a visualização WYSIWYG do documento no Editor da Web. Esse recurso também ajuda a melhorar a aparência geral e o profissionalismo do documento.
 
 
-Para obter mais detalhes, consulte [outros recursos do Editor da Web](../user-guide/web-editor-other-features.md).
+Para obter mais detalhes, exiba os [outros recursos do Editor da Web](../user-guide/web-editor-other-features.md).
 
 
 
@@ -144,18 +145,18 @@ Para obter mais detalhes, consulte [outros recursos do Editor da Web](../user-gu
 
 Como administrador, agora você pode desativar o pós-processamento e a geração de UUIDs para pastas seletivas no Experience Manager Assets. Essa configuração pode ser útil, especialmente ao lidar com muitos ativos ou estruturas de pastas complexas. Também ajuda vários usuários a fazer upload dos ativos simultaneamente rapidamente, sem interferir uns nos outros.  
 
-Desativar o pós-processamento para uma pasta também afeta todas as suas pastas secundárias. Entretanto, os Guias de Experience Manager agora oferecem a capacidade de ativar seletivamente o pós-processamento para pastas secundárias individuais dentro da pasta ignorada.
+Desativar o pós-processamento para uma pasta também afeta todas as suas pastas secundárias. No entanto, o Experience Manager Guides agora oferece a capacidade de ativar seletivamente o pós-processamento para pastas secundárias individuais na pasta ignorada.
 
-Saiba como [desabilitar pós-processamento para uma pasta](../cs-install-guide/conf-folder-post-processing.md).
+Saiba como [desabilitar o pós-processamento para uma pasta](../cs-install-guide/conf-folder-post-processing.md).
 
 ## Experiência renovada para pesquisar e filtrar arquivos na visualização de repositório
 
 Agora, você tem uma experiência aprimorada ao filtrar arquivos. A funcionalidade renovada para filtrar arquivos fornece uma maneira aprimorada de pesquisar e navegar facilmente pelos arquivos.
 
 
-![pesquisar arquivos na visualização de repositório](assets/repository-filter-search-2404.png){width="300" align="left"}
+![pesquisar arquivos no modo de exibição de repositório](assets/repository-filter-search-2404.png){width="300" align="left"}
 
-*Procurar os arquivos que contêm o texto`general purpose.`*
+*Pesquisar os arquivos que contêm o texto`general purpose.`*
 
 Aproveite benefícios como acesso mais rápido a arquivos relevantes e uma interface do usuário mais intuitiva, tornando sua experiência de pesquisa mais estável e eficiente.
 
@@ -163,50 +164,50 @@ Aproveite benefícios como acesso mais rápido a arquivos relevantes e uma inter
 
 *Use os filtros rápidos para procurar arquivos DITA e não DITA.*
 
-Saiba mais sobre o **Filtrar pesquisa** recurso no [Painel esquerdo](../user-guide/web-editor-features.md#id2051EA0M0HS) seção.
+Saiba mais sobre o recurso **Pesquisa de filtro** na seção [Painel esquerdo](../user-guide/web-editor-features.md#id2051EA0M0HS).
 
 ## Lista segmentada para exibir e inserir elementos válidos de acordo com sua posição
 
 Ao editar um documento no Editor da Web, agora é possível exibir uma lista separada de elementos válidos no local atual e fora dele. Com base nas suas necessidades, você escolhe um elemento entre as seguintes opções:
 
-* **Elementos válidos no local atual** que você pode inserir na própria localização atual do cursor.
+* **Elementos válidos no local atual** que você pode inserir no próprio local do cursor atual.
 * **Elementos válidos fora do local atual** que você pode inserir depois de qualquer um dos pais para o elemento atual na hierarquia de elementos.
 
-![Caixa de diálogo Inserir elemento](assets/insert-element-dialog.png){width="300" align="left"}
+![Inserir caixa de diálogo do elemento](assets/insert-element-dialog.png){width="300" align="left"}
 
 *Exiba as listas segregadas de elementos válidos para inserir um elemento no local atual.*
 
 
 Essa lista dividida de elementos válidos ajuda a manter a estrutura de conteúdo e a seguir os padrões DITA.
 
-Saiba mais sobre o **Inserir elemento** recurso no [Barra de ferramentas secundária](../user-guide/web-editor-features.md#2051ea0j0y4) seção.
+Saiba mais sobre o recurso **Inserir Elemento** na seção [Barra de ferramentas secundária](../user-guide/web-editor-features.md#2051ea0j0y4).
 
 
 ## O Tipo de propriedades de conteúdo é exibido como um menu suspenso
 
-Agora, as Propriedades de conteúdo **Tipo** é exibido como um menu suspenso. Você pode visualizar e selecionar as tags da hierarquia completa para a tag atual na lista suspensa.
+Agora, as Propriedades de Conteúdo **Tipo** aparecem como um menu suspenso. Você pode visualizar e selecionar as tags da hierarquia completa para a tag atual na lista suspensa.
 
 Esse menu suspenso ajuda a acessar rapidamente as tags relevantes na estrutura hierárquica.
 
 
-![menu suspenso tipo nas propriedades de conteúdo](assets/content-properties-type.png){width="300" align="left"}
+![menu suspenso de tipos nas propriedades de conteúdo](assets/content-properties-type.png){width="300" align="left"}
 
-*Selecione uma tag da hierarquia para a tag atual.*
+*Selecione uma marca da hierarquia para a marca atual.*
 
-Saiba mais sobre o **Propriedades de conteúdo** recurso no [Painel direito](../user-guide/web-editor-features.md#id2051eb003yk) seção.
+Saiba mais sobre o recurso **Propriedades de Conteúdo** na seção [Painel Direito](../user-guide/web-editor-features.md#id2051eb003yk).
 
 
 
 ## Desempenho aprimorado ao verificar arquivos em massa no Editor de mapa
 
 O Experience Manager Guides melhora o desempenho e a experiência do recurso de check-in de arquivos em massa do Editor de mapas. Essa melhoria ajuda a fazer o check-in dos arquivos em massa com mais rapidez.
-Você também pode visualizar o progresso da operação de check-in para os arquivos do **Salvar como nova versão e desbloquear** caixa de diálogo. Por fim, a mensagem de sucesso é exibida após a conclusão da operação e o check-in de todos os arquivos com check-out selecionados.
+Você também pode visualizar o progresso da operação de check-in para os arquivos da caixa de diálogo **Salvar como nova versão e Desbloquear**. Por fim, a mensagem de sucesso é exibida após a conclusão da operação e o check-in de todos os arquivos com check-out selecionados.
 
 ![Salvar como nova versão e desbloquear a caixa de diálogo](./assets/save-version-lock.png){width="300" align="left"}
 
 *Exiba a lista e o status dos arquivos com check-in em massa do Editor de Mapas.*
 
-Saiba como [trabalhar com o Editor de mapa avançado](../user-guide/map-editor-advanced-map-editor.md)
+Saiba como [trabalhar com o Editor de Mapa Avançado](../user-guide/map-editor-advanced-map-editor.md)
 
 ## Baixar o arquivo temporário ao gerar a saída pelo DITA-OT
 
@@ -219,8 +220,7 @@ Para obter mais detalhes sobre as predefinições, consulte [Noções básicas s
 ## Substitua as credenciais do JWT do IMS pelas credenciais do OAuth do IMS para publicação baseada em microsserviços
 
 
-As credenciais da Conta de serviço (JWT) foram substituídas pelo **Servidor OAuth para servidor** credenciais. Seus aplicativos que usam as credenciais da Conta de serviço (JWT) deixarão de funcionar após 1º de janeiro de 2025. Você deve migrar para a nova credencial até 1º de janeiro de 2025 para garantir que seu aplicativo continue funcionando.
+As credenciais da Conta de Serviço (JWT) foram substituídas em favor das credenciais **Servidor a Servidor do OAuth**. Seus aplicativos que usam as credenciais da Conta de serviço (JWT) deixarão de funcionar após 1º de janeiro de 2025. Você deve migrar para a nova credencial até 1º de janeiro de 2025 para garantir que seu aplicativo continue funcionando.
 
 
-O serviço de publicação na nuvem para Guias do Experience Manager agora é protegido pela autenticação baseada em OAuth do Adobe IMS. Saiba como [configurar publicação baseada em microsserviço com autenticação OAuth](../knowledge-base/publishing/configure-microservices-imt-config.md).
-
+O serviço de publicação na nuvem do Experience Manager Guides agora é protegido pela autenticação baseada em OAuth do Adobe IMS. Saiba como [configurar a publicação baseada em microsserviço com autenticação OAuth](../knowledge-base/publishing/configure-microservices-imt-config.md).

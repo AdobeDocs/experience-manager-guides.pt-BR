@@ -1,6 +1,6 @@
 ---
 title: Notas de versão | Versão 4.1 do Adobe Experience Manager Guides
-description: Versão mais recente dos Guias do Adobe Experience Manager
+description: Versão mais recente do Adobe Experience Manager Guides
 exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
 feature: Release Notes
 role: Leader
@@ -11,13 +11,13 @@ ht-degree: 1%
 
 ---
 
-# Versão 4.1.x dos Guias do Adobe Experience Manager
+# Versão 4.1.x do Adobe Experience Manager Guides
 
-Estas notas de versão abordam as instruções de atualização, os novos recursos e os aprimoramentos da versão 4.1.x do Adobe Experience Manager Guides (mais tarde chamada de *Guias do AEM*).
+Estas notas de versão abordam as instruções de atualização, os novos recursos e os aprimoramentos da versão 4.1.x do Adobe Experience Manager Guides (mais tarde chamada de *AEM Guides*).
 
 ## Atualizar para a versão mais recente
 
-Você pode facilmente atualizar sua versão atual do Guides AEM para a versão 4.1.3. Antes de prosseguir com a atualização para a versão 4.1.3 dos Guias AEM, você deve considerar os seguintes pontos:
+Você pode atualizar facilmente sua versão atual do AEM Guides para a versão 4.1.3. Antes de prosseguir com a atualização para a versão 4.1.3 do AEM Guides, você deve considerar os seguintes pontos:
 * Se você estiver usando a versão 4.1 ou 4.1.x, é possível atualizar diretamente para a versão 4.1.3.
 * Se você estiver usando a versão 4.0.x, será necessário atualizar para a versão 4.1 ou 4.1.x antes de atualizar para a 4.1.3.
 * Se você estiver usando a versão 3.8.5, será necessário atualizar para a versão 4.0.x antes de atualizar para a 4.1.
@@ -29,7 +29,7 @@ Para obter detalhes, consulte [Instruções de atualização](assets/Adobe-Exper
 
 ## Matriz de compatibilidade
 
-Esta seção lista a matriz de compatibilidade para os aplicativos de software compatíveis com a versão 4.1.3 dos Guias AEM.
+Esta seção lista a matriz de compatibilidade dos aplicativos de software compatíveis com a versão 4.1.3 do AEM Guides.
 
 ### ADOBE EXPERIENCE MANAGER
 
@@ -72,7 +72,7 @@ O erro corrigido está listado abaixo:
 
 ## Matriz de compatibilidade
 
-Esta seção lista a matriz de compatibilidade para os aplicativos de software suportados pela versão 4.1.2 dos Guias AEM.
+Esta seção lista a matriz de compatibilidade dos aplicativos de software compatíveis com a versão 4.1.2 do AEM Guides.
 
 ### ADOBE EXPERIENCE MANAGER
 
@@ -110,7 +110,7 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 
 * Ao selecionar todos os perfis de pasta, um perfil de pasta invisível (que está incorreto) é exibido. (10393)
 * A criação de linha de base não escolhe a versão mais recente quando o fuso horário do usuário é diferente do fuso horário do servidor. (10336)
-* O atalho Control+F não está abrindo o modal de pesquisa do navegador no console de Ativos após a instalação do AEM Guides 4.1. (10339)
+* O atalho Control+F não abre o modal de pesquisa do navegador no Console do Assets após a instalação do AEM Guides 4.1. (10339)
 * Ocorre um erro de criação de linha de base para o tópico que tem a referência a uma pasta. (10383)
 * A guia Predefinições de saída mostra uma tela em branco intermitentemente e, em alguns casos, predefinições não editáveis são exibidas. (10390)
 * O gerenciamento de espaço de chave está levando a exceções e erros. (10449)
@@ -119,15 +119,15 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 
 * A linha de base exportada durante a tradução não carrega na guia Linha de base do editor.
 
-  **Solução alternativa**: use a guia Linha de base do painel de mapa DITA.
+  **Solução alternativa**: use a guia de linha de base do painel de mapa DITA.
 
 ## 4.1 | Notas de versão
 
-Estas notas de versão abordam as instruções de atualização, os novos recursos e os aprimoramentos da versão 4.1.x do Adobe Experience Manager Guides (mais tarde chamada de *Guias do AEM*).
+Estas notas de versão abordam as instruções de atualização, os novos recursos e os aprimoramentos da versão 4.1.x do Adobe Experience Manager Guides (mais tarde chamada de *AEM Guides*).
 
 ## Matriz de compatibilidade
 
-Esta seção lista a matriz de compatibilidade dos aplicativos de software suportados pela versão 4.1 dos Guias AEM.
+Esta seção lista a matriz de compatibilidade dos aplicativos de software compatíveis com a versão AEM Guides 4.1.
 
 ### ADOBE EXPERIENCE MANAGER
 
@@ -163,15 +163,15 @@ Para obter mais detalhes, consulte a seção Technical requirements no guia Inst
 
 ## Novos recursos e melhorias
 
-O Guia do AEM fornece várias melhorias e novos recursos na versão 4.1:
+O AEM Guides fornece muitos aprimoramentos e novos recursos na versão 4.1:
 
 ### Publicação de PDF nativo
 
-O suporte para a criação de um PDF nativo também foi adicionado na versão 4.1 dos Guias de AEM. Um novo mecanismo de publicação foi introduzido com os seguintes recursos:
+O suporte para a criação de um PDF nativo também foi adicionado na versão 4.1 do AEM Guides. Um novo mecanismo de publicação foi introduzido com os seguintes recursos:
 * Criar um modelo CSS
 * Criar modelos de página diferentes
 * Criar modelos de PDF compreendendo CSS e modelos de página
-* Publicar o mapa e o conteúdo do tópico no formato PDF
+* Conteúdo do mapa e do tópico do Publish no formato PDF
 
 ### Suporte para caminho do site da base de dados de conhecimento na publicação baseada em artigo
 
@@ -183,7 +183,7 @@ O AEM Guides fornece o recurso de publicação baseado em artigos para gerar de 
 
 Uma referência de chave de conteúdo DITA insere uma parte do conteúdo de um tópico em outro. Ele usa uma chave para localizar o conteúdo. As principais referências associadas a um tópico DITA precisam ser resolvidas. O mapa raiz selecionado tem a precedência mais alta para resolver referências principais.
 
-![caixa de diálogo preferências do usuário](assets/user-preferences.png)
+![caixa de diálogo de preferências do usuário](assets/user-preferences.png)
 
 Agora, as principais referências são resolvidas com base no mapa raiz definido na seguinte ordem de prioridade:
 
@@ -191,15 +191,15 @@ Agora, as principais referências são resolvidas com base no mapa raiz definido
 1. Painel Exibição de mapa
 1. Perfil da pasta
 
-Para obter mais detalhes, consulte *Resolver referências de chave* no guia Uso dos guias do Adobe Experience Manager.
+Para obter mais detalhes, consulte a seção *Resolver referências de chave* no guia Uso do Adobe Experience Manager Guides.
 
 * **Adicionar um painel personalizado no painel esquerdo**
 
-Agora é possível adicionar um painel personalizado no painel esquerdo do Editor da Web. Você pode usar um painel personalizado para várias finalidades, como fornecer ajuda ou fazer o teste de um projeto. Se um painel personalizado tiver sido configurado, ele também aparecerá na lista de painéis dentro do **Configurações do editor**. Você pode alternar o botão para mostrar ou ocultar o painel personalizado.
+Agora é possível adicionar um painel personalizado no painel esquerdo do Editor da Web. Você pode usar um painel personalizado para várias finalidades, como fornecer ajuda ou fazer o teste de um projeto. Se um painel personalizado foi configurado, ele também aparece na lista de painéis nas **Configurações do Editor**. Você pode alternar o botão para mostrar ou ocultar o painel personalizado.
 
-* **Capacidade de alterar o estado do documento de tópicos em um mapa DITA**
+* **Capacidade de alterar o estado dos tópicos do documento em um mapa DITA**
 
-Agora é possível alterar facilmente o estado do documento de tópicos selecionados em um mapa DITA. Também é possível abrir e editar as propriedades de tópicos selecionados em um mapa DITA na **Mais opções** na parte inferior do painel Exibição de mapa.
+Agora é possível alterar facilmente o estado do documento de tópicos selecionados em um mapa DITA. Você também pode abrir e editar as propriedades dos tópicos selecionados em um mapa DITA no menu **Mais Opções**, na parte inferior do painel Exibição de Mapa.
 
 ![propriedades do tópico selecionado](assets/map-view-properties.png)
 
@@ -210,11 +210,13 @@ O Editor da Web ajuda você a gerenciar suas versões. Agora você também pode 
 ![versão de visualização](assets/preview-version.png)
 
 
-* **Comportamento de atualização do Editor da Web aprimorado**
+* **Comportamento de atualização aprimorado do Editor da Web**
 
 Os seguintes aprimoramentos estão disponíveis com a operação de atualização do navegador no Editor da Web:
 
-* Agora você obtém o suporte para atualizar o navegador enquanto edita seu conteúdo no Editor da Web. Se você clicar no ícone de atualização do navegador enquanto um ou mais arquivos com alterações não salvas estiverem abertos para edição, será solicitado que você salve os arquivos ou cancele a ação de atualização.
+* Agora você obtém o suporte para atualizar o navegador enquanto edita seu
+conteúdo no Editor da Web. Se você clicar no ícone de atualização do navegador enquanto um ou mais arquivos
+as alterações não salvas forem abertas para edição, você será solicitado a salvar seus arquivos ou cancelar a ação de atualização.
 
 * Mesmo ao atualizar o navegador, as exibições do painel esquerdo e do painel direito são mantidas.
 
@@ -228,54 +230,54 @@ Agora você tem o recurso poderoso para criar modelos de mapa personalizados. Vo
 
 Também é possível consultar outros modelos de mapa e modelos de tópico do modelo de mapa personalizado. Os modelos de mapa referenciados podem se referir a vários modelos de mapa, modelos de tópico, tópicos, mapas, imagens, vídeos e outros ativos.
 
-![criar modelos dita](assets/create-dita-template.png)
+![criar modelos de dita](assets/create-dita-template.png)
 
 O modelo de mapa personalizado pode ajudá-lo a replicar com facilidade os modelos de mapa e toda a estrutura de pastas indicada. Esses modelos personalizados são especialmente úteis para criar e recriar vários mapas que têm estruturas e referências recursivas.
 
-* **Suporte a schematron**
+* **Suporte a esquemas**
 &quot;Esquematron&quot; refere-se a uma linguagem de validação baseada em regras usada para definir testes para um arquivo XML. Usando um arquivo de Esquematron, você pode definir determinadas regras e depois validá-las para um tópico DITA ou um mapa. O editor da Web é compatível com arquivos do Schematron. É possível importar os arquivos do Schematron e editá-los no Editor da Web. O suporte ao Schematron no Editor da Web ajuda a validar os arquivos em relação a um conjunto de regras e a manter a consistência e a correção nos tópicos.
 
 ![validar schematron](assets/schematron-validate.png)
 
 * **Caixa de diálogo aprimorada no fechamento do arquivo**
 
-Guias AEM solicita que você salve suas alterações e desbloqueie seus arquivos bloqueados quando tentar fechar um arquivo aberto no Editor da Web. Os prompts são exibidos com base no **Solicitar check-in ao fechar** e **Solicitar nova versão ao fechar** configurações definidas pelo administrador.
+O AEM Guides solicita que você salve suas alterações e desbloqueie os arquivos bloqueados ao tentar fechar um arquivo aberto no Editor da Web. Os prompts são exibidos com base nas configurações **Solicitar check-in ao fechar** e **Solicitar nova versão ao fechar** definidas pelo administrador.
 
 Com base na configuração, você tem a opção de salvar as alterações e criar uma nova versão do documento. Ou você também pode fazer check-in do arquivo e salvar as alterações na versão atual.
 
 ![Arquivo fechar](assets/file-close-save-changes-unlock.png)
 
-Para obter mais detalhes, consulte *Cenários de fechamento e salvamento de arquivos* no guia Uso dos guias do Adobe Experience Manager.* O **Inserir palavra-chave** foi aprimorado. Agora é possível encontrar mais facilmente uma Palavra-chave a ser inserida, pois as palavras-chave são listadas em ordem alfabética. Você também pode pesquisar palavras-chave digitando uma string de pesquisa na caixa Pesquisar.
+Para obter mais detalhes, consulte a seção *Cenários de fechamento e salvamento de arquivos* no guia Uso do Adobe Experience Manager Guides.* O recurso **Inserir Palavra-chave** foi aprimorado. Agora é possível encontrar mais facilmente uma Palavra-chave a ser inserida, pois as palavras-chave são listadas em ordem alfabética. Você também pode pesquisar palavras-chave digitando uma string de pesquisa na caixa Pesquisar.
 
 ![inserir palavra-chave](assets/insert-keyword.png)
 
 * **Suporte para documentos do Markdown**
-O Markdown é uma linguagem de marcação simples que pode ajudar você a adicionar elementos de formatação a documentos de texto simples. O Editor da Web permite usar documentos do Markdown (.md) junto com seus documentos DITA. Você pode criar e visualizar facilmente um documento do Markdown no Editor da Web e também adicioná-lo ao arquivo de mapa por meio do editor de mapa DITA.  Para obter mais detalhes, consulte *Criação de documentos do Markdown no editor da Web* seção em Uso do guia Adobe Experience Manager Guides.
+O Markdown é uma linguagem de marcação simples que pode ajudar você a adicionar elementos de formatação a documentos de texto simples. O Editor da Web permite usar documentos do Markdown (.md) junto com seus documentos DITA. Você pode criar e visualizar facilmente um documento do Markdown no Editor da Web e também adicioná-lo ao arquivo de mapa por meio do editor de mapa DITA.  Para obter mais detalhes, consulte a seção *Documentos do Author Markdown do Editor da Web*, no guia Uso do Adobe Experience Manager Guides.
 
 ![suporte para markdown](assets/create-markdown-dita-topic.png)
 
-* **Capacidade de configurar uma visualização de tags padrão**
+* **Capacidade de configurar uma exibição de marcas padrão**
 Se um usuário ativar a Exibição de tags no Editor da Web, ela permanecerá ativada mesmo nas sessões.  Isso significa que não é necessário ativar a Exibição de tags novamente para acessá-la posteriormente. Seu administrador pode configurar o estado padrão para a exibição de tags no editor da Web. O valor padrão para a Exibição de tags da sessão de um novo usuário é determinado pela propriedade tagsView no arquivo ui_config.json.
 
-* Agora, na Exibição do repositório, os arquivos são carregados em lotes. Todos os arquivos presentes no arquivo principal ou `/content/dam folder` são listados. Mas, a partir do próximo nível ou da pasta secundária, 75 arquivos são carregados de cada vez. Esse carregamento em lote é eficiente, e você pode acessar os arquivos mais rapidamente em comparação ao carregamento de todos os arquivos existentes em uma pasta.
+* Agora, na Exibição do repositório, os arquivos são carregados em lotes. Todos os arquivos presentes no principal ou `/content/dam folder` estão listados. Mas, a partir do próximo nível ou da pasta secundária, 75 arquivos são carregados de cada vez. Esse carregamento em lote é eficiente, e você pode acessar os arquivos mais rapidamente em comparação ao carregamento de todos os arquivos existentes em uma pasta.
 
 ![carregar mais arquivos](assets/load-more-files.png)
 
 ### Novo painel Linha de base
 
-A versão 4.1 dos Guias de AEM fornece o recurso de linha de base integrado no Editor da Web. Agora você pode criar linhas de base no Editor da Web e usá-las para publicar ou traduzir tópicos de diferentes versões.
+A versão 4.1 do AEM Guides fornece o recurso de linha de base integrado ao Editor da Web. Agora você pode criar linhas de base no Editor da Web e usá-las para publicar ou traduzir tópicos de diferentes versões.
 
-**Nota**: Para um sistema atualizado, atualize o mais recente **ui_config.json** para Perfil de pasta.
+**Observação**: para um sistema atualizado, atualize o **ui_config.json** mais recente para o Perfil de Pasta.
 
 Use este recurso para criar uma linha de base com uma versão específica dos tópicos disponíveis em uma data e hora específicas. Além disso, você obtém o suporte da API para criar ou atualizar uma linha de base com um rótulo definido para uma versão de tópicos.
 
-![guia gerenciar linha de base](assets/baseline-manage.png)
+![guia Gerenciar linha de base](assets/baseline-manage.png)
 
 Você pode pesquisar os arquivos com base nos nomes ou no local dos arquivos. Você também pode filtrar os tópicos a serem exibidos na janela de edição da linha de base e classificá-los com base em colunas específicas.
 
-![guia gerenciar linha de base](assets/baseline-filter.png)
+![guia Gerenciar linha de base](assets/baseline-filter.png)
 
-O desempenho do processo de criação da linha de base foi melhorado. O processo para criar linhas de base é assíncrono, assim, você pode continuar editando outros arquivos no Editor da Web enquanto a linha de base está sendo criada. Para obter mais detalhes, consulte *Criar e gerenciar linhas de base no Editor da Web* no guia Uso dos guias do Adobe Experience Manager.
+O desempenho do processo de criação da linha de base foi melhorado. O processo para criar linhas de base é assíncrono, assim, você pode continuar editando outros arquivos no Editor da Web enquanto a linha de base está sendo criada. Para obter mais detalhes, consulte *Criar e gerenciar linhas de base do Editor da Web* no guia Usando o Adobe Experience Manager Guides.
 
 Observação: A guia Linha de Base no painel de mapa fica oculta por padrão. O administrador pode habilitar a guia Linha de base no painel do mapa.
 
@@ -284,43 +286,43 @@ Observação: A guia Linha de Base no painel de mapa fica oculta por padrão. O 
 ### Processo de tradução aprimorado
 
 * **Capacidade de criar um projeto de tradução de escopo**
-Se precisar criar somente o escopo para um projeto a ser traduzido, é possível selecionar **Criar um novo projeto de tradução de escopo**. Isso não enviará as cópias para tradução e o status original da tradução dos arquivos será mantido.
+Se precisar criar somente o escopo para que um projeto seja traduzido, você pode selecionar **Criar um novo projeto de tradução de escopo**. Isso não enviará as cópias para tradução e o status original da tradução dos arquivos será mantido.
 
 ![projeto de tradução de escopo](assets/scoping-translation-project.png)
 
-* A variável **Idiomas** exibe as pastas de idioma junto com seus códigos de idioma. Por exemplo, francês (fr) e alemão (de).
+* A lista **Idiomas** exibe as pastas de idioma junto com seus códigos de idioma. Por exemplo, francês (fr) e alemão (de).
 
 ![idioma de tradução](assets/translation-languages.png)
 
-Para obter mais detalhes sobre tradução, consulte *Traduzir documentos do Editor da Web* seção em Uso do guia Adobe Experience Manager Guides.
+Para obter mais detalhes sobre tradução, consulte a seção *Traduzir documentos do Editor da Web* em Uso do guia do Adobe Experience Manager Guides.
 
 
 ### Publicação aprimorada
 
-* Você também pode acessar a variável **Publicar painel** na guia Saídas enquanto gera a saída do painel de mapa. Uma lista de todas as tarefas de publicação ativas está disponível no Painel de publicação.
+* Você também pode acessar o **Painel do Publish** na guia Saídas enquanto gera a saída do painel do mapa. Uma lista de todas as tarefas de publicação ativas está disponível no Painel do Publish.
 
-![saídas em fila](assets/queued-output.png)
+![saídas na fila](assets/queued-output.png)
 
 * No painel de mapa, é possível selecionar vários arquivos DITAVAL para gerar conteúdo condicional. É possível manter a ordem dos arquivos adicionando ou excluindo arquivos. Você também pode passar o mouse sobre o nome do arquivo para ver o caminho no repositório AEM onde o arquivo está armazenado.
 
 * Linhas de base foram honradas para os metadados de saída do site AEM. Você também pode processar as propriedades de uma versão de linha de base como metadados. Se nenhuma linha de base for definida, as propriedades da versão mais recente serão processadas como metadados.
 
-* A variável **Nome do arquivo** e **Argumentos de linha de comando DITA-OT** foram adicionadas opções para predefinições de HTML5, EPUB e Saída personalizada. Agora você pode especificar o nome do arquivo com o qual deseja salvar a saída. Você também pode especificar os argumentos adicionais que deseja que o DITA-OT processe ao gerar saída.
+* As opções **Nome do Arquivo** e **Argumentos de Linha de Comando DITA-OT** foram adicionadas para predefinições de HTML5, EPUB e Saída personalizada. Agora você pode especificar o nome do arquivo com o qual deseja salvar a saída. Você também pode especificar os argumentos adicionais que deseja que o DITA-OT processe ao gerar saída.
 
 ### Mapear painel
 
 Quando você seleciona baixar o mapa DITA, a solicitação é enfileirada e você recebe uma notificação quando o mapa estiver pronto para download. Você pode optar por baixar o arquivo de mapa imediatamente ou baixá-lo posteriormente a partir do link fornecido na Caixa de entrada de notificação do AEM.
 
-![Download de mapa](assets/download-map-prompt.png)
+![Download do mapa](assets/download-map-prompt.png)
 
 ### Outras melhorias de recursos
 
-* O AEM Guides agora é compatível com a versão 24.1 do Oxygen XML Author.
+* O AEM Guides agora é compatível com o Oxygen XML Author versão 24.1.
 * O parâmetro de linha de base nas APIs para baixar o mapa agora usa o título da linha de base para recuperar o conteúdo com versão.
 
 ### Recurso obsoleto
 
-Os Guias do AEM não suportam mais a geração de formato de saída DITA para documentos do FrameMaker. Essa opção DITA também foi removida das Predefinições de saída do painel Mapa.
+O AEM Guides não oferece mais suporte à geração de formato de saída DITA para documentos do FrameMaker. Essa opção DITA também foi removida das Predefinições de saída do painel Mapa.
 
 ## Problemas corrigidos
 
@@ -335,7 +337,7 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 * A autenticação da Web não está funcionando no Oxygen. (9296)
 * O recarregamento falha no Oxygen quando os arquivos já existem no AEM no mesmo local. (9328)
 * Opção não disponível para a sincronização forçada do conteúdo entre o AEM e o sistema local. (9439)
-* A ID não é gerada automaticamente para o elemento adicionado usando **Inserir conteúdo reutilizável** caixa de diálogo da barra de ferramentas secundária. (5826)
+* A ID não é gerada automaticamente para o elemento adicionado usando a caixa de diálogo **Inserir Conteúdo Reutilizável** da barra de ferramentas secundária. (5826)
 * Nenhuma caixa de diálogo de confirmação é exibida ao fazer upload de uma imagem com o mesmo nome de um arquivo existente, por meio do editor. (6011)
 * Um espaço sem quebra não disponível no palete de caracteres. (7523)
 * A lista de elementos (Alt+Enter) aparece esmaecida no tema Escuro/Escuro. (7913)
@@ -348,17 +350,17 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 * O código de idioma não é exibido com o idioma no painel Tradução. (9108)
 * As guias Tradução e Linha de base ficam visíveis por algum tempo no painel Mapa. (9146)
 * Quando a tradução for concluída, uma versão adicional será criada para o ativo traduzido. (9310)
-* A tradução aprovada não se integra ao idioma de destino quando o código do idioma de destino contém cinco caracteres como `fr_ca`. (9357)
-* O conteúdo traduzido é corrompido quando o código do idioma de destino criado é mencionado como `fr-fr, `, `en-us`. (9527)
+* A tradução aprovada não é integrada ao idioma de destino quando o código do idioma de destino contém cinco caracteres como `fr_ca`. (9357)
+* O conteúdo traduzido é corrompido quando o código de idioma de destino criado é mencionado como `fr-fr, `, `en-us`. (9527)
 * Ao carregar um mapa DITA que esteja fora da pasta de idioma, uma exceção é registrada no back-end.(9543)
 * Não é possível criar o arquivo DITA usando o modelo DITA personalizado do editor. (7262)
 * O mapa DITA é perdido ao publicar um mapa UUID DITA via FMPS. (7278)
-* Os Guias do AEM não copiam as propriedades não exclusivas de um ativo quando ele é copiado e colado. (8241)
+* O AEM Guides não copia as propriedades não exclusivas de um ativo quando ele é copiado e colado. (8241)
 * O nome de arquivo do mapa DITA não é convertido em minúsculas na criação. (8383)
 * A descrição da tarefa de revisão não aparece na notificação por email que está sendo enviada quando uma nova tarefa de revisão está sendo atribuída. (8507)
 * Baixar API do mapa | As pastas temporárias não são limpas em caso de erros no processo de download. (8523)
-* `columnpreview.jsp` é dependente da controladora de armazenamento.  (8543)
-* Os trabalhos de saída com status como &quot;Aguardando&quot; ou &quot;Executando&quot; não são limpos no Painel de publicação.  (8569)
+* `columnpreview.jsp` é dependente do SP.  (8543)
+* Os trabalhos de saída com status como &quot;Aguardando&quot; ou &quot;Executando&quot; não são limpos no Painel do Publish.  (8569)
 * Ícone padrão escolhido na geração de um relatório usando o botão Gerar, mesmo quando a propriedade do ícone é definida. (8573)
 * Problemas ocorrem no processo de revisão durante a atualização de 3.8.X para 4.0. (8788)
 * No painel Revisão do Editor da Web, se um nome de usuário for longo, os ícones para aceitar/rejeitar não serão exibidos claramente. (8793)
@@ -373,25 +375,25 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 * Referências UUID incorretas atribuídas ao carregar vários arquivos do Conector FrameMaker/Oxygen. (8269)
 * A notificação por email não é enviada quando uma tarefa de revisão é reatribuída na Caixa de entrada. (8376)
 * O segundo usuário administrador não pode ser adicionado como o primeiro usuário administrador a uma pasta. (8430)
-* **Aplicar rótulos** na guia Linha de base não exibe rótulos na lista suspensa. (8455)
+* A caixa de diálogo **Aplicar rótulos** na guia Linha de Base não exibe rótulos na lista suspensa. (8455)
 * Ao usar a publicação de linha de base com imagem como conref no tópico, a imagem não é publicada na saída. (8564)
 * O recurso de limpeza de saída falhará se um grande número de nós de histórico de saída restantes estiverem presentes. (8568)
 * No painel Histórico de versão, a seção versão atual mostra um carimbo de data e hora incorreto e modificado pelas informações. (8765)
 * Linha de base não atualizada com base no rótulo definido. (8799)
-* O erro ocorre quando arquivos cuja pasta pai tem caracteres especiais no nome do arquivo são abertos no Oxygen (usando o **Editar no Oxygen** botão). (8918)
+* O erro ocorre quando os arquivos cuja pasta pai tem caracteres especiais no nome do arquivo são abertos no Oxygen (usando o botão **Editar no Oxygen**). (8918)
 * O upload de arquivos do Oxygen para o AEM falha. (9157)
 * Baixar o mapa com a linha de base inoperante se o conteúdo for movido para outra pasta. (9331)
 * O Oxygen verifica uma versão incorreta de um tópico após uma reversão de versão no AEM. (9411)
 * Pesquisar no painel Repositório e a caixa de diálogo Procurar topicref congela a tela quando o conteúdo é grande. (9432)
-* Se a configuração **Criar nova versão para o arquivo carregado** estiver ATIVADO, uma nova versão será criada ao reverter e salvar em qualquer nó congelado. (9473)
+* Se a configuração **Criar nova versão para arquivo carregado** estiver ATIVADA, uma nova versão será criada ao reverter e salvar em qualquer nó congelado. (9473)
 * Diferenças incorretas de carimbo de data e hora são exibidas na interface do usuário do Assets ao reverter uma versão de arquivo. (9480)
 * O check-out dos arquivos é feito automaticamente ao reverter para qualquer versão. (9482)
 * O ícone de bloqueio é exibido na visualização de repositório mesmo quando o arquivo é submetido a check-in pelo editor.  (5756)
 * Não é possível adicionar elementos de primeiro plano e de segundo plano em um mapa usando a exibição Autor do Editor da Web. (7652)
-* O modo de Visualização não oferece suporte `deliveryTarget` atributo de processamento condicional em DITA. (7685)
+* O modo de Visualização não oferece suporte ao atributo de processamento condicional `deliveryTarget` em DITA. (7685)
 * Ao abrir um tópico de glossário no editor XML, o AEM força o salvamento, mesmo que ele não tenha sido modificado. (8105)
 * A caixa de diálogo Inserir referências é aberta ao adicionar subjectref a um mapa usando a interface do usuário. (8212)
-* Reutilizar o painel de conteúdo trava ao pesquisar caracteres especiais `[` ou `*` .(8279)
+* Reutilizar falhas do painel de conteúdo ao pesquisar caracteres especiais `[` ou `*`.(8279)
 * Ao criar Glossentry, o Editor da Web mostra o conteúdo como uma Nota. (8384)
 * O Editor de XML remove a nova linha no bloco de código. (8522)
 * Alternar entre o modo de origem e o modo de autor marca o tópico como sujo e requer que o conteúdo seja salvo novamente.(8524)

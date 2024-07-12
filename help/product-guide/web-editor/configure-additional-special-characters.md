@@ -16,7 +16,7 @@ ht-degree: 0%
 Há uma opção de atalho na barra de ferramentas do editor da Web para permitir que o autor insira os caracteres especiais.
 O mesmo pode ser visto na captura de tela abaixo:
 
-![Caracteres especiais](assets/special-chars.png)
+![Caracteres Especiais](assets/special-chars.png)
 
 
 Essa lista de caracteres pode ser configurada aqui. Se precisar adicionar mais caracteres a isso, siga as etapas abaixo:
@@ -61,4 +61,4 @@ Isso adicionará outra categoria na caixa de diálogo de caracteres especiais:
 
 >[!MORELIKETHIS]
 >
->+ [Guia de instalação e configuração](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/3-6/XML-Documentation-for-Adobe-Experience-Manager_Installation-Configuration-Guide_EN.pdf)
+>+ [Guia de Instalação e Configuração](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/3-6/XML-Documentation-for-Adobe-Experience-Manager_Installation-Configuration-Guide_EN.pdf)

@@ -16,7 +16,7 @@ ht-degree: 1%
 
 A publicação de PDF nativo inicia um processo JVM separado para gerar um PDF. Talvez seja necessário ajustar as configurações dessa JVM para suportar diferentes cenários. Por exemplo, para executar cargas de trabalho maiores, você deve aumentar o tamanho máximo do heap disponível para o processo JVM gerado.
 
-Execute as seguintes etapas para configurar os sinalizadores JVM de publicação de PDF nativo de guias AEM:
+Execute as seguintes etapas para configurar os sinalizadores JVM de publicação do PDF nativo do AEM Guides:
 
 1. Abra a página Configuração do console da Web do Adobe Experience Manager.
 
@@ -26,9 +26,9 @@ Execute as seguintes etapas para configurar os sinalizadores JVM de publicação
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Procure por e selecione o *com.adobe.fmdita.config.ConfigManager* pacote.
+1. Procure e selecione o pacote *com.adobe.fmdita.config.ConfigManager*.
 
-1. Atualizar a propriedade **Opções de linha de comando Java para pdf nativo** (*native.pdf.java.opts*) para passar quaisquer flags JVM padrão.
+1. Atualize a propriedade **Opções de linha de comando Java para pdf nativo** (*native.pdf.java.opts*) para passar por sinalizadores JVM padrão.
 
 
 

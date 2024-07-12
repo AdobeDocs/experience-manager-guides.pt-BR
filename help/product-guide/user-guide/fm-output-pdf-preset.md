@@ -1,6 +1,6 @@
 ---
 title: PDF
-description: Gerar e configurar saída de PDF para documentos do FrameMaker nos Guias do AEM.
+description: Gerar e configurar saída de PDF para documentos do FrameMaker no AEM Guides.
 exl-id: df3d3cd8-2aa1-4d82-8756-c3f5555cb904
 feature: Publishing FrameMaker Documents
 role: User
@@ -17,19 +17,19 @@ As seguintes opções estão disponíveis para a saída de PDF:
 
 >[!NOTE]
 >
-> Para abrir predefinições de saída para o PDF, clique em um FrameMaker \(`.fm` ou `.book`\), clique em Predefinições de saída e, em seguida, clique na opção Saída de PDF.
+> Para abrir predefinições de saída para o PDF, clique em um arquivo de FrameMaker \(`.fm` ou `.book`\), clique em Predefinições de Saída e, em seguida, clique na opção Saída de PDF.
 
 | opções de PDF | Descrição |
 |-----------|-----------|
 | Tipo de saída | O tipo de saída que você deseja gerar. Para gerar saída de PDF, escolha a opção PDF. |
-| Nome da configuração | Dê um nome descritivo para as configurações de saída de PDF que você está criando. Por exemplo, você pode especificar *Saída interna de clientes* ou *saída de usuários finais*. |
+| Nome de configuração | Dê um nome descritivo para as configurações de saída de PDF que você está criando. Por exemplo, você pode especificar *saída de clientes internos* ou *saída de usuários finais*. |
 | **Configurações do trabalho** |
 | Opções | Escolha a predefinição de PDF que deseja usar para gerar a saída de PDF. |
 | Gerar PDF marcado | Selecione esta opção para gerar PDF com tags que conterão informações sobre o conteúdo e a estrutura do documento. Essas informações são usadas pelos leitores de tela. |
 | Gerar PDF para cada arquivo no livro | Se você estiver gerando saída para um arquivo de livro, selecione esta opção para gerar um PDF separado para cada arquivo no livro. |
 | Gerar PDF para revisão apenas | Selecione esta opção para gerar o PDF com o recurso de comentários ativado. |
 | Criar destino nomeado para todos os elementos e parágrafos | Selecione essa opção para criar destinos nomeados com base em elementos e parágrafos. |
-| **Configurações de exibição** |
+| **Configurações de Exibição** |
 | Abrir documento na página | Especifique o número de página que deve ser exibido ao abrir o PDF. |
 | Nível de zoom inicial | Escolha o nível de zoom do documento. |
 | Marca de registro | Para imprimir um documento com marcas de corte e de registro, escolha uma opção na lista suspensa Marcas de registro. |
@@ -38,6 +38,6 @@ As seguintes opções estão disponíveis para a saída de PDF:
 | Converter CYMK em RGB | Selecione esta opção para converter cores CYMK em RGB no PDF gerado. |
 | Gerar marcadores do PDF | Crie PDF acessível que contenha marcadores. |
 | Caminho de destino | O caminho no repositório AEM onde a saída de PDF está armazenada. |
-| Executar fluxo de trabalho de pós-geração | Ao escolher essa opção, uma nova lista suspensa Fluxo de trabalho de pós-geração é exibida contendo todos os fluxos de trabalho configurados no AEM. Você deve selecionar um workflow que deseja executar após a conclusão do workflow de geração de saída. |
+| Executar Fluxo de Trabalho de Geração do Post | Ao escolher essa opção, uma nova lista suspensa Post Generation Workflow é exibida contendo todos os workflows configurados no AEM. Você deve selecionar um workflow que deseja executar após a conclusão do workflow de geração de saída. |
 
-**Tópico pai:**[ Gerar saída de documentos de FrameMaker](fm-output-generatation.md)
+**Tópico pai:**[ Gerar saída de documentos do FrameMaker](fm-output-generatation.md)

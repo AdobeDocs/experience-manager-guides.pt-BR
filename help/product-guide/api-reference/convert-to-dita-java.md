@@ -32,12 +32,12 @@ As seguintes APIs baseadas em Java permitem converter documentos do HTML e do Wo
   public class ConversionUtils extends Object
   ```
 
-  A variável **ConversionUtils** classe contém métodos para converter documentos HTML e Word no formato DITA.
+  A classe **ConversionUtils** contém métodos para converter documentos HTML e Word no formato DITA.
 
 
 ## Converter documentos do HTML
 
-A variável `convertHtmlToDita` O método converte documentos HTML no formato DITA.
+O método `convertHtmlToDita` converte documentos HTML no formato DITA.
 
 **Sintaxe**:
 
@@ -49,13 +49,20 @@ public static void convertHtmlToDita(Session session,
                   throws RepositoryException, WorkflowException
 ```
 
-**Parâmetros**: |Nome|Tipo|Descrição| |—|—|—| |`session`|javax.jcr.Session|Uma sessão JCR válida.| |`inputFile`|String|Caminho absoluto dos arquivos HTML de origem no repositório AEM.| |`destPath`|String|Caminho absoluto do local de destino onde os arquivos DITA convertidos serão salvos.| |`createRev`|Booleano|Especificar se uma revisão dos arquivos foi criada \( `true`\) no destino especificado ou não \( `false`\). Isso é considerado somente quando o local de destino contém uma versão existente dos arquivos convertidos.|
+**Parâmetros**:
+|Nome|Tipo|Descrição|
+|—|—|—|
+|`session`|javax.jcr.Session|Uma sessão JCR válida.|
+|`inputFile`|String|Caminho absoluto dos arquivos HTML de origem no repositório AEM.|
+|`destPath`|String|Caminho absoluto do local de destino onde os arquivos DITA convertidos serão salvos.|
+|`createRev`|Booleano|Especifique se uma revisão dos arquivos foi criada \( `true`\) no destino especificado ou não \( `false`\). Isso é considerado somente quando o local de destino contém uma versão existente dos arquivos convertidos.|
 
-**Exceção**: Lançamentos `RepositoryException`.
+**Exceção**:
+Lança `RepositoryException`.
 
 ## Converter documentos do Word
 
-A variável ``convertWordToDita`` O método converte documentos do Word no formato DITA.
+O método ``convertWordToDita`` converte documentos do Word no formato DITA.
 
 **Sintaxe**:
 
@@ -68,6 +75,14 @@ public static void convertWordToDita(Session session,
                   throws RepositoryException, WorkflowException
 ```
 
-**Parâmetros**: |Nome|Tipo|Descrição| |—|—|—| |`session`|javax.jcr.Session|Uma sessão JCR válida.| |`inputFile`|String|Caminho absoluto dos arquivos de origem do Word no repositório AEM.| |`destPath`|String|Caminho absoluto do local de destino onde os arquivos DITA convertidos serão salvos.| |`style2tagMap`|String|Caminho absoluto do arquivo de mapeamento de estilo que será usado para conversão.| |`createRev`|Booleano|Especificar se uma revisão dos arquivos foi criada \( `true`\) no destino especificado ou não \( `false`\). Isso é considerado somente quando o local de destino contém uma versão existente dos arquivos convertidos.|
+**Parâmetros**:
+|Nome|Tipo|Descrição|
+|—|—|—|
+|`session`|javax.jcr.Session|Uma sessão JCR válida.|
+|`inputFile`|String|Caminho absoluto dos arquivos de origem do Word no repositório AEM.|
+|`destPath`|String|Caminho absoluto do local de destino onde os arquivos DITA convertidos serão salvos.|
+|`style2tagMap`|String|Caminho absoluto do arquivo de mapeamento de estilo que será usado para conversão.|
+|`createRev`|Booleano|Especifique se uma revisão dos arquivos foi criada \( `true`\) no destino especificado ou não \( `false`\). Isso é considerado somente quando o local de destino contém uma versão existente dos arquivos convertidos.|
 
-**Exceção**: Lançamentos `RepositoryException`.
+**Exceção**:
+Lança `RepositoryException`.

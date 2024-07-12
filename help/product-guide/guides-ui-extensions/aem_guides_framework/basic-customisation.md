@@ -45,7 +45,7 @@ Em nosso aplicativo, cada exibição é definida usando um JSON. Os JSONs são r
 
 O controlador é usado para manipular eventos e processar os dados. O controlador é usado para buscar e enviar dados do servidor, é a interface entre o que é exibido na interface do usuário e armazenado no back-end.
 
-- Para definir valores na inicialização, usamos o `init` função.
+- Para definir valores na inicialização, usamos a função `init`.
 - Para adicionar um método ao controlador, usamos a seguinte sintaxe:
 
 ```typescript
@@ -54,7 +54,7 @@ methodName: function(args){
 }
 ```
 
-A variável `methodName` aqui serve como `key` para fazer referência ao método no JSON (exibição) ou em outras funções
+O `methodName` aqui serve como `key` para fazer referência ao método no JSON (exibição) ou em outras funções
 
 - Para chamar um método no controlador, usamos a sintaxe
 
@@ -83,7 +83,7 @@ Neste exemplo, clicar no botão altera seu rótulo.
 
 ### Exemplo de modelo
 
-neste caso, `extraProps.buttonLabel` mantém o rótulo do botão
+neste caso, `extraProps.buttonLabel` contém o rótulo do botão
 
 ### Exemplo de controlador
 
@@ -101,4 +101,4 @@ neste caso, `extraProps.buttonLabel` mantém o rótulo do botão
 ```
 
 O GIF abaixo mostra o código acima em ação
-![basic_customization](imgs/basic_customisation.gif "Botão Personalização básica")
+![basic_customization](imgs/basic_customisation.gif "Botão de personalização básica")

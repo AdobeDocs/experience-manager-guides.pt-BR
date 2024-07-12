@@ -18,15 +18,15 @@ Em alguns workflows, ao clicar em um link de um tópico ou arquivo de mapa, ele 
 
 Use as instruções fornecidas em [Substituições de configuração](download-install-additional-config-override.md#) para criar o arquivo de configuração. No arquivo de configuração, forneça os seguintes detalhes \(propriedade\) para abrir um tópico ou mapear arquivo em uma nova guia:
 
-| PID | Chave de propriedade | Valor da propriedade |
+| PID | Chave de propriedade | Valor de propriedade |
 |---|------------|--------------|
 | `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.openinsametab` | Booleano \(true/false\). <br> **Valor padrão**: `false` |
 
 Essa configuração afeta os seguintes locais de onde você pode acessar o tópico ou mapear arquivos:
 
-- Crie o tópico DITA \(no final do fluxo de trabalho, ao clicar no botão **Abrir tópico** botão\)
+- Criar tópico DITA \(no final do fluxo de trabalho, ao clicar no botão **Abrir tópico**\)
 
-- Crie o Mapa DITA \(no final do fluxo de trabalho, ao clicar no botão **Abrir mapa** botão\)
+- Criar Mapa DITA \(no final do fluxo de trabalho, ao clicar no botão **Abrir Mapa**\)
 
 - Guia Tópicos no console do mapa DITA
 

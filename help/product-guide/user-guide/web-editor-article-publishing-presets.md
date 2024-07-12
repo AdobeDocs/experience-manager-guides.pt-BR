@@ -1,6 +1,6 @@
 ---
 title: Criar predefinições de saída no Editor da Web
-description: Criar predefinições de saída no editor da Web. Saiba como editar, renomear, duplicar e excluir uma predefinição de saída nos Guias do AEM.
+description: Criar predefinições de saída no editor da Web. Saiba como editar, renomear, duplicar e excluir uma predefinição de saída no AEM Guides.
 exl-id: cd38b039-ef91-45c9-a226-433e57b09873
 feature: Authoring, Features of Web Editor, Publishing
 role: User
@@ -17,17 +17,17 @@ Execute as seguintes etapas para criar predefinições de saída para o mapa DIT
 
 1. Na interface do usuário do Assets, navegue até o arquivo de mapa que deseja editar.
 
-1. Para obter um bloqueio exclusivo sobre o arquivo de mapa, selecione o arquivo de mapa e clique em **Check-out**.
+1. Para obter um bloqueio exclusivo no arquivo de mapa, selecione o arquivo de mapa e clique em **Check-out**.
 
-1. Selecione o **Editar tópicos** no menu de ações no arquivo de mapa.
+1. Selecione a opção **Editar Tópicos** no menu de ações no arquivo de mapa.
 
    O arquivo de mapa é aberto para edição no Editor da Web.
 
    >[!NOTE]
    >
-   > É possível adicionar ou excluir qualquer tópico do mapa usando o Editor de mapa avançado. Para obter mais detalhes, consulte [Trabalhar com o Editor de mapa avançado](map-editor-advanced-map-editor.md#).
+   > É possível adicionar ou excluir qualquer tópico do mapa usando o Editor de mapa avançado. Para obter mais detalhes, consulte [Trabalhar com o Editor de Mapa Avançado](map-editor-advanced-map-editor.md#).
 
-1. No **Output** selecione o ícone + para criar uma predefinição de saída para o mapa DITA.
+1. Na guia **Saída**, selecione o ícone + para criar uma predefinição de saída para o mapa DITA.
 
    ![](images/output-tab-preset_cs.png){width="350" align="left"}
 
@@ -35,19 +35,19 @@ Execute as seguintes etapas para criar predefinições de saída para o mapa DIT
 
 1. Insira os detalhes de configuração a seguir.
 
-   1. Selecione as opções necessárias no **Geral** guia. É possível optar por criar uma predefinição de saída com ou sem condições. Você também pode usar um arquivo DITVAL. O Guia AEM também permite selecionar uma linha de base para publicar uma versão específica do mapa DITA.
-   1. Insira os detalhes do site do AEM na **AEM** guia. **Site** exibe a lista do AEM Sites disponível no repositório AEM. **Categoria**, **Modelo de seção**, e **Modelo do artigo** são os componentes estruturais usados para organizar a aparência da saída. Eles são predefinidos no modelo de site AEM.
+   1. Selecione as opções necessárias na guia **Geral**. É possível optar por criar uma predefinição de saída com ou sem condições. Você também pode usar um arquivo DITVAL. O AEM Guides também permite selecionar uma linha de base para publicar uma versão específica do mapa DITA.
+   1. Insira os detalhes do site AEM na guia **AEM**. O **Site** exibe a lista do AEM Sites disponível no repositório AEM. **Categoria**, **Modelo de Seção** e **Modelo de Artigo** são os componentes estruturais usados para organizar a aparência da sua saída. Eles são predefinidos no modelo de site AEM.
 
       >[!NOTE]
       >
       > Atualize cada lista suspensa para obter mais classificações na próxima lista suspensa.
 
-   1. No **Artigos** selecione os tópicos para os quais deseja gerar a saída.
-1. Selecione o **Gerar predefinição** ícone na parte superior para gerar a saída.
+   1. Na guia **Artigos**, selecione os tópicos para os quais deseja gerar a saída.
+1. Selecione o ícone **Gerar predefinição** na parte superior para gerar a saída.
 
    ![](images/add-preset-articles-tab_cs.png){width="800" align="left"}
 
-1. Você verá o status do processo de geração de saída. A variável **Temas** lista os tópicos para os quais a saída está sendo gerada enquanto a variável **Status** exibe o status de publicação de cada tópico.
+1. Você verá o status do processo de geração de saída. A coluna **Tópicos** lista os tópicos para os quais a saída está sendo gerada, enquanto a coluna **Status** exibe o status de publicação de cada tópico.
 
    Para exibir a saída, passe o mouse sobre o tópico e clique em Exibir saída.
 
@@ -60,4 +60,4 @@ Execute as seguintes etapas para criar predefinições de saída para o mapa DIT
 
 ![](images/edit-preset_cs.png){width="550" align="left"}
 
-**Tópico pai:**[ Publicação baseada em artigos no Editor da Web](web-editor-article-publishing.md)
+**Tópico pai:**[ Publicação baseada em artigo do Editor da Web](web-editor-article-publishing.md)

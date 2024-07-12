@@ -23,15 +23,15 @@ O AEM Guides é um plug-in que é instalado sobre o Adobe Experience Manager. A 
 
 >[!IMPORTANT]
 >
-> Se estiver usando o Java 11 com AEM 6.5.x, você pode enfrentar um problema: *Causas do JDK 11`NoClassDefFoundError`*. Consultar [O JDK 11 causa NoClassDefFoundError \| AEM 6.5](https://helpx.adobe.com/experience-manager/kb/jdk-11-causes-noclassdeffounderror---aem-6-5.html) para resolver esse problema.
+> Se você estiver usando o Java 11 com AEM 6.5.x, poderá enfrentar um problema - *O JDK 11 causa`NoClassDefFoundError`*. Consultar [O JDK 11 causa NoClassDefFoundError \| Artigo sobre AEM 6.5](https://helpx.adobe.com/experience-manager/kb/jdk-11-causes-noclassdeffounderror---aem-6-5.html) para resolver esse problema.
 
-Depois de identificar a estratégia de implantação que funciona melhor para sua organização, execute o processo de instalação conforme descrito na *[Introdução](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/deploy.html#GettingStarted)* seção na documentação do AEM.
+Depois de identificar a estratégia de implantação que funciona melhor para sua organização, execute o processo de instalação conforme descrito na seção *[Introdução](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/deploy.html#GettingStarted)* da documentação do AEM.
 
 Se você planeja atualizar sua instância do AEM, é necessário seguir a sequência fornecida:
 
-1. Desinstale os Guias do AEM.
+1. Desinstale o AEM Guides.
 1. Atualize sua instância do AEM.
-1. Instale as Guias do AEM.
+1. Instale o AEM Guides.
 
 >[!IMPORTANT]
 >

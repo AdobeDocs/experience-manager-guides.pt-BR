@@ -1,5 +1,5 @@
 ---
-title: Configurar o Dispatcher
+title: Configurar Dispatcher
 description: Saiba como configurar o Dispatcher
 exl-id: d3ce4d01-b0fd-4f02-977c-ab378c328071
 feature: Installation
@@ -12,7 +12,7 @@ ht-degree: 14%
 
 ---
 
-# Configurar o Dispatcher {#id213BCM0M05U}
+# Configurar Dispatcher {#id213BCM0M05U}
 
 O Dispatcher é a ferramenta de balanceamento de carga e/ou cache do Adobe Experience Manager. Para obter mais detalhes, consulte [Dispatcher na nuvem](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html?lang=en).
 

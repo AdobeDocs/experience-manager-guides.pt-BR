@@ -2,25 +2,25 @@
 title: Personalização simples
 description: Exemplo de personalização simples
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 7f19f0b0-2a1b-4a8b-b28c-3918a1bc9096
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 0%
 
 ---
 
-
 # Exemplo de personalização simples
 
-Vamos agora saber como integrar essas personalizações no aplicativo Guias do AEM.
+Saiba como integrar essas personalizações no nosso aplicativo AEM Guides.
 
 Queremos adicionar este botão em uma visualização existente do aplicativo.
 Para isso, precisamos de 3 coisas básicas:
 
-1. A variável `id` da visualização JSON à qual queremos adicionar nosso componente.
-2. A variável `target`, ou seja, o local no JSON ao qual queremos adicionar o novo componente. A variável `target` é definido usando um `key` e `value`. O par de valor principal pode ser qualquer atributo usado para definir o componente que pode ajudar na identificação exclusiva dele.
+1. O `id` da visualização JSON à qual queremos adicionar nosso componente.
+2. O `target`, ou seja, o local no JSON ao qual queremos adicionar o novo componente. O `target` é definido usando um `key` e `value`. O par de valor principal pode ser qualquer atributo usado para definir o componente que pode ajudar na identificação exclusiva dele.
 Também podemos usar índices para fazer referência ao target.
-Temos 3 viewStates:  `APPEND`, `PREPEND`, `REPLACE`.
+Temos 3 viewStates: `APPEND`, `PREPEND`, `REPLACE`.
 3. O JSON do componente recém-criado e os métodos correspondentes.
 
 Digamos que queiramos adicionar um botão à caixa de ferramentas de anotação usada na revisão, que abre o arquivo no AEM.
@@ -57,14 +57,14 @@ export default {
 No exemplo acima, temos:
 
 1. o `id` do JSON no qual queremos inserir nosso componente, ou seja, `annotation_toolbox`
-2. o target é o `addcomment` botão. Adicionamos nosso botão após a variável `addcomment` botão usando o viewState `append`.
+2. o destino é o botão `addcomment`. Adicionamos nosso botão após o botão `addcomment` usando viewState `append`.
 3. Definimos o evento de clique do botão no controlador.
 
-O JSON para o &quot;annotation_toolbox&quot;  `.src/jsons/review_app/annotation_toolbox.json`
+O JSON para a &quot;annotation_toolbox&quot; `.src/jsons/review_app/annotation_toolbox.json`
 
 Antes da personalização, a caixa de ferramentas de anotação tinha esta aparência:
 
-![annotation-toolbox](imgs/annotation_toolbox.png "Caixa de ferramentas de anotação")
+![caixa de ferramentas de anotação](imgs/annotation_toolbox.png "Caixa de ferramentas de anotação")
 
 Após a personalização, a caixa de ferramentas de anotação fica assim:
 
@@ -72,7 +72,8 @@ Após a personalização, a caixa de ferramentas de anotação fica assim:
 
 ## Adição de CSS
 
-Para manter a consistência, fornecemos o componente já estilizado. O JSON inserido terá estilos inerentes aplicados a ele. A maneira principal de gerenciar o css é por meio da chave extraClass nas extensões.
+Para manter a consistência, fornecemos o componente já estilizado. O JSON inserido terá estilos inerentes aplicados a ele
+A principal maneira de gerenciar o css é por meio da chave extraClass nas extensões.
 
 ```js
 {    
@@ -87,4 +88,4 @@ Para manter a consistência, fornecemos o componente já estilizado. O JSON inse
 }
 ```
 
-Você pode colocar estilos personalizados com classes CSS adicionando um arquivo css às clientlibs. Durante a build, também criamos [Tailwind](https://tailwindcss.com/docs/utility-first) saída para as classes de utilitários em tailwind. A configuração para o mesmo pode ser encontrada no `tailwind.config.js` em `./tailwind.config.js`
+Você pode colocar estilos personalizados com classes CSS adicionando um arquivo css às clientlibs. Durante a compilação, também criamos saída [Tailwind](https://tailwindcss.com/docs/utility-first) para as classes de utilitários em tailwind. A configuração para o mesmo pode ser encontrada no `tailwind.config.js` da extensão em `./tailwind.config.js`

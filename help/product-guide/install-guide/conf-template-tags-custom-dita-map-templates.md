@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # Configurar modelo de mapa DITA personalizado {#id1774F04F05Z}
 
-O AEM Guides vem com dois templates de mapa prontos para uso — mapa DITA e Bookmap. Você pode criar mapas com base nesses modelos ou definir seus próprios modelos de mapa, que podem ser usados para criar novos mapas.
+O AEM Guides vem com dois modelos de mapa prontos para uso — mapa DITA e mapa de livros. Você pode criar mapas com base nesses modelos ou definir seus próprios modelos de mapa, que podem ser usados para criar novos mapas.
 
 Execute as seguintes etapas para adicionar seus modelos de mapa personalizados:
 
@@ -36,7 +36,7 @@ Execute as seguintes etapas para adicionar seus modelos de mapa personalizados:
 
 1. Clique em **Avançar**.
 
-1. Na nova página Propriedades do modelo, insira um **Título** e **Nome** para o modelo.
+1. Na nova página Propriedades do modelo, digite um **Título** e um **Nome** para o modelo.
 
    >[!NOTE]
    >
@@ -49,10 +49,10 @@ Execute as seguintes etapas para adicionar seus modelos de mapa personalizados:
    Você pode optar por abrir o modelo para edição no Editor de mapa ou salvar o arquivo de modelo no local de armazenamento do modelo. Depois que o modelo é criado, você pode usar o Editor de mapa para personalizar o modelo de acordo com suas necessidades de criação. Depois que um modelo estiver em vigor, certifique-se de associá-lo a um perfil global ou de nível de pasta.
 
 
-Na próxima vez que você criar um novo mapa, seu modelo será exibido na página Blueprint. Para obter mais informações sobre como criar um mapa DITA, consulte *Utilização dos guias do Adobe Experience Manager*.
+Na próxima vez que você criar um novo mapa, seu modelo será exibido na página Blueprint. Para obter mais informações sobre como criar um mapa DITA, consulte *Usando o Adobe Experience Manager Guides*.
 
 >[!TIP]
 >
-> Consulte a *Modelos personalizados* no guia de Práticas recomendadas para obter as práticas recomendadas sobre o uso de modelos de mapa personalizados.
+> Consulte a seção *Modelos personalizados* no guia de práticas recomendadas para obter práticas recomendadas sobre o uso de modelos de mapa personalizados.
 
 **Tópico pai:** [Configurar tópico e modelos de mapa](conf-template-tags.md)

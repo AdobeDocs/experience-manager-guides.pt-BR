@@ -4,19 +4,19 @@ description: Saiba como desativar o pós-processamento para uma pasta carregada 
 feature: Filename Configuration
 role: Admin
 level: Experienced
-source-git-commit: 532e7c562a233619a8c4b7cbdbaef44bc73eb4b2
+exl-id: ff6e1322-9655-42aa-b353-199c70c9de49
+source-git-commit: d525775afeeb89754762ff514126b1c3a3307b3f
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 0%
 
 ---
 
-
 # Desativar pós-processamento para uma pasta
 
-Por padrão, todos os ativos carregados são processados usando o fluxo de trabalho Atualizar ativo do DAM. Os Guias do Experience Manager executam um processamento adicional, chamado pós-processamento, como parte desse fluxo de trabalho. Isso também ajuda a gerar as UUIDs
+Por padrão, todos os ativos carregados são processados usando o fluxo de trabalho Atualizar ativo do DAM. O Experience Manager Guides executa um processamento adicional, chamado pós-processamento, como parte desse fluxo de trabalho. Isso também ajuda a gerar as UUIDs
 
-Ao fazer upload de arquivos e pastas para o *Adobe Experience Manager Assets* também é possível desativar o pós-processamento e a geração de UUIDs.
+Ao carregar seus arquivos e pastas para o servidor do *Adobe Experience Manager Assets*, você também pode desabilitar o pós-processamento e a geração de UUIDs.
 
 
 Execute as seguintes etapas para desativar o pós-processamento em um determinado caminho ou ignorar o pós-processamento de uma pasta:
@@ -30,23 +30,23 @@ Execute as seguintes etapas para desativar o pós-processamento em um determinad
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Procure por e clique no link **com.adobe.fmdita.config.ConfigManager** pacote.
+1. Procure e clique no pacote **com.adobe.fmdita.config.ConfigManager**.
 
-1. Selecione o **Caminhos ignorados para pós-processamento** para ignorar uma pasta para pós-processamento.
+1. Selecione a opção **Caminhos ignorados para processamento Post** para ignorar uma pasta para pós-processamento.
 
-   Valor da string para definir qualquer NODE_OPTIONS padrão (propriedade de vários valores, strings com caminho que omite `/` no final)
+   Valor da cadeia de caracteres para definir qualquer NODE_OPTIONS padrão (propriedade de vários valores, cadeias de caracteres com caminho que omite `/` no final)
 
-   **Valor padrão**: `/content/dam/projects/translation_output`
+   **Valor Padrão**: `/content/dam/projects/translation_output`
 
    >[!NOTE]
    >
    > Essa propriedade é desabilitada por padrão e a guia Tradução está disponível no painel de mapa.
 
-1. Selecione o **Caminhos habilitados para pós-processamento** para ativar um caminho para pós-processamento.
+1. Selecione a opção **Caminhos habilitados para processamento Post** para habilitar um caminho para pós-processamento.
 
-   Valor da string para definir qualquer NODE_OPTIONS padrão (propriedade de vários valores, strings com caminho que omite `/` no final)
+   Valor da cadeia de caracteres para definir qualquer NODE_OPTIONS padrão (propriedade de vários valores, cadeias de caracteres com caminho que omite `/` no final)
 
-   **Valor padrão**: `/content/dam/`
+   **Valor Padrão**: `/content/dam/`
 
    >[!NOTE]
    >

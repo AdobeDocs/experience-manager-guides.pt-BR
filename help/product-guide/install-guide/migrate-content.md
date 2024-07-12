@@ -14,12 +14,12 @@ ht-degree: 0%
 
 # Migrar conteúdo existente {#id181AGB000Y4}
 
-Guias do AEM permitem converter uma variedade de documentos estruturados e não estruturados no formato DITA. Este tópico aborda as informações sobre o upload de conteúdo DITA no repositório AEM e a conversão de conteúdo não DITA para o formato DITA.
+O AEM Guides permite converter uma variedade de documentos estruturados e não estruturados em formato DITA. Este tópico aborda as informações sobre o upload de conteúdo DITA no repositório AEM e a conversão de conteúdo não DITA para o formato DITA.
 
 >[!TIP]
 >
-> Consulte a *Migração e upload de conteúdo* seção [Apêndice.md](appendix.md) no guia Práticas recomendadas para obter as práticas recomendadas sobre como usar a migração e o upload de conteúdo existente.
+> Consulte a *Seção de migração e upload de conteúdo* [Appendix.md](appendix.md) do Guia de práticas recomendadas para saber as práticas recomendadas para usar a migração e o upload de conteúdo existente.
 
-- **[Fazer upload de conteúdo DITA existente](migrate-content-upload-existing-dita-content.md)**
+- **[Carregar conteúdo DITA existente](migrate-content-upload-existing-dita-content.md)**
 
-- **[Migrar conteúdo não DITA](migrate-content-non-dita.md)**
+- **[Migrar conteúdo não-DITA](migrate-content-non-dita.md)**

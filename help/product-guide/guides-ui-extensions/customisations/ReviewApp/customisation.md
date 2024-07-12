@@ -19,12 +19,12 @@ Para facilitar a personalização do aplicativo de revisão, fornecemos alguns g
 - id: `review_comment`
 - gancho: `this.updateExtraProps`:
 
-Como discutido [aqui](../../aem_guides_framework/basic-customisation.md), qualquer novo atributo adicionado durante a personalização fica em `this.model.extraProps`. O método `updateExtraProps` permite adicionar atributos a um comentário de revisão, lidando com a atualização e o armazenamento do atributo adicionado no servidor também.
+Conforme discutido [aqui](../../aem_guides_framework/basic-customisation.md), qualquer novo atributo adicionado durante a personalização fica em `this.model.extraProps`. O método `updateExtraProps` permite adicionar atributos a um comentário de revisão, manipulando também a atualização e o armazenamento do atributo adicionado no servidor.
 
 ### Exemplo de uso
 
-Por exemplo, você deseja adicionar campos `commentRationale` e `severity` aos seus comentários.
-Vamos atualizar o `commentRationale` a &quot;Esta é uma frase importante.&quot; e a variável `severity` para &quot;CRÍTICO&quot;.
+Por exemplo, você deseja adicionar os campos `commentRationale` e `severity` aos seus comentários.
+Vamos atualizar a `commentRationale` para &quot;Esta é uma frase importante&quot;. e de `severity` para &quot;CRÍTICO&quot;.
 Isso pode ser feito usando a sintaxe:
 
 ```typescript
@@ -48,19 +48,21 @@ O trecho de código acima lidará com a atualização e o salvamento dos valores
 - id: `inline_review_panel`
 
 1. gancho: `onNewCommentEvent`
-O gancho `onNewCommentEvent` permite lançar um evento ou chamar um método em um novo comentário ou evento de resposta.
-Os argumentos recebidos no `onNewCommentEvent` incluem:
+O gancho `onNewCommentEvent` permite lançar um evento ou chamar um método em um novo evento de comentário ou resposta.
+Os argumentos recebidos em `onNewCommentEvent` incluem:
    - events: o evento de comentário/resposta despachado.
-   - newComment: booleano Se o evento despachado foi um novo evento de comentário, ou seja, `highlight`, `insertion`, `deletion`, `sticky note comment`
-   - newReply: booleano se o evento despachado foi um novo evento de resposta.
+   - newComment: booleano
+Se o evento despachado foi um novo evento de comentário, isto é `highlight`, `insertion`, `deletion`, `sticky note comment`
+   - newReply: booleano
+Se o evento despachado tiver sido um novo evento de resposta.
 
 2. gancho: `sendExtraProps`
 
-Esse gancho é benéfico se você quiser estender um `event` e enviar `extraProps` no painel de revisão em linha. Explicaremos o uso desses dois ganchos abaixo.
+Este gancho é benéfico se você quiser estender um `event` e enviar `extraProps` do painel de revisão em linha. Explicaremos o uso desses dois ganchos abaixo.
 
 ### Exemplo do painel de revisão em linha
 
-Digamos que queremos enviar um extraProp, `userInfo`, sempre que um novo comentário ou resposta for enviado. Agora, isso será feito por meio do painel de revisão em linha, no entanto, não temos a referência ao commentId do comentário recém-gerado, portanto, para fazer isso, podemos escrever o seguinte código.
+Digamos que queiramos enviar um extraProp, `userInfo`, sempre que um novo comentário ou resposta for despachada. Agora, isso será feito por meio do painel de revisão em linha, no entanto, não temos a referência ao commentId do comentário recém-gerado, portanto, para fazer isso, podemos escrever o seguinte código.
 
 ```typescript
     onNewCommentEvent(args){
@@ -98,8 +100,8 @@ No trecho de código acima, estamos verificando se o evento despachado foi um no
 
 No método acima, estendemos o evento para enviar extraProps que incluem o nome do usuário, email, título etc. Estender o evento dessa maneira garante que os extraProps sejam enviados com a commentId correta, garantindo que sejam anexados ao comentário correto.
 
-O gancho `updateExtraProps` chama inerentemente o gancho `sendExtraProps`E quando usar o quê?
+O gancho `updateExtraProps` inerentemente chama o gancho `sendExtraProps`, então quando usar o quê?
 
-Usamos `updateExtraProps` no `review_comment` controlador, que já tem a função do comentário `id` e, portanto, é necessário mencionar o `extraProps.`
+Usamos `updateExtraProps` no controlador `review_comment`, que já tem o `id` do comentário e, portanto, você só precisa mencionar o `extraProps.`
 
-A variável `inline_review_panel` no entanto, o não tem acesso à id do comentário, portanto, sempre que for necessário enviar um evento do painel de revisão em linha, a variável `sendExtraProps` será útil.
+O `inline_review_panel`, no entanto, não tem acesso à id do comentário. Portanto, sempre que você precisar despachar um evento do painel de revisão em linha, o `sendExtraProps` será útil.

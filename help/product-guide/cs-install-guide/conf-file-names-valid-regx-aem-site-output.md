@@ -14,11 +14,11 @@ ht-degree: 1%
 
 # Configurar nomes de arquivo válidos para saída do site AEM {#id214GK0X0KXA}
 
-Semelhante à lista de caracteres de nome de arquivo válidos permitidos para tópicos DITA, você também pode configurar uma lista de caracteres de nome de arquivo válidos para saída do site AEM. Alguns dos caracteres conhecidos que não são permitidos em um URL são: ``'<>`@$``. Esses caracteres são configurados para serem convertidos automaticamente em um sublinhado &quot;`_`&quot; quando são encontrados durante a geração de nomes de arquivo de saída do site AEM.
+Semelhante à lista de caracteres de nome de arquivo válidos permitidos para tópicos DITA, você também pode configurar uma lista de caracteres de nome de arquivo válidos para saída do site AEM. Alguns dos caracteres conhecidos não permitidos em uma URL são: ``'<>`@$``. Esses caracteres são configurados para serem convertidos automaticamente em um sublinhado &quot;`_`&quot; quando são encontrados durante a geração de nomes de arquivo de saída do site AEM.
 
 Use as instruções fornecidas em [Substituições de configuração](download-install-additional-config-override.md#) para criar o arquivo de configuração. No arquivo de configuração, forneça os seguintes detalhes \(propriedade\) para definir caracteres válidos na saída do site AEM:
 
-| PID | Chave de propriedade | Valor da propriedade |
+| PID | Chave de propriedade | Valor de propriedade |
 |---|------------|--------------|
 | `com.adobe.fmdita.common.SanitizeNodeNameImpl` | `aemsite.DisallowedFileNameChars` | Adicione caracteres que você deseja substituir por um sublinhado nos nomes de arquivo de saída do site AEM. <br> **Valor padrão**: ``'<\>\`@$`` |
 

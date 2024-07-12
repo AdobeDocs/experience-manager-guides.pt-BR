@@ -1,6 +1,6 @@
 ---
-title: Verificar a instalação dos Guias do AEM
-description: Saiba como verificar a instalação dos Guias do AEM
+title: Verificar a instalação do AEM Guides
+description: Saiba como verificar a instalação do AEM Guides
 exl-id: 8e0afe18-5675-4c7e-b216-6de1a752bd01
 feature: Installation
 role: Admin
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# Verificar a instalação dos Guias do AEM {#id213BD030FBE}
+# Verificar a instalação do AEM Guides {#id213BD030FBE}
 
-Depois de instalar os Guias do AEM, é necessário verificar se a instalação foi bem-sucedida ou não. Execute as seguintes etapas para verificar o processo de instalação:
+Depois de instalar o AEM Guides, você precisa verificar se a instalação foi bem-sucedida ou não. Execute as seguintes etapas para verificar o processo de instalação:
 
 1. Faça logon na instância do AEM e navegue até a página AEM Web Console Bundles. O URL padrão para acessar a página de pacotes é:
 
@@ -26,9 +26,9 @@ Depois de instalar os Guias do AEM, é necessário verificar se a instalação f
 
 1. Filtre a lista de pacotes inserindo fmdita na caixa de texto de filtragem e pressione **Enter**.
 
-   A lista de pacotes é filtrada para mostrar os pacotes instalados pelos Guias AEM. Se a instalação tiver sido bem-sucedida, todos os pacotes instalados terão uma **Status** de **Ativo**.
+   A lista de pacotes é filtrada para mostrar os pacotes instalados pelo AEM Guides. Se a instalação for bem-sucedida, todos os conjuntos instalados terão um **Status** de **Ativo**.
 
-   Se algum dos pacotes não tiver um **Ativo** e verifique os registros AEM para solucionar o problema de instalação.
+   Se algum dos pacotes não tiver o status **Ativo**, verifique os logs de AEM para solucionar o problema de instalação.
 
 
 >[!IMPORTANT]

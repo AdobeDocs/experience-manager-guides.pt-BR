@@ -20,11 +20,15 @@ A API REST a seguir permite adicionar atributos condicionais em um perfil de pas
 
 Um método POST que adiciona atributos condicionais a um determinado perfil de nível de pasta.
 
-**URL de solicitação**:\
-http://*&lt;aem-guides-server>*: *&lt;port-number>*/bin/fmdita/folderprofiles
+**Solicitar URL**:\
+http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/fmdita/folderprofiles
 
 **Parâmetros**:\
-|Nome|Tipo|Obrigatório|Descrição| |—|—|—|—| |`:operation`|String|Sim|Nome da operação que está sendo chamada. O valor desse parâmetro é ``ADDATTRIBUTEPROFILES``. <br> **Nota:** O valor não diferencia maiúsculas de minúsculas.| |`profilename`|String|Sim|Exibir nome do perfil no nível da pasta no qual os atributos condicionais devem ser adicionados.| |`conditionalprofiles`|Matriz JSON|Sim|Uma matriz JSON que consiste no nome e nos valores do atributo condicional. O trecho de código de exemplo a seguir mostra a matriz JSON com dois atributos - `platform` e `product` com vários valores atribuídos a eles.|
+|Nome|Tipo|Obrigatório|Descrição|
+|—|—|—|—|
+|`:operation`|Cadeia de Caracteres|Sim|Nome da operação que está sendo chamada. O valor deste parâmetro é ``ADDATTRIBUTEPROFILES``. <br> **Observação:** o valor não diferencia maiúsculas de minúsculas.|
+|`profilename`|String|Yes|Exibir o nome do perfil de nível de pasta no qual os atributos condicionais devem ser adicionados.|
+|`conditionalprofiles`|Matriz JSON|Sim|Uma matriz JSON que consiste no nome e nos valores do atributo condicional. O trecho de código de exemplo a seguir mostra a matriz JSON com dois atributos - `platform` e `product` com vários valores atribuídos a eles.|
 
 ```JSON
 [  {    name: "platform",    

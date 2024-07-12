@@ -1,6 +1,6 @@
 ---
-title: Atualizar guias do AEM
-description: Saiba como atualizar guias de AEM
+title: Atualizar o AEM Guides
+description: Saiba como atualizar o AEM Guides
 exl-id: 57ae906f-69e3-4319-89f6-0fa9ddb7a3ff
 feature: Installation
 role: Admin
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# Atualizar guias do AEM {#id213BD050YPH}
+# Atualizar o AEM Guides {#id213BD050YPH}
 
 1. Acesse o repositório Git do Cloud Manager.
 
@@ -25,10 +25,10 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> Para obter mais detalhes sobre o uso do pipeline de CI/CD, consulte [Usar o pipeline de CI/CD no Adobe Cloud Manager](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/cloud-manager/use-the-cicd-pipeline-in-cloud-manager-for-aem.html).
+> Para obter mais detalhes sobre como usar o pipeline de CI/CD, consulte [Usar o pipeline de CI/CD no Adobe Cloud Manager](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/cloud-manager/use-the-cicd-pipeline-in-cloud-manager-for-aem.html).
 
 ## Limpar cache do navegador
 
-Após concluir o processo de atualização, todos os usuários devem limpar o cache do navegador antes de usar a versão atualizada dos Guias do AEM.
+Após concluir o processo de atualização, todos os usuários devem limpar o cache do navegador antes de usar a versão atualizada do AEM Guides.
 
 **Tópico pai:**[ Baixar e instalar](download-install.md)

@@ -1,6 +1,6 @@
 ---
 title: Configuração de conteúdo e modelo
-description: Saiba o que deve ser feito com toda a consideração para configurar o conteúdo e os modelos nos Guias do AEM.
+description: Saiba o que deve ser levado em conta na configuração de conteúdo e modelos no AEM Guides.
 exl-id: f125bad9-33a2-4de5-b43f-d6368d61879b
 feature: Template Configuration
 role: User, Admin
@@ -11,7 +11,7 @@ ht-degree: 1%
 
 ---
 
-# Configuração de conteúdo e modelo em guias AEM
+# Configuração de conteúdo e modelo no AEM Guides
 
 O volume de conteúdo que você gerencia em um sistema, para oferecer suporte a vários tipos de documentos que são entregues aos usuários finais, requer que os autores não apenas categorizem o conteúdo para rastrear e alterar facilmente quando necessário, mas também permite que os autores criem documentos novos/semelhantes sem precisar gravá-los do zero.
 
@@ -34,7 +34,7 @@ Nesta sessão, abordamos amplamente o seguinte:
 - **Data** - 27 de abril de 2023
 - **Número de participantes** - 70
 - **Duração** - 60 minutos
-- **Público** - Clientes, parceiros e funcionários da Adobe
+- **Público-alvo** - Clientes, parceiros e funcionários da Adobe
 
 
 ## Principais aprendizados
@@ -51,23 +51,23 @@ Nesta sessão, você aprendeu sobre o seguinte:
 
 ## Recursos relacionados
 
-- **Vídeos em destaque** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/folder-profiles.html)
+- **Vídeos em destaque** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/folder-profiles.html)
 
-- **Guia do usuário** - [Conteúdo do autor](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
+- **Guia do Usuário** - [Conteúdo de autor](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
 
-- **Fórum da comunidade** - Para interações da comunidade específicas por sessão no Experience League, visite  [Fórum de guias do AEM](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Fórum da comunidade** - Para interações da comunidade específicas da sessão no Experience League, visite [Fórum da AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
-> Os recursos mostrados nesta sessão estão disponíveis nas seguintes versões dos Guias do AEM:
+> Os recursos mostrados nesta sessão estão disponíveis nas seguintes versões do AEM Guides:
 > - No local: 4.2 ou posterior
 > - Cloud Service: 2303 ou posterior
 
 
 ## Próxima sessão com especialistas
 
-- **Tópico** - Publicação PDF nativa - Aprendizagem por exemplo (parte 1)
-- **Agendado para** - 1 de junho de 2023
+- **Tópico** - Publicação PDF nativa - Aprendizado por exemplo (parte 1)
+- **Agendado em** - 1º de junho de 2023
 
 
 ## Entre em contato

@@ -1,6 +1,6 @@
 ---
 title: Gerenciar predefinições de saída de perfil global e de pasta
-description: Saiba como criar, editar, renomear, duplicar e excluir predefinições de saída de perfil global e de pasta como usuários administrativos nos Guias do AEM.
+description: Saiba como criar, editar, renomear, duplicar e excluir predefinições de saída de perfil global e de pasta como usuários administrativos no AEM Guides.
 exl-id: 549c9fe2-77f8-423c-8b3e-b43e56055732
 feature: Authoring, Features of Web Editor, Publishing
 role: User
@@ -20,37 +20,37 @@ Como administrador, o AEM Guides permite criar e gerenciar predefinições de sa
 Execute as seguintes etapas para criar uma predefinição de saída para os Perfis global e de pasta:
 
 1. Selecione o mapa DITA para o qual deseja criar uma predefinição de saída.
-1. Selecione o **Editar tópicos** opção no **Opções** menu do arquivo de mapa. O arquivo de mapa é aberto para edição no Editor da Web.
-1. No **Output** selecione o ícone + para criar uma predefinição de saída para o mapa DITA.
+1. Selecione a opção **Editar Tópicos** no menu **Opções** do arquivo de mapa. O arquivo de mapa é aberto para edição no Editor da Web.
+1. Na guia **Saída**, selecione o ícone + para criar uma predefinição de saída para o mapa DITA.
 
    ![](images/add-global-output-preset.png){width="350" align="left"}
 
-1. Insira os seguintes detalhes na **Adicionar predefinição** diálogo:
+1. Insira os seguintes detalhes na caixa de diálogo **Adicionar predefinição**:
    - Tipo
    - Nome
    - Target \(para predefinição da Base de conhecimento\)
-1. Selecione o **Adicionar ao perfil da pasta** para criar uma predefinição de saída para o perfil de pasta relacionado e clique em **Adicionar**. A predefinição é criada e aparece sob a tag **Output** de todos os mapas relacionados. \( ![](images/global-preset-icon.svg)\) indica uma predefinição no nível do perfil da pasta.
+1. Marque a caixa de seleção **Adicionar ao perfil de pasta** para criar uma predefinição de saída para o perfil de pasta relacionado e clique em **Adicionar**. A predefinição é criada e aparece na guia **Saída** de todos os mapas relacionados. O ícone \( ![](images/global-preset-icon.svg)\) indica uma predefinição de nível de perfil de pasta.
 1. Insira os detalhes da configuração. Para obter mais detalhes sobre predefinições de saída, consulte [Noções básicas sobre as predefinições de saída](./generate-output-understand-presets.md).
 
    >[!NOTE]
    >
    > Essas predefinições adicionadas ao perfil da pasta são independentes dos mapas, de modo que as configurações específicas do mapa não estão presentes para essas predefinições.
 
-1. É possível selecionar a variável **Gerar predefinição** ícone na parte superior para gerar a saída dos mapas relacionados à predefinição de saída criada. Você verá o status do processo de geração de saída. Para exibir a saída, passe o mouse sobre o tópico e clique em **Exibir saída**.
+1. Você pode selecionar o ícone **Gerar predefinição** na parte superior para gerar a saída para os mapas relacionados à predefinição de saída criada. Você verá o status do processo de geração de saída. Para exibir a saída, passe o mouse sobre o tópico e clique em **Exibir Saída**.
 
 >[!NOTE]
 >
-> Os Guias do AEM também fornecem uma predefinição de saída de PDF pronta para uso para gerar a saída para seus mapas DITA.
+> O AEM Guides também fornece uma predefinição de saída de PDF para gerar a saída para seus mapas DITA.
 
-**Outras operações no menu Opções**
+**Outras operações do menu Opções**
 
 No menu Opções, também é possível executar as seguintes operações na predefinição:
 
-- Selecione a predefinição como predefinição de pdf padrão. Em seguida, a predefinição selecionada seria usada como a predefinição padrão para gerar a saída de PDF usando o **Baixar como PDF** para um mapa.
-- **Editar**, **Renomear**, **Duplicar** ou **Excluir** uma predefinição de saída existente do **Opções** menu.
+- Selecione a predefinição como predefinição de pdf padrão. Em seguida, a predefinição selecionada será usada como a predefinição padrão para gerar a saída de PDF usando a opção **Baixar como PDF** para um mapa.
+- **Editar**, **Renomear**, **Duplicar** ou **Excluir** uma predefinição de saída existente do menu **Opções**.
 
 >[!NOTE]
 >
-> Quando uma predefinição de saída em Perfis globais e de pasta for excluída, ela será refletida em todos os mapas relacionados e não aparecerá em **Output** guia.
+> Quando uma predefinição de saída em Perfis Globais e de Pasta for excluída, ela será refletida em todos os mapas relacionados e não aparecerá na guia **Saída**.
 
-**Tópico pai:**[ Trabalhar com o editor da Web](web-editor.md)
+**Tópico pai:**[ Trabalhar com o Editor da Web](web-editor.md)

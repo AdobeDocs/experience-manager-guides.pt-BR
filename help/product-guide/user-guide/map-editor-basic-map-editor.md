@@ -1,6 +1,6 @@
 ---
 title: Trabalhar com o Editor básico de mapas
-description: Saiba como trabalhar com o Editor básico de mapas em Guias do AEM. Conhecer os recursos do editor de mapa básico no nível do mapa e do tópico. Criar e editar tabelas de relacionamento em um mapa DITA.
+description: Saiba como trabalhar com o Editor de mapa básico no AEM Guides. Conhecer os recursos do editor de mapa básico no nível do mapa e do tópico. Criar e editar tabelas de relacionamento em um mapa DITA.
 exl-id: 13da729d-e8f7-46ae-873a-1bfc32da974f
 feature: Authoring, Map Editor
 role: User
@@ -29,7 +29,7 @@ Execute as seguintes etapas para criar seu arquivo de mapa:
 
 1. Na interface do usuário do Assets, navegue até o arquivo de mapa que deseja editar.
 
-1. Para obter um bloqueio exclusivo sobre o arquivo de mapa, selecione o arquivo de mapa e clique em **Check-out**.
+1. Para obter um bloqueio exclusivo no arquivo de mapa, selecione o arquivo de mapa e clique em **Check-out**.
 
    >[!NOTE]
    >
@@ -41,7 +41,7 @@ Execute as seguintes etapas para criar seu arquivo de mapa:
 
    ![](images/dita-map-01.png){width="800" align="left"}
 
-1. Usar o **Referências** painel, navegue até a pasta que contém os tópicos ou submapas que deseja adicionar.
+1. Usando o painel **Referências**, navegue até a pasta que contém os tópicos ou submapas que deseja adicionar.
 
    >[!NOTE]
    >
@@ -80,13 +80,13 @@ Insira as palavras-chave que você deseja pesquisar; elas são combinadas no nom
 
 **B: Grupo**
 
-Clique na caixa de seleção à esquerda dos tópicos e clique em Agrupar na barra de ferramentas para agrupar os tópicos selecionados. Para obter mais informações sobre o agrupamento de tópicos, consulte [topicgroup](https://docs.oasis-open.org/dita/v1.0/langspec/topicgroup.html) documentação na Especificação de idioma OASIS DITA.
+Clique na caixa de seleção à esquerda dos tópicos e clique em Agrupar na barra de ferramentas para agrupar os tópicos selecionados. Para obter mais informações sobre como agrupar tópicos, consulte a documentação do [topicgroup](https://docs.oasis-open.org/dita/v1.0/langspec/topicgroup.html) na Especificação de Linguagem OASIS DITA.
 
 **C: Excluir**
 
 Clique na caixa de seleção à esquerda de um tópico e clique em Excluir na barra de ferramentas para remover os tópicos selecionados do mapa.
 
-**D: Mostrar números/Ocultar números**
+**D: Mostrar Números/Ocultar Números**
 
 Exibir numeração \(ou ocultar\) para os tópicos do mapa.
 
@@ -96,17 +96,17 @@ Verifique se o mapa é válido ou tem erros.
 
 **F: Modo Padrão/Modo XML**
 
-No **Modo Padrão**, clicando em um link de tópico, você verá a visualização do tópico em uma nova guia. Ao clicar no botão **Modo Padrão** O ícone altera seu modo para **Modo XML**. Entrada **Modo XML**, clicar em qualquer lugar em uma linha de tópico mostra o XML subjacente das referências de tópico dentro do tópico. Na visualização XML de origem, há uma variável **Recuo Automático** opção que reorganiza o código XML no formato apresentável e facilmente legível. Caso esteja editando um mapa manualmente, a exibição de origem também executa verificações de validação. Caso seu XML contenha erros, o mesmo é destacado na variável **Modo XML** e não é permitido salvar o arquivo de mapa DITA. Para exibir o XML para o mapa inteiro, clique em qualquer lugar fora do limite do tópico.
+No **Modo Padrão**, clicar em um link de tópico mostra a visualização do tópico em uma nova guia. Clicar no ícone **Modo Padrão** altera seu modo para **Modo XML**. No **Modo XML**, clicar em qualquer lugar em uma linha de tópico mostra o XML subjacente das referências de tópico dentro do tópico. Na exibição XML de origem, há uma opção de **Recuo automático** que reorganiza o código XML no formato apresentável e facilmente legível. Caso esteja editando um mapa manualmente, a exibição de origem também executa verificações de validação. Caso seu XML contenha erros, o mesmo é destacado no **Modo XML** e você não tem permissão para salvar o arquivo de mapa DITA. Para exibir o XML para o mapa inteiro, clique em qualquer lugar fora do limite do tópico.
 
 
-**Nota:** No Modo Padrão, é possível usar os atalhos de teclado para desfazer \(`Ctrl+z`\) ou refazer \(`Ctrl+y`\) a última ação.
+**Observação:** no Modo Padrão você pode usar os atalhos de teclado para desfazer \(`Ctrl+z`\) ou refazer \(`Ctrl+y`\) a última ação.
 
 
 ![](images/dita-map-invalid-source.png){width="650" align="left"}
 
-**G: Propriedades do mapa**
+**G: Propriedades do Mapa**
 
-Exiba a caixa de diálogo Propriedades do Mapa, na qual você pode definir os atributos e as informações de metadados do mapa. Para adicionar um atributo, clique no **Adicionar** no canto inferior esquerdo da caixa de diálogo para obter a **Atributo** lista suspensa. Na lista, selecione o atributo que deseja adicionar. Se o atributo selecionado tiver valores predefinidos especificados no DTD, esses valores serão apresentados em uma nova lista suspensa. Você pode selecionar o valor desejado na lista suspensa. Se não houver um valor predefinido, será exibida uma caixa de texto para você inserir um valor para o atributo selecionado.
+Exiba a caixa de diálogo Propriedades do Mapa, na qual você pode definir os atributos e as informações de metadados do mapa. Para adicionar um atributo, clique no botão **Adicionar** no canto inferior esquerdo da caixa de diálogo para obter a lista suspensa **Atributo**. Na lista, selecione o atributo que deseja adicionar. Se o atributo selecionado tiver valores predefinidos especificados no DTD, esses valores serão apresentados em uma nova lista suspensa. Você pode selecionar o valor desejado na lista suspensa. Se não houver um valor predefinido, será exibida uma caixa de texto para você inserir um valor para o atributo selecionado.
 
 ![](images/map-properties.png){width="300" align="left"}
 
@@ -116,22 +116,22 @@ Ao passar o ponteiro do mouse sobre um tópico ou um arquivo de submapa no Edito
 
 ![](images/ditamap-actions.png){width="650" align="left"}
 
-**A: Mover para a esquerda ou Mover para a direita**
+**A: Mover para a Esquerda ou Mover para a Direita**
 
 Clique nos ícones de seta para a esquerda ou direita para mover o tópico para a esquerda ou direita. Mover um tópico de tal forma o torna filho \(ninho\) ou irmão \(remover aninhamento\) com relação ao tópico acima.
 
 **B: Propriedades**
 
-Clique no ícone Propriedades para abrir a caixa de diálogo Propriedades de Topicref. Usando essa caixa de diálogo, você pode definir os atributos do tópico e as informações de metadados. Para obter mais informações sobre os atributos e metadados do tópico padrão, consulte [topicref](https://docs.oasis-open.org/dita/v1.2/os/spec/langref/topicref.html) documentação na Especificação de idioma OASIS DITA.
+Clique no ícone Propriedades para abrir a caixa de diálogo Propriedades de Topicref. Usando essa caixa de diálogo, você pode definir os atributos do tópico e as informações de metadados. Para obter mais informações sobre atributos e metadados de tópico padrão, consulte a documentação [topicref](https://docs.oasis-open.org/dita/v1.2/os/spec/langref/topicref.html) na Especificação de Linguagem OASIS DITA.
 
 
 ![](images/map-properties-metadata.png){width="350" align="left"}
 
-**C: Adicionar nova referência**
+**C: Adicionar Nova Referência**
 
 Clique no ícone Adicionar nova referência para adicionar uma nova referência como irmã do tópico atual.
 
-**D: Adicionar nova definição de chave**
+**D: Adicionar Nova Definição De Chave**
 
 Clique no ícone Chave para adicionar uma nova definição de chave. Qualquer chave substituída ou uma chave que já tenha sido definida no mapa aparecerá em vermelho. Se você clicar no ícone Propriedades em uma definição de chave, será exibida a caixa de diálogo Propriedades de definição de chave.
 
@@ -145,7 +145,7 @@ Execute as seguintes etapas para trabalhar com tabelas de relacionamento no Edit
 
 1. Clique no mapa DITA para abri-lo no console do mapa DITA.
 
-1. Selecione o **Temas** para ver uma lista de tópicos disponíveis no mapa DITA.
+1. Selecione a guia **Tópicos** para ver uma lista de tópicos disponíveis no mapa DITA.
 
    >[!TIP]
    >
@@ -155,7 +155,7 @@ Execute as seguintes etapas para trabalhar com tabelas de relacionamento no Edit
 
    O arquivo de mapa é aberto no Editor de mapa básico.
 
-1. Selecionar **Relacionável** na barra de ferramentas.
+1. Selecione **Relacionável** na barra de ferramentas.
 
    ![](images/reltable.png){width="650" align="left"}
 
@@ -167,9 +167,9 @@ Execute as seguintes etapas para trabalhar com tabelas de relacionamento no Edit
 
    ![](images/create-reltable.png){width="550" align="left"}
 
-1. Para adicionar um cabeçalho à tabela de relacionamento, clique em **Adicionar novo cabeçalho**.
+1. Para adicionar um cabeçalho à tabela de relacionamento, clique em **Adicionar Cabeçalho Novamente**.
 
-1. Para adicionar uma coluna à tabela de relacionamento, clique em **Adicionar uma coluna**.
+1. Para adicionar uma coluna à tabela de relação, clique em **Adicionar uma Coluna**.
 
    ![](images/complete-reltable.png){width="550" align="left"}
 
@@ -186,8 +186,8 @@ Se quiser excluir uma coluna da tabela, marque a caixa de seleção no cabeçalh
 
 Se quiser deletar um tópico da tabela, clique no ícone cruzado ao lado do tópico.
 
-**Excluir a tabela de relacionamento**
+**Excluir a tabela de relação**
 
 Se quiser excluir a tabela de relacionamento, clique em qualquer lugar fora da tabela de relacionamento e clique em Excluir.
 
-**Tópico pai:**[ Trabalhar com o Editor de mapas](map-editor.md)
+**Tópico pai:**[ Trabalhar com o Editor de Mapa](map-editor.md)

@@ -26,9 +26,9 @@ Execute as seguintes etapas para atribuir automaticamente o nome de arquivo base
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Procure por e clique no link *com.adobe.fmdita.xmleditor.config.XmlEditorConfig* pacote.
+1. Procure e clique no pacote *com.adobe.fmdita.xmleditor.config.XmlEditorConfig*.
 
-1. Selecione o **Usar nomes de arquivo do sistema baseados em UUID** opção.
+1. Selecione a opção **Usar nomes de arquivo do sistema baseados em UUID**.
 
 1. Clique em **Salvar**.
 

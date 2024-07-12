@@ -16,8 +16,8 @@ ht-degree: 0%
 
 Este tópico aborda informações sobre como trabalhar com nomes de arquivo para seus arquivos DITA. Você pode definir padrões de nome de arquivo e também controlar a lista de caracteres válidos permitidos nos nomes de arquivo.
 
-- **[Configurar nomes de arquivo automáticos com base no UUID](conf-auto-uuid-filenames.md)**
+- **[Configurar nomes de arquivo automáticos com base em UUID](conf-auto-uuid-filenames.md)**
 
-- **[Configurar Regx para caracteres válidos de nome de arquivo](conf-file-names-valid-regx.md)**
+- **[Configurar Regx para caracteres de nome de arquivo válidos](conf-file-names-valid-regx.md)**
 
 - **[Configurar nomes de arquivo válidos para saída do site AEM](conf-file-names-valid-regx-aem-site-output.md)**

@@ -1,5 +1,5 @@
 ---
-title: Personalizar dicionário padrão do AEM
+title: Personalizar o dicionário padrão do AEM
 description: Saiba como personalizar o dicionário padrão do AEM
 exl-id: 8bfd3ea7-0be8-4e7a-b389-5face043200b
 feature: Web Editor Configuration
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# Personalizar dicionário padrão do AEM {#id209SD8000WU}
+# Personalizar o dicionário padrão do AEM {#id209SD8000WU}
 
-O Editor da Web pode ser configurado para usar o verificador ortográfico AEM ou o verificador ortográfico do navegador. Se optar por trabalhar com o verificador ortográfico AEM, você terá a flexibilidade de definir sua lista de palavras personalizadas. Essas palavras personalizadas são então adicionadas ao dicionário AEM e essas palavras não são sinalizadas \(como incorreto\) no Editor da Web.
+O Editor da Web pode ser configurado para usar o verificador ortográfico do AEM ou o verificador ortográfico do navegador. Se optar por trabalhar com o verificador ortográfico AEM, você terá a flexibilidade de definir sua lista de palavras personalizadas. Essas palavras personalizadas são então adicionadas ao dicionário AEM e essas palavras não são sinalizadas \(como incorreto\) no Editor da Web.
 
 Execute as seguintes etapas para criar sua lista de palavras personalizadas, que são adicionadas ao dicionário AEM:
 

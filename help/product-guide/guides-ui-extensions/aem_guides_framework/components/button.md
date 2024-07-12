@@ -2,18 +2,18 @@
 title: Botão
 description: Botão
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 40e3f254-f94e-4f43-8ff5-2e6e1eb1cb6f
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '60'
 ht-degree: 5%
 
 ---
 
-
 # Botão
 
 Para exibir um botão, usamos o componente, botão.
-O componente de botão na JUI representa um html `<button/>`.
+O componente de botão na interface do usuário representa um html `<button/>`.
 
 ```js title="buttonJSON.js"
 const buttonJSON = {
@@ -24,9 +24,9 @@ const buttonJSON = {
 };
 ```
 
-Isso produzirá um botão com um rótulo de `Yes, login`. As outras propriedades incluem, entre outras, variante, rótulo, clique.
-> **_NOTA:_**  A variável `on-<events>` é a sintaxe para invocar os comandos nas controladoras.
+Isso produzirá um botão com o rótulo `Yes, login`. As outras propriedades incluem, entre outras, variante, rótulo, clique.
+> **_OBSERVAÇÃO:_** `on-<events>` é a sintaxe para invocar os comandos nos controladores.
 
 O botão renderizado terá esta aparência:
 
-![botão](imgs/yes_login_button.png "Botão")
+![Botão](imgs/yes_login_button.png "Botão")

@@ -17,7 +17,7 @@ Este artigo compartilha os insights sobre a arquitetura e os números de desempe
 
 >[!NOTE]
 >
-> A publicação com base em microsserviços nos Guias AEM oferece suporte aos tipos de predefinições de saída PDF (baseado em DITA e nativo), HTML5, JSON e CUSTOM.
+> A publicação com base em microsserviços no AEM Guides é compatível com os tipos de predefinições de saída PDF (baseado em DITA e nativo), HTML5, JSON e CUSTOM.
 
 ## Problemas com fluxos de trabalho de publicação existentes na nuvem
 
@@ -29,7 +29,7 @@ Essa restrição de recursos foi a principal motivação para criar um serviço 
 
 ## Introdução à nova arquitetura
 
-O serviço está usando soluções de nuvem de ponta do Adobe, como o App Builder, IO Eventing e IMS, para criar uma oferta sem servidor. Estes serviços são baseados nos padrões industriais amplamente aceitos como Kubernetes e docker.
+O serviço está usando soluções de nuvem de ponta do Adobe, como App Builder, IO Eventing e IMS, para criar uma oferta sem servidor. Estes serviços são baseados nos padrões industriais amplamente aceitos como Kubernetes e docker.
 
 Cada solicitação para o novo microsserviço de publicação é executada em um contêiner de docker isolado que executa somente uma solicitação de publicação por vez. Vários novos contêineres são criados automaticamente caso novas solicitações de publicação sejam recebidas. Essa configuração de contêiner único por solicitação permite que o microsserviço forneça o melhor desempenho aos clientes sem introduzir riscos de segurança. Esses contêineres são descartados quando a publicação termina, liberando assim os recursos não utilizados.
 
@@ -44,7 +44,7 @@ Todas essas comunicações são protegidas pelo Adobe IMS usando autenticação 
 
 ## Análise de desempenho
 
-Esta seção mostra os números de desempenho do microsserviço. Ele compara o desempenho do microsserviço com a oferta de Guias AEM no local, já que a antiga arquitetura de nuvem tinha problemas na publicação simultânea ou na publicação de mapas muito grandes.
+Esta seção mostra os números de desempenho do microsserviço. Ele compara o desempenho do microsserviço com a oferta no local do AEM Guides, já que a antiga arquitetura de nuvem tinha problemas na publicação simultânea ou na publicação de mapas muito grandes.
 
 Se você estiver publicando um mapa grande no local, talvez seja necessário ajustar os parâmetros de heap do Java ou encontrar erros de memória insuficiente. Na nuvem, o microsserviço já apresenta um perfil e tem a heap de Java ideal e outras configurações prontas para uso.
 
@@ -78,6 +78,6 @@ Se você estiver publicando um mapa grande no local, talvez seja necessário aju
 
 ## Benefícios adicionais
 
-Uma parte de cada solicitação de publicação deve ser executada na instância do AEM para buscar o conteúdo de publicação correto para ser enviado ao microsserviço. A nova arquitetura de nuvem usa trabalhos de AEM no lugar de fluxos de trabalho de AEM, como acontecia na arquitetura antiga. Essa alteração permite que os administradores do AEM Guides definam individualmente as configurações da fila de publicação na nuvem, sem afetar outras tarefas do AEM ou as configurações do fluxo de trabalho.
+Uma parte de cada solicitação de publicação deve ser executada na instância do AEM para buscar o conteúdo de publicação correto para ser enviado ao microsserviço. A nova arquitetura de nuvem usa trabalhos de AEM no lugar de fluxos de trabalho de AEM, como acontecia na arquitetura antiga. Essa alteração permite que os administradores do AEM Guides definam individualmente as configurações da fila de publicação na nuvem sem afetar outras tarefas AEM ou configurações de fluxo de trabalho.
 
-Detalhes sobre como configurar o novo microsserviço de publicação podem ser encontrados aqui: [Configurar microsserviço](configure-microservices.md)
+Detalhes sobre como configurar o novo microsserviço de publicação podem ser encontrados aqui: [Configurar Microsserviço](configure-microservices.md)

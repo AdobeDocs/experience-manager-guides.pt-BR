@@ -5,8 +5,8 @@ source-wordcount: '15'
 ht-degree: 6%
 
 ---
-# Plug-in Oxygen para o Adobe Experience Manager Guides
+# Plug-in Oxygen para Adobe Experience Manager Guides
 
 - [Aviso](rebranding-disclaimer.md)
-- [Plug-in Oxygen para o Adobe Experience Manager Guides](use-aem-connector.md)
+- [Plug-in Oxygen para Adobe Experience Manager Guides](use-aem-connector.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Notas de versão | Guias do Adobe Experience Manager as a Cloud Service, versão de outubro de 2022
+title: Notas de versão | Adobe Experience Manager Guides as a Cloud Service, versão de outubro de 2022
 description: Versão de outubro do Adobe Experience Manager Guides as a Cloud Service
 exl-id: 38638080-625c-49c3-9e54-56cc23831546
 feature: Release Notes
@@ -15,14 +15,14 @@ ht-degree: 1%
 
 ## Atualize para a versão de outubro
 
-Atualize seus Guias do Adobe Experience Manager atuais as a Cloud Service (mais tarde chamados de *Guias de AEM as a Cloud Service*), executando as seguintes etapas:
+Atualize sua configuração atual do Adobe Experience Manager Guides as a Cloud Service (mais tarde chamada de configuração do *AEM Guides as a Cloud Service*) executando as seguintes etapas:
 1. Confira o código Git do Cloud Service e alterne para a ramificação configurada no pipeline Cloud Service correspondente ao ambiente que você deseja atualizar.
-1. Atualizar `<dox.version>` propriedade no `/dox/dox.installer/pom.xml` arquivo do seu código Git Cloud Service para 2022.10.183.
+1. Atualize a propriedade `<dox.version>` no arquivo `/dox/dox.installer/pom.xml` do seu código Git Cloud Service para 2022.10.183.
 1. Confirme as alterações e execute o pipeline do Cloud Service para atualizar para a versão de outubro do AEM Guides as a Cloud Service.
 
 ## Matriz de compatibilidade
 
-Esta seção lista a matriz de compatibilidade dos aplicativos de software compatíveis com os Guias do AEM as a Cloud Service na versão de outubro de 2022.
+Esta seção lista a matriz de compatibilidade dos aplicativos de software compatíveis com a versão de outubro de 2022 do AEM Guides as a Cloud Service.
 
 ### FRAMEMAKER e FRAMEMAKER PUBLISHING SERVER
 
@@ -43,18 +43,18 @@ Esta seção lista a matriz de compatibilidade dos aplicativos de software compa
 
 ## Novos recursos e melhorias
 
-O AEM Guides as a Cloud Service oferece aprimoramentos e novos recursos na versão de outubro:
+O AEM Guides as a Cloud Service fornece melhorias e novos recursos na versão de outubro:
 
 
 ### Painel Geração rápida
 
-Agora, o AEM Guides fornece a **Geração rápida** painel que ajuda a gerar e visualizar rapidamente a saída das predefinições criadas para o mapa DITA.
+Agora, o AEM Guides fornece o painel **Geração rápida**, que ajuda a gerar e exibir rapidamente a saída das predefinições criadas para o mapa DITA.
 
-![Ícone Geração rápida](assets/quick-generate-icon.png)
+![Ícone de Geração Rápida](assets/quick-generate-icon.png)
 
-No **Geração rápida** é possível ver a lista de todas as predefinições de saída criadas para o mapa DITA.
+No painel **Geração rápida**, você pode ver a lista de todas as predefinições de saída criadas para o seu mapa DITA.
 
-![Painel Geração rápida](assets/quick-generate-panel.png)
+![Painel de Geração Rápida](assets/quick-generate-panel.png)
 
 Selecione uma ou mais predefinições e gere rapidamente a saída. Também é possível visualizar rapidamente a saída gerada para as predefinições. Uma mensagem de sucesso é exibida na geração da saída. Uma mensagem de erro será exibida se a geração de saída falhar. Você também pode exibir o log de erros para ver os detalhes do erro que ocorreu no processo de geração.
 
@@ -71,4 +71,4 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 * PDF nativo | Reiniciar o número da página no layout do capítulo inicia aleatoriamente a numeração a partir do final do capítulo anterior. (10154)
 * Navegador Chrome | A tela está ficando em branco ao arrastar e soltar qualquer elemento da interface do usuário. Por exemplo, ao arrastar uma condição do painel Condições. (10524)
 * As propriedades do nó estão sendo removidas após a operação de copiar e colar de um ativo. (10053)
-* Ao clicar em  **Fechar** os usuários estavam sendo redirecionados para ativos - a experiência foi corrigida para levar os usuários à página inicial do AEM. (9654)
+* Ao clicar em **Fechar**, os usuários foram redirecionados para os ativos. A experiência foi corrigida para levar os usuários à página inicial do AEM. (9654)

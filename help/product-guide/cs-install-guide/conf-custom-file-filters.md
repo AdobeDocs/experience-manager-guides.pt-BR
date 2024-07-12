@@ -20,12 +20,12 @@ Execute as seguintes etapas para adicionar as opções de filtragem de arquivo p
 
 1. Para baixar o arquivo de configuração da interface do usuário, faça logon no Adobe Experience Manager como administrador.
 
-1. Clique no link Adobe Experience Manager na parte superior e escolha **Ferramentas**.
-1. Selecionar **Guias** na lista de ferramentas e clique no botão **Perfis de pasta**.
-1. Clique no link **Perfil global** bloco.
-1. Selecione o **Configuração do editor XML** e clique em **Editar** ícone na parte superior
-1. Clique em **Baixar** ícone para baixar o arquivo ui\_config.json no sistema local. Em seguida, você pode fazer alterações no arquivo e fazer upload do mesmo.
-1. No `ui_config.json` adicione a definição dos filtros que deseja adicionar.
+1. Clique no link do Adobe Experience Manager na parte superior e escolha **Ferramentas**.
+1. Selecione **Guias** na lista de ferramentas e clique em **Perfis de Pasta**.
+1. Clique no bloco **Perfil Global**.
+1. Selecione a guia **Configuração do editor XML** e clique no ícone **Editar** na parte superior
+1. Clique no ícone **Baixar** para baixar o arquivo ui\_config.json em seu sistema local. Em seguida, você pode fazer alterações no arquivo e fazer upload do mesmo.
+1. No arquivo `ui_config.json`, adicione a definição dos filtros que deseja adicionar.
 
    O trecho de código a seguir mostra como adicionar duas opções de filtragem — Arquivos DITA e Arquivos de imagem.
 
@@ -50,15 +50,18 @@ Execute as seguintes etapas para adicionar as opções de filtragem de arquivo p
 
    No trecho de código acima, o primeiro filtro é para Arquivos DITA. A definição do filtro usa os seguintes parâmetros:
 
-   título : o nome de exibição do filtro. Este título aparece como a opção de filtragem na caixa de diálogo de procura de arquivo.
+   título
+:   O nome de exibição do filtro. Este título aparece como a opção de filtragem na caixa de diálogo de procura de arquivo.
 
-   propriedade : a propriedade que deve corresponder aos metadados do arquivo. Por exemplo, para permitir somente os arquivos que tenham o `dita_class` metadados em sua propriedade, o filtro de propriedade &quot; `jcr:content/metadata/dita_class`&quot; como seu valor.
+   propriedade
+:   A propriedade a ser correspondida nos metadados do arquivo. Por exemplo, para permitir somente os arquivos que têm os metadados `dita_class` em sua propriedade, o filtro de propriedade assume &quot; `jcr:content/metadata/dita_class`&quot; como seu valor.
 
-   operação : especificar &quot; `exists`&quot; para corresponder à existência do valor especificado no parâmetro de propriedade.
+   operação
+:   Especifique &quot; `exists`&quot; para corresponder a existência do valor especificado no parâmetro de propriedade.
 
-   O segundo filtro é para Arquivos de imagem. Os parâmetros são semelhantes ao primeiro filtro, exceto o `value` parâmetro. A variável `value` assume uma matriz de tipos de imagem como seu valor. Todos os tipos de arquivos especificados no parâmetro value são pesquisados e mostrados na caixa de diálogo de procura de arquivos, todos os outros tipos de arquivos são ignorados.
+   O segundo filtro é para Arquivos de imagem. Os parâmetros são semelhantes ao primeiro filtro, exceto o parâmetro `value`. O parâmetro `value` usa uma matriz de tipos de imagem como seu valor. Todos os tipos de arquivos especificados no parâmetro value são pesquisados e mostrados na caixa de diálogo de procura de arquivos, todos os outros tipos de arquivos são ignorados.
 
-1. Salve o *ui\_config.json* e fazer upload do mesmo. Em seguida, recarregue o Editor da Web.
+1. Salve o arquivo *ui\_config.json* e carregue o mesmo. Em seguida, recarregue o Editor da Web.
 
    Quando você inicia a caixa de diálogo de navegação de arquivos, as opções de filtro configuradas no arquivo ui\_config.json são exibidas.
 

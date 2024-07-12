@@ -28,9 +28,9 @@ Execute as seguintes etapas para adicionar as opções de filtragem de arquivo p
 
    `/apps/fmdita/xmleditor/ui_config.json`
 
-1. Navegue até e abra a `ui_config.json` arquivo no `apps` para edição.
+1. Navegue e abra o arquivo `ui_config.json` no nó `apps` para edição.
 
-1. No `ui_config.json` adicione a definição dos filtros que deseja adicionar.
+1. No arquivo `ui_config.json`, adicione a definição dos filtros que deseja adicionar.
 
    O trecho de código a seguir mostra como adicionar duas opções de filtragem — Arquivos DITA e Arquivos de imagem.
 
@@ -57,13 +57,13 @@ Execute as seguintes etapas para adicionar as opções de filtragem de arquivo p
 
    - **título:**   O nome de exibição do filtro. Este título aparece como a opção de filtragem na caixa de diálogo de procura de arquivo.
 
-   - **propriedade:**   A propriedade a ser correspondida nos metadados do arquivo. Por exemplo, para permitir somente os arquivos que tenham o `dita_class` metadados em sua propriedade, o filtro de propriedade &quot;`jcr:content/metadata/dita_class`&quot; como seu valor.
+   - **propriedade:**   A propriedade a ser correspondida nos metadados do arquivo. Por exemplo, para permitir somente os arquivos que têm os metadados `dita_class` em sua propriedade, o filtro de propriedade assume &quot;`jcr:content/metadata/dita_class`&quot; como seu valor.
 
-   - **operação:**   Especificar &quot;`exists`&quot; para corresponder à existência do valor especificado no parâmetro de propriedade.
+   - **operação:**   Especifique &quot;`exists`&quot; para corresponder a existência do valor especificado no parâmetro de propriedade.
 
-   O segundo filtro é para Arquivos de imagem. Os parâmetros são semelhantes ao primeiro filtro, exceto o `value` parâmetro. A variável `value` assume uma matriz de tipos de imagem como seu valor. Todos os tipos de arquivos especificados no parâmetro value são pesquisados e mostrados na caixa de diálogo de procura de arquivos, todos os outros tipos de arquivos são ignorados.
+   O segundo filtro é para Arquivos de imagem. Os parâmetros são semelhantes ao primeiro filtro, exceto o parâmetro `value`. O parâmetro `value` usa uma matriz de tipos de imagem como seu valor. Todos os tipos de arquivos especificados no parâmetro value são pesquisados e mostrados na caixa de diálogo de procura de arquivos, todos os outros tipos de arquivos são ignorados.
 
-1. Salve o *ui\_config.json* e recarregar o Editor da Web.
+1. Salve o arquivo *ui\_config.json* e recarregue o Editor da Web.
 
    Quando você inicia a caixa de diálogo de navegação de arquivos, as opções de filtro configuradas no arquivo ui\_config.json são exibidas.
 

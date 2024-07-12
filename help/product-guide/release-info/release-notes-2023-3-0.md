@@ -11,25 +11,25 @@ ht-degree: 0%
 
 ---
 
-# Lançamento de março de 2023 do Adobe Experience Manager Guides as a Cloud Service
+# Versão de março de 2023 do Adobe Experience Manager Guides as a Cloud Service
 
-Esta nota de versão aborda as instruções de atualização, a matriz de compatibilidade e os problemas corrigidos na versão de março de 2023 dos Guias do Adobe Experience Manager (mais tarde chamados de *Guias de AEM as a Cloud Service*).
+Esta nota de versão aborda as instruções de atualização, a matriz de compatibilidade e os problemas corrigidos na versão de março de 2023 do Adobe Experience Manager Guides (mais tarde referido como *AEM Guides as a Cloud Service*).
 
-Para obter mais informações sobre os novos recursos e aprimoramentos, consulte [Novidades na versão de março de 2023 do Guia do AEM as a Cloud Service](whats-new-2023-3-0.md).
+Para obter mais informações sobre os novos recursos e aprimoramentos, consulte [Novidades da versão de março de 2023 do AEM Guides as a Cloud Service](whats-new-2023-3-0.md).
 
 ## Atualização para a versão de março de 2023
 
-Atualize sua configuração as a Cloud Service dos Guias AEM atuais executando as seguintes etapas:
+Atualize sua configuração atual do AEM Guides as a Cloud Service executando as seguintes etapas:
 
 1. Confira o código Git do Cloud Service e alterne para a ramificação configurada no pipeline Cloud Service correspondente ao ambiente que você deseja atualizar.
-1. Atualizar `<dox.version>` propriedade no `/dox/dox.installer/pom.xml` arquivo do seu código Git Cloud Service para 2023.3.242.
+1. Atualize a propriedade `<dox.version>` no arquivo `/dox/dox.installer/pom.xml` do seu código Git Cloud Service para 2023.3.242.
 1. Confirme as alterações e execute o pipeline do Cloud Service para atualizar para a versão de março de 2023 do AEM Guides as a Cloud Service.
 
 ## Etapas para indexar o conteúdo existente (somente se você estiver em uma versão anterior à versão de setembro do AEM Guides as a Cloud Service)
 
 Execute as seguintes etapas para indexar o conteúdo existente e usar o novo texto de localização e substituição no nível do mapa:
 
-* Execute uma solicitação POST no servidor (com a autenticação correta) - `http://<server:port>/bin/guides/map-find/indexing`.
+* Execute uma solicitação POST no servidor (com autenticação correta) - `http://<server:port>/bin/guides/map-find/indexing`.
 (Opcional: é possível passar caminhos específicos dos mapas para indexá-los; por padrão, todos os mapas serão indexados || Exemplo: `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
 * A API retornará um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação de GET com id de trabalho para o mesmo ponto de extremidade - `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
@@ -39,7 +39,7 @@ Execute as seguintes etapas para indexar o conteúdo existente e usar o novo tex
 
 ## Matriz de compatibilidade
 
-Esta seção lista a matriz de compatibilidade dos aplicativos de software compatíveis com os Guias do AEM as a Cloud Service na versão de março de 2023.
+Esta seção lista a matriz de compatibilidade dos aplicativos de software compatíveis com a versão de as a Cloud Service de março de 2023 da AEM Guides.
 
 ### FRAMEMAKER e FRAMEMAKER PUBLISHING SERVER
 
@@ -62,7 +62,7 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 
 * O processo de PDF de download não está funcionando adequadamente no Editor da Web. (11496)
 * Saída JSON | Mapear metadados com o valor de propriedade como `"value in spaces and double quotes"` leva a um erro de publicação. (11438)
-* A inserção para arquivos multimídia de áudio e vídeo falha no formato YouTube na **Inserir multimídia** ícone. (11320)
+* A inserção de arquivos multimídia de áudio e vídeo falha no formato YouTube sob o ícone **Inserir multimídia**. (11320)
 * O erro de validação ocorre quando um mapa é criado usando o modelo que tem um elemento de título especializado. (11212)
 * PDF nativo | a nota de rodapé presente no cabeçalho da tabela leva a negrito e texto alinhado ao centro no rodapé da página correspondente na saída do PDF. (10610)
 >[!NOTE]
@@ -71,8 +71,8 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 
 ### Problema conhecido com a solução alternativa
 
-A Adobe identificou o seguinte problema conhecido para os Guias AEM as a Cloud Service na versão de março de 2023.
+A Adobe identificou o seguinte problema conhecido para a versão as a Cloud Service de março de 2023 do AEM Guides.
 
 * Os usuários não podem salvar ou criar a versão de um ativo duplicado.
 
-**Solução alternativa**: antes de fazer qualquer alteração no ativo duplicado, reprocesse-o na interface do usuário do Assets.
+**Solução alternativa**: antes de fazer qualquer alteração no ativo duplicado, reprocesse-o da interface do usuário do Assets.

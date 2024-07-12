@@ -1,6 +1,6 @@
 ---
 title: Ativar saída
-description: Ative a saída de mapas DITA em guias AEM. Saiba como ativar o conteúdo na instância de publicação.
+description: Ative a saída de mapas DITA no AEM Guides. Saiba como ativar o conteúdo na instância de publicação.
 exl-id: 4da644b9-8c5f-4976-a212-960085b693b8
 feature: Publishing, Bulk Activation
 role: User
@@ -15,15 +15,15 @@ ht-degree: 1%
 
 Depois de criar uma coleção de mapas para ativação em massa, a próxima etapa é ativar o conteúdo na instância de publicação. Para ativar o conteúdo, execute as seguintes etapas:
 
-1. Selecionar **Guias** na lista de ferramentas.
+1. Selecione **Guias** na lista de ferramentas.
 
-1. Clique no link Adobe Experience Manager na parte superior e escolha **Ferramentas**.
+1. Clique no link do Adobe Experience Manager na parte superior e escolha **Ferramentas**.
 
-1. Clique no link **Painel de publicação em massa** bloco.
+1. Clique no bloco **Painel do Publish em massa**.
 
    Uma lista de coleções de mapas de ativação em massa é exibida.
 
-1. Selecione a coleção que deseja publicar e clique em **Abertura**.
+1. Selecione a coleção que você deseja publicar e clique em **Abrir**.
 
    ![](images/bulk-activation-collection-open.png){width="800" align="left"}
 
@@ -39,21 +39,21 @@ Veja as diferentes maneiras de ativar sua coleção com base em sua configuraç�
 <details>
 <summary> Cloud Services </summary>
 
-![bulk-collection-publish no cloud service](images/bulk-activation-collection-quick-publish-CS.png){width="650" align="left"}
+![publicação-coleção-em-massa no serviço de nuvem](images/bulk-activation-collection-quick-publish-CS.png){width="650" align="left"}
 
-Você pode ativar a saída para a variável **Visualizar** ou **Publish** instâncias.
+Você pode ativar a saída para as instâncias de **Visualização** ou **Publish**.
 
 **Visualização**
 
-* Para ativar a saída de mapas selecionados, selecione a saída de mapa pré-gerada e selecione **Publicar em** > **Visualizar**.
-* Para ativar a saída de todos os mapas DITA com suas predefinições configuradas, marque a caixa de seleção ao lado da **Mapa** e selecione **Publicar em** > **Publish**.
+* Para ativar a saída de mapas selecionados, selecione a saída de mapa pré-gerada e selecione **Publish to** > **Preview**.
+* Para ativar a saída de todos os mapas DITA com suas predefinições configuradas, marque a caixa de seleção ao lado da coluna **Mapa** e selecione **Publish to** > **Publish**.
 
 
 **Publish**
 
-* Para ativar a saída de mapas selecionados, selecione a saída de mapa pré-gerada e selecione **Publicar em** > **Publish**.
+* Para ativar a saída de mapas selecionados, selecione a saída de mapa pré-gerada e selecione **Publish to** > **Publish**.
 
-* Para ativar a saída de todos os mapas DITA com suas predefinições configuradas, marque a caixa de seleção ao lado do Mapa (coluna) e selecione **Publicar em** > **Publish**.
+* Para ativar a saída de todos os mapas DITA com suas predefinições configuradas, marque a caixa de seleção ao lado do Mapa (coluna) e selecione **Publish to** > **Publish**.
 
 
 >[!NOTE]
@@ -62,7 +62,7 @@ Você pode ativar a saída para a variável **Visualizar** ou **Publish** instâ
 
 Uma mensagem de sucesso é exibida quando a saída do mapa é colocada em fila para publicação.
 
-Depois que a saída é ativada para os arquivos de mapa selecionados, a guia histórico de auditoria é atualizada e a saída ativada mais recente é exibida na parte superior. A variável **Publicado** A coluna é atualizada com a data e a hora da publicação.
+Depois que a saída é ativada para os arquivos de mapa selecionados, a guia histórico de auditoria é atualizada e a saída ativada mais recente é exibida na parte superior. A coluna **Publicado** é atualizada com a data e hora da publicação.
 
 </details>
 
@@ -72,9 +72,9 @@ Depois que a saída é ativada para os arquivos de mapa selecionados, a guia his
 
 Siga uma das seguintes opções:
 
-* Para ativar a saída de mapas selecionados, selecione a saída de mapa pré-gerada e selecione **Publicação rápida**.
-* Para ativar a saída de todos os mapas DITA com suas predefinições configuradas, marque a caixa de seleção ao lado do Mapa (coluna) e selecione **Publicação rápida.**
-  ![bulk-collection-publish](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
+* Para ativar a saída de mapas selecionados, selecione a saída de mapa pré-gerada e selecione **Quick Publish**.
+* Para ativar a saída de todos os mapas DITA com suas predefinições configuradas, marque a caixa de seleção ao lado do Mapa (coluna) e selecione **Quick Publish.**
+  ![publicação-coleção-em-massa](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
 
   >[!NOTE]
   > 
@@ -83,6 +83,6 @@ Siga uma das seguintes opções:
 
 Uma mensagem de sucesso é exibida quando a saída do mapa é colocada em fila para publicação.
 
-Depois que a saída é ativada para os arquivos de mapa selecionados, a guia histórico de auditoria é atualizada e a saída ativada mais recente é exibida na parte superior. A variável **Publicado** A coluna é atualizada com a data e a hora da publicação.
+Depois que a saída é ativada para os arquivos de mapa selecionados, a guia histórico de auditoria é atualizada e a saída ativada mais recente é exibida na parte superior. A coluna **Publicado** é atualizada com a data e hora da publicação.
 
-**Tópico principal: **[Ativação em massa de conteúdo publicado](conf-bulk-activation.md)
+**Tópico pai: **[Ativação em massa de conteúdo publicado](conf-bulk-activation.md)

@@ -4,7 +4,8 @@ description: Saiba como migrar conteúdo não UUID com versões para conteúdo U
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+exl-id: 8f3a89fc-7d18-453d-909d-6dff5e275cab
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 0%
@@ -17,11 +18,11 @@ Execute estas etapas para migrar seu conteúdo de versão não UUID para o conte
 
 >[!NOTE]
 >
->Siga as [instruções de atualização](./upgrade-xml-documentation.md) específico para a versão licenciada do seu produto.
+>Siga as [instruções de atualização](./upgrade-xml-documentation.md) específicas para a versão licenciada do seu produto.
 
 ## Matriz de compatibilidade
 
-| Versão atual dos Guias do Experience Manager (não UUID) | Versão necessária para migrar para UUID | Caminho de atualização compatível |
+| Versão atual do Experience Manager Guides (não UUID) | Versão necessária para migrar para UUID | Caminho de atualização compatível |
 |---|---|---|
 | 3.8.5, 4.0.x ou 4.1.x | 4.1 não UUID | Instale o 4.1 (UUID) e execute a migração |
 | 4.2, 4.2.x ou 4.3 | 4.3.0 não UUID | Instale o 4.3.1 (UUID) e execute a migração |
@@ -57,23 +58,23 @@ Execute as seguintes verificações na versão não UUID (4.1 não UUID ou 4.3.0
    >* Você precisa de permissão de administrador para executar a migração.
    >* Recomenda-se a correção de arquivos com erros antes de prosseguir com a migração.
 
-1. (Opcional) Execute a limpeza de versões no conteúdo para remover versões desnecessárias e acelerar o processo de migração. Para executar a expurgação de versão, selecione a opção **Limpeza de versão** na tela de migração e acesse a interface do usuário usando o URL `http://<server- name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
+1. (Opcional) Execute a limpeza de versões no conteúdo para remover versões desnecessárias e acelerar o processo de migração. Para executar a limpeza de versão, selecione a opção **Limpeza de Versão** na tela de migração e vá para a interface do usuário usando a URL `http://<server- name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
    >[!NOTE]
    >
    >Este utilitário não remove nenhuma versão usada em linhas de base ou revisões ou tem rótulos.
 
-1. Launch `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
-1. Selecionar **Avaliação de compatibilidade**  no painel esquerdo e procure um caminho de pasta.
+1. Iniciar `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
+1. Selecione **Avaliação de Compatibilidade** no painel esquerdo e procure um caminho de pasta.
 1. Verifique a compatibilidade para listar as seguintes informações:
    * Total de arquivos
    * Total de versões
    * Tempo estimado para migração
    * Número de arquivos com erros
 
-   ![guia avaliação de compatibilidade na migração](assets/migration-compatibility-assessment.png){width="800" align="left"}
+   ![guia de avaliação de compatibilidade na migração](assets/migration-compatibility-assessment.png){width="800" align="left"}
 
 
-1. Selecionar **Configurar validações** no painel esquerdo. Em seguida, **Selecionar mapa** e **Selecionar predefinição** do mapa para configurá-los. A lista de validação de saída atual exibe os arquivos de saída presentes antes da migração e pode ser validada em relação aos arquivos de saída gerados após a migração.
+1. Selecione **Configurar validações** no painel esquerdo. Em seguida, **Selecione o mapa** e **Selecione a predefinição** do mapa para configurá-los. A lista de validação de saída atual exibe os arquivos de saída presentes antes da migração e pode ser validada em relação aos arquivos de saída gerados após a migração.
 
    ![Configurar a guia Validações na migração](assets/migration-configure-validation.png){width="800" align="left"}
 
@@ -86,46 +87,46 @@ Execute as seguintes verificações na versão não UUID (4.1 não UUID ou 4.3.0
 
 1. Verifique se o espaço livre disponível é pelo menos dez vezes o espaço ocupado pelo AEM (diretório crx-quickstart) durante a migração. Após concluir a migração, você poderá recuperar a maior parte do espaço em disco executando a compactação (consulte [Limpeza de revisão](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en)).
 
-1. Ativar *Ativar iniciadores do fluxo de trabalho de pós-processamento* in `com.adobe.fmdita.config.ConfigManager` e *Ativar pós-processamento da versão* in `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation.`
+1. Habilitar *Habilitar Iniciadores de Fluxo de Trabalho de Processamento do Post* em `com.adobe.fmdita.config.ConfigManager` e *Habilitar Pós-processamento de Versão* em `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation.`
 
 1. Instale a versão UUID da versão compatível sobre a versão não UUID. Por exemplo, se você estiver usando a build 4.1 não UUID, será necessário instalar a versão 4.1 do UUID e executar a migração.
 
 1. Instale o novo pacote para migração de uuid.
 
-1. Desabilite os seguintes fluxos de trabalho e qualquer outro fluxo de trabalho executado em `/content/dam` uso de inicializadores no `http://<server-name>/libs/cq/workflow/content/console.html`.
+1. Desabilite os fluxos de trabalho a seguir e qualquer outro fluxo de trabalho executado no `/content/dam` usando iniciadores no `http://<server-name>/libs/cq/workflow/content/console.html`.
 
    * Fluxo de trabalho do Ativo de atualização DAM
    * Fluxo de trabalho de writeback de metadados DAM
 
-1. Desativar *Ativar iniciadores do fluxo de trabalho de pós-processamento* in `com.adobe.fmdita.config.ConfigManager` e desativar *Ativar pós-processamento da versão* in `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation`.
+1. Desabilite *Habilitar Iniciadores de Fluxo de Trabalho de Processamento do Post* em `com.adobe.fmdita.config.ConfigManager` e desabilite *Habilitar Pós-processamento de Versão* em `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation`.
 
-1. Desativar a propriedade Ativar validação (`validation.enabled`) no Serviço de marcação CQ diário.
+1. Desabilite a propriedade Habilitar validação (`validation.enabled`) no Serviço de Marcação CQ Diário.
 
-1. Assegure que `uuid.regex` a pasta de propriedades está definida corretamente no `com.adobe.fmdita.config.ConfigManager`. Se estiver em branco, defina-o como o valor padrão - `^GUID-(?<id>.*)`.
+1. Verifique se a pasta de propriedade `uuid.regex` está definida corretamente em `com.adobe.fmdita.config.ConfigManager`. Se estiver em branco, defina-o como o valor padrão - `^GUID-(?<id>.*)`.
 1. Adicionar um agente de log separado para `com.adobe.fmdita.uuid` A resposta do navegador também está disponível em `/content/uuid-upgrade/logs`.
 
 ### Etapa 2: executar a migração e validar
 
 #### Instalar o pacote de migração
 
-1. Launch `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
+1. Iniciar `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
 
    ![Guia de atualização do sistema na migração](assets/migration-system-upgrade.png){width="800" align="left"}
 
-1. Selecionar **Atualização do sistema** no painel esquerdo para executar a migração. Iniciar em uma pasta com dados menores antes de executá-la `/content/dam`.
+1. Selecione **Atualização do sistema** no painel esquerdo para executar a migração. Inicie em uma pasta com dados menores antes de executá-la em `/content/dam`.
 
-1. Selecionar **Baixar relatório** enquanto a migração está em execução, para verificar se todos os arquivos na pasta foram atualizados corretamente e se todos os recursos funcionam somente para essa pasta.
+1. Selecione **Baixar relatório** enquanto a migração está em execução para verificar se todos os arquivos da pasta foram atualizados corretamente e se todos os recursos funcionam somente para essa pasta.
 
 
 >[!NOTE]
 >
-> A migração de conteúdo pode ser executada em nível de pasta, o processo `/content/dam`ou na mesma pasta (executar a migração novamente).
+> A migração de conteúdo pode ser executada em um nível de pasta, no `/content/dam` completo ou na mesma pasta (executar a migração novamente).
 
 Além disso, é importante garantir que a migração de conteúdo seja feita para todos os ativos de mídia, como imagens e gráficos usados no conteúdo DITA.
 
 #### Migração de linha de base e revisão
 
-Selecionar **Atualização da linha de base/revisão** no painel esquerdo para migrar as linhas de base e revisar no nível da pasta.
+Selecione **Atualização de Linha de Base/Revisão** no painel esquerdo para migrar as linhas de base e revisar no nível da pasta.
 
 ![Guia Linha de base e revisão na migração](assets/migration-baseline-review-upgrade.png){width="800" align="left"}
 
@@ -143,10 +144,9 @@ Depois de migrar o servidor com êxito, ative o pós-processamento, a marcação
 
 ## Validação de migração
 
-1. Quando a migração for concluída, selecione **Validar atualização do sistema** no painel esquerdo e valide os arquivos de saída antes e depois da migração para garantir que a migração seja bem-sucedida.
+1. Depois que a migração for concluída, selecione **Validar atualização do sistema** no painel esquerdo e valide os arquivos de saída antes e depois da migração para garantir que a migração seja bem-sucedida.
 
    ![Validar guia de atualização do sistema na migração](assets/migration-validate-system-upgrade.png){width="800" align="left"}
 
 
 1. Depois que a validação for concluída, a maior parte do espaço em disco poderá ser recuperada executando a compactação (consulte `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`).
-

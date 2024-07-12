@@ -1,6 +1,6 @@
 ---
-title: Notas de versão do [!DNL AEM Guides], versão de fevereiro de 2022
-description: Versão de fevereiro do [!DNL Adobe Experience Manager Guides] as a Cloud Service
+title: Notas de versão do  [!DNL AEM Guides], versão de fevereiro de 2022
+description: Versão de fevereiro do  [!DNL Adobe Experience Manager Guides] as a Cloud Service
 exl-id: eb7ff475-bb5b-4d32-b291-024147fbfed1
 feature: Release Notes
 role: Leader
@@ -15,14 +15,14 @@ ht-degree: 0%
 
 ## Atualização para a versão de fevereiro
 
-Atualize seu atual [!DNL Adobe Experience Manager Guides] as a Cloud Service (mais tarde referido como [!DNL AEM Guides] as a Cloud Service) executando as seguintes etapas:
+As a Cloud Service Atualize sua configuração atual do [!DNL Adobe Experience Manager Guides] (mais tarde chamada de as a Cloud Service do [!DNL AEM Guides]) executando as seguintes etapas:
 1. Confira o código Git do Cloud Service e alterne para a ramificação configurada no pipeline Cloud Service correspondente ao ambiente que você deseja atualizar.
-1. Atualizar `<dox.version>` propriedade no `/dox/dox.installer/pom.xml` arquivo do seu código Git Cloud Service para 2022.2.114.
+1. Atualize a propriedade `<dox.version>` no arquivo `/dox/dox.installer/pom.xml` do código Git do Cloud Service para 2022.2.114.
 1. Confirme as alterações e execute o pipeline do Cloud Service para atualizar para a versão de fevereiro do [!DNL AEM Guides] as a Cloud Service.
 
 ## Matriz de compatibilidade
 
-Esta seção lista a matriz de compatibilidade dos aplicativos de software suportados pela [!DNL AEM Guides] Versão as a Cloud Service de fevereiro de 2022.
+As a Cloud Service Esta seção lista a matriz de compatibilidade para os aplicativos de software compatíveis com a versão de fevereiro de 2022 do [!DNL AEM Guides].
 
 ### FRAMEMAKER e FRAMEMAKER PUBLISHING SERVER
 
@@ -34,7 +34,7 @@ Esta seção lista a matriz de compatibilidade dos aplicativos de software supor
 
 ### Conector de oxigênio
 
-| [!DNL AEM Guides] Versão na nuvem | Janelas do conector Oxygen | Conector Oxygen Mac |
+| Versão da nuvem do [!DNL AEM Guides] | Janelas do conector Oxygen | Conector Oxygen Mac |
 | --- | --- | --- |
 | 2022.2.0 | 2.4.0 | 2.4.0 |
 |  |  |  |
@@ -48,11 +48,11 @@ O suporte para a criação de um PDF nativo também foi adicionado na versão de
 * Criar um modelo CSS
 * Criar modelos de página diferentes
 * Criar modelos de PDF compreendendo CSS e modelos de página
-* Publicar o mapa e o conteúdo do tópico no formato PDF
+* Conteúdo do mapa e do tópico do Publish no formato PDF
 
 ### Suporte para caminho do site da base de dados de conhecimento na publicação baseada em artigo
 
-[!DNL AEM Guides] O as a Cloud Service fornece o recurso de publicação baseado em artigos para gerar de forma incremental uma saída de um ou mais tópicos ou publicar seu conteúdo em uma plataforma da base de conhecimento. Com a versão de fevereiro, você terá uma opção adicional para escolher o caminho do site da Base de conhecimento no qual o tópico/mapa precisa ser publicado. Após selecionar o caminho, a saída é gerada no caminho especificado.
+O [!DNL AEM Guides] as a Cloud Service fornece o recurso de publicação baseado em artigos para gerar de forma incremental uma saída de um ou mais tópicos ou publicar seu conteúdo em uma plataforma da base de conhecimento. Com a versão de fevereiro, você terá uma opção adicional para escolher o caminho do site da Base de conhecimento no qual o tópico/mapa precisa ser publicado. Após selecionar o caminho, a saída é gerada no caminho especificado.
 
 ### Aprimoramentos no Editor da Web
 
@@ -60,15 +60,15 @@ Muitos aprimoramentos e novos recursos foram adicionados ao Editor da Web:
 
 * **Caixa de diálogo aprimorada no fechamento do arquivo**
 
-[!DNL AEM Guides] O as a Cloud Service solicita que você salve suas alterações e desbloqueie os arquivos bloqueados ao tentar fechar um arquivo aberto no Editor da Web. Os prompts são exibidos com base no **Solicitar check-in ao fechar** e **Solicitar nova versão ao fechar** configurações definidas pelo administrador.
+O [!DNL AEM Guides] as a Cloud Service que você salve as alterações e desbloqueie os arquivos bloqueados ao tentar fechar um arquivo aberto no Editor da Web. Os prompts são exibidos com base nas configurações **Solicitar check-in ao fechar** e **Solicitar nova versão ao fechar** definidas pelo administrador.
 
 Com base na configuração, você tem a opção de salvar as alterações e criar uma nova versão do documento. Ou você também pode fazer check-in do arquivo e salvar as alterações na versão atual.
 
 ![Arquivo fechar](assets/file-close-save-changes-unlock.png)
 
-Para obter mais detalhes, consulte *Cenários de fechamento e salvamento de arquivos* no Guia do usuário.
+Para obter mais detalhes, consulte *Cenários de fechamento e salvamento de arquivos* no Guia do Usuário.
 
-* Um espaço sem quebra foi adicionado ao palete de caracteres.  A **não-separável** o espaço impede uma quebra de linha automática em um ponto específico de um documento HTML. O Editor da Web suporta um espaço não-separável para saída de AEM Site e HTML 5.
+* Um espaço sem quebra foi adicionado ao palete de caracteres.  Um espaço **não-separável** impede uma quebra de linha automática em um ponto específico em um documento HTML. O Editor da Web suporta um espaço não-separável para saída de AEM Site e HTML 5.
 
 * Ao fazer upload de uma imagem do Editor da Web, uma caixa de diálogo de confirmação será exibida se uma imagem com o mesmo nome já existir. Você pode manter ambos os arquivos, existentes e novos, ou substituir o arquivo existente e salvar apenas o novo arquivo.
 
@@ -78,7 +78,7 @@ Para obter mais detalhes, consulte *Cenários de fechamento e salvamento de arqu
 
 Quando você seleciona baixar o mapa DITA, a solicitação é enfileirada e você recebe uma notificação quando o mapa estiver pronto para download. Você pode optar por baixar o arquivo de mapa imediatamente ou baixá-lo posteriormente a partir do link fornecido na Caixa de entrada de notificação do AEM.
 
-![Download de mapa](assets/download-map-prompt.png)
+![Download do mapa](assets/download-map-prompt.png)
 
 ### Revisar
 
@@ -105,7 +105,7 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 * Glossusage é mostrado como uma Nota quando um Glossentry é criado. (8384)
 * xref não pode ser inserido mesmo em locais válidos. (8354)
 * A lista de elementos (Alt+Enter) aparece esmaecida no tema Escuro/Escuro. (7913)
-* A lista de modelos de mapa em **Criar** opção (menu reticências) do painel Repositório não é conforme a **Perfil da pasta** em Preferências do usuário. (5918)
+* A lista de modelos de mapa na opção **Criar** (menu de reticências) do painel Repositório não é conforme o **Perfil de Pasta** nas Preferências do Usuário. (5918)
 * As IDs de elemento não são geradas automaticamente para elementos adicionados do recurso Reutilizar conteúdo da barra de ferramentas principal. (5826)
 
 ### Interface do usuário do Assets
@@ -119,5 +119,5 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 ### Alterações de usabilidade
 
 * No painel Revisão do Editor da Web, se um nome de usuário for longo, os ícones para aceitar/rejeitar não serão exibidos claramente. (8793)
-* No **Localizar e substituir** um ícone indesejado é exibido ao passar o mouse na seção de resultados. (8775)
+* No painel **Localizar e Substituir**, um ícone indesejado é exibido ao passar o mouse sobre a seção de resultados. (8775)
 * O ícone personalizado não é separado da propriedade e, em vez disso, o ícone padrão é exibido para os relatórios gerados usando o botão Gerar relatório. (8573)

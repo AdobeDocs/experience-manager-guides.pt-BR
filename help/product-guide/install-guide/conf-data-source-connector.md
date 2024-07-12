@@ -40,7 +40,7 @@ Um exemplo de arquivo de configuração para a autenticação básica do Jira co
 }
 ```
 
-Por exemplo, salvar como `jira.json`.
+Por exemplo, salve como `jira.json`.
 
 Um exemplo de arquivo de configuração para a autenticação básica do Jira com token:
 
@@ -59,7 +59,7 @@ Um exemplo de arquivo de configuração para a autenticação básica do Jira co
 }
 ```
 
-Por exemplo, salvar como `jira.json`.
+Por exemplo, salve como `jira.json`.
 
 Um exemplo de arquivo de configuração para a autenticação básica do Jira com o token com a palavra-chave &quot;Básico&quot; presente nele:
 
@@ -78,7 +78,7 @@ Um exemplo de arquivo de configuração para a autenticação básica do Jira co
 }
 ```
 
-Por exemplo, salvar como `jira.json`.
+Por exemplo, salve como `jira.json`.
 
 Um exemplo de arquivo de configuração para a autenticação básica do MySql:
 
@@ -99,7 +99,7 @@ Um exemplo de arquivo de configuração para a autenticação básica do MySql:
 }
 ```
 
-Por exemplo, salvar como `mysql.json`.
+Por exemplo, salve como `mysql.json`.
 
 Um exemplo de arquivo de configuração para a autenticação básica do PostgreSQL:
 
@@ -120,7 +120,7 @@ Um exemplo de arquivo de configuração para a autenticação básica do Postgre
 }
 ```
 
-Por exemplo, salvar como `postgres.json`.
+Por exemplo, salve como `postgres.json`.
 
 Um exemplo de arquivo de instalação para a autenticação básica do MS SQL Server:
 
@@ -141,7 +141,7 @@ Um exemplo de arquivo de instalação para a autenticação básica do MS SQL Se
 }
 ```
 
-Por exemplo, salvar como `mssqlserver.json`.
+Por exemplo, salve como `mssqlserver.json`.
 
 Um exemplo de arquivo de configuração para a autenticação básica do SQLite:
 
@@ -162,13 +162,13 @@ Um exemplo de arquivo de configuração para a autenticação básica do SQLite:
 }
 ```
 
-Por exemplo, salvar como `sqqlite.json`.
+Por exemplo, salve como `sqqlite.json`.
 
 ### Personalizar uma configuração de conector
 
-O Guia do AEM permite personalizar alguns valores no arquivo de configuração para atender às necessidades do usuário.
+O AEM Guides permite personalizar alguns valores no arquivo de configuração para atender às necessidades do usuário.
 
-| Nome da Propriedade | Descrição |
+| Nome de propriedade | Descrição |
 |---|---|
 | configName | O usuário pode especificar um nome de configuração para ajudar a identificar o conector |
 | templateFolders | Lista de pastas de onde os modelos serão buscados |
@@ -179,10 +179,10 @@ Outros campos são personalizados com base na classe de configuração seleciona
 
 Faça upload do arquivo para algum local no AEM Assets.
 
-Por exemplo,  `/content/dam/jira.json`
+Por exemplo, `/content/dam/jira.json`
 
 ## Criar configuração usando REST API
 
-Você pode registrar a configuração usando a API REST. Para obter mais detalhes, consulte *API REST para registrar um conector de fonte de dados* na Referência de API dos Guias do Adobe Experience Manager.
+Você pode registrar a configuração usando a API REST. Para obter mais detalhes, consulte a seção *REST API para registrar um conector de fonte de dados* na Referência de API para Adobe Experience Manager Guides.
 
-Após configurar a fonte de dados, o conector é listado no painel Fontes de dados do Editor da Web. Em seguida, você pode se conectar à fonte de dados e inserir um trecho de conteúdo em seus tópicos. Para obter mais detalhes, consulte [Inserir um trecho de conteúdo da sua fonte de dados](../user-guide/web-editor-content-snippet.md).
+Após configurar a fonte de dados, o conector é listado no painel Fontes de dados do Editor da Web. Em seguida, você pode se conectar à fonte de dados e inserir um trecho de conteúdo em seus tópicos. Para obter mais detalhes, exiba [Inserir um trecho de conteúdo da sua fonte de dados](../user-guide/web-editor-content-snippet.md).

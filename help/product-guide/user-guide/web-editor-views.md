@@ -1,6 +1,6 @@
 ---
 title: Visualizações do Editor da Web
-description: Visualize documentos no modo de autor, fonte e visualização. Saiba como visualizar o conteúdo com base em filtros condicionais, visualizar as marcações de alterações de rastreamento e exportar um tópico como PDF nos Guias do AEM.
+description: Visualize documentos no modo de autor, fonte e visualização. Saiba como visualizar o conteúdo com base em filtros condicionais, visualizar as marcações de alterações de rastreamento e exportar um tópico como PDF no AEM Guides.
 exl-id: 74db2902-4507-4904-85d8-6b52e4af4c55
 feature: Authoring, Features of Web Editor
 role: User
@@ -25,35 +25,35 @@ Esta é uma exibição típica do Editor da Web do What You Get \(WYSISYG\). É 
 
 ## Origem
 
-A visualização Código-fonte exibe o XML subjacente que compõe o tópico. Se você estiver familiarizado trabalhando diretamente com XML, use a Visualização de código-fonte. Além de fazer edições de texto regulares nessa visualização, você também pode adicionar elementos e atributos usando o Catálogo inteligente ou localizar e substituir texto, elementos ou atributos.
+A visualização Source exibe o XML subjacente que compõe o tópico. Se você se sentir confortável trabalhando diretamente com XML, use a visualização Source. Além de fazer edições de texto regulares nessa visualização, você também pode adicionar elementos e atributos usando o Catálogo inteligente ou localizar e substituir texto, elementos ou atributos.
 
 - Para chamar o Catálogo inteligente, coloque o cursor no final de qualquer tag de elemento onde deseja inserir o novo elemento e insira &quot;&lt;&quot;. O editor mostra uma lista de todos os elementos XML válidos que você pode inserir nesse local. Use as teclas de seta para selecionar o elemento que deseja inserir e pressione Enter. Ao inserir o colchete &quot;\>, a tag de fechamento do elemento é adicionada automaticamente.
 
   ![](images/smart-catalog-elements.png){width="400" align="left"}
 
-- Você também pode alterar um elemento facilmente na visualização Código-fonte. Por exemplo, se você alterar a tag de abertura de um `p` elemento para `note`, depois o fechamento `p` é automaticamente alterada para `/note`. Caso substitua um elemento por um elemento incorreto, você verá imediatamente o Erro de validação.
+- Você também pode alterar um elemento facilmente na exibição do Source. Por exemplo, se você alterar a marca de abertura de um elemento `p` para `note`, a marca de fechamento `p` será automaticamente alterada para `/note`. Caso substitua um elemento por um elemento incorreto, você verá imediatamente o Erro de validação.
 
 - Se quiser adicionar um atributo a um elemento, coloque o cursor dentro da tag element e pressione a barra Espaço. Uma lista de atributos válidos para esse elemento é mostrada no Catálogo inteligente. Use as teclas de seta para selecionar o elemento desejado e pressione Enter para inserir o elemento. Para especificar um valor para o atributo, digite o sinal de igual \(=\) e o editor insere automaticamente as aspas de abertura e fechamento &quot; &quot;, onde você pode especificar o valor do atributo.
 
   ![](images/smart-catalog-attribute.png){width="350" align="left"}
 
-- Na visualização Código-fonte, há uma opção de Recuo automático que reorganiza o código XML no formato apresentável e facilmente legível. Além disso, se você selecionar qualquer texto e alternar da exibição Autor para Origem ou da exibição Origem para Autor, o texto selecionado também será destacado na outra exibição.
-- Outro recurso poderoso na visualização Código-fonte é a validação XML no documento. Se você abrir um documento contendo XML inválido, ele será aberto na visualização Código-fonte com as informações sobre XML inválido. Por exemplo, na captura de tela a seguir, a informação exata sobre o XML incorreto é fornecida na janela pop-up Erro de análise.
+- Na visualização Source, há uma opção de Recuo automático que reorganiza o código XML no formato apresentável e facilmente legível. Além disso, se você selecionar qualquer texto e alternar da exibição Autor para Source ou da exibição Source para Autor, o texto selecionado também será destacado na outra exibição.
+- Outro recurso poderoso na visualização Source é a validação XML no documento. Se você abrir um documento contendo XML inválido, ele será aberto na visualização Source com as informações sobre XML inválido. Por exemplo, na captura de tela a seguir, a informação exata sobre o XML incorreto é fornecida na janela pop-up Erro de análise.
 
   ![](images/invalid-topic-xml.png){width="650" align="left"}
 
   Na captura de tela acima, um destaque cruzado é usado para apontar a linha que contém XML incorreto.
 
-- O recurso Localizar e substituir permite procurar qualquer texto, elemento ou atributo na Exibição de origem.
-Para obter mais detalhes, consulte **Localizar e substituir** descrição do recurso na [Barra de ferramentas principal](web-editor-features.md#id#id2051EA0G05Z) seção.
+- O recurso Localizar e substituir permite procurar qualquer texto, elemento ou atributo na Exibição do Source.
+Para obter mais detalhes, consulte a descrição do recurso **Localizar e Substituir** na seção [Barra de ferramentas principal](web-editor-features.md#id#id2051EA0G05Z).
 
-- A Exibição de origem fornece muitos atalhos para ajudá-lo a navegar e trabalhar rapidamente em um documento. A tabela a seguir lista as ações compatíveis e suas teclas de atalho:
+- A Exibição do Source fornece muitos atalhos para ajudá-lo a navegar e trabalhar rapidamente em um documento. A tabela a seguir lista as ações compatíveis e suas teclas de atalho:
 
   | Para fazer isso | Usar este atalho |
   |----------|-----------------|
   | Adicionar vários cursores | **Ctrl**+Clique com o botão esquerdo |
-  | Várias seleções de texto não consecutivas | **Ctrl**+Clique com o botão esquerdo para arrastar e selecionar o texto |
-  | Selecionar texto entre e entre linhas | **Alt**+Clique com o botão esquerdo para arrastar e selecionar o texto |
+  | Várias seleções de texto não consecutivas | **Ctrl**+Clique com o botão esquerdo para arrastar e selecionar texto |
+  | Selecionar texto entre e entre linhas | **Alt**+Clique com o botão esquerdo do mouse para arrastar e selecionar texto |
   | Desfazer seleção múltipla ou sair do modo de tela cheia | **Esc** |
   | Mostrar preenchimento automático | **Ctrl**+**Espaço** |
   | Ir para a tag de abertura ou fechamento da tag atual | **Ctrl**+**J** |
@@ -61,16 +61,16 @@ Para obter mais detalhes, consulte **Localizar e substituir** descrição do rec
   | Selecionar o elemento atual e seu conteúdo | **Ctrl**+**L** |
   | Recuar para a esquerda o elemento atual | **Shift**+**Guia** |
   | Excluir o elemento atual e seu conteúdo | **Shift**+**Ctrl**+**K** |
-  | Mover o cursor uma palavra para a esquerda | **Alt**+**Seta para a esquerda** |
-  | Mover o cursor uma palavra para a direita | **Alt**+**Seta para a direita** |
-  | Rolar uma linha para cima sem alterar a localização do cursor | **Ctrl**+**Seta para cima** |
-  | Rolar uma linha para baixo sem alterar a localização do cursor | **Ctrl**+**Seta para baixo** |
+  | Mover o cursor uma palavra para a esquerda | **Alt**+**Seta para a Esquerda** |
+  | Mover o cursor uma palavra para a direita | **Alt**+**Seta para a Direita** |
+  | Rolar uma linha para cima sem alterar a localização do cursor | **Ctrl**+**Seta para Cima** |
+  | Rolar uma linha para baixo sem alterar a localização do cursor | **Ctrl**+**Seta para Baixo** |
   | Alternar tela inteira | **F11** |
   | Inserir uma nova linha após o elemento atual | **Ctrl**+**Enter** |
   | Inserir uma nova linha antes do elemento atual | **Shift**+**Ctrl**+**Enter** |
   | Localizar e selecionar a próxima ocorrência da palavra atual | **Ctrl**+**D** |
-  | Mover o elemento atual e seu conteúdo um elemento para cima | **Shift**+**Ctrl**+**Seta para cima** |
-  | Mover o elemento atual e seu conteúdo um elemento para baixo | **Shift**+**Ctrl**+**Seta para baixo** |
+  | Mover o elemento atual e seu conteúdo um elemento para cima | **Shift**+**Ctrl**+**Seta para Cima** |
+  | Mover o elemento atual e seu conteúdo um elemento para baixo | **Shift**+**Ctrl**+**Seta para Baixo** |
   | Envolver o elemento atual na tag de comentário | **Ctrl**+**/** |
   | Duplicar o elemento atual e seu conteúdo | **Shift**+**Ctrl**+**D** |
   | Excluir o texto após o cursor. Se o cursor estiver antes de um elemento de abertura, o elemento inteiro será excluído. | **Ctrl**+**K**+**K** |
@@ -78,8 +78,8 @@ Para obter mais detalhes, consulte **Localizar e substituir** descrição do rec
   | Converter o texto atual em maiúsculas | **Ctrl**+**K**+**U** |
   | Converter o texto atual em minúsculas | **Ctrl**+**K**+**L** |
   | Rolar o elemento atual para o centro do editor | **Ctrl**+**K**+**C** |
-  | Adicionar um cursor acima da posição atual | **Ctrl**+**Alt**+**Seta para cima** |
-  | Adicionar um cursor abaixo da posição atual | **Ctrl**+**Alt**+**Seta para baixo** |
+  | Adicionar um cursor acima da posição atual | **Ctrl**+**Alt**+**Seta para Cima** |
+  | Adicionar um cursor abaixo da posição atual | **Ctrl**+**Alt**+**Seta para Baixo** |
   | Localizar recursivamente a palavra atual \(na direção anterior\) | **Ctrl**+**F3** |
   | Localizar recursivamente a palavra atual \(na direção inversa\) | **Shift**+**Ctrl**+**F3** |
 
@@ -98,7 +98,7 @@ O modo de Visualização oferece as seguintes funcionalidades:
 
 Se você tiver usado condições em seu tópico ou mapa, essas condições serão mostradas no painel Filtros. Por padrão, todas as condições são selecionadas e todo o conteúdo é exibido. Se você desmarcar uma condição, o conteúdo que tem essa condição será removido da visualização. Você também pode optar por destacar conteúdo condicional.
 
-A imagem a seguir mostra um tópico que usa duas condições: `Audience` e `Product`. O conteúdo condicional é realçado com o plano de fundo amarelo.
+A imagem a seguir mostra um tópico que usa duas condições — `Audience` e `Product`. O conteúdo condicional é realçado com o plano de fundo amarelo.
 
 ![](images/preview-filters.png){width="800" align="left"}
 
@@ -108,11 +108,11 @@ Se um documento contiver marcas de alteração de faixa \(ou dicas visuais\), vo
 
 ![](images/preview-tracking_cs.png){width="400" align="left"}
 
-Há três **Rastreamento** opções que você pode escolher:
+Há três opções de **Rastreamento** que você pode escolher:
 
-- **Sem Marcação**: Nesta exibição, todas as inserções e exclusões são aceitas, e uma exibição simples do documento é apresentada. Nesta exibição, você não verá marcações de alterações de rastreamento.
-- **Original**: nessa exibição, todas as inserções são rejeitadas, todas as exclusões são restauradas e uma visualização é exibida. Basta obter a forma original do documento antes de ativar o modo de controle de alterações.
-- **Mostrar Marcação**: nessa visualização, você obtém todas as marcações para conteúdo inserido e excluído.
+- **Sem Marcação**: nesta exibição, todas as inserções e exclusões são aceitas, e uma exibição simples do documento é apresentada. Nesta exibição, você não verá marcações de alterações de rastreamento.
+- **Original**: neste modo de exibição, todas as inserções são rejeitadas e todas as exclusões são restauradas novamente, e uma visualização é mostrada. Basta obter a forma original do documento antes de ativar o modo de controle de alterações.
+- **Mostrar Marcação**: nesta exibição, você obtém todas as marcações para conteúdo inserido e excluído.
 
   A imagem a seguir mostra a pré-visualização de um arquivo de mapa com marcações:
 
@@ -121,7 +121,7 @@ Há três **Rastreamento** opções que você pode escolher:
 
 ### Exportar um tópico como PDF {#id2114BL00B5U}
 
-O PDF é um dos formatos de saída mais comuns usado em todos os estágios possíveis do ciclo de desenvolvimento de documentos. O Guia AEM oferece a flexibilidade de gerar o PDF de um tópico individual ou um arquivo de mapa inteiro. O recurso Exportar como PDF permite que o Autor, Editor ou Administrador gerem facilmente a saída em PDF para um tópico individual. Ele usa as configurações DITA-OT salvas no perfil de nível de pasta para gerar o PDF.
+O PDF é um dos formatos de saída mais comuns usado em todos os estágios possíveis do ciclo de desenvolvimento de documentos. O AEM Guides oferece a flexibilidade de gerar o PDF de um tópico individual ou um arquivo de mapa inteiro. O recurso Exportar como PDF permite que o Autor, Editor ou Administrador gerem facilmente a saída em PDF para um tópico individual. Ele usa as configurações DITA-OT salvas no perfil de nível de pasta para gerar o PDF.
 
 Esse recurso oferece suporte às seguintes funcionalidades:
 
@@ -134,13 +134,13 @@ Para exportar um tópico como PDF, siga estas etapas:
 
 1. Abra o tópico no modo Visualização.
 
-1. Clique em **Exportar como PDF** \(![](images/export-as-pdf-icon.svg)\) ícone.
+1. Clique no ícone **Exportar como PDF** \(![](images/export-as-pdf-icon.svg)\).
 
    A caixa de diálogo Exportar como PDF é exibida.
 
    ![](images/export-as-pdf-dialog.png){width="350" align="left"}
 
-1. *\(Opcional\)* Especifique o nome da transformação DITA-OT e quaisquer argumentos de linha de comando que você deseja usar.
+1. *\(Opcional\)* Especifique o nome da transformação DITA-OT e os argumentos de linha de comando que deseja usar.
 
 1. Clique em **Baixar**.
 
@@ -151,4 +151,4 @@ Para exportar um tópico como PDF, siga estas etapas:
    O PDF é gerado e aberto em uma nova guia ou você verá uma caixa de diálogo para salvar o PDF em seu sistema local.
 
 
-**Tópico pai:**[ Trabalhar com o editor da Web](web-editor.md)
+**Tópico pai:**[ Trabalhar com o Editor da Web](web-editor.md)

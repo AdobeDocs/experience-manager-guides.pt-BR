@@ -17,7 +17,7 @@ As organizações devem usar teclas nos casos em que têm algum texto reutilizá
 
 ## Etapa 1: criar um mapa global para armazenar suas chaves
 
-Crie um mapa e adicione o [!UICONTROL keyref] elemento a ele.
+Crie um mapa e adicione o elemento [!UICONTROL keyref] a ele.
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -37,7 +37,7 @@ Crie um mapa e adicione o [!UICONTROL keyref] elemento a ele.
 </map>
 ```
 
-Aqui você definiu duas definições, conforme mostrado acima, fornecendo uma [!UICONTROL keyref] as _AEM_ para o _Adobe Experience Manager_ texto.
+Aqui você definiu duas definições, conforme mostrado acima, e forneceu uma [!UICONTROL keyref] como _AEM_ para o texto _Adobe Experience Manager_.
 
 ## Etapa 2: adicionar este mapa ao mapa de publicação
 
@@ -55,10 +55,10 @@ Aqui você definiu duas definições, conforme mostrado acima, fornecendo uma [!
 
 ## Etapa 3: usar as chaves para se referir às variáveis definidas no mapa de chaves global
 
-+ Edite o tópico e adicione o valor da chave usando o [!UICONTROL keyref].
++ Edite o tópico e adicione o valor da chave usando a [!UICONTROL keyref].
 + Como mostrado na captura de tela, uma pequena janela aparecerá de onde as palavras-chave podem ser escolhidas. Isso será exibido quando você adicionar o elemento &quot;palavra-chave&quot;.
-  ![Inserir elemento](assets/insert_element.png)
-  ![Ref Chave](assets/key_ref.png)
+  ![Inserir Elemento](assets/insert_element.png)
+  ![Ref. Chave](assets/key_ref.png)
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>

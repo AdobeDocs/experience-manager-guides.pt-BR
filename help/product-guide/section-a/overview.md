@@ -1,6 +1,6 @@
 ---
 title: Visão geral
-description: Visão geral dos Guias do Experience Manager AEM.
+description: Visão geral do Experience Manager AEM Guides.
 source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
 workflow-type: tm+mt
 source-wordcount: '37'

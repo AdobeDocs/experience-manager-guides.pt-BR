@@ -1,6 +1,6 @@
 ---
 title: Gerar saída para um mapa DITA a partir do console de mapas
-description: Gere saída para um mapa DITA a partir do console de mapas nos Guias AEM. Saiba mais sobre a geração de saída incremental e como visualizar o status, cancelar e excluir uma tarefa de saída.
+description: Gere a saída para um mapa DITA no console de mapas no AEM Guides. Saiba mais sobre a geração de saída incremental e como visualizar o status, cancelar e excluir uma tarefa de saída.
 exl-id: d6cbd44c-e74c-4192-bcc4-fb7752c59508
 feature: Publishing
 role: User
@@ -25,7 +25,7 @@ Execute as seguintes etapas para gerar saída para um mapa DITA:
 
    >[!NOTE]
    >
-   > Se estiver gerando a saída do site AEM, o processo de publicação usará a estrutura definida na variável `.ditamap` arquivo para criar a estrutura do site AEM.
+   > Se você estiver gerando a saída do site AEM, o processo de publicação usará a estrutura definida no arquivo `.ditamap` para criar a estrutura do site AEM.
 
 1. Clique no ícone Generate para iniciar o processo de geração de saída.
 
@@ -38,15 +38,15 @@ Você pode visualizar o status atual da solicitação de geração de saída cli
 
 Você pode gerar a saída de PDF para uma ou mais predefinições de saída criadas para um mapa DITA no Editor da Web. Para obter mais detalhes, consulte [Usar o painel Geração rápida para gerar e exibir a saída das predefinições](web-editor-quick-generate-panel.md#).
 
-Você também pode gerar a saída do site AEM para um ou mais tópicos, ou o mapa DITA inteiro do Editor da Web. Para obter mais detalhes, consulte [Publicação baseada em artigos no Editor da Web](web-editor-article-publishing.md#id218CK0U019I).
+Você também pode gerar a saída do site AEM para um ou mais tópicos, ou o mapa DITA inteiro do Editor da Web. Para obter mais detalhes, consulte [Publicação baseada em artigo do Editor da Web](web-editor-article-publishing.md#id218CK0U019I).
 
 ## Geração de saída incremental {#generating_standalone_topic}
 
 >[!NOTE]
 >
-> A geração de saída incremental é aplicável somente para saída do site AEM. Além disso, você só pode regenerar tópicos DITA \(.dita/.xml\) a partir de um mapa DITA ou submapas. Se você selecionar um mapa DITA, submapa, grupo de tópicos ou um tópico com `@processing-role="resource-only"`, a opção para regenerar não estará disponível.
+> A geração de saída incremental é aplicável somente para saída do site AEM. Além disso, você só pode regenerar tópicos DITA \(.dita/.xml\) a partir de um mapa DITA ou submapas. Se você selecionar um mapa DITA, submapa, grupo de tópicos ou um tópico com `@processing-role="resource-only"`, a opção de regeneração não estará disponível.
 
-Pode haver várias instâncias em que você atualizaria apenas alguns tópicos no mapa DITA e enviaria apenas esses tópicos atualizados em tempo real. Para lidar com esses cenários, o Guia AEM permite criar saídas incrementais. Se você atualizou alguns tópicos, não é necessário gerar novamente o mapa DITA inteiro. Você pode selecionar apenas os tópicos atualizados e gerá-los novamente.
+Pode haver várias instâncias em que você atualizaria apenas alguns tópicos no mapa DITA e enviaria apenas esses tópicos atualizados em tempo real. Para lidar com esses cenários, o AEM Guides permite criar saídas incrementais. Se você atualizou alguns tópicos, não é necessário gerar novamente o mapa DITA inteiro. Você pode selecionar apenas os tópicos atualizados e gerá-los novamente.
 
 Se o mapa estiver fragmentado e você tiver atualizado um único tópico nesse mapa, será necessário gerar novamente todo o mapa para o tópico ou conteúdo atualizado para refletir na saída. A opção de regeneração de saída não é obtida em um nível de tópico. Ela só está disponível no nível de mapa \(fragmentado\). Isso é aplicável ao mapa principal e a todos os submapas.
 
@@ -60,7 +60,7 @@ Execute as seguintes etapas para gerar novamente a saída de um tópico específ
 
    O console do mapa DITA é exibido com a lista de Predefinições de saída disponíveis para gerar a saída.
 
-1. Selecione o **Temas** guia.
+1. Selecione a guia **Tópicos**.
 
    Uma lista de tópicos disponíveis no mapa DITA é exibida.
 
@@ -89,7 +89,7 @@ Você pode visualizar o status atual da solicitação de geração de saída cli
 
 ## Exibir o status da tarefa de geração de saída {#viewing_output_history}
 
-Depois de iniciar a tarefa de geração de saída para um mapa ou regenerar tópicos selecionados, o AEM Guides envia essa tarefa para a fila de geração de saída. Essa fila é atualizada em tempo real, mostrando o status de cada tarefa de geração de saída na fila.
+Depois de iniciar a tarefa de geração de saída para um mapa ou gerar novamente os tópicos selecionados, o AEM Guides envia essa tarefa para a fila de geração de saída. Essa fila é atualizada em tempo real, mostrando o status de cada tarefa de geração de saída na fila.
 
 Execute as seguintes etapas para exibir a fila de geração de saída:
 
@@ -101,19 +101,19 @@ Execute as seguintes etapas para exibir a fila de geração de saída:
 
    A página Saídas é dividida em duas partes:
 
-   - **Saídas em fila:**
+   - **Saídas na Fila:**
 
      Lista as saídas que estão aguardando para serem geradas ou que estão em processo de geração. As tarefas em fila ou em andamento são mostradas com um ícone de cor azul antes do nome predefinido. Você também pode encontrar a configuração de geração de saída ou a predefinição usada para a tarefa na fila, o tipo, o usuário que iniciou a tarefa, o tempo desde quando a tarefa está na fila e o status atual.
 
-     Clique no link para acessar a **Publicar painel** e visualize o status de execução atual. Uma lista de todas as tarefas de publicação ativas está disponível no Painel de publicação. A variável **Saídas em fila** e a variável **Publicar painel** são exibidos somente quando há saídas que estão aguardando para serem geradas ou estão em processo de geração. Eles não aparecem quando as tarefas de saída são concluídas.Para obter mais detalhes sobre o Painel de publicação, consulte [Gerenciar tarefas de publicação usando o Painel de publicação](generate-output-publish-dashboard.md#).
+     Clique no link para acessar o **Painel do Publish** e exibir o status de execução atual. Uma lista de todas as tarefas de publicação ativas está disponível no Painel do Publish. As **Saídas Enfileiradas** e o link **Painel do Publish** são exibidos somente quando há saídas que estão aguardando geração ou que estão em processo de geração. Eles não aparecem quando as tarefas de saída são concluídas.Para obter mais detalhes sobre o Painel do Publish, consulte [Gerenciar tarefas de publicação usando o Painel do Publish](generate-output-publish-dashboard.md#).
 
-   - **Saídas geradas**
+   - **Saídas Geradas**
 
      Lista as tarefas de saída concluídas. Novamente, as informações mostradas aqui são semelhantes à seção Saídas em fila, com algumas diferenças. Você tem um novo conjunto de informações na forma de ícone de resultado de saída e o tempo de geração da saída.
 
      Nesta lista, você pode ter tarefas executadas com sucesso, tarefas executadas com mensagem ou tarefas com falha. As tarefas bem-sucedidas são mostradas com ícone de cor verde, as tarefas com uma mensagem têm um ícone de cor laranja e as tarefas com falha são mostradas com ícone de cor vermelha.
 
-     Para todas as tarefas, o processo de publicação cria um arquivo de log \(logs.txt\) que pode ser acessado clicando no link na coluna Gerado em. Para tarefas que falharam ou têm mensagens, você pode verificar o arquivo de log, que é explicado na seção [Exibir e verificar o arquivo de log](generate-output-basic-troubleshooting.md#id1822G0P0CHS).
+     Para todas as tarefas, o processo de publicação cria um arquivo de log \(logs.txt\) que pode ser acessado clicando no link na coluna Gerado em. Para tarefas que falharam ou têm mensagens, você pode verificar o arquivo de log, o que é explicado na seção [Exibir e verificar o arquivo de log](generate-output-basic-troubleshooting.md#id1822G0P0CHS).
 
      >[!NOTE]
      >
@@ -122,7 +122,7 @@ Execute as seguintes etapas para exibir a fila de geração de saída:
 
 ## Cancelar uma tarefa de geração de saída {#id2061H100T5Z}
 
-O AEM Guides oferece aos editores uma maneira simples e fácil de cancelar qualquer tarefa de publicação em andamento. Como editor, você pode cancelar uma tarefa de publicação em andamento no console de mapas DITA ou no [Publicar painel](generate-output-publish-dashboard.md#).
+O AEM Guides oferece aos editores uma maneira simples e fácil de cancelar qualquer tarefa de publicação em andamento. Como editor, você pode cancelar uma tarefa de publicação em andamento no console de mapas DITA ou no [Painel do Publish](generate-output-publish-dashboard.md#).
 
 Execute as seguintes etapas para cancelar uma tarefa de geração de saída no console do mapa DITA:
 
@@ -132,7 +132,7 @@ Execute as seguintes etapas para cancelar uma tarefa de geração de saída no c
 
 1. Na lista Saídas em fila, passe o ponteiro sobre uma tarefa que você deseja cancelar.
 
-1. Clique em *Cancelar Este Trabalho* ícone.
+1. Clique no ícone *Cancelar este trabalho*.
 
    ![](images/cancel-publish-task-map-console.png){width="800" align="left"}
 
@@ -142,14 +142,14 @@ Execute as seguintes etapas para cancelar uma tarefa de geração de saída no c
 
    Se a tarefa ainda não tiver sido iniciada, o comando cancel será executado na tarefa. Para uma tarefa que está sendo cancelada, o Status é definido como Canceling.
 
-   Quando a tarefa for cancelada com êxito, ela será movida para a **Saídas geradas** lista com um **Cancelado** status. Quando você passa o mouse sobre a tarefa cancelada, ele mostra o nome do usuário que cancelou a tarefa. Na seguinte captura de tela, a variável *HTML5* tarefa cancelada.
+   Quando a tarefa for cancelada com êxito, ela será movida para a lista **Saídas Geradas** com o status **Cancelada**. Quando você passa o mouse sobre a tarefa cancelada, ele mostra o nome do usuário que cancelou a tarefa. Na captura de tela a seguir, a tarefa *HTML5* é cancelada.
 
    ![](images/cancelled-output-task.png){width="800" align="left"}
 
 
 ## Excluir uma tarefa de saída do console de mapas DITA
 
-Quando você gera várias saídas para um mapa DITA, durante um período de tempo, a lista Saídas geradas para esse mapa se torna muito longa. Como editor, você pode limpar o histórico de saída de qualquer arquivo de mapa removendo as tarefas desatualizadas do *Saídas geradas* lista. Observe que a saída não é removida do sistema, somente a entrada da saída gerada é removida do *Saídas geradas* lista.
+Quando você gera várias saídas para um mapa DITA, durante um período de tempo, a lista Saídas geradas para esse mapa se torna muito longa. Como editor, você pode limpar o histórico de saída de qualquer arquivo de mapa removendo as tarefas desatualizadas da lista *Saídas Geradas*. Observe que a saída não é removida do sistema, apenas a entrada da saída gerada é removida da lista *Saídas Geradas*.
 
 Execute as seguintes etapas para remover uma tarefa de saída da lista Saída Gerada:
 
@@ -163,7 +163,7 @@ Execute as seguintes etapas para remover uma tarefa de saída da lista Saída Ge
 
    ![](images/delete-output-task.png){width="800" align="left"}
 
-1. Clique em **Sim** no prompt de mensagem Confirmar exclusão.
+1. Clique em **Sim** no prompt da mensagem Confirmar Exclusão.
 
    A tarefa é excluída da lista Saída gerada.
 

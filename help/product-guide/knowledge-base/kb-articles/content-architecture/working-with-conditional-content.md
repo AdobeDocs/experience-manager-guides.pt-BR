@@ -1,6 +1,6 @@
 ---
 title: Trabalhar com conteúdo condicional
-description: Saiba como criar condições e configurar a geração de conteúdo condicional no [!DNL AEM Guides]
+description: Saiba como criar condições e configurar a geração de conteúdo condicional no  [!DNL AEM Guides]
 role: User
 exl-id: a86007e3-48d1-458b-84a7-b683e113e5b2
 feature: Publishing
@@ -23,21 +23,25 @@ ht-degree: 0%
 
 **Etapa 1**
 
-Defina condições relevantes para a documentação no [!UICONTROL Perfis de pasta]: Consulte a seção **Configurar atributos condicionais para perfis globais ou de nível de pasta** in [Página 69 do Guia de Instalação e Configuração](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_Installation-Configuration-Guide_EN.pdf)
+Defina as condições relevantes para a documentação em [!UICONTROL Perfis de pasta]:
+Consulte a seção **Configurar atributos condicionais para perfis globais ou de nível de pasta** na [Página 69 do Guia de Instalação e Configuração](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_Installation-Configuration-Guide_EN.pdf)
 
-![Configurar condições nos perfis de pasta](assets/conditions-in-profiles.png)
+![Configurar Condições em Perfis de Pasta](assets/conditions-in-profiles.png)
 
 **Etapa 2**
 
-Selecione o **[!UICONTROL Perfil da pasta]** definido na Etapa 1 em **Preferências do usuário** no Editor XML: consulte a seção **Preferências do usuário** in [Página 41 do Guia do usuário](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)
+Selecione o **[!UICONTROL Perfil de Pasta]** definido na Etapa 1 em **Preferências do Usuário** no Editor XML:
+Consulte a seção **Preferências do Usuário** na [Página 41 do Guia do Usuário](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)
 
 
 **Etapa 3**
 
-Usar as condições para condicionar seções de conteúdo: consulte a seção **Condições** in [Página 90 do Guia do usuário](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)
+Use as condições para condicionar seções de conteúdo:
+Consulte a seção **Condições** em [Página 90 do Guia do Usuário](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)
 
-![Usar condições no editor da Web](assets/conditions-in-web-editor.png)
+![Usar Condições no Editor da Web](assets/conditions-in-web-editor.png)
 
 **Etapa 4**
 
-Defina predefinições de condição no nível do mapa para escolher quais condições serão habilitadas na saída: consulte a seção **Usar predefinições de condição** in [Página 249 do Guia do usuário](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)
+Defina as predefinições de condição no nível do mapa para escolher quais condições serão habilitadas na saída:
+Consulte a seção **Usar predefinições de condição** em [Página 249 do Guia do Usuário](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)

@@ -33,7 +33,7 @@ ht-degree: 6%
                - [Problemas corrigidos](./release-info/fixed-issues-2024-2-0.md)
                - [Instruções de atualização](./release-info/upgrade-instructions-2024-2-0.md)
          - Versões de 2023 {#2023-releases}
-            - Versão de dezembro {#2312-release}
+            - Versão de dezembro de {#2312-release}
                - [Novidades](./release-info/whats-new-2023-12-0.md)
                - [Notas de versão](./release-info/release-notes-2023-12-0.md)
             - Versão de novembro {#2311-release}
@@ -71,7 +71,7 @@ ht-degree: 6%
             - [Notas de versão de fevereiro](./release-info/release-notes-2022-2-0.md)
             - [Notas de versão de janeiro](./release-info/release-notes-2022-1-0.md)
       - No local/Managed Services {#on-prem-release-notes}
-         - [[!DNL AEM Guides] versões](./release-info/latest-release-info.md)
+         - [Versões de [!DNL AEM Guides]](./release-info/latest-release-info.md)
          - Versão 4.4.0 {#440-release}
             - [Novidades](./release-info/whats-new-4-4.md)
             - [Problemas corrigidos](./release-info/fixed-issues-4-4.md)
@@ -94,21 +94,21 @@ ht-degree: 6%
                - [Notas de versão 4.2.1](./release-info/release-notes-4-2-1.md)
                - [Notas de versão 4.2](./release-info/release-notes-4-2.md)
          - [Notas de versão 4.1.x](./release-info/release-notes-4-1.md)
-         - [Notas de versão 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [Notas de versão do 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
-- Guia do usuário {#user-guide}
+         - [Notas de versão do 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [Notas de versão da 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+- Guia do Usuário {#user-guide}
 
    - Introdução {#about-aem-guide}
       - [Sobre [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
-      - [!DNL AEM Guides] funcionamento e principais recursos {#aemg-works-features}
+      - [!DNL AEM Guides] trabalhando e recursos principais {#aemg-works-features}
          - [Como [!DNL AEM Guides] funciona](./user-guide/intro-how-dxml-works.md)
-         - [Chave [!DNL AEM Guides] recursos](./user-guide/intro-dxml-features.md)
+         - [Recursos da chave [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
    - Gerenciar conteúdo {#manage-content}
       - [Principais conceitos, funções e permissões e pré-requisitos](./user-guide/authoring.md)
       - [Fazer upload de arquivos](./user-guide/authoring-upload-existing-files.md)
       - [Gerenciar arquivos e pastas](./user-guide/authoring-file-management.md)
       - [Baixar arquivos](./user-guide/authoring-download-assets.md)
-   - Conteúdo do autor {#author-content}
+   - Conteúdo do Autor {#author-content}
 
       - [Visão geral de criação](./user-guide/authoring-content.md)
       - Criação e visualização do tópico {#create-preview-topics}
@@ -155,7 +155,7 @@ ht-degree: 6%
             - Editor DITAVAL {#ditaval-editor}
                - [Trabalhar com o editor DITAVAL](./user-guide/ditaval-editor.md)
 
-         - Ferramentas de desktop para criação de conteúdo {#author-using-desktop-tools}
+         - Ferramentas de área de trabalho para criação de conteúdo {#author-using-desktop-tools}
             - [Criar conteúdo usando ferramentas de desktop](./user-guide/author-desktop-tools.md)
             - [Trabalhar com o FrameMaker](./user-guide/author-desktop-framemaker.md)
             - [Trabalhar com oxigênio](./user-guide/author-desktop-oxygen.md)
@@ -165,7 +165,7 @@ ht-degree: 6%
       - [Criar um projeto DITA](./user-guide/authoring-create-dita-project.md)
       - [Enviar tópicos para revisão](./user-guide/review-send-topics-for-review.md)
       - [Reatribuir tarefa de revisão usando notificação](./user-guide/reassign-review-using-notification.md)
-      - Análise de tópico {#review-topics}
+      - Revisão de tópico {#review-topics}
          - [Revisar tópicos](./user-guide/review-topics.md)
          - [Comentários de revisão de endereço](./user-guide/review-address-review-comments.md)
       - [Gerenciar tarefas de revisão usando o Painel de revisão](./user-guide/review-manage-tasks-review-dashboard.md)
@@ -199,22 +199,22 @@ ht-degree: 6%
       - [Trabalhar com linha de base](./user-guide/generate-output-use-baseline-for-publishing.md)
       - [Gerar saída para um mapa DITA a partir do console de mapas](./user-guide/generate-output-for-a-dita-map.md)
       - [Usar coleção de mapas para geração de saída](./user-guide/generate-output-use-map-collection-output-generation.md)
-      - Usar recurso de publicação de PDF nativo {#web-editor}
+      - Usar recurso de publicação PDF nativo {#web-editor}
          - [Saída de PDF do Publish](./web-editor/native-pdf-web-editor.md)
          - [Configurar caracteres especiais adicionais](./web-editor/configure-additional-special-characters.md)
       - [Gerenciar tarefas de publicação usando o Painel do Publish](./user-guide/generate-output-publish-dashboard.md)
       - [Solução básica de problemas](./user-guide/generate-output-basic-troubleshooting.md)
       - [Fragmentos de conteúdo do Publish](./user-guide/publish-content-fragment.md)
       - [Fragmentos de experiência do Publish](./user-guide/publish-experience-fragment.md)
-      - Ativação em massa de conteúdo {#bulk-activation}
+      - Ativação em massa do conteúdo {#bulk-activation}
          - [Ativação em massa de conteúdo publicado](./user-guide/conf-bulk-activation.md)
          - [Criar uma coleção de mapas de ativação em massa](./user-guide/conf-bulk-activation-create-map-collection.md)
          - [Ativar saída](./user-guide/conf-bulk-activation-publish-map-collection.md)
          - [Editar uma coleção de mapas de ativação em massa](./user-guide/conf-bulk-activation-edit-map-collection.md)
          - [Excluir uma coleção de mapas de ativação em massa](./user-guide/conf-bulk-activation-delete-map-collection.md)
-   - Geração de saída de documentos do FrameMaker {#generate-fm-output}
+   - Geração de saída de Documentos de FrameMaker {#generate-fm-output}
       - [Gerar saída de documentos de FrameMaker](./user-guide/fm-output-generatation.md)
-      - Predefinições suportadas {#fm-docs-generating-presets}
+      - Predefinições com suporte {#fm-docs-generating-presets}
          - [Predefinições para gerar documentos do FrameMaker](./user-guide/fm-output-understand-presets.md)
          - [PDF](./user-guide/fm-output-pdf-preset.md)
          - [HTML 5](./user-guide/fm-output-html5-preset.md)
@@ -260,11 +260,11 @@ ht-degree: 6%
       - [Configurar nomes de arquivo automáticos com base no UUID](./install-guide/conf-auto-uuid-filenames.md)
       - [Configurar Regx para caracteres válidos de nome de arquivo](./install-guide/conf-file-names-valid-regx.md)
       - [Configurar nomes de arquivo válidos para saída do site AEM](./install-guide/conf-file-names-valid-regx-aem-site-output.md)
-      - Trabalhar com modelos de tópico e mapa {#topic-map-template}
+      - Trabalhar com tópico e modelos de mapa {#topic-map-template}
          - [Configurar tópico e modelos de mapa](./install-guide/conf-template-tags.md)
          - [Configurar modelo de tópico DITA personalizado](./install-guide/conf-template-tags-custom-dita-topic-template.md)
          - [Configurar modelo de mapa DITA personalizado](./install-guide/conf-template-tags-custom-dita-map-templates.md)
-      - Trabalhar com estados de documentos {#doc-state}
+      - Trabalhar com estados de documento {#doc-state}
          - [Configurar estados dos documentos](./install-guide/customize-doc-state.md)
       - Trabalhar com as configurações do Editor da Web {#web-editor-configs}
          - [Personalizar editor da Web](./install-guide/conf-web-editor.md)
@@ -297,7 +297,7 @@ ht-degree: 6%
          - [Integrar editores de XML baseados em desktop](./install-guide/integrate-desktop-editors.md)
       - Trabalhar com configurações de geração de saída {#output-gen-config}
          - [Definir configurações de geração de saída](./install-guide/conf-output-generation.md)
-         - Publicação de PDF nativo {#config-native-pdf-publish}
+         - Publicação PDF Nativa {#config-native-pdf-publish}
             - [Modelo PDF](./native-pdf/pdf-template.md)
             - [Componentes de um modelo de PDF](./native-pdf/components-pdf-template.md)
             - [Criar um layout de página](./native-pdf/design-page-layout.md)
@@ -309,7 +309,7 @@ ht-degree: 6%
                - [Trabalhar com estilos de barras de alteração personalizados](./native-pdf/change-bar-style.md)
                - [Aplicar estilo personalizado em entradas de índice e conteúdo de tópico](./native-pdf/custom-style-toc.md)
                - [Adicionar um marcador personalizado na saída do PDF](./native-pdf/add-custom-bookmark.md)
-               - [Usar JavaScript para trabalhar com conteúdo ou estilo](./native-pdf/use-javascript-content-style.md)
+               - [Usar o JavaScript para trabalhar com conteúdo ou estilo](./native-pdf/use-javascript-content-style.md)
                - [Aplicar estilos a notas de rodapé](./native-pdf/footnote-number-style.md)
          - [Configurar sinalizadores JVM para publicação de PDF nativo](./native-pdf/configure-jvm-flags.md)
          - Trabalhar com fluxos de trabalho personalizados {#custom-workflow}
@@ -321,7 +321,7 @@ ht-degree: 6%
       - [Apêndice](./install-guide/appendix.md)
    - Cloud Services {#cs-ig}
       - [Sobre este guia](./cs-install-guide/introduction.md)
-      - Implantar e configurar o AEM Guides como Cloud Service {#deploy-conf-aemg-cs}
+      - Implante e configure o AEM Guides como Cloud Service {#deploy-conf-aemg-cs}
          - [Baixar e instalar](./cs-install-guide/download-install.md)
          - [Implantar módulo do AEM Guides](./cs-install-guide/download-install-dxml-first-time.md)
          - [Configurar Dispatcher](./cs-install-guide/download-install-configure-dispatcher.md)
@@ -343,11 +343,11 @@ ht-degree: 6%
          - [Configurar nomes de arquivo automáticos com base no UUID](./cs-install-guide/conf-auto-uuid-filenames.md)
          - [Configurar Regx para caracteres válidos de nome de arquivo](./cs-install-guide/conf-file-names-valid-regx.md)
          - [Configurar nomes de arquivo válidos para saída do site AEM](./cs-install-guide/conf-file-names-valid-regx-aem-site-output.md)
-      - Trabalhar com modelos de tópico e mapa {#topic-map-template-cs}
+      - Trabalhar com tópico e modelos de mapa {#topic-map-template-cs}
          - [Configurar tópico e modelos de mapa](./cs-install-guide/conf-template-tags.md)
          - [Configurar modelo de tópico DITA personalizado](./cs-install-guide/conf-template-tags-custom-dita-topic-template.md)
          - [Configurar modelo de mapa DITA personalizado](./cs-install-guide/conf-template-tags-custom-dita-map-templates.md)
-      - Trabalhar com estados de documentos {#doc-state-cs}
+      - Trabalhar com estados de documento {#doc-state-cs}
          - [Configurar estados dos documentos](./cs-install-guide/customize-doc-state.md)
       - Trabalhar com as configurações do Editor da Web {#web-editor-configs-cs}
          - [Personalizar editor da Web](./cs-install-guide/conf-web-editor.md)
@@ -406,7 +406,7 @@ ht-degree: 6%
    - [Manipulador de eventos de processamento Post](./api-reference/post-process-event.md)
    - [Manipulador de eventos de ativação em massa concluída](./api-reference/bulk-activation-complete-event.md)
    - [Manipulador de eventos do processo de conversão](./api-reference/conversion-complete-event.md)
-- Knowledge base {#knowledge-base}
+- Base de Dados de Conhecimento {#knowledge-base}
 
    - Sessão com especialista {#expert-session}
       - [Visão geral da sessão com especialistas](./knowledge-base/expert-sessions/expert-session.md)
@@ -428,17 +428,17 @@ ht-degree: 6%
       - Criação {#authoring}
          - Editor da Web {#webeditor}
             - [Reutilização de conteúdo no AEM Guides](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
-            - Personalização {#customizing}
+            - Personalizando {#customizing}
                - [Adicionar botão personalizado à barra de ferramentas](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
                - [Adicionar estilos personalizados ao Editor da Web](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
                - [Personalizar menu de contexto da pasta](./knowledge-base/kb-articles/authoring/webeditor/customization/hide-create-ditamap-webeditor.md)
                - [Personalizar Menu de Contexto do Arquivo](./knowledge-base/kb-articles/authoring/webeditor/customization/remove-delete-from-webeditor.md)
-            - Schematron {#schematron}
+            - Esquematron {#schematron}
                - [Validação do esquema](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
          - Relatórios {#reports}
             - [Gerenciar metadados para seu conteúdo DITA](./knowledge-base/kb-articles/authoring/reports/manage-metadata.md)
          - [Definir ícone para tipos de lista personalizada](./knowledge-base/kb-articles/authoring/define-icon-for-custom-ditatypes.md)
-      - Estrutura de extensão do Guides {#extention-framework}
+      - Estrutura de extensão de guias {#extention-framework}
          - Estrutura Do Aem Guides {#aem-guides-framework}
             - [Personalizações básicas](./guides-ui-extensions/aem_guides_framework/basic-customisation.md)
             - [Estrutura JUI](./guides-ui-extensions/aem_guides_framework/jui-framework.md)

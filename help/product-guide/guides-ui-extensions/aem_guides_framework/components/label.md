@@ -1,18 +1,19 @@
 ---
-title: Etiqueta
-description: Etiqueta
+title: Rótulo
+description: Rótulo
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: aceefb08-3198-4c3a-90ec-ac1cdde28582
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '46'
 ht-degree: 6%
 
 ---
 
-# Etiqueta
+# Rótulo
 
 Para exibir qualquer texto ou string, usamos o componente, rótulo.
-O componente de rótulo na JUI representa um html `<label/>`.
+O componente de rótulo na IU representa um html `<label/>`.
 
 Veja abaixo um exemplo de adição de rótulo estático
 

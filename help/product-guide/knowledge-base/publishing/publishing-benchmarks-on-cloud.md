@@ -11,23 +11,23 @@ ht-degree: 8%
 
 ---
 
-# Guias do AEM publicam benchmarks no AEMaaCS
+# Benchmarks de publicação do AEM Guides no AEMaaCS
 
-Atualmente, o serviço em nuvem AEM Guides tem alguns limites de tamanhos de mapa de publicação para os quais a equipe do Guides está trabalhando ativamente para resolver.
+Atualmente, o AEM Guides Cloud Service tem alguns limites de tamanhos de mapa de publicação para os quais a equipe do Guides está trabalhando ativamente.
 
-A equipe do Guides apresentou um microsserviço de publicação escalável para oferecer suporte a mapas grandes e várias publicações simultâneas. Para saber mais sobre o novo microsserviço de publicação, consulte [arquitetura de microsserviço de publicação](publish-microservice-architecture-and-performance.md)
+A equipe do Guides apresentou um microsserviço de publicação escalável para oferecer suporte a mapas grandes e várias publicações simultâneas. Para saber mais sobre o novo microsserviço de publicação, consulte [arquitetura do microsserviço de publicação](publish-microservice-architecture-and-performance.md)
 
-Para configurar o novo serviço de publicação para qualquer ambiente de nuvem AEM, consulte [configurar nova publicação baseada em microsserviços](configure-microservices.md)
+Para configurar o novo serviço de publicação para qualquer ambiente de nuvem AEM, consulte [configurar nova publicação baseada em microsserviço](configure-microservices.md)
 
 
 ## Ambiente de execução
 
     Versão do AEM: 2023.5.11983.20230511T173830Z
-    Suplemento do guia versão: 2023.6.0
-    Modelo de site do AEM: modelo OOTB dos guias do AEM
+    Versão do Guia Complementar: 2023.6.0
+    Modelo de Site do AEM: Modelo de OOTB do AEM Guides
     Versão do DITA-OT: 3.5.4
-    Tipo de fluxo de trabalho de publicação: dividir fluxo de trabalho de publicação
-    Saída compatível com microsserviço: PDF nativo, PDF (Dita-OT)
+    Tipo de Fluxo de Trabalho do Publish: Fluxo de Trabalho do Publish Dividido
+    Saída suportada pelo microsserviço: PDF nativo, PDF (Dita-OT){6
 
 ## Números de Geração de Saída
 

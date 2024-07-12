@@ -1,6 +1,6 @@
 ---
 title: Requisitos técnicos
-description: Conheça os requisitos técnicos para trabalhar com os Guias do Adobe Experience Manager
+description: Conheça os requisitos técnicos para trabalhar com o Adobe Experience Manager Guides
 exl-id: d69245b0-bf20-43c1-b46e-b6c220319690
 feature: Introduction, Installation
 role: Admin
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Requisitos técnicos {#id213BCG003XA}
 
-Antes de instalar o AEM Guides 4.4, verifique se o seu sistema atende aos seguintes requisitos técnicos:
+Antes de instalar o AEM Guides 4.4, verifique se o sistema atende aos seguintes requisitos técnicos:
 
 **Adobe Experience Manager**
 
@@ -22,7 +22,7 @@ Antes de instalar o AEM Guides 4.4, verifique se o seu sistema atende aos seguin
 
 >[!IMPORTANT]
 >
-> Para a geração de saída do site AEM, a instância de publicação AEM deve ter o Service Pack 20, 19, 18 ou 17.
+> Para a geração de saída do site AEM, a instância de publicação do AEM deve ter o Service Pack 20, 19, 18 ou 17.
 
 **Sistemas operacionais**
 

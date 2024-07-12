@@ -14,9 +14,9 @@ ht-degree: 1%
 
 # Configurar pesquisa para a interface do usuário do AEM Assets {#id192SC800MY4}
 
-Por padrão, o AEM não reconhece o conteúdo DITA e, portanto, não fornece nenhum mecanismo para pesquisar conteúdo DITA em seu repositório. Guias de AEM permitem adicionar o recurso de pesquisa de conteúdo DITA no repositório AEM.
+Por padrão, o AEM não reconhece o conteúdo DITA e, portanto, não fornece nenhum mecanismo para pesquisar conteúdo DITA em seu repositório. O AEM Guides permite adicionar o recurso de pesquisa de conteúdo DITA no repositório AEM.
 
-Por padrão, o AEM não reconhece o conteúdo DITA e, portanto, não fornece nenhum mecanismo para pesquisar conteúdo DITA em seu repositório. Além disso, não há recurso de OOTB para pesquisar conteúdo com base em sua UUID. Guias de AEM permitem adicionar os recursos de pesquisa de conteúdo DITA e pesquisa baseada em UUID no repositório AEM.
+Por padrão, o AEM não reconhece o conteúdo DITA e, portanto, não fornece nenhum mecanismo para pesquisar conteúdo DITA em seu repositório. Além disso, não há recurso de OOTB para pesquisar conteúdo com base em sua UUID. O AEM Guides permite adicionar os recursos de pesquisa de conteúdo DITA e pesquisa baseada em UUID no repositório AEM.
 
 A configuração da pesquisa de conteúdo DITA envolve as seguintes tarefas:
 
@@ -34,22 +34,22 @@ Execute o seguinte para adicionar o componente de pesquisa de conteúdo DITA na 
 
 1. Faça logon no Adobe Experience Manager como administrador.
 
-1. Clique no link **Adobe Experience Manager** vincule na parte superior e escolha **Ferramentas**.
+1. Clique no link **Adobe Experience Manager** na parte superior e escolha **Ferramentas**.
 
-1. Selecionar **Geral** na lista de ferramentas e clique no link **Pesquisar no Forms** bloco.
+1. Selecione **Geral** na lista de ferramentas e clique no bloco **Pesquisar Forms**.
 
-1. No **Pesquisar no Forms** , selecione a **Trilho de pesquisa do administrador de ativos**.
+1. Na lista **Pesquisar Forms**, selecione o **Painel de Pesquisa do Administrador do Assets**.
 
 1. Clique em **Editar**.
-1. No **Selecionar predicado** , role até o final da lista.
+1. Na guia **Selecionar predicado**, navegue até o final da lista.
 
-1. Arrastar e soltar **Predicado do elemento DITA** no local necessário no formulário de pesquisa.
+1. Arraste e solte o **Predicado do elemento DITA** no local necessário no formulário de pesquisa.
 
    ![](assets/drag-search-predicate.png){width="650" align="left"}
 
-1. Clique em **Concluído** para salvar as alterações.
+1. Clique em **Concluído** para salvar suas alterações.
 
-   Ao acessar a opção Filtros na interface do usuário do Assets, você obterá a opção de filtragem de pesquisa Elemento DITA.
+   Ao acessar a opção Filtros na interface do usuário do Assets, você terá a opção de filtragem de pesquisa Elemento DITA.
 
    ![](assets/search-filter-asset-console.png){width="350" align="left"}
 
@@ -60,20 +60,20 @@ Execute o seguinte para adicionar o componente de pesquisa baseada em UUID na in
 
 1. Faça logon no Adobe Experience Manager como administrador.
 
-1. Clique no link **Adobe Experience Manager** vincule na parte superior e escolha **Ferramentas**.
+1. Clique no link **Adobe Experience Manager** na parte superior e escolha **Ferramentas**.
 
-1. Selecionar **Geral** na lista de ferramentas e clique no link **Pesquisar no Forms** bloco.
+1. Selecione **Geral** na lista de ferramentas e clique no bloco **Pesquisar Forms**.
 
-1. No **Pesquisar no Forms** , selecione a **Trilho de pesquisa do administrador de ativos**.
+1. Na lista **Pesquisar Forms**, selecione o **Painel de Pesquisa do Administrador do Assets**.
 
 1. Clique em **Editar**.
-1. No **Selecionar predicado** escolha **Predicado da propriedade** e arraste-o e solte-o no local desejado no formulário de pesquisa.
+1. Na guia **Selecionar predicado**, escolha **Predicado da propriedade** e arraste-o e solte-o no local necessário no formulário de pesquisa.
 
-1. No **Configurações** , forneça os seguintes detalhes para o novo **Predicado da propriedade** componente:
+1. Na guia **Configurações**, forneça os seguintes detalhes para o componente **Predicado da Propriedade** recém-adicionado:
 
    - **Rótulo do campo**: UUID
    - **Nome da propriedade**: jcr:content/fmUuid
-1. Clique em **Concluído** para salvar as alterações.
+1. Clique em **Concluído** para salvar suas alterações.
 
    Ao acessar a opção Filtros na interface do usuário do Assets, você terá a opção de filtragem de pesquisa baseada em UIS.
 
@@ -88,19 +88,19 @@ Execute as seguintes etapas para fornecer acesso ao recurso Pesquisa DITA:
 
    `http://<server name>:<port>/useradmin.html`
 
-1. Procure o grupo de usuários ou um usuário individual ao qual você deseja conceder acesso. Por exemplo, para conceder acesso a todos os usuários no grupo de autores, insira autores no campo **Filtrar consulta** e pressione **Enter**.
+1. Procure o grupo de usuários ou um usuário individual ao qual você deseja conceder acesso. Por exemplo, para conceder acesso a todos os usuários no grupo de autores, insira os autores no campo **Consulta de filtro** e pressione **Enter**.
 
    ![](assets/authors-group-permission.png){width="350" align="left"}
 
-1. Selecione o **autores** grupo.
+1. Selecione o grupo **autores**.
 
-1. No painel direito, selecione a opção **Permissões** guia.
+1. No painel direito, selecione a guia **Permissões**.
 
 1. Navegue até o seguinte local da pasta:
 
    /conf/global/settings/dam/search
 
-1. Dê a **Ler** permissão na pasta de pesquisa.
+1. Conceda a permissão **Ler** na pasta de pesquisa.
 
    ![](assets/read-permission-authors.png){width="650" align="left"}
 
@@ -115,11 +115,11 @@ Para que a pesquisa DITA funcione, é necessário algum pré-processamento do co
 
 /libs/fmdita/config/serializationconfig.xml
 
-A configuração de pesquisa padrão permite procurar todos os elementos e atributos no DITA `prolog` elemento. Se quiser pesquisar com base em outros elementos ou atributos, será necessário configurar o arquivo de serialização de pesquisa.
+A configuração de pesquisa padrão permite procurar todos os elementos e atributos dentro do elemento `prolog` DITA. Se quiser pesquisar com base em outros elementos ou atributos, será necessário configurar o arquivo de serialização de pesquisa.
 
 >[!NOTE]
 >
-> Se você quiser usar a configuração de pesquisa padrão na variável `prolog` elemento, você poderá ignorar esse processo.
+> Se você quiser ir com a configuração de pesquisa padrão dentro do elemento `prolog`, ignore esse processo.
 
 Esse arquivo contém duas seções principais: conjunto de atributos e conjunto de regras. Um trecho da seção do conjunto de regras é fornecido abaixo:
 
@@ -136,9 +136,10 @@ Na seção do conjunto de regras, você pode especificar:
 
 Uma regra consiste no seguinte:
 
-xpath : esta é a consulta XPath que recupera os elementos ou atributos de arquivos DITA. A configuração padrão para a regra de elemento recupera todas `prolog` elementos. E a configuração padrão para a regra de atributo recupera todos os atributos de `prolog` elementos. Você pode especificar uma consulta XPath para serializar os elementos ou atributos que deseja pesquisar.
+xpath
+:   Essa é a consulta XPath que recupera os elementos ou atributos de arquivos DITA. A configuração padrão para a regra de elemento recupera todos os `prolog` elementos. E a configuração padrão para a regra de atributo recupera todos os atributos de `prolog` elementos. Você pode especificar uma consulta XPath para serializar os elementos ou atributos que deseja pesquisar.
 
-A consulta XPath contém o nome de classe do tipo de documento. A variável `topic/topic` classe é usada para documentos DITA do tipo tópico. Se você quiser criar uma regra para outros documentos DITA, use os seguintes nomes de classe:
+A consulta XPath contém o nome de classe do tipo de documento. A classe `topic/topic` é usada para documentos DITA do tipo de tópico. Se você quiser criar uma regra para outros documentos DITA, use os seguintes nomes de classe:
 
 | Tipo de documento | Nome da classe |
 |-------------|----------|
@@ -148,15 +149,19 @@ A consulta XPath contém o nome de classe do tipo de documento. A variável `top
 | Referência | - tópico/tópico referência/referência |
 | Mapa | - mapa/mapa |
 
-texto : se você quiser pesquisar o texto dentro do elemento especificado, especifique o valor yes. Se você especificar não como valor, apenas os atributos dentro do elemento serão serializados. Os atributos que você deseja pesquisar precisam ser especificados na seção de conjunto de atributos.
+texto
+:   Se quiser pesquisar o texto dentro do elemento especificado, especifique o valor yes. Se você especificar não como valor, apenas os atributos dentro do elemento serão serializados. Os atributos que você deseja pesquisar precisam ser especificados na seção de conjunto de atributos.
 
-conjunto de atributos : especifique a ID do conjunto de atributos que você deseja associar a esta regra. O valor all-attrs é um caso especial para indicar que todos os atributos para essa regra devem ser serializados.
+atributeset
+:   Especifique a ID do conjunto de atributos que você deseja associar a esta regra. O valor all-attrs é um caso especial para indicar que todos os atributos para essa regra devem ser serializados.
 
 Um conjunto de atributos contém uma lista de atributos que você deseja pesquisar no conteúdo DITA. O conjunto de atributos contém o seguinte:
 
-id : um identificador exclusivo para o conjunto de atributos. Essa ID é especificada no parâmetro attributeset de um conjunto de regras.
+id
+:   Um identificador exclusivo para o conjunto de atributos. Essa ID é especificada no parâmetro attributeset de um conjunto de regras.
 
-atributo : uma lista de atributos que você deseja pesquisar. Para cada atributo, você precisa criar uma entrada individual no `attribute` elemento.
+atributo
+:   Uma lista de atributos que você deseja pesquisar. Para cada atributo, você precisa criar uma entrada individual no elemento `attribute`.
 
 Execute as seguintes etapas para adicionar elementos ou atributos DITA personalizados no arquivo de serialização de pesquisa:
 
@@ -166,9 +171,9 @@ Execute as seguintes etapas para adicionar elementos ou atributos DITA personali
 
    /libs/fmdita/config/serializationconfig.xml
 
-1. Crie um nó de sobreposição do `config` pasta dentro do `apps` nó.
+1. Crie um nó de sobreposição da pasta `config` no nó `apps`.
 
-1. Navegue até o arquivo de configuração disponível no `apps` nó:
+1. Navegue até o arquivo de configuração disponível no nó `apps`:
 
    `/apps/fmdita/config/serializationconfig.xml`
 
@@ -178,9 +183,9 @@ Execute as seguintes etapas para adicionar elementos ou atributos DITA personali
 
 1. Abra a página Configuração do console da Web do Adobe Experience Manager. O URL padrão para acessar a página de configuração é:
 
-   http://&lt;server name=&quot;&quot;>:&lt;port>/system/console/configMgr
+   http://&lt;server name\>:&lt;port\>/system/console/configMgr
 
-1. Procure por e clique no link *com.adobe.fmdita.config.ConfigManager* pacote.
+1. Procure e clique no pacote *com.adobe.fmdita.config.ConfigManager*.
 
 1. Clique em **Salvar**.
 
@@ -189,7 +194,7 @@ As novas informações de serialização são armazenadas e ativadas para pesqui
 
 ## Extrair metadados de conteúdo existente {#id192SF0GA0HT}
 
-Depois de fazer qualquer alteração no arquivo de serialização de pesquisa padrão, você deve ativar a opção Extração de metadados DITA no *com.adobe.fmdita.config.ConfigManager* agrupar e executar o fluxo de trabalho para extrair metadados. Isso extrai os metadados necessários dos arquivos DITA existentes, e os mesmos são então disponibilizados para pesquisa.
+Depois de fazer qualquer alteração no arquivo de serialização de pesquisa padrão, você deve habilitar a opção Extração de metadados DITA no pacote *com.adobe.fmdita.config.ConfigManager* e executar o fluxo de trabalho para extrair metadados. Isso extrai os metadados necessários dos arquivos DITA existentes, e os mesmos são então disponibilizados para pesquisa.
 
 Caso você crie novos arquivos ou edite qualquer arquivo após atualizar o arquivo de serialização, os metadados serão automaticamente extraídos desses arquivos. O processo de extração de metadados só é necessário para arquivos que já existem no repositório AEM.
 
@@ -202,11 +207,11 @@ Execute as seguintes etapas para habilitar a opção de extração de metadados 
 
 1. Abra a página Configuração do console da Web do Adobe Experience Manager. O URL padrão para acessar a página de configuração é:
 
-   http://&lt;server name=&quot;&quot;>:&lt;port>/system/console/configMgr
+   http://&lt;server name\>:&lt;port\>/system/console/configMgr
 
-1. Procure por e clique no link *com.adobe.fmdita.config.ConfigManager* pacote.
+1. Procure e clique no pacote *com.adobe.fmdita.config.ConfigManager*.
 
-1. Selecione o **Ativar extração de metadados DITA** opção.
+1. Selecione a opção **Habilitar extração de metadados DITA**.
 
 1. Clique em **Salvar**.
 
@@ -215,19 +220,19 @@ Execute as seguintes etapas para executar o fluxo de trabalho de extração de m
 
 1. Faça logon no Adobe Experience Manager como administrador.
 
-1. Clique no link **Adobe Experience Manager** vincule na parte superior e escolha **Ferramentas**.
+1. Clique no link **Adobe Experience Manager** na parte superior e escolha **Ferramentas**.
 
-1. Selecionar **Guias** na lista de ferramentas e clique no botão **Extração de metadados DITA** bloco.
+1. Selecione **Guias** na lista de ferramentas e clique no bloco **Extração de metadados DITA**.
 
-1. Se quiser extrair metadados de um único arquivo e suas dependências, clique no link **Selecionar um arquivo** vincular e procurar um arquivo.
+1. Se quiser extrair metadados de um único arquivo e suas dependências, clique no link **Selecionar um Arquivo** e procure um arquivo.
 
-1. Para extrair metadados de vários arquivos de uma pasta, clique no link **Selecionar pasta\(s\)** e selecione a pasta desejada. Clique em **Adicionar** botão para adicionar a pasta à lista de tarefas de serialização.
+1. Se quiser extrair metadados de vários arquivos de uma pasta, clique no link **Selecionar pasta\(s\)**, navegue e selecione a pasta desejada. Clique no botão **Adicionar** para adicionar a pasta à lista de tarefas de serialização.
 
    >[!NOTE]
    >
    > Você pode selecionar e adicionar várias pastas a uma tarefa de serialização.
 
-1. Clique em **Início**.
+1. Clique em **Iniciar**.
 
 1. Na caixa de diálogo Confirmar extração de metadados, clique em **OK**.
 
@@ -236,7 +241,7 @@ Execute as seguintes etapas para executar o fluxo de trabalho de extração de m
 
 Por padrão, a pesquisa é executada em todo o repositório do AEM. Pode haver alguns locais que você gostaria de excluir da pesquisa. Por exemplo, ao iniciar o fluxo de trabalho de tradução de conteúdo, os arquivos não aprovados permanecem em um local de pasta temporária. Quando você executa a pesquisa, os arquivos desse local temporário também são retornados nos resultados da pesquisa.
 
-Para impedir que os Guias do AEM pesquisem o local da pasta de tradução temporária, é necessário adicionar o local da pasta temporária na lista de exclusões.
+Para impedir que o AEM Guides pesquise o local da pasta de tradução temporária, é necessário adicionar o local da pasta temporária na lista de exclusões.
 
 Execute as seguintes etapas para excluir a pasta de tradução temporária da pesquisa:
 
@@ -254,7 +259,7 @@ Execute as seguintes etapas para excluir a pasta de tradução temporária da pe
 
    | Nome da propriedade | Tipo | Valor |
    |-------------|----|-----|
-   | excludedPaths | String\[\] | Adicione o seguinte valor a essa propriedade: <br>/content/dam/projects/translation\_output |
+   | excludedPaths | String\[\] | Adicione o seguinte valor a esta propriedade: <br>/content/dam/projects/translation\_output |
 
 1. Navegue até o nó lucene disponível no seguinte local:
 
@@ -264,4 +269,4 @@ Execute as seguintes etapas para excluir a pasta de tradução temporária da pe
 
    | Nome da propriedade | Tipo | Valor |
    |-------------|----|-----|
-   | excludedPaths | String\[\] | Adicione os seguintes valores a essa propriedade: <br><ul><li>/var/dxml</li><li>/content/dam/projects/translation\_output</li></ul> |
+   | excludedPaths | String\[\] | Adicionar os seguintes valores a esta propriedade: <br><ul><li>/var/dxml</li><li>/content/dam/projects/translation\_output</li></ul> |

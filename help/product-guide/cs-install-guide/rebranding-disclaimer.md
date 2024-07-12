@@ -11,5 +11,5 @@ ht-degree: 7%
 
 # Aviso {#id2263D0P0TYU}
 
-*Guias do Adobe Experience Manager* foi anteriormente marcado como *XML Documentation para Adobe Experience Manager*. Observe que algumas referências contidas na documentação ainda podem se referir a marcas anteriores, mas ainda se aplicam à oferta atual.
+A *Adobe Experience Manager Guides* era anteriormente conhecida como *XML Documentation para Adobe Experience Manager*. Observe que algumas referências contidas na documentação ainda podem se referir a marcas anteriores, mas ainda se aplicam à oferta atual.
 

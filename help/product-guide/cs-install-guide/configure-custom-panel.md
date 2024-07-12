@@ -16,8 +16,8 @@ ht-degree: 0%
 
 Execute as seguintes etapas para adicionar um painel personalizado no painel esquerdo do Editor da Web:
 
-1. Criar um *clientlib* e adicione o arquivo JavaScript e CSS a essa pasta.
-1. Atualize a propriedade de categorias do *clientlib* atribuindo o valor de *apps.fmdita.xml\_editor.page\_overrides*.
+1. Crie uma pasta *clientlib* e adicione seu arquivo JavaScript e CSS a essa pasta.
+1. Atualize a propriedade categories da pasta *clientlib* atribuindo o valor de *apps.fmdita.xml\_editor.page\_overrides*.
 
 Exemplo de código para configurar um painel personalizado:
 

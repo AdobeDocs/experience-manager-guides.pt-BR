@@ -24,11 +24,11 @@ Ao usar o bloco Perfis de pasta nas configurações de Guias, você pode definir
 
 ![](assets/folder-profile-tabs.png){width="800" align="left"}
 
-- **Geral**: a guia Geral só está disponível quando você está definindo as configurações no nível da pasta \(ou projeto/produto\). É possível definir configurações, como os caminhos de pasta aos quais as configurações serão aplicáveis e os usuários que terão direitos administrativos para criar ou atualizar configurações.
+- **Geral**: a guia geral só está disponível quando você está definindo as configurações no nível da pasta \(ou projeto/produto\). É possível definir configurações, como os caminhos de pasta aos quais as configurações serão aplicáveis e os usuários que terão direitos administrativos para criar ou atualizar configurações.
 
-- **Atributos condicionais**: use essa guia para configurar atributos condicionais em nível global ou de pasta. Um atributo condicional é uma combinação do nome e do valor do atributo, e você também pode definir um rótulo para ele. Você pode usar os atributos DITA padrão ou seus próprios atributos personalizados. Os atributos condicionais definidos no nível global são disponibilizados a todos os usuários nos projetos. Caso tenha definido atributos condicionais no nível da pasta, eles são mesclados com os atributos condicionais definidos globalmente.
+- **Atributos Condicionais**: use esta guia para configurar atributos condicionais em nível global ou de pasta. Um atributo condicional é uma combinação do nome e do valor do atributo, e você também pode definir um rótulo para ele. Você pode usar os atributos DITA padrão ou seus próprios atributos personalizados. Os atributos condicionais definidos no nível global são disponibilizados a todos os usuários nos projetos. Caso tenha definido atributos condicionais no nível da pasta, eles são mesclados com os atributos condicionais definidos globalmente.
 
-- **Criação de modelo**: use essa guia para configurar os modelos que os autores usarão para criar conteúdo DITA. Os seguintes modelos de tópico estão disponíveis prontamente:
+- **Modelo de criação**: use esta guia para configurar os modelos que seus autores usarão para criar conteúdo DITA. Os seguintes modelos de tópico estão disponíveis prontamente:
 
    - Glossário
 
@@ -56,7 +56,7 @@ Ao usar o bloco Perfis de pasta nas configurações de Guias, você pode definir
 
    - Bookmap
 
-- **Predefinição de saída**: Assim como a Criação de modelos, há cinco predefinições de saída pré-configuradas:
+- **Predefinição de Saída**: Assim como os Modelos de Criação, existem cinco predefinições de saída pré-configuradas:
 
    - Site AEM
 
@@ -68,9 +68,9 @@ Ao usar o bloco Perfis de pasta nas configurações de Guias, você pode definir
 
    - Personalizado
 
-  Os editores podem usar essas predefinições de saída prontas para uso para publicar conteúdo. Essas predefinições podem ser configuradas por um administrador do perfil global ou de nível de pasta. Após configuradas, as predefinições de publicação ficam disponíveis para os editores para mapas DITA recém-criados. Também é possível aplicar predefinições de publicação a mapas DITA existentes. Consulte [Aplicar alterações predefinidas](#id18AGD0K0OHS) para obter mais detalhes.
+  Os editores podem usar essas predefinições de saída prontas para uso para publicar conteúdo. Essas predefinições podem ser configuradas por um administrador do perfil global ou de nível de pasta. Após configuradas, as predefinições de publicação ficam disponíveis para os editores para mapas DITA recém-criados. Você também pode aplicar predefinições de publicação a mapas DITA existentes. Consulte [Aplicar alterações predefinidas](#id18AGD0K0OHS) para obter mais detalhes.
 
-- **Configurações do editor XML**: use essa guia para personalizar a aparência e os vários recursos do Editor da Web. As seguintes configurações configuráveis estão disponíveis para o Editor da Web:
+- **Configurações do Editor XML**: use esta guia para personalizar a aparência e os vários recursos do Editor da Web. As seguintes configurações configuráveis estão disponíveis para o Editor da Web:
 
    - Configuração da interface do Editor de XML
    - Layout do modelo CSS
@@ -90,25 +90,25 @@ Execute as seguintes etapas para configurar o perfil global:
 
 1. Faça logon no Adobe Experience Manager como administrador.
 
-1. Clique no link Adobe Experience Manager na parte superior e escolha **Ferramentas**.
+1. Clique no link do Adobe Experience Manager na parte superior e escolha **Ferramentas**.
 
-1. Selecionar **Guias** na lista de ferramentas e clique no botão **Perfis de pasta**.
+1. Selecione **Guias** na lista de ferramentas e clique em **Perfis de Pasta**.
 
    Pela primeira vez, a página Perfis de pasta é exibida somente com o bloco Perfil global.
 
    ![](assets/folder-profile-global.png){width="800" align="left"}
 
-1. Clique no link **Perfil global** bloco.
+1. Clique no bloco **Perfil Global**.
 
-1. Para configurar **Atributos condicionais**, consulte [Configurar atributos condicionais para perfis globais ou de nível de pasta](#id1889D0I305Z).
+1. Para configurar **Atributos Condicionais**, consulte [Configurar atributos condicionais para perfis globais ou de nível de pasta](#id1889D0I305Z).
 
-1. Para configurar **Criação de modelo**, consulte [Configurar modelos de criação](#id1889D0IL0Y4).
+1. Para configurar o **Modelo de Criação**, consulte [Configurar modelos de criação](#id1889D0IL0Y4).
 
-1. Para configurar **Predefinições de saída**, consulte [Configurar predefinições de saída](#id18AGD0IH0Y4).
+1. Para configurar **Predefinições de Saída**, consulte [Configurar predefinições de saída](#id18AGD0IH0Y4).
 
-1. Para configurar o Editor de XML, consulte [Configurar e personalizar o editor da Web de XML](#id2065G300O5Z).
+1. Para configurar o Editor de XML, consulte [Configurar e personalizar o Editor da Web de XML](#id2065G300O5Z).
 
-1. Depois de fazer todas as atualizações necessárias, salve e feche a **Perfil global**.
+1. Depois de fazer todas as atualizações necessárias, salve e feche o **Perfil Global**.
 
 
 ## Criar e configurar um perfil no nível da pasta
@@ -117,9 +117,9 @@ Execute as seguintes etapas para configurar um perfil no nível da pasta:
 
 1. Faça logon no Adobe Experience Manager como administrador.
 
-1. Clique no link Adobe Experience Manager na parte superior e escolha **Ferramentas**.
+1. Clique no link do Adobe Experience Manager na parte superior e escolha **Ferramentas**.
 
-1. Selecionar **Guias** na lista de ferramentas e clique no link **Perfis de pasta** bloco.
+1. Selecione **Guias** na lista de ferramentas e clique no bloco **Perfis de Pasta**.
 
    Pela primeira vez, a página Perfis de pasta é exibida somente com o bloco Perfil global padrão.
 
@@ -127,7 +127,7 @@ Execute as seguintes etapas para configurar um perfil no nível da pasta:
 
    ![](assets/create-folder-profile.png){width="300" align="left"}
 
-1. Insira os seguintes detalhes na **Criar perfil de pasta** diálogo:
+1. Insira os seguintes detalhes na caixa de diálogo **Criar Perfil de Pasta**:
    - Nome do perfil da pasta.
    - Caminho da pasta à qual o perfil será aplicável.
 
@@ -155,7 +155,7 @@ Execute as seguintes etapas para configurar um perfil no nível da pasta:
    >
    > Verifique se a pasta escolhida aqui não tem nenhum outro perfil de nível de pasta associado a ela.
 
-1. Para adicionar um usuário, selecione um usuário na lista **Usuários administradores** e clique em **Adicionar**.
+1. Para adicionar um usuário, selecione um usuário no menu suspenso **Usuários Administradores** e clique em **Adicionar**.
 
    >[!NOTE]
    >
@@ -176,9 +176,9 @@ Execute as seguintes etapas para configurar atributos condicionais padrão compa
 
 1. Faça logon no Adobe Experience Manager como administrador ou como um usuário com direitos administrativos em um perfil de nível de pasta.
 
-1. Clique no link Adobe Experience Manager na parte superior e escolha **Ferramentas**.
+1. Clique no link do Adobe Experience Manager na parte superior e escolha **Ferramentas**.
 
-1. Selecionar **Guias** na lista de ferramentas e clique no link **Perfis de pasta** bloco.
+1. Selecione **Guias** na lista de ferramentas e clique no bloco **Perfis de Pasta**.
 
 1. Clique no bloco do perfil que você deseja configurar.
 
@@ -186,23 +186,23 @@ Execute as seguintes etapas para configurar atributos condicionais padrão compa
    >
    > Você pode optar por configurar atributos condicionais no Perfil global ou em um perfil de nível de pasta.
 
-1. Na página do perfil, clique no link **Atributos condicionais** guia.
+1. Na página do perfil, clique na guia **Atributos Condicionais**.
 
 1. Clique em **Editar**.
 
 1. Clique em **Adicionar**.
 
-1. Insira o **Nome**, **Valor**, e uma **Rótulo** para o atributo condicional.
+1. Insira o **Nome**, **Valor** e um **Rótulo** para o atributo condicional.
 
    Você pode salvar um perfil somente com o nome do atributo. No entanto, um atributo só pode ser usado quando tem um valor especificado. Se você especificar ambos - valor e rótulo para um atributo, o Editor da Web mostrará o rótulo do atributo condicional. Além disso, o rótulo é mostrado ao administrador de publicação no momento da criação de uma predefinição condicional.
 
-   A captura de tela a seguir mostra a definição do `platform` atributo com valores e rótulos possíveis.
+   A captura de tela a seguir mostra a definição do atributo `platform` com valores e rótulos possíveis.
 
    ![](assets/add_profile.png){width="650" align="left"}
 
-1. Se quiser adicionar mais valores para o mesmo atributo, clique no **+** e insira o valor e o rótulo adicionais.
+1. Se quiser adicionar mais valores para o mesmo atributo, clique no ícone **+** e insira o valor e rótulo adicionais.
 
-1. Se quiser adicionar mais atributos, clique em **Adicionar**.
+1. Para adicionar mais atributos, clique em **Adicionar**.
 
 1. Clique em **Salvar**.
 
@@ -217,11 +217,11 @@ Se você estiver usando um atributo personalizado, ele deverá ser um atributo D
 
    >[!IMPORTANT]
    >
-   > O arquivo DTD especializado deve fazer parte da implantação do código personalizado. Os DTDs em /etc fazem parte da implantação do produto e, portanto, são substituídos pela instalação de qualquer nova versão. É recomendável adicionar um DTD especializado em /apps dentro da pasta do projeto, e incluir o caminho do catálogo/DTD no perfil DITA. Para obter mais informações, consulte [Integrar especialização de DITA](dita-ot-specialization.md#id211MB0E00XA).
+   > O arquivo DTD especializado deve fazer parte da implantação do código personalizado. Os DTDs em /etc fazem parte da implantação do produto e, portanto, são substituídos pela instalação de qualquer nova versão. É recomendável adicionar um DTD especializado em /apps dentro da pasta do projeto, e incluir o caminho do catálogo/DTD no perfil DITA. Para obter mais informações, consulte [Integrar especialização DITA](dita-ot-specialization.md#id211MB0E00XA).
 
 1. Abra a página Configuração do console da Web do Adobe Experience Manager.
 
-1. Procure por e clique no link *com.adobe.fmdita.config.ConfigManager* pacote.
+1. Procure e clique no pacote *com.adobe.fmdita.config.ConfigManager*.
 
 1. Salve a configuração.
 
@@ -231,9 +231,9 @@ Se você estiver usando um atributo personalizado, ele deverá ser um atributo D
 
    /libs/fmdita/config/condAttrList.xml
 
-1. Crie um nó de sobreposição do `config` pasta dentro do `apps` nó.
+1. Crie um nó de sobreposição da pasta `config` no nó `apps`.
 
-1. Acesse e adicione os atributos personalizados ao arquivo condAttrList.xml na `apps` nó:
+1. Navegue até o arquivo condAttrList.xml e adicione-o no nó `apps`:
 
    `/apps/fmdita/config/condAttrList.xml`
 
@@ -252,9 +252,9 @@ Execute as seguintes etapas para adicionar o tópico ou mapear modelos em um per
 
 1. Faça logon no Adobe Experience Manager como administrador ou como um usuário com direitos administrativos em um perfil de nível de pasta.
 
-1. Clique no link Adobe Experience Manager na parte superior e escolha **Ferramentas**.
+1. Clique no link do Adobe Experience Manager na parte superior e escolha **Ferramentas**.
 
-1. Selecionar **Guias** na lista de ferramentas e clique no link **Perfis de pasta** bloco.
+1. Selecione **Guias** na lista de ferramentas e clique no bloco **Perfis de Pasta**.
 
 1. Clique no bloco do perfil que você deseja configurar.
 
@@ -262,14 +262,14 @@ Execute as seguintes etapas para adicionar o tópico ou mapear modelos em um per
    >
    > Você pode optar por configurar o modelo de criação no Perfil global ou em um perfil no nível da pasta.
 
-1. Na página do perfil, clique no link **Criação de modelo** guia.
+1. Na página do perfil, clique na guia **Modelo de Criação**.
 1. Clique em **Editar**.
 
    Você tem as opções para adicionar Tópico e Modelos de mapa pesquisando do local padrão ou procurando por ele.
 
    >[!NOTE]
    >
-   > Por padrão, todos os modelos de criação são armazenados na pasta /content/dam/dita-templates. A variável `dita-templates` pasta contém `topics` e `maps` subpastas para armazenar o tópico e os modelos de mapa. Você pode adicionar seus modelos personalizados \(.dita,.xml ou .ditamapfiles\) nas pastas de modelo padrão. Depois de adicionar o modelo à pasta padrão, é possível adicioná-los ao perfil global ou de pasta. Para obter mais informações sobre como criar modelos personalizados usando o Editor da Web, consulte [Criar modelo de criação personalizado](#id1917D0EG0HJ).
+   > Por padrão, todos os modelos de criação são armazenados na pasta /content/dam/dita-templates. A pasta `dita-templates` contém subpastas `topics` e `maps` para armazenar o tópico e mapear modelos. Você pode adicionar seus modelos personalizados \(.dita,.xml ou .ditamapfiles\) nas pastas de modelo padrão. Depois de adicionar o modelo à pasta padrão, é possível adicioná-los ao perfil global ou de pasta. Para obter mais informações sobre como criar modelos personalizados usando o Editor da Web, consulte [Criar modelo de criação personalizado](#id1917D0EG0HJ).
 
    ![](assets/search-author-temp.png){width="550" align="left"}
 
@@ -277,7 +277,7 @@ Execute as seguintes etapas para adicionar o tópico ou mapear modelos em um per
 
    Para adicionar um modelo, siga um destes procedimentos:
 
-   - Escolher **Pesquisar ou Digitar** e digite ou selecione o nome de um template na lista suspensa. A lista suspensa consiste em todos os modelos padrão e qualquer novo modelo criado.
+   - Escolha **Pesquisar ou Digitar** e digite ou selecione o nome de um modelo na lista suspensa. A lista suspensa consiste em todos os modelos padrão e qualquer novo modelo criado.
 
      ![](assets/default-template-list.png){width="350" align="left"}
 
@@ -300,7 +300,7 @@ Caso tenha configurado os modelos em um perfil no nível da pasta, os modelos co
 
 ## Criar modelo de criação personalizado {#id1917D0EG0HJ}
 
-Os Guias do AEM fornecem uma maneira fácil de criar modelos de criação. Como administrador do sistema, você pode usar o Editor da Web para criar modelos de criação do zero. Em seguida, você pode adicionar o novo modelo no perfil global ou atribuí-lo a uma pasta específica usando o perfil específico da pasta.
+O AEM Guides oferece uma maneira fácil de criar modelos de criação. Como administrador do sistema, você pode usar o Editor da Web para criar modelos de criação do zero. Em seguida, você pode adicionar o novo modelo no perfil global ou atribuí-lo a uma pasta específica usando o perfil específico da pasta.
 
 Execute as seguintes etapas para criar um modelo de criação personalizado:
 
@@ -322,13 +322,13 @@ Execute as seguintes etapas para criar um modelo de criação personalizado:
 
 1. Clique em **Avançar**.
 
-1. Na nova página Propriedades do modelo, insira um **Título**, **Nome**, e **Descrição** para o modelo.
+1. Na nova página Propriedades do modelo, insira um **Título**, **Nome** e **Descrição** para o modelo.
 
    >[!NOTE]
    >
    > O nome é sugerido automaticamente com base no Título do template. Se você quiser especificar manualmente o nome, certifique-se de que o Nome não contenha espaços, apóstrofo ou chaves e termine com .dita.
 
-1. *\(Opcional\)* Clique em **Adicionar uma miniatura** botão para procurar e selecionar uma miniatura para associar ao modelo.
+1. *\(Opcional\)* Clique no botão **Adicionar uma Miniatura** no navegador e selecione uma miniatura para associar ao seu modelo.
 
 1. Clique em **Criar**.
 
@@ -341,19 +341,19 @@ Execute as seguintes etapas para criar um modelo de criação personalizado:
 
 Em uma configuração corporativa típica, diferentes modelos de saída podem ser usados para diferentes produtos ou guias do usuário. Além disso, pode haver alguns processos comuns de geração de saída que devem ser usados por todos os editores e um conjunto de processos específicos de geração de saída para um grupo específico de editores ou projetos.
 
-O Guia AEM permite que o administrador crie predefinições de saída com configurações específicas que podem ser usadas por todos ou por um conjunto específico de editores para gerar saída. Por exemplo, o administrador pode criar uma predefinição de saída para gerar um guia do usuário comum em todos os editores. E mais um para criar os manuais de usuário de programação específicos de um conjunto de editores. Ambas as predefinições podem ser configuradas para usar templates de saída diferentes. Neste exemplo, a predefinição de publicação comum para gerar o guia do usuário pode ser configurada em nível global. E a predefinição de saída para gerar o manual do usuário de programação pode ser configurada em nível de pasta.
+O AEM Guides permite que o administrador crie predefinições de saída com configurações específicas que podem ser usadas por todos ou por um conjunto específico de editores para gerar a saída. Por exemplo, o administrador pode criar uma predefinição de saída para gerar um guia do usuário comum em todos os editores. E mais um para criar os manuais de usuário de programação específicos de um conjunto de editores. Ambas as predefinições podem ser configuradas para usar templates de saída diferentes. Neste exemplo, a predefinição de publicação comum para gerar o guia do usuário pode ser configurada em nível global. E a predefinição de saída para gerar o manual do usuário de programação pode ser configurada em nível de pasta.
 
 Depois que as predefinições de saída padrão tiverem sido criadas no sistema, todos os mapas DITA criados depois disso usarão as predefinições padrão para gerar a saída. No entanto, todos os mapas DITA existentes continuariam a usar as predefinições de saída configuradas anteriormente com eles. Se você quiser aplicar a nova predefinição de saída em todos os mapas DITA existentes, será necessário executar o fluxo de trabalho Aplicar alterações predefinidas.
 
-Além das predefinições configuradas em nível global ou corporativo, um editor ainda teria os direitos de criar mais predefinições de saída. No entanto, essas predefinições são vinculadas ao mapa DITA para o qual são criadas. Para obter mais detalhes sobre como criar predefinições de saída regulares para um mapa DITA, consulte *Criar, editar, duplicar ou remover uma predefinição de saída* no *Utilização dos guias do Adobe Experience Manager*.
+Além das predefinições configuradas em nível global ou corporativo, um editor ainda teria os direitos de criar mais predefinições de saída. No entanto, essas predefinições são vinculadas ao mapa DITA para o qual são criadas. Para obter mais detalhes sobre como criar predefinições de saída regulares para um mapa DITA, consulte *Criar, editar, duplicar ou remover uma predefinição de saída* em *Usando o Adobe Experience Manager Guides*.
 
 Execute as seguintes etapas para configurar predefinições de saída globais ou específicas de pastas:
 
 1. Faça logon no Adobe Experience Manager como administrador ou como um usuário com direitos administrativos em um perfil específico de pasta.
 
-1. Clique no link Adobe Experience Manager na parte superior e escolha **Ferramentas**.
+1. Clique no link do Adobe Experience Manager na parte superior e escolha **Ferramentas**.
 
-1. Selecionar **Guias** na lista de ferramentas e clique no link **Perfis de pasta** bloco.
+1. Selecione **Guias** na lista de ferramentas e clique no bloco **Perfis de Pasta**.
 
 1. Clique no bloco do perfil que você deseja configurar.
 
@@ -361,7 +361,7 @@ Execute as seguintes etapas para configurar predefinições de saída globais ou
    >
    > Você pode optar por configurar predefinições de saída no Perfil global ou em um perfil específico de pasta.
 
-1. Na página do perfil. clique na guia **Predefinições de saída** guia.
+1. Na página do perfil. clique na guia **Predefinições de saída**.
 
    É exibida uma lista de predefinições de saída prontas para uso, que inclui AEM Site, PDF, HTML5, EPUB e CUSTOM.
 
@@ -372,7 +372,7 @@ Execute as seguintes etapas para configurar predefinições de saída globais ou
 
    - Clique em **Editar** para abrir a configuração da predefinição selecionada para edição.
 
-     Para obter informações sobre configurações de predefinição de saída, consulte *Noções básicas sobre as predefinições de saída* em Uso dos guias do Adobe Experience Manager.
+     Para obter informações sobre as configurações de predefinição de saída, consulte *Noções básicas sobre as predefinições de saída* em Uso do Adobe Experience Manager Guides.
 
 1. Clique em **Salvar** para salvar as configurações predefinidas.
 
@@ -387,9 +387,9 @@ Se você tiver atualizado uma predefinição de saída existente ou quiser dispo
 
 1. Faça logon no Adobe Experience Manager como administrador ou como um usuário com direitos administrativos em um perfil específico de pasta.
 
-1. Clique no link Adobe Experience Manager na parte superior e escolha **Ferramentas**.
+1. Clique no link do Adobe Experience Manager na parte superior e escolha **Ferramentas**.
 
-1. Selecionar **Guias** na lista de ferramentas e clique no link **Perfis de pasta** bloco.
+1. Selecione **Guias** na lista de ferramentas e clique no bloco **Perfis de Pasta**.
 
 1. Clique no bloco do perfil que você deseja configurar.
 
@@ -397,7 +397,7 @@ Se você tiver atualizado uma predefinição de saída existente ou quiser dispo
    >
    > Você pode optar por configurar predefinições de saída no Perfil global ou em um perfil específico de pasta.
 
-1. Na página do perfil. clique na guia **Predefinições de saída** guia.
+1. Na página do perfil. clique na guia **Predefinições de saída**.
 
    É exibida uma lista de predefinições de saída prontas para uso, que inclui AEM Site, PDF, HTML5, EPUB e CUSTOM.
 
@@ -407,20 +407,20 @@ Se você tiver atualizado uma predefinição de saída existente ou quiser dispo
 
 1. Na caixa de diálogo Aplicar alterações predefinidas, escolha entre:
 
-   - **Selecionar a opção Substituir predefinição existente**: ao selecionar essa opção, as atualizações feitas nas predefinições de saída existentes substituirão as configurações em todos os mapas DITA existentes em que essa predefinição é usada. No entanto, isso resultará na perda de qualquer predefinição condicional existente e informações de linha de base associadas ao mapa.
+   - **Selecionando a opção Substituir Predefinição Existente**: se você selecionar essa opção, todas as atualizações feitas nas predefinições de saída existentes substituirão as configurações em todos os mapas DITA existentes em que essa predefinição é usada. No entanto, isso resultará na perda de qualquer predefinição condicional existente e informações de linha de base associadas ao mapa.
 
-   - **Opção Não selecionar Substituir predefinição existente**: se você não selecionar essa opção, as atualizações feitas nas predefinições de saída existentes não afetarão os mapas DITA existentes. Somente as predefinições recém-adicionadas são adicionadas aos mapas DITA existentes. Observe que o mapa DITA recém-criado obtém as predefinições de saída atualizadas e as predefinições adicionadas recentemente.
+   - **Opção Substituir predefinição existente não selecionada**: se você não selecionar essa opção, as atualizações feitas nas predefinições de saída existentes não afetarão os mapas DITA existentes. Somente as predefinições recém-adicionadas são adicionadas aos mapas DITA existentes. Observe que o mapa DITA recém-criado obtém as predefinições de saída atualizadas e as predefinições adicionadas recentemente.
 
-1. Clique em **OK** para aplicar alterações das predefinições de saída selecionadas em todos os mapas DITA existentes.
+1. Clique em **OK** para aplicar as alterações das predefinições de saída selecionadas em todos os mapas DITA existentes.
 
 
 ## Configurar e personalizar o editor da Web de XML {#id2065G300O5Z}
 
 Por padrão, o Editor da Web de XML vem com vários recursos para ajudar seus autores a criar documentos DITA. Se você trabalhar em um ambiente restritivo, poderá escolher quais recursos serão expostos aos autores. A guia Configuração do editor XML permite controlar facilmente os recursos e também alterar a aparência do editor da Web. Como administrador, você pode personalizar os seguintes componentes do Editor da Web:
 
-**Configuração da interface do Editor de XML**
+**Configuração da Interface do Usuário do Editor XML**
 
-Essa configuração controla a barra de ferramentas e os outros elementos da interface do usuário do Editor da Web. Clique em **Baixar** ícone para baixar o arquivo ui\_config.json mais recente no sistema local. Em seguida, é possível fazer alterações no arquivo e fazer o upload da mesma maneira. Clique em **Baixar padrão**&#x200B;ícone para baixar o arquivo ui\_config.json padrão no sistema local. Você sempre pode baixar o arquivo padrão, fazer alterações nele e fazer upload dele.Dependendo de onde você estiver fazendo upload do arquivo no perfil global ou de pasta, as alterações serão aplicadas adequadamente. Para obter mais detalhes sobre como personalizar o Editor de XML usando o arquivo ui\_config.json, consulte [Personalizar barra de ferramentas](conf-web-editor-customize-toolbar.md#).
+Essa configuração controla a barra de ferramentas e os outros elementos da interface do usuário do Editor da Web. Clique no ícone **Baixar** para baixar o arquivo ui\_config.json mais recente em seu sistema local. Em seguida, é possível fazer alterações no arquivo e fazer o upload da mesma maneira. Clique no ícone **Baixar padrão** para baixar o arquivo padrão ui\_config.json no sistema local. Você sempre pode baixar o arquivo padrão, fazer alterações nele e fazer upload dele.Dependendo de onde você estiver fazendo upload do arquivo no perfil global ou de pasta, as alterações serão aplicadas adequadamente. Para obter mais detalhes sobre como personalizar o Editor de XML usando o arquivo ui\_config.json, consulte [Personalizar barra de ferramentas](conf-web-editor-customize-toolbar.md#).
 
 **Layout do modelo CSS**
 
@@ -432,7 +432,7 @@ Baixe o arquivo disponível nesta seção para personalizar a aparência do docu
 
 Salve este arquivo e faça upload na seção Layout de modelo CSS. Na próxima vez que você baixar o arquivo, obterá o arquivo CSS mais recente em uso no Editor da Web.
 
-**Trechos do Editor de XML**
+**Trechos do Editor XML**
 
 Usando o arquivo de configuração desta seção, você pode criar alguns trechos padrão e compartilhá-los com seus autores. A estrutura padrão do arquivo é fornecida abaixo:
 
@@ -460,7 +460,7 @@ Os seguintes detalhes são necessários para criar um trecho:
 >
 > Você pode adicionar mais trechos adicionando uma vírgula \(,\) no final da definição do trecho e repetindo a mesma estrutura para o próximo trecho.
 
-**Rótulos da versão do conteúdo XML**
+**Rótulos de Versão do Conteúdo XML**
 
 Por padrão, os autores têm permissão para criar rótulos de sua escolha e associá-los a seus arquivos de tópico. No entanto, isso pode levar a muitas variações de um mesmo rótulo. Por exemplo, um poderia ter rótulos de &quot;Versão 1.0&quot;, &quot;Versão 1.0&quot;, &quot;Versão 1&quot; para identificar o mesmo estágio de um tópico. Para evitar essa rotulagem inconsistente no sistema, você pode criar uma lista predefinida de rótulos que os autores teriam permissão para escolher. Ter uma rotulagem consistente ajuda a gerenciar melhor os arquivos em seu sistema.
 

@@ -1,5 +1,5 @@
 ---
-title: Relatórios nos Guias do AEM
+title: Relatórios no AEM Guides
 description: Saiba quais todos os relatórios estão disponíveis no AEM para ajudar os usuários a melhorar a qualidade do conteúdo.
 exl-id: f0d761ff-efea-452c-bb8e-865f34a182fc
 feature: Report Generation
@@ -11,7 +11,7 @@ ht-degree: 1%
 
 ---
 
-# Relatórios nos Guias do AEM
+# Relatórios no AEM Guides
 
 Em uma configuração organizacional, você deseja verificar a integridade geral do conteúdo antes de enviar os documentos para consumo pelos usuários finais. Essa necessidade se torna ainda mais essencial em ambientes de vários usuários e grande escala, onde o conteúdo pode ser reutilizado em diferentes contextos, portanto, validar seu conteúdo ou documento é uma necessidade. No contexto de conteúdo estruturado, há alguns tipos específicos de relatórios que geralmente são necessários.
 
@@ -36,7 +36,7 @@ Nesta sessão, mostramos relatórios prontos para uso disponíveis para usuário
 - **Data** - 30 de março de 2023
 - **Número de participantes** - 102
 - **Duração** - 60 minutos
-- **Público** - Clientes, parceiros e funcionários da Adobe
+- **Público-alvo** - Clientes, parceiros e funcionários da Adobe
 
 
 ## Principais aprendizados
@@ -49,17 +49,17 @@ Nesta sessão, você aprendeu sobre o seguinte:
 
 ## Recursos relacionados
 
-- **[Fazer download do manual de relatórios de Guias do AEM](./assets/aem-guides-expert-session-reports-documentation.pdf)** para entender os detalhes dos relatórios demonstrados na sessão.
+- **[Baixe o manual de relatórios do AEM Guides](./assets/aem-guides-expert-session-reports-documentation.pdf)** para entender os detalhes dos relatórios demonstrados na sessão.
 
-- **Vídeos em destaque** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/working-with-reports.html?lang=en)
+- **Vídeos em destaque** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/working-with-reports.html?lang=en)
 
-- **Guia do usuário** - [Conteúdo do autor](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
+- **Guia do Usuário** - [Conteúdo de autor](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
 
-- **Fórum da comunidade** - Para interações da comunidade específicas por sessão no Experience League, visite  [Fórum de guias do AEM](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Fórum da comunidade** - Para interações da comunidade específicas da sessão no Experience League, visite [Fórum da AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
-> Os recursos mostrados nesta sessão estão disponíveis nas seguintes versões dos Guias do AEM:
+> Os recursos mostrados nesta sessão estão disponíveis nas seguintes versões do AEM Guides:
 > - No local: 4.2 ou posterior
 > - Cloud Service: 2302 ou posterior
 
@@ -67,7 +67,7 @@ Nesta sessão, você aprendeu sobre o seguinte:
 ## Próxima sessão com especialistas
 
 - **Tópico** - Configuração de conteúdo e modelo
-- **Agendado para** - 27 de abril de 2023
+- **Agendado em** - 27 de abril de 2023
 
 
 ## Entre em contato

@@ -1,6 +1,6 @@
 ---
 title: Publicação baseada em artigos no Editor da Web
-description: Saiba como publicar um ou mais artigos no editor da Web. Gere saída para um ou mais tópicos em um mapa DITA nos Guias AEM.
+description: Saiba como publicar um ou mais artigos no editor da Web. Gere saída para um ou mais tópicos em um mapa DITA no AEM Guides.
 exl-id: d89ce69d-8d4c-4265-bfca-60763f561afd
 feature: Authoring, Features of Web Editor, Publishing
 role: User
@@ -27,9 +27,9 @@ Para uma publicação baseada em artigos, é necessário criar a predefinição 
 
 Você também pode usar as predefinições de saída criadas para o mapa DITA para gerar a saída do painel Repositório ou do painel Exibição do mapa. Você pode gerar a saída para um ou mais tópicos ou para todo o mapa DITA.
 
-- **[Criar predefinições de saída no Editor da Web](web-editor-article-publishing-presets.md)**
+- **[Criar predefinições de saída do Editor da Web](web-editor-article-publishing-presets.md)**
 
-- **[Gerar saída a partir do painel Repositório ou do painel Exibição de mapa](web-editor-article-publishing-output.md)**
+- **[Gerar saída do painel Repositório ou do painel Exibição de Mapa](web-editor-article-publishing-output.md)**
 
 
-**Tópico pai:**[ Trabalhar com o editor da Web](web-editor.md)
+**Tópico pai:**[ Trabalhar com o Editor da Web](web-editor.md)

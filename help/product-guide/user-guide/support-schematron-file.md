@@ -1,6 +1,6 @@
 ---
 title: Suporte para arquivos do Schematron
-description: Saiba como importar e validar um tópico DITA, usar instruções de relatório assert para verificar regras, usar expressões regex e definir padrões abstratos em arquivos Schematron de Guias AEM.
+description: Saiba como importar e validar um tópico DITA, usar instruções de relatório assert para verificar regras, usar expressões regex e definir padrões abstratos em arquivos Schematron do AEM Guides.
 exl-id: ed07a5ec-6adc-43a3-8f03-248b8c963e9a
 feature: Authoring, Features of Web Editor
 role: User
@@ -26,10 +26,10 @@ Execute as seguintes etapas para importar os arquivos do Schematron:
 
 ![](images/scematron-panel-add.png){width="300" align="left"}
 
-1. Navegue até a pasta desejada (onde deseja fazer upload dos arquivos) em *Visualização do repositório*.
-1. Clique em **Opções** ícone para abrir o menu de contexto e escolher **Fazer upload de ativos**.
-1. No **Fazer upload de ativos** , é possível alterar a pasta de destino na caixa de diálogo **Selecionar pasta de ativos** campo.
-1. Clique em **Escolher arquivos** e navegue para selecionar os arquivos do Schematron. Selecione um ou mais arquivos do Schematron e clique em **Carregar**.
+1. Navegue até a pasta desejada (onde deseja fazer upload dos arquivos) em *Exibição do Repositório*.
+1. Clique no ícone **Opções** para abrir o menu de contexto e escolher **Carregar Assets**.
+1. Na caixa de diálogo **Carregar Assets**, você pode alterar a pasta de destino no campo **Selecionar pasta de ativos**.
+1. Clique em **Escolher Arquivos** e procure os arquivos do Schematron. Você pode selecionar um ou mais arquivos do Schematron e clicar em **Carregar**.
 
 ## Validar um tópico ou mapa DITA com o Schematron
 
@@ -59,7 +59,7 @@ O suporte ao Schematron no Editor da Web ajuda a validar os arquivos em relaçã
 
 ## Usar instruções assert e report para verificar regras{#schematron-assert-report}
 
-Os Guias do AEM também suportam as instruções assert e report no Schematron. Essas instruções ajudam a validar os tópicos DITA.
+O AEM Guides também oferece suporte às instruções assert e report no Schematron. Essas instruções ajudam a validar os tópicos DITA.
 
 ### Declaração de declaração
 
@@ -107,7 +107,7 @@ No one word titles.
 
 ## Definir padrões abstratos{#schematron-abstract-patterns}
 
-Guias AEM também suporta padrões abstratos no Schematron. Você pode definir padrões abstratos genéricos e reutilizar esses padrões abstratos.  Você pode criar parâmetros de espaço reservado que especificam o padrão real.
+O AEM Guides também oferece suporte a padrões abstratos no Schematron. Você pode definir padrões abstratos genéricos e reutilizar esses padrões abstratos.  Você pode criar parâmetros de espaço reservado que especificam o padrão real.
 
 
 O uso de padrões abstratos pode simplificar o esquema Schematron, reduzindo a duplicação de regras e facilitando o gerenciamento e a atualização da lógica de validação. Ela também pode facilitar a compreensão do esquema, pois é possível definir uma lógica de validação complexa em um único padrão abstrato que pode ser reutilizado em todo o esquema.

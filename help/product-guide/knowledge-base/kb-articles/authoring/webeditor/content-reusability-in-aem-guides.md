@@ -1,6 +1,6 @@
 ---
-title: Reutilização de conteúdo DITA nos guias AEM
-description: Este breve artigo informa como os Guias do AEM e o DITA ajudam a economizar tempo e esforço ao usar a reutilização de conteúdo
+title: Reutilização de conteúdo DITA no AEM Guides
+description: Este breve artigo informa como o AEM Guides e o DITA ajudam a economizar tempo e esforço ao usar a reutilização de conteúdo
 role: User, Admin
 exl-id: 1522ebf5-2aea-4d8f-ade7-367227b31dd9
 source-git-commit: 4160c990bafe41611714ef66ee361aba0ef47c0a
@@ -10,15 +10,15 @@ ht-degree: 0%
 
 ---
 
-# Reutilização de conteúdo em guias AEM
+# Reutilização de conteúdo no AEM Guides
 
-Os Guias do Adobe AEM aproveitam os pontos fortes do DITA para fornecer uma interface amigável para a reutilização de conteúdo.
+O Adobe AEM Guides aproveita os pontos fortes do DITA para fornecer uma interface amigável para a reutilização de conteúdo.
 
 Neste artigo falamos sobre:
 
 1. [Reusabilidade usando referência de tópico (](#reusability-using-topic-referencestopicref)
 2. [Reutilização usando referência de conteúdo (](#reusability-using-content-reference-conref--conkeyref)
-3. [Dica de bônus para reutilizar o conteúdo ao arrastar e soltar nas Guias do AEM](#reuse-content-with-a-single-click-in-aem-guides)
+3. [Dica de bônus para reutilizar conteúdo com arrastar e soltar no AEM Guides](#reuse-content-with-a-single-click-in-aem-guides)
 
 ## Reusabilidade usando referências de tópico (topicref)
 
@@ -81,7 +81,7 @@ Aqui `conref=kyc_procedures.dita#indvidual_kyc` kyc_procedures.dita é o identif
 
 Kyc_procedure.dita continua a ser a única fonte de informação. Se houver alterações no processo KYC conforme exigido pelos regulamentos, basta atualizar um tópico e essas alterações serão refletidas automaticamente em todos os tópicos que se referem a ele.
 
-Usando Guias AEM, seus dois cliques
+Com o AEM Guides, seus dois cliques
 
 Etapa 1: Clique em Inserir conteúdo reutilizável
 ![barra de ferramentas](../../assets/publishing/content-reusability_image1.png)
@@ -125,7 +125,7 @@ Chave - &quot;Kyc_procedure&quot; continuará sendo a única fonte de informaç�
 
 Aqui, o caminho do tópico é alterado de &quot;kyc_procedure_2020.dita&quot; para &quot;kyc_procedure_2024.dita&quot; devido a alterações recentes na regulamentação.
 
-Usando Guias AEM, seus dois cliques
+Com o AEM Guides, seus dois cliques
 
 Etapa 1: Clique em Inserir conteúdo reutilizável
 ![barra de ferramentas](../../assets/publishing/content-reusability_image1.png)
@@ -136,9 +136,9 @@ Etapa 2: selecione o mapa raiz (opcional), a chave e o fragmento que precisam se
 Aqui, o mapa raiz foi selecionado automaticamente, pois já estava aberto na exibição de mapa
 
 
-## Reutilizar conteúdo com um único clique em Guias AEM
+## Reutilizar conteúdo com um único clique no AEM Guides
 
-O AEM Guides oferece um recurso de &quot;Conteúdo reutilizável&quot; para adicionar referências de conteúdo a um único clique.
+O AEM Guides oferece o recurso &quot;Conteúdo reutilizável&quot; para adicionar referências de conteúdo com um único clique.
 
 Etapa 1: Adicionar um tópico genérico ao conteúdo Reutilizável
 
@@ -164,4 +164,4 @@ Verifique se você abriu o mapa raiz/mapa pai na exibição de mapa que tem uma 
 <br>
 
 
-Publicar na comunidade do AEM Guides [fórum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) para qualquer consulta.
+Post no [fórum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) da Comunidade AEM Guides para qualquer consulta.

@@ -1,6 +1,6 @@
 ---
 title: Relatório de mapa DITA no painel de mapa
-description: Gerar relatórios de mapa DITA no painel de mapa em Guias AEM. Saiba como gerar o CSV de um relatório de mapa DITA.
+description: Gere relatórios de mapa DITA no painel de mapa no AEM Guides. Saiba como gerar o CSV de um relatório de mapa DITA.
 exl-id: 7fe52ee0-e940-467b-9b8d-3d2371de7a84
 feature: Report Generation
 role: User
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # Relatório de mapa DITA no painel de mapa {#id205BB800EEN}
 
-Os Guias do AEM fornecem aos administradores os recursos de relatórios para verificar a integridade geral da documentação antes que ela seja enviada ao vivo ou disponibilizada aos usuários finais. O relatório de mapa DITA do painel de mapa nos Guias AEM fornece informações valiosas, como os tópicos ausentes, tópicos com elementos ausentes, UUID de tópicos e arquivos de mídia referenciados e status de revisão de cada tópico. Um relatório detalhado em nível de tópico individual também fornece informações relacionadas ao conteúdo DITA, como referências de conteúdo e imagens ausentes ou referências cruzadas.
+O AEM Guides fornece aos administradores os recursos de relatórios para verificar a integridade geral da documentação antes que ela seja ativada ou disponibilizada para os usuários finais. O relatório de mapa DITA no painel de mapa no AEM Guides fornece informações valiosas, como os tópicos ausentes, tópicos com elementos ausentes, UUID de tópicos e arquivos de mídia referenciados e status de revisão de cada tópico. Um relatório detalhado em nível de tópico individual também fornece informações relacionadas ao conteúdo DITA, como referências de conteúdo e imagens ausentes ou referências cruzadas.
 
 >[!NOTE]
 >
-> O AEM Guides atualiza esse relatório em todos os eventos que resultem em uma alteração no arquivo de mapa ou quando qualquer referência no arquivo de tópico for atualizada.
+> O AEM Guides atualiza esse relatório em cada evento que resulta em uma alteração no arquivo de mapa ou quando qualquer referência no arquivo de tópico é atualizada.
 
 Execute as seguintes etapas para exibir o Relatório de mapa DITA:
 
@@ -39,30 +39,30 @@ Execute as seguintes etapas para exibir o Relatório de mapa DITA:
 
      ![](images/detailed-report-uuid.png){width="800" align="left"}
 
-     Itens destacados em **A**, **B**, **C** e **D** são descritos abaixo:
+     Os itens realçados em **A**, **B**, **C** e **D** estão descritos abaixo:
 
-      - **Tópico**: o título do tópico especificado no mapa DITA. Passar o ponteiro do mouse sobre o título do tópico exibe o caminho completo do tópico. Se houver problemas no tópico, como referências ou imagens ausentes, um ponto vermelho será mostrado antes do título do tópico.
+      - **Tópico**: O título do tópico especificado no mapa DITA. Passar o ponteiro do mouse sobre o título do tópico exibe o caminho completo do tópico. Se houver problemas no tópico, como referências ou imagens ausentes, um ponto vermelho será mostrado antes do título do tópico.
 
-      - **Nome do arquivo**: Nome do arquivo.
+      - **Nome do Arquivo**: Nome do arquivo.
 
       - **UUID**: o identificador exclusivo universalmente \(UUID\) do arquivo.
 
       - **Autor**: usuário que trabalhou por último neste tópico.
 
-      - **Estado do documento**: O estado atual do documento - Rascunho, Em revisão ou Revisado.
+      - **Estado do Documento**: o estado atual do documento - Rascunho, Em Revisão ou Revisado.
 
-      - **Tópicos ausentes \(B\)**: se houver tópicos com referências quebradas, esses tópicos serão listados na lista Tópicos ausentes.
+      - **Tópicos Ausentes \(B\)**: Se houver tópicos com referências quebradas, esses tópicos serão listados na lista Tópicos Ausentes.
 
       - **Elementos ausentes**: lista o número de imagens ausentes ou referências cruzadas corrompidas, se houver.
 
       - **Abrir no Editor \(D\)**: Clicar nesse ícone abre o tópico no Editor da Web.
 
 
-   Itens destacados em **E** são descritos abaixo:
+   Os itens realçados em **E** estão descritos abaixo:
 
-   - **Multimídia**: O caminho das imagens usadas no tópico é mostrado junto com sua UUID. Se você clicar no caminho da imagem, a imagem correspondente será aberta em uma janela pop-up. Os links de imagem quebrados são listados na cor vermelha.
+   - **Multimídia**: o caminho das imagens usadas no tópico é mostrado junto com sua UUID. Se você clicar no caminho da imagem, a imagem correspondente será aberta em uma janela pop-up. Os links de imagem quebrados são listados na cor vermelha.
 
-   - **Referências de conteúdo**: O caminho do conteúdo referido no tópico é mostrado junto com sua UUID. Se você clicar no título do conteúdo referido, o tópico correspondente será aberto no modo de Visualização.
+   - **Referências de conteúdo**: o caminho do conteúdo referenciado no tópico é mostrado junto com sua UUID. Se você clicar no título do conteúdo referido, o tópico correspondente será aberto no modo de Visualização.
 
    - **Referência cruzada**: o caminho do conteúdo de referência cruzada é mostrado junto com sua UUID. Se você clicar no título do conteúdo referido, o tópico correspondente será aberto no modo de Visualização. As referências cruzadas quebradas são listadas na cor vermelha.
 

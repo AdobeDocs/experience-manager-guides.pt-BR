@@ -1,6 +1,6 @@
 ---
 title: Aviso
-description: Este é um aviso de isenção de responsabilidade para abordar a mudança de nome de produto do XML Documentation for Adobe Experience Manager para o AEM Guides
+description: Este é um aviso de isenção de responsabilidade para abordar a alteração do nome do produto do XML Documentation para Adobe Experience Manager para AEM Guides
 exl-id: 388fb8d9-a7d0-4bbb-b244-4ccf461eafdf
 feature: Disclaimer
 role: User, Leader, Admin, Developer
@@ -13,4 +13,4 @@ ht-degree: 3%
 
 # Aviso {#id2263D0P0TYU}
 
-*Guias do Adobe Experience Manager* foi anteriormente marcado como *XML Documentation para Adobe Experience Manager*. Observe que algumas referências contidas na documentação ainda podem se referir a marcas anteriores, mas ainda se aplicam à oferta atual.
+A *Adobe Experience Manager Guides* era anteriormente conhecida como *XML Documentation para Adobe Experience Manager*. Observe que algumas referências contidas na documentação ainda podem se referir a marcas anteriores, mas ainda se aplicam à oferta atual.

@@ -28,7 +28,7 @@ Nesta sessão, você aprenderá a criar, publicar e gerenciar conteúdo usando o
 - **Data** - 19 de janeiro de 2023
 - **Número de participantes** - 89
 - **Duração** - 60 minutos
-- **Público** - Clientes, parceiros e funcionários da Adobe
+- **Público-alvo** - Clientes, parceiros e funcionários da Adobe
 
 ## Principais aprendizados
 
@@ -40,15 +40,15 @@ Nesta sessão, você aprenderá sobre o seguinte:
 
 ## Recursos relacionados
 
-- **Vídeos em destaque** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
+- **Vídeos em destaque** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
-- **Guia do usuário** - [Conteúdo do autor](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map/authoring-content.html)
+- **Guia do Usuário** - [Conteúdo de autor](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map/authoring-content.html)
 
-- **Fórum da comunidade** - Para interações da comunidade específicas por sessão no Experience League, visite  [Fórum de guias do AEM](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Fórum da comunidade** - Para interações da comunidade específicas da sessão no Experience League, visite [Fórum da AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
-> Os recursos mostrados nesta sessão estão disponíveis nas seguintes versões dos Guias do AEM:
+> Os recursos mostrados nesta sessão estão disponíveis nas seguintes versões do AEM Guides:
 > - No local 4.1.3 ou posterior
 > - Cloud Service 2211 e posterior
 

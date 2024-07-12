@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # API baseada em Java para criar e ativar pacotes {#id175UB30E05Z}
 
-A seguinte API baseada em Java permite criar e ativar pacotes CRX. Essa API está disponível no formato de um pacote. Você deve incluir esse pacote no código para usar essas APIs.
+A seguinte API baseada em Java permite criar e ativar pacotes do CRX. Essa API está disponível no formato de um pacote. Você deve incluir esse pacote no código para usar essas APIs.
 
 Detalhes do pacote:
 
@@ -32,15 +32,15 @@ Detalhes do pacote:
   public class CRXActivator
   ```
 
-  A variável **`CRXActivator`** A classe contém um método para criar pacotes CRX e replicá-los na instância de publicação.
+  A classe **`CRXActivator`** contém um método para criar pacotes CRX e replicá-los na instância de publicação.
 
 
 ## Criar e ativar pacotes
 
-A variável `activate` O método cria um pacote CRX na instância do autor e o replica na instância de publicação, se necessário. Pressupõe-se que os parâmetros de replicação do AEM já tenham sido configurados na instância do autor. Esse método cria o pacote CRX com base em uma lista de regras fornecidas como parâmetros de entrada em uma sequência de caracteres JSON.
+O método `activate` cria um pacote do CRX na instância do autor e o replica na instância de publicação, se necessário. Pressupõe-se que os parâmetros de replicação do AEM já tenham sido configurados na instância do autor. Esse método cria o pacote do CRX com base em uma lista de regras fornecidas como parâmetros de entrada em uma cadeia de caracteres JSON.
 >[!NOTE]
 >
-> Os erros encontrados durante o processo de criação ou ativação são gravados na `outputstream`.
+> Erros encontrados durante o processo de criação ou ativação são gravados em `outputstream`.
 
 ### Exemplo com dois parâmetros
 
@@ -70,17 +70,24 @@ public static void activate
 throws GuidesApiException
 ```
 
-**Parâmetros**: |Nome|Tipo|Descrição| |—|—|—| |`json`Cadeia de caracteres|Cadeia de caracteres JSON que determina o pacote CRX a ser criado. Use o formato a seguir para criar a cadeia de caracteres JSON: <br>- `activate`: É do tipo Booleano \(`true`/`false`\). Determina se o pacote CRX criado na instância do autor é replicado para a instância de publicação. <br> - `rules`: é do tipo Matriz JSON. Uma matriz de regras JSON, que são processadas sequencialmente para criar o pacote CRX. <br> - `rootPath`: É do tipo String. O caminho base no qual as consultas de nó/propriedade são executadas. Se nenhuma consulta de nó/propriedade estiver presente, o caminho raiz e todos os nós presentes no caminho raiz serão incluídos no pacote CRX. <br> - `nodeQueries`: é do tipo Matriz Regex. Uma matriz de expressões regulares usadas para incluir arquivos específicos no caminho raiz. <br> - `propertyQueries`: é do tipo Matriz JSON. Uma matriz de Objetos JSON com cada Objeto JSON que consiste em uma consulta XPath a ser executada no caminho raiz e o nome de uma propriedade presente em cada nó JCR após a execução da consulta. O valor da propriedade em cada nó JCR deve ser um caminho ou uma matriz de caminhos. Os caminhos presentes nessa propriedade são adicionados ao pacote CRX.| |`outputstream`|java.io.OutputStream|Usado para gravar o resultado de vários estágios, como execução de consulta, inclusão de arquivos, criação de pacotes CRX ou ativação. Qualquer erro encontrado durante o processo de criação ou ativação é gravado no `outputstream`. Isso é útil para depuração.| |`session`|String|Uma sessão JCR válida com permissão de ativação.| |`activationTarget`|String|(*Opcional*) `preview` ou `publish` para o Cloud Service e `publish` para software local <br> - Para Cloud Service, se o parâmetro contiver um valor inválido, a ativação do pacote falhará. <br> - Para software no local, se o parâmetro contiver um valor inválido, o erro será registrado e a publicação será feita usando o valor padrão, `publish`. |
+**Parâmetros**:
+|Nome|Tipo|Descrição|
+|—|—|—|
+Cadeia de caracteres |`json`|Cadeia de caracteres|JSON que determina o pacote do CRX a ser criado. Use o formato a seguir para criar a cadeia de caracteres JSON: <br>- `activate`: É do tipo Booleano \(`true`/`false`\). Determina se o pacote do CRX criado na instância do autor é replicado para a instância de publicação. <br> - `rules`: É do tipo Matriz JSON. Uma matriz de regras JSON, que são processadas sequencialmente para criar o pacote do CRX. <br> - `rootPath`: É do tipo String. O caminho base no qual as consultas de nó/propriedade são executadas. Se nenhuma consulta de nó/propriedade estiver presente, o caminho raiz e todos os nós presentes no caminho raiz serão incluídos no pacote do CRX. <br> - `nodeQueries`: É do tipo Matriz Regex. Uma matriz de expressões regulares usadas para incluir arquivos específicos no caminho raiz. <br> - `propertyQueries`: É do tipo Matriz JSON. Uma matriz de Objetos JSON com cada Objeto JSON que consiste em uma consulta XPath a ser executada no caminho raiz e o nome de uma propriedade presente em cada nó JCR após a execução da consulta. O valor da propriedade em cada nó JCR deve ser um caminho ou uma matriz de caminhos. Os caminhos presentes nessa propriedade são adicionados ao pacote do CRX.|
+|`outputstream`|java.io.OutputStream|Isso é usado para gravar o resultado de vários estágios, como execução de consulta, inclusão de arquivos, criação de pacotes CRX ou ativação. Qualquer erro encontrado durante o processo de criação ou ativação é gravado no `outputstream`. Isso é útil para depuração.|
+|`session`|String|Uma sessão JCR válida com permissão de ativação.|
+|`activationTarget`|String|(*Opcional*) `preview` ou `publish` para Cloud Service e `publish` para Software Local <br> - Para Cloud Service, se o parâmetro contiver um valor inválido, a ativação do pacote falhará. <br> - Para Software Local, se o parâmetro contiver um valor inválido, o erro será registrado e a publicação será feita usando o valor padrão, `publish`. |
 
 **Exceção**:
 
 Lança `java.io.IOException` e `java.io.IllegalArgumentException`
 
 
-Se você não definir o parâmetro opcional, `activationTarget`, ele ativa o uso do agente de publicação padrão para o Cloud Service e o Software local.
+Se você não definir o parâmetro opcional `activationTarget`, ele será ativado usando o agente de publicação padrão para o Cloud Service e para o Software local.
 
 
-**Exemplo**: o exemplo a seguir mostra como criar uma consulta JSON:
+**Exemplo**:
+O exemplo a seguir mostra como criar uma consulta JSON:
 
 ```JSON
 {
@@ -114,4 +121,4 @@ O exemplo de consulta JSON consiste nas seguintes regras:
 
 - Somente as imagens .png, .jpg e .gif no caminho /content/dam/nested são incluídas no pacote.
 - Todos os nós em /content/output/sites/hierarchy\_ditamap estão incluídos no pacote.
-- Os caminhos presentes na variável `fileReference` a propriedade dos nós em /content/output/sites/hierarchy\_ditamap está incluída no pacote.
+- Os caminhos presentes na propriedade `fileReference` dos nós em /content/output/sites/hierarchy\_ditamap estão incluídos no pacote.

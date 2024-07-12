@@ -1,13 +1,13 @@
 ---
 title: Definir, gerenciar, utilizar - Metadados
 description: Definir, gerenciar e utilizar metadados
-source-git-commit: 876e512febc9a4529d70b96303af21917e41961f
+exl-id: 3ebcb752-ba73-4c4c-9340-125b1e984cd1
+source-git-commit: 73c12f4f7e426c0c62150fe20770fa3599e6d095
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 1%
 
 ---
-
 
 # Definir, gerenciar e utilizar metadados
 
@@ -25,7 +25,7 @@ O Adobe Experience Manager Guides permite definir, aplicar e usar metadados para
 - **Data** - 9 de maio de 2024
 - **Número de participantes** - 100+
 - **Duração** - 60 minutos
-- **Público** - Clientes, parceiros e funcionários da Adobe
+- **Público-alvo** - Clientes, parceiros e funcionários da Adobe
 
 ## Principais aprendizados
 
@@ -50,12 +50,12 @@ Nesta sessão, você aprendeu sobre o seguinte:
 
 ### Fórum da comunidade
 
-- Para interações da comunidade específicas por sessão no Experience League, visite  [Fórum de guias do AEM](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- Para ver as interações da comunidade específicas da sessão no Experience League, visite [AEM Guides Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 
 >[!NOTE]
 >
-> Os recursos mostrados nesta sessão estão disponíveis nas seguintes versões dos Guias do AEM:
+> Os recursos mostrados nesta sessão estão disponíveis nas seguintes versões do AEM Guides:
 > - Março de 2024 (para nuvem)
 > - 4.4 (para não nuvem)
 

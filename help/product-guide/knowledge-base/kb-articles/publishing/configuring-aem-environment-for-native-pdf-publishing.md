@@ -17,7 +17,7 @@ O AEM Guides inclui um mecanismo de publicação PDF nativo que permite aos usu�
 
 Ele fornece a capacidade de criar diferentes layouts de página, modelos CSS e projetar os modelos de PDF em conjunto com os layouts de página e CSS.
 
-As etapas para configurar esse PDF nativo nos guias AEM diferem de acordo com o sistema operacional. Use as etapas de configuração abaixo com base no sistema operacional no qual o AEM está instalado.
+As etapas para configurar esse PDF nativo no AEM Guides diferem dependendo do sistema operacional. Use as etapas de configuração abaixo com base no sistema operacional no qual o AEM está instalado.
 
 ## Pré-requisitos
 
@@ -93,7 +93,7 @@ O mecanismo de publicação PDF nativo precisa do JDK do Oracle para gerar os m�
    2. caminho de exportação=$PATH: $JAVA\_HOME/bin
 
 5. Reinicie o Servidor AEM e vá para a Etapa 12, se estiver usando o Guides versão 4.2 e superior.
-6. Copie o &quot;_node_modules.zip_&quot; anexado na parte inferior deste artigo ao diretório crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166/.
+6. Copie o &quot;_node_modules.zip_&quot; anexado na parte inferior deste artigo no diretório crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166/.
 7. Abra o terminal no crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166/.
 8. Exclua o diretório node_modules usando o comando abaixo
 
@@ -101,17 +101,17 @@ O mecanismo de publicação PDF nativo precisa do JDK do Oracle para gerar os m�
 
 9. Descompacte node_modules.zip usando o comando abaixo
 
-   **unzip node_modules.zip**
+   **descompactar node_modules.zip**
 
 10. Se o comando unzip não estiver instalado/reconhecido, ele poderá ser instalado usando o seguinte comando
 
-   **yum install unzip**
+   **descompactar a instalação do yum**
 
 11. Instale o pacote fontconfig.
 Comando: yum install fontconfig
 12. Gerar PDF nativo a partir de predefinições no editor da Web.
 
-**NOTA** : o pacote node_modules.zip pode ser baixado [aqui](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:295d8f03-41e1-429b-8465-2761ce3c2fb3).
+**OBSERVAÇÃO**: o pacote node_modules.zip pode ser baixado [aqui](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:295d8f03-41e1-429b-8465-2761ce3c2fb3).
 
 A importação manual dos módulos de nó baixados para o sistema operacional Linux é uma solução alternativa para usuários que estão no Guides 4.1 ou em versões anteriores (Etapa 6-12)
 
@@ -142,11 +142,13 @@ A importação manual dos módulos de nó baixados para o sistema operacional Li
 
    C:/{aem-installation-folder}/crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166
 
-   i) encontrar . -tipo d -exec chmod 0755 {} \; ii) localizar . -tipo f -exec chmod 0755 {} \; iii) ./node-darwin/bin/node node-darwin/lib/node_modules/npm/bin/npm-cli.js —prefix . install — unsafe-perm — scripts-prepend-node-path
+   i) encontrar . -type d -exec chmod 0755 {} \;
+ii) encontrar . -type f -exec chmod 0755 {} \;
+iii)/node-darwin/bin/node node-darwin/lib/node_modules/npm/bin/npm-cli.js —prefix . install — unsafe-perm — scripts-prepend-node-path
 
 8. Verifique se o Java está instalado usando o comando abaixo
 
-   i) Executar **./node-darwin/bin/node** comando da pasta /crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166
+   i) Execute **.comando /node-darwin/bin/node** da pasta /crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166
 
    ![mac](../assets/publishing/mac.png)
 
@@ -175,12 +177,12 @@ Se o problema persistir mesmo após a correção das configurações do ambiente
 
 ![bibliotecas ausentes](../assets/publishing/missing-libraries.png)
 
-### Tempo limite do processo de publicação. O processo não foi concluído no tempo especificado de 0 ms
+### Tempo limite do processo do Publish. O processo não foi concluído no tempo especificado de 0 ms
 
 ![tempo limite do processo de publicação](../assets/publishing/publish-process-timeout.png)
 
-Valide o valor da propriedade timeout do nó nodejs em /var/dxml/profiles/b1aad0a7-9079-e56c-1ed8-6fcababe8166/nodejs no repositório CRX. O valor padrão é 300.
+Valide o valor da propriedade timeout do nó nodejs em /var/dxml/profiles/b1aad0a7-9079-e56c-1ed8-6fcababe8166/nodejs no repositório do CRX. O valor padrão é 300.
 
 
 
-Caso encontre problemas ao executar qualquer uma das etapas acima, poste sua pergunta na Comunidade dos Guias AEM [fórum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) para obter assistência.
+Se você encontrar problemas ao executar qualquer uma das etapas acima, poste sua pergunta no [fórum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) da Comunidade do AEM Guides para obter assistência.

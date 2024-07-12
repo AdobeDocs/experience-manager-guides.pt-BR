@@ -1,13 +1,13 @@
 ---
 title: Editar uma coleção de mapas de ativação em massa
-description: Use o painel de publicação em massa nos Guias do AEM. Saiba como editar uma coleção de mapas de ativação em massa adicionando ou removendo arquivos de mapa.
+description: Use o painel de publicação em massa no AEM Guides. Saiba como editar uma coleção de mapas de ativação em massa adicionando ou removendo arquivos de mapa.
 exl-id: 5f897c52-5d6e-4614-a14f-1806e085c21c
 feature: Publishing, Bulk Activation
 role: User
 source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '230'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -15,29 +15,30 @@ ht-degree: 0%
 
 É possível editar uma coleção de mapas de ativação em massa adicionando ou removendo arquivos de mapa ou predefinições de uma coleção. Para editar uma coleção de mapas de ativação em massa, execute as seguintes etapas:
 
-1. Selecionar **Guias** na lista de ferramentas.
+1. Selecione **Guias** na lista de ferramentas.
 
-1. Clique no link Adobe Experience Manager na parte superior e escolha **Ferramentas**.
+1. Clique no link do Adobe Experience Manager na parte superior e escolha **Ferramentas**.
 
-1. Clique no link **Painel de publicação em massa** bloco.
+1. Clique no bloco **Painel do Publish em massa**.
 
    Uma lista de coleções de mapas de ativação em massa é exibida.
 
-1. Selecione a coleção que deseja editar e clique em **Abertura**.
+1. Selecione a coleção que você deseja editar e clique em **Abrir**.
 
 1. Clique em **Editar**.
 
    A página de coleção de mapas de ativação em massa é exibida, onde você exibe os mapas junto com suas predefinições pré-configuradas para cada localidade disponível.
-Você pode visualizar os vários tipos de predefinições de saída juntamente com seus ícones, como Site AEM, PDF, PDF Nativo, HTML5, Personalizado e Saída JSON .
+Você pode visualizar os vários tipos de predefinições de saída juntamente com seus ícones, como Site AEM, PDF, PDF Nativo, HTML5, Personalizado e saída JSON
+.
 
    >[!NOTE]
    >
-   > Os pequenos ![](images/global-preset-icon.svg) O ícone indica uma predefinição no nível do perfil de pasta.
+   > O ícone pequeno ![](images/global-preset-icon.svg) indica uma predefinição de nível de perfil de pasta.
 
 
 1. Use o controle deslizante para ativar ou desativar a predefinição de saída desejada.
 
-1. Se quiser remover um mapa da coleção, expanda o mapa e escolha a variável **Selecionar para remoção** opção.
+1. Se quiser remover um mapa da coleção, expanda o mapa e escolha a opção **Selecionar para Remoção**.
 
 1. Clique em **Excluir**.
 
@@ -48,4 +49,4 @@ Você pode visualizar os vários tipos de predefinições de saída juntamente c
 1. Clique em **Concluído**.
 
 
-**Tópico pai:**[ Ativação em massa de conteúdo publicado](conf-bulk-activation.md)
+**Tópico pai:**[ Ativação em massa do conteúdo publicado](conf-bulk-activation.md)

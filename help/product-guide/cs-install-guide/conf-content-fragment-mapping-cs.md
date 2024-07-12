@@ -14,14 +14,14 @@ ht-degree: 0%
 
 # Criar um mapeamento entre um tópico e um fragmento de conteúdo
 
-Os Guias de AEM fornecem o recurso para criar um mapeamento baseado em JSON entre um tópico e um modelo de fragmento de conteúdo. Use esse mapeamento para publicar em um fragmento de conteúdo o conteúdo presente em alguns ou todos os elementos de um tópico.
+O AEM Guides fornece o recurso para criar um mapeamento baseado em JSON entre um tópico e um modelo de fragmento de conteúdo. Use esse mapeamento para publicar em um fragmento de conteúdo o conteúdo presente em alguns ou todos os elementos de um tópico.
 
 1. Para baixar o *contentFragmentMapping.json*, faça logon no Adobe Experience Manager como administrador.
-1. Selecione o link Adobe Experience Manager na parte superior e escolha **Ferramentas**.
-1. Selecione Guias na lista de ferramentas e selecione o **Perfis de pasta**.
-1. Selecione o **Perfil global** bloco.
-1. Selecione o **Configuração do editor XML** e selecione a guia **Editar** ícone na parte superior.
-1. Selecione o **Baixar** ícone para baixar o *contentFragmentMapping.json*  no sistema local. Em seguida, você pode fazer alterações no arquivo e fazer upload do mesmo.
+1. Selecione o link do Adobe Experience Manager na parte superior e escolha **Ferramentas**.
+1. Selecione Guias na lista de ferramentas e selecione a **Pasta Perfis**.
+1. Selecione o bloco **Perfil Global**.
+1. Selecione a guia **Configuração do Editor XML** e selecione o ícone **Editar** na parte superior.
+1. Selecione o ícone **Baixar** para baixar o arquivo *contentFragmentMapping.json* no sistema local. Em seguida, você pode fazer alterações no arquivo e fazer upload do mesmo.
 
 1. Você precisa seguir as seguintes validações:
 
@@ -94,4 +94,4 @@ Arquivo de exemplo:
 ]
 ```
 
-Você pode publicar todo o tópico com o mapeamento padrão. Selecione o `Full Topic` mapeamento na lista suspensa **Gerar fragmento de conteúdo** e têm o campo &quot;topicData&quot; no modelo de fragmento de conteúdo.
+Você pode publicar todo o tópico com o mapeamento padrão. Selecione o mapeamento `Full Topic` na caixa de diálogo suspensa **Gerar fragmento de conteúdo** e tenha o campo &quot;topicData&quot; no modelo de fragmento de conteúdo.

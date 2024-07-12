@@ -32,12 +32,12 @@ Detalhes do pacote:
   public class FolderProfileUtils extends Object
   ```
 
-  A variável **`FolderProfileUtils`** A classe contém um método para adicionar atributos condicionais em um perfil de pasta.
+  A classe **`FolderProfileUtils`** contém um método para adicionar atributos condicionais em um perfil de pasta.
 
 
 ## Adicionar atributos condicionais a um perfil de pasta
 
-A variável ``addAttributeProfiles`` O método adiciona atributos condicionais a um perfil de nível de pasta.
+O método ``addAttributeProfiles`` adiciona atributos condicionais a um perfil de nível de pasta.
 
 **Sintaxe**:
 
@@ -53,15 +53,23 @@ String profileName,
 Session session) throws GuidesApiException
 ```
 
-**Parâmetros**: |Nome|Tipo|Descrição| |—|—|—| |``attributeNames``|String|Uma lista de nomes de atributos.| |``values``|String|Uma lista de valores para os atributos fornecidos.| |`labels`|String|Uma lista de rótulos para a `attribute`- `value` pares. [1](#fntarg_1)| |`profileName`|String|O nome do perfil no nível da pasta ao qual esses atributos, valores e rótulos devem ser aplicados. **Importante:** Todos os atributos-valores-rótulos existentes definidos no perfil são substituídos.| |`session`|javax.jcr.Session|Uma sessão JCR válida.|
+**Parâmetros**:
+|Nome|Tipo|Descrição|
+|—|—|—|
+|``attributeNames``|String|Uma lista de nomes de atributos.|
+|``values``|String|Uma lista de valores para os atributos fornecidos.|
+|`labels`|Cadeia|Uma lista de rótulos para os pares `attribute`- `value`. [1](#fntarg_1)|
+|`profileName`|String|O nome do perfil no nível da pasta ao qual esses atributos, valores e rótulos devem ser aplicados. **Importante:** todos os atributos-valores-rótulos existentes definidos no perfil são substituídos.|
+|`session`|javax.jcr.Session|Uma sessão JCR válida.|
 
 **Devoluções**:
-`true` para obter sucesso. No caso de uma falha, ele aciona uma exceção.
+`true` para obter êxito. No caso de uma falha, ele aciona uma exceção.
 
-**Exceção**: Lançamentos ``java.lang.Exception`` nos seguintes cenários:
+**Exceção**:
+Lança ``java.lang.Exception`` nos seguintes cenários:
 
-- Se a API não pudesse obter `resourceResolverFactory` objeto. Nesse caso, você deve reiniciar o pacote.
+- Se a API não pudesse obter o objeto `resourceResolverFactory`. Nesse caso, você deve reiniciar o pacote.
 - Se os parâmetros transmitidos para a API forem inválidos.
 - Se a API for chamada por meio de uma sessão de usuário não autorizada, como o usuário que não é um administrador para o perfil de pasta determinado.
 
-[1](#fnsrc_1) A variável `attributeNames`, `values`, e `labels` no mesmo índice em uma lista de matriz deve corresponder à mesma entrada.
+[1](#fnsrc_1) `attributeNames`, `values` e `labels` no mesmo índice em uma lista de matriz devem corresponder à mesma entrada.

@@ -28,7 +28,7 @@ Nesta sessão, você obterá insights valiosos sobre a publicação de PDF nativ
 - **Data** - 7 de setembro de 2023
 - **Número de participantes** - 65
 - **Duração** - 75 minutos
-- **Público** - Clientes, parceiros e funcionários da Adobe
+- **Público-alvo** - Clientes, parceiros e funcionários da Adobe
 
 ## Principais aprendizados
 
@@ -54,18 +54,18 @@ Nesta sessão, você aprendeu sobre o seguinte para publicação de PDF nativo:
 
 - **Casos de uso comuns documentados** - [no Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/content-styles/stylesheet.html?lang=en)
 
-- **Fórum da comunidade** - Para interações da comunidade específicas por sessão no Experience League, visite  [Fórum de guias do AEM](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Fórum da comunidade** - Para interações da comunidade específicas da sessão no Experience League, visite [Fórum da AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
-> Os recursos mostrados nesta sessão estão disponíveis nas seguintes versões dos Guias do AEM:
+> Os recursos mostrados nesta sessão estão disponíveis nas seguintes versões do AEM Guides:
 > - No local 4.2 ou posterior
 > - Cloud Service 2309 e posterior
 
 ## Próxima sessão com especialistas
 
-- **Tópico** - Estrutura de extensão do Guides
-- **Agendado para** - 2 de novembro de 2023
+- **Tópico** - Estrutura de Extensão de Guias
+- **Agendado em** - 02 de novembro de 2023
 
 ## Entre em contato
 

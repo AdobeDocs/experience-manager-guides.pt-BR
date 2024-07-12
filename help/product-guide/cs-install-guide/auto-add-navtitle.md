@@ -14,22 +14,22 @@ ht-degree: 1%
 
 # Incluir atributo @navtitle por padrão {#id2115BC0J0XA}
 
-É possível adicionar diferentes tipos de arquivos de referência em um mapa, por exemplo, tópico, referência, tarefa, mapas \(sub\) e assim por diante. A maioria desses arquivos oferece suporte ao `@navtitle` atributo. No entanto, poucos autores o usam de forma consistente. Se quiser impor o uso do `@navtitle` em todos os arquivos referenciados em um mapa, é possível fazer isso com uma configuração simples.
+É possível adicionar diferentes tipos de arquivos de referência em um mapa, por exemplo, tópico, referência, tarefa, mapas \(sub\) e assim por diante. A maioria desses arquivos oferece suporte ao atributo `@navtitle`. No entanto, poucos autores o usam de forma consistente. Se você quiser impor o uso do atributo `@navtitle` em todos os arquivos referenciados em um mapa, faça isso com uma configuração simples.
 
-Uma vez habilitado, cada arquivo de referência adicionado em um mapa receberá automaticamente a `@navtitle` atributo adicionado às suas propriedades. A variável `@navtitle` também obterá o valor do `title` elemento do conteúdo referenciado.
+Uma vez habilitado, cada arquivo de referência adicionado em um mapa receberá automaticamente o atributo `@navtitle` adicionado às suas propriedades. O `@navtitle` também obterá o valor do elemento `title` do conteúdo referenciado.
 
-Para incluir `@navtitle` atributo por padrão nas propriedades dos arquivos de referência, execute as seguintes etapas:
+Para incluir o atributo `@navtitle` por padrão nas propriedades dos arquivos de referência, execute as seguintes etapas:
 
 1. Para baixar o arquivo de configuração da interface do usuário, faça logon no Adobe Experience Manager como administrador.
 
-1. Clique no link Adobe Experience Manager na parte superior e escolha **Ferramentas**.
-1. Selecionar **Guias** na lista de ferramentas e clique no botão **Perfis de pasta**.
-1. Clique no link **Perfil global** bloco.
-1. Selecione o **Configuração do editor XML** e clique em **Editar** ícone na parte superior
-1. Clique em **Baixar** ícone para baixar o arquivo ui\_config.json no sistema local.
-1. Você pode fazer essa alteração no nível Global ou em um perfil de nível de pasta. Dependendo de onde você deseja fazer essa alteração, é necessário baixar o respectivo arquivo ui\_config.json. Para obter mais informações sobre como baixar o arquivo ui\_config.json, consulte [Configurar e personalizar o editor da Web de XML](conf-folder-level.md#id2065G300O5Z).
+1. Clique no link do Adobe Experience Manager na parte superior e escolha **Ferramentas**.
+1. Selecione **Guias** na lista de ferramentas e clique em **Perfis de Pasta**.
+1. Clique no bloco **Perfil Global**.
+1. Selecione a guia **Configuração do editor XML** e clique no ícone **Editar** na parte superior
+1. Clique no ícone **Baixar** para baixar o arquivo ui\_config.json em seu sistema local.
+1. Você pode fazer essa alteração no nível Global ou em um perfil de nível de pasta. Dependendo de onde você deseja fazer essa alteração, é necessário baixar o respectivo arquivo ui\_config.json. Para obter mais informações sobre como baixar o arquivo ui\_config.json, consulte [Configurar e personalizar o Editor da Web de XML](conf-folder-level.md#id2065G300O5Z).
 
-1. Procure por `ditaAttributes` definição.
+1. Procure a definição `ditaAttributes`.
 
    A definição padrão de `ditaAttributes` é:
 
@@ -41,7 +41,7 @@ Para incluir `@navtitle` atributo por padrão nas propriedades dos arquivos de r
                            },
    ```
 
-1. Altere o `required` parâmetro como:
+1. Alterar o parâmetro `required` como:
 
    ```
    "required": {"navtitle": true}
@@ -52,6 +52,6 @@ Para incluir `@navtitle` atributo por padrão nas propriedades dos arquivos de r
 1. Faça upload do arquivo no perfil correspondente \(Global ou Folder\).
 
 
-Com essa configuração, cada arquivo de referência adicionado a um mapa conterá a variável `@navtitle` atributo por padrão.
+Com essa configuração, cada arquivo de referência adicionado a um mapa conterá o atributo `@navtitle` por padrão.
 
 **Tópico pai:**[ Personalizar editor da Web](conf-web-editor.md)

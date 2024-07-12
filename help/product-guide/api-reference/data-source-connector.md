@@ -20,10 +20,13 @@ A API REST a seguir permite registrar um conector de fonte de dados.
 
 Um método GET que registra um conector de origem de dados.
 
-**URL de solicitação**:
+**Solicitar URL**:
 `http://server:port/bin/guides/v1/konnect/config/register?path=<uploaded file path>`
 
-**Parâmetro**: |Nome|Tipo|Obrigatório|Descrição| |—|—|—|—| |`path`|String|Sim|Uma string que aponta para um caminho no repositório AEM. Pode ser um caminho no estado `/content/dam or /var/dxml`.|
+**Parâmetro**:
+|Nome|Tipo|Obrigatório|Descrição|
+|—|—|—|—|
+|`path`|Cadeia de caracteres|Sim|Uma cadeia de caracteres que aponta para um caminho no repositório AEM. Pode ser um caminho no `/content/dam or /var/dxml`.|
 
 **Exemplo**:\
 `http://host:4502/bin/guides/v1/konnect/config/register?path=/var/dxml/konnect/jira.json`

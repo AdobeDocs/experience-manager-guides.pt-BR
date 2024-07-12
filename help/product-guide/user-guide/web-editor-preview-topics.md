@@ -1,6 +1,6 @@
 ---
 title: Visualizar um tópico
-description: Saiba como visualizar um tópico em Guias do AEM. Saiba mais sobre os recursos disponíveis no modo de visualização. Ramificar, reverter e versões subsequentes em guias AEM.
+description: Saiba como visualizar um tópico no AEM Guides. Saiba mais sobre os recursos disponíveis no modo de visualização. Ramificar, reverter e versões subsequentes em guias AEM.
 exl-id: f4013ac6-226a-4e66-bd7b-604ac7c361ae
 feature: Authoring
 role: User
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Visualizar um tópico {#id1696II000QR}
 
-Depois que um tópico é criado, as Guias do AEM geram uma pré-visualização do tópico. O modo de Visualização fornece vários recursos que você pode usar para trabalhar com o documento.
+Depois que um tópico é criado, o AEM Guides gera uma pré-visualização do tópico. O modo de Visualização fornece vários recursos que você pode usar para trabalhar com o documento.
 
 Execute as seguintes etapas para visualizar um tópico:
 
@@ -42,19 +42,19 @@ Exibir as propriedades do tópico selecionado. Com base na versão do AEM, você
 
 >[!NOTE]
 >
-> A propriedade de título de um tópico é preenchida automaticamente a partir da `title` do tópico ou mapa DITA. Se você fizer qualquer alteração no título usando a janela de propriedades, essa alteração será perdida. Se quiser atualizar a propriedade do título, faça isso usando o editor da Web.
+> A propriedade de título de um tópico é preenchida automaticamente a partir da tag `title` do tópico ou mapa DITA. Se você fizer qualquer alteração no título usando a janela de propriedades, essa alteração será perdida. Se quiser atualizar a propriedade do título, faça isso usando o editor da Web.
 
-A página Propriedades contém informações úteis sobre as referências, como onde um mapa ou tópico está sendo usado ou quais referências estão contidas em um documento. A página Propriedades lista dois tipos de referências para um documento - **Usado em** e **Referências de saída**.
+A página Propriedades contém informações úteis sobre as referências, como onde um mapa ou tópico está sendo usado ou quais referências estão contidas em um documento. A página Propriedades lista dois tipos de referências para um documento - **Usado em** e **Referências de Saída**.
 
-A variável **Usado em** as referências listam os documentos nos quais o arquivo atual está sendo referenciado ou usado. A variável **Referências de saída** lista os documentos referenciados no documento atual.
+As referências **Usado em** listam os documentos nos quais o arquivo atual está sendo referenciado ou usado. A **Referências de Saída** lista os documentos referenciados no documento atual.
 
-O ícone \(+\) no **Usado em** a seção referências permite navegar ainda mais para cima para descobrir onde esse tópico está sendo usado ou referenciado.
+O ícone \(+\) na seção de referências **Usado em** permite navegar para cima para localizar onde esse tópico está sendo usado ou referenciado.
 
 ![](images/used-in-dialog_cs.png){width="800" align="left"}
 
-Clicar no ![](images/right-arrow-used-in-dialog.svg)ícone ao lado de um documento mostra os arquivos de mapa ou tópico para os quais esse documento está sendo mais referenciado.
+Clicar no ícone ![](images/right-arrow-used-in-dialog.svg) ao lado de um documento mostra o mapa ou os arquivos de tópico para os quais esse documento está sendo mais referenciado.
 
-**Filtragem condicional \(A/B\)**
+**Filtragem Condicional \(A/B\)**
 
 Se o tópico tiver conteúdo condicional, você verá o ícone A/B na barra de ferramentas. Clicar nesse ícone abre uma janela pop-up que permite filtrar o conteúdo de acordo com as condições disponíveis no tópico.
 
@@ -66,31 +66,31 @@ Se o tópico tiver conteúdo condicional, você verá o ícone A/B na barra de f
 
 **Editar**
 
-- Abra o tópico para edição no Editor da Web. A variável **Editar** opção não estará disponível se o administrador tiver habilitado a **Desativar Edição Sem Check-Out** opção. Com a opção ativada, você verá a variável **Editar** opção somente após fazer check-out de um arquivo de tópico.
+- Abra o tópico para edição no Editor da Web. A opção **Editar** não estará disponível se o administrador tiver habilitado a opção **Desabilitar Edição Sem Check-out**. Com a opção habilitada, você verá a opção **Editar** somente após fazer check-out de um arquivo de tópico.
 
-**Resolução de chave**
+**Resolução de Chave**
 
 - Se quiser usar um arquivo de espaço-chave para o tópico, clique no ícone Resolução-Chave. Em seguida, você pode escolher um espaço de chave na janela pop-up Resolução de chave.
 
 **Origem**
 
-- Abra o código-fonte XML de um arquivo. Você pode exibir o código XML subjacente de um mapa, tópico ou arquivo DITAVAL abrindo o arquivo no modo Visualização e clicando no ícone Código-fonte. O pop-up Código-fonte XML exibe o código-fonte XML. Você pode selecionar um código específico no arquivo ou pressionar `Ctrl`+`a` para selecionar todo o conteúdo.
+- Abra o código-fonte XML de um arquivo. Você pode exibir o código XML subjacente de um mapa, tópico ou arquivo DITAVAL abrindo o arquivo no modo Visualização e clicando no ícone Source. O pop-up XML Source exibe o código-fonte XML. Você pode selecionar um código específico do arquivo ou pressionar `Ctrl`+`a` para selecionar o conteúdo inteiro.
 
   >[!NOTE]
   >
-  > Para obter a visualização do código-fonte de um arquivo de mapa DITA, selecione o arquivo na interface do usuário do Assets e clique em Origem.
+  > Para obter a visualização do código-fonte de um arquivo de mapa DITA, selecione o arquivo na interface do usuário do Assets e clique em Source.
 
   ![](images/xml-source-code-view-from-preview_cs.png){width="800" align="left"}
 
-**Compartilhar link UUID**
+**Compartilhar Link UUID**
 
-- Guias de AEM permitem compartilhar os links baseados em UUID para mapas DITA, tópicos e arquivos de imagem dos seguintes locais:
+- O AEM Guides permite compartilhar os links baseados em UUID para mapas DITA, tópicos e arquivos de imagem dos seguintes locais:
 
    - Interface do usuário do Assets
    - Console do mapa DITA
    - Visualização do tópico ou da imagem
 
-Uma nova opção **Compartilhar link UUID** é mostrado na barra de ferramentas das áreas mencionadas acima. A captura de tela a seguir mostra o **Compartilhar link UUID** no modo Visualização de um tópico:
+Uma nova opção **Compartilhar link de UUID** é mostrada na barra de ferramentas das áreas mencionadas acima. A captura de tela a seguir mostra a opção **Compartilhar Link UUID** no modo de Visualização de um tópico:
 
 ![](images/share-uuid-link_cs.png){width="800" align="left"}
 
@@ -98,7 +98,7 @@ Na interface do usuário do Assets, essa opção fica visível ao selecionar um 
 
 Depois de copiar o URL, o mesmo poderá ser compartilhado com outros usuários para conceder a eles acesso direto ao arquivo. Esse link permanece válido mesmo quando o arquivo é movido para algum outro local no repositório. A única vez que o link falhará é quando o arquivo for excluído do repositório.
 
-Se você compartilhar o link do console de mapa DITA ou do modo de visualização de um arquivo, o usuário terá a mesma visualização do arquivo. No entanto, quando você compartilha o link de um arquivo de mapa na interface do usuário do Assets, o usuário é direcionado para o console do mapa. Da mesma forma, para um tópico ou arquivo de imagem, a visualização do arquivo é mostrada.
+Se você compartilhar o link do console de mapa DITA ou do modo de visualização de um arquivo, o usuário terá a mesma visualização do arquivo. No entanto, quando você compartilha o link de um arquivo de mapa na interface do usuário do Assets, o usuário é levado para o console do mapa. Da mesma forma, para um tópico ou arquivo de imagem, a visualização do arquivo é mostrada.
 
 >[!IMPORTANT]
 >
@@ -118,7 +118,7 @@ Arquivo com check-out na exibição de lista:
 
 ![](images/checkout-list-62.png){width="550" align="left"}
 
-Se a coluna Retirado não estiver visível, selecione **Configurações de exibição** em **Exibição de lista** e selecione o **Retirado** status na variável **Configurar colunas** diálogo.
+Se a coluna Com check-out não estiver visível, selecione **Configurações de Exibição** em **Exibição em Lista** e selecione o status **Com check-out** na caixa de diálogo **Configurar Colunas**.
 
 ![](images/list-view-settings-check-out_cs.png){width="800" align="left"}
 
@@ -136,13 +136,13 @@ Se a coluna Retirado não estiver visível, selecione **Configurações de exibi
 
    1. Abra o tópico no modo Visualização.
 
-   1. No painel à esquerda, clique em **Histórico da versão** e selecione uma versão.
+   1. No painel à esquerda, clique em **Histórico de Versões** e selecione uma versão.
 
       ![](images/timeline-versions62_cs.png){width="800" align="left"}
 
-   1. Nas versões listadas, selecione aquela que deseja usar como a versão base e clique em **Versão de visualização**. A visualização da versão selecionada é mostrada na janela Visualização de versão.
+   1. Nas versões listadas, selecione aquela que você deseja usar como a versão base e clique em **Visualizar Versão**. A visualização da versão selecionada é mostrada na janela Visualização de versão.
 
-   1. No **Mostrar comparação** selecione a versão com a qual deseja comparar a versão base.
+   1. Na lista **Mostrar comparação**, selecione a versão com a qual deseja comparar a versão base.
 
       ![](images/show-diff-list-cropped.png){width="800" align="left"}
 
@@ -153,7 +153,7 @@ Se a coluna Retirado não estiver visível, selecione **Configurações de exibi
 
 ### Ramificar, reverter e versões subsequentes {#id193PG0Y051X}
 
-- Em um ambiente de criação típico, seria necessário criar uma nova ramificação de um tópico para atender a uma versão específica. Assim como qualquer outro sistema de gerenciamento de versão, os Guias do AEM permitem criar uma ramificação a partir de uma versão existente de um tópico ou reverter para uma versão mais antiga de um tópico. Usando os recursos de gerenciamento de versão oferecidos pelos Guias do AEM, você pode executar as seguintes tarefas:
+- Em um ambiente de criação típico, seria necessário criar uma nova ramificação de um tópico para atender a uma versão específica. Como qualquer outro sistema de gerenciamento de versão, o AEM Guides permite criar uma ramificação a partir de uma versão existente de um tópico ou reverter para uma versão mais antiga de um tópico. Usando os recursos de gerenciamento de versão oferecidos pelo AEM Guides, você pode executar as seguintes tarefas:
 
    - Criar uma ramificação a partir de uma versão existente de um tópico
    - Criar versões subsequentes em uma nova ramificação
@@ -165,7 +165,7 @@ Se a coluna Retirado não estiver visível, selecione **Configurações de exibi
 
   Para qualquer novo tópico, a primeira versão é numerada como 1.0. Consequentemente, cada nova versão do tópico é salva com um número incremental como 1.1, 1.2 e assim por diante. Depois de criar uma ramificação de um tópico, uma nova ramificação é criada pegando o número da versão do local em que a ramificação é criada e adicionando um .0 no final da versão. Como visto na ilustração, uma nova ramificação é criada a partir da versão 1.1 de um tópico. A nova ramificação recebe a versão 1.1.0. Consequentemente, toda vez que você salvar uma nova versão do tópico nesta ramificação, ele receberá um número de versão incremental como 1.1.1, 1.1.2 e assim por diante.
 
-  Semelhante à ramificação, você também pode reverter sua versão atual ou em funcionamento para qualquer versão existente no repositório. Para reverter para uma versão, basta selecionar a versão desejada do tópico e clicar em **Reverter para esta versão** no **Histórico da versão** painel.
+  Semelhante à ramificação, você também pode reverter sua versão atual ou em funcionamento para qualquer versão existente no repositório. Para reverter para uma versão, basta selecionar a versão desejada do tópico e clicar em **Reverter para Esta Versão** no painel **Histórico de Versão**.
 
   Execute as seguintes etapas para criar uma ramificação, reverter para uma versão e manter versões subsequentes de um tópico:
 
@@ -173,7 +173,7 @@ Se a coluna Retirado não estiver visível, selecione **Configurações de exibi
   >
   > O método descrito no procedimento a seguir é aplicável apenas para arquivos DITA. Para arquivos não DITA, use a exibição Linha do tempo para criar versões ou restaurar uma versão existente de um arquivo.
 
-   1. Acesse o tópico na interface do usuário do Assets.
+   1. Acesse o tópico na interface do Assets.
 
       >[!NOTE]
       >
@@ -181,11 +181,11 @@ Se a coluna Retirado não estiver visível, selecione **Configurações de exibi
 
    1. Selecione o tópico para o qual deseja criar uma ramificação.
 
-   1. No painel à esquerda, clique em **Histórico da versão**.
+   1. No painel à esquerda, clique em **Histórico de Versões**.
 
       >[!NOTE]
       >
-      > Uma lista de versões disponíveis para o tópico selecionado é exibida. Cada versão contém o carimbo de data e hora, o nome de usuário, o comentário da versão e [rótulo](web-editor-use-label.md#) informações.
+      > Uma lista de versões disponíveis para o tópico selecionado é exibida. Cada versão contém informações de carimbo de data/hora, nome de usuário, comentário de versão e [rótulo](web-editor-use-label.md#).
 
    1. Selecione uma versão em que deseja criar uma ramificação. Na captura de tela a seguir, a versão 1.2 é selecionada para criar uma ramificação.
 
@@ -193,13 +193,13 @@ Se a coluna Retirado não estiver visível, selecione **Configurações de exibi
 
       >[!NOTE]
       >
-      > A versão atual de um tópico contém *\(Atual\)* mencionado ao lado do número da versão.
+      > A versão atual de um tópico contém *\(Current\)* mencionado ao lado do número da versão.
 
    1. Clique em **Reverter para esta versão**.
 
       Uma mensagem é exibida solicitando que você confirme a criação de uma nova ramificação.
 
-   1. *\(Opcional\)* No prompt de mensagem, há uma opção para selecionar a variável **Salvar A Cópia De Trabalho Atual Como Uma Nova Versão**. As duas ações a seguir são possíveis com base na seleção dessa opção:
+   1. *\(Opcional\)* No prompt de mensagem, você tem a opção de selecionar **Salvar a Cópia de Trabalho Atual como uma Nova Versão**. As duas ações a seguir são possíveis com base na seleção dessa opção:
 
       - Se você selecionar essa opção, uma ramificação será criada da versão 1.1. Além disso, uma nova versão do tópico também é criada a partir da cópia de trabalho atual do tópico e salva como a próxima versão - 1.4.
 
@@ -216,6 +216,6 @@ Se a coluna Retirado não estiver visível, selecione **Configurações de exibi
    1. Clique em **OK**.
 
 
-  Uma nova ramificação é criada a partir da versão selecionada do tópico. O processo acima também é aplicável para reverter para uma versão específica de um tópico. Reverter para uma versão específica tecnicamente significa que você cria uma nova ramificação da versão selecionada e torna essa versão a cópia de trabalho atual do tópico. Você também pode exibir o histórico de arquivos que foram revertidos no relatório Histórico de reversão da versão. Para obter mais detalhes sobre esse relatório, consulte [Relatório de histórico de versão de arquivos revertidos](reports-reverted-file-version-history.md#).
+  Uma nova ramificação é criada a partir da versão selecionada do tópico. O processo acima também é aplicável para reverter para uma versão específica de um tópico. Reverter para uma versão específica tecnicamente significa que você cria uma nova ramificação da versão selecionada e torna essa versão a cópia de trabalho atual do tópico. Você também pode exibir o histórico de arquivos que foram revertidos no relatório Histórico de reversão da versão. Para obter mais detalhes sobre este relatório, consulte [Relatório de histórico de versão de arquivos revertidos](reports-reverted-file-version-history.md#).
 
 **Tópico pai:**[ Criar e visualizar tópicos](create-preview-topics.md)

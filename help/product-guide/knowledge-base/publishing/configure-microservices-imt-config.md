@@ -26,7 +26,7 @@ Como o serviço de publicação na nuvem é protegido pela autenticação basead
 
 ## Criar configurações do IMS no Adobe Developer Console
 
-**Função necessária para criar as configurações**: Administrador do sistema
+**Função necessária para criar as configurações**: Administrador do Sistema
 
 Execute as seguintes etapas para criar configurações de IMS no **Adobe Developer Console**:
 
@@ -34,21 +34,21 @@ Execute as seguintes etapas para criar configurações de IMS no **Adobe Develop
 >
 >Se você já criou um projeto OAuth para configurar as sugestões inteligentes habilitadas pela IA para criação, ignore as etapas a seguir para criar o projeto.
 
-1. Abertura **Developer Console**: `https://developer.adobe.com/console`.
+1. Abrir **Developer Console**: `https://developer.adobe.com/console`.
 
-1. Alterne para a **Projetos** da parte superior.
+1. Alterne para a guia **Projetos** a partir da parte superior.
 
    <img src="assets/projects-tab.png" alt="guia projetos" width="500">
 
-   *Selecione o **Projetos**na guia **Adobe Developer Console***
+   *Selecione a guia **Projetos**no **Adobe Developer Console***
 
-1. Para criar um novo projeto vazio, selecione **Projeto vazio** do **Criar novo projeto** lista suspensa.
+1. Para criar um novo projeto vazio, selecione **Projeto vazio** na lista suspensa **Criar novo projeto**.
 
    <img src="assets/create-new-project.png" alt="criar novo projeto" width="500">
 
-   *Crie um novo projeto vazio.*
+   *Criar um novo projeto vazio.*
 
-1. Selecionar **API** do **Adicionar ao projeto** para adicionar a API de gerenciamento de E/S ao seu projeto.
+1. Selecione **API** na lista suspensa **Adicionar ao Projeto** para adicionar a API de Gerenciamento de E/S ao seu projeto.
 
    <img src="assets/add-project.png" alt="adicionar projeto" width="300">
 
@@ -56,7 +56,7 @@ Execute as seguintes etapas para criar configurações de IMS no **Adobe Develop
 
    <img src="assets/io-management-api.png" alt="gerenciamento de e/s" width="500">
 
-   *Adicione a API de gerenciamento de E/S ao projeto.*
+   *Adicionar a API de Gerenciamento de E/S ao seu projeto.*
 
 1. Crie uma nova credencial OAuth e salve-a.
 
@@ -65,17 +65,17 @@ Execute as seguintes etapas para criar configurações de IMS no **Adobe Develop
    *Configure a credencial OAuth para sua API.*
 
 
-1. Retorne para a **Projetos** e selecione **Visão geral do projeto** à esquerda.
+1. Retorne à guia **Projetos** e selecione **Visão geral do projeto** à esquerda.
 
    <img src="assets/project-overview.png" alt="visão geral do projeto" width="500">
 
-   *Comece a usar o novo projeto.*
+   *Introdução ao novo projeto.*
 
-1. Clique em **Baixar** na parte superior para baixar o serviço JSON.
+1. Clique no botão **Baixar** na parte superior para baixar o serviço JSON.
 
    <img src="assets/download-json.png" alt="baixar json" width="500">
 
-   *Baixe os detalhes do serviço JSON.*
+   *Baixar detalhes do serviço JSON.*
 
 Você configurou os detalhes de autenticação do OAuth e baixou os detalhes do serviço JSON. Mantenha esse arquivo em mãos conforme necessário na próxima seção.
 
@@ -86,16 +86,16 @@ Você configurou os detalhes de autenticação do OAuth e baixou os detalhes do 
 >
 >Se você já tiver criado um projeto OAuth para sugestões inteligentes, poderá reutilizar o mesmo projeto para microsserviços e ignorar as etapas a seguir para adicionar a configuração do IMS ao ambiente.
 
-### Atualizar configuração existente (JWT para OAuth shift )
+### Atualizar configuração existente (JWT)   para OAuth shift )
 
 Se você já estiver usando um microsserviço para publicar usando o JWT (obsoleto), execute as seguintes etapas para atualizar as configurações:
 
 
 
-1. Abertura **Experience Manager** e selecione o programa que contém o ambiente que você deseja configurar.
-1. Alterne para a **Ambientes** guia.
-1. Selecione o nome do ambiente que deseja configurar. Isso deve levar você ao **Informações do ambiente** página.
-1. Alterne para a **Configuração** guia.
+1. Abra **Experience Manager** e selecione o programa que contém o ambiente que você deseja configurar.
+1. Alterne para a guia **Ambientes**.
+1. Selecione o nome do ambiente que deseja configurar. Você deve ir para a página **Informações sobre o ambiente**.
+1. Alterne para a guia **Configuração**.
 
 1. Atualize o campo JSON SERVICE_ACCOUNT_DETAILS com o novo arquivo JSON do OAuth baixado.
 1. Exclua o campo PRIVATE_KEY.
@@ -104,22 +104,22 @@ Se você já estiver usando um microsserviço para publicar usando o JWT (obsole
 
    <img src="assets/ims-service-account-config.png" alt="configuração da conta de serviço ims" width="500">
 
-   *Atualize as configurações existentes do ambiente JWT.*
+   *Atualizar as configurações existentes do ambiente JWT.*
 
 ### Primeira configuração
 
 Para usar um microsserviço de publicação pela primeira vez, atualize as configurações de acordo com as seguintes etapas:
-1. Abertura **Experience Manager** e selecione o programa que contém o ambiente que você deseja configurar.
-1. Alterne para a **Ambientes** guia.
-1. Selecione o nome do ambiente que deseja configurar. Isso deve levar você ao **Informações do ambiente** página.
-1. Alterne para a **Configuração** guia.
+1. Abra **Experience Manager** e selecione o programa que contém o ambiente que você deseja configurar.
+1. Alterne para a guia **Ambientes**.
+1. Selecione o nome do ambiente que deseja configurar. Você deve ir para a página **Informações sobre o ambiente**.
+1. Alterne para a guia **Configuração**.
 
 1. Crie uma nova configuração chamada como SERVICE_ACCOUNT_DETAILS. Em valor, adicione o conteúdo do arquivo JSON OAuth que você baixou do console do desenvolvedor .
 
 
 <img src="assets/jws-service-account-config.png" alt="configuração da conta de serviço ims" width="500">
 
-*Configure o ambiente pela primeira vez.*
+*Configurar o ambiente pela primeira vez.*
 
 
 ### Alterações no código pela primeira vez para habilitação de publicação baseada em microsserviços
@@ -130,11 +130,11 @@ Para usar um microsserviço de publicação pela primeira vez, atualize as confi
 
 Depois de adicionar a configuração IMS ao ambiente, execute as seguintes etapas para vincular essas propriedades ao Experience Manager Guides usando OSGi:
 
-1. Em seu código de projeto Git do Cloud Manager, adicione os dois arquivos a seguir em `/apps/fmditaCustom/config` (para conteúdo de arquivo, exibir [Apêndice](#appendix)).
+1. Em seu código de projeto Git do Cloud Manager, adicione os dois arquivos a seguir em `/apps/fmditaCustom/config` (para conteúdo de arquivo, exiba [Apêndice](#appendix)).
 
    * `com.adobe.aem.guides.eventing.ImsConfiguratorService.cfg.json`
    * `com.adobe.fmdita.publishworkflow.PublishWorkflowConfigurationService.xml`
-1. Verifique se os arquivos recém-adicionados estão sendo cobertos pela `filter.xml`.
+1. Certifique-se de que os arquivos recém-adicionados estejam sendo cobertos pelo seu `filter.xml`.
 1. Confirme e envie suas alterações do Git.
 1. Execute o pipeline para aplicar as alterações ao ambiente.
 
@@ -144,7 +144,7 @@ Depois disso, você poderá usar a publicação na nuvem com base em microsservi
 
 
 1. Se as configurações de OSGi para usar o microsserviço estiverem ativadas, o processo de publicação funcionará no servidor de Experience Manager local com a mesma base de código?
-   * Não, se o sinalizador `dxml.use.publish.microservice` está definida como `true`, ele sempre procura configurações de microsserviços. Definir `dxml.use.publish.microservice` para `false` para que a publicação funcione no servidor local.
+   * Não, se o sinalizador `dxml.use.publish.microservice` estiver definido como `true`, ele sempre procurará configurações de microsserviço. Defina `dxml.use.publish.microservice` como `false` para que a publicação funcione em seu servidor local.
 1. Quanta memória é alocada para o processo DITA ao usar a publicação baseada em microsserviços? Isso é orientado pelo perfil e pelos parâmetros DITA?
    * Com a publicação baseada em microsserviços, a alocação de memória não é orientada pelo perfil e pelos parâmetros DITA. A memória total disponível no container de serviço é de 8 GB, dos quais 6 GB são alocados para o processo DITA-OT.
 
@@ -165,8 +165,8 @@ Depois disso, você poderá usar a publicação na nuvem com base em microsservi
 **Arquivo**: `com.adobe.fmdita.publishworkflow.PublishWorkflowConfigurationService.xml`
 
 **Conteúdo**:
-* `dxml.use.publish.microservice`: alterne para habilitar a publicação baseada em microsserviço usando o DITA-OT
-* `dxml.use.publish.microservice.native.pdf`: Alternar para habilitar a publicação de PDF nativo com base em microsserviços
+* `dxml.use.publish.microservice`: Alternar para habilitar a publicação baseada em microsserviço usando DITA-OT
+* `dxml.use.publish.microservice.native.pdf`: Alternar para habilitar a publicação de PDF nativo baseado em microsserviços
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>

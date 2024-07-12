@@ -1,6 +1,6 @@
 ---
-title: Estrutura de extensão de guias do AEM - Personalizar o editor da Web e a interface de revisão
-description: Com a estrutura de extensão do Guides, é possível personalizar as seções desejadas da interface de revisão ou do Editor da Web usando JSON, CSS e JavaScript fáceis de atualizar.
+title: Estrutura de extensão do AEM Guides - Personalizar o editor da Web e a interface de revisão
+description: Com a estrutura de extensão do Guides, é possível personalizar as seções desejadas da interface de revisão ou do Editor da Web usando JSON, CSS e JavaScript de fácil atualização.
 exl-id: 7b2efae3-be8c-4259-babb-f28a6903116a
 feature: Web Editor, Troubleshooting
 role: User, Admin
@@ -11,11 +11,11 @@ ht-degree: 0%
 
 ---
 
-# Estrutura de extensão de guias do AEM: Personalizar o editor da Web e a interface de revisão
+# Estrutura de extensão do AEM Guides: personalizar o editor da Web e a interface de revisão
 
-Ao trabalhar em um sistema, é bastante comum que os usuários/empresas queiram botões personalizados, ações ou mostrar informações para atender às suas operações e melhorar sua produtividade. A estrutura de extensão oferece a capacidade de criar pacotes personalizados sobre guias AEM para estender a interface do usuário e seu comportamento. Esses pacotes personalizados são úteis para desenvolvedores e consultores que fornecem extensibilidade aos componentes na interface do Editor/Revisão. Eles podem direcionar botões, caixas de diálogo e listas suspensas e adicionar JavaScript personalizado que pode interoperar facilmente com a interface do usuário dos Guias AEM.
+Ao trabalhar em um sistema, é bastante comum que os usuários/empresas queiram botões personalizados, ações ou mostrar informações para atender às suas operações e melhorar sua produtividade. A estrutura de extensão oferece a capacidade de criar pacotes personalizados sobre o AEM Guides para estender a interface do usuário e seu comportamento. Esses pacotes personalizados são úteis para desenvolvedores e consultores que fornecem extensibilidade aos componentes na interface do Editor/Revisão. Eles podem direcionar botões, caixas de diálogo e listas suspensas e adicionar um JavaScript personalizado que pode interoperar facilmente com a interface do usuário do AEM Guides.
 
-Nesta sessão, com a ajuda de cenários práticos, você aprenderá a personalizar ou estender a revisão e a interface do usuário do editor da Web de guias de AEM.
+Nesta sessão, com a ajuda de cenários práticos, você aprenderá a personalizar ou estender a interface do usuário de revisão e editor da Web do AEM Guides.
 
 ## Gravação da sessão
 
@@ -26,7 +26,7 @@ Nesta sessão, com a ajuda de cenários práticos, você aprenderá a personaliz
 - **Data** - 2 de novembro de 2023
 - **Número de participantes** - 119
 - **Duração** - 60 minutos
-- **Público** - Clientes, parceiros e funcionários da Adobe
+- **Público-alvo** - Clientes, parceiros e funcionários da Adobe
 
 ## Principais aprendizados
 
@@ -45,7 +45,7 @@ Nesta sessão, você aprendeu sobre o seguinte:
 
 ## Recursos relacionados
 
-- **Repositório de base da estrutura de extensão** - [GIT](https://github.com/adobe/guides-extension/tree/main)
+- **Repositório base da estrutura de extensão** - [GIT](https://github.com/adobe/guides-extension/tree/main)
 
 - **Documentação** - [no Experience League](../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)
 
@@ -56,7 +56,7 @@ Nesta sessão, você aprendeu sobre o seguinte:
 
 >[!NOTE]
 >
-> Os recursos mostrados nesta sessão estão disponíveis nas seguintes versões dos Guias do AEM:
+> Os recursos mostrados nesta sessão estão disponíveis nas seguintes versões do AEM Guides:
 > - Outubro de 2023 (para nuvem)
 > - 4.3.x (para não nuvem)
 

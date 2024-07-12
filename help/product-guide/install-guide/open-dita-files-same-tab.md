@@ -24,18 +24,18 @@ Em alguns workflows, ao clicar em um link de um tópico ou arquivo de mapa, ele 
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Procure por e clique no link **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** pacote.
+1. Procure e clique no pacote **com.adobe.fmdita.xmleditor.config.XmlEditorConfig**.
 
-1. Selecione o **Abrir tópico/mapa DITA na mesma guia** opção.
+1. Selecione a opção **Abrir tópico/mapa DITA na mesma guia**.
 
 1. Clique em **Salvar**.
 
 
 Essa configuração afeta os seguintes locais de onde você pode acessar o tópico ou mapear arquivos:
 
-- Crie o tópico DITA \(no final do fluxo de trabalho, ao clicar no botão **Abrir tópico** botão\)
+- Criar tópico DITA \(no final do fluxo de trabalho, ao clicar no botão **Abrir tópico**\)
 
-- Crie o Mapa DITA \(no final do fluxo de trabalho, ao clicar no botão **Abrir mapa** botão\)
+- Criar Mapa DITA \(no final do fluxo de trabalho, ao clicar no botão **Abrir Mapa**\)
 
 - Guia Tópicos no console do mapa DITA
 

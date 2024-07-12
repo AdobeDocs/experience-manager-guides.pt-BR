@@ -22,11 +22,11 @@ Antes de começar o processo de download e instalação, você deve garantir que
 
 - **[Instalar o Adobe Experience Manager](download-install-aem.md)**
 
-- **[Baixe e instale o AEM Guides pela primeira vez](download-install-aemg-first-time.md)**
+- **[Baixar e instalar o AEM Guides pela primeira vez](download-install-aemg-first-time.md)**
 
 - **[Configurar Dispatcher](download-install-configure-dispatcher.md)**
 
-- **[Verificar a instalação do AEM Guides](download-install-verify-aemg-installation.md)**
+- **[Verificar instalação do AEM Guides](download-install-verify-aemg-installation.md)**
 
 - **[Atualizar o Adobe Experience Manager Guides](upgrade-xml-documentation.md)**
 

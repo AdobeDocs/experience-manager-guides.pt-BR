@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # Configurar modelo de tópico DITA personalizado {#id16A7G0O02TD}
 
-Os Guias do AEM vêm com os seguintes modelos de tópico DITA:
+O AEM Guides vem com os seguintes modelos de tópico DITA:
 
 - Tópico
 
@@ -35,22 +35,22 @@ Você pode usar qualquer um desses modelos para criar modelos de tópicos de aco
 
 Para personalizar o modelo de tópico DITA e usá-lo para criação, é necessário executar as três tarefas principais a seguir:
 
-1. *\(Opcional\)* [Configurar caminho da pasta de modelo DITA personalizado](#id191LCF0095Z)
+1. *\(Opcional\)* [Configurar caminho de pasta de modelo DITA personalizado](#id191LCF0095Z)
 
 1. [Criar modelo de criação personalizado](conf-folder-level.md#id1917D0EG0HJ)
 
-1. Adicione um modelo personalizado ao perfil global ou de nível de pasta, conforme explicado na seção [Configurar modelos de criação](conf-folder-level.md#id1889D0IL0Y4) seção
+1. Adicione um modelo personalizado ao perfil global ou de nível de pasta, conforme explicado na seção [Configurar modelos de criação](conf-folder-level.md#id1889D0IL0Y4)
 
 
 ## Configurar caminho da pasta de modelo DITA personalizado {#id191LCF0095Z}
 
-O Guia AEM permite configurar uma pasta para armazenar o mapa e os modelos DITA personalizados. Por padrão, os arquivos de modelo são armazenados na seguinte pasta no DAM:
+O AEM Guides permite configurar uma pasta para armazenar o mapa e os modelos DITA personalizados. Por padrão, os arquivos de modelo são armazenados na seguinte pasta no DAM:
 
 `/content/dam/dita-templates/`
 
-Para gerenciar arquivos de modelo de tópico e mapa, há pastas dedicadas para armazenar o tópico e os modelos de mapa. Por padrão, todos os modelos de tópico são armazenados no `/content/dam/dita-templates/topics`
+Para gerenciar arquivos de modelo de tópico e mapa, há pastas dedicadas para armazenar o tópico e os modelos de mapa. Por padrão, todos os modelos de tópico são armazenados em `/content/dam/dita-templates/topics`
 
-pasta. Todos os modelos de mapa são armazenados no `/content/dam/dita-templates/maps` pasta.
+pasta. Todos os modelos de mapa são armazenados na pasta `/content/dam/dita-templates/maps`.
 
 Como administrador, você pode optar por criar modelos de mapa ou tópico personalizados na pasta padrão ou criar sua própria pasta para armazenar modelos personalizados. Se você planeja usar a pasta padrão, ignore esse processo.
 
@@ -60,8 +60,8 @@ Use as instruções fornecidas em [Substituições de configuração](download-i
 >
 > Você pode ignorar esse processo se quiser usar a pasta padrão para armazenar modelos personalizados.
 
-| PID | Chave de propriedade | Valor da propriedade |
+| PID | Chave de propriedade | Valor de propriedade |
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `topic.templates` | Especifique um local para armazenar modelos personalizados.<br> Se o local especificado existir no DAM, todos os modelos de mapa e tópico padrão serão copiados para essa pasta. Se o local não existir, a pasta será criada com todos os modelos de mapa e tópico padrão. |
 
-**Tópico pai:**[ Configurar tópico e modelos de mapa](conf-template-tags.md)
+**Tópico pai:**[ Configurar tópico e mapear modelos](conf-template-tags.md)

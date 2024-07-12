@@ -18,7 +18,7 @@ O controle de versão é um aspecto importante de qualquer sistema de gerenciame
 
 Como administrador, você pode aplicar regras que impedirão os usuários de editar um arquivo sem fazer check-out. Da mesma forma, é possível garantir que todos os arquivos com check-out sejam verificados novamente para evitar perda de dados.
 
-Em um ambiente multiuso, também é importante garantir que os usuários não excluam arquivos do sistema. Esse requisito é mais crítico para arquivos com check-out feito por outros usuários. Para impedir que os usuários excluam acidentalmente arquivos verificados do sistema, o Guia AEM fornece uma configuração que pode ser usada. Além dos arquivos com check-out, também é possível controlar a exclusão de arquivos que contêm referências ou são referenciados a partir de outros arquivos.
+Em um ambiente multiuso, também é importante garantir que os usuários não excluam arquivos do sistema. Esse requisito é mais crítico para arquivos com check-out feito por outros usuários. Para impedir que os usuários excluam acidentalmente arquivos verificados do sistema, o AEM Guides fornece uma configuração que pode ser usada. Além dos arquivos com check-out, também é possível controlar a exclusão de arquivos que contêm referências ou são referenciados a partir de outros arquivos.
 
 ## Criar nova versão para o arquivo carregado
 
@@ -26,35 +26,35 @@ Em um ambiente multiuso, também é importante garantir que os usuários não ex
 >
 > Essa configuração é aplicável somente durante o upload de arquivos.
 
-Para ativar o **Criar nova versão para o arquivo carregado** execute as seguintes etapas:
+Para habilitar a opção **Criar nova versão para arquivo carregado**, execute as seguintes etapas:
 
 1. Use as instruções fornecidas em [Substituições de configuração](download-install-additional-config-override.md#) para criar o arquivo de configuração.
-1. No arquivo de configuração, forneça os seguintes detalhes \(propriedade\) para configurar o **Criar nova versão para o arquivo carregado** opção:
+1. No arquivo de configuração, forneça os seguintes detalhes \(propriedade\) para configurar a opção **Criar nova versão para arquivo carregado**:
 
 
-   | PID | Chave de propriedade | Valor da propriedade |
+   | PID | Chave de propriedade | Valor de propriedade |
    |---|------------|--------------|
    | `com.adobe.fmdita.confi g.ConfigManager` | `create.ver.new.content` | Booleano \(true/false\).<br> **Valor padrão**: `true` |
 
 >[!NOTE]
 >
-> Quando a opção é selecionada, ocorre um novo mecanismo de gerenciamento de versão e substitui o comportamento de upload padrão para qualquer upload subsequente. Ele salva o conteúdo do arquivo carregado como uma nova versão. Se a opção estiver desmarcada, os Guias do AEM usarão o mecanismo de gerenciamento de versão padrão do AEM.
+> Quando a opção é selecionada, ocorre um novo mecanismo de gerenciamento de versão e substitui o comportamento de upload padrão para qualquer upload subsequente. Ele salva o conteúdo do arquivo carregado como uma nova versão. Se a opção estiver desmarcada, o AEM Guides usará o mecanismo de gerenciamento de versão padrão do AEM.
 
 ## Definir configurações para permitir a edição de arquivos com check-out
 
-O Editor Web de Guias de AEM permite criar e atualizar tópicos DITA. Você pode configurar o Editor da Web para permitir a edição apenas dos documentos que foram submetidos a check-out no repositório. Isso garante que nenhum outro autor substitua acidentalmente um tópico que esteja aberto para edição por outro autor. Quando um tópico é aberto para edição, um autor pode fazer check-in do arquivo no momento de fechá-lo.
+O AEM Guides Web Editor permite criar e atualizar tópicos DITA. Você pode configurar o Editor da Web para permitir a edição apenas dos documentos que foram submetidos a check-out no repositório. Isso garante que nenhum outro autor substitua acidentalmente um tópico que esteja aberto para edição por outro autor. Quando um tópico é aberto para edição, um autor pode fazer check-in do arquivo no momento de fechá-lo.
 
 Outra regra importante é garantir que os arquivos dos quais foi feito check-out sejam devolvidos ao sistema. Isso impede que os usuários fechem os arquivos acidentalmente sem fazer o check-in deles novamente.
 
 Use as instruções fornecidas em [Substituições de configuração](download-install-additional-config-override.md#) para criar o arquivo de configuração. No arquivo de configuração, forneça os seguintes detalhes \(propriedade\) para configurar a edição de arquivos com check-out:
 
-| PID | Chave de propriedade | Valor da propriedade |
+| PID | Chave de propriedade | Valor de propriedade |
 |---|------------|--------------|
 | `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.autocheckout` | Booleano \(true/false\).<br> **Valor padrão**: `false` |
 
 Além disso, você também pode configurar o para mostrar uma mensagem de aviso sempre que um arquivo com check-out for fechado sem salvar ou verificar novamente no repositório.
 
-| PID | Chave de propriedade | Valor da propriedade |
+| PID | Chave de propriedade | Valor de propriedade |
 |---|------------|--------------|
 | `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.checkin` | Booleano \(true/false\).<br> **Valor padrão**: `false` |
 
@@ -66,15 +66,15 @@ Além disso, você também pode configurar o para mostrar uma mensagem de aviso 
 
 >[!NOTE]
 >
-> *Essa configuração é aplicável somente quando você cria arquivos da interface do Assets e não quando você faz upload de arquivos usando a ferramenta WebDAV.*
+> *Essa configuração é aplicável somente quando você cria arquivos da interface do Assets e não quando você carrega arquivos usando a ferramenta WebDAV.*
 
 Para permitir que os usuários substituam o arquivo durante o upload cujo check-out foi feito por eles ou por algum outro usuário, execute as seguintes etapas:
 
 1. Use as instruções fornecidas em [Substituições de configuração](download-install-additional-config-override.md#) para criar o arquivo de configuração.
-1. No arquivo de configuração, forneça os seguintes detalhes \(propriedade\) para configurar o **Substituir arquivo com check-out ao fazer upload** opção:
+1. No arquivo de configuração, forneça os seguintes detalhes \(property\) para configurar a opção **Substituir arquivo com check-out ao carregar**:
 
 
-| PID | Chave de propriedade | Valor da propriedade |
+| PID | Chave de propriedade | Valor de propriedade |
 |---|------------|--------------|
 | `com.adobe.fmdita.confi g.ConfigManager` | `overwrite.checkout.onupload` | Booleano \(true/false\).<br> **Valor padrão**: `false` |
 
@@ -86,7 +86,7 @@ Para permitir que os usuários substituam o arquivo durante o upload cujo check-
 
 Use as instruções fornecidas em [Substituições de configuração](download-install-additional-config-override.md#) para criar o arquivo de configuração. No arquivo de configuração, forneça os seguintes detalhes \(propriedade\) para impedir que os usuários excluam acidentalmente arquivos que foram submetidos a check-out:
 
-| PID | Chave de propriedade | Valor da propriedade |
+| PID | Chave de propriedade | Valor de propriedade |
 |---|------------|--------------|
 | `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.preventcheckedoutcontentdeletion` | Booleano \(true/false\). <br> **Valor padrão**: `true` |
 
@@ -103,9 +103,9 @@ Usando essa configuração, você pode permitir ou impedir que todos os usuário
 
 Use as instruções fornecidas em [Substituições de configuração](download-install-additional-config-override.md#) para criar o arquivo de configuração. No arquivo de configuração, forneça os seguintes detalhes \(propriedade\) para definir quem pode excluir um arquivo que contenha referências ou seja referenciado por outros arquivos:
 
-| PID | Chave de propriedade | Valor da propriedade |
+| PID | Chave de propriedade | Valor de propriedade |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `block.unsafe.delete` | Os valores possíveis são: <br> - allow\_unsafe\_delete\_for\_all <br> - allow\_unsafe\_delete\_for\_delete\_assets\_group <br> - block\_unsafe\_delete\_for\_all <br> **Valor padrão**: `allow_unsafe_delete_for_delete_assets_group` <br> Os detalhes dessas constantes são fornecidos a seguir. |
+| `com.adobe.fmdita.config.ConfigManager` | `block.unsafe.delete` | Os valores possíveis são: <br> - allow\_unsafe\_delete\_for\_all <br> -   allow\_unsafe\_delete\_for\_delete\_assets\_group <br> - block\_unsafe\_delete\_for\_all <br> **Valor padrão**: `allow_unsafe_delete_for_delete_assets_group` <br> Os detalhes dessas constantes são fornecidos a seguir. |
 
 Dependendo de quem você deseja conceder acesso para exclusão, especifique uma das seguintes constantes:
 
@@ -113,7 +113,7 @@ Dependendo de quem você deseja conceder acesso para exclusão, especifique uma 
 
   ![](assets/allow_unsafe_delete-force-delete.PNG)
 
-- allow\_unsafe\_delete\_for\_delete\_assets\_group: um administrador ou usuário pertencente à *delete-assets* grupo tem permissão para excluir arquivos. Se qualquer outro usuário tentar excluir arquivos com qualquer referência, não será permitido excluir esses arquivos até que todas as referências sejam removidas. A captura de tela a seguir é exibida quando um usuário sem permissões tenta excluir arquivos.
+- allow\_unsafe\_delete\_for\_delete\_assets\_group: um Administrador ou um usuário pertencente ao grupo *delete-assets* tem permissão para excluir arquivos. Se qualquer outro usuário tentar excluir arquivos com qualquer referência, não será permitido excluir esses arquivos até que todas as referências sejam removidas. A captura de tela a seguir é exibida quando um usuário sem permissões tenta excluir arquivos.
 
   ![](assets/allow_unsafe_delete_for_delete_assets_group.PNG)
 
@@ -122,7 +122,7 @@ Dependendo de quem você deseja conceder acesso para exclusão, especifique uma 
 
 ## Limpar versões anteriores de arquivos DITA
 
-Quando você atualiza o conteúdo e cria novas versões, as versões anteriores dos arquivos DITA são mantidas no repositório. Muitas versões podem ser criadas para seus arquivos DITA durante um período e podem ocupar uma grande quantidade de espaço no repositório. O Guias do AEM permite configurar as versões mais antigas que devem ser excluídas do repositório.
+Quando você atualiza o conteúdo e cria novas versões, as versões anteriores dos arquivos DITA são mantidas no repositório. Muitas versões podem ser criadas para seus arquivos DITA durante um período e podem ocupar uma grande quantidade de espaço no repositório. O AEM Guides permite configurar as versões mais antigas que devem ser excluídas do repositório.
 
 Você pode acessar esse utilitário usando o URL fornecido, se tiver direitos administrativos:
 
@@ -143,8 +143,8 @@ Execute as seguintes etapas para expurgar as versões mais antigas:
    ![](assets/preview-purge-report.png)
 
 1. 
-   - **Número de versões a serem mantidas da versão mais recente**: Informe o número de versões que devem ser retidas e não expurgadas. Por exemplo, se informarmos 5, as últimas 5 versões serão retidas e as versões anteriores serão qualificadas para expurgação caso outras condições de expurgação sejam atendidas.
-- **Reter Versões Criadas Dentro Do Período \(Em Dias\)**: insira a idade máxima de uma versão em dias. As versões anteriores ao número de dias especificado são qualificadas para expurgação caso outras condições de expurgação sejam atendidas. Por exemplo, se informarmos 100, todas as versões criadas antes de 100 dias serão qualificadas para expurgação caso outras condições de expurgação sejam atendidas.
+   - **Número de Versões a Reter da Versão Mais Recente**: insira o número de versões que devem ser retidas e não removidas. Por exemplo, se informarmos 5, as últimas 5 versões serão retidas e as versões anteriores serão qualificadas para expurgação caso outras condições de expurgação sejam atendidas.
+- **Reter versões criadas dentro do período \(Em dias\)**: insira a idade máxima de uma versão em dias. As versões anteriores ao número de dias especificado são qualificadas para expurgação caso outras condições de expurgação sejam atendidas. Por exemplo, se informarmos 100, todas as versões criadas antes de 100 dias serão qualificadas para expurgação caso outras condições de expurgação sejam atendidas.
 - **Caminho**: selecione o caminho do arquivo ou pasta cujos arquivos você deseja limpar.
 
   >[!NOTE]
@@ -160,15 +160,15 @@ Execute as seguintes etapas para expurgar as versões mais antigas:
    O relatório de limpeza de versão é gerado.
 
 1. Baixe o relatório de limpeza de versão e verifique os arquivos e as versões que serão removidos.
-1. Você pode optar por **Cancelar limpeza** ou **Iniciar Expurgação**.
+1. Você pode optar por **Cancelar a Limpeza** ou **Iniciar a Limpeza**.
 
    ![](assets/download-purge-report.png)
 
    O status de expurgação é exibido.
 
-   Clique em **Baixar relatório de limpeza de versão** para exibir as versões expurgadas. Esse relatório fornece o status de limpeza em todas as versões, juntamente com os motivos pelos quais uma versão específica foi retida ou foi removida.
+   Clique em **Baixar relatório de limpeza de versão** para exibir as versões limpas. Esse relatório fornece o status de limpeza em todas as versões, juntamente com os motivos pelos quais uma versão específica foi retida ou foi removida.
 
 
 >[!NOTE]
 >
-> O download do relatório é feito no seguinte local: `/var/dxml/versionpurge`
+> O relatório é baixado no seguinte local: `/var/dxml/versionpurge`

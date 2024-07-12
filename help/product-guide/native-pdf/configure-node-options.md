@@ -18,6 +18,6 @@ A publicação de PDF nativo inicia um processo NodeJs separado para converter o
 
 Use as instruções fornecidas em [Substituições de configuração](../cs-install-guide/download-install-additional-config-override.md) para criar o arquivo de configuração. No arquivo de configuração, forneça os seguintes detalhes (propriedade):
 
-| PID | Chave de propriedade | Valor da propriedade |
+| PID | Chave de propriedade | Valor de propriedade |
 |---|---|---|
-| `com.adobe.fmdita.config.ConfigManager` | `native.pdf.node.opts` | Valor da string para definir qualquer padrão `NODE_OPTIONS`.<BR> Valor padrão: &quot;&quot; |
+| `com.adobe.fmdita.config.ConfigManager` | `native.pdf.node.opts` | Valor da cadeia de caracteres para definir qualquer padrão `NODE_OPTIONS`.<BR> Valor padrão: &quot;&quot; |

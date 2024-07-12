@@ -1,7 +1,8 @@
 ---
-title: Notas de versão | Instruções de atualização e problemas corrigidos nos Guias da Adobe Experience Manager, versão 2024.06.0
+title: Notas de versão | Instruções de atualização e problemas corrigidos na versão 2024.06.0 do Adobe Experience Manager Guides
 description: Saiba mais sobre a matriz de compatibilidade e como atualizar para a versão 2024.06.0 do Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 5c62a267ea71905a4f796b4613fea176e57d9236
+exl-id: 6895357a-cfd1-4e6a-aec1-8870db8054fb
+source-git-commit: d525775afeeb89754762ff514126b1c3a3307b3f
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 0%
@@ -12,13 +13,13 @@ ht-degree: 0%
 
 Este artigo aborda as instruções de atualização e a matriz de compatibilidade da versão 2024.06.0 do Adobe Experience Manager Guides as a Cloud Service.
 
-Para obter mais informações sobre os novos recursos e aprimoramentos, consulte [Novidades da versão 2024.06.0](whats-new-2024-06-0.md).
+Para obter mais informações sobre os novos recursos e aprimoramentos, consulte [Novidades na versão 2024.06.0](whats-new-2024-06-0.md).
 
-Para obter a lista de problemas corrigidos nessa versão, consulte [Correção de problemas na versão 2024.06.0](fixed-issues-2024-06-0.md).
+Para obter a lista de problemas corrigidos nesta versão, consulte [Problemas corrigidos na versão 2024.06.0](fixed-issues-2024-06-0.md).
 
 ## Matriz de compatibilidade
 
-Esta seção lista a matriz de compatibilidade para os aplicativos de software compatíveis com a versão 2024.06.0 dos Guias do Experience Manager as a Cloud Service.
+Esta seção lista a matriz de compatibilidade dos aplicativos de software compatíveis com a versão 2024.06.0 do Experience Manager Guides as a Cloud Service.
 
 ### FRAMEMAKER e FRAMEMAKER PUBLISHING SERVER
 
@@ -40,7 +41,7 @@ Esta seção lista a matriz de compatibilidade para os aplicativos de software c
 
 | Nome do pacote de componentes | Versão dos componentes | Versão do modelo |
 |---|---|---|
-| Experience Manager Guias Componentes Pacote de conteúdo para Cloud Service | dxml-components.all-1.2.2 | aem-site-template-dxml.all-1.0.16 |
+| Pacote de conteúdo dos componentes do Experience Manager Guides para Cloud Service | dxml-components.all-1.2.2 | aem-site-template-dxml.all-1.0.16 |
 
 ## Atualização para a versão 2024.06.0
 
@@ -52,7 +53,7 @@ O Experience Manager Guides é atualizado automaticamente após o upgrade da ver
 >- ui_config.json (pode ter sido definido em perfis de pasta)
 
 
-Execute as seguintes etapas para os Guias do Experience Manager as a Cloud Service se ainda não tiver feito isso antes na sua versão existente:
+Execute as seguintes etapas para o Experience Manager Guides as a Cloud Service se ainda não tiver feito isso antes na sua versão existente:
 
 ### Etapas para ativar o acionador de um script por meio de um servlet
 
@@ -76,7 +77,7 @@ Resposta:
 }
 ```
 
-Na resposta anterior, JSON, a chave `lockNodePath` mantém o caminho para o nó criado no repositório que aponta para a tarefa enviada. Ela é automaticamente excluída quando o trabalho é concluído e, em seguida, você pode consultar esse nó para obter o status do trabalho.
+Na resposta JSON anterior, a chave `lockNodePath` contém o caminho para o nó criado no repositório que aponta para o trabalho enviado. Ela é automaticamente excluída quando o trabalho é concluído e, em seguida, você pode consultar esse nó para obter o status do trabalho.
 
 Aguarde até que esse trabalho seja concluído antes de prosseguir para as próximas etapas.
 
@@ -95,24 +96,24 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 Execute as seguintes etapas para pós-processar o conteúdo existente e usar o novo relatório de link desfeito:
 
-1. (Opcional) Se houver mais de 100.000 arquivos DITA no sistema, atualize o `queryLimitReads` e `queryLimitInMemory` em `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` para um valor maior (qualquer valor maior que o número de ativos presentes, por exemplo, 200.000) e reimplante.
+1. (Opcional) Se houver mais de 100.000 arquivos DITA no sistema, atualize o `queryLimitReads` e o `queryLimitInMemory` em `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` para um valor maior (qualquer valor maior que o número de ativos presentes, por exemplo, 200.000) e reimplante.
 
-   - Use as instruções fornecidas no *Substituições de configuração* em Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service, para criar o arquivo de configuração.
-   - No arquivo de configuração, forneça os seguintes detalhes (propriedade) para configurar o `queryLimitReads` e `queryLimitInMemory` opção:
+   - Use as instruções fornecidas na seção *Substituições de configuração* em Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service para criar o arquivo de configuração.
+   - No arquivo de configuração, forneça os seguintes detalhes (propriedade) para configurar a opção `queryLimitReads` e `queryLimitInMemory`:
 
      | PID | Chave de propriedade | Valor de propriedade |
      |---|---|---|
      | org.apache.jackrabbit.oak.query.QueryEngineSettingsService | queryLimitReads | Valor: 200000 Valor padrão: 100000 |
      | org.apache.jackrabbit.oak.query.QueryEngineSettingsService | queryLimitInMemory | Valor: 200000 Valor padrão: 100000 |
 
-1. Execute uma solicitação POST no servidor (com a autenticação correta) - `http://<server>//bin/guides/reports/upgrade`.
+1. Execute uma solicitação POST no servidor (com autenticação correta) - `http://<server>//bin/guides/reports/upgrade`.
 
 1. A API retorna um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação de GET com id de trabalho para o mesmo ponto de extremidade - `http://<server>/bin/guides/reports/upgrade?jobId= {jobId}`
 (Por exemplo: `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
 1. Quando o trabalho for concluído, a solicitação do GET anterior responderá com êxito. Se a tarefa falhar por algum motivo, a falha poderá ser vista nos logs do servidor.
 
-1. Reverter de volta para o valor padrão ou existente anterior de `queryLimitReads` se você o alterou na etapa 1.
+1. Reverta para o valor padrão ou existente anterior de `queryLimitReads` se você o alterou na etapa 1.
 
 ### Etapas para indexar o conteúdo existente para usar a nova localização e substituição e lista de tópicos na guia Relatórios:
 
@@ -120,21 +121,21 @@ Execute as seguintes etapas para pós-processar o conteúdo existente e usar o n
 
 Execute as seguintes etapas para indexar o conteúdo existente e usar o novo texto de localização e substituição no nível do mapa e da lista de tópicos na guia relatórios:
 
-1. Execute uma solicitação POST no servidor (com a autenticação correta) - `http://<server:port>/bin/guides/map-find/indexing`. (Opcional: é possível passar caminhos específicos dos mapas para indexá-los; por padrão, todos os mapas são indexados|| Por exemplo: `https://<Server:port>/bin/guides/map-find/indexing?paths=<path of the MAP in repository>`)
+1. Execute uma solicitação POST no servidor (com autenticação correta) - `http://<server:port>/bin/guides/map-find/indexing`. (Opcional: é possível passar caminhos específicos dos mapas para indexá-los; por padrão, todos os mapas são indexados|| Por exemplo: `https://<Server:port>/bin/guides/map-find/indexing?paths=<path of the MAP in repository>`)
 
 1. Você também pode passar uma pasta raiz para indexar os mapas DITA de uma pasta específica (e suas subpastas). Por exemplo, `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Observe que se os parâmetros de caminhos e de raiz forem transmitidos, somente o parâmetro de caminhos será considerado.
 
-1. A API retorna um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação de GET com id de trabalho para o mesmo ponto de extremidade - `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`(Por exemplo: `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
+1. A API retorna um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação GET com id de trabalho para o mesmo ponto de extremidade - `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`(Por exemplo: `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
 1. Quando o trabalho for concluído, a solicitação do GET anterior responderá com sucesso e mencionará se algum mapa falhou. Os mapas indexados com êxito podem ser confirmados nos logs do servidor.
 
-### Etapas para lidar com o `'fmdita rewriter'` conflito
+### Etapas para lidar com o conflito `'fmdita rewriter'`
 
-Os Guias do Experience Manager têm um [**reescrita personalizada do sling**](../cs-install-guide/conf-output-generation.md#custom-rewriter) módulo para tratamento de ligações geradas em caso de mapas cruzados (ligações entre os tópicos de dois mapas diferentes).
+O Experience Manager Guides tem um módulo [**personalizado de reescrita do sling**](../cs-install-guide/conf-output-generation.md#custom-rewriter) para manipular os links gerados no caso de mapas cruzados (links entre os tópicos de dois mapas diferentes).
 
-Se você tiver outra reescrita de sling personalizada em sua base de código, use uma `'order'` valor maior que 50, como o sling rewriter dos Guias do Experience Manager usa `'order'` 50. Para substituir isso, é necessário um valor >50. Para obter mais detalhes, consulte [Pipelines de reescrita de saída](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
+Se você tiver outro reescritor sling personalizado em sua base de código, use um valor de `'order'` maior que 50, pois o reescritor Experience Manager Guides sling usa `'order'` 50. Para substituir isso, é necessário um valor >50. Para obter mais detalhes, consulte [Pipelines de regravação de saída](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
 
-Durante essa atualização, desde que o `'order'` for alterado de 1000 para 50, será necessário mesclar o reescritor personalizado existente, se houver, com `fmdita-rewriter`.
+Durante esta atualização, como o valor de `'order'` é alterado de 1000 para 50, você precisa mesclar o reescritor personalizado existente, se houver, com `fmdita-rewriter`.
 
 
 
@@ -159,7 +160,7 @@ Resposta:
 }
 ```
 
-Na resposta anterior, JSON, a chave `lockNodePath` mantém o caminho para o nó criado no repositório, que aponta para o job enviado. Ele será excluído automaticamente quando o trabalho for concluído. Você pode consultar esse nó para obter o status do job.
+Na resposta anterior, JSON, a chave `lockNodePath` contém o caminho para o nó criado no repositório, que aponta para o trabalho enviado. Ele será excluído automaticamente quando o trabalho for concluído. Você pode consultar esse nó para obter o status do job.
 
 Aguarde até que esse trabalho seja concluído antes de prosseguir para as próximas etapas.
 

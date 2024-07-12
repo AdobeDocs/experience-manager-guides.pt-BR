@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Personalizar editor da Web {#id181AI0003PN}
 
-O Guia AEM vem com um poderoso Editor da Web que permite que seus autores criem e editem documentos DITA. Você pode personalizar a barra de ferramentas do Editor da Web para adicionar ou remover qualquer recurso que possa ser acessado da barra de ferramentas. Além disso, você pode configurar o salvamento automático de arquivos, gerando IDs para elementos à medida que são inseridos em seus documentos e muito mais. As seções a seguir abordam os recursos que você pode personalizar no Editor da Web:
+O AEM Guides vem com um poderoso Editor da Web que permite que seus autores criem e editem documentos DITA. Você pode personalizar a barra de ferramentas do Editor da Web para adicionar ou remover qualquer recurso que possa ser acessado da barra de ferramentas. Além disso, você pode configurar o salvamento automático de arquivos, gerando IDs para elementos à medida que são inseridos em seus documentos e muito mais. As seções a seguir abordam os recursos que você pode personalizar no Editor da Web:
 
 - [Personalizar barra de ferramentas](conf-web-editor-customize-toolbar.md#)
 - [Configurar o salvamento automático de arquivos no Editor da Web](auto-save-in-editor.md#)
-- [Personalizar dicionário padrão do AEM](customize-aem-custom-dictionary.md#)
+- [Personalizar o dicionário padrão do AEM](customize-aem-custom-dictionary.md#)
 - [Gerar IDs de elemento automaticamente](auto-generate-ids.md#)
 - [Configurar caracteres especiais permitidos](conf-special-chars.md#)
 - [Configurar filtros para a caixa de diálogo de procura de arquivos](conf-custom-file-filters.md#)
@@ -26,9 +26,9 @@ O Guia AEM vem com um poderoso Editor da Web que permite que seus autores criem 
 
 - **[Personalizar barra de ferramentas](conf-web-editor-customize-toolbar.md)**
 
-- **[Configurar valor padrão para a exibição de tags](configure-default-value-tags-view.md)**
+- **[Configurar valor padrão para o Modo de Exibição de Marcas](configure-default-value-tags-view.md)**
 
-- **[Configurar a exibição de links baseados em UUID](conf-uuid-based-links.md)**
+- **[Configurar exibição de links baseados em UUID](conf-uuid-based-links.md)**
 
 - **[Abrir tópico DITA ou mapear arquivos na mesma guia](open-dita-files-same-tab.md)**
 
@@ -36,7 +36,7 @@ O Guia AEM vem com um poderoso Editor da Web que permite que seus autores criem 
 
 - **[Configurar o salvamento automático de arquivos no Editor da Web](auto-save-in-editor.md)**
 
-- **[Configurar o prompt para salvar como uma nova versão ao fechar](conf-save-as-new-version-close.md)**
+- **[Configurar prompt para salvar como uma nova versão ao fechar](conf-save-as-new-version-close.md)**
 
 - **[Configurar prompt para fazer check-in de um arquivo ao fechar](conf-checkin-file-close.md)**
 
@@ -44,7 +44,7 @@ O Guia AEM vem com um poderoso Editor da Web que permite que seus autores criem 
 
 - **[Gerar IDs de elemento automaticamente](auto-generate-ids.md)**
 
-- **[Personalizar dicionário padrão do AEM](customize-aem-custom-dictionary.md)**
+- **[Personalizar o dicionário padrão de AEM](customize-aem-custom-dictionary.md)**
 
 - **[Configurar filtros de texto](config-text-filters.md)**
 
@@ -52,10 +52,10 @@ O Guia AEM vem com um poderoso Editor da Web que permite que seus autores criem 
 
 - **[Instalar pacotes para publicação baseada em artigo](configure-article-based-publishing.md)**
 
-- **[Configurar a geração de PDF de um único tópico](conf-pdf-generation-dita-ot.md)**
+- **[Configurar a geração de PDF de tópico único](conf-pdf-generation-dita-ot.md)**
 
-- **[Configurar o recurso de tradução no editor da Web](conf-translation-web-editor.md)**
+- **[Configurar recurso de Tradução no Editor da Web](conf-translation-web-editor.md)**
 
-- **[Definir o Editor de mapa avançado como padrão](conf-map-editor.md)**
+- **[Definir o Editor de Mapa Avançado como padrão](conf-map-editor.md)**
 
 - **[Incluir atributo @navtitle por padrão](auto-add-navtitle.md)**

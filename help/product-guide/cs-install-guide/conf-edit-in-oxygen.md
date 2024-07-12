@@ -14,13 +14,13 @@ ht-degree: 1%
 
 # Configurar a opção para editar no Oxygen
 
-O Guia AEM também permite que os usuários editem seus tópicos DITA e mapas DITA no plug-in do conector Oxygen.
+O AEM Guides também permite que os usuários editem seus tópicos DITA e mapas DITA no plug-in do conector Oxygen.
 
-Use as instruções fornecidas em [Substituições de configuração](download-install-additional-config-override.md#) para criar o arquivo de configuração. No arquivo de configuração, forneça os seguintes detalhes (propriedade) para configurar o **Editar no Oxygen** opção:
+Use as instruções fornecidas em [Substituições de configuração](download-install-additional-config-override.md#) para criar o arquivo de configuração. No arquivo de configuração, forneça os seguintes detalhes (propriedade) para configurar a opção **Editar no Oxygen**:
 
 
 
-| PID | Chave de propriedade | Valor da propriedade |
+| PID | Chave de propriedade | Valor de propriedade |
 |---|------------|--------------|
 | `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.editinoxygen` | Booleano \(true/false\). **Valor padrão**: falso |
 

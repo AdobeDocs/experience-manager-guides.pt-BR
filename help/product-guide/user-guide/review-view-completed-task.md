@@ -1,6 +1,6 @@
 ---
 title: Exibir uma tarefa de revisão concluída
-description: Saber como visualizar uma tarefa de revisão concluída como revisor ou autor no AEM Guides.
+description: Saber como exibir uma tarefa de revisão concluída como revisor ou autor no AEM Guides.
 exl-id: 7c468a1c-046c-4b40-9f0b-1a67e6cf65fe
 feature: Reviewing
 role: User

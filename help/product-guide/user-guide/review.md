@@ -1,6 +1,6 @@
 ---
 title: Revisar tópicos ou mapas
-description: Revise com eficiência tópicos ou mapas em guias de AEM para uma avaliação de conteúdo suave. Conhecer os recursos para autores e revisores nos Guias do AEM.
+description: Revise tópicos ou mapas com eficiência no AEM Guides para uma avaliação de conteúdo suave. Conhecer os recursos para autores e revisores no AEM Guides.
 exl-id: 81ea0b52-52b0-4764-a6d8-a96d5c7693bf
 feature: Reviewing
 role: User
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Quase todos os documentos técnicos precisam passar por várias rodadas de revisões. Na maioria dos casos, um ciclo de revisão envolve mais de um revisor. Tratar e responder a comentários de vários revisores é sempre desafiador para os autores. Além disso, em um cenário de vários revisores, é útil que um revisor também possa ver os comentários feitos por outros revisores.
 
-Alguns dos principais recursos oferecidos pelos Guias AEM para o *iniciadores \(ou autores\)* são:
+Alguns dos principais recursos oferecidos pelo AEM Guides aos *iniciadores \(ou autores\)* são:
 
 - Crie um projeto DITA para o fluxo de trabalho de revisão.
 - Envie um ou mais tópicos para revisão em uma única tarefa de revisão.
@@ -35,7 +35,7 @@ Alguns dos principais recursos oferecidos pelos Guias AEM para o *iniciadores \(
 - Importar comentários \(excluídos ou inseridos\) automaticamente para a versão do tópico que foi compartilhada para revisão.
 
 
-Recursos disponíveis para o *revisores*:
+Recursos disponíveis para os *revisores*:
 
 - Obtenha uma exibição composta dos tópicos compartilhados para revisão.
 - Alternar entre a exibição composta e a exibição de tópico individual.
@@ -51,7 +51,7 @@ Recursos disponíveis para o *revisores*:
 
 >[!NOTE]
 >
-> Consulte a *Revisão* no guia de Práticas recomendadas para obter as práticas recomendadas sobre como criar uma tarefa de revisão.
+> Consulte a seção *Revisão* no guia de práticas recomendadas para obter as práticas recomendadas sobre como criar uma tarefa de revisão.
 
 - **[Criar um projeto DITA](authoring-create-dita-project.md)**
 
@@ -59,8 +59,8 @@ Recursos disponíveis para o *revisores*:
 
 - **[Reatribuir tarefa de revisão usando notificação](reassign-review-using-notification.md)**
 
-- **[Revisar tópicos](review-topics.md)**
+- **[Tópicos de revisão](review-topics.md)**
 
-- **[Comentários de revisão de endereço](review-address-review-comments.md)**
+- **[Endereçar comentários de revisão](review-address-review-comments.md)**
 
-- **[Gerenciar tarefas de revisão usando o Painel de revisão](review-manage-tasks-review-dashboard.md)**
+- **[Gerenciar tarefas de revisão usando o Painel de Revisão](review-manage-tasks-review-dashboard.md)**

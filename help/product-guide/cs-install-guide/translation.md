@@ -23,24 +23,24 @@ Automatize a tradução de conteúdo da página, ativos e conteúdo gerado pelo 
 
 A tradução de conteúdo envolve as seguintes etapas:
 
-1. Conecte o AEM com seu [provedor de serviços de tradução](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) e criar configurações da estrutura de integração de tradução.
+1. Conecte o AEM ao seu [provedor de serviços de tradução](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) e crie configurações da estrutura de integração de tradução.
 
 1. Associe as páginas do seu idioma principal com o serviço de tradução e as configurações da estrutura.
 
-1. Identificar o tipo de [conteúdo a ser traduzido](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/rules.html?lang=en).
+1. Identifique o tipo de conteúdo [para traduzir](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/rules.html?lang=en).
 
 1. [Prepare o conteúdo para tradução](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/preparation.html?lang=en) criando o idioma principal e as páginas raiz das cópias de idioma.
 
-1. Criar [projetos de tradução](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en) para coletar o conteúdo para traduzir e para preparar o processo de tradução.
+1. Crie [projetos de tradução](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en) para coletar o conteúdo para traduzir e para preparar o processo de tradução.
 
-1. Use os projetos de tradução para [gerenciar a tradução de conteúdo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en) processo.
+1. Use os projetos de tradução para [gerenciar o processo de tradução de conteúdo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en).
 
 
 Quando seu provedor de serviços de tradução não fornece um conector para integração com o AEM, o AEM oferece suporte à exportação e importação manuais de conteúdo traduzido no formato XML.
 
 >[!TIP]
 >
-> Consulte a *Tradução* no guia de Práticas recomendadas para obter as práticas recomendadas sobre a tradução de conteúdo.
+> Consulte a seção *Tradução* no guia de práticas recomendadas para obter práticas recomendadas sobre a tradução de conteúdo.
 
 ## Configure a guia Tradução no painel de mapa DITA
 
@@ -51,7 +51,7 @@ Para ocultar a guia Tradução no painel de mapa DITA, execute as seguintes etap
 
    | PID | Chave de propriedade | Valor de propriedade |
    |---|------------|--------------|
-   | `com.adobe.fmdita.config.ConfigManager` | `tabs.translation` | Booleano\\ ( true/ false\).<br> **Valor padrão**: `true` |
+   | `com.adobe.fmdita.config.ConfigManager` | `tabs.translation` | Booleano\ ( true/ false\).<br> **Valor padrão**: `true` |
 
    >[!NOTE]
    >
@@ -66,7 +66,7 @@ Com base no fluxo de trabalho de tradução usado na configuração, a opção d
 
 | PID | Chave de propriedade | Valor de propriedade |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `component.translation` | Booleano: <br> - Se você estiver usando tradução humana, então *Desativar* \( `false`\) o **Fluxo de trabalho de tradução baseado em componentes** opção. <br> - Se você estiver usando tradução automática, então *Habilitar \( `true`\)* o **Fluxo de trabalho de tradução baseado em componentes** opção. |
+| `com.adobe.fmdita.config.ConfigManager` | `component.translation` | Booleano: <br> -   Se você estiver usando tradução humana, *Desabilite* \( `false`\) a opção **Fluxo de Trabalho de Tradução Baseado em Componentes**. <br> -   Se você estiver usando tradução automática, *Habilite \( `true`\)* a opção **Fluxo de Trabalho de Tradução Baseado em Componentes**. |
 
 
 
@@ -81,13 +81,13 @@ Use as instruções fornecidas em [Substituições de configuração](download-i
 
 | PID | Chave de propriedade | Valor de propriedade |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `translation.workflow.version.legacy` | Booleano: <br> - Se você usar o fluxo de trabalho de tradução mais recente, *Desativar* \( `false`\) o **Executar fluxo de trabalho de tradução herdado** opção. O fluxo de trabalho de tradução mais recente é ativado por padrão. <br> - Se você usar a tradução herdada, *Habilitar \( `true`\)* o **Executar fluxo de trabalho de tradução herdado** opção. |
+| `com.adobe.fmdita.config.ConfigManager` | `translation.workflow.version.legacy` | Booleano: <br> - Se você usar o fluxo de trabalho de tradução mais recente, *Desabilite* \( `false`\) a opção **Executar fluxo de trabalho de tradução herdado**. O fluxo de trabalho de tradução mais recente é ativado por padrão. <br> -   Se você usar a tradução herdada, *Habilite \( `true`\)* a opção **Executar fluxo de trabalho de tradução herdada**. |
 
 
 
 >[!NOTE]
 >
-> Se estiver usando o conector de tradução, verifique se você configurou o conector conforme descrito na seção *[Configuração da estrutura de integração de tradução](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)* tópico na documentação do Adobe Experience Manager.
+> Se você estiver usando o conector de tradução, verifique se configurou o conector conforme descrito no tópico *[Configurando a estrutura de integração de tradução](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)* na documentação do Adobe Experience Manager.
 
 >[!IMPORTANT]
 >
@@ -101,5 +101,5 @@ Use as instruções fornecidas em [Substituições de configuração](download-i
 
 | PID | Chave de propriedade | Valor de propriedade |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | Booleano: <br> - Se você não quiser executar a operação de pós-processamento nos arquivos temporários, *Desativar* \( false\) o **Pós-processamento de cópias de idioma** opção.<br> - Se você quiser executar a operação de pós-processamento nos arquivos temporários, *Ativar* \( true\) o **Pós-processamento de cópias de idioma** opção.<br> **Valor padrão**: falso |
+| `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | Booleano: <br> -   Se você não deseja executar a operação de pós-processamento nos arquivos temporários, *Desabilite* \( false\) a opção **cópias de idioma do processo Post**.<br> -   Se você deseja executar a operação de pós-processamento nos arquivos temporários, *Habilite* \( true\) a opção **cópias de idioma do processo Post**.<br> **Valor padrão**: falso |
 

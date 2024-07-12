@@ -4,7 +4,8 @@ description: Saiba mais sobre o manipulador de eventos de ativação em massa co
 feature: Bulk Activation Event Handler
 role: Developer
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+exl-id: 08b153d7-3d13-4804-9e3e-38790dbea1f3
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 1%
@@ -13,7 +14,7 @@ ht-degree: 1%
 
 # Manipulador de eventos de ativação em massa concluída
 
-As guias de Experience Manager expõem `com/adobe/fmdita/replication/complete` evento usado para executar quaisquer operações após a conclusão de um processo de ativação em massa. Esse evento é acionado sempre que um processo de ativação em massa é concluído. Por exemplo, se você executar a ativação em massa de uma predefinição de site AEM de um mapa, esse evento será chamado após o término do processo de ativação.
+O Experience Manager Guides expõe o evento `com/adobe/fmdita/replication/complete` usado para executar qualquer operação após a conclusão de um processo de ativação em massa. Esse evento é acionado sempre que um processo de ativação em massa é concluído. Por exemplo, se você executar a ativação em massa de uma predefinição de site AEM de um mapa, esse evento será chamado após o término do processo de ativação.
 
 É necessário criar um manipulador de eventos do AEM para ler as propriedades disponíveis nesse evento e executar processamento adicional.
 
@@ -25,10 +26,19 @@ Os detalhes do evento são explicados abaixo:
 com/adobe/fmdita/replication/complete 
 ```
 
-**Parâmetros**: |Nome|Tipo|Descrição| |—|—|—| |`path`|Cadeia de caracteres|O caminho do arquivo que acionou esse evento. <br> Por exemplo, `/content/output/sites/ditamap1-ditamap`. <br> É uma lista de caminhos serializados como uma matriz JSON.| |`messageType`|String|O tipo de uma mensagem. <br>Opção possível: `REPLICATION`| |`action`|Cadeia de caracteres|Esta é a ação executada. <br>Opção possível: `BulkReplicate`| |`user`|String|O usuário que iniciou a operação.| |`result`|Cadeia de caracteres|O resultado da Ativação em massa. É um objeto JSON serializado: <br>`{"success":boolean,"code":integer,"message":"" }`| |`agentId`|String|O agentId usado na replicação. Por exemplo, `"publish"`.| |`importMode`|String|Modo de importação usado na ativação. As opções possíveis são: <br>`REPLACE, MERGE, UPDATE`.|
+**Parâmetros**:
+|Nome|Tipo|Descrição|
+|—|—|—|
+|`path`|Cadeia de caracteres|O caminho do arquivo que disparou este evento. <br> Por exemplo, `/content/output/sites/ditamap1-ditamap`. <br> É uma lista de caminhos serializados como uma matriz JSON.|
+|`messageType`|Cadeia de caracteres|O tipo de mensagem. <br>Opção possível: `REPLICATION`|
+|`action`|String|Esta é a ação executada. <br>Opção possível: `BulkReplicate`|
+|`user`|Cadeia de caracteres|O usuário que iniciou a operação.|
+|`result`|Cadeia de caracteres|O resultado da Ativação em Massa. É um objeto JSON serializado: <br>`{"success":boolean,"code":integer,"message":"" }`|
+|`agentId`|String|O agentId usado na replicação. Por exemplo, `"publish"`.|
+|`importMode`|String|Modo de importação usado na ativação. As opções possíveis são: <br>`REPLACE, MERGE, UPDATE`.|
 
 
-**Exemplo de ouvinte de eventos**:
+**Exemplo de Ouvinte de Eventos**:
 
 ```XML
 @Component(service = EventHandler.class,

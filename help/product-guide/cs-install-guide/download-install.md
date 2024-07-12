@@ -14,16 +14,16 @@ ht-degree: 8%
 
 # Baixar e instalar {#id1645E0O04MK}
 
-A partir da versão 2024.2.0, os Guias do Experience Manager estarão disponíveis apenas como um complemento automatizado para o Experience Manager as a Cloud Service.
+A partir da versão 2024.2.0, o Experience Manager Guides só estará disponível como um complemento automatizado para o Experience Manager as a Cloud Service.
 
-Se estiver usando versões de dezembro de 2023 ou anteriores, você pode baixar os Guias da Adobe Experience Manager no repositório do GitHub e instalá-los.
+Se estiver usando versões de dezembro de 2023 ou anteriores, você poderá baixar o Adobe Experience Manager Guides do repositório do GitHub e instalá-lo.
 
 
-- **[Implantar módulo de Guias do AEM](download-install-dxml-first-time.md)**
+- **[Implantar módulo AEM Guides](download-install-dxml-first-time.md)**
 
-- **[Configurar o Dispatcher](download-install-configure-dispatcher.md)**
+- **[Configurar Dispatcher](download-install-configure-dispatcher.md)**
 
-- **[Verificar a instalação dos Guias do AEM](download-install-verify-dxml-installation.md)**
+- **[Verificar instalação do AEM Guides](download-install-verify-dxml-installation.md)**
 
 - **[Substituições de configuração](download-install-additional-config-override.md)**
 

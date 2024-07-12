@@ -16,32 +16,32 @@ ht-degree: 0%
 Este artigo fornece uma visão geral das possibilidades de validação no editor da Web do AEM Guides.
 Por design, o editor da Web aproveita a configuração do esquema DITA no sistema para forçar os usuários a criar conteúdo compatível com DITA. Com isso, todo o conteúdo armazenado no sistema é estruturado, reutilizável e válido conteúdo DITA.
 
-Além do suporte para regras DITA, o editor da Web também oferece suporte à validação de conteúdo com base em &quot;*Schematron*&quot;.
+Além do suporte para regras DITA, o editor da Web também oferece suporte à validação de conteúdo com base nas regras &quot;*Schematron*&quot;.
 
 &quot;*Schematron*&quot; refere-se a uma linguagem de validação baseada em regras usada para definir testes para um arquivo XML. É possível importar os arquivos do Schematron e editá-los no Editor da Web. Usando um arquivo de &quot;Esquematron&quot;, você pode definir determinadas regras e validá-las para um tópico DITA ou um mapa. As regras de esquema podem garantir a consistência da estrutura XML, impondo restrições definidas como regras. Estas restrições são impostas por PME que detêm a qualidade e a coerência do conteúdo.
 
-    OBSERVAÇÃO: o editor da Web é compatível com o Schematron ISO.
+    OBSERVAÇÃO: o editor da Web oferece suporte ao Esquematron ISO.
 
 
 ## Saber como o &quot;Schematron&quot; funciona no editor da Web
 
 ### Configuração de regras do Schematron
 
-Consulte a seção &quot;Suporte para arquivos do Schematron&quot; no [Guia do usuário](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_User-Guide_EN.pdf#page=148)
+Consulte a seção &quot;Suporte para arquivos do Schematron&quot; no [Guia do Usuário](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_User-Guide_EN.pdf#page=148)
 
 
 ### Aplicar regras de validação ao salvar arquivo
 
-As configurações do Editor da Web permitem que os usuários avançados configurem regras/arquivos de esquema que serão executados sempre que um usuário atualizar o conteúdo. Para obter mais detalhes, consulte a seção &quot;Validação&quot; em [Guia do usuário](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_User-Guide_EN.pdf#page=58)
+As configurações do Editor da Web permitem que os usuários avançados configurem regras/arquivos de esquema que serão executados sempre que um usuário atualizar o conteúdo. Para obter mais detalhes, consulte a seção &quot;Validação&quot; no [Guia do Usuário](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_User-Guide_EN.pdf#page=58)
 
-![Definir regras a partir das configurações do editor da Web](../../../assets/authoring/schematron-editorsettings-validation-tab.png)
+![Definir regras nas configurações do editor da Web](../../../assets/authoring/schematron-editorsettings-validation-tab.png)
 
 
 ### Você pode executar a validação manualmente?
 
 Sim, como autor/usuário ao criar conteúdo, você pode usar o painel Esquematron no editor da Web para fazer upload de um arquivo de esquematron e executar validações no arquivo aberto no editor.
 
-    Para que isso funcione, o administrador de perfil da pasta deve permitir que todos os usuários adicionem arquivos Schemtron no painel Validação. Ver configurações do editor (captura de tela acima)
+    Para que isso funcione, o administrador de perfil da pasta deve permitir que todos os usuários adicionem arquivos do Schemtron no painel Validação. Ver configurações do editor (captura de tela fornecida acima)
 
 ![Escolher arquivo do Schematron](../../../assets/authoring/schematron-rightpanel-validation-addsch.png)
 ![Executar validação](../../../assets/authoring/schematron-rightpanel-validation-runsch.png)
@@ -49,7 +49,8 @@ Sim, como autor/usuário ao criar conteúdo, você pode usar o painel Esquematro
 
 ### Regras compatíveis
 
-A versão atual dos Guias do AEM oferecem suporte à validação usando apenas regras baseadas em &quot;Asserção&quot;. (consulte [ativo vs. relatório](https://schematron.com/document/205.html)) Quaisquer regras baseadas em &quot;Relatórios&quot; ainda não são compatíveis.
+A versão atual da validação de suporte do AEM Guides usa somente regras baseadas em &quot;Asserção&quot;. (consulte [ativo vs. relatório](https://schematron.com/document/205.html))
+Quaisquer regras baseadas em &quot;Relatórios&quot; ainda não são compatíveis.
 
 
 ### Exemplos e mais ajuda sobre as regras do Schematron
@@ -100,6 +101,6 @@ A versão atual dos Guias do AEM oferecem suporte à validação usando apenas r
 
 #### Recursos
 
-- Noções básicas  [Noções básicas do Schematron](https://da2022.xatapult.com/#what-is-schematron)
-- Mais sobre [Regras de asserção no Schematron](https://www.xml.com/pub/a/2003/11/12/schematron.html#Assertions)
+- Noções básicas sobre o [Schematron](https://da2022.xatapult.com/#what-is-schematron)
+- Mais sobre [Regras de asserção no Esquematron](https://www.xml.com/pub/a/2003/11/12/schematron.html#Assertions)
 - [Arquivo de exemplo do Schematron](../../../assets/authoring/sample_schematron.sch)

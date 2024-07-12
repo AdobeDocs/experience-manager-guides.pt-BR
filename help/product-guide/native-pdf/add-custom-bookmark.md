@@ -1,5 +1,5 @@
 ---
-title: Recurso de publicação de PDF nativo | Adicionar um marcador personalizado na saída do PDF
+title: Recurso nativo do PDF Publish | Adicionar um marcador personalizado na saída do PDF
 description: Saiba como criar folhas de estilos de uso e criar estilos para o seu conteúdo.
 exl-id: 6e6dbba3-da41-4066-b7b2-735a3d92b70a
 feature: Output Generation
@@ -14,16 +14,16 @@ ht-degree: 0%
 
 # Adicionar um marcador personalizado na saída do PDF
 
-Geralmente, o índice em um mapa DITA é replicado como marcadores na saída final do PDF. Esse índice é criado a partir dos títulos do tópico ou da seção no mapa DITA. Às vezes, você pode querer adicionar um marcador personalizado em um conteúdo específico na saída do PDF para facilitar a navegação. Isso pode ser feito adicionando um `outputclass` no elemento e aplicando o seguinte atributo a ele:
+Geralmente, o índice em um mapa DITA é replicado como marcadores na saída final do PDF. Esse índice é criado a partir dos títulos do tópico ou da seção no mapa DITA. Às vezes, você pode querer adicionar um marcador personalizado em um conteúdo específico na saída do PDF para facilitar a navegação. Isso pode ser feito adicionando um atributo `outputclass` no elemento e aplicando o seguinte atributo a ele:
 
 `bookmark-level: 3`
 
-Aqui, a variável `bookmark-level` é um atributo e número `3` é o valor que indica o nível na hierarquia de marcadores onde o marcador é adicionado. No exemplo a seguir, o tópico de primeiro nível &quot;Contatos&quot; tem uma tabela, &quot;Lista de contatos&quot;, à qual adicionamos uma `outputclass` atributo com o valor de `custom-bookmark`.
+Aqui, o `bookmark-level` é um atributo e o número `3` é o valor que indica o nível na hierarquia de marcadores onde o marcador é adicionado. No exemplo a seguir, o tópico de primeiro nível &quot;Contatos&quot; tem uma tabela, &quot;Lista de contatos&quot;, na qual adicionamos um atributo `outputclass` com o valor de `custom-bookmark`.
 
 
 <img src="./assets/custom-bookmark-attribute.png" width="500">
 
-A seguinte definição de `custom-bookmark` é adicionada no arquivo CSS:
+A seguinte definição da classe `custom-bookmark` é adicionada ao arquivo CSS:
 
 ```css
 …
@@ -34,7 +34,7 @@ A seguinte definição de `custom-bookmark` é adicionada no arquivo CSS:
 …
 ```
 
-Na saída do PDF, a variável *Lista de contatos* A tabela é adicionada no segundo nível da lista de marcadores PDF, conforme mostrado abaixo:
+Na saída PDF, a tabela *Lista de contatos* é adicionada no segundo nível da lista de marcadores PDF, conforme mostrado abaixo:
 
 <img src="./assets/custom-bookmark-in-pdf-output.png" width="500">
 

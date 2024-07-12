@@ -26,7 +26,7 @@ Para aumentar o número de nós que uma consulta pode ler de cada vez, execute a
 
 1. Procure por e clique em **QueryEngineSettings**.
 
-1. Alterar valor de atributo para o **LimitReads** atributo.
+1. Altere o valor do atributo para o atributo **LimitReads**.
 
 1. Clique em **Salvar**.
 

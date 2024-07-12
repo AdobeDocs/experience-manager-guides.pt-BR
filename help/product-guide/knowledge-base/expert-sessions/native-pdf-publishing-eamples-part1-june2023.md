@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # Publicação de PDF nativo - Aprendendo por exemplos - 01
 
-Com o mecanismo de publicação PDF nativo, você pode controlar o layout de conteúdo do documento enquanto manipula as seções desejadas, conforme necessário, usando CSS, HTML e JavaScript fáceis de atualizar
+Com o mecanismo de publicação PDF nativo, é possível controlar o layout de conteúdo do documento enquanto manipula as seções desejadas, conforme necessário, usando CSS, HTML e JavaScript de fácil atualização
 
 ## Visão geral da sessão
 
@@ -25,10 +25,10 @@ Nesta sessão, com a ajuda de alguns exemplos, você aprenderá a utilizar os re
 
 ## Realces
 
-- **Data** - 1 de junho de 2023
+- **Data** - 1º de junho de 2023
 - **Número de participantes** - 82
 - **Duração** - 60 minutos
-- **Público** - Clientes, parceiros e funcionários da Adobe
+- **Público-alvo** - Clientes, parceiros e funcionários da Adobe
 
 ## Principais aprendizados
 
@@ -48,18 +48,18 @@ Nesta sessão, você aprendeu sobre o seguinte para publicação de PDF nativo:
 
 - **Casos de uso comuns documentados** - [no Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/content-styles/stylesheet.html?lang=en)
 
-- **Fórum da comunidade** - Para interações da comunidade específicas por sessão no Experience League, visite  [Fórum de guias do AEM](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Fórum da comunidade** - Para interações da comunidade específicas da sessão no Experience League, visite [Fórum da AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
-> Os recursos mostrados nesta sessão estão disponíveis nas seguintes versões dos Guias do AEM:
+> Os recursos mostrados nesta sessão estão disponíveis nas seguintes versões do AEM Guides:
 > - No local 4.2 ou posterior
 > - Cloud Service 2303 e posterior
 
 ## Próxima sessão com especialistas
 
 - **Tópico** - Publicação de PDF nativo &quot;Hands on lab - BYOS&quot; - Aprendizado interativo
-- **Agendado para** - 07 de setembro de 2023
+- **Agendado em** - 07 de setembro de 2023
 
 ## Entre em contato
 

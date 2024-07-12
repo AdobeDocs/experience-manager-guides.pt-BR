@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Fazer upload de conteúdo DITA existente {#id176FF000JUI}
 
-Provavelmente, você teria um repositório de conteúdo DITA existente que gostaria de usar com os Guias do AEM. Para tal conteúdo existente, você pode usar qualquer uma das seguintes abordagens para fazer upload em massa de seu conteúdo para o repositório AEM.
+Provavelmente você teria um repositório de conteúdo DITA existente que gostaria de usar com o AEM Guides. Para tal conteúdo existente, você pode usar qualquer uma das seguintes abordagens para fazer upload em massa de seu conteúdo para o repositório AEM.
 
 ## Usar uma ferramenta WebDAV
 
@@ -28,7 +28,7 @@ Execute as seguintes etapas para usar o WinSCP para fazer upload de arquivos:
 
    A caixa de diálogo Login é exibida.
 
-1. Na caixa de diálogo Logon, especifique uma configuração Novo site escolhendo WebDAV como o **Protocolo de arquivo** e fornecer outros detalhes de conexão, como:
+1. Na caixa de diálogo Logon, especifique uma configuração Novo Site escolhendo WebDAV como o **Protocolo de Arquivo** e fornecendo outros detalhes de conexão, como:
 
    - o URL onde o servidor AEM está hospedado,
 
@@ -49,20 +49,20 @@ Execute as seguintes etapas para usar o Conector AEM do FrameMaker para fazer up
 
 1. FrameMaker de inicialização.
 
-1. Abra o **Gerenciador de conexões** diálogo.
+1. Abra a caixa de diálogo **Gerenciador de Conexões**.
 
    ![](assets/fm-aem-connector.png){width="550" align="left"}
 
 1. Insira os seguintes detalhes para se conectar ao repositório AEM:
 
-   - **Nome**: digite um nome descritivo para identificar a conexão com o servidor AEM.
-   - **Servidor**: insira o URL e o número da porta do servidor AEM.
+   - **Nome**: insira um nome descritivo para identificar a conexão com o servidor AEM.
+   - **Servidor**: digite a URL e o número da porta do servidor AEM.
 
-   - **Nome do usuário**/**Senha**: digite o nome de usuário e a senha para acessar o servidor AEM.
+   - **Nome de Usuário**/**Senha**: digite o nome de usuário e a senha para acessar o servidor AEM.
 
 1. Clique em **Conectar**.
 
-   Depois que a conexão for estabelecida, os ativos do repositório AEM serão exibidos na janela Gerenciador de repositório.
+   Depois que a conexão for estabelecida, o Assets do repositório AEM será exibido na janela Gerenciador do repositório.
 
    ![](assets/fm-repo-manager.png){width="550" align="left"}
 
@@ -83,9 +83,9 @@ Execute as seguintes etapas para verificar nomes de arquivo em relação a um pa
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Procure por e clique no link *com.adobe.fmdita.config.ConfigManager* pacote.
+1. Procure e clique no pacote *com.adobe.fmdita.config.ConfigManager*.
 
-1. No **Padrões de nome de arquivo UUID** especifique um padrão para verificar os nomes dos arquivos importados.
+1. Na propriedade **Padrões de Nome de Arquivo UUID**, especifique um padrão para verificar os nomes dos arquivos importados.
 
    Se um arquivo não seguir o padrão especificado, uma UUID será adicionada à propriedade do arquivo e todas as referências ao arquivo serão atualizadas com a UUID atribuída ao arquivo.
 
@@ -97,12 +97,12 @@ Execute as seguintes etapas para verificar nomes de arquivo em relação a um pa
 Você pode usar qualquer um dos métodos a seguir para fazer upload de conteúdo com UUID:
 
 - Arraste e solte conteúdo do seu sistema local.
-- Use o **Criar** \> **Arquivos** fluxo de trabalho da interface de usuário do AEM Assets.
+- Use o fluxo de trabalho **Criar** \> **Arquivos** da interface do Assets do AEM.
 - Use uma ferramenta como o WinSCP.
 
-Caso use uma ferramenta como WinSCP, você poderá definir a ação a ser executada em um arquivo duplicado definindo o **Mover arquivo antigo com a mesma UUID para a nova pasta** no configMgr. Essa opção define que ação é executada em um arquivo que está disponível em algum outro local no repositório AEM. Essa configuração está disponível no *com.adobe.fmdita.config.ConfigManager* pacote no configMgr.
+Caso use uma ferramenta como o WinSCP, você poderá definir a ação a ser executada em um arquivo duplicado definindo a opção **Mover arquivo antigo com a mesma UUID para a nova pasta** no configMgr. Essa opção define que ação é executada em um arquivo que está disponível em algum outro local no repositório AEM. Essa configuração está disponível no pacote *com.adobe.fmdita.config.ConfigManager* no configMgr.
 
-Por padrão, a variável **Mover arquivo antigo com a mesma UUID para a nova pasta** está ativada. Isso implica que, quando o arquivo que está sendo carregado estiver presente em alguma outra pasta no repositório, o arquivo existente será movido para o local atual e substituído pelo arquivo que está sendo carregado. Se você não selecionar essa opção, o arquivo será substituído em seu local existente.
+Por padrão, a opção **Mover arquivo antigo com Mesmo UUID para Nova Pasta** está ATIVADA. Isso implica que, quando o arquivo que está sendo carregado estiver presente em alguma outra pasta no repositório, o arquivo existente será movido para o local atual e substituído pelo arquivo que está sendo carregado. Se você não selecionar essa opção, o arquivo será substituído em seu local existente.
 
 **Observações adicionais sobre o trabalho com arquivos baseados em UUID**:
 
@@ -138,9 +138,9 @@ Especifique os seguintes parâmetros para criar uma pasta:
 
 - `<username>:<passowrd>`: especifique o nome de usuário e a senha para acessar o repositório AEM. Esse usuário deve ter os privilégios de criação de pasta.
 
-- `jcr:primaryType=sling:Folder`: especifique esse parâmetro *como está* para criar um recurso do tipo pasta.
+- `jcr:primaryType=sling:Folder`: Especifique este parâmetro *como está* para criar um recurso do tipo pasta.
 
-- `<server folder path>`: Caminho completo da pasta, incluindo o nome da nova pasta que você deseja criar no repositório AEM. Por exemplo, se você especificar o caminho como `http://192.168.1.1:4502/content/dam/projects/AEM-Guides`, depois a pasta `AEM-Guides` é criado dentro do `projects` pasta no DAM.
+- `<server folder path>`: Caminho completo da pasta incluindo o nome da nova pasta que você deseja criar no repositório AEM. Por exemplo, se você especificar o caminho como `http://192.168.1.1:4502/content/dam/projects/AEM-Guides`, a pasta `AEM-Guides` será criada dentro da pasta `projects` no DAM.
 
 
 **Carregar um arquivo**
@@ -155,9 +155,9 @@ Especifique os seguintes parâmetros para fazer upload de um arquivo:
 
 - `<username>:<passowrd>`: especifique o nome de usuário e a senha para acessar o repositório AEM. Este usuário deve ter privilégios de gravação no `server folder path`.
 
-- ``local file path``: Caminho completo do arquivo no sistema local do qual você deseja fazer upload.
+- ``local file path``: caminho de arquivo completo no sistema local que você deseja carregar.
 
-- `<server folder path>`: Caminho completo da pasta no servidor AEM onde você deseja fazer upload do arquivo.
+- `<server folder path>`: Complete o caminho da pasta no servidor AEM onde você deseja carregar o arquivo.
 
 
 **Adicionar metadados**
@@ -172,9 +172,9 @@ Especifique os seguintes parâmetros para adicionar informações de metadados:
 
 - `<username>:<passowrd>`: especifique o nome de usuário e a senha para acessar o repositório AEM. Este usuário deve ter privilégios de gravação no ``metadata node path``.
 
-- ``-F<attribute name>=<value>``: A variável `<attribute name>` é o nome do atributo de metadados, como `audience` e a variável `<value>` poderia ser `internal`. Você pode especificar vários pares nome-valor do atributo separados por espaço.
+- ``-F<attribute name>=<value>``: `<attribute name>` é o nome do atributo de metadados, como `audience` e `<value>` poderia ser `internal`. Você pode especificar vários pares nome-valor do atributo separados por espaço.
 
-- `<metadata node path>`: Caminho completo da pasta incluindo o nome do arquivo e seu nó de metadados. Por exemplo, se você especificar o caminho como `http://192.168.1.1:4502/content/dam/projects/AEM-Guides/intro.xml/jcr:content/metadata`, as informações de metadados especificadas são definidas em `intro.xml` arquivo.
+- `<metadata node path>`: Caminho completo da pasta incluindo o nome do arquivo e seu nó de metadados. Por exemplo, se você especificar o caminho como `http://192.168.1.1:4502/content/dam/projects/AEM-Guides/intro.xml/jcr:content/metadata`, as informações de metadados especificadas serão definidas no arquivo `intro.xml`.
 
 
 **Tópico pai:**[ Migrar conteúdo existente](migrate-content.md)

@@ -1,6 +1,6 @@
 ---
 title: Relatório de status de conversão
-description: Converta documentos de diferentes formatos em DITA em guias AEM. Saiba como adicionar filtros e visualizar um relatório de status de conversão.
+description: Converta documentos de diferentes formatos em DITA no AEM Guides. Saiba como adicionar filtros e visualizar um relatório de status de conversão.
 exl-id: 0a4699e5-865f-40e1-a17f-5e1a248ea955
 feature: Report Generation
 role: User
@@ -13,15 +13,15 @@ ht-degree: 0%
 
 # Relatório de status de conversão {#id205BBA00WZZ}
 
-O AEM Guides fornece um recurso de conversão robusto para converter documentos de vários formatos em DITA. O Relatório de status de conversão fornece uma exibição consolidada de todas as tarefas de conversão executadas pelos Guias do AEM.
+O AEM Guides fornece um recurso de conversão robusto para converter documentos de vários formatos em DITA. O Relatório de status de conversão fornece uma exibição consolidada de todas as tarefas de conversão executadas pelo AEM Guides.
 
 Execute as seguintes etapas para exibir o Relatório de Status de Conversão:
 
-1. Clique no link Adobe Experience Manager na parte superior e escolha **Ferramentas**.
+1. Clique no link do Adobe Experience Manager na parte superior e escolha **Ferramentas**.
 
-1. Selecionar **Guias** na lista de ferramentas.
+1. Selecione **Guias** na lista de ferramentas.
 
-1. Clique no link **Relatório de status de conversão** bloco.
+1. Clique no bloco **Relatório de status de conversão**.
 
    O Relatório de status de conversão é exibido para todas as tarefas de conversão executadas no sistema.
 
@@ -41,19 +41,19 @@ Execute as seguintes etapas para exibir o Relatório de Status de Conversão:
 
      Os dados do relatório contêm as seguintes colunas:
 
-      - **Nome do arquivo**: Nome do arquivo de origem no qual o processo de conversão foi executado. Ao clicar no link Nome do arquivo, você será direcionado ao local do documento de origem.
+      - **Nome do Arquivo**: Nome do arquivo de origem no qual o processo de conversão foi executado. Ao clicar no link Nome do arquivo, você será direcionado ao local do documento de origem.
 
-      - **Tipo de arquivo**: Tipo do documento de origem, que pode ser Word, HTML estruturado, XML e DocBook.
+      - **Tipo de arquivo**: tipo do documento de origem, que pode ser Word, HTML estruturado, XML e DocBook.
 
-      - **Adicionado por**: Nome do usuário que executou a tarefa de conversão.
+      - **Adicionado por**: nome do usuário que executou a tarefa de conversão.
 
-      - **Data de adição**: Data em que a tarefa foi executada. Clicar no link Data de adição baixa o arquivo de log.
+      - **Data de adição**: data em que a tarefa foi executada. Clicar no link Data de adição baixa o arquivo de log.
 
-      - **Caminho**: Caminho completo do documento de origem.
+      - **Caminho**: caminho completo do documento de origem.
 
-      - **Status**: status das tarefas de conversão - Sucesso, Falha, Ativo ou Em fila.
+      - **Status**: status das tarefas de conversão - Êxito, Falha, Ativo ou Em fila.
 
-      - **Output**: Caminho do documento convertido com êxito. Clicar no link Saída leva ao local onde a saída é salva.
+      - **Saída**: Caminho do documento convertido com êxito. Clicar no link Saída leva ao local onde a saída é salva.
 
 
 **Tópico pai:**[ Relatórios](reports-intro.md)

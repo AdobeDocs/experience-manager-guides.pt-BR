@@ -1,5 +1,5 @@
 ---
-title: Recurso de publicação de PDF nativo | Criar um layout de página
+title: Recurso nativo do PDF Publish | Criar um layout de página
 description: Saiba como projetar o layout da página para apresentar informações em diferentes seções da saída de PDF.
 exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
 feature: Output Generation
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 Ao criar um documento PDF, você teria diferentes seções para apresentar diferentes tipos de informações. Por exemplo, um documento PDF começaria em uma página frontal ou de capa, que teria o logotipo, o título do livro ou as informações da versão da sua empresa. Em seguida, haveria capítulos, apêndices ou páginas de glossário. Cada seção em um documento do PDF é diferente, o que é obtido ao criar e personalizar o layout da página.
 
-Ao projetar o layout da página, é possível definir os vários elementos que compõem uma página. Por exemplo, você pode definir o tamanho da página, margens, cabeçalho e rodapé, orientação e outras especificações de página em uma página. O recurso Publicação de PDF nativo permite criar a página de acordo com as [Padrões de mídia de página](https://www.w3.org/TR/css-page-3/). A maioria das configurações cobertas pelos padrões de Mídia paginada pode ser facilmente personalizada usando a interface de usuário do recurso Publicação PDF nativa. Para alguma outra formatação de nível avançado, você pode usar a visualização Código-fonte para escrever seu próprio código CSS.
+Ao projetar o layout da página, é possível definir os vários elementos que compõem uma página. Por exemplo, você pode definir o tamanho da página, margens, cabeçalho e rodapé, orientação e outras especificações de página em uma página. O recurso Publicação de PDF nativo permite criar sua página de acordo com os [padrões de mídia de página](https://www.w3.org/TR/css-page-3/). A maioria das configurações cobertas pelos padrões de Mídia paginada pode ser facilmente personalizada usando a interface de usuário do recurso Publicação PDF nativa. Para alguma outra formatação de nível avançado, você pode usar a visualização Source para escrever seu próprio código CSS.
 
-Depois de criar os layouts de página, é necessário associar esses layouts às respectivas seções nas configurações de Layout da página de PDF. Consulte a [Criar e personalizar layouts de página](components-pdf-template.md#create-customize-page-layout) para obter detalhes sobre como criar e abrir um layout de página para personalização.
+Depois de criar os layouts de página, é necessário associar esses layouts às respectivas seções nas configurações de Layout da página de PDF. Consulte a seção [Criar e personalizar layouts de página](components-pdf-template.md#create-customize-page-layout) para obter detalhes sobre como criar e abrir um layout de página para personalização.
 
 ## Tipos de layouts de página {#types-of-page-layout}
 
@@ -36,7 +36,7 @@ Um documento PDF geralmente contém as seguintes seções:
 
 Essas seções precisariam de um layout de página correspondente para apresentar as informações em um formato específico. Além disso, também é possível ter uma página em branco usada como um preenchimento para iniciar um novo capítulo a partir de uma página ímpar ou par. Nesse caso, você pode usar o layout de página padrão ou criar um layout de página para uma página em branco. Consulte [Criar um novo layout de página](components-pdf-template.md#create-page-layout) para obter mais detalhes.
 
-As configurações de Layouts de página no **Modelo>Configurações** seção permitem definir qual layout de página deve ser usado para diferentes seções do seu PDF. Cada layout de página pode ter diferentes variantes de página na primeira página, direita ou esquerda.
+As configurações de Layouts de Página na seção **Modelo>Configurações** permitem definir qual layout de página deve ser usado para diferentes seções do seu PDF. Cada layout de página pode ter diferentes variantes de página na primeira página, direita ou esquerda.
 
 ### Criar as primeiras variantes de layout de página, direita ou esquerda {#page-layout-variants}
 
@@ -78,9 +78,9 @@ O exemplo a seguir o guiará pelo processo de criação de variantes de um layou
 
    >[!NOTE]
    >
-   >Para configuração avançada, você pode usar a visualização Código-fonte e adicionar seu HTML personalizado e código CSS.
+   >Para configuração avançada, você pode usar a visualização Source e adicionar seu HTML personalizado e código CSS.
 
-1. Passe o mouse sobre o **Capítulo** e clique em **Opções** para exibir o menu de contexto.
+1. Passe o mouse sobre o layout do **Capítulo** e clique em **Opções** para exibir o menu de contexto.
 
 1. Clique ou passe o mouse sobre **Adicionar variante de layout** e escolha o layout de página desejado (Primeira, Esquerda ou Direita) que deseja criar.
 
@@ -92,26 +92,26 @@ Ao projetar um layout de página, é essencial ter controle sobre várias propri
 
 >[!NOTE]
 >
->O painel Propriedades da página encapsula as propriedades e segue as regras definidas na [Padrões de mídia de página](https://www.w3.org/TR/css-page-3/).
+>O painel Propriedades da página encapsula as propriedades e segue as regras definidas nos [padrões de Mídia de página](https://www.w3.org/TR/css-page-3/).
 
-* **Tamanho da página** : especifique o tamanho de página que deseja usar para o layout de página. A lista suspensa Tamanho da página permite escolher entre mais de 15 tamanhos de página. Também é possível criar um layout de página usando um tamanho de página personalizado, consulte [Definir o tamanho da página](#set-page-size) para obter mais detalhes.
+* **Tamanho de Página** : especifique o tamanho de página que deseja usar para o layout de página. A lista suspensa Tamanho da página permite escolher entre mais de 15 tamanhos de página. Você também pode criar um layout de página usando um tamanho de página personalizado. Consulte [Definir o tamanho da página](#set-page-size) para obter mais detalhes.
 
 * **Orientação** : especifique a orientação da página a ser usada para o layout da página. Você pode escolher entre as orientações de página Retrato ou Paisagem. Observe que você pode optar por ter diferentes orientações aplicadas a diferentes variantes de página em um layout de página. Por exemplo, se o conteúdo contiver uma tabela ampla ou uma imagem grande, você poderá criar um layout de página de paisagem e aplicar esse layout à tabela ou imagem mais ampla.
 
-* **Exibir rotação** : especifique o lado ou a direção em que o lado superior original é representado após a rotação. Você pode escolher entre 90 e 90 graus no sentido horário ou 180 graus no sentido anti-horário. Isso é muito útil em uma situação em que você deseja usar uma combinação de layouts Retrato e Paisagem na saída. Por exemplo, você pode usar retrato como o layout de página genérico e pode definir um layout de página paisagem para renderizar tabelas largas. Nessa situação, você pode definir a exibição do conteúdo da tabela no sentido horário em 90 graus. Dessa forma, a página será orientada em paisagem e o conteúdo será girado 90 graus para manter a continuidade da exibição. Veremos como isso é feito, como exemplo, posteriormente nesta seção.
+* **Rotação de Exibição**: especifique o lado ou a direção na qual o lado superior original é representado após a rotação. Você pode escolher entre 90 e 90 graus no sentido horário ou 180 graus no sentido anti-horário. Isso é muito útil em uma situação em que você deseja usar uma combinação de layouts Retrato e Paisagem na saída. Por exemplo, você pode usar retrato como o layout de página genérico e pode definir um layout de página paisagem para renderizar tabelas largas. Nessa situação, você pode definir a exibição do conteúdo da tabela no sentido horário em 90 graus. Dessa forma, a página será orientada em paisagem e o conteúdo será girado 90 graus para manter a continuidade da exibição. Veremos como isso é feito, como exemplo, posteriormente nesta seção.
 
-* **Numeração de páginas** : A numeração de páginas, por padrão, é contínua em um PDF. Por exemplo, um PDF de 100 páginas pode ter números de página contínuos de 1 a 100. Você também pode reiniciar a numeração a partir de um número específico em todas as diferentes seções ou na primeira ocorrência de uma seção.
-   * **Reiniciar a partir de** : especifique o número da página de onde a numeração deste layout de página será iniciada. Por exemplo, você pode definir o número de página a ser reiniciado para cada capítulo. Nesse caso, você precisa definir a propriedade restart from como 1 na variante de layout First page do layout da página do capítulo. Por padrão, a numeração de páginas continua a partir da página anterior.
+* **Numeração de páginas** :a numeração de páginas, por padrão, é contínua em um PDF. Por exemplo, um PDF de 100 páginas pode ter números de página contínuos de 1 a 100. Você também pode reiniciar a numeração a partir de um número específico em todas as diferentes seções ou na primeira ocorrência de uma seção.
+   * **Reiniciar de**: especifique o número da página onde a numeração deste layout de página será iniciada. Por exemplo, você pode definir o número de página a ser reiniciado para cada capítulo. Nesse caso, você precisa definir a propriedade restart from como 1 na variante de layout First page do layout da página do capítulo. Por padrão, a numeração de páginas continua a partir da página anterior.
 
-   * **Aplicar somente à primeira ocorrência**: também é possível começar com um número específico somente para a primeira ocorrência de uma seção. Por exemplo, você pode iniciar somente o primeiro capítulo de 1 e continuar os números de página de outros capítulos.
+   * **Aplicar somente à primeira ocorrência**: também é possível iniciar com um número específico somente para a primeira ocorrência de uma seção. Por exemplo, você pode iniciar somente o primeiro capítulo de 1 e continuar os números de página de outros capítulos.
 
-* **Layout** : especifique as margens da página junto com o preenchimento para os lados superior, inferior, esquerdo e direito. A ilustração a seguir explica como as margens, o preenchimento e as bordas são renderizados em torno do conteúdo. Observe que a margem na parte superior e inferior de uma página contém o cabeçalho e o rodapé.
+* **Layout**: especifique as margens da página junto com o preenchimento para os lados superior, inferior, esquerdo e direito. A ilustração a seguir explica como as margens, o preenchimento e as bordas são renderizados em torno do conteúdo. Observe que a margem na parte superior e inferior de uma página contém o cabeçalho e o rodapé.
 
   <img src="./assets/margins-padding-illustration.png" width="300">
 
-* **Histórico** : inclua uma imagem ou uma cor como o plano de fundo do layout da página. Para uma imagem, você pode especificar a altura e a largura da imagem junto com as propriedades de repetição e posição.
+* **Plano de fundo** : incluir uma imagem ou uma cor como plano de fundo do layout da página. Para uma imagem, você pode especificar a altura e a largura da imagem junto com as propriedades de repetição e posição.
 
-* **Nota de rodapé** : especifique as propriedades para exibir notas de rodapé na saída. Você pode optar por especificar as margens e as propriedades de preenchimento junto com um estilo de borda.
+* **Nota de Rodapé** : especifique as propriedades para exibir notas de rodapé na saída. Você pode optar por especificar as margens e as propriedades de preenchimento junto com um estilo de borda.
 
 ### Definir o tamanho da página {#set-page-size}
 
@@ -121,14 +121,14 @@ A primeira coisa que você precisa definir em um layout de página é o tamanho 
 
    >[!NOTE]
    >
-   >Consulte [Personalizar um layout de página](components-pdf-template.md#customize-page-layout) seção para abrir um layout de página para personalização ou edição.
+   >Consulte a seção [Personalizar um layout de página](components-pdf-template.md#customize-page-layout) para abrir um layout de página para personalização ou edição.
 
 1. No painel direito, clique em **Propriedades da página**.
-1. No **Tamanho da página** selecione **Personalizado**.
+1. Na lista suspensa **Tamanho da Página**, selecione **Personalizado**.
 
    Os campos Largura da página e Altura da página são exibidos.
 
-1. Insira as dimensões de página desejadas na **Largura da página** e **Altura da página** campos.
+1. Insira as dimensões de página desejadas nos campos **Largura da página** e **Altura da página**.
 
    >[!NOTE]
    >
@@ -146,7 +146,7 @@ Para alcançar esse tipo de saída, precisamos executar as seguintes tarefas pri
 
 1. Crie um layout de página com orientação Paisagem.
 
-1. Altere o **Exibir rotação** para renderizar o conteúdo em 90°.
+1. Altere a propriedade **Rotação de Exibição** para renderizar conteúdo em 90°.
 
 1. Crie um estilo personalizado para usar o novo layout de página.
 
@@ -160,11 +160,11 @@ Execute as seguintes etapas para realizar as tarefas acima:
    1. No painel direito, clique em **Propriedades da página**.
 
       <img src="./assets/page-properties-panel.png" width="300">
-   1. Altere o **Orientação** para **Paisagem**.
+   1. Altere a **Orientação** para **Paisagem**.
 
 1. Altere a propriedade Rotação de exibição para renderizar o conteúdo em 90° no sentido horário.
 
-   1. Selecionar **90° no sentido horário** na lista suspensa Exibir Rotação.
+   1. Selecione **90°** no sentido horário na lista suspensa Exibir Rotação.
    <img src="./assets/view-rotation-page-props.png" width="300">
 
    1. Clique em **Salvar tudo** para salvar as propriedades atualizadas do layout da página.
@@ -174,34 +174,34 @@ Execute as seguintes etapas para realizar as tarefas acima:
 
    1. Expanda a seção Folhas de estilos.
 
-   1. Passe o mouse sobre a folha de estilos de layout e clique no botão _Opções_ ícone) ... e escolha Editar.
+   1. Passe o mouse sobre a folha de estilos de layout, clique no ícone (_Opções_) ... e escolha Editar.
 
       A folha de estilos de layout é aberta para edição.
 
-   1. Clique com o botão direito do mouse em **Outros estilos** e escolha **Novo estilo**.
+   1. Clique com o botão direito do mouse em **Outros Estilos** e escolha **Novo Estilo**.
       <img src="./assets/stylesheet-other-new-style.png" width="300">
 
-   1. No pop-up Adicionar estilo, digite **estilo paisagem** no **classname**.
+   1. No pop-up Adicionar estilo, digite **scape-style** em **classname**.
       <img src="./assets/stylesheet-new-landscape-style.png" width="400">
 
    1. Clique em **Concluído**.
 
-      Um novo estilo chamado `.landscape-style` é criado e adicionado ao final da lista Outros estilos.
+      Um novo estilo chamado `.landscape-style` é criado e adicionado ao final da lista Outros Estilos.
 
-   1. Clique duas vezes na guia `.landscape-style` estilo para abri-lo para edição.
+   1. Clique duas vezes no estilo `.landscape-style` para abri-lo para edição.
 
-   1. Expanda a **Paginação** propriedade.
+   1. Expanda a propriedade **Pagination**.
 
-   1. Enter `Landscape` no **Layout da página** propriedade.
+   1. Insira `Landscape` na propriedade **Layout da página**.
 
       <img src="./assets/new-style-with-landscape-layout.png" width="500">
 
    1. Clique em **Salvar tudo** para salvar as propriedades de estilo atualizadas.
 
-1. Adicione o estilo no `outputclass` definição da tabela que queremos renderizar no layout de página paisagem.
+1. Adicione o estilo na definição `outputclass` da tabela que queremos renderizar no layout da página de paisagem.
    1. Em um editor de arquivo DITA, abra o arquivo no qual deseja aplicar o novo layout de página.
 
-   1. Localize o `<table>` elemento, que deve ser renderizado no modo Paisagem.
+   1. Localize o elemento `<table>`, que deve ser renderizado no modo Paisagem.
 
    1. Na navegação estrutural, clique no elemento de tabela para selecionar a tabela.
 
@@ -209,7 +209,7 @@ Execute as seguintes etapas para realizar as tarefas acima:
 
    1. No painel direito, clique e abra o painel Propriedades de conteúdo.
 
-   1. No painel Propriedades de conteúdo, adicione um novo **classe_saída** propriedade com **estilo paisagem** como valor de propriedade.
+   1. No painel Propriedades de Conteúdo, adicione uma nova propriedade **outputclass** com **scape-style** como valor de propriedade.
 
       <img src="./assets/new-style-table-outputclass.png" width="300">
 
@@ -228,15 +228,15 @@ Por exemplo, para inserir uma imagem de plano de fundo na parte central da área
 
    >[!NOTE]
    >
-   >Consulte [Personalizar um layout de página](components-pdf-template.md#customize-page-layout) seção para abrir um layout de página para personalização ou edição.
+   >Consulte a seção [Personalizar um layout de página](components-pdf-template.md#customize-page-layout) para abrir um layout de página para personalização ou edição.
 
 1. Clique em qualquer lugar na área de conteúdo.
 
 1. No painel direito, clique em **Propriedades da página**.
 
-1. Expanda a **Histórico** seção.
+1. Expanda a seção **Plano de Fundo**.
 
-1. Clique no botão Procurar na **Caminho da imagem** campo de localização.
+1. Clique no botão de procura no campo de localização **Caminho da imagem**.
 
 1. Procure e selecione a imagem que deseja usar como imagem de plano de fundo.
 
@@ -250,11 +250,11 @@ Por exemplo, para inserir uma imagem de plano de fundo na parte central da área
 
 1. Defina as outras propriedades para ajustar a forma como deseja que a imagem do plano de fundo apareça.
 
-   * **Repetição em segundo plano** : especifique se deseja que o plano de fundo seja repetido ou não.
+   * **Repetição de Plano de Fundo** : especifique se deseja que o plano de fundo se repita ou não.
 
-   * **Posição do plano de fundo** : especifique uma posição para a imagem de fundo na página.
+   * **Posição do Plano de Fundo** : especifique uma posição para a imagem do plano de fundo na sua página.
 
-A captura de tela a seguir exibe a imagem de fundo com a propriedade Repetição de plano de fundo definida como _sem repetição_ e Posição do Plano de Fundo definida como _centro centro_.
+A captura de tela a seguir exibe a imagem de plano de fundo com a propriedade Repetir Plano de Fundo definida como _no-repeat_ e a propriedade Posição de Plano de Fundo definida como _center_.
 
 <img src="./assets/background-image.png" width="500">
 
@@ -272,11 +272,11 @@ Por padrão, as margens do cabeçalho e do rodapé estão definidas como 1 poleg
 
    >[!NOTE]
    >
-   >Consulte [Personalizar um layout de página](components-pdf-template.md#customize-page-layout) seção para abrir um layout de página para personalização ou edição.
+   >Consulte a seção [Personalizar um layout de página](components-pdf-template.md#customize-page-layout) para abrir um layout de página para personalização ou edição.
 
 1. No painel direito, clique em **Propriedades da página**.
-1. Expanda a **Layout** seção.
-1. Clique no ícone de bloqueio ao lado da **Margem** propriedade.
+1. Expanda a seção **Layout**.
+1. Clique no ícone de bloqueio ao lado da propriedade **Margin**.
 1. Para alterar o tamanho do cabeçalho, informe o valor desejado no campo Margem superior.
 
    >[!NOTE]
@@ -285,7 +285,7 @@ Por padrão, as margens do cabeçalho e do rodapé estão definidas como 1 poleg
 
 1. Para alterar o tamanho do rodapé, insira o valor desejado no campo Bottom margin.
 
-Você pode projetar a área de cabeçalho e rodapé para conter várias linhas. Para fazer isso, adicione um \&lt;p> usando a tag Inserir elementos de HTML (<img src="./assets/insert-html-element-2.svg" width="25">) na área de cabeçalho ou rodapé.
+Você pode projetar a área de cabeçalho e rodapé para conter várias linhas. Para fazer isso, adicione uma tag \&lt;p\> usando os Elementos de HTML de inserção (<img src="./assets/insert-html-element-2.svg" width="25">) ícone na área de cabeçalho ou rodapé.
 
 | _Canto do desenvolvedor_: <img src="./assets/developer-corner-icon.svg" width="25"> |
 |---|
@@ -318,7 +318,7 @@ Se você não quiser que um layout de página tenha um cabeçalho e um rodapé, 
 Com base em suas necessidades, você pode adicionar uma imagem que aparece na área de cabeçalho (ou em qualquer outra parte) do layout da página. Há duas maneiras de adicionar uma imagem ao layout de página:
 
 * Use uma imagem dos Recursos do modelo.
-* Use o \&lt;add image=&quot;&quot;> no editor de layout de página.
+* Use a ferramenta &lt;Adicionar imagem> no editor de layout de página.
 
 >[!NOTE]
 >
@@ -330,21 +330,21 @@ Para inserir uma imagem como o logotipo da empresa na área de cabeçalho, execu
 
 >[!NOTE]
 >
->Consulte [Personalizar um layout de página](components-pdf-template.md#customize-page-layout) seção para abrir um layout de página para personalização ou edição.
+>Consulte a seção [Personalizar um layout de página](components-pdf-template.md#customize-page-layout) para abrir um layout de página para personalização ou edição.
 
-1. Clique no cabeçalho de edição (<img src="./assets/header-icon.svg" width="25">) para trazer o cursor para a área do cabeçalho.
+1. Clique no cabeçalho de edição (<img src="./assets/header-icon.svg" width="25">) ícone para colocar o cursor na área do cabeçalho.
 
    Ou clique dentro da área de cabeçalho.
 
 1. Para adicionar uma imagem, escolha qualquer um dos métodos a seguir:
-1. Clique em **Inserir imagem** (<img src="./assets/insert-image-icon.svg" width="25">) na barra de ferramentas; no campo **Selecionar caminho** , navegue até o local da imagem e clique em **Selecionar** para inseri-lo na área de cabeçalho.
+1. Clique em **Inserir imagem** (Ícone <img src="./assets/insert-image-icon.svg" width="25"> na barra de ferramentas; no pop-up **Selecionar caminho**, navegue até o local da imagem e clique em **Selecionar** para inseri-lo na área de cabeçalho.
 1. Arraste e solte uma imagem da pasta Recursos na área de cabeçalho.
 
 A captura de tela a seguir mostra uma imagem de exemplo adicionada à área do cabeçalho.
 
 <img src="./assets/image-in-header-area.png" width="500">
 
-Depois que uma imagem é inserida, você pode modificar seus atributos para dar a aparência desejada. A maneira mais fácil de alterar a aparência de uma imagem ou de qualquer outro elemento no layout da página é usar o painel Propriedades de conteúdo. Consulte [Trabalhar com o painel Propriedades de conteúdo](#work-with-content-props) para as várias propriedades que estão disponíveis por meio da interface do usuário para personalização.
+Depois que uma imagem é inserida, você pode modificar seus atributos para dar a aparência desejada. A maneira mais fácil de alterar a aparência de uma imagem ou de qualquer outro elemento no layout da página é usar o painel Propriedades de conteúdo. Consulte [Painel Trabalhar com Propriedades de Conteúdo](#work-with-content-props) para conhecer as várias propriedades disponíveis na interface do usuário para personalização.
 
 ### Adicionar campos e metadados {#add-fields-metadata}
 
@@ -363,26 +363,26 @@ Há as seguintes categorias para campos que você pode inserir no layout da pág
 * Hora
 
 
-Cada uma dessas categorias de campo contém diferentes variações nas quais as informações de campo podem ser inseridas. Por exemplo, um campo Data pode ter variações diferentes, como `YYYY-MM-DD`, `MM/DD/YY`, `MM/DD/YYYY` e assim por diante. Da mesma forma, o Número de página pode ter variações na forma de formatos romanos, decimais ou até mesmo específicos do local, como _Árabe_, _Devanágari_, _Hebraico_ e muito mais.
+Cada uma dessas categorias de campo contém diferentes variações nas quais as informações de campo podem ser inseridas. Por exemplo, um campo Data pode ter diferentes variações, como `YYYY-MM-DD`, `MM/DD/YY`, `MM/DD/YYYY` e assim por diante. Da mesma forma, o Número de Página pode ter variações na forma de formatos romanos, decimais ou até mesmo locais específicos, como _Árabe_, _Devanagari_, _Hebraico_ e muito mais.
 
 
-Além dos campos predefinidos, também é possível adicionar informações de metadados como variáveis ou campos no layout da página. Esses metadados são armazenados no DITA de origem **Mapear conteúdo** ou ele pode ser retirado do DITA **Mapear propriedades do arquivo** ou o **Propriedades do arquivo de tópico** e facilmente inserida no layout da página.
+Além dos campos predefinidos, também é possível adicionar informações de metadados como variáveis ou campos no layout da página. Estes metadados estão armazenados no DITA de origem **Conteúdo do mapa** ou podem ser escolhidos nas **Propriedades do arquivo de mapa** do DITA ou nas **Propriedades do arquivo de tópico** e inseridos facilmente no layout da página.
 
 Você pode selecionar os metadados nas seguintes opções:
 
-* **Mapear conteúdo** inclui os metadados definidos na variável `<topicmeta>` elemento do mapa DITA.
-* **Mapear propriedades do arquivo** inclui os metadados, que podem ser acessados no **Propriedades** página de um mapa DITA.
-* **Propriedades do arquivo de tópico** inclui os metadados, que podem ser acessados no **Propriedades** página de um Tópico.
+* **O conteúdo do mapa** inclui os metadados que você definiu no elemento `<topicmeta>` do mapa DITA.
+* **As propriedades do arquivo de mapa** incluem os metadados, que você pode acessar na página **Propriedades** de um mapa DITA.
+* **Propriedades do arquivo de tópico** inclui os metadados, que você pode acessar na página **Propriedades** de um Tópico.
 
 
-É possível combinar metadados de **Mapear propriedades do arquivo** e **Propriedades do arquivo de tópico** num único documento. Por exemplo, você pode publicar um PDF com o título do mapa na página de capa e o título do tópico no cabeçalho de outras páginas. Para fazer isso, é possível adicionar os metadados do título do mapa do **Mapear propriedades do arquivo** para o layout da página de capa. Em seguida, adicione os metadados do título do tópico da **Propriedades do arquivo de tópico**  ao cabeçalho no layout da página Capítulos e tópicos.
+Você pode combinar metadados de **Mapear propriedades do arquivo** e **Propriedades do arquivo de tópico** em um único documento. Por exemplo, você pode publicar um PDF com o título do mapa na página de capa e o título do tópico no cabeçalho de outras páginas. Para fazer isso, você pode adicionar os metadados do título do mapa das **Propriedades do arquivo de mapa** ao layout da folha de rosto. Em seguida, adicione os metadados do título do tópico das **Propriedades do arquivo de tópico** ao cabeçalho no layout da página Capítulos e Tópicos.
 
 Se um tópico terminar em uma página enquanto o outro começar na mesma página, os metadados do primeiro tópico serão escolhidos. Você também pode adicionar propriedades personalizadas e inseri-las como campos no layout da página.
 
 
 >[!NOTE]
 >
-> Os campos de metadados são exibidos de acordo com a seleção de ativo ou mapa no **De** lista suspensa.
+> Os campos de metadados são exibidos de acordo com a seleção de ativo ou mapa na lista suspensa **De**.
 
 
 
@@ -395,19 +395,19 @@ No exemplo a seguir, inseriremos um número de página e um título de capítulo
 
    >[!NOTE]
    >
-   >Consulte [Personalizar um layout de página](components-pdf-template.md#customize-page-layout) seção para abrir um layout de página para personalização ou edição.
+   >Consulte a seção [Personalizar um layout de página](components-pdf-template.md#customize-page-layout) para abrir um layout de página para personalização ou edição.
 
-1. Clique em **Editar Rodapé** (![](./assets/footer-icon.svg)) para trazer o cursor para a área do rodapé.
+1. Clique no ícone **Editar Rodapé** (![](./assets/footer-icon.svg)) para colocar o cursor na área de rodapé.
 
    Ou clique dentro da área do rodapé.
 
-1. Insira um elemento de parágrafo clicando no **Inserir Elementos de HTML** (<img src="./assets/insert-html-element-2.svg" width="25">) e selecionando Parágrafo na lista de elementos.
+1. Insira um elemento de parágrafo clicando em **Inserir elementos de HTML** (<img src="./assets/insert-html-element-2.svg" width="25">) e selecionando Parágrafo na lista de elementos.
 
-1. Clique em **Inserir campos** (![](./assets/insert-fields-icon.svg)) ícone.
+1. Clique no ícone **Inserir Campos** (![](./assets/insert-fields-icon.svg)).
 
    O pop-up Campos é exibido.
 
-1. Selecione o **Número da página** categoria da lista Campo, a variável **padrão(1)** formato de número de página na lista Formato e clique em **Inserir**.
+1. Selecione a categoria **Número da Página** na lista Campo, o formato de número de página **padrão(1)** na lista Formato e clique em **Inserir**.
 
    <img src="./assets/insert-page-number-field.png" width="400">
 
@@ -421,11 +421,11 @@ No exemplo a seguir, inseriremos um número de página e um título de capítulo
 
    A navegação estrutural superior lista os elementos nos quais as informações são armazenadas.
 
-1. Insira um espaço em branco após o campo de número da página e clique no **Inserir campos** ícone.
+1. Insira um espaço em branco após o campo de número da página e clique no ícone **Inserir campos**.
 
-1. Selecione o **Título do capítulo** categoria da lista Campo, a variável **Título do capítulo** formato na lista Formato e clique em **Inserir**.
+1. Selecione a categoria **Título de capítulo** na lista Campo, o formato **Título de capítulo** na lista Formato e clique em **Inserir**.
 
-   A variável _Título do capítulo_ O campo, que é preenchido com o título do capítulo no momento da publicação, é inserido na área do rodapé. Nesse momento, os campos de número da página e título do capítulo são separados por um espaço.
+   O campo _Título do capítulo_, que é preenchido com o título do capítulo no momento da publicação, é inserido na área do rodapé. Nesse momento, os campos de número da página e título do capítulo são separados por um espaço.
 
    <img src="./assets/page-number-topic-title-near-footer.png" width="400">
 
@@ -433,9 +433,9 @@ No exemplo a seguir, inseriremos um número de página e um título de capítulo
 
    1. Clique no elemento Campo na navegação estrutural para selecionar o campo Título de capítulo.
 
-   1. No painel direito, clique na guia **Propriedades de conteúdo** (<img src="./assets/content-properties-icon.png" width="25">) ícone.
+   1. No painel direito, clique em **Propriedades do conteúdo** (<img src="./assets/content-properties-icon.png" width="25">) ícone.
 
-   1. Expanda a **Layout** propriedades e defina a **Flutuante** valor da propriedade para **direita**.
+   1. Expanda a seção de propriedades **Layout** e defina o valor da propriedade **Float** como **right**.
       <img src="./assets/float-prop-html-content.png" width="400">
 
       O campo Título de capítulo é alinhado à direita do rodapé da página.
@@ -445,7 +445,7 @@ No exemplo a seguir, inseriremos um número de página e um título de capítulo
 | _Canto do desenvolvedor_: <img src="./assets/developer-corner-icon.svg" width="25"> |
 |---|
 
-Se você gosta de trabalhar diretamente com o CSS e o código HTML, também é possível fazer isso indo para a Visualização de código-fonte do layout da página e fazendo alterações no código. O trecho de código a seguir mostra a mesma configuração de rodapé feita pelo código:
+Se você gosta de trabalhar diretamente com o CSS e o código HTML, também é possível fazer isso acessando a visualização Source do layout da página e fazendo alterações no código. O trecho de código a seguir mostra a mesma configuração de rodapé feita pelo código:
 
 ```css
 …
@@ -475,13 +475,13 @@ No exemplo a seguir, um índice de capítulo será inserido no layout da primeir
 
 >[!NOTE]
 >
->Para esse procedimento, presume-se que você tenha criado a variante de Primeira página para um layout de página de capítulo. Para obter instruções sobre como criar uma variante de página, consulte [Criar as primeiras variantes de layout de página, direita ou esquerda](#page-layout-variants).
+>Para esse procedimento, presume-se que você tenha criado a variante de Primeira página para um layout de página de capítulo. Para obter instruções sobre como criar uma variante de página, consulte [Criar a primeira variante de layout de página, direita ou esquerda](#page-layout-variants).
 
 1. Abra o layout de página desejado para edição.
 
    >[!NOTE]
    >
-   >Consulte [Personalizar um layout de página](components-pdf-template.md#customize-a-page-layout) seção para abrir um layout de página para personalização ou edição.
+   >Consulte a seção [Personalizar um layout de página](components-pdf-template.md#customize-a-page-layout) para abrir um layout de página para personalização ou edição.
 
 1. Coloque o cursor na área de conteúdo do layout da página.
 
@@ -509,7 +509,7 @@ No exemplo a seguir, um índice de capítulo será inserido no layout da primeir
    >
    >O PDF publicado final mostrará apenas as entradas do índice com base no conteúdo dos capítulos. Se você não tiver títulos de nível 5 em um capítulo, eles não serão exibidos na saída final.
 
-A aparência do índice padrão pode ser personalizada usando as folhas de estilos. O estilo que começa com `chaptoc-level-#` (como `chaptoc-level-1`, `chaptoc-level-2`e assim por diante) são usados para personalizar os estilos do índice do capítulo. <!--For more details on the stylesheet elements used in the TOC and how to customize them, see _Customize default chapter TOC_-->.
+A aparência do índice padrão pode ser personalizada usando as folhas de estilos. O estilo que começa com `chaptoc-level-#` (como `chaptoc-level-1`, `chaptoc-level-2` e assim por diante) é usado para personalizar os estilos do índice do capítulo. <!--For more details on the stylesheet elements used in the TOC and how to customize them, see _Customize default chapter TOC_-->.
 
 >[!IMPORTANT]
 >
@@ -525,7 +525,7 @@ Para criar um layout de página com várias colunas, execute as seguintes etapas
 
    >[!NOTE]
    >
-   >Consulte [Personalizar um layout de página](components-pdf-template.md#customize-a-page-layout) seção para abrir um layout de página para personalização ou edição.
+   >Consulte a seção [Personalizar um layout de página](components-pdf-template.md#customize-a-page-layout) para abrir um layout de página para personalização ou edição.
 
 1. Como o layout de várias colunas é aplicado ao conteúdo, excluindo a área de cabeçalho e rodapé, é necessário selecionar o elemento de conteúdo na navegação estrutural.
 
@@ -535,17 +535,17 @@ Para criar um layout de página com várias colunas, execute as seguintes etapas
 
 1. Use as propriedades de várias colunas para personalizar o layout de página com várias colunas:
 
-   * **Contagem de colunas:** Especifique o número de colunas para dividir a página. Use os ícones de seta para cima e para baixo ou insira um número para definir o número de colunas.
+   * **Contagem de colunas:** especifique o número de colunas para dividir a página. Use os ícones de seta para cima e para baixo ou insira um número para definir o número de colunas.
 
-   * **Largura da coluna:** Especifique a largura de uma coluna em um layout de várias colunas. Por padrão, o tamanho é definido em pixels (px). Também é possível especificá-lo em pt, rem, em, % ou em unidades.
+   * **Largura da Coluna:** Especifique a largura de uma coluna em um layout de várias colunas. Por padrão, o tamanho é definido em pixels (px). Também é possível especificá-lo em pt, rem, em, % ou em unidades.
 
      >[!NOTE]
      >
      >Se você não especificar um tamanho, as colunas serão divididas uniformemente para caber na página especificada. Na maioria dos casos, não é necessário especificar esse valor.
 
-   * **Lacuna da coluna** : especifique o espaço entre colunas individuais.
+   * **Lacuna da Coluna**: especifique o espaço entre colunas individuais.
 
-   * **Extensão da coluna** : se quiser que qualquer elemento no layout da página ocupe colunas, é necessário usar essa propriedade. Isso é feito modificando o estilo do elemento desejado usando as Folhas de estilos. <!--for more information see _Section explaining style customization_-->.
+   * **Extensão da Coluna**: se você quiser que qualquer elemento no layout da página se estenda entre colunas, será necessário usar essa propriedade. Isso é feito modificando o estilo do elemento desejado usando as Folhas de estilos. <!--for more information see _Section explaining style customization_-->.
 
    No layout da página, se você quiser que um determinado texto seja exibido na primeira página de todos os layouts de página do capítulo, poderá adicioná-lo à variante de Primeira página do layout da página do Capítulo.
 
@@ -557,15 +557,15 @@ Para criar um layout de página com várias colunas, execute as seguintes etapas
    >
    >Você pode aplicar a propriedade Span Column a qualquer elemento DITA usando o atributo outputclass.
 
-   * **Preenchimento de coluna** : especifique como o conteúdo preenche as colunas. Por padrão, é definido como Saldo, que preenche cada coluna com a mesma quantidade de conteúdo.
+   * **Preenchimento de Coluna** : especifique como o conteúdo preenche as colunas. Por padrão, é definido como Saldo, que preenche cada coluna com a mesma quantidade de conteúdo.
 
-   * **Regra de coluna** : se quiser ter uma linha entre colunas, use essa propriedade para definir os estilos de linha ou de regra. Especifique os valores para Estilo, Cor e Largura da regra para adicionar uma linha entre as colunas.
+   * **Regra de Coluna**: se você quiser ter uma linha entre colunas, use essa propriedade para definir os estilos de linha ou de regra. Especifique os valores para Estilo, Cor e Largura da regra para adicionar uma linha entre as colunas.
 
 ## Trabalhar com o painel Propriedades de conteúdo {#work-with-content-props}
 
 O painel Propriedades de conteúdo permite atualizar facilmente a aparência dos elementos no layout de página. As propriedades no painel Propriedades de conteúdo são divididas nas seguintes seções:
 
-* **Fonte** : contém propriedades relacionadas ao texto. É possível definir a Família da fonte, Peso, Tamanho, Decoração do texto (como sublinhado, linha sobreposta, passagem de linha), Estilo do texto (como Negrito, Itálico e muito mais), Alinhamento do texto (como esquerda, direita, centro ou justificado), manipular Espaços em branco (como formato predefinido, sem quebra automática, espaço livre e muito mais), Altura da linha, Espaçamento entre letras e Recuo do texto.
+* **Fonte** : contém propriedades relacionadas a texto. É possível definir a Família da fonte, Peso, Tamanho, Decoração do texto (como sublinhado, linha sobreposta, passagem de linha), Estilo do texto (como Negrito, Itálico e muito mais), Alinhamento do texto (como esquerda, direita, centro ou justificado), manipular Espaços em branco (como formato predefinido, sem quebra automática, espaço livre e muito mais), Altura da linha, Espaçamento entre letras e Recuo do texto.
 
 * **Borda** : contém propriedades para adicionar e formatar uma borda a um elemento no layout da página. Você pode definir Lado da borda (como tudo, superior, inferior, direita ou esquerda), Estilo da borda (como sólido, tracejado, linhas pontilhadas ou mais), Cor da borda, Largura e Raio para ter uma borda curva. No exemplo a seguir, uma borda curva foi adicionada à área de cabeçalho da página.
 
@@ -573,5 +573,5 @@ O painel Propriedades de conteúdo permite atualizar facilmente a aparência dos
 
 * **Layout** : contém propriedades para configurar o layout de um elemento no layout da página. Você pode definir Altura, Largura, Margens e Preenchimento (para cima, baixo, esquerda ou direita), Alinhamento horizontal ou vertical, Flutuação (como Esquerda, Direita ou nenhum), Limpar (como esquerda, direita, ambos ou nenhum), Posição do elemento (como absoluto, fixo, relativo ou mais), Exibição (como bloco, conteúdo, correção ou mais), Índice Z, Transparência, Transformação (por rotação ou dimensionamento) e Transformar Origem (por deslocamento X e Y).
 
-* **Histórico** : contém propriedades para incluir uma imagem de plano de fundo ou sombra de cor. Você pode definir o Tamanho da imagem (definindo Altura ou Largura), Repetição do plano de fundo (como repetição, sem repetição, arredondado ou mais) e Posição do plano de fundo (como parte superior esquerda, centro direito, parte inferior central ou mais).
-* **Várias colunas** : contém propriedades para configurar propriedades de várias colunas para a página ou qualquer elemento específico, como o índice do capítulo. Para obter mais detalhes sobre as propriedades e como usá-las, consulte [Trabalhar com layout de página de várias colunas](#multi-column-layout).
+* **Plano de Fundo** : contém propriedades para incluir uma imagem de plano de fundo ou sombra de cor. Você pode definir o Tamanho da imagem (definindo Altura ou Largura), Repetição do plano de fundo (como repetição, sem repetição, arredondado ou mais) e Posição do plano de fundo (como parte superior esquerda, centro direito, parte inferior central ou mais).
+* **Várias Colunas** : contém propriedades para configurar propriedades de várias colunas para a página ou qualquer elemento específico, como o Sumário do Capítulo. Para obter mais detalhes sobre as propriedades e como usá-las, consulte [Trabalhar com layout de página de várias colunas](#multi-column-layout).

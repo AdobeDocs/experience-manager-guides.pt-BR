@@ -16,17 +16,17 @@ ht-degree: 0%
 
 O editor da Web fornece um recurso avançado de tradução para traduzir o conteúdo em vários idiomas.
 
-Você pode usar o **Gerenciar** no Editor da Web para traduzir o conteúdo. Essa guia está disponível por padrão.
+Você pode usar a guia **Gerenciar** no Editor da Web para traduzir o conteúdo. Essa guia está disponível por padrão.
 
-Para ocultar a variável **Gerenciar** no Editor da Web, execute as seguintes etapas:
+Para ocultar a guia **Gerenciar** no Editor da Web, execute as seguintes etapas:
 
-1. Efetue logon no **Adobe Experience Manager** como administrador.
-1. Clique no link **Adobe Experience Manager** vincule na parte superior e escolha **Ferramentas**.
-1. Selecionar **Guias** na lista de ferramentas e clique no botão **Perfis de pasta**.
-1. Clique no link **Perfil global** bloco.
-1. Clique em **Configuração do editor XML**.
-1. Clique em **Editar** ícone na parte superior.
-1. Baixe o `ui\_config.json` arquivo.Remova o seguinte trecho de código do arquivo baixado:
+1. Faça logon no **Adobe Experience Manager** como administrador.
+1. Clique no link **Adobe Experience Manager** na parte superior e escolha **Ferramentas**.
+1. Selecione **Guias** na lista de ferramentas e clique em **Perfis de Pasta**.
+1. Clique no bloco **Perfil Global**.
+1. Clique em **Configuração do Editor de XML**.
+1. Clique no ícone **Editar** na parte superior.
+1. Baixar o arquivo `ui\_config.json`.Remova o seguinte trecho de código do arquivo baixado:
 
    ```json
    {
@@ -46,6 +46,6 @@ Para ocultar a variável **Gerenciar** no Editor da Web, execute as seguintes et
 
 1. Faça upload do arquivo ui\_config.json atualizado.
 
-Observe que **Gerenciar** O filtro não está mais disponível.
+Observe que o filtro **Gerenciar** não está mais disponível.
 
 **Tópico pai:**[ Personalizar editor da Web](conf-web-editor.md)

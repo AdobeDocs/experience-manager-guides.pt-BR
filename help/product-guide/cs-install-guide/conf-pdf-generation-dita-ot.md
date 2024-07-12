@@ -14,22 +14,22 @@ ht-degree: 0%
 
 # Configurar a geração de PDF de um único tópico {#id22ADC70M0XA}
 
-Com os Guias AEM, você pode gerar o PDF de tópicos individuais ou um arquivo de mapa inteiro. Você pode publicar seus tópicos em um formato PDF usando o método PDF nativo ou DITA-OT. Use o método PDF nativo para gerar uma saída de PDF repleta de recursos com base no W3C CSS3 e nos padrões de mídia paginada CSS. Você pode usar o método DITA-OT para gerar uma saída de PDF para um mapa a partir do painel de mapa.
+Com a AEM Guides, você pode gerar o PDF de tópicos individuais ou um arquivo de mapa inteiro. Você pode publicar seus tópicos em um formato PDF usando o método PDF nativo ou DITA-OT. Use o método PDF nativo para gerar uma saída de PDF repleta de recursos com base no W3C CSS3 e nos padrões de mídia paginada CSS. Você pode usar o método DITA-OT para gerar uma saída de PDF para um mapa a partir do painel de mapa.
 
 >[!NOTE]
 >
-> O PDF nativo é o método padrão para gerar um PDF na versão atual das Guias do AEM.
+> PDF nativo é o método padrão para gerar um PDF na versão atual do AEM Guides.
 
 Para ativar a geração de PDF antiga por meio do DITA-OT a partir do modo de visualização de tópico, execute as seguintes etapas:
 
 1. Faça logon no Adobe Experience Manager como administrador e baixe o arquivo de configuração da interface.
 
-1. Para fazer isso, clique no link Adobe Experience Manager na parte superior e escolha **Ferramentas**.
-1. Selecionar **Guias** na lista de ferramentas e clique no botão **Perfis de pasta**.
-1. Clique no link **Perfil global** bloco.
-1. Selecione o **Configuração do editor XML** e clique em **Editar** ícone na parte superior
-1. Clique em **Baixar** ícone para baixar o arquivo ui\_config.json no sistema local. Em seguida, você pode fazer alterações no arquivo e fazer upload do mesmo.
-1. No `ui_config.json` , localize a seguinte configuração:
+1. Para fazer isso, clique no link do Adobe Experience Manager na parte superior e escolha **Ferramentas**.
+1. Selecione **Guias** na lista de ferramentas e clique em **Perfis de Pasta**.
+1. Clique no bloco **Perfil Global**.
+1. Selecione a guia **Configuração do editor XML** e clique no ícone **Editar** na parte superior
+1. Clique no ícone **Baixar** para baixar o arquivo ui\_config.json em seu sistema local. Em seguida, você pode fazer alterações no arquivo e fazer upload do mesmo.
+1. No arquivo `ui_config.json`, localize a seguinte configuração:
 
    ```
    {

@@ -1,5 +1,5 @@
 ---
-title: Notas de versão | Guias do Adobe Experience Manager as a Cloud Service, versão de abril de 2022
+title: Notas de versão | Versão as a Cloud Service do Adobe Experience Manager Guides de abril de 2022
 description: Versão de abril do Adobe Experience Manager Guides as a Cloud Service
 exl-id: c735ba24-a803-454b-8723-57dacf90061b
 feature: Release Notes
@@ -15,14 +15,14 @@ ht-degree: 0%
 
 ## Atualização para a versão de abril
 
-Atualize seu atual [!DNL Adobe Experience Manager Guides] as a Cloud Service (mais tarde referido como *[!DNL AEM Guides]as a Cloud Service*), executando as seguintes etapas:
+Atualize sua configuração atual do [!DNL Adobe Experience Manager Guides] as a Cloud Service (mais tarde chamada de *[!DNL AEM Guides]as a Cloud Service*) executando as seguintes etapas:
 1. Confira o código Git do Cloud Service e alterne para a ramificação configurada no pipeline Cloud Service correspondente ao ambiente que você deseja atualizar.
-1. Atualizar `<dox.version>` propriedade no `/dox/dox.installer/pom.xml` arquivo do seu código Git Cloud Service para 2022.4.133.
+1. Atualize a propriedade `<dox.version>` no arquivo `/dox/dox.installer/pom.xml` do seu código Git Cloud Service para 2022.4.133.
 1. Confirme as alterações e execute o pipeline do Cloud Service para atualizar para a versão de abril do [!DNL AEM Guides] as a Cloud Service.
 
 ## Matriz de compatibilidade
 
-Esta seção lista a matriz de compatibilidade dos aplicativos de software suportados pela [!DNL AEM Guides] Versão as a Cloud Service de abril de 2022.
+Esta seção lista a matriz de compatibilidade dos aplicativos de software compatíveis com a versão de as a Cloud Service de 2022 do [!DNL AEM Guides].
 
 ### FRAMEMAKER e FRAMEMAKER PUBLISHING SERVER
 
@@ -49,7 +49,7 @@ Muitos aprimoramentos e novos recursos foram adicionados ao Editor da Web:
 
 Uma referência de chave de conteúdo DITA insere uma parte do conteúdo de um tópico em outro. Ele usa uma chave para localizar o conteúdo. As principais referências associadas a um tópico DITA precisam ser resolvidas. O mapa raiz selecionado tem a precedência mais alta para resolver referências principais.
 
-![caixa de diálogo preferências do usuário](assets/user-preferences.png)
+![caixa de diálogo de preferências do usuário](assets/user-preferences.png)
 
 Agora, as principais referências são resolvidas com base no mapa raiz definido na seguinte ordem de prioridade:
 
@@ -57,15 +57,15 @@ Agora, as principais referências são resolvidas com base no mapa raiz definido
 1. Painel Exibição de mapa
 1. Perfil da pasta
 
-Para obter mais detalhes, consulte *Resolver referências de chave* no Guia do usuário.
+Para obter mais detalhes, consulte a seção *Resolver referências de chave* no Guia do usuário.
 
 ### Adicionar um painel personalizado no painel esquerdo
 
-Agora é possível adicionar um painel personalizado no painel esquerdo do Editor da Web. Você pode usar um painel personalizado para várias finalidades, como fornecer ajuda ou fazer o teste de um projeto. Se um painel personalizado tiver sido configurado, ele também aparecerá na lista de painéis dentro do **Configurações do editor**. Você pode alternar o botão para mostrar ou ocultar o painel personalizado.
+Agora é possível adicionar um painel personalizado no painel esquerdo do Editor da Web. Você pode usar um painel personalizado para várias finalidades, como fornecer ajuda ou fazer o teste de um projeto. Se um painel personalizado foi configurado, ele também aparece na lista de painéis nas **Configurações do Editor**. Você pode alternar o botão para mostrar ou ocultar o painel personalizado.
 
 ### Capacidade de alterar o estado do documento de tópicos em um mapa DITA
 
-Agora é possível alterar facilmente o estado do documento de tópicos selecionados em um mapa DITA. Também é possível abrir e editar as propriedades de tópicos selecionados em um mapa DITA na **Mais opções** na parte inferior do painel Exibição de mapa.
+Agora é possível alterar facilmente o estado do documento de tópicos selecionados em um mapa DITA. Você também pode abrir e editar as propriedades dos tópicos selecionados em um mapa DITA no menu **Mais Opções**, na parte inferior do painel Exibição de Mapa.
 
 ![propriedades do tópico selecionado](assets/map-view-properties.png)
 
@@ -87,7 +87,7 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 * Problemas ocorrem quando qualquer palavra-chave é usada no título da guia. (9318)
 * A linha de base falha ao adicionar um rótulo com espaços. (9362)
 * A saída do site AEM não exibe o elemento glossusage corretamente. (8936)
-* Ocorre um erro de console ao abrir o **Output** no Editor da Web. (8715)
+* Erro de console ao abrir a guia **Saída** no Editor da Web. (8715)
 * A mensagem de erro exibida ao publicar um tipo de registro manual por meio do Salesforce não é intuitiva. (8952)
 * A configuração Validar com atributos de condição não é aberta imediatamente. Em vez disso, o usuário precisa reabrir o arquivo para ver as validações. (9300)
 * Os metadados não podem ser removidos uma vez que um mapa DITA é publicado com metadados.  (9178)
@@ -100,7 +100,7 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 
 ## Problemas conhecidos
 
-A Adobe identificou o seguinte problema conhecido no [!DNL AEM Guides] Versão as a Cloud Service de abril.
+O Adobe identificou o seguinte problema conhecido na versão de as a Cloud Service de abril do [!DNL AEM Guides].
 
 * O Editor da Web não relata um erro quando duas ou mais linhas de base são criadas com o mesmo nome, mas têm diferenças de espaço ou caixa. Por exemplo, &quot;adobe&quot; e &quot;Adobe &quot; ou &quot;Adobe&quot;.
 * O conector Oxygen trava intermitentemente ao fazer login ou logout frequentes ou alternar entre diferentes tipos de autenticação.

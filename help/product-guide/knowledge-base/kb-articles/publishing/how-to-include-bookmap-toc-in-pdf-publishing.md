@@ -16,7 +16,8 @@ ht-degree: 0%
 
 ## Configurar o seu mapa de livros
 
-Inclua o `<toc>`  element: No de seu mapa de favoritos `<frontmatter>`elemento, localize o `<booklists>` elemento.  Aninhar a `<toc>` element inside `<booklists>` assim:
+Incluir o elemento `<toc>`:
+No elemento `<frontmatter>` do seu mapa, localize o elemento `<booklists>`.  Aninhar um elemento `<toc>` dentro de `<booklists>` desta forma:
 
 ```
 <frontmatter>
@@ -27,7 +28,7 @@ Inclua o `<toc>`  element: No de seu mapa de favoritos `<frontmatter>`elemento, 
 </frontmatter>
 ```
 
-A especificação DITA permite colocar o sumário e as listas de livros dentro da `<backmatter>` também.
+A especificação DITA também permite colocar o sumário e as listas de favoritos na seção `<backmatter>`.
 
 
 ```
@@ -77,7 +78,7 @@ Você pode controlar o design por meio de um layout de página separado para ín
 
 O índice e outros pedidos de listas de favoritos no PDF são baseados somente na estrutura do mapa de favoritos.
 
-![sumário](../assets/publishing/toc.png)
+![toc](../assets/publishing/toc.png)
 
 
 ## Perguntas frequentes
@@ -88,17 +89,17 @@ Os próprios mapas de dicionário não têm um sumário diretamente (índice), c
 
 Se você estiver publicando o Ditamap, o PDF nativo fornecerá a funcionalidade para gerar o índice e a lista de favoritos automaticamente. É possível habilitar/desabilitar a geração de índice no ditamap nas configurações de PDF nativo.
 
-![Ativar Desativar sumário](../assets/publishing/pageorder.png)
+![Habilitar Desabilitação do Sumário](../assets/publishing/pageorder.png)
 
 ## Recursos adicionais:
 
-- [Documentação do layout da página de design do PDF nativo](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/design-page-layout)
-- [Sessão de especialista nativa pré-gravada do PDF essentials](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23)
+- [Documentação de layout da página de design do PDF nativo](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/design-page-layout)
+- [Sessão de especialista pré-gravada do Native PDF essentials](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23)
 
 <br>
 <br>
 
-Publicar na comunidade do AEM Guides [fórum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) para qualquer consulta.
+Post no [fórum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) da Comunidade AEM Guides para qualquer consulta.
 
 
 

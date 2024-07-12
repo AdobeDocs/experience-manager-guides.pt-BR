@@ -1,5 +1,5 @@
 ---
-title: Recurso de publicação de PDF nativo | Usar estilos personalizados em notas de rodapé
+title: Recurso nativo do PDF Publish | Usar estilos personalizados em notas de rodapé
 description: Saiba como aplicar estilo aos números em notas de rodapé.
 exl-id: f1068f2f-2ace-4bdb-b5a4-46b03d4e43d6
 feature: Output Generation
@@ -31,8 +31,8 @@ Cada nota de rodapé tem um marcador na parte inferior da página, que geralment
 
 Use o exemplo fornecido para adicionar um colchete antes e depois da chamada de nota de rodapé e do marcador:
 
-* Adicione o prefixo &quot;(&quot; e o sufixo &quot;)&quot; usando o atributo content na variável `footnote-call` estilo, que adicionará os colchetes ao redor do número da nota de rodapé no conteúdo do tópico.
-* Adicione o prefixo &quot;(&quot; e o sufixo &quot;)&quot; usando o atributo content na variável `footnote-marker` estilo, que adicionará os colchetes ao redor do número da nota de rodapé na parte inferior da página.
+* Adicione o prefixo &quot;(&quot; e o sufixo &quot;)&quot; usando o atributo content no estilo `footnote-call`, que adicionará os colchetes ao redor do número da nota de rodapé no conteúdo do tópico.
+* Adicione o prefixo &quot;(&quot; e o sufixo &quot;)&quot; usando o atributo content no estilo `footnote-marker`, que adicionará os colchetes ao redor do número da nota de rodapé na parte inferior da página.
 
 ```css
 ...
@@ -71,11 +71,12 @@ Na saída, é possível visualizar algo como:
 
 <img src="./assets/footnote-number-2.png" alt="Rodapé na saída do PDF" width="500" border="2px">
 
-*Adicione asterisco a uma chamada de nota de rodapé e marcador.*
+*Adicionar asterisco a uma chamada de nota de rodapé e marcador.*
 
 ## Ocultar uma chamada de nota de rodapé
 
-Também é possível aplicar um estilo a chamadas de nota de rodapé com atributos específicos. Por exemplo, use o seguinte estilo para ocultar uma nota de rodapé com as IDs: a chamada de nota de rodapé está oculta no conteúdo principal, mas o marcador de nota de rodapé aparece na parte inferior da página.
+Também é possível aplicar um estilo a chamadas de nota de rodapé com atributos específicos. Por exemplo, use o seguinte estilo para ocultar uma nota de rodapé com as IDs:
+A chamada de nota de rodapé está oculta no conteúdo principal, mas o marcador de nota de rodapé aparece na parte inferior da página.
 
 ```css
 .fn[id]::footnote-call {
@@ -115,7 +116,7 @@ Por padrão, as notas de rodapé são numeradas continuamente em um documento. N
 
 ### Layouts de página
 
-Você pode especificar um número nos layouts de página para reiniciar a numeração de notas de rodapé nas diferentes seções de um documento PDF. Por exemplo, selecione um número na **Reiniciar numeração de** no painel Propriedades da página para reiniciar a numeração da nota de rodapé de cada capítulo.
+Você pode especificar um número nos layouts de página para reiniciar a numeração de notas de rodapé nas diferentes seções de um documento PDF. Por exemplo, selecione um número no campo **Reiniciar numeração de** do painel Propriedades da página para reiniciar a numeração de notas de rodapé para cada capítulo.
 
 ### Estilos CSS
 
@@ -147,7 +148,7 @@ Também é possível fazer referência cruzada de uma nota de rodapé e fazer re
 Por exemplo, a captura de tela a seguir mostra como a mesma nota de rodapé é referenciada para todas as cidades na saída do PDF.
 <img width="550" alt="referências de notas de rodapé em um pdf" src="./assets/link-footnotes.png" border="2px">
 
-*Inserir a referência cruzada a uma nota de rodapé.*
+*Insira a referência cruzada para uma nota de rodapé.*
 
 
 

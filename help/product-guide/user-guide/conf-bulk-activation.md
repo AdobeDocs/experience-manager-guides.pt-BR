@@ -17,13 +17,14 @@ Em um cenário do mundo real, seus autores teriam acesso à instância de criaç
 
 >[!NOTE]
 >
-> Para obter mais detalhes sobre como configurar a instância do autor e da publicação no AEM, consulte [Visão geral da arquitetura de criação e publicação](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites).
+> Para obter mais detalhes sobre como configurar a instância do autor e da publicação no AEM, consulte [Visão geral da arquitetura do Author e do Publish](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites).
 
-Com o recurso de ativação em massa dos Guias do AEM, você pode ativar rápida e facilmente seu conteúdo, desde a criação até a instância de publicação. O recurso de ativação em massa oferece flexibilidade para:
+Com o recurso de Ativação em massa do AEM Guides, você pode ativar rápida e facilmente seu conteúdo, desde a criação até a instância de publicação. O recurso de ativação em massa oferece flexibilidade para:
 
 - Adicionar um ou mais mapas \(a uma coleção de mapas\) a uma única tarefa de ativação
 
-- Selecione uma ou várias predefinições de saída que deseja publicar. É possível adicionar predefinições de saída AEM Site, PDF, PDF nativo, HTML5, Personalizado e JSON.
+- Selecione uma ou várias predefinições de saída que deseja publicar. Você pode adicionar AEM Site, PDF, PDF nativo, HTML5, Personalizado e
+Predefinições de saída JSON.
 
 
 - Definir localidades nas quais a saída deve ser ativada

@@ -1,6 +1,6 @@
 ---
-title: Implantar módulo de Guias do AEM
-description: Saiba como implantar o módulo Guias do AEM
+title: Implantar módulo do AEM Guides
+description: Saiba como implantar o módulo AEM Guides
 exl-id: 3bb28304-d8e2-45eb-8297-546eed428b8c
 feature: Installation
 role: Admin
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Implantar módulo do Adobe Experience Manager Guides {#id213BCL00KEV}
 
-Você pode começar implantando os Guias do Experience Manager por meio do Cloud Manager. Para implantar o módulo, você pode seguir as instruções mencionadas em [AEM orienta implantação as a Cloud Service](../release-info/deploy-xml-on-aemaacs.md)
+Você pode começar implantando o Experience Manager Guides por meio da Cloud Manager. Para implantar o módulo, você pode seguir as instruções mencionadas em [as a Cloud Service de implantação do AEM Guides](../release-info/deploy-xml-on-aemaacs.md)
 
 
 

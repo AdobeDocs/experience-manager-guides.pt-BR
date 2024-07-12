@@ -17,12 +17,12 @@ ht-degree: 0%
 O AEM Guides permite configurar o título para os ícones Check-in e Check-out no Editor da Web. Execute as seguintes etapas para configurar o título para os ícones Fazer check-in e Fazer check-out:
 
 1. Baixe o arquivo de configuração da interface do usuário fazendo logon no Adobe Experience Manager como administrador.
-1. Clique no link Adobe Experience Manager na parte superior e escolha **Ferramentas**.
-1. Selecionar **Guias** na lista de ferramentas e clique no botão **Perfis de pasta**.
-1. Clique no link **Perfil global** bloco.
-1. Selecione o **Configuração do editor XML** e clique na guia **Editar** ícone na parte superior.
-1. No **Configuração da interface do Editor de XML** clique na guia **Baixar** ícone para baixar o `ui_config.json` no sistema local.
-1. No `ui_config.json` alterar o título na seção &quot;barra superior&quot;. Você pode alterar os seguintes valores:
+1. Clique no link do Adobe Experience Manager na parte superior e escolha **Ferramentas**.
+1. Selecione **Guias** na lista de ferramentas e clique em **Perfis de Pasta**.
+1. Clique no bloco **Perfil Global**.
+1. Selecione a guia **Configuração do editor XML** e clique no ícone **Editar** na parte superior.
+1. Na seção **Configuração da interface do Editor de XML**, clique no ícone **Baixar** para baixar o arquivo `ui_config.json` no sistema local.
+1. No arquivo `ui_config.json`, altere o título na seção &quot;barra superior&quot;. Você pode alterar os seguintes valores:
 
    ```json
    //Change title to "Check out" instead of "Lock"

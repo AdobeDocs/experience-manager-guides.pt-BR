@@ -32,12 +32,12 @@ Detalhes do pacote:
   public class **PublishUtils** extends Object
   ```
 
-  A variável **`PublishUtils`** A classe contém um método para gerar saída para uma ou mais predefinições de saída.
+  A classe **`PublishUtils`** contém um método para gerar saída para uma ou mais predefinições de saída.
 
 
 ## Gerar saída
 
-A variável ``generateOutput`` O método gera a saída de um arquivo de mapa DITA usando as predefinições de saída especificadas.
+O método ``generateOutput`` gera saída para um arquivo de mapa DITA usando as predefinições de saída especificadas.
 
 **Sintaxe**:
 
@@ -48,6 +48,12 @@ String outputName)
 throws GuidesApiException
 ```
 
-**Parâmetros**: |Nome|Tipo|Descrição| |—|—|—| |`session`|javax.jcr.Session|Uma sessão JCR válida.| |``sourcePath``|String|Caminho \(no repositório AEM\) do arquivo de mapa DITA para o qual a saída precisa ser gerada.| |``outputName``|String|Nome da predefinição de saída\(s\) a ser usada para gerar saída. Várias predefinições de saída podem ser especificadas usando um delimitador de barra vertical \(&quot;\|&quot;\), por exemplo `aemsite\|pdfoutput`.|
+**Parâmetros**:
+|Nome|Tipo|Descrição|
+|—|—|—|
+|`session`|javax.jcr.Session|Uma sessão JCR válida.|
+|``sourcePath``|String|Caminho \(no repositório AEM\) do arquivo de mapa DITA para o qual a saída precisa ser gerada.|
+|``outputName``|String|Nome da predefinição de saída\(s\) a ser usada para gerar saída. Várias predefinições de saída podem ser especificadas usando um delimitador de barra vertical \(&quot;\|&quot;\), por exemplo `aemsite\|pdfoutput`.|
 
-**Exceção**: Lançamentos ``javax.jcr.RepositoryException``, `java.io.IOException`, e `java.lang.Exception`.
+**Exceção**:
+Lança ``javax.jcr.RepositoryException``, `java.io.IOException` e `java.lang.Exception`.

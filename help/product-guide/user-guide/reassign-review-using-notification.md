@@ -1,6 +1,6 @@
 ---
 title: Reatribuir tarefa de revisão usando notificação
-description: Reatribua uma tarefa de revisão usando notificações nos Guias AEM. Saber como reatribuir uma tarefa de revisor a partir da notificação da caixa de entrada.
+description: Reatribua uma tarefa de revisão usando notificações no AEM Guides. Saber como reatribuir uma tarefa de revisor a partir da notificação da caixa de entrada.
 exl-id: 6cd01564-aa26-4773-9c95-9dc519706f27
 feature: Reviewing
 role: User
@@ -17,13 +17,13 @@ ht-degree: 0%
 
 Observe que a reatribuição só pode ser feita para tarefas de revisor e não tarefas de proprietário.
 
-1. **Tarefa do revisor**: qualquer tarefa atribuída a um revisor para uma revisão.
-1. **Tarefa do proprietário**: uma tarefa criada somente para o proprietário. Quando você cria e atribui uma tarefa de revisão a um revisor, o proprietário também recebe uma tarefa de proprietário com o nome Fechar &lt; nome da tarefa de revisão\> \(Por exemplo close-reviewtask1\) mas essa tarefa de proprietário não pode ser reatribuída a ninguém.
+1. **Tarefa do revisor**: qualquer tarefa atribuída a um revisor para revisão.
+1. **Tarefa do proprietário**: uma tarefa que é criada somente para o proprietário. Quando você cria e atribui uma tarefa de revisão a um revisor, o proprietário também recebe uma tarefa de proprietário com o nome Fechar &lt; nome da tarefa de revisão\> \(Por exemplo close-reviewtask1\) mas essa tarefa de proprietário não pode ser reatribuída a ninguém.
 
 Execute as seguintes etapas para reatribuir uma tarefa de revisão a partir da notificação da Caixa de entrada:
 
 1. Selecione a notificação da tarefa de revisão na Caixa de entrada.
-1. Selecionar **Reatribuir** ícone na parte superior.
+1. Selecione o ícone **Reatribuir** na parte superior.
 1. Selecione o nome de usuário para o qual você deseja reatribuir a tarefa.
 
    >[!IMPORTANT]
@@ -32,10 +32,10 @@ Execute as seguintes etapas para reatribuir uma tarefa de revisão a partir da n
 
    ![](images/reassign-user-inbox.png){width="800" align="left"}
 
-1. Selecionar **Reatribuir**.
+1. Selecione **Reatribuir**.
 
 Quando a tarefa de revisão for reatribuída, a coluna Destinatário exibirá o nome do revisor para o qual a tarefa foi reatribuída.
 
 O revisor atribuído recebe uma notificação na Caixa de entrada para a tarefa de revisão reatribuída.
 
-**Tópico pai:**[ Revisar tópicos ou mapas](review.md)
+**Tópico pai:**[ Tópicos ou mapas de revisão](review.md)

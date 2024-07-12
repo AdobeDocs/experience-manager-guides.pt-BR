@@ -20,13 +20,13 @@ Execute as seguintes etapas para substituir a lista padrão de caracteres especi
 
 1. Faça logon no AEM e abra o modo CRXDE Lite.
 
-1. criar `symbols.json` arquivo no seguinte local:
+1. criar arquivo `symbols.json` no seguinte local:
 
    ```json
    /apps/fmdita/xmleditor/
    ```
 
-1. Adicione a definição de caractere especial na `symbols.json` arquivar como:
+1. Adicione a definição de caractere especial no arquivo `symbols.json` como:
 
    ```json
    {"symbols": [{"label": "Arrows",
@@ -39,11 +39,11 @@ Execute as seguintes etapas para substituir a lista padrão de caracteres especi
    ```
 
 
-A estrutura do `symbols.json` O arquivo é explicado abaixo:
+A estrutura do arquivo `symbols.json` é explicada abaixo:
 
-- `"label": "Arrows"`: Especifica a categoria dos caracteres especiais. No trecho, uma categoria com o nome `"Arrows"` está definido.
+- `"label": "Arrows"`: Especifica a categoria dos caracteres especiais. No trecho, uma categoria com o nome `"Arrows"` é definida.
 - `"items"`: isso define a coleção de caracteres especiais na categoria.
-- `"name": "←", "title": "Left Arrow"`: esta é a definição do caractere especial. Ele começa com o `"name"` rótulo, que não deve ser alterado. O nome é seguido pelo caractere especial. A variável `"title"` é o nome ou o título do caractere especial que aparece como a dica de ferramenta desse caractere especial.
+- `"name": "←", "title": "Left Arrow"`: esta é a definição do caractere especial. Ela começa com o rótulo `"name"`, que não deve ser alterado. O nome é seguido pelo caractere especial. O `"title"` é o nome ou o título do caractere especial que aparece como a dica de ferramenta desse caractere especial.
 
   É possível definir várias definições de caracteres especiais em uma categoria.
 

@@ -27,15 +27,15 @@ Ao fazer logon no AEM, você verá a página Navegação:
 
 ![](images/web-editor-from-navigation-page.png){width="800" align="left"}
 
-Clicar no **Guias** O link direciona você para o Editor da Web.
+Ao clicar no link **Guias**, você será direcionado diretamente para o Editor da Web.
 
 ![](images/web-editor-launch-page.png){width="800" align="left"}
 
 Como você iniciou o Editor da Web sem selecionar nenhum arquivo, uma tela em branco do Editor da Web é exibida. Você pode abrir um arquivo para edição no repositório AEM ou na sua coleção Favoritos.
 
-- Clique em **Guias** ícone (![](images/aem-guides-icon.png) ), para voltar à página de Navegação por AEM.
+- Clique no ícone **Guias** (![](images/aem-guides-icon.png) ) para voltar à página de Navegação por AEM.
 
-- A variável **Fechar** leva você a um destino com base em sua configuração:
+- O botão **Fechar** leva você a um destino com base em sua configuração:
 
 
 
@@ -43,14 +43,14 @@ Como você iniciou o Editor da Web sem selecionar nenhum arquivo, uma tela em br
 
   <summary> Cloud Services </summary>
 
-  Se estiver usando Cloud Service, clique no link **Fechar** botão para voltar à página de Navegação AEM.
+  Se você estiver usando o Cloud Service, clique no botão **Fechar** para voltar para a página Navegação por AEM.
   </details>
 
   <details>
 
   <summary> Software local</summary>
 
-  Se você estiver usando o Software no local Guias do AEM (4.2.1 e posterior), clique no link **Fechar** botão à direita para voltar ao caminho do arquivo atual na interface do usuário do Assets.
+  Se você estiver usando o AEM Guides On-premise Software (4.2.1 e posterior), clique no botão **Fechar** à direita para voltar ao caminho do arquivo atual na interface do usuário do Assets.
 
   </details>
 
@@ -72,11 +72,11 @@ Outro local onde você pode iniciar o Editor da Web é na interface do usuário 
    >
    > Certifique-se de que você tenha as permissões de leitura e gravação na pasta que contém o tópico que deseja editar.
 
-1. Para obter um bloqueio exclusivo sobre o tópico, selecione o tópico e clique em **Check-out**.
+1. Para obter um bloqueio exclusivo sobre o tópico, selecione o tópico e clique em **Fazer Check-out**.
 
    >[!IMPORTANT]
    >
-   > Se o administrador tiver configurado a variável **Desativar Edição Sem Check-Out** , você deverá fazer check-out do arquivo antes de editar. Se não fizer check-out do arquivo, você não poderá ver a opção de edição.
+   > Se o administrador tiver configurado a opção **Desabilitar Edição Sem Check-out**, você deverá fazer check-out do arquivo antes de editar. Se não fizer check-out do arquivo, você não poderá ver a opção de edição.
 
 1. Feche o modo de seleção de ativos e clique no tópico que deseja editar.
 
@@ -103,11 +103,11 @@ Outro local onde você pode iniciar o Editor da Web é na interface do usuário 
 
 Para abrir o Editor da Web no console de mapa DITA, siga estas etapas:
 
-1. Na interface do usuário do Assets, navegue e clique no arquivo de mapa DITA que contém o tópico que deseja editar.
+1. Na interface do usuário do Assets, navegue até o arquivo de mapa DITA que contém o tópico que deseja editar e clique nele.
 
    O console do mapa DITA é exibido.
 
-1. Clique em **Temas**.
+1. Clique em **Tópicos**.
 
    Uma lista de tópicos no arquivo de mapa é exibida. A UUID dos tópicos é exibida abaixo do título do tópico.
 
@@ -121,7 +121,7 @@ Para abrir o Editor da Web no console de mapa DITA, siga estas etapas:
 
    >[!IMPORTANT]
    >
-   > Se o administrador tiver configurado a variável **Desativar Edição Sem Check-Out** , você deverá fazer check-out do arquivo antes de editar. Se você não fizer check-out do arquivo, o documento será aberto no editor no modo somente leitura.
+   > Se o administrador tiver configurado a opção **Desabilitar Edição Sem Check-out**, você deverá fazer check-out do arquivo antes de editar. Se você não fizer check-out do arquivo, o documento será aberto no editor no modo somente leitura.
 
 
-**Tópico pai:**[ Trabalhar com o editor da Web](web-editor.md)
+**Tópico pai:**[ Trabalhar com o Editor da Web](web-editor.md)

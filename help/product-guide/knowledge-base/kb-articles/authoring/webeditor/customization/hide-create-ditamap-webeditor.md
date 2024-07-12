@@ -1,13 +1,13 @@
 ---
 title: Ocultar a opção Criar DitaMap nas opções do menu de contexto Pasta para usuários ou grupos específicos.
 description: Saiba como personalizar o editor da Web ocultando a opção "DitaMap" do menu de contexto de pasta para usuários/grupos específicos
-source-git-commit: ea8fb646287f68676b6530b4cc5f56e7ba2d9b0c
+exl-id: 796bfe3a-3950-4ade-9215-c33534791055
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%
 
 ---
-
 
 # Mostrar/Ocultar &quot;Criar DitaMAP&quot; no menu de contexto da pasta no editor da Web
 
@@ -16,14 +16,14 @@ Nesse caso de uso, ocultaremos essa opção para todos os usuários não autores
 
 ## Pré-requisitos
 
-Vamos aproveitar o pacote de extensão Guias AEM, que permite personalizar a interface do usuário do seu aplicativo de acordo com seus requisitos.
-Faça o favor de passar por isso [documentação](https://github.com/adobe/guides-extension/tree/main) para obter mais informações sobre como a Estrutura de extensão do Guides funciona.
+Usaremos o pacote de extensão do AEM Guides, que permite personalizar a interface do usuário do seu aplicativo de acordo com seus requisitos.
+Consulte esta [documentação](https://github.com/adobe/guides-extension/tree/main) para obter mais informações sobre como a Estrutura de Extensão do Guides funciona.
 
 Agora vamos começar e aprender a personalizar o menu de contexto de pasta para ocultar essa opção para todos os usuários não autores.
 
 Como você pode ver abaixo do trecho, a opção &quot;criar DitaMap&quot; fica visível para um usuário autor.
 
-![Mostrar a opção Criar DitaMap](../../../assets/authoring/ditamap-show-author.png)
+![Mostrar opção de criação de DitaMap](../../../assets/authoring/ditamap-show-author.png)
 
 Agora vamos ver como podemos ocultar essa opção usando a Estrutura de extensão de guias.
 
@@ -60,7 +60,7 @@ const folderOptions = {
 };
 ```
 
-- **Criação de um novo dispositivo para lidar com a lógica**
+- **Criação de um novo widget para lidar com a lógica**
 
   Uma nova criação de widget (customoptions.ts) é necessária para escrever a lógica e ocultar essa opção somente para usuários não autores. Para isso, usamos a chave &quot;show&quot;, que atua como um botão de alternância em nossa estrutura JSON.
 
@@ -113,7 +113,7 @@ controller: {
   },
 ```
 
-- **Adição do código personalizado**
+- **Adicionando o código personalizado**
 
   Importe folder_options.ts e customoptions.ts para o arquivo index.ts em /src.
 
@@ -122,11 +122,11 @@ controller: {
 - Faça logon no AEM com um usuário que não faz parte do grupo de autores. A opção Criar DitaMap estaria oculta no menu de contexto de qualquer pasta, como mostrado abaixo.
 Esse caso de uso foi adicionado ao GIT. Encontre os recursos relacionados abaixo.
 
-![Ocultar a opção Criar DitaMap](../../../assets/authoring/ditamap-hide-non-author.png)
+![Ocultar a opção de criação de DitaMap](../../../assets/authoring/ditamap-hide-non-author.png)
 
 ### Recursos relacionados
 
-- **Repositório de base da estrutura de extensão** - [GIT](https://github.com/adobe/guides-extension/tree/main)
+- **Repositório base da estrutura de extensão** - [GIT](https://github.com/adobe/guides-extension/tree/main)
 
 - **Documentação** - [no Experience League](../../../../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)
 

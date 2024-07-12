@@ -1,5 +1,5 @@
 ---
-title: Recurso de publicação de PDF nativo | Trabalhar com estilos de barras de alteração personalizados
+title: Recurso nativo do PDF Publish | Trabalhar com estilos de barras de alteração personalizados
 description: Saiba como aplicar estilos a barras de alteração.
 exl-id: a81ec56c-ccbb-4599-a696-8edef7a73cdd
 feature: Output Generation
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Trabalhar com estilos de barras de alteração personalizados
 
-Uma barra de alteração é uma linha vertical que identifica visualmente o conteúdo novo ou revisado. Guias do AEM permitem mostrar uma barra de alteração à esquerda do conteúdo alterado em tópicos e também os tópicos alterados no índice da saída de PDF.
+Uma barra de alteração é uma linha vertical que identifica visualmente o conteúdo novo ou revisado. O AEM Guides permite exibir uma barra de alterações à esquerda do conteúdo alterado em tópicos e também nos tópicos alterados no índice da saída do PDF.
 
-Para obter mais detalhes sobre como mostrar a barra de alterações, consulte *Criar PDF com barra de alterações entre versões publicadas* configuração em [Publicar saída do PDF](../web-editor/native-pdf-web-editor.md).
+Para obter mais detalhes sobre como mostrar a barra de alterações, consulte a configuração *Criar PDF com Barra de Alterações entre Versões Publicadas* em [Saída do PDF Publish](../web-editor/native-pdf-web-editor.md).
 
 ## Conteúdo alterado nos tópicos
 
@@ -27,9 +27,9 @@ Você pode modificar os estilos a seguir para mostrar o conteúdo alterado e ent
 
 >[!NOTE]
 >
->Esses estilos fazem parte do `layout.css` e você poderá editá-los conforme necessário.
+>Esses estilos fazem parte do arquivo `layout.css` e você pode editá-los conforme necessário.
 
-Por exemplo, você pode usar o atributo de cor na variável `.inserted-block` estilo para definir a forma como o conteúdo inserido aparece na saída de PDF publicada.
+Por exemplo, você pode usar o atributo de cor no estilo `.inserted-block` para definir a forma como o conteúdo inserido aparece na saída de PDF publicada.
 
 
 ```css
@@ -46,7 +46,7 @@ Por exemplo, você pode usar o atributo de cor na variável `.inserted-block` es
 ...
 ```
 
-Da mesma forma, você pode usar o `.deleted-block` estilo para definir a forma como o conteúdo excluído aparece na saída de PDF publicada.
+Da mesma forma, você pode usar o estilo `.deleted-block` para definir a forma como o conteúdo excluído aparece na saída de PDF publicado.
 
 ```css
 ...
@@ -63,9 +63,9 @@ Da mesma forma, você pode usar o `.deleted-block` estilo para definir a forma c
 ...
 ```
 
-Você pode usar `.inserted-change-bar` e `.deleted-change-bar` estilo para modificar a aparência das barras de alteração que aparecem à esquerda do conteúdo atualizado.
+Você pode usar os estilos `.inserted-change-bar` e `.deleted-change-bar` para modificar a aparência das barras de alteração que aparecem à esquerda do conteúdo atualizado.
 
-Por exemplo, você pode usar `-ro-change-bar-color` atributo em `.inserted-change-bar` estilo para mostrar a barra de alterações inserida na cor verde. Também é possível usar `-ro-change-bar-color` atributo em `.deleted-change-bar` estilo para mostrar a barra de alterações excluída em vermelho.
+Por exemplo, você pode usar o atributo `-ro-change-bar-color` no estilo `.inserted-change-bar` para mostrar a barra de alterações inserida na cor verde. Você também pode usar o atributo `-ro-change-bar-color` no estilo `.deleted-change-bar` para mostrar a barra de alterações excluída na cor vermelha.
 
 ```css
 ...
@@ -83,7 +83,7 @@ Por exemplo, você pode usar `-ro-change-bar-color` atributo em `.inserted-chang
 
 ## Tópico alterado no Sumário
 
-Você também pode adicionar uma barra de alteração à esquerda dos tópicos alterados no índice da saída do PDF. Você pode usar `-ro-change-bar-color` atributo no `.changed-topic` Estilo para adicionar uma barra de alterações na cor de sua escolha para os tópicos atualizados na lista do índice.
+Você também pode adicionar uma barra de alteração à esquerda dos tópicos alterados no índice da saída do PDF. Você pode usar o atributo `-ro-change-bar-color` no estilo `.changed-topic` para adicionar uma barra de alteração na cor de sua escolha para os tópicos atualizados na lista do índice.
 
 Por exemplo, é possível adicionar uma barra de alteração de cor verde.
 

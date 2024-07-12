@@ -1,5 +1,5 @@
 ---
-title: Recurso de publicação de PDF nativo | Usar JavaScript para trabalhar com conteúdo ou estilo
+title: Recurso nativo do PDF Publish | Usar o JavaScript para trabalhar com conteúdo ou estilo
 description: Saiba como criar folhas de estilos de uso e criar estilos para o seu conteúdo.
 exl-id: 2f301f6a-0d1c-4194-84c2-0fddaef8d3ec
 feature: Output Generation
@@ -12,14 +12,14 @@ ht-degree: 0%
 
 ---
 
-# Usar JavaScript para trabalhar com conteúdo ou estilo
+# Usar o JavaScript para trabalhar com conteúdo ou estilo
 
-O recurso Publicação de PDF nativo permite executar o JavaScript para manipular o conteúdo ou estilo aplicado no conteúdo antes que o PDF final seja gerado. Esse recurso oferece controle total sobre como a saída final é gerada. Por exemplo, você pode adicionar informações de avisos legais à saída PDF, que reside em outro PDF. Usando o JavaScript, você pode adicionar as informações de aviso legal depois que o PDF for criado para o conteúdo base, mas antes que o PDF final seja gerado.\
+O recurso Publicação de PDF nativo permite executar o JavaScript para manipular o conteúdo ou estilo aplicado no conteúdo antes que o PDF final seja gerado. Esse recurso oferece controle total sobre como a saída final é gerada. Por exemplo, você pode adicionar informações de avisos legais à saída PDF, que reside em outro PDF. Com o JavaScript, você pode adicionar as informações de avisos legais depois que o PDF for criado para o conteúdo base, mas antes que o PDF final seja gerado.\
 Para oferecer suporte à execução do JavaScript, o recurso Publicação de PDF nativo fornece as seguintes funções de retorno de chamada:
 
-* `window.pdfLayout.onBeforeCreateTOC(callback)`: Essa função de retorno de chamada é executada antes que o índice seja gerado.
-* `window.pdfLayout.onBeforePagination(callback)`: essa função de retorno de chamada é executada após a geração do índice, mas antes de as quebras de página serem adicionadas no PDF.
-* `window.pdfLayout.onAfterPagination(callback)`: Essa função de retorno de chamada é executada após o índice e as quebras de página serem adicionadas no PDF.
+* `window.pdfLayout.onBeforeCreateTOC(callback)`: Essa função de retorno de chamada é executada antes que o sumário seja gerado.
+* `window.pdfLayout.onBeforePagination(callback)`: essa função de retorno de chamada é executada após a geração do sumário, mas antes de as quebras de página serem adicionadas no PDF.
+* `window.pdfLayout.onAfterPagination(callback)`: essa função de retorno de chamada é executada após o sumário e as quebras de página serem adicionadas no PDF.
 
 >[!NOTE]
 >
@@ -27,11 +27,11 @@ Para oferecer suporte à execução do JavaScript, o recurso Publicação de PDF
 
 Com base no tipo de conteúdo ou na modificação de estilo que deseja executar, você pode escolher qual função de retorno de chamada usar. Por exemplo, se você deseja adicionar conteúdo, é recomendável fazer isso antes que o índice seja gerado. Da mesma forma, se você quiser fazer algumas atualizações de estilo, elas poderão ser feitas antes ou depois da paginação.
 
-No exemplo a seguir, a posição dos títulos das figuras é alterada de para acima das imagens para abaixo das imagens. Para isso, é necessário ativar a opção de execução JavaScript na predefinição. Para fazer isso, execute as seguintes etapas:
+No exemplo a seguir, a posição dos títulos das figuras é alterada de para acima das imagens para abaixo das imagens. Para isso, é necessário ativar a opção de execução de JavaScript na predefinição. Para fazer isso, execute as seguintes etapas:
 
 1. Abra a predefinição para edição.
-1. Vá para a **Avançado** guia.
-1. Selecione o **Ativar JavaScript** opção.
+1. Vá para a guia **Avançado**.
+1. Selecione a opção **Habilitar JavaScript**.
 1. Salve a predefinição e feche.
 
 Em seguida, crie um arquivo JavaScript com o seguinte código e salve-o na pasta Resources do seu modelo:
@@ -63,9 +63,9 @@ window.addEventListener('DOMContentLoaded', function () {
 
 >[!NOTE]
 >
->A variável `window.addEventListener('DOMContentLoaded', function ()` deve ser chamada antes que as funções de retorno de chamada sejam usadas.
+>A função `window.addEventListener('DOMContentLoaded', function ()` deve ser chamada antes de as funções de retorno de chamada serem usadas.
 
-Em seguida, esse script deve ser chamado de um arquivo de modelo usado para gerar a saída de PDF. Para nosso exemplo, vamos adicioná-lo no modelo de índice. Certifique-se de que o `<script>` tag é adicionada em um intervalo de tempo `<div>` dentro da tag `<body>` tag. Se você adicioná-lo na variável `<head>` ou fora da `<body>` , o script não será executado.
+Em seguida, esse script deve ser chamado de um arquivo de modelo usado para gerar a saída de PDF. Para nosso exemplo, vamos adicioná-lo no modelo de índice. Verifique se a marca `<script>` foi adicionada em uma marca `<div>` predefinida dentro da marca `<body>`. Se você adicioná-lo na tag `<head>` ou fora da tag `<body>`, o script não será executado.
 
 <img src="./assets/js-added-resources-template.png" width="500">
 
@@ -76,7 +76,7 @@ A saída gerada usando esse código e o modelo exibem o título da figura abaixo
 ## Adicionar uma marca d&#39;água à saída do PDF para documentos de rascunho {#watermark-draft-document}
 
 Também é possível usar o JavaScript para adicionar marcas d&#39;água condicionais. Essas marcas d&#39;água são adicionadas ao documento quando a condição definida é atendida.\
-Por exemplo, você pode criar um arquivo JavaScript com o código a seguir para criar uma marca d&#39;água na saída PDF do documento que ainda não foi aprovado. Essa marca d&#39;água não aparecerá se você gerar o PDF para o documento no estado de documento ‘Aprovado’.
+Por exemplo, você pode criar um arquivo JavaScript com o seguinte código para criar uma marca d&#39;água na saída PDF do documento que ainda não foi aprovado. Essa marca d&#39;água não aparecerá se você gerar o PDF para o documento no estado de documento ‘Aprovado’.
 
 ```css
 ...
@@ -101,6 +101,6 @@ window.addEventListener('DOMContentLoaded', function () {
 ...
 ```
 
-A saída de PDF gerada usando esse código exibe uma marca d&#39;água *Rascunho* na página de capa do documento:
+A saída de PDF gerada com esse código exibe uma marca d&#39;água *Rascunho* na página de capa do seu documento:
 
 <img src="./assets/draft-watermark.png" width="500">

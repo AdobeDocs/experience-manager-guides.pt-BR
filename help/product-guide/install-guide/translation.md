@@ -1,5 +1,5 @@
 ---
-title: Traduzir conteúdo nas guias do AEM
+title: Traduzir conteúdo no AEM Guides
 description: Saiba como traduzir conteúdo
 exl-id: 0d3a909c-3499-4ef4-b033-02e412dae959
 feature: Translation
@@ -23,24 +23,24 @@ Automatize a tradução de conteúdo da página, ativos e conteúdo gerado pelo 
 
 A tradução de conteúdo envolve as seguintes etapas:
 
-1. Conecte o AEM com seu [provedor de serviços de tradução](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider) e criar [configurações da estrutura de integração de tradução](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration).
+1. Conecte o AEM ao seu [provedor de serviços de tradução](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider) e crie [configurações da estrutura de integração de tradução](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration).
 
-1. Associe as páginas do seu idioma principal com a [serviço de tradução e configurações da estrutura](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation).
+1. Associe as páginas do seu idioma principal com o [serviço de tradução e configurações de estrutura](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation).
 
-1. Identificar o tipo de [conteúdo a ser traduzido](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-rules.html).
+1. Identifique o tipo de conteúdo [para traduzir](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-rules.html).
 
 1. [Prepare o conteúdo para tradução](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-prep.html) criando o idioma principal e as páginas raiz das cópias de idioma.
 
-1. Criar [projetos de tradução](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html) para coletar o conteúdo para traduzir e para preparar o processo de tradução.
+1. Crie [projetos de tradução](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html) para coletar o conteúdo para traduzir e para preparar o processo de tradução.
 
-1. Use os projetos de tradução para [gerenciar a tradução de conteúdo](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html) processo.
+1. Use os projetos de tradução para [gerenciar o processo de tradução de conteúdo](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html).
 
 
 Quando seu provedor de serviços de tradução não fornece um conector para integração com o AEM, o AEM oferece suporte à exportação e importação manuais de conteúdo traduzido no formato XML.
 
 >[!TIP]
 >
-> Consulte a *Tradução* seção no Guia de práticas recomendadas para práticas recomendadas sobre a tradução de conteúdo.
+> Consulte a seção *Tradução* s no guia de práticas recomendadas para obter práticas recomendadas sobre a tradução de conteúdo.
 
 ## Configure a guia Tradução no painel de mapa DITA
 
@@ -54,9 +54,9 @@ A opção Ocultar guia Tradução não está habilitada por padrão e você prec
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Procure por e clique no link **com.adobe.fmdita.config.ConfigManager** pacote.
+1. Procure e clique no pacote **com.adobe.fmdita.config.ConfigManager**.
 
-1. Selecione o **Ocultar guia Tradução** para ocultar a guia tradução no painel do mapa.
+1. Selecione a opção **Ocultar Guia de Tradução** para ocultar a guia de tradução no painel do mapa.
 
    >[!NOTE]
    >
@@ -78,17 +78,17 @@ Com base no fluxo de trabalho de tradução usado na configuração, a opção d
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Procure por e clique no link **com.adobe.fmdita.config.ConfigManager** pacote.
+1. Procure e clique no pacote **com.adobe.fmdita.config.ConfigManager**.
 
-1. Configure o **Fluxo de trabalho de tradução DITA com base em componentes** opção de acordo com sua configuração:
+1. Configure a opção **Fluxo de trabalho de tradução DITA baseado em componentes** de acordo com sua configuração:
 
-   - Se você estiver usando tradução humana, *Desativar* o **Fluxo de trabalho de tradução baseado em componentes** opção.
+   - Se você estiver usando tradução humana, *Desabilite* a opção **Fluxo de Trabalho de Tradução Baseado em Componentes**.
 
-   - Se você estiver usando a tradução automática, *Ativar* o **Fluxo de trabalho de tradução baseado em componentes** opção.
+   - Se você estiver usando tradução automática, *Habilite* a opção **Fluxo de Trabalho de Tradução Baseado em Componentes**.
 
    >[!NOTE]
    >
-   > Se estiver usando o conector de tradução, verifique se você configurou o conector conforme descrito na seção *[Configuração da estrutura de integração de tradução](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html)* tópico na documentação do AEM.
+   > Se você estiver usando o conector de tradução, verifique se configurou o conector conforme descrito no tópico *[Configurando a estrutura de integração de tradução](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html)* na documentação de AEM.
 
 1. Clique em **Salvar**.
 
@@ -143,12 +143,12 @@ Por padrão, a opção pós-processamento de arquivos temporários está desativ
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Procure por e clique no link **com.adobe.fmdita.config.ConfigManager** pacote.
+1. Procure e clique no pacote **com.adobe.fmdita.config.ConfigManager**.
 
-1. Configure o **Pós-processamento de cópias de idioma** opção de acordo com sua configuração:
+1. Configurar a opção **cópias de idioma do processo Post** de acordo com sua configuração:
 
-   - \(*Padrão*\) Se você não quiser executar a operação de pós-processamento nos arquivos temporários, *Desativar* o **Pós-processamento de cópias de idioma** opção.
+   - \(*Padrão*\) Se você não deseja executar a operação de pós-processamento nos arquivos temporários, *Desabilite* a opção **Cópias de idioma do processo Post**.
 
-   - Se você quiser executar a operação de pós-processamento nos arquivos temporários, *Ativar* o **Pós-processamento de cópias de idioma** opção.
+   - Se você deseja executar a operação de pós-processamento nos arquivos temporários, *Habilite* a opção **cópias de idioma do processo Post**.
 
 1. Clique em **Salvar**.

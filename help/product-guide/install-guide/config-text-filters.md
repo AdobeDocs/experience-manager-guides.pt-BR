@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Configurar filtros de texto {#id21BPD0FK0XA}
 
-O Guia AEM fornece o recurso para procurar texto nos arquivos presentes no caminho selecionado do repositório AEM. Você pode usar a pesquisa de filtro para pesquisar arquivos no painel de repositório ou para procurar arquivos. Ao trabalhar no Editor da Web, é necessário usar a caixa de diálogo de navegação de arquivos para inserir elementos como imagem, referência ou referência de chave.
+O AEM Guides fornece o recurso para procurar texto nos arquivos presentes no caminho selecionado do repositório AEM. Você pode usar a pesquisa de filtro para pesquisar arquivos no painel de repositório ou para procurar arquivos. Ao trabalhar no Editor da Web, é necessário usar a caixa de diálogo de navegação de arquivos para inserir elementos como imagem, referência ou referência de chave.
 
 Por padrão, você pode usar alguns filtros aprimorados para pesquisar os arquivos no repositório AEM. Você pode filtrar todos os arquivos DITA ou arquivos não DITA presentes no caminho selecionado. Também é possível pesquisar valores específicos nos atributos de elementos DITA. Você também pode procurar arquivos cujo check-out tenha sido feito pelo usuário especificado.
 
@@ -25,11 +25,11 @@ Por padrão, você pode usar alguns filtros aprimorados para pesquisar os arquiv
 Execute as seguintes etapas para configurar os filtros de texto:
 
 1. Faça logon no Adobe Experience Manager como administrador.
-1. Clique no link **Adobe Experience Manager** vincule na parte superior e escolha **Ferramentas**.
-1. Selecionar **Guias** na lista de ferramentas e clique no botão **Perfis de pasta**.
-1. Clique no link **Perfil global** bloco.
-1. Clique em **Configuração do editor XML**.
-1. Clique em **Editar** ícone na parte superior.
+1. Clique no link **Adobe Experience Manager** na parte superior e escolha **Ferramentas**.
+1. Selecione **Guias** na lista de ferramentas e clique em **Perfis de Pasta**.
+1. Clique no bloco **Perfil Global**.
+1. Clique em **Configuração do Editor de XML**.
+1. Clique no ícone **Editar** na parte superior.
 1. Baixe o arquivo ui\_config.json.
 1. Configure os filtros no arquivo. Também é possível adicionar filtros personalizados, como mostrado no exemplo abaixo:
 
@@ -92,11 +92,11 @@ Execute as seguintes etapas para configurar os filtros de texto:
 
    No trecho de código acima, o primeiro filtro é para Arquivos DITA. A definição do filtro usa os seguintes parâmetros:
 
-   - **Título:** O nome de exibição do filtro. Este título aparece como a opção de filtragem na caixa de diálogo de procura de arquivo.
+   - **Título:** o nome para exibição do filtro. Este título aparece como a opção de filtragem na caixa de diálogo de procura de arquivo.
 
-   - **Propriedade:** A propriedade a ser correspondida nos metadados do arquivo. Por exemplo, para permitir somente os arquivos que têm os metadados dita\_class em sua propriedade, o filtro de propriedade usa &quot;jcr:content/metadata/dita\_class&quot; como seu valor.
+   - **Propriedade:** a propriedade que deve corresponder aos metadados do arquivo. Por exemplo, para permitir somente os arquivos que têm os metadados dita\_class em sua propriedade, o filtro de propriedade usa &quot;jcr:content/metadata/dita\_class&quot; como seu valor.
 
-   - **Operação** Especifique &quot;existe&quot; para corresponder a existência do valor especificado no parâmetro de propriedade
+   - **Operação** Especifique &quot;existe&quot; para corresponder à existência do valor especificado no parâmetro de propriedade
 
 1. Carregue o arquivo ui\_config.json atualizado que contém os filtros adicionados.
 

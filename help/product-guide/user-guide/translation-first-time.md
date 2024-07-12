@@ -1,6 +1,6 @@
 ---
 title: Práticas recomendadas para tradução de conteúdo
-description: Conhecer as práticas recomendadas para a tradução de conteúdo nos Guias do AEM. Saiba como configurar o serviço de tradução, criar um novo projeto de tradução e iniciar o trabalho de tradução.
+description: Conhecer as práticas recomendadas para tradução de conteúdo no AEM Guides. Saiba como configurar o serviço de tradução, criar um novo projeto de tradução e iniciar o trabalho de tradução.
 exl-id: f2a4df86-bba7-434c-b7f9-3587b8a4f9bc
 feature: Translation
 role: User
@@ -17,7 +17,7 @@ Considere o seguinte ponto para a tradução de conteúdo:
 
 - A pasta e os nomes de arquivo devem estar em conformidade com os padrões de nomenclatura de arquivo, como: não deve haver espaços, apóstrofo, chaves, sinal de igual, caracteres especiais ou não ASCII.
 
-- Se você traduzir o conteúdo em idiomas diferentes, deverá criar pastas correspondentes a cada idioma. Cada uma dessas pastas de idioma conterá o conteúdo correspondente a esse idioma. Por exemplo, você pode criar pastas usando o designador de idioma como `de` para o alemão, `fr` para o francês e assim por diante. Ou você pode criar pastas usando os designadores de idioma e região como `fr-FR` para o francês tal como utilizado em França ou `fr-CA` para o francês, tal como utilizado no Canadá.
+- Se você traduzir o conteúdo em idiomas diferentes, deverá criar pastas correspondentes a cada idioma. Cada uma dessas pastas de idioma conterá o conteúdo correspondente a esse idioma. Por exemplo, você pode criar pastas usando o designador de idioma como `de` para alemão, `fr` para francês e assim por diante. Ou você pode criar pastas usando os designadores de idioma e região como `fr-FR` para francês, como usado na França, ou `fr-CA` para francês, como usado no Canadá.
 - O idioma de destino também deve ter as localidades reais selecionadas de acordo com as pastas de idioma de destino em sua instância.
 - A configuração da nuvem deve ser igual à da pasta de origem e deve haver apenas uma configuração da nuvem em uma pasta. É possível criar várias pastas em /conf, se desejar usar vários conectores de tradução.
 - Uma pasta não deve conter mais de 1000 arquivos.
@@ -37,11 +37,11 @@ A ilustração a seguir mostra um exemplo de estrutura de pastas no AEM quando v
 
 Execute as seguintes etapas para configurar o serviço de tradução humana ou automática a ser usado:
 
-1. Na interface do usuário do Assets, selecione a pasta de idioma de origem.
+1. Na interface do usuário do Assets, selecione a pasta do idioma de origem.
 
-1. Abra as propriedades da pasta e vá para **Cloud Service** guia.
+1. Abra as propriedades da pasta e vá para a guia **Cloud Service**.
 
-1. No **Cloud Service** , configure o serviço de tradução que deseja usar.
+1. Na guia **Cloud Service**, configure o serviço de tradução que deseja usar.
 
    Você pode configurar tradução humana ou baseada em máquina.
 
@@ -49,14 +49,14 @@ Execute as seguintes etapas para configurar o serviço de tradução humana ou a
 
    >[!NOTE]
    >
-   > Consulte [Configuração da estrutura de integração de tradução](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) na documentação do AEM para obter detalhes sobre a integração com serviços de tradução de terceiros.
+   > Consulte [Configurando a estrutura de integração de tradução](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) na documentação do AEM para obter detalhes sobre a integração com serviços de tradução de terceiros.
 
 1. Clique em **Salvar e fechar** para salvar as propriedades atualizadas da pasta.
 
 
 >[!TIP]
 >
-> Consulte a *Tradução* no guia de Práticas recomendadas para obter as práticas recomendadas sobre a tradução de conteúdo.
+> Consulte a seção *Tradução* no guia de Práticas recomendadas para obter as práticas recomendadas sobre a tradução de conteúdo.
 
 ## Criar um novo projeto de tradução
 
@@ -64,19 +64,19 @@ Execute as seguintes etapas para criar um projeto de tradução:
 
 >[!NOTE]
 >
-> Antes de executar etapas neste procedimento, verifique se você criou a raiz de idioma e as pastas de destino necessárias, conforme descrito na seção [Práticas recomendadas para tradução de conteúdo](#id1678G0S702F).
+> Antes de executar etapas neste procedimento, verifique se você criou a raiz de idioma e as pastas de destino necessárias, conforme descrito nas [Práticas recomendadas para tradução de conteúdo](#id1678G0S702F).
 
 1. Na interface do Assets, clique no arquivo de mapa DITA.
 
-1. Clique em **Tradução** guia.
+1. Clique na guia **Tradução**.
 
-1. No **Idiomas de destino** selecione o local para o qual deseja traduzir o projeto e clique em **Concluído**.
+1. Na lista **Idiomas de destino**, selecione o local para o qual deseja traduzir seu projeto e clique em **Concluído**.
 
    Um Resumo e Detalhes de tópicos e ativos associados são mostrados.
 
    >[!IMPORTANT]
    >
-   > A variável **Idiomas de destino** mostrar apenas os idiomas para os quais uma pasta de idioma é criada paralelamente ao idioma de origem. Uma pasta de idioma criada em qualquer outro nível, como um nível abaixo da pasta de idioma de origem, também não é exibida. Crie todas as pastas de idioma de destino no mesmo nível que a pasta de idioma de origem.
+   > Os **Idiomas de Destino** mostram apenas os idiomas para os quais uma pasta de idioma é criada paralelamente ao idioma de origem. Uma pasta de idioma criada em qualquer outro nível, como um nível abaixo da pasta de idioma de origem, também não é exibida. Crie todas as pastas de idioma de destino no mesmo nível que a pasta de idioma de origem.
 
 1. Selecione os tópicos que deseja enviar para tradução.
 
@@ -84,25 +84,25 @@ Execute as seguintes etapas para criar um projeto de tradução:
 
    >[!NOTE]
    >
-   > Depois de aplicar o filtro necessário, clique em **Concluído** no painel Filtro para filtrar tópicos com base na sua seleção.
+   > Depois de aplicar o filtro necessário, clique em **Concluído** no painel Filtro para filtrar os tópicos com base na sua seleção.
 
-   - **Status da tradução**: opte por filtrar tópicos com base em seu status de tradução. As opções disponíveis são: Out of Sync, Missing Copy, In Progress e In Sync.
-   - **Pesquisar**: insira um ou vários termos para pesquisar nos títulos dos tópicos.
-   - **Tipo de origem**: opte por filtrar tópicos com base em seus tipos de arquivo. As opções disponíveis são: All, DITA, DITA Map, Resource.
-   - **Versão de origem modificada após**: Opte por filtrar o tópico com base na data e hora da modificação. Todos os tópicos modificados após a data e hora especificadas são mostrados na lista.
-   - **Linha de base**: Clique em Usar Linha de Base e escolha uma linha de base criada no mapa. Todos os arquivos que fazem parte da Linha de base selecionada são mostrados na página Tradução. Você pode escolher os arquivos desejados na linha de base e prosseguir com o processo de tradução. Depois que o conteúdo for traduzido, você poderá exportar a Linha de base traduzida. Para obter mais detalhes sobre como exportar a Linha de Base traduzida, consulte [Exportar Linha de Base traduzida](generate-output-use-baseline-for-publishing.md#id196SE600GHS).
-1. Clique em **Criar/atualizar cópias de idioma** na parte inferior do painel Filtro.
+   - **Status da tradução**: escolha filtrar tópicos com base em seu status de tradução. As opções disponíveis são: Out of Sync, Missing Copy, In Progress e In Sync.
+   - **Pesquisa**: insira um ou vários termos para pesquisar nos títulos dos tópicos.
+   - **Tipo de Source**: escolha filtrar tópicos com base em seus tipos de arquivo. As opções disponíveis são: All, DITA, DITA Map, Resource.
+   - **Versão do Source Modificada Após**: escolha filtrar o tópico com base na data e hora de modificação. Todos os tópicos modificados após a data e hora especificadas são mostrados na lista.
+   - **Linha de Base**: clique em Usar Linha de Base e escolha uma linha de base criada no mapa. Todos os arquivos que fazem parte da Linha de base selecionada são mostrados na página Tradução. Você pode escolher os arquivos desejados na linha de base e prosseguir com o processo de tradução. Depois que o conteúdo for traduzido, você poderá exportar a Linha de base traduzida. Para obter mais detalhes sobre como exportar a Linha de Base traduzida, consulte [Exportar Linha de Base traduzida](generate-output-use-baseline-for-publishing.md#id196SE600GHS).
+1. Clique em **Criar/Atualizar Cópias de Idioma** na parte inferior do painel Filtro.
 
-1. No **Projeto** selecione **Criar um novo projeto de tradução**.
+1. Na lista **Projeto**, selecione **Criar um Novo Projeto de Tradução**.
 
    >[!NOTE]
    >
-   > Se você já tiver um projeto de tradução, poderá adicionar tópicos a esse projeto. Selecionar **Adicionar ao projeto de tradução existente** opção no **Projeto** e escolha um projeto na lista **Projeto de tradução existente** lista.
+   > Se você já tiver um projeto de tradução, poderá adicionar tópicos a esse projeto. Selecione a opção **Adicionar ao projeto de tradução existente** da lista **Projeto** e escolha um projeto da lista **Projeto de tradução existente**.
 
 1. No campo **Título do projeto**, informe um título para o projeto.
 
-1. Selecione o **Incluir mapa DITA** opção para enviar o mapa para tradução.
-1. Clique em **Início** para criar um novo projeto de tradução.
+1. Selecione a opção **Incluir mapa DITA** para enviar o mapa para tradução.
+1. Clique em **Iniciar** para criar um novo projeto de tradução.
 
    Um novo projeto de tradução é criado com a versão selecionada dos tópicos. No momento, uma mensagem pop-up é exibida confirmando que o projeto de tradução foi criado. Quando todas as cópias de idioma de destino estiverem disponíveis no projeto de tradução, você receberá uma notificação na Caixa de entrada. Depois que a área de cópias do idioma de destino estiver disponível no projeto de tradução, você poderá continuar e iniciar o trabalho de tradução.
 
@@ -112,7 +112,7 @@ Execute as seguintes etapas para criar um projeto de tradução:
 A guia Tradução tem as seguintes seções:
 
 - **Resumo**: mostra o número de tópicos e o idioma de origem referenciados junto com seu código.
-- **Detalhes**: Mostra o título do tópico, o tipo de tópico, o código do idioma do tópico, o idioma de origem, a versão do tópico de origem, o rótulo adicionado ao tópico e o status da tradução.
+- **Detalhes**: mostra o título do tópico, o tipo de tópico, o código do idioma do tópico, o idioma de origem, a versão do tópico de origem, o rótulo adicionado ao tópico e o status da tradução.
 
 
 
@@ -121,23 +121,23 @@ A guia Tradução tem as seguintes seções:
 
 Execute as seguintes etapas para iniciar o trabalho de tradução:
 
-1. No **Projetos** console, navegue até a pasta do projeto criada para localização.
+1. No console **Projetos**, navegue até a pasta do projeto que você criou para localização.
 
 1. Clique no projeto de localização para abrir a página de detalhes.
 
-1. Clique na seta na **Tarefa de tradução** mosaico e selecione **Início** na lista para iniciar o fluxo de trabalho de tradução.
+1. Clique na seta no bloco **Trabalho de tradução** e selecione **Iniciar** na lista para iniciar o fluxo de trabalho de tradução.
 
    >[!NOTE]
    >
    > Se você estiver usando o serviço de tradução humana, será necessário exportar o conteúdo para tradução. Depois de ter o conteúdo traduzido, é necessário importá-lo de volta para o projeto de tradução.
 
-1. Para exibir o status do trabalho de tradução, clique nas reticências na parte inferior da **Tarefa de tradução** bloco.
+1. Para exibir o status do trabalho de tradução, clique nas reticências na parte inferior do bloco **Trabalho de tradução**.
 
 
-Após a conclusão da tradução, o status do trabalho de tradução muda para *Pronto para revisão*. Para concluir o processo de tradução, você precisa aceitar a cópia traduzida e os metadados do ativo do bloco Tarefa de tradução no console Projeto.
+Após a conclusão da tradução, o status do trabalho de tradução é alterado para *Pronto para Revisão*. Para concluir o processo de tradução, você precisa aceitar a cópia traduzida e os metadados do ativo do bloco Tarefa de tradução no console Projeto.
 
 >[!NOTE]
 >
-> Se você rejeitar a tradução para um ou mais tópicos em um trabalho de tradução, a variável **Em andamento** o status de tradução de todos os tópicos rejeitados é revertido para seu status original. O status dos tópicos referenciados é verificado e revertido de acordo com o estado de tradução mais recente. Além disso, os arquivos de tradução criados no projeto de destino não são excluídos, mesmo que a tradução seja rejeitada para eles.
+> Se você rejeitar a tradução de um ou mais tópicos em um trabalho de tradução, o status de tradução **Em andamento** de todos os tópicos rejeitados será revertido para seu status original. O status dos tópicos referenciados é verificado e revertido de acordo com o estado de tradução mais recente. Além disso, os arquivos de tradução criados no projeto de destino não são excluídos, mesmo que a tradução seja rejeitada para eles.
 
 **Tópico pai:**[ Traduzir conteúdo](translation.md)

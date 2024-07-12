@@ -1,6 +1,6 @@
 ---
 title: Traduzir tópicos modificados
-description: Saiba como traduzir novamente um tópico modificado nos Guias do AEM.
+description: Saiba como traduzir novamente um tópico modificado no AEM Guides.
 exl-id: b3228ea9-24a8-44aa-8ba4-e8f44754ffe4
 feature: Translation
 role: User
@@ -19,11 +19,11 @@ Execute as seguintes etapas para enviar um tópico modificado para nova traduç�
 
 1. Clique no arquivo de mapa DITA na pasta de cópia do idioma de origem.
 
-1. Clique em **Tradução** guia.
+1. Clique na guia **Tradução**.
 
-1. No **Filtro** à esquerda, selecione o **Traduzir idiomas** que você deseja verificar o status e clique em **Concluído**.
+1. No painel **Filtro** à esquerda, selecione **Traduzir Idiomas** para verificar o status e clique em **Concluído**.
 
-   Você pode ver o status da tradução de cada tópico. Os tópicos que têm outra revisão de tópico disponível diferente da que foi enviada para tradução mostram uma **Desatualizado** status.
+   Você pode ver o status da tradução de cada tópico. Os tópicos que têm outra revisão de tópico disponível diferente da que foi enviada para tradução mostram um status **Desatualizado**.
 
    >[!NOTE]
    >
@@ -35,19 +35,19 @@ Execute as seguintes etapas para enviar um tópico modificado para nova traduç�
 
 1. Clique na caixa de seleção para selecionar os tópicos que deseja enviar para nova tradução.
 
-   Quando você seleciona uma data fora de sincronia, a variável **Criar/atualizar cópias de idioma** é exibida no painel Referências e a variável **Ignorar Status Fora de Sincronia** botão acima do **Filtro** ícone.
+   Ao selecionar uma data fora de sincronia, a opção **Criar/Atualizar Cópias de Idioma** é exibida no painel Referências e no botão **Ignorar Status Fora de Sincronia** acima do ícone **Filtro**.
 
-   Você pode usar o **Ignorar Fora de Sincronia** botão para substituir o status Desatualizado dos tópicos no mapa DITA. Por exemplo, se você tiver feito algumas alterações na versão em inglês do tópico que não precisa de tradução, poderá usar esse botão e alterar o status Desatualizado para o tópico selecionado.
+   Você pode usar o botão **Ignorar fora de sincronização** para substituir o status Desatualizado dos tópicos no mapa DITA. Por exemplo, se você tiver feito algumas alterações na versão em inglês do tópico que não precisa de tradução, poderá usar esse botão e alterar o status Desatualizado para o tópico selecionado.
 
    >[!NOTE]
    >
-   > Se você clicar no botão **Ignorar Status Fora de Sincronia** , define o status do tópico como Atualizado para os tópicos Desatualizados selecionados.
+   > Se você clicar no botão **Ignorar status fora de sincronização**, ele definirá o status do tópico como Atualizado para os tópicos desatualizados selecionados.
 
 1. Clique em **Atualizar cópias de idioma** e configure o trabalho de tradução.
 
 1. Você pode optar por criar um novo projeto de tradução ou adicionar tópicos a um projeto de tradução existente. Forneça os detalhes necessários para configurar o projeto de tradução.
 
-1. Clique em **Início**.
+1. Clique em **Iniciar**.
 
    Uma mensagem de confirmação é exibida mostrando que o tópico foi enviado para tradução.
 
@@ -55,7 +55,7 @@ Execute as seguintes etapas para enviar um tópico modificado para nova traduç�
 
    ![](images/incremental-job.PNG){width="300" align="left"}
 
-1. Para iniciar a tradução, clique na seta no cartão de tarefa de tradução e selecione **Início** da lista. Uma mensagem notifica que o trabalho foi iniciado.
+1. Para iniciar a tradução, clique na seta no cartão de trabalho de tradução e selecione **Iniciar** na lista. Uma mensagem notifica que o trabalho foi iniciado.
 
    Você também pode visualizar o status do tópico que está sendo traduzido ao clicar nas reticências na parte inferior do cartão de tarefa de tradução.
 
@@ -63,19 +63,19 @@ Execute as seguintes etapas para enviar um tópico modificado para nova traduç�
    >
    > Se você estiver usando o serviço de tradução humana, será necessário exportar o conteúdo para tradução. Depois de ter o conteúdo traduzido, é necessário importá-lo de volta para o projeto de tradução.
 
-1. Após a conclusão da tradução, o status muda para **Pronto para revisão**. Clique nas reticências para ver os detalhes do tópico e siga um destes procedimentos na barra de ferramentas:
+1. Após a conclusão da tradução, o status muda para **Pronto para Revisão**. Clique nas reticências para ver os detalhes do tópico e siga um destes procedimentos na barra de ferramentas:
 
    - Clique em **Revelar no Assets** para ver e verificar a tradução.
 
-   - Clique em **Aceitar tradução** se você acha que as alterações foram traduzidas corretamente. Uma mensagem de confirmação é exibida.
+   - Clique em **Aceitar tradução** se achar que as alterações foram traduzidas corretamente. Uma mensagem de confirmação é exibida.
 
-   - Clique em **Rejeitar tradução** se você acha que o trabalho precisa ser refeito. Uma mensagem de rejeição é exibida.
+   - Clique em **Rejeitar tradução** se achar que o trabalho precisa ser refeito. Uma mensagem de rejeição é exibida.
 
    >[!NOTE]
    >
    > É importante aceitar ou rejeitar o ativo traduzido, caso contrário, o arquivo permanecerá no local temporário e não será copiado para o DAM.
 
-1. Volte para o arquivo de mapa DITA na pasta de idioma de origem na interface do usuário do Assets. Os tópicos retraduzidos agora estão em sincronia.
+1. Volte para o arquivo de mapa DITA na pasta de idioma de origem na interface do Assets. Os tópicos retraduzidos agora estão em sincronia.
 
 
 **Tópico pai:**[ Traduzir conteúdo](translation.md)

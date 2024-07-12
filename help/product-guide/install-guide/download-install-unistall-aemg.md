@@ -1,6 +1,6 @@
 ---
-title: Desinstalar guias do AEM
-description: Saiba como desinstalar guias do AEM
+title: Desinstalar o AEM Guides
+description: Saiba como desinstalar o AEM Guides
 exl-id: 6c6b9692-cdec-426f-bc3b-f09d0091da39
 feature: Installation
 role: Admin
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 ---
 
-# Desinstalar guias do AEM {#id21BHG0C0SXA}
+# Desinstalar o AEM Guides {#id21BHG0C0SXA}
 
-Você pode desinstalar guias AEM usando o Gerenciador de pacotes CRX. Durante a desinstalação, o conteúdo do repositório é revertido para o instantâneo criado imediatamente antes da instalação do pacote.
+Você pode desinstalar o AEM Guides usando o Gerenciador de pacotes do CRX. Durante a desinstalação, o conteúdo do repositório é revertido para o instantâneo criado imediatamente antes da instalação do pacote.
 
-Execute as seguintes etapas para desinstalar guias AEM:
+Execute as seguintes etapas para desinstalar o AEM Guides:
 
-1. Faça logon na instância do AEM e navegue até o Gerenciador de pacotes do CRX. O URL padrão para acessar o gerenciador de pacotes é:
+1. Faça logon na instância do AEM e navegue até o Gerenciador de pacotes da CRX. O URL padrão para acessar o gerenciador de pacotes é:
 
    ```http
    http://<server name>:<port>/crx/packmgr/index.jsp
@@ -28,7 +28,7 @@ Execute as seguintes etapas para desinstalar guias AEM:
 1. Clique no pacote para expandi-lo.
 1. Clique em **Mais** para abrir a lista suspensa.
 1. Clique em **Desinstalar** e aguarde a conclusão da desinstalação.
-1. Se não precisar mais desse pacote, clique em **Excluir** após desinstalar o pacote.
+1. Se você não precisar mais deste pacote, clique em **Excluir** após desinstalar o pacote.
 
 ## Após a desinstalação
 

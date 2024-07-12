@@ -14,15 +14,15 @@ ht-degree: 0%
 
 # Configurar valor padrão para a exibição de tags {#id223GN0M0NDC}
 
-O AEM Guides permite configurar o estado padrão para a Exibição de tags no Editor da Web, o que ajuda a manter a Exibição de tags ativada ou desativada por padrão para a sessão de um novo usuário.Execute as seguintes etapas para configurar o valor padrão para a Exibição de tags:
+O AEM Guides permite configurar o estado padrão para a Exibição de tags no Editor da Web, o que ajuda a manter a Exibição de tags ativada ou desativada por padrão para a sessão de um novo usuário. Execute as seguintes etapas para configurar o valor padrão para a Exibição de tags:
 
 1. Baixe o arquivo de configuração da interface do usuário fazendo logon no Adobe Experience Manager como administrador.
-1. Clique no link Adobe Experience Manager na parte superior e escolha **Ferramentas**.
-1. Selecionar **Guias** na lista de ferramentas e clique no botão **Perfis de pasta**.
-1. Clique no link **Perfil global** bloco.
-1. Selecione o **Configuração do editor XML** e clique na guia **Editar** ícone na parte superior.
-1. No **Configuração da interface do Editor de XML** clique na guia **Baixar** ícone para baixar o `ui_config.json` no sistema local.
-1. No `ui_config.json` altere o estado de exibição das tags padrão alterando a seção defaultValues como mostrado abaixo:
+1. Clique no link do Adobe Experience Manager na parte superior e escolha **Ferramentas**.
+1. Selecione **Guias** na lista de ferramentas e clique em **Perfis de Pasta**.
+1. Clique no bloco **Perfil Global**.
+1. Selecione a guia **Configuração do editor XML** e clique no ícone **Editar** na parte superior.
+1. Na seção **Configuração da interface do Editor de XML**, clique no ícone **Baixar** para baixar o arquivo `ui_config.json` no sistema local.
+1. No arquivo `ui_config.json`, altere o estado de exibição das marcas padrão alterando a seção defaultValues como mostrado abaixo:
 
 ```
 "defaultValues":

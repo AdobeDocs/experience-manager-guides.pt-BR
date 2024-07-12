@@ -15,16 +15,16 @@ ht-degree: 0%
 
 A maneira mais fácil é usar a tradução=sem atributo.
 
-+ Os autores podem inserir o atributo adicional como **translation=no** nos parágrafos que não deseja traduzir. O fornecedor de tradução precisa ser informado e pode fazer a configuração ao final para ignorar o texto com esse atributo.
++ Os autores podem inserir o atributo adicional como **translation=no** nos parágrafos que não desejam traduzir. O fornecedor de tradução precisa ser informado e pode fazer a configuração ao final para ignorar o texto com esse atributo.
 + A tradução automática OOTB (com o conector de avaliação do Microsoft Translation) exibe o mesmo comportamento.
-+ Testar com a tradução do Microsoft : se você definir **translate=no** no nível de parágrafo, então não traduz o parágrafo completo. Esse atributo pode ser definido em qualquer elemento e o conteúdo dentro desse elemento não será traduzido.
++ Teste com a Tradução do Microsoft : se você definir o atributo **translate=no** no nível de parágrafo, ele não traduzirá o parágrafo completo. Esse atributo pode ser definido em qualquer elemento e o conteúdo dentro desse elemento não será traduzido.
 
 
 Veja a seguir algumas capturas de tela para explicar isso mais detalhadamente:
 
-**Conteúdo de origem**
+**Conteúdo do Source**
 
-![Conteúdo de origem](assets/source-content.jpg)
+![Conteúdo do Source](assets/source-content.jpg)
 
 **Conteúdo traduzido em espanhol**
 
