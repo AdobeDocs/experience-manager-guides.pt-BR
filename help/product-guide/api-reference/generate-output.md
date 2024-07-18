@@ -5,10 +5,10 @@ exl-id: e19439df-39ec-47fd-9da5-24f51750a7e5
 feature: Java-Based API Publishing
 role: Developer
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: a255007fc9fe169f926e356ec9d2a8f5a2fdbe29
 workflow-type: tm+mt
 source-wordcount: '160'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -49,11 +49,12 @@ throws GuidesApiException
 ```
 
 **Parâmetros**:
-|Nome|Tipo|Descrição|
-|—|—|—|
-|`session`|javax.jcr.Session|Uma sessão JCR válida.|
-|``sourcePath``|String|Caminho \(no repositório AEM\) do arquivo de mapa DITA para o qual a saída precisa ser gerada.|
-|``outputName``|String|Nome da predefinição de saída\(s\) a ser usada para gerar saída. Várias predefinições de saída podem ser especificadas usando um delimitador de barra vertical \(&quot;\|&quot;\), por exemplo `aemsite\|pdfoutput`.|
+
+| Nome | Tipo | Descrição |
+|----|----|-----------|
+| `session` | javax.jcr.Session | Uma sessão JCR válida. |
+| ``sourcePath`` | String | Caminho \(no repositório AEM\) do arquivo de mapa DITA para o qual a saída precisa ser gerada. |
+| ``outputName`` | String | Nome da predefinição de saída\(s\) a ser usada para gerar saída. Várias predefinições de saída podem ser especificadas usando um delimitador de barra vertical \(&quot;\|&quot;\), por exemplo `aemsite\|pdfoutput`. |
 
 **Exceção**:
 Lança ``javax.jcr.RepositoryException``, `java.io.IOException` e `java.lang.Exception`.
