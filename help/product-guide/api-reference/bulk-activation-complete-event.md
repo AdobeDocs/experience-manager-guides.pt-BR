@@ -5,10 +5,10 @@ feature: Bulk Activation Event Handler
 role: Developer
 level: Experienced
 exl-id: 08b153d7-3d13-4804-9e3e-38790dbea1f3
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+source-git-commit: 9b8971bf7065a94a2e42669094249c822c555718
 workflow-type: tm+mt
 source-wordcount: '185'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
@@ -27,15 +27,16 @@ com/adobe/fmdita/replication/complete
 ```
 
 **Parâmetros**:
-|Nome|Tipo|Descrição|
-|—|—|—|
-|`path`|Cadeia de caracteres|O caminho do arquivo que disparou este evento. <br> Por exemplo, `/content/output/sites/ditamap1-ditamap`. <br> É uma lista de caminhos serializados como uma matriz JSON.|
-|`messageType`|Cadeia de caracteres|O tipo de mensagem. <br>Opção possível: `REPLICATION`|
-|`action`|String|Esta é a ação executada. <br>Opção possível: `BulkReplicate`|
-|`user`|Cadeia de caracteres|O usuário que iniciou a operação.|
-|`result`|Cadeia de caracteres|O resultado da Ativação em Massa. É um objeto JSON serializado: <br>`{"success":boolean,"code":integer,"message":"" }`|
-|`agentId`|String|O agentId usado na replicação. Por exemplo, `"publish"`.|
-|`importMode`|String|Modo de importação usado na ativação. As opções possíveis são: <br>`REPLACE, MERGE, UPDATE`.|
+
+| Nome | Tipo | Descrição |
+|----|----|-----------|
+| `path` | String | O caminho do arquivo que acionou esse evento. <br> Por exemplo, `/content/output/sites/ditamap1-ditamap`. <br> É uma lista de caminhos serializados como uma matriz JSON. |
+| `messageType` | String | O tipo de mensagem. <br>Opção possível: `REPLICATION` |
+| `action` | String | Esta é a ação executada. <br>Opção possível: `BulkReplicate` |
+| `user` | String | O usuário que iniciou a operação. |
+| `result` | String | O resultado da Ativação em massa. É um objeto JSON serializado: <br>`{"success":boolean,"code":integer,"message":"" }` |
+| `agentId` | String | O agentId usado na replicação. Por exemplo, `"publish"`. |
+| `importMode` | String | Modo de importação usado na Ativação. As opções possíveis são: <br>`REPLACE, MERGE, UPDATE`. |
 
 
 **Exemplo de Ouvinte de Eventos**:

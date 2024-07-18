@@ -5,10 +5,10 @@ exl-id: 1f0e023a-422c-47b9-917f-b0d80090471c
 feature: Rest API Conditional Attributes
 role: Developer
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 6184bb98c9897e980a6fba2f97476570228188af
 workflow-type: tm+mt
 source-wordcount: '147'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -23,12 +23,13 @@ Um método POST que adiciona atributos condicionais a um determinado perfil de n
 **Solicitar URL**:\
 http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/fmdita/folderprofiles
 
-**Parâmetros**:\
-|Nome|Tipo|Obrigatório|Descrição|
-|—|—|—|—|
-|`:operation`|Cadeia de Caracteres|Sim|Nome da operação que está sendo chamada. O valor deste parâmetro é ``ADDATTRIBUTEPROFILES``. <br> **Observação:** o valor não diferencia maiúsculas de minúsculas.|
-|`profilename`|String|Yes|Exibir o nome do perfil de nível de pasta no qual os atributos condicionais devem ser adicionados.|
-|`conditionalprofiles`|Matriz JSON|Sim|Uma matriz JSON que consiste no nome e nos valores do atributo condicional. O trecho de código de exemplo a seguir mostra a matriz JSON com dois atributos - `platform` e `product` com vários valores atribuídos a eles.|
+**Parâmetros**:
+
+| Nome | Tipo | Obrigatório | Descrição |
+|----|----|--------|-----------|
+| `:operation` | String | Sim | Nome da operação que está sendo chamada. O valor deste parâmetro é ``ADDATTRIBUTEPROFILES``. <br> **Observação:** o valor não diferencia maiúsculas de minúsculas. |
+| `profilename` | String | Sim | Nome de exibição do perfil no nível da pasta no qual os atributos condicionais devem ser adicionados. |
+| `conditionalprofiles` | Matriz JSON | Sim | Uma matriz JSON que consiste no nome e nos valores do atributo condicional. O trecho de código de exemplo a seguir mostra a matriz JSON com dois atributos - `platform` e `product` com vários valores atribuídos a eles. |
 
 ```JSON
 [  {    name: "platform",    

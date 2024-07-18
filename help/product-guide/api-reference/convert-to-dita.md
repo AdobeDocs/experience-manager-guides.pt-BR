@@ -5,10 +5,10 @@ exl-id: f091782e-ab54-4db4-9018-9bcbff9da7b2
 feature: Rest API Conversion Workflow
 role: Developer
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: bda1af0da134fce53b4a4118278fa1ef2fe34c69
 workflow-type: tm+mt
 source-wordcount: '391'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -24,13 +24,14 @@ Um método GET que converte documentos do Word no formato DITA.
 http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/fmdita/conversion
 
 **Parâmetros**:
-|Nome|Tipo|Obrigatório|Descrição|
-|—|—|—|—|
-|``operation``|Cadeia de Caracteres|Sim|Nome da operação que está sendo chamada. O valor deste parâmetro é ``word2dita``. <br> **Observação:** o valor não diferencia maiúsculas de minúsculas. |
-|`inputFile`|String|Yes|Caminho absoluto dos arquivos de origem do Word no repositório AEM.|
-|`destPath`|String|Yes|Caminho absoluto do local de destino onde os arquivos DITA convertidos serão salvos.|
-|`createRev`|Booleano|Sim|Especifique se uma revisão dos arquivos foi criada \( `true`\) no destino especificado ou não \( `false`\). Isso é considerado somente quando o local de destino contém uma versão existente dos arquivos convertidos.|
-|`style2tagMap`|Cadeia de caracteres|Sim|Caminho absoluto do arquivo de mapeamento de estilos que será usado para conversão.|
+
+| Nome | Tipo | Obrigatório | Descrição |
+|----|----|--------|-----------|
+| ``operation`` | String | Sim | Nome da operação que está sendo chamada. O valor deste parâmetro é ``word2dita``. <br> **Observação:** o valor não diferencia maiúsculas de minúsculas. |
+| `inputFile` | String | Sim | Caminho absoluto dos arquivos de origem do Word no repositório AEM. |
+| `destPath` | String | Sim | Caminho absoluto do local de destino onde os arquivos DITA convertidos serão salvos. |
+| `createRev` | Booleano | Sim | Especifique se uma revisão dos arquivos foi criada \( `true`\) no destino especificado ou não \( `false`\). Isso é considerado somente quando o local de destino contém uma versão existente dos arquivos convertidos. |
+| `style2tagMap` | String | Sim | Caminho absoluto do arquivo de mapeamento de estilo que será usado para conversão. |
 
 **Valores de resposta**:
 Retorna uma resposta HTTP 200 \(Successful\).
