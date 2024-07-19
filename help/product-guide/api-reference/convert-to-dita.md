@@ -5,10 +5,10 @@ exl-id: f091782e-ab54-4db4-9018-9bcbff9da7b2
 feature: Rest API Conversion Workflow
 role: Developer
 level: Experienced
-source-git-commit: add4730e396fe7384a20fb2c6c04730c20a83e71
+source-git-commit: e979823b7947b561165fde92023ae9c440182e94
 workflow-type: tm+mt
 source-wordcount: '391'
-ht-degree: 6%
+ht-degree: 9%
 
 ---
 
@@ -63,12 +63,13 @@ Um método GET que converte documentos do InDesign no formato DITA.
 http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/fmdita/conversion
 
 **Parâmetros**:
-|Nome|Tipo|Obrigatório|Descrição|
-|—|—|—|—|
-|``operation``|Cadeia de Caracteres|Sim|Nome da operação que está sendo chamada. O valor deste parâmetro é ``idml2dita``. <br> **Observação:** o valor não diferencia maiúsculas de minúsculas.|
-|`inputFile`|String|Yes|Caminho absoluto dos arquivos de InDesign de origem no repositório AEM.|
-|`destPath`|String|Yes|Caminho absoluto do local de destino onde os arquivos DITA convertidos serão salvos.|
-|`createRev`|Booleano|Sim|Especifique se uma revisão dos arquivos foi criada \( `true`\) no destino especificado ou não \( `false`\). Isso é considerado somente quando o local de destino contém uma versão existente dos arquivos convertidos.|
+
+| Nome | Tipo | Obrigatório | Descrição |
+|----|----|--------|-----------|
+| ``operation`` | String | Sim | Nome da operação que está sendo chamada. O valor deste parâmetro é ``idml2dita``. <br> **Observação:** o valor não diferencia maiúsculas de minúsculas. |
+| `inputFile` | String | Sim | Caminho absoluto dos arquivos do InDesign de origem no repositório AEM. |
+| `destPath` | String | Sim | Caminho absoluto do local de destino onde os arquivos DITA convertidos serão salvos. |
+| `createRev` | Booleano | Sim | Especifique se uma revisão dos arquivos foi criada \( `true`\) no destino especificado ou não \( `false`\). Isso é considerado somente quando o local de destino contém uma versão existente dos arquivos convertidos. |
 
 **Valores de resposta**:
 Retorna uma resposta HTTP 200 \(Successful\).
