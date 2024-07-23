@@ -2,9 +2,9 @@
 title: JSONs expostos
 description: Lista de JSONs expostos
 role: User, Admin
-source-git-commit: c18dd9b41b780ba3bdca8952dc0d94e1af1459dc
+source-git-commit: 0691a3e64b90bac8df90d1ee6314610b0e13dd29
 workflow-type: tm+mt
-source-wordcount: '27'
+source-wordcount: '29'
 ht-degree: 0%
 
 ---
@@ -32,3 +32,7 @@ Aplicativo de revisão:
 - [&quot;review_left_panels_container&quot;](./jsons/review_app/review_left_panels_container.json)
 - [&quot;review_left_panel_topics&quot;](./jsons/review_app/review_left_panel_topics.json)
 - [&quot;review_left_panel_item&quot;](./jsons/review_app/review_left_panel_item.json)
+
+Caixas de diálogo:
+
+- [`save_revision`](./jsons/dialogs/save_revision.json)

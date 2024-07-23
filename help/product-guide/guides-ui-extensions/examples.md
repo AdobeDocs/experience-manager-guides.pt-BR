@@ -1,9 +1,9 @@
 ---
 title: Exemplos
 description: Lista de exemplos de personalização
-source-git-commit: 7770bc791ae87748cfe191cfaff3f929f77b4533
+source-git-commit: fc0b19ac44ca9cbc1e9c5cf046f9a0a24f2a1794
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,9 @@ Neste arquivo, calculamos e atribuímos a ID de comentário exclusiva, mencionad
 
 6. [Aceitar com Caixa de Diálogo de Modificação](./examples/review_app_examples/accept_with_modification_dialog.ts)
 Este é um exemplo de adição de novos widgets ao aplicativo. Aqui criamos uma nova caixa de diálogo, que tem dois campos de texto de entrada: `Revised Text` e `Adjudicator Comment Rationale`
+
+7. [Salvar revisão](./examples/save_revision.ts)
+Este é um exemplo de como atualizar uma caixa de diálogo existente. Adicionamos um botão para publicar nisto. Permitimos modificar o conteúdo da caixa de diálogo. Consulte seu json aqui: [`save_revision`](./jsons/dialogs/save_revision.json)
 
 ![Aceitar Com Caixa De Diálogo De Modificação](./imgs/accept_with_modification_dialogue.png)
 
