@@ -3,9 +3,9 @@ title: Notas de versão | Novidades da versão 4.4.0 do Adobe Experience Manager
 description: Saiba mais sobre os recursos novos e aprimorados da versão 4.4.0 do Adobe Experience Manager Guides
 role: Leader
 exl-id: 63a2e93b-b4cf-4423-88e4-b01c6a52a532
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
 workflow-type: tm+mt
-source-wordcount: '2307'
+source-wordcount: '2308'
 ht-degree: 0%
 
 ---
@@ -27,8 +27,7 @@ Agora, o Experience Manager Guides fornece um recurso aprimorado de histórico d
 ![Caixa de diálogo do histórico de versões](assets/version-history-dialog-web-editor.png){width="800" align="left"}
 *Visualize as alterações nas diferentes versões de um tópico.*
 
-
-Saiba mais sobre a descrição do recurso **Histórico de Versões** na seção [Painel Esquerdo](../user-guide/web-editor-features.md#id2051EA0M0HS).
+Saiba mais sobre a descrição do recurso **Histórico de Versões** na seção [Painel Esquerdo (herdado)](/help/legacy-product-guide/user-guide/web-editor-features.md#id2051EA0M0HS).
 
 ## Gerenciar predefinições de condição
 
@@ -116,7 +115,7 @@ Saiba como [traduzir conteúdo](../user-guide/translation.md).
 Agora é possível encontrar facilmente os elementos na caixa de diálogo Inserir elemento.  Você pode digitar uma string na caixa de pesquisa e obter uma lista de todos os elementos válidos que começam com a string inserida.
 
 Por exemplo, ao editar um parágrafo em que você deseja inserir um elemento, é possível pesquisar um caractere &quot;t&quot; para obter
-todos os elementos válidos que começam com ‘t’.
+todos os elementos válidos que começam com &#39;t&#39;.
 
 
 ![Inserir caixa de diálogo](assets/insert-element.png){width="300" align="left"}
@@ -264,7 +263,7 @@ Além de publicar as páginas de acordo com o documento de origem, você também
 
 ### Classificar termos do glossário com base nas chaves de classificação
 
-Agora, você também pode classificar os termos do glossário com base nas teclas de classificação. Você pode usar a tag ‘sort-as’ para definir uma chave de classificação para os termos do glossário. Em seguida, você pode classificá-los com base nas teclas de classificação no lugar dos termos. Isso permite classificar os termos do glossário de acordo com os termos usados em diferentes idiomas. Você também pode definir uma única chave de classificação para um termo do glossário com uma frase ou um grupo de palavras.
+Agora, você também pode classificar os termos do glossário com base nas teclas de classificação. Você pode usar a tag &#39;sort-as&#39; para definir uma chave de classificação para os termos do glossário. Em seguida, você pode classificá-los com base nas teclas de classificação no lugar dos termos. Isso permite classificar os termos do glossário de acordo com os termos usados em diferentes idiomas. Você também pode definir uma única chave de classificação para um termo do glossário com uma frase ou um grupo de palavras.
 Para obter mais detalhes, consulte as [Configurações avançadas do PDF](../native-pdf/components-pdf-template.md#advanced-pdf-settings).
 
 

@@ -4,7 +4,7 @@ description: Versão mais recente do Adobe Experience Manager Guides
 exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
 workflow-type: tm+mt
 source-wordcount: '3644'
 ht-degree: 1%
@@ -18,6 +18,7 @@ Estas notas de versão abordam as instruções de atualização, os novos recurs
 ## Atualizar para a versão mais recente
 
 Você pode atualizar facilmente sua versão atual do AEM Guides para a versão 4.1.3. Antes de prosseguir com a atualização para a versão 4.1.3 do AEM Guides, você deve considerar os seguintes pontos:
+
 * Se você estiver usando a versão 4.1 ou 4.1.x, é possível atualizar diretamente para a versão 4.1.3.
 * Se você estiver usando a versão 4.0.x, será necessário atualizar para a versão 4.1 ou 4.1.x antes de atualizar para a 4.1.3.
 * Se você estiver usando a versão 3.8.5, será necessário atualizar para a versão 4.0.x antes de atualizar para a 4.1.
@@ -343,7 +344,7 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 * A lista de elementos (Alt+Enter) aparece esmaecida no tema Escuro/Escuro. (7913)
 * A versão não é atualizada ao salvar a revisão de um tópico na barra de ferramentas do painel de mapa. (8228)
 * xref não pode ser inserido mesmo em locais válidos. (8354)
-* A operação &quot;getversionlabels&quot; tem limitações e não fornece o desempenho esperado. (8513)
+* A operação &#39;getversionlabels&#39; tem limitações e não fornece o desempenho esperado. (8513)
 * Ocorrem problemas com a caixa de diálogo de confirmação ao fechar um arquivo bloqueado ou editado que não está aberto no editor no momento. (8692)
 * Ocorre um erro ao adicionar um usuário como administrador no perfil da pasta quando a ID do usuário é numérica. (8908)
 * O painel Tradução fica visível mesmo ao abrir o mapa DITA no Editor de mapa. (9053)
@@ -400,7 +401,7 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 * Não é possível fechar um tópico desbloqueado. (8545)
 * Não há opção para escolher o caminho da Base de dados de conhecimento nas predefinições de publicação baseadas em artigo. (8636)
 * Os atributos estão ausentes ao adicionar um capítulo no bookmap usando a função Arrastar e soltar da exibição Favoritos. (8746)
-* A caixa de diálogo Inserir palavra-chave não tem o recurso de pesquisa e as palavras-chave não são listadas em ordem de classificação. (9094)
+* A caixa de diálogo Inserir palavra-chave não tem a capacidade de pesquisa e as palavras-chave não são listadas em ordem de classificação. (9094)
 * Fazer uma pesquisa no Editor de XML faz com que a página congele. (9452)
 * Os sites estão ausentes nas predefinições de AEM na guia Saída. (9567)
 * Imagens SVG que não são renderizadas corretamente nos modos do autor do Editor XML. (9426)
