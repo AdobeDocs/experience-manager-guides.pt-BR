@@ -4,7 +4,7 @@ description: Saiba como criar uma predefinição da Base de conhecimento no edit
 feature: Publishing
 role: User
 exl-id: 31fdfd96-377c-406b-96ed-59a80bf6e03e
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+source-git-commit: 83966cc9187b13dd3b5956821e0aa038b41db28e
 workflow-type: tm+mt
 source-wordcount: '1158'
 ht-degree: 1%
@@ -32,7 +32,7 @@ No editor da Web, as configurações a seguir foram organizadas nas guias **Gera
 | --- | --- |
 | Aplicar condições usando | Selecione uma das seguintes opções:<br><br>* **Nenhuma aplicada**: selecione esta opção se não quiser aplicar nenhuma condição na saída publicada.<br>* **Arquivo DITAVAL**: selecione o(s) arquivo(s) DITAVAL para gerar conteúdo personalizado. Você pode selecionar vários arquivos DITAVAL usando a caixa de diálogo Procurar ou digitando o caminho do arquivo. Use o ícone de cruz próximo ao nome do arquivo para removê-lo. Os arquivos DITAVAL são avaliados na ordem especificada, de modo que as condições especificadas no primeiro arquivo têm precedência sobre as condições correspondentes especificadas em arquivos posteriores. É possível manter a ordem dos arquivos adicionando ou excluindo arquivos. Se o arquivo DITAVAL for movido para outro local ou excluído, ele não será excluído automaticamente da predefinição. Você precisa atualizar o local caso os arquivos sejam movidos ou excluídos. Você pode passar o mouse sobre o nome do arquivo para visualizar o caminho no repositório do Adobe Experience Manager onde o arquivo está armazenado. Você só pode selecionar arquivos DITAVAL, e um erro será exibido se você selecionar qualquer outro tipo de arquivo.<br>* **Predefinição de condição**: selecione uma predefinição de condição na lista suspensa para aplicar uma condição ao publicar a saída. A opção estará visível se você tiver adicionado uma condição na guia Predefinições de condição do console do mapa DITA. Para saber mais sobre predefinições de condição, exiba [Usar predefinições de condição](generate-output-use-condition-presets.md#id1825FL004PN). |
 | Usar Linha de Base | Se tiver criado uma Linha de Base para o mapa DITA selecionado, selecione essa opção para especificar a versão que deseja publicar.<br><br>Exibir [Trabalhar com a Linha de Base](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) para obter mais detalhes. |
-| Fluxo de trabalho de geração do Post | Ao escolher essa opção, uma nova lista suspensa Post Generation Workflow contendo todos os workflows configurados no Adobe Experience Manager é exibida. Você deve selecionar um workflow que deseja executar após a conclusão da geração de saída.<br><br>**Observação**: saiba mais sobre como [personalizar a seção do fluxo de trabalho de geração de pós-saída](../cs-install-guide/customize-workflows.md#id17A6GI004Y4) no Guia de Instalação e Configuração para Cloud Service. |
+| Fluxo de trabalho de pós-geração | Ao escolher essa opção, uma nova lista suspensa Fluxo de trabalho de pós-geração que contém todos os fluxos de trabalho configurados no Adobe Experience Manager é exibida. Você deve selecionar um workflow que deseja executar após a conclusão da geração de saída.<br><br>**Observação**: saiba mais sobre como [personalizar a seção do fluxo de trabalho de geração de pós-saída](../cs-install-guide/customize-workflows.md#id17A6GI004Y4) no Guia de Instalação e Configuração para Cloud Service. |
 
 ### ServiceNow
 
@@ -52,12 +52,13 @@ No editor da Web, as configurações a seguir foram organizadas nas guias **Gera
 | Categorias | Selecione uma categoria na lista suspensa para publicar os tópicos do índice nessa categoria no site do Salesforce. |
 
 Você também pode exibir as seguintes opções nas predefinições do Salesforce e ServiceNow:
+
 | Opções | Descrição |
-| — | — |
-|Remova o cabeçalho de tópico do corpo do artigo.|Selecione esta opção para remover o cabeçalho do tópico do artigo na saída publicada. |
-|Carregar como rascunho | Selecione esta opção para fazer upload do tópico e compartilhá-lo como rascunho antes de disponibilizá-lo aos usuários.|
-|Carregar imagens| Selecione esta opção se desejar que quaisquer imagens nos tópicos sejam incluídas na saída publicada.|
-|Fazer upload de documentos vinculados| Selecione essa opção para incluir os documentos vinculados em tópicos na saída publicada.|
+| --- | --- |
+| Remova o cabeçalho do tópico do corpo do artigo. | Selecione essa opção para remover o cabeçalho do tópico do artigo na saída publicada. |
+| Carregar como rascunho | Selecione esta opção para fazer upload do tópico e compartilhá-lo como rascunho antes de disponibilizá-lo aos usuários. |
+| Carregar imagens | Selecione esta opção se desejar que quaisquer imagens nos tópicos sejam incluídas na saída publicada. |
+| Fazer upload de documentos vinculados | Selecione essa opção para incluir os documentos vinculados em tópicos na saída publicada. |
 
 
 ### Adobe Experience Manager
@@ -73,7 +74,8 @@ Você também pode exibir as seguintes opções nas predefinições do Salesforc
 | Site | Use esse campo para selecionar a Base de conhecimento Adobe Experience Manager necessária. Você pode configurar a base de conhecimento no site do Adobe Experience Manager para armazenar o conteúdo com base nas permissões. Os artigos desse mapa do DITA podem ser publicados nessas bases de conhecimento. |
 | Categoria | Selecione uma categoria na lista suspensa para publicar os tópicos do índice nessa categoria no site do Adobe Experience Manager. |
 | Modelo de seção e modelo de artigo | Esses são os componentes estruturais usados para organizar o conteúdo da saída. Eles são predefinidos no modelo de site do Adobe Experience Manager. |
-| Fluxo de trabalho de geração do Post | Ao escolher essa opção, uma nova lista suspensa de Fluxo de trabalho de geração do Post que contém todos os fluxos de trabalho configurados no Adobe Experience Manager é exibida. Você deve selecionar um workflow que deseja executar após a conclusão do workflow de geração de saída.<br>Saiba mais sobre como [personalizar a seção do fluxo de trabalho de geração pós-saída](../install-guide/customize-workflows.md#id17A6GI004Y4) no Guia de Instalação e Configuração. |
+| Fluxo de trabalho de pós-geração | Ao escolher essa opção, uma nova lista suspensa de Fluxo de trabalho de pós-geração que contém todos os fluxos de trabalho configurados no Adobe Experience Manager é exibida. Você deve selecionar um workflow que deseja executar após a conclusão do workflow de geração de saída.<br>Saiba mais sobre como [personalizar a seção do fluxo de trabalho de geração pós-saída](../install-guide/customize-workflows.md#id17A6GI004Y4) no Guia de Instalação e Configuração. |
+
 >[!TIP]
 > 
 >Selecione **Atualizar** ![ícone atualizar](images/navtitle-refresh-icon.svg) para preencher os respectivos modelos nos campos de acordo com o modelo da Base de Dados de Conhecimento selecionado.

@@ -5,10 +5,10 @@ exl-id: 807d9ffa-23e3-476c-992d-c1f495233892
 feature: Java-Based API Conversion Workflow
 role: Developer
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 83966cc9187b13dd3b5956821e0aa038b41db28e
 workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -50,12 +50,13 @@ public static void convertHtmlToDita(Session session,
 ```
 
 **Parâmetros**:
-|Nome|Tipo|Descrição|
-|—|—|—|
-|`session`|javax.jcr.Session|Uma sessão JCR válida.|
-|`inputFile`|String|Caminho absoluto dos arquivos HTML de origem no repositório AEM.|
-|`destPath`|String|Caminho absoluto do local de destino onde os arquivos DITA convertidos serão salvos.|
-|`createRev`|Booleano|Especifique se uma revisão dos arquivos foi criada \( `true`\) no destino especificado ou não \( `false`\). Isso é considerado somente quando o local de destino contém uma versão existente dos arquivos convertidos.|
+
+| Nome | Tipo | Descrição |
+|----|----|-----------|
+| `session` | javax.jcr.Session | Uma sessão JCR válida. |
+| `inputFile` | String | Caminho absoluto dos arquivos HTML de origem no repositório AEM. |
+| `destPath` | String | Caminho absoluto do local de destino onde os arquivos DITA convertidos serão salvos. |
+| `createRev` | Booleano | Especifique se uma revisão dos arquivos foi criada \( `true`\) no destino especificado ou não \( `false`\). Isso é considerado somente quando o local de destino contém uma versão existente dos arquivos convertidos. |
 
 **Exceção**:
 Lança `RepositoryException`.
@@ -76,13 +77,14 @@ public static void convertWordToDita(Session session,
 ```
 
 **Parâmetros**:
-|Nome|Tipo|Descrição|
-|—|—|—|
-|`session`|javax.jcr.Session|Uma sessão JCR válida.|
-|`inputFile`|String|Caminho absoluto dos arquivos de origem do Word no repositório AEM.|
-|`destPath`|String|Caminho absoluto do local de destino onde os arquivos DITA convertidos serão salvos.|
-|`style2tagMap`|String|Caminho absoluto do arquivo de mapeamento de estilo que será usado para conversão.|
-|`createRev`|Booleano|Especifique se uma revisão dos arquivos foi criada \( `true`\) no destino especificado ou não \( `false`\). Isso é considerado somente quando o local de destino contém uma versão existente dos arquivos convertidos.|
+
+| Nome | Tipo | Descrição |
+|----|----|-----------|
+| `session` | javax.jcr.Session | Uma sessão JCR válida. |
+| `inputFile` | String | Caminho absoluto dos arquivos de origem do Word no repositório AEM. |
+| `destPath` | String | Caminho absoluto do local de destino onde os arquivos DITA convertidos serão salvos. |
+| `style2tagMap` | String | Caminho absoluto do arquivo de mapeamento de estilo que será usado para conversão. |
+| `createRev` | Booleano | Especifique se uma revisão dos arquivos foi criada \( `true`\) no destino especificado ou não \( `false`\). Isso é considerado somente quando o local de destino contém uma versão existente dos arquivos convertidos. |
 
 **Exceção**:
 Lança `RepositoryException`.

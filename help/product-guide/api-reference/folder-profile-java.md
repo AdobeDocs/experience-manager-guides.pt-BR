@@ -5,10 +5,10 @@ exl-id: 388ae654-c4f9-4bb7-ba98-370b8919e3a6
 feature: Java-Based API Folder Profiles
 role: Developer
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 83966cc9187b13dd3b5956821e0aa038b41db28e
 workflow-type: tm+mt
 source-wordcount: '245'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -54,13 +54,14 @@ Session session) throws GuidesApiException
 ```
 
 **Parâmetros**:
-|Nome|Tipo|Descrição|
-|—|—|—|
-|``attributeNames``|String|Uma lista de nomes de atributos.|
-|``values``|String|Uma lista de valores para os atributos fornecidos.|
-|`labels`|Cadeia|Uma lista de rótulos para os pares `attribute`- `value`. [1](#fntarg_1)|
-|`profileName`|String|O nome do perfil no nível da pasta ao qual esses atributos, valores e rótulos devem ser aplicados. **Importante:** todos os atributos-valores-rótulos existentes definidos no perfil são substituídos.|
-|`session`|javax.jcr.Session|Uma sessão JCR válida.|
+
+| Nome | Tipo | Descrição |
+|----|----|-----------|
+| ``attributeNames`` | String | Uma lista de nomes de atributos. |
+| ``values`` | String | Uma lista de valores para os atributos fornecidos. |
+| `labels` | String | Uma lista de rótulos para os pares `attribute`- `value`. [1](#fntarg_1) |
+| `profileName` | String | O nome do perfil em nível de pasta ao qual esses atributos, valores e rótulos devem ser aplicados. **Importante:** todos os atributos-valores-rótulos existentes definidos no perfil são substituídos. |
+| `session` | javax.jcr.Session | Uma sessão JCR válida. |
 
 **Devoluções**:
 `true` para obter êxito. No caso de uma falha, ele aciona uma exceção.

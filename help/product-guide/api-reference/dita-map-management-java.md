@@ -5,10 +5,10 @@ exl-id: bd91fc90-75f8-487c-99d1-2637e9cf9924
 feature: Java-Based API Dita Map
 role: Developer
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 83966cc9187b13dd3b5956821e0aa038b41db28e
 workflow-type: tm+mt
 source-wordcount: '1027'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -57,13 +57,14 @@ public static void zipMapWithDependents(Session session,
 ```
 
 **Parâmetros**:
-|Nome|Tipo|Descrição|
-|—|—|—|
-|`session`|javax.jcr.Session|Uma sessão JCR válida.|
-|`sourcePath`|String|Caminho \(no repositório AEM\) do arquivo de mapa DITA que precisa ser baixado.|
-|`outputStream`|java.io.OutputStream|O fluxo no qual o ZIP será gravado.|
-|`baseline`|String|O título da linha de base que é usado para recuperar o conteúdo com versão. <br> **Observação:** o valor diferencia maiúsculas de minúsculas.|
-|flatFS|Boolean|\(Opcional\) Se definido como verdadeiro, uma estrutura simples de arquivos será retornada no arquivo ZIP. Por exemplo, se o mapa DITA fizer referência ao conteúdo em várias pastas, todos os arquivos referenciados serão colocados em uma única pasta. Caso haja arquivos com o mesmo nome, eles serão renomeados adicionando um sufixo numérico. Todas as referências \(no mapa DITA e em tópicos\) são manipuladas automaticamente, pois são atualizadas com base no novo local dos arquivos na estrutura de pasta simples. Se definido como falso, a estrutura de pastas será mantida como está no arquivo ZIP. Se o mapa DITA se referir a arquivos de vários locais, todos esses locais também serão criados no arquivo ZIP. Ao restaurar o arquivo ZIP, a estrutura de pastas exata é criada no local de destino. <br> O valor padrão para este parâmetro é false.|
+
+| Nome | Tipo | Descrição |
+|----|----|-----------|
+| `session` | javax.jcr.Session | Uma sessão JCR válida. |
+| `sourcePath` | String | Caminho \(no repositório AEM\) do arquivo de mapa DITA que precisa ser baixado. |
+| `outputStream` | java.io.OutputStream | O fluxo no qual gravar o ZIP. |
+| `baseline` | String | O título da linha de base usada para recuperar o conteúdo com versão. <br> **Observação:** o valor diferencia maiúsculas de minúsculas. |
+| flatFS | Booleano | \(Opcional\) Se definido como verdadeiro, então uma estrutura simples de arquivos é retornada no arquivo ZIP. Por exemplo, se o mapa DITA fizer referência ao conteúdo em várias pastas, todos os arquivos referenciados serão colocados em uma única pasta. Caso haja arquivos com o mesmo nome, eles serão renomeados adicionando um sufixo numérico. Todas as referências \(no mapa DITA e em tópicos\) são manipuladas automaticamente, pois são atualizadas com base no novo local dos arquivos na estrutura de pasta simples. Se definido como falso, a estrutura de pastas será mantida como está no arquivo ZIP. Se o mapa DITA se referir a arquivos de vários locais, todos esses locais também serão criados no arquivo ZIP. Ao restaurar o arquivo ZIP, a estrutura de pastas exata é criada no local de destino. <br> O valor padrão para este parâmetro é false. |
 
 **Devoluções**:
 O conteúdo do ZIP é gravado no `outputStream`.
@@ -93,12 +94,13 @@ public static CompletableFuture<Node> zipMapWithDependencies(Session session,
 ```
 
 **Parâmetros**:
-|Nome|Tipo|Descrição|
-|—|—|—|
-|`session`|javax.jcr.Session|Uma sessão JCR válida.|
-|`sourcePath`|String|Caminho \(no repositório AEM\) do arquivo de mapa DITA que precisa ser baixado.|
-|`baseline`|String|O título da linha de base que é usado para recuperar o conteúdo com versão. <br> **Observação:** o valor diferencia maiúsculas de minúsculas.|
-|flatFS|Boolean|\(Opcional\) Se definido como verdadeiro, uma estrutura simples de arquivos será retornada no arquivo ZIP. Por exemplo, se o mapa DITA fizer referência ao conteúdo em várias pastas, todos os arquivos referenciados serão colocados em uma única pasta. Caso haja arquivos com o mesmo nome, eles serão renomeados adicionando um sufixo numérico. Todas as referências \(no mapa DITA e em tópicos\) são manipuladas automaticamente, pois são atualizadas com base no novo local dos arquivos na estrutura de pasta simples. Se definido como falso, a estrutura de pastas será mantida como está no arquivo ZIP. Se o mapa DITA se referir a arquivos de vários locais, todos esses locais também serão criados no arquivo ZIP. Ao restaurar o arquivo ZIP, a estrutura de pastas exata é criada no local de destino.<br> O valor padrão para este parâmetro é false.|
+
+| Nome | Tipo | Descrição |
+|----|----|-----------|
+| `session` | javax.jcr.Session | Uma sessão JCR válida. |
+| `sourcePath` | String | Caminho \(no repositório AEM\) do arquivo de mapa DITA que precisa ser baixado. |
+| `baseline` | String | O título da linha de base usada para recuperar o conteúdo com versão. <br> **Observação:** o valor diferencia maiúsculas de minúsculas. |
+| flatFS | Booleano | \(Opcional\) Se definido como verdadeiro, então uma estrutura simples de arquivos é retornada no arquivo ZIP. Por exemplo, se o mapa DITA fizer referência ao conteúdo em várias pastas, todos os arquivos referenciados serão colocados em uma única pasta. Caso haja arquivos com o mesmo nome, eles serão renomeados adicionando um sufixo numérico. Todas as referências \(no mapa DITA e em tópicos\) são manipuladas automaticamente, pois são atualizadas com base no novo local dos arquivos na estrutura de pasta simples. Se definido como falso, a estrutura de pastas será mantida como está no arquivo ZIP. Se o mapa DITA se referir a arquivos de vários locais, todos esses locais também serão criados no arquivo ZIP. Ao restaurar o arquivo ZIP, a estrutura de pastas exata é criada no local de destino.<br> O valor padrão para este parâmetro é false. |
 
 **Devoluções**:
 O nó do arquivo zip está encapsulado na classe `CompletableFuture`. O usuário pode continuar a manipulá-lo de forma assíncrona e pode usar o método `.get()` do futuro para bloquear o thread quando o nó for necessário. O valor retornado também pode terminar com um erro, e isso pode ser tratado com o método `.exceptionally()`.
@@ -117,10 +119,11 @@ public static List<HashMap<String,String>> getBaselineList(
 ```
 
 **Parâmetros**:
-|Nome|Tipo|Descrição|
-|—|—|—|
-|`session`|javax.jcr.Session|Uma sessão JCR válida.|
-|`sourcePath`|String|Caminho \(no repositório AEM\) do arquivo de mapa DITA para o qual as informações da linha de base serão recuperadas.|
+
+| Nome | Tipo | Descrição |
+|----|----|-----------|
+| `session` | javax.jcr.Session | Uma sessão JCR válida. |
+| `sourcePath` | String | Caminho \(no repositório AEM\) do arquivo de mapa DITA para o qual as informações da linha de base serão recuperadas. |
 
 **Devoluções**:
 Uma lista de `HashMap` objetos. Cada objeto `HashMap` representa uma linha de base e contém seu nome e título.
@@ -142,10 +145,11 @@ public static List<HashMap<String,String>> getConditionalPresetList (
 ```
 
 **Parâmetros**:
-|Nome|Tipo|Descrição|
-|—|—|—|
-|`session`|javax.jcr.Session|Uma sessão JCR válida.|
-|`sourcePath`|String|Caminho \(no repositório AEM\) do arquivo de mapa DITA para o qual as informações condicionais predefinidas serão recuperadas.|
+
+| Nome | Tipo | Descrição |
+|----|----|-----------|
+| `session` | javax.jcr.Session | Uma sessão JCR válida. |
+| `sourcePath` | String | Caminho \(no repositório AEM\) do arquivo de mapa DITA para o qual as informações condicionais predefinidas serão recuperadas. |
 
 **Devoluções**:
 Uma lista de `HashMap` objetos. Cada objeto `HashMap` representa uma predefinição condicional e contém o nome e o título da predefinição condicional.
@@ -167,11 +171,12 @@ public static String getDitavalFromConditionalPreset
 ```
 
 **Parâmetros**:
-|Nome|Tipo|Descrição|
-|—|—|—|
-|`session`|javax.jcr.Session|Uma sessão JCR válida.|
-|`sourcePath`|String|Caminho \(no repositório AEM\) do arquivo de mapa DITA para o qual o arquivo DITAVAL será recuperado.|
-|`cpName`|Cadeia de caracteres|Nome da predefinição condicional no mapa DITA para a qual o arquivo DITAVAL deve ser recuperado.|
+
+| Nome | Tipo | Descrição |
+|----|----|-----------|
+| `session` | javax.jcr.Session | Uma sessão JCR válida. |
+| `sourcePath` | String | Caminho \(no repositório AEM\) do arquivo de mapa DITA para o qual o arquivo DITAVAL será recuperado. |
+| `cpName` | String | Nome da predefinição condicional no mapa DITA para a qual o arquivo DITAVAL deve ser recuperado. |
 
 **Devoluções**:
 O caminho do arquivo DITAVAL correspondente à predefinição condicional definida no arquivo de mapa DITA.
@@ -189,9 +194,10 @@ public static List
 ```
 
 **Parâmetros**:
-|Nome|Tipo|Descrição|
-|—|—|—|
-|`rootNode`|javax.jcr.Node|O nó raiz para o qual todas as dependências devem ser recuperadas.|
+
+| Nome | Tipo | Descrição |
+|----|----|-----------|
+| `rootNode` | javax.jcr.Node | O nó raiz para o qual todas as dependências devem ser recuperadas. |
 
 **Devoluções**:
 Uma lista de nós que contém todas as dependências do nó raiz.

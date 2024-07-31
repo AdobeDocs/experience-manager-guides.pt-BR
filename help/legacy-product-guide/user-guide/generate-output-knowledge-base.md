@@ -3,7 +3,8 @@ title: Knowledge Base
 description: Saiba como criar uma predefinição da Base de conhecimento no editor da Web e no painel de mapa. Configure a predefinição de saída da knowledge base no AEM Guides.
 feature: Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+exl-id: 5fc81de9-9ae0-4cd4-a7ef-b52eed2479f7
+source-git-commit: 83966cc9187b13dd3b5956821e0aa038b41db28e
 workflow-type: tm+mt
 source-wordcount: '1158'
 ht-degree: 1%
@@ -51,12 +52,13 @@ No editor da Web, as configurações a seguir foram organizadas nas guias **Gera
 | Categorias | Selecione uma categoria na lista suspensa para publicar os tópicos do índice nessa categoria no site do Salesforce. |
 
 Você também pode exibir as seguintes opções nas predefinições do Salesforce e ServiceNow:
+
 | Opções | Descrição |
-| — | — |
-|Remova o cabeçalho de tópico do corpo do artigo.|Selecione esta opção para remover o cabeçalho do tópico do artigo na saída publicada. |
-|Carregar como rascunho | Selecione esta opção para fazer upload do tópico e compartilhá-lo como rascunho antes de disponibilizá-lo aos usuários.|
-|Carregar imagens| Selecione esta opção se desejar que quaisquer imagens nos tópicos sejam incluídas na saída publicada.|
-|Fazer upload de documentos vinculados| Selecione essa opção para incluir os documentos vinculados em tópicos na saída publicada.|
+| --- | --- |
+| Remova o cabeçalho do tópico do corpo do artigo. | Selecione essa opção para remover o cabeçalho do tópico do artigo na saída publicada. |
+| Carregar como rascunho | Selecione esta opção para fazer upload do tópico e compartilhá-lo como rascunho antes de disponibilizá-lo aos usuários. |
+| Carregar imagens | Selecione esta opção se desejar que quaisquer imagens nos tópicos sejam incluídas na saída publicada. |
+| Fazer upload de documentos vinculados | Selecione essa opção para incluir os documentos vinculados em tópicos na saída publicada. |
 
 
 ### Adobe Experience Manager
@@ -73,6 +75,7 @@ Você também pode exibir as seguintes opções nas predefinições do Salesforc
 | Categoria | Selecione uma categoria na lista suspensa para publicar os tópicos do índice nessa categoria no site do Adobe Experience Manager. |
 | Modelo de seção e modelo de artigo | Esses são os componentes estruturais usados para organizar o conteúdo da saída. Eles são predefinidos no modelo de site do Adobe Experience Manager. |
 | Fluxo de trabalho de pós-geração | Ao escolher essa opção, uma nova lista suspensa de Fluxo de trabalho de pós-geração que contém todos os fluxos de trabalho configurados no Adobe Experience Manager é exibida. Você deve selecionar um workflow que deseja executar após a conclusão do workflow de geração de saída.<br>Saiba mais sobre como [personalizar a seção do fluxo de trabalho de geração pós-saída](/help/product-guide/install-guide/customize-workflows.md#id17A6GI004Y4) no Guia de Instalação e Configuração. |
+
 >[!TIP]
 > 
 >Selecione **Atualizar** ![ícone atualizar](images/navtitle-refresh-icon.svg) para preencher os respectivos modelos nos campos de acordo com o modelo da Base de Dados de Conhecimento selecionado.
