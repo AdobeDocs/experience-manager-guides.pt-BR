@@ -4,7 +4,7 @@ description: Saiba como migrar o conteúdo do software local para o Cloud Servic
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 0c29d3cffa9f9a741ba5f7bd6150d234fbe8341e
+source-git-commit: af7b3595c10793a8faf72310083547f90b6568f0
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 1%
@@ -74,8 +74,7 @@ Execute as seguintes etapas para migrar seu conteúdo do Experience Manager Guid
 1. Após a criação, selecione os três pontos e selecione **Copiar chave de extração**.
 
 
-1. Clique em **Copiar para a área de transferência**.
-Crie seu primeiro projeto.
+1. Clique em **Copiar para a área de transferência**. Crie seu primeiro projeto.
    ![chave de extração](./assets/migration-copy-to-clipboard.png)
 
 1. Selecione **Adobe Experience Manager** na parte superior e selecione o bloco **Distribuição de Software**.
@@ -125,17 +124,14 @@ ou
 1. Selecione o **conjunto de migração** e selecione **Extrair** na parte superior.
    ![extração do conjunto de migração ](./assets/migration-extract.png)
 
-1. Verifique os detalhes no pop-up **Extração do conjunto de migração** para os caminhos e configurações selecionados e clique em **Extrair**.
-A extração levará minutos, e você visualizará o status como atualizado.
+1. Verifique os detalhes no pop-up **Extração do conjunto de migração** para os caminhos e configurações selecionados e clique em **Extrair**. A extração levará minutos, e você visualizará o status como atualizado.
    ![extração do conjunto de migração](./assets/migration-set-extraction.png)
 
 1. Quando a extração for concluída e indicada pelo status `finished`, vá para Cloud Acceleration Manager e selecione o projeto que você criou na etapa 18.
 Para obter mais informações, selecione os três pontos e, em seguida, selecione **Exibir detalhes**.
 
 
-1. Na janela pop-up Detalhes do conjunto de migração, verifique a configuração do conjunto de migração e feche a janela pop-up.
-
-   Você pode visualizar os caminhos e outras configurações como mostrado na seguinte captura de tela:
+1. Na janela pop-up Detalhes do conjunto de migração, verifique a configuração do conjunto de migração e feche a janela pop-up. Você pode visualizar os caminhos e outras configurações como mostrado na seguinte captura de tela:
    ![detalhes-migração](./assets/migration-details.png)
 
 
@@ -146,8 +142,6 @@ Para obter mais informações, selecione os três pontos e, em seguida, selecion
 1. Escolha o conjunto de migração, selecione o servidor necessário do seu ambiente e clique em **Assimilar**.
 
    ![nova assimilação](./assets/migration-new-ingestion.png)
-
-
 
 ## Executar a ferramenta Transferência de conteúdo em uma instância do Publish
 
