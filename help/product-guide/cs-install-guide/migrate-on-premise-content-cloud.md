@@ -4,7 +4,7 @@ description: Saiba como migrar o conteúdo do software local para o Cloud Servic
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: f1c21c6a2683c99d2fcf91b6e5bd4626b3de653b
+source-git-commit: 645d9983b66c740444f24e2283806b5ec4a4ee79
 workflow-type: tm+mt
 source-wordcount: '1000'
 ht-degree: 1%
@@ -21,7 +21,7 @@ Este artigo fornece um processo passo a passo detalhado para migrar o conteúdo 
 ## Pré-requisitos
 
 * Adobe Experience Manager 6.4 ou versões posteriores
-* O Experience Manager Guides deve estar na versão UUID. Se você estiver usando uma versão não UUID do Adobe Experience Manager Guides, primeiro migre para UUID usando as etapas em [Migrar conteúdo não DITA](./migrate-content-non-dita.md).
+* O Experience Manager Guides deve estar na versão UUID. Se você estiver usando uma versão não UUID do Adobe Experience Manager Guides, primeiro migre para UUID usando as etapas em [Migrar conteúdo não DITA](../install-guide/migrate-uuid-non-uuid.md).
 * Acesso ao **Cloud Acceleration Manager** para a instância da nuvem para a qual você deseja migrar o conteúdo
 * Suporte para até 20 TB de tamanho de repositório
 * Tamanho total do índice Lucene de 25 GB
