@@ -1,7 +1,7 @@
 ---
 title: Propagar metadados do AEM Assets para saída gerada pelo plug-in DITA-OT
 description: Configuração do plug-in DITA-OT e conteúdo no AEM para enviar metadados para a saída gerada
-source-git-commit: 5a427e14f13ba6e7344f48a9edb3f153a4958ba2
+source-git-commit: d1694535e27b0b605111f71f1f11c47ddb30536e
 workflow-type: tm+mt
 source-wordcount: '906'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Em um nível superior, abaixo estão as etapas que você aprenderá neste artigo
 ## Fundo
 
 Com o AEM Guides, você pode usar plug-ins DITA-OT para publicar em formatos de saída de sua escolha usando os plug-ins configurados e
-você também pode passar metadados dos ativos gerenciados no DAM AEM para o processo DITA-OT para usá-los na saída gerada. consulte a documentação sobre [como configurar ditamap/tópicos para passar metadados por predefinições de saída](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/pass-metadata-dita-ot)
+você também pode passar metadados dos ativos gerenciados no DAM AEM para o processo DITA-OT para usá-los na saída gerada. consulte a documentação sobre [como configurar ditamap/tópicos para passar metadados pela predefinição de saída](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/pass-metadata-dita-ot)
 
 
 ## Suposições
@@ -59,7 +59,7 @@ Consulte a captura de tela abaixo para entender as etapas fornecidas acima:
 
 #### Acessando o arquivo metadata.xml no diretório temporário
 
-No pacote de arquivos temporários baixados, você notará um arquivo metadata.xml, no qual é possível ver a estrutura das propriedades e dos valores (veja a captura de tela abaixo)
+No pacote de arquivos temporários baixados, você notará um arquivo metadata.xml onde é possível ver a estrutura das propriedades e dos valores (veja a captura de tela abaixo)
 ![estrutura e construções de metadata.xml](../../assets/publishing/publish-tempfiles-metadata-structure.png)
 
 ##### Entender metadata.xml
