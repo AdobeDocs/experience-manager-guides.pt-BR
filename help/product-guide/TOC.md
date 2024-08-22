@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leia a documentação do produto para o Adobe Experience Manager Guides.
 breadcrumb-title: Documentação do AEM Guides
-source-git-commit: 3c861e42bb01255f19cb2c901a3bca94d7949b76
+source-git-commit: 135f78ae723f3d77a3e7448f5af79b2261b89b1e
 workflow-type: tm+mt
-source-wordcount: '1842'
+source-wordcount: '1848'
 ht-degree: 6%
 
 ---
@@ -469,16 +469,14 @@ ht-degree: 6%
                - [Personalização](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
                - [Caixa de diálogo personalizada](./guides-ui-extensions/customisations/ReviewApp/custom-dialog.md)
       - Publicação {#publishing}
-
+         - DITA-OT {#dita-ot}
+            - [Usar metadados de AEM no plug-in](./knowledge-base/kb-articles/publishing/dita-ot/dita-ot-pass-and-use-aem-metadata-in-dita-ot.md)
          - [Configuração do ambiente AEM para publicação de PDF nativo](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
-
          - [Gerar índice do mapa de livros na publicação do PDF nativo](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
-
          - [FMPS e guias](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
          - [Arquitetura e desempenho de microsserviços](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
          - [Configurar a publicação baseada em microsserviços com autenticação JWT](./knowledge-base/publishing/configure-microservices.md)
          - [Configurar a publicação baseada em microsserviço com autenticação OAuth](./knowledge-base/publishing/configure-microservices-imt-config.md)
-
          - [Publicação de referências de desempenho na nuvem do AEM](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
          - [Configurar um DITA-OT personalizado](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
 
