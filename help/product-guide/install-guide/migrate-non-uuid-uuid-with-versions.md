@@ -5,14 +5,19 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: 8f3a89fc-7d18-453d-909d-6dff5e275cab
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+source-git-commit: b0c7b944b66c4a4167beece4f827f3d5789531b5
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '788'
 ht-degree: 0%
 
 ---
 
 # Migrar conteúdo com versão
+
+>[!NOTE]
+>
+> Você pode migrar seu conteúdo não UUID para conteúdo UUID no Experience Manager Guides. Este artigo será arquivado em novembro de 2024.
+>Exiba [**Não UUID para migração de conteúdo UUID**](./migrate-non-uuid-uuid-new.md) para obter a documentação mais recente e detalhada.
 
 Execute estas etapas para migrar seu conteúdo de versão não UUID para o conteúdo UUID.
 
@@ -87,7 +92,7 @@ Execute as seguintes verificações na versão não UUID (4.1 não UUID ou 4.3.0
 
 1. Verifique se o espaço livre disponível é pelo menos dez vezes o espaço ocupado pelo AEM (diretório crx-quickstart) durante a migração. Após concluir a migração, você poderá recuperar a maior parte do espaço em disco executando a compactação (consulte [Limpeza de revisão](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en)).
 
-1. Habilitar *Habilitar Iniciadores de Fluxo de Trabalho de Processamento do Post* em `com.adobe.fmdita.config.ConfigManager` e *Habilitar Pós-processamento de Versão* em `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation.`
+1. Habilitar *Iniciadores de Fluxo de Trabalho de Pós-Processamento* em `com.adobe.fmdita.config.ConfigManager` e *Habilitar Pós-Processamento de Versão* em `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation.`
 
 1. Instale a versão UUID da versão compatível sobre a versão não UUID. Por exemplo, se você estiver usando a build 4.1 não UUID, será necessário instalar a versão 4.1 do UUID e executar a migração.
 
@@ -98,7 +103,7 @@ Execute as seguintes verificações na versão não UUID (4.1 não UUID ou 4.3.0
    * Fluxo de trabalho do Ativo de atualização DAM
    * Fluxo de trabalho de writeback de metadados DAM
 
-1. Desabilite *Habilitar Iniciadores de Fluxo de Trabalho de Processamento do Post* em `com.adobe.fmdita.config.ConfigManager` e desabilite *Habilitar Pós-processamento de Versão* em `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation`.
+1. Desabilite *Habilitar Iniciadores de Fluxo de Trabalho de Pós-Processamento* em `com.adobe.fmdita.config.ConfigManager` e desabilite *Habilitar Pós-Processamento de Versão* em `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation`.
 
 1. Desabilite a propriedade Habilitar validação (`validation.enabled`) no Serviço de Marcação CQ Diário.
 
