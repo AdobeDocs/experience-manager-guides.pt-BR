@@ -3,9 +3,9 @@ title: Reutilização de conteúdo DITA no AEM Guides
 description: Este breve artigo informa como o AEM Guides e o DITA ajudam a economizar tempo e esforço ao usar a reutilização de conteúdo
 role: User, Admin
 exl-id: 1522ebf5-2aea-4d8f-ade7-367227b31dd9
-source-git-commit: 4160c990bafe41611714ef66ee361aba0ef47c0a
+source-git-commit: 12d7f9c3479d2fa8e8f0adad7cb89993cd17dec0
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 O Adobe AEM Guides aproveita os pontos fortes do DITA para fornecer uma interface amigável para a reutilização de conteúdo.
 
-Neste artigo falamos sobre:
+Este artigo abordará:
 
 1. [Reusabilidade usando referência de tópico (](#reusability-using-topic-referencestopicref)
 2. [Reutilização usando referência de conteúdo (](#reusability-using-content-reference-conref--conkeyref)
@@ -79,7 +79,7 @@ Você deseja reutilizar um fragmento KYC individual para os tópicos &quot;Salva
 
 Aqui `conref=kyc_procedures.dita#indvidual_kyc` kyc_procedures.dita é o identificador de arquivo e #individual_kyc é o identificador de fragmento.
 
-Kyc_procedure.dita continua a ser a única fonte de informação. Se houver alterações no processo KYC conforme exigido pelos regulamentos, basta atualizar um tópico e essas alterações serão refletidas automaticamente em todos os tópicos que se referem a ele.
+Kyc_procedure.dita continua a ser a única fonte de informação. Se as alterações normativas exigirem atualizações no processo KYC, atualize o caminho do tópico com o novo. As alterações serão refletidas automaticamente em todos os tópicos que fazem referência a elas.
 
 Com o AEM Guides, seus dois cliques
 
@@ -91,7 +91,7 @@ Etapa 1: Clique em Inserir conteúdo reutilizável
 Etapa 2: selecione o arquivo e o fragmento que precisam ser reutilizados.
 ![conref](../../assets/publishing/content-reusability_image2.png)
 
-Semelhante ao &quot;conref&quot;, também é possível usar &quot;conkeyref&quot;, onde, em vez de fornecer um caminho de conteúdo, você pode fazer referência ao conteúdo por meio de chaves.
+Semelhante ao &quot;conref&quot;, também é possível usar &quot;conkeyref&quot;, em que, em vez de fornecer um caminho de conteúdo, você faz referência ao conteúdo por meio de uma chave
 
 Exemplo de código:
 
@@ -111,7 +111,7 @@ A definição de chave tem esta aparência:
 </map>
 ```
 
-Chave - &quot;Kyc_procedure&quot; continuará sendo a única fonte de informações. Se houver alterações no processo KYC, conforme exigido pelos regulamentos, basta atualizar um caminho de tópico com um novo caminho de tópico, e essas alterações serão refletidas automaticamente em todos os tópicos que se referem a ele.
+Chave - &#39;Kyc_procedure&#39; continua sendo a única fonte de informações. Se houver alterações no processo KYC, conforme exigido pelos regulamentos, basta atualizar um caminho de tópico com um novo caminho de tópico, e essas alterações serão refletidas automaticamente em todos os tópicos que se referem a ele.
 
 ```
 <map id="ABC_manual">
@@ -133,7 +133,7 @@ Etapa 1: Clique em Inserir conteúdo reutilizável
 Etapa 2: selecione o mapa raiz (opcional), a chave e o fragmento que precisam ser reutilizados.
 ![conkeyref](../../assets/publishing/content-reusability_image3.png)
 
-Aqui, o mapa raiz foi selecionado automaticamente, pois já estava aberto na exibição de mapa
+Aqui, o mapa raiz foi selecionado automaticamente, pois já estava aberto na exibição de mapa.
 
 
 ## Reutilizar conteúdo com um único clique no AEM Guides
@@ -154,14 +154,16 @@ Etapa 2: Depois de adicionado, arraste e solte o fragmento que deseja reutilizar
 
 - ### Todo o conteúdo não é exibido após a seleção do arquivo/chave na caixa de diálogo Reutilizar conteúdo
 
-Você deve atribuir IDs a fragmentos (elementos Dita ) que deseja reutilizar em outros tópicos
+Atribuir IDs a fragmentos (elementos Dita) que você deseja reutilizar em outros tópicos
 
 - ## As chaves não são exibidas na caixa de diálogo Reutilizar conteúdo
 
-Verifique se você abriu o mapa raiz/mapa pai na exibição de mapa que tem uma definição de chave ou adicione o caminho do mapa raiz manualmente na mesma caixa de diálogo.
+  Verifique se você abriu o mapa raiz/mapa pai na exibição de mapa, que tem uma definição de chave ou adiciona o caminho do mapa raiz manualmente na mesma caixa de diálogo.
 
 
 <br>
+<br>
+<br>
 
 
-Post no [fórum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) da Comunidade AEM Guides para qualquer consulta.
+Publique qualquer consulta no [fórum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) da Comunidade do AEM Guides.
