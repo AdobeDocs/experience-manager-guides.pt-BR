@@ -2,8 +2,8 @@
 title: Aumente o desempenho da tradução para seus arquivos DITA em guias AEM
 description: Práticas recomendadas, dicas e truques para aumentar o desempenho do projeto de tradução DITA no AEM Guides
 feature: Translation
-role: User, admin
-source-git-commit: b22dcdf2c040159b30128dfe97f0e5a0605ca068
+role: User, Admin
+source-git-commit: d25e7b1b8a1be15e1d627e74a23bbb33b7fc6e94
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 0%
