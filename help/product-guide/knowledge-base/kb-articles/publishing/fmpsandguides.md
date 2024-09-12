@@ -3,8 +3,9 @@ title: Publicação usando o FrameMaker Publishing Server (FMPS) no AEM Guides
 description: Publicação com FMPS usando o AEM Guides
 exl-id: 05d4d876-f83b-473c-bf31-14d6565e80e2
 feature: AEM Guides FrameMaker Publishing Server
+author: Pulkit Nagpal(punagpal)
 role: User, Admin
-source-git-commit: 462647f953895f1976af5383124129c3ee869fe9
+source-git-commit: f971be4be9e2d32618616727cd9c682941dd3fb2
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%
