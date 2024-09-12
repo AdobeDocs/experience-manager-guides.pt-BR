@@ -4,9 +4,9 @@ description: Descubra os recursos do editor da Web no AEM Guides. Conhecer a int
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 1b338bb702267640bc3f5b5de4b00051979b562f
+source-git-commit: 2e474dec4f55ccf54a415b1969f7e7f79c4d0226
 workflow-type: tm+mt
-source-wordcount: '18678'
+source-wordcount: '18802'
 ht-degree: 0%
 
 ---
@@ -167,12 +167,12 @@ Na captura de tela a seguir, apenas 3 dos 4 elementos configurados da captura de
             - Acesso total (total)
             - Selecione Gerenciar dados do usuário por meio das APIs (api)
 
-  Depois que o aplicativo é configurado, o Salesforce fornece uma **Chave do consumidor** e **Segredo do consumidor**.
+  Depois que o aplicativo é configurado, a Salesforce fornece uma **Chave do consumidor** e um **Segredo do consumidor**.
 
-  Eles podem ser usados para criar o Perfil do Salesforce Publish.
+  Eles podem ser usados para criar o Perfil de Publish do Salesforce.
 
 
-   - Para criar um Perfil do Salesforce Publish, selecione a Base de Conhecimento **Salesforce** na lista suspensa **Tipo de servidor**. Insira um Nome de perfil. No **URL do Site**, insira o site do consumidor que você usaria para publicar a saída e, em seguida, adicionar a **Chave do consumidor** e o **Segredo do consumidor** fornecidos pelo site do consumidor do Salesforce. Em seguida, **Validar** e **Salvar** o perfil recém-criado.
+   - Para criar um Perfil do Salesforce Publish, selecione a Base de Conhecimento **Salesforce** na lista suspensa **Tipo de Servidor**. Insira um Nome de perfil. No **URL do Site**, insira o site do consumidor que você usaria para publicar a saída e adicionar a **Chave do Consumidor** e o **Segredo do Consumidor** fornecidos pelo site do consumidor do Salesforce. Em seguida, **Validar** e **Salvar** o perfil recém-criado.
      ![perfil de publicação do salesforce nas configurações do editor](./images/salesforce-publish-profile.png){width="550" align="left"}
 
      >[!NOTE]
@@ -1508,7 +1508,22 @@ Para adicionar ou definir uma condição, clique no ícone + ao lado do painel C
 
 ![](images/conditional-panel-create-cond.png){width="400" align="left"}
 
-Na lista Atributo, selecione o atributo condicional que deseja definir, insira um valor para a condição e especifique o rótulo que é exibido no painel Condições. Você também pode definir uma cor para a condição. Essa cor é definida como a cor de fundo do conteúdo no qual a condição é aplicada
+Na lista Atributo, selecione o atributo condicional que deseja definir, insira um valor para a condição e especifique o rótulo que é exibido no painel Condições. Defina um grupo para a condição. Você pode adicionar várias condições a um grupo. Você também pode definir uma cor para a condição. Essa cor é definida como a cor de plano de fundo do conteúdo no qual a condição é aplicada.
+
+Você pode agrupar as condições e estruturá-las em pastas aninhadas. Os grupos ajudam você a criar condições em vários níveis e a organizá-los melhor para uso no conteúdo.
+
+Por exemplo, você pode criar grupos de condições de produtos como *Acrobat* e *AEM Guides*. Você pode selecionar os atributos condicionais para ambos os grupos. Em cada grupo, você pode ter valores específicos como *Usuário*, *Administrador*, *Revisor* e *Autor*.
+
+>[!NOTE]
+>
+> Digite para criar um novo grupo ou selecione um grupo existente para um determinado atributo.
+
+Você pode usar `/` e definir subgrupos para definir subgrupos como `AEM Guides/Cloud Service`.
+
+
+
+![condições organizadas em uma hierarquia aninhada](images/conditions-nested-hierarchy.png){width="300" align="left"}
+
 
 Para editar uma condição, escolha **Editar** no menu Opções. A caixa de diálogo Editar condição é exibida:
 
@@ -1806,7 +1821,7 @@ Para exibir os comentários de revisão nas tarefas de revisão ativas que estã
    - Selecione ![](images/filter-search-icon.svg) para abrir o diálogo **Filtro**. Você pode selecionar todos ou somente projetos específicos. Os projetos selecionados estão listados no painel **Revisão**.
      ![](images/active-review-select-project.png){width="300" align="left"}
 
-     A opção **Tarefas iniciadas por mim** está habilitada por padrão. Permite exibir somente as tarefas que você iniciou.
+     A opção **Tarefas iniciadas por mim** está habilitada por padrão. Permite exibir somente as tarefas que você iniciou. O estado de alternância dessa opção é mantido mesmo após a atualização da página.
 
 1. Por padrão, no projeto de revisão, você exibirá uma lista simples de tópicos que têm comentários associados a eles. Aplique os filtros necessários no painel esquerdo para filtrar os tópicos com base nos comentários de revisão presentes neles:
 
@@ -1917,7 +1932,7 @@ Você também pode usar a opção **Localizar no Mapa** do menu **Opções** de 
 
 ## Área de edição de conteúdo {#id2051EB000UI}
 
-A área de edição de conteúdo é onde o conteúdo do tópico ou mapa é exibido. Você faz todas as edições de conteúdo nesta área. Ele fornece uma visualização WYSIWYG do conteúdo que você está editando. É possível abrir vários tópicos ao mesmo tempo, que são exibidos em suas respectivas guias.
+A área de edição de conteúdo é onde o conteúdo do tópico ou mapa é exibido. Você faz todas as edições de conteúdo nesta área. Ele fornece uma visualização do WYSIWYG do conteúdo que você está editando. É possível abrir vários tópicos ao mesmo tempo, que são exibidos em suas respectivas guias.
 
 Por padrão, é possível exibir os títulos dos arquivos nas guias. Ao passar o mouse sobre um arquivo, é possível visualizar o título do arquivo e o caminho do arquivo como uma dica de ferramenta.
 

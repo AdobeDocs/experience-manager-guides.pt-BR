@@ -4,9 +4,9 @@ description: Traduza o conteúdo para vários idiomas no editor da Web. Saiba co
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: ce7619538b229625277a552071bed8800e67f677
+source-git-commit: 8b031dde7a91e47937395286dbc20300b76835d3
 workflow-type: tm+mt
-source-wordcount: '2246'
+source-wordcount: '2343'
 ht-degree: 0%
 
 ---
@@ -112,11 +112,15 @@ Em um projeto XLIFF, o conteúdo é exportado para o formato XLIFF padrão do se
    - Você pode selecionar **Criar um novo projeto de tradução multilíngue**, que incluirá trabalhos de tradução para todos os idiomas selecionados para tradução. Por exemplo, se você tiver selecionado francês, alemão e espanhol, ele criará um projeto que contém trabalhos de tradução para os três idiomas.
    - Se você já tiver um projeto de tradução, poderá adicionar tópicos a esse projeto. Selecione a opção Adicionar a **Projeto de tradução existente** na lista Projeto e escolha um projeto na lista Projeto de tradução existente. Você pode classificar esses projetos por ordem mais recente, crescente ou decrescente.
 
-     >[!NOTE]
-     >
-     > Se o projeto existente for um projeto de escopo, &quot;\(Scoping\)&quot; será anexado ao nome.
+- Se você selecionar **Projeto de tradução existente**, essa operação atualizará a entrada do ativo existente no projeto se o ativo já estiver adicionado e o estado do trabalho de tradução relacionado estiver no estado *Rascunho*.
+   - Se o idioma de destino não estiver presente no projeto, um novo projeto será criado para o projeto de tradução em um único idioma e um novo trabalho será criado para o projeto de tradução em vários idiomas.
+   - Se o trabalho já estiver presente para o idioma de destino e o status do trabalho não estiver no estado *Rascunho*, um novo trabalho será criado no mesmo projeto para adicionar os ativos para tradução.
 
-   - Se precisar criar o escopo para que um projeto seja traduzido, você pode selecionar **Criar um novo projeto de tradução de escopo**. Isso não enviará as cópias para tradução e o status original da tradução dos arquivos será mantido. Não há impacto na cópia do idioma de destino dos tópicos referenciados enviados para definição do escopo.
+  >[!NOTE]
+  >
+  > Se o projeto existente for um projeto de escopo, &quot;\(Scoping\)&quot; será anexado ao nome.
+
+- Se precisar criar o escopo para que um projeto seja traduzido, você pode selecionar **Criar um novo projeto de tradução de escopo**. Isso não enviará as cópias para tradução e o status original da tradução dos arquivos será mantido. Não há impacto na cópia do idioma de destino dos tópicos referenciados enviados para definição do escopo.
 1. No campo **Título do projeto**, informe um título para o projeto.
 1. Clique em **Criar** para criar um novo projeto de tradução.
 

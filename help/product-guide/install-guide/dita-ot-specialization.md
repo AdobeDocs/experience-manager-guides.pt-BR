@@ -5,9 +5,9 @@ exl-id: ddc1393b-b269-40e5-9627-96dad82b42e9
 feature: DITA-OT Configuration
 role: Admin
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: b04f20af6e1f85746e13dad464513bf60b039378
 workflow-type: tm+mt
-source-wordcount: '2093'
+source-wordcount: '2122'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Há duas maneiras de usar o plug-in DITA-OT personalizado para publicação. O p
 
 Por padrão, o AEM Guides vem com um Perfil pré-configurado que contém as configurações dos modelos padrão a serem usados para editar e publicar conteúdo. Você pode criar perfis personalizados com modelos personalizados que serão usados ao editar documentos e plug-ins DITA-OT personalizados para publicar conteúdo.
 
-O pacote DITA-OT padrão disponível com o AEM Guides vem com o processador Apache FOP XSL-FO, que não oferece suporte à renderização de equações MathML. Se estiver usando equações MathML em seu conteúdo, verifique se você integrou um plug-in de mecanismo de renderização MathML para Apache FOP ou usou um processador XSL-FO diferente.
+O pacote DITA-OT padrão disponível com o AEM Guides vem com o processador Apache FOP XSL-FO, que não oferece suporte à renderização de equações MathML. Se estiver usando equações do MathML em seu conteúdo, verifique se você integrou um plug-in do mecanismo de renderização do MathML para Apache FOP ou usou um processador XSL-FO diferente.
 
 >[!IMPORTANT]
 >
@@ -171,6 +171,8 @@ Execute as seguintes etapas para criar um novo perfil e configurá-lo para usar 
    >
    > As informações do Perfil padrão são exibidas na página Perfis. Se você atualizou o AEM Guides da versão 2.2 para a 2.5.1 ou 2.6, todas as alterações feitas por meio do gerenciador de configurações serão automaticamente selecionadas e armazenadas no Perfil padrão.
 
+
+
 1. Você pode optar por editar o Perfil padrão, criar um novo perfil ou duplicar configurações do Perfil padrão para criar um novo perfil.
 
    >[!NOTE]
@@ -178,6 +180,12 @@ Execute as seguintes etapas para criar um novo perfil e configurá-lo para usar 
    > Não é possível excluir o Perfil padrão. No entanto, todos os novos perfis que você criar poderão ser editados e excluídos.
 
 1. Nas configurações de **Esquema** \> **Catálogo**, especifique o caminho dos arquivos DTD e XSD `catalog.xml` personalizados no repositório AEM.
+
+   >[!NOTE]
+   >
+   > Se você estiver usando o esquema personalizado, deverá definir o caminho dos arquivos DTD e XSD catalog.xml personalizados no repositório AEM na opção **Integrar Catálogos**.
+
+
 
 1. Selecione a opção **Adicionar Catálogo de ID do Sistema**.
 

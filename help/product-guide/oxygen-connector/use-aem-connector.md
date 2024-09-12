@@ -6,9 +6,9 @@ hidefromtoc: true
 exl-id: 9a140564-27eb-404e-93a5-f5c81364e7f7
 feature: Oxygen Plugin, Authoring, Web Editor
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 6c89275df6bdcd031c45956aeb06b6c3e5753208
 workflow-type: tm+mt
-source-wordcount: '6294'
+source-wordcount: '6293'
 ht-degree: 0%
 
 ---
@@ -29,13 +29,13 @@ Depois de ter o instalador, instale-o no computador local onde o Oxygen XML Auth
 
 ### Requisitos técnicos
 
-- Oxygen XML Author versão 25.1
+- Oxygen XML Author versão 26.1
 
-- Adobe Experience Manager Guides versão 4.3 ou superior
+- Adobe Experience Manager Guides versão 4.6 ou superior
 
-- Adobe Experience Manager versão 6.5 com Service Pack 14, 15, 16 e 17
+- Adobe Experience Manager versão 6.5 com Service Pack 21, 20 e 19
 
-- Sistema operacional compatível com o Oxygen XML Author versão 25.1
+- Sistema operacional compatível com o Oxygen XML Author versão 26.1
 
 - Java Development Kit
    - Oracle SE 8 JRE 1.8
@@ -159,7 +159,7 @@ Atualize os arquivos fornecidos para definir as configurações de autenticaçã
 >
 >Faça backup do arquivo antes de atualizá-lo.
 
-**Para Mac e Oxygen 25.1**
+**Para Mac e Oxygen 26.1**
 
 Adicione as seguintes linhas em env.sh
 
@@ -185,7 +185,7 @@ Adicione as seguintes linhas no OxyAuthor.sh
 -Djdk.module.illegalAccess=permit\-Djava.ipc.external=true\
 ```
 
-**Para Windows e Oxygen 25.1**
+**Para Windows e Oxygen 26.1**
 
 Adicione as seguintes linhas no env.bat
 
@@ -746,7 +746,7 @@ Solução: execute as seguintes etapas para configurar os registradores para o X
    </configuration>   
    ```
 
-1. Salve o arquivo no diretório `Oxygen Author 25`. (Por exemplo, o caminho seria: `C:\Program Files\Oxygen XML Author 25\logback.xml`)
+1. Salve o arquivo no diretório `Oxygen Author 26`. (Por exemplo, o caminho seria: `C:\Program Files\Oxygen XML Author 26\logback.xml`)
 
 1. Feche o arquivo. Isso habilitará logs Xygen, que estarão disponíveis no caminho: `${user.home}/Desktop/oxygenLog/oxygen.log`
 1. Abra o arquivo `oxygenAuthor.bat` em um editor de texto.

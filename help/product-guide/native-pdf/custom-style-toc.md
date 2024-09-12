@@ -5,9 +5,9 @@ exl-id: f65c9683-a1fc-432a-854b-83e8f39d7dae
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: db4c823e592e249e1d828a7071fc0848a5e68c0f
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '399'
 ht-degree: 0%
 
 ---
@@ -75,3 +75,17 @@ Por fim, também é possível aplicar estilos a todo o conteúdo do tópico. Par
 Usando os atributos de estilo acima, uma barra de alteração é adicionada à esquerda do tópico *Histórico do voo*, conforme mostrado abaixo:
 
 <img src="./assets/pdf-output-topic-content.jpg" width="500">
+
+## Remover linhas vazias do sumário
+
+Se você não tiver definido o título para nenhum tópico, linhas vazias serão exibidas no índice para esses tópicos.
+
+Para remover as linhas vazias do sumário e do mini sumário, adicione o seguinte estilo no `layout.css`:
+
+```css
+.toc-body a:empty,
+.chaptoc-body a:empty {
+    display: none;
+} 
+```
+

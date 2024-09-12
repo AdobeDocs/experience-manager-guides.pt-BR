@@ -5,16 +5,24 @@ exl-id: 438e2964-b9c7-462a-a68c-8031bd97911c
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: f8c71e18f5e2e5dbc5a2abdbb92c72fdad3bb233
+source-git-commit: 97d7776c81e7776d0248d6711ae5d05c46c44239
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '271'
 ht-degree: 0%
 
 ---
 
 # Criar um mapeamento entre um tópico e um fragmento de conteúdo
 
-O AEM Guides fornece o recurso para criar um mapeamento baseado em JSON entre um tópico e um modelo de fragmento de conteúdo. Use esse mapeamento para publicar em um fragmento de conteúdo o conteúdo presente em alguns ou todos os elementos de um tópico.
+
+
+O Adobe Experience Manager Guides permite criar um mapeamento baseado em JSON entre um tópico e um modelo de fragmento de conteúdo. Você pode usar o mapeamento baseado em JSON para publicar conteúdo presente em alguns ou todos os elementos de um tópico em um fragmento de conteúdo.
+
+>[!NOTE]
+> 
+> Se estiver usando versões 4.6 ou posteriores, não será necessário criar esse mapeamento. Você pode arrastar os elementos de tópico para os campos presentes no modelo de fragmento de conteúdo.
+> Saiba como [publicar fragmentos de conteúdo](../user-guide/publish-content-fragment.md).
+
 
 1. Para baixar o *contentFragmentMapping.json*, faça logon no Adobe Experience Manager como administrador.
 1. Selecione o link do Adobe Experience Manager na parte superior e escolha **Ferramentas**.
