@@ -1,9 +1,10 @@
 ---
 title: Opções de implantação e migração para a nuvem
 description: AEM Guides, diferentes opções de implantação e migração de conteúdo da configuração local para o AEMaaCS
-source-git-commit: 3c861e42bb01255f19cb2c901a3bca94d7949b76
+exl-id: 6224f35a-bbed-4a3b-b411-ee653c108d90
+source-git-commit: 4644b7237dcb85a2bc62495abcd48d2c312a7842
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '245'
 ht-degree: 1%
 
 ---
@@ -50,9 +51,9 @@ E Etapas para mover guias (uuid) para a nuvem:
 ### Documentação
 
 - [Migrando para a Nuvem do AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/getting-started)
-- [AEM Guides: mover conteúdo UUID de local/AMS para nuvem](https://experienceleague.corp.adobe.com/docs/experience-manager-guides/using/install-guide/cs-ig/migrate-con-cs/migrate-on-premise-content-cloud.html)
+- [AEM Guides: mover o conteúdo UUID do local/AMS para a nuvem](../../cs-install-guide/migrate-on-premise-content-cloud.md)
 - [Ferramenta de transferência de conteúdo: perguntas frequentes](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/migration/moving-to-aem-as-a-cloud-service/content-migration/faq)
-- [AEM Guides: migrar conteúdo não uuid para a Nuvem](https://experienceleague.corp.adobe.com/docs/experience-manager-guides/using/install-guide/on-prem-ig/content-migration/migrate-uuid-non-uuid.html)
+- [AEM Guides: migração de conteúdo não uuid para a nuvem](../../install-guide/migrate-uuid-non-uuid.md)
 
 ### Fórum da comunidade
 
