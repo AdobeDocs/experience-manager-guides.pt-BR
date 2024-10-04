@@ -2,9 +2,9 @@
 title: Notas de versão | Correção de problemas na versão 4.6.0 do Adobe Experience Manager Guides
 description: Saiba mais sobre as correções de erros na versão 4.6.0 do Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 17c3d945cb2a2faab1e361385a95e1de5a790a96
+source-git-commit: 6bff0a9c8770418c4486b65feb1c11792b893ca8
 workflow-type: tm+mt
-source-wordcount: '1970'
+source-wordcount: '1985'
 ht-degree: 0%
 
 ---
@@ -75,8 +75,7 @@ Saiba mais sobre [as instruções de atualização para a versão 4.6.0](../rele
 - O comportamento do botão Fechar é inconsistente ao usar a funcionalidade de Salvamento automático. (10996)
 - Problemas de validação ocorrem em elementos MathML ao inserir qualquer novo elemento ou modificar equações. (10624)
 - A funcionalidade Controlar alterações não funciona com texto que começa com caracteres coreanos. (14538)
-
-
+- As imagens vinculadas dos tópicos não aparecem na linha de base após a criação da versão. (16931)
 
 ## Publicação
 
