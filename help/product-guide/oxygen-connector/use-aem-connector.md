@@ -6,9 +6,9 @@ hidefromtoc: true
 exl-id: 9a140564-27eb-404e-93a5-f5c81364e7f7
 feature: Oxygen Plugin, Authoring, Web Editor
 role: User, Admin
-source-git-commit: 6c89275df6bdcd031c45956aeb06b6c3e5753208
+source-git-commit: b2b26a85236245f989866ab8ee801a930ed8a8c4
 workflow-type: tm+mt
-source-wordcount: '6293'
+source-wordcount: '6347'
 ht-degree: 0%
 
 ---
@@ -346,7 +346,7 @@ Depois de se conectar ao repositório AEM, você pode abrir arquivos para ediç�
 
 1. Clique com o botão direito do mouse em um arquivo no painel AEM Guides que deseja abrir para edição.
 
-1. Selecione **Abrir** no menu de contexto.
+1. Selecione **Abrir** no menu de contexto. Ou você pode clicar duas vezes no arquivo para abri-lo.
 
    O arquivo é aberto no editor do Oxygen XML Author.
 
@@ -354,12 +354,14 @@ Depois de se conectar ao repositório AEM, você pode abrir arquivos para ediç�
 
    Ao passar o ponteiro do mouse sobre a guia de um arquivo, é exibido o caminho do servidor junto com a UUID. Na captura de tela acima, a UUID do documento é realçada.
 
+>[!NOTE]
+>
+>Passar o mouse sobre as imagens ou vídeos em um tópico no editor do Oxygen XML Author mostra apenas a UUID do item selecionado. Para localizá-lo no repositório, clique com o botão direito do mouse na imagem exibida ou na tag de objeto (somente no caso de vídeos, áudios e outros arquivos de mídia) e selecione **Mostrar no Repositório**.
+
+
 
 Se você selecionou a opção **Arquivo de Check-out Automático quando Aberto** \(na caixa de diálogo Preferências\), ao abrir um arquivo, ele será automaticamente submetido a check-out e estará disponível para edição. Para abrir um arquivo, clique duas vezes em um nome de arquivo ou clique com o botão direito do mouse no nome do arquivo e escolha **Abrir** no menu de contexto. Se essa opção não estiver selecionada, o arquivo será aberto no modo somente leitura.
 
->[!NOTE]
->
->Você também pode clicar duas vezes em um arquivo para abri-lo.
 
 ### Abrir arquivo no editor do AEM Guides {#id195GH0V30KX}
 

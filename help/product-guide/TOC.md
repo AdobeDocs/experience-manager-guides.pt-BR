@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leia a documentação do produto do Adobe Experience Manager Guides.
 breadcrumb-title: Documentação do AEM Guides
-source-git-commit: 23470fdb176fa487139f8a8822be7f95dd205a3e
+source-git-commit: f6e34c0bc57603b4251abd4859b43c95042e8819
 workflow-type: tm+mt
-source-wordcount: '1896'
+source-wordcount: '1964'
 ht-degree: 6%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 6%
       - Cloud Services {#cloud-release-notes}
          - [Instruções de implantação](./release-info/deploy-xml-on-aemaacs.md)
          - Versões de 2024 {#2024-releases}
+            - Versão 2024.10.0 {#2406-release}
+               - [Novidades](./release-info/whats-new-2024-10-0.md)
+               - [Problemas corrigidos](./release-info/fixed-issues-2024-10-0.md)
+               - [Instruções de atualização](./release-info/upgrade-instructions-2024-10-0.md)
             - Versão 2024.6.0 {#2406-release}
                - [Novidades](./release-info/whats-new-2024-06-0.md)
                - [Problemas corrigidos](./release-info/fixed-issues-2024-06-0.md)
@@ -135,7 +139,8 @@ ht-degree: 6%
                - [Visualizações do Editor da Web](./user-guide/web-editor-views.md)
                - [Suporte para arquivos do Schematron](./user-guide/support-schematron-file.md)
                - [Sugestões inteligentes alimentadas por IA para criar conteúdo](./user-guide/authoring-ai-based-smart-suggestions.md)
-
+               - [Ajuda inteligente habilitada por IA para pesquisar conteúdo](./user-guide/ai-based-smart-help.md)
+               - [Assistente de IA para criar documentos com eficiência inteligente](./user-guide/AI-assistant-right-panel.md)
                - [Criação de documentos do Markdown no editor da Web](./user-guide/web-editor-markdown-topic.md)
                - [Adicionar citações ao seu conteúdo](./user-guide/web-editor-apply-citations.md)
                - [Usar dados de suas fontes de dados](./user-guide/web-editor-content-snippet.md)
@@ -189,7 +194,10 @@ ht-degree: 6%
       - [Noções básicas de geração de saída](./user-guide/generate-output.md)
       - [Introdução às predefinições de saída](./user-guide/generate-output-understand-presets.md)
       - Predefinições de saída no AEM Guides {#output-presets-aemg}
-         - [Site AEM](./user-guide/generate-output-aem-site.md)
+
+         - [AEM Sites](./user-guide/generate-output-aem-site.md)
+         - [Predefinições do AEM Sites no painel de mapa](./user-guide/generate-output-aem-site-map-dashboard.md)
+         - [Predefinições do AEM Sites no Editor da Web](./user-guide/generate-output-aem-site-web-editor.md)
          - [PDF](./user-guide/generate-output-pdf.md)
          - [Knowledge Base](./user-guide/generate-output-knowledge-base.md)
          - [HTML 5](./user-guide/generate-output-html5.md)
@@ -302,6 +310,8 @@ ht-degree: 6%
          - [Integrar editores de XML baseados em desktop](./install-guide/integrate-desktop-editors.md)
       - Trabalhar com configurações de geração de saída {#output-gen-config}
          - [Definir configurações de geração de saída](./install-guide/conf-output-generation.md)
+         - [Baixe e instale modelos do aem sites](./install-guide/download-install-aem-sites-templates.md)
+         - [Sobrepor tags HTML na saída do AEM Sites](./install-guide/overlay-html-tags-aem-sites.md)
          - Publicação PDF Nativa {#config-native-pdf-publish}
             - [Modelo PDF](./native-pdf/pdf-template.md)
             - [Componentes de um modelo de PDF](./native-pdf/components-pdf-template.md)
@@ -359,6 +369,8 @@ ht-degree: 6%
          - [Personalizar editor da Web](./cs-install-guide/conf-web-editor.md)
          - [Personalizar barra de ferramentas](./cs-install-guide/conf-web-editor-customize-toolbar.md)
          - [Configurar as sugestões inteligentes habilitadas por IA para criação](./cs-install-guide/conf-smart-suggestions.md)
+
+         - [Configure a Ajuda inteligente habilitada para IA para pesquisar conteúdo](./cs-install-guide/conf-smart-help.md)
          - [Configurar valor padrão para a exibição de tags](./cs-install-guide/configure-default-value-tags-view.md)
          - [Configurar a exibição de links baseados em UUID](./cs-install-guide/conf-uuid-based-links.md)
          - [Abrir tópico DITA ou mapear arquivos na mesma guia](./cs-install-guide/open-dita-files-same-tab.md)
@@ -383,8 +395,10 @@ ht-degree: 6%
       - Configurar versões {#version-mgt-cs}
          - [Gerenciamento de versão](./cs-install-guide/version-management.md)
       - Trabalhar com editores de XML baseados em área de trabalho {#desktop-xml-editor}
-         - Trabalhar com configurações de geração de saída {#output-gen-config-cs}
+         - [Integrar editores de XML baseados em desktop](./cs-install-guide/integrate-desktop-editors-cs.md)
+      - Trabalhar com configurações de geração de saída {#output-gen-config-cs}
          - [Definir configurações de geração de saída](./cs-install-guide/conf-output-generation.md)
+         - [Baixe e instale modelos do aem sites](./cs-install-guide/download-install-aem-sites-templates-cs.md)
          - [Publicação de PDF nativo](./cs-install-guide/native-pdf-publishing.md)
          - [Configurar processo de nó para publicação de PDF nativo](./native-pdf/configure-node-options.md)
          - [Criar um mapeamento entre um tópico e um fragmento de conteúdo](./cs-install-guide/conf-content-fragment-mapping-cs.md)
