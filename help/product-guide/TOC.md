@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leia a documentação do produto do Adobe Experience Manager Guides.
 breadcrumb-title: Documentação do AEM Guides
-source-git-commit: fb586c7e857db5c4aa68645cb1be2a48fdbe165c
+source-git-commit: 9db546b3a9e0ece66024e1c06c6cec52b786ff76
 workflow-type: tm+mt
-source-wordcount: '1972'
+source-wordcount: '1974'
 ht-degree: 6%
 
 ---
@@ -494,18 +494,22 @@ ht-degree: 6%
          - [Configurar um conector de fonte de dados](../product-guide/knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md)
 
       - Publicação {#publishing}
+
+         - PDF nativo {#native-pdf}
+            - [Adicionar fontes personalizadas ao seu PDF nativo DITA](./knowledge-base/kb-articles/publishing/add-custom-font-native-pdf.md)
+            - [Configuração do ambiente AEM para publicação de PDF nativo](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
+            - [Adicionar a marca corporativa à primeira página de um PDF](./knowledge-base/kb-articles/publishing/add-branding-to-bookmap-content-header.md)
+            - [Gerar índice do mapa de livros na publicação do PDF nativo](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
          - DITA-OT {#dita-ot}
             - [Usar metadados de AEM no plug-in](./knowledge-base/kb-articles/publishing/dita-ot/dita-ot-pass-and-use-aem-metadata-in-dita-ot.md)
-         - [Adicionar fontes personalizadas ao seu PDF nativo DITA](./knowledge-base/kb-articles/publishing/add-custom-font-native-pdf.md)
-         - [Configuração do ambiente AEM para publicação de PDF nativo](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
-         - [Adicionar a marca corporativa à primeira página de um PDF](./knowledge-base/kb-articles/publishing/add-branding-to-bookmap-content-header.md)
-         - [Gerar índice do mapa de livros na publicação do PDF nativo](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
+            - [Configurar um DITA-OT personalizado](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
          - [FMPS e guias](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
+
          - [Arquitetura e desempenho de microsserviços](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
          - [Configurar a publicação baseada em microsserviços com autenticação JWT](./knowledge-base/publishing/configure-microservices.md)
          - [Configurar a publicação baseada em microsserviço com autenticação OAuth](./knowledge-base/publishing/configure-microservices-imt-config.md)
          - [Publicação de referências de desempenho na nuvem do AEM](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
-         - [Configurar um DITA-OT personalizado](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
+
 
       - Fluxos de trabalho {#workflows}
          - [Fluxo de trabalho de pós-geração](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
