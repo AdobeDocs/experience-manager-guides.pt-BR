@@ -2,9 +2,9 @@
 title: Notas de versão | Correção de problemas na versão 4.6.0 do Adobe Experience Manager Guides
 description: Saiba mais sobre as correções de erros na versão 4.6.0 do Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 6bff0a9c8770418c4486b65feb1c11792b893ca8
+source-git-commit: 9ffe068bbcdc0fe32e3dbf56a48171d241825e5a
 workflow-type: tm+mt
-source-wordcount: '1985'
+source-wordcount: '1996'
 ht-degree: 0%
 
 ---
@@ -107,6 +107,7 @@ Saiba mais sobre [as instruções de atualização para a versão 4.6.0](../rele
 - A regeneração de tópico falha devido à falha da API de publicação incremental ou de Regeneração de Tópico OOTB. (18452)
 - A predefinição de condição não busca atributos atualizados após a atualização do Experience Manager Guides. (18174)
 - As referências de conteúdo não serão resolvidas corretamente para a saída de PDF nativo se o arquivo que contém as definições de chave não estiver na mesma pasta que o mapa DITA. (15062)
+- A Ativação em massa de conteúdo publicado não está funcionando para mapas localizados. (17638)
 
 
 ## Gerenciamento
