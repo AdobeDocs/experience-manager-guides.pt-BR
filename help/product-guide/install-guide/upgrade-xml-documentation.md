@@ -5,9 +5,9 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 5e02c3bdecda68dfcaac225626a2a47e4af5f30f
+source-git-commit: f74362c78532ddd7721faf66789281a8c0704194
 workflow-type: tm+mt
-source-wordcount: '6943'
+source-wordcount: '6995'
 ht-degree: 0%
 
 ---
@@ -18,10 +18,11 @@ ht-degree: 0%
 >
 > Siga as instruções de atualização específicas para a versão licenciada do seu produto.
 
-Você pode atualizar sua versão atual do Experience Manager Guides para a versão 4.6.0:
+Você pode atualizar sua versão atual do Experience Manager Guides para a versão 4.6.1:
 
 
-- Se você estiver usando a versão 4.4, 4.3.1 ou 4.3.0 do, é possível atualizar diretamente para a versão 4.6.0.
+- Se você estiver usando a versão 4.6.0, é possível atualizar diretamente para a versão 4.6.1.
+- Se você estiver usando a versão 4.4, 4.3.1 ou 4.3.0 do, será necessário atualizar para a versão 4.6.0 antes de atualizar para a 4.6.1.
 - Se você estiver usando a versão 4.2, 4.2.1 (Hotfix 4.2.1.3), 4.1 ou 4.1.x, será necessário atualizar para a versão 4.4 antes de atualizar para a versão 4.6.0.
 - Se você estiver usando a versão 4.0, será necessário atualizar para a versão 4.2 antes de atualizar para a versão 4.3.x.
 - Se você estiver usando a versão 3.8.5, será necessário atualizar para a versão 4.0 antes de atualizar para a versão 4.2.
@@ -984,11 +985,15 @@ Durante esta atualização, como o valor de `'order'` é alterado de 1000 para 5
 
 ## Atualizar para a versão 4.6.0 {#upgrade-version-4-6-0}
 
-A atualização para a versão 4.6.0 depende da versão atual do Experience Manager Guides. Se você estiver usando a versão 4.4.0, 4.3.1, 4.3.0, 4.2 ou 4.2.1 (Hotfix 4.2.1.3), é possível atualizar diretamente para a versão 4.6.0
+>[!TIP]
+>
+> É recomendável instalar o Hotfix 4.6.1 sobre a versão 4.6.0. O processo de atualização da versão 4.6.1 segue as mesmas etapas da versão 4.6.0.
+
+A atualização para a versão 4.6.0 depende da versão atual do Experience Manager Guides. Se você estiver usando a versão 4.4.0, 4.3.1, 4.3.0, 4.2 ou 4.2.1 (Hotfix 4.2.1.3), é possível atualizar diretamente para a versão 4.6.0.
 
 >[!NOTE]
 >
->O pós-processamento e a indexação podem levar algumas horas. Recomendamos que você inicie o processo de atualização fora do horário de pico.
+> O pós-processamento e a indexação podem levar algumas horas. Recomendamos que você inicie o processo de atualização fora do horário de pico.
 
 ****Pré-requisitos****
 
