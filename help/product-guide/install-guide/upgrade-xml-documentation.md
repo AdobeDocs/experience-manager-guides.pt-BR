@@ -5,9 +5,9 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: f74362c78532ddd7721faf66789281a8c0704194
+source-git-commit: 2362870e0e3e6c08df03e8c547bb77de7faa0a02
 workflow-type: tm+mt
-source-wordcount: '6995'
+source-wordcount: '7008'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 0%
 >
 > Siga as instruções de atualização específicas para a versão licenciada do seu produto.
 
-Você pode atualizar sua versão atual do Experience Manager Guides para a versão 4.6.1:
+Você pode atualizar sua versão atual do Experience Manager Guides para a versão 4.6.0 Service Pack 1:
 
 
-- Se você estiver usando a versão 4.6.0, é possível atualizar diretamente para a versão 4.6.1.
-- Se você estiver usando a versão 4.4, 4.3.1 ou 4.3.0 do, será necessário atualizar para a versão 4.6.0 antes de atualizar para a 4.6.1.
+- Se você estiver usando a versão 4.6.0, é possível atualizar diretamente para o 4.6.0 Service Pack 1.
+- Se você estiver usando a versão 4.4, 4.3.1 ou 4.3.0, será necessário atualizar para a versão 4.6.0 antes de atualizar para o 4.6.0 Service Pack 1.
 - Se você estiver usando a versão 4.2, 4.2.1 (Hotfix 4.2.1.3), 4.1 ou 4.1.x, será necessário atualizar para a versão 4.4 antes de atualizar para a versão 4.6.0.
 - Se você estiver usando a versão 4.0, será necessário atualizar para a versão 4.2 antes de atualizar para a versão 4.3.x.
 - Se você estiver usando a versão 3.8.5, será necessário atualizar para a versão 4.0 antes de atualizar para a versão 4.2.
@@ -987,7 +987,7 @@ Durante esta atualização, como o valor de `'order'` é alterado de 1000 para 5
 
 >[!TIP]
 >
-> É recomendável instalar o Hotfix 4.6.1 sobre a versão 4.6.0. O processo de atualização da versão 4.6.1 segue as mesmas etapas da versão 4.6.0.
+> É recomendável instalar o 4.6.0 Service Pack 1 sobre a versão 4.6.0. O processo de atualização da versão 4.6.0 do Service Pack 1 segue as mesmas etapas da versão 4.6.0.
 
 A atualização para a versão 4.6.0 depende da versão atual do Experience Manager Guides. Se você estiver usando a versão 4.4.0, 4.3.1, 4.3.0, 4.2 ou 4.2.1 (Hotfix 4.2.1.3), é possível atualizar diretamente para a versão 4.6.0.
 

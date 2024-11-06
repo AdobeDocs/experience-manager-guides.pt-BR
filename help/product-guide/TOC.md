@@ -2,7 +2,7 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leia a documentação do produto do Adobe Experience Manager Guides.
 breadcrumb-title: Documentação do AEM Guides
-source-git-commit: f74362c78532ddd7721faf66789281a8c0704194
+source-git-commit: 9553c05b1ab9657d6138aa0ff026cc4494514bd8
 workflow-type: tm+mt
 source-wordcount: '1988'
 ht-degree: 6%
@@ -20,13 +20,12 @@ ht-degree: 6%
       - Cloud Services {#cloud-release-notes}
          - [Instruções de implantação](./release-info/deploy-xml-on-aemaacs.md)
          - Versões de 2024 {#2024-releases}
-            - Versão 2024.10.x {#2410-release}
-               - Versão 2024.10.1 {#2410-1-release}
-                  - [Problemas corrigidos](./release-info/fixed-issues-2024-10-1.md)
-               - Versão 2024.10.0 {#2410-0-release}
-                  - [Novidades](./release-info/whats-new-2024-10-0.md)
-                  - [Problemas corrigidos](./release-info/fixed-issues-2024-10-0.md)
-                  - [Instruções de atualização](./release-info/upgrade-instructions-2024-10-0.md)
+            - Versão 2024.10.0 SP1 {#2410-0-sp1-release}
+               - [Problemas corrigidos](./release-info/fixed-issues-2024-10-0-sp1.md)
+            - Versão 2024.10.0 {#2410-0-release}
+               - [Novidades](./release-info/whats-new-2024-10-0.md)
+               - [Problemas corrigidos](./release-info/fixed-issues-2024-10-0.md)
+               - [Instruções de atualização](./release-info/upgrade-instructions-2024-10-0.md)
             - Versão 2024.6.0 {#2406-release}
                - [Novidades](./release-info/whats-new-2024-06-0.md)
                - [Problemas corrigidos](./release-info/fixed-issues-2024-06-0.md)
@@ -79,9 +78,9 @@ ht-degree: 6%
             - [Notas de versão de janeiro](./release-info/release-notes-2022-1-0.md)
       - No local/Managed Services {#on-prem-release-notes}
          - [Versões de [!DNL AEM Guides]](./release-info/latest-release-info.md)
-         - Versão {#461-release} do 4.6.1
-            - [Problemas corrigidos](./release-info/fixed-issues-4-6-1.md)
-            - [Instruções de atualização](./release-info/upgrade-instructions-4-6-1.md)
+         - Versão 4.6.0 SP1 {#460-sp1-release}
+            - [Problemas corrigidos](./release-info/fixed-issues-4-6-0-sp1.md)
+            - [Instruções de atualização](./release-info/upgrade-instructions-4-6-0-sp1.md)
          - Versão 4.6.0 {#460-release}
             - [Novidades](./release-info/whats-new-4-6.md)
             - [Problemas corrigidos](./release-info/fixed-issues-4-6-0.md)

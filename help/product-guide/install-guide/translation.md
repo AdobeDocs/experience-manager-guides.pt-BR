@@ -5,10 +5,10 @@ exl-id: 0d3a909c-3499-4ef4-b033-02e412dae959
 feature: Translation
 role: Admin
 level: Experienced
-source-git-commit: bc2348ae3342addf9ab05a3e3898fa485dba9bcf
+source-git-commit: f7ce1dc72edfcec939e5bd25bbf82c2e3907a326
 workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 9%
+source-wordcount: '836'
+ht-degree: 8%
 
 ---
 
@@ -92,6 +92,40 @@ Com base no fluxo de trabalho de tradução usado na configuração, a opção d
 
 1. Clique em **Salvar**.
 
+>[!IMPORTANT]
+>
+> Depois de definir as configurações de tradução, defina a Configuração na nuvem apropriada nas pastas de idioma.
+
+## Configurar o fluxo de trabalho de tradução herdado
+
+>[!IMPORTANT]
+> 
+> É recomendável usar o fluxo de trabalho de tradução mais recente, que fornece desempenho aprimorado. No entanto, se houver personalizações ativadas no processo de tradução atual, considere usar o fluxo de trabalho de tradução herdado.
+
+Por padrão, a opção de fluxo de trabalho de tradução herdada está desativada. Você pode configurar essa opção executando as seguintes etapas:
+
+1. Abra a página Configuração do console da Web do Adobe Experience Manager.
+
+   O URL padrão para acessar a página de configuração é:
+
+   ```http
+   http://<server name>:<port>/system/console/configMgr
+   ```
+
+1. Procure e clique no pacote **com.adobe.fmdita.config.ConfigManager**.
+
+1. Configurar a opção de fluxo de trabalho de tradução herdada de acordo com sua configuração:
+
+   - (*Padrão*) Se quiser usar o fluxo de trabalho de tradução mais recente, desabilite a opção **Executar fluxo de trabalho de tradução herdado**.
+   - Se você quiser usar o fluxo de trabalho de tradução herdado, habilite a opção **Executar fluxo de trabalho de tradução herdado**.
+
+1. Clique em **Salvar**.
+
+
+
+
+
+
 <!---
 
 This was added for 2406 CS IG
@@ -125,9 +159,7 @@ Based on the translation workflow used in your setup, provide the following (pro
 
 
 --->
->[!IMPORTANT]
->
-> Depois de definir as configurações de tradução, defina a Configuração na nuvem apropriada nas pastas de idioma.
+
 
 ## Configurar pós-processamento de cópias de idioma temporárias
 
@@ -145,10 +177,10 @@ Por padrão, a opção pós-processamento de arquivos temporários está desativ
 
 1. Procure e clique no pacote **com.adobe.fmdita.config.ConfigManager**.
 
-1. Configurar a opção **cópias de idioma do processo Post** de acordo com sua configuração:
+1. Configure a opção **Cópias de idioma pós-processamento** de acordo com sua configuração:
 
-   - \(*Padrão*\) Se você não deseja executar a operação de pós-processamento nos arquivos temporários, *Desabilite* a opção **Cópias de idioma do processo Post**.
+   - \(*Padrão*\) Se você não deseja executar a operação de pós-processamento nos arquivos temporários, *Desabilite* a opção **Cópias de idioma pós-processamento**.
 
-   - Se você deseja executar a operação de pós-processamento nos arquivos temporários, *Habilite* a opção **cópias de idioma do processo Post**.
+   - Se você deseja executar a operação de pós-processamento nos arquivos temporários, *Habilite* a opção **Cópias de idioma pós-processamento**.
 
 1. Clique em **Salvar**.
