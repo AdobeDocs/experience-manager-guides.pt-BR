@@ -1,9 +1,10 @@
 ---
 title: Relatórios
 description: Saiba como criar relatórios de mapa DITA no AEM Guides.
+exl-id: 1f8a33ba-d6e5-448f-b40b-646b9fdc0b19
 feature: Report Generation
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 1%

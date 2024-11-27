@@ -3,7 +3,8 @@ title: Publish de um tópico para um fragmento de experiência
 description: Publish um tópico ou os elementos dentro de um tópico para um Fragmento de experiência no AEM Guides.  Saiba como visualizar os Fragmentos de experiência presentes em um tópico e republicá-los.
 feature: Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+exl-id: 4cdce8c2-2ccf-4bf1-8b92-4dfeb10de186
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 0%
@@ -60,7 +61,7 @@ Por exemplo:
 
 
 
-     O administrador pode adicionar os mapeamentos no arquivo *experienceFragmentMapping.json*.  Saiba mais sobre como [criar um mapeamento entre um tópico e um Fragmento de experiência](/help/product-guide/cs-install-guide/conf-experience-fragment-mapping-cs.md) no Guia de Instalação e Configuração.
+     O administrador pode adicionar os mapeamentos no arquivo *experienceFragmentMapping.json*.  Saiba mais sobre como [criar um mapeamento entre um tópico e um Fragmento de experiência](../cs-install-guide/conf-experience-fragment-mapping-cs.md) no Guia de Instalação e Configuração.
 
    * Você também pode selecionar condições diferentes para publicar o conteúdo.  Selecione uma das seguintes opções:
 

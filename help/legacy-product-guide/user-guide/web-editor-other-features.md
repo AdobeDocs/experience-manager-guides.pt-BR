@@ -1,9 +1,10 @@
 ---
 title: Outros recursos no Editor da Web
 description: Explore outros recursos do editor da Web no AEM Guides. Saiba como usar esses recursos para melhorar a criação no AEM Guides.
+exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
 source-wordcount: '2532'
 ht-degree: 0%
@@ -156,26 +157,26 @@ Você pode ver as seguintes opções, dependendo se o arquivo está bloqueado/de
 
 - O Editor da Web suporta termos de glossário DITA que você pode inserir adicionando `term` ou `abbreviated-form` elementos.
 
-**Inserir equações MathML**
+**Inserir equações do MathML**
 
-- O Experience Manager Guides oferece suporte pronto para uso para inserção de equações MathML por integração com o aplicativo [MathType Web](https://docs.wiris.com/en/mathtype/mathtype_web/intro). Para inserir uma equação de MathML, selecione o ícone **Inserir Elemento** e digite mathml. Quando você seleciona um elemento matemático na lista, a caixa de diálogo **Inserir MathML** é exibida:
+- O Experience Manager Guides oferece suporte pronto para inserção de equações do MathML por integração com o aplicativo [MathType Web](https://docs.wiris.com/en/mathtype/mathtype_web/intro). Para inserir uma equação de MathML, selecione o ícone **Inserir Elemento** e digite mathml. Quando você seleciona um elemento matemático na lista, a caixa de diálogo **Inserir MathML** é exibida:
 
 ![inserir equação matemática no editor matemático](images/insert-mathml-equation.png){width="550" align="left"}
 
-Usando as ferramentas de equação do MathML, crie sua equação e clique em **Inserir** para adicioná-la ao documento. A equação é inserida com o plano de fundo cinza-claro, conforme mostrado abaixo:
+Usando as ferramentas de equação do MathML, crie sua equação e clique em **Inserir** para adicioná-la ao seu documento. A equação é inserida com o plano de fundo cinza-claro, conforme mostrado abaixo:
 
 ![exemplo de equação matemática](images/sample-mathml-equation.PNG){width="400" align="left"}
 
 A qualquer momento, você pode atualizar uma equação clicando com o botão direito do mouse em uma equação existente e selecionando **Editar MathML** no menu de contexto.
 
-- **Validação de equações no editor MathML**
+- **Validação de equações no editor do MathML**
 
-  O Experience Manager Guides valida equações MathML quando você salva um tópico contendo elas.
-Ao inserir uma equação usando o editor MathML, o Experience Manager Guides realça a equação em vermelho se houver problemas de sintaxe. Você pode corrigi-la antes de inseri-la. Se você não fizer alterações, mas selecionar **Inserir**, exibirá um aviso.
+  O Experience Manager Guides valida as equações do MathML quando você salva um tópico contendo elas.
+Ao inserir uma equação usando o editor do MathML, o Experience Manager Guides realça a equação em vermelho se houver problemas de sintaxe. Você pode corrigi-la antes de inseri-la. Se você não fizer alterações, mas selecionar **Inserir**, exibirá um aviso.
 
   ![validar equação matemática](images/validate-mathml-equation.png){width="400" align="left"}
 
-  Se você inserir a equação MathML que contém um erro de sintaxe, ocorrerá um erro de validação quando você tentar salvar o tópico.
+  Se você inserir a equação do MathML que contém um erro de sintaxe, ocorrerá um erro de validação quando você tentar salvar o tópico.
 
 
 **Inserir notas de rodapé**

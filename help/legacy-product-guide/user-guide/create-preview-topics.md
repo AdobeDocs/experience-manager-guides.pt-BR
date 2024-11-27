@@ -1,9 +1,10 @@
 ---
 title: Criar e visualizar tópicos
 description: Saiba como criar e visualizar tópicos DITA na interface do usuário do Assets no AEM Guides.
+exl-id: 17db1827-f5e6-48a9-8989-5e24c3671e55
 feature: Authoring
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 0%

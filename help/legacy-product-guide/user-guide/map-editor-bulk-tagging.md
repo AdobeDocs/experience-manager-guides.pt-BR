@@ -1,9 +1,10 @@
 ---
 title: Marcação em massa de conteúdo DITA
 description: Use a marcação em massa de conteúdo no AEM Guides para melhorar a descoberta de conteúdo DITA. Saiba como aplicar, remover, mostrar ou ocultar tags em massa em um único ou vários tópicos.
+exl-id: 4c6639a3-333b-44ad-9aec-735a327c3320
 feature: Metadata Management
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%

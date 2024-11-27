@@ -1,9 +1,10 @@
 ---
 title: Criar mapas com base em modelos personalizados
 description: Saiba como criar um modelo personalizado, usá-los para criar novos arquivos de mapa e transmitir o título definido para um mapa DITA no AEM Guides.
+exl-id: 9cb0035f-bf81-4ab5-a575-53851bbff494
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
 source-wordcount: '1103'
 ht-degree: 0%
@@ -93,18 +94,17 @@ A mensagem de criação do modelo de mapa é exibida. Você pode adicionar o mod
 O administrador também pode criar uma pasta e configurá-la para ser a pasta na qual você pode criar e salvar os modelos.
 
 Com base em sua configuração, saiba como configurar o caminho de pasta do modelo DITA personalizado:
+<details>
+    <summary> Cloud Services </summary>
 
-+++ Cloud Services
+Saiba como [configurar o caminho de pasta de modelo DITA personalizado](../install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) no Guia de Instalação e Configuração do Cloud Service.
+</details>
 
-Saiba como [configurar o caminho de pasta de modelo DITA personalizado](/help/product-guide/install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z){target="_blank"} no Guia de Instalação e Configuração do Cloud Service.
+<details>
+    <summary> Software local</summary>
 
-+++
-
-+++ Software local
-
-Saiba como [configurar o caminho de pasta de modelo DITA personalizado](/help/product-guide/cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) no Guia de Instalação e Configuração no Local.
-
-+++
+Saiba como [configurar o caminho de pasta de modelo DITA personalizado](../cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) no Guia de Instalação e Configuração no Local.
+</details>
 
 ## Transmita o título definido nos modelos
 

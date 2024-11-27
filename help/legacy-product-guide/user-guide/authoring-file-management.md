@@ -1,9 +1,10 @@
 ---
 title: Gerenciar arquivos e pastas
 description: Saiba como gerenciar arquivos e pastas no AEM Guides. Copie e cole, arraste e solte, exclua, mova arquivos e pastas em massa e pesquise conteúdo DITA.
+exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
 source-wordcount: '3109'
 ht-degree: 0%

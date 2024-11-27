@@ -1,9 +1,10 @@
 ---
 title: Enviar tópicos para revisão
 description: Saiba como criar uma tarefa de revisão e enviar tópicos para revisão no AEM Guides. Envie um ou mais tópicos em um mapa DITA para revisão.
+exl-id: c486eb6a-7e1f-4faa-973d-b47252d3e7c5
 feature: Reviewing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
 source-wordcount: '2752'
 ht-degree: 0%

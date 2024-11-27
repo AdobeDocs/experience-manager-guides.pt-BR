@@ -1,9 +1,10 @@
 ---
 title: Trabalhar com o Editor de mapa avançado
 description: Saiba como trabalhar com o editor de mapa avançado no AEM Guides. Conhecer os recursos do Editor de Mapa avançado. Edite tópicos por meio de um mapa DITA e use o modo de exibição de layout, de criação e de visualização.
+exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
 source-wordcount: '3788'
 ht-degree: 0%
@@ -247,7 +248,7 @@ Exibe a caixa de diálogo Propriedades do Mapa, na qual você pode definir os at
 
 ## Visualização do autor {#id205DEC0005Z_author_view}
 
-O modo de exibição **Autor** permite que você edite o mapa DITA no Editor da Web. Isso mostra a visualização WYSIWYG do Editor de mapas e alguns dos ícones exibidos na visualização Autor são iguais à exibição Layout. Para obter mais detalhes, consulte [Modo de exibição de layout](#id205DEC0005Z_layout_view). Além disso, você pode ver os seguintes ícones e executar as tarefas relacionadas na visualização Autor:
+O modo de exibição **Autor** permite que você edite o mapa DITA no Editor da Web. Isso mostra a visualização WYSIWYG do Editor de mapas e alguns dos ícones exibidos na visualização Autor são iguais à visualização Layout. Para obter mais detalhes, consulte [Modo de exibição de layout](#id205DEC0005Z_layout_view). Além disso, você pode ver os seguintes ícones e executar as tarefas relacionadas na visualização Autor:
 
 **Inserir Antes/Inserir Depois** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 

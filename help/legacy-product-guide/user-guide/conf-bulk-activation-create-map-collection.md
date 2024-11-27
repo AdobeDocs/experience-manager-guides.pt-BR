@@ -1,9 +1,10 @@
 ---
 title: Criar uma coleção de mapas de ativação em massa
 description: Saiba como criar uma coleção de mapas de ativação em massa em guias AEM.
+exl-id: ea0bd465-a2d9-488f-83e9-62b336233eb1
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
 source-wordcount: '735'
 ht-degree: 0%

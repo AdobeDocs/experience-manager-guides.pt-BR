@@ -1,9 +1,10 @@
 ---
 title: Gerenciar metadados
 description: Saiba como definir e gerenciar metadados no AEM Guides. Use a marcação inteligente e em massa para localizar facilmente tópicos relacionados em um mapa DITA.
+exl-id: 3d2d4eb7-79a7-430c-84e5-b90eb639a66b
 feature: Metadata Management
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 2%

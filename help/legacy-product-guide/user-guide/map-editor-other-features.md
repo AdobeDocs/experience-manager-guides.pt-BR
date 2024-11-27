@@ -1,9 +1,10 @@
 ---
 title: Outros recursos nos editores de mapa
 description: Descubra alguns recursos comuns nos Editores de mapa básico e avançado. Saiba como resolver referências principais no Editor de mapa.
+exl-id: f0e7a402-ac12-4c63-9d7f-92567ee29a39
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 0%

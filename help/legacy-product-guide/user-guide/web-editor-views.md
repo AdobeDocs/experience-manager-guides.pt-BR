@@ -1,9 +1,10 @@
 ---
 title: Visualizações do Editor da Web
 description: Visualize documentos no modo de autor, fonte e visualização. Saiba como visualizar o conteúdo com base em filtros condicionais, visualizar as marcações de alterações de rastreamento e exportar um tópico como PDF no AEM Guides.
+exl-id: 74db2902-4507-4904-85d8-6b52e4af4c55
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 0%

@@ -1,9 +1,10 @@
 ---
 title: Adicionar e gerenciar citações no seu conteúdo
 description: Adicionar e gerenciar citações no AEM Guides. Saiba como aplicar, importar, filtrar, pesquisar, alterar o estilo da citação, editar, visualizar, inserir, excluir e gerar saída de conteúdo com citações.
+exl-id: 685d747d-e017-4350-a6bf-822fd55c76e8
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
 source-wordcount: '1887'
 ht-degree: 0%
@@ -48,7 +49,7 @@ A caixa de diálogo **Adicionar Citação** é aberta.
 
    >[!NOTE]
    >
-   >Você também pode adicionar o ISBN ou DOI ou PubMed ID. O AEM Guides preenche os outros campos automaticamente.
+   >Você também pode adicionar o ISBN, DOI ou PubMed ID. O AEM Guides preenche os outros campos automaticamente.
 
    | Livro | Site | Diário |
    | --- | ---|---|
@@ -257,10 +258,10 @@ Depois de inserir citações no tópico, você poderá publicar o conteúdo com 
 
 Na saída do PDF nativo, as citações aparecem no conteúdo em que você as inseriu. Você também pode criar uma página de Bibliografia. Ao clicar em qualquer citação, você é redirecionado para a página de bibliografia.
 
-Crie um layout de página **Citações** nos modelos de PDF e inclua-o no documento. Todas as citações usadas no livro são listadas em uma página que aparece na saída de PDF. Para saber mais sobre como criar um layout de página, exiba [Criar um layout de página](/help/product-guide/native-pdf/components-pdf-template.md#create-page-layout).
+Crie um layout de página **Citações** nos modelos de PDF e inclua-o no documento. Todas as citações usadas no livro são listadas em uma página que aparece na saída de PDF. Para saber mais sobre como criar um layout de página, exiba [Criar um layout de página](../native-pdf/components-pdf-template.md#create-page-layout).
 
 
-Para alterar a exibição e a aparência da página de citação, exiba [Personalizar modelos de PDF](/help/product-guide/native-pdf/pdf-template.md).
+Para alterar a exibição e a aparência da página de citação, exiba [Personalizar modelos de PDF](../native-pdf/pdf-template.md).
 
 
 
@@ -272,4 +273,4 @@ Aplicar formatação à citação quando adicionada ao tópico.
 
 1. No painel Pesquisar, procure por `<cite>`.
 
-Para saber mais sobre estilos, exiba [Trabalhar com os estilos de conteúdo comuns](/help/product-guide/native-pdf/stylesheet.md).
+Para saber mais sobre estilos, exiba [Trabalhar com os estilos de conteúdo comuns](../native-pdf/stylesheet.md).

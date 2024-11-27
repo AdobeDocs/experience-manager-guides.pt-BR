@@ -1,9 +1,10 @@
 ---
 title: Usar coleção de mapas para geração de saída
 description: Saiba como criar e excluir uma coleção de mapas e adicionar ou excluir um mapa DITA. Configure, gere e cancele uma tarefa de geração de saída de uma coleção de mapas no AEM Guides.
+exl-id: 41152fa4-f739-44d2-9ccd-74072f53e31b
 feature: Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 1%

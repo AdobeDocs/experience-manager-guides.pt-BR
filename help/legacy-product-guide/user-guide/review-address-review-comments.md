@@ -1,9 +1,10 @@
 ---
 title: Comentários de revisão de endereço
 description: Saiba como tratar comentários de revisão como autor no AEM Guides. Descubra como um autor pode editar, filtrar, aceitar ou rejeitar comentários em um documento.
+exl-id: 4c969788-f700-4fd6-8afa-8e5b411b59f3
 feature: Reviewing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
@@ -13,7 +14,7 @@ ht-degree: 0%
 # Comentários de revisão de endereço {#id2056B0X0KBI}
 
 
-Como autor, você pode endereçar comentários em um tópico usando o Editor da Web. Os comentários são carregados com base na tarefa de revisão selecionada no painel Revisão. Para obter mais detalhes, exiba a descrição do recurso **Painel de revisão** ![](images/active-review-tasklist-icon.svg) na seção [Painel esquerdo](/help/product-guide/user-guide/web-editor-features.md#id2051EA0M0HS).
+Como autor, você pode endereçar comentários em um tópico usando o Editor da Web. Os comentários são carregados com base na tarefa de revisão selecionada no painel Revisão. Para obter mais detalhes, exiba a descrição do recurso **Painel de revisão** ![](images/active-review-tasklist-icon.svg) na seção [Painel esquerdo](../user-guide/web-editor-features.md#id2051EA0M0HS).
 
 As seções a seguir descrevem maneiras de editar comentários no Editor da Web.
 

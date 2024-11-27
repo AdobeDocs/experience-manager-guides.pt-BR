@@ -1,9 +1,10 @@
 ---
 title: Trabalhar com oxigênio
 description: Saiba mais sobre o suporte do Editor de XML do Oxygen para criação e publicação de conteúdo no AEM Guides.
+exl-id: 7c1a610c-e203-4298-9b29-457aef5e8c94
 feature: Authoring, Desktop Tools
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 0%

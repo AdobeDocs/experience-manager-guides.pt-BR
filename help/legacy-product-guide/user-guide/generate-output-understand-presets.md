@@ -1,9 +1,10 @@
 ---
 title: Noções básicas sobre as predefinições de saída
 description: Entender as predefinições de saída no AEM Guides. Crie predefinições de saída no editor da Web e no painel de mapa para os formatos AEM, site, PDF, HTML5, EPUB, personalizado e JSON.
+exl-id: 8eaf0765-8b66-47d6-9c40-888495baa711
 feature: Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%

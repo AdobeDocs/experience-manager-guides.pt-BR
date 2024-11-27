@@ -1,9 +1,10 @@
 ---
 title: Criar um mapa
 description: Crie um mapa com o Editor de mapas no AEM Guides. Encontre as etapas para criar um arquivo de mapa com base em um modelo de mapa.
+exl-id: b9cda118-ab6f-4d6b-9616-a083180ba069
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%

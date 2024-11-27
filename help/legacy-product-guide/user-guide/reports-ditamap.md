@@ -1,9 +1,10 @@
 ---
 title: Relatório de mapa DITA no painel de mapa
 description: Gere relatórios de mapa DITA no painel de mapa no AEM Guides. Saiba como gerar o CSV de um relatório de mapa DITA.
+exl-id: 7fe52ee0-e940-467b-9b8d-3d2371de7a84
 feature: Report Generation
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
 source-wordcount: '741'
 ht-degree: 0%

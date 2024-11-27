@@ -1,9 +1,10 @@
 ---
 title: Fazer upload de arquivos
 description: Saiba como fazer upload de arquivos para o repositório AEM e lidar com erros. Conhecer a interface do usuário do console de ativos, o aplicativo de desktop AEM, a assimilação de ativos em massa e usar o FrameMaker para upload em massa.
+exl-id: b5430242-1122-43df-a0b2-275b1dea33f2
 feature: Content Management
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 0%

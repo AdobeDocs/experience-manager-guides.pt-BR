@@ -1,9 +1,10 @@
 ---
 title: Aviso
 description: Este é um aviso de isenção de responsabilidade para abordar a alteração do nome do produto do XML Documentation para Adobe Experience Manager para AEM Guides
+exl-id: 388fb8d9-a7d0-4bbb-b244-4ccf461eafdf
 feature: Disclaimer
 role: User, Leader, Admin, Developer
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 3%

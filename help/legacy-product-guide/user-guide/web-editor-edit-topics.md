@@ -1,11 +1,12 @@
 ---
 title: Editar tópicos no Editor da Web
 description: Saiba como editar tópicos no editor da Web. Saiba mais sobre vários recursos de edição para modificar arquivos de tópico no AEM Guides.
+exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '1055'
 ht-degree: 0%
 
 ---
@@ -38,11 +39,13 @@ O Editor da Web vem com uma variedade de recursos de edição que permitem criar
 ## Seleção parcial de conteúdo entre elementos
 
 O Experience Manager Guides também permite selecionar o conteúdo entre elementos. Após selecionar o conteúdo, você pode executar as seguintes operações:
+
 - Formatação e exclusão: deixe o conteúdo selecionado em negrito, itálico, sublinhado ou até mesmo exclua o conteúdo selecionado. O conteúdo das tags abertas válidas é então mesclado e exibido em um único elemento. Por exemplo, é possível selecionar o conteúdo em um parágrafo e estender a seleção para outro parágrafo. Em seguida, se você colocar o conteúdo selecionado em negrito, todo o conteúdo em negrito das tags abertas será mesclado e exibido em um único elemento de parágrafo.
 
 Da mesma forma, se você excluir o conteúdo selecionado, o conteúdo restante após a exclusão nas tags abertas será mesclado.
 
 - Circundar o conteúdo com um elemento válido: execute as seguintes etapas para envolver o conteúdo com um elemento válido:
+
    - Selecione o conteúdo em um elemento.
    - Selecione o ícone ![adicionar](images/Add_icon.svg) na barra de ferramentas secundária na parte superior para exibir a caixa de diálogo **Circundar com Elemento**. A caixa de diálogo lista os elementos válidos para o conteúdo selecionado.
      >[!NOTE]
@@ -73,7 +76,27 @@ O AEM Guides também indica se a última cópia \(em funcionamento\) salva do ar
 ![Indicador de atualização de versão](images/version-update-indicator.png){width="550" align="left"}
 
 
+## Abrir arquivos bloqueados nos modos Autor e Source
 
+Quando um arquivo DITA ou Markdown é bloqueado ou passado por check-out por outro usuário, não é possível editar ou modificar o conteúdo. No entanto, você ainda pode exibir o arquivo em um formato somente leitura nos modos **Autor** e **Source**, além do modo **Visualização**.
+
+No modo somente leitura, você pode exibir o conteúdo, as marcas e os atributos nos modos **Autor** ou **Source**. Também é possível modificar as propriedades do arquivo.
+
+A barra de ferramentas exibe os seguintes ícones para acesso somente leitura:
+
+- Alternar exibição de tags
+- Histórico da versão
+- Rótulo da versão
+
+O Experience Manager Guides também exibe um indicador de **Acesso somente leitura** próximo ao número da versão.
+
+![exibir arquivo somente leitura no modo de autor](images/locked-file-editor.png)
+
+Você pode acessar o modo de exibição **Layout** para mapas DITA somente leitura. Essa visualização permite que você veja o mapa DITA e suas propriedades, mas impede edições.
+
+>[!NOTE]
+>
+> Os usuários administrativos em nível de pasta devem atualizar o *ui_config.json* para que você possa acessar harmoniosamente os arquivos somente leitura nos modos Autor, Source e Layout.
 
 ## Localizar um arquivo aberto na Exibição do repositório
 

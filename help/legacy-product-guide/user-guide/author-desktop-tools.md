@@ -1,9 +1,10 @@
 ---
 title: Criar conteúdo usando ferramentas de desktop
 description: Crie conteúdo usando ferramentas de desktop no AEM Guides. Saiba como trabalhar com o Adobe FrameMaker e o Editor XML do Oxygen para criar e publicar conteúdo DITA.
+exl-id: d2c54f28-9433-46ee-adc2-d021c6bd5eb7
 feature: Authoring, Desktop Tools
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 0%

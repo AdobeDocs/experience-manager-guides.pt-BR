@@ -1,9 +1,10 @@
 ---
 title: Exibir o status da tarefa de geração de saída
 description: Exibir a fila de geração de saída de documentos de FrameMaker. Saiba como visualizar o status de uma tarefa de geração de saída.
+exl-id: c358f747-f0a5-4d9e-a96f-20f30663101f
 feature: Publishing FrameMaker Documents
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 0%

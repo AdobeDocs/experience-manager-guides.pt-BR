@@ -1,9 +1,10 @@
 ---
 title: Baixar arquivos
 description: Saiba como baixar arquivos do console de mapas DITA no AEM Guides e exportar um arquivo de mapas DITA para o repositório AEM.
+exl-id: ae9eb355-d3ac-446a-958b-5f2da43f5533
 feature: Content Management
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 0%

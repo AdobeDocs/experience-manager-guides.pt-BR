@@ -1,9 +1,10 @@
 ---
 title: Gerar saída de arquivos .book ou .fm
 description: Saiba como gerar saída de arquivos .book ou .fm no AEM Guides.
+exl-id: 24132198-52da-4c0b-bee3-5c728ec96995
 feature: Publishing FrameMaker Documents
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 0%

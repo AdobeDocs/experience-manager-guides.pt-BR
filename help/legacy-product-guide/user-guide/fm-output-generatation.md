@@ -1,9 +1,10 @@
 ---
 title: Gerar saída de documentos de FrameMaker
 description: Saiba como gerar saída de documentos do FrameMaker nos guias AEM para publicá-los nos formatos PDF, HTML5 e EPUB.
+exl-id: c19564c2-90f7-411d-835e-b2d1b0ada9c5
 feature: Publishing FrameMaker Documents
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 0%
