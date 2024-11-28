@@ -3,7 +3,7 @@ title: Adicionar e gerenciar citações no seu conteúdo
 description: Adicionar e gerenciar citações no AEM Guides. Saiba como aplicar, importar, filtrar, pesquisar, alterar o estilo da citação, editar, visualizar, inserir, excluir e gerar saída de conteúdo com citações.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: f8f1116efbf0c7c26f6ebacf6234dcc2fee636c1
 workflow-type: tm+mt
 source-wordcount: '1887'
 ht-degree: 0%
@@ -257,10 +257,10 @@ Depois de inserir citações no tópico, você poderá publicar o conteúdo com 
 
 Na saída do PDF nativo, as citações aparecem no conteúdo em que você as inseriu. Você também pode criar uma página de Bibliografia. Ao clicar em qualquer citação, você é redirecionado para a página de bibliografia.
 
-Crie um layout de página **Citações** nos modelos de PDF e inclua-o no documento. Todas as citações usadas no livro são listadas em uma página que aparece na saída de PDF. Para saber mais sobre como criar um layout de página, exiba [Criar um layout de página](../native-pdf/components-pdf-template.md#create-page-layout).
+Crie um layout de página **Citações** nos modelos de PDF e inclua-o no documento. Todas as citações usadas no livro são listadas em uma página que aparece na saída de PDF. Para saber mais sobre como criar um layout de página, exiba [Criar um layout de página](/help/product-guide/native-pdf/components-pdf-template.md#create-page-layout).
 
 
-Para alterar a exibição e a aparência da página de citação, exiba [Personalizar modelos de PDF](../native-pdf/pdf-template.md).
+Para alterar a exibição e a aparência da página de citação, exiba [Personalizar modelos de PDF](/help/product-guide/native-pdf/pdf-template.md).
 
 
 
@@ -272,4 +272,4 @@ Aplicar formatação à citação quando adicionada ao tópico.
 
 1. No painel Pesquisar, procure por `<cite>`.
 
-Para saber mais sobre estilos, exiba [Trabalhar com os estilos de conteúdo comuns](../native-pdf/stylesheet.md).
+Para saber mais sobre estilos, exiba [Trabalhar com os estilos de conteúdo comuns](/help/product-guide/native-pdf/stylesheet.md).
