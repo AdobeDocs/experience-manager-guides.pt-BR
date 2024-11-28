@@ -1,10 +1,9 @@
 ---
 title: Inserir um trecho de conteúdo da sua fonte de dados
 description: Use dados da sua fonte de dados no AEM Guides. Saiba como inserir um trecho de conteúdo da sua fonte de dados. Crie um tópico usando o gerador de tópicos.
-exl-id: fbd5eff2-451b-49d6-ba77-6eb271e94349
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '2389'
 ht-degree: 0%
@@ -206,7 +205,7 @@ Execute as seguintes etapas para criar um tópico usando o gerador de tópicos:
       >
       > Se o administrador tiver configurado modelos personalizados, esses modelos também serão exibidos na lista suspensa (com base nas configurações de caminho do modelo feitas pelo administrador). Por exemplo, você pode criar um modelo de tópico contendo uma lista ordenada, tabelas, parágrafos ou outros elementos DITA.
 
-   1. Insira o **Nó raiz**. Esse é o nó no qual você deseja acessar seus dados. O gerador de tópicos cria cada tópico no nível definido no nó raiz. Por exemplo, você pode adicionar ‘problemas’ como o nó raiz no Jira. Portanto, se um query retornar 13 problemas, você terá 13 tópicos, um tópico para cada problema.
+   1. Insira o **Nó raiz**. Esse é o nó no qual você deseja acessar seus dados. O gerador de tópicos cria cada tópico no nível definido no nó raiz. Por exemplo, você pode adicionar &quot;problemas&quot; como o nó raiz no Jira. Portanto, se um query retornar 13 problemas, você terá 13 tópicos, um tópico para cada problema.
 
    1. Clique em **Buscar** para buscar os dados da fonte de dados e aplicar o modelo aos dados resultantes da consulta SQL. A visualização mostra uma pequena fração de como o tópico aparece no formato do modelo selecionado. Por exemplo, você pode visualizar um único problema do Jira com todos os campos resultantes da query.
    1. Informe o nome do gerador de tópico.

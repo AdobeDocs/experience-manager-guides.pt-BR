@@ -1,10 +1,9 @@
 ---
 title: JSON
 description: Saiba como criar uma predefinição JSON no editor da Web e no painel de mapa. Configure a predefinição de saída JSON no AEM Guides.
-exl-id: 9eb426fc-ca0a-4932-8a55-fea731281a0a
 feature: Publishing
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%

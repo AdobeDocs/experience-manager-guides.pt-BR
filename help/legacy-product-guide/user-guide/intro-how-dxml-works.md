@@ -1,10 +1,9 @@
 ---
 title: Como o AEM Guides funciona
 description: Saiba como o AEM Guides funciona com AEM e outros editores DITA para potencializar o gerenciamento de conteúdo, a reutilização, a tradução e a revisão em um cenário corporativo.
-exl-id: 7c76fa01-63dc-4017-af15-c1e62b1849d1
 feature: Introduction
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '68'
 ht-degree: 0%

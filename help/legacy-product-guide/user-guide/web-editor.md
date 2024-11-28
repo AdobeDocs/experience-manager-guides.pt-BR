@@ -1,10 +1,9 @@
 ---
 title: Trabalhar com o editor da Web
 description: Crie e edite documentos estruturados usando o editor da Web. Saiba como trabalhar com o editor da Web seguindo os padrões DITA no AEM Guides.
-exl-id: 285d3ad3-fb4e-4cdd-ab83-493ffce891d6
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 0%

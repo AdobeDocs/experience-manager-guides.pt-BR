@@ -1,10 +1,9 @@
 ---
 title: Saiba como traduzir conteúdo
 description: Traduza o conteúdo para vários idiomas no AEM Guides. Saiba mais sobre os fluxos de trabalho de tradução humana e de máquina.
-exl-id: 88df750c-fb26-47f1-a884-b9e2f96b96ea
 feature: Translation
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 1%

@@ -1,10 +1,9 @@
 ---
 title: Relatório de reutilização de conteúdo
 description: Saiba como exibir o relatório de reutilização de conteúdo no AEM Guides. Gere o relatório para encontrar a porcentagem de reutilização de conteúdo.
-exl-id: ccae4303-75b1-4077-829a-7ef6a14fd8ad
 feature: Report Generation
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%

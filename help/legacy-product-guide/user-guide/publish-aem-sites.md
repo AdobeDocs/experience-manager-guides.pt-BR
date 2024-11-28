@@ -3,8 +3,7 @@ title: Publish de um tópico para uma página do AEM Sites
 description: Publish um tópico ou os elementos dentro de um tópico para uma saída Adobe Experience Manager Sites.  Saiba como visualizar a página do Experience Manager Sites presente para um tópico e republicá-la.
 feature: Publishing
 role: User
-exl-id: acbc48b7-93a2-41c6-8565-359fbbdd1fb9
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '638'
 ht-degree: 0%
@@ -45,7 +44,7 @@ Para gerar uma página Sites, execute as seguintes etapas:
    * Você também pode selecionar condições diferentes para publicar o conteúdo.  Selecione uma das seguintes opções:
 
 
-      * **Nenhum**: selecione essa opção se não quiser aplicar nenhuma condição à saída publicada.
+      * **Nenhum**: selecione esta opção se não quiser aplicar nenhuma condição à saída publicada.
       * **Usando DITAVAL**: selecione o arquivo DITAVAL para gerar conteúdo personalizado. Você pode selecionar o arquivo DITAVAL usando a caixa de diálogo Procurar ou digitando o caminho do arquivo.
       * **Uso de atributos**: você pode definir atributos de condição em seus tópicos DITA. Em seguida, selecione o atributo de condição para publicar o conteúdo relevante.
 

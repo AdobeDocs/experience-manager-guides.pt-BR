@@ -1,10 +1,9 @@
 ---
 title: Reatribuir tarefa de revisão usando notificação
 description: Reatribua uma tarefa de revisão usando notificações no AEM Guides. Saber como reatribuir uma tarefa de revisor a partir da notificação da caixa de entrada.
-exl-id: 6cd01564-aa26-4773-9c95-9dc519706f27
 feature: Reviewing
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 0%

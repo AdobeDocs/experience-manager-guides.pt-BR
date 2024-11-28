@@ -1,10 +1,9 @@
 ---
 title: Traduzir documentos do Editor da Web
 description: Traduza o conteúdo para vários idiomas no editor da Web. Saiba como criar um projeto de tradução, adicionar regras, exibir versões e descartar arquivos não sincronizados no AEM Guides.
-exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '2343'
 ht-degree: 0%
@@ -223,7 +222,7 @@ O administrador pode configurar a opção **Limpeza do projeto de tradução ap�
 
 Para afetar o gerenciamento de documentos, o Experience Manager Guides fornece a capacidade de excluir os projetos de tradução depois que você conclui a tradução.
 
-Você também pode desativar os projetos de tradução se desejar usá-los posteriormente. A exclusão de um projeto exclui todos os arquivos e pastas presentes no projeto. Desativar um projeto não o exclui, mas o mantém no repositório. Mas não é possível atualizar ou editar um projeto desativado.  A exclusão ou desativação de um projeto não afetará o status de tradução de nenhuma referência.
+Você também pode desativar os projetos de tradução se desejar usá-los posteriormente. A exclusão de um projeto exclui todos os arquivos e pastas presentes no projeto. Desativar um projeto não o exclui, mas o mantém no repositório. Mas você não pode atualizar ou editar um projeto desativado.  A exclusão ou desativação de um projeto não afetará o status de tradução de nenhuma referência.
 
 
 **Tópico pai:**[ Trabalhar com o Editor da Web](web-editor.md)

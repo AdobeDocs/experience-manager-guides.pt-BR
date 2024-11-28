@@ -1,10 +1,9 @@
 ---
 title: Geração de saída
 description: Gere saída no site AEM, PDF, HTML5, EPUB, personalizado e JSON por meio de plug-ins DITA-OT, publicação de PDF nativo e FMPS no AEM Guides.
-exl-id: fd5e4c17-13c1-4679-8d88-af9de92aec9a
 feature: Publishing
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 0%

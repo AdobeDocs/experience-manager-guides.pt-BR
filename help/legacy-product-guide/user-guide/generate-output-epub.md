@@ -1,10 +1,9 @@
 ---
 title: Predefinição de ePub
 description: Saiba como criar uma predefinição de EPUB no painel do mapa. Configure a predefinição de saída de EPUB no AEM Guides.
-exl-id: b6fb5483-064e-4552-84c7-b6723b79d8c5
 feature: Publishing
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 1%

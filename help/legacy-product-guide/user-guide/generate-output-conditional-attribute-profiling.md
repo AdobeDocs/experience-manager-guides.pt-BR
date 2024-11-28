@@ -1,10 +1,9 @@
 ---
 title: Criação de perfil de atributo condicional
 description: Saiba como criar atributos condicionais no AEM Guides. Use atributos condicionais na pasta e perfis globais para condicionar seu conteúdo.
-exl-id: 5ec7666e-df6b-4b0d-b6c2-cdc395fcccc5
 feature: Publishing
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 0%

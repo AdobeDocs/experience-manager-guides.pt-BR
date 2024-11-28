@@ -1,8 +1,7 @@
 ---
 title: Ajuda inteligente habilitada por IA para pesquisar conteúdo
 description: Saiba como visualizar e utilizar a Ajuda inteligente habilitada por IA no Editor da Web.
-exl-id: 61a15208-9600-4bb8-adc0-feca1a0ffef3
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%

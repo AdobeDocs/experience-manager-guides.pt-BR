@@ -1,10 +1,9 @@
 ---
 title: Documentos do Markdown do autor
 description: Criação de documentos de marcação no editor da Web. Saiba como criar, criar e visualizar um tópico do Markdown no AEM Guides.
-exl-id: def14e35-27c5-4b90-bc3d-eef7e8f317d2
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 0%

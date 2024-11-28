@@ -3,8 +3,7 @@ title: Publish de um tópico para um fragmento de experiência
 description: Publish um tópico ou os elementos dentro de um tópico para um Fragmento de experiência no AEM Guides.  Saiba como visualizar os Fragmentos de experiência presentes em um tópico e republicá-los.
 feature: Publishing
 role: User
-exl-id: 4cdce8c2-2ccf-4bf1-8b92-4dfeb10de186
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 0%
@@ -66,7 +65,7 @@ Por exemplo:
    * Você também pode selecionar condições diferentes para publicar o conteúdo.  Selecione uma das seguintes opções:
 
 
-      * **Nenhum**: selecione essa opção se não quiser aplicar nenhuma condição à saída publicada.
+      * **Nenhum**: selecione esta opção se não quiser aplicar nenhuma condição à saída publicada.
       * **Usando DITAVAL**: selecione o arquivo DITAVAL para gerar conteúdo personalizado. Você pode selecionar o arquivo DITAVAL usando a caixa de diálogo Procurar ou digitando o caminho do arquivo.
       * **Uso de atributos**: você pode definir atributos de condição em seus tópicos DITA. Em seguida, selecione o atributo de condição para publicar o conteúdo relevante.
 

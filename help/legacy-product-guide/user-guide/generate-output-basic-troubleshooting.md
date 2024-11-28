@@ -1,10 +1,9 @@
 ---
 title: Solução básica de problemas
 description: Resolva problemas com a solução básica de problemas no AEM Guides. Saiba como exibir, copiar e verificar o arquivo de log em um editor de texto e resolver erros de compilação de JSP.
-exl-id: 57b88291-b5a3-4931-b3ed-f2b2ce7a463c
 feature: Publishing, Troubleshooting
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 0%

@@ -1,10 +1,9 @@
 ---
 title: Gerar PDF
 description: Saiba como criar uma predefinição de PDF no editor da Web e no painel de mapa. Configure a predefinição de saída de PDF no AEM Guides.
-exl-id: f12c91fd-3f95-478e-a9cd-68d037206ee8
 feature: Publishing
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 1%

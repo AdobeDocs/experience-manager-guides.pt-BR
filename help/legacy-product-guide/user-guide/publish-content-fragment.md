@@ -1,10 +1,9 @@
 ---
 title: Publish de um tópico para um fragmento de conteúdo
 description: Publish um tópico ou os elementos dentro de um tópico para um Fragmento de conteúdo no AEM Guides.  Saiba como visualizar os Fragmentos de conteúdo presentes em um tópico e republicá-los.
-exl-id: b1769e48-d721-4e93-b10f-04b385272be7
 feature: Publishing
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
@@ -26,7 +25,7 @@ Para criar um fragmento de conteúdo, execute as seguintes etapas:
 
 1. Crie um [modelo de Fragmento de conteúdo](https://experienceleague.adobe.com/docs/experience-manager-65/assets/content-fragments/content-fragments-models.html?lang=pt-BR) no Adobe Experience Manager Assets.
 1. Crie uma pasta na qual deseja salvar os fragmentos de conteúdo criados com base no modelo de fragmento de conteúdo. Por exemplo, &quot;stock-content-fragments&quot;.
-1. Edite as propriedades da pasta (por exemplo, &quot;stock-content-fragments&quot;) e adicione o caminho da pasta, que contém o modelo de Fragmento de conteúdo na configuração da nuvem.
+1. Edite as propriedades da pasta (por exemplo, &quot;stock-content-fragments&quot;) e adicione o caminho da pasta, que contém o modelo de Fragmento de conteúdo na configuração de nuvem.
 Por exemplo, adicione `/conf/we-retail` na configuração de nuvem. Essa configuração conecta todos os modelos de fragmento de conteúdo à pasta.\
    ![adicionar detalhes de configuração da nuvem nas propriedades da pasta](images/fragment-folder-cloud-configuration.png){width="650" align="left"}
    *Adicione a configuração da nuvem nas propriedades da pasta para conectá-la aos modelos de fragmento.*
@@ -53,7 +52,7 @@ Por exemplo, adicione `/conf/we-retail` na configuração de nuvem. Essa configu
      > 
      > As condições serão ativadas somente se os atributos de condição forem definidos no tópico.
 
-      * **Nenhum**: selecione essa opção se não quiser aplicar nenhuma condição à saída publicada.
+      * **Nenhum**: selecione esta opção se não quiser aplicar nenhuma condição à saída publicada.
       * **Usando DITAVAL**: selecione o arquivo DITAVAL para incluir ou excluir conteúdo específico na saída gerada. Você pode selecionar o arquivo DITAVAL usando a caixa de diálogo Procurar ou digitando o caminho do arquivo.
       * **Uso de atributos**: você pode definir atributos de condição em seus tópicos DITA. Em seguida, selecione o atributo de condição para publicar o conteúdo relevante.
 

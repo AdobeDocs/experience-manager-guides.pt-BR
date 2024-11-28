@@ -1,10 +1,9 @@
 ---
 title: Transmita os metadados para a saída usando DITA-OT
 description: Saiba como transmitir os metadados para a saída usando a publicação DITA-OT no AEM Guides.
-exl-id: 70ca32dc-56c3-45ee-b6b9-0efb8cc79ea1
 feature: Publishing, Metadata Management
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 0%

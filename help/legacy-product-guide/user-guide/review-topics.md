@@ -1,10 +1,9 @@
 ---
 title: Revisar tópicos
 description: Saiba como revisar tópicos e usar os recursos como revisor, exibição de documento, exibição de tópico, barra de ferramentas contextual, modo de visualização, adicionar anexos a comentários e painel de condições no AEM Guides.
-exl-id: fc87fc37-f1cd-4a19-96c2-3a08a8222002
 feature: Reviewing
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '2351'
 ht-degree: 0%

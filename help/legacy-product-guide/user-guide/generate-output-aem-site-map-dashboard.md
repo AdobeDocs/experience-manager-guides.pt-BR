@@ -3,8 +3,7 @@ title: Site AEM
 description: Crie e configure sites AEM predefinidos no AEM Guides a partir do painel de mapa. Use o suporte a sites AEM para gerar saída baseada em artigos, publicar tópicos vinculados, conref e pesquisar uma string no conteúdo.
 feature: Publishing
 role: User
-exl-id: 641c98ca-b815-4176-abf5-a12c31ff4496
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '2404'
 ht-degree: 0%

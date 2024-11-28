@@ -1,10 +1,9 @@
 ---
 title: Gerenciar tarefas de publicação usando o Painel do Publish
 description: Gerencie tarefas de publicação usando o Painel do Publish no AEM Guides. Saber como acessar o painel de publicação e cancelar uma tarefa de publicação.
-exl-id: d9e25e52-ba9d-4088-ac95-8df76b69f5d3
 feature: Publishing
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 0%

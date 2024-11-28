@@ -3,8 +3,7 @@ title: AEM Sites
 description: Crie e configure a predefinição do AEM Sites no Editor da Web e gere a saída do AEM Sites para o mapa DITA, tópicos selecionados e tópicos vinculados.
 feature: Publishing
 role: User
-exl-id: f3657268-9dee-43af-b643-499dbc3ca948
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '2732'
 ht-degree: 0%
@@ -104,7 +103,7 @@ A **Lista de Tópicos** exibe a lista de tópicos presentes na cópia de trabalh
 A guia **Lista de Tópicos** está presente nas predefinições de AEM que não são criadas com base no mapeamento herdado.
 
 **Referências entre mapas**
-Esta lista contém tópicos que contêm referências entre mapas com `scope =”peer”`. Você pode especificar o contexto de publicação para uma lista de referências de mapa cruzado com `scope=”peer”` para tópicos disponíveis em outros mapas DITA. Essa guia será exibida se você usar a versão do Experience Manager Guides (UUID).
+Esta lista contém tópicos que contêm referências entre mapas com `scope ="peer"`. Você pode especificar o contexto de publicação para uma lista de referências de mapa cruzado com `scope="peer"` para tópicos disponíveis em outros mapas DITA. Essa guia será exibida se você usar a versão do Experience Manager Guides (UUID).
 
 
 
@@ -158,7 +157,7 @@ Execute as seguintes etapas para criar e configurar uma predefinição do AEM Si
    1. Selecione o caminho completo do site:
       1. Selecione a opção **Usar caminho do site**.
       1. Selecione o caminho completo do site. Por exemplo, `/content/AEMG-Docs-Site/en/docs/product1`.
-      1. O ‘Modelo de página de tópico’ é automaticamente definido como `Topic Page`.
+      1. O &quot;Modelo de página de tópico&quot; é automaticamente definido como `Topic Page`.
 
 
 1. Salvar as alterações feitas na predefinição.
@@ -195,13 +194,13 @@ Se quiser usar predefinições do AEM Sites no Editor da Web, crie uma nova pred
 
 1. Abra a guia **Referências entre mapas**.
 
-   Você verá uma lista de tópicos e suas referências. Você pode especificar o contexto de publicação para uma lista de referências a tópicos disponíveis em outros mapas DITA com `scope=”peer”`.
+   Você verá uma lista de tópicos e suas referências. Você pode especificar o contexto de publicação para uma lista de referências a tópicos disponíveis em outros mapas DITA com `scope="peer"`.
 
    Para usar o painel de referência entre mapas do Editor da Web, `<xrefs>` deve ter IDs exclusivas. IDs exclusivas para `<xrefs>` serão geradas automaticamente ao editar/salvar o conteúdo mais antigo se a ID não estiver lá.
 
    >[!NOTE]
    >
-   >A guia **Referências de mapa cruzado** mostra tópicos que estão vinculados usando somente o `scope=”peer”`. Para links com `scope=”local”`, não é necessário especificar o contexto de publicação.
+   >A guia **Referências de mapa cruzado** mostra tópicos que estão vinculados usando somente o `scope="peer"`. Para links com `scope="local"`, não é necessário especificar o contexto de publicação.
 
    Todos os tópicos vinculados têm sua predefinição de saída e mapa mais recentes selecionados por padrão. O contexto de publicação para todos os tópicos vinculados está definido como `<Most recently generated>` mapear por padrão.
 
@@ -210,8 +209,8 @@ Se quiser usar predefinições do AEM Sites no Editor da Web, crie uma nova pred
 1. Se quiser usar a saída publicada mais recentemente de cada arquivo dependente no mapa, selecione **Usar contexto de publicação gerado mais recentemente** para todos os tópicos dependentes.
 Você deve publicar o mapa selecionado como o mapa principal antes de publicar o mapa contendo tópicos vinculados. Se o mapa com tópicos vinculados não for publicado, os links serão exibidos como texto normal em vez de hiperlinks na saída do AEM Sites.
 Você deve selecionar o mesmo tipo de predefinição do AEM Sites para o tópico vinculado. Por exemplo, se a predefinição atual do AEM Sites usar o mapeamento de componente herdado, selecione uma predefinição AEM Sites semelhante do tópico vinculado.
-1. Na lista suspensa Mapa pai, selecione o arquivo de mapa com cuja saída você deseja vincular a saída do mapa atual.
-Selecionar um arquivo de mapa mostra a UUID do mapa na coluna UUID do mapa principal. As Predefinições de saída associadas ao mapa escolhido são listadas na lista Predefinição do Mapa pai. Por exemplo, o Tópico 1 no Mapa A contém uma referência ao Tópico 2. O tópico 2 pode estar presente em mapas únicos ou múltiplos. Você pode selecionar o mapa principal e uma predefinição específica ou a saída publicada mais recentemente para cada link.
+1. Na lista suspensa Mapa Pai, selecione o arquivo de mapa com cuja saída você deseja vincular a saída do mapa atual.
+Selecionar um arquivo de mapa mostra a UUID do mapa na coluna UUID do Mapa Pai. As Predefinições de saída associadas ao mapa escolhido são listadas na lista Predefinição do Mapa pai. Por exemplo, o Tópico 1 no Mapa A contém uma referência ao Tópico 2. O tópico 2 pode estar presente em mapas únicos ou múltiplos. Você pode selecionar o mapa principal e uma predefinição específica ou a saída publicada mais recentemente para cada link.
 
 1. Se o mesmo tópico for referido mais de uma vez em um arquivo, será possível adicionar um contexto de publicação diferente para cada instância. Isso proporciona maior flexibilidade e controle sobre o conteúdo. Por exemplo, o Tópico 3 está presente no Mapa B e no Mapa C. O Tópico 1 contém duas referências ao Tópico 3. Você pode escolher o Mapa B como o mapa principal do primeiro link e o Mapa C como principal do segundo link.
 

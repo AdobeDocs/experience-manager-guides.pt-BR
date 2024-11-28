@@ -1,10 +1,9 @@
 ---
 title: Principais recursos do AEM Guides
 description: Explore os principais recursos do AEM Guides, criação de DITA, gerenciamento de conteúdo, revisão baseada na Web, tradução, localização, publicação multicanal e integração do FrameMaker.
-exl-id: 978d7027-08da-40f7-ae9e-bb4d559a84dc
 feature: Introduction
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '938'
 ht-degree: 0%

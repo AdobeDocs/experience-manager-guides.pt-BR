@@ -1,10 +1,9 @@
 ---
 title: Marcação inteligente
 description: Saiba como adicionar tags inteligentes no AEM Guides. Use a ferramenta XML Keyword Extract para extrair palavras-chave relevantes.
-exl-id: 7fb4b881-0898-44eb-a0e8-85cb99d9593b
 feature: Metadata Management
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%

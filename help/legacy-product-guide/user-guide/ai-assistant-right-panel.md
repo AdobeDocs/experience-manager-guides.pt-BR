@@ -1,8 +1,7 @@
 ---
 title: Usar o Assistente de IA para criar documentos com inteligência `
 description: Saiba como usar o Assistente de IA para criar documentos com eficiência inteligente no Editor da Web.
-exl-id: 47d37323-20bf-4444-a2c9-41c44b2c8daf
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 0%

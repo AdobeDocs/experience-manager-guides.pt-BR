@@ -1,10 +1,9 @@
 ---
 title: Use variáveis para definir as opções Caminho de destino, Nome do site ou Nome do arquivo
 description: Saiba como usar variáveis para definir as opções Caminho de destino, Nome do site ou Nome do arquivo. Conhecer variáveis prontas para uso compatíveis com o AEM Guides.
-exl-id: 3396c971-6332-45b5-b2ef-b07f0abf97f7
 feature: Publishing
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 0%

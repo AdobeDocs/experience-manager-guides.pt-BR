@@ -1,10 +1,9 @@
 ---
 title: Criar tópicos
 description: Saiba como criar tipos de tópicos DITA usando modelos personalizados no editor da Web do AEM Guides.
-exl-id: 84e9cfdf-e188-487f-9181-68708029c101
 feature: Authoring
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 0%

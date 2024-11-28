@@ -1,10 +1,9 @@
 ---
 title: Traduzir tópicos modificados
 description: Saiba como traduzir novamente um tópico modificado no AEM Guides.
-exl-id: b3228ea9-24a8-44aa-8ba4-e8f44754ffe4
 feature: Translation
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 0%

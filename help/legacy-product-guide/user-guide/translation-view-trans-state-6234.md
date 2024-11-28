@@ -1,10 +1,9 @@
 ---
 title: Exibir status da tradução
 description: Saiba como visualizar o status da tradução e as cópias de idioma traduzidas para cada tópico em um mapa DITA no AEM Guides.
-exl-id: 6ed30bc6-3030-40fd-987a-928fd5b06ee6
 feature: Translation
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 0%

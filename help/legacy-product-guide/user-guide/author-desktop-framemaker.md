@@ -1,10 +1,9 @@
 ---
 title: Trabalhar com o FrameMaker
 description: Saiba mais sobre o suporte do FrameMaker para criação e publicação de conteúdo no AEM Guides.
-exl-id: 6797912b-3325-413c-ac88-877599b94678
 feature: Authoring, Desktop Tools
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 0%
