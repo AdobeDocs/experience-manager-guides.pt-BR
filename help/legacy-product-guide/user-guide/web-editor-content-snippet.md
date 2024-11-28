@@ -3,7 +3,7 @@ title: Inserir um trecho de conteúdo da sua fonte de dados
 description: Use dados da sua fonte de dados no AEM Guides. Saiba como inserir um trecho de conteúdo da sua fonte de dados. Crie um tópico usando o gerador de tópicos.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '2389'
 ht-degree: 0%
@@ -26,18 +26,18 @@ Com base na sua configuração, o administrador pode configurar um conector de f
 <summary> Cloud Services </summary>
 
 
-- Se estiver usando a versão de outubro de 2023 ou posterior, saiba como [configurar um conector de fonte de dados a partir da interface do usuário](../cs-install-guide/conf-data-source-connector-tools.md) no Guia de Instalação e Configuração do Cloud Service.
+- Se estiver usando a versão de outubro de 2023 ou posterior, saiba como [configurar um conector de fonte de dados a partir da interface do usuário](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md) no Guia de Instalação e Configuração do Cloud Service.
 
-- Se estiver usando a versão de julho de 2023 ou setembro de 2023, saiba como [configurar um conector de fonte de dados](../cs-install-guide/conf-data-source-connector.md) no Guia de instalação e configuração do Cloud Service.
+- Se estiver usando a versão de julho de 2023 ou setembro de 2023, saiba como [configurar um conector de fonte de dados](/help/product-guide/cs-install-guide/conf-data-source-connector.md) no Guia de instalação e configuração do Cloud Service.
 
 </details>
 
 <details>    
 <summary>  Software local </summary>
 
-- Se estiver usando a versão 4.3.1 ou posterior, saiba como [configurar um conector de fonte de dados a partir da interface do usuário](../cs-install-guide/conf-data-source-connector-tools.md) no Guia de Instalação e Configuração no Local.
+- Se estiver usando a versão 4.3.1 ou posterior, saiba como [configurar um conector de fonte de dados a partir da interface do usuário](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md) no Guia de Instalação e Configuração no Local.
 
-- Se estiver usando a versão 4.3, saiba como [configurar um conector de fonte de dados](../cs-install-guide/conf-data-source-connector.md) no Guia de Instalação e Configuração Local.
+- Se estiver usando a versão 4.3, saiba como [configurar um conector de fonte de dados](/help/product-guide/cs-install-guide/conf-data-source-connector.md) no Guia de Instalação e Configuração Local.
 </details>
 
 

@@ -3,7 +3,7 @@ title: Criar mapas com base em modelos personalizados
 description: Saiba como criar um modelo personalizado, usá-los para criar novos arquivos de mapa e transmitir o título definido para um mapa DITA no AEM Guides.
 feature: Authoring, Map Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '1103'
 ht-degree: 0%
@@ -96,13 +96,13 @@ Com base em sua configuração, saiba como configurar o caminho de pasta do mode
 <details>
     <summary> Cloud Services </summary>
 
-Saiba como [configurar o caminho de pasta de modelo DITA personalizado](../install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) no Guia de Instalação e Configuração do Cloud Service.
+Saiba como [configurar o caminho de pasta de modelo DITA personalizado](/help/product-guide/install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) no Guia de Instalação e Configuração do Cloud Service.
 </details>
 
 <details>
     <summary> Software local</summary>
 
-Saiba como [configurar o caminho de pasta de modelo DITA personalizado](../cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) no Guia de Instalação e Configuração no Local.
+Saiba como [configurar o caminho de pasta de modelo DITA personalizado](/help/product-guide/cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) no Guia de Instalação e Configuração no Local.
 </details>
 
 ## Transmita o título definido nos modelos

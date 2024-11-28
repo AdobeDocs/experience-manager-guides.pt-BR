@@ -1,7 +1,7 @@
 ---
 title: Ajuda inteligente habilitada por IA para pesquisar conteúdo
 description: Saiba como visualizar e utilizar a Ajuda inteligente habilitada por IA no Editor da Web.
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Quando você abre o Editor da Web, o painel **Ajuda Inteligente** é exibido à 
 
 >[!NOTE]
 >
-> O administrador deve configurar o recurso **Ajuda Inteligente**. Para obter mais detalhes, consulte a [seção Configurar a Ajuda Inteligente baseada em IA para pesquisar conteúdo](../cs-install-guide/conf-smart-help.md) no Guia de Instalação e Configuração para Cloud Service.
+> O administrador deve configurar o recurso **Ajuda Inteligente**. Para obter mais detalhes, consulte a [seção Configurar a Ajuda Inteligente baseada em IA para pesquisar conteúdo](/help/product-guide/cs-install-guide/conf-smart-help.md) no Guia de Instalação e Configuração para Cloud Service.
 
 ![Painel Ajuda Inteligente](images/smart-help-panel.png){width="300" align="left"}
 
@@ -39,7 +39,7 @@ Execute as seguintes etapas para usar a pesquisa conversacional e encontrar o co
 
    >[!NOTE]
    >
-   > Nos [perfis globais ou de nível de pasta](../cs-install-guide/conf-folder-level.md#conf-ai-guides-assistant), o administrador precisa definir as perguntas padrão que aparecem no painel.
+   > Nos [perfis globais ou de nível de pasta](/help/product-guide/cs-install-guide/conf-folder-level.md#conf-ai-guides-assistant), o administrador precisa definir as perguntas padrão que aparecem no painel.
 
 1. Digite a pergunta para encontrar o conteúdo relacionado na documentação do Experience Manager Guides. Você pode selecionar a pergunta padrão no painel ou digitar a pergunta na caixa de texto.
 

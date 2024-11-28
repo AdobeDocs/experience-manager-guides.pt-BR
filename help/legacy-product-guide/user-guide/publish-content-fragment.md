@@ -3,7 +3,7 @@ title: Publish de um tópico para um fragmento de conteúdo
 description: Publish um tópico ou os elementos dentro de um tópico para um Fragmento de conteúdo no AEM Guides.  Saiba como visualizar os Fragmentos de conteúdo presentes em um tópico e republicá-los.
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
@@ -74,7 +74,7 @@ O lado direito é preenchido com o conteúdo do fragmento de conteúdo publicado
 
      >[!NOTE]
      >
-     > Se estiver usando o 4.4 ou versões anteriores, selecione um mapeamento no menu suspenso. Ele escolhe os mapeamentos do arquivo *contentFragmentMapping.json*.  O administrador pode adicionar os mapeamentos no arquivo *contentFragmentMapping.json*. Saiba mais sobre como [criar um mapeamento entre um tópico e um Fragmento de conteúdo](../cs-install-guide/conf-content-fragment-mapping-cs.md) no Guia de Instalação e Configuração.
+     > Se estiver usando o 4.4 ou versões anteriores, selecione um mapeamento no menu suspenso. Ele escolhe os mapeamentos do arquivo *contentFragmentMapping.json*.  O administrador pode adicionar os mapeamentos no arquivo *contentFragmentMapping.json*. Saiba mais sobre como [criar um mapeamento entre um tópico e um Fragmento de conteúdo](/help/product-guide/cs-install-guide/conf-content-fragment-mapping-cs.md) no Guia de Instalação e Configuração.
 
 1. Clique em **Gerar** para publicar o fragmento de conteúdo.
 
@@ -110,4 +110,4 @@ Você também pode executar as seguintes ações para um Fragmento de Conteúdo 
 
 O novo script de migração de conteúdo UUID foi significativamente otimizado, tornando a migração de conteúdo de Não UUID para UUID 30 vezes mais rápida do que o script anterior. Ele inclui recursos como a retomada a partir de pontos de verificação, insights em tempo real, tempo estimado de conclusão e relatórios detalhados, garantindo um processo de migração harmonioso. Notavelmente, o processo de migração preserva os metadados de ativos sem qualquer alteração. O script foi testado e verificado em um grande conjunto de dados de 3 milhões de ativos, confirmando sua eficiência e confiabilidade para migrações em larga escala.
 
-Saiba mais sobre [Não UUID para migração de conteúdo UUID](../install-guide/migrate-non-uuid-uuid.md).
+Saiba mais sobre [Não UUID para migração de conteúdo UUID](/help/product-guide/install-guide/migrate-non-uuid-uuid.md).

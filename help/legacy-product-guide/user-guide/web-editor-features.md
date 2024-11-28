@@ -3,7 +3,7 @@ title: Conhecer os recursos do Editor da Web
 description: Descubra os recursos do editor da Web no AEM Guides. Conhecer a interface do editor da Web, incluindo a barra de ferramentas principal, a barra de ferramentas secundária, o painel esquerdo, a área de edição de conteúdo e o painel direito.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '18802'
 ht-degree: 0%
@@ -605,7 +605,7 @@ Se você estiver na Exibição de mapa e expandir o mapa principal, poderá faze
 
 A dica de ferramenta para Check-in/Check-out é determinada pela propriedade title no arquivo `ui_config.json`.
 
-Para obter mais detalhes, consulte [Configurar o título para os ícones de check-in e check-out](../install-guide/conf-checkin-checkout-title.md) no Guia de Instalação e Configuração no Local.
+Para obter mais detalhes, consulte [Configurar o título para os ícones de check-in e check-out](/help/product-guide/install-guide/conf-checkin-checkout-title.md) no Guia de Instalação e Configuração no Local.
 
 
 **Alternar Modo de Exibição de Marcas** - ![](images/Label_icon.svg)
@@ -1142,7 +1142,7 @@ As várias opções no menu Opções são explicadas abaixo:
 
   >[!NOTE]
   >
-  >Entre em contato com a equipe de sucesso do cliente para habilitar esse recurso no ambiente. Isso não é ativado como parte do suporte pronto para uso. Para obter mais detalhes, exiba a opção [Configurar a opção para editar no Oxygen](../cs-install-guide/conf-edit-in-oxygen.md) na seção do Guia de Instalação e Configuração.
+  >Entre em contato com a equipe de sucesso do cliente para habilitar esse recurso no ambiente. Isso não é ativado como parte do suporte pronto para uso. Para obter mais detalhes, exiba a opção [Configurar a opção para editar no Oxygen](/help/product-guide/cs-install-guide/conf-edit-in-oxygen.md) na seção do Guia de Instalação e Configuração.
 
 
 - **Exibir na interface do usuário do Assets**: use esta opção para mostrar uma visualização de um arquivo .dita/.xml na interface do usuário do Assets. No caso de um arquivo .ditamap/.bookmap, todos os arquivos de tópico no mapa são mostrados em uma única exibição unificada página por página.
