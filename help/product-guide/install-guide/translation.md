@@ -5,9 +5,9 @@ exl-id: 0d3a909c-3499-4ef4-b033-02e412dae959
 feature: Translation
 role: Admin
 level: Experienced
-source-git-commit: f7ce1dc72edfcec939e5bd25bbf82c2e3907a326
+source-git-commit: ea3083542e955a56c27cd833600370a7962c6b8d
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '854'
 ht-degree: 8%
 
 ---
@@ -100,7 +100,9 @@ Com base no fluxo de trabalho de tradução usado na configuração, a opção d
 
 >[!IMPORTANT]
 > 
-> É recomendável usar o fluxo de trabalho de tradução mais recente, que fornece desempenho aprimorado. No entanto, se houver personalizações ativadas no processo de tradução atual, considere usar o fluxo de trabalho de tradução herdado.
+> É recomendável usar o fluxo de trabalho de tradução mais recente, disponível no AEM Guides 4.6.0 e posterior, para um desempenho aprimorado. No entanto, se você tiver ativado qualquer personalização no processo de tradução e ela for afetada pelo novo fluxo de trabalho, considere reverter para o fluxo de trabalho de tradução herdado como uma solução alternativa.
+
+
 
 Por padrão, a opção de fluxo de trabalho de tradução herdada está desativada. Você pode configurar essa opção executando as seguintes etapas:
 

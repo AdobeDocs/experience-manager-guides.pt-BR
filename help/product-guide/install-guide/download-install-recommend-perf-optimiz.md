@@ -5,9 +5,9 @@ exl-id: b2a836a0-de82-4d89-aae3-43276997da74
 feature: Performance Optimization
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: b28b7d96cce69f677b0bcf891b94d7ac84eb1eb0
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '907'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Os parâmetros de inicialização da JVM devem ser cuidadosamente ajustados com 
 
 `* -Xloggc:</path/to/gc.log>`
 
-- Em geral, para o Java 11, use G1GC \(`-XX:+UseG1GC`\) e para o Java 8, use CMS \(-`XX:+UseConcMarkSweepGC`\).
+- Em geral, para o Java 11, use G1GC \(`-XX:+UseG1GC`\) e, para o Java 8, use CMS \(-`XX:+UseConcMarkSweepGC`\).
 
 - Use `-XX:NewRatio` para controlar o tamanho da memória da geração jovem. O valor padrão é 2, o que significa que 1/3 da memória é usada para a geração jovem. Como há muitos objetos sendo rapidamente criados e destruídos, usando um valor de 1 alocará 1/2 da memória para a geração jovem.
 
@@ -114,17 +114,5 @@ Isso pode ser feito em tempo de execução por meio do console Felix ou por meio
 **Resultado desta alteração**
 Um aumento no número de **Limitar Páginas do Site AEM na propriedade Heap** otimiza o processo de geração de saída do Site AEM.
 
-## Otimizar o número de threads de pós-processamento \(Obrigatório, dependendo do caso de uso\)
-
-**Qual é a alteração?**
-Essa alteração é necessária se você estiver fazendo upload em massa de conteúdo DITA.
-
-Defina a propriedade **Post Process Threads** em `com.adobe.fmdita.config.ConfigManager` como `1`.
-
-**Quando configurar?**
-Isso pode ser feito em tempo de execução.
-
-**Resultado desta alteração**
-Essa alteração reduz o tempo de pós-processamento no upload em massa de arquivos DITA.
 
 **Tópico pai:**[ Baixar e instalar](download-install.md)
