@@ -4,7 +4,7 @@ description: Saiba como trabalhar com o editor de mapa avançado no AEM Guides. 
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 6201434d3dd8336bf9fe1bce6368d5dbb9c56162
+source-git-commit: ae49df3912a5a7a3a01e5eaa08fb9f05249da29f
 workflow-type: tm+mt
 source-wordcount: '3788'
 ht-degree: 0%
@@ -248,7 +248,7 @@ Exibe a caixa de diálogo Propriedades do Mapa, na qual você pode definir os at
 
 ## Visualização do autor {#id205DEC0005Z_author_view}
 
-O modo de exibição **Autor** permite que você edite o mapa DITA no Editor da Web. Isso mostra a visualização WYSIWYG do Editor de mapas e alguns dos ícones exibidos na visualização Autor são iguais à exibição Layout. Para obter mais detalhes, consulte [Modo de exibição de layout](#id205DEC0005Z_layout_view). Além disso, você pode ver os seguintes ícones e executar as tarefas relacionadas na visualização Autor:
+O modo de exibição **Autor** permite que você edite o mapa DITA no Editor da Web. Isso mostra a visualização WYSIWYG do Editor de mapas e alguns dos ícones exibidos na visualização Autor são iguais à visualização Layout. Para obter mais detalhes, consulte [Modo de exibição de layout](#id205DEC0005Z_layout_view). Além disso, você pode ver os seguintes ícones e executar as tarefas relacionadas na visualização Autor:
 
 **Inserir Antes/Inserir Depois** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
@@ -386,4 +386,4 @@ Você pode acessar a visualização de um mapa em:
    - O tópico atual na visualização do mapa também é destacado na árvore do mapa.
 
 
-**Tópico pai:**[ Trabalhar com o Editor de Mapa](map-editor.md)
+**Tópico pai:** [Trabalhar com o Editor de Mapa](map-editor.md)

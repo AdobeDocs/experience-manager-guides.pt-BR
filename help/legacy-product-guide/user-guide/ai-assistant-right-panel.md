@@ -1,7 +1,7 @@
 ---
 title: Usar o Assistente de IA para criar documentos com inteligência `
 description: Saiba como usar o Assistente de IA para criar documentos com eficiência inteligente no Editor da Web.
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: ae49df3912a5a7a3a01e5eaa08fb9f05249da29f
 workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 0%
@@ -109,12 +109,12 @@ Por exemplo, você pode listar os requisitos do sistema e gerar uma breve descri
 
 
 1. Selecione o conteúdo.
-1. Selecione **Criar atalhos ![ícone de criar descrição curta](./images/ai-create-shortdesc-icon.svg)** para criar uma descrição curta para o tópico atual.
+1. Selecione **Criar descrição curta** ![ai ícone criar descrição curta](./images/ai-create-shortdesc-icon.svg) para criar uma descrição curta para o tópico atual.
 1. Selecione **Aceitar** para criar uma nova descrição curta se ela ainda não estiver presente. Se existir uma descrição curta, é necessário confirmá-la antes de substituí-la pela nova descrição curta.
 
 Você também pode executar as seguintes ações:
-- Selecione **Gerar novamente** para gerar outra descrição curta para o seu tópico, como as ferramentas de IA.
 
+- Selecione **Gerar novamente** para gerar outra descrição curta para o seu tópico, como as ferramentas de IA.
 - Selecione **Expandir** para abrir o editor **Criar atalhos**.
 
 ![assistente de ia criar editor de descrição curta](./images/ai-assistant-create-short-desc.png)
