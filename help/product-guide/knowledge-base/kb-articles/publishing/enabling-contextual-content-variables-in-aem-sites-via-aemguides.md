@@ -1,16 +1,17 @@
 ---
-title: Ativação de variáveis de conteúdo contextual (CCVAR) no AEM Sites via AEM Guides
-description: Trabalhar com variáveis de conteúdo contextual (CCVAR) no AEM Sites via AEM Guides
+title: Ativação das Variáveis de conteúdo contextual (CCVAR) nas páginas do AEM Sites geradas pelo AEM Guides
+description: Trabalhar com variáveis de conteúdo contextual (CCVAR) em páginas do AEM Sites geradas pelo AEM Guides
 feature: Web Editor
 role: User, Admin
-source-git-commit: cd5b8329153f598365a640f50d2c003af72dac50
+exl-id: f9adbb3f-6c1c-4d6f-b55d-1fb45acca91a
+source-git-commit: 4020534552bdb77545c2a283f2a90adc3aebc729
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '473'
 ht-degree: 1%
 
 ---
 
-# Ativação de variáveis de conteúdo contextual (CCVAR) no AEM Sites via AEM Guides
+# Ativação das Variáveis de conteúdo contextual (CCVAR) nas páginas do AEM Sites geradas pelo AEM Guides
 
 As Variáveis de conteúdo contextual (CCVAR) são um recurso ACS Commons que permite aos autores usar variáveis de conteúdo dinâmico diretamente no texto criado. Embora o CCVAR seja usado com frequência no AEM Sites, este artigo explica como obter funcionalidade semelhante por meio de páginas geradas a partir do conteúdo criado no **AEM Guides** *principalmente usando palavras-chave definidas no mapa DITA*.
 
@@ -20,7 +21,7 @@ As Variáveis de conteúdo contextual (CCVAR) são um recurso ACS Commons que pe
 A CCVAR permite que os autores insiram variáveis dinâmicas em seu conteúdo, que é resolvido no tempo de execução com base no contexto. Por exemplo, variáveis como `((page_properties.pageTitle))` podem obter dinamicamente o título da página durante a renderização do conteúdo.
 
 
-## Como ativar o CVAR no AEM Sites gerado pela AEM Guides?
+## Como ativar a CVAR em páginas do AEM Sites geradas pelo AEM Guides?
 
 Considerando que o AEM Guides é usado como a fonte de todo o conteúdo (incluindo AEM Sites, PDF ou HTML5), para habilitar CCVARs em páginas geradas pelo AEM Guides, é necessário usar palavras-chave para definir o nome do CCVAR. Para fazer isso em Guias, defina **palavras-chave** no mapa DITA usando elementos `<keydef>`. Essas palavras-chave podem corresponder a valores dinâmicos (ou nomes CVAR), permitindo que você as referencie em seus tópicos DITA.
 

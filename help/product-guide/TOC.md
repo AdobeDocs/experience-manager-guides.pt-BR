@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leia a documentação do produto do Adobe Experience Manager Guides.
 breadcrumb-title: Documentação do AEM Guides
-source-git-commit: 6d0648ddaabffe84c923afe7c531eea902406c1c
+source-git-commit: 4020534552bdb77545c2a283f2a90adc3aebc729
 workflow-type: tm+mt
-source-wordcount: '2011'
+source-wordcount: '2016'
 ht-degree: 6%
 
 ---
@@ -511,5 +511,5 @@ ht-degree: 6%
       - Casos de uso {#use-cases}
          - [Trabalhar com conteúdo condicional](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
          - [Trabalhar com chaves](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
-         - [Ativação de variáveis de conteúdo contextuais no aemsites via aemguides](./knowledge-base/kb-articles/publishing/enabling-contextual-content-variables-in-aem-sites-via-aemguides.md)
+         - [Ativação das Variáveis de conteúdo contextual (CCVAR) nas páginas do AEM Sites geradas pelo AEM Guides](./knowledge-base/kb-articles/publishing/enabling-contextual-content-variables-in-aem-sites-via-aemguides.md)
    - [Usar conector de oxigênio](./oxygen-connector/use-aem-connector.md)
