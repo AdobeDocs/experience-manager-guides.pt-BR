@@ -1,9 +1,10 @@
 ---
 title: Notas de versão | Correção de problemas na versão 2024.12.0 do Adobe Experience Manager Guides
 description: Saiba mais sobre as correções de erros na versão 2024.12.0 do Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: f643a4a22151af2ff14288ab3885c1a6657a80ca
+exl-id: 04a57e1a-6e74-46f6-acde-5045d3dcacdc
+source-git-commit: dd404c42863f0b4a5f31b54f770c0bf296d68ab9
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '408'
 ht-degree: 1%
 
 ---
@@ -40,3 +41,30 @@ Saiba mais sobre [as instruções de atualização para a versão 2024.12.0](./u
 ## Tradução
 
 - A tradução de mapas usando a linha de base torna-se lenta e eventualmente não carrega a lista de todos os tópicos associados e mapeia arquivos. (1973)
+
+## Problemas conhecidos com a solução alternativa
+
+O Adobe identificou os seguintes problemas conhecidos na versão 2024.12.0 do Adobe Experience Manager Guides as a Cloud Service.
+
+**Falha na criação do projeto ao processar a tradução do conteúdo**
+
+Ao enviar conteúdo para tradução, a criação do projeto falha com os seguintes erros de log:
+
+`com.adobe.cq.wcm.translation.impl.TranslationPrepareResource` Erro ao processar projeto de tradução
+
+`com.adobe.cq.projects.api.ProjectException`: Não é possível criar o projeto
+
+Causado por: `org.apache.jackrabbit.oak.api.CommitFailedException`: `OakAccess0000`: Acesso negado
+
+
+**Solução alternativa**: para resolver esse problema, execute as seguintes etapas alternativas:
+
+1. Adicione um arquivo de repoinit. Caso o arquivo não exista, crie o arquivo executando as [etapas de criação da configuração de repoinit de amostra](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-cloud-questions/repoinit-configuration-for-property-set-on-aem-as-cloud-service/m-p/438854).
+2. Adicione a seguinte linha no arquivo e implante o código:
+
+   ```
+   { "scripts": [ "set principal ACL for translation-job-service\n allow jcr:all on /home/users/system/cq:services/internal/translation\nend" ] }
+   ```
+
+3. Testar a conversão após a implantação.
+
