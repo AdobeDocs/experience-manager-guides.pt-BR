@@ -2,7 +2,7 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leia a documentação do produto do Adobe Experience Manager Guides.
 breadcrumb-title: Documentação do AEM Guides
-source-git-commit: 293d2fd9c015a4ec516080b9e5dfed32b96639b7
+source-git-commit: 7252254443b5f1fee8c51e49efe23da418e46d50
 workflow-type: tm+mt
 source-wordcount: '2040'
 ht-degree: 6%
@@ -258,7 +258,7 @@ ht-degree: 6%
          - [Gerenciar arquivos e pastas](./user-guide/authoring-file-management.md)
          - [Baixar arquivos](./user-guide/authoring-download-assets.md)
 - Guia do Usuário (Interface Antiga) {#user-guide-old-ui}
-   - [visão geral do AEM Guides)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [visão geral do AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Instalação e configuração {#install-guide}
    - No local {#on-prem-ig}
       - [Noções básicas no local](./install-guide/introduction.md)
