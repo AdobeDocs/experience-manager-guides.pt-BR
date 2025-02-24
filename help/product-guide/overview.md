@@ -4,7 +4,7 @@ description: Encontre vídeos tutoriais do Experience Manager Guides (antigo XML
 exl-id: 06dd1b77-1a98-430f-8322-475d4fa4947b
 feature: AEM Guides Tutorials
 role: User
-source-git-commit: 67d6b6f59e5d8c37389a181949ce4527760576e2
+source-git-commit: 293d2fd9c015a4ec516080b9e5dfed32b96639b7
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 1%
@@ -37,61 +37,10 @@ Com a solução [!DNL Experience Manager Guides], as empresas podem oferecer exp
 
   _Saiba como gerar saída usando o [!DNL Adobe Experience Manager Guides]. Saiba mais sobre os vários recursos disponíveis para geração de saída - relatórios, linhas de base, condições, solução de problemas, publicação e ativação em massa._
 
-<!--
-
-Dummy links cause validation to fail
-
-## Staff Picks
-
-<table>
-<tr>
-  <td>
-    <a href="#">
-      <img alt="400 x 225px" src="myimage.png" />
-    </a>
-    <div>
-      <a href="#">
-    <strong>Enablement Content 1</strong>
-    </a>
-    </div>
-    <p>
-    <em>A brief description of enablement content.</em>
-    <p>
-  </td>
-   <td>
-    <a href="#">
-      <img alt="400 x 225px" src="myimage.png" />
-    </a>
-    <div>
-      <a href="#">
-    <strong>Enablement Content 1</strong>
-    </a>
-    </div>
-    <p>
-    <em>A brief description of enablement content.</em>
-    <p>
-  </td>
-  <td>
-    <a href="#">
-      <img alt="400 x 225px" src="myimage.png" />
-    </a>
-    <div>
-      <a href="#">
-    <strong>Enablement Content 1</strong>
-    </a>
-    </div>
-    <p>
-    <em>A brief description of enablement content.</em>
-    <p>
-  </td>
-</tr>
-</table>
-
--->
 
 ## Recursos adicionais
 
-* [[!DNL Experience Manager Guides] Guia do Usuário (Interface Antiga)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-legacy/user-guide/overview)
+* [[!DNL Experience Manager Guides] Guia do Usuário (Interface Antiga)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 * [[!DNL AEM Guides] Aprendizagem e Suporte](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
 * [Experience League - Explorar o AEM](https://business.adobe.com/br/products/experience-manager/adobe-experience-manager.html)
 

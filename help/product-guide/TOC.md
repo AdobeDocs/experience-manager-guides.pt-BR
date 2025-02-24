@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leia a documentação do produto do Adobe Experience Manager Guides.
 breadcrumb-title: Documentação do AEM Guides
-source-git-commit: ab7e91306d9a5253205e773f148d789141b9b0d1
+source-git-commit: 293d2fd9c015a4ec516080b9e5dfed32b96639b7
 workflow-type: tm+mt
-source-wordcount: '2034'
+source-wordcount: '2040'
 ht-degree: 6%
 
 ---
@@ -126,7 +126,8 @@ ht-degree: 6%
       - [!DNL AEM Guides] trabalhando e recursos principais {#aemg-works-features}
          - [Como [!DNL AEM Guides] funciona](./user-guide/intro-how-dxml-works.md)
          - [Recursos da chave [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
-   - [Experiência da página inicial [!DNL AEM Guides]](./user-guide/intro-home-page.md)
+   - Página inicial {#home-page}
+      - [Experiência da página inicial [!DNL AEM Guides]](./user-guide/intro-home-page.md)
    - Conteúdo do autor {#author-content}
       - [Visão geral de criação](./user-guide/authoring-content.md)
       - [Maneiras de criar conteúdo usando o AEM Guides](./user-guide/authoring-content-xml-doc.md)
@@ -158,7 +159,7 @@ ht-degree: 6%
          - [Usar o editor DITAVAL](./user-guide/ditaval-editor.md)
       - Ferramentas de área de trabalho para criação de conteúdo {#author-using-desktop-tools}
          - [Criar conteúdo usando ferramentas de desktop](./user-guide/author-desktop-tools.md)
-   - Revisão {#review}
+   - Revisar conteúdo {#review}
       - [Introdução à revisão](./user-guide/review.md)
       - [Criar um projeto DITA](./user-guide/authoring-create-dita-project.md)
       - [Enviar tópicos para revisão](./user-guide/review-send-topics-for-review.md)
@@ -177,6 +178,19 @@ ht-degree: 6%
    - Gerenciamento e publicação de mapas {#map-management-publishing}
       - [Visão geral do console de mapa](./user-guide/map-console-overview.md)
       - [Abrir arquivos no console de Mapa](./user-guide/open-files-map-console.md)
+      - Relatórios {#reports-aem-guide}
+         - [Introdução aos relatórios](./user-guide/reports-intro.md)
+         - [Relatório de mapa DITA do console Mapa](./user-guide/reports-web-editor.md)
+         - [Relatório de mapa DITA no painel Mapa](./user-guide/reports-ditamap.md)
+         - [Relatório de reutilização de conteúdo](./user-guide/reports-content-reuse.md)
+         - [Relatório de status de conversão](./user-guide/reports-convertion-status.md)
+         - [Relatório de histórico de versão de arquivos revertidos](./user-guide/reports-reverted-file-version-history.md)
+      - Tradução de conteúdo {#translate-content}
+         - [Visão geral da tradução de conteúdo](./user-guide/translation.md)
+         - [Práticas recomendadas para tradução de conteúdo](./user-guide/translation-first-time.md)
+         - [Traduzir documentos no console Mapa](./user-guide/translate-documents-web-editor.md)
+         - [Exibir status da tradução](./user-guide/translation-view-trans-state-6234.md)
+         - [Traduzir tópicos modificados](./user-guide/translation-modified-topics-6234.md)
       - Geração de saída {#output-gen}
          - [Noções básicas de geração de saída](./user-guide/generate-output.md)
          - Predefinições de saída no AEM Guides {#output-presets-aemg}
@@ -203,19 +217,6 @@ ht-degree: 6%
          - [Gerenciar predefinições de saída de perfil global e de pasta](./user-guide/web-editor-manage-output-presets.md)
          - [Use variáveis para definir as opções Caminho de destino, Nome do site ou Nome do arquivo](./user-guide/generate-output-use-variables.md)
          - [Transmita os metadados para a saída usando DITA-OT](./user-guide/pass-metadata-dita-ot.md)
-         - Relatórios {#reports-aem-guide}
-            - [Introdução aos relatórios](./user-guide/reports-intro.md)
-            - [Relatório de mapa DITA do console Mapa](./user-guide/reports-web-editor.md)
-            - [Relatório de mapa DITA no painel Mapa](./user-guide/reports-ditamap.md)
-            - [Relatório de reutilização de conteúdo](./user-guide/reports-content-reuse.md)
-            - [Relatório de status de conversão](./user-guide/reports-convertion-status.md)
-            - [Relatório de histórico de versão de arquivos revertidos](./user-guide/reports-reverted-file-version-history.md)
-         - Tradução de conteúdo {#translate-content}
-            - [Visão geral da tradução de conteúdo](./user-guide/translation.md)
-            - [Práticas recomendadas para tradução de conteúdo](./user-guide/translation-first-time.md)
-            - [Traduzir documentos no console Mapa](./user-guide/translate-documents-web-editor.md)
-            - [Exibir status da tradução](./user-guide/translation-view-trans-state-6234.md)
-            - [Traduzir tópicos modificados](./user-guide/translation-modified-topics-6234.md)
          - Gerar saída {#generate-output}
             - [Gerar saída para um mapa DITA](./user-guide/generate-output-for-a-dita-map.md)
             - [Gerar saída da knowledge base](./user-guide/web-editor-article-publishing.md)
@@ -228,12 +229,12 @@ ht-degree: 6%
          - [Gerenciar processo de geração de saída](./user-guide/generate-output-manage-process.md)
          - [Gerenciar tarefas de publicação usando o Painel de publicação](./user-guide/generate-output-publish-dashboard.md)
          - [Solução básica de problemas](./user-guide/generate-output-basic-troubleshooting.md)
-         - Ativação em massa do conteúdo {#bulk-activation}
-            - [Ativação em massa de conteúdo publicado](./user-guide/conf-bulk-activation.md)
-            - [Criar uma coleção de mapas de ativação em massa](./user-guide/conf-bulk-activation-create-map-collection.md)
-            - [Ativar saída](./user-guide/conf-bulk-activation-publish-map-collection.md)
-            - [Editar uma coleção de mapas de ativação em massa](./user-guide/conf-bulk-activation-edit-map-collection.md)
-            - [Excluir uma coleção de mapas de ativação em massa](./user-guide/conf-bulk-activation-delete-map-collection.md)
+      - Ativação em massa do conteúdo {#bulk-activation}
+         - [Ativação em massa de conteúdo publicado](./user-guide/conf-bulk-activation.md)
+         - [Criar uma coleção de mapas de ativação em massa](./user-guide/conf-bulk-activation-create-map-collection.md)
+         - [Ativar saída](./user-guide/conf-bulk-activation-publish-map-collection.md)
+         - [Editar uma coleção de mapas de ativação em massa](./user-guide/conf-bulk-activation-edit-map-collection.md)
+         - [Excluir uma coleção de mapas de ativação em massa](./user-guide/conf-bulk-activation-delete-map-collection.md)
    - Geração de saída de documentos do FrameMaker {#generate-fm-output}
       - [Noções básicas de geração de saída do FrameMaker](./user-guide/fm-output-generatation.md)
       - Predefinições com suporte {#fm-docs-generating-presets}
@@ -256,7 +257,8 @@ ht-degree: 6%
          - [Fazer upload de arquivos](./user-guide/authoring-upload-existing-files.md)
          - [Gerenciar arquivos e pastas](./user-guide/authoring-file-management.md)
          - [Baixar arquivos](./user-guide/authoring-download-assets.md)
-- [Guia do Usuário (Interface Antiga)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+- Guia do Usuário (Interface Antiga) {#user-guide-old-ui}
+   - [visão geral do AEM Guides)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Instalação e configuração {#install-guide}
    - No local {#on-prem-ig}
       - [Noções básicas no local](./install-guide/introduction.md)
