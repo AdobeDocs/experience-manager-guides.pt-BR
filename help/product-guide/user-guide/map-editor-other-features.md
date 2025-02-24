@@ -1,19 +1,19 @@
 ---
 title: Outros recursos nos editores de mapa
-description: Descubra alguns recursos comuns nos Editores de mapa básico e avançado. Saiba como resolver referências principais no Editor de mapa.
+description: Descubra alguns recursos comuns no Editor de mapas. Saiba como resolver referências principais no Editor de mapa.
 exl-id: f0e7a402-ac12-4c63-9d7f-92567ee29a39
 feature: Authoring, Map Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 594e348fc1188e66cf2f4648702ed2b17f1f8f33
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
 
-# Outros recursos nos editores de mapa {#id1942D0T0HUI}
+# Recursos adicionais no editor de mapas {#id1942D0T0HUI}
 
-Alguns recursos comuns nos Editores de mapa básico e avançado são:
+Alguns recursos comuns no Editor de mapas são:
 
 ## Resolver referências de chave {#id176GD01H05Z}
 
@@ -29,7 +29,7 @@ As referências principais são resolvidas com base no mapa raiz definido na seg
 
 O mapa raiz selecionado nas Preferências do usuário tem a precedência mais alta para resolver referências principais seguidas pelo painel Exibição de mapa e pelo mapa raiz do Perfil de pasta. Portanto, se nenhum mapa estiver definido nas Preferências do usuário, o mapa aberto no painel Exibição de mapa será usado. Se nenhum mapa for aberto no painel Exibição de mapa, o conjunto de mapas nos Perfis de pasta será usado para resolver as referências principais.
 
-As referências de chave podem ser armazenadas em um arquivo de mapa DITA ou em um arquivo DITA separado. No AEM Guides, você pode especificar referências principais no nível do projeto ou no nível de uma sessão. Se um mapa raiz já estiver definido para a sessão do usuário, ele será usado para resolver as chaves. Caso contrário, o mapa raiz padrão para essa pasta será usado. Caso um mapa raiz padrão não esteja configurado, as referências de chave ausentes são realçadas para o usuário.
+As referências de chave podem ser armazenadas em um arquivo de mapa DITA ou em um arquivo DITA separado. No Experience Manager Guides, você pode especificar referências principais no nível do projeto ou no nível de uma sessão. Se um mapa raiz já estiver definido para a sessão do usuário, ele será usado para resolver as chaves. Caso contrário, o mapa raiz padrão para essa pasta será usado. Caso um mapa raiz padrão não esteja configurado, as referências de chave ausentes são realçadas para o usuário.
 
 Há várias maneiras de resolver referências principais em um tópico DITA definindo o mapa DITA a ser usado nos seguintes locais:
 
@@ -37,8 +37,8 @@ Há várias maneiras de resolver referências principais em um tópico DITA defi
 
 Esse mapa raiz será aplicável a todos os ativos \(pastas e subpastas\) associados a esse projeto. Para um conteúdo referenciado em vários projetos, uma lista em ordem alfabética de projetos é mantida e o mapa raiz padrão associado ao primeiro projeto é usado. Você também pode escolher o mapa DITA a ser usado na lista para resolver referências principais.
 
-**Visualização do tópico** - No modo de visualização do tópico, clique no ícone Resolução de Chave na barra de ferramentas e selecione o arquivo DITA a ser usado para as referências de chave.
+**Visualização do tópico** - No modo de visualização do tópico, selecione o ícone Resolução de Chave na barra de ferramentas e selecione o arquivo DITA a ser usado para as referências de chave.
 
-**Modo de exibição de edição de tópico** - Clique no ícone Resolução de Chave ao editar um tópico DITA e selecione o arquivo DITA a ser usado para resolver as referências de chave.
+**Modo de exibição de edição de tópico** - Selecione o ícone Resolução de Chave ao editar um tópico DITA e selecione o arquivo DITA a ser usado para resolver as referências de chave.
 
-**Tópico pai:**[ Trabalhar com o Editor de Mapa](map-editor.md)
+**Tópico pai:**[ Introdução ao Editor de Mapa](map-editor.md)

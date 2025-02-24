@@ -1,70 +1,44 @@
 ---
-title: Gerar PDF
-description: Saiba como criar uma predefinição de PDF no editor da Web e no painel de mapa. Configure a predefinição de saída de PDF no AEM Guides.
+title: Tipos de predefinição do PDF
+description: Saiba mais sobre os tipos de predefinição do PDF que você pode criar usando o Adobe Experience Manager Guides.
 exl-id: f12c91fd-3f95-478e-a9cd-68d037206ee8
 feature: Publishing
 role: User
-source-git-commit: c2a97a134b9e7367689778a2a1e1f4bbead9860b
+source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
 workflow-type: tm+mt
-source-wordcount: '1032'
-ht-degree: 1%
+source-wordcount: '324'
+ht-degree: 0%
 
 ---
 
-# PDF {#id205BE600HAH}
+# Visão geral da predefinição de saída do PDF {#id205BE600HAH}
 
-É possível criar a predefinição de PDF de duas maneiras:
+Com o Experience Manager Guides, é possível criar predefinições do PDF para gerar PDFs de tópicos individuais ou um arquivo de mapa inteiro. Você pode publicar seu conteúdo em um formato PDF usando um dos três métodos abaixo:
 
-**No Editor da Web:** no painel Repositório, abra o arquivo de mapa DITA no Modo de Exibição de Mapa e, na guia Saída, selecione o ícone + para criar uma predefinição de saída e, em seguida, selecione PDF no menu suspenso de tipo na caixa de diálogo Adicionar predefinição.
+**DITA-OT**
+
+Use esse método para gerar uma saída PDF para um mapa no console Mapa ou no painel Mapa. É possível definir as propriedades de publicação antes de gerar o PDF, criando uma predefinição de saída para o mapa que está aberto no console do Mapa ou no painel do Mapa.
+
+Para obter mais informações sobre como criar uma predefinição de saída do PDF usando o método DITA-OT, exiba [Criar predefinição de saída do DITA-OT PDF](./generate-output-pdf-dita-ot.md)
+
+**FrameMaker Publishing Server (FMPS)**
 
 >[!NOTE]
 >
-> Você pode escolher o método para gerar o PDF usando DITA-OT, PDF nativo ou FMPS \(se o administrador do sistema o tiver configurado\).
+> A opção de publicação FMPS só está disponível no painel Mapa.
 
-No editor da Web, as configurações foram organizadas em guias Gerais e Avançadas:
+Use esse método para gerar uma saída do PDF não apenas a partir do conteúdo DITA, mas também de documentos do FrameMaker (.book e .fm) disponíveis no repositório do AEM. O PDF pode ser criado configurando uma predefinição de saída e publicado usando o FrameMaker Publishing Server (FMPS). Você pode projetar e configurar a aparência da saída para o PDF e outros formatos e armazenar a mesma em um arquivo de configuração (.sts). Esse arquivo de configuração é então usado pelo FMPS para gerar saída para um mapa DITA ou arquivo .book. Para criar ou editar uma predefinição de saída, exiba [Noções básicas sobre as predefinições de saída](../user-guide/generate-output-understand-presets.md).
 
-**Geral**
+Para obter mais informações sobre como configurar o FMPS, exiba [Gerar saída de documentos do FrameMaker](../user-guide/fm-output-generatation.md).
 
-A guia **Geral** contém as seguintes configurações:
+**PDF nativo**
 
-- Caminho de saída
-- Argumentos de linha de comando DITA-OT
-- Nome da transformação
-- Nome de arquivo do PDF
-- Aplicar Condições Usando \(Se as condições forem definidas para um mapa\)
-- Usar Linha de Base \(Se uma linha de base for criada para um mapa\)
-- Fluxo de trabalho de pós-geração
+Use este método para gerar uma saída de PDF repleta de recursos com base nos padrões W3C CSS3 e CSS de mídia paginada. Com a publicação no PDF nativo, você pode usar modelos para definir o layout e o estilo do conteúdo e aplicar várias configurações para ajustar o PDF. Além disso, você pode modificar e criar seus próprios modelos com o editor de modelos.
 
-**Avançado**
+Para obter mais informações sobre a criação da predefinição nativa do PDF, exiba [Criar predefinição de saída nativa do PDF](../web-editor/native-pdf-web-editor.md).
 
-A guia Advanced contém as seguintes configurações:
 
-- Ativar controle de versão
-- Reter arquivos temporários
 
-Para obter detalhes, consulte [configuração de PDF](#id231KIM004X1).
 
-**No painel de mapa**
-
-Para abrir predefinições de saída para o PDF, clique em um arquivo de mapa DITA na interface do usuário do Assets, em seguida, clique em Predefinições de saída e, em seguida, clique na opção PDF. No painel Mapa, clique em **Editar** na parte superior para atualizar as várias configurações e clique em **Salvar**.
-
-**configuração de PDF**
-
-As seguintes opções estão disponíveis para a saída de PDF:
-
-| opções de PDF | Descrição |
-| --- | --- |
-| Tipo de saída | O tipo de saída que você deseja gerar. Para gerar saída de PDF, escolha a opção PDF. |
-| Nome de configuração | Dê um nome descritivo para as configurações de saída de PDF que você está criando. Por exemplo, você pode especificar _saída de clientes internos_ ou _saída de usuários finais_. |
-| Argumentos de linha de comando DITA-OT | Especifique os argumentos adicionais que você deseja que o DITA-OT processe ao gerar saída. Para obter detalhes sobre os argumentos de linha de comando com suporte no DITA-OT, consulte a [documentação do DITA-OT](https://www.dita-ot.org/). |
-| Aplicar condições usando | Selecione uma das seguintes opções:<br><br>* **Nenhuma aplicada**: selecione esta opção se não quiser aplicar nenhuma condição na saída publicada.<br>* **Arquivo DITAVal**: selecione o(s) arquivo(s) DITAVal para gerar conteúdo personalizado. Você pode selecionar vários arquivos DITAVal usando a caixa de diálogo Procurar ou digitando o caminho do arquivo. Use o ícone de cruz próximo ao nome do arquivo para removê-lo. Os arquivos DITAVal são avaliados na ordem especificada, de modo que as condições especificadas no primeiro arquivo têm precedência sobre as condições correspondentes especificadas em arquivos posteriores. É possível manter a ordem dos arquivos adicionando ou excluindo arquivos. Se o arquivo DITAVal for movido para algum outro local ou excluído, ele não será excluído automaticamente do painel de mapa. Você precisa atualizar o local caso os arquivos sejam movidos ou excluídos. Você pode passar o mouse sobre o nome do arquivo para ver o caminho no repositório AEM onde o arquivo está armazenado. Você só pode selecionar arquivos DITAVal e um erro será exibido se você tiver selecionado qualquer outro tipo de arquivo. O FrameMaker Publishing Server não é compatível com vários arquivos DITAVAL.<br>* **Predefinição de condição**: selecione uma predefinição de condição no menu suspenso para aplicar uma condição ao publicar a saída. A opção estará visível se você tiver adicionado uma condição na guia Predefinições de condição do console do mapa DITA. Para saber mais sobre a predefinição de condição, consulte [Usar predefinições de condição](generate-output-use-condition-presets.md#id1825FL004PN). |
-| Gerar PDF usando | Selecione DITA-OT para gerar o PDF. |
-| Executar fluxo de trabalho de pós-geração | Ao escolher essa opção, uma nova lista suspensa Fluxo de trabalho de pós-geração é exibida contendo todos os fluxos de trabalho configurados no AEM. Você deve selecionar um workflow que deseja executar após a conclusão do workflow de geração de saída.<br><br>**Observação**: para obter mais informações sobre como criar um fluxo de trabalho personalizado de geração de pós-saída, consulte Personalizar fluxo de trabalho de geração de pós-saída em Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service. |
-| Nome da transformação | Especifique o tipo de saída que deseja gerar. Isso é necessário se você quiser gerar saída usando seu próprio plug-in personalizado, que está integrado ao plug-in DITA-OT. Por exemplo, se você deseja gerar saída XHTML, especifique `xhtml`. Para obter uma lista de transformações disponíveis no DITA-OT, consulte [Transformações do DITA-OT (formatos de saída)](http://www.dita-ot.org/2.3/user-guide/AvailableTransforms.html) no Guia do Usuário do OASIS DITA-OT. |
-| Nome do arquivo | Especifique o nome do arquivo com o qual deseja salvar o PDF.<br><br>Você também pode usar variáveis ao definir o Nome do Arquivo PDF. Para obter mais detalhes sobre o uso de variáveis, consulte [Usar variáveis para definir as opções Caminho de Destino, Nome do Site ou Nome do Arquivo](generate-output-use-variables.md#id18BUG70K05Z).<br><br>**Observação**: se você não fornecer um nome de arquivo, o título do mapa DITA será usado para gerar o nome final do arquivo de PDF. Se o mapa não tiver um título, o nome do arquivo do mapa DITA será usado para nomear o PDF final. O nome do arquivo é limpo usando as regras configuradas no sistema para lidar com qualquer caractere inválido. |
-| Caminho de destino | O caminho no repositório AEM onde o PDF está armazenado.<br><br>Você também pode usar variáveis ao definir o Caminho de Destino. Para obter mais detalhes sobre o uso de variáveis, consulte [Usar variáveis para definir as opções Caminho de Destino, Nome do Site ou Nome do Arquivo](generate-output-use-variables.md#id18BUG70K05Z). |
-| Reter arquivos temporários | Selecione essa opção para manter os arquivos temporários gerados pelo DITA-OT. Se ocorrerem erros durante a geração de saída pelo DITA-OT, selecione essa opção para manter os arquivos temporários. Você pode usar esses arquivos para solucionar erros de geração de saída.<br> <br> Depois de gerar a saída, selecione o ícone **Baixar arquivos temporários** ![baixar arquivos temporários](images/download-temp-files-icon.png) para baixar a pasta ZIP que contém os arquivos temporários. <br><br> **Observação**: se as propriedades do arquivo forem adicionadas durante a geração, os arquivos temporários de saída também incluirão um arquivo *metadata.xml* contendo essas propriedades. |
-| Usar Linha de Base | Se tiver criado uma Linha de Base para o mapa DITA selecionado, selecione essa opção para especificar a versão que deseja publicar.<br><br>Consulte [Trabalhar com Linha de Base](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) para obter mais detalhes. |
-| Propriedades do arquivo | Selecione as propriedades que deseja processar como metadados. Essas propriedades são definidas na página Propriedades do mapa DITA ou do arquivo de mapa. As propriedades selecionadas na lista suspensa aparecem no campo **Propriedades do arquivo**. Selecione o ícone cruzado ao lado da propriedade para removê-la. <br><br>Observação: você também pode passar os metadados para a saída usando a publicação DITA-OT. Para obter mais detalhes, [Passe os metadados para a saída usando DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
 
 **Tópico pai:**[ Noções básicas sobre as predefinições de saída](generate-output-understand-presets.md)

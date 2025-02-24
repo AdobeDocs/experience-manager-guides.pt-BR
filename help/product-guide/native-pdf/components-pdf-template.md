@@ -1,26 +1,26 @@
 ---
-title: Recurso nativo do PDF Publish | Componentes de um modelo de PDF
-description: Saiba mais sobre os vários componentes de um modelo de PDF e como personalizá-los e configurá-los.
+title: Recurso de publicação nativo do PDF | Componentes de um modelo do PDF
+description: Saiba mais sobre os vários componentes de um modelo do PDF e como personalizá-los e configurá-los.
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 47a6819654877e9a4e3e542fa6e5e360b3f3938f
 workflow-type: tm+mt
-source-wordcount: '4975'
+source-wordcount: '4716'
 ht-degree: 0%
 
 ---
 
-# Componentes de um modelo de PDF {#components-pdf-template}
+# Componentes de um modelo do PDF {#components-pdf-template}
 
-Um modelo de PDF tem quatro componentes: Layouts de página, Folhas de estilos, Recursos e Configurações. Você pode criar um modelo personalizando esses componentes individuais e associando o modelo a uma predefinição de saída ao gerar uma saída de PDF. As seções a seguir abordam esses componentes e seu processo de personalização em detalhes.
+Um modelo do PDF tem quatro componentes: Layouts de página, Folhas de estilos, Recursos e Configurações. É possível criar um modelo personalizando esses componentes individuais e associando o modelo a uma predefinição de saída ao gerar uma saída do PDF. As seções a seguir abordam esses componentes e seu processo de personalização em detalhes.
 
 
 ## Criar e personalizar layouts de página {#create-customize-page-layout}
 
-As configurações no componente Layouts de página permitem que você crie a estrutura de uma página definindo o cabeçalho, o rodapé e a área de conteúdo em uma página. Usando o editor de layout de página WYSIWYG, você pode criar um layout de página para diferentes seções em um PDF, como as páginas de capa frontal e traseira, capítulo, Tabela de
-Conteúdo (índice), índice, página em branco, Páginas de primeiro plano, Páginas de segundo plano, Lista de figuras (LOF), Lista de tabelas (LOT), glossário ou criar um layout para uma página personalizada. Nas Configurações do modelo de PDF, é possível atribuir um layout de página com diferentes seções dentro de um PDF, que são usadas para gerar a saída de PDF.
+As configurações no componente Layouts de página permitem que você crie a estrutura de uma página definindo o cabeçalho, o rodapé e a área de conteúdo em uma página. Usando o editor de layout de página do WYSIWYG, você pode criar um layout de página para diferentes seções em uma PDF, como as páginas de capa frontal e traseira, capítulo, Tabela de
+Conteúdo (índice), índice, página em branco, Páginas de primeiro plano, Páginas de segundo plano, Lista de figuras (LOF), Lista de tabelas (LOT), glossário ou criar um layout para uma página personalizada. Nas Configurações do modelo do PDF, é possível atribuir um layout de página com diferentes seções em um PDF, que são usadas para gerar a saída do PDF.
 
 ### Criar um novo layout de página {#create-page-layout}
 
@@ -87,14 +87,13 @@ Uma cópia do layout de página selecionado é criada e adicionada em Layouts de
 
 ## Usar folhas de estilos para personalizar o PDF {#stylesheet-customization}
 
-As configurações no componente Folhas de estilos permitem estilizar os componentes do layout da página e o conteúdo DITA usando o editor WYSIWYG ou trabalhar diretamente com o arquivo CSS. Você pode criar seus próprios estilos ou personalizar as propriedades de estilo padrão. O editor WYSIWYG fornece acesso à maioria das propriedades que seriam necessárias para criar o estilo do layout da página ou do conteúdo DITA. Para personalizações avançadas, você pode trabalhar diretamente na visualização do Source.
+As configurações no componente Folha de estilos permitem estilizar os componentes do layout da página e o conteúdo DITA usando o editor de WYSIWYG ou trabalhar diretamente com o arquivo CSS. Você pode criar seus próprios estilos ou personalizar as propriedades de estilo padrão. O editor do WYSIWYG fornece acesso à maioria das propriedades que seriam necessárias para criar o estilo do layout da página ou do conteúdo DITA. Para personalizações avançadas, você pode trabalhar diretamente na visualização do Source.
 
 ### Criar uma nova folha de estilos {#create-stylesheet}
 
 Embora os arquivos CSS sejam fornecidos para conteúdo e layout, você pode criar uma nova folha de estilos para aplicar várias personalizações a um tipo de estilo específico que pode ser aplicado a um componente de destino. Por padrão, os arquivos CSS de amostra são agrupados no produto. Esses arquivos CSS destinam-se a ajudar você a organizar suas informações de estilo em todo o conteúdo e layouts. Você pode optar por mesclar esses estilos em um único arquivo CSS ou em vários arquivos.
 
 Por padrão, sempre que você cria um novo layout de página, o arquivo `layout.css` é incluído no novo layout de página. Se quiser que o layout de página contenha estilos de um arquivo CSS diferente, basta arrastar e soltar o arquivo CSS desejado na área de edição de conteúdo do novo layout de página. Para validar se o arquivo CSS foi incorporado no layout de página, alterne para o modo de exibição do Source e você encontrará um link para o arquivo CSS no elemento `<head>`.
-
 
 Para criar uma folha de estilos, siga as etapas abaixo:
 1. No painel **Modelos**, siga um destes procedimentos:
@@ -174,7 +173,7 @@ Saiba mais sobre como usar o editor de estilos para [trabalhar com os estilos de
 
 ## Trabalhar com recursos {#work-with-resources}
 
-Este é um contêiner de todos os ativos usados para criar um modelo. Pense nisso como uma pasta, que contém ativos como imagens de fundo, fontes personalizadas, logotipos e muito mais. Sempre que você adiciona um ativo no modelo, ele é carregado ou registrado na pasta de ativos. Em seguida, você pode usar esses ativos para personalizar ou projetar seus modelos de PDF.
+Este é um contêiner de todos os ativos usados para criar um modelo. Pense nisso como uma pasta, que contém ativos como imagens de fundo, fontes personalizadas, logotipos e muito mais. Sempre que você adiciona um ativo no modelo, ele é carregado ou registrado na pasta de ativos. Em seguida, você pode usar esses ativos para personalizar ou projetar seus modelos do PDF.
 
 Para adicionar um arquivo de ativo à pasta Recursos, siga as etapas abaixo:
 
@@ -194,10 +193,14 @@ Para adicionar um arquivo de ativo à pasta Recursos, siga as etapas abaixo:
 1. Clique em **Carregar**.
 O arquivo selecionado é importado e listado na pasta Recursos.
 
-## Configurações avançadas de PDF {#advanced-pdf-settings}
+## Configurações avançadas do PDF {#advanced-pdf-settings}
 
-Use a seção Configurações para definir as configurações avançadas para o layout de página de PDF, iniciando em PDF ou página par, formatos para as referências cruzadas e ativando as marcas de impressão no PDF final gerado
+Use a seção Configurações para definir as configurações avançadas para o layout de página do PDF, iniciando o PDF a partir de página ímpar ou par, formatos para as referências cruzadas e habilitando marcas de impressão no PDF final gerado
 usando o template.
+
+>
+>
+> A partir da versão Experience Manager Guides 5.0/2025.02.0, a seção **Imprimir** das configurações avançadas do PDF foi movida para o painel **Predefinições de saída**. Para definir as configurações de Impressão, exiba [Publicar saída do PDF](../web-editor/native-pdf-web-editor.md#print).
 
 Para configurar, clique em **Configurações** no painel **Modelos** para exibir as seguintes opções:
 
@@ -216,13 +219,13 @@ Defina as configurações básicas para iniciar um capítulo a partir de uma pá
 
   <img src="assets/page-number-in-toc.png" alt="Upload de ativos" width="250">
 
-  No exemplo acima, Configurações avançadas de PDF, Apêndice e Ofício são os títulos de tópico de primeiro nível ou títulos de capítulo. Um número de página é atribuído a todos esses cabeçalhos.
+  No exemplo acima, Configurações avançadas do PDF, Apêndice e Ofício são os títulos de tópico de primeiro nível ou títulos de capítulo. Um número de página é atribuído a todos esses cabeçalhos.
 
   Agora, se você selecionar essa opção e gerar a saída, você obterá o seguinte índice:
 
   <img src="assets/page-number-missing-in-toc.png" alt="Upload de ativos" width="250">
 
-  Aqui você pode notar que o primeiro capítulo Configurações avançadas de PDF não recebe nenhum número de página, pois tem tópicos aninhados ou filhos. Ao passo que um número de página se atribuído ao Apêndice e Legal porque são tópicos independentes sem nenhum tópico secundário.
+  Aqui você pode notar que o primeiro capítulo sobre configurações avançadas do PDF não recebe nenhum número de página, pois tem tópicos aninhados ou secundários. Ao passo que um número de página se atribuído ao Apêndice e Legal porque são tópicos independentes sem nenhum tópico secundário.
 
 * **Não mostrar o número do capítulo no sumário**: selecione esta opção para exibir os nomes dos capítulos sem os números de capítulo no sumário.   Por padrão, os números de capítulo são exibidos no índice da saída do PDF.
 * **Formato de guia**: use o menu suspenso para selecionar linhas pontilhadas, sólidas ou linhas de guia de espaço para conectar níveis de cabeçalho aos números de página correspondentes.
@@ -244,7 +247,7 @@ Você pode definir o texto a ser exibido antes e depois da quebra. Por exemplo, 
    * Habilite o **Glossário** na guia **Ordem de Layout da Página** para obter um mapa DITA.
    * Adicione o Glossário nas Páginas do Back Matter para um mapa de Livros.
 
-  Se você não ativar a página Glossário, os termos do Glossário no conteúdo não serão convertidos em hiperlinks na saída em PDF.
+  Se você não ativar a página Glossário, os termos do Glossário no conteúdo não serão convertidos em hiperlinks na saída do PDF.
   <!--For more information on using table continuation markers, see Use table continuation markers.-->
 
 ### Layouts de página {#page-layouts}
@@ -268,15 +271,15 @@ As seguintes configurações estão disponíveis na seção Layout da página:
 
 * **Lista de Figuras e Lista de Tabelas**: você também pode especificar o layout da página para figuras e tabelas. O layout selecionado será aplicado a todas as figuras e tabelas.
 
-* **Índice**: se você tiver criado um layout de página de Índice, mapeie-o para a opção Índice. Usando as folhas de estilos, é possível estilizar diferentes elementos de índice na saída de PDF. Use os estilos de índice `.idx-header`, `.idx-footer`, `.idx-body`, `.idx-title`, `.idx-keyword-group`, `.idx-unit`, `.idx-keyword`, `.idx-name`, `.idx-link` e `.idx-child` para personalizar os estilos dos elementos do índice.
+* **Índice**: se você tiver criado um layout de página de Índice, mapeie-o para a opção Índice. Usando as folhas de estilos, é possível estilizar diferentes elementos de índice na saída do PDF. Use os estilos de índice `.idx-header`, `.idx-footer`, `.idx-body`, `.idx-title`, `.idx-keyword-group`, `.idx-unit`, `.idx-keyword`, `.idx-name`, `.idx-link` e `.idx-child` para personalizar os estilos dos elementos do índice.
 
 * **Glossário**: se você tiver um layout de página do Glossário, mapeie-o para a opção Glossário.
 
-  Os termos no glossário da sua saída de PDF são sempre classificados em ordem alfabética.
+  Os termos no glossário da sua saída do PDF são sempre classificados em ordem alfabética.
 
-  Você também pode adicionar a tag `sort-as` para definir uma chave de classificação para os termos do glossário. O Experience Manager Guides usa a chave de classificação para classificar os termos do glossário no lugar dos termos do glossário. Se você não tiver definido a chave de classificação, ela usará os termos do glossário para classificação. Por exemplo, você pode adicionar a marca `sort-as` a `glossterm` e definir seu valor como `A` para o termo &quot;USB&quot; (por exemplo, `<glossterm>USB<sort-as>A</sort-as></glossterm>`). Da mesma forma, você pode adicionar a tag `sort-as` e definir seu valor como `B` para o termo &quot;Pen Drive&quot;. Ao classificar esses termos do glossário, a chave de classificação `A` para o termo do glossário &quot;USB&quot; aparece antes da chave de classificação `B` para o termo do glossário &quot;Pen Drive&quot;. Portanto, na saída de PDF, &quot;USB&quot; vem antes de &quot;Pen Drive&quot; na página do glossário.
+  Você também pode adicionar a tag `sort-as` para definir uma chave de classificação para os termos do glossário. O Experience Manager Guides usa a chave de classificação para classificar os termos do glossário no lugar dos termos do glossário. Se você não tiver definido a chave de classificação, ela usará os termos do glossário para classificação. Por exemplo, você pode adicionar a marca `sort-as` a `glossterm` e definir seu valor como `A` para o termo &quot;USB&quot; (por exemplo, `<glossterm>USB<sort-as>A</sort-as></glossterm>`). Da mesma forma, você pode adicionar a tag `sort-as` e definir seu valor como `B` para o termo &quot;Pen Drive&quot;. Ao classificar esses termos do glossário, a chave de classificação `A` para o termo do glossário &quot;USB&quot; aparece antes da chave de classificação `B` para o termo do glossário &quot;Pen Drive&quot;. Portanto, na saída do PDF, &quot;USB&quot; vem antes de &quot;Pen Drive&quot; na página do glossário.
 
-  Usando as folhas de estilos, você pode estilizar diferentes elementos de glossário na saída de PDF. Use os estilos de glossário `.glo-header`, `.glo-footer`, `.glo-body`, `.glo-title`, `.glo-unit`, `.glo-link` e `.glo-term` para personalizar os estilos dos elementos do glossário.
+  Usando as folhas de estilos, é possível estilizar diferentes elementos de glossário na saída do PDF. Use os estilos de glossário `.glo-header`, `.glo-footer`, `.glo-body`, `.glo-title`, `.glo-unit`, `.glo-link` e `.glo-term` para personalizar os estilos dos elementos do glossário.
 
   Saiba mais sobre como usar o editor de estilos para [trabalhar com os estilos de conteúdo comuns](stylesheet.md).
 
@@ -324,7 +327,7 @@ O layout **Capítulo e Tópicos** é sempre habilitado por padrão. Não é poss
 
 **Mesclar páginas**
 
-Por padrão, todas as seções começam em uma nova página. Selecione a opção **Página anterior** ou **Próxima página** na lista suspensa **Mesclar com** para mesclar uma seção com uma página anterior ou seguinte. Isso publicará a seção na continuação com a página selecionada na saída do PDF. Com isso, não haverá quebra de página entre eles.
+Por padrão, todas as seções começam em uma nova página. Selecione a opção **Página anterior** ou **Próxima página** na lista suspensa **Mesclar com** para mesclar uma seção com uma página anterior ou seguinte. Isso publicará a seção em continuação com a página selecionada na saída do PDF. Com isso, não haverá quebra de página entre eles.
 
 >[!NOTE]
 >
@@ -358,13 +361,13 @@ Você também pode executar as seguintes ações:
 
 * Você também pode adicionar um layout personalizado várias vezes e organizá-los. Isso ajuda a publicar o conteúdo estático adequadamente.
 
-  Por exemplo, você pode usar um layout personalizado para publicar um aviso estático várias vezes na saída de PDF.
+  Por exemplo, você pode usar um layout personalizado para publicar um aviso estático várias vezes na saída do PDF.
 
 
 
 ### Organização da página
 
-As páginas em um documento PDF são normalmente publicadas de acordo com o conteúdo organizado no mapa DITA ou no arquivo de mapa. Entretanto, também é possível alterar a ordem das páginas no documento PDF. Por exemplo, você pode imprimir um documento de várias páginas como um livreto. Ao agrupar, dobrar e grampear as folhas, o resultado é um único livro com a ordem de página correta.  Você pode então ler o livreto publicado como um livro.
+As páginas em um documento do PDF normalmente são publicadas de acordo com o conteúdo organizado no mapa DITA ou no arquivo de mapa. No entanto, também é possível alterar a ordem das páginas no documento do PDF. Por exemplo, você pode imprimir um documento de várias páginas como um livreto. Ao agrupar, dobrar e grampear as folhas, o resultado é um único livro com a ordem de página correta.  Você pode então ler o livreto publicado como um livro.
 
 <img src="assets/template-page-organization.png" alt="Organização da página" width="550">
 
@@ -373,7 +376,7 @@ As seguintes configurações estão disponíveis na seção **Organização da p
 
 #### Ordem da página
 
-Selecione uma ordem de página que determine a sequência das páginas no documento PDF. Você pode escolher as seguintes opções na lista suspensa:
+Selecione uma ordem de página que determine a sequência das páginas no documento do PDF. Você pode escolher as seguintes opções na lista suspensa:
 
 * **Padrão**: a ordem padrão das páginas de acordo com o arquivo de origem.
 * **Páginas ímpares primeiro**: todas as páginas ímpares são movidas antes de todas as páginas pares.
@@ -397,37 +400,13 @@ Escolha essa opção para publicar várias páginas em uma única folha de papel
 
 Defina o tamanho da planilha de destino e a orientação na qual deseja publicar a planilha. Você também pode especificar a margem e as propriedades de preenchimento da planilha.
 
-
-
-
-### Imprimir
-
-Configure as configurações de produção de impressão para atribuir marcas de impressora, selecionar modelos de cores e especificar propriedades relacionadas à impressão da saída de PDF.
-
-* **Marcas da impressora**: quando você prepara um documento para produção de impressão, marcas da impressora são adicionadas aos limites da página para auxiliar no alinhamento, corte e seleção de cores adequados durante a impressão. Ao selecionar uma marca de impressora, o limite da página é estendido para acomodar a marca, que é aparada durante a impressão. Você pode optar por exibir as seguintes marcas de impressora na saída do PDF:
-   * **Marcas de aparagem**: selecione a opção para colocar uma marca em cada canto da área de aparagem para indicar onde o papel precisa ser aparado após a impressão.
-   * **Marcas de sangria**: selecione para colocar uma marca em cada canto da caixa de sangria para indicar a área de aparagem da imagem estendida.
-   * **Marcas de registro**: selecione para colocar uma marca fora da área de corte para alinhar as diferentes separações em um documento colorido.
-   * **Barras de Cores**: selecione para adicionar uma faixa de cores fora da área de aparagem para manter a consistência de cores e ajustar a densidade da tinta ao imprimir.
-
-  Defina dimensões para as marcas de impressora selecionadas usando as opções **Largura da Linha**, **Cor da Linha** e **Largura da Caixa de Sangria**.
-
-* **Tamanho da Caixa de Mídia**: este é o tamanho geral da página, incluindo a área estendida ocupada pelas marcas da impressora. Use a opção suspensa para selecionar o tamanho da página para a saída de PDF ou criar seu próprio tamanho personalizado.
-
-* **Espaço de cores**: você tem a opção de escolher entre espaços de cores RGB ou CMYK para imprimir seu documento PDF. Escolha RGB para exibir o PDF gerado digitalmente e o CMYK para impressão física. As cores definidas no documento são convertidas no espaço de cores escolhido.
-  >[!NOTE]
-  >
-  >Um perfil de cores ICC é necessário para a criação de PDF/A se estiver usando o espaço de cores CMYK.
-
-  <!--For more information on applying these print settings, see *Printing preferences*.-->
-
 ### Referências cruzadas {#cross-references}
 
 Use a guia **Referência cruzada** para definir como as referências cruzadas são publicadas no PDF. É possível formatar as referências cruzadas para título de tópico, tabelas, figuras e muito mais.
 
 >[!NOTE]
 >
-> Se você tiver definido o texto do link ao inserir a referência cruzada, ele terá precedência sobre o formato de referência cruzada definido no modelo de PDF nativo.
+> Se você tiver definido o texto do link ao inserir a referência cruzada, ele terá precedência sobre o formato de referência cruzada definido no modelo PDF nativo.
 
 Você também pode usar variáveis para definir uma referência cruzada.  Quando você usa uma variável, seu valor é extraído das propriedades. Você pode usar uma única variável ou uma combinação de variáveis para definir uma referência cruzada. Também é possível usar uma combinação de uma string e uma variável.
 
@@ -463,7 +442,7 @@ Se você deixar o campo de texto em branco e não tiver definido o texto do link
 
 A ordem de precedência das referências cruzadas é:
 * Texto do link adicionado nas referências cruzadas
-* Formato de referência cruzada definido no modelo de PDF nativo
+* Formato de referência cruzada definido no template PDF nativo
 * Formato de referência cruzada padrão
 
 

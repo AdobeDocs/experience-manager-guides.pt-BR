@@ -4,62 +4,63 @@ description: Saiba como importar e validar um tópico DITA, usar instruções de
 exl-id: ed07a5ec-6adc-43a3-8f03-248b8c963e9a
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: ee784edcbaef0641784cd1eb18748fc12a4f90bb
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '762'
 ht-degree: 0%
 
 ---
 
 # Suporte para arquivos do Schematron
 
-&quot;Esquematron&quot; refere-se a uma linguagem de validação baseada em regras usada para definir testes para um arquivo XML. O editor da Web é compatível com arquivos do Schematron. É possível importar os arquivos do Schematron e editá-los no Editor da Web. Usando um arquivo de Esquematron, você pode definir determinadas regras e depois validá-las para um tópico DITA ou um mapa.
+&quot;Esquematron&quot; refere-se a uma linguagem de validação baseada em regras usada para definir testes para um arquivo XML. O Editor aceita arquivos do Schematron. É possível importar os arquivos do Schematron e editá-los no Editor. Usando um arquivo de Esquematron, você pode definir determinadas regras e depois validá-las para um tópico DITA ou um mapa.
 
 >[!NOTE]
 >
-> O editor da Web é compatível com o Schematron ISO.
+> O editor é compatível com o esquema ISO.
 
 
 ## Importar arquivos do Schematron
 
 Execute as seguintes etapas para importar os arquivos do Schematron:
 
-![](images/scematron-panel-add.png){width="300" align="left"}
+![](images/schematron-panel.png){width="300" align="left"}
 
-1. Navegue até a pasta desejada (onde deseja fazer upload dos arquivos) em *Exibição do Repositório*.
-1. Clique no ícone **Opções** para abrir o menu de contexto e escolher **Carregar Assets**.
-1. Na caixa de diálogo **Carregar Assets**, você pode alterar a pasta de destino no campo **Selecionar pasta de ativos**.
-1. Clique em **Escolher Arquivos** e procure os arquivos do Schematron. Você pode selecionar um ou mais arquivos do Schematron e clicar em **Carregar**.
+1. Navegue até a pasta necessária (onde deseja fazer upload dos arquivos) em *Repositório*.
+1. Selecione o ícone **Opções** para abrir o menu de contexto e escolha **Carregar ativos**.
+1. Na caixa de diálogo **Carregar ativos**, você pode alterar a pasta de destino no campo **Selecionar pasta de ativos**.
+1. Selecione **Escolher Arquivos** e procure os arquivos do Schematron. Você pode selecionar um ou mais arquivos do Schematron e depois selecionar **Carregar**.
 
 ## Validar um tópico ou mapa DITA com o Schematron
 
-Após importar os arquivos do Schematron, você pode editá-los no Editor da Web. Você pode usar os arquivos do Schematron para validar os tópicos ou um mapa DITA. Por exemplo, você pode criar as seguintes regras para um mapa ou tópico DITA:
+Após importar os arquivos do Schematron, você pode editá-los no Editor. Você pode usar os arquivos do Schematron para validar os tópicos ou um mapa DITA. Por exemplo, você pode criar as seguintes regras para um mapa ou tópico DITA:
 
 * Um título é definido para um mapa DITA.
 * Uma breve descrição de um determinado comprimento foi adicionada.
 * Deve haver pelo menos um topicref no mapa.
 
-Quando você abre um tópico no Editor da Web, um painel Validação do Schematron é exibido à direita. Execute as seguintes etapas para adicionar e validar um tópico ou mapa com um arquivo do Schematron:
-![](images/schematron-validate.png){width="300" align="left"}
+Quando você abre um tópico no Editor, um painel Validação do Schematron é exibido à direita. Execute as seguintes etapas para adicionar e validar um tópico ou mapa com um arquivo do Schematron:
 
-1. Clique no ícone Esquematron () para abrir o painel Esquematron.
-1. Use Adicionar arquivo de esquema para adicionar arquivos de esquema.
+![](images/schematron-panel-file-validated.png){width="500" align="left"}
+
+1. Selecione o ícone Esquematron () para abrir o painel Esquematron.
+1. Use **Adicionar Arquivo do Esquematron** para adicionar arquivos do Esquematron.
 1. Se o arquivo do Schematron não tiver erros, ele será adicionado e listado no painel Validação. Uma mensagem de erro é exibida para o arquivo do Schematron contendo erros.
    >[!NOTE]
    >
    >Você pode usar o ícone de cruz próximo ao nome do arquivo do Schematron para removê-lo.
-1. Clique em Validar com Schematron para validar o tópico.
+1. Selecione **Validar com Esquematron** para validar o tópico.
 
    * Se o tópico não quebrar nenhuma regra, a mensagem de sucesso de validação será exibida para o arquivo.
    * Se o tópico quebrar uma regra, por exemplo, se não contiver um título e for validado para o Schematron fornecido acima, ele exibirá um erro de validação.
 
-1. Clique na mensagem de erro para realçar o elemento que contém o erro no tópico/mapa aberto.
+1. Selecione a mensagem de erro para realçar o elemento que contém o erro no tópico/mapa aberto.
 
-O suporte ao Schematron no Editor da Web ajuda a validar os arquivos em relação a um conjunto de regras e a manter a consistência e a correção nos tópicos.
+O suporte ao Schematron no Editor ajuda a validar os arquivos em relação a um conjunto de regras e a manter a consistência e a correção nos tópicos.
 
 ## Usar instruções assert e report para verificar regras{#schematron-assert-report}
 
-O AEM Guides também oferece suporte às instruções assert e report no Schematron. Essas instruções ajudam a validar os tópicos DITA.
+O Experience Manager Guides também oferece suporte às instruções assert e report no Schematron. Essas instruções ajudam a validar os tópicos DITA.
 
 ### Declaração de declaração
 
@@ -107,7 +108,7 @@ No one word titles.
 
 ## Definir padrões abstratos{#schematron-abstract-patterns}
 
-O AEM Guides também oferece suporte a padrões abstratos no Schematron. Você pode definir padrões abstratos genéricos e reutilizar esses padrões abstratos.  Você pode criar parâmetros de espaço reservado que especificam o padrão real.
+O Experience Manager Guides também oferece suporte a padrões abstratos no Schematron. Você pode definir padrões abstratos genéricos e reutilizar esses padrões abstratos.  Você pode criar parâmetros de espaço reservado que especificam o padrão real.
 
 
 O uso de padrões abstratos pode simplificar o esquema Schematron, reduzindo a duplicação de regras e facilitando o gerenciamento e a atualização da lógica de validação. Ela também pode facilitar a compreensão do esquema, pois é possível definir uma lógica de validação complexa em um único padrão abstrato que pode ser reutilizado em todo o esquema.

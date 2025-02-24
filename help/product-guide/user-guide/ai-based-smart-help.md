@@ -1,42 +1,31 @@
 ---
 title: Ajuda inteligente habilitada por IA para pesquisar conteúdo
-description: Saiba como visualizar e utilizar a Ajuda inteligente habilitada por IA no Editor da Web.
-source-git-commit: ebae228d6bf71fb9ddf288b9609eb16943272287
+description: Saiba como visualizar e utilizar a Ajuda inteligente habilitada por IA.
+exl-id: 61a15208-9600-4bb8-adc0-feca1a0ffef3
+source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '609'
 ht-degree: 0%
 
 ---
 
+# Aumente a eficiência com a Ajuda inteligente no Assistente de IA (Beta)
 
-# Ajuda inteligente habilitada por IA para pesquisar conteúdo
+O Experience Manager Guides fornece a Ajuda inteligente baseada em GenAI, um recurso de pesquisa conversacional que ajuda a localizar conteúdo relevante na [documentação do Adobe Experience Manager Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 
+Você pode fazer suas perguntas e obter respostas de forma informativa. A resposta à sua consulta baseia-se no conteúdo da documentação do produto. Essa busca é totalmente conversacional. Você pode fazer perguntas sobre os vários recursos do Experience Manager Guides ou optar por fazer consultas de solução de problemas. Com base na resposta, você também pode fazer mais perguntas. A resposta também inclui links para documentos de origem, os quais você pode consultar para obter detalhes.
 
+Por exemplo, você pode querer fazer perguntas como *Como publico um mapa?* Você recebe uma resposta e os links para os artigos relacionados. Em seguida, se quiser saber como usar um método específico para publicar o output, você poderá fazer perguntas sobre ele. Por exemplo, *Como publicar um mapa no PDF?*
 
-O Experience Manager Guides fornece a Smart Help baseada em GenAI, um recurso de pesquisa conversacional que ajuda a encontrar conteúdo relevante na [Documentação do Adobe Experience Manager Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
-Você pode fazer suas perguntas e obter respostas de forma informativa. A resposta à sua consulta baseia-se no conteúdo da documentação do produto. Essa busca é totalmente conversacional. Você pode fazer perguntas e então, com base na resposta, você também pode fazer outras perguntas. A resposta também inclui links para documentos de origem, os quais você pode consultar para obter detalhes.
-
-Por exemplo, talvez você queira criar um tópico no Experience Manager Guides para sua documentação. Você pode perguntar *Como criar um tópico?* Você recebe uma resposta e os links para os artigos relacionados. Em seguida, se quiser saber como gerar a saída de PDF para o documento, faça perguntas sobre ele. Por exemplo, *Como publicar um tópico em um PDF?* ou *Como gerar a saída de PDF para um tópico?*
-
-
-
-Quando você abre o Editor da Web, o painel **Ajuda Inteligente** é exibido à direita.
-
-
-
->[!NOTE]
->
-> O administrador deve configurar o recurso **Ajuda Inteligente**. Para obter mais detalhes, consulte a [seção Configurar a Ajuda Inteligente baseada em IA para pesquisar conteúdo](../cs-install-guide/conf-smart-help.md) no Guia de Instalação e Configuração para Cloud Service.
+Quando você abre o **Assistente do AI** na Página Inicial, no console Mapa ou no Editor, o painel **Ajuda** é aberto à direita. No caso do Editor, o painel Criação também é exibido, oferecendo recursos de criação inteligentes. Para obter detalhes, exiba o [Assistente de IA para criar documentos de forma inteligente](./ai-assistant-right-panel.md)
 
 ![Painel Ajuda Inteligente](images/smart-help-panel.png){width="300" align="left"}
 
-*Exiba o painel **Ajuda Inteligente**.*
+*Exibir o painel **Ajuda**.*
 
-Execute as seguintes etapas para usar a pesquisa conversacional e encontrar o conteúdo apropriado e resolver suas consultas:
+Execute as seguintes etapas para usar o painel Ajuda para encontrar o conteúdo apropriado e resolver suas consultas:
 
-1. Selecione **Ajuda Inteligente** ![Ícone da Ajuda Inteligente](images/smart-help-icon.svg) para abrir o painel.
-
-
+1. Selecione **Assistente de IA** para abrir o painel da Ajuda.
 
    >[!NOTE]
    >
@@ -53,13 +42,22 @@ Execute as seguintes etapas para usar a pesquisa conversacional e encontrar o co
 
    *Selecione a pergunta de exemplo e exiba o conteúdo e as imagens na resposta.*
 
+1. Selecione os links para os artigos no final e exiba informações detalhadas sobre a resposta à sua pergunta.
 
 
+1. Selecione **Limpar conversa** ![limpar conversa](images/clear-conversation-icon.svg) para remover o histórico da conversa do painel. Você pode iniciar uma nova conversa e encontrar conteúdo relevante.
 
+Em vez de pesquisar nos guias de usuário e documentos de referência, você pode usar o recurso **Ajuda** para encontrar rapidamente respostas relevantes para suas consultas. Isso ajuda a economizar tempo e permite que você se concentre na criação de conteúdo, resultando em maior produtividade e eficiência.
 
-1. Selecione os links para os artigos no final e exiba informações detalhadas sobre a sua pergunta.
+## Opções disponíveis para respostas da Ajuda do assistente de IA
 
+Ao receber uma resposta do Assistente de IA no painel **Ajuda**, você pode interagir com ele ou fornecer feedback para aprimorar sua precisão e confiabilidade. Seus comentários ajudam a equipe do Experience Manager Guides a aprimorar a precisão e a relevância das respostas do Assistente de IA, melhorando seu desempenho ao longo do tempo.
 
-1. Selecione **Limpar Conversa** ![limpar conversa](images/clear-conversation-icon.svg) para remover o histórico da conversa do painel. Você pode iniciar uma nova conversa e encontrar conteúdo relevante.
+As seguintes opções estão disponíveis para participação ou para fornecer feedback sobre as respostas fornecidas pelo painel **Ajuda** do Assistente de IA:
 
-Esse recurso inteligente ajuda você a encontrar soluções rapidamente e permite que você se concentre em sua documentação e conclua suas tarefas com eficiência.
+![](images/ai-assistant-response-options.png){width="300" align="left"}
+
+- **Copiar**: copie a resposta para usar em seus documentos.
+- **Curtir**: indica que a resposta foi útil ou precisa. Selecione o ícone Curtir para gostar da resposta e use a opção **Conte-nos mais** para fornecer feedback detalhado.
+- **Descurtir**: marque a resposta como inútil ou incorreta. Selecione o ícone Descurtir para gostar da resposta e use a opção **Conte-nos mais** para fornecer feedback detalhado.
+- **Relatório**: sinalizar a resposta para revisão se contiver erros ou conteúdo impreciso. Selecione o ícone de sinalizador para abrir a caixa de diálogo **Resultados do relatório**. Selecione entre as opções disponíveis ou forneça um feedback personalizado.

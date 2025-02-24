@@ -1,39 +1,39 @@
 ---
-title: Editar tópicos no Editor da Web
-description: Saiba como editar tópicos no editor da Web. Saiba mais sobre vários recursos de edição para modificar arquivos de tópico no AEM Guides.
+title: Editar tópicos no Editor
+description: Saiba como editar tópicos no Editor. Saiba mais sobre vários recursos de edição para modificar arquivos de tópico no AEM Guides.
 exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 2a22aa0746602f7ecd6b3d6cf616a68d45309bdf
+source-git-commit: d203ca0e1a5ca90f30f33e25e425552141674fe5
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '987'
 ht-degree: 0%
 
 ---
 
-# Editar tópicos no Editor da Web {#id2056B040VUI}
+# Editar tópicos no Editor {#id2056B040VUI}
 
-O Editor da Web vem com uma variedade de recursos de edição que permitem criar ou modificar facilmente seus arquivos de tópico. De modo geral, você executaria as seguintes etapas para editar um tópico no Editor da Web.
+O Editor vem com uma variedade de recursos de edição que permitem criar ou modificar facilmente seus arquivos de tópico. De modo geral, você executaria as seguintes etapas para editar um tópico no Editor.
 
 >[!IMPORTANT]
 >
-> Se você encontrar um erro de aplicativo ao trabalhar no Editor da Web, atualize a página para continuar trabalhando.
+> Se você encontrar um erro de aplicativo ao trabalhar no Editor, atualize a página para continuar trabalhando.
 
 1. Para fazer alterações no tópico, clique dentro do limite de texto do elemento necessário e comece a fazer edições.
 
-1. Para inserir um elemento específico, clique em no final do elemento após o qual deseja inserir o novo elemento e clique no ícone do elemento necessário na barra de ferramentas. Você também pode usar o atalho de teclado `Alt+Enter` para invocar o pop-up **Inserir Elemento**.
+1. Para inserir um elemento específico, mova o cursor no final do elemento após o qual deseja inserir o novo elemento e selecione o ícone de elemento necessário na barra de ferramentas. Você também pode usar o atalho de teclado `Alt+1` para invocar o pop-up **Inserir Elemento**.
 
-   Será exibida uma lista de elementos que podem ser usados no tópico. A AEM Guides faz uma inserção inteligente dos elementos de acordo com seu local válido no tópico.
+   Será exibida uma lista de elementos que podem ser usados no tópico. A Experience Manager Guides faz uma inserção inteligente dos elementos de acordo com seu local válido no tópico.
 
    >[!NOTE]
    >
    > Você também pode escolher qual ícone deve ser exibido na barra de ferramentas, configurando o arquivo `ui_config.json` localizado em - `/etc/designs/fmdita/clientlibs/xmleditor/`. Para obter mais informações sobre como personalizar recursos, entre em contato com o administrador do sistema.
 
-1. Após concluir a edição do documento, clique em **Salvar**.
+1. Quando terminar de editar o documento, selecione **Salvar tudo**.
 
    >[!NOTE]
    >
-   > Se você não deseja confirmar as alterações no repositório AEM, clique em **Fechar** e em **Fechar sem salvar** na caixa de diálogo Alterações não salvas.
+   > Se você não deseja confirmar as alterações no repositório do Adobe Experience Manager, selecione **Fechar** e **Fechar sem salvar** na caixa de diálogo Alterações não salvas.
 
 
 ## Seleção parcial de conteúdo entre elementos
@@ -47,19 +47,20 @@ Da mesma forma, se você excluir o conteúdo selecionado, o conteúdo restante a
 - Circundar o conteúdo com um elemento válido: execute as seguintes etapas para envolver o conteúdo com um elemento válido:
 
    - Selecione o conteúdo em um elemento.
-   - Selecione o ícone ![adicionar](images/Add_icon.svg) na barra de ferramentas secundária na parte superior para exibir a caixa de diálogo **Circundar com Elemento**. A caixa de diálogo lista os elementos válidos para o conteúdo selecionado.
+   - Selecione o ícone ![adicionar](images/Add_icon.svg) na barra de ferramentas na parte superior para exibir a caixa de diálogo **Inserir elemento**. A caixa de diálogo lista os elementos válidos para o conteúdo selecionado.
      >[!NOTE]
      >
-     > Você também pode visualizar a caixa de diálogo Circular com elemento selecionando o menu de contexto do conteúdo selecionado.
+     > Você também pode visualizar a caixa de diálogo Inserir elemento selecionando o menu de contexto do conteúdo selecionado.
 
-   - Selecione um elemento na caixa de diálogo. O conteúdo selecionado é colocado sob esse elemento. Por exemplo, se você selecionar o conteúdo em um parágrafo e escolher o elemento `<note>` na caixa de diálogo **Circundar com elemento**, o conteúdo selecionado será exibido abaixo de uma observação.\
-     ![caixa de diálogo elemento surround](./images/surround-element.png) {width="300" align="left"}
+   - Selecione um elemento na caixa de diálogo. O conteúdo selecionado é colocado sob esse elemento. Por exemplo, se você selecionar o conteúdo em um parágrafo e escolher o elemento `<note>` na caixa de diálogo **Inserir elemento**, o conteúdo selecionado será exibido abaixo de uma observação.
+
+     ![Caixa de diálogo Inserir elemento](./images/insert-element-editor.png) {width="300" align="left"}
 
 ## Atualizar o navegador ao editar os arquivos
 
-O Experience Manager Guides fornece suporte para atualizar o navegador enquanto você edita seu conteúdo no Editor da Web. Este recurso ajuda você a continuar editando o conteúdo caso encontre um erro no aplicativo durante o trabalho. Se você clicar em Atualizar do navegador enquanto um ou mais arquivos com alterações não salvas estiverem abertos para edição, você será avisado de que as alterações não salvas podem ser perdidas. Você tem a opção de cancelar a operação de atualização e salvar os arquivos para preservar as alterações.
+O Experience Manager Guides fornece suporte para atualizar o navegador enquanto você edita seu conteúdo no Editor. Este recurso ajuda você a continuar editando o conteúdo caso encontre um erro no aplicativo durante o trabalho. Se você clicar em Atualizar do navegador enquanto um ou mais arquivos com alterações não salvas estiverem abertos para edição, você será avisado de que as alterações não salvas podem ser perdidas. Você tem a opção de cancelar a operação de atualização e salvar os arquivos para preservar as alterações.
 
-Mesmo ao atualizar o navegador, as exibições do painel esquerdo e direito são mantidas no Editor da Web. O Experience Manager Guides restaura o último estado salvo dos arquivos abertos no Editor da Web quando você atualiza o navegador. Por exemplo, os arquivos abertos no painel Repositório são abertos novamente. O painel de mapa é mantido junto com o mapa aberto anteriormente.
+Mesmo ao atualizar o navegador, as visualizações do painel esquerdo e direito são mantidas no Editor. O Experience Manager Guides restaura o último estado salvo dos arquivos abertos no Editor quando você atualiza o navegador. Por exemplo, os arquivos abertos no painel Repositório são abertos novamente. O painel de mapa é mantido junto com o mapa aberto anteriormente.
 
 O tópico ativo ou mapa DITA é reaberto na área de edição de conteúdo.
 
@@ -67,42 +68,50 @@ O painel direito também é reaberto e exibe a mesma visualização de antes da 
 
 ## Indicador de cópia de trabalho
 
-O AEM Guides fornece o indicador da cópia de trabalho, que mostra se a \(cópia de trabalho\) atual do arquivo está sincronizada ou não com a versão salva. Se você tiver alterado sua cópia atual e não tiver salvado o arquivo, uma marca \* será exibida junto com o título na guia do arquivo do tópico. Esse indicador atua como um lembrete para salvar suas alterações e desaparece ao salvar o arquivo.
+O Experience Manager Guides fornece o indicador da cópia de trabalho, que mostra se a \(cópia de trabalho\) atual do arquivo está sincronizada ou não com a versão salva. Se você tiver alterado sua cópia atual e não tiver salvado o arquivo, uma marca \* será exibida junto com o título na guia do arquivo do tópico. Esse indicador atua como um lembrete para salvar suas alterações e desaparece ao salvar o arquivo.
 
 ![indicador de cópia de trabalho](images/working-copy-text-update-indicator.png){width="550" align="left"}
 
-O AEM Guides também indica se a última cópia \(em funcionamento\) salva do arquivo está ou não sincronizada com a versão salva. Se você tiver algumas alterações não salvas entre a cópia de trabalho e a última versão salva, uma marca \* será exibida juntamente com as informações da versão mostradas no canto superior direito da guia Arquivo do tópico. Esse indicador atua como um lembrete para salvar e criar uma versão da sua cópia \(em funcionamento\) atual do arquivo.
+O Experience Manager Guides também indica se a última cópia \(em funcionamento\) salva do arquivo está ou não sincronizada com a versão salva. Se você tiver algumas alterações não salvas entre a cópia de trabalho e a última versão salva, uma marca \* será exibida juntamente com as informações da versão mostradas no canto superior direito da guia Arquivo do tópico. Esse indicador atua como um lembrete para salvar e criar uma versão da sua cópia \(em funcionamento\) atual do arquivo.
 
 ![Indicador de atualização de versão](images/version-update-indicator.png){width="550" align="left"}
 
 
-## Abrir arquivos bloqueados nos modos Autor e Source
+## Acessar arquivos bloqueados nos modos Autor e Source
 
 Quando um arquivo DITA ou Markdown é bloqueado ou passado por check-out por outro usuário, não é possível editar ou modificar o conteúdo. No entanto, você ainda pode exibir o arquivo em um formato somente leitura nos modos **Autor** e **Source**, além do modo **Visualização**.
 
 No modo somente leitura, você pode exibir o conteúdo, as marcas e os atributos nos modos **Autor** ou **Source**. Também é possível modificar as propriedades do arquivo.
 
-A barra de ferramentas exibe os seguintes ícones para acesso somente leitura:
+>[!NOTE]
+>
+> Como administrador, você tem acesso ao recurso **Forçar desbloqueio** que permite desbloquear um arquivo bloqueado por outra pessoa.
 
-- Alternar exibição de tags
-- Histórico da versão
-- Rótulo da versão
+<!-- This is no more available -->
+<!--
+The toolbar displays the following icons for read-only access:
 
-O Experience Manager Guides também exibe um indicador de **Acesso somente leitura** próximo ao número da versão.
+- Toggle Tags view
+- Version History
+- Version Label
 
-![exibir arquivo somente leitura no modo de autor](images/locked-file-editor.png)
+Experience Manager Guides also displays a **Read only access** indicator near the version number.
+ 
+![view read only file in author mode](images/locked-file-editor.png)
 
-Você pode acessar o modo de exibição **Layout** para mapas DITA somente leitura. Essa visualização permite que você veja o mapa DITA e suas propriedades, mas impede edições.
+You can access the **Layout** view for read-only DITA maps. This view lets you see the DITA map and its properties but prevents edits.
 
 >[!NOTE]
 >
-> Os usuários administrativos em nível de pasta devem atualizar o *ui_config.json* para que você possa acessar harmoniosamente os arquivos somente leitura nos modos Autor, Source e Layout.
+> Your folder-level administrative users must update *ui_config.json* so that you can harmoniously access the read-only files in the  Author, Source, and Layout modes.
 
-## Localizar um arquivo aberto na Exibição do repositório
+ -->
 
-Ao abrir um arquivo no Editor da Web, o Experience Manager Guides fornece o recurso para localizar o arquivo na Exibição do repositório. Por exemplo, ela localiza o tópico atual enquanto você o edita.
+## Localizar um arquivo aberto na exibição Repositório
+
+Enquanto você abre um arquivo no Editor, o Experience Manager Guides fornece o recurso para localizar o arquivo na visualização Repositório. Por exemplo, ela localiza o tópico atual enquanto você o edita.
 
 Você pode desativar o recurso para localizar o arquivo com a opção **Sempre localizar arquivos no repositório** da guia **Aparência** das **Preferências do usuário**.
 
 
-**Tópico pai:**[ Trabalhar com o Editor da Web](web-editor.md)
+**Tópico pai:**[ Trabalhar com o editor](web-editor.md)

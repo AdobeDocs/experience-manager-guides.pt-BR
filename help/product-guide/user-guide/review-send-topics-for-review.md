@@ -4,22 +4,22 @@ description: Saiba como criar uma tarefa de revisão e enviar tópicos para revi
 exl-id: c486eb6a-7e1f-4faa-973d-b47252d3e7c5
 feature: Reviewing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
 workflow-type: tm+mt
-source-wordcount: '2752'
+source-wordcount: '2793'
 ht-degree: 0%
 
 ---
 
 # Enviar tópicos para revisão {#id199RD0S035Z}
 
-O fluxo de trabalho de revisão cria um ambiente de vários revisores em que o iniciador especifica uma lista de tópicos para revisão, adiciona vários revisores e atribui uma linha do tempo para a tarefa de revisão. O AEM Guides permite que os usuários pertencentes aos grupos Autores e Editores iniciem uma revisão.
+O fluxo de trabalho de revisão cria um ambiente de vários revisores em que o iniciador especifica uma lista de tópicos para revisão, adiciona vários revisores e atribui uma linha do tempo para a tarefa de revisão. O Adobe Experience Manager Guides permite que os usuários pertencentes aos grupos Autores e Editores iniciem uma revisão.
 
 Como o fluxo de trabalho de revisão é específico do projeto, o iniciador da revisão deve fazer parte da equipe do projeto ou ter direitos para criar um projeto. No momento da criação de um projeto, você define os membros da equipe para o projeto e atribui a eles várias funções ou grupos. Para obter mais informações sobre projetos, consulte [Criar um projeto DITA](authoring-create-dita-project.md#).
 
 É possível criar uma tarefa de revisão a partir de:
 
-- **Editor da Web**: permite enviar um tópico individual ou mapa DITA para revisão. Observe que o fluxo de trabalho para criar uma tarefa de revisão é comum no Editor da Web e na interface do Assets. Somente o método de início do fluxo de trabalho de revisão é diferente. Para obter informações sobre como iniciar o fluxo de trabalho de revisão pelo Editor da Web, consulte o recurso [Criar Tarefa de Revisão](web-editor-features.md#id215OCJ00JXA) no Editor da Web.
+- **Editor**: permite enviar um tópico individual ou mapa DITA para revisão. Observe que o fluxo de trabalho para criar uma tarefa de revisão é comum na interface do Editor e do Assets. Somente o método de início do fluxo de trabalho de revisão é diferente. Para obter informações sobre como iniciar o fluxo de trabalho de revisão a partir do Editor, exiba o recurso [Criar Tarefa de Revisão](web-editor-features.md#id215OCJ00JXA) no Editor.
 
 - **Interface do usuário do Assets**: permite enviar um ou vários tópicos e mapa DITA para revisão. O compartilhamento de documentos para revisão do fluxo de trabalho da interface do usuário do Assets é abordado neste tópico.
 
@@ -43,11 +43,11 @@ Para criar uma tarefa de revisão e enviar tópicos para revisão, execute as se
 
 1. Navegue até a pasta desejada na interface do usuário do Assets.
 
-1. Clique no ícone Selecionar na ação rápida e selecione os tópicos que deseja enviar para revisão.
+1. Escolha o ícone **Selecionar** na ação rápida e selecione os tópicos que deseja enviar para revisão.
 
    ![](images/select-asset-62.png){width="300" align="left"}
 
-1. Na barra de ferramentas, clique em **Criar tarefa de revisão**. A página de criação da tarefa de revisão é exibida.
+1. Na barra de ferramentas, selecione **Criar Tarefa de Revisão**. A página de criação da tarefa de revisão é exibida.
 
    >[!NOTE]
    >
@@ -55,11 +55,13 @@ Para criar uma tarefa de revisão e enviar tópicos para revisão, execute as se
 
    ![](images/create-review-task-023.png){width="650" align="left"}
 
-1. Digite um **Título** para a tarefa e selecione um **Projeto** DITA na lista suspensa.
+1. Insira um **Título** para a tarefa e selecione um projeto DITA.
+
+1. No campo suspenso **Projeto**, selecione um projeto DITA para esta tarefa de revisão. Você também pode digitar o nome do projeto para localizá-lo rapidamente na lista suspensa.
 
 1. No campo suspenso **Atribuir a**, selecione os revisores para os quais deseja enviar os tópicos para revisão.
 
-   É possível atribuir uma tarefa de revisão a usuários individuais do projeto ou a grupos de usuários. Observe que você pode atribuir uma tarefa de revisão a usuários individuais somente quando fizer parte do grupo de administradores do projeto; caso contrário, você só verá os grupos de usuários no campo Atribuir a.
+   É possível atribuir uma tarefa de revisão a usuários individuais do projeto ou a grupos de usuários. Observe que você pode atribuir uma tarefa de revisão a usuários individuais somente quando fizer parte do grupo de administradores do projeto; caso contrário, você só exibirá os grupos de usuários no campo Atribuir a.
 
    >[!NOTE]
    >
@@ -89,7 +91,7 @@ Para criar uma tarefa de revisão e enviar tópicos para revisão, execute as se
 
    Se você não selecionar essa opção, os revisores adicionados ao campo **Atribuir a** terão acesso para revisar somente os tópicos atribuídos a eles.
 
-1. Clique em **Avançar**.
+1. Selecione **Próximo**.
 
    A página Content é exibida.
 
@@ -102,7 +104,7 @@ Para criar uma tarefa de revisão e enviar tópicos para revisão, execute as se
    - *\(Padrão\)* Escolha a opção **Sua Versão Mais Recente** para selecionar a última revisão salva dos tópicos.
    - Escolha a opção **Versão em** e especifique a data e a hora para selecionar uma versão como na data e hora especificadas. Se não houver nenhuma versão do tópico disponível na data especificada, uma versão disponível imediatamente após a data e a hora especificadas será selecionada.
    - Escolha a opção **Selecionar um Rótulo** e selecione um rótulo na lista suspensa.
-1. Depois de fazer sua seleção para escolher uma versão, clique em **Aplicar**.
+1. Depois de fazer sua seleção para escolher uma versão, selecione **Aplicar**.
 
    A versão baseada na opção selecionada é escolhida para os tópicos.
 
@@ -110,7 +112,7 @@ Para criar uma tarefa de revisão e enviar tópicos para revisão, execute as se
    >
    > Você também pode selecionar manualmente a versão desejada na lista suspensa **Versão** de cada tópico.
 
-1. Clique em **Avançar**.
+1. Selecione **Próximo**.
 
    A página Revisores é exibida, onde você pode adicionar ou remover revisores. Por padrão, os revisores adicionados ao campo Atribuir a são adicionados automaticamente a cada tópico selecionado para a revisão.
 
@@ -123,28 +125,28 @@ Para criar uma tarefa de revisão e enviar tópicos para revisão, execute as se
 
      >[!NOTE]
      >
-     > Você também pode marcar ou desmarcar individualmente um tópico clicando na caixa de seleção ao lado dele.
+     > Você também pode marcar ou desmarcar um tópico individualmente marcando a caixa de seleção ao lado do tópico.
 
    - **Adicionar**: exibe a caixa de diálogo Adicionar Revisores. É possível digitar o nome de um revisor ou função de usuário \(ou grupo\) que você deseja adicionar como revisor aos tópicos selecionados.
    - **Remover**: exibe a caixa de diálogo Remover Revisores. Você pode digitar o nome de um revisor ou função de usuário \(ou grupo\) que deseja remover como revisor dos tópicos selecionados.
 
      >[!NOTE]
      >
-     > Você também pode remover uma revisão de um tópico clicando no sinal cruzado na caixa do revisor.
+     > Você também pode remover uma revisão de um tópico selecionando o sinal cruzado na caixa do revisor.
 
    - **Reatribuir**: exibe a caixa de diálogo Reatribuir Revisores. É possível digitar o nome de um revisor ou função de usuário \(ou grupo\) à qual você deseja atribuir a tarefa de revisão. Isso remove todos os revisores existentes dos tópicos selecionados e atribui os revisores recém-selecionados a esses tópicos.
    - **Exportar**: permite exportar os detalhes da tarefa de revisão em um arquivo CSV. O arquivo contém detalhes como caminho e título do tópico, nome do revisor e versão dos tópicos enviados para revisão.
-   - **Editar Revisores**: ao clicar no ícone ![](images/edit_pencil_icon.svg) na lista de tópicos, a caixa de diálogo Editar Revisores é exibida. Você pode adicionar ou remover revisores para o tópico selecionado nesta caixa de diálogo.
-1. Clique em **Criar** para criar a tarefa de revisão.
+   - **Editar Revisores**: selecionar o ícone ![](images/edit_pencil_icon.svg) na lista de tópicos exibe a caixa de diálogo Editar Revisores. Você pode adicionar ou remover revisores para o tópico selecionado nesta caixa de diálogo.
+1. Selecione **Criar** para criar a tarefa de revisão.
 
    Uma mensagem de confirmação é exibida quando a tarefa de revisão é criada com sucesso. O [Estado do documento](web-editor-document-states.md#) para os tópicos enviados para revisão está definido como Em revisão.
 
    >[!NOTE]
    >
-   > Você também pode clicar no sino Notificações na parte superior direita da tela e confirmar se a tarefa de revisão foi criada com sucesso. No painel Notificações, você encontrará uma notificação para cada revisor que fez parte da tarefa de revisão e uma notificação para o iniciador da revisão.
+   > Você também pode selecionar a Campainha de notificações na parte superior direita da tela e confirmar se a tarefa de revisão foi criada com sucesso. No painel Notificações, você encontrará uma notificação para cada revisor que fez parte da tarefa de revisão e uma notificação para o iniciador da revisão.
 
 
-Um email é enviado para todos os revisores, notificando que eles receberam um tópico ou vários tópicos para revisão. O e-mail contém um link direto no qual eles podem clicar e acessar o tópico em uma janela do navegador.
+Um email é enviado para todos os revisores, notificando que eles receberam um tópico ou vários tópicos para revisão. O e-mail contém um link direto que eles podem usar para acessar o tópico em uma janela do navegador.
 
 Caso vários tópicos sejam atribuídos, os revisores podem visualizá-los e selecioná-los em uma lista suspensa de tópicos no navegador da Web.
 
@@ -152,7 +154,7 @@ Caso vários tópicos sejam atribuídos, os revisores podem visualizá-los e sel
 
 Um mapa DITA é uma organização lógica de tópicos dentro de um livro. Quando você envia um tópico individual para revisão, o revisor não obtém nenhuma informação sobre a localização desse tópico no livro. Se um revisor tiver informações sobre o local exato do tópico que está sendo revisado, ele obterá um contexto melhor do tópico que está sendo revisado.
 
-O AEM Guides permite enviar um ou mais tópicos em um mapa DITA para revisão ao mesmo tempo. O revisor obtém para ver o arquivo de mapa completo, juntamente com os tópicos que foram compartilhados para revisão. Isso facilita para o revisor obter um contexto do tópico no mapa ou arquivo de livro.
+O Experience Manager Guides permite enviar um ou mais tópicos em um mapa DITA para revisão ao mesmo tempo. O revisor visualiza o arquivo de mapa completo juntamente com os tópicos que foram compartilhados para revisão. Isso facilita para o revisor obter um contexto do tópico no mapa ou arquivo de livro.
 
 É possível compartilhar o mesmo mapa DITA no para revisão em várias tarefas de revisão. Por exemplo, se em um mapa DITA houver os tópicos A, B, C, D e E. Em uma tarefa de revisão, é possível compartilhar A, B e C para revisão, e em outra tarefa de revisão você pode enviar os tópicos C, D e E para revisão. O processo de revisão permite compartilhar o mesmo tópico e arquivo de mapa em várias tarefas de revisão. Para o tópico comum em várias tarefas de revisão, os comentários fornecidos em uma tarefa de revisão não substituem nem se mesclam aos comentários nas outras tarefas de revisão.
 
@@ -174,9 +176,11 @@ Para enviar um ou vários tópicos juntamente com o arquivo de mapa para revisã
 
 1. Selecione o mapa de onde deseja enviar os tópicos para revisão.
 
-1. Na barra de ferramentas, clique em **Criar tarefa de revisão**. A página de criação da tarefa de revisão é exibida.
+1. Na barra de ferramentas, selecione **Criar Tarefa de Revisão**. A página de criação da tarefa de revisão é exibida.
 
-1. Digite um **Título** para a tarefa e selecione um **Projeto** DITA na lista suspensa.
+1. Insira um **Título** para a tarefa.
+
+1. No campo suspenso **Projeto**, selecione um projeto DITA para esta tarefa de revisão. Você também pode digitar o nome do projeto para localizá-lo rapidamente na lista suspensa.
 
    >[!NOTE]
    >
@@ -184,7 +188,7 @@ Para enviar um ou vários tópicos juntamente com o arquivo de mapa para revisã
 
 1. No campo suspenso **Atribuir a**, selecione os revisores para os quais deseja enviar os tópicos para revisão.
 
-   É possível atribuir uma tarefa de revisão a usuários individuais do projeto ou a grupos de usuários. Observe que você pode atribuir uma tarefa de revisão a usuários individuais somente quando fizer parte do grupo de administradores do projeto; caso contrário, você só verá os grupos de usuários no campo Atribuir a.
+   É possível atribuir uma tarefa de revisão a usuários individuais do projeto ou a grupos de usuários. Observe que você pode atribuir uma tarefa de revisão a usuários individuais somente quando fizer parte do grupo de administradores do projeto; caso contrário, você só exibirá os grupos de usuários no campo Atribuir a.
 
    >[!NOTE]
    >
@@ -206,7 +210,7 @@ Para enviar um ou vários tópicos juntamente com o arquivo de mapa para revisã
 
    Se você não selecionar essa opção, os revisores adicionados ao campo **Atribuir a** terão acesso para revisar somente os tópicos atribuídos a eles.
 
-1. Clique em **Avançar**.
+1. Selecione **Próximo**.
 
    A página Conteúdo é exibida com todos os tópicos referenciados do arquivo de mapa. Se o mapa DITA contiver mapas aninhados, os tópicos desses mapas também serão listados aqui.
 
@@ -220,7 +224,7 @@ Para enviar um ou vários tópicos juntamente com o arquivo de mapa para revisã
    - Escolha a opção **Versão em** e especifique a data e a hora para selecionar uma versão de acordo com a data e a hora. Se não houver nenhuma versão do tópico disponível na data especificada, uma versão disponível imediatamente após a data e a hora especificadas será selecionada.
    - Escolha a opção **Selecionar um Rótulo** e selecione um rótulo na lista suspensa. Todos os tópicos contendo o rótulo selecionado são selecionados na lista suspensa **Versão**.
    - Escolha a opção **Selecionar uma Linha de Base** e selecione uma linha de base na lista suspensa. Todas as versões de tópico que fazem parte da linha de base selecionada são selecionadas na lista suspensa **Versão**.
-1. Depois de fazer sua seleção para escolher uma versão, clique em **Aplicar**.
+1. Depois de fazer sua seleção para escolher uma versão, selecione **Aplicar**.
 
    A versão baseada na opção selecionada é escolhida para os tópicos.
 
@@ -228,7 +232,7 @@ Para enviar um ou vários tópicos juntamente com o arquivo de mapa para revisã
    >
    > Você também pode selecionar manualmente a versão desejada na lista suspensa **Versão** de cada tópico.
 
-1. Clique em **Avançar**.
+1. Selecione **Próximo**.
 
    A página Revisores é exibida, onde você pode adicionar ou remover revisores. Por padrão, os revisores adicionados ao campo Atribuir a são adicionados automaticamente a cada tópico selecionado para a revisão.
 
@@ -239,30 +243,30 @@ Para enviar um ou vários tópicos juntamente com o arquivo de mapa para revisã
 
      >[!NOTE]
      >
-     > Você também pode marcar ou desmarcar individualmente um tópico clicando na caixa de seleção ao lado dele.
+     > Você também pode marcar ou desmarcar um tópico individualmente marcando a caixa de seleção ao lado do tópico.
 
    - **Adicionar**: exibe a caixa de diálogo Adicionar Revisores. É possível digitar o nome de um revisor ou função de usuário \(ou grupo\) que você deseja adicionar como revisor aos tópicos selecionados.
    - **Remover**: exibe a caixa de diálogo Remover Revisores. Você pode digitar o nome de um revisor ou função de usuário \(ou grupo\) que deseja remover como revisor dos tópicos selecionados.
    - **Reatribuir**: exibe a caixa de diálogo Reatribuir Revisores. É possível digitar o nome de um revisor ou função de usuário \(ou grupo\) à qual você deseja atribuir a tarefa de revisão. Isso remove todos os revisores existentes dos tópicos selecionados e atribui os revisores recém-selecionados a esses tópicos.
    - **Exportar**: permite exportar os detalhes da tarefa de revisão em um arquivo CSV. O arquivo contém detalhes como caminho e título do tópico, nome do revisor e versão dos tópicos enviados para revisão.
-   - **Editar Revisores**: ao clicar no ícone ![](images/edit_pencil_icon.svg) na lista de tópicos, a caixa de diálogo Editar Revisores é exibida. Você pode adicionar ou remover revisores para o tópico selecionado nesta caixa de diálogo.
+   - **Editar Revisores**: selecionar o ícone ![](images/edit_pencil_icon.svg) na lista de tópicos exibe a caixa de diálogo Editar Revisores. Você pode adicionar ou remover revisores para o tópico selecionado nesta caixa de diálogo.
    >[!IMPORTANT]
    >
    > Você deve atribuir pelo menos um revisor para criar a tarefa de revisão.
 
-1. Clique em **Criar** para criar a tarefa de revisão.
+1. Selecione **Criar** para criar a tarefa de revisão.
 
    Uma mensagem de confirmação é exibida quando a tarefa de revisão é criada com sucesso. O [Estado do documento](web-editor-document-states.md#) para os tópicos enviados para revisão está definido como Em revisão.
 
    >[!NOTE]
    >
-   > Você também pode clicar no painel Notificações na parte superior direita da interface e confirmar se a tarefa foi criada com êxito. No painel Notificações, você encontrará uma notificação para cada revisão que fez parte da tarefa de revisão e uma notificação para o iniciador da revisão.
+   > Você também pode selecionar o painel Notificações na parte superior direita da interface e confirmar se a tarefa foi criada com sucesso. No painel Notificações, você encontrará uma notificação para cada revisão que fez parte da tarefa de revisão e uma notificação para o iniciador da revisão.
 
    >[!IMPORTANT]
    >
    > Depois de iniciar uma revisão, você não deve mover nem excluir o mapa DITA ou os tópicos para um local diferente. Isso resultará em uma interrupção no processo de revisão.
 
 
-Um email é enviado para todos os revisores, notificando que eles receberam tópicos para revisão. O e-mail contém um link direto no qual eles podem clicar e acessar o tópico em uma janela do navegador. Os tópicos, juntamente com o mapa DITA, são abertos no modo de revisão.
+Um email é enviado para todos os revisores, notificando que eles receberam tópicos para revisão. O e-mail contém um link direto que eles podem usar para acessar o tópico em uma janela do navegador. Os tópicos, juntamente com o mapa DITA, são abertos no modo de revisão.
 
-**Tópico pai:**[ Tópicos ou mapas de revisão](review.md)
+**Tópico pai:**[ Introdução à revisão](review.md)

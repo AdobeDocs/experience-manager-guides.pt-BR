@@ -1,23 +1,23 @@
 ---
-title: Saiba como traduzir conteúdo
+title: Visão geral da tradução de conteúdo
 description: Traduza o conteúdo para vários idiomas no AEM Guides. Saiba mais sobre os fluxos de trabalho de tradução humana e de máquina.
 exl-id: 88df750c-fb26-47f1-a884-b9e2f96b96ea
 feature: Translation
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 38ea2eb35ebd75c1202c86d598ad953db3894d40
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 1%
+source-wordcount: '147'
+ht-degree: 0%
 
 ---
 
-# Traduzir conteúdo {#id1645H700L67}
+# Visão geral da tradução de conteúdo {#id1645H700L67}
 
-O AEM Guides vem com recursos avançados que permitem traduzir o conteúdo para vários idiomas. Os fluxos de trabalho de tradução humana e tradução automática são compatíveis com o AEM Guides.
+O Adobe Experience Manager Guides vem com recursos avançados que permitem traduzir o conteúdo para vários idiomas. Os fluxos de trabalho de tradução humana e tradução automática são compatíveis com o Experience Manager Guides.
 
-- **Tradução humana** - o Assets é enviado para seu provedor de tradução e traduzido por tradutores profissionais. Quando concluídos, os ativos traduzidos são retornados e importados novamente para o AEM.
+- **Tradução humana** - o Assets é enviado para seu provedor de tradução e traduzido por tradutores profissionais. Quando concluídos, os ativos traduzidos são retornados e importados novamente para o Adobe Experience Manager.
 
-- **Tradução automática** - Este é o serviço padrão no AEM, no qual o conteúdo é traduzido imediatamente usando a tradução automática em tempo real. O AEM pronto para uso oferece a capacidade de conectar-se ao Microsoft Translator.
+- **Tradução automática** - Este é o serviço padrão no Adobe Experience Manager, no qual o conteúdo é traduzido imediatamente usando a tradução automática em tempo real. O Adobe Experience Manager oferece o recurso pronto para uso para se conectar com o Microsoft Translator.
 
   >[!NOTE]
   >
@@ -25,6 +25,8 @@ O AEM Guides vem com recursos avançados que permitem traduzir o conteúdo para 
 
 
 - **[Práticas recomendadas para a tradução de conteúdo](translation-first-time.md)**
+
+- **[Traduzir documentos a partir do console de Mapa](translate-documents-web-editor.md)**
 
 - **[Exibir status da tradução](translation-view-trans-state-6234.md)**
 

@@ -1,19 +1,19 @@
 ---
-title: Atalhos de teclado no Editor da Web
+title: Atalhos de teclado no Editor
 description: Descubra atalhos de teclado que economizam tempo no editor da Web do AEM Guides.
 exl-id: d843c5a9-04f8-44f2-9bf5-60cb4ed7fa38
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 33da473cfa8c654a5413f9d8cbe9c43acaf65766
+source-git-commit: e5f4dc964a31d3bc23db166ee391e5e3550d8cbc
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
 
-# Atalhos de teclado no Editor da Web {#id2056B0A0WHT}
+# Atalhos de teclado no Editor {#id2056B0A0WHT}
 
-Há muitas operações no Editor da Web que você pode executar usando os atalhos do teclado. A tabela a seguir lista esses atalhos de teclado:
+Há muitas operações no Editor que você pode executar usando os atalhos de teclado. A tabela a seguir lista esses atalhos de teclado:
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ Há muitas operações no Editor da Web que você pode executar usando os atalho
 | Focaliza no editor atual | **Ctrl***+**Shift**+***0*** | ***Comando***+**Turno**+***0*** |
 | Salvar documento no modo de exibição Autor ou Source | ***Ctrl***+**Shift**+***S*** | ***Comando***+**Turno**+***S*** |
 | Salvar todos os documentos abertos no modo de exibição Autor ou Source | ***Ctrl***+***S*** | ***Comando***+***S*** |
-| Mostrar caixa de diálogo Inserir elemento | ***Alt***+***Enter*** | ***Opção***+***Inserir*** |
+| Mostrar caixa de diálogo Inserir elemento | ***Alt***+***1*** | ***Opção***+***Inserir*** |
 | Mostrar caixa de diálogo Inserir elemento para inserir o elemento antes do elemento selecionado | ***Alt***+***Shift***+***Enter*** | ***Opção***+***Shift***+***Enter*** |
 | Move o cursor uma palavra para a esquerda. | ***Ctrl***+***Seta para a Esquerda*** | ***Opção***+***Seta para a Esquerda*** |
 | Move o cursor uma palavra para a direita. | ***Ctrl***+***Seta para a Direita*** | ***Opção***+***Seta para a Direita*** |

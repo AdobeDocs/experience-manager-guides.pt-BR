@@ -4,14 +4,18 @@ description: Gere a saída a partir do painel do repositório ou do painel Exibi
 exl-id: f7a4be54-9c51-44e6-96bb-f25e3a6155da
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: a02a7310f5e332f88827a9d5a05034abec05b43a
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
 
 # Gerar saída a partir do painel Repositório ou do painel Exibição de mapa {#id218CL6010AE}
+
+>[!NOTE]
+>
+> O painel Geração rápida, anteriormente disponível no Adobe Experience Manager Guides, foi descontinuado a partir das versões 4.0 e 2502. Você não pode acessar o painel Geração rápida para gerar saída do painel Repositório ou do painel de exibição Mapa.
 
 Você também pode usar as predefinições de saída criadas para o mapa DITA para gerar saída a partir do painel Repositório ou do painel Exibição de mapa.
 
@@ -23,7 +27,7 @@ Você também pode usar as predefinições de saída criadas para o mapa DITA pa
 
 - Use o recurso **Gerar Saída** no painel Exibição de Mapa para gerar a saída para os vários tópicos selecionados.
 
-## Publish um tópico usado em um ou mais mapas DITA
+## Publicar um tópico usado em um ou mais mapas DITA
 
 Execute as seguintes etapas para gerar saída para um ou mais tópicos em seu mapa DITA:
 

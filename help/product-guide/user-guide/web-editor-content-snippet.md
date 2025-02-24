@@ -4,9 +4,9 @@ description: Use dados da sua fonte de dados no AEM Guides. Saiba como inserir u
 exl-id: fbd5eff2-451b-49d6-ba77-6eb271e94349
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 2e5bf87b65cca6b522fcb97db1f40f98f020927a
+source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
 workflow-type: tm+mt
-source-wordcount: '2389'
+source-wordcount: '2386'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Você também pode se conectar a arquivos de dados JSON usando um conector de ar
 
 ## Painel Fontes de dados
 
-Selecione **Fontes de Dados** ![fonte de dados](images/data-source-icon.svg) no painel esquerdo para exibir as fontes de dados conectadas. O painel Fontes de dados é aberto e exibe todas as fontes de dados conectadas.
+Selecione **Fontes de Dados** ![fonte de dados](images/data-sources-new-icon.svg) no painel esquerdo para exibir as fontes de dados conectadas. O painel Fontes de dados é aberto e exibe todas as fontes de dados conectadas.
 
 Com base na sua configuração, o administrador pode configurar um conector de fonte de dados:
 
@@ -27,9 +27,9 @@ Com base na sua configuração, o administrador pode configurar um conector de f
 <summary> Cloud Services </summary>
 
 
-- Se estiver usando a versão de outubro de 2023 ou posterior, saiba como [configurar um conector de fonte de dados a partir da interface do usuário](../cs-install-guide/conf-data-source-connector-tools.md) no Guia de Instalação e Configuração do Cloud Service.
+- Se estiver usando a versão de outubro de 2023 ou posterior, saiba como [configurar um conector de fonte de dados a partir da interface do usuário](../cs-install-guide/conf-data-source-connector-tools.md) no Guia de Instalação e Configuração do Cloud Services.
 
-- Se estiver usando a versão de julho de 2023 ou setembro de 2023, saiba como [configurar um conector de fonte de dados](../cs-install-guide/conf-data-source-connector.md) no Guia de instalação e configuração do Cloud Service.
+- Se estiver usando a versão de julho de 2023 ou setembro de 2023, saiba como [configurar um conector de fonte de dados](../cs-install-guide/conf-data-source-connector.md) no Guia de instalação e configuração do Cloud Services.
 
 </details>
 
@@ -47,19 +47,19 @@ Com base na sua configuração, o administrador pode configurar um conector de f
 > Você verá as fontes de dados para as quais o administrador configurou o conector.
 
 
-## Mostrar Exibição de Lista ou Exibição de Bloco
+## Mostrar exibição de lista ou exibição de bloco
 
-Você pode alternar entre a Exibição de lista ou Exibição em bloco para exibir as várias fontes de dados no formato de uma lista ou como blocos.
+Você pode alternar entre a Exibição de lista ou Exibição lado a lado para exibir as várias fontes de dados no formato de uma lista ou como blocos.
 
 Selecione uma fonte de dados para exibir os geradores de trechos de conteúdo e os geradores de tópicos disponíveis para a fonte de dados selecionada.
 
-### Exibição de Lista ![](images/data-sources-list-view-icon.svg)
+### Exibição de lista
 
 ![](images/data-sources-list-view.png){width="300" align="left"}
 
 *Lista de fontes de dados conectadas.*
 
-### Exibição lado a lado   ![](images/data-sources-tile-view-icon.svg)
+### Exibição lado a lado
 
 ![](images/data-sources-tile-view.png){width="300" align="left"}
 
@@ -70,14 +70,13 @@ Você pode usar os dados das fontes de dados de duas maneiras:
 - Criar um tópico
 
 
-
 ## Inserir um trecho de conteúdo da sua fonte de dados
 
-O AEM Guides fornece o recurso para conexão com sua fonte de dados. Você pode buscar seus dados, inseri-los em seus tópicos e editá-los. Você pode criar facilmente um trecho de conteúdo usando o gerador de trecho de conteúdo e reutilizá-lo em seus tópicos.
+O Adobe Experience Manager Guides fornece o recurso para conexão com sua fonte de dados. Você pode buscar seus dados, inseri-los em seus tópicos e editá-los. Você pode criar facilmente um trecho de conteúdo usando o gerador de trecho de conteúdo e reutilizá-lo em seus tópicos.
 
 Execute as seguintes etapas para criar um trecho de conteúdo usando o gerador de trecho de conteúdo e insira-o em seu tópico:
 
-1. Selecionar **Fontes de Dados** ![](images/data-source-icon.svg)   no painel esquerdo para exibir as fontes de dados conectadas.
+1. Selecione **Fontes de Dados** ![](images/data-sources-new-icon.svg) no painel esquerdo para exibir as fontes de dados conectadas.
 
 1. Selecione uma fonte de dados para exibir os geradores de trecho de conteúdo disponíveis para a fonte de dados selecionada.
 
@@ -87,11 +86,13 @@ Execute as seguintes etapas para criar um trecho de conteúdo usando o gerador d
 
 1. Selecione **Adicionar** para adicionar um novo gerador de trecho de conteúdo. O painel **Adicionar gerador de trecho de conteúdo** é aberto.
 
+   ![](images/add-content-snippet-generator-empty-screen.png){width="500" align="left"}
+
 1. Insira a consulta na caixa de texto **Consulta de dados**.  Selecione **Copiar exemplo de consulta** para copiar rapidamente uma consulta de dados. Em vez de criar manualmente a consulta, você pode copiar e colar a consulta de exemplo na caixa de texto **Consulta de dados**. Em seguida, basta editar a query de acordo com seus requisitos de dados.
 
    >[!NOTE]
    >
-   >O Experience Manager fornece exemplos diferentes de consulta para todos os recursos nas várias fontes de dados. Eles são mapeados para a fonte de dados da qual você está buscando os dados.
+   > O Experience Manager fornece diferentes exemplos de consulta para todos os recursos nas várias fontes de dados. Eles são mapeados para a fonte de dados da qual você está buscando os dados.
 
 1. Se você usar um conector de arquivo, poderá fazer upload do arquivo JSON do seu computador ou procurar um arquivo JSON nos ativos da Adobe Experience Manager.
 
@@ -114,7 +115,7 @@ Os modelos prontos para uso da fonte de dados selecionada são exibidos na lista
    >
    > O administrador pode configurar recursos padrão ou adicionar recursos para vários URLs ao configurar os conectores de origem de dados.
 
-1. Clique em **Buscar** para buscar os dados da fonte de dados e aplicar o modelo aos dados resultantes da consulta SQL.
+1. Selecione **Buscar** para buscar os dados da fonte de dados e aplicar o modelo aos dados resultantes da consulta SQL.
 
 1. É possível exibir os dados na visualização ou na exibição da fonte DITA.
 
@@ -124,10 +125,11 @@ Por exemplo:
       - Se você selecionou o modelo jira-ordered-list, é possível visualizar uma lista ordenada para os problemas do Jira.
 
    1. A exibição fonte mostra os dados na exibição fonte DITA.
-      ![](images/add-content-snippet-generator.png){width="800" align="left"}
+
+      ![](images/add-content-snippet-generator-preview.png){width="500" align="left"}
       *Adicione um gerador de trecho de conteúdo. Exibir os dados no modo de origem ou de visualização.*
 
-1. Para salvar os resultados da consulta, digite o nome do gerador e clique em **ADICIONAR**.   Um novo gerador de trecho de conteúdo é adicionado à lista.
+1. Para salvar os resultados da consulta, digite o nome do gerador e selecione **Adicionar**.   Um novo gerador de trecho de conteúdo é adicionado à lista.
 
    >[!NOTE]
    >
@@ -138,7 +140,7 @@ Por exemplo:
 Clique com o botão direito do mouse em um gerador de trecho de conteúdo para abrir as Opções. Usando as opções, você pode executar as seguintes operações:
 
 - **Visualização**: use esta opção para abrir um painel e exibir uma pequena fração de como os dados são exibidos na saída.
-- **Inserir**: use esta opção para inserir o trecho de conteúdo selecionado no tópico aberto para edição no Editor da Web. À medida que os dados são inseridos como um trecho, você também pode editar os dados dentro do tópico no Editor da Web.
+- **Inserir**: use esta opção para inserir o trecho de conteúdo selecionado no tópico aberto para edição no Editor. À medida que os dados são inseridos como um trecho, você também pode editar os dados dentro do tópico no Editor.
 
   >[!NOTE]
   > 
@@ -148,11 +150,11 @@ Clique com o botão direito do mouse em um gerador de trecho de conteúdo para a
 - **Excluir**: use esta opção para excluir o gerador de trecho de conteúdo selecionado.
 - **Duplicar**: use esta opção para criar uma duplicata ou uma cópia do gerador de trechos de conteúdo selecionado. A duplicata é criada com um sufixo (como generator_1) por padrão.
 
-### Inserir um trecho de consulta
+### Inserir dados de consulta
 
-Você também pode usar o **Inserir trecho da consulta** ![](images/data-source-icon.svg)   na barra de ferramentas principal para inserir o trecho de dados nos tópicos.  Você pode selecionar um gerador na lista suspensa, editar sua query ou alterar o modelo e inserir os dados em seu tópico.
+Você também pode usar os **Dados de consulta** ![](images/data-sources-new-icon.svg) da barra de ferramentas para inserir o trecho de dados nos tópicos.  Você pode selecionar um gerador na lista suspensa, editar sua query ou alterar o modelo e inserir os dados em seu tópico.
 
-![](images/insert-content-snippet.png){width="800" align="left"}
+![](images/add-content-snippet-generator.png){width="800" align="left"}
 
 *Editar e inserir um trecho de dados.*
 
@@ -184,7 +186,7 @@ Execute as seguintes etapas para criar um tópico usando o gerador de tópicos:
 
    **Buscar configuração**
 
-   ![](images/topic-generator-fetch-configuration.png){width="300" align="left"}
+   ![](images/fetch-configuration.png){width="300" align="left"}
 
    *Adicione a Consulta de Dados, o modelo de mapeamento de dados e os detalhes do nó Raiz para o gerador de tópico e dê a ele um nome exclusivo no painel Buscar Configuração.*
 
@@ -192,7 +194,7 @@ Execute as seguintes etapas para criar um tópico usando o gerador de tópicos:
 
       >[!NOTE]
       >
-      >O Experience Manager fornece exemplos diferentes de consulta para todos os recursos nas várias fontes de dados. Eles são mapeados para a fonte de dados da qual você está buscando os dados.
+      >O Experience Manager fornece diferentes exemplos de consulta para todos os recursos nas várias fontes de dados. Eles são mapeados para a fonte de dados da qual você está buscando os dados.
 
    1. Se você usar um conector de arquivo, poderá fazer upload do arquivo JSON do seu computador ou procurar um arquivo JSON nos ativos da Adobe Experience Manager.
 
@@ -208,7 +210,7 @@ Execute as seguintes etapas para criar um tópico usando o gerador de tópicos:
 
    1. Insira o **Nó raiz**. Esse é o nó no qual você deseja acessar seus dados. O gerador de tópicos cria cada tópico no nível definido no nó raiz. Por exemplo, você pode adicionar ‘problemas’ como o nó raiz no Jira. Portanto, se um query retornar 13 problemas, você terá 13 tópicos, um tópico para cada problema.
 
-   1. Clique em **Buscar** para buscar os dados da fonte de dados e aplicar o modelo aos dados resultantes da consulta SQL. A visualização mostra uma pequena fração de como o tópico aparece no formato do modelo selecionado. Por exemplo, você pode visualizar um único problema do Jira com todos os campos resultantes da query.
+   1. Selecione **Buscar** para buscar os dados da fonte de dados e aplicar o modelo aos dados resultantes da consulta SQL. A visualização mostra uma pequena fração de como o tópico aparece no formato do modelo selecionado. Por exemplo, você pode visualizar um único problema do Jira com todos os campos resultantes da query.
    1. Informe o nome do gerador de tópico.
 
       >[!NOTE]
@@ -240,13 +242,13 @@ Execute as seguintes etapas para criar um tópico usando o gerador de tópicos:
 
    *Adicione as propriedades dos metadados no painel Metadados para passar para os tópicos.*
 
-1. Insira o nome do gerador e clique em **Salvar** para salvar os resultados da consulta. Um novo gerador de tópico é adicionado à lista.
+1. Insira o nome do gerador e selecione **Salvar** para salvar os resultados da consulta. Um novo gerador de tópico é adicionado à lista.
 
-1. Clique em **Salvar e Gerar** para salvar o gerador de tópicos e gerar novos tópicos a partir dele.
+1. Selecione **Salvar e Gerar** para salvar o gerador de tópicos e gerar novos tópicos a partir dele.
 
 
 
-   ![](images/edit-topic-generator.png){width="650" align="left"}
+   ![](images/add-topic-generator.png){width="800" align="left"}
 
    *Gerar novos tópicos a partir de um gerador de tópicos existente.*
 
@@ -280,10 +282,10 @@ Clique com o botão direito do mouse em um gerador de tópicos para abrir as **O
 
 ## Usar ferramentas do Velocity nos modelos de fonte de dados {#use-velocity-tools}
 
-Os modelos de Experience Manager também são compatíveis com as ferramentas do Velocity (versão 2.0). Essas ferramentas ajudam a aplicar várias funções aos dados obtidos nas fontes de dados. Saiba mais sobre o uso das [ferramentas do Velocity](https://velocity.apache.org/tools/2.0/generic.html) e as funções que você pode aplicar.
+Os modelos do Experience Manager também são compatíveis com as ferramentas do Velocity (versão 2.0). Essas ferramentas ajudam a aplicar várias funções aos dados obtidos nas fontes de dados. Saiba mais sobre o uso das [ferramentas do Velocity](https://velocity.apache.org/tools/2.0/generic.html) e as funções que você pode aplicar.
 
 Execute as seguintes etapas para usar uma ferramenta Velocity em um modelo:
-1. Editar um modelo do Velocity no Editor da Web.
+1. Editar um modelo do Velocity no Editor.
 1. Adicione uma ferramenta e sua função no formato `<tool.function>`. Por exemplo:
    - Para gerar um número aleatório usando a ferramenta matemática, use `$mathTool.random`.
    - Para gerar a soma de números usando a ferramenta matemática, use `$mathTool.add(num1, num2)`.

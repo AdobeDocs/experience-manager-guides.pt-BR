@@ -1,49 +1,37 @@
 ---
-title: Trabalhar com o editor da Web
-description: Crie e edite documentos estruturados usando o editor da Web. Saiba como trabalhar com o editor da Web seguindo os padrões DITA no AEM Guides.
+title: Introdução ao editor
+description: Crie e edite documentos estruturados usando o editor. Saiba como trabalhar com o editor seguindo os padrões DITA no Adobe Experience Manager Guides.
 exl-id: 285d3ad3-fb4e-4cdd-ab83-493ffce891d6
 feature: Authoring, Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 67d6b6f59e5d8c37389a181949ce4527760576e2
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
 
-# Trabalhar com o editor da Web {#id181OD0QE05Z}
+# Introdução ao editor {#id181OD0QE05Z}
 
-O AEM Guides vem com um Editor da Web fácil de usar para criar e editar documentos estruturados. O editor oculta todas as complexidades da estrutura DITA do autor. O editor fornece uma lista de elementos DITA que um usuário normalmente precisaria para trabalhar em um documento.
+O Experience Manager Guides vem com um Editor fácil de usar para criar e editar documentos estruturados. O editor oculta todas as complexidades da estrutura DITA do autor. O editor fornece uma lista de elementos DITA que um usuário normalmente precisaria para trabalhar em um documento.
 
-Além disso, o Editor da Web tem reconhecimento de DITA e é compatível com os padrões DITA 1.3, 1.2, DITA leve e DITA especializado. Isso implica que não permitirá colocar elementos em locais que não estejam de acordo com os padrões DITA. O Editor da Web também permite trabalhar com os elementos de bloco e em linha mais usados.
+Além disso, o Editor tem reconhecimento de DITA e é compatível com os padrões DITA 1.3, 1.2, DITA leve e também DITA especializado. Isso implica que não permitirá colocar elementos em locais que não estejam de acordo com os padrões DITA. O Editor também permite trabalhar com os blocos e elementos em linha mais usados.
 
-- **[Iniciar o Editor da Web](web-editor-launch-editor.md)**
+- **[Iniciar o Editor](web-editor-launch-editor.md)**
 
-- **[Editar tópicos no Editor da Web](web-editor-edit-topics.md)**
+- **[Criar e visualizar tópicos](create-preview-topics.md)**
 
-- **[Conhecer os recursos do Editor da Web](web-editor-features.md)**
+- **[Conhecer os recursos do Editor](web-editor-features.md)**
 
-- **[Atalhos de teclado no Editor da Web](web-editor-keyboard-shortcuts.md)**
+- **[Recursos adicionais no Editor](web-editor-other-features.md)**
 
-- **[Outros recursos no Editor da Web](web-editor-other-features.md)**
+- **[Visualizações do editor](web-editor-views.md)**
 
-- **[modos de exibição do Editor da Web](web-editor-views.md)**
-
-- **[Documentos do Author Markdown do Editor da Web](web-editor-markdown-topic.md)**
-
-- **[Gerenciar predefinições de saída de Perfil Global e de Pasta](web-editor-manage-output-presets.md)**
-
-- **[Publicação baseada em artigo do Editor da Web](web-editor-article-publishing.md)**
-
-- **[Use o painel &#39;Geração rápida&#39; para gerar e exibir a saída](web-editor-quick-generate-panel.md)**
-
-- **[Traduzir documentos do Editor da Web](translate-documents-web-editor.md)**
-
-- **[Criar e gerenciar linhas de base do Editor da Web](web-editor-baseline.md)**
+- **[Criação de documentos do Markdown a partir do Editor](web-editor-markdown-topic.md)**
 
 - **[Estado do documento](web-editor-document-states.md)**
 
 - **[Usar rótulos](web-editor-use-label.md)**
 
 
-**Tópico pai:**[ Conteúdo de autor usando o AEM Guides](authoring-content-xml-doc.md)
+**Tópico pai:**[ Conteúdo de autor usando o Experience Manager Guides](authoring-content-xml-doc.md)

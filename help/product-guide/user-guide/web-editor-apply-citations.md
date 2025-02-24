@@ -4,9 +4,9 @@ description: Adicionar e gerenciar citações no AEM Guides. Saiba como aplicar,
 exl-id: 685d747d-e017-4350-a6bf-822fd55c76e8
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
 workflow-type: tm+mt
-source-wordcount: '1887'
+source-wordcount: '1890'
 ht-degree: 0%
 
 ---
@@ -15,17 +15,17 @@ ht-degree: 0%
 
 Citações são referências à fonte de informações adicionada ao conteúdo. Usando citações, você pode creditar os autores das informações de origem e ajudar os leitores a acompanhar as informações de origem. Adicionar citações torna seu conteúdo mais confiável e evita plágios. Eles também permitem exibir conteúdo bem pesquisado.
 
-No AEM Guides, você pode adicionar e importar citações e aplicá-las ao seu conteúdo. É possível adicionar essas citações de qualquer fonte de livros, sites e diários.
+No Adobe Experience Manager Guides, você pode adicionar e importar citações e aplicá-las ao seu conteúdo. É possível adicionar essas citações de qualquer fonte de livros, sites e diários.
 
 
-O AEM Guides ajuda a editar, visualizar e classificar as citações. Depois de adicionar suas citações ao conteúdo, você pode gerar a saída usando o PDF nativo. Você também pode adicionar a página de bibliografia ou referências na saída de PDF nativo.
+O Experience Manager Guides ajuda a editar, visualizar e classificar as citações. Depois de adicionar suas citações ao conteúdo, você pode gerar a saída usando o PDF nativo. Você também pode adicionar a página de bibliografia ou referências na saída do PDF nativo.
 
-O AEM Guides suporta vários estilos de citações, como a Modern Language Association (MLA), American Psychological Association (APA), Chicago, Institute for Electrical and Electronics Engineers (IEEE) e American Heart Association (AHA). A recomendação é usá-los de forma clara e consistente.
+O Experience Manager Guides suporta vários estilos de citações, como a Modern Language Association (MLA), American Psychological Association (APA), Chicago, Institute for Electrical and Electronics Engineers (IEEE) e American Heart Association (AHA). A recomendação é usá-los de forma clara e consistente.
 
 
 >[!NOTE]
 >
->Atualmente, o AEM Guides só oferece suporte ao PDF nativo para citações.
+>Atualmente, o Experience Manager Guides só oferece suporte ao PDF nativo para citações.
 
 
 ## Adicionar citações
@@ -33,14 +33,16 @@ O AEM Guides suporta vários estilos de citações, como a Modern Language Assoc
 Para adicionar citações, siga estas etapas:
 
 1. Selecione o ícone **Citações** ![citações](images/citations-icon.svg) no painel esquerdo.
-O painel **Citações** é aberto.
 
-   ![](images/citation-panel.png){width="300" align="left"}
+   O painel **Citações** é aberto.
+
+   ![](images/citation-panel.png){width="350" align="left"}
 
 1. No painel **Citações**, selecione ![Ícone Adicionar](images/Add_icon.svg). Na lista suspensa, é possível optar por adicionar uma nova citação ou importar uma citação.
 
-1. Selecione **Nova Citação** para adicionar uma nova citação.
-A caixa de diálogo **Adicionar Citação** é aberta.
+1. Selecione **Nova citação** para adicionar uma nova citação.
+
+   A caixa de diálogo **Adicionar Citação** é aberta.
 
    ![painel de citação no editor da web](images/citation-add.png) {width="300" align="left"}
 
@@ -49,7 +51,7 @@ A caixa de diálogo **Adicionar Citação** é aberta.
 
    >[!NOTE]
    >
-   >Você também pode adicionar o ISBN ou DOI ou PubMed ID. O AEM Guides preenche os outros campos automaticamente.
+   >Você também pode adicionar o ISBN, DOI ou PubMed ID. O AEM Guides preenche os outros campos automaticamente.
 
    | Livro | Site | Diário |
    | --- | ---|---|
@@ -66,10 +68,6 @@ A caixa de diálogo **Adicionar Citação** é aberta.
    | **Série** <br>Adicione a série do livro. |  | **Identificador exclusivo** <br> Adicione um identificador exclusivo para a citação. Um Identificador exclusivo é um identificador exclusivo para essa citação. |
    | **URL** <br> Adicione o link da Web ao livro. |
    | **Identificador exclusivo** <br> Adicione um identificador exclusivo para a citação. Um identificador exclusivo é um identificador exclusivo para essa citação. |
-
-
-
-
 
 1. Selecione **Concluído**.
 
@@ -97,8 +95,8 @@ Para importar citações, siga estas etapas:
    Depois que o arquivo for importado com êxito, você poderá exibir as referências no painel de citações.
 
    >[!NOTE]
-   > <ol><li> O AEM Guides importa somente as citações que são exclusivas e que ainda não estão presentes.
-    &gt; <li> O AEM Guides pode importar citações de um Livro, Diário ou Site. Atualmente, não aceita citações de outras fontes.
+   > <ol><li> O Experience Manager Guides importa somente as citações que são exclusivas e que ainda não estão presentes.
+    &gt; <li> O Experience Manager Guides pode importar citações de um Livro, Diário ou Site. Atualmente, não aceita citações de outras fontes.
 
 ## Gerenciar citações
 
@@ -127,8 +125,8 @@ O painel **Citações** é aberto.
 
 ### Alterar estilo de citação {#change-citation-style}
 
-O administrador do sistema pode alterar o estilo das citações na lista suspensa **Citações** da guia **Configurações Gerais** nas **Configurações do Editor**.
-Esses estilos determinam como as citações são exibidas no painel de visualização ou na saída de PDF nativo.
+O administrador do sistema pode alterar o estilo das citações na lista suspensa **Citações** da guia **Geral**, em **Configurações**.
+Esses estilos determinam como as citações aparecem no painel de visualização ou na saída do PDF nativo.
 
 As seguintes opções estão disponíveis na lista suspensa:
 
@@ -166,15 +164,15 @@ Você pode visualizar o conteúdo e o formato da citação no painel de visualiz
 
    >[!NOTE]
    >
-   >A visualização é baseada no estilo de citação selecionado pelo administrador nas **Configurações do Editor**.
+   >A visualização é baseada no estilo de citação selecionado pelo administrador nas **Configurações**.
 
-1. Clique em qualquer lugar na tela para fechar a caixa de visualização.
+1. Selecione qualquer lugar na tela para fechar a caixa de visualização.
 
    ![](images/citation-preview.png){width="550" align="left"}
 
 >[!NOTE]
 >
-> Você também pode visualizar uma citação inserida em um tópico da interface do usuário do Assets ou da guia Preview do Editor da Web.
+> Você também pode visualizar uma citação inserida em um tópico da interface do usuário do Assets ou da guia Preview do Editor.
 
 ## Inserir citações
 
@@ -193,7 +191,7 @@ Execute as seguintes etapas para inserir citações a um tópico:
    ![caixa de diálogo de citação](images/citation-dialog-main-toolbar.png){width="300" align="left"}
 1. Você pode filtrar citações digitando os primeiros alfabetos no painel de pesquisa da caixa de diálogo **Citação**.
 
-1. Clique em **Concluído**.
+1. Selecione **Concluído**.
 A citação selecionada é adicionada no local do cursor em seu tópico.
 
 
@@ -201,7 +199,7 @@ A citação selecionada é adicionada no local do cursor em seu tópico.
 
 >[!NOTE]
 > 
->Para exibir o ícone **Citações** no painel esquerdo, o administrador do sistema deve selecionar a opção **Citações** na guia **Painéis** das **Configurações do Editor**.
+>Para exibir o ícone **Citações** no painel esquerdo, o administrador do sistema deve habilitar a opção **Citações** na guia **Painéis** das **Configurações**.
 
 1. Selecione o ícone **Citações** ![citações ](images/citations-icon.svg) no painel esquerdo.
 1. Arraste a citação do painel **Citações** e solte-a no local apropriado no tópico.
@@ -254,22 +252,21 @@ No tópico, coloque o cursor no final da citação.
 
 ## Gerar saída de conteúdo com citações
 
-Depois de inserir citações no tópico, você poderá publicar o conteúdo com citações usando o PDF nativo.
+Depois de inserir citações no tópico, você pode publicar conteúdo com citações usando o PDF nativo.
 
-Na saída do PDF nativo, as citações aparecem no conteúdo em que você as inseriu. Você também pode criar uma página de Bibliografia. Ao clicar em qualquer citação, você é redirecionado para a página de bibliografia.
+Na saída do PDF nativo, as citações aparecem no conteúdo em que você as inseriu. Você também pode criar uma página de Bibliografia. Ao selecionar uma citação, você é redirecionado para a página de bibliografia.
 
-Crie um layout de página **Citações** nos modelos de PDF e inclua-o no documento. Todas as citações usadas no livro são listadas em uma página que aparece na saída de PDF. Para saber mais sobre como criar um layout de página, exiba [Criar um layout de página](../native-pdf/components-pdf-template.md#create-page-layout).
+Crie um layout de página **Citações** nos modelos do PDF e inclua-o no documento. Todas as citações usadas no livro são listadas em uma página que aparece na saída do PDF. Para saber mais sobre como criar um layout de página, exiba [Criar um layout de página](../native-pdf/components-pdf-template.md#create-page-layout).
 
 
-Para alterar a exibição e a aparência da página de citação, exiba [Personalizar modelos de PDF](../native-pdf/pdf-template.md).
-
+Para alterar a exibição da página de citação, exiba [Personalizar modelos do PDF](../native-pdf/pdf-template.md).
 
 
 ### Aplicar estilo de conteúdo a uma citação
 
 Aplicar formatação à citação quando adicionada ao tópico.
 
-1. Selecione **Folhas de estilos** no painel **Modelos** de uma predefinição de saída de PDF nativo.   Ele abre o painel **ESTILOS**, que contém todas as opções de estilo.
+1. Selecione **Folhas de Estilos** no painel **Modelos** de uma predefinição de saída do PDF Nativo.   Ele abre o painel **ESTILOS**, que contém todas as opções de estilo.
 
 1. No painel Pesquisar, procure por `<cite>`.
 

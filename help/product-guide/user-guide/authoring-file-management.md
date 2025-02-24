@@ -4,16 +4,16 @@ description: Saiba como gerenciar arquivos e pastas no AEM Guides. Copie e cole,
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: 99e42091490b28b5d5ee73472a7655e3feeafd25
 workflow-type: tm+mt
-source-wordcount: '3109'
+source-wordcount: '3131'
 ht-degree: 0%
 
 ---
 
 # Gerenciar arquivos e pastas {#id2116G0L08XA}
 
-Esta seção explica como o AEM Guides lida com as operações básicas de arquivo, como copiar, colar, arrastar e soltar e excluir arquivos. Os seguintes cenários são possíveis:
+Esta seção explica como o Adobe Experience Manager Guides lida com as operações básicas de arquivo, como copiar, colar, arrastar e soltar e excluir arquivos. Os seguintes cenários são possíveis:
 
 ## Copiar e colar arquivos
 
@@ -61,7 +61,7 @@ Esta seção explica como o AEM Guides lida com as operações básicas de arqui
 
   >[!NOTE]
   >
-  > O recurso **Criar nova versão para arquivo carregado** deve ser habilitado pelo administrador. Se esse recurso estiver ativado, uma nova versão do arquivo carregado será criada. Se a opção estiver desmarcada, uma versão do arquivo carregado não será criada. Para obter mais detalhes, consulte a seção *Criar nova versão para o arquivo carregado* em Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service.
+  > O recurso **Criar nova versão para arquivo carregado** deve ser habilitado pelo administrador. Se esse recurso estiver ativado, uma nova versão do arquivo carregado será criada. Se a opção estiver desmarcada, uma versão do arquivo carregado não será criada. Para obter mais detalhes, consulte a seção *Criar Nova Versão para Arquivo Carregado* em Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service.
 
   Se outro usuário já tiver feito check-out de um arquivo para edição e você tentar fazer upload e substituir o arquivo existente, ocorrerá uma falha e um erro será exibido.
 
@@ -83,7 +83,7 @@ Quando o arquivo é substituído, não há alteração no nome do arquivo ou em 
 
 Se você selecionar a opção **Criar Versão para a Cópia de Trabalho Existente**, será criada uma nova versão a partir da cópia de trabalho do documento; o novo arquivo será carregado, uma nova versão do arquivo também será criada e será feita como a cópia de trabalho do documento.
 
-O recurso **Criar nova versão para arquivo carregado** deve ser habilitado pelo administrador. Se esse recurso estiver ativado, uma nova versão do arquivo carregado será criada. Se a opção estiver desmarcada, uma versão do arquivo carregado não será criada. Para obter mais detalhes, consulte a seção *Criar nova versão para o arquivo carregado* em Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service.
+O recurso **Criar nova versão para arquivo carregado** deve ser habilitado pelo administrador. Se esse recurso estiver ativado, uma nova versão do arquivo carregado será criada. Se a opção estiver desmarcada, uma versão do arquivo carregado não será criada. Para obter mais detalhes, consulte a seção *Criar nova versão para arquivo carregado* em Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service.
 
 
 *Arrastar e soltar arquivo em local diferente*: você tem as opções de **Substituir Arquivo Existente\(s\)**, **Mover Arquivo\(s\) para Novo Local** e uma opção para criar uma versão da cópia de trabalho existente.
@@ -99,11 +99,11 @@ Ao substituir ou mover os arquivos, se você escolher a opção para criar uma v
 
 ## Mover arquivos em massa {#move-files-bulk}
 
-O AEM Guides vem com a ferramenta Mover em massa que ajuda o administrador a mover uma pasta com um grande número de arquivos de um local para outro. Essa ferramenta pode mover facilmente arquivos de uma ou mais pastas para uma pasta diferente no repositório AEM. Um dos principais recursos dessa ferramenta é que ela não apenas move um grande número de arquivos, mas também mantém as referências para e dos arquivos que estão sendo movidos. É possível ajustar o número de arquivos que podem ser movidos em lotes sem prejudicar as tarefas de criação e publicação.
+O Experience Manager Guides vem com a ferramenta Mover em massa que ajuda o administrador a mover uma pasta com um grande número de arquivos de um local para outro. Essa ferramenta pode mover facilmente arquivos de uma ou mais pastas para uma pasta diferente no repositório do Adobe Experience Manager. Um dos principais recursos dessa ferramenta é que ela não apenas move um grande número de arquivos, mas também mantém as referências para e dos arquivos que estão sendo movidos. É possível ajustar o número de arquivos que podem ser movidos em lotes sem prejudicar as tarefas de criação e publicação.
 
 >[!NOTE]
 >
-> A ferramenta Mover em massa funciona somente no nível da pasta. Se você quiser mover arquivos de tópico ou mapa individuais, use a ferramenta de movimentação regular da interface do usuário do Assets do AEM.
+> A ferramenta Mover em massa funciona somente no nível da pasta. Se você quiser mover arquivos de tópico ou mapa individuais, use a ferramenta de movimentação regular da interface do Assets do Adobe Experience Manager.
 
 Estes são alguns dos recursos fornecidos pela Ferramenta de movimentação em massa:
 
@@ -124,14 +124,14 @@ Você deve considerar os seguintes pontos antes de executar o processo em lote:
 
 Para mover arquivos em massa, execute as seguintes etapas:
 
-1. Clique no link do Adobe Experience Manager na parte superior e escolha **Ferramentas**.
+1. Selecione o logotipo do Adobe Experience Manager na parte superior e escolha **Ferramentas**.
 1. Selecione **Guias** na lista de ferramentas.
-1. Clique no bloco **Ferramenta de movimentação em massa**.
+1. Selecione o bloco **Ferramenta de movimentação em massa**.
 1. A página Ferramenta de movimentação em massa é exibida com base em sua configuração. Forneça os seguintes detalhes na página **Ferramenta de movimentação em massa**:
 
    <details>
 
-   <summary> Cloud Service e sistema de arquivos baseado em UUID no local </summary>
+   <summary> Cloud Services e sistema de arquivos baseado em UUID no local </summary>
 
    ![](images/bulk-move-tool-uuid.png){width="650" align="center"}
 
@@ -146,23 +146,23 @@ Para mover arquivos em massa, execute as seguintes etapas:
 
    - **Caminho do Source\(s\)**: especifique o local das pastas que deseja mover.
 
-      - Selecionar **Pasta de Navegação**  <img src="images/browse-folder-icon.svg" width="25">    para abrir a caixa de diálogo procurar arquivo. Selecione as pastas que deseja mover e clique em **Selecionar** para concluir o processo.
+      - Selecionar **Pasta de Navegação**  <img src="images/browse-folder-icon.svg" width="25">    para abrir a caixa de diálogo procurar arquivo. Selecione as pastas que deseja mover e escolha **Selecionar** para concluir o processo.
 
       - Você também pode digitar ou copiar e colar o local de origem. Pressione Enter para adicionar a pasta à lista.
 
         As pastas selecionadas são listadas junto com seu caminho. Passe o mouse sobre a tag da pasta para visualizar o caminho completo.
-      - Você também pode remover qualquer pasta clicando em **Remover** <img src="images/remove-folder.svg" width="25"> próximo à pasta.
+      - Você também pode remover qualquer pasta selecionando **Remover** <img src="images/remove-folder.svg" width="25"> próximo à pasta.
 
 
    - **Caminho de destino**: especifique o local para onde deseja mover as pastas de origem.
 
-      - Selecionar **Pasta de Navegação** <img src="images/browse-folder-icon.svg" width="25"> para abrir a caixa de diálogo procurar arquivo. Selecione o local para onde deseja mover as pastas de origem. e clique em Selecionar para concluir o processo.
+      - Selecionar **Pasta de Navegação** <img src="images/browse-folder-icon.svg" width="25"> para abrir a caixa de diálogo procurar arquivo. Selecione o local para onde deseja mover as pastas de origem. e escolha Selecionar para concluir o processo.
       - Também é possível digitar ou copiar e colar o caminho de destino.
 
      A pasta selecionada é exibida junto com seu caminho na caixa de texto.
 
 
-   - Clique em **Movimentação em massa**.
+   - Selecione **Movimentação em massa**.
 
      O sistema inicia a movimentação dos arquivos do local de origem para o local de destino. Quando o processo for concluído, um resumo do processo de movimentação será mostrado à direita da página.
 
@@ -195,22 +195,22 @@ Para mover arquivos em massa, execute as seguintes etapas:
 
    - **Caminho do Source\(s\)**: especifique o local das pastas que deseja mover.
 
-      - Selecionar **Pasta de Navegação**  <img src="images/browse-folder-icon.svg" width="25">    para abrir a caixa de diálogo procurar arquivo. Selecione as pastas que deseja mover e clique em **Selecionar** para concluir o processo.
+      - Selecionar **Pasta de Navegação**  <img src="images/browse-folder-icon.svg" width="25">    para abrir a caixa de diálogo procurar arquivo. Selecione as pastas que deseja mover e escolha **Selecionar** para concluir o processo.
 
       - Você também pode digitar ou copiar e colar o local de origem. Pressione Enter para adicionar a pasta à lista.
 
         As pastas selecionadas são listadas junto com seu caminho. Passe o mouse sobre a tag da pasta para visualizar o caminho completo.
-      - Você também pode remover qualquer pasta clicando em **Remover** <img src="images/remove-folder.svg" width="25"> próximo à pasta.
+      - Você também pode remover qualquer pasta selecionando **Remover** <img src="images/remove-folder.svg" width="25"> próximo à pasta.
 
 
    - **Caminho de destino**: especifique o local para onde deseja mover as pastas de origem.
 
-      - Selecionar **Pasta de Navegação** <img src="images/browse-folder-icon.svg" width="25"> para abrir a caixa de diálogo procurar arquivo. Selecione o local para onde deseja mover as pastas de origem. e clique em Selecionar para concluir o processo.
+      - Selecionar **Pasta de Navegação** <img src="images/browse-folder-icon.svg" width="25"> para abrir a caixa de diálogo procurar arquivo. Selecione o local para onde deseja mover as pastas de origem. e escolha Selecionar para concluir o processo.
       - Também é possível digitar ou copiar e colar o caminho de destino.
 
         A pasta selecionada é exibida junto com seu caminho na caixa de texto.
 
-   - Clique em **Movimentação em massa**.
+   - Selecione **Movimentação em massa**.
 
      O sistema inicia a movimentação dos arquivos do local de origem para o local de destino. Quando o processo for concluído, um resumo do processo de movimentação será mostrado à direita da página.
      ![](images/bulk-move-summary-non-uuid.png){width="650" align="center"}
@@ -218,11 +218,11 @@ Para mover arquivos em massa, execute as seguintes etapas:
 
 ## Pesquisar conteúdo DITA
 
-Por padrão, o AEM não reconhece o conteúdo DITA e, portanto, não fornece nenhum mecanismo para pesquisar conteúdo DITA em seu repositório. O AEM Guides adiciona uma camada sobre o AEM, que permite que o AEM entenda e processe conteúdo DITA. O recurso Pesquisar conteúdo DITA no AEM Guides permite pesquisar conteúdo DITA no repositório AEM.
+Por padrão, o Adobe Experience Manager não reconhece o conteúdo DITA e, portanto, não fornece nenhum mecanismo para pesquisar conteúdo DITA em seu repositório. O Experience Manager Guides adiciona uma camada sobre o Adobe Experience Manager, que permite que o Adobe Experience Manager entenda e processe conteúdo DITA. O recurso Pesquisar conteúdo DITA no Experience Manager Guides permite pesquisar conteúdo DITA no repositório do Adobe Experience Manager.
 
 >[!NOTE]
 >
->O administrador do sistema pode configurar o componente de pesquisa **Elemento DITA** e, em seguida, usar o recurso da interface do usuário do AEM Assets. Para obter mais detalhes, *Adicione o componente de pesquisa Elemento DITA na seção da interface do usuário do Assets* em Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service.
+>O administrador do sistema pode configurar o componente de pesquisa **Elemento DITA** e, em seguida, usar o recurso da interface do usuário do Adobe Experience Manager Assets. Para obter mais detalhes, *Adicione o componente de pesquisa Elemento DITA na seção da interface do usuário do Assets* em Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service.
 
 Usando o recurso de pesquisa, você pode:
 
@@ -230,7 +230,7 @@ Usando o recurso de pesquisa, você pode:
 - Procurar conteúdo DITA com base em um valor de atributo; por exemplo, `@platform`= janelas
 - Use uma combinação de elemento DITA e valor de atributo; por exemplo, `author`= xml `AND` `@platform`= janelas
 
-Execute as seguintes etapas para pesquisar o conteúdo DITA no repositório AEM:
+Execute as seguintes etapas para pesquisar conteúdo DITA no repositório do Adobe Experience Manager:
 
 1. Abra a interface do Assets.
 
@@ -259,13 +259,13 @@ Execute as seguintes etapas para pesquisar o conteúdo DITA no repositório AEM:
 
 **Filtro de status de check-out na pesquisa**
 
-Além do filtro Elemento DITA, o AEM Guides também permite pesquisar conteúdo com base no status da finalização. Isso é útil quando você deseja filtrar rapidamente os arquivos cujo check-out foi feito por você e deseja fazer o check-in deles novamente.
+Além do filtro Elemento DITA, o Experience Manager Guides também permite pesquisar conteúdo com base no status da finalização. Isso é útil quando você deseja filtrar rapidamente os arquivos cujo check-out foi feito por você e deseja fazer o check-in deles novamente.
 
 Execute as seguintes etapas para procurar arquivos com base no status de check-out:
 
 1. Abra a interface do Assets.
 
-1. Clique em **Filtro** no painel esquerdo.
+1. Selecione **Filtro** no painel esquerdo.
 1. Insira sua palavra-chave de pesquisa na barra de Pesquisa.
 1. Aplique os filtros necessários no painel esquerdo.
 
@@ -276,7 +276,7 @@ Execute as seguintes etapas para procurar arquivos com base no status de check-o
 
 ## Excluir arquivos
 
-A exclusão de arquivos do repositório AEM é um recurso restrito, controlado pelo administrador do sistema. Com base nas configurações, a exclusão de arquivos pode ser restrita se forem:
+A exclusão de arquivos do repositório do Adobe Experience Manager é um recurso restrito, controlado pelo administrador do sistema. Com base nas configurações, a exclusão de arquivos pode ser restrita se forem:
 
 - Retirado
 - Têm referências de entrada ou saída
@@ -285,7 +285,7 @@ Também é possível excluir arquivos somente se você pertencer a um grupo de u
 
 >[!NOTE]
 >
-> Para obter mais detalhes sobre as configurações no gerenciamento de arquivos, consulte as seções *Impedir exclusão de arquivos com check-out* e *Impedir exclusão de arquivos referenciados* nas seções Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service.
+> Para obter mais detalhes sobre as configurações no gerenciamento de arquivos, exiba *Impedir exclusão de arquivos com check-out* e *Impedir exclusão de arquivos referenciados* nas seções Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service.
 
 Se o administrador tiver dado permissão de exclusão de arquivo a todos os usuários, a seguinte mensagem será exibida quando você excluir arquivos que contenham referências:
 
@@ -307,12 +307,12 @@ Se o arquivo de mídia tiver sofrido alterações, você poderá localizar e vis
 
 1. Acesse o arquivo na **interface do Assets**.
 1. Selecione o arquivo para o qual deseja exibir o histórico de versões.
-1. No painel à esquerda, clique em **Histórico de Versões** e selecione uma versão.
-1. Você também pode ver as miniaturas de diferentes versões em Histórico de versões.
+1. No painel à esquerda, selecione **Histórico de Versões** e selecione uma versão.
+1. Você também pode visualizar as miniaturas das diferentes versões em Histórico de versões.
 
    ![](images/media-version-history-icon.png){width="800" align="center"}
 
-1. Nas versões listadas, selecione aquela que você deseja usar como a versão base e clique em **Visualizar Versão**. A visualização da versão selecionada é mostrada na janela Visualização de versão.
+1. Nas versões listadas, selecione aquela que você deseja usar como a versão base e selecione **Visualizar Versão**. A visualização da versão selecionada é mostrada na janela Visualização de versão.
 
    ![](images/media-version-preview.png){width="650" align="center"}
 

@@ -4,9 +4,9 @@ description: Reatribua uma tarefa de revisão usando notificações no AEM Guide
 exl-id: 6cd01564-aa26-4773-9c95-9dc519706f27
 feature: Reviewing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
@@ -38,4 +38,4 @@ Quando a tarefa de revisão for reatribuída, a coluna Destinatário exibirá o 
 
 O revisor atribuído recebe uma notificação na Caixa de entrada para a tarefa de revisão reatribuída.
 
-**Tópico pai:**[ Tópicos ou mapas de revisão](review.md)
+**Tópico pai:**[ Introdução à revisão](review.md)

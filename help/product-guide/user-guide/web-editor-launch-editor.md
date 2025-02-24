@@ -1,70 +1,61 @@
 ---
-title: Iniciar o Editor da Web
-description: Saiba como iniciar o editor da Web na página de navegação do AEM, na interface do usuário do AEM Assets e no console de mapas DITA no AEM Guides.
+title: Iniciar o editor
+description: Saiba como iniciar o Editor na Página de navegação do AEM, na interface do usuário do AEM Assets e no Console de mapas no Adobe Experience Manager Guides.
 exl-id: cdde7c29-ee49-4e17-902e-1e2bd6f32e8a
 feature: Authoring, Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
 
-# Iniciar o Editor da Web {#id2056B0140HS}
+# Iniciar o editor {#id2056B0140HS}
 
-Você pode iniciar o Editor da Web nos seguintes locais:
+Você pode iniciar o Editor nos seguintes locais:
 
-- [Página de navegação do AEM](#id2056BG00RZJ)
-- [Interface do usuário do AEM Assets](#id2056BG0307U)
-- [Console de mapa DITA](#id2056BG090BF)
+- [Página de navegação do Adobe Experience Manager](#adobe-experience-manager-navigation-page)
+- [Interface do usuário do Adobe Experience Manager Assets](#adobe-experience-manager-assets-ui)
+- [Mapear console](#map-console)
 
-As seções a seguir abordam os detalhes de como você pode acessar e iniciar o Editor da Web a partir de vários locais.
+As seções a seguir abordam os detalhes de como você pode acessar e iniciar o Editor de vários locais.
 
-## Página de navegação do AEM {#id2056BG00RZJ}
+## Página de navegação do Adobe Experience Manager
 
-Ao fazer logon no AEM, você verá a página Navegação:
+Ao fazer logon no Experience Manager, você verá a página Navegação:
 
 ![](images/web-editor-from-navigation-page.png){width="800" align="left"}
 
-Ao clicar no link **Guias**, você será direcionado diretamente para o Editor da Web.
+Ao selecionar o link **Guias**, você será direcionado para a [Página inicial do Adobe Experience Manager Guides](./intro-home-page.md).
+
+![](images/aem-home-page.png){width="800" align="left"}
+
+Para iniciar o Editor, vá para a barra de navegação e selecione **Editor** na lista suspensa. A página inicial é selecionada por padrão.
+
+![](images/editor-home-page-dropdown.png){width="350" align="left"}
+
+Como você iniciou o Editor sem selecionar nenhum arquivo, uma tela em branco do Editor é exibida. Você pode abrir um arquivo para edição no **Repositório** da Experience Manager ou em suas **Coleções**.
 
 ![](images/web-editor-launch-page.png){width="800" align="left"}
 
-Como você iniciou o Editor da Web sem selecionar nenhum arquivo, uma tela em branco do Editor da Web é exibida. Você pode abrir um arquivo para edição no repositório AEM ou na sua coleção Favoritos.
-
-- Clique no ícone **Guias** (![](images/aem-guides-icon.png) ) para voltar à página de Navegação por AEM.
-
-- O botão **Fechar** leva você a um destino com base em sua configuração:
+Como alternativa, você também pode iniciar o Editor abrindo os arquivos existentes presentes no widget **Arquivos recentes** e **Coleções** da [experiência da página inicial do Adobe Experience Manager Guides](./intro-home-page.md).
 
 
+Para voltar para a página Navegação no Experience Manager, selecione o logotipo do Adobe Experience Manager localizado no canto superior esquerdo do cabeçalho superior.
 
-  <details>
 
-  <summary> Cloud Services </summary>
+## Interface do usuário do Adobe Experience Manager Assets
 
-  Se você estiver usando o Cloud Service, clique no botão **Fechar** para voltar para a página Navegação por AEM.
-  </details>
+Outro local onde é possível iniciar o Editor é na interface do usuário do Experience Manager Assets. Você pode selecionar um ou mais tópicos e abri-los diretamente no Editor.
 
-  <details>
-
-  <summary> Software local</summary>
-
-  Se você estiver usando o AEM Guides On-premise Software (4.2.1 e posterior), clique no botão **Fechar** à direita para voltar ao caminho do arquivo atual na interface do usuário do Assets.
-
-  </details>
-
-## Interface do usuário do AEM Assets {#id2056BG0307U}
-
-Outro local onde você pode iniciar o Editor da Web é na interface do usuário do AEM Assets. Você pode selecionar um ou mais tópicos e abri-los diretamente no Editor da Web. Para abrir um tópico no Editor da Web, siga estas etapas:
+Para abrir um tópico no Editor, siga estas etapas:
 
 1. Na interface do usuário do Assets, navegue até o tópico que deseja editar.
 
    >[!NOTE]
    >
-   > Você também pode ver a UUID do tópico.
-
-   .
+   > Você também pode exibir a UUID do tópico.
 
    ![](images/assets_ui_with_uuid_cs.png){width="800" align="left"}
 
@@ -72,56 +63,74 @@ Outro local onde você pode iniciar o Editor da Web é na interface do usuário 
    >
    > Certifique-se de que você tenha as permissões de leitura e gravação na pasta que contém o tópico que deseja editar.
 
-1. Para obter um bloqueio exclusivo sobre o tópico, selecione o tópico e clique em **Fazer Check-out**.
+1. Para obter um bloqueio exclusivo sobre o tópico, selecione o tópico e **Check-out**.
 
    >[!IMPORTANT]
    >
-   > Se o administrador tiver configurado a opção **Desabilitar Edição Sem Check-out**, você deverá fazer check-out do arquivo antes de editar. Se não fizer check-out do arquivo, você não poderá ver a opção de edição.
+   > Se o administrador tiver configurado a opção **Desabilitar edição sem bloquear o arquivo**, você deverá fazer check-out do arquivo antes de editar. Se não fizer check-out do arquivo, você não poderá visualizar a opção de edição.
 
-1. Feche o modo de seleção de ativos e clique no tópico que deseja editar.
+1. Feche o modo de seleção de ativos e selecione o tópico que deseja editar.
 
    A visualização do tópico é exibida.
 
-   Você pode abrir o Editor da Web na exibição em Lista, na exibição Cartão e no modo de Visualização.
+   É possível abrir o Editor na exibição de Lista, na exibição de Cartão e no modo de Visualização.
 
    >[!IMPORTANT]
    >
-   > Se quiser abrir vários tópicos para edição, selecione os tópicos desejados na interface do usuário do Assets e clique em Editar. Certifique-se de que o navegador não tenha o bloqueador de pop-ups ativado, caso contrário, somente o primeiro tópico na lista selecionada será aberto para edição.
+   > Se quiser abrir vários tópicos para edição, selecione os tópicos desejados na interface do usuário do Assets e selecione **Editar**. Certifique-se de que o navegador não tenha um bloqueador de pop-ups ativado, caso contrário, somente o primeiro tópico na lista selecionada será aberto para edição.
 
    ![](images/edit-from-preview_cs.png){width="800" align="left"}
 
-   Se não quiser visualizar um tópico e quiser abri-lo diretamente no Editor da Web, clique no ícone Editar no menu de ação rápida da exibição de cartão:
+   Se você não quiser visualizar um tópico e quiser abri-lo diretamente no Editor, selecione o ícone **Editar** no menu de ação rápida da exibição de cartão:
 
    ![](images/edit-topic-from-quick-action_cs.png){width="800" align="left"}
 
-1. Clique em **Editar** para abrir o tópico no Editor da Web.
+   O tópico é aberto no Editor.
 
    ![](images/edit-mode.png){width="800" align="left"}
 
+Você também pode abrir um arquivo de mapa na interface do usuário do Assets e iniciar o Editor para editar os tópicos no arquivo de mapa.
 
-## Console de mapa DITA {#id2056BG090BF}
+Para abrir um mapa no Editor, siga estas etapas:
 
-Para abrir o Editor da Web no console de mapa DITA, siga estas etapas:
-
-1. Na interface do usuário do Assets, navegue até o arquivo de mapa DITA que contém o tópico que deseja editar e clique nele.
-
-   O console do mapa DITA é exibido.
-
-1. Clique em **Tópicos**.
-
-   Uma lista de tópicos no arquivo de mapa é exibida. A UUID dos tópicos é exibida abaixo do título do tópico.
-
+1. Na interface do usuário do Assets, navegue até o arquivo de mapa que contém o tópico que deseja editar e selecione-o.
+1. No console do mapa DITA, navegue até a guia **Tópicos**. Uma lista de tópicos no arquivo de mapa é exibida.
 1. Selecione o arquivo de tópico que deseja editar.
-
-1. Clique em **Editar tópico**.
+1. Selecione **Editar Tópico**.
 
    ![](images/edit-topics-map-console_cs.png){width="800" align="left"}
 
-1. O tópico é aberto no Editor da Web.
+1. O tópico é aberto no Editor.
 
    >[!IMPORTANT]
    >
-   > Se o administrador tiver configurado a opção **Desabilitar Edição Sem Check-out**, você deverá fazer check-out do arquivo antes de editar. Se você não fizer check-out do arquivo, o documento será aberto no editor no modo somente leitura.
+   > Se o administrador tiver configurado a opção **Desabilitar edição sem bloquear o arquivo**, você deverá fazer check-out do arquivo antes de editar. Se você não fizer check-out do arquivo, o documento será aberto no editor no modo somente leitura.
+
+## Mapear console
+
+Para abrir o Editor no console Mapa, siga estas etapas:
+
+1. Abra a página inicial e inicie o console Mapa.
+
+   ![](images/editor-map-console-dropdown.png){width="350" align="left"}
+
+   Como você iniciou o console de Mapa sem selecionar nenhum arquivo de mapa, uma tela em branco do console de Mapa é exibida. Você também pode abrir um arquivo de mapa no **Repositório** da Experience Manager ou em suas **Coleções**.
+
+   ![](images/launch-map-console.png){width="500" align="left"}
+
+1. Escolha **Selecionar mapa** para abrir um arquivo de mapa contendo os tópicos que você deseja editar no Editor.
+1. Selecione o caminho onde o arquivo de mapa está localizado. O arquivo de mapa selecionado é adicionado ao console Mapa.
+1. Navegue até o arquivo de mapa e selecione **Abrir no editor** na lista suspensa.
+
+   ![](images/map-console-open-in-editor.png){width="800" align="left"}
+
+   O arquivo de mapa que contém os tópicos está aberto para edição no Editor.
+
+   ![](images/map-console-edit-topics.png){width="800" align="left"}
 
 
-**Tópico pai:**[ Trabalhar com o Editor da Web](web-editor.md)
+
+
+
+
+**Tópico pai**: [Introdução ao Editor](web-editor.md)

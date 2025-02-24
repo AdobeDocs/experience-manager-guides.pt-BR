@@ -5,9 +5,9 @@ exl-id: 9a52ba17-68c0-4552-aae6-e89bc5d3ac6f
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: ede91932959b952a47c890269695a69a2edab523
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,8 @@ O AEM Guides vem com um poderoso Editor da Web que permite que seus autores crie
 
 - **[Configurar exibição de links baseados em UUID](conf-uuid-based-links.md)**
 
+- **[Configurar exibição de tabelas coladas](conf-pasted-tables.md)**
+
 - **[Abrir tópico DITA ou mapear arquivos na mesma guia](open-dita-files-same-tab.md)**
 
 - **[Configurar um painel personalizado no painel esquerdo](configure-custom-panel.md)**
@@ -44,7 +46,7 @@ O AEM Guides vem com um poderoso Editor da Web que permite que seus autores crie
 
 - **[Gerar IDs de elemento automaticamente](auto-generate-ids.md)**
 
-- **[Personalizar o dicionário padrão de AEM](customize-aem-custom-dictionary.md)**
+- **[Personalizar o dicionário padrão do AEM](customize-aem-custom-dictionary.md)**
 
 - **[Configurar filtros de texto](config-text-filters.md)**
 
@@ -52,10 +54,12 @@ O AEM Guides vem com um poderoso Editor da Web que permite que seus autores crie
 
 - **[Instalar pacotes para publicação baseada em artigo](configure-article-based-publishing.md)**
 
-- **[Configurar a geração de PDF de tópico único](conf-pdf-generation-dita-ot.md)**
+- **[Configurar a geração de PDF de um único tópico](conf-pdf-generation-dita-ot.md)**
 
 - **[Configurar recurso de Tradução no Editor da Web](conf-translation-web-editor.md)**
 
 - **[Definir o Editor de Mapa Avançado como padrão](conf-map-editor.md)**
 
 - **[Incluir atributo @navtitle por padrão](auto-add-navtitle.md)**
+
+

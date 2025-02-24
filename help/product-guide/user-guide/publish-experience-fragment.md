@@ -1,17 +1,17 @@
 ---
-title: Publish de um tópico para um fragmento de experiência
-description: Publish um tópico ou os elementos dentro de um tópico para um Fragmento de experiência no AEM Guides.  Saiba como visualizar os Fragmentos de experiência presentes em um tópico e republicá-los.
+title: Publicar um tópico em um fragmento de experiência
+description: Publique um tópico ou os elementos dentro de um tópico em um Fragmento de experiência no AEM Guides.  Saiba como visualizar os Fragmentos de experiência presentes em um tópico e republicá-los.
 feature: Publishing
 role: User
 exl-id: 4cdce8c2-2ccf-4bf1-8b92-4dfeb10de186
-source-git-commit: d525775afeeb89754762ff514126b1c3a3307b3f
+source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '996'
 ht-degree: 0%
 
 ---
 
-# Fragmentos de experiência do Publish
+# Publicar fragmentos de experiência
 
 Fragmentos de experiência são conteúdo modular no Adobe Experience Manager. Esses blocos de conteúdo são baseados em modelos e encapsulam o conteúdo e seu layout. Esses conteúdos reutilizáveis permitem que os criadores de conteúdo reúnam e entreguem experiências consistentes e dimensionáveis em vários canais compatíveis com o Experience Manager. Esse recurso ajuda você a criar experiências de marketing consistentes com facilidade, como boletins informativos, banners de promoção e depoimentos de clientes.
 
@@ -40,16 +40,16 @@ Por exemplo:
      *Adicione a configuração da nuvem nas propriedades da pasta para conectá-la aos modelos de fragmento.*
 1. Para gerar um Fragmento de Experiência, selecione **Nova Saída** ![novo ícone de saída](./images/Add_icon.svg) na seção **Saídas** em **Propriedades do Arquivo** de um tópico.
 1. Selecione **Fragmento de experiência**.\
-   ![guia de opções de propriedades do arquivo](./images/file-properties-outputs.png){width="300" align="left"}
+   ![guia de opções de propriedades do arquivo](./images/file-properties-outputs-new.png){width="300" align="left"}
 
    *Adicionar um novo Fragmento de experiência das Propriedades do arquivo de um tópico*.
 
    >[!NOTE]
    >
-   > Você também pode publicar um Fragmento de experiência da **Exibição do repositório**. Selecione o tópico que deseja publicar como um Fragmento de experiência. Em seguida, no menu **Opções**, selecione **Publish As** > **Fragmento de Experiência**.
+   > Você também pode publicar um Fragmento de experiência da **Exibição do repositório**. Selecione o tópico que deseja publicar como um Fragmento de experiência. Em seguida, no menu **Opções**, selecione **Publicar como** > **Fragmento de experiência**.
 
 1. Na caixa de diálogo **Gerar fragmento de experiência**, preencha os seguintes detalhes:
-   ![Adicionar o modelo do fragmento e os detalhes do mapeamento na caixa de diálogo Publish como Fragmento de experiência](images/experience-fragment-generate.png){width="500" align="left"}
+   ![Adicionar o modelo do fragmento e os detalhes do mapeamento na caixa de diálogo Publicar como fragmento de experiência](images/experience-fragment-generate.png){width="500" align="left"}
 
    *Adicione o caminho, o modelo e os detalhes de mapeamento para publicar um tópico ou seus elementos como um Fragmento de experiência. Você pode substituir um fragmento de experiência existente.*
 
@@ -66,7 +66,7 @@ Por exemplo:
    * Você também pode selecionar condições diferentes para publicar o conteúdo.  Selecione uma das seguintes opções:
 
 
-      * **Nenhum**: selecione essa opção se não quiser aplicar nenhuma condição à saída publicada.
+      * **Nenhum**: selecione esta opção se não quiser aplicar nenhuma condição à saída publicada.
       * **Usando DITAVAL**: selecione o arquivo DITAVAL para gerar conteúdo personalizado. Você pode selecionar o arquivo DITAVAL usando a caixa de diálogo Procurar ou digitando o caminho do arquivo.
       * **Uso de atributos**: você pode definir atributos de condição em seus tópicos DITA. Em seguida, selecione o atributo de condição para publicar o conteúdo relevante.
 
@@ -76,10 +76,10 @@ Por exemplo:
 
 
    * Marque a caixa de seleção **Substituir conteúdo existente** se o fragmento de experiência já existir e você desejar substituí-lo. O Experience Manager Guides exibe um erro se você não marcar a caixa de seleção e o Fragmento de experiência já existir.
-1. Clique em **Gerar** para publicar o Fragmento de experiência.
+1. Selecione **Gerar** para publicar o Fragmento de experiência.
 1. Você pode exibir os Fragmentos de experiência de um tópico na seção **Saídas** em **Propriedades do arquivo**. Os Fragmentos de experiência são exibidos de acordo com a data e a hora de sua publicação, sendo que o mais recente é o primeiro.
 
-   ![Exibir os Fragmentos de experiência de um tópico](images/experience-fragment-outputs.png){width=300 align=&quot;left&quot;}
+   ![Exibir os Fragmentos de experiência de um tópico](images/experience-fragment-outputs-new.png){width=300 align=&quot;left&quot;}
 
    *Exiba os Fragmentos de Experiência presentes para um tópico e publique-os novamente.*
 

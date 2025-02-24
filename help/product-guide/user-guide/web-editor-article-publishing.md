@@ -1,35 +1,49 @@
 ---
-title: Publicação baseada em artigos no Editor da Web
-description: Saiba como publicar um ou mais artigos no editor da Web. Gere saída para um ou mais tópicos em um mapa DITA no AEM Guides.
+title: Gerar saída da knowledge base
+description: Saiba como publicar um ou mais artigos no console Mapa. Gere saída para um ou mais tópicos em um mapa DITA no AEM Guides.
 exl-id: d89ce69d-8d4c-4265-bfca-60763f561afd
-feature: Authoring, Features of Web Editor, Publishing
+feature: Publishing
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 4fbc9c8e28f2b68af0307255eb842065e93fbc83
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
 
-# Publicação baseada em artigos no Editor da Web {#id218CL05J0M1}
+# Gerar saída da knowledge base {#id218CL05J0M1}
 
-O AEM Guides vem com um recurso de publicação baseado em artigos integrado ao Editor da Web que permite que os usuários publiquem um ou mais tópicos simultaneamente.
+O Adobe Experience Manager Guides vem com um recurso de publicação baseado em artigos que permite que os usuários publiquem um ou mais artigos da Base de conhecimento simultaneamente.
 
-Esse mecanismo também vem com um modelo de conteúdo OOTB, criado sobre os componentes principais do AEM, que permite aos usuários criar um repositório baseado em conhecimento do conteúdo técnico. Esse modelo pode ser personalizado para atender às necessidades dos clientes. Esse mecanismo permite que os usuários criem o mapa DITA de forma aditiva e publiquem tópicos quando e conforme estiverem prontos. É possível criar facilmente as predefinições de saída do mapa aberto no painel Exibição de mapa e gerar rapidamente a saída de um ou mais tópicos do mesmo mapa.
+Esse mecanismo também vem com um modelo de conteúdo OOTB, criado sobre os componentes principais do Adobe Experience Manager, que permite que os usuários criem um repositório baseado em conhecimento do conteúdo técnico. Esse modelo pode ser personalizado para atender às necessidades dos clientes. Esse mecanismo permite que os usuários criem o mapa DITA de forma aditiva e publiquem tópicos quando e conforme estiverem prontos.
 
-Se você atualizou o conteúdo apenas para alguns tópicos no mapa DITA, nem sempre é necessário publicar o mapa inteiro. Você pode selecionar e publicar somente os tópicos atualizados do Editor da Web.
+Se você atualizou o conteúdo apenas para alguns tópicos no mapa DITA, nem sempre é necessário publicar o mapa inteiro. Você pode selecionar e publicar somente os tópicos atualizados.
 
->[!NOTE]
->
-> A publicação baseada em artigo é aplicável somente para saída de site AEM.
+Para uma publicação baseada em artigo, é necessário criar a predefinição de saída para o mapa DITA da knowledge base. Seu mapa deve incluir os tópicos que você deseja publicar. Também é possível aplicar condições e especificar os detalhes do AEM Sites para a predefinição de saída. Em seguida, você poderá gerar saída usando o recurso **Gerar saída**.
 
-Para uma publicação baseada em artigos, é necessário criar a predefinição de saída para o mapa DITA no Editor da Web. Seu mapa deve incluir os tópicos que você deseja publicar. Também é possível aplicar condições e especificar os detalhes do site AEM para a predefinição de saída. Em seguida, gere a saída usando o recurso Gerar predefinição.
+Execute as seguintes etapas para gerar uma saída baseada em artigo:
 
-Você também pode usar as predefinições de saída criadas para o mapa DITA para gerar a saída do painel Repositório ou do painel Exibição do mapa. Você pode gerar a saída para um ou mais tópicos ou para todo o mapa DITA.
+1. [Criar a predefinição da Base de Dados de Conhecimento](./generate-output-knowledge-base.md) para saída baseada em artigo.
+1. Navegue até a guia **Artigos** e selecione os tópicos para os quais deseja gerar a saída.
+1. Selecione **Gerar saída** na parte superior para gerar a saída.
 
-- **[Criar predefinições de saída do Editor da Web](web-editor-article-publishing-presets.md)**
+   ![](images/add-preset-articles-tab_cs.png){width="800" align="left"}
 
-- **[Gerar saída do painel Repositório ou do painel Exibição de Mapa](web-editor-article-publishing-output.md)**
+1. No prompt **Confirmar arquivos para publicação**, selecione os arquivos que deseja publicar e confirme selecionando **Publicar**.
+
+   ![Novo(a) ](images/knowledge-base-confirm-files-for-publishing.png){width="800" align="left"}
+
+   Você visualizará o status do processo de geração de saída. A coluna **Tópicos** lista os tópicos para os quais a saída está sendo gerada, enquanto a coluna **Status** exibe o status de publicação de cada tópico.
 
 
-**Tópico pai:**[ Trabalhar com o Editor da Web](web-editor.md)
+   ![](images/add-preset-output-generated_cs.png){width="800" align="left"}
+
+   Para exibir a saída, feche a caixa de diálogo **Saída gerada** e selecione **Exibir saída** na página predefinida.
+
+
+   >[!NOTE]
+   >
+   > Também é possível Renomear, Duplicar ou Excluir uma predefinição de saída existente no menu Opções.
+
+
+**Tópico pai:**[ Trabalhar com o editor](web-editor.md)

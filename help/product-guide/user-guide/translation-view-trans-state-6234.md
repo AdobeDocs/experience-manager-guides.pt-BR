@@ -4,9 +4,9 @@ description: Saiba como visualizar o status da tradução e as cópias de idioma
 exl-id: 6ed30bc6-3030-40fd-987a-928fd5b06ee6
 feature: Translation
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---
@@ -17,12 +17,15 @@ Você pode visualizar o status da tradução e as cópias de idioma traduzidas p
 
 Execute as seguintes etapas para exibir o status de tradução de um mapa DITA:
 
-1. Navegue até o arquivo de mapa DITA da cópia do idioma de origem.
-1. Clique na guia **Tradução**.
-1. No painel **Filtro** à esquerda, selecione **Traduzir Idiomas** para verificar o status e clique em **Concluído**.
+1. Navegue até o arquivo de mapa DITA necessário por meio do **Console do Mapa** no Editor.
+1. Selecione a guia **Tradução**.
+1. No painel **Tradução** à esquerda, faça o check-in do idioma na lista **Idiomas Disponíveis** para verificar o status e selecione **Aplicar**.
+1. Todos os tópicos com o idioma de destino selecionado são exibidos junto com   status da tradução.
 
    >[!NOTE]
    >
-   > Você pode filtrar ainda mais o conteúdo com base no Status da tradução \(como Fora de sincronização, Cópia ausente, Em andamento ou Em sincronia\), Tipo de Source \(como Todos, DITA, mapa DITA ou Recurso\), data de modificação. Você também pode digitar palavras-chave para procurar tópicos específicos.
+   > Você pode filtrar ainda mais o conteúdo com base no Status da tradução \(como Fora de sincronização, Cópia ausente, Em andamento ou Em sincronia\), Tipo de Source \(como Todos, DITA, mapa DITA ou Recurso\) e data de modificação. Além disso, você pode digitar palavras-chave para procurar tópicos específicos. Você pode usar **Atualizar** para atualizar o status se alguma alteração tiver sido feita.
 
-**Tópico pai:**[ Traduzir conteúdo](translation.md)
+   ![](images/translation-status-new.png){width="800" align="left"}
+
+**Tópico principal:**[ Visão geral da tradução de conteúdo](translation.md)

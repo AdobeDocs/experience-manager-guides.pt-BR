@@ -1,203 +1,210 @@
 ---
 title: AEM Sites
-description: Crie e configure a predefinição do AEM Sites no Editor da Web e gere a saída do AEM Sites para o mapa DITA, tópicos selecionados e tópicos vinculados.
+description: Crie e configure a predefinição do AEM Sites no console do Mapa usando o mapeamento de componente composto e o mapeamento de componente herdado.
 feature: Publishing
 role: User
-source-git-commit: e428c6c031e1167c7c9f2f99bb8fcdbcbaa8a4de
+exl-id: f3657268-9dee-43af-b643-499dbc3ca948
+source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
 workflow-type: tm+mt
-source-wordcount: '2732'
+source-wordcount: '3533'
 ht-degree: 0%
 
 ---
 
+# Predefinição do AEM Sites no console Mapa
 
-# Predefinições do AEM Sites no Editor da Web
+Você pode criar uma predefinição do AEM Sites no console Mapa e configurá-la para gerar a saída do AEM Sites. Há duas maneiras de criar a saída do AEM Sites:
 
+- [Usar mapeamento de componente composto](#use-composite-component-mapping)
+- [Usar mapeamento de componente herdado](#use-legacy-component-mapping)
 
-Você pode criar predefinições do AEM Sites no Editor da Web e configurá-las para gerar a saída do AEM Sites. A saída do AEM Sites é baseada no mapeamento de componentes compostos juntamente com o `guides-components`, facilitando a criação e o gerenciamento eficientes de conteúdo.
+>[!TIP]
+>
+> É recomendável usar o mapeamento de componente composto, disponível na versão Experience Manager Guides 2502, e versões mais recentes, para melhorar o desempenho.
 
-O Experience Manager Guides fornece modelos predefinidos para a criação de AEM Sites. Essas predefinições ajudam a garantir a consistência no layout e na estrutura do conteúdo.
+## Usar mapeamento de componente composto
+
+O mapeamento de componentes compostos oferece uma publicação mais rápida e escalável no AEM Sites em comparação ao mapeamento de componentes herdados. Ele vem com modelos editáveis prontos para uso, que podem ser personalizados de acordo com seus requisitos usando o editor de modelos do AEM. Os modelos utilizam uma combinação de componentes principais do WCM e o `guides-components` especializado para garantir que os usuários finais obtenham a melhor experiência nas páginas do AEM Sites. Você também pode personalizar seus modelos existentes usando o método de mapeamento de componentes compostos.
+
+O Experience Manager Guides fornece modelos predefinidos para a criação de AEM Sites. Esses modelos ajudam a garantir a consistência no layout e na estrutura do conteúdo.
 - [Criar home pages](../cs-install-guide/download-install-aem-sites-templates-cs.md#create-a-home-page-using-the-template) com base nesses modelos predefinidos.
 - Você pode [editar modelos de tópico](../cs-install-guide/download-install-aem-sites-templates-cs.md#package-installation) e aplicar estilos de acordo com suas necessidades.
 - Você também pode [personalizar modelos existentes do AEM Sites](../cs-install-guide/download-install-aem-sites-templates-cs.md#customize-existing-aem-sites-templates).
 
 
+**Criar Predefinição Do AEM Sites**
 
-## Criar predefinições do AEM Sites
+Execute as seguintes etapas para criar a predefinição do AEM Sites usando o mapeamento de componente composto:
 
-Execute as seguintes etapas para criar as predefinições do AEM Sites a partir do Editor da Web:
-
-1. No painel Repositório, abra o arquivo de mapa DITA na Exibição de mapa.
-1. Na guia **Saída**, selecione o ícone + para criar uma predefinição de saída.
+1. [Abra o arquivo de mapa DITA no console de mapa](./open-files-map-console.md).
+1. No painel **Predefinições de saída**, selecione o ícone + para criar uma predefinição de saída.
 1. Selecione **AEM Sites** no menu suspenso **Tipo** na caixa de diálogo **Nova predefinição de saída**.
-1. Desmarque a opção **Usar mapeamento de componente herdado** da caixa de diálogo **Nova predefinição de saída**.
+1. Desmarque a opção **Usar mapeamento de componente herdado**.
+1. Selecione a opção **Adicionar ao perfil de pasta atual** para criar uma predefinição de saída no perfil de pasta atual. O ![ícone de perfil de pasta](images/global-preset-icon.svg) indica uma predefinição de nível de perfil de pasta.
 
-![Novo(a) ](images/new-aem-sites-dialog-box.png)
+   Saiba mais sobre [Gerenciar predefinições de saída de perfil Global e de Pasta](./web-editor-manage-output-presets.md).
+
+1. Selecione **Adicionar**.
+
+   A predefinição do AEM Sites é criada.
 
 
+   ![Novo(a) ](images/new-aem-sites-dialog-box.png){width="300" align="left"}
 
+<!-----------------------
+### Generate the AEM Sites output using the templates
+
+Once, the preset is created, you can configure the various options available for AEM Sites output generation. Experience Manager Guides allows you to use the out of the box templates or add your own AEM Sites templates.
+
+You can configure the Out-of-the-box Sites template  in two ways:
+
+- In the **Sites** field, select the AEM sites where you want to publish your output.  For example, `AEMG Docs`.
+
+    The **Publish path** and the **Topic page template** options are automatically set in the dropdown.  For example,  `AEMG-Docs-Site/en/docs/product1` and `Topic page` are set respectively. You can also choose the other options from the dropdown.
+
+- Or, Select the **Use Sites path** option to select the complete Sites path, and then select a **Map page template**. 
+
+    You can browse a predefined Sites path or specify a custom path even if the specified path has not been pre-created within the AEM Sites structure. In such cases, the system creates the necessary structure during the publishing process by using the selected map homepage template.
+
+   For example, you can specify the path `/content/AEMG-Docs-Site/en/docs/product4` where the `product4`does not exist in the strcuture. In this case, the system automatically creates `product4` using the selected **Map page template** and publish the output within this newly created page. 
+   
+   The **Topic page template** is automatically set as `Topic Page`. However, you can choose to select other available options in the dropdown.
+
+--->
+
+### Configuração de predefinição do AEM Sites para mapeamento de componente composto
+
+>[!NOTE]
+>
+> Antes de configurar a predefinição do AEM Sites para o Experience Manager Guides, o administrador precisa criar uma estrutura do AEM Sites usando os modelos.
+
+- **Software Local**: saiba mais sobre como [baixar e instalar modelos do AEM Sites](../install-guide/download-install-aem-sites-templates.md) para Software Local.
+- **Cloud Service**: saiba mais sobre como [baixar e instalar modelos do AEM Sites](../cs-install-guide/download-install-aem-sites-templates-cs.md) para Cloud Service.
+
+No console Mapa, as opções de configuração predefinidas para o mapeamento de componentes compostos são organizadas nas seguintes guias:
+
+- Geral
+- Conteúdo
+- Lista de tópicos
+- Referências de mapa cruzado
+
+![Novo(a) ](images/aem-sites-new-config.png){width="650" align="left"}
+
+**Geral**
+
+A guia **Geral** contém as seguintes opções de configuração:
+
+| Opções do AEM Sites | Descrição |
+| --- | --- |
+| Usar caminho do site | Use essa opção para publicar seu conteúdo em um site do Experience Manager. |
+| Caminho do site | **Esta opção aparecerá se você selecionar a opção** Usar caminho do site ****. Procure o caminho predefinido do site do Experience Manager ou especifique um caminho personalizado no qual deseja que a saída seja publicada. A opção **Usar sites** permite especificar o caminho de publicação inteiro mesmo que o caminho especificado não tenha sido pré-criado dentro da estrutura do AEM Sites. Nesses casos, o sistema cria a estrutura necessária durante o processo de publicação usando o modelo de página inicial do mapa selecionado. |
+| Mapear modelo de página | **Esta opção aparecerá se você selecionar a opção** Usar caminho do site ****. Selecione um modelo que deseja aplicar às páginas iniciais do mapa. |
+| Site | Nome da Experience Manager Sites na qual você deseja publicar seu conteúdo. As opções na lista suspensa são preenchidas com base na lista de sites disponíveis no AEM Sites. <br>Selecione **Atualizar** ![ícone de atualização](images/navtitle-refresh-icon.svg) para obter uma nova lista de opções e refletir os dados atualizados. |
+| Caminho de publicação | O caminho no repositório do AEM onde a saída é armazenada. O Caminho de publicação é preenchido com todos os caminhos que contêm páginas criadas com base no modelo da Página inicial. A saída do AEM Sites do mapa DITA é gerada nesse caminho.  Por exemplo, se você especificar o Site como `AEMG-Docs` e o Caminho de Publicação como `aemg-docs-en/docs/product-abc.`, a saída do AEM Sites será gerada sob o nó `aemg-docs-en/docs/product-abc/` em `crx/de`. |
+| Modelo de página de tópico | Selecione o template que deseja aplicar a todos os tópicos de saída. |
+| Gerar nomes de página com base em | **Nome do arquivo de tópico**: usa o nome de arquivo do tópico DITA para criar a URL do Site. <br> **Título do tópico**: usa o título do tópico DITA para criar os nomes de site do Experience Manager. |
+| Limpar páginas geradas anteriormente | - **Excluir páginas geradas anteriormente para tópico removido do mapa**: se a estrutura do mapa de DTIA for alterada, você poderá usar esta opção para remover as páginas geradas anteriormente para os tópicos removidos. Esse recurso está disponível somente para publicação de mapa completo.<br><br>Digamos que você tenha publicado um mapa DITA, que contém os tópicos a.dita, b.dita e c.dita. Antes de publicar o mapa novamente, você removeu o tópico b.dita do mapa. Agora, se você selecionou essa opção, todo o conteúdo relacionado a b.dita é removido da saída do AEM Sites e somente a.dita e c.dita são publicados.<br><br>**Observação**: informações sobre páginas excluídas também são capturadas nos logs de geração de saída. Para obter mais informações sobre como acessar os arquivos de log, [Exiba e verifique o arquivo de log](generate-output-basic-troubleshooting.md#id1821I0Y0G0A__id1822G0P0CHS). <br><br>**Cuidado**: ao excluir os tópicos, as páginas ficam indisponíveis no site publicado. Portanto, antes que os tópicos sejam excluídos, um aviso é exibido. Você deve confirmar a exclusão deles.<br><br>- **Excluir todas as páginas criadas por outras fontes neste caminho**: se você selecionar esta opção, todas as páginas publicadas neste caminho de outros mapas, tópicos individuais ou qualquer outra fonte serão excluídas. As páginas também se tornam indisponíveis no site publicado. Portanto, antes que os tópicos sejam excluídos, um aviso é exibido. Você deve confirmar a exclusão deles. |
+| Fluxo de trabalho de pós-geração | Ao escolher essa opção, uma nova lista suspensa Fluxo de trabalho de pós-geração é exibida contendo todos os fluxos de trabalho configurados no AEM. Você deve selecionar um workflow que deseja executar após a conclusão do workflow de geração de saída. |
+
+**Conteúdo**
+
+A guia **Conteúdo** contém as seguintes opções de configuração:
+
+| Opções do AEM Sites | Descrição |
+| --- | --- |
+| Usar Linha de Base | Se tiver criado uma Linha de Base para o mapa DITA selecionado, selecione essa opção para especificar a versão que deseja publicar.<br><br>Exibir [Trabalhar com a Linha de Base](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) para obter mais detalhes. |
+| Filtragem condicional | Selecione uma das seguintes opções:<br><br>**None**: selecione essa opção se não quiser aplicar nenhuma condição à saída publicada.<br>**Usando DITAVAL**: selecione o(s) arquivo(s) DITAVal para gerar conteúdo condicional. Você pode selecionar vários arquivos DITAVal usando a caixa de diálogo Procurar ou digitando o caminho do arquivo. Use o ícone de cruz próximo ao nome do arquivo para removê-lo. Os arquivos DITAVal são avaliados na ordem especificada, de modo que as condições especificadas no primeiro arquivo têm precedência sobre as condições correspondentes especificadas em arquivos posteriores. É possível manter a ordem dos arquivos adicionando ou excluindo arquivos. Se o arquivo DITAVal for movido para algum outro local ou excluído, ele não será excluído automaticamente do painel de mapa. Você precisa atualizar o local caso os arquivos sejam movidos ou excluídos. Você pode passar o mouse sobre o nome do arquivo para visualizar o caminho no repositório do AEM onde o arquivo está armazenado. Você só pode selecionar arquivos DITAVal e um erro será exibido se você selecionar qualquer outro tipo de arquivo.<br>**Predefinição de condição**: selecione uma predefinição de condição no menu suspenso para aplicar uma condição ao publicar a saída. Essa opção estará visível se você tiver adicionado uma condição para o arquivo de mapa DITA. As configurações condicionais estão disponíveis na guia Predefinições de condição do console do mapa DITA. Para saber mais sobre a predefinição de condição, exiba [Usar predefinições de condição](generate-output-use-condition-presets.md#id1825FL004PN). |
+| Argumentos adicionais da linha de comando DITA-OT | Especifique os argumentos adicionais que você deseja que o DITA-OT processe ao gerar saída. Para obter detalhes sobre os argumentos de linha de comando com suporte no DITA-OT, exiba a [documentação do DITA-OT](https://www.dita-ot.org/). |
+| Metadados <br> Propriedades de <br>Arquivo (Assets) | Selecione as propriedades que deseja processar como metadados. Essas propriedades são definidas na página Propriedades do mapa DITA ou do arquivo de mapa. As propriedades selecionadas na lista suspensa aparecem no campo **Propriedades do arquivo**. Selecione o ícone cruzado ao lado da propriedade para removê-la. <br><br>**Observação**: as propriedades de metadados diferenciam maiúsculas de minúsculas.<br><br>*Se você tiver selecionado uma Linha de Base, os valores das propriedades serão baseados na versão da Linha de Base selecionada.<br>* Se você não tiver selecionado uma Linha de Base, os valores das propriedades serão baseados na versão mais recente.<br><br>Você também pode passar os metadados para a saída usando a publicação DITA-OT. Para obter mais detalhes, [Passe os metadados para a saída usando DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA).<br><br>**Observação**: se você não tiver definido a `cq:tags` na opção Propriedades, os valores de `cq:tags` serão escolhidos na cópia de trabalho atual, mesmo que você tenha selecionado uma Linha de Base para publicação. |
+| Metadados <br> <br>Usar propriedades do mapa como fallback | Se essa opção for selecionada, as propriedades definidas para o arquivo de mapa também serão copiadas para os tópicos em que essas propriedades não estão definidas. Considere os seguintes pontos ao usar esta opção:<br><br>*Somente as propriedades String, Date ou Long (único e de vários valores) podem ser passadas para as páginas do site do AEM.<br>* Os valores de metadados de uma propriedade do tipo Cadeia de Caracteres não dão suporte a caracteres especiais (como `@, #, " "`).<br>* Esta opção deve ser usada com a opção `Properties`. |
+
+**Lista de tópicos**
+
+A guia **Lista de tópicos** exibe a lista de tópicos presentes na cópia de trabalho atual do mapa DITA. Por padrão, todos os tópicos são incluídos. Você pode selecionar tópicos específicos e gerar a saída do AEM Sites somente para eles. Por exemplo, você atualizou alguns tópicos para poder publicar somente esses tópicos, em vez de publicar o mapa DITA inteiro.
+
+![lista de tópicos do aem sites](images/aem-presets-topic-list.png) {width="800" align="left"}
 
 
 >[!NOTE]
 >
->Antes de configurar as predefinições do AEM Sites para o Experience Manager Guides, o administrador precisa criar uma estrutura do AEM Sites usando os modelos.
-- **Software Local**: saiba mais sobre como [baixar e instalar modelos do AEM Sites](../install-guide/download-install-aem-sites-templates.md) para Software Local.
-- **Cloud Service**: saiba mais sobre como [baixar e instalar modelos do AEM Sites](../cs-install-guide/download-install-aem-sites-templates-cs.md) para Cloud Service.
-
-
-
-
-### Adicionar predefinições ao perfil da pasta atual
-
-Como administrador, o Experience Manager Guides permite criar e gerenciar predefinições de saída para os Perfis global e de pasta. Selecione a opção **Adicionar ao perfil de pasta atual** na caixa de diálogo **Nova predefinição de saída** para criar uma predefinição de saída para o perfil de pasta atual. O ícone ![perfil de pasta](images/global-preset-icon.svg) indica uma predefinição de nível de perfil de pasta.  Saiba mais sobre [Gerenciar predefinições de saída de Perfil Global e de Pasta](./web-editor-manage-output-presets.md).
-
-### Predefinições do AEM Sites com base no mapeamento de componente herdado
-
-Também é possível criar as predefinições do AEM Sites usando o mapeamento de componente herdado. Para criar as predefinições do AEM Sites com base no mapeamento de componente herdado, selecione a opção **Usar mapeamento de componente herdado** na caixa de diálogo **Nova predefinição de saída**.
-
-Algumas opções podem diferir para as predefinições que usam o mapeamento de componente herdado.
-
-
-
-## Configurar as predefinições do AEM Sites
-
-As configurações estão organizadas nas guias **Geral**, **Conteúdo**, **Lista de tópicos** e **Referências entre mapas**.
-
-![configurações de predefinição do aem sites](images/aem-sites-new-config.png)
-**Geral**
-
-A guia **Geral** contém as seguintes configurações relacionadas à geração de saídas:
-
-- Usar caminho do site
-- Caminho do site
-- Site
-- Caminho do Publish
-- Modelo de página de tópico
-- Gerar nomes de página com base em
-   - Nome do arquivo de tópico
-   - Título do tópico
-- Limpar páginas geradas anteriormente
-   - Excluir páginas geradas anteriormente para tópicos removidos do mapa
-   - Exclua todas as páginas criadas por outras fontes neste caminho:
-- Fluxo de trabalho de pós-geração
-
-
-
-**Conteúdo**
-
-A guia **Conteúdo** contém as seguintes configurações:
-
-- Usar Linha de Base
-- Filtragem de condição
-- Argumentos adicionais da linha de comando DITA-OT
-- Metadados
-   - Propriedades do arquivo (Assets)
-   - Usar propriedades do mapa como fallback
-
-
-Para obter detalhes, consulte [configuração do AEM Sites](#aem_sites_config).
-
-**Lista de Tópicos**
-
-A **Lista de Tópicos** exibe a lista de tópicos presentes na cópia de trabalho atual do mapa DITA. Por padrão, todos os tópicos são incluídos. Você pode selecionar tópicos específicos e gerar a saída do AEM Sites somente para eles. Por exemplo, você atualizou alguns tópicos para poder publicar somente esses tópicos, em vez de publicar o mapa DITA inteiro.
-
-A guia **Lista de Tópicos** está presente nas predefinições de AEM que não são criadas com base no mapeamento herdado.
+> Quando uma Linha de Base é selecionada na guia **Conteúdo**, a lista de Tópicos exibe os tópicos e suas versões da Linha de Base anexada. Além disso, a publicação incremental da lista de Tópicos deve ser usada somente quando não houver alteração na estrutura do mapa. Se houver uma alteração na estrutura do mapa/índice, o mapa inteiro deverá ser publicado uma vez para atualizar o índice.
 
 **Referências entre mapas**
+
 Esta lista contém tópicos que contêm referências entre mapas com `scope =”peer”`. Você pode especificar o contexto de publicação para uma lista de referências de mapa cruzado com `scope=”peer”` para tópicos disponíveis em outros mapas DITA. Essa guia será exibida se você usar a versão do Experience Manager Guides (UUID).
 
+Para obter mais detalhes, consulte a seção [Trabalhando com tópicos vinculados](#working-with-linked-topics) abaixo.
 
+Após a configuração, salve as alterações feitas na predefinição e selecione **Gerar** para gerar o AEM Sites para o mapa correspondente.
 
-Saiba como [publicar tópicos vinculados](#publish-linked-topics).
+>[!NOTE]
+>
+> Se você estiver publicando conteúdo nos sites do AEM pela primeira vez, é recomendável publicar as páginas no nível do site. Isso garante que a saída seja exibida corretamente na instância **Publish** sem nenhuma interrupção de CSS.
 
+## Usar mapeamento de componente herdado
 
+As etapas para criar a predefinição do AEM Sites usando o mapeamento de componente herdado são as mesmas descritas na seção [Mapeamento de componente composto](#use-composite-component-mapping) acima. No entanto, ao criar a predefinição, certifique-se de selecionar a opção **Usar mapeamento de componente herdado** na caixa de diálogo **Nova predefinição de saída**.
 
+![](images/aem-sites-output-legacy.png) {width="300" align="left"}
 
+No console Mapa, as opções de configuração predefinidas para o mapeamento de componentes herdados são organizadas nas seguintes guias:
 
-## Configuração do AEM Sites {#aem_sites_config}
+- Geral
+- Conteúdo
+- Referências de mapa cruzado
 
-As seguintes opções estão disponíveis para a saída do AEM Sites:
+![Novo(a) ](images/aem-sites-preset-legacy-config.png){width="500" align="left"}
+
+**Geral**
+
+A guia **Geral** contém as seguintes opções de configuração:
 
 | Opções do AEM Sites | Descrição |
 | --- | --- |
-| Usar caminho do site | Use essa opção para publicar seu conteúdo em um Site Experience Manager. Selecione essa opção se você souber o caminho exato do site em que deseja que a saída seja publicada. Além disso, mencione o caminho completo no campo Site path. |
-| Caminho do site | Esta opção será exibida se você selecionar a opção **Usar caminho do site**. Navegue pelo caminho exato do site Experience Manager onde deseja que a saída seja publicada. |
-| Site | Nome da Experience Manager Sites na qual você deseja publicar seu conteúdo. As opções na lista suspensa são preenchidas com base na lista de sites disponíveis no AEM Sites. <br>Selecione **Atualizar** ![ícone de atualização](images/navtitle-refresh-icon.svg) para obter uma nova lista de opções e refletir os dados atualizados. |
-| Caminho do Publish | O caminho no repositório AEM onde a saída é armazenada. O Caminho do Publish é preenchido com todos os caminhos que contêm páginas criadas com base no modelo Página inicial. A saída do AEM Sites do mapa DITA é gerada nesse caminho.  Por exemplo, se você especificar o Site como `AEMG-Docs` e o Caminho do Publish como `aemg-docs-en/docs/product-abc.`, a saída do AEM Sites será gerada no nó `aemg-docs-en/docs/product-abc/` em `crx/de`. |
-| Modelo de página de tópico | Os componentes estruturais que você pode usar para organizar o conteúdo de forma consistente em vários documentos. Esses modelos são predefinidos no modelo de site do Adobe Experience Manager. As opções são preenchidas com todos os modelos de página de tópico disponíveis para o Site selecionado. Selecione o template que deseja aplicar a todos os tópicos de saída. |
-| Gerar nomes de página com base em | **Nome do arquivo de tópico**: usa o nome de arquivo do tópico DITA para criar a URL do Site. <br> **Título do tópico**: usa o título do tópico DITA para criar os nomes de site de Experience Manager. |
-| Limpar páginas geradas anteriormente | - **Excluir páginas geradas anteriormente para tópico removido do mapa**: se a estrutura do mapa de DTIA for alterada, você poderá usar esta opção para remover as páginas geradas anteriormente para os tópicos removidos. Esse recurso está disponível somente para publicação de mapa completo.<br><br>Digamos que você tenha publicado um mapa DITA, que contém os tópicos a.dita, b.dita e c.dita. Antes de publicar o mapa novamente, você removeu o tópico b.dita do mapa. Agora, se você selecionou essa opção, todo o conteúdo relacionado a b.dita é removido da saída do AEM Sites e somente a.dita e c.dita são publicados.<br><br>**Observação**: informações sobre páginas excluídas também são capturadas nos logs de geração de saída. Para obter mais informações sobre como acessar os arquivos de log, [Exiba e verifique o arquivo de log](generate-output-basic-troubleshooting.md#id1821I0Y0G0A__id1822G0P0CHS). <br><br>**Cuidado**: ao excluir os tópicos, as páginas ficam indisponíveis no site publicado. Portanto, antes que os tópicos sejam excluídos, um aviso é exibido. Você deve confirmar a exclusão deles.<br><br>- **Excluir todas as páginas criadas por outras fontes neste caminho**: se você selecionar esta opção, todas as páginas publicadas neste caminho de outros mapas, tópicos individuais ou qualquer outra fonte serão excluídas. As páginas também se tornam indisponíveis no site publicado. Portanto, antes que os tópicos sejam excluídos, um aviso é exibido. Você deve confirmar a exclusão deles. |
+| Nome do site | Um nome de site em que a saída é armazenada no repositório do AEM.<br><br>Um nó no repositório do AEM é criado com o nome especificado aqui. Se você não especificar o Nome do site, o nó do site será criado com o nome do arquivo de mapa DITA.<br><br>O Nome do Site especificado aqui também é usado como o título na guia do navegador.<br><br>Você também pode usar variáveis ao definir o Nome do Site. |
+| Caminho de saída | O caminho no repositório do AEM onde a saída é armazenada. Ao gerar a saída final, o Nome do site e o Caminho de saída são combinados. Por exemplo, se você especificar o nome do site como `user-guide` e o Caminho de Saída como `/content/output/aem-guides`, a saída final será gerada sob o nó `/content/output/aem-guides/user-guide`.<br><br>Você também pode usar variáveis ao definir o caminho de saída. |
+| Páginas de saída existentes | Selecione a opção **Substituir conteúdo** para substituir o conteúdo nas páginas existentes. Essa opção substitui somente o conteúdo presente nos nós de conteúdo e cabeçalho da página. Essa opção permite a publicação combinada de conteúdo. Selecionar essa opção fornece uma opção para selecionar a exclusão de páginas órfãs da saída publicada. Esta também é a opção *padrão* para criar a saída do AEM Sites.<br><br>Selecione a opção **Excluir e Criar** para forçar a exclusão de páginas existentes durante a publicação. Essa opção exclui o nó da página, juntamente com seu conteúdo e todas as páginas secundárias sob ele. Use essa opção se tiver alterado o modelo de design da predefinição de saída ou se desejar que qualquer página extra já presente no destino seja removida. |
+| Excluir páginas geradas anteriormente para tópicos removidos do mapa | Se a estrutura do mapa de DTIA for alterada, você poderá usar essa opção para remover as páginas geradas anteriormente para os tópicos removidos. Esse recurso está disponível somente para publicação de mapa completo.<br><br>Digamos que você tenha publicado um mapa DITA, que contém os tópicos a.dita, b.dita e c.dita. Antes de publicar o mapa novamente, você removeu o tópico b.dita do mapa. Agora, se você selecionou essa opção, todo o conteúdo relacionado a b.dita é removido da saída do AEM Sites e somente a.dita e c.dita são publicados.<br><br>**Observação**: informações sobre páginas excluídas também são capturadas nos logs de geração de saída. Para obter mais informações sobre como acessar os arquivos de log, [Exiba e verifique o arquivo de log](generate-output-basic-troubleshooting.md#id1821I0Y0G0A__id1822G0P0CHS). <br><br>**Cuidado**: ao excluir os tópicos, as páginas ficam indisponíveis no site publicado. Portanto, antes que os tópicos sejam excluídos, um aviso é exibido. Você deve confirmar a exclusão deles. |
+| Design | Selecione o modelo de design que deseja usar para gerar a saída.<br><br>Para obter detalhes sobre como usar modelos de design personalizados para gerar saída, contate o administrador de publicação. |
 | Fluxo de trabalho de pós-geração | Ao escolher essa opção, uma nova lista suspensa Fluxo de trabalho de pós-geração é exibida contendo todos os fluxos de trabalho configurados no AEM. Você deve selecionar um workflow que deseja executar após a conclusão do workflow de geração de saída. |
-| Usar Linha de Base | Se tiver criado uma Linha de Base para o mapa DITA selecionado, selecione essa opção para especificar a versão que deseja publicar.<br><br>**Importante**: quando você está gerando saída incremental para o Site AEM, a saída é criada usando a versão atual dos arquivos e não a Linha de Base anexada.<br><br>Exibir [Trabalhar com a Linha de Base](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) para obter mais detalhes. |
-| Filtragem condicional | Selecione uma das seguintes opções:<br><br>**None**: selecione essa opção se não quiser aplicar nenhuma condição à saída publicada.<br>**Usando DITAVAL**: selecione o(s) arquivo(s) DITAVal para gerar conteúdo condicional. Você pode selecionar vários arquivos DITAVal usando a caixa de diálogo Procurar ou digitando o caminho do arquivo. Use o ícone de cruz próximo ao nome do arquivo para removê-lo. Os arquivos DITAVal são avaliados na ordem especificada, de modo que as condições especificadas no primeiro arquivo têm precedência sobre as condições correspondentes especificadas em arquivos posteriores. É possível manter a ordem dos arquivos adicionando ou excluindo arquivos. Se o arquivo DITAVal for movido para algum outro local ou excluído, ele não será excluído automaticamente do painel de mapa. Você precisa atualizar o local caso os arquivos sejam movidos ou excluídos. Você pode passar o mouse sobre o nome do arquivo para visualizar o caminho no repositório AEM onde o arquivo está armazenado. Você só pode selecionar arquivos DITAVal e um erro será exibido se você selecionar qualquer outro tipo de arquivo.<br>**Predefinição de condição**: selecione uma predefinição de condição no menu suspenso para aplicar uma condição ao publicar a saída. Essa opção estará visível se você tiver adicionado uma condição para o arquivo de mapa DITA. As configurações condicionais estão disponíveis na guia Predefinições de condição do console do mapa DITA. Para saber mais sobre a predefinição de condição, exiba [Usar predefinições de condição](generate-output-use-condition-presets.md#id1825FL004PN). |
-| Argumentos adicionais da linha de comando DITA-OT | Especifique os argumentos adicionais que você deseja que o DITA-OT processe ao gerar saída. Para obter detalhes sobre os argumentos de linha de comando com suporte no DITA-OT, exiba a [documentação do DITA-OT](https://www.dita-ot.org/). |
+| Reter arquivos temporários | Selecione essa opção para manter os arquivos temporários gerados pelo DITA-OT. Se ocorrerem erros durante a geração de saída pelo DITA-OT, selecione essa opção para manter os arquivos temporários. Você pode usar esses arquivos para solucionar erros de geração de saída.<br> <br> Depois de gerar a saída, selecione o ícone **Baixar arquivos temporários** ![baixar arquivos temporários](images/download-temp-files-icon.svg) para baixar a pasta ZIP que contém os arquivos temporários. <br><br> **Observação**: se as propriedades do arquivo forem adicionadas durante a geração, os arquivos temporários de saída também incluirão um arquivo *metadata.xml* contendo essas propriedades. |
+
+**Conteúdo**
+
+A guia **Conteúdo** contém as seguintes opções de configuração:
+
+| Opções do AEM Sites | Descrição |
+| --- | --- |
+| Usar Linha de Base | Se tiver criado uma Linha de Base para o mapa DITA selecionado, selecione essa opção para especificar a versão que deseja publicar.<br><br>Exibir [Trabalhar com a Linha de Base](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) para obter mais detalhes. |
+| Filtragem condicional | Selecione uma das seguintes opções:<br><br>**None**: selecione essa opção se não quiser aplicar nenhuma condição à saída publicada.<br>**Usando DITAVAL**: selecione o(s) arquivo(s) DITAVal para gerar conteúdo condicional. Você pode selecionar vários arquivos DITAVal usando a caixa de diálogo Procurar ou digitando o caminho do arquivo. Use o ícone de cruz próximo ao nome do arquivo para removê-lo. Os arquivos DITAVal são avaliados na ordem especificada, de modo que as condições especificadas no primeiro arquivo têm precedência sobre as condições correspondentes especificadas em arquivos posteriores. É possível manter a ordem dos arquivos adicionando ou excluindo arquivos. Se o arquivo DITAVal for movido para algum outro local ou excluído, ele não será excluído automaticamente do painel de mapa. Você precisa atualizar o local caso os arquivos sejam movidos ou excluídos. Você pode passar o mouse sobre o nome do arquivo para visualizar o caminho no repositório do AEM onde o arquivo está armazenado. Você só pode selecionar arquivos DITAVal e um erro será exibido se você selecionar qualquer outro tipo de arquivo.<br>**Predefinição de condição**: selecione uma predefinição de condição no menu suspenso para aplicar uma condição ao publicar a saída. Essa opção estará visível se você tiver adicionado uma condição para o arquivo de mapa DITA. As configurações condicionais estão disponíveis na guia Predefinições de condição do console do mapa DITA. Para saber mais sobre a predefinição de condição, exiba [Usar predefinições de condição](generate-output-use-condition-presets.md#id1825FL004PN). |
 | Metadados <br> Propriedades de <br>Arquivo (Assets) | Selecione as propriedades que deseja processar como metadados. Essas propriedades são definidas na página Propriedades do mapa DITA ou do arquivo de mapa. As propriedades selecionadas na lista suspensa aparecem no campo **Propriedades do arquivo**. Selecione o ícone cruzado ao lado da propriedade para removê-la. <br><br>**Observação**: as propriedades de metadados diferenciam maiúsculas de minúsculas.<br><br>*Se você tiver selecionado uma Linha de Base, os valores das propriedades serão baseados na versão da Linha de Base selecionada.<br>* Se você não tiver selecionado uma Linha de Base, os valores das propriedades serão baseados na versão mais recente.<br><br>Você também pode passar os metadados para a saída usando a publicação DITA-OT. Para obter mais detalhes, [Passe os metadados para a saída usando DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA).<br><br>**Observação**: se você não tiver definido a `cq:tags` na opção Propriedades, os valores de `cq:tags` serão escolhidos na cópia de trabalho atual, mesmo que você tenha selecionado uma Linha de Base para publicação. |
-| Metadados <br> <br>Usar propriedades do mapa como fallback | Se essa opção for selecionada, as propriedades definidas para o arquivo de mapa também serão copiadas para os tópicos em que essas propriedades não estão definidas. Considere os seguintes pontos ao usar esta opção:<br><br>*Somente as propriedades String, Date ou Long (único e de vários valores) podem ser passadas para as páginas do Site do AEM.<br>* Os valores de metadados de uma propriedade do tipo Cadeia de Caracteres não dão suporte a caracteres especiais (como `@, #, " "`).<br>* Esta opção deve ser usada com a opção `Properties`. |
-| Reter arquivos temporários | Selecione essa opção para manter os arquivos temporários gerados pelo DITA-OT. Se ocorrerem erros durante a geração de saída pelo DITA-OT, selecione essa opção para manter os arquivos temporários. Você pode usar esses arquivos para solucionar erros de geração de saída.<br> <br> Depois de gerar a saída, selecione o ícone **Baixar arquivos temporários** ![baixar arquivos temporários](images/download-temp-files-icon.png) para baixar a pasta ZIP que contém os arquivos temporários. <br><br> **Observação**: se as propriedades do arquivo forem adicionadas durante a geração, os arquivos temporários de saída também incluirão um arquivo *metadata.xml* contendo essas propriedades. |
+| Metadados <br> <br>Usar propriedades do mapa como fallback | Se essa opção for selecionada, as propriedades definidas para o arquivo de mapa também serão copiadas para os tópicos em que essas propriedades não estão definidas. Considere os seguintes pontos ao usar esta opção:<br><br>*Somente as propriedades String, Date ou Long (único e de vários valores) podem ser passadas para as páginas do site do AEM.<br>* Os valores de metadados de uma propriedade do tipo Cadeia de Caracteres não dão suporte a caracteres especiais (como `@, #, " "`).<br>* Esta opção deve ser usada com a opção `Properties`. |
 
+**Referências entre mapas**
 
-### Gerar a saída do AEM Sites usando os templates
+Esta lista contém tópicos que contêm referências entre mapas com `scope =”peer”`. Você pode especificar o contexto de publicação para uma lista de referências de mapa cruzado com `scope=”peer”` para tópicos disponíveis em outros mapas DITA. Essa guia será exibida se você usar a versão do Experience Manager Guides (UUID).
 
-O Experience Manager Guides permite usar os modelos prontos para uso ou adicionar seus próprios modelos do AEM Sites.
+Para obter mais detalhes, consulte a seção [Trabalhando com tópicos vinculados](#working-with-linked-topics) abaixo.
 
-Antes de configurar as predefinições do AEM Sites, crie uma estrutura do AEM Sites usando os modelos.\
-Para obter mais detalhes, consulte [Baixar e instalar modelos do AEM Sites](../install-guide/download-install-aem-sites-templates.md).
+## Trabalhar com tópicos vinculados
 
+O Experience Manager Guides permite criar referências de tópico usando o `peer @scope`. Em seguida, você pode definir o contexto de publicação dessas referências a partir das predefinições do AEM Sites e, finalmente, gerar a saída dos tópicos vinculados.
 
-
-Execute as seguintes etapas para criar e configurar uma predefinição do AEM Sites:
-1. Abra a guia **Predefinições de saída** do mapa DITA que deseja publicar.
-1. Selecione a predefinição de saída **AEM Sites**.
-1. (Opcional) Desmarque a opção **Usar mapeamento de componente herdado** para criar uma predefinição de AEM Sites não herdada.
-1. Clique em **Adicionar**. A predefinição do AEM Sites é criada.
-1. Você pode configurar o modelo de Sites pronto para uso de duas maneiras:
-   1. Selecione **Site** e escolha o caminho de publicação e os modelos de página de tópico entre as opções preenchidas:
-      1. Selecione o site.
-      1. Selecione **Site**. Por exemplo, `AEMG Docs`.
-      1. As opções **caminho do Publish** e **modelo de página de Tópico** são definidas automaticamente na lista suspensa. Você também pode escolher as opções. Por exemplo, `AEMG-Docs-Site/en/docs/product1` e `Topic page` estão definidos respectivamente.
-   1. Selecione o caminho completo do site:
-      1. Selecione a opção **Usar caminho do site**.
-      1. Selecione o caminho completo do site. Por exemplo, `/content/AEMG-Docs-Site/en/docs/product1`.
-      1. O ‘Modelo de página de tópico’ é automaticamente definido como `Topic Page`.
-
-
-1. Salvar as alterações feitas na predefinição.
-1. Selecione a opção **Gerar**.
-1. Gere AEM Sites para o mapa correspondente. Por exemplo, `/content/AEMG-Docs-Site/en/docs/product`.
-
-
-   >[!NOTE]
-   >
-   > Se você estiver publicando conteúdo em um site AEM pela primeira vez, é recomendável publicar as páginas no nível do site. Isso garante que a saída seja exibida corretamente na instância do **Publish**, sem interrupção de CSS.
-
-
-
-### Tópicos vinculados do Publish
-
-O Experience Manager Guides simplifica a publicação de documentos complexos permitindo que você crie referências de tópico usando o `peer @scope`. Em seguida, você pode definir o contexto de publicação dessas referências a partir das predefinições do AEM Sites e, finalmente, gerar a saída dos tópicos vinculados.
 Para obter mais detalhes, exiba [Gerar saída de tópicos de vinculação de outros mapas](../user-guide/generate-output-aem-site.md#generate-output-linking-topics-from-other-maps).
 
 
-
-
 Execute as seguintes etapas para especificar o contexto de publicação para arquivos com links cruzados:
-1. Abra a guia **Predefinições de saída** do mapa DITA que deseja publicar.
-1. Selecione a predefinição de saída **AEM Sites**.
 
-   Você pode exibir as guias **Geral**, **Conteúdo**, **Lista de tópicos** e **Referências entre mapas**. A guia **Referências de mapa cruzado** será exibida se você usar a versão do Experience Manager Guides (UUID).
+1. Abra a guia **Referências entre mapas**. Para exibir esta guia, verifique se `<xrefs>` tem IDs exclusivas. IDs exclusivas para `<xrefs>` serão geradas automaticamente ao editar/salvar o conteúdo mais antigo se a ID não estiver lá.
 
    Você não poderá exibir a vinculação entre mapas nos seguintes casos:
-   - Para as predefinições criadas antes da versão 4.6. A guia Referências cruzadas está desativada e uma dica de ferramenta, Consulte Painel de mapa é exibida.
-   - Para predefinições criadas no painel de mapa. Consulte A dica de ferramenta do painel de mapa é exibida.
-   - Para predefinições OOTB, consulte Dica de ferramenta do painel de Mapa.
-   - Para predefinições globais, crie uma cópia local dessa predefinição global para definir referências de mapa cruzado.
-Se quiser usar predefinições do AEM Sites no Editor da Web, crie uma nova predefinição ou duplique a existente.
+   - Para as predefinições criadas antes da versão 4.6, a guia Referências cruzadas é desabilitada e uma dica de ferramenta, **Consulte o painel de Mapa**, é exibida.
+   - Para predefinições criadas no painel de mapa, **Consulte a dica de ferramenta Painel de mapa**.
+   - Para predefinições OOTB, **Consulte a dica de ferramenta do painel de Mapa**.
+   - Para predefinições globais, crie uma cópia local dessa predefinição global para definir referências entre mapas.
 
-1. Abra a guia **Referências entre mapas**.
 
-   Você verá uma lista de tópicos e suas referências. Você pode especificar o contexto de publicação para uma lista de referências a tópicos disponíveis em outros mapas DITA com `scope=”peer”`.
-
-   Para usar o painel de referência entre mapas do Editor da Web, `<xrefs>` deve ter IDs exclusivas. IDs exclusivas para `<xrefs>` serão geradas automaticamente ao editar/salvar o conteúdo mais antigo se a ID não estiver lá.
+1. Uma lista de tópicos e suas referências é exibida
 
    >[!NOTE]
    >
@@ -205,7 +212,7 @@ Se quiser usar predefinições do AEM Sites no Editor da Web, crie uma nova pred
 
    Todos os tópicos vinculados têm sua predefinição de saída e mapa mais recentes selecionados por padrão. O contexto de publicação para todos os tópicos vinculados está definido como `<Most recently generated>` mapear por padrão.
 
-   ![Referências entre mapas](images/aem-sites-cross-map-references.png)
+   ![Referências entre mapas](images/aem-sites-preset-cross-map-references.png)
 
 1. Se quiser usar a saída publicada mais recentemente de cada arquivo dependente no mapa, selecione **Usar contexto de publicação gerado mais recentemente** para todos os tópicos dependentes.
 Você deve publicar o mapa selecionado como o mapa principal antes de publicar o mapa contendo tópicos vinculados. Se o mapa com tópicos vinculados não for publicado, os links serão exibidos como texto normal em vez de hiperlinks na saída do AEM Sites.
@@ -219,10 +226,8 @@ Selecionar um arquivo de mapa mostra a UUID do mapa na coluna UUID do mapa princ
    >[!NOTE]
    >
    > As diferentes predefinições de AEM Sites do mapa atual são exibidas na lista suspensa. Se você não selecionar uma predefinição, um ícone de aviso será exibido e a geração de saída falhará.
+
 1. Selecione o mapa necessário e sua predefinição de saída para todos os tópicos de origem e selecione **Gerar**.
-
-
-
 
 
 

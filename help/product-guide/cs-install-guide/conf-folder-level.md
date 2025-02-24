@@ -5,9 +5,9 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: c94eb03af60ef9df60f77c21bfce1c45708df2f8
+source-git-commit: e1d6123991ddd8d25f76ee03befeb95f020a9834
 workflow-type: tm+mt
-source-wordcount: '4521'
+source-wordcount: '4755'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Ao usar o bloco Perfis de pasta nas configurações de Guias, você pode definir
 
 - **Predefinição de Saída**: Semelhante aos Modelos, há cinco predefinições de saída pré-configuradas:
 
-   - Site AEM
+   - Site do AEM
 
    - PDF
 
@@ -73,6 +73,8 @@ Ao usar o bloco Perfis de pasta nas configurações de Guias, você pode definir
 - **Configurações do Editor XML**: use esta guia para personalizar a aparência e os vários recursos do Editor da Web. As seguintes configurações configuráveis estão disponíveis para o Editor da Web:
 
    - Configuração da interface do Editor de XML
+   - Layout da página do editor XML
+   - Configuração do editor XML
    - Layout do modelo CSS
    - Trechos do Editor de XML
    - Rótulos da versão do conteúdo XML
@@ -106,7 +108,7 @@ Execute as seguintes etapas para configurar o perfil global:
 
 1. Para configurar **Predefinições de Saída**, consulte [Configurar predefinições de saída](#id18AGD0IH0Y4).
 
-1. Para configurar o Editor de XML, consulte [Configurar e personalizar o Editor da Web de XML](#id2065G300O5Z).
+1. Para configurar o Editor de XML, consulte [Configurar e personalizar o Editor de XML](#id2065G300O5Z).
 
 1. Depois de fazer todas as atualizações necessárias, salve e feche o **Perfil Global**.
 
@@ -230,11 +232,11 @@ Se você estiver usando um atributo personalizado, ele deverá ser um atributo D
 
 ## Configurar modelos {#id1889D0IL0Y4}
 
-O AEM Guides vem com 7 modelos de tópico prontos para uso, 2 modelos de mapa DITA e 3 modelos de PDF. Você pode optar por ter somente alguns modelos disponíveis para seus autores e editores. Caso use um modelo personalizado, o mesmo pode ser configurado e disponibilizado para criação e publicação. Use a guia **Modelos** na configuração Perfis de pasta para adicionar ou remover modelos de tópico, mapa ou PDF dos perfis globais ou de nível de pasta.
+O AEM Guides vem com 7 modelos de tópico prontos para uso, 2 modelos de mapa DITA e 3 modelos PDF. Você pode optar por ter somente alguns modelos disponíveis para seus autores e editores. Caso use um modelo personalizado, o mesmo pode ser configurado e disponibilizado para criação e publicação. Use a guia **Modelos** na configuração Perfis de pasta para adicionar ou remover modelos de tópico, mapa ou PDF de perfis globais ou em nível de pasta.
 
 Mesmo antes de configurar os modelos de tópico, mapa ou PDF no nível global ou de pasta, você também pode definir um local para armazenar os modelos personalizados. Para configurar um local personalizado para armazenar os modelos, consulte [Configurar caminho da pasta de modelo DITA personalizado](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z).
 
-Execute as seguintes etapas para adicionar os modelos de tópico, mapa ou PDF em um perfil de pasta:
+Execute as seguintes etapas para adicionar o tópico, mapa ou modelos do PDF em um perfil de pasta:
 
 1. Faça logon no Adobe Experience Manager como administrador ou como um usuário com direitos administrativos em um perfil de nível de pasta.
 
@@ -251,7 +253,7 @@ Execute as seguintes etapas para adicionar os modelos de tópico, mapa ou PDF em
 1. Na página do perfil, clique na guia **Modelos**.
 1. Clique em **Editar**.
 
-   Você tem as opções para adicionar modelos de Tópico, Mapa e PDF, pesquisando no local padrão ou procurando por ele.
+   Você tem as opções para adicionar modelos de Tópico, Mapa e PDF pesquisando no local padrão ou procurando por ele.
 
    >[!NOTE]
    >
@@ -337,7 +339,7 @@ O AEM Guides permite que o administrador crie predefinições de saída com conf
 
 Depois que as predefinições de saída padrão tiverem sido criadas no sistema, todos os mapas DITA criados depois disso usarão as predefinições padrão para gerar a saída. No entanto, todos os mapas DITA existentes continuariam a usar as predefinições de saída configuradas anteriormente com eles. Se você quiser aplicar a nova predefinição de saída em todos os mapas DITA existentes, será necessário executar o fluxo de trabalho Aplicar alterações predefinidas.
 
-Além das predefinições configuradas em nível global ou corporativo, um editor ainda teria os direitos de criar mais predefinições de saída. No entanto, essas predefinições são vinculadas ao mapa DITA para o qual são criadas. Para obter mais detalhes sobre como criar predefinições de saída regulares para um mapa DITA, consulte *Criar, editar, duplicar ou remover uma predefinição de saída* no Guia as a Cloud Service Uso do Adobe Experience Manager Guides.
+Além das predefinições configuradas em nível global ou corporativo, um editor ainda teria os direitos de criar mais predefinições de saída. No entanto, essas predefinições são vinculadas ao mapa DITA para o qual são criadas. Para obter mais detalhes sobre como criar predefinições de saída regulares para um mapa DITA, consulte *Criar, editar, duplicar ou remover uma predefinição de saída* no guia Uso do Adobe Experience Manager Guides as a Cloud Service.
 
 Execute as seguintes etapas para configurar predefinições de saída globais ou específicas de pastas:
 
@@ -355,7 +357,7 @@ Execute as seguintes etapas para configurar predefinições de saída globais ou
 
 1. Na página do perfil. clique na guia **Predefinições de saída**.
 
-   É exibida uma lista de predefinições de saída prontas para uso, que inclui AEM Site, PDF, HTML5, EPUB e CUSTOM.
+   Uma lista de predefinições de saída prontas para uso é exibida, incluindo AEM Site, PDF, HTML5, EPUB e CUSTOM.
 
 1. Siga um destes procedimentos para criar ou editar uma predefinição de saída:
 
@@ -364,7 +366,7 @@ Execute as seguintes etapas para configurar predefinições de saída globais ou
 
    - Clique em **Editar** para abrir a configuração da predefinição selecionada para edição.
 
-     Para obter informações sobre as configurações de predefinição de saída, consulte *Noções básicas sobre as predefinições de saída* no Guia de Utilização do Adobe Experience Manager Guides as a Cloud Service.
+     Para obter informações sobre as configurações de predefinição de saída, consulte *Noções básicas sobre as predefinições de saída* no guia Uso do Adobe Experience Manager Guides as a Cloud Service.
 
 1. Clique em **Salvar** para salvar as configurações predefinidas.
 
@@ -391,7 +393,7 @@ Se você tiver atualizado uma predefinição de saída existente ou quiser dispo
 
 1. Na página do perfil. clique na guia **Predefinições de saída**.
 
-   É exibida uma lista de predefinições de saída prontas para uso, que inclui AEM Site, PDF, HTML5, EPUB e CUSTOM.
+   Uma lista de predefinições de saída prontas para uso é exibida, incluindo AEM Site, PDF, HTML5, EPUB e CUSTOM.
 
 1. Selecione a predefinição de saída que deseja aplicar aos mapas DITA existentes.
 
@@ -407,9 +409,15 @@ Se você tiver atualizado uma predefinição de saída existente ou quiser dispo
 
 
 
-## Configurar sugestões inteligentes habilitadas por IA no Editor da Web {#conf-ai-smart-suggestions}
+## Configurar o AI Assistant para obter ajuda e criação inteligentes
 
-Para a Experience Manager Guides ![nuvem do AEM ](assets/aem-cloud-icon.svg) as a Cloud Service.
+Para a ![nuvem do AEM ](assets/aem-cloud-icon.svg), Experience Manager Guides as a Cloud Service.
+
+O Assistente de IA do Adobe Experience Manager Guides é uma ferramenta avançada orientada por IA, projetada para aprimorar o conteúdo por meio de criação inteligente e experiências de reutilização de conteúdo. Ele reúne dois recursos robustos de IA — **Criação** e **Ajuda** — na interface do Experience Manager Guides, permitindo que você crie documentos e acesse informações de maneira mais rápida e eficiente.
+
+Para obter detalhes sobre a configuração, consulte [Configuração do assistente de IA](./conf-smart-suggestions.md).
+
+**Configurar sugestões inteligentes habilitadas por IA**
 
 Você pode configurar as sugestões inteligentes habilitadas por IA e ajudar os autores a reutilizar o conteúdo existente e criar facilmente referências de conteúdo corretas e consistentes. A guia **Configuração de IA** permite controlar as configurações de **Sugerir conteúdo reutilizável** no painel Assistente de IA no Editor da Web.
 
@@ -424,9 +432,10 @@ Execute as seguintes etapas para definir a configuração de IA padrão no perfi
    >Você pode configurar sugestões inteligentes baseadas em IA para o perfil global ou de nível de pasta.
 
 1. Na página do perfil, selecione a guia **Configuração de IA**.
+
    ![Guia de configuração de IA no perfil global](assets/global-profile-AI-configuration-cs.png) {width="800" align="left"}
 
-1. Clique em **Editar**.
+1. Selecione **Editar**.
 1. Como administrador, você pode definir as seguintes configurações:
 
    **Mínimo de caracteres**: insira o número mínimo de caracteres que os autores precisam digitar para obter as sugestões. Por exemplo, se esse número for 7, o autor deverá adicionar pelo menos 7 caracteres para exibir uma sugestão inteligente.
@@ -443,16 +452,13 @@ Execute as seguintes etapas para definir a configuração de IA padrão no perfi
 
 Saiba mais sobre como exibir e adicionar [sugestões inteligentes baseadas em IA](../user-guide/authoring-ai-based-smart-suggestions.md) para adicionar referências de conteúdo durante a criação no Editor da Web.
 
+**Personalizar as perguntas padrão da ajuda inteligente**
 
+Para a ![nuvem do AEM ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service.
 
+Você pode configurar a **Ajuda** inteligente baseada em IA para ajudar os autores a fazer perguntas e localizar facilmente o conteúdo necessário da [documentação do Experience Manager Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 
-## Configurar a Ajuda inteligente habilitada por IA no Editor da Web {#conf-ai-guides-assistant}
-
-Para a Experience Manager Guides ![nuvem AEM ](assets/aem-cloud-icon.svg) as a Cloud Service.
-
-Você pode configurar a **Ajuda Inteligente** baseada em IA para ajudar os autores a fazer perguntas e localizar facilmente o conteúdo necessário da [Documentação do Experience Manager Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
-
-A guia **Configuração do Editor XML** permite configurar as perguntas padrão do **painel Ajuda Inteligente** no Editor da Web.
+A guia **Configuração do Editor XML** permite configurar as perguntas padrão do painel **Ajuda**.
 
 >[!NOTE]
 >
@@ -494,13 +500,27 @@ Execute as seguintes etapas para configurar as perguntas padrão:
 Saiba mais sobre como usar a [Ajuda Inteligente fornecida por IA](../user-guide/ai-based-smart-help.md) para encontrar o conteúdo necessário na documentação do Experience Manager Guides.
 
 
-## Configurar e personalizar o editor da Web de XML {#id2065G300O5Z}
+## Configurar e personalizar o editor de XML {#id2065G300O5Z}
 
-Por padrão, o Editor da Web de XML vem com vários recursos para ajudar seus autores a criar documentos DITA. Se você trabalhar em um ambiente restritivo, poderá escolher quais recursos serão expostos aos autores. A guia Configuração do editor XML permite controlar facilmente os recursos e também alterar a aparência do editor da Web. Como administrador, você pode personalizar os seguintes componentes do Editor da Web:
+Por padrão, o Editor de XML vem com vários recursos para ajudar seus autores a criar documentos DITA. Se você trabalhar em um ambiente restritivo, poderá escolher quais recursos serão expostos aos autores. A guia Configuração do editor XML permite controlar facilmente os recursos e também alterar a aparência do editor. Como administrador, você pode personalizar os seguintes componentes do Editor:
 
 **Configuração da Interface do Usuário do Editor XML**
 
-Essa configuração controla a barra de ferramentas e os outros elementos da interface do usuário do Editor da Web. Clique no ícone Download para baixar o arquivo ui\_config.json no sistema local. Em seguida, é possível fazer alterações no arquivo e fazer o upload da mesma maneira. Dependendo de onde você estiver fazendo upload do arquivo no perfil global ou de nível de pasta, as alterações serão aplicadas adequadamente. Para obter mais detalhes sobre como personalizar o Editor de XML usando o arquivo ui\_config.json, consulte [Personalizar barra de ferramentas](conf-web-editor-customize-toolbar.md#).
+Essa configuração permite criar extensões JSON que refletem as modificações feitas no arquivo `ui_config.json`. É possível fazer upload dessas extensões de maneira independente no nível do perfil da pasta, oferecendo mais flexibilidade e personalização. Por exemplo, quando você faz alterações na **Configuração do Editor XML**, como a atualização de um botão, o sistema identifica automaticamente as diferenças. Ao carregar essas alterações na **Configuração da Interface do Usuário do Editor de XML** e convertê-las em extensões JSON usando o botão **Converter Configuração da Interface do Usuário em JSON**, o sistema gera uma extensão que incorpora a nova funcionalidade.
+
+Saiba mais sobre **personalização de configurações JSON e conversão de configurações de interface do usuário para o novo Editor do AEM Guides**.
+
+**Layout da página do Editor XML**
+
+Este recurso permite que você carregue arquivos CSS para criar o estilo das novas extensões carregadas na **Configuração da Interface do Usuário do Editor XML**. O CSS carregado é aplicado de forma consistente em todos os aplicativos relevantes, garantindo uma aparência unificada e elegante para as personalizações da interface do usuário.
+
+**Configuração do Editor XML**
+
+Essa configuração controla a barra de ferramentas e os outros elementos da interface do usuário do Editor. Selecione o ícone **Baixar** para baixar o arquivo `ui\_config.json` no sistema local. Em seguida, é possível fazer alterações no arquivo e fazer o upload da mesma maneira. Dependendo de onde você estiver fazendo upload do arquivo no perfil global ou de nível de pasta, as alterações serão aplicadas adequadamente. Para obter mais detalhes sobre como personalizar o Editor de XML usando o `ui\_config.json file`, consulte [Personalizar barra de ferramentas](conf-web-editor-customize-toolbar.md#).
+
+>[!NOTE]
+>
+> Para a versão do AEM Guides 2502 e versões mais recentes, é recomendável usar a extensão JSON em vez do `ui_config.json` para personalização. Para obter detalhes, consulte a seção **Configuração da Interface do Usuário do Editor XML** acima.
 
 **Layout do modelo CSS**
 

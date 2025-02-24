@@ -4,77 +4,33 @@ description: Saiba como criar, editar, duplicar e excluir uma predefinição de 
 exl-id: 0522a49d-4dce-4456-bfdc-7ff9261ae04c
 feature: Publishing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: e6c14a478d8119c11b8541898c3314688e7fa51b
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '131'
 ht-degree: 0%
 
 ---
 
-# Criar, editar, duplicar ou remover uma predefinição de saída {#id205BEH0K09Z}
+# Editar, duplicar ou excluir uma predefinição de saída {#id205BEH0K09Z}
 
-## Criar uma predefinição de saída personalizada
+É possível gerenciar predefinições de saída no console Mapa e no painel Mapa. De ambas as maneiras, você obtém opções para editar, duplicar e excluir uma predefinição de saída, conforme ilustrado na seção a seguir.
 
-Execute as seguintes etapas para criar uma predefinição de saída personalizada:
+## Utilização do console de Mapa
 
-1. Na interface do usuário do Assets, navegue e clique em qualquer mapa DITA para abrir o console de mapas DITA.
+É possível editar a predefinição de saída selecionada alterando diretamente os campos obrigatórios para as configurações de predefinição necessárias.
 
-1. Verifique se a guia Predefinições de saída está selecionada. Clique em Criar na barra de ferramentas.
-
-   Um formulário de criação de predefinição de saída em branco é exibido.
-
-1. Insira os detalhes necessários para o tipo de predefinição que deseja criar.
-
-1. Clique em Concluído para salvar as configurações predefinidas.
+Além disso, você pode duplicar ou excluir uma predefinição de saída usando o menu suspenso **Opções**, como mostrado abaixo.
 
 
-## Editar uma predefinição de saída
-
-Execute as seguintes etapas para editar uma predefinição de saída existente:
-
-1. Na interface do usuário do Assets, navegue e clique em qualquer mapa DITA para abrir o console de mapas DITA.
-
-1. Verifique se a guia Predefinições de saída está selecionada.
-
-1. Clique na predefinição de saída que deseja editar. Clique em Editar na barra de ferramentas.
-
-   Um formulário de predefinição de saída editável é exibido com valores da predefinição de saída selecionada.
-
-1. Altere os detalhes necessários.
-
-1. Clique em Concluído para salvar as configurações de predefinição editadas.
+![](images/delete-preset-map-console.png){width="800" align="left"}
 
 
-## Duplicar uma predefinição de saída
+## Uso do painel do Mapa
 
-Execute as seguintes etapas para duplicar uma predefinição de saída existente:
+É possível editar, duplicar e excluir uma predefinição de saída usando o painel de mapa, selecionando a guia necessária na barra superior, como mostrado abaixo.
 
-1. Na interface do usuário do Assets, navegue e clique em qualquer mapa DITA para abrir o console de mapas DITA.
+![](images/create-new-preset-map-dashboard-new.png){width="800" align="left"}
 
-1. Verifique se a guia Predefinições de saída está selecionada.
-
-1. Clique na predefinição de saída que deseja duplicar. Clique em Duplicar na barra de ferramentas.
-
-   Um formulário de predefinição de saída editável é exibido com valores da predefinição de saída selecionada.
-
-1. Altere os detalhes necessários.
-
-1. Clique em Concluído para salvar as configurações predefinidas.
-
-
-## Excluir uma predefinição de saída
-
-Execute as seguintes etapas para excluir uma predefinição de saída existente:
-
-1. Na interface do usuário do Assets, navegue e clique em qualquer mapa DITA para abrir o console de mapas DITA.
-
-1. Selecione a predefinição de saída que deseja excluir.
-
-1. Clique em Excluir predefinição.
-
-1. Clique em Excluir no prompt de confirmação.
-
-   A predefinição é removida da lista Predefinições de saída.
 
 
 **Tópico pai:**[ Geração de saída](generate-output.md)

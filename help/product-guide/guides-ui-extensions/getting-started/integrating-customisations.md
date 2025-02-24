@@ -3,9 +3,9 @@ title: Instalação e configuração
 description: Instalação e uso do pacote de extensão do AEM Guides
 role: User, Admin
 exl-id: 0304c8d0-35a8-4712-a9af-36557e3b247f
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+source-git-commit: b4d6c1c8c2d413bb4137e58391554abf2fb68b8c
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
@@ -56,6 +56,11 @@ Nome: `categories`
 Tipo: `String []`
 Valor: `apps.fmdita.review_overrides`, `apps.fmdita.xml_editor.page_overrides`
 
+>[!NOTE]
+>
+> Para a penúltima interface do usuário, os valores seriam: `apps.fmdita.penultimate.xml_editor.page_overrides` e `apps.fmdita.review_overrides`
+
+
 ![Propriedades da pasta](./../imgs/crxde_folder_properties.png)
 
 - Para adicionar o js construído, crie um novo arquivo, digamos, `tcx1.js` no nó criado acima. Aqui, adicione o código de `dist/guides-extension.umd.cjs` ou `dist/guides-extension.js`. Agora crie um novo arquivo `js.txt`, aqui adicionamos o nome do nosso arquivo js, que neste caso seria:
@@ -78,5 +83,5 @@ tcx1.css
 
 Verifique se todas as etapas acima foram executadas corretamente.
 Depois de adicionar seu código ao tcx.js, certifique-se de fazer uma atualização rígida (shift+refresh).
-Agora abra o AEM, clique com o botão direito do mouse e clique em `Inspect`
+Agora abra o AEM, clique com o botão direito e clique em `Inspect`
 Vá para Origens e pesquise pelo seu arquivo `[node_name].js` (por exemplo: extensions.js). Faça um Control / Cmd + D para procurar o arquivo. Se o arquivo `.js` existir com o código JS que você colou de `dist/guides-extension.umd.cjs` ou `dist/guides-extension.js`, sua configuração está concluída

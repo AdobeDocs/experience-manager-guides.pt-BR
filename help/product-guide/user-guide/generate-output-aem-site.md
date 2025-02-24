@@ -1,36 +1,86 @@
 ---
-title: AEM Sites
-description: Criar e configurar a predefinição do site AEM no AEM Guides. Use o suporte do site AEM para gerar saída baseada em artigo, tópicos de vinculação de saída, conref de publicação e pesquisar uma string no conteúdo.
+title: Geração de saída incremental
+description: Saiba como a geração de saída incremental para o AEM Sites funciona no AEM Guides.
 exl-id: 019d9fbf-2f23-4669-8022-d693be75c1c3
 feature: Publishing
 role: User
-source-git-commit: 844c0d838981b9e7abbadd003d3b71cc7d0c7156
+source-git-commit: b061bcbcefba1700665bed33f017a962e84a0433
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 2%
+source-wordcount: '579'
+ht-degree: 0%
 
 ---
 
-# AEM Sites {#id205BE3008SW}
+
+# Geração de saída incremental
+
+>[!NOTE]
+>
+> A geração de saída incremental é aplicável somente para saída AEM Sites. Além disso, você só pode regenerar tópicos DITA \(.dita/.xml\) a partir de um mapa DITA ou submapas. Se você selecionar um mapa DITA, submapa, grupo de tópicos ou um tópico com `@processing-role="resource-only"`, a opção de regeneração não estará disponível.
+
+Pode haver várias instâncias em que você atualizaria apenas alguns tópicos no mapa DITA e enviaria apenas esses tópicos atualizados em tempo real. Para lidar com esses cenários, o Experience Manager Guides permite criar saídas incrementais. Se você atualizou alguns tópicos, não é necessário gerar novamente o mapa DITA inteiro. Você pode selecionar apenas os tópicos atualizados e gerá-los novamente.
+
+Se o mapa estiver fragmentado e você tiver atualizado um único tópico nesse mapa, será necessário gerar novamente todo o mapa para o tópico ou conteúdo atualizado para refletir na saída. A opção de regeneração de saída não é obtida em um nível de tópico. Ela só está disponível no nível de mapa \(fragmentado\). Isso é aplicável ao mapa principal e a todos os submapas.
+
+Execute as seguintes etapas para gerar novamente a saída de um tópico específico ou de um grupo de tópicos:
+
+>[!IMPORTANT]
+>
+> Ao regenerar a saída do AEM Sites, a saída é criada usando a versão atual dos arquivos e não a Linha de base anexada.
+
+## Gerar saída incremental a partir do console do Mapa
+
+Execute as seguintes etapas para gerar saída incremental para o AEM Sites usando o console de Mapa:
+
+1. [Abra o arquivo de mapa DITA no Console de mapa](./open-files-map-console.md).
+1. Selecione a predefinição do AEM Sites para a qual deseja gerar saída incremental.
+1. Na guia **Tópicos**, selecione os tópicos que deseja publicar.
+
+   ![lista de tópicos do aem sites](images/aem-presets-topic-list.png) {width="800" align="left"}
+
+   >[!NOTE]
+   >
+   > Quando uma Linha de Base é selecionada na guia **Conteúdo**, a lista de Tópicos exibe os tópicos e suas versões da Linha de Base anexada.<br><br>
+   > A publicação incremental da lista de Tópicos deve ser usada somente quando não houver alteração na estrutura do mapa. Se houver uma alteração na estrutura do mapa/índice, o mapa inteiro deverá ser publicado uma vez para atualizar o índice.
+1. Selecione **Salvar** para salvar as alterações.
+1. Selecione **Gerar saída** para gerar a saída.
+
+
+## Gerar saída incremental a partir do painel de Mapa
+
+Execute as seguintes etapas para gerar saída incremental para o AEM Sites usando o painel Mapa:
+
+1. Na interface do usuário do Assets, navegue até o arquivo de mapa DITA e selecione-o.
+
+   O console do mapa DITA é exibido com a lista de Predefinições de saída disponíveis para gerar a saída.
+
+1. Selecione a guia **Tópicos**.
+
+   Uma lista de tópicos disponíveis no mapa DITA é exibida.
+
+1. Selecione os tópicos que deseja gerar novamente.
+
+   >[!NOTE]
+   >
+   > Se você tiver adicionado novos tópicos ao mapa DITA, não será possível gerar esses novos tópicos a partir daqui. Primeiro, publique os tópicos adicionados recentemente usando a função de publicação de mapa DITA.
+
+   ![](images/regenerate-topics.png){width="800" align="left"}
+
+1. Selecione **Regenerar**.
+
+   A página **Gerar novamente os tópicos selecionados** é exibida.
+
+1. Selecione a predefinição de saída que deseja usar para gerar novamente os tópicos selecionados.
+
+1. Selecione **Regenerar** para iniciar o processo de geração de saída.
+
+
+>[!IMPORTANT]
+>
+> Se você renomear um título de tópico e gerar novamente o tópico, o título atualizado do tópico não será refletido no índice do mapa DITA. Para atualizar o título do tópico no índice, você deve gerar o mapa DITA inteiro.
+
+Você pode visualizar o status atual da solicitação de geração de saída na guia **Saídas**. Para obter mais informações, consulte [Exibir o status da tarefa de geração de saída](#view-the-status-of-the-output-generation-task).
 
 
 
-É possível criar e configurar as predefinições do AEM Sites no Editor da Web ou no painel de mapa.
-
-**No Editor da Web**
-
-1. No painel Repositório, abra o arquivo de mapa DITA na Exibição de mapa.
-1. Na guia Saída, selecione o ícone + para criar uma predefinição de saída.
-1. Selecione o Site AEM no menu suspenso de tipo na caixa de diálogo **Nova predefinição de saída**.
-
-Saiba mais sobre [Predefinições do AEM Sites no Editor da Web](generate-output-aem-site-web-editor.md).
-
-
-**No painel de mapa**
-
-
-1. Para abrir predefinições de saída para o Site AEM, selecione em um arquivo de mapa DITA na interface do usuário do Assets.
-1. Selecione Predefinições de saída e, em seguida, selecione a opção Saída do site AEM.
-1. No painel de mapa, clique em **Editar** na parte superior para atualizar as várias configurações e clique em **Salvar**.
-
-Saiba mais sobre [Predefinições do AEM Sites no painel de mapa](generate-output-aem-site-map-dashboard.md).
+**Tópico pai:** [Entendendo as predefinições de saída](generate-output-understand-presets.md)

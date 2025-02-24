@@ -1,13 +1,13 @@
 ---
-title: Recurso nativo do PDF Publish | Criar um layout de página
-description: Saiba como projetar o layout da página para apresentar informações em diferentes seções da saída de PDF.
+title: Recurso de publicação nativo do PDF | Criar um layout de página
+description: Saiba como projetar o layout da página para apresentar informações em diferentes seções da saída do PDF.
 exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: aad652509c54b516fca49b7ca28d7dd5547f9a1b
+source-git-commit: e8aecbdca448c321ac36804255416a4fb2561f79
 workflow-type: tm+mt
-source-wordcount: '4972'
+source-wordcount: '5017'
 ht-degree: 0%
 
 ---
@@ -15,15 +15,15 @@ ht-degree: 0%
 
 # Criar um layout de página {#design-page-layout}
 
-Ao criar um documento PDF, você teria diferentes seções para apresentar diferentes tipos de informações. Por exemplo, um documento PDF começaria em uma página frontal ou de capa, que teria o logotipo, o título do livro ou as informações da versão da sua empresa. Em seguida, haveria capítulos, apêndices ou páginas de glossário. Cada seção em um documento do PDF é diferente, o que é obtido ao criar e personalizar o layout da página.
+Ao criar um documento do PDF, você teria diferentes seções para apresentar diferentes tipos de informações. Por exemplo, um documento do PDF seria iniciado em uma página frontal ou de capa, que teria o logotipo, o título do livro ou as informações da versão da sua empresa. Em seguida, haveria capítulos, apêndices ou páginas de glossário. Cada seção em um documento do PDF é diferente, o que é obtido ao criar e personalizar o layout da página.
 
-Ao projetar o layout da página, é possível definir os vários elementos que compõem uma página. Por exemplo, você pode definir o tamanho da página, margens, cabeçalho e rodapé, orientação e outras especificações de página em uma página. O recurso Publicação de PDF nativo permite criar sua página de acordo com os [padrões de mídia de página](https://www.w3.org/TR/css-page-3/). A maioria das configurações cobertas pelos padrões de Mídia paginada pode ser facilmente personalizada usando a interface de usuário do recurso Publicação PDF nativa. Para alguma outra formatação de nível avançado, você pode usar a visualização Source para escrever seu próprio código CSS.
+Ao projetar o layout da página, é possível definir os vários elementos que compõem uma página. Por exemplo, você pode definir o tamanho da página, margens, cabeçalho e rodapé, orientação e outras especificações de página em uma página. O recurso Publicação nativa do PDF permite criar sua página de acordo com os [padrões de mídia de página](https://www.w3.org/TR/css-page-3/). A maioria das configurações cobertas pelos padrões de Mídia paginada pode ser facilmente personalizada usando a interface do usuário do recurso Publicação nativa do PDF. Para alguma outra formatação de nível avançado, você pode usar a visualização Source para escrever seu próprio código CSS.
 
-Depois de criar os layouts de página, é necessário associar esses layouts às respectivas seções nas configurações de Layout da página de PDF. Consulte a seção [Criar e personalizar layouts de página](components-pdf-template.md#create-customize-page-layout) para obter detalhes sobre como criar e abrir um layout de página para personalização.
+Depois de criar os layouts de página, é necessário associar esses layouts às respectivas seções nas configurações de Layout de página do PDF. Consulte a seção [Criar e personalizar layouts de página](components-pdf-template.md#create-customize-page-layout) para obter detalhes sobre como criar e abrir um layout de página para personalização.
 
 ## Tipos de layouts de página {#types-of-page-layout}
 
-Um documento PDF geralmente contém as seguintes seções:
+Um documento do PDF geralmente contém as seguintes seções:
 
 * Folha de rosto
 * Índice
@@ -40,7 +40,7 @@ As configurações de Layouts de Página na seção **Modelo>Configurações** p
 
 ### Criar as primeiras variantes de layout de página, direita ou esquerda {#page-layout-variants}
 
-Diferentes layouts de página no seu modelo de PDF podem ser personalizados ainda mais por terem diferentes variantes de layout de página, primeira, direita ou esquerda. É possível criar essas páginas de forma diferente usando o designer de layout de página.
+Diferentes layouts de página no seu modelo do PDF podem ser personalizados ainda mais por terem diferentes variantes de layout da página inicial, direita ou esquerda. É possível criar essas páginas de forma diferente usando o designer de layout de página.
 
 >[!NOTE]
 >
@@ -78,7 +78,7 @@ O exemplo a seguir o guiará pelo processo de criação de variantes de um layou
 
    >[!NOTE]
    >
-   >Para configuração avançada, você pode usar a visualização Source e adicionar seu HTML personalizado e código CSS.
+   >Para configuração avançada, é possível usar a visualização do Source e adicionar o HTML personalizado e o código CSS.
 
 1. Passe o mouse sobre o layout do **Capítulo** e clique em **Opções** para exibir o menu de contexto.
 
@@ -88,7 +88,7 @@ O layout de página selecionado é criado usando uma cópia do layout base do Ca
 
 ## Trabalhar com as propriedades de página de um layout de página {#page-props-page-layout}
 
-Ao projetar um layout de página, é essencial ter controle sobre várias propriedades de página. O recurso Publicação de PDF nativo encapsula todas as principais propriedades de página no painel Propriedades da página. O painel Propriedades da página fornece acesso a várias propriedades nas seguintes seções:
+Ao projetar um layout de página, é essencial ter controle sobre várias propriedades de página. O recurso Publicação nativa do PDF encapsula todas as principais propriedades de página no painel Propriedades da página. O painel Propriedades da página fornece acesso a várias propriedades nas seguintes seções:
 
 >[!NOTE]
 >
@@ -100,7 +100,7 @@ Ao projetar um layout de página, é essencial ter controle sobre várias propri
 
 * **Rotação de Exibição**: especifique o lado ou a direção na qual o lado superior original é representado após a rotação. Você pode escolher entre 90 e 90 graus no sentido horário ou 180 graus no sentido anti-horário. Isso é muito útil em uma situação em que você deseja usar uma combinação de layouts Retrato e Paisagem na saída. Por exemplo, você pode usar retrato como o layout de página genérico e pode definir um layout de página paisagem para renderizar tabelas largas. Nessa situação, você pode definir a exibição do conteúdo da tabela no sentido horário em 90 graus. Dessa forma, a página será orientada em paisagem e o conteúdo será girado 90 graus para manter a continuidade da exibição. Veremos como isso é feito, como exemplo, posteriormente nesta seção.
 
-* **Numeração de páginas** :a numeração de páginas, por padrão, é contínua em um PDF. Por exemplo, um PDF de 100 páginas pode ter números de página contínuos de 1 a 100. Você também pode reiniciar a numeração a partir de um número específico em todas as diferentes seções ou na primeira ocorrência de uma seção.
+* **Numeração de páginas**: a numeração de páginas, por padrão, é contínua em uma PDF. Por exemplo, uma PDF de 100 páginas pode ter números de página contínuos de 1 a 100. Você também pode reiniciar a numeração a partir de um número específico em todas as diferentes seções ou na primeira ocorrência de uma seção.
    * **Reiniciar de**: especifique o número da página onde a numeração deste layout de página será iniciada. Por exemplo, você pode definir o número de página a ser reiniciado para cada capítulo. Nesse caso, você precisa definir a propriedade restart from como 1 na variante de layout First page do layout da página do capítulo. Por padrão, a numeração de páginas continua a partir da página anterior.
 
    * **Aplicar somente à primeira ocorrência**: também é possível iniciar com um número específico somente para a primeira ocorrência de uma seção. Por exemplo, você pode iniciar somente o primeiro capítulo de 1 e continuar os números de página de outros capítulos.
@@ -136,7 +136,7 @@ A primeira coisa que você precisa definir em um layout de página é o tamanho 
 
 ### Usar orientação de página e rotação de exibição {#page-orientation-rotation}
 
-Vamos analisar um exemplo em que uma combinação de orientação de página de retrato e paisagem e propriedades de rotação de visualização são usadas. Neste exemplo, criaremos um PDF com orientação de retrato padrão, mas uma tabela será renderizada na orientação paisagem com conteúdo na exibição de 90 graus no sentido horário. A saída final será semelhante a:
+Vamos analisar um exemplo em que uma combinação de orientação de página de retrato e paisagem e propriedades de rotação de visualização são usadas. Neste exemplo, criaremos uma PDF com orientação de retrato padrão, mas uma tabela será renderizada na orientação paisagem com conteúdo na exibição de 90 graus no sentido horário. A saída final será semelhante a:
 
 <img src="./assets/portrait-landscape-page-layouts.png" width="400">
 
@@ -285,12 +285,12 @@ Por padrão, as margens do cabeçalho e do rodapé estão definidas como 1 poleg
 
 1. Para alterar o tamanho do rodapé, insira o valor desejado no campo Bottom margin.
 
-Você pode projetar a área de cabeçalho e rodapé para conter várias linhas. Para fazer isso, adicione uma tag \&lt;p\> usando os Elementos de HTML de inserção (<img src="./assets/insert-html-element-2.svg" width="25">) ícone na área de cabeçalho ou rodapé.
+Você pode projetar a área de cabeçalho e rodapé para conter várias linhas. Para fazer isso, adicione uma tag \&lt;p\> usando os elementos Insert HTML (<img src="./assets/insert-html-element-2.svg" width="25">) ícone na área de cabeçalho ou rodapé.
 
 | _Canto do desenvolvedor_: <img src="./assets/developer-corner-icon.svg" width="25"> |
 |---|
 
-Se você quiser trabalhar diretamente com o CSS e o código HTML, poderá alterar os valores de margem conforme mostrado no seguinte fragmento de código:
+Se você quiser trabalhar diretamente com o código CSS e HTML, poderá alterar os valores de margem conforme mostrado no seguinte fragmento de código:
 
 ```css
 …
@@ -366,16 +366,17 @@ Há as seguintes categorias para campos que você pode inserir no layout da pág
 Cada uma dessas categorias de campo contém diferentes variações nas quais as informações de campo podem ser inseridas. Por exemplo, um campo Data pode ter diferentes variações, como `YYYY-MM-DD`, `MM/DD/YY`, `MM/DD/YYYY` e assim por diante. Da mesma forma, o Número de Página pode ter variações na forma de formatos romanos, decimais ou até mesmo locais específicos, como _Árabe_, _Devanagari_, _Hebraico_ e muito mais.
 
 
-Além dos campos predefinidos, também é possível adicionar informações de metadados como variáveis ou campos no layout da página. Estes metadados estão armazenados no DITA de origem **Conteúdo do mapa** ou podem ser escolhidos nas **Propriedades do arquivo de mapa** do DITA ou nas **Propriedades do arquivo de tópico** e inseridos facilmente no layout da página.
+Além dos campos predefinidos, também é possível adicionar informações de metadados como variáveis ou campos no layout da página. Estes metadados podem ser armazenados no DITA de origem **Conteúdo do mapa**, **Conteúdo do tópico**, ou podem ser escolhidos no DITA **Propriedades do arquivo de mapa**, **Propriedades do arquivo de tópico**.
 
 Você pode selecionar os metadados nas seguintes opções:
 
 * **O conteúdo do mapa** inclui os metadados que você definiu no elemento `<topicmeta>` do mapa DITA.
 * **As propriedades do arquivo de mapa** incluem os metadados, que você pode acessar na página **Propriedades** de um mapa DITA.
+* **O conteúdo do tópico** inclui metadados definidos no elemento `<prolog>` de um tópico DITA, como direitos autorais, autor e outros detalhes. Para buscar elementos `<prolog>` individuais, você pode usar expressões XPath simples (por exemplo, //author para o nome do autor). Para metadados de atributo, inclua o símbolo `@` no XPath (por exemplo, //criteria/revision/@modified para a data modificada).
 * **Propriedades do arquivo de tópico** inclui os metadados, que você pode acessar na página **Propriedades** de um Tópico.
 
 
-Você pode combinar metadados de **Mapear propriedades do arquivo** e **Propriedades do arquivo de tópico** em um único documento. Por exemplo, você pode publicar um PDF com o título do mapa na página de capa e o título do tópico no cabeçalho de outras páginas. Para fazer isso, você pode adicionar os metadados do título do mapa das **Propriedades do arquivo de mapa** ao layout da folha de rosto. Em seguida, adicione os metadados do título do tópico das **Propriedades do arquivo de tópico** ao cabeçalho no layout da página Capítulos e Tópicos.
+Você pode combinar metadados de **Mapear propriedades do arquivo** e **Propriedades do arquivo de tópico** em um único documento. Por exemplo, você pode publicar uma PDF com o título do mapa na página de capa e o título do tópico no cabeçalho de outras páginas. Para fazer isso, você pode adicionar os metadados do título do mapa das **Propriedades do arquivo de mapa** ao layout da folha de rosto. Em seguida, adicione os metadados do título do tópico das **Propriedades do arquivo de tópico** ao cabeçalho no layout da página Capítulos e Tópicos.
 
 Se um tópico terminar em uma página enquanto o outro começar na mesma página, os metadados do primeiro tópico serão escolhidos. Você também pode adicionar propriedades personalizadas e inseri-las como campos no layout da página.
 
@@ -401,7 +402,7 @@ No exemplo a seguir, inseriremos um número de página e um título de capítulo
 
    Ou clique dentro da área do rodapé.
 
-1. Insira um elemento de parágrafo clicando em **Inserir elementos de HTML** (<img src="./assets/insert-html-element-2.svg" width="25">) e selecionando Parágrafo na lista de elementos.
+1. Insira um elemento de parágrafo clicando em **Inserir elementos do HTML** (<img src="./assets/insert-html-element-2.svg" width="25">) e selecionando Parágrafo na lista de elementos.
 
 1. Clique no ícone **Inserir Campos** (![](./assets/insert-fields-icon.svg)).
 
@@ -445,7 +446,7 @@ No exemplo a seguir, inseriremos um número de página e um título de capítulo
 | _Canto do desenvolvedor_: <img src="./assets/developer-corner-icon.svg" width="25"> |
 |---|
 
-Se você gosta de trabalhar diretamente com o CSS e o código HTML, também é possível fazer isso acessando a visualização Source do layout da página e fazendo alterações no código. O trecho de código a seguir mostra a mesma configuração de rodapé feita pelo código:
+Se você gosta de trabalhar diretamente com o código CSS e HTML, também é possível fazer isso acessando a visualização Source do layout da página e fazendo alterações no código. O trecho de código a seguir mostra a mesma configuração de rodapé feita pelo código:
 
 ```css
 …
@@ -507,7 +508,7 @@ No exemplo a seguir, um índice de capítulo será inserido no layout da primeir
 
    >[!NOTE]
    >
-   >O PDF publicado final mostrará apenas as entradas do índice com base no conteúdo dos capítulos. Se você não tiver títulos de nível 5 em um capítulo, eles não serão exibidos na saída final.
+   >O PDF final publicado mostrará apenas as entradas do índice com base no conteúdo dos capítulos. Se você não tiver títulos de nível 5 em um capítulo, eles não serão exibidos na saída final.
 
 A aparência do índice padrão pode ser personalizada usando as folhas de estilos. O estilo que começa com `chaptoc-level-#` (como `chaptoc-level-1`, `chaptoc-level-2` e assim por diante) é usado para personalizar os estilos do índice do capítulo. <!--For more details on the stylesheet elements used in the TOC and how to customize them, see _Customize default chapter TOC_-->.
 
@@ -517,7 +518,7 @@ A aparência do índice padrão pode ser personalizada usando as folhas de estil
 
 ### Trabalhar com layout de página de várias colunas {#multi-column-layout}
 
-Layouts de página de várias colunas são muito comuns em publicações de revistas ou índices em um livro. O recurso Publicação nativa em PDF permite dividir facilmente o documento em várias colunas. Usando diferentes layouts de página, você pode optar por manter apenas uma seção específica dividida em várias colunas, mantendo as outras seções em um layout de coluna única (ou normal).
+Layouts de página de várias colunas são muito comuns em publicações de revistas ou índices em um livro. O recurso Publicação nativa no PDF permite dividir facilmente o documento em várias colunas. Usando diferentes layouts de página, você pode optar por manter apenas uma seção específica dividida em várias colunas, mantendo as outras seções em um layout de coluna única (ou normal).
 
 Para criar um layout de página com várias colunas, execute as seguintes etapas:
 

@@ -4,14 +4,19 @@ description: Use o painel de geração rápida no AEM Guides. Saiba como gerar e
 exl-id: 5de04980-91d7-4bbc-a4b7-9bfd60ccf3c7
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: a02a7310f5e332f88827a9d5a05034abec05b43a
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '293'
 ht-degree: 0%
 
 ---
 
 # Usar o painel Geração rápida para gerar e visualizar a saída {#id22AKE050F5L}
+
+>[!NOTE]
+>
+> O painel Geração rápida, anteriormente disponível no Adobe Experience Manager Guides, foi descontinuado a partir das versões 4.0 e 2502. Você não pode acessar o painel Geração rápida para gerar e visualizar a saída
+
 
 O AEM Guides fornece um painel **Geração rápida** integrado ao Editor da Web. Esse painel permite gerar simultaneamente a saída das predefinições de saída criadas para um mapa DITA. É possível gerar a saída para uma ou mais predefinições ou para todas as predefinições criadas para um mapa DITA. Você também pode usar o painel **Geração rápida** para exibir posteriormente a saída gerada para as predefinições.
 

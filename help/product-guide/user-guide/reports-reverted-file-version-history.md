@@ -1,12 +1,12 @@
 ---
 title: Relatório de histórico de versão de arquivos revertidos
-description: Exibir relatórios de histórico de versão de arquivos revertidos no AEM Guides. Saiba como acessar logs de versão de reversão na interface do usuário do Assets, pré-visualização de tópico e seleção de ferramentas AEM.
+description: Exibir relatórios de histórico de versão de arquivos revertidos no AEM Guides. Saiba como acessar logs de versão de reversão na interface do usuário do Assets, pré-visualização de tópico e seleção de ferramentas do AEM.
 exl-id: 74bef625-acd6-49a6-b983-881a782f68d6
 feature: Report Generation
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -15,36 +15,36 @@ ht-degree: 0%
 
 Quando você está trabalhando em várias versões simultâneas com vários autores, seu conteúdo deve ter várias versões. Pode haver algumas informações comuns em várias versões, que diferentes autores poderiam usar em seus projetos. Para lidar com essas atribuições de trabalho, os autores podem acabar com várias versões dos arquivos. Essas versões podem ser simplesmente uma versão mais recente de um arquivo ou uma reversão para uma versão anterior. É uma tarefa complexa identificar quando e por que um arquivo foi revertido.
 
-O AEM Guides permite gerar um relatório de histórico de versão para um arquivo individual ou para todos os arquivos em uma pasta. Esse histórico de versões fornece uma visualização consolidada de todas as versões de um arquivo que foram revertidas e que criaram essas versões, além do motivo para criá-las.
+O Adobe Experience Manager Guides permite gerar um relatório de histórico de versão para um arquivo individual ou para todos os arquivos em uma pasta. Esse histórico de versões fornece uma visualização consolidada de todas as versões de um arquivo que foram revertidas e que criaram essas versões, além do motivo para criá-las.
 
 Você pode acessar esse relatório nos seguintes locais:
 
-- **Interface do usuário do Assets**: selecionando um arquivo e abrindo o **Histórico de Versões** no painel esquerdo. A exibição **Histórico de Versão** contém o link **Reverter Logs de Versão** na parte inferior do painel. Ao clicar nesse link, o histórico do arquivo selecionado das versões revertidas é exibido.
+- **Interface do usuário do Assets**: selecionando um arquivo e abrindo o **Histórico de Versões** no painel esquerdo. A exibição **Histórico de Versão** contém o link **Reverter Logs de Versão** na parte inferior do painel. Ao selecionar esse link, o histórico do arquivo selecionado das versões revertidas é exibido.
 
   ![](images/revert-log-from-assets-ui.png){width="300" align="left"}
 
-- **Visualização do tópico**: quando você estiver visualizando um tópico, também poderá exibir o painel **Histórico de Versões** no painel esquerdo. Você obterá um painel semelhante à interface do Assets de onde pode clicar no link **Reverter logs de versão** para acessar o histórico de versões revertidas do documento ativo.
+- **Visualização do tópico**: quando você estiver visualizando um tópico, também poderá exibir o painel **Histórico de Versões** no painel esquerdo. Você receberá um painel semelhante à interface do usuário do Assets, no qual poderá selecionar o link **Reverter logs de versão** para acessar o histórico de versões revertidas do documento ativo.
 
-- **Seção Ferramentas de AEM**: você também pode acessar este relatório na seção Ferramentas de AEM. O procedimento a seguir explica como acessar o histórico de versões revertidas na seção Ferramentas de AEM.
+- **seção Ferramentas do Adobe Experience Manager**: você também pode acessar este relatório na seção Ferramentas do Experience Manager. O procedimento a seguir explica como acessar o histórico de versões revertidas na seção Ferramentas do Experience Manager.
 
 
 Execute as seguintes etapas para acessar o relatório Reverter histórico:
 
-1. Clique no link do Adobe Experience Manager na parte superior e escolha **Ferramentas**.
+1. Selecione o logotipo do Adobe Experience Manager na parte superior e escolha **Ferramentas**.
 
 1. Selecione **Guias** na lista de ferramentas.
 
-1. Clique no bloco **Histórico de Reversão da Versão**.
+1. Selecione o bloco **Histórico de Reversão da Versão**.
 
    Uma página em branco Reverter histórico de versão é exibida, na qual você precisa procurar e selecionar um arquivo ou pasta para gerar o relatório.
 
-1. Clique em **Mostrar Logs** para gerar o relatório para o arquivo ou pasta selecionada.
+1. Selecione **Mostrar logs** para gerar o relatório do arquivo ou pasta selecionada.
 
    ![](images/revert-version-history-report.png){width="800" align="left"}
 
    O relatório contém os seguintes detalhes:
 
-   - **Nome do Arquivo**: o título do tópico. Clicar no link do título do tópico abre a visualização do tópico.
+   - **Nome do Arquivo**: o título do tópico. Selecionar o link do título do tópico abre a visualização do tópico.
 
    - **Carimbo de Data/Hora**: A data e a hora em que o tópico foi revertido para uma versão anterior.
 
@@ -57,4 +57,4 @@ Execute as seguintes etapas para acessar o relatório Reverter histórico:
    - **Comentário**: qualquer comentário fornecido pelo usuário que reverteu o arquivo.
 
 
-**Tópico pai:**[ Relatórios](reports-intro.md)
+**Tópico pai:**[ Introdução aos relatórios](reports-intro.md)

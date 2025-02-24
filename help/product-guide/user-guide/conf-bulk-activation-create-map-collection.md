@@ -1,12 +1,12 @@
 ---
 title: Criar uma coleção de mapas de ativação em massa
-description: Saiba como criar uma coleção de mapas de ativação em massa em guias AEM.
+description: Saiba como criar uma coleção de mapas de ativação em massa nos guias do AEM.
 exl-id: ea0bd465-a2d9-488f-83e9-62b336233eb1
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: 1be8cddcbf58696a53bfccf887a04e5807f2198e
+source-git-commit: a00674a98e4ba87dbc5ddac3412cedca15a205bd
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '758'
 ht-degree: 0%
 
 ---
@@ -15,21 +15,24 @@ ht-degree: 0%
 
 Para criar uma coleção de mapas de ativação em massa, execute as seguintes etapas:
 
-1. Selecione **Guias** na lista de ferramentas.
+1. Selecione o logotipo do Adobe Experience Manager na parte superior e escolha **Ferramentas**.
 
-1. Selecione o link do Adobe Experience Manager na parte superior e escolha **Ferramentas**.
+1. No painel **Ferramentas**, selecione **Guias**.
 
-1. Selecione o bloco **Painel do Publish em massa**.
+1. Selecione o bloco **Painel de publicação em massa**.
+
+   O Painel de Publicação em Massa é exibido. Você também pode acessar este painel no painel esquerdo da [Página inicial do Adobe Experience Manager Guides](intro-home-page.md).
 
    Pela primeira vez, uma página de coleções em branco é exibida. Se você tiver criado coleções de ativação em massa anteriormente, elas serão exibidas nesta página.
 
-1. Clique em **Criar**.
 
-1. Insira um título para a coleção de mapas de ativação em massa e clique em **Criar**.
+1. Selecione **Criar**.
+
+1. Insira um título para a coleção de mapas de ativação em massa e selecione **Criar**.
 
    Uma mensagem de sucesso é exibida ao criar a coleção de mapas de ativação em massa.
 
-1. Clique em **Abrir** na mensagem de êxito.
+1. Selecione **Abrir** na mensagem de êxito.
 
 1. Selecione **Editar** e **Adicionar mapas**.
 
@@ -41,7 +44,7 @@ Para criar uma coleção de mapas de ativação em massa, execute as seguintes e
 
    Você pode escolher várias predefinições de saída entre os locais disponíveis.
 
-1. Clique em **Concluído**.
+1. Selecione **Concluído**.
 
 Os arquivos de mapa DITA são adicionados à sua coleção de mapas de ativação em massa.
 
@@ -76,7 +79,7 @@ A guia **Histórico de Auditoria** apresenta informações sobre as saídas de m
 - **Idioma**: mostra o código de idioma do mapa DITA.
 - **Predefinição**: mostra o título da predefinição de saída configurada no arquivo de mapa. Ela também exibe o ícone com base no tipo de predefinição de saída.
 - **Status**: mostra o status de ativação como bem-sucedido ou malsucedido.
-- **Destino**: se você gerar a saída no Experience Manager Guides as a Cloud Service, poderá exibir o destino da saída como Publish ou Pré-visualização.
+- **Destino**: se você gerar a saída no Experience Manager Guides as a Cloud Service, poderá exibir o destino da saída como Publicar ou Visualizar.
 
   >[!NOTE]
   >
@@ -100,7 +103,7 @@ A guia **Histórico de Auditoria** apresenta informações sobre as saídas de m
 As seguintes opções de filtro estão disponíveis no painel esquerdo:
 
 - **Modificado**: você pode selecionar Sim ou Não. Se você selecionar sim, somente os mapas DITA modificados serão exibidos. Um mapa modificado é um mapa gerado desde a última publicação.
-- **Predefinição**: selecione uma predefinição para a qual deseja filtrar os arquivos de mapa. Essa coluna mostra o título da predefinição de saída configurada no arquivo de mapa. Por exemplo, se você escolher a predefinição *Site AEM*, serão exibidos apenas os mapas que tiverem a predefinição de saída *Site AEM* configurada.
+- **Predefinição**: selecione uma predefinição para a qual deseja filtrar os arquivos de mapa. Essa coluna mostra o título da predefinição de saída configurada no arquivo de mapa. Por exemplo, se você escolher a predefinição *Site do AEM*, serão exibidos apenas os mapas que tiverem a predefinição de saída *Site do AEM* configurada.
 - **Idioma**: você pode selecionar qualquer um dos códigos de idioma disponíveis e exibir somente o idioma selecionado na guia Mapas e Predefinições.
 
 Os filtros são atualizados quando você alterna da guia **Mapas e Predefinições** para a guia **Histórico de Auditoria** e vice-versa.

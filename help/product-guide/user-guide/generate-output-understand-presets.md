@@ -1,30 +1,32 @@
 ---
 title: Noções básicas sobre as predefinições de saída
-description: Entender as predefinições de saída no AEM Guides. Crie predefinições de saída no editor da Web e no painel de mapa para os formatos AEM, site, PDF, HTML5, EPUB, personalizado e JSON.
+description: Entender as predefinições de saída no AEM Guides. Crie predefinições de saída no editor da Web e no painel de mapa para os formatos de site, PDF, HTML5, EPUB, personalizado e JSON do AEM.
 exl-id: 8eaf0765-8b66-47d6-9c40-888495baa711
 feature: Publishing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '223'
 ht-degree: 0%
 
 ---
 
 # Noções básicas sobre as predefinições de saída {#understanding_output_settings}
 
-O AEM Guides oferece suporte à criação de saída nos formatos mais populares, como AEM Site, PDF, Knowledge Base, HTML5, EPUB, JSON e saída personalizada através de DITA-OT, PDF nativo e FMPS. Usando esses formatos de saída, é possível configurar várias predefinições de saída. Uma predefinição de saída representa um formato de saída personalizado no qual você deseja que o conteúdo seja publicado.
+O Experience Manager Guides oferece suporte à criação de saída nos formatos mais populares, como AEM Sites, PDF, Knowledge Base, HTML5, EPUB, JSON e saída personalizada por meio de DITA-OT, PDF nativo e FMPS. Usando esses formatos de saída, é possível configurar várias predefinições de saída. Aqui, uma predefinição de saída representa um formato de saída personalizado no qual você deseja que o conteúdo seja publicado.
 
-As seções a seguir explicam as opções disponíveis para os formatos de saída compatíveis.
+Você pode criar e gerenciar predefinições de saída de duas maneiras:
 
-É possível criar predefinições de duas maneiras:
+- **No console Mapa**: você pode criar predefinições de saída AEM Sites, PDF, Knowledge Base, HTML5, Custom e JSON e gerar as respectivas saídas.
+- **No painel do Mapa**: você pode criar AEM Sites, PDF, HTML5, EPUB e predefinições de saída personalizadas e gerar as respectivas saídas.
 
-- **No Editor da Web**: você pode criar uma predefinição de saída AEM Site, PDF, Base de Dados de Conhecimento, HTML5, Personalizada e JSON e gerar as respectivas saídas.
-- **No painel de mapa**: é possível criar um site AEM, PDF, HTML5, EPUB e predefinição de saída personalizada e gerar as respectivas saídas.
+Para obter mais detalhes, exiba [criar, editar, duplicar ou remover uma predefinição de saída](./generate-output-create-edit-preset.md).
 
-As seções a seguir explicam as opções disponíveis para os formatos de saída compatíveis.
+## Tipos de predefinição de saída compatíveis com o Experience Manager Guides
 
-- **[Site AEM](generate-output-aem-site.md)**
+As seguintes opções predefinidas estão disponíveis para os formatos de saída compatíveis.
+
+- **[AEM Sites](generate-output-aem-site.md)**
 
 - **[PDF](generate-output-pdf.md)**
 

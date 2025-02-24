@@ -1,21 +1,21 @@
 ---
-title: Revisar tópicos ou mapas
+title: Introdução à revisão
 description: Revise tópicos ou mapas com eficiência no AEM Guides para uma avaliação de conteúdo suave. Conhecer os recursos para autores e revisores no AEM Guides.
 exl-id: 81ea0b52-52b0-4764-a6d8-a96d5c7693bf
 feature: Reviewing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 38ea2eb35ebd75c1202c86d598ad953db3894d40
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 0%
 
 ---
 
-# Revisar tópicos ou mapas {#id1645H6010Q5}
+# Introdução à revisão {#id1645H6010Q5}
 
-Quase todos os documentos técnicos precisam passar por várias rodadas de revisões. Na maioria dos casos, um ciclo de revisão envolve mais de um revisor. Tratar e responder a comentários de vários revisores é sempre desafiador para os autores. Além disso, em um cenário de vários revisores, é útil que um revisor também possa ver os comentários feitos por outros revisores.
+Quase todos os documentos técnicos precisam passar por várias rodadas de revisões. Na maioria dos casos, um ciclo de revisão envolve mais de um revisor. Tratar e responder a comentários de vários revisores é sempre desafiador para os autores. Além disso, em um cenário de vários revisores, é útil que um revisor também possa visualizar os comentários feitos por outros revisores.
 
-Alguns dos principais recursos oferecidos pelo AEM Guides aos *iniciadores \(ou autores\)* são:
+Alguns dos principais recursos oferecidos pelo Adobe Experience Manager Guides aos *iniciadores \(ou autores\)* são:
 
 - Crie um projeto DITA para o fluxo de trabalho de revisão.
 - Envie um ou mais tópicos para revisão em uma única tarefa de revisão.
@@ -30,7 +30,7 @@ Alguns dos principais recursos oferecidos pelo AEM Guides aos *iniciadores \(ou 
 
 - Agrupar e filtrar comentários com base na versão do tópico.
 
-- Veja as diferenças lado a lado entre as diferentes versões dos tópicos compartilhados para revisão.
+- Exibir diferenças lado a lado entre diferentes versões de tópicos compartilhados para revisão.
 
 - Importar comentários \(excluídos ou inseridos\) automaticamente para a versão do tópico que foi compartilhada para revisão.
 
@@ -45,13 +45,13 @@ Recursos disponíveis para os *revisores*:
 - Use o Painel de revisão para adicionar comentários ou responder a comentários de outros usuários.
 - Saiba facilmente a versão do tópico em análise.
 - Receba uma notificação quando uma tarefa for atribuída a eles para revisão.
-- Consulte as diferenças entre as versões mais antiga e mais recente do tópico compartilhado para revisão.
-- Ver comentários feitos por outros revisores ou respostas em comentários do autor em tempo real.
+- Exibir diferenças entre a versão mais antiga e mais recente do tópico compartilhado para revisão.
+- Visualize comentários feitos por outros revisores ou respostas em comentários do autor em tempo real.
 - Acesse os comentários fornecidos na versão mais antiga do tópico.
 
 >[!NOTE]
 >
-> Consulte a seção *Revisão* no guia de práticas recomendadas para obter as práticas recomendadas sobre como criar uma tarefa de revisão.
+> Exiba a seção *Revisão* no guia de práticas recomendadas para obter as práticas recomendadas sobre como criar uma tarefa de revisão.
 
 - **[Criar um projeto DITA](authoring-create-dita-project.md)**
 
