@@ -3,7 +3,9 @@ title: Visualizações do Editor da Web
 description: Visualize documentos no modo de autor, fonte e visualização. Saiba como visualizar o conteúdo com base em filtros condicionais, visualizar as marcações de alterações de rastreamento e exportar um tópico como PDF no AEM Guides.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: dbc27856-6903-4694-9875-77dc778c80bd
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 0%
@@ -120,11 +122,11 @@ Há três opções de **Rastreamento** que você pode escolher:
 
 ### Exportar um tópico como PDF {#id2114BL00B5U}
 
-O PDF é um dos formatos de saída mais comuns usado em todos os estágios possíveis do ciclo de desenvolvimento de documentos. O AEM Guides oferece a flexibilidade de gerar o PDF de um tópico individual ou um arquivo de mapa inteiro. O recurso Exportar como PDF permite que o Autor, Editor ou Administrador gerem facilmente a saída em PDF para um tópico individual. Ele usa as configurações DITA-OT salvas no perfil de nível de pasta para gerar o PDF.
+O PDF é um dos formatos de saída mais comuns usado em cada estágio possível do ciclo de desenvolvimento do documento. O AEM Guides oferece a flexibilidade de gerar a PDF de um tópico individual ou de um arquivo de mapa inteiro. O recurso Exportar como PDF permite que o Autor, Editor ou Administrador gerem facilmente a saída do PDF para um tópico individual. Ele usa as configurações DITA-OT salvas no perfil de nível de pasta para gerar o PDF.
 
 Esse recurso oferece suporte às seguintes funcionalidades:
 
-- Gera o PDF da cópia de trabalho ativa no momento de um tópico.
+- Gerar o PDF da cópia de trabalho ativa no momento de um tópico.
 - Aceite o nome da transformação DITA-OT e os argumentos da linha de comando para gerar o PDF.
 - Salve a saída gerada no sistema local.
 - Resolva as referências de chave e conteúdo usadas no tópico antes de gerar a saída.
@@ -147,7 +149,7 @@ Para exportar um tópico como PDF, siga estas etapas:
    >
    > Certifique-se de ter ativado a janela pop-up na configuração do navegador; caso contrário, o PDF não será baixado.
 
-   O PDF é gerado e aberto em uma nova guia ou você verá uma caixa de diálogo para salvar o PDF em seu sistema local.
+   A PDF é gerada e aberta em uma nova guia ou você verá uma caixa de diálogo para salvar a PDF no sistema local.
 
 
 **Tópico pai:**[ Trabalhar com o Editor da Web](web-editor.md)

@@ -3,7 +3,9 @@ title: Marcação em massa de conteúdo DITA
 description: Use a marcação em massa de conteúdo no AEM Guides para melhorar a descoberta de conteúdo DITA. Saiba como aplicar, remover, mostrar ou ocultar tags em massa em um único ou vários tópicos.
 feature: Metadata Management
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: b320e34f-ee0a-4cc3-b4f6-d322fbb29844
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -14,9 +16,9 @@ ht-degree: 0%
 
 As tags permitem agrupar ou classificar o conteúdo no repositório de conteúdo e também na saída publicada. Se você tiver aplicado tags ao seu conteúdo, poderá encontrar facilmente tópicos relacionados em um mapa DITA que podem ajudá-lo a criar conteúdo. Com a saída publicada, os usuários finais poderão localizar o conteúdo correto mais rapidamente com as tags apropriadas em vigor.
 
-O AEM Guides permite marcar o conteúdo DITA com apenas alguns cliques. Você pode usar o recurso de marcação em massa para aplicar várias tags a vários tópicos, um mapa DITA ou um submapa. Ou você também pode aplicar tags a um tópico individual. A marcação é o recurso nativo no AEM. Você pode encontrar mais detalhes sobre a criação e o gerenciamento de tags na seção [Administração de tags](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) da documentação do AEM.
+O AEM Guides permite marcar o conteúdo DITA com apenas alguns cliques. Você pode usar o recurso de marcação em massa para aplicar várias tags a vários tópicos, um mapa DITA ou um submapa. Ou você também pode aplicar tags a um tópico individual. A marcação é o recurso nativo no AEM. Você pode encontrar mais detalhes sobre como criar e gerenciar tags na seção [Administração de tags](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) da documentação da AEM.
 
-Por padrão, a AEM Guides não concede acesso de leitura a nenhum usuário na pasta em que todas as tags do repositório AEM estão armazenadas. Para usar tags definidas no repositório AEM, você deve solicitar que o administrador do sistema conceda acesso à pasta em que as tags estão armazenadas.
+Por padrão, a AEM Guides não concede acesso de leitura a nenhum usuário na pasta em que todas as tags do repositório do AEM estão armazenadas. Para usar tags definidas no repositório do AEM, você deve solicitar que o administrador do sistema conceda acesso à pasta em que as tags estão armazenadas.
 
 ## Aplicar tags em massa
 

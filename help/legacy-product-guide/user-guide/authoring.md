@@ -3,7 +3,9 @@ title: Gerenciar conteúdo
 description: Gerencie o conteúdo e identifique suas funções e permissões no AEM Guides. Saiba mais sobre os principais conceitos de gerenciamento de conteúdo e trabalho com perfis globais ou de nível de pasta.
 feature: Content Management
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 54b960cf-fb00-4d4a-a836-9de4738c49a8
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '717'
 ht-degree: 10%
@@ -16,11 +18,11 @@ Antes de começar com a criação real do conteúdo, você deve se familiarizar 
 
 ## Principais conceitos
 
-Alguns conceitos-chave de gestão de conteúdo no AEM são os seguintes:
+Alguns conceitos principais de gerenciamento de conteúdo no AEM são os seguintes:
 
 **Gerenciamento de ativos**
 
-O AEM Guides usa o gerenciamento de ativos digitais AEM \(DAM\) para gerenciar seus arquivos DITA. Os arquivos carregados ou verificados no DAM são armazenados como ativos digitais. Você pode gerenciar e editar seus ativos no AEM Assets. Para obter mais informações sobre o gerenciamento de ativos, consulte [Gerenciar ativos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=en).
+O AEM Guides usa o gerenciamento de ativos digitais da AEM \(DAM\) para gerenciar seus arquivos DITA. Os arquivos carregados ou verificados no DAM são armazenados como ativos digitais. Você pode gerenciar e editar seus ativos no AEM Assets. Para obter mais informações sobre o gerenciamento de ativos, consulte [Gerenciar ativos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=en).
 
 **Gerenciamento de links**
 
@@ -34,7 +36,7 @@ Para obter mais informações sobre como criar versões ou reverter para uma ver
 
 **Manuseio de DITA nativo**
 
-Embora o AEM Guides mantenha a estrutura de seus arquivos DITA, ele também permite que o AEM manipule nativamente o DITA usando mapeamento de elementos para mapear os elementos DITA para componentes do AEM. O tratamento DITA nativo é usado em recursos como visualização de tópico, publicação no AEM Sites e os workflows de revisão.
+Embora o AEM Guides mantenha a estrutura de seus arquivos DITA, ele também permite que o AEM manipule nativamente o DITA usando o mapeamento de elementos para mapear os elementos DITA para componentes do AEM. O tratamento DITA nativo é usado em recursos como visualização de tópico, publicação no AEM Sites e os workflows de revisão.
 
 ## Identificar sua função e permissões {#id181TF0K0MHT}
 
@@ -67,7 +69,7 @@ A tabela a seguir lista várias tarefas e os grupos que podem executá-las:
 | **Recursos disponíveis no console de mapa DITA \(guia Predefinições de Saída\)** |
 | Gerar |   |   | Sim |
 | Editar |   |   | Sim |
-| Duplicata |   |   | Sim |
+| Duplicado |   |   | Sim |
 | Criar |   |   | Sim |
 | Excluir predefinição |   |   | Sim |
 | **Recursos disponíveis no console de mapa DITA \(guia Saídas\)** |
@@ -78,7 +80,7 @@ A tabela a seguir lista várias tarefas e os grupos que podem executá-las:
 | **Recursos disponíveis no console de mapa DITA \(guia Linhas de Base\)** |
 | Criar |   |   | Sim |
 | Editar |   |   | Sim |
-| Duplicata |   |   | Sim |
+| Duplicado |   |   | Sim |
 | Remover |   |   | Sim |
 | Console do mapa DITA \(guia Relatórios\) | Sim |   | Sim |
 | **Recursos disponíveis no console de mapa DITA \(Predefinições de Condição\)** |

@@ -1,7 +1,9 @@
 ---
 title: Sugestões inteligentes alimentadas por IA para criar conteúdo
 description: Saiba como visualizar e utilizar sugestões inteligentes habilitadas por IA no Editor da Web.
-source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
+hide: true
+exl-id: 30c85d46-61ba-486c-979c-1a2ed95f5a32
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '684'
 ht-degree: 0%
@@ -14,7 +16,7 @@ O Experience Manager Guides fornece as sugestões inteligentes que ajudam a cria
 
 Enquanto você cria conteúdo, o recurso **Sugerir conteúdo reutilizável** na ferramenta Assistente de IA pode pesquisar usando a IA e mostrar o conteúdo existente semanticamente semelhante ao seu conteúdo. Você pode então escolher o melhor conteúdo correspondente que deseja incluir em seu tópico atual como referência.
 
-Isso ajuda a reutilizar o conteúdo existente do repositório de documentação e criar conteúdo consistente. Por exemplo, você está criando um documento contendo informações sobre **Adobe Firefly**, incluindo um parágrafo sobre **Adobe**. Nesse caso, você pode visualizar e adicionar rapidamente a referência de conteúdo de outro tópico, como **Adobe Photoshop**, que inclui o mesmo parágrafo.
+Isso ajuda a reutilizar o conteúdo existente do repositório de documentação e criar conteúdo consistente. Por exemplo, você está criando um documento contendo informações sobre o **Adobe Firefly**, incluindo um parágrafo sobre o **Adobe**. Nesse caso, você pode visualizar e adicionar rapidamente a referência de conteúdo de outro tópico, como **Adobe Photoshop**, que inclui o mesmo parágrafo.
 >[!NOTE]
 >
 > Nos [perfis globais ou de nível de pasta](/help/product-guide/cs-install-guide/conf-folder-level.md#conf-ai-smart-suggestions), o administrador precisa definir os arquivos ou pastas a serem indexados para sugestões inteligentes, o número mínimo de caracteres que você precisa inserir para exibir as sugestões e o número máximo de sugestões que você pode exibir na lista.
@@ -37,7 +39,7 @@ Execute as seguintes etapas para exibir as sugestões inteligentes para adiciona
    > Você só pode exibir as sugestões para o visor atual (o conteúdo visível na tela). Para exibir sugestões para qualquer outro conteúdo do documento, role para cima ou para baixo para exibi-lo no visor e selecione **Sugerir conteúdo reutilizável** ![ai sugerir ícone de conteúdo reutilizável ](./images/ai-suggest-reusable-content-icon.svg).
 
 
-1. Você pode exibir as sugestões inteligentes no painel de sugestões.  O Experience Manager Guides fornece sugestões de conteúdo que é contextualmente semelhante ou tem o mesmo significado. Por exemplo, você pode pesquisar pelo tópico que contém o número exato da versão, como &quot;versão 2023.03.12&quot;. Você também pode pesquisar por &quot;Adobe tem sede em San Jose, Califórnia&quot; e encontrar conteúdo semelhante como &quot;San Jose tem o quartel de muitas empresas de software como Adobe&quot;.
+1. Você pode exibir as sugestões inteligentes no painel de sugestões.  O Experience Manager Guides fornece sugestões de conteúdo que é contextualmente semelhante ou tem o mesmo significado. Por exemplo, você pode pesquisar pelo tópico que contém o número exato da versão, como &quot;versão 2023.03.12&quot;. Você também pode pesquisar por &quot;Adobe tem sede em San Jose, Califórnia&quot; e encontrar conteúdo semelhante a &quot;San Jose tem o quartel de muitas empresas de software, como a Adobe&quot;.
 1. Selecione **Informações de Conteúdo** ![Informações de Conteúdo](images/smart-suggestions-content-info-icon.svg) para exibir os detalhes.
 
    ![Painel de informações de conteúdo](images/smart-suggestions-content-information.png){width="300" align="left"}

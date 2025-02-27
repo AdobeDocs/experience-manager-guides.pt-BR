@@ -3,7 +3,9 @@ title: Usar coleção de mapas para geração de saída
 description: Saiba como criar e excluir uma coleção de mapas e adicionar ou excluir um mapa DITA. Configure, gere e cancele uma tarefa de geração de saída de uma coleção de mapas no AEM Guides.
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 4215618f-2203-4c55-adba-cdec76322e9e
+source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 1%
@@ -54,7 +56,7 @@ As seguintes opções de filtro e detalhes do mapa são mostrados na página de 
 
 - **Filtro:** O painel mais recente mostra os seguintes filtros:
    - **Modificado**: você pode selecionar Sim ou Não. Se você selecionar sim, somente os mapas DITA modificados serão exibidos na tabela Mapas e predefinições.
-   - **Predefinição**: selecione uma predefinição para a qual deseja filtrar os arquivos de mapa. Por exemplo, se você escolher a predefinição *Site AEM*, serão exibidos apenas os mapas que tiverem a predefinição de saída *Site AEM* configurada.
+   - **Predefinição**: selecione uma predefinição para a qual deseja filtrar os arquivos de mapa. Por exemplo, se você escolher a predefinição *Site do AEM*, serão exibidos apenas os mapas que tiverem a predefinição de saída *Site do AEM* configurada.
    - **Idioma**: você pode selecionar qualquer um dos códigos de idioma disponíveis e exibir somente o idioma selecionado na tabela Mapas e Predefinições.
 - Tabela **Mapas e Predefinições**: a tabela Mapas e Predefinições apresenta informações nas seguintes colunas:
    - **Mapa**: mostra o título do arquivo de mapa DITA.
@@ -69,7 +71,7 @@ As seguintes opções de filtro e detalhes do mapa são mostrados na página de 
 
 Para configurar e gerar a saída usando uma Coleção de mapas, execute as seguintes etapas:
 
-1. Abra a Coleção de Mapas. Você pode visualizar as várias predefinições de saída, como o Site AEM, PDF (incluindo PDF Nativo), HTML5, EPUB e predefinições Personalizadas. Também é possível exibir as predefinições de perfil global e de pasta criadas pelo administrador.
+1. Abrir a Coleção de Mapas.Você pode exibir várias predefinições de saída, como o Site do AEM, PDF (incluindo o PDF Nativo), HTML5, EPUB e Predefinições Personalizadas. Também é possível exibir as predefinições de perfil global e de pasta criadas pelo administrador.
 
    O ícone ![](images/global-preset-icon.svg) indica uma predefinição de nível de perfil de pasta.
 1. \(Opcional\) Siga qualquer um dos procedimentos a seguir com base em seus requisitos:
@@ -137,7 +139,7 @@ Isso também removerá quaisquer predefinições ou localidades associadas ao ma
 
 ## Cancelar uma tarefa de geração de saída de uma coleção de mapas
 
-Semelhante à maneira de cancelar uma tarefa de geração de saída do [console do mapa DITA](generate-output-for-a-dita-map.md#id2061H100T5Z) ou do [Painel do Publish](generate-output-publish-dashboard.md#), é possível cancelar uma tarefa de geração de saída de uma Coleção de Mapas. Acesse a guia Saídas de uma Coleção de Mapas, vá para a tarefa de publicação que você deseja cancelar e clique no ícone **Cancelar Este Trabalho** para cancelar a tarefa de publicação.
+Semelhante à maneira de cancelar uma tarefa de geração de saída do [console do mapa DITA](generate-output-for-a-dita-map.md#id2061H100T5Z) ou do [Painel de Publicação](generate-output-publish-dashboard.md#), é possível cancelar uma tarefa de geração de saída de uma Coleção de Mapas. Acesse a guia Saídas de uma Coleção de Mapas, vá para a tarefa de publicação que você deseja cancelar e clique no ícone **Cancelar Este Trabalho** para cancelar a tarefa de publicação.
 
 ![](images/cancel-publish-task-map-collection.png){width="800" align="left"}
 

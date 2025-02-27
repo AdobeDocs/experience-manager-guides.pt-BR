@@ -3,7 +3,9 @@ title: Criar mapas com base em modelos personalizados
 description: Saiba como criar um modelo personalizado, usá-los para criar novos arquivos de mapa e transmitir o título definido para um mapa DITA no AEM Guides.
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
+hide: true
+exl-id: 0f86ac98-7ba4-4e15-8a1f-83456afa7570
+source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
 workflow-type: tm+mt
 source-wordcount: '1103'
 ht-degree: 0%
@@ -96,7 +98,7 @@ Com base em sua configuração, saiba como configurar o caminho de pasta do mode
 <details>
     <summary> Cloud Services </summary>
 
-Saiba como [configurar o caminho de pasta de modelo DITA personalizado](/help/product-guide/install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) no Guia de Instalação e Configuração do Cloud Service.
+Saiba como [configurar o caminho da pasta de modelo DITA personalizado](/help/product-guide/install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) no Guia de Instalação e Configuração do Cloud Services.
 </details>
 
 <details>
@@ -156,7 +158,7 @@ Exemplo
 
 >[!NOTE]
 >
-> O modelo de mapa deve ser configurado e disponibilizado para criação pelo administrador. Para obter mais detalhes, consulte a seção *Configurar modelos de criação* na seção Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service.
+> O modelo de mapa deve ser configurado e disponibilizado para criação pelo administrador. Para obter mais detalhes, consulte a seção *Configurar modelos de criação* em Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service.
 
 Execute as seguintes etapas para criar um mapa usando o modelo de mapa personalizado:
 

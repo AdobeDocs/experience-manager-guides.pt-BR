@@ -3,7 +3,9 @@ title: Gerar saída a partir do painel Repositório
 description: Gere a saída a partir do painel do repositório ou do painel Exibição do mapa no AEM Guides. Saiba como publicar um tópico usado em um ou mais mapas DITA ou gerar saída para vários tópicos.
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: ffdc2426-dc78-4deb-93cc-3292fd4fcbd8
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 0%
@@ -22,7 +24,7 @@ Você também pode usar as predefinições de saída criadas para o mapa DITA pa
 
 - Use o recurso **Gerar Saída** no painel Exibição de Mapa para gerar a saída para os vários tópicos selecionados.
 
-## Publish um tópico usado em um ou mais mapas DITA
+## Publicar um tópico usado em um ou mais mapas DITA
 
 Execute as seguintes etapas para gerar saída para um ou mais tópicos em seu mapa DITA:
 

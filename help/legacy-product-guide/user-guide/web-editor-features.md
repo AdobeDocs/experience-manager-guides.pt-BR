@@ -3,7 +3,9 @@ title: Conhecer os recursos do Editor da Web
 description: Descubra os recursos do editor da Web no AEM Guides. Conhecer a interface do editor da Web, incluindo a barra de ferramentas principal, a barra de ferramentas secundária, o painel esquerdo, a área de edição de conteúdo e o painel direito.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
+hide: true
+exl-id: 045cafac-393f-49e9-9432-6533a4c6dc01
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '18802'
 ht-degree: 0%
@@ -98,7 +100,7 @@ As Configurações do editor estão disponíveis somente para usuários administ
 
   ![](images/editor-setting-general.png){width="650" align="left"}
 
-   - **Verificação ortográfica**: há duas opções — **Verificação ortográfica do AEM** e **Verificação ortográfica do navegador**. Por padrão, o editor usa o recurso Verificação ortográfica do navegador, no qual a verificação ortográfica é executada usando o dicionário interno do navegador. Você pode alternar para Verificação ortográfica do AEM para usar o dicionário AEM, que também pode ser personalizado para adicionar sua lista de palavras personalizadas. Para obter mais informações sobre como personalizar o dicionário AEM, consulte a seção *Personalizar o dicionário padrão do AEM* em Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service.
+   - **Verificação ortográfica**: há duas opções — **Verificação ortográfica do AEM** e **Verificação ortográfica do navegador**. Por padrão, o editor usa o recurso Verificação ortográfica do navegador, no qual a verificação ortográfica é executada usando o dicionário interno do navegador. Você pode alternar para Verificação ortográfica do AEM para usar o dicionário do AEM, que também pode ser personalizado para adicionar sua lista de palavras personalizada. Para obter mais informações sobre como personalizar o dicionário do AEM, consulte *Personalizar o dicionário padrão do AEM* na seção Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service.
 
 
    - **Condição**
@@ -148,9 +150,9 @@ Na captura de tela a seguir, apenas 3 dos 4 elementos configurados da captura de
 
   ![](images/editor-setting-add-attributes-list.png-to-element.PNG){width="300" align="left"}
 
-- **Perfil do Publish**: contém os Perfis do Publish que podem ser usados para publicar a saída da **Base de Dados de Conhecimento**. Você pode criar um novo perfil para uma base de dados de conhecimento de destino. Por exemplo, Salesforce ou ServiceNow.
+- **Perfil de Publicação**: contém os Perfis de Publicação que podem ser usados para publicar a saída da **Base de Dados de Conhecimento**. Você pode criar um novo perfil para uma base de dados de conhecimento de destino. Por exemplo, Salesforce ou ServiceNow.
 
-   - **Criar um perfil do Salesforce Publish**
+   - **Criar um perfil de publicação do Salesforce**
 
      **Pré-requisitos**
 
@@ -168,18 +170,18 @@ Na captura de tela a seguir, apenas 3 dos 4 elementos configurados da captura de
 
   Depois que o aplicativo é configurado, a Salesforce fornece uma **Chave do consumidor** e um **Segredo do consumidor**.
 
-  Eles podem ser usados para criar o Perfil de Publish do Salesforce.
+  Eles podem ser usados para criar o Perfil de publicação do Salesforce.
 
 
-   - Para criar um Perfil do Salesforce Publish, selecione a Base de Conhecimento **Salesforce** na lista suspensa **Tipo de Servidor**. Insira um Nome de perfil. No **URL do Site**, insira o site do consumidor que você usaria para publicar a saída e adicionar a **Chave do Consumidor** e o **Segredo do Consumidor** fornecidos pelo site do consumidor do Salesforce. Em seguida, **Validar** e **Salvar** o perfil recém-criado.
+   - Para criar um Perfil de Publicação do Salesforce, selecione a Base de Conhecimento **Salesforce** na lista suspensa **Tipo de Servidor**. Insira um Nome de perfil. No **URL do Site**, insira o site do consumidor que você usaria para publicar a saída e adicionar a **Chave do Consumidor** e o **Segredo do Consumidor** fornecidos pelo site do consumidor do Salesforce. Em seguida, **Validar** e **Salvar** o perfil recém-criado.
      ![perfil de publicação do salesforce nas configurações do editor](./images/salesforce-publish-profile.png){width="550" align="left"}
 
      >[!NOTE]
      >
-     >Para configurar um proxy para o Salesforce no Experience Manager Guides, use Configuração de proxy de componentes HTTP do Apache no AEM. Saiba como [configurar proxy para o Verificador de links AEM](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
+     >Para configurar um proxy para o Salesforce no Experience Manager Guides, use Configuração de proxy de componentes HTTP do Apache no AEM. Saiba como [configurar proxy para o Verificador de Links do AEM](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
 
 
-   - **Criar um Perfil do ServiceNow Publish**
+   - **Criar um Perfil de Publicação do ServiceNow**
 
      **Pré-requisitos**
 
@@ -192,12 +194,12 @@ Na captura de tela a seguir, apenas 3 dos 4 elementos configurados da captura de
 
       - Clique em **Salvar**.
 
-     Depois de configurar o aplicativo, crie o Perfil do Publish **ServiceNow**.
-   - Para criar um Perfil Publish, selecione a Base de Dados de Conhecimento ServiceNow na lista suspensa **Tipo de Servidor**. Insira um perfil **Nome**. Na **URL do ServiceNow**, insira o site do consumidor que você usaria para publicar a saída e, em seguida, adicione o **Nome de Usuário** e a **Senha** fornecidos pelo site do consumidor do ServiceNow. Em seguida, **Validar** e **Salvar** o perfil recém-criado.
+     Depois de configurar o aplicativo, crie o Perfil de Publicação do **ServiceNow**.
+   - Para criar um Perfil de Publicação, selecione a Base de Dados de Conhecimento ServiceNow na lista suspensa **Tipo de Servidor**. Insira um perfil **Nome**. Na **URL do ServiceNow**, insira o site do consumidor que você usaria para publicar a saída e, em seguida, adicione o **Nome de Usuário** e a **Senha** fornecidos pelo site do consumidor do ServiceNow. Em seguida, **Validar** e **Salvar** o perfil recém-criado.
 
      ![Perfil de publicação do ServiceNow](./images/service-now-publish-profile.png){width="550" align="left"}
 
-  Depois de validar, você pode selecionar o Perfil do Publish nas predefinições de saída de um Mapa DITA e usá-lo para gerar a saída para o servidor do **Salesforce** ou do **ServiceNow** escolhido.
+  Depois de validar, você pode selecionar o Perfil de Publicação nas predefinições de saída de um Mapa DITA e usá-lo para gerar a saída para o servidor do **Salesforce** ou do **ServiceNow** escolhido.
 
   Saiba mais sobre a predefinição de saída da [Base de Dados de Conhecimento](../user-guide/generate-output-knowledge-base.md).
 
@@ -290,7 +292,7 @@ As preferências do usuário estão disponíveis para todos os autores. Usando a
      >
      > O nome do Perfil de pasta atual é exibido como um rótulo para o ícone de Preferências do usuário na barra de ferramentas principal.
 
-   - **Caminho base**: por padrão, ao acessar o repositório AEM pelo Editor da Web, você verá ativos do local /content/dam. Sua pasta de trabalho provavelmente seria algumas pastas dentro da pasta /content/dam/. Você levaria alguns cliques para acessar a pasta de trabalho todas as vezes. Você pode definir o Caminho base para sua pasta de trabalho e a Visualização do repositório, em seguida, mostra o conteúdo desse local antecipadamente. Isso reduz o tempo de acesso à pasta de trabalho. Além disso, quando você insere qualquer referência ou arquivo de mídia no tópico, o local de navegação do arquivo começa com a pasta definida no Caminho base.
+   - **Caminho base**: por padrão, ao acessar o repositório do AEM pelo Editor da Web, você verá ativos do local /content/dam. Sua pasta de trabalho provavelmente seria algumas pastas dentro da pasta /content/dam/. Você levaria alguns cliques para acessar a pasta de trabalho todas as vezes. Você pode definir o Caminho base para sua pasta de trabalho e a Visualização do repositório, em seguida, mostra o conteúdo desse local antecipadamente. Isso reduz o tempo de acesso à pasta de trabalho. Além disso, quando você insere qualquer referência ou arquivo de mídia no tópico, o local de navegação do arquivo começa com a pasta definida no Caminho base.
 
    - **Selecionar mapa de raiz**: selecione um arquivo de mapa DITA para resolver referências de chave ou entradas de glossário. O mapa raiz selecionado tem a precedência mais alta para resolver referências principais. Para obter mais detalhes, consulte [Resolver referências de chave](map-editor-other-features.md#id176GD01H05Z).
 
@@ -465,7 +467,7 @@ Ao selecionar a opção de arquivo de Áudio ou Vídeo, você verá a exibição
 
 >[!NOTE]
 >
-> Ao adicionar um link de vídeo do YouTube, é necessário substituir a cadeia de caracteres `watch?v=` por `embed` na URL. Por exemplo, para adicionar um link de vídeo do YouTube: `https://www.youtube.com/**watch?v**=WlIKQOrmZcs`, você precisa adicioná-lo como: `https://www.youtube.com/**embed/**WlIKQOrmZcs`. Essa alteração garante que o vídeo seja incorporado na saída do site e PDF AEM.
+> Ao adicionar um link de vídeo do YouTube, é necessário substituir a cadeia de caracteres `watch?v=` por `embed` na URL. Por exemplo, para adicionar um link de vídeo do YouTube: `https://www.youtube.com/**watch?v**=WlIKQOrmZcs`, você precisa adicioná-lo como: `https://www.youtube.com/**embed/**WlIKQOrmZcs`. Essa alteração garante que o vídeo seja incorporado na saída do AEM Site e do PDF.
 
 Você poderá também adicionar o Arquivo de Áudio ou Vídeo a partir da janela Inserir Multimídia. Selecione a opção Arquivo de áudio/vídeo e clique no ícone de procura para iniciar a visualização de repositório. Selecione o arquivo de áudio ou vídeo do repositório e clique em Selecionar para adicionar o link do arquivo no campo Arquivo de áudio/vídeo. Caso escolha um arquivo de vídeo, uma pré-visualização do arquivo também é mostrada na área Pré-visualização. Você pode reproduzir o arquivo de vídeo para visualizá-lo.
 
@@ -509,7 +511,7 @@ Se o administrador tiver habilitado a opção UUIDs no *XMLEditorConfig*, você 
 
 **Filtrar Pesquisa**
 
-Você pode procurar algum texto nos arquivos presentes no caminho selecionado do repositório AEM. Por exemplo, é feita uma pesquisa de &quot;geral&quot; na captura de tela a seguir. Também é possível restringir sua pesquisa usando filtros aprimorados. Você pode procurar todos os arquivos DITA como Tópicos DITA e Mapas DITA presentes no caminho selecionado.
+Você pode procurar algum texto nos arquivos presentes no caminho selecionado do repositório do AEM. Por exemplo, é feita uma pesquisa de &quot;geral&quot; na captura de tela a seguir. Também é possível restringir sua pesquisa usando filtros aprimorados. Você pode procurar todos os arquivos DITA como Tópicos DITA e Mapas DITA presentes no caminho selecionado.
 
 Você pode pesquisar arquivos não DITA como arquivos de imagem, multimídia e documentos no caminho selecionado. Também é possível pesquisar valores específicos nos atributos de elementos DITA. Você também pode procurar arquivos cujo check-out tenha sido feito pelo usuário especificado.
 
@@ -531,7 +533,7 @@ Na caixa de diálogo Reutilizar conteúdo, selecione o arquivo DITA para referê
 
 Para inserir a Referência de conteúdo, você também pode inserir a UUID do arquivo e o conteúdo reutilizável desse arquivo é listado na seção Visualizar.
 
-Com base na configuração para inserir links, você pode ver a UUID do conteúdo inserido ou o caminho relativo no painel Propriedades ou na visualização de código do Source. O link é sempre criado usando a UUID do conteúdo referenciado. Consulte Configurar links baseados em UUID no as a Cloud Service Instalar e configurar o Adobe Experience Manager Guides.
+Com base na configuração para inserir links, você pode ver a UUID do conteúdo inserido ou o caminho relativo no painel Propriedades ou na visualização de código do Source. O link é sempre criado usando a UUID do conteúdo referenciado. Consulte Configurar links baseados em UUID na seção Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service.
 
 >[!NOTE]
 >
@@ -629,7 +631,7 @@ As seguintes operações podem ser executadas em um documento com a Exibição d
 
 >[!NOTE]
 >
-> Se um usuário ativar a Exibição de tags no Editor da Web, ela permanecerá ativada mesmo nas sessões. Isso significa que não é necessário ativar a Exibição de tags novamente para acessá-la posteriormente. O valor padrão para a Exibição de tags para a sessão de um novo usuário é determinado pela propriedade tagsView no arquivo ui\_config.json. Para obter mais detalhes, consulte a seção *Configurar valor padrão para Exibição de Marcas* em Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service.
+> Se um usuário ativar a Exibição de tags no Editor da Web, ela permanecerá ativada mesmo nas sessões. Isso significa que não é necessário ativar a Exibição de tags novamente para acessá-la posteriormente. O valor padrão para a Exibição de tags para a sessão de um novo usuário é determinado pela propriedade tagsView no arquivo ui\_config.json. Para obter mais detalhes, consulte a seção *Configurar valor padrão para Exibição de Tags* em Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service.
 
 **Habilitar/Desabilitar o Controle de Alterações** ![](images/track-change-icon.svg)
 
@@ -1029,7 +1031,7 @@ Você pode executar as seguintes ações usando o menu Opções disponível para
 
 Você verá diferentes opções no menu Opções dependendo se você seleciona um arquivo de mídia ou um arquivo DITA. Algumas opções comuns disponíveis para arquivos de mídia e DITA são:
 
-- Duplicata
+- Duplicado
 - Check-out/Check-in
 - Visualização
 - Mover para
@@ -1147,9 +1149,9 @@ As várias opções no menu Opções são explicadas abaixo:
 
 - **Exibir na interface do usuário do Assets**: use esta opção para mostrar uma visualização de um arquivo .dita/.xml na interface do usuário do Assets. No caso de um arquivo .ditamap/.bookmap, todos os arquivos de tópico no mapa são mostrados em uma única exibição unificada página por página.
 
-- **Baixar como PDF**: use a opção para gerar a saída de PDF e baixá-la.
+- **Baixar como PDF**: use a opção para gerar a saída do PDF e baixá-la.
 
-- **Publish As**: use a opção para publicar um tópico ou os elementos dentro de um tópico em um fragmento de conteúdo.
+- **Publicar como**: use a opção para publicar um tópico ou os elementos dentro de um tópico em um fragmento de conteúdo.
 
 - **Geração rápida**: gera a saída para o arquivo selecionado. A saída só pode ser gerada para arquivos que fazem parte de uma predefinição de saída. Para obter mais detalhes, consulte [Publicação baseada em artigo do Editor da Web](web-editor-article-publishing.md#id218CK0U019I).
 
@@ -1277,7 +1279,7 @@ Na caixa de diálogo **Baixar Mapa**, você pode escolher as seguintes opções:
 
   Você recebe a notificação de que o mapa está pronto para download se estiver pronto para download. Caso o download falhe, você receberá a notificação de que o download do mapa falhou.
 
-  Você pode acessar o link de download na Caixa de entrada de notificação do AEM. Selecione a notificação de mapa gerada na Caixa de entrada para baixar o mapa no formato .zip.
+  É possível acessar o link de download na Caixa de entrada de notificação do AEM. Selecione a notificação de mapa gerada na Caixa de entrada para baixar o mapa no formato .zip.
 
   >[!NOTE]
   >

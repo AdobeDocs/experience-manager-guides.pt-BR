@@ -1,18 +1,20 @@
 ---
-title: Gerar saída de documentos de FrameMaker
-description: Saiba como gerar saída de documentos do FrameMaker nos guias AEM para publicá-los nos formatos PDF, HTML5 e EPUB.
+title: Gerar saída de documentos do FrameMaker
+description: Saiba como gerar saída de documentos do FrameMaker nos guias do AEM para publicá-los no formato PDF, HTML5 e EPUB.
 feature: Publishing FrameMaker Documents
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: ddb6b1ee-7993-479f-993c-d2ce686b10b3
+source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 0%
 
 ---
 
-# Gerar saída de documentos de FrameMaker {#id1645H8040HD}
+# Gerar saída de documentos do FrameMaker {#id1645H8040HD}
 
-A partir do AEM Guides 1.1, também é possível publicar documentos do FrameMaker \(`.book` e `.fm`\) disponíveis no repositório do AEM. Se um arquivo de livro contiver uma combinação de documentos DITA e do FrameMaker, o AEM Guides também permitirá a publicação desses documentos. Os documentos do FrameMaker podem ser publicados nos seguintes formatos:
+A partir do AEM Guides 1.1, você também poderá publicar documentos do FrameMaker \(`.book` e `.fm`\) disponíveis no seu repositório do AEM. Se um arquivo de livro contiver uma combinação de documentos DITA e FrameMaker, o AEM Guides também permitirá a publicação desses documentos. Os documentos do FrameMaker podem ser publicados nos seguintes formatos:
 
 - PDF
 
@@ -21,7 +23,7 @@ A partir do AEM Guides 1.1, também é possível publicar documentos do FrameMak
 - EPUB
 
 
-Como autor, você apenas clica em alguns links e a saída é gerada. Você pode gerar saída para um arquivo de livro inteiro ou pode publicar seletivamente arquivos de FrameMaker individuais. Antes de gerar a saída, você também pode fazer alterações nos arquivos do FrameMaker. Ao selecionar um arquivo .fm ou .book no repositório AEM, você obtém o botão **Abrir no FrameMaker** na barra de ferramentas. Clicar nesse botão abre o arquivo selecionado no FrameMaker.
+Como autor, você apenas clica em alguns links e a saída é gerada. Você pode gerar saída para um arquivo de livro inteiro ou publicar seletivamente arquivos FrameMaker individuais. Antes de gerar a saída, você também pode fazer alterações nos arquivos FrameMaker. Ao selecionar um arquivo .fm ou .book no repositório do AEM, você obtém o botão **Abrir no FrameMaker** na barra de ferramentas. Clicar nesse botão abre o arquivo selecionado no FrameMaker.
 
 As informações nas seções a seguir são para editores que usarão os workflows de geração de saída para publicar documentos do FrameMaker:
 

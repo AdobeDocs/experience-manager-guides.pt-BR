@@ -3,7 +3,9 @@ title: Criar tópicos
 description: Saiba como criar tipos de tópicos DITA usando modelos personalizados no editor da Web do AEM Guides.
 feature: Authoring
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 70ab9226-82d4-4e6a-aa0b-0e298f266c2a
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 0%
@@ -42,7 +44,7 @@ Execute as seguintes etapas para criar um tópico:
 
 1. Clique em **Criar**. A mensagem Topic Created (Tópico criado) é exibida.
 
-   Você pode optar por abrir o tópico para edição no Editor da Web ou salvar o arquivo de tópico no repositório AEM.
+   Você pode optar por abrir o tópico para edição no Editor da Web ou salvar o arquivo de tópico no repositório do AEM.
 
    Todo tópico novo criado na interface do usuário do Assets **Criar** \> **Tópico DITA** ou no Editor da Web recebe uma ID de tópico exclusiva. O valor dessa ID é o próprio nome do arquivo. Além disso, um novo documento é salvo como a cópia de trabalho mais recente do tópico no DAM. Até salvar uma revisão de um tópico recém-criado, você não verá nenhum número de versão no Histórico de versões. Se você abrir o tópico para edição, as informações da versão serão mostradas no canto superior direito da guia do arquivo de tópico:
 

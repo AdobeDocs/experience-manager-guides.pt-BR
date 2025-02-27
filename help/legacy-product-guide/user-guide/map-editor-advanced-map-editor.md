@@ -3,8 +3,9 @@ title: Trabalhar com o Editor de mapa avançado
 description: Saiba como trabalhar com o editor de mapa avançado no AEM Guides. Conhecer os recursos do Editor de Mapa avançado. Edite tópicos por meio de um mapa DITA e use o modo de exibição de layout, de criação e de visualização.
 feature: Authoring, Map Editor
 role: User
+hide: true
 exl-id: b63d7c0f-9c29-4fb4-b8fe-9790b16f8726
-source-git-commit: ae49df3912a5a7a3a01e5eaa08fb9f05249da29f
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '3788'
 ht-degree: 0%

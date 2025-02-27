@@ -1,16 +1,18 @@
 ---
-title: Publish de um tópico para um fragmento de conteúdo
-description: Publish um tópico ou os elementos dentro de um tópico para um Fragmento de conteúdo no AEM Guides.  Saiba como visualizar os Fragmentos de conteúdo presentes em um tópico e republicá-los.
+title: Publicar um tópico em um fragmento de conteúdo
+description: Publique um tópico ou os elementos dentro de um tópico para um Fragmento de conteúdo no AEM Guides.  Saiba como visualizar os Fragmentos de conteúdo presentes em um tópico e republicá-los.
 feature: Publishing
 role: User
-source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
+hide: true
+exl-id: f8a8dfd3-19de-49ff-b4d4-265b3ac09488
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
 
 ---
 
-# Fragmentos de conteúdo do Publish
+# Publicar fragmentos de conteúdo
 
 Fragmentos de conteúdo são partes distintas do conteúdo no Adobe Experience Manager. São conteúdos estruturados com base em um modelo de conteúdo. Fragmentos de conteúdo são conteúdo puro sem informações de design ou layout. Eles podem ser criados e gerenciados independentemente dos canais compatíveis com o Adobe Experience Manager. Os fragmentos de conteúdo são modulares, em que o conteúdo é dividido em componentes menores.
 
@@ -39,7 +41,7 @@ Por exemplo, adicione `/conf/we-retail` na configuração de nuvem. Essa configu
 1. Na caixa de diálogo **Gerar fragmento de conteúdo**, preencha os detalhes a seguir nas guias **Geral** e **Mapeamento**.
 
    Guia **Geral**
-   ![Adicionar o modelo do fragmento e os detalhes do mapeamento na caixa de diálogo Publish como Fragmento de Conteúdo](images/generate-content-fragment.png)
+   ![Adicionar o modelo de fragmento e os detalhes do mapeamento na caixa de diálogo Publicar como fragmento de conteúdo](images/generate-content-fragment.png)
    *Adicione o caminho, o nome, o título e a filtragem de condição para publicar um tópico ou seus elementos como um Fragmento de Conteúdo.*
 
 
@@ -63,7 +65,7 @@ Por exemplo, adicione `/conf/we-retail` na configuração de nuvem. Essa configu
 
    Guia **Mapeamento**
 
-   ![Adicionar o modelo do fragmento e os detalhes do mapeamento na caixa de diálogo Publish como Fragmento de Conteúdo](images/content-fragment-mapping.png)
+   ![Adicionar o modelo de fragmento e os detalhes do mapeamento na caixa de diálogo Publicar como fragmento de conteúdo](images/content-fragment-mapping.png)
 
    *Selecione o modelo de fragmento de conteúdo e adicione os detalhes do mapeamento para publicar um tópico ou seus elementos como um Fragmento de Conteúdo.*
 

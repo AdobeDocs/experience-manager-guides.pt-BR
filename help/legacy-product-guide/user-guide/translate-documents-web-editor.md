@@ -3,7 +3,9 @@ title: Traduzir documentos do Editor da Web
 description: Traduza o conteúdo para vários idiomas no editor da Web. Saiba como criar um projeto de tradução, adicionar regras, exibir versões e descartar arquivos não sincronizados no AEM Guides.
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: a288a4d5-5c24-4021-8bfa-4b68cecf630f
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '2343'
 ht-degree: 0%
@@ -136,9 +138,9 @@ O AEM Guides permite que os administradores configurem as regras de tradução. 
 Arquivos SRX devem ser nomeados como `<language-code>.srx`. Por exemplo, en-US ou ar-AE.
 
 >[!NOTE]
->O título não diferencia maiúsculas de minúsculas, portanto, você pode ter &quot;en-US&quot;, &quot;en-us&quot; ou &quot;EN-us&quot;. Além disso, os guias de AEM podem resolver &#39;-&#39; (hífen) ou &#39;_&#39; (sublinhado). Então, você pode ter &quot;en-US&quot; ou &quot;en_US&quot;.
+>O título não diferencia maiúsculas de minúsculas, portanto, você pode ter &quot;en-US&quot;, &quot;en-us&quot; ou &quot;EN-us&quot;. Além disso, os guias do AEM podem resolver &#39;-&#39; (hífen) ou &#39;_&#39; (sublinhado). Então, você pode ter &quot;en-US&quot; ou &quot;en_US&quot;.
 
-Além disso, você pode colocar esses arquivos em qualquer pasta na raiz de ativos AEM que é `./content/dam`.
+Além disso, você pode colocar esses arquivos dentro de qualquer pasta na raiz dos ativos do AEM que é `./content/dam`.
 
 
 
@@ -205,7 +207,7 @@ Algumas das referências no painel de tradução podem estar com o status em and
 
 >[!NOTE]
 >
-> Você pode ver o link Em andamento para os projetos traduzidos criados na versão do AEM Guides as a Cloud Service de fevereiro de 2023 ou posterior.
+> Você pode ver o link Em andamento para os projetos traduzidos criados na versão de fevereiro de 2023 ou posterior do AEM Guides as a Cloud Service.
 
 Clique no nome da referência na caixa de diálogo para abri-la no modo de visualização. Você também pode clicar no projeto de tradução para iniciar a tradução.
 

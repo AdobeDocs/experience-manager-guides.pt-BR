@@ -3,7 +3,9 @@ title: Usar predefinições de condição
 description: Conhecer o uso de predefinições de condição no AEM Guides. Saiba como criar, editar, copiar e excluir predefinições de condição no AEM.
 feature: Publishing
 role: User
-source-git-commit: f8f1116efbf0c7c26f6ebacf6234dcc2fee636c1
+hide: true
+exl-id: 991179c7-186e-4b23-b918-248f596644ec
+source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
 workflow-type: tm+mt
 source-wordcount: '1210'
 ht-degree: 1%
@@ -71,7 +73,7 @@ Siga uma das seguintes opções:
    >
    > Um aviso será exibido se outra predefinição for selecionada ou se a predefinição for fechada sem ser salva.
 
-Depois de criar uma predefinição de condição, ela aparecerá na lista suspensa **Predefinições de condição** das predefinições de Saída. Saiba mais sobre como [saída de PDF do Publish](/help/product-guide/web-editor/native-pdf-web-editor.md).
+Depois de criar uma predefinição de condição, ela aparecerá na lista suspensa **Predefinições de condição** das predefinições de Saída. Saiba mais sobre como [Publicar saída do PDF](/help/product-guide/web-editor/native-pdf-web-editor.md).
 
 ### Renomear uma predefinição de condição
 

@@ -1,9 +1,11 @@
 ---
 title: Criar uma coleção de mapas de ativação em massa
-description: Saiba como criar uma coleção de mapas de ativação em massa em guias AEM.
+description: Saiba como criar uma coleção de mapas de ativação em massa nos guias do AEM.
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: a242efde-2b29-4d2b-8a50-fd4ae7e8f239
+source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
 workflow-type: tm+mt
 source-wordcount: '735'
 ht-degree: 0%
@@ -18,7 +20,7 @@ Para criar uma coleção de mapas de ativação em massa, execute as seguintes e
 
 1. Selecione o link do Adobe Experience Manager na parte superior e escolha **Ferramentas**.
 
-1. Selecione o bloco **Painel do Publish em massa**.
+1. Selecione o bloco **Painel de publicação em massa**.
 
    Pela primeira vez, uma página de coleções em branco é exibida. Se você tiver criado coleções de ativação em massa anteriormente, elas serão exibidas nesta página.
 
@@ -75,7 +77,7 @@ A guia **Histórico de Auditoria** apresenta informações sobre as saídas de m
 - **Idioma**: mostra o código de idioma do mapa DITA.
 - **Predefinição**: mostra o título da predefinição de saída configurada no arquivo de mapa. Ela também exibe o ícone com base no tipo de predefinição de saída.
 - **Status**: mostra o status de ativação como bem-sucedido ou malsucedido.
-- **Destino**: se você gerar a saída no Experience Manager Guides as a Cloud Service, poderá exibir o destino da saída como Publish ou Pré-visualização.
+- **Destino**: se você gerar a saída no Experience Manager Guides as a Cloud Service, poderá exibir o destino da saída como Publicar ou Visualizar.
 
   >[!NOTE]
   >
@@ -99,7 +101,7 @@ A guia **Histórico de Auditoria** apresenta informações sobre as saídas de m
 As seguintes opções de filtro estão disponíveis no painel esquerdo:
 
 - **Modificado**: você pode selecionar Sim ou Não. Se você selecionar sim, somente os mapas DITA modificados serão exibidos. Um mapa modificado é um mapa gerado desde a última publicação.
-- **Predefinição**: selecione uma predefinição para a qual deseja filtrar os arquivos de mapa. Essa coluna mostra o título da predefinição de saída configurada no arquivo de mapa. Por exemplo, se você escolher a predefinição *Site AEM*, serão exibidos apenas os mapas que tiverem a predefinição de saída *Site AEM* configurada.
+- **Predefinição**: selecione uma predefinição para a qual deseja filtrar os arquivos de mapa. Essa coluna mostra o título da predefinição de saída configurada no arquivo de mapa. Por exemplo, se você escolher a predefinição *Site do AEM*, serão exibidos apenas os mapas que tiverem a predefinição de saída *Site do AEM* configurada.
 - **Idioma**: você pode selecionar qualquer um dos códigos de idioma disponíveis e exibir somente o idioma selecionado na guia Mapas e Predefinições.
 
 Os filtros são atualizados quando você alterna da guia **Mapas e Predefinições** para a guia **Histórico de Auditoria** e vice-versa.

@@ -3,7 +3,9 @@ title: Criar predefinições de saída no Editor da Web
 description: Criar predefinições de saída no editor da Web. Saiba como editar, renomear, duplicar e excluir uma predefinição de saída no AEM Guides.
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: ce8e3614-907b-4172-a8f0-e81e4dc096df
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 0%
@@ -35,7 +37,7 @@ Execute as seguintes etapas para criar predefinições de saída para o mapa DIT
 1. Insira os detalhes de configuração a seguir.
 
    1. Selecione as opções necessárias na guia **Geral**. É possível optar por criar uma predefinição de saída com ou sem condições. Você também pode usar um arquivo DITVAL. O AEM Guides também permite selecionar uma linha de base para publicar uma versão específica do mapa DITA.
-   1. Insira os detalhes do site AEM na guia **AEM**. O **Site** exibe a lista do AEM Sites disponível no repositório AEM. **Categoria**, **Modelo de Seção** e **Modelo de Artigo** são os componentes estruturais usados para organizar a aparência da sua saída. Eles são predefinidos no modelo de site AEM.
+   1. Insira os detalhes do site do AEM na guia **AEM**. O **Site** exibe a lista do AEM Sites disponível no repositório do AEM. **Categoria**, **Modelo de Seção** e **Modelo de Artigo** são os componentes estruturais usados para organizar a aparência da sua saída. Eles são predefinidos no modelo de site do AEM.
 
       >[!NOTE]
       >

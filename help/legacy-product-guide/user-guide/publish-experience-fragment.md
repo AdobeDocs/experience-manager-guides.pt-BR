@@ -1,16 +1,18 @@
 ---
-title: Publish de um tópico para um fragmento de experiência
-description: Publish um tópico ou os elementos dentro de um tópico para um Fragmento de experiência no AEM Guides.  Saiba como visualizar os Fragmentos de experiência presentes em um tópico e republicá-los.
+title: Publicar um tópico em um fragmento de experiência
+description: Publique um tópico ou os elementos dentro de um tópico em um Fragmento de experiência no AEM Guides.  Saiba como visualizar os Fragmentos de experiência presentes em um tópico e republicá-los.
 feature: Publishing
 role: User
-source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
+hide: true
+exl-id: c3c6c063-441c-413b-a63e-0acbd126ca6d
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 0%
 
 ---
 
-# Fragmentos de experiência do Publish
+# Publicar fragmentos de experiência
 
 Fragmentos de experiência são conteúdo modular no Adobe Experience Manager. Esses blocos de conteúdo são baseados em modelos e encapsulam o conteúdo e seu layout. Esses conteúdos reutilizáveis permitem que os criadores de conteúdo reúnam e entreguem experiências consistentes e dimensionáveis em vários canais compatíveis com o Experience Manager. Esse recurso ajuda você a criar experiências de marketing consistentes com facilidade, como boletins informativos, banners de promoção e depoimentos de clientes.
 
@@ -45,10 +47,10 @@ Por exemplo:
 
    >[!NOTE]
    >
-   > Você também pode publicar um Fragmento de experiência da **Exibição do repositório**. Selecione o tópico que deseja publicar como um Fragmento de experiência. Em seguida, no menu **Opções**, selecione **Publish As** > **Fragmento de Experiência**.
+   > Você também pode publicar um Fragmento de experiência da **Exibição do repositório**. Selecione o tópico que deseja publicar como um Fragmento de experiência. Em seguida, no menu **Opções**, selecione **Publicar como** > **Fragmento de experiência**.
 
 1. Na caixa de diálogo **Gerar fragmento de experiência**, preencha os seguintes detalhes:
-   ![Adicionar o modelo do fragmento e os detalhes do mapeamento na caixa de diálogo Publish como Fragmento de experiência](images/experience-fragment-generate.png){width="500" align="left"}
+   ![Adicionar o modelo do fragmento e os detalhes do mapeamento na caixa de diálogo Publicar como fragmento de experiência](images/experience-fragment-generate.png){width="500" align="left"}
 
    *Adicione o caminho, o modelo e os detalhes de mapeamento para publicar um tópico ou seus elementos como um Fragmento de experiência. Você pode substituir um fragmento de experiência existente.*
 

@@ -4,9 +4,9 @@ user-guide-description: Leia a documentação do produto Adobe Experience Manage
 breadcrumb-title: Documentação do AEM Guides
 hide: true
 badgeAll: label="Guia da interface antiga - Mais informações" type="Informative" url="/help/legacy-product-guide/disclaimer.md" tooltip="Guia da antiga interface do usuário"
-source-git-commit: 293d2fd9c015a4ec516080b9e5dfed32b96639b7
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '573'
 ht-degree: 3%
 
 ---
@@ -46,6 +46,8 @@ ht-degree: 3%
                - [Visualizações do Editor da Web](./user-guide/web-editor-views.md)
                - [Suporte para arquivos do Schematron](./user-guide/support-schematron-file.md)
                - [Sugestões inteligentes alimentadas por IA para criar conteúdo](./user-guide/authoring-ai-based-smart-suggestions.md)
+               - [Ajuda inteligente habilitada por IA para pesquisar conteúdo](./user-guide/ai-based-smart-help.md)
+               - [Assistente de IA para criar documentos com eficiência inteligente](./user-guide/ai-assistant-right-panel.md)
                - [Criação de documentos do Markdown no editor da Web](./user-guide/web-editor-markdown-topic.md)
                - [Adicionar citações ao seu conteúdo](./user-guide/web-editor-apply-citations.md)
                - [Usar dados de suas fontes de dados](./user-guide/web-editor-content-snippet.md)
@@ -117,6 +119,7 @@ ht-degree: 3%
       - [Solução básica de problemas](./user-guide/generate-output-basic-troubleshooting.md)
       - [Publicar fragmentos de conteúdo](./user-guide/publish-content-fragment.md)
       - [Publicar fragmentos de experiência](./user-guide/publish-experience-fragment.md)
+      - [Publicar páginas do AEM Sites](./user-guide/publish-aem-sites.md)
       - Ativação em massa do conteúdo {#bulk-activation}
          - [Ativação em massa de conteúdo publicado](./user-guide/conf-bulk-activation.md)
          - [Criar uma coleção de mapas de ativação em massa](./user-guide/conf-bulk-activation-create-map-collection.md)

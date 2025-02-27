@@ -1,9 +1,11 @@
 ---
 title: Trabalhar com o Editor de mapas
-description: Trabalhar com o Editor de mapas no AEM Guides. Saiba como criar e editar um arquivo de mapa no editor de mapa de AEM.
+description: Trabalhar com o Editor de mapas no AEM Guides. Saiba como criar e editar um arquivo de mapa no editor de mapa do AEM.
 feature: Authoring, Map Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 1928364f-3ea9-4e53-9184-dad8fe40f58c
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 0%

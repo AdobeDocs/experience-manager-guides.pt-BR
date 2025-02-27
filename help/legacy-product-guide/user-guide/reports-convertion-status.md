@@ -3,7 +3,9 @@ title: Relatório de status de conversão
 description: Converta documentos de diferentes formatos em DITA no AEM Guides. Saiba como adicionar filtros e visualizar um relatório de status de conversão.
 feature: Report Generation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: f6bf1033-9c2f-42c7-9ad5-e1060e2c9770
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 0%
@@ -30,7 +32,7 @@ Execute as seguintes etapas para exibir o Relatório de Status de Conversão:
 
    - **Filtro:**
 
-     Você pode filtrar os dados do relatório com base no Tipo de arquivo e no Status da conversão. No Tipo de Arquivo, você pode optar por ver os dados do relatório dos documentos do Word, do tipo HTML estruturado, XML e DocBook. Em Status, você pode optar por ver os dados do relatório para tarefas que foram executadas com Sucesso, Falharam, Ativas ou Enfileiradas.
+     Você pode filtrar os dados do relatório com base no Tipo de arquivo e no Status da conversão. No Tipo de Arquivo, você pode optar por ver os dados do relatório dos documentos do Word, HTML estruturado, XML e DocBook. Em Status, você pode optar por ver os dados do relatório para tarefas que foram executadas com Sucesso, Falharam, Ativas ou Enfileiradas.
 
      A captura de tela a seguir exibe os dados do relatório para tarefas de conversão com status Falha, Ativo e Em fila.
 

@@ -3,7 +3,9 @@ title: Iniciar o Editor da Web
 description: Saiba como iniciar o editor da Web na página de navegação do AEM, na interface do usuário do AEM Assets e no console de mapas DITA no AEM Guides.
 feature: Authoring, Web Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 374042e4-0f1c-44cf-926c-c9fefa4b1de0
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 0%
@@ -30,9 +32,9 @@ Ao clicar no link **Guias**, você será direcionado diretamente para o Editor d
 
 ![](images/web-editor-launch-page.png){width="800" align="left"}
 
-Como você iniciou o Editor da Web sem selecionar nenhum arquivo, uma tela em branco do Editor da Web é exibida. Você pode abrir um arquivo para edição no repositório AEM ou na sua coleção Favoritos.
+Como você iniciou o Editor da Web sem selecionar nenhum arquivo, uma tela em branco do Editor da Web é exibida. Abra um arquivo para edição no repositório do AEM ou em sua coleção Favoritos.
 
-- Clique no ícone **Guias** (![](images/aem-guides-icon.png) ) para voltar à página de Navegação por AEM.
+- Clique no ícone **Guias** (![](images/aem-guides-icon.png) ) para voltar para a página Navegação do AEM.
 
 - O botão **Fechar** leva você a um destino com base em sua configuração:
 
@@ -42,7 +44,7 @@ Como você iniciou o Editor da Web sem selecionar nenhum arquivo, uma tela em br
 
   <summary> Cloud Services </summary>
 
-  Se você estiver usando o Cloud Service, clique no botão **Fechar** para voltar para a página Navegação por AEM.
+  Se você estiver usando o Cloud Services, clique no botão **Fechar** para voltar para a página Navegação do AEM.
   </details>
 
   <details>

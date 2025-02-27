@@ -3,7 +3,9 @@ title: Editar tópicos no Editor da Web
 description: Saiba como editar tópicos no editor da Web. Saiba mais sobre vários recursos de edição para modificar arquivos de tópico no AEM Guides.
 feature: Authoring, Web Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 0341bdec-9635-4ced-b1c6-789b4e1aded8
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1055'
 ht-degree: 0%
@@ -32,7 +34,7 @@ O Editor da Web vem com uma variedade de recursos de edição que permitem criar
 
    >[!NOTE]
    >
-   > Se você não deseja confirmar as alterações no repositório AEM, clique em **Fechar** e em **Fechar sem salvar** na caixa de diálogo Alterações não salvas.
+   > Se não quiser confirmar as alterações no repositório do AEM, clique em **Fechar** e em **Fechar sem Salvar** na caixa de diálogo Alterações Não Salvas.
 
 
 ## Seleção parcial de conteúdo entre elementos

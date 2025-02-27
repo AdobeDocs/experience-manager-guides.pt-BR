@@ -3,7 +3,9 @@ title: Gerenciar tarefas de revisão usando o Painel de revisão
 description: Gerencie tarefas de revisão no Painel de revisão no AEM Guides. Saiba mais sobre como executar ações na guia tarefa, conteúdo, revisores e verifique o status de uma tarefa de revisão.
 feature: Reviewing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: f3ed7e82-8bb8-400f-9406-367da9e0052c
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1300'
 ht-degree: 0%

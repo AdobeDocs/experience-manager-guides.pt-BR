@@ -3,7 +3,9 @@ title: Revisar tópicos ou mapas
 description: Revise tópicos ou mapas com eficiência no AEM Guides para uma avaliação de conteúdo suave. Conhecer os recursos para autores e revisores no AEM Guides.
 feature: Reviewing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 21e444e5-28ae-49f0-9010-c8687da16371
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 0%

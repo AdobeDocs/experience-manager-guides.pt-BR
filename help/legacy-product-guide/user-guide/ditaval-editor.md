@@ -3,7 +3,9 @@ title: Usar editor DITAVAL
 description: Entenda como criar e editar arquivos DITAVAL usando o Editor DIVATAL no AEM Guides. Saber como o editor DITAVAL oferece suporte a arquivos DITAVAL em visualizações de autor e origem.
 feature: Authoring, DITAVAL Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 8eee347d-840e-4eaf-9441-c7c53a7c3aa0
+source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 0%
@@ -14,7 +16,7 @@ ht-degree: 0%
 
 Os arquivos DITAVAL são usados para gerar saída condicional. Em um único tópico, você pode adicionar condições usando atributos de elemento para condicionar o conteúdo. Em seguida, crie um arquivo DITAVAL, no qual especifique as condições que devem ser selecionadas para gerar conteúdo e qual condição deve ser deixada de fora da saída final.
 
-O AEM Guides permite criar e editar facilmente arquivos DITAVAL usando o editor DITAVAL. O editor DITAVAL recupera os atributos \(ou tags\) definidos no sistema e você pode usá-los para criar ou editar arquivos DITAVAL. Para obter mais detalhes sobre como criar e gerenciar tags no AEM, consulte a seção [Administração de Tags](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) na documentação do AEM.
+O AEM Guides permite criar e editar facilmente arquivos DITAVAL usando o editor DITAVAL. O editor DITAVAL recupera os atributos \(ou tags\) definidos no sistema e você pode usá-los para criar ou editar arquivos DITAVAL. Para obter mais detalhes sobre como criar e gerenciar tags na AEM, consulte a seção [Administração de Tags](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) na documentação da AEM.
 
 ## Criar arquivo DITAVAL
 
@@ -34,7 +36,7 @@ Execute as seguintes etapas para criar um arquivo DITAVAL:
 
 1. Clique em **Criar**. A mensagem Topic Created (Tópico criado) é exibida.
 
-   Você pode optar por abrir o arquivo DITAVAL para edição no editor DITAVAL ou salvar o arquivo de tópico no repositório AEM.
+   Você pode optar por abrir o arquivo DITAVAL para edição no editor DITAVAL ou salvar o arquivo de tópico no repositório do AEM.
 
 
 ## Editar arquivo DITAVAL
@@ -77,7 +79,7 @@ Se quiser adicionar todas as propriedades condicionais ou atributos definidos no
 
    >[!NOTE]
    >
-   > Se você fechar o arquivo sem salvar, as alterações serão perdidas. Se você não deseja confirmar as alterações no repositório AEM, clique em **Fechar** e em **Fechar sem salvar** na caixa de diálogo **Alterações não salvas**.
+   > Se você fechar o arquivo sem salvar, as alterações serão perdidas. Se você não deseja confirmar as alterações no repositório do AEM, clique em **Fechar** e em **Fechar sem Salvar** na caixa de diálogo **Alterações Não Salvas**.
 
 
 ## Visualizações do editor DITAVAL

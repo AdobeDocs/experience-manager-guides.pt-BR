@@ -3,7 +3,9 @@ title: Relatório de mapa DITA no painel de mapa
 description: Gere relatórios de mapa DITA no painel de mapa no AEM Guides. Saiba como gerar o CSV de um relatório de mapa DITA.
 feature: Report Generation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 044fb5df-166d-44a2-9ed6-6db47e4f125e
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '741'
 ht-degree: 0%
@@ -86,7 +88,7 @@ Execute as seguintes etapas para gerar o CSV de um relatório de mapa DITA:
    ![](images/download-report-dialog.png){width="550" align="left"}
 
 
-   Posteriormente, também é possível baixar o CSV do relatório gerado na Caixa de entrada de notificações do AEM.
+   Posteriormente, também é possível baixar o CSV do relatório gerado na Caixa de entrada de notificações da AEM.
 
    Clique no relatório gerado na Caixa de entrada para baixar o relatório.
 

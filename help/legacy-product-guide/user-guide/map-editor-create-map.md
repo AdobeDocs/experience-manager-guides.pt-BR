@@ -3,7 +3,9 @@ title: Criar um mapa
 description: Crie um mapa com o Editor de mapas no AEM Guides. Encontre as etapas para criar um arquivo de mapa com base em um modelo de mapa.
 feature: Authoring, Map Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 981ecaeb-9b1f-4c7a-8336-7746a739bedc
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
@@ -46,7 +48,7 @@ Execute as seguintes etapas para criar um arquivo de mapa:
 
    As informações de versão para um mapa recém-criado são mostradas como *nenhuma*. Ao salvar uma nova versão, um número de versão é atribuído como 1.0. Para obter mais informações sobre como salvar uma nova versão, consulte [Salvar como nova versão](web-editor-features.md#save-as-new-version-id209ME400GXA).
 
-   Você pode optar por abrir o mapa para edição no editor de mapa configurado ou salvar o arquivo de mapa no repositório AEM.
+   Você pode optar por abrir o mapa para edição no editor de mapa configurado ou salvar o arquivo de mapa no repositório do AEM.
 
    >[!NOTE]
    >

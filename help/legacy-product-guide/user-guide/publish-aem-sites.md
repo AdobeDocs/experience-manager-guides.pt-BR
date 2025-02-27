@@ -1,16 +1,17 @@
 ---
-title: Publish de um tópico para uma página do AEM Sites
-description: Publish um tópico ou os elementos dentro de um tópico para uma saída Adobe Experience Manager Sites.  Saiba como visualizar a página do Experience Manager Sites presente para um tópico e republicá-la.
+title: Publicar um tópico em uma página do AEM Sites
+description: Publique um tópico ou os elementos dentro de um tópico para uma saída do Adobe Experience Manager Sites.  Saiba como visualizar a página do Experience Manager Sites presente para um tópico e republicá-la.
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '638'
 ht-degree: 0%
 
 ---
 
-# Páginas do Publish Adobe Experience Manager Sites
+# Publicar páginas do Adobe Experience Manager Sites
 
 
 A página do Experience Manager Sites se refere ao conteúdo publicado no site da Adobe Experience Manager. O Experience Manager Guides permite publicar um tópico independente em uma página do Sites.

@@ -3,7 +3,9 @@ title: Adicionar e gerenciar citações no seu conteúdo
 description: Adicionar e gerenciar citações no AEM Guides. Saiba como aplicar, importar, filtrar, pesquisar, alterar o estilo da citação, editar, visualizar, inserir, excluir e gerar saída de conteúdo com citações.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: f8f1116efbf0c7c26f6ebacf6234dcc2fee636c1
+hide: true
+exl-id: 832dbc5d-85f7-41fd-8f5d-789732b46f80
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1887'
 ht-degree: 0%
@@ -17,7 +19,7 @@ Citações são referências à fonte de informações adicionada ao conteúdo. 
 No AEM Guides, você pode adicionar e importar citações e aplicá-las ao seu conteúdo. É possível adicionar essas citações de qualquer fonte de livros, sites e diários.
 
 
-O AEM Guides ajuda a editar, visualizar e classificar as citações. Depois de adicionar suas citações ao conteúdo, você pode gerar a saída usando o PDF nativo. Você também pode adicionar a página de bibliografia ou referências na saída de PDF nativo.
+O AEM Guides ajuda a editar, visualizar e classificar as citações. Depois de adicionar suas citações ao conteúdo, você pode gerar a saída usando o PDF nativo. Você também pode adicionar a página de bibliografia ou referências na saída do PDF nativo.
 
 O AEM Guides suporta vários estilos de citações, como a Modern Language Association (MLA), American Psychological Association (APA), Chicago, Institute for Electrical and Electronics Engineers (IEEE) e American Heart Association (AHA). A recomendação é usá-los de forma clara e consistente.
 
@@ -127,7 +129,7 @@ O painel **Citações** é aberto.
 ### Alterar estilo de citação {#change-citation-style}
 
 O administrador do sistema pode alterar o estilo das citações na lista suspensa **Citações** da guia **Configurações Gerais** nas **Configurações do Editor**.
-Esses estilos determinam como as citações são exibidas no painel de visualização ou na saída de PDF nativo.
+Esses estilos determinam como as citações aparecem no painel de visualização ou na saída do PDF nativo.
 
 As seguintes opções estão disponíveis na lista suspensa:
 
@@ -253,14 +255,14 @@ No tópico, coloque o cursor no final da citação.
 
 ## Gerar saída de conteúdo com citações
 
-Depois de inserir citações no tópico, você poderá publicar o conteúdo com citações usando o PDF nativo.
+Depois de inserir citações no tópico, você pode publicar conteúdo com citações usando o PDF nativo.
 
 Na saída do PDF nativo, as citações aparecem no conteúdo em que você as inseriu. Você também pode criar uma página de Bibliografia. Ao clicar em qualquer citação, você é redirecionado para a página de bibliografia.
 
-Crie um layout de página **Citações** nos modelos de PDF e inclua-o no documento. Todas as citações usadas no livro são listadas em uma página que aparece na saída de PDF. Para saber mais sobre como criar um layout de página, exiba [Criar um layout de página](/help/product-guide/native-pdf/components-pdf-template.md#create-page-layout).
+Crie um layout de página **Citações** nos modelos do PDF e inclua-o no documento. Todas as citações usadas no livro são listadas em uma página que aparece na saída do PDF. Para saber mais sobre como criar um layout de página, exiba [Criar um layout de página](/help/product-guide/native-pdf/components-pdf-template.md#create-page-layout).
 
 
-Para alterar a exibição e a aparência da página de citação, exiba [Personalizar modelos de PDF](/help/product-guide/native-pdf/pdf-template.md).
+Para alterar a exibição da página de citação, exiba [Personalizar modelos do PDF](/help/product-guide/native-pdf/pdf-template.md).
 
 
 
@@ -268,7 +270,7 @@ Para alterar a exibição e a aparência da página de citação, exiba [Persona
 
 Aplicar formatação à citação quando adicionada ao tópico.
 
-1. Selecione **Folhas de estilos** no painel **Modelos** de uma predefinição de saída de PDF nativo.   Ele abre o painel **ESTILOS**, que contém todas as opções de estilo.
+1. Selecione **Folhas de Estilos** no painel **Modelos** de uma predefinição de saída do PDF Nativo.   Ele abre o painel **ESTILOS**, que contém todas as opções de estilo.
 
 1. No painel Pesquisar, procure por `<cite>`.
 

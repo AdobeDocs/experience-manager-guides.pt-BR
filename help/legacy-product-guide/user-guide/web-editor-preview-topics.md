@@ -1,9 +1,11 @@
 ---
 title: Visualizar um tópico
-description: Saiba como visualizar um tópico no AEM Guides. Saiba mais sobre os recursos disponíveis no modo de visualização. Ramificar, reverter e versões subsequentes em guias AEM.
+description: Saiba como visualizar um tópico no AEM Guides. Saiba mais sobre os recursos disponíveis no modo de visualização. Ramificar, reverter e versões subsequentes nos guias do AEM.
 feature: Authoring
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: c2c24b6f-08e8-47be-be33-b3e9fb50052e
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1859'
 ht-degree: 0%
@@ -27,7 +29,7 @@ Execute as seguintes etapas para visualizar um tópico:
 
    >[!IMPORTANT]
    >
-   > O posicionamento dos seguintes recursos na barra de ferramentas de Visualização pode ser diferente com base na configuração do servidor AEM. Alguns dos recursos podem estar disponíveis na barra de ferramentas principal, enquanto outros podem estar disponíveis no menu Mais.
+   > O posicionamento dos seguintes recursos na barra de ferramentas de Visualização pode ser diferente com base na configuração do servidor do AEM. Alguns dos recursos podem estar disponíveis na barra de ferramentas principal, enquanto outros podem estar disponíveis no menu Mais.
 
 ## Recursos disponíveis no modo de visualização
 

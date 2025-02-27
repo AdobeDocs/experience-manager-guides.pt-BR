@@ -3,7 +3,9 @@ title: Gerenciar arquivos e pastas
 description: Saiba como gerenciar arquivos e pastas no AEM Guides. Copie e cole, arraste e solte, exclua, mova arquivos e pastas em massa e pesquise conteúdo DITA.
 feature: Content Management
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 35663aa1-9e52-4909-aaee-0f01cf47dc64
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '3109'
 ht-degree: 0%
@@ -60,13 +62,13 @@ Esta seção explica como o AEM Guides lida com as operações básicas de arqui
 
   >[!NOTE]
   >
-  > O recurso **Criar nova versão para arquivo carregado** deve ser habilitado pelo administrador. Se esse recurso estiver ativado, uma nova versão do arquivo carregado será criada. Se a opção estiver desmarcada, uma versão do arquivo carregado não será criada. Para obter mais detalhes, consulte a seção *Criar nova versão para o arquivo carregado* em Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service.
+  > O recurso **Criar nova versão para arquivo carregado** deve ser habilitado pelo administrador. Se esse recurso estiver ativado, uma nova versão do arquivo carregado será criada. Se a opção estiver desmarcada, uma versão do arquivo carregado não será criada. Para obter mais detalhes, consulte a seção *Criar nova versão para arquivo carregado* em Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service.
 
   Se outro usuário já tiver feito check-out de um arquivo para edição e você tentar fazer upload e substituir o arquivo existente, ocorrerá uma falha e um erro será exibido.
 
   >[!NOTE]
   >
-  >O recurso **Substituir Arquivo com Check-out na Atualização** deve ser desabilitado pelo administrador. Se esse recurso estiver ativado, é possível substituir arquivos com check-out. Se o recurso não estiver ativado, um arquivo com check-out não poderá ser substituído. Para obter mais detalhes, consulte *Substituir arquivo com check-out na seção Carregar* na seção Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service.
+  >O recurso **Substituir Arquivo com Check-out na Atualização** deve ser desabilitado pelo administrador. Se esse recurso estiver ativado, é possível substituir arquivos com check-out. Se o recurso não estiver ativado, um arquivo com check-out não poderá ser substituído. Para obter mais detalhes, consulte *Substituir arquivo com check-out na seção Carregar* em Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service.
 
 
 - *Arrastar e soltar arquivos em um local diferente*: uma nova cópia do arquivo é criada e uma nova UUID também é atribuída a ela no novo local. Aqui, o nome do arquivo é igual ao nome original.
@@ -98,11 +100,11 @@ Ao substituir ou mover os arquivos, se você escolher a opção para criar uma v
 
 ## Mover arquivos em massa {#move-files-bulk}
 
-O AEM Guides vem com a ferramenta Mover em massa que ajuda o administrador a mover uma pasta com um grande número de arquivos de um local para outro. Essa ferramenta pode mover facilmente arquivos de uma ou mais pastas para uma pasta diferente no repositório AEM. Um dos principais recursos dessa ferramenta é que ela não apenas move um grande número de arquivos, mas também mantém as referências para e dos arquivos que estão sendo movidos. É possível ajustar o número de arquivos que podem ser movidos em lotes sem prejudicar as tarefas de criação e publicação.
+O AEM Guides vem com a ferramenta Mover em massa que ajuda o administrador a mover uma pasta com um grande número de arquivos de um local para outro. Essa ferramenta pode mover facilmente arquivos de uma ou mais pastas para uma pasta diferente no repositório do AEM. Um dos principais recursos dessa ferramenta é que ela não apenas move um grande número de arquivos, mas também mantém as referências para e dos arquivos que estão sendo movidos. É possível ajustar o número de arquivos que podem ser movidos em lotes sem prejudicar as tarefas de criação e publicação.
 
 >[!NOTE]
 >
-> A ferramenta Mover em massa funciona somente no nível da pasta. Se você quiser mover arquivos de tópico ou mapa individuais, use a ferramenta de movimentação regular da interface do usuário do Assets do AEM.
+> A ferramenta Mover em massa funciona somente no nível da pasta. Se você quiser mover arquivos de tópico ou mapa individuais, use a ferramenta de movimentação regular da interface do Assets do AEM.
 
 Estes são alguns dos recursos fornecidos pela Ferramenta de movimentação em massa:
 
@@ -130,7 +132,7 @@ Para mover arquivos em massa, execute as seguintes etapas:
 
    <details>
 
-   <summary> Cloud Service e sistema de arquivos baseado em UUID no local </summary>
+   <summary> Cloud Services e sistema de arquivos baseado em UUID no local </summary>
 
    ![](images/bulk-move-tool-uuid.png){width="650" align="center"}
 
@@ -217,7 +219,7 @@ Para mover arquivos em massa, execute as seguintes etapas:
 
 ## Pesquisar conteúdo DITA
 
-Por padrão, o AEM não reconhece o conteúdo DITA e, portanto, não fornece nenhum mecanismo para pesquisar conteúdo DITA em seu repositório. O AEM Guides adiciona uma camada sobre o AEM, que permite que o AEM entenda e processe conteúdo DITA. O recurso Pesquisar conteúdo DITA no AEM Guides permite pesquisar conteúdo DITA no repositório AEM.
+Por padrão, o AEM não reconhece o conteúdo DITA e, portanto, não fornece nenhum mecanismo para pesquisar conteúdo DITA em seu repositório. O AEM Guides adiciona uma camada sobre o AEM, que permite que o AEM entenda e processe conteúdo DITA. O recurso Pesquisar conteúdo DITA no AEM Guides permite pesquisar conteúdo DITA no repositório do AEM.
 
 >[!NOTE]
 >
@@ -229,7 +231,7 @@ Usando o recurso de pesquisa, você pode:
 - Procurar conteúdo DITA com base em um valor de atributo; por exemplo, `@platform`= janelas
 - Use uma combinação de elemento DITA e valor de atributo; por exemplo, `author`= xml `AND` `@platform`= janelas
 
-Execute as seguintes etapas para pesquisar o conteúdo DITA no repositório AEM:
+Execute as seguintes etapas para pesquisar conteúdo DITA no repositório do AEM:
 
 1. Abra a interface do Assets.
 
@@ -275,7 +277,7 @@ Execute as seguintes etapas para procurar arquivos com base no status de check-o
 
 ## Excluir arquivos
 
-A exclusão de arquivos do repositório AEM é um recurso restrito, controlado pelo administrador do sistema. Com base nas configurações, a exclusão de arquivos pode ser restrita se forem:
+A exclusão de arquivos do repositório do AEM é um recurso restrito, controlado pelo administrador do sistema. Com base nas configurações, a exclusão de arquivos pode ser restrita se forem:
 
 - Retirado
 - Têm referências de entrada ou saída

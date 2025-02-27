@@ -3,7 +3,9 @@ title: Editar uma coleção de mapas de ativação em massa
 description: Use o painel de publicação em massa no AEM Guides. Saiba como editar uma coleção de mapas de ativação em massa adicionando ou removendo arquivos de mapa.
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: a15ee164-ec60-483e-8760-b1c290625415
+source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 2%
@@ -18,7 +20,7 @@ ht-degree: 2%
 
 1. Clique no link do Adobe Experience Manager na parte superior e escolha **Ferramentas**.
 
-1. Clique no bloco **Painel do Publish em massa**.
+1. Clique no bloco **Painel de publicação em massa**.
 
    Uma lista de coleções de mapas de ativação em massa é exibida.
 
@@ -27,7 +29,7 @@ ht-degree: 2%
 1. Clique em **Editar**.
 
    A página de coleção de mapas de ativação em massa é exibida, onde você exibe os mapas junto com suas predefinições pré-configuradas para cada localidade disponível.
-Você pode visualizar os vários tipos de predefinições de saída juntamente com seus ícones, como Site AEM, PDF, PDF Nativo, HTML5, Personalizado e saída JSON
+Você pode visualizar os vários tipos de predefinições de saída juntamente com seus ícones, como Site do AEM, PDF, PDF nativo, HTML5, Personalizado e Saída JSON
 .
 
    >[!NOTE]

@@ -3,7 +3,9 @@ title: Revisar tópicos
 description: Saiba como revisar tópicos e usar os recursos como revisor, exibição de documento, exibição de tópico, barra de ferramentas contextual, modo de visualização, adicionar anexos a comentários e painel de condições no AEM Guides.
 feature: Reviewing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 371d89b8-fe05-4477-9bf8-cc47c0899108
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '2351'
 ht-degree: 0%
@@ -22,7 +24,7 @@ Execute as seguintes etapas para revisar um tópico:
 
    >[!NOTE]
    >
-   > Na interface do AEM, também é possível acessar o link de revisão de tópico a partir da área de notificações da Caixa de entrada.
+   > Você também pode acessar o link de revisão de tópico na área Notificações da caixa de entrada, na interface do usuário do AEM.
 
 1. Dependendo de como a revisão de tópico é iniciada, você pode visualizar qualquer uma das duas telas a seguir:
 
@@ -30,7 +32,7 @@ Execute as seguintes etapas para revisar um tópico:
    >
    > A interface do usuário pode ser diferente se você tiver criado a revisão no:
    >
-   > - AEM Guides versão as a Cloud Service de novembro de 2022 ou anterior
+   > - AEM Guides as a Cloud Service versão de novembro de 2022 ou anterior
    > - AEM Guides versão 4.1 ou anterior
 
 

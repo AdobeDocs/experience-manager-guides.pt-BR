@@ -1,9 +1,11 @@
 ---
 title: Baixar arquivos
-description: Saiba como baixar arquivos do console de mapas DITA no AEM Guides e exportar um arquivo de mapas DITA para o repositório AEM.
+description: Saiba como baixar arquivos do console de mapa DITA no AEM Guides e exportar um arquivo de mapa DITA no repositório do AEM.
 feature: Content Management
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: b04a0abe-a029-44ac-b8f4-138d78908d44
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 0%
@@ -16,7 +18,7 @@ Você pode baixar ativos, incluindo arquivos DITA e não DITA. Há várias manei
 
 ## Exportar um arquivo de mapa DITA
 
-Depois de ter o arquivo de mapa DITA no repositório AEM, você pode baixar o arquivo de mapa junto com seus dependentes. Isso proporciona a flexibilidade de compartilhar o arquivo de mapa completo para edição, validação, revisão ou simplesmente criação de um backup offline.
+Depois de ter o arquivo de mapa DITA no repositório do AEM, você pode baixar o arquivo de mapa junto com seus dependentes. Isso proporciona a flexibilidade de compartilhar o arquivo de mapa completo para edição, validação, revisão ou simplesmente criação de um backup offline.
 
 Execute as seguintes etapas para baixar um arquivo de mapa DITA junto com seus arquivos dependentes:
 

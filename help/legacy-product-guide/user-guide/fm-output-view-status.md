@@ -1,9 +1,11 @@
 ---
 title: Exibir o status da tarefa de geração de saída
-description: Exibir a fila de geração de saída de documentos de FrameMaker. Saiba como visualizar o status de uma tarefa de geração de saída.
+description: Visualize a fila de geração de saída de documentos do FrameMaker. Saiba como visualizar o status de uma tarefa de geração de saída.
 feature: Publishing FrameMaker Documents
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: bf5a4365-0183-43d5-a39a-b9eb8a34b27d
+source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 0%
@@ -16,7 +18,7 @@ Depois de iniciar a tarefa de geração de saída para um documento do FrameMake
 
 Execute as seguintes etapas para exibir a fila de geração de saída:
 
-1. Na interface do usuário do Assets, navegue até o documento do FrameMaker e clique nele para verificar o status de geração de saída.
+1. Na interface do usuário do Assets, navegue até o documento FrameMaker e clique nele para verificar o status de geração de saída.
 
 1. Clique em Saídas.
 

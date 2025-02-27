@@ -3,7 +3,9 @@ title: Estado do documento
 description: Saiba mais sobre os tipos de estados de documentos no AEM Guides. Saber como alterar ou exibir o estado do documento e usar o estado do documento no DDLC.
 feature: Authoring, Features of Web Editor, Document State
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: f8367f84-dd46-4140-8748-c3bda0cf933a
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '936'
 ht-degree: 0%
@@ -24,7 +26,7 @@ Um documento pode ter qualquer um dos estados de documento definidos no perfil E
 
 Esses estados são definidos manual ou automaticamente de acordo com as configurações do perfil Estados do documento. Por exemplo, se o perfil de Estado do documento estiver configurado com o estado inicial como Rascunho e o estado Em revisão estiver definido para documentos em revisão. Em seguida, ao criar um documento, o estado do documento é definido como *Rascunho*. Se você iniciar uma tarefa de revisão, o estado do documento será alterado para Em revisão.
 
-Você também pode alterar manualmente o estado do documento para um ou vários documentos. No entanto, se você optar por alterar o estado do documento para vários documentos, o estado permitido será determinado pelos estados comuns permitidos para os documentos selecionados. Por exemplo, digamos que você tenha definido os estados do documento como Rascunho, Em revisão, Revisado e Pronto para o Publish, na mesma ordem. No documento one.dita, o estado é definido como *Rascunho* e no documento two.dita, o estado é definido como Revisado. Quando você selecionar ambos — one.dita e two.dita, o estado do documento permitido será *Pronto para Publish*. Como two.dita está no estado *Reviewed*, o próximo estado possível para two.dita é somente *Ready para Publish*, que é mostrado quando ambos os documentos são selecionados.
+Você também pode alterar manualmente o estado do documento para um ou vários documentos. No entanto, se você optar por alterar o estado do documento para vários documentos, o estado permitido será determinado pelos estados comuns permitidos para os documentos selecionados. Por exemplo, digamos que você tenha definido os estados do documento como Rascunho, Em revisão, Revisado e Pronto para publicar, na mesma ordem. No documento one.dita, o estado é definido como *Rascunho* e no documento two.dita, o estado é definido como Revisado. Quando você selecionar ambos — one.dita e two.dita, o estado do documento permitido será *Pronto para publicação*. Como two.dita está no estado *Reviewed*, o próximo estado possível para two.dita é somente *Ready to Publish*, que é mostrado quando ambos os documentos são selecionados.
 
 >[!NOTE]
 >
@@ -62,7 +64,7 @@ Para usar o recurso de aprovação de documento, execute as seguintes etapas:
 
 >[!NOTE]
 >
-> O recurso de fluxo de trabalho de aprovação deve ser habilitado pelo administrador. Para obter mais detalhes, consulte a seção *Habilitar fluxo de trabalho de aprovação* em Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service.
+> O recurso de fluxo de trabalho de aprovação deve ser habilitado pelo administrador. Para obter mais detalhes, consulte a seção *Habilitar fluxo de trabalho de aprovação* na seção Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service.
 
 1. No Editor da Web, abra o documento que você deseja marcar para aprovação.
 

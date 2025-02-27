@@ -3,7 +3,9 @@ title: Trabalhar com o Editor básico de mapas
 description: Saiba como trabalhar com o Editor de mapa básico no AEM Guides. Conhecer os recursos do editor de mapa básico no nível do mapa e do tópico. Criar e editar tabelas de relacionamento em um mapa DITA.
 feature: Authoring, Map Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 194caf31-15ae-436d-bbd4-3ea4907c7877
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1471'
 ht-degree: 0%
@@ -17,7 +19,7 @@ ht-degree: 0%
 > O Editor de mapa básico, anteriormente disponível no Experience Manager Guides, foi descontinuado a partir da versão 4.3 e 2307. Não é possível acessar o Editor de mapa básico para criar e gerenciar mapas DITA.
 >É recomendável usar o Editor de mapa avançado. O Editor de mapa avançado oferece recursos aprimorados e melhores opções de personalização. Saiba mais sobre como trabalhar com o [Editor de mapa avançado](../user-guide/map-editor-advanced-map-editor.md).
 
-O Editor básico de mapas fornece um recurso fácil de arrastar e soltar para adicionar tópicos do seu repositório AEM para criar o mapa ou bookmap DITA. Você pode adicionar tópicos aninhados, tabelas de relacionamento \(relacionável\), atributos e informações de metadados e também validar o mapa para correção.
+O Editor de mapa básico fornece um recurso fácil de arrastar e soltar para adicionar tópicos do seu repositório do AEM e criar o mapa ou bookmap DITA. Você pode adicionar tópicos aninhados, tabelas de relacionamento \(relacionável\), atributos e informações de metadados e também validar o mapa para correção.
 
 >[!NOTE]
 >

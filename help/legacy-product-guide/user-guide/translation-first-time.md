@@ -3,7 +3,9 @@ title: Práticas recomendadas para tradução de conteúdo
 description: Conhecer as práticas recomendadas para tradução de conteúdo no AEM Guides. Saiba como configurar o serviço de tradução, criar um novo projeto de tradução e iniciar o trabalho de tradução.
 feature: Translation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 09e813fd-ec22-4d2e-9ee7-098d562ad44f
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1295'
 ht-degree: 1%
@@ -38,9 +40,9 @@ Execute as seguintes etapas para configurar o serviço de tradução humana ou a
 
 1. Na interface do usuário do Assets, selecione a pasta do idioma de origem.
 
-1. Abra as propriedades da pasta e vá para a guia **Cloud Service**.
+1. Abra as propriedades da pasta e vá para a guia **Cloud Services**.
 
-1. Na guia **Cloud Service**, configure o serviço de tradução que deseja usar.
+1. Na guia **Cloud Services**, configure o serviço de tradução que deseja usar.
 
    Você pode configurar tradução humana ou baseada em máquina.
 
@@ -48,7 +50,7 @@ Execute as seguintes etapas para configurar o serviço de tradução humana ou a
 
    >[!NOTE]
    >
-   > Consulte [Configurando a estrutura de integração de tradução](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) na documentação do AEM para obter detalhes sobre a integração com serviços de tradução de terceiros.
+   > Consulte [Configurar a estrutura de integração de tradução](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) na documentação do AEM para obter detalhes sobre a integração com serviços de tradução de terceiros.
 
 1. Clique em **Salvar e fechar** para salvar as propriedades atualizadas da pasta.
 

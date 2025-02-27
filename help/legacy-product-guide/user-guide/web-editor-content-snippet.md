@@ -3,7 +3,9 @@ title: Inserir um trecho de conteúdo da sua fonte de dados
 description: Use dados da sua fonte de dados no AEM Guides. Saiba como inserir um trecho de conteúdo da sua fonte de dados. Crie um tópico usando o gerador de tópicos.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
+hide: true
+exl-id: ca557b73-8608-4fdd-8e11-adc6de2ad82a
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '2389'
 ht-degree: 0%
@@ -26,9 +28,9 @@ Com base na sua configuração, o administrador pode configurar um conector de f
 <summary> Cloud Services </summary>
 
 
-- Se estiver usando a versão de outubro de 2023 ou posterior, saiba como [configurar um conector de fonte de dados a partir da interface do usuário](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md) no Guia de Instalação e Configuração do Cloud Service.
+- Se estiver usando a versão de outubro de 2023 ou posterior, saiba como [configurar um conector de fonte de dados a partir da interface do usuário](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md) no Guia de Instalação e Configuração do Cloud Services.
 
-- Se estiver usando a versão de julho de 2023 ou setembro de 2023, saiba como [configurar um conector de fonte de dados](/help/product-guide/cs-install-guide/conf-data-source-connector.md) no Guia de instalação e configuração do Cloud Service.
+- Se estiver usando a versão de julho de 2023 ou setembro de 2023, saiba como [configurar um conector de fonte de dados](/help/product-guide/cs-install-guide/conf-data-source-connector.md) no Guia de instalação e configuração do Cloud Services.
 
 </details>
 
@@ -90,7 +92,7 @@ Execute as seguintes etapas para criar um trecho de conteúdo usando o gerador d
 
    >[!NOTE]
    >
-   >O Experience Manager fornece exemplos diferentes de consulta para todos os recursos nas várias fontes de dados. Eles são mapeados para a fonte de dados da qual você está buscando os dados.
+   >O Experience Manager fornece diferentes exemplos de consulta para todos os recursos nas várias fontes de dados. Eles são mapeados para a fonte de dados da qual você está buscando os dados.
 
 1. Se você usar um conector de arquivo, poderá fazer upload do arquivo JSON do seu computador ou procurar um arquivo JSON nos ativos da Adobe Experience Manager.
 
@@ -191,7 +193,7 @@ Execute as seguintes etapas para criar um tópico usando o gerador de tópicos:
 
       >[!NOTE]
       >
-      >O Experience Manager fornece exemplos diferentes de consulta para todos os recursos nas várias fontes de dados. Eles são mapeados para a fonte de dados da qual você está buscando os dados.
+      >O Experience Manager fornece diferentes exemplos de consulta para todos os recursos nas várias fontes de dados. Eles são mapeados para a fonte de dados da qual você está buscando os dados.
 
    1. Se você usar um conector de arquivo, poderá fazer upload do arquivo JSON do seu computador ou procurar um arquivo JSON nos ativos da Adobe Experience Manager.
 
@@ -279,7 +281,7 @@ Clique com o botão direito do mouse em um gerador de tópicos para abrir as **O
 
 ## Usar ferramentas do Velocity nos modelos de fonte de dados {#use-velocity-tools}
 
-Os modelos de Experience Manager também são compatíveis com as ferramentas do Velocity (versão 2.0). Essas ferramentas ajudam a aplicar várias funções aos dados obtidos nas fontes de dados. Saiba mais sobre o uso das [ferramentas do Velocity](https://velocity.apache.org/tools/2.0/generic.html) e as funções que você pode aplicar.
+Os modelos do Experience Manager também são compatíveis com as ferramentas do Velocity (versão 2.0). Essas ferramentas ajudam a aplicar várias funções aos dados obtidos nas fontes de dados. Saiba mais sobre o uso das [ferramentas do Velocity](https://velocity.apache.org/tools/2.0/generic.html) e as funções que você pode aplicar.
 
 Execute as seguintes etapas para usar uma ferramenta Velocity em um modelo:
 1. Editar um modelo do Velocity no Editor da Web.
