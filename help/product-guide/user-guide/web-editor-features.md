@@ -4,9 +4,9 @@ description: Descubra os recursos do Editor no Adobe Experience Manager Guides. 
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
+source-git-commit: 236947dc7dd01d4f232058a98dcd2db99031c267
 workflow-type: tm+mt
-source-wordcount: '18656'
+source-wordcount: '18661'
 ht-degree: 0%
 
 ---
@@ -1253,7 +1253,7 @@ Quando você abre um mapa na exibição de mapa, o título do mapa atual é exib
 
 Ao definir atributos principais para o tópico ou referências de mapa, é possível visualizar o título, o ícone correspondente e a chave no painel esquerdo. A chave é exibida como `keys=<key-name>`.
 
-![chaves na exibição de mapa](images/view-key-title-map-view.png){width="300" align="left"}
+![Chaves na exibição de mapa](images/view-key-title-map-view.png){width="300" align="left"}
 
 Se você tiver direitos de edição nos arquivos de mapa, também poderá editar os arquivos. Para obter mais informações sobre como abrir e editar um tópico por meio do mapa DITA, exiba [Editar tópicos por meio do mapa DITA](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
 
@@ -1265,7 +1265,7 @@ As seguintes opções estão disponíveis para um arquivo de mapa na exibição 
 
 Você pode executar as seguintes ações usando o menu Opções do arquivo de mapa:
 
-![](images/options-menu-map-view_cs.png){width="800" align="left"}
+![Menu Opções no modo de exibição de Mapa](images/options-menu-map-view_cs.png){width="800" align="left"}
 
 - **Editar**: abrir o arquivo de mapa para edição no Editor de Mapa.
 
