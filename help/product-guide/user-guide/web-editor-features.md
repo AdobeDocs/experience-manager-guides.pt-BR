@@ -4,9 +4,9 @@ description: Descubra os recursos do Editor no Adobe Experience Manager Guides. 
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 236947dc7dd01d4f232058a98dcd2db99031c267
+source-git-commit: 52b94c662f04499644f2806255521b3e68da1910
 workflow-type: tm+mt
-source-wordcount: '18661'
+source-wordcount: '18660'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Uma ferramenta avançada orientada por IA, projetada para melhorar a produtivida
 
 >[!NOTE]
 >
-> O recurso Assistente de IA está disponível no momento para o Adobe Experience Manager Guides as a Cloud Service.
+>O recurso Assistente de IA está disponível no momento para o Adobe Experience Manager Guides as a Cloud Service.
 
 **Expandir exibição**: permite expandir a exibição de página usando o ícone **Expandir**. Nesta visualização, a barra de cabeçalho que contém o logotipo do Adobe Experience Manager está oculta. Isso maximiza o espaço de conteúdo para edição. Para retornar ao modo de exibição padrão, use o ícone **Sair do modo de exibição expandido**.
 
@@ -190,6 +190,7 @@ Na captura de tela a seguir, apenas 3 dos 4 elementos configurados da captura de
       - Selecione **Salvar**.
 
      Depois de configurar o aplicativo, crie o perfil do **ServiceNow**.
+
    - Para criar um perfil, selecione a Base de Dados de Conhecimento ServiceNow na lista suspensa **Tipo de servidor**. Insira um perfil **Nome**. Na **URL do ServiceNow**, insira o site do consumidor que você usaria para publicar a saída e, em seguida, adicione o **Nome de Usuário** e a **Senha** fornecidos pelo site do consumidor do ServiceNow. Em seguida, **Validar** e **Salvar** o perfil recém-criado.
 
      ![Perfil de publicação do ServiceNow](./images/service-now-publish-profile.png){width="550" align="left"}
@@ -204,6 +205,7 @@ Na captura de tela a seguir, apenas 3 dos 4 elementos configurados da captura de
    - **Executar verificação de validação antes de salvar o arquivo**: selecione essa opção para executar validações de Esquematron usando os arquivos de Esquematron selecionados antes de qualquer operação de salvamento. Você pode adicionar um arquivo do Schematron selecionando o ícone +. Os arquivos do Schematron selecionados são listados.
 
      >[!NOTE]
+     >
      >O(s) arquivo(s) de esquema selecionado(s) persistirá(ão) no perfil de pasta selecionado.
 
      ![Validação nas configurações do editor](./images/editor-setting-validation.png){width="550" align="left"}
@@ -223,18 +225,21 @@ Na captura de tela a seguir, apenas 3 dos 4 elementos configurados da captura de
 
   ![](images/editor-setting-translation.png){width="550" align="left"}
 
-   - **Grupos de Idiomas**: como administrador, você pode criar um grupo de idiomas e usá-los como um conjunto para traduzir o conteúdo.\
+   - **Grupos de Idiomas**: como administrador, você pode criar um grupo de idiomas e usá-los como um conjunto para traduzir o conteúdo.
+
      Execute as seguintes etapas para criar um novo grupo de idiomas:
+
       1. Selecione **Adicionar**.
       1. Informe o nome do grupo de idiomas. Cada idioma deve ter um nome exclusivo. Você pode exibir um erro se o campo de nome estiver vazio ou se o nome não for exclusivo.
       1. Selecione os idiomas na lista suspensa. Você pode selecionar vários idiomas.
 
-     Digite os primeiros caracteres do idioma ou o código do idioma para filtrar os idiomas desejados. Por exemplo, digite &#39;en&#39; para filtrar todos os idiomas que contêm &#39;en&#39; no início de seu nome ou código.
+         Digite os primeiros caracteres do idioma ou o código do idioma para filtrar os idiomas desejados. Por exemplo, digite &#39;en&#39; para filtrar todos os idiomas que contêm &#39;en&#39; no início de seu nome ou código.
+
       1. Selecione o ícone Concluído para adicionar os idiomas selecionados ao grupo. Os idiomas são exibidos. Quando você adiciona três ou mais idiomas, a opção **Mostrar mais** é exibida. Você pode selecionar **Mostrar mais** para exibir todos os idiomas presentes no grupo.
 
          >[!TIP]
          >
-         > Alternar **Mostrar mais** para **Mostrar menos** e exibir apenas alguns idiomas.
+         >Alternar **Mostrar mais** para **Mostrar menos** e exibir apenas alguns idiomas.
 
       1. Passe o mouse sobre os idiomas em um grupo para editar o ![ícone de edição](images/edit_pencil_icon.svg) ou excluir os grupos de idiomas ![excluir](images/Delete_icon.svg).
       1. Salve as **Configurações**.
@@ -296,7 +301,7 @@ O recurso **Localizar e substituir** está disponível nos modos de exibição A
 
 ![](images/find-replace-bar.png){width="800" align="left"}
 
-Usando o ícone de configurações \(![](images/settings-find-replace-icon.svg)\), você pode alternar as opções de pesquisa **Ignorar maiúsculas e minúsculas** e **Somente palavra inteira**. Para executar a pesquisa que não diferencia maiúsculas de minúsculas, ative a opção **Ignorar maiúsculas e minúsculas**. Caso contrário, se você deseja realizar a pesquisa que diferencia maiúsculas de minúsculas, desative a opção **Ignorar maiúsculas e minúsculas**. Você também pode optar por pesquisar uma palavra inteira.
+Usando o ícone de configurações \(![](images/settings-find-replace-icon.svg)\), você pode alternar as opções de pesquisa **Ignorar maiúsculas e minúsculas** e **Somente palavra inteira**. Para executar a pesquisa que não diferencia maiúsculas de minúsculas, ative (ou selecione) a opção **Ignorar maiúsculas e minúsculas**. Caso contrário, se você deseja realizar a pesquisa que diferencia maiúsculas de minúsculas, desative (ou desmarque) a opção **Ignorar maiúsculas e minúsculas**. Você também pode optar por pesquisar uma palavra inteira.
 
 A pesquisa é instantânea, o que significa que à medida que você digita a frase ou palavra de pesquisa no campo **Localizar**, o termo é imediatamente pesquisado e selecionado no tópico. Da mesma forma, para substituir um texto em seu tópico, insira o termo de pesquisa e sua substituição nos respectivos campos e selecione o botão **Substituir** ou **Substituir tudo**.
 
@@ -364,7 +369,7 @@ Para acessar o histórico de versões e reverter para uma versão específica do
 
 **Rótulos de versão**
 
-Os rótulos ajudam a identificar o estágio em que um tópico específico está no DDLC \(Document Development Life Cycle\). Por exemplo, ao trabalhar em um tópico, você pode definir o rótulo como &quot;Aprovado&quot;. Depois que um tópico é publicado e disponibilizado aos clientes, é possível atribuir o rótulo &quot;Lançado&quot; a esse tópico.
+Os rótulos ajudam a identificar o estágio em que um tópico específico está no DDLC (Document Development Life Cycle, Ciclo de vida de desenvolvimento de documentos). Por exemplo, ao trabalhar em um tópico, você pode definir o rótulo como &quot;Aprovado&quot;. Depois que um tópico é publicado e disponibilizado aos clientes, é possível atribuir o rótulo &quot;Lançado&quot; a esse tópico.
 
 O Experience Manager Guides permite especificar rótulos em um formato de texto livre ou usar um conjunto de rótulos predefinidos. O rótulo personalizado permitiria que qualquer autor no sistema especificasse um rótulo de acordo com sua escolha. Isso dá flexibilidade; no entanto, introduz rótulos inconsistentes no sistema. Para resolver esse problema, os administradores podem configurar um conjunto de rótulos predefinidos. Para obter mais informações sobre como configurar rótulos predefinidos, consulte *Configurar e personalizar o Editor da Web de XML* em Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service.
 
@@ -1865,9 +1870,9 @@ Para executar a pesquisa global e substituir, execute as seguintes etapas:
 
 Para habilitar o ícone **Substituir tudo**, o administrador do sistema deve selecionar a opção **Habilitar Substituir tudo** na guia **Geral** em **Configurações**.
 
-    >[!NOTE]
-    >
-    > Passe o mouse sobre um arquivo da lista de resultados da pesquisa para exibir o ícone Substituir tudo no Arquivo à direita. Você também obtém o ícone Ignorar arquivo para remover o arquivo do resultado da pesquisa. Os arquivos ignorados são removidos da lista e o termo pesquisado não é substituído neles.
+>[!NOTE]
+>
+> Passe o mouse sobre um arquivo da lista de resultados da pesquisa para exibir o ícone Substituir tudo no arquivo à direita. Você também obtém o ícone Ignorar arquivo para remover o arquivo do resultado da pesquisa. Os arquivos que você ignora são removidos da lista e o termo pesquisado não é substituído neles.
 
 Somente uma operação de substituição total pode ser executada de cada vez em todo o sistema. Até que a operação esteja sendo executada, você verá o status &quot;Substituir tudo em andamento&quot;. Você também pode abortar a operação replace all entre as duas ou exibir o relatório de log. Se você suspender a operação, receberá uma notificação sobre ela na sua Caixa de entrada. Você receberá uma notificação de sucesso depois de substituir todas as ocorrências no arquivo selecionado.
 
