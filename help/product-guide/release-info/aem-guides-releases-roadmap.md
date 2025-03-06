@@ -3,7 +3,7 @@ title: Roteiro de versões do Adobe Experience Manager Guides 2024
 description: Obtenha informações sobre as versões ao vivo e futuras do Adobe Experience Manager Guides no local e do Adobe Experience Manager Guides as a Cloud Service
 role: Admin, Leader, Developer, User
 exl-id: cb6709ce-2732-45d0-adfd-5aeca520240e
-source-git-commit: 9d7104fd6498fdd29921bba863aa3e847c5b0abb
+source-git-commit: 5ae05935d254b03ad99221bd5f65dbb6a3580c5f
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 32%
@@ -53,13 +53,13 @@ As atualizações de produtos em termos de novos recursos, melhorias e correçõ
 
 | Versão | Evento | Programação | Novidades | Instruções de atualização | Status |
 |---|---|---|---|---|---|
-| Adobe Experience Manager Guides 5.0.0 | Versão | ~ Meados de março de 2025 |  |  | Destino |
 | Adobe Experience Manager Guides 5.1.0 | Versão | ~ agosto de 2025 |  |  | Destino |
 
 ### Versões ao vivo
 
 | Versão | Evento | Programação | Novidades | Instruções de atualização | Status |
 |---|---|---|---|---|---|
+| Adobe Experience Manager Guides 5.0.0 | Versão | sexta-feira, 6 de março de 2025 | [Aqui](whats-new-5-0-0.md) | [Aqui](upgrade-instructions-5-0-0.md) | Lançado |
 | Adobe Experience Manager Guides 4.6.0 | Service Pack 3 | quinta-feira, 22 de janeiro de 2025 | - | [Aqui](upgrade-instructions-4-6-0-sp2.md) | Lançado |
 | Adobe Experience Manager Guides 4.6.0 | Service Pack 1 | quarta-feira, 29 de outubro de 2024 | - | [Aqui](upgrade-instructions-4-6-0-sp1.md) | Lançado |
 | Adobe Experience Manager Guides 4.6.0 | Versão | sexta-feira, 12 de setembro de 2024 | [Aqui](whats-new-4-6.md) | [Aqui](upgrade-instructions-4-6-0.md) | Lançado |

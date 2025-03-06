@@ -1,21 +1,21 @@
 ---
-title: Notas de versão | Correção de problemas na versão 2025.02.0 do Adobe Experience Manager Guides
-description: Saiba mais sobre as correções de erros na versão 2025.02.0 do Adobe Experience Manager Guides as a Cloud Service.
-exl-id: e7dec4a2-e11a-4b78-8111-a331d20ce73d
-source-git-commit: 09283ab7c76eca669b30ec92923456c11d53a10b
+title: Notas de versão | Correção de problemas na versão 5.0.0 do Adobe Experience Manager Guides
+description: Saiba mais sobre as correções de erros na versão 5.0.0 do Adobe Experience Manager Guides.
+source-git-commit: 5ae05935d254b03ad99221bd5f65dbb6a3580c5f
 workflow-type: tm+mt
-source-wordcount: '1311'
+source-wordcount: '1246'
 ht-degree: 0%
 
 ---
 
-# Correção de problemas na versão 2025.02.0
+# Correção de problemas na versão 5.0.0 (março de 2025)
 
-Este artigo aborda os bugs corrigidos em várias áreas da versão 2025.02.0 do Adobe Experience Manager Guides as a Cloud Service.
+Este artigo aborda os bugs corrigidos em várias áreas da versão 5.0.0 do Adobe Experience Manager Guides.
 
-Para obter mais informações sobre os novos recursos e aprimoramentos, consulte [Novidades na versão 2025.02.0](whats-new-2025-02-0.md).
 
-Saiba mais sobre [as instruções de atualização para a versão 2025.02.0](upgrade-instructions-2025-02-0.md).
+Para obter mais informações sobre os novos recursos e aprimoramentos, consulte [Novidades na versão 5.0.0](whats-new-5-0-0.md).
+
+Saiba mais sobre as [instruções de atualização para a versão 5.0.0](upgrade-instructions-5-0-0.md).
 
 
 ## Criação  
@@ -62,16 +62,13 @@ Saiba mais sobre [as instruções de atualização para a versão 2025.02.0](upg
 
 ## Gerenciamento
 
-- Vazamentos de recursos ocorrem devido a erros Unclosed **ResourceResolver** em logs. (18488)
 - O título e o ícone da caixa de diálogo **Forçar exclusão** estão desalinhados na interface do Assets. (21933)
 - Quando qualquer JSON é atualizado no perfil de pasta para Configuração do editor XML, a operação de salvamento interrompe a configuração do editor XML. (22414)
 - Ao duplicar qualquer perfil de pasta, sua lista de usuários administradores também é copiada do perfil da pasta original. (19067)
 - Ocorre um erro ao mover pastas grandes (com um grande volume de conteúdo DITA, até 200.000 itens) da interface do Assets. (2010)
-- Ao usar o título dinâmico com `<conkeyref>`, ele não é resolvido corretamente na **Lista de Tópicos de Relatório de Guias**. (2014)
 - A edição do perfil **Pasta** com o Unified Shell habilitado resulta em uma interface em branco. (22212)
 - Ao excluir pastas que contêm um grande número de arquivos, a operação falha. (17107)
 - Ao cancelar/excluir o trabalho de tradução ou excluir o projeto, o painel de tradução mostra o status **Em andamento**. (18417)
-- Quando você habilita o Unified Shell para uma instância da nuvem, a visualização do tópico não abre a partir do painel do mapa. (18826)
 - Ao enviar duas versões de um tópico não traduzido simultaneamente usando tradução não herdada e aprovar a segunda versão antes da primeira, o projeto de tradução com a primeira versão é corrompido. (22200)
 
 
@@ -87,18 +84,20 @@ Saiba mais sobre [as instruções de atualização para a versão 2025.02.0](upg
 
 ## Problemas conhecidos
 
-A Adobe identificou os seguintes problemas conhecidos para a versão 2025.02.0:
+A Adobe identificou os seguintes problemas conhecidos para a versão 5.0.0:
 
+- Em alguns casos, a funcionalidade de bloqueio para arquivos CSS não está funcionando como esperado, permitindo que outros usuários editem e salvem os arquivos mesmo quando eles são bloqueados por outro usuário.
+- Não é possível sair da exibição do console de Mapa quando a Linha de Base está suja com o salvamento automático habilitado.
+- A aplicação de alterações na configuração predefinida não reflete as predefinições já criadas no mapa se o nome da predefinição tiver qualquer caractere em maiúsculas.
+- A posição da cor do plano de fundo está desalinhada na interface do usuário do **Painel da condição**.
+- Quando você usa a imagem como um `<keyref>`, o **Tipo de Referência** da imagem não é mostrado no **Relatório multimídia**.
 - Ao usar imagens como variáveis no modelo PDF, ele não resolve na saída.
-- O recurso **Localizar no repositório** não funciona ao abrir o Editor de Guias pela primeira vez, mas começa a funcionar conforme esperado após atualizar o navegador.
 - Nos relatórios da **Lista de tópicos**, a classificação por título falha para ativos com `<conref>` ou `<conkeyref>` no título, fazendo com que essas entradas sempre apareçam na parte superior.
 - Alternar o perfil da pasta não reflete imediatamente as alterações na interface do usuário sem atualizar o navegador.
-- As personalizações da estrutura de extensão feitas antes do Guides 2025.02.x.x podem não funcionar conforme esperado.
+- As personalizações da estrutura de extensão feitas antes do Guides 5.0.0 podem não funcionar conforme esperado.
 - O índice completo do mapa não é atualizado ao publicar tópicos do mapa de maneira seletiva.
 - Falha na publicação de um mapa que contém um arquivo do Markdown com referências internas de imagem nos servidores Windows.
 - A lista com marcadores não é convertida em lista numerada no Markdown.
 - A publicação no site nativo do AEM falha quando os arquivos de marcação são referenciados em um mapa.
-- A posição da cor do plano de fundo está desalinhada na interface do usuário do **Painel da condição**.
-- Quando você usa a imagem como um `<keyref>`, o **Tipo de Referência** da imagem não é mostrado no **Relatório multimídia**.
-- Em alguns casos, a funcionalidade de bloqueio para arquivos CSS não está funcionando como esperado, permitindo que outros usuários editem e salvem os arquivos mesmo quando eles são bloqueados por outro usuário.
-- A aplicação de alterações na configuração predefinida não reflete as predefinições já criadas no mapa se o nome da predefinição tiver qualquer caractere em maiúsculas.
+
+
