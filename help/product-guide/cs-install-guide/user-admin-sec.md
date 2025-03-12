@@ -5,9 +5,9 @@ exl-id: 10ab0f3c-97dc-4293-ab73-75b438c03d99
 feature: User Management
 role: Admin
 level: Experienced
-source-git-commit: 462647f953895f1976af5383124129c3ee869fe9
+source-git-commit: 6aaa5c1eeb9b74ababc7ebf427babfff101acc70
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '700'
 ht-degree: 10%
 
 ---
@@ -25,7 +25,7 @@ Os seguintes tópicos na documentação do AEM ajudarão você a entender a admi
 
 ## Grupos de usuários criados pelo AEM Guides {#id181TF0K0MHT}
 
-O AEM Guides fornece três grupos prontos para uso para gerenciar tarefas diferentes em um projeto DITA. Estes grupos são: *Autores*, *Revisores* e *Editores*. Dependendo do grupo ao qual um usuário está associado, ele pode executar tarefas específicas. Por exemplo, a tarefa de publicação pode ser executada somente por um editor, mas não por um autor ou um revisor. Da mesma forma, um autor pode criar um novo tópico e um revisor só pode revisar um tópico.
+O AEM Guides fornece três grupos prontos para uso. Estes grupos são: *Autores*, *Revisores* e *Editores*. Dependendo do grupo ao qual um usuário está associado, ele pode executar tarefas específicas. Por exemplo, a tarefa de publicação pode ser executada somente por um editor, mas não por um autor ou um revisor. Da mesma forma, um autor pode criar um novo tópico e um revisor só pode revisar um tópico.
 
 >[!TIP]
 >
@@ -54,7 +54,7 @@ A tabela a seguir lista várias tarefas e os grupos que podem executá-las:
 | **Recursos disponíveis no console de mapa DITA \(guia Predefinições de Saída\)** |
 | Gerar |   |   | Sim |
 | Editar |   |   | Sim |
-| Duplicata |   |   | Sim |
+| Duplicado |   |   | Sim |
 | Criar |   |   | Sim |
 | Excluir predefinição |   |   | Sim |
 | **Recursos disponíveis no console de mapa DITA \(guia Saídas\)** |
@@ -65,7 +65,7 @@ A tabela a seguir lista várias tarefas e os grupos que podem executá-las:
 | **Recursos disponíveis no console de mapa DITA \(guia Linhas de Base\)** |
 | Criar |   |   | Sim |
 | Editar |   |   | Sim |
-| Duplicata |   |   | Sim |
+| Duplicado |   |   | Sim |
 | Remover |   |   | Sim |
 | Console do mapa DITA \(guia Relatórios\) | Sim |   | Sim |
 | **Recursos disponíveis no console de mapa DITA \(Predefinições de Condição\)** |
@@ -99,7 +99,7 @@ A lista a seguir contém algumas recomendações e pontos relacionados a grupos 
 
 - Se você quiser que seus usuários executem operações de pesquisa no DAM, torne-os membros do grupo *dam-users*.
 
-- Se você deseja conceder direitos de administrador a qualquer usuário, é possível fazê-lo fornecendo a ele acesso por meio de grupos padrão AEM, como *administradores*, *projetos-administradores* ou a configuração OSGI \(Felix console\).
+- Se você quiser conceder direitos de administrador a qualquer usuário, conceda a ele acesso por meio dos grupos padrão do AEM, como *administradores*, *administradores-projetos* ou a configuração OSGI \(Felix console\).
 
 - Para conceder ao usuário direitos para alterar um estado de documento, adicione o usuário na seção transição de estado do perfil de estado do documento.
 
