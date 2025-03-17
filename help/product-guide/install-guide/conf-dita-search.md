@@ -5,7 +5,7 @@ exl-id: b920ba7f-e8fc-4af6-aa8a-b8516b1cffc0
 feature: Search Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 8ee4863470f69bca52a9b36cde52703e4d6643bc
 workflow-type: tm+mt
 source-wordcount: '1695'
 ht-degree: 1%
@@ -14,9 +14,9 @@ ht-degree: 1%
 
 # Configurar pesquisa para a interface do usuário do AEM Assets {#id192SC800MY4}
 
-Por padrão, o AEM não reconhece o conteúdo DITA e, portanto, não fornece nenhum mecanismo para pesquisar conteúdo DITA em seu repositório. O AEM Guides permite adicionar o recurso de pesquisa de conteúdo DITA no repositório AEM.
+Por padrão, o AEM não reconhece o conteúdo DITA e, portanto, não fornece nenhum mecanismo para pesquisar conteúdo DITA em seu repositório. O AEM Guides permite adicionar o recurso de pesquisa de conteúdo DITA no repositório do AEM.
 
-Por padrão, o AEM não reconhece o conteúdo DITA e, portanto, não fornece nenhum mecanismo para pesquisar conteúdo DITA em seu repositório. Além disso, não há recurso de OOTB para pesquisar conteúdo com base em sua UUID. O AEM Guides permite adicionar os recursos de pesquisa de conteúdo DITA e pesquisa baseada em UUID no repositório AEM.
+Por padrão, o AEM não reconhece o conteúdo DITA e, portanto, não fornece nenhum mecanismo para pesquisar conteúdo DITA em seu repositório. Além disso, não há recurso de OOTB para pesquisar conteúdo com base em sua UUID. O AEM Guides permite adicionar os recursos de pesquisa de conteúdo DITA e pesquisa baseada em UUID no repositório do AEM.
 
 A configuração da pesquisa de conteúdo DITA envolve as seguintes tarefas:
 
@@ -136,8 +136,7 @@ Na seção do conjunto de regras, você pode especificar:
 
 Uma regra consiste no seguinte:
 
-xpath
-:   Essa é a consulta XPath que recupera os elementos ou atributos de arquivos DITA. A configuração padrão para a regra de elemento recupera todos os `prolog` elementos. E a configuração padrão para a regra de atributo recupera todos os atributos de `prolog` elementos. Você pode especificar uma consulta XPath para serializar os elementos ou atributos que deseja pesquisar.
+**xpath** - Esta é a consulta XPath que recupera os elementos ou atributos de arquivos DITA. A configuração padrão para a regra de elemento recupera todos os `prolog` elementos. E a configuração padrão para a regra de atributo recupera todos os atributos de `prolog` elementos. Você pode especificar uma consulta XPath para serializar os elementos ou atributos que deseja pesquisar.
 
 A consulta XPath contém o nome de classe do tipo de documento. A classe `topic/topic` é usada para documentos DITA do tipo de tópico. Se você quiser criar uma regra para outros documentos DITA, use os seguintes nomes de classe:
 
@@ -149,19 +148,15 @@ A consulta XPath contém o nome de classe do tipo de documento. A classe `topic/
 | Referência | - tópico/tópico referência/referência |
 | Mapa | - mapa/mapa |
 
-texto
-:   Se quiser pesquisar o texto dentro do elemento especificado, especifique o valor yes. Se você especificar não como valor, apenas os atributos dentro do elemento serão serializados. Os atributos que você deseja pesquisar precisam ser especificados na seção de conjunto de atributos.
+**texto** - Se você deseja pesquisar o texto dentro do elemento especificado, especifique o valor yes. Se você especificar não como valor, apenas os atributos dentro do elemento serão serializados. Os atributos que você deseja pesquisar precisam ser especificados na seção de conjunto de atributos.
 
-atributeset
-:   Especifique a ID do conjunto de atributos que você deseja associar a esta regra. O valor all-attrs é um caso especial para indicar que todos os atributos para essa regra devem ser serializados.
+**conjunto de atributos** - Especifique a identificação do conjunto de atributos que você deseja associar a esta regra. O valor all-attrs é um caso especial para indicar que todos os atributos para essa regra devem ser serializados.
 
 Um conjunto de atributos contém uma lista de atributos que você deseja pesquisar no conteúdo DITA. O conjunto de atributos contém o seguinte:
 
-id
-:   Um identificador exclusivo para o conjunto de atributos. Essa ID é especificada no parâmetro attributeset de um conjunto de regras.
+**id** - Um identificador exclusivo para o conjunto de atributos. Essa ID é especificada no parâmetro attributeset de um conjunto de regras.
 
-atributo
-:   Uma lista de atributos que você deseja pesquisar. Para cada atributo, você precisa criar uma entrada individual no elemento `attribute`.
+**atributo** - Uma lista de atributos que você deseja pesquisar. Para cada atributo, você precisa criar uma entrada individual no elemento `attribute`.
 
 Execute as seguintes etapas para adicionar elementos ou atributos DITA personalizados no arquivo de serialização de pesquisa:
 
@@ -196,7 +191,7 @@ As novas informações de serialização são armazenadas e ativadas para pesqui
 
 Depois de fazer qualquer alteração no arquivo de serialização de pesquisa padrão, você deve habilitar a opção Extração de metadados DITA no pacote *com.adobe.fmdita.config.ConfigManager* e executar o fluxo de trabalho para extrair metadados. Isso extrai os metadados necessários dos arquivos DITA existentes, e os mesmos são então disponibilizados para pesquisa.
 
-Caso você crie novos arquivos ou edite qualquer arquivo após atualizar o arquivo de serialização, os metadados serão automaticamente extraídos desses arquivos. O processo de extração de metadados só é necessário para arquivos que já existem no repositório AEM.
+Caso você crie novos arquivos ou edite qualquer arquivo após atualizar o arquivo de serialização, os metadados serão automaticamente extraídos desses arquivos. O processo de extração de metadados só é necessário para arquivos que já existem no repositório do AEM.
 
 A extração de metadados de arquivos DITA existentes envolve duas tarefas:
 
