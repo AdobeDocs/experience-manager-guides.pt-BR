@@ -4,7 +4,7 @@ description: Conhecer o uso de linhas de base no AEM Guides. Saiba como criar, e
 exl-id: 0554947f-3038-4fd2-8a62-ac0d4b858e94
 feature: Publishing
 role: User
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1790'
 ht-degree: 0%
@@ -81,7 +81,7 @@ Execute as seguintes etapas para editar uma linha de base existente:
 1. Faça as alterações necessárias na linha de base. É possível alterar o nome e a versão do tópico ou conteúdo referenciado.
 1. Se quiser usar uma versão diferente para um ou mais tópicos, selecione manualmente esses tópicos. Selecione **Procurar Tópico**, selecione o tópico para o qual deseja usar uma versão diferente. Na lista suspensa Selecionar uma Versão para o tópico selecionado, selecione uma versão do tópico que deseja usar na linha de base e selecione **OK**.
 
-   ![](images/baseline-select-version-drop-down.png){width="800" align="left"}
+   ![](images/baseline-select-version-drop-down.png){align="left"}
 
    As informações sobre o tópico e sua versão selecionada são armazenadas no back-end. Você pode repetir essa etapa para alterar a versão selecionada de vários tópicos.
 
@@ -128,7 +128,7 @@ Execute as seguintes etapas para adicionar um rótulo a vários tópicos e conte
 
 1. Selecione **Adicionar rótulos**.
 
-   ![](images/add-label-baseline-uuid.png){width="800" align="left"}
+   ![](images/add-label-baseline-uuid.png){align="left"}
 
 1. Na caixa de diálogo **Adicionar Rótulo**, especifique um rótulo exclusivo para associar a esta linha de base.
 
@@ -158,7 +158,7 @@ Execute as seguintes etapas para exportar uma Linha de Base traduzida:
 
 1. Na guia **Tradução**, expanda a opção **Linha de Base**, disponível no painel esquerdo.
 
-   ![](images/export-baseline-new.png){width="800" align="left"}
+   ![](images/export-baseline-new.png){align="left"}
 
 1. Selecione a opção **Usar Linha de Base** e escolha a Linha de Base que deseja exportar.
 

@@ -4,7 +4,7 @@ description: Saiba como revisar tópicos e usar os recursos como revisor, exibi�
 exl-id: fc87fc37-f1cd-4a19-96c2-3a08a8222002
 feature: Reviewing
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2423'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Execute as seguintes etapas para revisar um tópico:
 
    A tela a seguir é exibida quando um mapa DITA é usado para iniciar o workflow de revisão:
 
-   ![](images/multiple-topics-review.png){width="800" align="left"}
+   ![](images/multiple-topics-review.png){align="left"}
 
    As seguintes opções estão disponíveis nesta tela:
 
@@ -63,13 +63,13 @@ Execute as seguintes etapas para revisar um tópico:
 
    Todos os tópicos no mapa são mostrados como um único documento composto. Os tópicos que o revisor tem permissão para revisar são mostrados normalmente. Os tópicos que a revisão não tem permissão para revisar não são mostrados.
 
-   ![](images/review-read-only.png){width="800" align="left"}
+   ![](images/review-read-only.png){align="left"}
 
    Na captura de tela acima, o tópico Descrição geral é compartilhado para revisão com o revisor atual, exibido normalmente. No entanto, o próximo tópico, Histórico do conteúdo do voo, não é compartilhado para revisão e é exibido no modo somente leitura. O tópico atualmente em foco também é destacado no índice.
 
    A tela a seguir é exibida quando um ou vários tópicos são selecionados e compartilhados para revisão:
 
-   ![](images/review-composite-view.png){width="800" align="left"}
+   ![](images/review-composite-view.png){align="left"}
 
    >[!NOTE]
    >
@@ -92,7 +92,7 @@ A caixa de comentário suporta entradas de várias linhas e permite que os usuá
 
 Ao exibir um único tópico, você obtém uma opção adicional para alternar de volta para a exibição do documento. Na captura de tela a seguir, um tópico específico de um arquivo de mapa é aberto para revisão. A opção realçada — **Mostrar Exibição de Documento** permite que o usuário alterne de volta para a exibição de documento do arquivo de mapa.
 
-![](images/switch-document-view.png){width="800" align="left"}
+![](images/switch-document-view.png){align="left"}
 
 **Trabalhando com diferentes tipos de ferramentas de comentários** - Você pode adicionar comentários incorporados realçando o texto, percorrendo o texto, inserindo texto ou adicionando uma nota de comentário. Os diferentes tipos de ferramentas de comentários fornecidos na barra de ferramentas Comentários estão descritos abaixo:
 
@@ -159,7 +159,7 @@ A captura de tela a seguir mostra o conteúdo no modo *Visualização*:
 
 Quando você insere qualquer um dos comentários, o pop-up de comentários é exibido. Depois de fornecer comentários ou informações adicionais na janela pop-up, você pode enviá-las pressionando Enter. Depois que o comentário for adicionado, você terá a opção de adicionar um anexo a ele.
 
-![](images/comment-pop-up-panel.png){width="800" align="left"}
+![](images/comment-pop-up-panel.png){align="left"}
 
 Na captura de tela acima, o documento contém o pop-up do comentário de destaque e o comentário também é adicionado no painel Comentários. O ícone de anexo de arquivo ![](images/file-attach-review.svg) está disponível junto com o comentário em ambos os locais.
 
@@ -227,7 +227,7 @@ No modo de visualização, são exibidos o conteúdo não-condicional e o conte�
 
 - Selecionar o ícone Comentário Desatualizado \(![](images/outdated-comment-icon.svg)\) exibe as diferenças entre a versão mais recente e a versão comentada do documento. Os números de versão \(das versões que estão sendo comparadas\) são exibidos na parte superior dos documentos.
 
-  ![](images/comments-page-review-mode.png){width="800" align="left"}
+  ![](images/comments-page-review-mode.png){align="left"}
 
   >[!NOTE]
   >

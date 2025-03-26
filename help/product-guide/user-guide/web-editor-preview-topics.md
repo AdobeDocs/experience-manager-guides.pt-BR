@@ -4,7 +4,7 @@ description: Saiba como visualizar um tópico no Adobe Experience Manager Guides
 exl-id: f4013ac6-226a-4e66-bd7b-604ac7c361ae
 feature: Authoring
 role: User
-source-git-commit: 67d6b6f59e5d8c37389a181949ce4527760576e2
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1988'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Execute as seguintes etapas para visualizar um tópico do Editor:
 
    A Visualização do tópico é exibida.
 
-   ![](images/preview-pop-up.png){width="800" align="left"}
+   ![](images/preview-pop-up.png){align="left"}
 
 **Visualizar tópicos do modo de Visualização**
 
@@ -61,7 +61,7 @@ Execute as seguintes etapas para visualizar um tópico:
 
 As seguintes operações estão disponíveis na barra de ferramentas ao usar o recurso Visualizar na interface do usuário do Assets,
 
-![](images/preview-screen.png){width="800" align="left"}
+![](images/preview-screen.png){align="left"}
 
 
 **Propriedades**
@@ -78,7 +78,7 @@ As referências **Usado em** listam os documentos nos quais o arquivo atual est�
 
 O ícone \(+\) na seção de referências **Usado em** permite navegar para cima para localizar onde esse tópico está sendo usado ou referenciado.
 
-![](images/used-in-dialog_cs.png){width="800" align="left"}
+![](images/used-in-dialog_cs.png){align="left"}
 
 Selecionar o ícone ![](images/right-arrow-used-in-dialog.svg) ao lado de um documento mostra o mapa ou os arquivos de tópico para os quais esse documento está sendo mais referenciado.
 
@@ -108,7 +108,7 @@ Se o tópico tiver conteúdo condicional, você visualizará o ícone A/B na bar
   >
   > Para obter a visualização do código-fonte de um arquivo de mapa DITA, selecione o arquivo na interface do usuário do Assets e selecione Source.
 
-  ![](images/xml-source-code-view-from-preview_cs.png){width="800" align="left"}
+  ![](images/xml-source-code-view-from-preview_cs.png){align="left"}
 
 **Compartilhar Link UUID**
 
@@ -120,7 +120,7 @@ Se o tópico tiver conteúdo condicional, você visualizará o ícone A/B na bar
 
 Uma nova opção **Compartilhar link de UUID** é mostrada na barra de ferramentas das áreas mencionadas acima. A captura de tela a seguir mostra a opção **Compartilhar Link UUID** no modo de Visualização de um tópico:
 
-![](images/share-uuid-link_cs.png){width="800" align="left"}
+![](images/share-uuid-link_cs.png){align="left"}
 
 Na interface do usuário do Assets, essa opção fica visível ao selecionar um arquivo. Enquanto estiver no modo de Visualização, essa opção estará disponível na barra de ferramentas principal por padrão. Em um console de mapa DITA, essa opção está visível na seção Predefinições de saída.
 
@@ -148,7 +148,7 @@ Arquivo com check-out na exibição de lista:
 
 Se a coluna Com check-out não estiver visível, selecione **Configurações de Exibição** em **Exibição da Lista** e selecione o status **Com Check-out** na caixa de diálogo **Configurar Colunas**.
 
-![](images/list-view-settings-check-out_cs.png){width="800" align="left"}
+![](images/list-view-settings-check-out_cs.png){align="left"}
 
 >[!TIP]
 >
@@ -166,17 +166,17 @@ Se a coluna Com check-out não estiver visível, selecione **Configurações de 
 
    1. No painel à esquerda, selecione **Histórico de Versões** e selecione uma versão.
 
-      ![](images/timeline-versions62_cs.png){width="800" align="left"}
+      ![](images/timeline-versions62_cs.png){align="left"}
 
    1. Nas versões listadas, selecione aquela que você deseja usar como a versão base e selecione **Visualizar Versão**. A visualização da versão selecionada é mostrada na janela Visualização de versão.
 
    1. Na lista **Mostrar comparação**, selecione a versão com a qual deseja comparar a versão base.
 
-      ![](images/show-diff-list-cropped.png){width="800" align="left"}
+      ![](images/show-diff-list-cropped.png){align="left"}
 
       O conteúdo alterado é realçado na pré-visualização do tópico. O conteúdo realçado em verde significa que o conteúdo recém-adicionado e o conteúdo em vermelho é o conteúdo excluído.
 
-      ![](images/version-difference.png){width="800" align="left"}
+      ![](images/version-difference.png){align="left"}
 
 
 ## Ramificar, reverter e versões subsequentes

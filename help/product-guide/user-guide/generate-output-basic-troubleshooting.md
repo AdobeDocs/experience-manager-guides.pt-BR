@@ -4,7 +4,7 @@ description: Resolva problemas com a solução básica de problemas no AEM Guide
 exl-id: 57b88291-b5a3-4931-b3ed-f2b2ce7a463c
 feature: Publishing, Troubleshooting
 role: User
-source-git-commit: ff75aca9ddd7b405501a62e055fb99bd5ea2291c
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Execute as seguintes etapas para exibir e verificar o arquivo de log de geraçã
 
    O arquivo de log é aberto em uma nova guia.
 
-   ![](images/log-file.png){width="800" align="left"}
+   ![](images/log-file.png){align="left"}
 
 1. Aplique os seguintes filtros para realçar o texto no arquivo de log:
    - Fatal: realça os erros fatais no arquivo de log com a cor rosa.

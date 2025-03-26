@@ -4,7 +4,7 @@ description: Saiba como trabalhar com o Editor de mapa básico no AEM Guides. Co
 exl-id: 13da729d-e8f7-46ae-873a-1bfc32da974f
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 126cecdaa481b9da1add4ba3664c26c2bc5da068
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1471'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 > O Editor de mapa básico, anteriormente disponível no Experience Manager Guides, foi descontinuado a partir da versão 4.3 e 2307. Não é possível acessar o Editor de mapa básico para criar e gerenciar mapas DITA.
 >É recomendável usar o Editor de mapa avançado. O Editor de mapa avançado oferece recursos aprimorados e melhores opções de personalização. Saiba mais sobre como trabalhar com o [Editor de mapa avançado](../user-guide/map-editor-advanced-map-editor.md).
 
-O Editor básico de mapas fornece um recurso fácil de arrastar e soltar para adicionar tópicos do seu repositório AEM para criar o mapa ou bookmap DITA. Você pode adicionar tópicos aninhados, tabelas de relacionamento \(relacionável\), atributos e informações de metadados e também validar o mapa para correção.
+O Editor de mapa básico fornece um recurso fácil de arrastar e soltar para adicionar tópicos do seu repositório do AEM e criar o mapa ou bookmap DITA. Você pode adicionar tópicos aninhados, tabelas de relacionamento \(relacionável\), atributos e informações de metadados e também validar o mapa para correção.
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ Execute as seguintes etapas para criar seu arquivo de mapa:
 
    O arquivo de mapa é aberto para edição no Editor de mapa. Usando o Editor de mapas, crie um mapa usando os tópicos disponíveis no momento que são exibidos no painel Referências.
 
-   ![](images/dita-map-01.png){width="800" align="left"}
+   ![](images/dita-map-01.png){align="left"}
 
 1. Usando o painel **Referências**, navegue até a pasta que contém os tópicos ou submapas que deseja adicionar.
 
@@ -73,13 +73,13 @@ Execute as seguintes etapas para criar seu arquivo de mapa:
 
 A barra de ferramentas principal no Editor de mapa básico permite executar as seguintes tarefas:
 
-![](images/ditamap-toolbar-actions.png){width="800" align="left"}
+![](images/ditamap-toolbar-actions.png){align="left"}
 
 **A: Pesquisar**
 
 Você pode pesquisar e incluir os tópicos necessários no DAM. Clicar nesse ícone exibe a caixa de diálogo Pesquisar:
 
-![](images/search-dita-map.png){width="800" align="left"}
+![](images/search-dita-map.png){align="left"}
 
 Insira as palavras-chave que você deseja pesquisar; elas são combinadas no nome do arquivo do tópico, no conteúdo e até mesmo nos valores do atributo. Quando os resultados da pesquisa estiverem disponíveis, selecione o tópico desejado\(s\) e clique no botão Verificar para adicionar os arquivos selecionados no final da estrutura do mapa. Você pode filtrar os resultados da pesquisa especificando os parâmetros Modificar Data.
 

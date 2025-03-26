@@ -4,7 +4,7 @@ description: Gere a saída a partir do painel do repositório ou do painel Exibi
 exl-id: f7a4be54-9c51-44e6-96bb-f25e3a6155da
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: a02a7310f5e332f88827a9d5a05034abec05b43a
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Execute as seguintes etapas para gerar saída para um ou mais tópicos em seu ma
    - **Mapa**: lista os mapas DITA que contêm o tópico selecionado.
    - **Status**: exibe o status de publicação de cada tópico.
 Para exibir a saída, passe o mouse sobre o tópico e clique em Exibir saída.
-     ![](images/output-multiple-maps_cs.png){width="800" align="left"}
+     ![](images/output-multiple-maps_cs.png){align="left"}
 
 
 ## Gerar saída para um mapa DITA do Editor da Web

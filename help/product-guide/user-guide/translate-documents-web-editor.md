@@ -4,7 +4,7 @@ description: Traduza o conteúdo para vários idiomas no editor da Web. Saiba co
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: 6b4908e9780ec70f4d11a21680bba384c9636485
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2365'
 ht-degree: 0%
@@ -93,7 +93,7 @@ Antes de executar etapas neste procedimento, verifique se você criou a raiz de 
    - **Rótulo de Destino**: rótulo para a versão selecionada do arquivo de destino
 1. Selecione **Enviar para tradução** no canto superior direito.
 
-   ![](images/translation-send.png){width="800" align="left"}
+   ![](images/translation-send.png){align="left"}
 
 1. Na lista suspensa, selecione **Criar um novo projeto de tradução**.
 

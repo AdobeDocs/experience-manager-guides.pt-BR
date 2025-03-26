@@ -4,7 +4,7 @@ description: Saiba como criar tipos de tópicos DITA usando modelos personalizad
 exl-id: 84e9cfdf-e188-487f-9181-68708029c101
 feature: Authoring
 role: User
-source-git-commit: 67d6b6f59e5d8c37389a181949ce4527760576e2
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 0%
@@ -49,7 +49,7 @@ Execute as seguintes etapas para criar um tópico a partir do Editor:
 
 O tópico é criado no caminho especificado. Além disso, o tópico é aberto no Editor para edição.
 
-![](images/new-topic-editor.png){width="800" align="left"}
+![](images/new-topic-editor.png){align="left"}
 
 ## Criar tópicos na interface do usuário do Assets
 
@@ -61,7 +61,7 @@ Execute as seguintes etapas para criar um tópico na interface do usuário do As
 
 1. Na página Blueprint, selecione o tipo de documento DITA que você deseja criar e selecione **Próximo**.
 
-   ![](images/create_dita_topic.png){width="800" align="left"}
+   ![](images/create_dita_topic.png){align="left"}
 
    Por padrão, o Experience Manager Guides fornece os modelos de tópicos DITA mais usados. Você pode configurar mais modelos de tópico de acordo com seus requisitos organizacionais, exibir *Configurar modelos de criação* em Instalar e configurar o Adobe Experience Manager Guides para sua configuração.
 

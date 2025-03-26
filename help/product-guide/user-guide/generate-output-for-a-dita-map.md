@@ -4,7 +4,7 @@ description: Gere uma saída para um mapa DITA no console do mapa e no painel Ma
 exl-id: d6cbd44c-e74c-4192-bcc4-fb7752c59508
 feature: Publishing
 role: User
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
@@ -54,7 +54,7 @@ Execute as seguintes etapas para gerar saída para um mapa DITA usando o painel 
 
 1. Selecione uma ou várias Predefinições de saída que deseja usar para gerar a saída.
 
-   ![](images/generate-multiple-outputs-uuid.png){width="800" align="left"}
+   ![](images/generate-multiple-outputs-uuid.png){align="left"}
 
 1. Selecione o ícone **Gerar** para iniciar o processo de geração de saída.
 

@@ -3,7 +3,8 @@ title: Geração de saída
 description: Gerencie o processo de geração de saída no AEM Sites, PDF, HTML5, EPUB, personalizado e JSON por meio de plug-ins DITA-OT, publicação original do PDF e FMPS no AEM Guides.
 feature: Publishing
 role: User
-source-git-commit: b061bcbcefba1700665bed33f017a962e84a0433
+exl-id: 11bb3604-f45c-4df7-be74-588dbf8594af
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 0%
@@ -26,7 +27,7 @@ Depois de iniciar a tarefa de geração de saída para um mapa ou gerar novament
 
 1. Selecione **SAÍDAS**.
 
-   ![](images/output-queued.png){width="800" align="left"}
+   ![](images/output-queued.png){align="left"}
 
    A página Saídas é dividida em duas partes:
 
@@ -63,17 +64,17 @@ Execute as seguintes etapas para cancelar uma tarefa de geração de saída no c
 
 1. Selecione o ícone **Cancelar este trabalho**.
 
-   ![](images/cancel-publish-task-map-console.png){width="800" align="left"}
+   ![](images/cancel-publish-task-map-console.png){align="left"}
 
 1. Selecione **Sim** no prompt de mensagem **Confirmar cancelamento**.
 
-   ![](images/confirm-cancel-output-map-console.png){width="800" align="left"}
+   ![](images/confirm-cancel-output-map-console.png){align="left"}
 
    Se a tarefa ainda não tiver sido iniciada, o comando cancel será executado na tarefa. Para uma tarefa que está sendo cancelada, o Status é definido como Canceling.
 
    Quando a tarefa for cancelada com êxito, ela será movida para a lista **Saídas Geradas** com o status **Cancelada**. Quando você passa o mouse sobre a tarefa cancelada, ele mostra o nome do usuário que cancelou a tarefa. Na captura de tela a seguir, a tarefa *HTML5* foi cancelada.
 
-   ![](images/cancelled-output-task.png){width="800" align="left"}
+   ![](images/cancelled-output-task.png){align="left"}
 
 
 ## Excluir uma tarefa de saída
@@ -90,9 +91,8 @@ Execute as seguintes etapas para remover uma tarefa de saída da lista Saída Ge
 
 1. Selecione o ícone de exclusão.
 
-   ![](images/delete-output-task.png){width="800" align="left"}
+   ![](images/delete-output-task.png){align="left"}
 
 1. Selecione **Sim** no prompt de mensagem **Confirmar Exclusão**.
 
    A tarefa é excluída da lista Saída gerada.
-

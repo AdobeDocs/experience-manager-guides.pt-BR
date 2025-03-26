@@ -4,7 +4,7 @@ description: Saiba como exibir o relatório de reutilização de conteúdo no AE
 exl-id: ccae4303-75b1-4077-829a-7ef6a14fd8ad
 feature: Report Generation
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Execute as seguintes etapas para exibir o Relatório de reutilização de conte�
 
 1. Selecione **Gerar relatório** para obter o Relatório de Reutilização de Conteúdo.
 
-   ![](images/content-reuse-uuid.png){width="800" align="left"}
+   ![](images/content-reuse-uuid.png){align="left"}
 
    A página do relatório está dividida em duas partes:
 

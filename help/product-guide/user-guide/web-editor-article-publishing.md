@@ -4,7 +4,7 @@ description: Saiba como publicar um ou mais artigos no console Mapa. Gere saída
 exl-id: d89ce69d-8d4c-4265-bfca-60763f561afd
 feature: Publishing
 role: User
-source-git-commit: 4fbc9c8e28f2b68af0307255eb842065e93fbc83
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 0%
@@ -27,16 +27,16 @@ Execute as seguintes etapas para gerar uma saída baseada em artigo:
 1. Navegue até a guia **Artigos** e selecione os tópicos para os quais deseja gerar a saída.
 1. Selecione **Gerar saída** na parte superior para gerar a saída.
 
-   ![](images/add-preset-articles-tab_cs.png){width="800" align="left"}
+   ![](images/add-preset-articles-tab_cs.png){align="left"}
 
 1. No prompt **Confirmar arquivos para publicação**, selecione os arquivos que deseja publicar e confirme selecionando **Publicar**.
 
-   ![Novo(a) ](images/knowledge-base-confirm-files-for-publishing.png){width="800" align="left"}
+   ![Novo(a) ](images/knowledge-base-confirm-files-for-publishing.png){align="left"}
 
    Você visualizará o status do processo de geração de saída. A coluna **Tópicos** lista os tópicos para os quais a saída está sendo gerada, enquanto a coluna **Status** exibe o status de publicação de cada tópico.
 
 
-   ![](images/add-preset-output-generated_cs.png){width="800" align="left"}
+   ![](images/add-preset-output-generated_cs.png){align="left"}
 
    Para exibir a saída, feche a caixa de diálogo **Saída gerada** e selecione **Exibir saída** na página predefinida.
 

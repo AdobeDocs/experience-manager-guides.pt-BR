@@ -4,7 +4,7 @@ description: Saiba como criar uma tarefa de revisão e enviar tópicos para revi
 exl-id: c486eb6a-7e1f-4faa-973d-b47252d3e7c5
 feature: Reviewing
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2793'
 ht-degree: 0%
@@ -95,7 +95,7 @@ Para criar uma tarefa de revisão e enviar tópicos para revisão, execute as se
 
    A página Content é exibida.
 
-   ![](images/content_page_review.png){width="800" align="left"}
+   ![](images/content_page_review.png){align="left"}
 
 1. Na página Conteúdo, selecione uma versão do tópico que você deseja compartilhar para revisão.
 
@@ -214,7 +214,7 @@ Para enviar um ou vários tópicos juntamente com o arquivo de mapa para revisã
 
    A página Conteúdo é exibida com todos os tópicos referenciados do arquivo de mapa. Se o mapa DITA contiver mapas aninhados, os tópicos desses mapas também serão listados aqui.
 
-   ![](images/content-page-map-review.png){width="800" align="left"}
+   ![](images/content-page-map-review.png){align="left"}
 
 1. Na página Conteúdo, selecione uma versão do tópico que você deseja compartilhar para revisão.
 

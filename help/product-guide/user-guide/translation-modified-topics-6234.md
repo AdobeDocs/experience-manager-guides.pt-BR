@@ -4,7 +4,7 @@ description: Saiba como traduzir novamente um tópico modificado no AEM Guides.
 exl-id: b3228ea9-24a8-44aa-8ba4-e8f44754ffe4
 feature: Translation
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Execute as seguintes etapas para enviar um tópico modificado para nova traduç�
 
    Se você selecionar a seta para exibir mais detalhes, poderá exibir a cópia de idioma específica que está fora de sincronia.
 
-   ![](images/out-of-sync-uuid-new.png){width="800" align="left"}
+   ![](images/out-of-sync-uuid-new.png){align="left"}
 
 1. Marque a caixa de seleção para selecionar os tópicos que deseja enviar para nova tradução.
 

@@ -4,7 +4,7 @@ description: Conhecer os recursos do Editor de mapas no Adobe Experience Manager
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: e1d6123991ddd8d25f76ee03befeb95f020a9834
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2570'
 ht-degree: 0%
@@ -38,7 +38,7 @@ As seguintes opções estão disponíveis na barra de ferramentas da exibição 
 
 Exibe a caixa de diálogo de pesquisa de tópico. Navegue até o arquivo de tópico/mapa que você deseja inserir e escolha **Selecionar** para adicioná-lo ao mapa.
 
-![](images/insert-topic-reference-dialog.png){width="800" align="left"}
+![](images/insert-topic-reference-dialog.png){align="left"}
 
 
 **Grupo de tópicos** - ![](images/topic-group.svg)
@@ -140,7 +140,7 @@ Se você tiver aplicado condições em um tópico, um ícone de filtro será exi
 
 A exibição **Author** permite editar o mapa DITA no Editor. Isso mostra a visualização WYSIWYG do Editor de mapas e alguns dos ícones exibidos na visualização Autor são iguais à visualização Layout.
 
-![](images/map-editor-author-view.png){width="800" align="left"}
+![](images/map-editor-author-view.png){align="left"}
 
 Além disso, você pode exibir os seguintes ícones e executar as tarefas relacionadas na exibição Autor:
 
@@ -243,7 +243,7 @@ Você pode criar uma tarefa de revisão do tópico atual ou mapear o arquivo dir
 
 Essa visualização permite editar o conteúdo em seu formato bruto, fornecendo controle total sobre a estrutura e a formatação.
 
-![](images/map-editor-source-view.png){width="800" align="left"}
+![](images/map-editor-source-view.png){align="left"}
 
 
 Nesta exibição, a barra de ferramentas fornece opções básicas de edição de conteúdo e inserção disponíveis no menu suspenso **Menu**, incluindo Recortar, Copiar, Desfazer, Refazer, Excluir, Localizar e substituir, Rótulo de versão, Mesclar, Salvar como nova versão, Bloquear e Desbloquear.
@@ -254,7 +254,7 @@ O modo de Visualização renderiza o conteúdo como ele aparecerá na saída fin
 
 Além de poder exibir a posição de cada arquivo de tópico em um mapa, é desejável exibir o conteúdo do mapa em um fluxo consecutivo. O recurso Visualizar mapa permite visualizar todo o conteúdo do arquivo de mapa em um único clique. Não é necessário gerar uma saída do arquivo de mapa para visualizar como o mapa inteiro será exibido depois de publicado. Você pode simplesmente acessar a visualização do mapa e todos os tópicos e submapas são renderizados na forma de um livro.
 
-![](images/map-editor-preview.png){width="800" align="left"}
+![](images/map-editor-preview.png){align="left"}
 
 >[!NOTE]
 >
@@ -315,7 +315,7 @@ Para editar tópicos por meio de um mapa DITA, execute as seguintes etapas:
 
    É possível abrir vários tópicos no editor e cada tópico é aberto em uma nova guia no editor. Mesmo que o mapa DITA contenha submapas, os tópicos desses submapas também serão abertos em uma nova guia para edição. Se quiser exibir os tópicos em um submapa, selecione e expanda o submapa.
 
-   ![](images/web-editor-multiple-topics.png){width="800" align="left"}
+   ![](images/web-editor-multiple-topics.png){align="left"}
 
    Se você selecionar um arquivo de mapa, o mapa será aberto em uma nova guia do Editor.
 

@@ -4,7 +4,7 @@ description: Reatribua uma tarefa de revisão usando notificações no AEM Guide
 exl-id: 6cd01564-aa26-4773-9c95-9dc519706f27
 feature: Reviewing
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Execute as seguintes etapas para reatribuir uma tarefa de revisão a partir da n
    >
    > O revisor deve ter as permissões para reatribuir e deve fazer parte do grupo de usuários administradores.
 
-   ![](images/reassign-user-inbox.png){width="800" align="left"}
+   ![](images/reassign-user-inbox.png){align="left"}
 
 1. Selecione **Reatribuir**.
 

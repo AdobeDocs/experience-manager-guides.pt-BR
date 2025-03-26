@@ -4,7 +4,7 @@ description: Crie e configure sites do AEM predefinidos no AEM Guides no Painel 
 feature: Publishing
 role: User
 exl-id: 641c98ca-b815-4176-abf5-a12c31ff4496
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2404'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Você pode gerar a saída do AEM Sites para um ou mais tópicos ou para o mapa D
 
 Outra maneira de vincular conteúdo é criar um link usando o `peer` `@scope`. Para esse conteúdo, o link é resolvido no tempo de execução ao escolher o título do arquivo e o contexto configurado para o tópico vinculado no contexto de publicação do mapa DITA. A captura de tela a seguir mostra o painel Propriedades para um link que tem o `peer` `@scope`:
 
-![](images/peer-link-scope-link-new.png){width="800" align="left"}
+![](images/peer-link-scope-link-new.png){align="left"}
 
 Para simplificar a publicação de mapas complexos e tópicos vinculados a outros tópicos em outros mapas, o Adobe Experience Manager Guides permite definir o contexto de publicação de cada predefinição de saída.
 
@@ -65,7 +65,7 @@ Execute as seguintes etapas para especificar o contexto de publicação para arq
 
    Você obtém as guias Configurações de predefinições do AEM e Contexto de publicação.
 
-   ![](images/aem-site-publish-settings.png){width="800" align="left"}
+   ![](images/aem-site-publish-settings.png){align="left"}
 
 1. Abra a guia **Contexto de Publicação**.
 
@@ -77,7 +77,7 @@ Execute as seguintes etapas para especificar o contexto de publicação para arq
 
    Por padrão, todos os tópicos vinculados têm sua predefinição de saída e mapa mais recentes selecionados.
 
-   ![](images/default-publish-context.png){width="800" align="left"}
+   ![](images/default-publish-context.png){align="left"}
 
 1. Para alterar a seleção padrão do mapa e predefinição DITA, selecione **Editar** \(na barra de ferramentas principal\).
 

@@ -4,7 +4,7 @@ description: Saiba como transmitir os metadados para a saída usando a publicaç
 exl-id: 70ca32dc-56c3-45ee-b6b9-0efb8cc79ea1
 feature: Publishing, Metadata Management
 role: User
-source-git-commit: e1d6123991ddd8d25f76ee03befeb95f020a9834
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Execute as seguintes etapas para transmitir os metadados para a saída usando a 
 1. Selecione e abra uma predefinição de saída para a qual deseja passar os campos de metadados. Por exemplo, selecione Predefinição de saída PDF. Verifique se ele foi criado usando a opção **DITA-OT**.
 1. Na lista suspensa **Propriedades do arquivo**, selecione os metadados que deseja passar para a publicação DITA-OT.
 
-   ![](images/custom-metadata-output-preset-new.png){width="800" align="left"}
+   ![](images/custom-metadata-output-preset-new.png){align="left"}
 
    A lista suspensa Propriedades lista as propriedades personalizadas e padrão. Por exemplo, na captura de tela acima `dc:description`, `dc:language`, `dc:title` e `docstate` são as propriedades padrão.
 
@@ -61,7 +61,7 @@ Se estiver trabalhando na **Interface do usuário do Assets**, execute as seguin
 1. Selecione e edite uma predefinição de saída para a qual deseja passar os campos de metadados. Por exemplo, selecione Predefinição de saída PDF.
 1. Selecione a opção **DITA-OT** na predefinição de saída selecionada.
 
-   ![](images/custom-meta-data-output-preset.png){width="800" align="left"}
+   ![](images/custom-meta-data-output-preset.png){align="left"}
 
 1. Na lista suspensa Propriedades, selecione os metadados que deseja transmitir para a publicação DITA-OT.
 

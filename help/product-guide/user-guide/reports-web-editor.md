@@ -4,7 +4,7 @@ description: Gerar relatórios de mapa DITA no console de mapas no AEM Guides. S
 exl-id: 2f202b41-85d9-4a5a-aa28-e25715ce5e2e
 feature: Report Generation
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2568'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Você pode exibir a lista de tópicos, gerenciar os metadados de todas as refer�
 
 Você pode localizar todos os quatro relatórios do painel **Relatórios**. Com base em suas necessidades, você pode selecionar qualquer um dos relatórios mostrados aqui.
 
-![](images/reports-demo.png){width="800" align="left"}
+![](images/reports-demo.png){align="left"}
 
 O painel Relatórios fornece acesso a quatro tipos diferentes de relatórios. Cada relatório, juntamente com sua acessibilidade e recursos, é discutido detalhadamente abaixo.
 
@@ -44,7 +44,7 @@ Você pode exibir o relatório da lista de tópicos de um mapa executando as seg
 
 1. Selecione **Lista de Tópicos** no painel Relatórios. A lista de tópicos presentes no mapa DITA é exibida.
 
-   ![](images/web-editor-topiclist-panel-new.png){width="800" align="left"}
+   ![](images/web-editor-topiclist-panel-new.png){align="left"}
 
 1. No painel **Filtros**, você pode filtrar seus tópicos com base no **Tipo de referência** \(direto ou indireto\), **Estado do Documento** \(por exemplo, se os tópicos estiverem no estado Editar, Em Revisão ou Revisado, eles serão listados\) ou no **Autor** do tópico.
 
@@ -78,7 +78,7 @@ Você pode exibir o relatório de metadados de um mapa executando as seguintes e
 1. Selecione **Metadados** no painel Relatórios. A lista de todas as referências de um mapa é exibida junto com seus metadados, como tags, estado do documento e metadados personalizados. Para adicionar uma nova coluna de metadados personalizada, consulte a seção [Adicionar colunas de metadados personalizados](#add-custom-metadata-columns).
 
 
-   ![](images/web-editor-metadata-panel-new.png){width="800" align="left"}
+   ![](images/web-editor-metadata-panel-new.png){align="left"}
 
 
 1. No painel **Filtros**, você pode filtrar seus tópicos com base no **Estado do Documento** \(por exemplo, se os tópicos estiverem no estado Editar, Em Revisão ou Revisado, eles serão listados\), **Referências** \(direto ou indireto\), **Tipo de Arquivo** \(Mapa, Tópico, Documento, Imagem, Vídeo e Outros\) da referência.
@@ -127,7 +127,7 @@ Para atualizar os metadados, execute as seguintes etapas:
    >
    > Não é possível selecionar arquivos com check-out. Um ícone de check-out também é exibido próximo ao título de um arquivo com check-out. Você pode passar o mouse sobre o ícone para visualizar o nome do usuário.
 
-   ![](images/all-selection.png){width="800" align="left"}
+   ![](images/all-selection.png){align="left"}
 
 
 1. Selecione **Gerenciar** de cima.
@@ -225,13 +225,13 @@ Você pode exibir o relatório de links desfeitos executando as seguintes etapas
    - Quando você ordena por **Link quebrado**, os caminhos dos links quebrados são exibidos na primeira coluna e, em seguida, os nomes de todas as referências nas quais eles foram usados são exibidos em outra coluna em linhas separadas. Se o mesmo link quebrado for usado em vários arquivos, eles serão exibidos em uma linha e serão mostrados como agrupados ou sublinhas. Por exemplo, a captura de tela a seguir mostra dois links desfeitos na primeira coluna e a referência na qual eles são usados, `m_ElectricalSpecs_900.ditamap`, é exibida na terceira coluna em duas linhas separadas.
 
 
-   ![](images/broken-link-report-new.png){width="800" align="left"}
+   ![](images/broken-link-report-new.png){align="left"}
 
 
    - Se ordenar por **Usado na** coluna, você exibirá a exibição transposta na qual os nomes das referências nas quais os links desfeitos foram usados são listados na primeira coluna, enquanto os links desfeitos são listados em outra coluna na mesma linha. Por exemplo, a captura de tela a seguir mostra a referência (em que o link quebrado é usado) `m_ElectricalSpecs_900.ditamap` na primeira coluna e os links quebrados são exibidos na terceira coluna na mesma linha.
 
 
-   ![](images/broken-link-filter-usedin-new.png){width="800" align="left"}
+   ![](images/broken-link-filter-usedin-new.png){align="left"}
 
 
 1. Você pode filtrar os links com falha com base no **Tipo de Arquivo** e no **Tipo de Link**. A lista de links com falha é exibida com base na sua seleção na lista suspensa. Por exemplo, você pode optar por exibir apenas as referências de conteúdo no mapa DITA, e um arquivo mostra apenas as referências de conteúdo corrompidas usadas nele.

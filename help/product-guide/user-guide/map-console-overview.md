@@ -3,23 +3,23 @@ title: Console de mapas no Adobe Experience Manager Guides
 description: Saiba mais sobre o Console de mapas e os vários recursos disponíveis que permitem publicar e gerenciar mapas no Adobe Experience Manager Guides.
 feature: Publishing
 role: User
-source-git-commit: 4c13d0dab23c19fe2340128aaa05803bb711a486
+exl-id: b273b1ae-fbb2-4b35-abce-0df78eeb2e11
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 0%
 
 ---
 
-
 # Visão geral do console de mapa
 
 O Adobe Experience Manager Guides oferece um console dedicado, conhecido como **Console de mapas**, para simplificar todas as tarefas de publicação e gerenciamento de mapas. Essa interface centralizada aumenta a produtividade e a precisão de suas atividades relacionadas a mapas, oferecendo opções para gerar saídas, traduzir conteúdo, acessar relatórios e muito mais, tudo em um só lugar.
 
-![guia de opções de propriedades do arquivo](./images/map-console-screen.png){width="800" align="left"}
+![guia de opções de propriedades do arquivo](./images/map-console-screen.png){align="left"}
 
 A interface do console do Mapa está dividida principalmente em duas seções: **Barra de navegação** e **Painel esquerdo**.
 
-![Novo](images/map-console-sections.png){width="800" align="left"}
+![Novo](images/map-console-sections.png){align="left"}
 
 - (**A**) **Barra de navegação**: a barra de navegação apresenta ferramentas para alternar a navegação, ajustar a exibição de página e exibir o nome do arquivo de mapa selecionado.
 

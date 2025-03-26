@@ -4,7 +4,7 @@ description: Entenda como criar e editar arquivos DITAVAL usando o Editor DIVATA
 exl-id: f3901a4f-1925-42aa-b773-0d6f18175ce8
 feature: Authoring, DITAVAL Editor
 role: User
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Execute as seguintes etapas para criar um arquivo DITAVAL:
 
 1. No painel Repositório, selecione o ícone **Novo arquivo** e selecione **Tópico** no menu suspenso.
 
-   ![](images/new-file-option.png){width="800" align="left"}
+   ![](images/new-file-option.png){align="left"}
 
    Você também pode acessar esta opção a partir da [Página inicial do Experience Manager Guides](./intro-home-page.md) e do menu de opções de uma pasta na exibição Repositório.
 
@@ -49,7 +49,7 @@ Execute as seguintes etapas para criar um arquivo DITAVAL:
 
 O tópico é criado no caminho especificado. Além disso, o tópico é aberto no Editor para edição.
 
-![](images/ditaval-file-editor.png){width="800" align="left"}
+![](images/ditaval-file-editor.png){align="left"}
 
 ## Editar arquivo DITAVAL
 

@@ -4,7 +4,7 @@ description: Saiba como criar uma predefinição JSON no console de Mapa. Config
 exl-id: 9eb426fc-ca0a-4932-8a55-fea731281a0a
 feature: Publishing
 role: User
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '794'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Depois que a predefinição é criada, é possível definir as seguintes configu
 
 Para obter detalhes, consulte [Configuração JSON](#json-configuration).
 
-![](images/json-preset-config.png){width="800" align="left"}
+![](images/json-preset-config.png){align="left"}
 
 ## Configuração JSON
 

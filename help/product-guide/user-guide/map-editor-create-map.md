@@ -4,7 +4,7 @@ description: Crie um mapa com o Editor de mapas no Experience Manager Guides. En
 exl-id: b9cda118-ab6f-4d6b-9616-a083180ba069
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1555'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Execute as seguintes etapas para criar um mapa:
 
 1. No painel Repositório, selecione o ícone **Novo arquivo** e selecione **Mapa DITA** no menu suspenso.
 
-   ![](images/create-map-options.png){width="800" align="left"}
+   ![](images/create-map-options.png){align="left"}
 
    Você também pode acessar esta opção a partir da [Página inicial do Experience Manager Guides](./intro-home-page.md) e do menu de opções de uma pasta na exibição Repositório.
 
@@ -38,7 +38,7 @@ Execute as seguintes etapas para criar um mapa:
 
 O mapa é criado no caminho especificado. Além disso, o mapa é aberto no Editor de mapas para edição.
 
-![](images/map-file-in-map-editor.png){width="800" align="left"}
+![](images/map-file-in-map-editor.png){align="left"}
 
 ## Adicionar tópicos a um arquivo de mapa
 
@@ -53,7 +53,7 @@ Execute as seguintes etapas para adicionar tópicos a um arquivo de mapa no cons
 
 1. O arquivo de mapa é aberto no Editor de Mapas. Se você tiver aberto um novo arquivo de mapa, então somente o título do mapa será mostrado no editor.
 
-   ![](images/new-map-file-in-editor.png){width="800" align="left"}
+   ![](images/new-map-file-in-editor.png){align="left"}
 
 
    - **A** - \(*Barra de guias*\): é semelhante à barra de guias do Editor. Exiba a [barra de guias](./web-editor-features.md#tab-bar) no Editor para obter mais detalhes.
@@ -76,7 +76,7 @@ Execute as seguintes etapas para adicionar tópicos a um arquivo de mapa no cons
 
    O tópico é adicionado no mapa.
 
-   ![adicionar tópico](images/map-editor-add-topic.png){width="800" align="left"} ao editor de mapa
+   ![adicionar tópico](images/map-editor-add-topic.png){align="left"} ao editor de mapa
 
 1. Para adicionar tópicos subsequentes ou um submapa, arraste e solte o tópico ou submapa no local necessário no mapa.
 
@@ -84,7 +84,7 @@ Execute as seguintes etapas para adicionar tópicos a um arquivo de mapa no cons
 
    - O arquivo é adicionado em um local onde a barra retangular tracejada aparece na área de edição de mapa. Na captura de tela a seguir, o tópico *A sample topic* será adicionado entre os tópicos *Smart Suggest 1* e *Smart Suggest 2*.
 
-     ![](images/horizontal-line-in-adv-map-editor.png){width="800" align="left"}
+     ![](images/horizontal-line-in-adv-map-editor.png){align="left"}
 
    - Para substituir um tópico, arraste e solte o novo tópico sobre o tópico que deseja substituir. e soltá-lo sobre indica que será substituído pelo tópico que está sendo solto sobre ele.
 
@@ -94,7 +94,7 @@ Execute as seguintes etapas para adicionar tópicos a um arquivo de mapa no cons
 
    - Para alterar a posição de um tópico, selecione o tópico \(selecionando o ícone de tópico\) e arraste-o e solte-o no local desejado no arquivo de mapa. Na captura de tela a seguir, o tópico *Sugestão Inteligente 1* está sendo movido após o *Um tópico de amostra*.
 
-     ![](images/move-topic-adv-map-editor.png){width="800" align="left"}
+     ![](images/move-topic-adv-map-editor.png){align="left"}
 
    - Para verificar as propriedades do arquivo de mapa, clique com o botão direito do mouse em qualquer lugar na área de edição de mapas e escolha **Propriedades** no menu de contexto. Com base na sua versão do Adobe Experience Manager, você pode visualizar propriedades como metadados, programação de ativação, referências, estado do documento e muito mais.
 
@@ -116,7 +116,7 @@ Execute as seguintes etapas para criar um mapa na interface do usuário do Asset
    >
    > A forma como os tópicos são referenciados em um arquivo de mapa depende do modelo de mapa. Por exemplo, se o modelo de Mapa for selecionado, as referências de tópico \(`topicref`\) serão usadas para fazer referência a tópicos. No caso de um Bookmap, as referências de tópico são criadas usando o elemento `chapter` no DITA.
 
-   ![](images/map-template.png){width="800" align="left"}
+   ![](images/map-template.png){align="left"}
 
 1. Na página Propriedades, especifique o mapa **Título**.
 
@@ -132,7 +132,7 @@ Execute as seguintes etapas para criar um mapa na interface do usuário do Asset
 
    Cada novo arquivo de mapa criado na interface do usuário do Assets ou no Editor recebe uma ID de mapa exclusiva. Além disso, o novo mapa é salvo como a cópia de trabalho mais recente no DAM. Até salvar uma revisão de um mapa recém-criado, você não exibirá nenhum número de versão no Histórico de versões. Se você abrir o mapa para edição, as informações da versão serão mostradas no canto superior direito da guia do arquivo de mapa:
 
-   ![](images/first-version-map-none.png){width="800" align="left"}
+   ![](images/first-version-map-none.png){align="left"}
 
    As informações de versão para um mapa recém-criado são mostradas como *nenhuma*. Ao salvar uma nova versão, um número de versão é atribuído como 1.0. Para obter mais informações sobre como salvar uma nova versão, consulte [Salvar como nova versão](web-editor-features.md#save-as-new-version).
 
@@ -160,11 +160,11 @@ Execute as seguintes etapas para adicionar tópicos a um arquivo de mapa da inte
 
 1. Com o arquivo de mapa selecionado, selecione **Editar tópicos**.
 
-   ![](images/edit-map-main-menu.png){width="800" align="left"}
+   ![](images/edit-map-main-menu.png){align="left"}
 
    Ou você também pode selecionar a opção **Editar Tópicos** no menu de ações no arquivo de mapa:
 
-   ![](images/edit-map-action-menu.png){width="800" align="left"}
+   ![](images/edit-map-action-menu.png){align="left"}
 
    O arquivo de mapa é aberto para edição no Editor. Para adicionar tópicos ao arquivo de mapa, siga as etapas (4-8) em [Adicionar tópicos a um arquivo de mapa](#add-topics-to-a-map-file).
 

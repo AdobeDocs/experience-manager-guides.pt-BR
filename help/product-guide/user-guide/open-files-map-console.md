@@ -3,7 +3,8 @@ title: Sobre a Abertura de Arquivos no Console do Mapa
 description: Saiba mais sobre como abrir um arquivo de mapa DITA na interface do Console de mapas do Adobe Experience Manager Guides.
 feature: Publishing
 role: User
-source-git-commit: 2e233a1bf061eba539a4af483f5f9ba32ff613c2
+exl-id: 9443ffe8-77db-454a-b2cb-a135ada24d10
+source-git-commit: 1bde45c92d543f47a3a4482dad5aecfbf5753808
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 0%
@@ -44,9 +45,4 @@ Você também pode abrir um arquivo de mapa existente no console Mapa a partir d
 
    O arquivo de mapa é aberto no console Mapa.
 
-   ![Novo(a) ](images/map-console.png){width="800" align="left"}
-
-
-
-
-
+   ![Novo(a) ](images/map-console.png){align="left"}

@@ -4,7 +4,7 @@ description: Use dados da sua fonte de dados no AEM Guides. Saiba como inserir u
 exl-id: fbd5eff2-451b-49d6-ba77-6eb271e94349
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2386'
 ht-degree: 0%
@@ -154,7 +154,7 @@ Clique com o botão direito do mouse em um gerador de trecho de conteúdo para a
 
 Você também pode usar os **Dados de consulta** ![](images/data-sources-new-icon.svg) da barra de ferramentas para inserir o trecho de dados nos tópicos.  Você pode selecionar um gerador na lista suspensa, editar sua query ou alterar o modelo e inserir os dados em seu tópico.
 
-![](images/add-content-snippet-generator.png){width="800" align="left"}
+![](images/add-content-snippet-generator.png){align="left"}
 
 *Editar e inserir um trecho de dados.*
 
@@ -248,7 +248,7 @@ Execute as seguintes etapas para criar um tópico usando o gerador de tópicos:
 
 
 
-   ![](images/add-topic-generator.png){width="800" align="left"}
+   ![](images/add-topic-generator.png){align="left"}
 
    *Gerar novos tópicos a partir de um gerador de tópicos existente.*
 

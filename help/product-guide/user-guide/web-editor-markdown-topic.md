@@ -4,7 +4,7 @@ description: Criação de documentos de markdown a partir do Editor. Saiba como 
 exl-id: def14e35-27c5-4b90-bc3d-eef7e8f317d2
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1254'
 ht-degree: 1%
@@ -81,7 +81,7 @@ Features available in the tab bar are explained as follows:
 
 A barra de ferramentas está localizada logo abaixo da barra de guias. Os recursos disponíveis na barra de ferramentas são explicados da seguinte maneira:
 
-![](images/markdown-main-toolbar.png){width="800" align="left"}
+![](images/markdown-main-toolbar.png){align="left"}
 
 | Recursos | Descrição |
 |----------------|----------------|
@@ -104,7 +104,7 @@ A área de edição de conteúdo exibe a fonte do Markdown do tópico, onde voc�
 
 Para criação de markdown, o Editor aceita três modos de exibição diferentes para auxiliar na criação e formatação de conteúdo:
 
-![](images/markdown-footer.png){width="800" align="left"}
+![](images/markdown-footer.png){align="left"}
 
 * Origem
 * Lado a lado

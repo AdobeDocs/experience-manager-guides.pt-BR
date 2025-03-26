@@ -4,7 +4,7 @@ description: Saiba como tratar comentários de revisão como autor no AEM Guides
 exl-id: 4c969788-f700-4fd6-8afa-8e5b411b59f3
 feature: Reviewing
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1024'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Um autor pode endereçar comentários em um documento do Editor da Web. Indicado
 >
 > Ao abordar os comentários de revisão \(para um documento de revisão ativo\), certifique-se de que você—não abra o tópico em revisão em várias guias com a exibição de tags completas ativada, não alterne entre os modos de exibição Autor e Source.
 
-![](images/comments-page-web-editor_cs-new.png){width="800" align="left"}
+![](images/comments-page-web-editor_cs-new.png){align="left"}
 
 No modo Editor da Web, o painel direito contém os ícones Revisar e Controlar alterações. O painel Revisão mostra todos os comentários feitos em seu documento pelos revisores. O painel **Controlar Alterações** mostra o status de todos os comentários inseridos e excluídos no documento.
 
@@ -54,11 +54,11 @@ No modo Editor da Web, o painel direito contém os ícones Revisar e Controlar a
 
   Se quiser incorporar a alteração sugerida \(inserção ou exclusão\) uma de cada vez, basta clicar com o botão direito do mouse no comentário no conteúdo e selecionar Aceitar alteração ou Rejeitar alteração. Dependendo da sua seleção, o comentário será aceito ou rejeitado. No caso de comentário aceito, o conteúdo é adicionado ao conteúdo; e no caso de rejeição, ele é removido do conteúdo. Além disso, o status do comentário é alterado no painel Revisão.
 
-  ![](images/import-comment-accept-web-editor_cs-new.png){width="800" align="left"}
+  ![](images/import-comment-accept-web-editor_cs-new.png){align="left"}
 
   Você também pode usar o painel Controlar alterações para aceitar ou rejeitar comentários. Selecionar qualquer comentário realça o comentário no documento.
 
-  ![](images/changes-tab_cs-new.png){width="800" align="left"}
+  ![](images/changes-tab_cs-new.png){align="left"}
 
   >[!IMPORTANT]
   >

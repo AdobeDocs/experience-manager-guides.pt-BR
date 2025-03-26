@@ -4,7 +4,7 @@ description: Crie e configure a predefinição do AEM Sites no console do Mapa u
 feature: Publishing
 role: User
 exl-id: f3657268-9dee-43af-b643-499dbc3ca948
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '3533'
 ht-degree: 0%
@@ -122,7 +122,7 @@ A guia **Conteúdo** contém as seguintes opções de configuração:
 
 A guia **Lista de tópicos** exibe a lista de tópicos presentes na cópia de trabalho atual do mapa DITA. Por padrão, todos os tópicos são incluídos. Você pode selecionar tópicos específicos e gerar a saída do AEM Sites somente para eles. Por exemplo, você atualizou alguns tópicos para poder publicar somente esses tópicos, em vez de publicar o mapa DITA inteiro.
 
-![lista de tópicos do aem sites](images/aem-presets-topic-list.png) {width="800" align="left"}
+![lista de tópicos do aem sites](images/aem-presets-topic-list.png) {align="left"}
 
 
 >[!NOTE]

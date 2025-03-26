@@ -4,7 +4,7 @@ description: Saiba como a geração de saída incremental para o AEM Sites funci
 exl-id: 019d9fbf-2f23-4669-8022-d693be75c1c3
 feature: Publishing
 role: User
-source-git-commit: b061bcbcefba1700665bed33f017a962e84a0433
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Execute as seguintes etapas para gerar saída incremental para o AEM Sites usand
 1. Selecione a predefinição do AEM Sites para a qual deseja gerar saída incremental.
 1. Na guia **Tópicos**, selecione os tópicos que deseja publicar.
 
-   ![lista de tópicos do aem sites](images/aem-presets-topic-list.png) {width="800" align="left"}
+   ![lista de tópicos do aem sites](images/aem-presets-topic-list.png) {align="left"}
 
    >[!NOTE]
    >
@@ -64,7 +64,7 @@ Execute as seguintes etapas para gerar saída incremental para o AEM Sites usand
    >
    > Se você tiver adicionado novos tópicos ao mapa DITA, não será possível gerar esses novos tópicos a partir daqui. Primeiro, publique os tópicos adicionados recentemente usando a função de publicação de mapa DITA.
 
-   ![](images/regenerate-topics.png){width="800" align="left"}
+   ![](images/regenerate-topics.png){align="left"}
 
 1. Selecione **Regenerar**.
 

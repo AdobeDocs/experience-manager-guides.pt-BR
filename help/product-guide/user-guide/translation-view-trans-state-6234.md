@@ -4,7 +4,7 @@ description: Saiba como visualizar o status da tradução e as cópias de idioma
 exl-id: 6ed30bc6-3030-40fd-987a-928fd5b06ee6
 feature: Translation
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 0%
@@ -26,6 +26,6 @@ Execute as seguintes etapas para exibir o status de tradução de um mapa DITA:
    >
    > Você pode filtrar ainda mais o conteúdo com base no Status da tradução \(como Fora de sincronização, Cópia ausente, Em andamento ou Em sincronia\), Tipo de Source \(como Todos, DITA, mapa DITA ou Recurso\) e data de modificação. Além disso, você pode digitar palavras-chave para procurar tópicos específicos. Você pode usar **Atualizar** para atualizar o status se alguma alteração tiver sido feita.
 
-   ![](images/translation-status-new.png){width="800" align="left"}
+   ![](images/translation-status-new.png){align="left"}
 
 **Tópico principal:**[ Visão geral da tradução de conteúdo](translation.md)
