@@ -4,7 +4,7 @@ description: Saiba como criar tipos de tópicos DITA usando modelos personalizad
 exl-id: 84e9cfdf-e188-487f-9181-68708029c101
 feature: Authoring
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: c6709ffb8e415c88931e732456e2f2a5e6b63729
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Execute as seguintes etapas para criar um tópico a partir do Editor:
 
 1. No painel Repositório, selecione o ícone **Novo arquivo** e selecione **Tópico** no menu suspenso.
 
-   ![](create-topic-option.png){width="500" align="left"}
+   ![](images/create-topic-option.png){width="500" align="left"}
 
    Você também pode acessar esta opção a partir da [Página inicial do Experience Manager Guides](./intro-home-page.md) e do menu de opções de uma pasta na exibição Repositório.
 
