@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leia a documentação do produto do Adobe Experience Manager Guides.
 breadcrumb-title: Documentação do AEM Guides
-source-git-commit: 5ae05935d254b03ad99221bd5f65dbb6a3580c5f
+source-git-commit: c424466b2487879f091849c0f174772474331aac
 workflow-type: tm+mt
-source-wordcount: '2052'
-ht-degree: 6%
+source-wordcount: '2058'
+ht-degree: 7%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 6%
                - [Problemas corrigidos](./release-info/fixed-issues-2024-2-0.md)
                - [Instruções de atualização](./release-info/upgrade-instructions-2024-2-0.md)
          - Versões de 2023 {#2023-releases}
-            - Versão de dezembro de {#2312-release}
+            - Versão de dezembro {#2312-release}
                - [Novidades](./release-info/whats-new-2023-12-0.md)
                - [Notas de versão](./release-info/release-notes-2023-12-0.md)
             - Versão de novembro {#2311-release}
@@ -104,7 +104,7 @@ ht-degree: 6%
             - [Novidades](./release-info/whats-new-4-4.md)
             - [Problemas corrigidos](./release-info/fixed-issues-4-4.md)
             - [Instruções de atualização](./release-info/upgrade-instructions-4-4.md)
-         - 4.3.1.5 Versão {#4315-release}
+         - Versão 4.3.1.5 {#4315-release}
             - [Problemas corrigidos](./release-info/fixed-issues-4-3-1-5.md)
             - [Instruções de atualização](./release-info/upgrade-instructions-4-3-1-5.md)
          - Versão 4.3.0 {#43-release}
@@ -124,13 +124,13 @@ ht-degree: 6%
          - [Notas de versão 4.1.x](./release-info/release-notes-4-1.md)
          - [Notas de versão do 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
          - [Notas de versão da 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
-- Guia do Usuário (Nova Interface do Usuário) {#user-guide}
+- Guia do usuário (nova interface do usuário) {#user-guide}
    - Introdução {#about-aemg}
       - [Sobre [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
-      - [!DNL AEM Guides] trabalhando e recursos principais {#aemg-works-features}
+      - [!DNL AEM Guides] trabalhando e os principais recursos {#aemg-works-features}
          - [Como [!DNL AEM Guides] funciona](./user-guide/intro-how-dxml-works.md)
          - [Recursos da chave [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
-   - Página inicial {#home-page}
+   - Home page {#home-page}
       - [Experiência da página inicial [!DNL AEM Guides]](./user-guide/intro-home-page.md)
    - Conteúdo do autor {#author-content}
       - [Visão geral de criação](./user-guide/authoring-content.md)
@@ -161,7 +161,7 @@ ht-degree: 6%
          - [Recursos adicionais no Editor de mapas](./user-guide/map-editor-other-features.md)
       - Editor DITAVAL {#ditaval-editor}
          - [Usar o editor DITAVAL](./user-guide/ditaval-editor.md)
-      - Ferramentas de área de trabalho para criação de conteúdo {#author-using-desktop-tools}
+      - Ferramentas de desktop para criação de conteúdo {#author-using-desktop-tools}
          - [Criar conteúdo usando ferramentas de desktop](./user-guide/author-desktop-tools.md)
    - Revisar conteúdo {#review}
       - [Introdução à revisão](./user-guide/review.md)
@@ -212,7 +212,7 @@ ht-degree: 6%
             - [Personalizado](./user-guide/generate-output-custom.md)
             - [JSON](./user-guide/generate-output-json.md)
          - [Editar, duplicar ou excluir uma predefinição de saída](./user-guide/generate-output-create-edit-preset.md)
-         - Condicionalizar conteúdo {#conditional-content}
+         - Condicionar conteúdo {#conditional-content}
             - [Usar predefinições de condição](./user-guide/generate-output-use-condition-presets.md)
             - [Criação de perfil de atributo condicional](./user-guide/generate-output-conditional-attribute-profiling.md)
          - Usar Linha de Base {#work-with-baseline}
@@ -224,7 +224,7 @@ ht-degree: 6%
          - Gerar saída {#generate-output}
             - [Gerar saída para um mapa DITA](./user-guide/generate-output-for-a-dita-map.md)
             - [Gerar saída da knowledge base](./user-guide/web-editor-article-publishing.md)
-            - Publicação de tópico único {#single-topic-publishing}
+            - Publicação de um único tópico {#single-topic-publishing}
                - [Publicar fragmentos de conteúdo](./user-guide/publish-content-fragment.md)
                - [Publicar fragmentos de experiência](./user-guide/publish-experience-fragment.md)
                - [Publicar páginas do AEM Sites](./user-guide/publish-aem-sites.md)
@@ -233,7 +233,7 @@ ht-degree: 6%
          - [Gerenciar processo de geração de saída](./user-guide/generate-output-manage-process.md)
          - [Gerenciar tarefas de publicação usando o Painel de publicação](./user-guide/generate-output-publish-dashboard.md)
          - [Solução básica de problemas](./user-guide/generate-output-basic-troubleshooting.md)
-      - Ativação em massa do conteúdo {#bulk-activation}
+      - Ativação em massa de conteúdo {#bulk-activation}
          - [Ativação em massa de conteúdo publicado](./user-guide/conf-bulk-activation.md)
          - [Criar uma coleção de mapas de ativação em massa](./user-guide/conf-bulk-activation-create-map-collection.md)
          - [Ativar saída](./user-guide/conf-bulk-activation-publish-map-collection.md)
@@ -241,7 +241,7 @@ ht-degree: 6%
          - [Excluir uma coleção de mapas de ativação em massa](./user-guide/conf-bulk-activation-delete-map-collection.md)
    - Geração de saída de documentos do FrameMaker {#generate-fm-output}
       - [Noções básicas de geração de saída do FrameMaker](./user-guide/fm-output-generatation.md)
-      - Predefinições com suporte {#fm-docs-generating-presets}
+      - Predefinições suportadas {#fm-docs-generating-presets}
          - [Predefinições para gerar documentos do FrameMaker](./user-guide/fm-output-understand-presets.md)
          - [PDF](./user-guide/fm-output-pdf-preset.md)
          - [HTML 5](./user-guide/fm-output-html5-preset.md)
@@ -261,7 +261,7 @@ ht-degree: 6%
          - [Fazer upload de arquivos](./user-guide/authoring-upload-existing-files.md)
          - [Gerenciar arquivos e pastas](./user-guide/authoring-file-management.md)
          - [Baixar arquivos](./user-guide/authoring-download-assets.md)
-- Guia do Usuário (Interface Antiga) {#user-guide-old-ui}
+- Guia do usuário (interface antiga) {#user-guide-old-ui}
    - [visão geral do AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Instalação e configuração {#install-guide}
    - No local {#on-prem-ig}
@@ -294,11 +294,11 @@ ht-degree: 6%
       - [Configurar nomes de arquivo automáticos com base no UUID](./install-guide/conf-auto-uuid-filenames.md)
       - [Configurar Regx para caracteres válidos de nome de arquivo](./install-guide/conf-file-names-valid-regx.md)
       - [Configure nomes de arquivo válidos para a saída do site do AEM](./install-guide/conf-file-names-valid-regx-aem-site-output.md)
-      - Trabalhar com tópico e modelos de mapa {#topic-map-template}
+      - Trabalhar com modelos de tópico e mapa {#topic-map-template}
          - [Configurar tópico e modelos de mapa](./install-guide/conf-template-tags.md)
          - [Configurar modelo de tópico DITA personalizado](./install-guide/conf-template-tags-custom-dita-topic-template.md)
          - [Configurar modelo de mapa DITA personalizado](./install-guide/conf-template-tags-custom-dita-map-templates.md)
-      - Trabalhar com estados de documento {#doc-state}
+      - Trabalhar com estados de documentos {#doc-state}
          - [Configurar estados dos documentos](./install-guide/customize-doc-state.md)
       - Trabalhar com as configurações do Editor da Web {#web-editor-configs}
          - [Personalizar editor da Web](./install-guide/conf-web-editor.md)
@@ -333,7 +333,7 @@ ht-degree: 6%
          - [Definir configurações de geração de saída](./install-guide/conf-output-generation.md)
          - [Baixe e instale modelos do aem sites](./install-guide/download-install-aem-sites-templates.md)
          - [Sobrepor tags do HTML na saída do AEM Sites](./install-guide/overlay-html-tags-aem-sites.md)
-         - Publicação PDF Nativa {#config-native-pdf-publish}
+         - Publicação nativa no PDF {#config-native-pdf-publish}
             - [Modelo do PDF](./native-pdf/pdf-template.md)
             - [Componentes de um modelo do PDF](./native-pdf/components-pdf-template.md)
             - [Criar um layout de página](./native-pdf/design-page-layout.md)
@@ -380,11 +380,11 @@ ht-degree: 6%
          - [Configurar nomes de arquivo automáticos com base no UUID](./cs-install-guide/conf-auto-uuid-filenames.md)
          - [Configurar Regx para caracteres válidos de nome de arquivo](./cs-install-guide/conf-file-names-valid-regx.md)
          - [Configure nomes de arquivo válidos para a saída do site do AEM](./cs-install-guide/conf-file-names-valid-regx-aem-site-output.md)
-      - Trabalhar com tópico e modelos de mapa {#topic-map-template-cs}
+      - Trabalhar com modelos de tópico e mapa {#topic-map-template-cs}
          - [Configurar tópico e modelos de mapa](./cs-install-guide/conf-template-tags.md)
          - [Configurar modelo de tópico DITA personalizado](./cs-install-guide/conf-template-tags-custom-dita-topic-template.md)
          - [Configurar modelo de mapa DITA personalizado](./cs-install-guide/conf-template-tags-custom-dita-map-templates.md)
-      - Trabalhar com estados de documento {#doc-state-cs}
+      - Trabalhar com estados de documentos {#doc-state-cs}
          - [Configurar estados dos documentos](./cs-install-guide/customize-doc-state.md)
       - Trabalhar com as configurações do Editor da Web {#web-editor-configs-cs}
          - [Personalizar editor da Web](./cs-install-guide/conf-web-editor.md)
@@ -417,7 +417,7 @@ ht-degree: 6%
          - [Gerenciamento de versão](./cs-install-guide/version-management.md)
       - Trabalhar com editores de XML baseados em área de trabalho {#desktop-xml-editor}
          - [Integrar editores de XML baseados em desktop](./cs-install-guide/integrate-desktop-editors-cs.md)
-      - Configurar o Workfront {#configure-workfront-cs}
+      - Configurar Workfront {#configure-workfront-cs}
          - [Configurar Workfront](./cs-install-guide/conf-workfront.md)
       - Trabalhar com configurações de geração de saída {#output-gen-config-cs}
          - [Definir configurações de geração de saída](./cs-install-guide/conf-output-generation.md)
@@ -433,7 +433,7 @@ ht-degree: 6%
       - Trabalhar com pesquisa no AEM Assets {#aem-asset-search-cs}
          - [Configurar pesquisa para a interface do usuário do AEM Assets](./cs-install-guide/conf-dita-search.md)
       - [Apêndice](./cs-install-guide/appendix.md)
-- Referência da API {#api-reference}
+- Referência da API  {#api-reference}
    - [Introdução](./api-reference/introduction.md)
    - [REST APIs para gerenciamento de saída](./api-reference/output-management.md)
    - [API REST para trabalhar com mapas DITA](./api-reference/dita-map-management.md)
@@ -450,7 +450,7 @@ ht-degree: 6%
    - [Manipulador de eventos de pós-processamento](./api-reference/post-process-event.md)
    - [Manipulador de eventos de ativação em massa concluída](./api-reference/bulk-activation-complete-event.md)
    - [Manipulador de eventos do processo de conversão](./api-reference/conversion-complete-event.md)
-- Base de Dados de Conhecimento {#knowledge-base}
+- Knowledge Base {#knowledge-base}
    - Sessão com especialista {#expert-session}
       - [Visão geral da sessão com especialistas](./knowledge-base/expert-sessions/expert-session.md)
       - [Traduzir conteúdo](./knowledge-base/expert-sessions/translating-content-using-aem-guides-oct22.md)
@@ -469,22 +469,23 @@ ht-degree: 6%
       - [Opções de implantação e migração para a nuvem](./knowledge-base/expert-sessions/migration-uuid-onprem-to-cloud.md)
       - [Migrar conteúdo de não-uuid para UUID](./knowledge-base/expert-sessions/migration-non-uuid-to-uuid.md)
       - [Migração de conteúdo delta](./knowledge-base/expert-sessions/migration-delta-content.md)
+      - [Publicação mais inteligente do PDF com PDF nativo](./knowledge-base//expert-sessions/smarter-pdf-publishing-with-native-pdf.md)
    - Artigos {#kb-articles}
-      - Criação {#authoring}
+      - Criação   {#authoring}
          - Editor da Web {#webeditor}
             - [Reutilização de conteúdo no AEM Guides](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
             - [Usar Markdown no AEM Guides](./knowledge-base/kb-articles/authoring/webeditor/markdown-in-dita-and-aem-guides.md)
-            - Personalizando {#customizing}
+            - Personalização {#customizing}
                - [Adicionar botão personalizado à barra de ferramentas](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
                - [Adicionar estilos personalizados ao Editor da Web](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
                - [Personalizar menu de contexto da pasta](./knowledge-base/kb-articles/authoring/webeditor/customization/hide-create-ditamap-webeditor.md)
                - [Personalizar Menu de Contexto do Arquivo](./knowledge-base/kb-articles/authoring/webeditor/customization/remove-delete-from-webeditor.md)
-            - Esquematron {#schematron}
+            - Schematron {#schematron}
                - [Validação do esquema](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
          - Relatórios {#reports}
             - [Gerenciar metadados para seu conteúdo DITA](./knowledge-base/kb-articles/authoring/reports/manage-metadata.md)
          - [Definir ícone para tipos de lista personalizada](./knowledge-base/kb-articles/authoring/define-icon-for-custom-ditatypes.md)
-      - Estrutura de extensão de guias {#extention-framework}
+      - Estrutura de extensão do Guides {#extention-framework}
          - Estrutura Do Aem Guides {#aem-guides-framework}
             - [Personalizações básicas](./guides-ui-extensions/aem_guides_framework/basic-customisation.md)
             - [Estrutura JUI](./guides-ui-extensions/aem_guides_framework/jui-framework.md)
@@ -507,7 +508,7 @@ ht-degree: 6%
             - [Personalizando barra de ferramentas e barra de topo](./guides-ui-extensions/customisations/toolbar-topbar.md)
             - [Exemplos](./guides-ui-extensions/examples.md)
             - [Jsons personalizáveis](./guides-ui-extensions/jsons.md)
-            - Revisão{#review-app-customisations}
+            - Revisar{#review-app-customisations}
                - [Componentes](./guides-ui-extensions/customisations/ReviewApp/components.md)
                - [Personalização](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
                - [Caixa de diálogo personalizada](./guides-ui-extensions/customisations/ReviewApp/custom-dialog.md)
@@ -528,7 +529,7 @@ ht-degree: 6%
          - [Configurar a publicação baseada em microsserviços com autenticação JWT](./knowledge-base/publishing/configure-microservices.md)
          - [Configurar a publicação baseada em microsserviço com autenticação OAuth](./knowledge-base/publishing/configure-microservices-imt-config.md)
          - [Publicando referências de desempenho na nuvem do AEM](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
-      - Fluxos de trabalho {#workflows}
+      - Fluxos de trabalhos {#workflows}
          - [Fluxo de trabalho de pós-geração](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
       - Tradução {#translation}
          - [Práticas recomendadas para aumentar o desempenho da tradução](./knowledge-base/kb-articles/translation/increase-translation-performance-aem-guides.md)
