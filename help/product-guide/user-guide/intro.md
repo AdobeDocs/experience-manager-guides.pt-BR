@@ -1,13 +1,13 @@
 ---
 title: Sobre o Adobe Experience Manager Guides
-description: Saiba mais sobre o Adobe Experience Manager Guides, uma solução de gerenciamento de conteúdo de componentes baseada em DITA de nível empresarial. Conhecer os benefícios do Experience Manager Guides.
+description: Saiba mais sobre o Adobe Experience Manager Guides, uma solução de gerenciamento de conteúdo de componentes de nível corporativo, baseada em DITA. Conheça os benefícios do Experience Manager Guides.
 exl-id: 474e7eab-3474-4362-9f1d-17cc98e53184
 feature: Introduction
 role: User
 source-git-commit: afa77e42eec4ea900efff14f1ae5f79464591505
 workflow-type: tm+mt
 source-wordcount: '263'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
