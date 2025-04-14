@@ -4,9 +4,9 @@ description: Explore outros recursos do Editor no Adobe Experience Manager Guide
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 9e84617dcfc8bf596bdf0863883284b660cde2f1
 workflow-type: tm+mt
-source-wordcount: '2406'
+source-wordcount: '2399'
 ht-degree: 0%
 
 ---
@@ -213,9 +213,9 @@ Desfazer a quebra de um elemento permite remover a tag do elemento do texto sele
 
 Em XML, os espaços em branco incluem espaços, tabulações, retornos de carro e linhas em branco. O Experience Manager Guides converte vários espaços em branco consequentes em um espaço. Isso ajuda a preservar a visualização WYSIWYG do Editor.
 
-    >[!NOTE]
-    >
-    >Em alguns elementos em que os espaços em branco precisam ser preservados de acordo com as regras DITA, os vários espaços em branco consequentes são mantidos. Por exemplo, elementos `&lt;pre>` e `&lt;codeblock>`.
+>[!NOTE]
+>
+> Em alguns elementos em que os espaços em branco precisam ser preservados de acordo com as regras DITA, os vários espaços em branco resultantes são retidos. Por exemplo, `<pre>` e `<codeblock>` elementos.
 
 
 **Preservando quebras de linha e recuo**

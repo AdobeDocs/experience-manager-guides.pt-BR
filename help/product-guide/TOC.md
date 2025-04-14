@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leia a documentação do produto do Adobe Experience Manager Guides.
 breadcrumb-title: Documentação do AEM Guides
-source-git-commit: 995cb28356fb087871225475e0d69fc96a9b5f98
+source-git-commit: 9e84617dcfc8bf596bdf0863883284b660cde2f1
 workflow-type: tm+mt
-source-wordcount: '2066'
+source-wordcount: '2089'
 ht-degree: 6%
 
 ---
@@ -147,20 +147,28 @@ ht-degree: 6%
             - [Criar tópicos](./user-guide/web-editor-create-topics.md)
             - [Visualizar um tópico](./user-guide/web-editor-preview-topics.md)
          - [Conhecer os recursos do Editor](./user-guide/web-editor-features.md)
+         - Conhecer a interface e os recursos do Editor {#editor-interface-features}
+            - [Barra de cabeçalho](./user-guide/web-editor-header-bar.md)
+            - [Barra de guias](./user-guide/web-editor-tab-bar.md)
+            - [Barra de ferramentas](./user-guide/web-editor-toolbar.md)
+            - [Painel esquerdo](./user-guide/web-editor-left-panel.md)
+            - [Área de edição de conteúdo](./user-guide/web-editor-content-editing-area.md)
+            - [Painel direito](./user-guide/web-editor-right-panel.md)
          - [Recursos adicionais no editor](./user-guide/web-editor-other-features.md)
-         - [Atalhos de teclado no editor](./user-guide/web-editor-keyboard-shortcuts.md)
-         - [editor de visualizações](./user-guide/web-editor-views.md)
-         - [Suporte para arquivos Schematron](./user-guide/support-schematron-file.md)
-         - [Autor documentos do Markdown na editor](./user-guide/web-editor-markdown-topic.md)
-         - [Adicione citações ao seu conteúdo](./user-guide/web-editor-apply-citations.md)
-         - [Use dados de suas fontes de dados](./user-guide/web-editor-content-snippet.md)
+         - [Trabalhar com as configurações do editor](./user-guide/web-editor-settings.md)
+         - [Atalhos de teclado no Editor](./user-guide/web-editor-keyboard-shortcuts.md)
+         - [Visualizações do editor](./user-guide/web-editor-views.md)
+         - [Suporte para arquivos do Schematron](./user-guide/support-schematron-file.md)
+         - [Criação de documentos do Markdown a partir do editor](./user-guide/web-editor-markdown-topic.md)
+         - [Adicionar citações ao seu conteúdo](./user-guide/web-editor-apply-citations.md)
+         - [Usar dados de suas fontes de dados](./user-guide/web-editor-content-snippet.md)
          - [Estado do documento](./user-guide/web-editor-document-states.md)
          - [Usar rótulos](./user-guide/web-editor-use-label.md)
       - Editor de mapa {#map-editor}
-         - [Introdução ao mapa editor](./user-guide/map-editor.md)
+         - [Introdução ao Editor de Mapa](./user-guide/map-editor.md)
          - [Criar um mapa](./user-guide/map-editor-create-map.md)
          - [Criar mapas com base em modelos personalizados](./user-guide/create-maps-customized-templates.md)
-         - [Mapear recursos do editor](./user-guide/map-editor-advanced-map-editor.md)
+         - [Recursos do Editor de Mapa](./user-guide/map-editor-advanced-map-editor.md)
          - [Recursos adicionais no Editor de mapas](./user-guide/map-editor-other-features.md)
       - Editor DITAVAL {#ditaval-editor}
          - [Usar o editor DITAVAL](./user-guide/ditaval-editor.md)
@@ -206,23 +214,23 @@ ht-degree: 6%
                - [Predefinição do AEM Sites no console Mapa](./user-guide/generate-output-aem-site-web-editor.md)
                - [Predefinição do AEM Sites no painel Mapa](./user-guide/generate-output-aem-site-map-dashboard.md)
             - PDF {#pdf-preset}
-               - [Visão geral da predefinição de saída de PDF](./user-guide/generate-output-pdf.md)
-               - [Predefinição de saída DO PDF DITA-OT](./user-guide/generate-output-pdf-dita-ot.md)
-               - [Predefinição de saída de PDF nativa](./web-editor/native-pdf-web-editor.md)
+               - [Visão geral da predefinição de saída do PDF](./user-guide/generate-output-pdf.md)
+               - [Predefinição de saída DITA-OT PDF](./user-guide/generate-output-pdf-dita-ot.md)
+               - [Predefinição de saída nativa do PDF](./web-editor/native-pdf-web-editor.md)
             - [Knowledge Base](./user-guide/generate-output-knowledge-base.md)
             - [HTML 5](./user-guide/generate-output-html5.md)
             - [EPUB](./user-guide/generate-output-epub.md)
             - [Personalizado](./user-guide/generate-output-custom.md)
             - [JSON](./user-guide/generate-output-json.md)
-         - [Editar, duplicado ou excluir uma predefinição de saída](./user-guide/generate-output-create-edit-preset.md)
+         - [Editar, duplicar ou excluir uma predefinição de saída](./user-guide/generate-output-create-edit-preset.md)
          - Condicionalizar conteúdo {#conditional-content}
             - [Usar predefinições de condição](./user-guide/generate-output-use-condition-presets.md)
-            - [criação de perfis de atributo condicional](./user-guide/generate-output-conditional-attribute-profiling.md)
-         - Use Linha de base {#work-with-baseline}
-            - [linhas de base de Criar e gerenciar do console Mapa](./user-guide/web-editor-baseline.md)
-            - [Linhas de base Criar e gerenciar do Mapa painel](./user-guide/generate-output-use-baseline-for-publishing.md)
-         - [Gerenciar predefinições de saída globais e Pasta de perfil](./user-guide/web-editor-manage-output-presets.md)
-         - [Use variáveis para definir as opções Caminho de destino, Nome do site ou Nome do Arquivo](./user-guide/generate-output-use-variables.md)
+            - [Criação de perfil de atributo condicional](./user-guide/generate-output-conditional-attribute-profiling.md)
+         - Usar Linha de Base {#work-with-baseline}
+            - [Criar e gerenciar Linhas de Base no console Mapa](./user-guide/web-editor-baseline.md)
+            - [Criar e gerenciar Linhas de Base no painel Mapa](./user-guide/generate-output-use-baseline-for-publishing.md)
+         - [Gerenciar predefinições de saída de perfil global e de pasta](./user-guide/web-editor-manage-output-presets.md)
+         - [Use variáveis para definir as opções Caminho de destino, Nome do site ou Nome do arquivo](./user-guide/generate-output-use-variables.md)
          - [Transmita os metadados para a saída usando DITA-OT](./user-guide/pass-metadata-dita-ot.md)
          - Gerar saída {#generate-output}
             - [Gerar saída para um mapa DITA](./user-guide/generate-output-for-a-dita-map.md)
@@ -265,7 +273,7 @@ ht-degree: 6%
          - [Gerenciar arquivos e pastas](./user-guide/authoring-file-management.md)
          - [Baixar arquivos](./user-guide/authoring-download-assets.md)
 - Guia do Usuário (Interface Antiga) {#user-guide-old-ui}
-   - [Visão geral dos Guias do AEM](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [visão geral do AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Instalação e configuração {#install-guide}
    - No local {#on-prem-ig}
       - [Noções básicas no local](./install-guide/introduction.md)
@@ -273,14 +281,14 @@ ht-degree: 6%
          - [Visão geral de download e instalação](./install-guide/download-install.md)
          - [Requisitos técnicos](./install-guide/download-install-technical-requirements.md)
          - [Instalar o Adobe Experience Manager](./install-guide/download-install-aem.md)
-         - [Baixe e instale os Guias de AEM pela primeira vez](./install-guide/download-install-aemg-first-time.md)
+         - [Baixe e instale o AEM Guides pela primeira vez](./install-guide/download-install-aemg-first-time.md)
          - [Configurar Dispatcher](./install-guide/download-install-configure-dispatcher.md)
          - [Verificar a instalação do AEM Guides](./install-guide/download-install-verify-aemg-installation.md)
          - [Atualizar o AEM Guides](./install-guide/upgrade-xml-documentation.md)
          - [Desinstalar o AEM Guides](./install-guide/download-install-unistall-aemg.md)
-         - [recomendações para otimização de desempenho](./install-guide/download-install-recommend-perf-optimiz.md)
-      - Trabalhar com grupos de usuário e segurança {#user-group-sec}
-         - [Administração e segurança de usuários](./install-guide/user-admin-sec.md)
+         - [Recomendações para a otimização do desempenho](./install-guide/download-install-recommend-perf-optimiz.md)
+      - Trabalhar com grupos de usuários e segurança {#user-group-sec}
+         - [Administração e segurança do usuário](./install-guide/user-admin-sec.md)
       - Migração de conteúdo {#content-migration}
          - [Migração de conteúdo não UUID para UUID](./install-guide/migrate-uuid-non-uuid.md)
          - Processo de migração {#migration-process}
@@ -329,20 +337,20 @@ ht-degree: 6%
       - Trabalhar com perfis globais e de nível de pasta {#global-folder-profiles}
          - [Configurar perfis globais ou de nível de pasta](./install-guide/conf-folder-level.md)
       - Configurar versões {#version-mgt}
-         - [gerenciamento de Versão](./install-guide/version-management.md)
+         - [Gerenciamento de versão](./install-guide/version-management.md)
       - Trabalhar com editores de XML baseados em área de trabalho {#desktop-xml-editor}
          - [Integrar editores de XML baseados em desktop](./install-guide/integrate-desktop-editors.md)
       - Trabalhar com configurações de geração de saída {#output-gen-config}
          - [Definir configurações de geração de saída](./install-guide/conf-output-generation.md)
-         - [Baixe e instale modelos de aem sites](./install-guide/download-install-aem-sites-templates.md)
+         - [Baixe e instale modelos do aem sites](./install-guide/download-install-aem-sites-templates.md)
          - [Sobrepor tags do HTML na saída do AEM Sites](./install-guide/overlay-html-tags-aem-sites.md)
          - Publicação PDF Nativa {#config-native-pdf-publish}
-            - [Modelo de PDF](./native-pdf/pdf-template.md)
-            - [Componentes de um modelo PDF](./native-pdf/components-pdf-template.md)
-            - [Projete um layout página](./native-pdf/design-page-layout.md)
-            - [Variáveis na saída PDF](./native-pdf/native-pdf-variables.md)
+            - [Modelo do PDF](./native-pdf/pdf-template.md)
+            - [Componentes de um modelo do PDF](./native-pdf/components-pdf-template.md)
+            - [Criar um layout de página](./native-pdf/design-page-layout.md)
+            - [Variáveis na saída do PDF](./native-pdf/native-pdf-variables.md)
             - [Suporte para variáveis de idioma](./native-pdf/native-pdf-language-variables.md)
-            - [Adicionar um código de barras à saída PDF](./native-pdf/add-barcode.md)
+            - [Adicionar um código de barras à saída do PDF](./native-pdf/add-barcode.md)
             - Estilos de conteúdo comuns {#content-styles}
                - [Trabalhar com os estilos de conteúdo comuns](./native-pdf/stylesheet.md)
                - [Trabalhar com estilos de barras de alteração personalizados](./native-pdf/change-bar-style.md)
@@ -385,23 +393,23 @@ ht-degree: 6%
          - [Configure nomes de arquivo válidos para a saída do site do AEM](./cs-install-guide/conf-file-names-valid-regx-aem-site-output.md)
       - Trabalhar com tópico e modelos de mapa {#topic-map-template-cs}
          - [Configurar tópico e modelos de mapa](./cs-install-guide/conf-template-tags.md)
-         - [Configurar tópico DITA personalizado modelo](./cs-install-guide/conf-template-tags-custom-dita-topic-template.md)
-         - [Configurar o modelo personalizado do mapa DITA](./cs-install-guide/conf-template-tags-custom-dita-map-templates.md)
-      - Trabalhar com estados documento {#doc-state-cs}
-         - [Configurar estados documento](./cs-install-guide/customize-doc-state.md)
-      - Trabalhar com as configurações do editor Web {#web-editor-configs-cs}
+         - [Configurar modelo de tópico DITA personalizado](./cs-install-guide/conf-template-tags-custom-dita-topic-template.md)
+         - [Configurar modelo de mapa DITA personalizado](./cs-install-guide/conf-template-tags-custom-dita-map-templates.md)
+      - Trabalhar com estados de documento {#doc-state-cs}
+         - [Configurar estados dos documentos](./cs-install-guide/customize-doc-state.md)
+      - Trabalhar com as configurações do Editor da Web {#web-editor-configs-cs}
          - [Personalizar editor da Web](./cs-install-guide/conf-web-editor.md)
          - [Personalizar barra de ferramentas](./cs-install-guide/conf-web-editor-customize-toolbar.md)
-         - [Configure as sugestões inteligentes fornecidas por IA para criação](./cs-install-guide/conf-smart-suggestions.md)
-         - [Configure o Smart Ajuda desenvolvido por IA para pesquisa conteúdo](./cs-install-guide/conf-smart-help.md)
-         - [Configurar o valor padrão das Tags Exibir](./cs-install-guide/configure-default-value-tags-view.md)
+         - [Configurar as sugestões inteligentes habilitadas por IA para criação](./cs-install-guide/conf-smart-suggestions.md)
+         - [Configure a Ajuda inteligente habilitada para IA para pesquisar conteúdo](./cs-install-guide/conf-smart-help.md)
+         - [Configurar valor padrão para a exibição de tags](./cs-install-guide/configure-default-value-tags-view.md)
          - [Configurar a exibição de links baseados em UUID](./cs-install-guide/conf-uuid-based-links.md)
          - [Configurar exibição de tabelas coladas](./cs-install-guide/conf-pasted-tables.md)
          - [Abrir tópico DITA ou mapear arquivos na mesma guia](./cs-install-guide/open-dita-files-same-tab.md)
          - [Configurar um painel personalizado no painel esquerdo](./cs-install-guide/configure-custom-panel.md)
-         - [Configurar o salvamento automático de arquivo no editor da Web](./cs-install-guide/auto-save-in-editor.md)
-         - [Configurar o prompt para salvar como uma nova versão no fechamento](./cs-install-guide/conf-save-as-new-version-close.md)
-         - [Configure o prompt para verificar um arquivo ao fechar](./cs-install-guide/conf-checkin-file-close.md)
+         - [Configurar o salvamento automático de arquivos no Editor da Web](./cs-install-guide/auto-save-in-editor.md)
+         - [Configurar o prompt para salvar como uma nova versão ao fechar](./cs-install-guide/conf-save-as-new-version-close.md)
+         - [Configurar prompt para fazer check-in de um arquivo ao fechar](./cs-install-guide/conf-checkin-file-close.md)
          - [Configurar caracteres especiais permitidos](./cs-install-guide/conf-special-chars.md)
          - [Gerar IDs de elemento automaticamente](./cs-install-guide/auto-generate-ids.md)
          - [Personalizar o dicionário padrão do AEM](./cs-install-guide/customize-aem-custom-dictionary.md)
@@ -446,15 +454,15 @@ ht-degree: 6%
    - [API REST para criar e ativar pacotes](./api-reference/create-activate-package.md)
    - [API baseada em Java para trabalhar com a geração de saída](./api-reference/generate-output.md)
    - [APIs baseadas em Java para trabalhar com mapas DITA](./api-reference/dita-map-management-java.md)
-   - [APIs baseadas em Java para fluxo de Trabalho de conversão](./api-reference/convert-to-dita-java.md)
-   - [APIs baseadas em Java para trabalhar com linha de base e rótulos](./api-reference/create-baseline-label-java.md)
+   - [APIs baseadas em Java para fluxo de trabalho de conversão](./api-reference/convert-to-dita-java.md)
+   - [APIs baseadas em Java para trabalhar com rótulos e linhas de base](./api-reference/create-baseline-label-java.md)
    - [API baseada em Java para trabalhar com perfis de pastas](./api-reference/folder-profile-java.md)
    - [API baseada em Java para criar e ativar pacotes](./api-reference/create-activate-package-java.md)
-   - [manipulador de evento de processamento Post](./api-reference/post-process-event.md)
+   - [Manipulador de eventos de pós-processamento](./api-reference/post-process-event.md)
    - [Manipulador de eventos de ativação em massa concluída](./api-reference/bulk-activation-complete-event.md)
    - [Manipulador de eventos do processo de conversão](./api-reference/conversion-complete-event.md)
-- Base de conhecimento {#knowledge-base}
-   - Sessão de especialistas {#expert-session}
+- Base de Dados de Conhecimento {#knowledge-base}
+   - Sessão com especialista {#expert-session}
       - [Visão geral da sessão com especialistas](./knowledge-base/expert-sessions/expert-session.md)
       - [Traduzir conteúdo](./knowledge-base/expert-sessions/translating-content-using-aem-guides-oct22.md)
       - [Gerenciar conteúdo usando linhas de base](./knowledge-base/expert-sessions/baselines-dec22.md)
@@ -511,25 +519,25 @@ ht-degree: 6%
             - [Personalizando barra de ferramentas e barra de topo](./guides-ui-extensions/customisations/toolbar-topbar.md)
             - [Exemplos](./guides-ui-extensions/examples.md)
             - [Jsons personalizáveis](./guides-ui-extensions/jsons.md)
-            - Revisar{#review-app-customisations}
+            - Revisão{#review-app-customisations}
                - [Componentes](./guides-ui-extensions/customisations/ReviewApp/components.md)
                - [Personalização](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
                - [Caixa de diálogo personalizada](./guides-ui-extensions/customisations/ReviewApp/custom-dialog.md)
-      - fonte de dados externos {#external-data-source}
+      - Fonte de dados externa {#external-data-source}
          - [Integrar fontes de dados](../product-guide/knowledge-base/kb-articles/data-source/integrate-data-sources.md)
-         - [Configurar um conector fonte de dados](../product-guide/knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md)
+         - [Configurar um conector de fonte de dados](../product-guide/knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md)
       - Publicação {#publishing}
          - PDF nativo {#native-pdf}
-            - [Adicionar Fontes personalizadas ao PDF nativo do DITA](./knowledge-base/kb-articles/publishing/add-custom-font-native-pdf.md)
-            - [Configuração AEM ambiente para publicação em PDF nativos](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
+            - [Adicionar fontes personalizadas à sua PDF nativa DITA](./knowledge-base/kb-articles/publishing/add-custom-font-native-pdf.md)
+            - [Configuração do ambiente AEM para publicação nativa no PDF](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
             - [Adicionar a marca de empresa à primeira página de um PDF](./knowledge-base/kb-articles/publishing/add-branding-to-bookmap-content-header.md)
             - [Gerar o índice do mapa na publicação nativa do PDF](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
          - DITA-OT {#dita-ot}
             - [Usar metadados do AEM no plug-in](./knowledge-base/kb-articles/publishing/dita-ot/dita-ot-pass-and-use-aem-metadata-in-dita-ot.md)
             - [Configurar um DITA-OT personalizado](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
          - [FMPS e Guias](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
-         - [Arquitetura e desempenho do microsserviço](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
-         - [Configurar publicação baseada em microsserviços com autenticação JWT](./knowledge-base/publishing/configure-microservices.md)
+         - [Arquitetura e desempenho de microsserviços](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
+         - [Configurar a publicação baseada em microsserviços com autenticação JWT](./knowledge-base/publishing/configure-microservices.md)
          - [Configurar a publicação baseada em microsserviço com autenticação OAuth](./knowledge-base/publishing/configure-microservices-imt-config.md)
          - [Publicando referências de desempenho na nuvem do AEM](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
       - Fluxos de trabalho {#workflows}
