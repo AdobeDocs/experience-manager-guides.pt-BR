@@ -1,18 +1,19 @@
 ---
-title: Visualizações do editor para tópicos
-description: Exibir tópicos no modo de autor, origem e visualização. Saiba como visualizar o conteúdo com base em filtros condicionais, visualizar as marcações de alterações de rastreamento e exportar um tópico como PDF no AEM Guides.
-Sfeature: Authoring, Features of Web Editor
+title: Configurações do editor no Experience Manager Guides
+description: Saiba mais sobre as várias configurações disponíveis na interface do editor do Experience Manager Guides.
+feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 0fb079d08c31688046acf0e5a1e2ce7997d24cd6
+exl-id: fad2874f-dab5-4538-8502-f7112c51d941
+source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
 workflow-type: tm+mt
-source-wordcount: '1990'
+source-wordcount: '1975'
 ht-degree: 0%
 
 ---
 
 # Configurações do editor
 
-A opção **Configurações** presente na [Barra de guias] do Editor está disponível somente para administradores e administradores de perfil de pasta e permite definir as seguintes configurações:
+A opção **Configurações** presente na [Barra de guias](./web-editor-tab-bar.md) do Editor está disponível somente para administradores e administradores de perfil de pasta e permite definir as seguintes configurações:
 
 - [Geral](#general)
 - [Painéis](#panels)

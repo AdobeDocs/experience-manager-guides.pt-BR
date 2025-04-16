@@ -3,7 +3,8 @@ title: Barra de ferramentas no editor
 description: Conheça a barra de ferramentas no editor. Saiba mais sobre a interface e os recursos do editor no Adobe Experience Manager Guides.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 74f3e6933b711f855e5a07bb7909678da4254207
+exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
+source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
 workflow-type: tm+mt
 source-wordcount: '5909'
 ht-degree: 0%
@@ -38,7 +39,7 @@ Ao editar um tópico no Editor, acesse as várias ações de edição, como **Re
 
 O recurso **Localizar e substituir** está disponível nos modos de exibição Autor e Source. Quando ativada, a barra de texto Localizar e Substituir aparece na parte inferior da área de edição de tópico. Você pode usar as teclas de atalho **CTRL**+**F** para invocar a barra Localizar e substituir.
 
-![](images/find-replace-bar.png){width="800" align="left"}
+![](images/find-replace-bar.png){align="left"}
 
 Usando o ícone de configurações \(![](images/settings-find-replace-icon.svg)\), você pode alternar as opções de pesquisa **Ignorar maiúsculas e minúsculas** e **Somente palavra inteira**. Para executar a pesquisa que não diferencia maiúsculas de minúsculas, ative a opção **Ignorar maiúsculas e minúsculas**. Caso contrário, se você deseja realizar a pesquisa que diferencia maiúsculas de minúsculas, desative a opção **Ignorar maiúsculas e minúsculas**. Você também pode optar por pesquisar uma palavra inteira.
 
@@ -107,7 +108,7 @@ O recurso **Histórico de versões** no Editor permite verificar as versões dis
 
    Quando você reverte para uma versão anterior, uma dica visual é mostrada, indicando que a versão em que você está trabalhando no momento não é a versão mais recente.
 
-   ![](images/older-version-visual-cue.png){width="800" align="left"}
+   ![](images/older-version-visual-cue.png){align="left"}
 
 </details>
 
@@ -295,7 +296,7 @@ Você também pode digitar um caractere ou sequência de caracteres na caixa de 
 
 Se você estiver trabalhando dentro de um elemento de bloco como `note`, use o ícone Inserir elemento para inserir um novo elemento após o elemento `note`. Na captura de tela a seguir, um elemento de nota foi inserido no elemento p \(parágrafo\):
 
-![Inserir elemento em um elemento de bloco](images/note-in-para-insert-element_cs.png){width="800" align="left"}
+![Inserir elemento em um elemento de bloco](images/note-in-para-insert-element_cs.png){align="left"}
 
 Se você pressionar Enter no elemento de nota, um novo parágrafo será criado dentro do próprio elemento de nota. Para inserir um novo elemento fora da observação, selecione o elemento p \(destacado na captura de tela\) na navegação estrutural dos elementos e selecione o ícone Elemento ou pressione ***Alt***+***Enter*** para abrir a caixa de diálogo Inserir elemento. Em seguida, selecione o elemento desejado e pressione Enter para inserir o elemento selecionado após o elemento de nota.
 
@@ -366,7 +367,7 @@ Você também pode definir atributos em várias células, linha inteira ou colun
 1. Na lista suspensa de valores, selecione o alinhamento de texto desejado que deseja aplicar às células selecionadas da tabela.
 1. Selecione **Adicionar.**
 
-![](images/align-table-cell_cs.png){width="800" align="left"}
+![](images/align-table-cell_cs.png){align="left"}
 
 </details>
 
@@ -379,11 +380,11 @@ Insere uma imagem no local válido atual ou próximo. Selecione o ícone Imagem 
 > Você também pode adicionar uma imagem arrastando-a e soltando-a do seu sistema local no seu artigo. Nesse caso, o arquivo de imagem é adicionado usando o fluxo de trabalho **Carregar Assets**.  Para obter mais detalhes, exiba o fluxo de trabalho **Carregar Assets** na seção [Painel esquerdo](#left-panel).
 
 
-![](images/insert-image.png){width="650" align="left"}
+![](images/insert-image.png){width="300" align="left"}
 
 Você pode adicionar uma imagem/Título da Figura e Texto Alternativo para a imagem na caixa de diálogo Inserir Imagem.
 
->
+>[!NOTE]
 >
 > Quando você insere uma imagem e especifica um texto alternativo para a mesma, ela é adicionada dentro do elemento `<alt>` de acordo com os padrões DITA mais recentes. O uso do atributo `@alt` para texto alternativo está obsoleto, mas ele permanece com suporte em versões DITA anteriores.
 
@@ -391,7 +392,7 @@ Usando a opção **Selecionar Arquivo**, você pode procurar o arquivo de imagem
 
 Depois de inserir uma imagem, você pode alterar a altura, a largura, a disposição e os atributos no painel Propriedades de conteúdo. Selecione o arquivo de imagem e faça as alterações no painel Propriedades de conteúdo no painel direito.
 
-![](images/image-properties.png){width="800" align="left"}
+![](images/image-properties.png){align="left"}
 
 O campo Source exibe a UUID do arquivo de imagem inserido. Você pode encontrar o caminho completo do arquivo de imagem inserido passando o ponteiro do mouse sobre o campo Source. O caminho é exibido na dica de ferramenta.
 
@@ -468,7 +469,7 @@ Também é possível pesquisar usando a UUID do arquivo que você deseja referen
 
 Se o administrador tiver habilitado a opção UUIDs no *XMLEditorConfig*, você exibirá a UUID do conteúdo referenciado na propriedade **Link**.
 
-![](images/ref-link-uuid_cs.png){width="800" align="left"}
+![](images/ref-link-uuid_cs.png){align="left"}
 
 >[!NOTE]
 >
@@ -523,7 +524,7 @@ Insere caracteres especiais no tópico. Selecione o ícone de Símbolo para abri
 >
 > O Experience Manager Guides fornece caixas de diálogo móveis e redimensionáveis. As caixas de diálogo que têm duas linhas cruzadas no canto inferior direito podem ser redimensionadas. As linhas cruzadas na caixa de diálogo Caractere especial são mostradas abaixo.
 
-![](images/insert-special-char.png){width="550" align="left"}
+![](images/insert-special-char.png){width="350" align="left"}
 
 Na caixa de diálogo Inserir caractere especial, você pode procurar um caractere especial usando seu nome. Todos os caracteres especiais são armazenados em várias categorias. Use a lista suspensa Selecionar categoria e selecione uma categoria. Os caracteres especiais disponíveis na categoria selecionada são exibidos. Você pode navegar pela lista de caracteres especiais usando as teclas de seta ou selecionar o caractere desejado que deseja inserir. O Nome e o Código hexadecimal do caractere especial selecionado são exibidos abaixo da lista. Selecione **Inserir** para inserir o caractere selecionado no documento.
 
@@ -543,7 +544,7 @@ Você pode alterar os atributos da palavra-chave ou adicionar um novo atributo �
 
 **Fragmentos** - ![](images/insert-snippet-icon.svg)
 
-Insira um trecho no local válido atual ou seguinte. Para que esse recurso funcione, você deve ter os snippets definidos no sistema. Para obter mais informações sobre como adicionar um trecho, exiba a descrição do recurso **Trecho** na seção [Painel esquerdo](web-editor-features.md#left-panel).
+Insira um trecho no local válido atual ou seguinte. Para que esse recurso funcione, você deve ter os snippets definidos no sistema. Para obter mais informações sobre como adicionar um trecho, exiba a descrição do recurso **Trecho** na seção [Painel esquerdo](./web-editor-left-panel.md).
 
 Ao selecionar a opção Trechos, você verá o catálogo Inserir trechos. O catálogo é sensível ao contexto, o que indica que exibirá os trechos somente se forem permitidos no local atual.
 
@@ -571,12 +572,12 @@ O recurso **Informações de versão e Salvar como nova versão** combina o rast
 
   O número da versão é alterado com cada nova versão criada para o tópico ou arquivo de mapa. Se você estiver trabalhando em um documento recém-criado, as informações da versão serão mostradas como **nenhuma**.
 
-  ![](images/version-information.png){width="800" align="left"}
+  ![](images/version-information.png){align="left"}
 
 
 - **Salvar como nova versão** é um botão que salva as alterações feitas no tópico e também cria uma nova versão do tópico.
 
-  ![](images/save-as-new-version.png){width="800" align="left"}
+  ![](images/save-as-new-version.png){align="left"}
 
 
 Quando você opta por salvar um tópico ou mapa usando **Salvar como nova versão**, a seguinte caixa de diálogo é exibida:
@@ -597,7 +598,7 @@ Se o tópico estiver sendo revisado, os revisores receberão uma notificação i
 
 Ao passar o ponteiro sobre o título de um tópico, você verá o título do arquivo, o caminho do arquivo e o número da versão.
 
-![](images/mouse-hover-on-title_cs.png){width="800" align="left"}
+![](images/mouse-hover-on-title_cs.png){align="left"}
 
 >[!NOTE]
 >
@@ -607,7 +608,7 @@ Ao passar o ponteiro sobre o título de um tópico, você verá o título do arq
 
 Bloqueia ou desbloqueia o arquivo atual. Bloquear um arquivo oferece acesso de gravação exclusivo ao arquivo. Isso impede que outros usuários editem o arquivo. Desbloqueie o arquivo se desejar que outras pessoas tenham acesso para edição. Quando o arquivo estiver desbloqueado, as alterações serão salvas na versão atual do arquivo.
 
-![](images/web-editor-lock-button.png){width="800" align="left"}
+![](images/web-editor-lock-button.png){align="left"}
 
 Se você estiver na Exibição de mapa e expandir o mapa principal, será possível bloquear todos os arquivos no mapa com um único clique. Basta expandir o arquivo de mapa principal e selecionar o arquivo principal, o que resulta na seleção de todos os arquivos no mapa. Em seguida, você pode selecionar **Bloquear** ![](images/LockClosed_icon.svg) para obter o bloqueio em todos os arquivos do mapa.
 

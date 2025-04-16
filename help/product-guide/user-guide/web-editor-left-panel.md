@@ -3,9 +3,10 @@ title: Painel esquerdo no editor
 description: Conheça o painel esquerdo no editor. Saiba mais sobre a interface e os recursos do Editor no Adobe Experience Manager Guides.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 74f3e6933b711f855e5a07bb7909678da4254207
+exl-id: 92496d39-b423-4635-8b05-c67fd6af47de
+source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
 workflow-type: tm+mt
-source-wordcount: '9325'
+source-wordcount: '9323'
 ht-degree: 0%
 
 ---
@@ -47,7 +48,7 @@ Para obter detalhes, consulte [integração com o Workfront](./workfront-integra
 
 >[!NOTE]
 >
-> Os recursos disponíveis no painel esquerdo são gerenciados pelo administrador, permitindo que eles ativem ou desativem os recursos individuais presentes no painel esquerdo. Somente os recursos ativados são exibidos no painel esquerdo. Para obter mais detalhes, exiba a seção **Painéis** da [Barra de guias](#tab-bar).
+> Os recursos disponíveis no painel esquerdo são gerenciados pelo administrador, permitindo que eles ativem ou desativem os recursos individuais presentes no painel esquerdo. Somente os recursos ativados são exibidos no painel esquerdo. Para obter mais detalhes, exiba a seção **Painéis** da [Barra de guias](./web-editor-tab-bar.md).
 
 A explicação detalhada dos recursos do painel esquerdo é a seguinte:
 
@@ -89,7 +90,7 @@ Para adicionar um arquivo a coleções, use um dos seguintes métodos:
 
 - Clique com o botão direito do mouse na guia de um arquivo no editor para abrir o menu de contexto. Escolha **Adicionar a** > **Coleções** para adicionar o arquivo à lista de favoritos.
 
-  ![](images/favorite-add-from-file-context-menu_cs.png){width="800" align="left"}
+  ![](images/favorite-add-from-file-context-menu_cs.png){align="left"}
 
 
 >[!NOTE]
@@ -131,7 +132,7 @@ Você também pode selecionar e reproduzir um arquivo de áudio ou vídeo no Edi
 a visualização do vídeo. No menu de atalho, você também tem as opções para baixar, alterar a reprodução
 velocidade ou visualizar imagem na imagem.
 
-Selecione um mapa e pressione Enter ou clique duas vezes para abri-lo na **Exibição do mapa**. Para obter mais detalhes, exiba a descrição do recurso **Exibição de mapa** na seção [Painel esquerdo](#left-panel). Selecione um tópico e pressione Enter ou clique duas vezes para abri-lo na [área de edição de conteúdo](#content-editing-area). Ser capaz de navegar e abrir um arquivo diretamente do Editor economiza tempo e aumenta a produtividade.
+Selecione um mapa e pressione Enter ou clique duas vezes para abri-lo na **Exibição do mapa**. Para obter mais detalhes, consulte a descrição do recurso **Exibição de mapa** no painel esquerdo. Selecione um tópico e pressione Enter ou clique duas vezes para abri-lo na [área de edição de conteúdo](./web-editor-content-editing-area.md). Ser capaz de navegar e abrir um arquivo diretamente do Editor economiza tempo e aumenta a produtividade.
 
 **Filtrar pesquisa no repositório**
 
@@ -220,7 +221,6 @@ Etapas para criar um novo tópico:
    - Um modelo no qual o tópico será baseado. Por exemplo, para uma configuração pronta para uso, você pode escolher entre os modelos Em branco, Conceito, DITAVAL, Referência, Tarefa, Tópico, Markdown, Glossário e Solução de problemas. Se a pasta tiver um Perfil de Pasta configurado, você visualizará somente os modelos de tópico configurados no perfil de Pasta.
 
    - Caminho no qual você deseja salvar o arquivo de tópico. Por padrão, o caminho da pasta selecionada no momento no repositório é mostrado no campo Caminho.
-
 4. Selecione **Criar**. O tópico é criado no caminho especificado. Além disso, o tópico é aberto no Editor para edição.
 
 </details>
@@ -269,7 +269,7 @@ Etapas para criar uma nova pasta:
 
   Se o administrador tiver habilitado a opção UUIDs no *XMLEditorConfig*, você exibirá a UUID da imagem carregada na propriedade **Source**.
 
-  ![](images/uuid-in-source-upload-image_cs.png){width="800" align="left"}
+  ![](images/uuid-in-source-upload-image_cs.png){align="left"}
 
 - **Localizar arquivos na pasta**: desloca o foco para a pesquisa no repositório onde você pode inserir o termo de pesquisa. A pesquisa é realizada na pasta selecionada no repositório. Você também pode aplicar um filtro para retornar Arquivos DITA, Arquivos de imagem ou ambos.
 
@@ -321,7 +321,7 @@ As várias opções no menu Opções são explicadas abaixo:
 
 - **Visualização**: obtenha uma visualização rápida do arquivo (.dita, .xml, áudio, vídeo ou imagem) sem abri-lo. É possível redimensionar o painel de visualização. Se o conteúdo contiver qualquer `<xref>` ou `<conref>`, você poderá selecioná-lo para abri-lo em uma nova guia. O título do arquivo aparece na janela. Se nenhum título estiver presente, o nome do arquivo será exibido. Para fechar o painel **Visualização**, você pode selecionar o ícone de fechamento ou qualquer lugar fora do painel.
 
-  ![](images/quick-preview_cs.png){width="800" align="left"}
+  ![](images/quick-preview_cs.png){align="left"}
 
 - **Renomear**: use esta opção para renomear o arquivo selecionado. Digite o nome do novo arquivo na caixa de diálogo **Renomear ativo**.
    - É possível renomear arquivos de qualquer tipo.
@@ -441,7 +441,7 @@ As seguintes opções estão disponíveis para um arquivo de mapa na exibição 
 
 Você pode executar as seguintes ações usando o menu Opções do arquivo de mapa:
 
-![](images/options-menu-map-view_cs.png){width="800" align="left"}
+![](images/options-menu-map-view_cs.png){align="left"}
 
 - **Editar**: abrir o arquivo de mapa para edição no Editor de Mapa.
 
@@ -497,7 +497,7 @@ Você pode executar as seguintes ações usando o menu Opções do arquivo de ma
 
 A captura de tela a seguir mostra o menu Opções de um arquivo na exibição de mapa:
 
-![](images/options-menu-file_cs.PNG){width="800" align="left"}
+![](images/options-menu-file_cs.PNG){align="left"}
 
 Você pode executar as seguintes ações usando o menu Opções:
 
@@ -607,11 +607,11 @@ A exibição em Estrutura de Tópicos oferece os seguintes recursos:
 
 - Arraste e solte elementos. Você pode substituir facilmente um elemento soltando outro elemento nele. Se você arrastar e soltar um elemento sobre outro elemento e visualizar uma caixa de retângulo tracejada ao redor do elemento, isso indica que o elemento será substituído. Ele substitui o elemento no qual o elemento é solto.
 
-  ![](images/replace-element-outline-view_cs.png){width="800" align="left"}
+  ![](images/replace-element-outline-view_cs.png){align="left"}
 
   Se você arrastar e soltar um elemento, um retângulo tracejado indicará que o elemento pode ser colocado no local atual. Se arrastar e soltar for inválido, uma mensagem de erro será mostrada para indicar que a operação não é permitida.
 
-  ![](images/drop-element-outline-view_cs.png){width="800" align="left"}
+  ![](images/drop-element-outline-view_cs.png){align="left"}
 
 - O menu **Opções** no modo de exibição *Estrutura de Tópicos* permite executar operações genéricas, como Recortar, Copiar, Excluir, Gerar ID, Inserir elemento antes ou depois do elemento atual, Renomear ou substituir um elemento, Quebrar um elemento, Desfazer a quebra de um elemento e criar um trecho do elemento selecionado.
 
@@ -634,7 +634,7 @@ Se um elemento de bloco tiver seu próprio texto, ele será exibido junto com es
 Se o administrador tiver criado um perfil para atributos, você obterá esses atributos junto com seus valores configurados. Você também pode atribuir atributos de exibição configurados pelo administrador na guia **Atributos de exibição** em **Configurações**. Os atributos definidos para um elemento são exibidos na exibição Layout e Estrutura de Tópicos.
 
 
-Para obter mais detalhes, exiba os *Atributos de exibição* na descrição do recurso *Configurações* na seção [Painel esquerdo](#left-panel).
+Para obter mais detalhes, exiba os *Atributos de exibição* na descrição do recurso *Configurações* no painel esquerdo.
 
 **Recurso de pesquisa**
 
@@ -698,7 +698,7 @@ O painel Condições exibe os atributos condicionais definidos pelo administrado
 
 Você também pode aplicar várias condições a um elemento arrastando e soltando várias condições em um elemento. Quando você aplica várias condições em um elemento, o painel Propriedades exibe as condições aplicadas separadas por vírgula.
 
-![](images/multiple-conditions-applied_cs.png){width="800" align="left"}
+![](images/multiple-conditions-applied_cs.png){align="left"}
 
 No entanto, na visualização Código, as condições são separadas usando um delimitador de espaço. Ao adicionar ou editar uma condição na Visualização de código, certifique-se de que várias condições sejam separadas usando um espaço.
 
@@ -706,7 +706,7 @@ No entanto, na visualização Código, as condições são separadas usando um d
 >
 > A captura de tela a seguir é de um usuário com privilégios administrativos. Como um usuário com privilégios administrativos, você pode adicionar, editar e excluir condições. Senão, como um autor normal, você só terá a opção de aplicar condições.
 
-![](images/conditional-content-through-panel_cs.png){width="800" align="left"}
+![](images/conditional-content-through-panel_cs.png){align="left"}
 
 Para adicionar ou definir uma condição, selecione o ícone + ao lado do painel Condições para exibir a caixa de diálogo Definir condição:
 
@@ -929,7 +929,7 @@ Você também pode alterar os valores do menu suspenso do atributo na visualiza�
 
 Você também pode exibir e aplicar o esquema de assunto do painel Condições.
 
-Para exibir o esquema de assunto no painel Condições, o administrador do sistema deve selecionar a opção **Mostrar esquema de assunto no painel Condições** na guia Geral em Configurações. Para obter mais detalhes, exiba a seção **Configurações** na [Barra de guias](#tab-bar).
+Para exibir o esquema de assunto no painel Condições, o administrador do sistema deve selecionar a opção **Mostrar esquema de assunto no painel Condições** na guia Geral em Configurações. Para obter mais detalhes, exiba a seção **Configurações** na [Barra de guias](./web-editor-tab-bar.md).
 
 O painel Condições exibe a estrutura vertical plana das definições de assunto dentro do esquema de assunto.
 
@@ -943,7 +943,7 @@ Os trechos são pequenos fragmentos de conteúdo que podem ser reutilizados em v
 >
 > A captura de tela a seguir é de um usuário com privilégios administrativos. Como usuário com privilégios administrativos, você pode adicionar, editar e excluir trechos. Caso contrário, como autor normal, você só terá as opções para visualizar e inserir um trecho.
 
-![](images/snippets-panel_cs.png){width="800" align="left"}
+![](images/snippets-panel_cs.png){align="left"}
 
 Para adicionar um trecho, use um dos seguintes métodos:
 
@@ -1008,7 +1008,7 @@ O Experience Manager Guides permite criar e gerenciar variáveis para publicaç�
 
 O ícone Localizar e substituir está localizado na parte inferior do painel esquerdo. O painel Localizar e substituir permite procurar e substituir texto entre arquivos em um mapa ou uma pasta no repositório. É possível localizar e substituir em todos os tópicos de um mapa, bem como nos tópicos presentes nos submapas dentro do mapa.
 
-![](images/map-find-replace.png){width="800" align="left"}
+![](images/map-find-replace.png){align="left"}
 
 Por padrão, é possível visualizar os arquivos por títulos. Ao passar o mouse sobre um arquivo, é possível visualizar o título do arquivo e o caminho do arquivo como uma dica de ferramenta.
 
@@ -1111,7 +1111,7 @@ Para exibir os comentários de revisão nas tarefas de revisão ativas que estã
 1. Você também pode inserir o termo de pesquisa ou o texto que deseja localizar no título do tópico ou no caminho do arquivo. Os tópicos que contêm o termo no título ou no caminho do arquivo são listados.
 1. Clique duas vezes em qualquer tópico para abri-lo na exibição do autor. Você pode exibir os comentários no painel **Comentários**.
 
-   ![](images/active-review-task-comments.png){width="800" align="left"}
+   ![](images/active-review-task-comments.png){align="left"}
 
    >[!NOTE]
    > 
