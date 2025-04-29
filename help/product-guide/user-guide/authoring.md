@@ -4,10 +4,10 @@ description: Gerencie o conteúdo e identifique suas funções e permissões no 
 exl-id: 84926dc2-1180-48ef-85d0-50e3478bf26a
 feature: Content Management
 role: User
-source-git-commit: 99e42091490b28b5d5ee73472a7655e3feeafd25
+source-git-commit: 461692ce786f914dd196f289efef726e42bf9660
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 10%
+source-wordcount: '584'
+ht-degree: 13%
 
 ---
 
@@ -88,15 +88,3 @@ A tabela a seguir lista várias tarefas e os grupos que podem executá-las:
 [1](#fnsrc_1) Se *Autores* e *Editores* forem convidados para uma revisão.
 
 [2](#fnsrc_2) Dependendo dos direitos concedidos ao usuário no perfil de estado do documento.
-
-## Pré-requisitos para a criação de conteúdo
-
-**Trabalhar com perfis globais ou de nível de pasta**
-
-Em uma empresa, diferentes grupos ou produtos podem usar diferentes modelos de criação, modelos de saída, perfis de atributo condicional \(ou esquemas de assunto\) e configurações do Editor da Web. Configurar esses apenas em nível corporativo \(ou global\) pode dificultar a experiência dos autores, pois eles visualizarão modelos ou perfis que não são relevantes para eles.
-
-O Experience Manager Guides permite configurar a criação de modelos \(tópico ou mapa\), modelos de saída, atributo condicional e configurações do Editor da Web em nível corporativo \(global\), bem como em nível de pasta. Dessa forma, você pode separar as configurações de diferentes departamentos ou produtos em sua empresa.
-
-Além disso, você pode delegar as configurações específicas da pasta a um departamento ou administradores de produtos para descentralizar a administração.
-
-Para obter detalhes sobre como configurar perfis globais e de pastas, consulte *Configurar perfis globais ou de pastas* em Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service.

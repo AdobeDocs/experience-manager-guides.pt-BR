@@ -4,9 +4,9 @@ description: Explore outros recursos do Editor no Adobe Experience Manager Guide
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 9e84617dcfc8bf596bdf0863883284b660cde2f1
+source-git-commit: c8ea6eae180ce7045a0364713604711aae2bb6bd
 workflow-type: tm+mt
-source-wordcount: '2399'
+source-wordcount: '2556'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Existem outros recursos úteis no Editor que você pode usar:
 
-**Funções de menu de contexto na guia de um arquivo**
+## Funções de menu de contexto na guia de um arquivo
 
 Ao abrir um arquivo no Editor, você pode executar várias ações do menu de contexto. É possível exibir opções diferentes se você abrir um arquivo de mídia, um único arquivo DITA ou vários arquivos.
 
@@ -142,19 +142,21 @@ O Editor fornece uma caixa de diálogo de procura inteligente de arquivos. O edi
 >
 > No caso de um arquivo de imagem, áudio ou vídeo, a caixa de diálogo de navegação de arquivo assume como padrão o local do arquivo e não o último local usado.
 
-**Suporte para publicação baseada em artigo**
+## Suporte para publicação baseada em artigo
 
 No Editor, é possível gerar a saída para um ou mais tópicos ou para o mapa DITA inteiro. É necessário criar predefinições de saída para o mapa DITA e, em seguida, gerar facilmente a saída para um ou mais tópicos. Se você tiver atualizado alguns tópicos no mapa, também poderá gerar a saída somente para esses tópicos do Editor. Para obter mais detalhes, exiba [publicação baseada em artigo](web-editor-article-publishing.md#id218CK0U019I).
 
-**Suporte para documentos do Markdown**
+## Suporte para documentos do Markdown
 
 O Editor permite usar os documentos do Markdown \(.md\) juntamente com os documentos DITA. Você pode criar e visualizar facilmente um documento do Markdown no editor e também adicioná-lo ao arquivo de mapa por meio do editor de mapa DITA. Para obter mais detalhes, exiba [os documentos do Markdown do autor do editor](web-editor-markdown-topic.md#).
 
-**Suporte para o tópico de termo do glossário DITA**
+## Suporte para tópico de termo do glossário DITA
 
 O Editor oferece suporte a termos de glossário DITA que você pode inserir adicionando `term` ou `abbreviated-form` elementos.
 
-**Inserir equações do MathML**
+## Trabalhar com equações do MathML
+
+### Inserir equações do MathML
 
 O Experience Manager Guides oferece suporte pronto para inserção de equações do MathML por integração com o aplicativo [MathType Web](https://docs.wiris.com/en/mathtype/mathtype_web/intro). Para inserir uma equação de MathML, selecione o ícone **Elemento** e digite mathml. Quando você seleciona um elemento matemático na lista, a caixa de diálogo **Inserir MathML** é exibida:
 
@@ -164,22 +166,22 @@ Usando as ferramentas de equação do MathML, crie sua equação e selecione **I
 
 A qualquer momento, você pode atualizar uma equação clicando com o botão direito do mouse em uma equação existente e selecionando **Editar MathML** no menu de contexto.
 
-- **Validação de equações no editor do MathML**
+### Validação de equações no editor do MathML
 
-  O Experience Manager Guides valida as equações do MathML quando você salva um tópico contendo elas.
+O Experience Manager Guides valida as equações do MathML quando você salva um tópico contendo elas.
 Ao inserir uma equação usando o editor do MathML, o Experience Manager Guides realça a equação em vermelho se houver problemas de sintaxe. Você pode corrigi-la antes de inseri-la. Se você não fizer alterações, mas selecionar **Inserir**, exibirá um aviso.
 
-  ![validar equação matemática](images/validate-mathml-equation.png){width="400" align="left"}
+![validar equação matemática](images/validate-mathml-equation.png){width="400" align="left"}
 
-  Se você inserir a equação do MathML que contém um erro de sintaxe, ocorrerá um erro de validação quando você tentar salvar o tópico.
+Se você inserir a equação do MathML que contém um erro de sintaxe, ocorrerá um erro de validação quando você tentar salvar o tópico.
 
 
-**Inserir notas de rodapé**
+## Inserir notas de rodapé
 
 Insira uma nota de rodapé em seu conteúdo usando o elemento `fn`. No modo de criação, o valor da nota de rodapé é mostrado em linha com o conteúdo. No entanto, ao alternar entre o modo de Visualização e a publicação do documento, a nota de rodapé é exibida no final do tópico.
 
 
-**Renomear ou substituir um elemento**
+## Renomear ou substituir um elemento
 
 O Editor exibe a navegação estrutural do elemento na parte inferior esquerda do tópico. Se quiser trocar ou substituir um elemento por outro elemento, faça isso no menu de contexto da navegação estrutural. Por exemplo, você pode trocar o elemento `p` por `note` ou qualquer outro elemento válido no contexto.
 
@@ -195,9 +197,9 @@ Além do menu de contexto da navegação estrutural, a caixa de diálogo Renomea
 
 - Você pode acessar a caixa de diálogo Renomear elemento chamando o menu Opções de um elemento no painel Estrutura de tópicos.
 
+## Quebrar e desfazer a quebra de um elemento
 
-
-**Vincular um elemento**
+### Quebrar um elemento
 
 - Quebrar um elemento permite adicionar uma tag de elemento ao texto selecionado. Você pode quebrar o texto para qualquer elemento filho seguindo os padrões DITA. Por exemplo, se você tiver texto sob um elemento `note`, poderá quebrar o texto para um elemento `p`.
 
@@ -205,11 +207,11 @@ Além do menu de contexto da navegação estrutural, a caixa de diálogo Renomea
 
 - Você também pode selecionar o texto ou o elemento no conteúdo e depois selecionar a opção **Quebrar Elemento** no menu de contexto.
 
-**Decodificar um elemento**
+### Decodificar um elemento
 
 Desfazer a quebra de um elemento permite remover a tag do elemento do texto selecionado e mesclá-lo com seu elemento pai. Por exemplo, se você tiver um elemento `p` em um elemento `note`, poderá decodificar o elemento `p` para mesclar o texto diretamente no elemento `note`. A opção **Decodificar Elemento** está disponível no menu de contexto da navegação estrutural do tópico. Para decodificar um elemento, clique com o botão direito do mouse no elemento para abrir o menu de contexto e, finalmente, selecione **Decodificar Elemento** para remover o elemento e mesclar o texto do elemento com seu elemento pai.
 
-**Tratamento de espaço em branco para elementos DITA**
+## Manuseio de espaço em branco para elementos DITA
 
 Em XML, os espaços em branco incluem espaços, tabulações, retornos de carro e linhas em branco. O Experience Manager Guides converte vários espaços em branco consequentes em um espaço. Isso ajuda a preservar a visualização WYSIWYG do Editor.
 
@@ -218,7 +220,7 @@ Em XML, os espaços em branco incluem espaços, tabulações, retornos de carro 
 > Em alguns elementos em que os espaços em branco precisam ser preservados de acordo com as regras DITA, os vários espaços em branco resultantes são retidos. Por exemplo, `<pre>` e `<codeblock>` elementos.
 
 
-**Preservando quebras de linha e recuo**
+## Preservando quebras de linha e recuo
 
 Os elementos DITA que contêm quebra de linha e espaços são suportados e renderizados de acordo com sua definição nos modos Autor, Source ou Visualização e também na saída final publicada. A captura de tela a seguir mostra o conteúdo do elemento `msgblock` no qual as quebras de linha e os espaços \(recuo\) foram preservados:
 
@@ -226,7 +228,7 @@ Os elementos DITA que contêm quebra de linha e espaços são suportados e rende
 
 
 
-**Manipulando espaços não separáveis no Editor**
+## Manipulação de espaços não separáveis no Editor
 
 - Você pode inserir espaços não separáveis no documento usando o ícone **Símbolo** ![](images/symbol-icon.svg) ou as teclas de atalho **Alt** + **Espaço**.  Esses espaços não separáveis aparecem como um indicador enquanto você edita um tópico no Editor. Você pode desativar a exibição dos espaços sem quebra com a opção **Mostrar indicador de espaço sem quebra no modo de autor** da guia **Aparência** de [Preferências do usuário](./intro-home-page.md#user-preferences).
 
@@ -234,7 +236,7 @@ Os elementos DITA que contêm quebra de linha e espaços são suportados e rende
 No entanto, se você copiar e colar o conteúdo com um espaço sem quebra da exibição **Autor**, ele será preservado.
 
 
-**Gerar automaticamente ID do elemento**
+## Gerar ID de elemento automaticamente
 
 Você pode gerar IDs automaticamente para os elementos no tópico DITA. Essas IDs são exclusivas em um tópico DITA. Por exemplo, se você gerar IDs para um elemento de parágrafo, as IDs serão p\_1, p2, p\_3 e assim por diante. Você pode selecionar vários elementos e gerar IDs para cada elemento selecionado.
 
@@ -246,5 +248,24 @@ Faça o seguinte para gerar automaticamente a ID de um ou vários elementos:
 
    Como alternativa, clique com o botão direito do mouse na navegação estrutural e selecione **Gerar IDs**.
 
+
+
+## Manuseio de arquivos grandes no Editor
+
+Os principais recursos destinados a melhorar o tratamento de arquivos grandes são mencionados da seguinte forma:
+
+- Para aprimorar o desempenho, determinadas funcionalidades como desfazer, refazer, o painel de estrutura de tópicos e o marcador sujo são desativadas. É recomendável dividir os tópicos em tópicos menores para obter uma experiência ideal.
+
+- Uma mensagem de alerta é exibida na parte superior para arquivos grandes, como mostrado no trecho abaixo. Este alerta destaca o número de elementos com base no valor especificado no parâmetro **largeFileTagCount** do arquivo uiconfig.json. Por padrão, **largeFileTagCount** está definido como 2500.
+
+![](images/add-toast-notification.png){width="600" align="left"}
+
+
+- Além disso, a contagem de tags é exibida na barra inferior da interface. Quando você passa o mouse sobre o valor de contagem de tags, uma dica de ferramenta é exibida. Selecionar a guia **Saiba mais** fornece detalhes sobre como manipular arquivos grandes.
+
+![](images/add-toast-tag-count.png){width="600" align="left"}
+
+
+- A mensagem de alerta está disponível somente para arquivos DITA e está visível em todas as exibições: Autor, Source e Layout.
 
 **Tópico pai:**[ Introdução ao Editor](web-editor.md)

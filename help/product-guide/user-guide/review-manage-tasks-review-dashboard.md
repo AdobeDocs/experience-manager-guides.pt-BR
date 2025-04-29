@@ -4,9 +4,9 @@ description: Gerencie tarefas de revisão no Painel de revisão no AEM Guides. S
 exl-id: 4fef5653-1c73-4b68-adf2-b24145555142
 feature: Reviewing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 717d300c6e879bad573f67e3eb91dd266ab203c6
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1312'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,8 @@ Você pode executar as seguintes ações na guia **Tarefa**:
 - Modifique a **Data de Conclusão**. Você pode adiar ou adiar o prazo para a conclusão da tarefa.
 - Selecione a opção para impedir que os usuários revisem apenas os tópicos atribuídos a eles.
 - Selecione **Atualizar** para atualizar os detalhes modificados.
+
+  Uma mensagem em caixa de informações é exibida para confirmar se a atualização foi bem-sucedida ou não.
 - Selecione **Concluído** para marcar a tarefa de revisão como concluída antes da data de vencimento. Quando a tarefa de um tópico for marcada como Concluída, a revisão do tópico selecionado será fechada. No entanto, no caso de tópicos compartilhados para revisão por meio de um mapa DITA, marcar a tarefa do mapa DITA como Concluída fechará a revisão de todos os tópicos no mapa que foram compartilhados para revisão.
 - Selecione **Duplicar** para criar uma cópia da tarefa de revisão. O processo de criação de uma tarefa de revisão duplicada é semelhante à criação de uma nova tarefa de revisão. Depois de iniciar o workflow de tarefa duplicada, você verá a página Criar Tarefa de Revisão. Você precisa fornecer os detalhes da nova tarefa conforme explicado em [Enviar tópicos para revisão](review-send-topics-for-review.md#).
 

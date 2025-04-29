@@ -4,9 +4,9 @@ description: Crie e gerencie linhas de base no console de mapas no Adobe Experie
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: 154d4cb2c4c51581590048e1d368f4c744402847
 workflow-type: tm+mt
-source-wordcount: '1815'
+source-wordcount: '1831'
 ht-degree: 0%
 
 ---
@@ -137,7 +137,7 @@ Você pode duplicar uma linha de base e modificá-la de acordo com suas necessid
   > O processo para adicionar ou remover rótulos ocorre de forma assíncrona, para que você possa continuar trabalhando em outros arquivos. Depois que o rótulo é adicionado ou removido, uma mensagem pop-up é exibida confirmando que o rótulo foi adicionado ou removido, e você também recebe uma notificação da Caixa de entrada para o mesmo.
 
 - **Editar propriedades** de uma linha de base estática existente que você definiu ao criar a linha de base.
-- Exporte o instantâneo de uma linha de base em um arquivo do Microsoft Excel com a opção **Exportar Linha de Base**.
+- A opção **Exportar Linha de Base** exporta um instantâneo da linha de base no arquivo do Microsoft Excel, incluindo todos os detalhes essenciais, como título, nome de arquivo, tipo de arquivo, número da versão, estado do documento e outras informações relevantes.
 
 
 ### Lista de rótulos {#labels-list}

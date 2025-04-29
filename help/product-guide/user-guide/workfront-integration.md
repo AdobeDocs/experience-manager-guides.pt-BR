@@ -4,9 +4,9 @@ description: Saiba como integrar o Workfront ao Adobe Experience Manager Guides 
 feature: Authoring
 role: User
 exl-id: fd988434-3ebd-40ac-a776-e62359dcb6ef
-source-git-commit: dea9876cf0afa615f3719637c909bbda0d1d40b5
+source-git-commit: 62b1abd012f4bbf532480e2625505cdea1c70bc7
 workflow-type: tm+mt
-source-wordcount: '2436'
+source-wordcount: '2482'
 ht-degree: 0%
 
 ---
@@ -85,6 +85,8 @@ Execute as seguintes etapas para criar uma nova tarefa do Adobe Workfront:
 3. Na guia **Assets**, selecione **Adicionar** para adicionar um ativo a esta tarefa.
 
    ![](./images/workfront-create-tasks-asset.png){align="left"}
+
+   A caixa de diálogo **Selecionar caminho** é exibida. Selecione um caminho para o ativo necessário. Você pode adicionar vários ativos selecionando os caminhos válidos no navegador de caminhos. Os caminhos selecionados serão retidos, permitindo que você os revise ou modifique facilmente ao reabrir a caixa de diálogo.
 
    * Para tarefas de criação, publicação e tradução, você será solicitado a selecionar o local do arquivo necessário na caixa de diálogo **Selecionar caminho**. O arquivo selecionado (um tópico para criação e mapa para publicação e tradução) é adicionado à tarefa assim que o botão **Criar** é selecionado.
 

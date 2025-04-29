@@ -4,9 +4,9 @@ description: Saiba como gerenciar arquivos e pastas no AEM Guides. Copie e cole,
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 717d300c6e879bad573f67e3eb91dd266ab203c6
 workflow-type: tm+mt
-source-wordcount: '3131'
+source-wordcount: '3201'
 ht-degree: 0%
 
 ---
@@ -146,7 +146,7 @@ Para mover arquivos em massa, execute as seguintes etapas:
 
    - **Caminho do Source\(s\)**: especifique o local das pastas que deseja mover.
 
-      - Selecionar **Pasta de Navegação**  <img src="images/browse-folder-icon.svg" width="25">    para abrir a caixa de diálogo procurar arquivo. Selecione as pastas que deseja mover e escolha **Selecionar** para concluir o processo.
+      - Selecionar **Pasta de Navegação**  <img src="images/browse-folder-icon.svg" width="25">    para abrir a caixa de diálogo **Selecionar caminho**. Selecione as pastas que deseja mover e escolha **Selecionar** para concluir o processo. Você pode selecionar várias pastas colocadas em locais diferentes no navegador de caminho. O caminho das pastas selecionadas será mantido, permitindo que você as revise ou modifique facilmente ao reabrir a caixa de diálogo.
 
       - Você também pode digitar ou copiar e colar o local de origem. Pressione Enter para adicionar a pasta à lista.
 
@@ -195,7 +195,7 @@ Para mover arquivos em massa, execute as seguintes etapas:
 
    - **Caminho do Source\(s\)**: especifique o local das pastas que deseja mover.
 
-      - Selecionar **Pasta de Navegação**  <img src="images/browse-folder-icon.svg" width="25">    para abrir a caixa de diálogo procurar arquivo. Selecione as pastas que deseja mover e escolha **Selecionar** para concluir o processo.
+      - Selecionar **Pasta de Navegação**  <img src="images/browse-folder-icon.svg" width="25">    para abrir a caixa de diálogo **Selecionar caminho**. Selecione as pastas que deseja mover e escolha **Selecionar** para concluir o processo. Você pode selecionar várias pastas colocadas em locais diferentes no navegador de caminho. O caminho das pastas selecionadas será mantido, permitindo que você as revise ou modifique facilmente ao reabrir a caixa de diálogo.
 
       - Você também pode digitar ou copiar e colar o local de origem. Pressione Enter para adicionar a pasta à lista.
 
