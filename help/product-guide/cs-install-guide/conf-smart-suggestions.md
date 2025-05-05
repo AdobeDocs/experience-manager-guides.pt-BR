@@ -2,7 +2,7 @@
 title: Configurar o AI Assistant para obter ajuda e criação inteligentes
 description: Saiba como configurar o Assistente de IA no Experience Manager Guides
 exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
-source-git-commit: 7b217cfd52dbf716b626e66373fffcc1b9eff695
+source-git-commit: 018bd7c7bc3bb9161e5bedd42d50a5c501ca2919
 workflow-type: tm+mt
 source-wordcount: '880'
 ht-degree: 0%
@@ -84,7 +84,7 @@ Execute as seguintes etapas para adicionar a configuração IMS ao ambiente:
 
 ## Habilitar o sinalizador de IA no ambiente
 
-Para habilitar o recurso Assistente de IA na interface do usuário do Experience Manager Guides, adicione o sinalizador `ENABLES_GUIDES_AI` no ambiente.
+Para habilitar o recurso Assistente de IA na interface do usuário do Experience Manager Guides, adicione o sinalizador `ENABLE_GUIDES_AI` no ambiente.
 
 Certifique-se de que você esteja usando o mesmo nome e configuração fornecidos na captura de tela a seguir.
 
