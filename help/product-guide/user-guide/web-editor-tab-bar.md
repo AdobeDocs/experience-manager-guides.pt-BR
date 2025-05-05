@@ -52,4 +52,4 @@ Uma ferramenta avançada orientada por IA, projetada para melhorar a produtivida
    - **Software Local**: se estiver usando o Adobe Experience Manager Guides (4.2.1 e posterior), selecionar a opção **Assets** levará você ao caminho do arquivo atual na interface do usuário do Assets.
 - **Configurações**: Leva você à caixa de diálogo Configurações do Editor. Para obter detalhes, consulte [Trabalhando com Configurações do Editor](./web-editor-settings.md).
 
-**Tópico pai:**[ Introdução ao Editor](web-editor.md)
+**Tópico pai:**&#x200B;[ Introdução ao Editor](web-editor.md)

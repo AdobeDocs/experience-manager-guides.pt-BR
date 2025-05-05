@@ -1,5 +1,5 @@
 ---
-title: Usar o Assistente de IA para criar documentos com inteligência `
+title: Usar o Assistente de IA para criar documentos com inteligência &grave;
 description: Saiba como usar o Assistente de IA para pesquisar e criar documentos de forma inteligente no Adobe Experience Manager Guides.
 exl-id: c18e8761-333e-40ef-9e16-e71a194a754a
 source-git-commit: aab7bc0c79d3c98f062d230d1d21ec7f4e6a01c3

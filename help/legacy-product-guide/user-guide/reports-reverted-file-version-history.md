@@ -58,4 +58,4 @@ Execute as seguintes etapas para acessar o relatório Reverter histórico:
    - **Comentário**: qualquer comentário fornecido pelo usuário que reverteu o arquivo.
 
 
-**Tópico pai:**[ Relatórios](reports-intro.md)
+**Tópico pai:**&#x200B;[ Relatórios](reports-intro.md)

@@ -37,4 +37,4 @@ O AEM Guides permite configurar o estado padrão para a Exibição de tags no Ed
 >
 > A preferência do usuário no Editor da Web para ativar/desativar a Visualização de tags tem precedência sobre esse valor padrão. Portanto, se um usuário ativar a Exibição de tags no Editor da Web, ela permanecerá ativada mesmo nas sessões.
 
-**Tópico pai:**[ Personalizar editor da Web](conf-web-editor.md)
+**Tópico pai:**&#x200B;[ Personalizar editor da Web](conf-web-editor.md)

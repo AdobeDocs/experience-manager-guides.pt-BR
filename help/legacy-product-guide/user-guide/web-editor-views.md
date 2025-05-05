@@ -152,4 +152,4 @@ Para exportar um tópico como PDF, siga estas etapas:
    A PDF é gerada e aberta em uma nova guia ou você verá uma caixa de diálogo para salvar a PDF no sistema local.
 
 
-**Tópico pai:**[ Trabalhar com o Editor da Web](web-editor.md)
+**Tópico pai:**&#x200B;[ Trabalhar com o Editor da Web](web-editor.md)

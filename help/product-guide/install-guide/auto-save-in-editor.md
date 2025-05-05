@@ -35,4 +35,4 @@ O recurso de salvamento automático não está habilitado por padrão e você pr
 1. Clique em **Salvar**.
 
 
-**Tópico pai:**[ Personalizar editor da Web](conf-web-editor.md)
+**Tópico pai:**&#x200B;[ Personalizar editor da Web](conf-web-editor.md)

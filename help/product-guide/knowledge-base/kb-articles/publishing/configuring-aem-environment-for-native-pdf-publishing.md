@@ -105,7 +105,7 @@ O mecanismo de publicação PDF nativo precisa do JDK do Oracle para gerar os m�
 
 10. Se o comando unzip não estiver instalado/reconhecido, ele poderá ser instalado usando o seguinte comando
 
-   **descompactar a instalação do yum**
+    **descompactar a instalação do yum**
 
 11. Instale o pacote fontconfig.
 Comando: yum install fontconfig

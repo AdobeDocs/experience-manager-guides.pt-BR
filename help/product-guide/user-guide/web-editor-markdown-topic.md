@@ -178,4 +178,4 @@ Os seguintes recursos do Experience Manager Guides não se aplicam à criação 
 > O recurso **Localizar e substituir** não processa arquivos do Markdown no nível do repositório. Isso inclui a pesquisa de um arquivo do Markdown em um mapa ou pasta. No entanto, ele ainda pode ser usado no editor do Markdown. Além disso, as opções **Pesquisar** e **Filtrar** na exibição Repositório não processam arquivos Markdown.
 
 
-**Tópico pai:**[ Introdução ao Editor](web-editor.md)
+**Tópico pai:**&#x200B;[ Introdução ao Editor](web-editor.md)

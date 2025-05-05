@@ -38,4 +38,4 @@ Quando a tarefa de revisão for reatribuída, a coluna Destinatário exibirá o 
 
 O revisor atribuído recebe uma notificação na Caixa de entrada para a tarefa de revisão reatribuída.
 
-**Tópico pai:**[ Introdução à revisão](review.md)
+**Tópico pai:**&#x200B;[ Introdução à revisão](review.md)

@@ -141,4 +141,4 @@ Saiba como trabalhar com arquivos Schematron no Experience Manager Guides, consu
 
 
 
-**Tópico pai:**[ Introdução ao Editor](web-editor.md)
+**Tópico pai:**&#x200B;[ Introdução ao Editor](web-editor.md)

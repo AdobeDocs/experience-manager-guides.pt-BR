@@ -250,6 +250,7 @@ Para enviar um ou vários tópicos juntamente com o arquivo de mapa para revisã
    - **Reatribuir**: exibe a caixa de diálogo Reatribuir Revisores. É possível digitar o nome de um revisor ou função de usuário \(ou grupo\) à qual você deseja atribuir a tarefa de revisão. Isso remove todos os revisores existentes dos tópicos selecionados e atribui os revisores recém-selecionados a esses tópicos.
    - **Exportar**: permite exportar os detalhes da tarefa de revisão em um arquivo CSV. O arquivo contém detalhes como caminho e título do tópico, nome do revisor e versão dos tópicos enviados para revisão.
    - **Editar Revisores**: selecionar o ícone ![](images/edit_pencil_icon.svg) na lista de tópicos exibe a caixa de diálogo Editar Revisores. Você pode adicionar ou remover revisores para o tópico selecionado nesta caixa de diálogo.
+
    >[!IMPORTANT]
    >
    > Você deve atribuir pelo menos um revisor para criar a tarefa de revisão.
@@ -269,4 +270,4 @@ Para enviar um ou vários tópicos juntamente com o arquivo de mapa para revisã
 
 Um email é enviado para todos os revisores, notificando que eles receberam tópicos para revisão. O e-mail contém um link direto que eles podem usar para acessar o tópico em uma janela do navegador. Os tópicos, juntamente com o mapa DITA, são abertos no modo de revisão.
 
-**Tópico pai:**[ Introdução à revisão](review.md)
+**Tópico pai:**&#x200B;[ Introdução à revisão](review.md)

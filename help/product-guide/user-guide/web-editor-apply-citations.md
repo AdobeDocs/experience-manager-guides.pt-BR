@@ -96,7 +96,7 @@ Para importar citações, siga estas etapas:
 
    >[!NOTE]
    > <ol><li> O Experience Manager Guides importa somente as citações que são exclusivas e que ainda não estão presentes.
-    &gt; <li> O Experience Manager Guides pode importar citações de um Livro, Diário ou Site. Atualmente, não aceita citações de outras fontes.
+   > &gt; <li> O Experience Manager Guides pode importar citações de um Livro, Diário ou Site. Atualmente, não aceita citações de outras fontes.
 
 ## Gerenciar citações
 

@@ -27,4 +27,4 @@ Você pode produzir saídas no PDF, ePub, HTML e em muitos outros formatos, usan
 
 *Contate a equipe de êxito do cliente para habilitar este recurso no ambiente. Isso não é habilitado como parte do suporte pronto para uso.*
 
-**Tópico pai:**[ Conteúdo do autor](authoring-content.md)
+**Tópico pai:**&#x200B;[ Conteúdo do autor](authoring-content.md)

@@ -97,4 +97,4 @@ Execute as seguintes etapas para gerar o CSV de um relatório de mapa DITA:
 
 Depois que o relatório for baixado na Caixa de entrada, você também poderá selecionar o relatório e usar o ícone Abrir na parte superior para abrir o relatório selecionado.
 
-**Tópico pai:**[ Introdução aos relatórios](reports-intro.md)
+**Tópico pai:**&#x200B;[ Introdução aos relatórios](reports-intro.md)

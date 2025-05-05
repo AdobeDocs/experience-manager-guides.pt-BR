@@ -35,12 +35,15 @@ Comentário de revisão no lado do editor xml:
 
 - Resposta ao Comentário da Revisão: `id: comment_reply`
    - O widget para cada resposta de comentário de revisão.
+
      ![Captura de tela de resposta ao comentário de revisão](./imgs/reply.png)
 
 - Nova resposta de comentário de revisão: `id: comment_new_reply`
    - O widget para nova resposta de comentário de revisão.
+
      ![Nova captura de tela de resposta ao comentário de revisão](./imgs/new_reply.png)
 
 - Caixa de Ferramentas de Anotação: `id: annotation_toolbox`
    - A barra de ferramentas superior direita no aplicativo de análise.
+
      ![Captura de tela da caixa de ferramentas de anotação](./imgs/annotation_toolbox.png)

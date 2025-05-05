@@ -37,4 +37,4 @@ Este tópico aborda o processo de criação de um mapa DITA e o uso do Editor de
 - **[Outros recursos nos editores de mapa](map-editor-other-features.md)**
 
 
-**Tópico pai:**[ Conteúdo de autor usando o AEM Guides](authoring-content-xml-doc.md)
+**Tópico pai:**&#x200B;[ Conteúdo de autor usando o AEM Guides](authoring-content-xml-doc.md)

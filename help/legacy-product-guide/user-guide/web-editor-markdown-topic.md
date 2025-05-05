@@ -62,4 +62,4 @@ Execute as seguintes etapas para criar um tópico do Markdown no editor da Web:
 >
 > Se você não tiver salvo as alterações, um pop-up será exibido e você será solicitado a salvar seu tópico antes de fechá-lo.
 
-**Tópico pai:**[ Trabalhar com o Editor da Web](web-editor.md)
+**Tópico pai:**&#x200B;[ Trabalhar com o Editor da Web](web-editor.md)

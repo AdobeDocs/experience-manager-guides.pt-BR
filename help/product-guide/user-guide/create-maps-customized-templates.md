@@ -230,4 +230,4 @@ O mapa gera todos os ativos que são referenciados dentro da pasta de modelo. Al
 
 - Se outro mapa ou tópico for criado no mesmo nível na pasta, os nomes dos ativos recém-criados serão anexados com 0,1,2 e assim por diante. Você pode optar por abrir o mapa para edição ou salvar o arquivo de mapa no repositório.
 
-**Tópico pai:**[ Introdução ao Editor de Mapa](map-editor.md)
+**Tópico pai:**&#x200B;[ Introdução ao Editor de Mapa](map-editor.md)

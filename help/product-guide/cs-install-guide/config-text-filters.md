@@ -70,14 +70,14 @@ Execute as seguintes etapas para configurar os filtros de texto:
 
       No trecho de código acima, o primeiro filtro é para Arquivos DITA. A definição do filtro usa os seguintes parâmetros:
 
-      ****Título****: o nome para exibição do filtro. Este título aparece como a opção de filtragem na caixa de diálogo de procura de arquivo.
+      **&#x200B;**&#x200B;Título&#x200B;**&#x200B;**: o nome para exibição do filtro. Este título aparece como a opção de filtragem na caixa de diálogo de procura de arquivo.
 
-      ****Propriedade****: a propriedade que deve corresponder aos metadados do arquivo. Por exemplo, para permitir somente os arquivos que têm os metadados dita\_class em sua propriedade, o filtro de propriedade usa &quot;jcr:content/metadata/dita\_class&quot; como seu valor.
+      **&#x200B;**&#x200B;Propriedade&#x200B;**&#x200B;**: a propriedade que deve corresponder aos metadados do arquivo. Por exemplo, para permitir somente os arquivos que têm os metadados dita\_class em sua propriedade, o filtro de propriedade usa &quot;jcr:content/metadata/dita\_class&quot; como seu valor.
 
-      ****Operação **:**especifique &quot;existe&quot; para corresponder à existência do valor especificado no parâmetro de propriedade
+      **&#x200B;**&#x200B;Operação **:**&#x200B;especifique &quot;existe&quot; para corresponder à existência do valor especificado no parâmetro de propriedade
 
 1. Carregue o arquivo ui\_config.json atualizado que contém os filtros adicionados.
 
 Os filtros configurados estão disponíveis no painel Filtros.
 
-**Tópico pai:**[ Personalizar editor da Web](conf-web-editor.md)
+**Tópico pai:**&#x200B;[ Personalizar editor da Web](conf-web-editor.md)

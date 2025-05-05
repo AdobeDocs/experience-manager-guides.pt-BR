@@ -171,4 +171,4 @@ Execute as seguintes etapas para exportar uma Linha de Base traduzida:
 1. \(Opcional\) Para exportar uma Linha de Base que já foi exportada, selecione **Substituir Linha de Base Existente** e **Exportar Linha de Base**.
 
 
-**Tópico pai:**[ Geração de saída](generate-output.md)
+**Tópico pai:**&#x200B;[ Geração de saída](generate-output.md)

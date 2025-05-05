@@ -45,4 +45,4 @@ Execute as seguintes etapas para transmitir os metadados para a saída usando a 
 
 As propriedades de metadados selecionadas serão passadas para a saída gerada usando o DITA-OT.
 
-**Tópico pai:**[ Geração de saída](generate-output.md)
+**Tópico pai:**&#x200B;[ Geração de saída](generate-output.md)

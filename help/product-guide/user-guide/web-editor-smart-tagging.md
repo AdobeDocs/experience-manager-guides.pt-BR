@@ -39,4 +39,4 @@ Execute as seguintes etapas para criar tags inteligentes:
 
 *Contate a equipe de êxito do cliente para habilitar este recurso no ambiente. Isso não é habilitado como parte do suporte pronto para uso.*
 
-**Tópico pai:**[ Gerenciar metadados](manage-metadata.md)
+**Tópico pai:**&#x200B;[ Gerenciar metadados](manage-metadata.md)

@@ -99,7 +99,7 @@ Para importar citações, siga estas etapas:
 
    >[!NOTE]
    > <ol><li> O AEM Guides importa somente as citações que são exclusivas e que ainda não estão presentes.
-    &gt; <li> O AEM Guides pode importar citações de um Livro, Diário ou Site. Atualmente, não aceita citações de outras fontes.
+   > &gt; <li> O AEM Guides pode importar citações de um Livro, Diário ou Site. Atualmente, não aceita citações de outras fontes.
 
 ## Gerenciar citações
 

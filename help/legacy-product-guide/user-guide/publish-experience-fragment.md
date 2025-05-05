@@ -37,6 +37,7 @@ Por exemplo:
 
      Se você não definir um modelo permitido para uma pasta, os modelos serão escolhidos da pasta principal ou da pasta de modelos por padrão.
    * **Solicitável**: permite alterar a ordem dos ativos dentro de uma pasta.
+
      ![adicionar detalhes de configuração da nuvem nas propriedades da pasta](images/experience-fragment-folder-properties.png){width="650" align="left"}
      *Adicione a configuração da nuvem nas propriedades da pasta para conectá-la aos modelos de fragmento.*
 1. Para gerar um Fragmento de Experiência, selecione **Nova Saída** ![novo ícone de saída](./images/Add_icon.svg) na seção **Saídas** em **Propriedades do Arquivo** de um tópico.

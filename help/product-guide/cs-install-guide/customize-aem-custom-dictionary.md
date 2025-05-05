@@ -35,4 +35,4 @@ Execute as seguintes etapas para criar sua lista de palavras personalizadas, que
 
 Os autores precisariam reiniciar a sessão do Editor da Web para atualizar a lista de palavras personalizadas no dicionário AEM.
 
-**Tópico pai:**[ Personalizar editor da Web](conf-web-editor.md)
+**Tópico pai:**&#x200B;[ Personalizar editor da Web](conf-web-editor.md)

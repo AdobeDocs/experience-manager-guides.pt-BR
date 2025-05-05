@@ -253,4 +253,4 @@ Faça o seguinte para gerar automaticamente a ID de um ou vários elementos:
    Como alternativa, clique com o botão direito do mouse na navegação estrutural e selecione **Gerar IDs**.
 
 
-**Tópico pai:**[ Trabalhar com o Editor da Web](web-editor.md)
+**Tópico pai:**&#x200B;[ Trabalhar com o Editor da Web](web-editor.md)

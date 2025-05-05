@@ -27,7 +27,7 @@ Para configurar o novo serviço de publicação para qualquer ambiente de nuvem 
     Modelo de Site do AEM: Modelo de OOTB do AEM Guides
     Versão do DITA-OT: 3.5.4
     Tipo de Fluxo de Trabalho do Publish: Fluxo de Trabalho do Publish Dividido
-    Saída suportada pelo microsserviço: PDF nativo, PDF (Dita-OT){6
+    Saída suportada pelo microsserviço: PDF nativo, PDF (Dita-OT)&lbrace;6
 
 ## Números de Geração de Saída
 

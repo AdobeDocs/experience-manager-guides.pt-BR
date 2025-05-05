@@ -78,4 +78,4 @@ Execute as seguintes etapas para excluir uma predefinição de saída existente:
    A predefinição é removida da lista Predefinições de saída.
 
 
-**Tópico pai:**[ Geração de saída](generate-output.md)
+**Tópico pai:**&#x200B;[ Geração de saída](generate-output.md)

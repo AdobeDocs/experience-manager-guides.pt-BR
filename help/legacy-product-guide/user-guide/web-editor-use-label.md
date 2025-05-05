@@ -58,4 +58,4 @@ Execute as seguintes etapas para excluir um rótulo:
    ![](images/delete-labels.png){width="300" align="left"}
 
 
-**Tópico pai:**[ Trabalhar com o Editor da Web](web-editor.md)
+**Tópico pai:**&#x200B;[ Trabalhar com o Editor da Web](web-editor.md)

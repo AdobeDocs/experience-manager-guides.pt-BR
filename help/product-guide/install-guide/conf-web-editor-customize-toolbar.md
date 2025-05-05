@@ -49,7 +49,7 @@ Execute as seguintes etapas para adicionar um recurso à barra de ferramentas do
 
 1. No arquivo `ui_config.json`, adicione a definição do novo recurso na seção de barras de ferramentas. Normalmente, você pode criar um novo grupo de botões da barra de ferramentas e adicionar um ou mais botões da barra de ferramentas a ele. Ou você pode adicionar um novo botão de barra de ferramentas em um grupo existente. Os detalhes a seguir são necessários para criar um novo grupo de barras de ferramentas:
 
-   - **tipo:**especifique `blockGroup` como o valor `type`. Esse valor indica que você está criando um grupo de blocos que conteria um ou mais grupos da barra de ferramentas.
+   - **tipo:**&#x200B;especifique `blockGroup` como o valor `type`. Esse valor indica que você está criando um grupo de blocos que conteria um ou mais grupos da barra de ferramentas.
 
    - **classe(s) de extração:** Nome da(s) classe(s) separada(s) por espaço.
 
@@ -240,4 +240,4 @@ O arquivo `ui_config.json` tem três seções:
 1. Salve o arquivo *ui\_config.json* e recarregue o Editor da Web.
 
 
-**Tópico pai:**[ Personalizar editor da Web](conf-web-editor.md)
+**Tópico pai:**&#x200B;[ Personalizar editor da Web](conf-web-editor.md)

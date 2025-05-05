@@ -141,4 +141,4 @@ Após a conclusão da tradução, o status do trabalho de tradução é alterado
 >
 > Se você rejeitar a tradução de um ou mais tópicos em um trabalho de tradução, o status de tradução **Em andamento** de todos os tópicos rejeitados será revertido para seu status original. O status dos tópicos referenciados é verificado e revertido de acordo com o estado de tradução mais recente. Além disso, os arquivos de tradução criados no projeto de destino não são excluídos, mesmo que a tradução seja rejeitada para eles.
 
-**Tópico pai:**[ Traduzir conteúdo](translation.md)
+**Tópico pai:**&#x200B;[ Traduzir conteúdo](translation.md)

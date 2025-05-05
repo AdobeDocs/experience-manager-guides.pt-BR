@@ -49,4 +49,4 @@ Para limpar os arquivos residuais após a desinstalação, execute as seguintes 
 1. Clique em **Invalidar cache**.
 1. Limpe o cache do navegador.
 
-**Tópico pai:**[ Baixar e instalar](download-install.md)
+**Tópico pai:**&#x200B;[ Baixar e instalar](download-install.md)

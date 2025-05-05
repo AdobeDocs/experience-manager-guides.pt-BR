@@ -40,7 +40,7 @@ Execute as seguintes etapas para criar configurações de IMS no **Adobe Develop
 
    <img src="assets/projects-tab.png" alt="guia projetos" width="500">
 
-   *Selecione a guia **Projetos**no **Adobe Developer Console***
+   *Selecione a guia **Projetos**&#x200B;no **Adobe Developer Console***
 
 1. Para criar um novo projeto vazio, selecione **Projeto vazio** na lista suspensa **Criar novo projeto**.
 

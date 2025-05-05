@@ -25,4 +25,4 @@ Para otimização de desempenho, considere os seguintes pontos:
   Essa alteração reduz o tempo de publicação e a utilização da memória durante a publicação de mapas DITA com um grande número de tópicos.
 
 
-**Tópico pai:**[ Baixar e instalar](download-install.md)
+**Tópico pai:**&#x200B;[ Baixar e instalar](download-install.md)

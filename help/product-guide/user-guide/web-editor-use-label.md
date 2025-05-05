@@ -81,4 +81,4 @@ Para excluir um rótulo de versão de um tópico, use o botão **Excluir** forne
 ![](images/delete-labels.png){width="300" align="left"}
 
 
-**Tópico pai:**[ Introdução ao Editor](web-editor.md)
+**Tópico pai:**&#x200B;[ Introdução ao Editor](web-editor.md)

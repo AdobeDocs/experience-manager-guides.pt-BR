@@ -30,7 +30,7 @@ Um Fragmento de experiência é uma unidade de conteúdo modular no Adobe Experi
 
 ![guia de opções de propriedades de arquivo](./assets/file-properties-outputs-4-6.png) {width="300" align="left"}
 
-*Publish e exiba os Fragmentos de Experiência de um tópico da seção **Saídas**em **Propriedades do Arquivo**.*
+*Publish e exiba os Fragmentos de Experiência de um tópico da seção **Saídas**&#x200B;em **Propriedades do Arquivo**.*
 
 O Experience Manager Guides agora permite publicar um tópico ou seus elementos em um Fragmento de experiência. Você pode criar um mapeamento baseado em JSON entre um tópico ou seus elementos e um modelo de Fragmento de experiência. Você também pode criar variações de Fragmento de experiência usando os filtros de condição.
 
@@ -81,7 +81,7 @@ Se o mesmo tópico for referido mais de uma vez em um arquivo, será possível a
 
 ![Predefinição herdada do AEM Sites](assets/aem-sites-legacy.png)
 
-*Especifique o contexto de publicação para os tópicos vinculados da guia **Referências entre mapas**da predefinição **AEM Sites**.*
+*Especifique o contexto de publicação para os tópicos vinculados da guia **Referências entre mapas**&#x200B;da predefinição **AEM Sites**.*
 
 
 

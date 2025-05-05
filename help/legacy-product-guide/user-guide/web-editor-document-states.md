@@ -104,4 +104,4 @@ Depois que um documento é marcado como aprovado, ele não fica mais disponível
    O estado do documento é alterado para Rascunho e o documento é aberto no Editor da Web no modo de edição.
 
 
-**Tópico pai:**[ Trabalhar com o Editor da Web](web-editor.md)
+**Tópico pai:**&#x200B;[ Trabalhar com o Editor da Web](web-editor.md)

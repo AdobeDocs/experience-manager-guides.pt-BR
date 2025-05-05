@@ -23,4 +23,4 @@ O Dispatcher é a ferramenta de balanceamento de carga e/ou cache do Adobe Exper
 >
 > O AEM as a cloud service não oferece suporte ao Dispatcher para instância do autor.
 
-**Tópico pai:**[ Baixar e instalar](download-install.md)
+**Tópico pai:**&#x200B;[ Baixar e instalar](download-install.md)

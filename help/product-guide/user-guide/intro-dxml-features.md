@@ -79,4 +79,4 @@ Veja a seguir uma lista de outros recursos úteis do Experience Manager Guides, 
 * Guia de início rápido
 * Página de arquivamento [Ajuda*](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) (acesse a documentação de versão mais antiga)
 
-**Tópico pai:**[ Sobre o Adobe Experience Manager Guides as a Cloud Service](intro.md)
+**Tópico pai:**&#x200B;[ Sobre o Adobe Experience Manager Guides as a Cloud Service](intro.md)

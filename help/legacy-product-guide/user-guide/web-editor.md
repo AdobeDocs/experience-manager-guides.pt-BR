@@ -47,4 +47,4 @@ Além disso, o Editor da Web tem reconhecimento de DITA e é compatível com os 
 - **[Usar rótulos](web-editor-use-label.md)**
 
 
-**Tópico pai:**[ Conteúdo de autor usando o AEM Guides](authoring-content-xml-doc.md)
+**Tópico pai:**&#x200B;[ Conteúdo de autor usando o AEM Guides](authoring-content-xml-doc.md)

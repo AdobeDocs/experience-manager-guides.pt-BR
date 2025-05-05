@@ -114,8 +114,10 @@ Você precisa dos dois tipos de modelos a seguir:
   ![modelo de página de seção](assets/customize-existing-aem-templates-section.png)
    - Página de detalhes ou Modelo de página de tópico: use este modelo para o conteúdo dos tópicos de um mapa. Todas as páginas de sites com conteúdo DITA/XML são criadas usando modelos de página de tópico. Para criar esses modelos, há dois pré-requisitos:
       - Adicione um componente de texto ao modelo, contido em um componente de contêiner, com uma propriedade obrigatória. `text="$topic.content$"`.
+
         ![modelo de página de contêiner](assets/customize-existing-aem-templates-container.png)
       - Reflita o mesmo contêiner e componente de texto na estrutura do mesmo modelo, como mostrado na seguinte captura de tela:
+
         ![estrutura do modelo de contêiner](assets/customize-existing-aem-templates-structure.png)
 
 ### Marcar página de categoria como contêiner da documentação

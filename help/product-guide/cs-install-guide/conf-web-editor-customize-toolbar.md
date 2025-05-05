@@ -51,16 +51,16 @@ Execute as seguintes etapas para adicionar um recurso à barra de ferramentas do
    **itens**:   Especifique a definição de todos os grupos na barra de ferramentas. Cada grupo pode conter um ou vários ícones da barra de ferramentas. Para definir ícones em um grupo de barras de ferramentas, você precisa definir novamente o atributo `type` em `items` e definir seu valor como `buttonGroup`. Especifique um ou mais nomes de classe na propriedade `extraclass`. Especifique o nome do recurso na propriedade `label`. O trecho a seguir do arquivo `ui_config.json` mostra a definição do bloco da barra de ferramentas principal, seguida pela definição `buttonGroup`:
 
        &quot;
-       &quot;barra de ferramentas&quot;: {
+       &quot;barra de ferramentas&quot;: &lbrace;
        &quot;type&quot;: &quot;blockGroup&quot;,
        &quot;classe de extração&quot;:
        &quot;operações da barra de ferramentas&quot;,
-       &quot;itens&quot;: [
-       {
+       &quot;itens&quot;: &lbrack;
+       &lbrace;
        &quot;tipo&quot;: &quot;buttonGroup&quot;,
        &quot;extraclass&quot;: &quot;left-controls&quot;,
        &quot;rótulo&quot;: &quot;Controles de Esquerda&quot;,
-       &quot;itens&quot;: [
+       &quot;itens&quot;: &lbrack;
        &quot;
    
    Na coleção `items`, é necessário especificar a definição de um ou mais ícones da barra de ferramentas.
@@ -145,4 +145,4 @@ Execute as seguintes etapas para remover qualquer recurso indesejado da barra de
 1. Salve o arquivo *ui\_config.json* e recarregue o Editor da Web.
 
 
-**Tópico pai:**[ Personalizar editor da Web](conf-web-editor.md)
+**Tópico pai:**&#x200B;[ Personalizar editor da Web](conf-web-editor.md)

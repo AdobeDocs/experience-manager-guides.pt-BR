@@ -34,4 +34,4 @@ Além disso, o Editor tem reconhecimento de DITA e é compatível com os padrõe
 - **[Usar rótulos](web-editor-use-label.md)**
 
 
-**Tópico pai:**[ Conteúdo de autor usando o Experience Manager Guides](authoring-content-xml-doc.md)
+**Tópico pai:**&#x200B;[ Conteúdo de autor usando o Experience Manager Guides](authoring-content-xml-doc.md)

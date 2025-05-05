@@ -54,4 +54,4 @@ Para incluir o atributo `@navtitle` por padrão nas propriedades dos arquivos de
 
 Com essa configuração, cada arquivo de referência adicionado a um mapa conterá o atributo `@navtitle` por padrão.
 
-**Tópico pai:**[ Personalizar editor da Web](conf-web-editor.md)
+**Tópico pai:**&#x200B;[ Personalizar editor da Web](conf-web-editor.md)

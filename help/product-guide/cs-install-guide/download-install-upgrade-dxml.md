@@ -31,4 +31,4 @@ ht-degree: 0%
 
 Após concluir o processo de atualização, todos os usuários devem limpar o cache do navegador antes de usar a versão atualizada do AEM Guides.
 
-**Tópico pai:**[ Baixar e instalar](download-install.md)
+**Tópico pai:**&#x200B;[ Baixar e instalar](download-install.md)

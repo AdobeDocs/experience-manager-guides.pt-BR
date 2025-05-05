@@ -165,6 +165,7 @@ Execute as seguintes etapas para realizar as tarefas acima:
 1. Altere a propriedade Rotação de exibição para renderizar o conteúdo em 90° no sentido horário.
 
    1. Selecione **90°** no sentido horário na lista suspensa Exibir Rotação.
+
    <img src="./assets/view-rotation-page-props.png" width="300">
 
    1. Clique em **Salvar tudo** para salvar as propriedades atualizadas do layout da página.
@@ -179,9 +180,11 @@ Execute as seguintes etapas para realizar as tarefas acima:
       A folha de estilos de layout é aberta para edição.
 
    1. Clique com o botão direito do mouse em **Outros Estilos** e escolha **Novo Estilo**.
+
       <img src="./assets/stylesheet-other-new-style.png" width="300">
 
    1. No pop-up Adicionar estilo, digite **scape-style** em **classname**.
+
       <img src="./assets/stylesheet-new-landscape-style.png" width="400">
 
    1. Clique em **Concluído**.
@@ -437,6 +440,7 @@ No exemplo a seguir, inseriremos um número de página e um título de capítulo
    1. No painel direito, clique em **Propriedades do conteúdo** (<img src="./assets/content-properties-icon.png" width="25">) ícone.
 
    1. Expanda a seção de propriedades **Layout** e defina o valor da propriedade **Float** como **right**.
+
       <img src="./assets/float-prop-html-content.png" width="400">
 
       O campo Título de capítulo é alinhado à direita do rodapé da página.

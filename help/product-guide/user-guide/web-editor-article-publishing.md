@@ -46,4 +46,4 @@ Execute as seguintes etapas para gerar uma saída baseada em artigo:
    > Também é possível Renomear, Duplicar ou Excluir uma predefinição de saída existente no menu Opções.
 
 
-**Tópico pai:**[ Trabalhar com o editor](web-editor.md)
+**Tópico pai:**&#x200B;[ Trabalhar com o editor](web-editor.md)

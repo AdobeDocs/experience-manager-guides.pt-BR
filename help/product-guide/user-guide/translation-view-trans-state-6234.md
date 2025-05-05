@@ -28,4 +28,4 @@ Execute as seguintes etapas para exibir o status de tradução de um mapa DITA:
 
    ![](images/translation-status-new.png){align="left"}
 
-**Tópico principal:**[ Visão geral da tradução de conteúdo](translation.md)
+**Tópico principal:**&#x200B;[ Visão geral da tradução de conteúdo](translation.md)

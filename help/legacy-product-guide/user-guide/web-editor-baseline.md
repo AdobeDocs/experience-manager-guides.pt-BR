@@ -154,4 +154,4 @@ Usando o ícone Filtros no painel **Filtros da linha de base**, você pode aplic
 
 Depois de editar a linha de base, você pode clicar no botão **Salvar** na parte superior para salvar as alterações na linha de base. Você pode clicar no botão **Redefinir** se não quiser salvar a alteração e redefinir a linha de base. Quando você clica no botão **Redefinir**, é exibido um aviso de que as alterações não salvas serão perdidas.
 
-**Tópico pai:**[ Trabalhar com o Editor da Web](web-editor.md)
+**Tópico pai:**&#x200B;[ Trabalhar com o Editor da Web](web-editor.md)

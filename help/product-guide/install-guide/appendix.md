@@ -453,7 +453,7 @@ Execute as seguintes etapas para verificar as referências usando o script de va
 1. Execute o script de validação \[`/bin/fmdita/validatebtree?operation=validate`\] para verificar se há novas referências corrompidas.
 1. Caso o script de validação reporte algum erro, você poderá corrigi-lo usando o script de correção.
 1. Registre os detalhes fornecidos a seguir e, se necessário, compartilhe-os com a equipe de sucesso do cliente:
-1. 
+1. &#x200B;
    - Logs impressos pelo script de validação
 - Pacote de &quot;`/content/fmdita/references`&quot;
 - Quaisquer outros detalhes necessários, dependendo do cenário relatado
@@ -467,7 +467,7 @@ Execute as seguintes etapas para corrigir referências quebradas, usando o scrip
    **Observação:* é recomendável copiar e salvar os logs para fins de referência.
 
 1. Quando o script de patch for executado com sucesso, você poderá fazer as seguintes verificações:
-1. 
+1. &#x200B;
    - Verificar se um novo nó &quot;`references_backup_<timestamp>"`&quot; foi criado em `/content/fmdita`
 - Verifique se as referências foram corrigidas
 

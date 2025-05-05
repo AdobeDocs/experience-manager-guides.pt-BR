@@ -41,4 +41,4 @@ Esse mapa raiz será aplicável a todos os ativos \(pastas e subpastas\) associa
 
 **Modo de exibição de edição de tópico** - Selecione o ícone Resolução de Chave ao editar um tópico DITA e selecione o arquivo DITA a ser usado para resolver as referências de chave.
 
-**Tópico pai:**[ Introdução ao Editor de Mapa](map-editor.md)
+**Tópico pai:**&#x200B;[ Introdução ao Editor de Mapa](map-editor.md)

@@ -195,4 +195,4 @@ Se quiser deletar um tópico da tabela, clique no ícone cruzado ao lado do tóp
 
 Se quiser excluir a tabela de relacionamento, clique em qualquer lugar fora da tabela de relacionamento e clique em Excluir.
 
-**Tópico pai:**[ Trabalhar com o Editor de Mapa](map-editor.md)
+**Tópico pai:**&#x200B;[ Trabalhar com o Editor de Mapa](map-editor.md)

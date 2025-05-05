@@ -89,4 +89,4 @@ Execute as seguintes etapas para gerar saída para mais de um tópico no mapa DI
 1. Você verá o status do processo de geração de saída. Para exibir a saída, passe o ponteiro do mouse sobre o tópico e clique em Exibir Saída.
 
 
-**Tópico pai:**[ Publicação baseada em artigo do Editor da Web](web-editor-article-publishing.md)
+**Tópico pai:**&#x200B;[ Publicação baseada em artigo do Editor da Web](web-editor-article-publishing.md)

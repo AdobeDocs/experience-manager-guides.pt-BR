@@ -125,6 +125,7 @@ Por exemplo:
       - Se você selecionou o modelo jira-ordered-list, é possível visualizar uma lista ordenada para os problemas do Jira.
 
    1. A exibição fonte mostra os dados na exibição fonte DITA.
+
       ![](images/add-content-snippet-generator.png){width="800" align="left"}
       *Adicione um gerador de trecho de conteúdo. Exibir os dados no modo de origem ou de visualização.*
 

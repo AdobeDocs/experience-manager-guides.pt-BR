@@ -107,4 +107,4 @@ Execute as seguintes etapas para remover todas as tags de um ou mais tópicos:
 
 Se você tiver uma longa lista de tags aplicadas em seus tópicos, talvez ache difícil navegar por ela. Você pode ocultar tags facilmente na exibição de console do mapa DITA selecionando o ícone Ocultar tags. Da mesma forma, quando as tags não estão visíveis, selecionar Mostrar tags revela todas as tags.
 
-**Tópico pai:**[ Gerenciar metadados](manage-metadata.md)
+**Tópico pai:**&#x200B;[ Gerenciar metadados](manage-metadata.md)

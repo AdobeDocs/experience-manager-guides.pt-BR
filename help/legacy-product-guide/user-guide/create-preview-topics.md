@@ -21,4 +21,4 @@ O AEM Guides vem com um recurso avançado para criar tópicos DITA na interface 
 - **[Visualizar um tópico](web-editor-preview-topics.md)**
 
 
-**Tópico pai:**[ Conteúdo do autor](authoring-content.md)
+**Tópico pai:**&#x200B;[ Conteúdo do autor](authoring-content.md)

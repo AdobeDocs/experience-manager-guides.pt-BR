@@ -24,10 +24,12 @@ Cada projeto de tradução gera vários grupos de usuários para acesso, resulta
 
 - Marcar todos os projetos como &quot;Inativos&quot; depois que a tradução for concluída e aprovada.O projeto permanece disponível para revisão e é simplesmente marcado como inativo.
    - Seguir essas etapas ajudará a manter o desempenho geral da tradução com boa integridade.
+
      ![Projeto de tradução inativo ](../assets/translation/translation-project-image1.png)
 
 - Para a pasta de projetos mais antigos, que está marcada como inativa, aprovada e revisada deve ser excluída
    - Seguir essas etapas ajudará a manter o desempenho geral da tradução com boa integridade, limpando os arquivos de tradução temporários e os grupos de usuários associados a esta pasta do projeto.
+
      ![Excluir projeto e pasta de tradução ](../assets/translation/translation-project-image2.png)
 
 

@@ -56,4 +56,4 @@ Execute as seguintes etapas para exibir o Relatório de Status de Conversão:
       - **Saída**: Caminho do documento convertido com êxito. A seleção no link Saída o direciona ao local onde a saída é salva.
 
 
-**Tópico pai:**[ Introdução aos relatórios](reports-intro.md)
+**Tópico pai:**&#x200B;[ Introdução aos relatórios](reports-intro.md)

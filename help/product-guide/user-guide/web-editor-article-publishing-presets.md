@@ -66,4 +66,4 @@ Para exibir a saída, feche a caixa de diálogo Saída Gerada e selecione **Exib
 
 
 
-**Tópico pai:**[ Publicação baseada em artigo do Editor](web-editor-article-publishing.md)
+**Tópico pai:**&#x200B;[ Publicação baseada em artigo do Editor](web-editor-article-publishing.md)

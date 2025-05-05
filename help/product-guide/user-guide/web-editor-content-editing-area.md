@@ -24,4 +24,4 @@ Para saber mais sobre as exibições do Editor disponíveis para um arquivo de t
 >
 > Se você estiver trabalhando em um arquivo de mapa, diferentes opções ou modos de exibição serão exibidos na área de edição de conteúdo, incluindo um modo de exibição de **Layout** para o arquivo de mapa. Para obter mais detalhes, consulte [Recursos do editor de mapas](./map-editor-advanced-map-editor.md).
 
-**Tópico pai:**[ Introdução ao Editor](web-editor.md)
+**Tópico pai:**&#x200B;[ Introdução ao Editor](web-editor.md)

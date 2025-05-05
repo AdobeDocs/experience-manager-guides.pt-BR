@@ -38,4 +38,4 @@ Este tópico orienta você pelo processo de criação de um mapa DITA e, em segu
 - **[Recursos adicionais no Editor de Mapa](map-editor-other-features.md)**
 
 
-**Tópico pai:**[ Conteúdo de autor usando o AEM Guides](authoring-content-xml-doc.md)
+**Tópico pai:**&#x200B;[ Conteúdo de autor usando o AEM Guides](authoring-content-xml-doc.md)

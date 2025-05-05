@@ -58,4 +58,4 @@ O atributo `platform` está armazenado no sistema. Sempre que um autor decidir u
 
 ![](images/properties-tab.png){width="350" align="left"}
 
-**Tópico pai:**[ Geração de saída](generate-output.md)
+**Tópico pai:**&#x200B;[ Geração de saída](generate-output.md)

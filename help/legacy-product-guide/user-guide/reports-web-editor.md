@@ -42,6 +42,7 @@ Você pode criar um relatório dos tópicos executando as seguintes etapas:
    - **Estado do Documento** O estado atual do tópico.
    - **Autor** O usuário que trabalhou por último no tópico.
    - **Mapa Pai** A lista de todos os mapas nos quais o tópico é referenciado diretamente.
+
    >[!NOTE]
    >
    > Clique em **Atualizar** para obter uma nova lista de tópicos e exibir qualquer alteração no arquivo de mapa ou se qualquer referência no arquivo de tópico for atualizada.
@@ -115,7 +116,7 @@ O relatório **Multimídia** fornece informações detalhadas sobre a multimídi
 1. Clique duas vezes em **Multimídia** à esquerda. A lista de multimídia presente no mapa DITA é exibida.
 1. No painel **Filtros**, você pode ordenar a lista por multimídia ou pelos nomes de usados nas referências.
 
-   - Ao fazer o pedido por **Multimídia**, o****nome da multimídia é exibido na primeira coluna e, em seguida, os nomes de todas as referências nas quais foram usados são exibidos em outra coluna na mesma linha. Por exemplo, a captura de tela a seguir mostra a multimídia WarmCoolForC.gif na primeira coluna e três referências nas quais ela é usada são exibidas na terceira coluna na mesma linha.
+   - Ao fazer o pedido por **Multimídia**, o&#x200B;**&#x200B;**&#x200B;nome da multimídia é exibido na primeira coluna e, em seguida, os nomes de todas as referências nas quais foram usados são exibidos em outra coluna na mesma linha. Por exemplo, a captura de tela a seguir mostra a multimídia WarmCoolForC.gif na primeira coluna e três referências nas quais ela é usada são exibidas na terceira coluna na mesma linha.
 
      ![](images/multimedia-report-file-order.png){width="650" align="left"}
 
@@ -137,6 +138,7 @@ O relatório **Multimídia** fornece informações detalhadas sobre a multimídi
    - **Tipo de multimídia** \(selecionado por padrão\) Tipo de multimídia. As opções disponíveis são Áudio, Vídeo ou Imagem.
    - **Usado em** \(selecionado por padrão\) As referências nas quais a multimídia foi usada. Você pode clicar na referência para editá-la.
    - **Tipo de Referência** \(selecionado por padrão\) O tipo de referência - direta ou indireta.
+
    >[!NOTE]
    >
    > Clique em **Atualizar** para obter uma nova lista de multimídia e exibir qualquer alteração no arquivo de mapa ou se qualquer multimídia no mapa DITA for atualizada.
@@ -159,9 +161,11 @@ Você pode exibir o relatório de links desfeitos executando as seguintes etapas
 1. No painel **Filtros**, é possível ordenar a lista por links ou pelos nomes de usados nas referências.
 
    - Quando você ordena por **Link quebrado**, os caminhos dos links quebrados são exibidos na primeira coluna e, em seguida, os nomes de todas as referências nas quais eles foram usados são exibidos em outra coluna em linhas separadas. Se o mesmo link quebrado for usado em vários arquivos, eles serão exibidos em uma linha e serão mostrados como agrupados ou sublinhas. Por exemplo, a captura de tela a seguir mostra três links desfeitos na primeira coluna e a referência na qual eles são usados, `TestMap.ditamap`, é exibida na terceira coluna em três linhas separadas.
+
    ![](images/broken-link-report.png){width="800" align="left"}
 
    - Se ordenar por **Usado em** coluna, você exibirá a exibição transposta na qual os nomes das referências nas quais os links desfeitos foram usados são listados na primeira coluna, enquanto os links desfeitos são listados em outra coluna na mesma linha. Por exemplo, a captura de tela a seguir mostra a referência (em que o link quebrado é usado) `TestMap.ditamap` na primeira coluna e os links quebrados são exibidos na terceira coluna na mesma linha.
+
    ![](images/broken-link-filter-usedin.png){width="800" align="left"}
 1. Você pode filtrar os links com falha com base no **Tipo de Arquivo** e no **Tipo de Link**. A lista de links com falha é exibida com base na sua seleção na lista suspensa. Por exemplo, você pode optar por exibir somente as referências de conteúdo no mapa DITA, e um arquivo mostra somente as referências de conteúdo usadas nele.
 
@@ -194,4 +198,4 @@ Clique em **Atualizar** para obter uma nova lista de links com falha e exibir qu
 1. Clique em **Baixar CSV** para baixar o instantâneo atual dos links corrompidos no mapa DITA. O CSV contém as colunas selecionadas e os links quebrados filtrados na exibição Links quebrados. Em seguida, você pode abrir e visualizar esse arquivo CSV em qualquer editor CSV.
 
 
-**Tópico pai:**[ Relatórios](reports-intro.md)
+**Tópico pai:**&#x200B;[ Relatórios](reports-intro.md)

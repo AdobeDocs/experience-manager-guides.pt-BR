@@ -26,4 +26,4 @@ Execute as seguintes etapas para exibir o status de tradução de um mapa DITA:
    >
    > Você pode filtrar ainda mais o conteúdo com base no Status da tradução \(como Fora de sincronização, Cópia ausente, Em andamento ou Em sincronia\), Tipo de Source \(como Todos, DITA, mapa DITA ou Recurso\), data de modificação. Você também pode digitar palavras-chave para procurar tópicos específicos.
 
-**Tópico pai:**[ Traduzir conteúdo](translation.md)
+**Tópico pai:**&#x200B;[ Traduzir conteúdo](translation.md)

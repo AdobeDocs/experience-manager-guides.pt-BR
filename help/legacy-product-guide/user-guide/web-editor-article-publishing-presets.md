@@ -61,4 +61,4 @@ Execute as seguintes etapas para criar predefinições de saída para o mapa DIT
 
 ![](images/edit-preset_cs.png){width="550" align="left"}
 
-**Tópico pai:**[ Publicação baseada em artigo do Editor da Web](web-editor-article-publishing.md)
+**Tópico pai:**&#x200B;[ Publicação baseada em artigo do Editor da Web](web-editor-article-publishing.md)

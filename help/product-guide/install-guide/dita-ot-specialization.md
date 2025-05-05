@@ -65,6 +65,7 @@ Execute as seguintes etapas para fazer upload do plug-in DITA-OT personalizado n
    - Execute o integrador \(para instalar o plug-in personalizado\) em um sistema operacional Mac/Linux para evitar problemas com separadores de arquivos - como os sistemas operacionais Windows e Linux têm separadores de arquivos diferentes, o plug-in integrado no sistema operacional Mac/Linux é compatível com a configuração do Windows e do Linux.
    - Verifique se o arquivo `DITA-OT.ZIP` contém uma pasta chamada &quot;DITA-OT&quot; que tem todos os plug-ins e arquivos relevantes.
    - Verifique se o arquivo `DITA-OT.ZIP` criado é mimeType: &quot;nt:file&quot; \(corresponde ao tipo primário de arquivo ZIP quando carregado para AEM\). Use uma ferramenta WebDAV ou implantação de código para fazer upload desse arquivo ZIP para o caminho desejado no AEM. \(Não use o gerenciador de pacotes AEM para implantar este arquivo ZIP, pois este ZIP não é um pacote de conteúdo AEM, mas apenas um arquivo morto.\)
+
    >[!NOTE]
    >
    > É recomendável não substituir o pacote DITA-OT padrão. Você deve carregar seu pacote DITA-OT personalizado contendo seu plug-in em algum outro local na pasta `apps`.

@@ -38,6 +38,7 @@ Execute as seguintes etapas para baixar um arquivo de mapa DITA junto com seus a
 
    - **Usar Linha de Base**: selecione esta opção para obter uma lista de Linhas de Base criadas para o mapa DITA. Para baixar o arquivo de mapa e seu conteúdo com base em uma Linha de Base específica, selecione a Linha de Base na lista suspensa. Para obter mais detalhes sobre como trabalhar com Linhas de Base, consulte [Trabalhar com Linhas de Base](generate-output-use-baseline-for-publishing.md#).
    - **Nivelar Hierarquia de Arquivos**: selecione esta opção para salvar todos os tópicos e arquivos de mídia referenciados em uma única pasta.
+
    >[!NOTE]
    >
    > Também é possível baixar o arquivo de mapa sem selecionar nenhuma opção. Nesse caso, a última versão persistente dos tópicos e arquivos de mídia referenciados é baixada.
@@ -58,4 +59,4 @@ Execute as seguintes etapas para baixar um arquivo de mapa DITA junto com seus a
 
 Depois que o mapa for baixado, você poderá selecionar o mapa e usar o ícone Abrir na parte superior para abrir o relatório selecionado.
 
-**Tópico pai:**[ Gerenciar conteúdo](authoring.md)
+**Tópico pai:**&#x200B;[ Gerenciar conteúdo](authoring.md)

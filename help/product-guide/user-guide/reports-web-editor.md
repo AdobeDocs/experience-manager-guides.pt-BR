@@ -63,6 +63,7 @@ Você pode exibir o relatório da lista de tópicos de um mapa executando as seg
    - **Estado do Documento** O estado do tópico.
    - **Autor** O usuário que trabalhou por último no tópico.
    - **Mapa Pai** A lista de todos os mapas nos quais o tópico é referenciado diretamente.
+
    >[!NOTE]
    >
    > Selecione **Atualizar** para obter uma nova lista de tópicos e exibir qualquer alteração no arquivo de mapa ou se qualquer referência no arquivo de tópico for atualizada.
@@ -206,6 +207,7 @@ O relatório **Multimídia** fornece informações detalhadas sobre a multimídi
    - **Tipo de multimídia** \(selecionado por padrão\) Tipo de multimídia. As opções disponíveis são Áudio, Vídeo ou Imagem.
    - **Usado em** \(selecionado por padrão\) As referências nas quais a multimídia foi usada. Você pode selecionar a referência para editá-la.
    - **Tipo de Referência** \(selecionado por padrão\) O tipo de referência - direta ou indireta.
+
    >[!NOTE]
    >
    > Selecione **Atualizar** para obter uma nova lista de multimídia e exibir qualquer alteração no arquivo de mapa ou se qualquer multimídia no mapa DITA for atualizada.
@@ -266,4 +268,4 @@ Você pode exibir o relatório de links desfeitos executando as seguintes etapas
 1. Selecione **Baixar** para baixar o instantâneo de todos os links corrompidos no mapa DITA. O arquivo do Excel contém as colunas selecionadas e os links quebrados filtrados na exibição Links quebrados.
 
 
-**Tópico pai:**[ Introdução aos relatórios](reports-intro.md)
+**Tópico pai:**&#x200B;[ Introdução aos relatórios](reports-intro.md)

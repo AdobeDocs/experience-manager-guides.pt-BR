@@ -255,6 +255,7 @@ Execute as seguintes etapas para configurar os atributos de criação de perfil 
 1. Na guia **Extensões**, faça as seguintes alterações:
 
    - Clique em **Escolher** ao lado do **Pacote de extensões** e selecione   `LinkResolverExtensionBundle - com.adobe.o2.framework.extn` na lista **Classe**. Clique em **OK**.
+
      ![Extensão configurada para tópicos DITA](images/dita-map-extenstion-link-resolve.png) {width="650" align="left"}
    - Clique em **Escolher** ao lado de **Ouvinte de Estado de Extensão do Autor** em **Extensões Individuais** e selecione `CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn` na lista **Classe**. Clique em **OK**.
    - Clique em **Escolher** ao lado do **Editor de Valor de Atributo Personalizado de Autor** em **Extensões Individuais** e selecione `CustomValueEditor - com.adobe.o2.framework.extn` na lista **Classe**. Clique em **OK**.

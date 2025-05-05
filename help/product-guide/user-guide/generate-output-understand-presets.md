@@ -42,4 +42,4 @@ As seguintes opções predefinidas estão disponíveis para os formatos de saíd
 
 Como administrador, o Experience Manager Guides permite criar e gerenciar predefinições de saída para os Perfis global e de pasta. Para obter mais detalhes, consulte [Gerenciar predefinições de saída de Perfil Global e de Pasta](./web-editor-manage-output-presets.md).
 
-**Tópico pai:**[ Geração de saída](generate-output.md)
+**Tópico pai:**&#x200B;[ Geração de saída](generate-output.md)

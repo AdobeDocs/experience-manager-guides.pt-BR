@@ -22,4 +22,4 @@ Use as instruções fornecidas em [Substituições de configuração](download-i
 |---|------------|--------------|
 | `com.adobe.fmdita.common.SanitizeNodeNameImpl` | `aemsite.DisallowedFileNameChars` | Adicione caracteres que você deseja substituir por um sublinhado nos nomes de arquivo de saída do site AEM. <br> **Valor padrão**: ``'<\>\`@$`` |
 
-**Tópico pai:**[ Configurar nomes de arquivo](conf-file-names.md)
+**Tópico pai:**&#x200B;[ Configurar nomes de arquivo](conf-file-names.md)

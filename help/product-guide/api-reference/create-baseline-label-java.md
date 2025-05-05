@@ -122,7 +122,7 @@ public static void applyLabel(Session session,
 | `session` | javax.jcr.Session | Uma sessão JCR válida. |
 | `sourcePath` | String | Caminho absoluto do arquivo de mapa DITA no repositório AEM. |
 | ``baselineName`` | String | Nome do nó de linha de base no qual o rótulo deve ser aplicado. Para obter o nome do nó de linha de base, você pode usar o método [\#id185NFF0085Z](#id185NFF0085Z) ou verificar o nó de linhas de base do mapa DITA no CRXDE.<br> **Observação:** o rótulo é aplicado à versão dos arquivos referenciados diretamente do arquivo de mapa na linha de base. |
-| `label` | String | Um rótulo aplicado aos arquivos na linha de base. Certifique-se de que o rótulo não contenha os seguintes caracteres: &amp;sol; &amp;vírgula; &amp;dois pontos; &amp;vírgula; &amp;lbrack; &amp;vírgula; &amp;rbrack; &amp;vírgula; &amp;vert; &amp;vírgula; &amp;ast; <br> Caso deseje definir vários rótulos, separe-os com uma vírgula; por exemplo, Rótulo1, Rótulo2. |
+| `label` | String | Um rótulo aplicado aos arquivos na linha de base. Certifique-se de que o rótulo não contenha os seguintes caracteres: &sol; &amp;vírgula; &amp;dois pontos; &amp;vírgula; &lbrack; &amp;vírgula; &rbrack; &amp;vírgula; &vert; &amp;vírgula; &ast; <br> Caso deseje definir vários rótulos, separe-os com uma vírgula; por exemplo, Rótulo1, Rótulo2. |
 
 **Exceção**:
 Lança `RepositoryException`.

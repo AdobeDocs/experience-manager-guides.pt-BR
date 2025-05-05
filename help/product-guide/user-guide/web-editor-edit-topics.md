@@ -48,6 +48,7 @@ Da mesma forma, se você excluir o conteúdo selecionado, o conteúdo restante a
 
    - Selecione o conteúdo em um elemento.
    - Selecione o ícone ![adicionar](images/Add_icon.svg) na barra de ferramentas na parte superior para exibir a caixa de diálogo **Inserir elemento**. A caixa de diálogo lista os elementos válidos para o conteúdo selecionado.
+
      >[!NOTE]
      >
      > Você também pode visualizar a caixa de diálogo Inserir elemento selecionando o menu de contexto do conteúdo selecionado.
@@ -114,4 +115,4 @@ Enquanto você abre um arquivo no Editor, o Experience Manager Guides fornece o 
 Você pode desativar o recurso para localizar o arquivo com a opção **Sempre localizar arquivos no repositório** da guia **Aparência** das **Preferências do usuário**.
 
 
-**Tópico pai:**[ Trabalhar com o editor](web-editor.md)
+**Tópico pai:**&#x200B;[ Trabalhar com o editor](web-editor.md)

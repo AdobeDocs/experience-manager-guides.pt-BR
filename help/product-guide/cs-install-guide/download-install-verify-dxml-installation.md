@@ -29,4 +29,4 @@ Depois de instalar o AEM Guides, você precisa verificar se a instalação foi b
    O status deve mostrar *Ativo* para conjuntos implantados com êxito. Se algum dos pacotes não tiver um status Ativo, verifique os registros de AEM para solucionar o problema de instalação.
 
 
-**Tópico pai:**[ Baixar e instalar](download-install.md)
+**Tópico pai:**&#x200B;[ Baixar e instalar](download-install.md)

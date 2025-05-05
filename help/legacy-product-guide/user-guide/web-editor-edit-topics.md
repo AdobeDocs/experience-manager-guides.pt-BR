@@ -49,6 +49,7 @@ Da mesma forma, se você excluir o conteúdo selecionado, o conteúdo restante a
 
    - Selecione o conteúdo em um elemento.
    - Selecione o ícone ![adicionar](images/Add_icon.svg) na barra de ferramentas secundária na parte superior para exibir a caixa de diálogo **Circundar com Elemento**. A caixa de diálogo lista os elementos válidos para o conteúdo selecionado.
+
      >[!NOTE]
      >
      > Você também pode visualizar a caixa de diálogo Circular com elemento selecionando o menu de contexto do conteúdo selecionado.
@@ -106,4 +107,4 @@ Ao abrir um arquivo no Editor da Web, o Experience Manager Guides fornece o recu
 Você pode desativar o recurso para localizar o arquivo com a opção **Sempre localizar arquivos no repositório** da guia **Aparência** das **Preferências do usuário**.
 
 
-**Tópico pai:**[ Trabalhar com o Editor da Web](web-editor.md)
+**Tópico pai:**&#x200B;[ Trabalhar com o Editor da Web](web-editor.md)

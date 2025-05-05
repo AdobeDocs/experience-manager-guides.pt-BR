@@ -73,4 +73,4 @@ No modo Editor da Web, o painel direito contém os ícones Revisar e Controlar a
 - **I**: aplicar um filtro aos comentários. Você pode filtrar para exibir comentários com base no Tipo de revisão \(todos, destacados, excluídos, inseridos ou nota adesiva\), Status da revisão \(todos, aceitos, rejeitados ou nenhum\), Revisores \(todos ou revisores específicos\(s\)\) ou Versões de tópico.
 
 
-**Tópico pai:**[ Introdução à revisão](review.md)
+**Tópico pai:**&#x200B;[ Introdução à revisão](review.md)

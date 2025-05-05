@@ -49,6 +49,7 @@ Por exemplo, adicione `/conf/we-retail` na configuração de nuvem. Essa configu
    * **Nome**: digite o nome do Fragmento de Conteúdo. Por padrão, o nome é preenchido com o título do tópico e os espaços são substituídos por &quot;_&quot;. Por exemplo, *sample_content_fragment*. Você pode editá-lo.  Esse nome é usado para gerar o URL do fragmento de conteúdo.
 
    * Você pode selecionar condições diferentes para criar variantes de fragmento de conteúdo. Selecione uma das seguintes opções:
+
      >[!NOTE]
      > 
      > As condições serão ativadas somente se os atributos de condição forem definidos no tópico.

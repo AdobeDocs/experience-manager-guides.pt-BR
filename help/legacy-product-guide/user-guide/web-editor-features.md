@@ -174,6 +174,7 @@ Na captura de tela a seguir, apenas 3 dos 4 elementos configurados da captura de
 
 
    - Para criar um Perfil de Publicação do Salesforce, selecione a Base de Conhecimento **Salesforce** na lista suspensa **Tipo de Servidor**. Insira um Nome de perfil. No **URL do Site**, insira o site do consumidor que você usaria para publicar a saída e adicionar a **Chave do Consumidor** e o **Segredo do Consumidor** fornecidos pelo site do consumidor do Salesforce. Em seguida, **Validar** e **Salvar** o perfil recém-criado.
+
      ![perfil de publicação do salesforce nas configurações do editor](./images/salesforce-publish-profile.png){width="550" align="left"}
 
      >[!NOTE]
@@ -1820,6 +1821,7 @@ Para exibir os comentários de revisão nas tarefas de revisão ativas que estã
    - Insira o termo ou texto de pesquisa que deseja localizar no título do projeto. Pressione Enter para realizar a pesquisa. Por exemplo, você pode pesquisar todos os projetos com o termo &quot;espaço&quot; no título.
 
    - Selecione ![](images/filter-search-icon.svg) para abrir o diálogo **Filtro**. Você pode selecionar todos ou somente projetos específicos. Os projetos selecionados estão listados no painel **Revisão**.
+
      ![](images/active-review-select-project.png){width="300" align="left"}
 
      A opção **Tarefas iniciadas por mim** está habilitada por padrão. Permite exibir somente as tarefas que você iniciou. O estado de alternância dessa opção é mantido mesmo após a atualização da página.
@@ -2047,4 +2049,4 @@ Usando o recurso Alterações controladas do painel direito, você pode exibir a
 >
 > O recurso Alterações controladas mostra todas as atualizações que foram controladas usando o recurso Habilitar/Desabilitar Controlar alterações da barra de ferramentas principal. Para obter mais detalhes, consulte [Habilitar/Desabilitar o Controle de Alterações](#id205DF0203Y4).
 
-**Tópico pai:**[ Trabalhar com o Editor da Web](web-editor.md)
+**Tópico pai:**&#x200B;[ Trabalhar com o Editor da Web](web-editor.md)

@@ -159,7 +159,7 @@ No exemplo a seguir, criaremos um estilo de capitular:
 
    >[!NOTE]
    >
-   Consulte a seção [Personalizar um estilo novo ou predefinido](components-pdf-template.md#customize-style) para abrir uma folha de estilos para personalização ou edição.
+   >Consulte a seção [Personalizar um estilo novo ou predefinido](components-pdf-template.md#customize-style) para abrir uma folha de estilos para personalização ou edição.
 
 1. Na lista **Estilos**, expanda os **Estilos de parágrafo**.
 
@@ -195,7 +195,7 @@ No exemplo a seguir, criaremos um estilo de caractere em linha:
 
    >[!NOTE]
    >
-   Consulte a seção [Personalizar um estilo novo ou predefinido](components-pdf-template.md#customize-style) para abrir uma folha de estilos para personalização ou edição.
+   >Consulte a seção [Personalizar um estilo novo ou predefinido](components-pdf-template.md#customize-style) para abrir uma folha de estilos para personalização ou edição.
 
 1. Na lista **Estilos**, expanda os **Estilos de Caractere**.
 
@@ -215,7 +215,7 @@ No exemplo a seguir, criaremos um estilo de caractere em linha:
 
      >[!NOTE]
      >
-     Também é possível adicionar fontes ao modelo, que são armazenadas na seção Resources do modelo. Para obter mais detalhes sobre como adicionar fontes e trabalhar com Recursos, consulte [Trabalhar com recursos](components-pdf-template.md#work-with-resources).
+     >Também é possível adicionar fontes ao modelo, que são armazenadas na seção Resources do modelo. Para obter mais detalhes sobre como adicionar fontes e trabalhar com Recursos, consulte [Trabalhar com recursos](components-pdf-template.md#work-with-resources).
 
    * **Layout**: você pode definir as propriedades relacionadas ao layout, como Altura e Largura, Margem, Preenchimento, Alinhamento e muito mais.
 
@@ -239,7 +239,7 @@ No exemplo a seguir, vamos personalizar o estilo de lista numerada ou ordenada:
 
    >[!NOTE]
    >
-   Consulte a seção [Personalizar um estilo novo ou predefinido](components-pdf-template.md#customize-style) para abrir uma folha de estilos para personalização ou edição.
+   >Consulte a seção [Personalizar um estilo novo ou predefinido](components-pdf-template.md#customize-style) para abrir uma folha de estilos para personalização ou edição.
 
 1. Na lista **Estilos**, expanda os **Estilos de Lista**.
 
@@ -277,7 +277,7 @@ No exemplo a seguir, vamos personalizar o estilo de lista numerada ou ordenada:
 
      >[!NOTE]
      >
-     É possível inserir o valor em px (pixels), pt (pontos), rem, em, % (porcentagem) ou em unidades (polegadas).
+     >É possível inserir o valor em px (pixels), pt (pontos), rem, em, % (porcentagem) ou em unidades (polegadas).
 
    * **Largura do Prefixo**: esta é a área ocupada pelo Formato de Número. Ele é automaticamente definido para um tamanho que possa acomodar facilmente o formato selecionado. Se quiser aumentar o tamanho, você poderá substituir o valor padrão.
 
@@ -299,7 +299,7 @@ No exemplo a seguir, vemos como criar um estilo de tabela e as várias opções 
 
    >[!NOTE]
    >
-   Consulte a seção [Personalizar um estilo novo ou predefinido](components-pdf-template.md#customize-style) para abrir uma folha de estilos para personalização ou edição.
+   >Consulte a seção [Personalizar um estilo novo ou predefinido](components-pdf-template.md#customize-style) para abrir uma folha de estilos para personalização ou edição.
 
 1. Na lista **Estilos**, clique com o botão direito do mouse no **Estilo de Tabela** e escolha **Novo Estilo**.
 
@@ -315,7 +315,7 @@ No exemplo a seguir, vemos como criar um estilo de tabela e as várias opções 
 
      >[!NOTE]
      >
-     As configurações a seguir estão disponíveis na seção **Geral** quando **Aplicar Formatação a** está definido como **Tabela Inteira**.
+     >As configurações a seguir estão disponíveis na seção **Geral** quando **Aplicar Formatação a** está definido como **Tabela Inteira**.
 
    * **Quebra de texto**: selecione como quebrar texto em torno da tabela. Isso é útil quando a tabela está dentro de outro elemento de nível de bloco e a tabela deve ser renderizada juntamente com outro conteúdo no elemento de bloco. As opções de quebra automática estão *alinhadas à esquerda* ou *à direita* ou *nenhuma*.
 
@@ -329,7 +329,7 @@ No exemplo a seguir, vemos como criar um estilo de tabela e as várias opções 
 
      >[!NOTE]
      >
-     As configurações a seguir estão disponíveis na seção **Célula** quando **Aplicar Formatação a** está definido como **Tabela Inteira**.
+     >As configurações a seguir estão disponíveis na seção **Célula** quando **Aplicar Formatação a** está definido como **Tabela Inteira**.
 
    * **Preenchimento**: especifique o preenchimento entre as células da tabela. Você pode especificar diferentes valores de preenchimento para os lados superior, inferior, esquerdo e direito.
 
@@ -355,7 +355,7 @@ No exemplo a seguir, criaremos um novo estilo de título (`wintitle`) da janela:
 
    >[!NOTE]
    >
-   Consulte a seção [Personalizar um estilo novo ou predefinido](components-pdf-template.md#customize-style) para abrir uma folha de estilos para personalização ou edição.
+   >Consulte a seção [Personalizar um estilo novo ou predefinido](components-pdf-template.md#customize-style) para abrir uma folha de estilos para personalização ou edição.
 
 1. Na lista **Estilos**, expanda **Outros Estilos**.
 
@@ -406,7 +406,7 @@ Por exemplo, você pode definir os seguintes estilos para definir o tamanho de f
 
 >[!NOTE]
 >
-No exemplo anterior, &quot;Frente&quot; e &quot;Voltar&quot; são os nomes de exemplo dos arquivos de layout que podem ser usados nos modelos.
+>No exemplo anterior, &quot;Frente&quot; e &quot;Voltar&quot; são os nomes de exemplo dos arquivos de layout que podem ser usados nos modelos.
 
 
 ## Definir o estilo CSS personalizado para o conteúdo de prefixo e sufixo

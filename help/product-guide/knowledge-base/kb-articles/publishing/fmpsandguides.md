@@ -86,8 +86,7 @@ Você pode publicar suas linhas de base já criadas com o FMPS2020.0.2 ou versã
 
 >O FMPS2020.0.2 ou versões posteriores são compatíveis com a publicação da linha de base.
 >Certifique-se de que sua linha de base foi criada corretamente. Para verificar, vá para o Painel do mapa — Tópicos— Download  Mapeie e escolha &quot;Usar linha de base&quot;.
-- ### O Publish Tasks do FMPS leva mais tempo do que outros Mecanismos
-
+>- ### O Publish Tasks do FMPS leva mais tempo do que outros Mecanismos
 >Ao publicar do FMPS, o tempo do cabeçalho fixo ideal é de aproximadamente 3-4 minutos; se achar que é mais longo, consulte o administrador do FMPS ou entre em contato com o Suporte do Adobe.
 
 ## Outros recursos:

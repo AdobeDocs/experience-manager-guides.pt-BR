@@ -89,6 +89,7 @@ Para configurar e gerar a saída usando uma Coleção de mapas, execute as segui
    - Ativar qualquer predefinição individual.
    - Habilite **Todas as predefinições** para que um mapa DITA selecione todas as predefinições de uma só vez. Essa opção está desabilitada por padrão.
    - Habilite **Predefinições de perfil de pasta** para um mapa DITA para selecionar todas as predefinições de perfil de pasta para ele. Essa opção está desabilitada por padrão.
+
      ![edite uma coleção de mapas nos serviços em nuvem](images/edit-map-collection-cs.png){width="800" align="left"}
 
 
@@ -143,4 +144,4 @@ Semelhante à maneira de cancelar uma tarefa de geração de saída do [console 
 
 ![](images/cancel-publish-task-map-collection.png){width="800" align="left"}
 
-**Tópico pai:**[ Geração de saída](generate-output.md)
+**Tópico pai:**&#x200B;[ Geração de saída](generate-output.md)

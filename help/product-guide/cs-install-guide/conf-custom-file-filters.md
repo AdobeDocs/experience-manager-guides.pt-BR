@@ -68,4 +68,4 @@ Execute as seguintes etapas para adicionar as opções de filtragem de arquivo p
    ![](assets/file-browse-custom-filters.png)
 
 
-**Tópico pai:**[ Personalizar editor da Web](conf-web-editor.md)
+**Tópico pai:**&#x200B;[ Personalizar editor da Web](conf-web-editor.md)

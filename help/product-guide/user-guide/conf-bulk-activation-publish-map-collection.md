@@ -85,4 +85,4 @@ Uma mensagem de sucesso é exibida quando a saída do mapa é colocada em fila p
 
 Depois que a saída é ativada para os arquivos de mapa selecionados, a guia histórico de auditoria é atualizada e a saída ativada mais recente é exibida na parte superior. A coluna **Publicado** é atualizada com a data e hora da publicação.
 
-**Tópico pai: **[Ativação em massa de conteúdo publicado](conf-bulk-activation.md)
+**Tópico pai: &#x200B;** [Ativação em massa de conteúdo publicado](conf-bulk-activation.md)

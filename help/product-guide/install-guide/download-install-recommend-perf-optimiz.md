@@ -51,7 +51,7 @@ Os parâmetros de inicialização da JVM devem ser cuidadosamente ajustados com 
 
 - Defina o tamanho do heap de JVM para um mínimo de 1/4 do total de memória disponível. Use o parâmetro `-Xmx<size>` para definir o tamanho da memória de heap. Defina o valor de -`Xms` igual a `-Xmx`.
 
-- Habilitar `-XX:+HeapDumpOnOutOfMemoryError` e definir o caminho para `-XX:HeapDumpPath=</path/to/folder``>`.
+- Habilitar `-XX:+HeapDumpOnOutOfMemoryError` e definir o caminho para `-XX:HeapDumpPath=</path/to/folder` `>`.
 
 - Habilitar log do Java GC como:
 
@@ -115,4 +115,4 @@ Isso pode ser feito em tempo de execução por meio do console Felix ou por meio
 Um aumento no número de **Limitar Páginas do Site AEM na propriedade Heap** otimiza o processo de geração de saída do Site AEM.
 
 
-**Tópico pai:**[ Baixar e instalar](download-install.md)
+**Tópico pai:**&#x200B;[ Baixar e instalar](download-install.md)

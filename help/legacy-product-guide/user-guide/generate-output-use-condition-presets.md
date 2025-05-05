@@ -168,4 +168,4 @@ A ação é definida como ação padrão para todos os atributos, sejam eles adi
 1. Clique no botão **Remover**.
 1. Clique em **Remover** para confirmar a ação.
 
-**Tópico pai:**[ Geração de saída](generate-output.md)
+**Tópico pai:**&#x200B;[ Geração de saída](generate-output.md)

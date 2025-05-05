@@ -106,4 +106,4 @@ As seguintes opções de filtro estão disponíveis no painel esquerdo:
 
 Os filtros são atualizados quando você alterna da guia **Mapas e Predefinições** para a guia **Histórico de Auditoria** e vice-versa.
 
-**Tópico pai: **[Ativação em massa de conteúdo publicado](conf-bulk-activation.md)
+**Tópico pai: &#x200B;** [Ativação em massa de conteúdo publicado](conf-bulk-activation.md)

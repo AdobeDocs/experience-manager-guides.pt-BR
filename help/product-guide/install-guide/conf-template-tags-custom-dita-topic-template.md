@@ -77,4 +77,4 @@ Para configurar uma pasta para seus modelos de tópico DITA personalizados, exec
 
 Se o local especificado existir no DAM, todos os modelos de mapa e tópico padrão serão copiados para essa pasta. Se o local não existir, a pasta será criada com todos os modelos de mapa e tópico padrão.
 
-**Tópico pai:**[ Configurar tópico e mapear modelos](conf-template-tags.md)
+**Tópico pai:**&#x200B;[ Configurar tópico e mapear modelos](conf-template-tags.md)

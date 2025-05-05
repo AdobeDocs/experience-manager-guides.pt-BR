@@ -33,4 +33,4 @@ Você pode excluir uma coleção de mapas de ativação em massa quando ela não
    A coleção de mapas de ativação em massa é excluída do sistema.
 
 
-**Tópico pai:**[ Ativação em massa do conteúdo publicado](conf-bulk-activation.md)
+**Tópico pai:**&#x200B;[ Ativação em massa do conteúdo publicado](conf-bulk-activation.md)

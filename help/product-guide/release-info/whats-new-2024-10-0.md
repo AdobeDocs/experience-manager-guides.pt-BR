@@ -76,7 +76,7 @@ Se o mesmo tópico for referido mais de uma vez em um arquivo, será possível a
 
 ![Predefinição herdada do AEM Sites](assets/aem-sites-legacy.png)
 
-*Especifique o contexto de publicação para os tópicos vinculados da guia **Referências entre mapas**da predefinição **AEM Sites**.*
+*Especifique o contexto de publicação para os tópicos vinculados da guia **Referências entre mapas**&#x200B;da predefinição **AEM Sites**.*
 
 Saiba mais sobre [Predefinições do AEM Sites](../user-guide/generate-output-aem-site.md).
 

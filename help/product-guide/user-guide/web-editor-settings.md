@@ -244,4 +244,4 @@ Um erro é exibido se o caminho de metadados estiver em branco. Se você deixar 
 Você também pode definir a ordem em que essas tags de metadados são exibidas. Para alterar a ordem padrão dessas tags, selecione as barras pontilhadas para arrastar e soltar as tags no local desejado.
 Os rótulos de metadados aparecem na mesma sequência na caixa de diálogo **Histórico de versões** do Editor.
 
-**Tópico pai:**[ Introdução ao Editor](web-editor.md)
+**Tópico pai:**&#x200B;[ Introdução ao Editor](web-editor.md)
