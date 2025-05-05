@@ -17,7 +17,7 @@ Nossas sessões mensais de especialistas foram projetadas para ajudar nossos cli
 
 Durante essas sessões, nossos especialistas discutirão recursos, funcionalidades e benefícios detalhados de nosso produto e compartilharão dicas práticas e práticas recomendadas que ajudarão você a aproveitá-lo ao máximo. Quer você seja um novo usuário ou um profissional experiente, essas sessões fornecerão as informações necessárias para maximizar o uso do AEM Guides.
 
-Entendemos que seu tempo é valioso e é por isso que tornamos essas sessões especializadas fáceis e acessíveis para você. Você pode se inscrever para a próxima sessão visitando o nosso [fórum da comunidade](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) ou através do email que lhe foi enviado.
+Entendemos que seu tempo é valioso e é por isso que tornamos essas sessões especializadas fáceis e acessíveis para você. Você pode se inscrever para a próxima sessão visitando o nosso [fórum da comunidade](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=pt) ou através do email que lhe foi enviado.
 
 Se você tiver perdido qualquer uma das sessões anteriores, poderá acessar as gravações nesta seção.
 

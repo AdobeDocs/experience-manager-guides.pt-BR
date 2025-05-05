@@ -32,7 +32,7 @@ Execute as seguintes etapas para baixar e instalar o AEM Guides pela primeira ve
    http://<server name>:<port>/crx/packmgr/index.jsp
    ```
 
-   O Gerenciador de pacotes gerencia os pacotes na sua instalação local do AEM. Para obter mais informações sobre como trabalhar com o Gerenciador de Pacotes, consulte [Como trabalhar com pacotes](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html) na documentação do AEM.
+   O Gerenciador de pacotes gerencia os pacotes na sua instalação local do AEM. Para obter mais informações sobre como trabalhar com o Gerenciador de Pacotes, consulte [Como trabalhar com pacotes](https://helpx.adobe.com/br/experience-manager/6-5/sites/administering/using/package-manager.html) na documentação do AEM.
 
    ![](assets/package-manager.png){width="650" align="left"}
 

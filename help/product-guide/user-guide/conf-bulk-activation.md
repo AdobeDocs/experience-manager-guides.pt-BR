@@ -17,7 +17,7 @@ Em um cenário real, os autores teriam acesso à instância de criação do Adob
 
 >[!NOTE]
 >
-> Para obter mais detalhes sobre como configurar a instância do autor e da publicação no Adobe Experience Manager, consulte [Visão geral da arquitetura do Autor e da Publicação](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites).
+> Para obter mais detalhes sobre como configurar a instância do autor e da publicação no Adobe Experience Manager, consulte [Visão geral da arquitetura do Autor e da Publicação](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=pt-BR#prerequisites).
 
 Com o recurso de Ativação em massa do Experience Manager Guides, você pode ativar rápida e facilmente seu conteúdo, desde a criação até a instância de publicação. O recurso de ativação em massa oferece flexibilidade para:
 

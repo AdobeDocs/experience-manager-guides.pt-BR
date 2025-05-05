@@ -41,7 +41,7 @@ Você pode baixar a **Ferramenta de Transferência de Conteúdo** como um arquiv
 
 ![baixar ferramenta de transferência de conteúdo](./assets/content-transfer-tool-software-portal.png)
 Em seguida, instale o pacote por meio do **Gerenciador de Pacotes** na instância do Adobe Experience Manager de origem. Baixe a versão mais recente.
-Para obter mais detalhes sobre a versão mais recente, consulte as [Notas de versão](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=en).
+Para obter mais detalhes sobre a versão mais recente, consulte as [Notas de versão](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=pt-BR).
 
 >[!NOTE]
 > 

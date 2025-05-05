@@ -41,16 +41,16 @@ Nesta sessão, abordamos:
 
 ### Documentação
 
-- [Ferramenta de cópia de conteúdo](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developer-tools/content-copy)
+- [Ferramenta de cópia de conteúdo](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/implementing/developer-tools/content-copy)
 - [Usando o gerenciador de pacotes para transferir conteúdo](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager)
-- [Migrando conteúdo de não UUID para UUID](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/on-prem-ig/content-migration/migration-process/migrate-non-uuid-uuid)
+- [Migrando conteúdo de não UUID para UUID](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using/install-guide/on-prem-ig/content-migration/migration-process/migrate-non-uuid-uuid)
 - [AEM Guides: mover o conteúdo UUID do local/AMS para a nuvem](../../cs-install-guide/migrate-on-premise-content-cloud.md)
-- [Migrando para a AEM Cloud](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/getting-started)
+- [Migrando para a AEM Cloud](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/migration-journey/getting-started)
 - [AEM Guides: migração de conteúdo não uuid para a nuvem](../../install-guide/migrate-uuid-non-uuid.md)
 
 ### Fórum da comunidade
 
-- Para ver as interações da comunidade específicas da sessão no Experience League, visite o [Fórum do AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- Para ver as interações da comunidade específicas da sessão no Experience League, visite o [Fórum do AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=pt).
 
 
 >[!NOTE]

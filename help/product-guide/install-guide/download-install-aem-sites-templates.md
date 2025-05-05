@@ -31,7 +31,7 @@ Execute as seguintes etapas para baixar e instalar modelos do AEM Sites no Exper
    http://<server name>:<port>/crx/packmgr/index.jsp
    ```
 
-   O Gerenciador de pacotes gerencia os pacotes na sua instalação local do AEM. Para obter mais informações sobre como trabalhar com o Gerenciador de Pacotes, consulte [Como trabalhar com pacotes](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html) na documentação do AEM.
+   O Gerenciador de pacotes gerencia os pacotes na sua instalação local do AEM. Para obter mais informações sobre como trabalhar com o Gerenciador de Pacotes, consulte [Como trabalhar com pacotes](https://helpx.adobe.com/br/experience-manager/6-5/sites/administering/using/package-manager.html) na documentação do AEM.
 
 1. Para carregar o pacote, clique em **Carregar Pacote**.
 
@@ -52,7 +52,7 @@ Depois que os pacotes forem instalados, um site chamado **AEMG** será criado na
 
 
 **AEMG** contém os seguintes componentes.
-- Uma pasta para o idioma inglês (EN) está presente na pasta **AEMG**. Você pode criar cópias de idioma semelhantes de acordo com seus requisitos. Por exemplo, um site multilíngue inclui cópias em inglês (EN), alemão (DE) e francês (FR).  Saiba mais sobre como criar uma cópia de idioma usando o [Assistente de Cópia de Idioma](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/introduction/tc-wizard).
+- Uma pasta para o idioma inglês (EN) está presente na pasta **AEMG**. Você pode criar cópias de idioma semelhantes de acordo com seus requisitos. Por exemplo, um site multilíngue inclui cópias em inglês (EN), alemão (DE) e francês (FR).  Saiba mais sobre como criar uma cópia de idioma usando o [Assistente de Cópia de Idioma](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/sites/administering/introduction/tc-wizard).
 - Na pasta do idioma inglês (en), a Experience Manager Guides fornece várias páginas de exemplo prontas para uso, como **Pesquisa**, **Entrar**, **Documentação** e **Suporte**.
 
 - **Docs** é a página inicial de documentação de exemplo. Ele serve como um local central para toda a documentação relacionada ao produto
@@ -97,7 +97,7 @@ Execute as seguintes etapas para editar os modelos de tópico:
 1. Selecione o template que deseja editar.
 1. Selecione o ícone **Editar** na parte superior.
 
-O Editor de modelo AEM é aberto. Você pode editar seu modelo de tópico. Saiba mais sobre [Criação de Modelos de Página](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/siteandpage/templates#editing-a-template-structure-template-author).
+O Editor de modelo AEM é aberto. Você pode editar seu modelo de tópico. Saiba mais sobre [Criação de Modelos de Página](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/sites/authoring/siteandpage/templates#editing-a-template-structure-template-author).
 
 
 ## Personalizar modelos existentes do AEM Sites

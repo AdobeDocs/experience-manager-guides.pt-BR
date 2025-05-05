@@ -21,7 +21,7 @@ Alguns conceitos principais de gerenciamento de conteúdo no Adobe Experience Ma
 
 **Gerenciamento de ativos**
 
-O Experience Manager Guides usa o gerenciamento de ativos digitais da Adobe Experience Manager \(DAM\) para gerenciar seus arquivos DITA. Os arquivos carregados ou verificados no DAM são armazenados como ativos digitais. Você pode gerenciar e editar seus ativos no Adobe Experience Manager Assets. Para obter mais informações sobre o gerenciamento de ativos, consulte [Gerenciar ativos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=en).
+O Experience Manager Guides usa o gerenciamento de ativos digitais da Adobe Experience Manager \(DAM\) para gerenciar seus arquivos DITA. Os arquivos carregados ou verificados no DAM são armazenados como ativos digitais. Você pode gerenciar e editar seus ativos no Adobe Experience Manager Assets. Para obter mais informações sobre o gerenciamento de ativos, consulte [Gerenciar ativos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=pt-BR).
 
 **Gerenciamento de links**
 

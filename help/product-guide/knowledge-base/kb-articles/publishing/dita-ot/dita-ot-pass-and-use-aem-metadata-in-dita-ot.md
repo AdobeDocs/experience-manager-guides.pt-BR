@@ -166,7 +166,7 @@ Quando o comando acima for executado, você poderá verificar a saída no diret�
 
 ### Implantação
 
-Depois de desenvolver o plug-in DITA-OT, você pode integrá-lo ao DITA-OT usando o comando _dita —install_ no diretório DITA-OT e implantá-lo no servidor AEM [consulte este artigo para obter mais detalhes](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/steps-to-setup-a-custom-dita-ot/td-p/407659)
+Depois de desenvolver o plug-in DITA-OT, você pode integrá-lo ao DITA-OT usando o comando _dita —install_ no diretório DITA-OT e implantá-lo no servidor AEM [consulte este artigo para obter mais detalhes](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/steps-to-setup-a-custom-dita-ot/td-p/407659?profile.language=pt)
 
 
 ## Recursos

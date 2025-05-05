@@ -46,7 +46,7 @@ Também é possível remover tags existentes que são comuns em arquivos selecio
 
 ### A lista em gerenciar->metadados está vazia ou incompleta
 
-`If list is empty or  incomplete then you may need to run the indexing on your ditamap, You can refer` [Instruções de atualização(Indexe seu conteúdo)](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/download-install-upgrade-aemg/upgrade-xml-documentation.html?lang=en#steps-to-index-the-existing-content-to-use-the-new-find-and-replace%3A)
+`If list is empty or  incomplete then you may need to run the indexing on your ditamap, You can refer` [Instruções de atualização(Indexe seu conteúdo)](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/download-install-upgrade-aemg/upgrade-xml-documentation.html?lang=pt-BR#steps-to-index-the-existing-content-to-use-the-new-find-and-replace%3A)
 
 ### Os metadados personalizados não estão aparecendo na lista
 
@@ -59,7 +59,7 @@ Também é possível remover tags existentes que são comuns em arquivos selecio
 
 - [Marcação em Massa usando o Painel do Mapa (Interface do Usuário do Assets)](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/manaege-metadata/map-editor-bulk-tagging.html?lang=en)
 - [Relatórios de Ditamap no editor da Web](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/reports-aem-guide/reports-web-editor.html?lang=en)
-- [Marcação com AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/configuring/tagging.html?lang=en)
+- [Marcação com AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/configuring/tagging.html?lang=pt-BR)
 
 
 **Contate seu respectivo CSM para quaisquer outras dúvidas**

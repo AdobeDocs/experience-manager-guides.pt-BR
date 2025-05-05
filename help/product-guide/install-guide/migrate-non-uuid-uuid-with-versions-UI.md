@@ -63,7 +63,7 @@ Se você estiver usando a versão 4.3.x ou posterior, execute estas etapas para 
 
 ### Etapa 1: atualizar configuração
 
-1. Verifique se o espaço livre disponível é pelo menos 10 vezes o espaço ocupado pelo AEM (diretório crx-quickstart) durante a migração. Após concluir a migração, você poderá recuperar a maior parte do espaço em disco executando a compactação (consulte [Limpeza de revisão](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en)).
+1. Verifique se o espaço livre disponível é pelo menos 10 vezes o espaço ocupado pelo AEM (diretório crx-quickstart) durante a migração. Após concluir a migração, você poderá recuperar a maior parte do espaço em disco executando a compactação (consulte [Limpeza de revisão](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=pt-BR)).
 
 1. Habilitar *Habilitar Iniciadores de Fluxo de Trabalho de Processamento do Post* em `com.adobe.fmdita.config.ConfigManager` e *Habilitar Pós-processamento de Versão* em `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation.`
 
@@ -125,5 +125,5 @@ Depois que a migração for concluída, selecione **Validar atualização do sis
 ![Validar guia de atualização do sistema na migração](assets/migration-validate-system-upgrade.png){width="800" align="left"}
 
 
-1. Quando a migração for concluída, a maior parte do espaço em disco poderá ser recuperada executando a compactação (consulte `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`).
+1. Quando a migração for concluída, a maior parte do espaço em disco poderá ser recuperada executando a compactação (consulte `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=pt-BR`).
 

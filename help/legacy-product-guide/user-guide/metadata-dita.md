@@ -16,6 +16,6 @@ ht-degree: 0%
 
 O Adobe Experience Manager Assets fornece o recurso para criar ativos e adicionar metadados a eles. É possível manter metadados para cada ativo. Você pode gerenciar metadados com seus ativos e também organizar e processar ativos automaticamente com base em seus metadados.
 
-Para obter mais detalhes sobre o gerenciamento de metadados no AEM, consulte [Gerenciar metadados de seus ativos digitais](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/metadata.html?lang=en).
+Para obter mais detalhes sobre o gerenciamento de metadados no AEM, consulte [Gerenciar metadados de seus ativos digitais](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/metadata.html?lang=pt-BR).
 
 **Tópico pai:**&#x200B;[ Gerenciar metadados](manage-metadata.md)
