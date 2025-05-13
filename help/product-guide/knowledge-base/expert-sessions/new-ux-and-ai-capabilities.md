@@ -38,11 +38,11 @@ Nesta sessão, abordamos:
 
 ## Recursos relacionados
 
-- [Nova experiência de página inicial](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/home-page/intro-home-page)
+- [Nova experiência de página inicial](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using/user-guide/home-page/intro-home-page)
 
-- [Recursos de IA no AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/ai-assistant-aem/ai-assistant)
+- [Recursos de IA no AEM Guides](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using/user-guide/ai-assistant-aem/ai-assistant)
 
-- [Configurar o Assistente de IA](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-smart-suggestions)
+- [Configurar o Assistente de IA](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-smart-suggestions)
 
 
 
@@ -55,7 +55,7 @@ Nesta sessão, abordamos:
 
 ### Fórum da comunidade
 
-- Para ver as interações da comunidade específicas da sessão no Experience League, visite o [Fórum do AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- Para ver as interações da comunidade específicas da sessão no Experience League, visite o [Fórum do AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=pt).
 
 
 ## Entre em contato
