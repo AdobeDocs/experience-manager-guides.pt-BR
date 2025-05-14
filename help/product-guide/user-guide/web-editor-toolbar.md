@@ -4,7 +4,7 @@ description: Conheça a barra de ferramentas no editor. Saiba mais sobre a inter
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
-source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
+source-git-commit: e49fde64cbbb2544afe23b820af6477ed1e900fc
 workflow-type: tm+mt
 source-wordcount: '5909'
 ht-degree: 0%
@@ -88,7 +88,7 @@ O recurso **Histórico de versões** no Editor permite verificar as versões dis
 
    >[!NOTE]
    >
-   > O administrador do sistema pode alterar os metadados a serem mostrados na guia Metadados em **Configurações**. Para obter detalhes, consulte a seção **Mais ações** da [Barra de guias](#tab-bar).
+   > O administrador do sistema pode alterar os metadados a serem mostrados na guia Metadados em **Configurações**. Para obter detalhes, consulte a seção **Mais ações** da [Barra de guias](./web-editor-tab-bar.md).
 
    Você também pode exibir os detalhes de usuário e tempo da versão atual e da versão comparada.
 
@@ -132,7 +132,7 @@ Há diferentes métodos pelos quais você pode aplicar rótulos aos seus tópico
 
    A caixa de diálogo Gerenciamento de Rótulos de Versão é exibida.
 
-   ![](images/version-label-management-dialog.png){width="650" align="left"}
+   ![](images/version-label-management-dialog.png){width="350" align="left"}
 
    A caixa de diálogo Gerenciamento de rótulo de versão é dividida em duas partes: o painel esquerdo tem uma lista de versões disponíveis para o tópico, juntamente com a lista suspensa de rótulos \(ou uma caixa de texto para inserir um rótulo\) e o painel direito com uma visualização do tópico.
 
@@ -249,7 +249,7 @@ Se quiser aceitar ou rejeitar todas as alterações com um único clique, seleci
 
 >[!NOTE]
 >
-> O modo Visualizar permite visualizar o documento com ou sem as marcações do conteúdo alterado. Para obter mais detalhes, veja o modo [Visualização](web-editor-views.md#preview-mode-id19AAGL00163).
+> O modo Visualizar permite visualizar o documento com ou sem as marcações do conteúdo alterado. Para obter mais detalhes, veja o modo [Visualização](web-editor-views.md#preview-mode).
 
 **Tags**
 
@@ -377,7 +377,7 @@ Insere uma imagem no local válido atual ou próximo. Selecione o ícone Imagem 
 
 >[!NOTE]
 >
-> Você também pode adicionar uma imagem arrastando-a e soltando-a do seu sistema local no seu artigo. Nesse caso, o arquivo de imagem é adicionado usando o fluxo de trabalho **Carregar Assets**.  Para obter mais detalhes, exiba o fluxo de trabalho **Carregar Assets** na seção [Painel esquerdo](#left-panel).
+> Você também pode adicionar uma imagem arrastando-a e soltando-a do seu sistema local no seu artigo. Nesse caso, o arquivo de imagem é adicionado usando o fluxo de trabalho **Carregar Assets**.  Para obter mais detalhes, exiba o fluxo de trabalho **Carregar Assets** na seção [Painel esquerdo](./web-editor-left-panel.md).
 
 
 ![](images/insert-image.png){width="300" align="left"}
@@ -621,4 +621,4 @@ Se um arquivo for bloqueado por outro usuário, passar o mouse sobre o ícone de
 Como administrador, você também tem acesso ao recurso **Forçar desbloqueio** que permite desbloquear o arquivo bloqueado por outros usuários. Use este recurso para acessar os direitos de edição em um arquivo bloqueado por outros usuários.
 
 ![](images/web-editor-force-unlock-new.png){width="350" align="left"}
-**Tópico pai:**&#x200B;[ Introdução ao Editor](web-editor.md)
+**Tópico pai:**[ Introdução ao Editor](web-editor.md)
