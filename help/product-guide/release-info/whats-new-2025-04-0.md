@@ -3,9 +3,9 @@ title: Notas de versão | Novidades da versão 2025.04.0 do Adobe Experience Man
 description: Saiba mais sobre os recursos novos e aprimorados da versão 2025.04.0 do Adobe Experience Manager Guides
 role: Leader
 exl-id: 5d28119b-641f-402b-833c-6f7554e7c273
-source-git-commit: f4ed3c8b70c47beb1f97c6703ade4d4f49fa814e
+source-git-commit: fe7d81f1826fe4ee0c716df36daabe3c5efd8994
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
@@ -27,17 +27,6 @@ O Adobe Experience Manager Guides agora adiciona um atributo **format** para lin
 - Para arquivos com arquivos **.dita** ou **.ditamap**, o formato será definido como **dita**
 
 Além disso, arquivos com uma extensão **.xml** também terão seu formato definido como **dita**. Para arquivos sem qualquer extensão, o formato será deixado em branco. Além disso, para qualquer link de referência com um escopo definido como **externo**, o formato será definido como **html** independentemente da extensão de arquivo nos links de referência.
-
-
-## Comunicação precisa para arquivos grandes no Editor
-
-O Experience Manager Guides agora notifica que um arquivo é classificado como arquivo grande e determinadas funcionalidades, como desfazer, refazer, o painel de estrutura de tópicos e o marcador sujo, podem não funcionar conforme esperado. Uma mensagem de alerta é exibida na parte superior da interface para arquivos grandes, como mostrado no trecho abaixo, indicando o número de elementos com base no parâmetro **largeFileTagCount** no arquivo **uiconfig.json**.
-
-Além disso, a contagem de tags é mostrada na barra inferior, com uma dica de ferramenta sendo exibida ao passar o mouse sobre ela. Selecionar a guia **Saiba mais** fornece informações detalhadas sobre como manipular arquivos grandes. Este alerta está disponível somente para arquivos DITA e está visível em todas as exibições: Autor, Source e Layout.
-
-Para obter mais detalhes, consulte [Manuseio de arquivos grandes no Editor](../user-guide/web-editor-other-features.md#handling-large-files-in-the-editor).
-
-![](assets/add-toast-tag-count.png){width="800" align="left"}
 
 ## A Linha de base exportada agora inclui o estado do Documento
 
