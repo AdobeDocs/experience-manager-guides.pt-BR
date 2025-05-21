@@ -1,9 +1,10 @@
 ---
 title: Notas de versão | Correção de problemas na versão 2025.04.0 do Adobe Experience Manager Guides
 description: Saiba mais sobre as correções de erros na versão 2025.04.0 do Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 9a943a26a22b64035b61c72c47268a0de2c23b7f
+exl-id: ad3e95b5-4903-4387-8e4d-c4b9ba77fee2
+source-git-commit: 70078864379eedd82ae21da70614055c60f0b114
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '771'
 ht-degree: 0%
 
 ---
@@ -60,12 +61,10 @@ A Adobe identificou os seguintes problemas conhecidos para a versão 2025.04.0:
 - Uma linha vazia é inserida automaticamente ao colar o novo conteúdo em uma nova linha em um elemento `codeblock`.(27842)
 - Alternar entre predefinições que usam a mesma Linha de Base desativa o botão **Salvar** para a predefinição atual. (28025)
 - Um tópico em um mapa DITA não é publicado na saída do AEM Sites quando está sendo usado como `keydef` e `topicref` em seus submapas. (22269)
-- Na saída do AEM Sites, as imagens são quebradas quando a Linha de base não é aplicada durante a publicação. (28043)
 - Um erro de aplicativo ocorre quando vários tópicos de um mapa são editados e fechados usando a opção **Fechar tudo**, com a configuração **Perguntar ao salvar versão ao fechar** habilitada.(27931)
 
+A Adobe identificou o seguinte problema conhecido com uma solução alternativa:
 
-
-
-
-
-
++++Na saída do AEM Sites, as imagens são interrompidas quando a Linha de base não é aplicada durante a publicação. (28043)
+***Solução alternativa:*** você pode publicar esses ativos na **Interface do usuário do Assets**, postar onde o link se tornará operacional.
++++
