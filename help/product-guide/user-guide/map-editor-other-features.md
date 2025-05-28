@@ -72,4 +72,4 @@ Uma referência de navegação do arquivo de mapa selecionado é adicionada no l
 *Modo de exibição de layout*
 
 
-**Tópico pai:**[ Introdução ao Editor de Mapa](map-editor.md)
+**Tópico pai:**&#x200B;[ Introdução ao Editor de Mapa](map-editor.md)

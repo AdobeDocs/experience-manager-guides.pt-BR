@@ -20,4 +20,4 @@ O diagrama a seguir ilustra como o Experience Manager Guides funciona com o AEM 
 Ao trabalhar por meio de qualquer fluxo de trabalho, se a sessão permanecer inativa por muito tempo, um aviso de tempo limite de sessão será acionado para evitar perda de conteúdo. Para obter mais detalhes, consulte [Tempo limite da sessão](./session-timeout-prompt.md).
 
 
-**Tópico pai:**[ Sobre o Adobe Experience Manager Guides as a Cloud Service](intro.md)
+**Tópico pai:**&#x200B;[ Sobre o Adobe Experience Manager Guides as a Cloud Service](intro.md)
