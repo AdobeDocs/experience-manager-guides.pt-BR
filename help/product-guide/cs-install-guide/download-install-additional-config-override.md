@@ -5,9 +5,9 @@ exl-id: dc5f81f7-5b0a-4d12-a944-ba66b0239d5c
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: dae38cf948b99c8b89c61472938ce97b571f9366
+source-git-commit: e4b213b5f0efda18fb24f100f3ee8237947890bf
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Para garantir uma transição suave e minimizar as interrupções, o Experience 
 
 >[!IMPORTANT]
 >
-> Essa opção de configuração para alternar entre a interface nova e a antiga estará disponível até a versão 2025.4.0. Depois disso, a nova interface se tornará a padrão e a opção para alternar de volta para a interface anterior não será mais suportada.
+> Essa opção de configuração para alternar entre a interface nova e a antiga era compatível até a versão 2025.4.0. Com a versão 2025.6.0, essa configuração foi preterida e não pode mais ser usada para reverter para a interface antiga.
 
 Execute as seguintes etapas para configurar a interface do usuário do Experience Manager Guides:
 
@@ -65,4 +65,4 @@ Execute as seguintes etapas para configurar a interface do usuário do Experienc
 
 
 
-**Tópico pai:**&#x200B;[ Baixar e instalar](download-install.md)
+**Tópico pai:**[ Baixar e instalar](download-install.md)

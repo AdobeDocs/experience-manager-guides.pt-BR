@@ -4,9 +4,9 @@ description: Saiba como revisar tópicos e usar os recursos como revisor, exibi�
 exl-id: fc87fc37-f1cd-4a19-96c2-3a08a8222002
 feature: Reviewing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 9197cb757e3b883d81eee8a72c797b74cf06e570
 workflow-type: tm+mt
-source-wordcount: '2423'
+source-wordcount: '2476'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,7 @@ Execute as seguintes etapas para revisar um tópico:
 
    - **G**: Número de comentários recebidos sobre um tópico. Esse número é alterado com base no filtro aplicado.
 
+
    Todos os tópicos no mapa são mostrados como um único documento composto. Os tópicos que o revisor tem permissão para revisar são mostrados normalmente. Os tópicos que a revisão não tem permissão para revisar não são mostrados.
 
    ![](images/review-read-only.png){align="left"}
@@ -91,6 +92,12 @@ A caixa de comentário suporta entradas de várias linhas e permite que os usuá
 **Exibição de documento e exibição de tópico** - Por padrão, se vários tópicos forem compartilhados para revisão, uma exibição de documento composto de tópicos será mostrada aos revisores. No caso de uma revisão de mapa DITA, todos os tópicos do mapa são apresentados na forma de um único documento, semelhante a uma exibição de livro. Se desejar, você também poderá selecionar um tópico específico e somente esse tópico será exibido na tela de revisão.
 
 Ao exibir um único tópico, você obtém uma opção adicional para alternar de volta para a exibição do documento. Na captura de tela a seguir, um tópico específico de um arquivo de mapa é aberto para revisão. A opção realçada — **Mostrar Exibição de Documento** permite que o usuário alterne de volta para a exibição de documento do arquivo de mapa.
+
+>[!NOTE]
+>
+> Qualquer resolução de tela com largura superior a 1600 px é compatível com as larguras padrão do painel (esquerda e direita), garantindo que nenhuma barra de rolagem horizontal seja exibida e que o conteúdo permaneça alinhado corretamente na exibição do documento. Além disso, sempre é possível redimensionar a tela para manter a exibição apropriada do documento na interface de revisão.
+
+
 
 ![](images/switch-document-view.png){align="left"}
 
@@ -250,4 +257,4 @@ Selecione uma ou mais das seguintes opções de filtragem na caixa de diálogo *
 
 Para remover o filtro e exibir todos os comentários, desmarque todos os filtros da caixa de diálogo **Tipo de Filtro** e selecione **Aplicar**.
 
-**Tópico pai:**&#x200B;[ Introdução à revisão](review.md)
+**Tópico pai:**[ Introdução à revisão](review.md)

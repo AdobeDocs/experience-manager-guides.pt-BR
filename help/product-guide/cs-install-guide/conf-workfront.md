@@ -4,10 +4,11 @@ description: Saiba como configurar o Workfront no Experience Manager Guides
 feature: Authoring
 role: Admin
 level: Experienced
-source-git-commit: 2748ecee0963028be5d9220f852f4dfbc122d4a0
+exl-id: 1f72642c-e694-47cd-9182-f4f4aaf69655
+source-git-commit: d5068ac73748ec7bc047450a947924b40977748f
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 2%
+source-wordcount: '480'
+ht-degree: 3%
 
 ---
 
@@ -22,7 +23,7 @@ Saiba mais sobre a [integração do Adobe Workfront](../user-guide/workfront-int
 Antes de começar, verifique se:
 
 1. Você tem acesso padrão ao Adobe Workfront e acesso de administrador ao Experience Manager Guides.
-2. Você [cria um novo formulário personalizado no Adobe Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront/using/administration-and-setup/customize/custom-forms/design-a-form/design-a-form) necessário para o Experience Manager Guides usando especificamente os campos abaixo:
+2. Você [cria um novo formulário personalizado no Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/customize/custom-forms/design-a-form/design-a-form) necessário para o Experience Manager Guides usando especificamente os campos abaixo:
 
    | Tipo de campo | Rótulo | Nome | Opções (Mostrar valores ativados) |
    |------------|------|------|-------------------------------|
@@ -31,10 +32,13 @@ Antes de começar, verifique se:
    | Texto com formatação | Lista de autores | lista de autores | - |
    | Texto com formatação | Lista de Revisores | lista de revisores | - |
    | Texto em linha única | URL da revisão | url de revisão | - |
+   | Texto em linha única | URL da tarefa | url da tarefa | - |
+   | Texto em linha única | Assunto do email | assunto do email | - |
 
 >[!NOTE]
 >
-> Na tabela acima, as opções representam as opções disponíveis no campo **Tipo de tarefa**. Para cada opção, você precisaria fornecer o **nome da tarefa** e o **valor da tarefa**. O nome e os valores de cada tipo de tarefa devem ser exatamente os mesmos mencionados na tabela acima. Por exemplo, para o tipo de tarefa Autor, forneça **Autoria** como nome e **AUTOR** como seu valor correspondente.
+> * Na tabela acima, as opções representam as opções disponíveis no campo **Tipo de tarefa**. Para cada opção, você precisaria fornecer o **nome da tarefa** e o **valor da tarefa**. O nome e os valores de cada tipo de tarefa devem ser exatamente os mesmos mencionados na tabela acima. Por exemplo, para o tipo de tarefa Autor, forneça **Autoria** como nome e **AUTOR** como seu valor correspondente.
+> * Ao trabalhar com serviços no local, sempre verifique se `localhost` foi substituído pelo endereço de servidor correto na configuração do **Day CQ Link Externalizer** para receber corretamente o link da tarefa resolvida nas notificações por email.
 
 ## Introdução
 
@@ -51,7 +55,7 @@ Execute as seguintes etapas para configurar o Adobe Workfront no Experience Mana
 
    Para acessar a chave **ID do Cliente** e **Segredo do Cliente** configuradas na sua configuração do Adobe Workfront, navegue até `Setup >> Systems>> oAuth2 Applications`.
 
-   Para obter mais detalhes sobre como configurar o domínio do Adobe Workfront, consulte a seção Fluxo do código de autorização em [Criar aplicativos OAuth2 para integrações do Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront/using/administration-and-setup/configure-integrations/create-oauth-application#create-an-oauth2-application-using-user-credentials-authorization-code-flow).
+   Para obter mais detalhes sobre como configurar o domínio do Adobe Workfront, consulte a seção Fluxo do código de autorização em [Criar aplicativos OAuth2 para integrações do Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/configure-integrations/create-oauth-application#create-an-oauth2-application-using-user-credentials-authorization-code-flow).
 
 4. Selecione **Fazer logon e verificar**.
 
@@ -63,7 +67,4 @@ Execute as seguintes etapas para configurar o Adobe Workfront no Experience Mana
 6. Na lista suspensa formulário personalizado, selecione o formulário personalizado Adobe Workfront que você criou para o Experience Manager Guides. Exibir [Pré-requisitos](#prerequisites).
 7. Selecione **Salvar e fechar** para aplicar e salvar as alterações de configuração do Workfront.
 
-Após a configuração, [adicione usuários ao Adobe Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront/using/administration-and-setup/add-users/create-manage-users/add-users) usando os mesmos endereços de email que eles têm no Experience Manager Guides.
-
-
-
+Após a configuração, [adicione usuários ao Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/add-users/create-manage-users/add-users) usando os mesmos endereços de email que eles têm no Experience Manager Guides.

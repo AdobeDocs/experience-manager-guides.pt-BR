@@ -1,17 +1,17 @@
 ---
-title: Outros recursos nos editores de mapa
-description: Descubra alguns recursos comuns no Editor de mapas. Saiba como resolver referências principais no Editor de mapa.
+title: Outros recursos no Editor de Mapas
+description: Descubra alguns recursos comuns no Editor de mapas. Saiba como resolver referências principais no Editor de mapas.
 exl-id: f0e7a402-ac12-4c63-9d7f-92567ee29a39
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 594e348fc1188e66cf2f4648702ed2b17f1f8f33
+source-git-commit: 41c6e4edb470038c4934c01f1c28539f1e4d4f86
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '662'
 ht-degree: 0%
 
 ---
 
-# Recursos adicionais no editor de mapas {#id1942D0T0HUI}
+# Recursos adicionais no Editor de mapas {#id1942D0T0HUI}
 
 Alguns recursos comuns no Editor de mapas são:
 
@@ -41,4 +41,35 @@ Esse mapa raiz será aplicável a todos os ativos \(pastas e subpastas\) associa
 
 **Modo de exibição de edição de tópico** - Selecione o ícone Resolução de Chave ao editar um tópico DITA e selecione o arquivo DITA a ser usado para resolver as referências de chave.
 
-**Tópico pai:**&#x200B;[ Introdução ao Editor de Mapa](map-editor.md)
+## Adicionar referências de navegação
+
+O elemento `navref` é usado dentro de um mapa DITA para incluir referências de navegação de outro mapa DITA. Isso permite que os autores reutilizem a estrutura de navegação, como menus ou links compartilhados, sem mesclar o conteúdo real do mapa referenciado na saída.
+
+>[!NOTE]
+>
+> O elemento `navref` destina-se exclusivamente a fins de navegação dentro da estrutura do mapa. Ela não contribui para a saída do mapa DITA gerada e é excluída do processamento e da exibição na exibição de Mapa, Relatórios, Linha de base, Tradução e Pré-visualização.
+
+Para adicionar referências de navegação a um mapa, execute as seguintes etapas:
+
+1. Abra o arquivo de mapa DITA onde deseja adicionar uma referência de navegação.
+
+   O arquivo de mapa é aberto no Editor de Mapas.
+1. Alterne para a visualização Autor e coloque o cursor em um local válido para uma referência de navegação.
+1. Selecione a opção **Elemento** na barra de ferramentas.
+1. No diálogo **Inserir elemento**, selecione **navref**.
+
+   ![](./images/select-navref-element.png)
+1. A caixa de diálogo **Selecionar caminho** é exibida. Selecione um arquivo de mapa que você deseja incluir como referência de navegação em seu mapa e escolha **Selecionar**.
+
+Uma referência de navegação do arquivo de mapa selecionado é adicionada no local especificado. Além disso, o título do mapa referenciado é exibido na exibição Autor e na exibição Layout.
+
+![](./images/navref-added-author-view.png)
+
+*Modo de exibição do Autor*
+
+![](./images/navref-added-layout-view.png)
+
+*Modo de exibição de layout*
+
+
+**Tópico pai:**[ Introdução ao Editor de Mapa](map-editor.md)

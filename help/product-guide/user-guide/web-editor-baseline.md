@@ -4,9 +4,9 @@ description: Crie e gerencie linhas de base no console de mapas no Adobe Experie
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: 154d4cb2c4c51581590048e1d368f4c744402847
+source-git-commit: c7e76de14a3dd63eff794ecca16ebbccb3cb2d8a
 workflow-type: tm+mt
-source-wordcount: '1831'
+source-wordcount: '1881'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,10 @@ Em **Selecionar a versão baseada em,**, selecione uma das seguintes opções:
 
 - **Data** : escolhe a versão dos tópicos como na data e hora especificadas.
 - **Rótulo**: selecione esta opção para escolher os tópicos de acordo com o rótulo aplicado a eles. Se os tópicos tiverem rótulos especificados para eles, eles serão listados na lista suspensa. Você pode escolher um rótulo na lista. Também é possível adicionar um rótulo na caixa de texto.
+
+  >[!NOTE]
+  >
+  > Ao escolher rótulos, o carregador de rótulos permanece visível até que todos os rótulos tenham sido buscados com sucesso e totalmente carregados. Depois de carregados, os rótulos são exibidos em uma ordem alfabética que não diferencia maiúsculas de minúsculas. Eles são recuperados em lotes de 20, com rolagem infinita ativada na lista suspensa para carregar lotes adicionais à medida que você rolar a tela.
 
   Para as referências diretas em linhas de base estáticas, os rótulos são extraídos da versão salva mais recente do mapa. Por exemplo, se você tiver criado os rótulos `Label Release 1.0` e `Label Release 1.1` para as versões 1.0 e 1.1 do Tópico A e, em seguida, adicionar o Tópico A ao mapa salvo como versão 1.0. Nesse caso, você pode visualizar os rótulos `Label Release 1.0` e `Label Release 1.1` na lista suspensa de rótulos de linha de base estáticos.
 
@@ -164,5 +168,5 @@ Usando o ícone Filtros no painel **Filtros da linha de base**, você pode aplic
 
 Depois de editar a linha de base, selecione **Salvar** para salvar as alterações na linha de base. Você pode selecionar **Redefinir** se não quiser salvar a alteração e redefinir a linha de base. Quando você seleciona **Redefinir**, é exibido um aviso de que as alterações não salvas serão perdidas.
 
-**Tópico pai:**&#x200B;[ Geração de saída](generate-output.md)
+**Tópico pai:**[ Geração de saída](generate-output.md)
 
