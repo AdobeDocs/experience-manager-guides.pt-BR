@@ -4,7 +4,8 @@ description: Saiba como processar ativos
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: b0e744baeb6867bfc9e7d212ec53e581812d8f63
+exl-id: 27786098-119c-4b7a-8275-8a89d435294f
+source-git-commit: 851dafc1f17864bf6a295de7be12ffe513c3af57
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 0%
@@ -27,7 +28,7 @@ Siga as etapas mencionadas abaixo para processar ou reprocessar os ativos:
 1. No painel **Ferramentas**, selecione **Guias**.
 1. Selecione o Bloco **Processador de ativos**.
 
-   ![processador-ativo-fluxo](images/flow-asset-processor.png){width="550" align="left"}
+   ![processador-ativo-fluxo](images/flow-asset-processor.png){align="left"}
 
 1. A janela Processador de ativos do Guides é aberta com os detalhes mostrados abaixo. Além disso, apenas as informações relacionadas às cinco últimas migrações são exibidas nessa janela.
 
@@ -43,7 +44,7 @@ Siga as etapas mencionadas abaixo para processar ou reprocessar os ativos:
 
    - **Status**: aponta para o status do reprocessamento como Em andamento, Concluído ou Cancelado.
 
-   ![Guias-ativo-processador](images/guides-asset-processor.png){width="550" align="left"}
+   ![Guias-ativo-processador](images/guides-asset-processor.png){align="left"}
 
 1. Selecione a guia **Novo Processo** no canto superior direito da janela para iniciar uma nova tarefa de processamento.
 
@@ -66,20 +67,16 @@ Opções adicionais estão disponíveis para a tarefa de processamento depois de
 
 - **Reiniciar** : reinicia a tarefa de processamento de ativos anteriormente bem-sucedida.
 
-  ![reiniciar-processador-ativo](images/restart-asset-processor.png){width="550" align="left"}
+  ![reiniciar-processador-ativo](images/restart-asset-processor.png){align="left"}
 
 - **Retomar** : retoma a tarefa de processamento de ativos cancelada ou com falha anteriormente.
 
-  ![retomar-ativo-processador](images/resume-asset-processor.png){width="550" align="left"}
+  ![retomar-ativo-processador](images/resume-asset-processor.png){align="left"}
 
 - **Cancelar** : cancela a tarefa de processamento de ativos em andamento.
 
-  ![cancel-asset-processor](images/cancel-asset-processor.png){width="550" align="left"}
+  ![cancel-asset-processor](images/cancel-asset-processor.png){align="left"}
 
 - **Exibir logs**: mostra os logs da tarefa de processamento de ativos. Para tarefas em andamento, o log mostra informações detalhadas de processamento, incluindo o tempo restante estimado e o status do ativo. Esta lista de logs exibe até as 500 entradas mais recentes. O registro completo pode ser baixado.
 
-  ![logs-asset-processor](images/logs-asset-processor.png){width="550" align="left"}
-
-
-
-
+  ![logs-asset-processor](images/logs-asset-processor.png){align="left"}

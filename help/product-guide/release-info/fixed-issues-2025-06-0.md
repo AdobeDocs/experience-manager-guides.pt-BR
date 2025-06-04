@@ -1,7 +1,8 @@
 ---
 title: Notas de versão | Correção de problemas na versão 2025.06.0 do Adobe Experience Manager Guides
 description: Saiba mais sobre as correções de erros na versão 2025.06.0 do Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 78d8896982ff73e954de6d6daa9832faf30ed3b3
+exl-id: 0f362ab3-0fae-4eba-bbd6-0b64ae1f2599
+source-git-commit: 83be0a1e051bfc524ff2448397d87349f30b4301
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 0%
@@ -18,7 +19,6 @@ Saiba mais sobre [as instruções de atualização para a versão 2025.06.0](upg
 
 ## Criação  
 
-- Ao abrir um mapa DITA com o Unified Shell ativado, o editor é atualizado intermitentemente. (GUIDES-26919)
 - Falha ao fechar conexões da sessão JCR ao atualizar ou criar tópicos resulta em vazamentos de memória e tempo de inatividade do serviço. (GUIDES-26282)
 - Arrastar as colunas altera a largura de porcentagem para valores de pixel, o que resulta em tabelas distorcidas ou desalinhadas.(GUIDES-23128)
 - Quando o conteúdo é colado em um `code block` ou quando espaços são adicionados em `code block` e a exibição é trocada, o espaçamento é perdido. (GUIDES-27478)
@@ -47,6 +47,8 @@ Saiba mais sobre [as instruções de atualização para a versão 2025.06.0](upg
 A Adobe identificou o seguinte problema conhecido para a versão 2025.06.0:
 
 - Ao usar a opção Localizar e substituir, depois de aplicar a operação Substituir ocorrência única em um arquivo, nenhuma outra ação pode ser executada no painel Localizar e substituir. (GUIDES-28930)
+
+- Ao abrir um mapa DITA com o Unified Shell ativado, o editor é atualizado intermitentemente. (GUIDES-26919)
 
 - Em um perfil de pasta, quando um ativo já indexado é excluído da interface do usuário, o caminho indexado correspondente não é removido e uma tentativa de reindexação falha com uma mensagem de erro. (GUIDES-29147) <br>**Solução alternativa:** Remova o caminho obsoleto que não existe mais antes de iniciar a reindexação.
 

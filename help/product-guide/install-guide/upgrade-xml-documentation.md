@@ -5,9 +5,9 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: f43d8d01a9c3b29328641680f3ba7d96ce7ecd79
+source-git-commit: 579be351210f8a32d9cb66950b935bfad039f51b
 workflow-type: tm+mt
-source-wordcount: '8023'
+source-wordcount: '8041'
 ht-degree: 0%
 
 ---
@@ -18,14 +18,14 @@ ht-degree: 0%
 >
 > Siga as instruções de atualização específicas para a versão licenciada do seu produto.
 
-Você pode atualizar sua versão atual do Experience Manager Guides para a versão 5.0.0:
+Você pode atualizar sua versão atual do Experience Manager Guides para a versão 5.0.0 Service Pack 1:
 
 
-- Se você estiver usando as versões 4.6.x, 4.6 ou 4.4, é possível atualizar diretamente para a versão 5.0.0.
-- Se você estiver usando a versão 4.3.x, 4.2, 4.2.1 (Hotfix 4.2.1.3), 4.1 ou 4.1.x, é necessário atualizar para a versão 4.4 antes de atualizar para a versão 5.0.0.
-- Se você estiver usando a versão 4.0, precisará atualizar para a versão 4.2 antes de atualizar para a versão 4.3.x.
-- Se você estiver usando a versão 3.8.5, precisará atualizar para a versão 4.0 antes de atualizar para a versão 4.2.
-- Se você estiver em uma versão anterior à 3.8.5, consulte a seção Guias de Experience Manager de atualização no guia de instalação específico do produto, disponível nos [Guias de Adobe Experience Manager ajuda no arquivo](https://helpx.adobe.com/br/xml-documentation-for-experience-manager/archive.html) PDF.
+- Se você estiver usando a versão 5.0.0, 4.6.x, 4.6 ou 4.4, é possível atualizar diretamente para a versão 5.0.0 Service Pack 1.
+- Se você estiver usando a versão 4.3.x, 4.2, 4.2.1 (Hotfix 4.2.1.3), 4.1 ou 4.1.x, será necessário atualizar para a versão 4.4 antes de atualizar para a versão 5.0.0.
+- Se você estiver usando a versão 4.0, será necessário atualizar para a versão 4.2 antes de atualizar para a versão 4.3.x.
+- Se você estiver usando a versão 3.8.5, será necessário atualizar para a versão 4.0 antes de atualizar para a versão 4.2.
+- Se você estiver usando uma versão anterior à 3.8.5, consulte a seção Atualizar Experience Manager Guides no guia de instalação específico do produto, disponível no [arquivo PDF de ajuda do Adobe Experience Manager Guides](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 
 >[!NOTE]
@@ -35,9 +35,9 @@ Você pode atualizar sua versão atual do Experience Manager Guides para a vers�
 Para obter mais detalhes, consulte os seguintes procedimentos:
 
 - [Atualização da versão 3.8.5 para a versão 4.0](#upgrade-from-version-385-to-version-40)
-- [Atualização para a versão 4.2](#upgrade-to-version-42)
-- [Atualização para a versão 4.2.1](#upgrade-to-version-421)
-- [Atualize para a versão 4.3.0](#upgrade-to-version-430)
+- [Atualizar para a versão 4.2](#upgrade-to-version-42)
+- [Atualizar para a versão 4.2.1](#upgrade-to-version-421)
+- [Atualizar para a versão 4.3.0](#upgrade-to-version-430)
 - [Atualizar para a versão 4.3.1](#upgrade-to-version-431)
 - [Atualizar para a versão 4.3.1.5](#upgrade-to-version-4315)
 - [Atualizar para a versão 4.4.0](#upgrade-to-version-440)
@@ -58,11 +58,11 @@ Antes de executar o processo, há determinadas tarefas que você deve concluir. 
 
 >[!NOTE]
 >
-> Este processo de atualização é aplicável somente da versão 3.8.5 para a versão 4.0. Para o processo de atualização da versão 3.4 ou superior para a 3.8.5, consulte a seção *Atualizar Experience Manager Guides* no guia de instalação específico do produto, disponível em [arquivo PDF de ajuda do Adobe Experience Manager Guides](https://helpx.adobe.com/br/xml-documentation-for-experience-manager/archive.html).
+> Este processo de atualização é aplicável somente da versão 3.8.5 para a versão 4.0. Para o processo de atualização da versão 3.4 ou superior para a 3.8.5, consulte a seção *Atualizar Experience Manager Guides* no guia de instalação específico do produto, disponível em [arquivo PDF de ajuda do Adobe Experience Manager Guides](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 
 
-**&#x200B;**&#x200B;Pré-requisitos&#x200B;**&#x200B;**
+****Pré-requisitos****
 
 Antes de iniciar o processo de atualização do Experience Manager Guides, verifique se você tem:
 
@@ -98,7 +98,7 @@ Esta API foi projetada para migrar os dados do sistema conforme mencionado na se
 
 | Ponto final | /bin/dxml/upgrade/3xto4x |
 | --- | --- |
-| Tipo de solicitação | **&#x200B;**&#x200B;POST Este script é um solicitação POST, portanto, deve ser executado através de agentes curtir Postman. |
+| Tipo de solicitação | **POST** Este script é uma solicitação POST, portanto, deve ser executado por agentes como o Postman. |
 | Resposta esperada | -   Depois que a migração for bem-sucedida, você poderá instalar a solução XML Documentation versão 4.0.<br>-   Caso haja erros, restaure para o último ponto de verificação e compartilhe os logs de erro junto com a saída da API com a equipe de sucesso do cliente. |
 
 **Mapeamento de Migração**: a API acima migra todos os dados do local de origem para o local de destino.
@@ -106,21 +106,21 @@ Esta API foi projetada para migrar os dados do sistema conforme mencionado na se
 | Origem | Destino |
 |------|------|
 | /content/fmdita | /var/dxml |
-| /conteúdo/dxml | /var/dxml |
+| /content/dxml | /var/dxml |
 | /etc/fmdita | /libs/fmdita |
 
-## Instalar a versão 4.0 {#id23598G006XA}
+## Instalar versão 4.0 {#id23598G006XA}
 
 1. Instale a versão 4.0 somente se as etapas de atualização forem bem-sucedidas.
 1. Baixe o pacote da versão 4.0 do [Portal de Distribuição de Software da Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html):
 
    - Se você estiver usando a versão UUID do software, procure por &quot;Versão 4.0 UUID para a solução XML Documentation para o AEM 6.5&quot;.
-   - Se você estiver usando a versão de software não UUID, pesquisa para &quot;Versão 4.0 não UUID para solução de Documentação XML para AEM 6.5&quot;.
-Carregue o pacote no servidor de AEM existente instância\(s\) usando o CRX Gerenciador de pacotes e instale-o.
+   - Se você estiver usando uma versão não UUID do software, procure por &quot;Versão 4.0 não UUID para a solução da XML Documentation para o AEM 6.5&quot;.
+Faça upload do pacote para a instância do servidor do AEM existente\(s\) usando o Gerenciador de pacotes do CRX e instale-o.
 
    >[!NOTE]
    >
-   > Aguarde até que todos os componentes do sistema start.
+   > Aguarde até que todos os componentes do sistema sejam iniciados.
 
 1. Limpe o cache do navegador após instalar o pacote.
 1. Se um dispatcher estiver configurado na instância do AEM Author, execute as seguintes etapas:
@@ -135,7 +135,7 @@ A atualização para a versão 4.2 depende da versão atual do Experience Manage
 
 Se você estiver usando a versão 4.0, 4.1 ou 4.1.x, é possível atualizar diretamente para a versão 4.2.
 
-**&#x200B;**&#x200B;Pré-requisitos&#x200B;**&#x200B;**
+****Pré-requisitos****
 
 Antes de iniciar o processo de atualização do Experience Manager Guides 4.2, verifique se você tem:
 
@@ -192,11 +192,11 @@ Depois de instalar o Experience Manager Guides, você pode mesclar as várias co
 1. Se o componente **Iniciador de Pós-Processamento DXML** estiver ausente, execute as seguintes etapas para inseri-lo:
 
 1. Clique em **Inserir componente** \(Responsável pelo pós-processamento do Experience Manager Guides como a etapa final do processo\).
-1. Configure a etapa **do** processo com os detalhes abaixo:
+1. Configure a **Etapa do processo** com os detalhes abaixo:
 
-   **guia comuns**
+   **Guia comum**
 
-   **Título:** Iniciador de processos Post DXML
+   **Título:** Iniciador de Pós-Processamento DXML
 
    **Descrição**: etapa do iniciador do pós-processamento DXML que acionará um trabalho de sling para pós-processamento DXML do ativo modificado/criado
 
@@ -214,15 +214,15 @@ Depois de instalar o Experience Manager Guides, você pode mesclar as várias co
    >
    > Atualize e verifique se as alterações personalizadas e a etapa de pós-processamento do Experience Manager Guides estão presentes no modelo de fluxo de trabalho final.
 
-1. Depois DAM **o fluxo de Trabalho** do Ativo de atualização é validado, verifique os iniciador configurações correspondentes. Para fazer isso, vá para AEM interface de Fluxo de trabalho e abra os inicializadores.
+1. Depois que o **fluxo de trabalho do Ativo de atualização do DAM** for validado, verifique as configurações do iniciador correspondentes. Para fazer isso, acesse a interface do Fluxo de trabalho do AEM e abra iniciadores.
 
    ```http
    http://localhost:4502/libs/cq/workflow/content/console.html
    ```
 
-   Encontre e faça alterações \(se necessário\) para os dois inicializadores a seguir \(que devem estar ativos\) correspondentes DAM **Atualizar ativo fluxo de Trabalho**:
+   Localize e faça alterações \(se necessário\) nos dois inicializadores a seguir \(que devem estar ativos\) correspondentes ao **fluxo de trabalho do Ativo de atualização do DAM**:
 
-1. Inicializador para &quot;*Nó criado*&quot; para **DAM Atualizar ativo fluxo de Trabalho**- para condição `"jcr:content/jcr:mimeType!=video"`, o valor &quot;Globbing&quot; deve ser:
+1. Iniciador para &quot;*Nó Criado*&quot; para **Fluxo de trabalho do Ativo de Atualização do DAM**- para a condição `"jcr:content/jcr:mimeType!=video"`, o valor de &#39;Globbing&#39; deve ser:
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
@@ -243,7 +243,7 @@ Depois de instalar o Experience Manager Guides, você pode mesclar as várias co
    - elementmapping.xml
    - ui\_config.json\(pode ter sido definido em perfis de pasta\)
    - emendado `com.adobe.fmdita.config.ConfigManager`
-   - Verifique se algum dos códigos personalizados estava usando caminhos antigos \(conforme mencionado na [seção Mapeamento](#id2244LE040XA) de migração\) - deve ser atualizado para os novos caminhos para que as personalizações também funcionem como esperado.
+   - Verifique se qualquer um dos códigos personalizados estava usando caminhos antigos \(como mencionado na seção [Mapeamento de migração](#id2244LE040XA)\) - deve ser atualizado para os novos caminhos para que as personalizações também funcionem conforme esperado.
 1. Leia sobre as novas configurações trazidas na versão atual \(verifique as [Notas de versão](../release-info/release-notes-4-3.md)\) e veja se alguma funcionalidade foi afetada, em seguida, tome as medidas apropriadas. Um exemplo pode ser o uso da seção &quot;Manuseio aprimorado de arquivos e versões&quot;, introduzida na versão 4.0, para a qual é necessário ativar uma configuração.
 
 ## Etapas para indexar o conteúdo existente para usar a nova localização e substituição:
@@ -311,7 +311,7 @@ A atualização para a versão 4.2.1 depende da versão atual do Experience Mana
 >
 >O pós-processamento e a indexação podem levar algumas horas. Recomendamos que você inicie o processo de atualização fora do horário de pico.
 
-**&#x200B;**&#x200B;Pré-requisitos&#x200B;**&#x200B;**
+****Pré-requisitos****
 
 Antes de iniciar o processo de atualização do Experience Manager Guides 4.2.1, verifique se você tem:
 
@@ -327,7 +327,7 @@ Antes de iniciar o processo de atualização do Experience Manager Guides 4.2.1,
 
 1. Baixe o pacote de versão 4.2.1 do [Portal de Distribuição de Software da Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html).
 1. Instale o pacote da versão 4.2.1.
-1. É possível optar por APERTAR o acionador para start o trabalho de atualização do mapa de tradução. Para obter detalhes, consulte [Ativar acionador do script por meio de um Servlet](#enable-trigger-of-script-via-a-servlet-for-421).
+1. Você pode optar por ACESSAR o acionador para iniciar o trabalho de atualização do mapa de tradução. Para obter detalhes, consulte [Habilitar gatilho de script por meio de um Servlet](#enable-trigger-of-script-via-a-servlet-for-421).
 
 
 1. Após concluir a instalação do pacote, aguarde a seguinte mensagem\(s\) nos logs:
@@ -343,9 +343,9 @@ Antes de iniciar o processo de atualização do Experience Manager Guides 4.2.1,
    - Não é possível portar o mapa de conversão de v1 para v2 para a propriedade
 1. Atualização do plugin do conector Oxygen lançado com a versão 4.2 \(se necessário\).
 1. Limpe o cache do navegador após instalar o pacote.
-1. Continuar de atualizar as personalizações conforme detalhado na próxima seção.
+1. Continue atualizando as personalizações conforme detalhado na próxima seção.
 
-### Ative o acionador do script por meio de um Servlet (para 4.2.1)
+### Ativar acionador de script por meio de um Servlet (para 4.2.1)
 
 PUBLICAÇÃO:
 
@@ -395,7 +395,7 @@ Depois de instalar o Experience Manager Guides, você pode mesclar as várias co
 >
 > O modelo dam-update-asset pode ser personalizado. Se alguma personalização foi feita, precisamos sincronizar as personalizações e o Experience Manager Guides na cópia de trabalho do modelo.
 
-1. **DAM Atualizar ativo fluxo de Trabalho \(Post-processamento de alterações\):**
+1. **Fluxo de trabalho do Ativo de atualização do DAM \(Alterações pós-processamento\):**
 
 1. Abrir URL:
 
@@ -403,7 +403,7 @@ Depois de instalar o Experience Manager Guides, você pode mesclar as várias co
    http://localhost:4502/libs/cq/workflow/admin/console/content/models.html
    ```
 
-1. Selecione **DAM atualizar fluxo de Trabalho** do ativo.
+1. Selecione **Fluxo de trabalho do Ativo de atualização do DAM**.
 1. Clique em **Editar**.
 1. Se o componente **Iniciador de Pós-Processamento DXML** estiver presente, verifique se as personalizações estão sincronizadas.
 1. Se o componente **Iniciador de Pós-Processamento DXML** estiver ausente, execute as seguintes etapas para inseri-lo:
@@ -486,9 +486,9 @@ A atualização para a versão 4.3.0 depende da versão atual do Experience Mana
 
 >[!NOTE]
 >
->O processamento e indexação do postagem pode levar algumas horas. Recomendamos que você start o processo de atualização durante os horários fora do pico.
+>O pós-processamento e a indexação podem levar algumas horas. Recomendamos que você inicie o processo de atualização fora do horário de pico.
 
-**&#x200B;**&#x200B;Pré-requisitos&#x200B;**&#x200B;**
+****Pré-requisitos****
 
 Antes de iniciar o processo de atualização do Experience Manager Guides 4.3.0, verifique se você tem:
 
@@ -507,14 +507,14 @@ Antes de iniciar o processo de atualização do Experience Manager Guides 4.3.0,
 
 ## Depois de instalar a versão 4.3.0
 
-Depois de instalar os Guias do Experience Manager, você pode mesclar as várias configurações aplicáveis a partir da versão recém-instalada à sua configuração.
+Depois de instalar o Experience Manager Guides, você pode mesclar as várias configurações aplicáveis da versão recém-instalada à configuração.
 
-## Etapas para postagem processar o conteúdo existente para usar o relatório de link quebrado
+## Etapas para pós-processar o conteúdo existente para usar o relatório de link corrompido
 
 
-Execute as seguintes etapas para postagem processar as conteúdo existentes e usar o novo relatório de link corrompido:
+Execute as seguintes etapas para o pós-processamento do conteúdo existente e uso do novo relatório de link desfeito:
 
-1. (Opcional) Se houver mais de 100.000 arquivos dita no sistema, atualize o `queryLimitReads` `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` abaixo para um valor maior (qualquer valor maior que o número de ativos presente, por exemplo 200.000) e, em seguida, reimplemente.
+1. (Opcional) Se houver mais de 100.000 arquivos dita no sistema, atualize o `queryLimitReads` em `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` para um valor maior (qualquer valor maior que o número de ativos presentes, por exemplo, 200.000) e reimplante.
 
    | PID | Chave de propriedade | Valor de propriedade |
    |---|---|---|
@@ -546,7 +546,7 @@ A atualização para a versão 4.3.1 depende da versão atual do Experience Mana
 >
 >O pós-processamento e a indexação podem levar algumas horas. Recomendamos que você inicie o processo de atualização fora do horário de pico.
 
-**&#x200B;**&#x200B;Pré-requisitos&#x200B;**&#x200B;**
+****Pré-requisitos****
 
 Antes de iniciar o processo de atualização do Experience Manager Guides 4.3.1, verifique se você tem:
 
@@ -575,7 +575,7 @@ Antes de iniciar o processo de atualização do Experience Manager Guides 4.3.1,
    - Não é possível portar o mapa de conversão de v1 para v2 para a propriedade
 1. Atualização do plugin do conector Oxygen lançado com a versão 4.2 \(se necessário\).
 1. Limpe o cache do navegador após instalar o pacote.
-1. Continuar de atualizar as personalizações conforme detalhado na próxima seção.
+1. Continue atualizando as personalizações conforme detalhado na próxima seção.
 
 ### Ativar acionador de script por meio de um Servlet (para 4.3.1)
 
@@ -623,7 +623,7 @@ Depois de instalar o Experience Manager Guides, você pode mesclar as várias co
 >
 > O modelo dam-update-asset pode ser personalizado. Se alguma personalização foi feita, precisamos sincronizar as personalizações e o Experience Manager Guides na cópia de trabalho do modelo.
 
-1. **DAM Atualizar ativo fluxo de Trabalho \(Post-processamento de alterações\):**
+1. **Fluxo de trabalho do Ativo de atualização do DAM \(Alterações pós-processamento\):**
 
 1. Abrir URL:
 
@@ -631,8 +631,8 @@ Depois de instalar o Experience Manager Guides, você pode mesclar as várias co
    http://localhost:4502/libs/cq/workflow/admin/console/content/models.html 
    ```
 
-1. Selecione **DAM atualizar fluxo de Trabalho** do ativo.
-1. Clique no **Editar**.
+1. Selecione **Fluxo de trabalho do Ativo de atualização do DAM**.
+1. Clique em **Editar**.
 1. Se o componente **Iniciador de Pós-Processamento DXML** estiver presente, verifique se as personalizações estão sincronizadas.
 1. Se o componente **Iniciador de Pós-Processamento DXML** estiver ausente, execute as seguintes etapas para inseri-lo:
 
@@ -731,8 +731,8 @@ Execute as seguintes etapas para o pós-processamento do conteúdo existente e u
    | Ponto final | /bin/guides/reports/upgrade |
    |---|---|
    | Tipo de solicitação | **GET** |
-   | Parâmetro | jobId: transmita o jobId recebido do postagem anterior solicitação. |
-   | Resposta esperada | - Quando o trabalho for concluído, a solicitação do GET responderá com êxito. <br> - No caso de haver erros, compartilhe os logs de erro junto com a saída da API com o sucesso equipe do cliente.  <br>Exemplo de URL: `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
+   | Param | jobId: transmita a jobId recebida da solicitação de publicação anterior. |
+   | Resposta esperada | - Quando o trabalho for concluído, a solicitação do GET responderá com êxito. <br> - Em caso de erro, compartilhe os logs de erro junto com a saída da API com a equipe de sucesso do cliente.  <br>Exemplo de URL: `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
 
 
 1. Reverta para o valor padrão ou existente anterior de `queryLimitReads` se você o alterou na etapa 1.
@@ -787,7 +787,7 @@ A atualização para a versão 4.4.0 depende da versão atual do Experience Mana
 >
 >O pós-processamento e a indexação podem levar algumas horas. Recomendamos que você inicie o processo de atualização fora do horário de pico.
 
-**&#x200B;**&#x200B;Pré-requisitos&#x200B;**&#x200B;**
+****Pré-requisitos****
 
 Antes de iniciar o processo de atualização do Experience Manager Guides 4.4.0, verifique se você tem:
 
@@ -820,7 +820,7 @@ Antes de iniciar o processo de atualização do Experience Manager Guides 4.4.0,
 
 ## Depois de instalar a versão 4.4.0
 
-Depois de instalar os Guias do Experience Manager, você pode mesclar as várias configurações aplicáveis a partir da versão recém-instalada à sua configuração.
+Depois de instalar o Experience Manager Guides, você pode mesclar as várias configurações aplicáveis da versão recém-instalada à configuração.
 
 >[!NOTE]
 >
@@ -927,15 +927,15 @@ Execute as seguintes etapas para o pós-processamento do conteúdo existente e u
    | Ponto final | /bin/guides/reports/upgrade |
    |---|---|
    | Tipo de solicitação | **POST** Este script é uma solicitação POST, portanto, deve ser executado por agentes como o Postman. |
-   | Resposta esperada | A API retornará um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação do GET com a ID do trabalho para o mesmo ponto de extremidade.<br> Exemplo URL: `http://<server:port>/bin/guides/reports/upgrade` |
+   | Resposta esperada | A API retornará um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação do GET com a ID do trabalho para o mesmo ponto de extremidade.<br> Exemplo de URL: `http://<server:port>/bin/guides/reports/upgrade` |
 
    | Ponto final | /bin/guides/reports/upgrade |
    |---|---|
-   | Tipo de solicitação | **OBTER** |
+   | Tipo de solicitação | **GET** |
    | Param | jobId: transmita a jobId recebida da solicitação de publicação anterior. |
-   | Resposta esperada | - Quando o trabalho for concluído, o solicitação GET responderá com sucesso. <br> - No caso de haver erros, compartilhe os logs de erro junto com a saída da API com o sucesso equipe do cliente.  <br>Exemplo URL: `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
+   | Resposta esperada | - Quando o trabalho for concluído, a solicitação do GET responderá com êxito. <br> - Em caso de erro, compartilhe os logs de erro junto com a saída da API com a equipe de sucesso do cliente.  <br>Exemplo de URL: `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
 
-1. Reverta para o valor padrão ou anterior existente de `queryLimitReads` se tiver alterado na etapa 1.
+1. Reverta para o valor padrão ou existente anterior de `queryLimitReads` se você o alterou na etapa 1.
 
 ### Ativar acionador de script por meio de um Servlet
 
@@ -980,7 +980,7 @@ Se você tiver outro reescritor sling personalizado em sua base de código, use 
 Durante esta atualização, como o valor de `'order'` é alterado de 1000 para 50, você precisa mesclar o reescritor personalizado existente, se houver, com `'fmdita-rewriter'`.
 
 
-**Tópico pai:**&#x200B;[ Baixar e instalar](download-install.md)
+**Tópico pai:**[ Baixar e instalar](download-install.md)
 
 
 ## Atualizar para a versão 4.6.0
@@ -995,7 +995,7 @@ A atualização para a versão 4.6.0 depende da versão atual do Experience Mana
 >
 > O pós-processamento e a indexação podem levar algumas horas. Recomendamos que você inicie o processo de atualização fora do horário de pico.
 
-**&#x200B;**&#x200B;Pré-requisitos&#x200B;**&#x200B;**
+****Pré-requisitos****
 
 Antes de iniciar o processo de atualização do Experience Manager Guides 4.6.0, verifique se você tem:
 
@@ -1026,13 +1026,13 @@ Antes de iniciar o processo de atualização do Experience Manager Guides 4.6.0,
 
 ## Depois de instalar a versão 4.6.0
 
-Depois de instalar os Guias do Experience Manager, você pode mesclar as várias configurações aplicáveis a partir da versão recém-instalada à sua configuração.
+Depois de instalar o Experience Manager Guides, você pode mesclar as várias configurações aplicáveis da versão recém-instalada à configuração.
 
 >[!NOTE]
 >
-> O modelo de ativo de atualização dam pode ser personalizado. Portanto, se alguma personalização foi feita, então precisamos sincronizar as personalizações e Experience Manager Guias na cópia de trabalho do modelo.
+> O modelo dam-update-asset pode ser personalizado. Se alguma personalização foi feita, precisamos sincronizar as personalizações e o Experience Manager Guides na cópia de trabalho do modelo.
 
-1. **DAM Atualizar ativo fluxo de Trabalho \(Post-processamento de alterações\):**
+1. **Fluxo de trabalho do Ativo de atualização do DAM \(Alterações pós-processamento\):**
 
 1. Abrir URL:
 
@@ -1041,161 +1041,6 @@ Depois de instalar os Guias do Experience Manager, você pode mesclar as várias
    ```
 
 1. Selecione **Fluxo de trabalho do Ativo de atualização do DAM**.
-1. Clique em **Editar**.
-1. Se o componente **Iniciador de Pós-Processamento DXML** estiver presente, verifique se as personalizações estão sincronizadas.
-1. Se o componente **Iniciador de Pós-Processamento DXML** estiver ausente, execute as seguintes etapas para inseri-lo:
-
-1. Clique em **Inserir componente** \(Responsável pelo pós-processamento do Experience Manager Guides como a etapa final do processo\).
-1. Configure a **Etapa do processo** com os detalhes abaixo:
-
-   **Guia comum**
-
-   **Título:** Iniciador de processos Post DXML
-
-   **&#x200B;**&#x200B;Descrição: o processo de postagem DXML iniciador etapa que acionará um trabalho de sling para processamento de postagem DXML das ativo modificadas/criadas
-
-   **Guia do processo**
-
-   - Selecione o **Iniciador de Pós-Processamento de DXML** na lista suspensa **Processo**
-
-   - Selecionar **Avanço do manipulador**
-
-   - Selecionar **Concluído**
-
-1. Clique em **Sincronizar** na parte superior direita depois de concluir as alterações. Você receberá uma notificação de sucesso.
-
-   >[!NOTE]
-   >
-   > Atualizar e verificar se as alterações personalizadas e a etapa de postagem processamento dos Guias Experience Manager estão presentes no modelo final de fluxo de Trabalho.
-
-1. Depois DAM **o fluxo de Trabalho** do Ativo de atualização é validado, verifique os iniciador configurações correspondentes. Para fazer isso, vá para AEM interface de Fluxo de trabalho e abra os inicializadores.
-
-   ```http
-   http://localhost:4502/libs/cq/workflow/content/console.html
-   ```
-
-   Encontre e faça alterações \(se necessário\) para os dois inicializadores a seguir \(que devem estar ativos\) correspondentes DAM **Atualizar ativo fluxo de Trabalho**:
-
-1. Iniciador para &quot;*Nó Criado*&quot; para **Fluxo de trabalho do Ativo de Atualização do DAM**- para a condição `"jcr:content/jcr:mimeType!=video"`, o valor de &#39;Globbing&#39; deve ser:
-
-   ```json
-   /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
-   ```
-
-   - &#39;excludeList&#39; deve ter `"event-user-data:changedByWorkflowProcess"`.
-   - Iniciador para &quot;*Nó Modificado*&quot; para **Fluxo de trabalho do Ativo de Atualização do DAM -** para a condição &quot;`jcr:content/jcr:mimeType!=video`&quot;, o valor &#39;Globbing&#39; deve ser:
-
-   ```json
-   /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
-   ```
-
-   - `excludeList` deve ter `"event-user-data:changedByWorkflowProcess"`.
-
-1. Quando a atualização for concluída, verifique se todas as personalizações/sobreposições estão validadas e atualizadas para corresponder ao novo código do aplicativo. Alguns exemplos são apresentados abaixo:
-   - Quaisquer componentes sobrepostos de/libs/fmditaor/libsdevem ser comparados com o novo código do produto e as atualizações devem ser feitas em arquivos sobrepostos em/apps.
-   - Todas as categorias de clientlib usadas do produto devem ser revisadas para alterações. Todas as configurações substituídas \(exemplos abaixo\) devem ser comparadas com as mais recentes para obter os recursos mais recentes:
-   - elementmapping.xml
-   - ui\_config.json\(pode ter sido definido em perfis de pasta\)
-   - emendado `com.adobe.fmdita.config.ConfigManager`
-
-1. Se você tiver adicionado personalizações em damAssetLucene, talvez seja necessário aplicá-las novamente. Depois de fazer essas alterações, defina reindex como true. Isso reindexará todos os nós existentes com as personalizações. Depois de concluído, o sinalizador de reindexação será definido como falso novamente. Isso pode levar algumas horas, dependendo do número de ativos no sistema.
-
-## Etapas para reindexar os índices do Experience Manager Guides
-
-1. Abra `crx/de` e navegue até o caminho do índice: `/oak:index/guidesAssetProperties`
-2. Defina a propriedade de reindexação como `true` (`false` por padrão) e clique em **Salvar tudo**.
-3. Quando a reindexação for concluída, a propriedade reindex será definida novamente como `false`, e a contagem de reindexação será incrementada em 1.
-
-   >[!NOTE]
-   >
-   > Isso pode levar alguns minutos, dependendo da quantidade de dados presentes.
-4. Siga as mesmas etapas para outros índices adicionados ou modificados: `guidesBulkActivation`, `guidesPeerLinkIndex` e `guidesKonnectTemplateIndex`.
-
-## Etapas para indexar o conteúdo existente
-
-
-
-Execute as seguintes etapas para indexar o conteúdo existente:
-
-- Execute uma solicitação POST no servidor \(com autenticação correta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Opcional: é possível passar caminhos específicos dos mapas para indexá-los; por padrão, todos os mapas serão indexados || Exemplo: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
-
-- A API retornará um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação do GET com a ID do trabalho para o mesmo ponto de extremidade - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(por exemplo: ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
-
-- Quando o trabalho for concluído, a solicitação do GET acima responderá com sucesso e mencionará se algum mapa falhou. Os mapas indexados com êxito podem ser confirmados nos logs do servidor.
-
-
->[!NOTE]
->
-> Se você estiver usando o esquema personalizado, defina o caminho dos arquivos DTD e XSD catalog.xml personalizados no repositório do AEM na opção **Integrar catálogos**.
-
-
-
-
-## Etapas para lidar com o conflito `'fmdita rewriter'`
-
-O Experience Manager Guides tem um módulo [**personalizado de reescrita do sling**](../cs-install-guide/conf-output-generation.md#custom-rewriter) para manipular os links gerados no caso de mapas cruzados (links entre os tópicos de dois mapas diferentes).
-
-Se você tiver outro reescritor sling personalizado em sua base de código, use um valor de `'order'` maior que 50, pois o reescritor Experience Manager Guides sling usa `'order'` 50.  Para substituir isso, é necessário um valor >50. Para obter mais detalhes, consulte [Pipelines de regravação de saída](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
-
-Durante esta atualização, como o valor de `'order'` é alterado de 1000 para 50, você precisa mesclar o reescritor personalizado existente, se houver, com `'fmdita-rewriter'`.
-
-
-## Atualizar para a versão 5.0.0
-
->[!TIP]
->
-> A atualização para a versão 5.0.0 depende da versão atual do Experience Manager Guides. Se você estiver usando a versão 4.6.3, 4.6.1, 4.6.0 ou 4.4, é possível atualizar diretamente para a versão 5.0.0.
-
->[!NOTE]
->
-> O pós-processamento e a indexação podem levar algumas horas. Recomendamos que você inicie o processo de atualização fora do horário de pico.
-
-**&#x200B;**&#x200B;Pré-requisitos&#x200B;**&#x200B;**
-
-Antes de iniciar o processo de atualização do Experience Manager Guides 5.0.0, verifique se você tem:
-
-1. Atualização para o Experience Manager Guides versão 4.6.3, 4.6.1, 4.6.0 ou 4.4 e completou sua respectiva etapa de instalação.
-1. (Opcional) Fechou todas as tarefas de tradução.
-1. Alterado o nível de log para **INFO** para `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` classe e anexe esses logs em uma nova arquivo de log, por exemplo `logs/translation_upgrade.log`.
-
-
-## Instalar a versão 5.0.0
-
-1. Baixe o pacote da versão 5.0.0 do [Portal de Distribuição de Software da Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html).
-1. Instale o pacote da versão 5.0.0.
-1. Você pode optar por ACESSAR o acionador para iniciar o trabalho de atualização do mapa de tradução. Para obter detalhes, consulte [Habilitar gatilho de script por meio de um Servlet](#enable-trigger-of-script-via-a-servlet).
-
-1. Após concluir a instalação do pacote, aguarde a seguinte mensagem\(s\) nos logs:
-
-   `Completed the post deployment setup script`
-
-   A mensagem acima indica que todas as etapas da instalação foram concluídas.
-
-   Caso encontre um dos seguintes prefixos ERROR, relate-os ao sucesso do cliente equipe:
-
-   - Erro em postagem script de configuração implantação
-   - Exceção ao portar o MAP de tradução
-   - Não foi possível porta mapa de tradução de v1 para v2 para propriedade
-1. Atualização do conector de oxigênio plug-in lançado com a versão 5.0.0 \(se necessário\).
-1. Limpe o cache do navegador após instalar o pacote.
-
-## Depois de instalar a versão 5.0.0
-
-Depois de instalar o Experience Manager Guides, você pode mesclar as várias configurações aplicáveis da versão recém-instalada à configuração.
-
->[!NOTE]
->
-> O modelo dam-update-asset pode ser personalizado. Portanto, se alguma personalização foi feita, então precisamos sincronizar as personalizações e Experience Manager Guias na cópia de trabalho do modelo.
-
-1. **DAM Atualizar ativo fluxo de Trabalho \(Post-processamento de alterações\):**
-
-1. Abrir URL:
-
-   ```
-   http://localhost:4502/libs/cq/workflow/admin/console/content/models.html 
-   ```
-
-1. Selecione **DAM atualizar fluxo de Trabalho** do ativo.
 1. Clique em **Editar**.
 1. Se o componente **Iniciador de Pós-Processamento DXML** estiver presente, verifique se as personalizações estão sincronizadas.
 1. Se o componente **Iniciador de Pós-Processamento DXML** estiver ausente, execute as seguintes etapas para inseri-lo:
@@ -1270,9 +1115,164 @@ Depois de instalar o Experience Manager Guides, você pode mesclar as várias co
 
 
 
-Execute as seguintes etapas para indexar as conteúdo existentes:
+Execute as seguintes etapas para indexar o conteúdo existente:
 
-- Execute uma solicitação POST para o servidor \(com autenticação correta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Opcional: você pode passar caminhos específicos dos mapas para indexá-los, por padrão todos os mapas serão indexados || Exemplo: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+- Execute uma solicitação POST no servidor \(com autenticação correta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Opcional: é possível passar caminhos específicos dos mapas para indexá-los; por padrão, todos os mapas serão indexados || Exemplo: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+
+- A API retornará um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação do GET com a ID do trabalho para o mesmo ponto de extremidade - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(por exemplo: ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
+
+- Quando o trabalho for concluído, a solicitação do GET acima responderá com sucesso e mencionará se algum mapa falhou. Os mapas indexados com êxito podem ser confirmados nos logs do servidor.
+
+
+>[!NOTE]
+>
+> Se você estiver usando o esquema personalizado, defina o caminho dos arquivos DTD e XSD catalog.xml personalizados no repositório do AEM na opção **Integrar catálogos**.
+
+
+
+
+## Etapas para lidar com o conflito `'fmdita rewriter'`
+
+O Experience Manager Guides tem um módulo [**personalizado de reescrita do sling**](../cs-install-guide/conf-output-generation.md#custom-rewriter) para manipular os links gerados no caso de mapas cruzados (links entre os tópicos de dois mapas diferentes).
+
+Se você tiver outro reescritor sling personalizado em sua base de código, use um valor de `'order'` maior que 50, pois o reescritor Experience Manager Guides sling usa `'order'` 50.  Para substituir isso, é necessário um valor >50. Para obter mais detalhes, consulte [Pipelines de regravação de saída](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
+
+Durante esta atualização, como o valor de `'order'` é alterado de 1000 para 50, você precisa mesclar o reescritor personalizado existente, se houver, com `'fmdita-rewriter'`.
+
+
+## Atualizar para a versão 5.0.0
+
+>[!TIP]
+>
+> A atualização para a versão 5.0.0 Service Pack 1 depende da versão atual do Experience Manager Guides. Se você estiver usando a versão 5.0.0, 4.6.4, 4.6.3, 4.6.1, 4.6.0 ou 4.4, é possível atualizar diretamente para a versão 5.0.0 Service Pack 1.
+
+>[!NOTE]
+>
+> O pós-processamento e a indexação podem levar algumas horas. Recomendamos que você inicie o processo de atualização fora do horário de pico.
+
+****Pré-requisitos****
+
+Antes de iniciar o processo de atualização do Experience Manager Guides 5.0.0, verifique se você tem:
+
+1. Atualizado para o Experience Manager Guides versão 4.6.3, 4.6.1, 4.6.0 ou 4.4 e concluído sua respectiva etapa de instalação.
+1. (Opcional) Todas as tarefas de tradução foram fechadas.
+1. Alterado o nível de log para **INFO** para a classe `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` e anexado esses logs em um novo arquivo de log, por exemplo, `logs/translation_upgrade.log`.
+
+
+## Instalar versão 5.0.0
+
+1. Baixe o pacote da versão 5.0.0 do [Portal de Distribuição de Software da Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html).
+1. Instale o pacote da versão 5.0.0.
+1. Você pode optar por ACESSAR o acionador para iniciar o trabalho de atualização do mapa de tradução. Para obter detalhes, consulte [Habilitar gatilho de script por meio de um Servlet](#enable-trigger-of-script-via-a-servlet).
+
+1. Após concluir a instalação do pacote, aguarde a seguinte mensagem\(s\) nos logs:
+
+   `Completed the post deployment setup script`
+
+   A mensagem acima indica que todas as etapas da instalação foram concluídas.
+
+   Caso encontre qualquer um dos seguintes prefixos de ERRO, relate-os à equipe de sucesso do cliente:
+
+   - Erro no script de configuração pós-implantação
+   - Exceção ao portar o MAP de tradução
+   - Não é possível portar o mapa de conversão de v1 para v2 para a propriedade
+1. Atualização do plug-in do conector Oxygen lançado com a versão 5.0.0 \(se necessário\).
+1. Limpe o cache do navegador após instalar o pacote.
+
+## Depois de instalar a versão 5.0.0
+
+Depois de instalar o Experience Manager Guides, você pode mesclar as várias configurações aplicáveis da versão recém-instalada à configuração.
+
+>[!NOTE]
+>
+> O modelo dam-update-asset pode ser personalizado. Se alguma personalização foi feita, precisamos sincronizar as personalizações e o Experience Manager Guides na cópia de trabalho do modelo.
+
+1. **Fluxo de trabalho do Ativo de atualização do DAM \(Alterações pós-processamento\):**
+
+1. Abrir URL:
+
+   ```
+   http://localhost:4502/libs/cq/workflow/admin/console/content/models.html 
+   ```
+
+1. Selecione **Fluxo de trabalho do Ativo de atualização do DAM**.
+1. Clique em **Editar**.
+1. Se o componente **Iniciador de Pós-Processamento DXML** estiver presente, verifique se as personalizações estão sincronizadas.
+1. Se o componente **Iniciador de Pós-Processamento DXML** estiver ausente, execute as seguintes etapas para inseri-lo:
+
+1. Clique em **Inserir componente** \(Responsável pelo pós-processamento do Experience Manager Guides como a etapa final do processo\).
+1. Configure a **Etapa do processo** com os detalhes abaixo:
+
+   **Guia comum**
+
+   **Título:** Iniciador de Pós-Processamento DXML
+
+   **Descrição**: etapa do iniciador do pós-processamento DXML que acionará um trabalho de sling para pós-processamento DXML do ativo modificado/criado
+
+   **Guia Processo**
+
+   - Selecione o **Iniciador de Pós-Processamento de DXML** na lista suspensa **Processo**
+
+   - Selecionar **Avanço do manipulador**
+
+   - Selecionar **Concluído**
+
+1. Clique em **Sincronizar** na parte superior direita depois de concluir as alterações. Você receberá uma notificação de sucesso.
+
+   >[!NOTE]
+   >
+   > Atualize e verifique se as alterações personalizadas e a etapa de pós-processamento do Experience Manager Guides estão presentes no modelo de fluxo de trabalho final.
+
+1. Depois que o **fluxo de trabalho do Ativo de atualização do DAM** for validado, verifique as configurações do iniciador correspondentes. Para fazer isso, acesse a interface do Fluxo de trabalho do AEM e abra iniciadores.
+
+   ```http
+   http://localhost:4502/libs/cq/workflow/content/console.html
+   ```
+
+   Localize e faça alterações \(se necessário\) nos dois inicializadores a seguir \(que devem estar ativos\) correspondentes ao **fluxo de trabalho do Ativo de atualização do DAM**:
+
+1. Iniciador para &quot;*Nó Criado*&quot; para **Fluxo de trabalho do Ativo de Atualização do DAM**- para a condição `"jcr:content/jcr:mimeType!=video"`, o valor de &#39;Globbing&#39; deve ser:
+
+   ```json
+   /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
+   ```
+
+   - &#39;excludeList&#39; deve ter `"event-user-data:changedByWorkflowProcess"`.
+   - Iniciador para &quot;*Nó Modificado*&quot; para **Fluxo de trabalho do Ativo de Atualização do DAM -** para a condição &quot;`jcr:content/jcr:mimeType!=video`&quot;, o valor &#39;Globbing&#39; deve ser:
+
+   ```json
+   /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
+   ```
+
+   - `excludeList` deve ter `"event-user-data:changedByWorkflowProcess"`.
+
+1. Quando a atualização for concluída, verifique se todas as personalizações/sobreposições estão validadas e atualizadas para corresponder ao novo código do aplicativo. Alguns exemplos são apresentados abaixo:
+   - Quaisquer componentes sobrepostos de/libs/fmditaor/libsdevem ser comparados com o novo código do produto e as atualizações devem ser feitas em arquivos sobrepostos em/apps.
+   - Todas as categorias de clientlib usadas do produto devem ser revisadas para alterações. Todas as configurações substituídas \(exemplos abaixo\) devem ser comparadas com as mais recentes para obter os recursos mais recentes:
+   - elementmapping.xml
+   - ui\_config.json\(pode ter sido definido em perfis de pasta\)
+   - emendado `com.adobe.fmdita.config.ConfigManager`
+
+1. Se você tiver adicionado personalizações em damAssetLucene, talvez seja necessário aplicá-las novamente. Depois de fazer essas alterações, defina reindex como true. Isso reindexará todos os nós existentes com as personalizações. Depois de concluído, o sinalizador de reindexação será definido como falso novamente. Isso pode levar algumas horas, dependendo do número de ativos no sistema.
+
+## Etapas para reindexar os índices do Experience Manager Guides
+
+1. Abra `crx/de` e navegue até o caminho do índice: `/oak:index/guidesAssetProperties`
+2. Defina a propriedade de reindexação como `true` (`false` por padrão) e clique em **Salvar tudo**.
+3. Quando a reindexação for concluída, a propriedade reindex será definida novamente como `false`, e a contagem de reindexação será incrementada em 1.
+
+   >[!NOTE]
+   >
+   > Isso pode levar alguns minutos, dependendo da quantidade de dados presentes.
+4. Siga as mesmas etapas para outros índices adicionados ou modificados: `guidesBulkActivation`, `guidesPeerLinkIndex` e `guidesKonnectTemplateIndex`.
+
+## Etapas para indexar o conteúdo existente
+
+
+
+Execute as seguintes etapas para indexar o conteúdo existente:
+
+- Execute uma solicitação POST no servidor \(com autenticação correta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Opcional: é possível passar caminhos específicos dos mapas para indexá-los; por padrão, todos os mapas serão indexados || Exemplo: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 - A API retornará um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação do GET com a ID do trabalho para o mesmo ponto de extremidade - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(por exemplo: ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
@@ -1298,7 +1298,7 @@ Durante esta atualização, como o valor de `'order'` é alterado de 1000 para 5
 
 ## Etapas para reindexar o damAssetLucene
 
-Index definição é atualizada para damAssetLucene com Guias. [Consulte este artigo](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-kcs/kbarticles/ka-16460) para reindexar o damAssetLucene após a atualização para a versão 5.0.0.
+A definição do índice é atualizada para damAssetLucene com Guias. Consulte [este artigo](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) para reindexar o damAssetLucene depois de atualizar para a versão 5.0.0.
 
 >[!NOTE]
 >
