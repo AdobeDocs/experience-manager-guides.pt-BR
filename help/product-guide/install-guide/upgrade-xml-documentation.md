@@ -62,7 +62,7 @@ Antes de executar o processo, há determinadas tarefas que você deve concluir. 
 
 
 
-****Pré-requisitos****
+**&#x200B;**&#x200B;Pré-requisitos&#x200B;**&#x200B;**
 
 Antes de iniciar o processo de atualização do Experience Manager Guides, verifique se você tem:
 
@@ -135,7 +135,7 @@ A atualização para a versão 4.2 depende da versão atual do Experience Manage
 
 Se você estiver usando a versão 4.0, 4.1 ou 4.1.x, é possível atualizar diretamente para a versão 4.2.
 
-****Pré-requisitos****
+**&#x200B;**&#x200B;Pré-requisitos&#x200B;**&#x200B;**
 
 Antes de iniciar o processo de atualização do Experience Manager Guides 4.2, verifique se você tem:
 
@@ -311,7 +311,7 @@ A atualização para a versão 4.2.1 depende da versão atual do Experience Mana
 >
 >O pós-processamento e a indexação podem levar algumas horas. Recomendamos que você inicie o processo de atualização fora do horário de pico.
 
-****Pré-requisitos****
+**&#x200B;**&#x200B;Pré-requisitos&#x200B;**&#x200B;**
 
 Antes de iniciar o processo de atualização do Experience Manager Guides 4.2.1, verifique se você tem:
 
@@ -488,7 +488,7 @@ A atualização para a versão 4.3.0 depende da versão atual do Experience Mana
 >
 >O pós-processamento e a indexação podem levar algumas horas. Recomendamos que você inicie o processo de atualização fora do horário de pico.
 
-****Pré-requisitos****
+**&#x200B;**&#x200B;Pré-requisitos&#x200B;**&#x200B;**
 
 Antes de iniciar o processo de atualização do Experience Manager Guides 4.3.0, verifique se você tem:
 
@@ -546,7 +546,7 @@ A atualização para a versão 4.3.1 depende da versão atual do Experience Mana
 >
 >O pós-processamento e a indexação podem levar algumas horas. Recomendamos que você inicie o processo de atualização fora do horário de pico.
 
-****Pré-requisitos****
+**&#x200B;**&#x200B;Pré-requisitos&#x200B;**&#x200B;**
 
 Antes de iniciar o processo de atualização do Experience Manager Guides 4.3.1, verifique se você tem:
 
@@ -787,7 +787,7 @@ A atualização para a versão 4.4.0 depende da versão atual do Experience Mana
 >
 >O pós-processamento e a indexação podem levar algumas horas. Recomendamos que você inicie o processo de atualização fora do horário de pico.
 
-****Pré-requisitos****
+**&#x200B;**&#x200B;Pré-requisitos&#x200B;**&#x200B;**
 
 Antes de iniciar o processo de atualização do Experience Manager Guides 4.4.0, verifique se você tem:
 
@@ -980,7 +980,7 @@ Se você tiver outro reescritor sling personalizado em sua base de código, use 
 Durante esta atualização, como o valor de `'order'` é alterado de 1000 para 50, você precisa mesclar o reescritor personalizado existente, se houver, com `'fmdita-rewriter'`.
 
 
-**Tópico pai:**[ Baixar e instalar](download-install.md)
+**Tópico pai:**&#x200B;[ Baixar e instalar](download-install.md)
 
 
 ## Atualizar para a versão 4.6.0
@@ -995,7 +995,7 @@ A atualização para a versão 4.6.0 depende da versão atual do Experience Mana
 >
 > O pós-processamento e a indexação podem levar algumas horas. Recomendamos que você inicie o processo de atualização fora do horário de pico.
 
-****Pré-requisitos****
+**&#x200B;**&#x200B;Pré-requisitos&#x200B;**&#x200B;**
 
 Antes de iniciar o processo de atualização do Experience Manager Guides 4.6.0, verifique se você tem:
 
@@ -1150,7 +1150,7 @@ Durante esta atualização, como o valor de `'order'` é alterado de 1000 para 5
 >
 > O pós-processamento e a indexação podem levar algumas horas. Recomendamos que você inicie o processo de atualização fora do horário de pico.
 
-****Pré-requisitos****
+**&#x200B;**&#x200B;Pré-requisitos&#x200B;**&#x200B;**
 
 Antes de iniciar o processo de atualização do Experience Manager Guides 5.0.0, verifique se você tem:
 
