@@ -2,9 +2,9 @@
 title: Notas de versão | Correção de problemas na versão 2025.06.0 do Adobe Experience Manager Guides
 description: Saiba mais sobre as correções de erros na versão 2025.06.0 do Adobe Experience Manager Guides as a Cloud Service.
 exl-id: 0f362ab3-0fae-4eba-bbd6-0b64ae1f2599
-source-git-commit: 83be0a1e051bfc524ff2448397d87349f30b4301
+source-git-commit: c137f18d3cb85ed47547d5523c4dea08c22f9560
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
@@ -50,6 +50,6 @@ A Adobe identificou o seguinte problema conhecido para a versão 2025.06.0:
 
 - Ao abrir um mapa DITA com o Unified Shell ativado, o editor é atualizado intermitentemente. (GUIDES-26919)
 
-- Em um perfil de pasta, quando um ativo já indexado é excluído da interface do usuário, o caminho indexado correspondente não é removido e uma tentativa de reindexação falha com uma mensagem de erro. (GUIDES-29147) <br>**Solução alternativa:** Remova o caminho obsoleto que não existe mais antes de iniciar a reindexação.
+- Para configuração de IA no perfil da pasta, quando um ativo já indexado é excluído da interface do, o caminho indexado correspondente não é removido e uma tentativa de reindexação falha com uma mensagem de erro. (GUIDES-29147) <br>**Solução alternativa:** Remova o caminho obsoleto que não existe mais antes de iniciar a reindexação.
 
-- Se um mapa contiver dependências cíclicas e você abrir a Visualização de mapa, as visualizações Source, Autor e Layout ficarão inacessíveis até que a página seja atualizada. (GUIDES-28334) <br>**Solução alternativa:** atualize a página para restaurar o acesso a essas exibições.
+- Se um mapa contiver dependências cíclicas e você abrir a Visualização de mapa - as visualizações Source, Autor e Layout ficarão inacessíveis até que o navegador seja atualizado. (GUIDES-28334) <br>**Solução alternativa:** atualize o navegador para restaurar o acesso a esses modos de exibição.
