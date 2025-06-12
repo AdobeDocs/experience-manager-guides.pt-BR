@@ -2,9 +2,10 @@
 title: Notas de versão | Novidades da versão 2025.06.0 do Adobe Experience Manager Guides
 description: Saiba mais sobre os recursos novos e aprimorados da versão 2025.06.0 do Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 147bd8cce875178f94dae5742bc6573b51f24d3a
+exl-id: 48f27aa6-d870-4228-8e62-db81699a25f7
+source-git-commit: 158c2a99ac43fd70726bedf30f4de1a970a48864
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
@@ -47,3 +48,13 @@ Para obter mais detalhes, consulte [Baixar arquivos](../user-guide/authoring-dow
 Os últimos aprimoramentos do Editor melhoram a manipulação de elementos `navref` em um mapa DITA. Agora, quando você adiciona um elemento `navref` a um mapa, a caixa de diálogo **Selecionar caminho** é aberta, permitindo que você escolha facilmente as referências de mapa a serem incluídas como links de navegação em seu mapa. Depois de adicionado, o título do mapa adicionado é exibido na exibição Autor e Layout, fornecendo melhor visibilidade da navegação incluída durante a criação.  Além disso, o elemento `navref` adicionado é resolvido automaticamente para exibir o mapa referido no Editor.
 
 Para obter mais detalhes, consulte [Adicionar referências de navegação](../user-guide/map-editor-other-features.md#add-navigation-references).
+
+## Aprimoramentos de desempenho no Assistente de IA
+
+A versão apresenta aprimoramentos ao mecanismo de back-end do Assistente de IA, oferecendo melhor desempenho e maior estabilidade. Para habilitar esta atualização e continuar usando a Ajuda do Assistente de IA:
+
+- Atualize a configuração `chat.url` para refletir a nova URL do ponto de extremidade.
+- Adicione uma nova variável de ambiente `GUIDES_AI_SITE_ID` no Cloud Manager.
+
+Para obter detalhes, consulte [Configurar o Assistente de IA](../cs-install-guide/conf-smart-suggestions.md).
+
