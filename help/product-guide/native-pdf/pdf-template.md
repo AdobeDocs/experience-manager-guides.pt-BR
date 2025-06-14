@@ -93,7 +93,7 @@ Selecione essa opção para exibir o modelo na interface do usuário do Assets. 
 
 Depois de criar o modelo personalizado, você pode escolhê-lo nos Layouts de página na predefinição de saída PDF.
 
-Saiba como [publicar uma saída de PDF](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=en).
+Saiba como [publicar uma saída de PDF](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=pt-BR).
 
 >[!NOTE]
 >

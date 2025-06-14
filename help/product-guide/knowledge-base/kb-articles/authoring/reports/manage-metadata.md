@@ -57,8 +57,8 @@ Também é possível remover tags existentes que são comuns em arquivos selecio
 
 ## Outros recursos úteis
 
-- [Marcação em Massa usando o Painel do Mapa (Interface do Usuário do Assets)](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/manaege-metadata/map-editor-bulk-tagging.html?lang=en)
-- [Relatórios de Ditamap no editor da Web](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/reports-aem-guide/reports-web-editor.html?lang=en)
+- [Marcação em Massa usando o Painel do Mapa (Interface do Usuário do Assets)](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/manaege-metadata/map-editor-bulk-tagging.html?lang=pt-BR)
+- [Relatórios de Ditamap no editor da Web](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/reports-aem-guide/reports-web-editor.html?lang=pt-BR)
 - [Marcação com AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/configuring/tagging.html?lang=pt-BR)
 
 

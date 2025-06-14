@@ -22,7 +22,7 @@ Em um nível superior, abaixo estão as etapas que você aprenderá neste artigo
 ## Fundo
 
 Com o AEM Guides, você pode usar plug-ins DITA-OT para publicar em formatos de saída de sua escolha usando os plug-ins configurados e
-você também pode passar metadados dos ativos gerenciados no DAM AEM para o processo DITA-OT para usá-los na saída gerada. consulte a documentação sobre [como configurar ditamap/tópicos para passar metadados pela predefinição de saída](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/pass-metadata-dita-ot)
+você também pode passar metadados dos ativos gerenciados no DAM AEM para o processo DITA-OT para usá-los na saída gerada. consulte a documentação sobre [como configurar ditamap/tópicos para passar metadados pela predefinição de saída](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using/user-guide/output-gen/pass-metadata-dita-ot)
 
 
 ## Suposições
