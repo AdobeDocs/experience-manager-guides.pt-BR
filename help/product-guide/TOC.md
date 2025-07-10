@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leia a documentação do produto do Adobe Experience Manager Guides.
 breadcrumb-title: Documentação do AEM Guides
-source-git-commit: 5a458fb644e435e418bef1a7e5b79a0ed280a80b
+source-git-commit: 0cbeef94aa1c2300feae33ad3bc53bef82ebec47
 workflow-type: tm+mt
-source-wordcount: '2130'
+source-wordcount: '2139'
 ht-degree: 8%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 8%
       - Cloud Services {#cloud-release-notes}
          - [Instruções de implantação](./release-info/deploy-xml-on-aemaacs.md)
          - Versões de 2025 {#2025-releases}
+            - Versão 2025.07.0 {#2507-release}
+               - [Novidades](./release-info/whats-new-2025-07-0.md)
+               - [Problemas corrigidos](./release-info/fixed-issues-2025-07-0.md)
+               - [Instruções de atualização](./release-info/upgrade-instructions-2025-07-0.md)
             - Versão 2025.06.0 {#2506-release}
                - [Novidades](./release-info/whats-new-2025-06-0.md)
                - [Problemas corrigidos](./release-info/fixed-issues-2025-06-0.md)
@@ -136,8 +140,8 @@ ht-degree: 8%
                - [Notas de versão 4.2.1](./release-info/release-notes-4-2-1.md)
                - [Notas de versão 4.2](./release-info/release-notes-4-2.md)
          - [Notas de versão 4.1.x](./release-info/release-notes-4-1.md)
-         - [Notas de versão do 4.0.x](https://helpx.adobe.com/br/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [Notas de versão da 3.8.x](https://helpx.adobe.com/br/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [Notas de versão do 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [Notas de versão da 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Guia do usuário (nova interface do usuário) {#user-guide}
    - Introdução {#about-aemg}
       - [Sobre [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -147,7 +151,7 @@ ht-degree: 8%
    - Home page {#home-page}
       - [Experiência da página inicial [!DNL AEM Guides]](./user-guide/intro-home-page.md)
    - Conteúdo do autor {#author-content}
-      - [Visão geral de criação](./user-guide/authoring-content.md)
+      - [Visão geral da criação](./user-guide/authoring-content.md)
       - [Maneiras de criar conteúdo usando o AEM Guides](./user-guide/authoring-content-xml-doc.md)
       - Editor {#work-with-editor}
          - [Introdução ao editor](./user-guide/web-editor.md)
@@ -287,7 +291,7 @@ ht-degree: 8%
       - Resolução de problemas {#troubleshooting}
          - [Tempo limite da sessão](./user-guide/session-timeout-prompt.md)
 - Guia do usuário (interface antiga) {#user-guide-old-ui}
-   - [visão geral do AEM Guides](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [visão geral do AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Instalação e configuração {#install-guide}
    - No local {#on-prem-ig}
       - [Noções básicas no local](./install-guide/introduction.md)
@@ -458,6 +462,7 @@ ht-degree: 8%
       - Trabalhar com pesquisa no AEM Assets {#aem-asset-search-cs}
          - [Configurar pesquisa para a interface do usuário do AEM Assets](./cs-install-guide/conf-dita-search.md)
       - [Apêndice](./cs-install-guide/appendix.md)
+
 - Referência da API  {#api-reference}
    - [Introdução](./api-reference/introduction.md)
    - [REST APIs para gerenciamento de saída](./api-reference/output-management.md)
@@ -497,7 +502,7 @@ ht-degree: 8%
       - [Publicação mais inteligente do PDF com PDF nativo](./knowledge-base//expert-sessions/smarter-pdf-publishing-with-native-pdf.md)
       - [Novos recursos de UX e IA no AEM Guides](./knowledge-base/expert-sessions/new-ux-and-ai-capabilities.md)
    - Artigos {#kb-articles}
-      - Criação   {#authoring}
+      - Criação {#authoring}
          - Editor da Web {#webeditor}
             - [Reutilização de conteúdo no AEM Guides](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
             - [Usar Markdown no AEM Guides](./knowledge-base/kb-articles/authoring/webeditor/markdown-in-dita-and-aem-guides.md)

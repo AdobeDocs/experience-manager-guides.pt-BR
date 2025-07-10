@@ -4,9 +4,9 @@ description: Saiba como a geração de saída incremental para o AEM Sites funci
 exl-id: 019d9fbf-2f23-4669-8022-d693be75c1c3
 feature: Publishing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 05d3246bd8b1e1b1d870b494aa09f6acff8a0f1d
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '662'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,7 @@ Se o mapa estiver fragmentado e você tiver atualizado um único tópico nesse m
 
 Execute as seguintes etapas para gerar novamente a saída de um tópico específico ou de um grupo de tópicos:
 
->[!IMPORTANT]
->
-> Ao regenerar a saída do AEM Sites, a saída é criada usando a versão atual dos arquivos e não a Linha de base anexada.
-
-## Gerar saída incremental a partir do console do Mapa
+## Gerar saída incremental a partir do console de Mapa (para sites do AEM usando o mapeamento de componente composto)
 
 Execute as seguintes etapas para gerar saída incremental para o AEM Sites usando o console de Mapa:
 
@@ -36,19 +32,26 @@ Execute as seguintes etapas para gerar saída incremental para o AEM Sites usand
 1. Selecione a predefinição do AEM Sites para a qual deseja gerar saída incremental.
 1. Na guia **Tópicos**, selecione os tópicos que deseja publicar.
 
-   ![lista de tópicos do aem sites](images/aem-presets-topic-list.png) {align="left"}
+   - Sem linha de base
+
+     ![lista de tópicos do aem sites](images/aem-presets-topic-list.png) {align="left"}
+
+   - Com linha de base
+
+     ![lista de tópicos do aem sites com linha de base](images/aem-presets-topic-list-new.png) {align="left"}
 
    >[!NOTE]
    >
    > Quando uma Linha de Base é selecionada na guia **Conteúdo**, a lista de Tópicos exibe os tópicos e suas versões da Linha de Base anexada.<br><br>
    > A publicação incremental da lista de Tópicos deve ser usada somente quando não houver alteração na estrutura do mapa. Se houver uma alteração na estrutura do mapa/índice, o mapa inteiro deverá ser publicado uma vez para atualizar o índice.
+
 1. Selecione **Salvar** para salvar as alterações.
 1. Selecione **Gerar saída** para gerar a saída.
 
 
-## Gerar saída incremental a partir do painel de Mapa
+## Gerar saída incremental no painel Mapa (para sites do AEM usando o mapeamento de componente herdado)
 
-Execute as seguintes etapas para gerar saída incremental para o AEM Sites usando o painel Mapa:
+Execute as seguintes etapas para gerar saída incremental para o AEM Sites usando o painel de mapa:
 
 1. Na interface do usuário do Assets, navegue até o arquivo de mapa DITA e selecione-o.
 
@@ -71,6 +74,9 @@ Execute as seguintes etapas para gerar saída incremental para o AEM Sites usand
    A página **Gerar novamente os tópicos selecionados** é exibida.
 
 1. Selecione a predefinição de saída que deseja usar para gerar novamente os tópicos selecionados.
+
+   Para a predefinição de saída do AEM Sites usando o mapeamento de componente herdado, se uma linha de base for selecionada, as versões de tópico incluídas na linha de base selecionada serão usadas para a geração de saída. Além disso, a publicação incremental da lista de Tópicos deve ser usada somente quando não houver alterações na estrutura do mapa. Se houver uma alteração na estrutura do mapa/índice, o mapa inteiro deverá ser publicado uma vez para atualizar o índice. Para obter detalhes sobre como usar a predefinição de site do AEM, exiba [predefinições do AEM Sites no painel do mapa](./generate-output-aem-site-map-dashboard.md).
+
 
 1. Selecione **Regenerar** para iniciar o processo de geração de saída.
 

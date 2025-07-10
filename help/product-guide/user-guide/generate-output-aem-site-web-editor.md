@@ -4,9 +4,9 @@ description: Crie e configure a predefinição do AEM Sites no console do Mapa u
 feature: Publishing
 role: User
 exl-id: f3657268-9dee-43af-b643-499dbc3ca948
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 8f2658bd3a724ff375d6d1a9b4474a5cdd8ce270
 workflow-type: tm+mt
-source-wordcount: '3533'
+source-wordcount: '3534'
 ht-degree: 0%
 
 ---
@@ -97,8 +97,8 @@ A guia **Geral** contém as seguintes opções de configuração:
 | Opções do AEM Sites | Descrição |
 | --- | --- |
 | Usar caminho do site | Use essa opção para publicar seu conteúdo em um site do Experience Manager. |
-| Caminho do site | **Esta opção aparecerá se você selecionar a opção** Usar caminho do site **&#x200B;**. Procure o caminho predefinido do site do Experience Manager ou especifique um caminho personalizado no qual deseja que a saída seja publicada. A opção **Usar sites** permite especificar o caminho de publicação inteiro mesmo que o caminho especificado não tenha sido pré-criado dentro da estrutura do AEM Sites. Nesses casos, o sistema cria a estrutura necessária durante o processo de publicação usando o modelo de página inicial do mapa selecionado. |
-| Mapear modelo de página | **Esta opção aparecerá se você selecionar a opção** Usar caminho do site **&#x200B;**. Selecione um modelo que deseja aplicar às páginas iniciais do mapa. |
+| Caminho do site | **Esta opção aparecerá se você selecionar a opção** Usar caminho do site ****. Procure o caminho predefinido do site do Experience Manager ou especifique um caminho personalizado no qual deseja que a saída seja publicada. A opção **Usar sites** permite especificar o caminho de publicação inteiro mesmo que o caminho especificado não tenha sido pré-criado dentro da estrutura do AEM Sites. Nesses casos, o sistema cria a estrutura necessária durante o processo de publicação usando o modelo de página inicial do mapa selecionado. |
+| Mapear modelo de página | **Esta opção aparecerá se você selecionar a opção** Usar caminho do site ****. Selecione um modelo que deseja aplicar às páginas iniciais do mapa. |
 | Site | Nome da Experience Manager Sites na qual você deseja publicar seu conteúdo. As opções na lista suspensa são preenchidas com base na lista de sites disponíveis no AEM Sites. <br>Selecione **Atualizar** ![ícone de atualização](images/navtitle-refresh-icon.svg) para obter uma nova lista de opções e refletir os dados atualizados. |
 | Caminho de publicação | O caminho no repositório do AEM onde a saída é armazenada. O Caminho de publicação é preenchido com todos os caminhos que contêm páginas criadas com base no modelo da Página inicial. A saída do AEM Sites do mapa DITA é gerada nesse caminho.  Por exemplo, se você especificar o Site como `AEMG-Docs` e o Caminho de Publicação como `aemg-docs-en/docs/product-abc.`, a saída do AEM Sites será gerada sob o nó `aemg-docs-en/docs/product-abc/` em `crx/de`. |
 | Modelo de página de tópico | Selecione o template que deseja aplicar a todos os tópicos de saída. |
@@ -131,7 +131,7 @@ A guia **Lista de tópicos** exibe a lista de tópicos presentes na cópia de tr
 
 **Referências entre mapas**
 
-Esta lista contém tópicos que contêm referências entre mapas com `scope =”peer”`. Você pode especificar o contexto de publicação para uma lista de referências de mapa cruzado com `scope=”peer”` para tópicos disponíveis em outros mapas DITA. Essa guia será exibida se você usar a versão do Experience Manager Guides (UUID).
+Esta lista contém tópicos que contêm referências entre mapas com `scope ="peer"`. Você pode especificar o contexto de publicação para uma lista de referências de mapa cruzado com `scope="peer"` para tópicos disponíveis em outros mapas DITA. Essa guia será exibida se você usar a versão do Experience Manager Guides (UUID).
 
 Para obter mais detalhes, consulte a seção [Trabalhando com tópicos vinculados](#working-with-linked-topics) abaixo.
 
@@ -171,18 +171,20 @@ A guia **Geral** contém as seguintes opções de configuração:
 
 **Conteúdo**
 
+![Novo(a) ](images/aem-sites-content-tab.png){width="650" align="left"}
+
 A guia **Conteúdo** contém as seguintes opções de configuração:
 
 | Opções do AEM Sites | Descrição |
 | --- | --- |
-| Usar Linha de Base | Se tiver criado uma Linha de Base para o mapa DITA selecionado, selecione essa opção para especificar a versão que deseja publicar.<br><br>Exibir [Trabalhar com a Linha de Base](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) para obter mais detalhes. |
+| Usar Linha de Base | Se tiver criado uma Linha de Base para o mapa DITA selecionado, selecione essa opção para especificar a versão que deseja publicar.<br><br>Exibir [Trabalhar com a Linha de Base](./web-editor-baseline.md) para obter mais detalhes. |
 | Filtragem condicional | Selecione uma das seguintes opções:<br><br>**None**: selecione essa opção se não quiser aplicar nenhuma condição à saída publicada.<br>**Usando DITAVAL**: selecione o(s) arquivo(s) DITAVal para gerar conteúdo condicional. Você pode selecionar vários arquivos DITAVal usando a caixa de diálogo Procurar ou digitando o caminho do arquivo. Use o ícone de cruz próximo ao nome do arquivo para removê-lo. Os arquivos DITAVal são avaliados na ordem especificada, de modo que as condições especificadas no primeiro arquivo têm precedência sobre as condições correspondentes especificadas em arquivos posteriores. É possível manter a ordem dos arquivos adicionando ou excluindo arquivos. Se o arquivo DITAVal for movido para algum outro local ou excluído, ele não será excluído automaticamente do painel de mapa. Você precisa atualizar o local caso os arquivos sejam movidos ou excluídos. Você pode passar o mouse sobre o nome do arquivo para visualizar o caminho no repositório do AEM onde o arquivo está armazenado. Você só pode selecionar arquivos DITAVal e um erro será exibido se você selecionar qualquer outro tipo de arquivo.<br>**Predefinição de condição**: selecione uma predefinição de condição no menu suspenso para aplicar uma condição ao publicar a saída. Essa opção estará visível se você tiver adicionado uma condição para o arquivo de mapa DITA. As configurações condicionais estão disponíveis na guia Predefinições de condição do console do mapa DITA. Para saber mais sobre a predefinição de condição, exiba [Usar predefinições de condição](generate-output-use-condition-presets.md#id1825FL004PN). |
 | Metadados <br> Propriedades de <br>Arquivo (Assets) | Selecione as propriedades que deseja processar como metadados. Essas propriedades são definidas na página Propriedades do mapa DITA ou do arquivo de mapa. As propriedades selecionadas na lista suspensa aparecem no campo **Propriedades do arquivo**. Selecione o ícone cruzado ao lado da propriedade para removê-la. <br><br>**Observação**: as propriedades de metadados diferenciam maiúsculas de minúsculas.<br><br>*Se você tiver selecionado uma Linha de Base, os valores das propriedades serão baseados na versão da Linha de Base selecionada.<br>* Se você não tiver selecionado uma Linha de Base, os valores das propriedades serão baseados na versão mais recente.<br><br>Você também pode passar os metadados para a saída usando a publicação DITA-OT. Para obter mais detalhes, [Passe os metadados para a saída usando DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA).<br><br>**Observação**: se você não tiver definido a `cq:tags` na opção Propriedades, os valores de `cq:tags` serão escolhidos na cópia de trabalho atual, mesmo que você tenha selecionado uma Linha de Base para publicação. |
 | Metadados <br> <br>Usar propriedades do mapa como fallback | Se essa opção for selecionada, as propriedades definidas para o arquivo de mapa também serão copiadas para os tópicos em que essas propriedades não estão definidas. Considere os seguintes pontos ao usar esta opção:<br><br>*Somente as propriedades String, Date ou Long (único e de vários valores) podem ser passadas para as páginas do site do AEM.<br>* Os valores de metadados de uma propriedade do tipo Cadeia de Caracteres não dão suporte a caracteres especiais (como `@, #, " "`).<br>* Esta opção deve ser usada com a opção `Properties`. |
 
 **Referências entre mapas**
 
-Esta lista contém tópicos que contêm referências entre mapas com `scope =”peer”`. Você pode especificar o contexto de publicação para uma lista de referências de mapa cruzado com `scope=”peer”` para tópicos disponíveis em outros mapas DITA. Essa guia será exibida se você usar a versão do Experience Manager Guides (UUID).
+Esta lista contém tópicos que contêm referências entre mapas com `scope ="peer"`. Você pode especificar o contexto de publicação para uma lista de referências de mapa cruzado com `scope="peer"` para tópicos disponíveis em outros mapas DITA. Essa guia será exibida se você usar a versão do Experience Manager Guides (UUID).
 
 Para obter mais detalhes, consulte a seção [Trabalhando com tópicos vinculados](#working-with-linked-topics) abaixo.
 
@@ -208,7 +210,7 @@ Execute as seguintes etapas para especificar o contexto de publicação para arq
 
    >[!NOTE]
    >
-   >A guia **Referências de mapa cruzado** mostra tópicos que estão vinculados usando somente o `scope=”peer”`. Para links com `scope=”local”`, não é necessário especificar o contexto de publicação.
+   >A guia **Referências de mapa cruzado** mostra tópicos que estão vinculados usando somente o `scope="peer"`. Para links com `scope="local"`, não é necessário especificar o contexto de publicação.
 
    Todos os tópicos vinculados têm sua predefinição de saída e mapa mais recentes selecionados por padrão. O contexto de publicação para todos os tópicos vinculados está definido como `<Most recently generated>` mapear por padrão.
 
@@ -217,8 +219,8 @@ Execute as seguintes etapas para especificar o contexto de publicação para arq
 1. Se quiser usar a saída publicada mais recentemente de cada arquivo dependente no mapa, selecione **Usar contexto de publicação gerado mais recentemente** para todos os tópicos dependentes.
 Você deve publicar o mapa selecionado como o mapa principal antes de publicar o mapa contendo tópicos vinculados. Se o mapa com tópicos vinculados não for publicado, os links serão exibidos como texto normal em vez de hiperlinks na saída do AEM Sites.
 Você deve selecionar o mesmo tipo de predefinição do AEM Sites para o tópico vinculado. Por exemplo, se a predefinição atual do AEM Sites usar o mapeamento de componente herdado, selecione uma predefinição AEM Sites semelhante do tópico vinculado.
-1. Na lista suspensa Mapa pai, selecione o arquivo de mapa com cuja saída você deseja vincular a saída do mapa atual.
-Selecionar um arquivo de mapa mostra a UUID do mapa na coluna UUID do mapa principal. As Predefinições de saída associadas ao mapa escolhido são listadas na lista Predefinição do Mapa pai. Por exemplo, o Tópico 1 no Mapa A contém uma referência ao Tópico 2. O tópico 2 pode estar presente em mapas únicos ou múltiplos. Você pode selecionar o mapa principal e uma predefinição específica ou a saída publicada mais recentemente para cada link.
+1. Na lista suspensa Mapa Pai, selecione o arquivo de mapa com cuja saída você deseja vincular a saída do mapa atual.
+Selecionar um arquivo de mapa mostra a UUID do mapa na coluna UUID do Mapa Pai. As Predefinições de saída associadas ao mapa escolhido são listadas na lista Predefinição do Mapa pai. Por exemplo, o Tópico 1 no Mapa A contém uma referência ao Tópico 2. O tópico 2 pode estar presente em mapas únicos ou múltiplos. Você pode selecionar o mapa principal e uma predefinição específica ou a saída publicada mais recentemente para cada link.
 
 1. Se o mesmo tópico for referido mais de uma vez em um arquivo, será possível adicionar um contexto de publicação diferente para cada instância. Isso proporciona maior flexibilidade e controle sobre o conteúdo. Por exemplo, o Tópico 3 está presente no Mapa B e no Mapa C. O Tópico 1 contém duas referências ao Tópico 3. Você pode escolher o Mapa B como o mapa principal do primeiro link e o Mapa C como principal do segundo link.
 
