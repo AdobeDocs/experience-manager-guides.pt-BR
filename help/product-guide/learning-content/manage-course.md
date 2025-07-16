@@ -3,7 +3,8 @@ title: Gerenciar um curso no conteúdo de aprendizado e treinamento
 description: Saiba mais sobre os vários recursos presentes no Experience Manager Guides que permitem gerenciar seu curso com eficiência.
 feature: Authoring
 role: User
-source-git-commit: 5f42540a32da6e85a5c8aa0831582ce871c9088a
+exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
+source-git-commit: 57ddd498cd06d7d8cb511b0c3108591280a35bdb
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 0%
@@ -26,7 +27,7 @@ Execute as seguintes etapas para adicionar novo conteúdo ao curso:
    - **Resumo do aprendizado**: uma revisão rápida no final de um capítulo do curso que lembra aos alunos os pontos-chave que eles acabaram de aprender.
    - **Questionário**: um conjunto de perguntas usado para verificar se alguém entende o que aprendeu. Para obter mais detalhes, consulte [Criar e gerenciar questionário](./create-quiz.md).
    - **Banco de perguntas**: um pool compartilhado de perguntas reutilizáveis que podem ser usadas para criar testes de forma rápida e consistente. Para obter mais detalhes, consulte [Banco de perguntas](./create-qb.md).
-   - **Grupo de aprendizado**: um Grupo de aprendizado ajuda a organizar conteúdo de aprendizado relacionado, como capítulos, tópicos e outros módulos em uma ordem lógica, criando uma hierarquia clara que facilita o gerenciamento e a reutilização de materiais de treinamento.
+   - **Grupo de aprendizado**: um grupo de aprendizado ajuda a organizar conteúdo de aprendizado relacionado, como capítulos, tópicos e outros módulos em uma ordem lógica, criando uma hierarquia clara que facilita o gerenciamento e a reutilização de materiais de treinamento.
 3. Selecione **Criar**.
 O conteúdo selecionado é criado e adicionado ao curso.
 
@@ -36,24 +37,24 @@ Você pode adicionar conteúdo existente do seu repositório de conteúdo ao cur
 
 1. Selecione o menu **Opções** > **Adicionar existente**.
 2. Selecione o tipo de conteúdo do curso que deseja criar.
-3. Na caixa de diálogo Selecionar caminho, navegue até o local do conteúdo e selecione o conteúdo de aprendizado desejado.
+3. Na caixa de diálogo **Selecionar caminho**, navegue até o local do conteúdo e selecione o conteúdo de Aprendizado desejado.
 
    ![](assets/add-existing-learning-content.png)
 4. Escolha **Selecionar**.
 
-O conteúdo de aprendizado selecionado é adicionado ao curso a partir do repositório.
+O conteúdo selecionado do curso é adicionado ao curso a partir do repositório.
 
 ## Remover conteúdo
 
 Você pode remover qualquer tópico do curso selecionando o menu **Opções** para esse tópico específico e selecionando **Remover** conforme mostrado abaixo.
 
-![](assets/remove-learning-content.png){width="350" align="left"}
+![](assets/remove-learning-content.png)
 
 ## Criar versões do curso
 
 Você pode controlar o controle de versão do seu curso selecionando o menu **Opções** > **Controle de Versão**.
 
-![](assets/course-versioning.png){width="650" align="left"}
+![](assets/course-versioning.png)
 
 Você tem as seguintes opções para o controle de versão de um curso:
 
@@ -70,7 +71,3 @@ A opção **Mostrar** determina como os tópicos são exibidos. Você pode optar
 > Essas configurações de visualização se aplicam somente ao Gerenciador de cursos e não têm impacto na saída publicada.
 
 ![](assets/course-display-settings.png)
-
-
-
-

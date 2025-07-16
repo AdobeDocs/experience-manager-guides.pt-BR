@@ -3,7 +3,8 @@ title: Criar conteúdo de aprendizado
 description: Fala sobre a criação de um conteúdo de aprendizado no conteúdo de aprendizado e treinamento.
 feature: Authoring
 role: User
-source-git-commit: 110082f38f170d277dfd745a4fce77ad030707c3
+exl-id: a08a165d-801b-4b35-9626-b27471349327
+source-git-commit: 57ddd498cd06d7d8cb511b0c3108591280a35bdb
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 2%
@@ -19,7 +20,7 @@ Execute as seguintes etapas para adicionar conteúdo de aprendizado a um curso:
    ![](assets/workflow-learning-content.png){width="650" align="left"}
 
 1. Selecione **Conteúdo de aprendizado**.
-A caixa de diálogo Novo conteúdo de aprendizagem é exibida.
+A caixa de diálogo **Novo conteúdo de aprendizado** é exibida.
 
    ![](assets/learning-content-dialog.png){width="350" align="left"}
 
@@ -35,4 +36,3 @@ O conteúdo do aprendizado é criado dentro do curso e aparece no painel Gerenci
 >[!NOTE]
 >
 > Depois de criar um novo conteúdo de aprendizado, ele recebe automaticamente a Versão 1.0.
-

@@ -3,7 +3,8 @@ title: Criar predefinição do PDF
 description: Criar uma predefinição do PDF no conteúdo de aprendizado e treinamento
 feature: Authoring
 role: User
-source-git-commit: 4b581043d2577545b69773d33869dcd873a2ea3b
+exl-id: c353cee7-eee1-4e6d-92b4-73016cb8cfa3
+source-git-commit: 57ddd498cd06d7d8cb511b0c3108591280a35bdb
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 0%
@@ -18,7 +19,7 @@ Execute as seguintes etapas para criar uma predefinição de saída do PDF:
 
    ![](assets/open-in-map-console.png){width="350" align="left"}
 
-1. Na guia **Predefinições de saída**, selecione o ícone + para criar uma predefinição de saída.
+1. No painel **Predefinições de saída**, selecione o ícone + para criar uma predefinição de saída.
 1. Selecione **PDF** na lista suspensa **Tipo** na caixa de diálogo Nova predefinição de saída.
 1. No campo **Nome**, forneça um nome para esta predefinição.
 1. No campo **Gerar PDF Usando**, selecione **PDF Nativo**.
@@ -28,5 +29,3 @@ Execute as seguintes etapas para criar uma predefinição de saída do PDF:
 A página de predefinição do PDF é aberta, onde você pode fazer as configurações necessárias.
 
 ![](assets/learning-pdf-preset.png){width="650" align="left"}
-
-

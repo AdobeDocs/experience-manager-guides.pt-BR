@@ -3,9 +3,10 @@ title: Criar predefinição de SCORM
 description: Saiba como criar uma predefinição de SCORM no conteúdo de aprendizado e treinamento
 feature: Authoring
 role: User
-source-git-commit: 4b581043d2577545b69773d33869dcd873a2ea3b
+exl-id: 4a433b9d-594d-42b5-8c59-f246eda7e631
+source-git-commit: 57ddd498cd06d7d8cb511b0c3108591280a35bdb
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
@@ -18,15 +19,15 @@ Execute as seguintes etapas para criar uma predefinição de saída SCORM:
 
    ![](assets/open-in-map-console.png){width="350" align="left"}
 
-1. Na guia **Predefinições de saída**, selecione o ícone + para criar uma predefinição de saída.
+1. No painel **Predefinições de saída**, selecione o ícone + para criar uma predefinição de saída.
 1. Selecione **SCORM** na lista suspensa **Tipo** na caixa de diálogo **Nova predefinição de saída**.
 
    ![](assets/scorm-preset.png){width="350" align="left"}
 
 1. No campo **Nome**, forneça um nome para esta predefinição.
+1. Selecione a opção **Adicionar ao perfil de pasta atual** para criar uma predefinição de saída no perfil de pasta atual.
 1. Selecione **Adicionar**.
+
 A predefinição SCORM é criada. Uma página de predefinição SCORM é aberta, onde você pode fazer as configurações necessárias.
 
-   ![](assets/scorm-output-preset.png){width="800" align="left"}
-
-
+![](assets/scorm-output-preset.png){width="800" align="left"}
