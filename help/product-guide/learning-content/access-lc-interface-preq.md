@@ -3,7 +3,7 @@ title: Explorar a interface e os pré-requisitos
 description: Explore a interface e os pré-requisitos ao trabalhar com o conteúdo de aprendizado e treinamento no Adobe Experience Manager Guides.
 feature: Authoring
 role: User
-source-git-commit: 200aae4c5d05531da5413c80a1cf254d2c0f0ec3
+source-git-commit: eda6c57d80359b1c70266708dc444f4880e1bf6c
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Execute as seguintes etapas para acessar a interface do usuário:
 
    Para obter detalhes, exiba a [experiência da página inicial do Adobe Experience Manager Guides](../user-guide/intro-home-page.md).
 
-   ![](assets/aem-navigation-switcher.png){width="300" align="left"}
+   ![](assets/aem-navigation-switcher.png){width="350" align="left"}
 
 ## Pré-requisitos
 
