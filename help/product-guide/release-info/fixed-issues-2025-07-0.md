@@ -1,9 +1,10 @@
 ---
 title: Notas de versão | Correção de problemas na versão 2025.07.0 do Adobe Experience Manager Guides
 description: Saiba mais sobre as correções de erros na versão 2025.07.0 do Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: bf8b295444a1e21fc19bfbc04efaa20fe78f71bb
+exl-id: 0744e821-5aee-432b-a6c8-7ed6538935db
+source-git-commit: c4d3cdd2a0a98b7c9c937c66c5c3130bf4c5c164
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '527'
 ht-degree: 1%
 
 ---
@@ -50,6 +51,6 @@ Saiba mais sobre [as instruções de atualização para a versão 2025.07.0](upg
 A Adobe identificou os seguintes problemas conhecidos para a versão 2025.07.0:
 
 - Ao trabalhar com tópicos do Markdown, o botão **Referência de tópico** aparece na barra de ferramentas do editor, mas não funciona. (GUIDES-31038)
-- Quando as pastas com nomes em maiúsculas são carregadas usando o aplicativo de desktop Adobe Experience Manager, o uso de maiúsculas e minúsculas não é mantido e os nomes são exibidos em minúsculas no Editor. (GUIDES-30909)
+- Os nomes dos nós de pasta são exibidos incorretamente no lugar dos títulos das pastas no Editor. (GUIDES-30909)
 - Na caixa de diálogo **Mesclar**, a lista suspensa exibe incorretamente **Conteúdo principal**, em vez de mostrar as versões disponíveis do tópico selecionado. (GUIDES-30820)
 - Ao abrir um mapa DITA com o Unified Shell ativado, o editor é atualizado intermitentemente.(GUIDES-26919)
