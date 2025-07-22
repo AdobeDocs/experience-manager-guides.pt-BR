@@ -4,7 +4,8 @@ description: Saiba mais sobre o fluxo de trabalho do Administrador para conteúd
 feature: Authoring
 role: Admin
 level: Experienced
-source-git-commit: 2a2bcb6638c0201c7256d986be95c0ccb21f8d9e
+exl-id: c4fd1da6-1f45-4c84-bc5b-3851501a6d88
+source-git-commit: 98a520a255c5587ac0de82685391c0fc153bc8d1
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 1%
@@ -17,9 +18,6 @@ Esta página fornece acesso rápido a vídeos que abrangem os principais fluxos 
 
 | Título | Descrição | Link do vídeo |
 |-------|-------------|------------|
-| Visão geral do AEM Guides para administradores | Aborda as principais tarefas de configuração para administradores do AEM Guides, incluindo estrutura de pastas, permissões, conteúdo reutilizável e personalização do editor. | [Iniciar vídeo](https://video.tv.adobe.com/v/3464906/learning-content-aem-guides){target="_blank"} |
-| Configuração do ambiente de criação no AEM Guides | Um guia passo a passo para configurar o ambiente de criação no AEM Guides, incluindo a hierarquia de pastas, perfis de pastas, modelos de criação e saída e preferências do editor. | [Iniciar vídeo](https://video.tv.adobe.com/v/3464835/learning-content-aem-guides){target="_blank"} |
-| Gerenciamento de modelos de criação | Explica como criar, personalizar e aplicar modelos de criação no AEM Guides, incluindo o trabalho com perfis de pastas, folhas de estilos e ativos reutilizáveis. | [Iniciar vídeo](https://video.tv.adobe.com/v/3464907){target="_blank"} |
-
-
-
+| Visão geral do AEM Guides para administradores | Aborda as principais tarefas de configuração para administradores do AEM Guides, incluindo estrutura de pastas, permissões, conteúdo reutilizável e personalização do editor. | [Iniciar vídeo](https://video.tv.adobe.com/v/3469321){target="_blank"} |
+| Configuração do ambiente de criação no AEM Guides | Um guia passo a passo para configurar o ambiente de criação no AEM Guides, incluindo a hierarquia de pastas, perfis de pastas, modelos de criação e saída e preferências do editor. | [Iniciar vídeo](https://video.tv.adobe.com/v/3469527/learning-content-aem-guides){target="_blank"} |
+| Gerenciamento de modelos de criação | Explica como criar, personalizar e aplicar modelos de criação no AEM Guides, incluindo o trabalho com perfis de pastas, folhas de estilos e ativos reutilizáveis. | [Iniciar vídeo](https://video.tv.adobe.com/v/3469528/aem-guides-learning-content){target="_blank"} |
