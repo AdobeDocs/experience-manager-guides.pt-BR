@@ -4,9 +4,9 @@ description: Gerencie tarefas de revisão no Painel de revisão no AEM Guides. S
 exl-id: 4fef5653-1c73-4b68-adf2-b24145555142
 feature: Reviewing
 role: User
-source-git-commit: 717d300c6e879bad573f67e3eb91dd266ab203c6
+source-git-commit: 19e521ed790a7ac25afab88e8878250f943d9bff
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1348'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,10 @@ Execute as seguintes etapas para acessar e usar o Painel de Revisão:
    Um painel Projeto com blocos de tarefas é exibido.
 
    ![](images/review-management.png){align="left"}
+
+   >[!NOTE]
+   >
+   > Como alternativa, você pode acessar diretamente o painel do projeto no painel esquerdo do Editor. Abra o [Painel de revisão](./web-editor-left-panel.md#review) e use o ícone **Abrir o painel do projeto** colocado em cada projeto de revisão listado no Painel de revisão.
 
 1. Selecione os três pontos no bloco **Revisões**.
 
@@ -126,4 +130,4 @@ O relatório de status da tarefa de revisão contém os seguintes detalhes:
 - Número total de comentários feitos em todos os tópicos. No caso de vários tópicos em revisão, o número de comentários para cada tópico é mencionado \(entre parênteses\) em relação ao nome do tópico.
 - A data em que qualquer tópico foi acessado pela última vez pelo revisor.
 
-**Tópico pai:**&#x200B;[ Introdução à revisão](review.md)
+**Tópico pai:**[ Introdução à revisão](review.md)

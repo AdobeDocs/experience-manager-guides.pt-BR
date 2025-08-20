@@ -4,9 +4,9 @@ description: Conheça o painel esquerdo no editor. Saiba mais sobre a interface 
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 92496d39-b423-4635-8b05-c67fd6af47de
-source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
+source-git-commit: 97e80f9115f84291a7190cf4c4cf25426b3a83bb
 workflow-type: tm+mt
-source-wordcount: '9323'
+source-wordcount: '9390'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,7 @@ Também é possível executar muitas ações usando o menu Opções disponível 
 
 >[!NOTE]
 >
-> Você também pode atualizar a lista usando o ícone Atualizar na parte superior.
+> Você pode atualizar a lista usando o ícone **Atualizar** na parte superior. Além disso, atualizar a lista recarrega as coleções e, como resultado, qualquer coleção expandida no painel é recolhida.
 
 
 ## Repositório
@@ -158,6 +158,10 @@ Você tem as seguintes opções para filtrar os arquivos e restringir sua pesqui
   ![filtro de pesquisa rápida ](images/repository-filter-search-quick.png) {width="300" align="left"}
 
   *Use os filtros rápidos para procurar arquivos DITA e não DITA.*
+
+>[!NOTE]
+>
+> Você também pode usar o filtro **Tópico DITA** para pesquisar conteúdo específico para arquivos Markdown no repositório, incluindo títulos, conteúdo de tópico e propriedades. No momento, esse recurso se aplica somente aos arquivos recém-criados do Markdown.
 
 **Filtragem avançada**
 
@@ -1006,7 +1010,7 @@ O Experience Manager Guides permite criar e gerenciar variáveis para publicaç�
 
 ## Localizar e substituir
 
-O ícone Localizar e substituir está localizado na parte inferior do painel esquerdo. O painel Localizar e substituir permite procurar e substituir texto entre arquivos em um mapa ou uma pasta no repositório. É possível localizar e substituir em todos os tópicos de um mapa, bem como nos tópicos presentes nos submapas dentro do mapa.
+O ícone Localizar e substituir está localizado na parte inferior do painel esquerdo. O painel Localizar e substituir permite procurar e substituir texto entre arquivos em um mapa ou uma pasta no repositório. É possível executar operações de Localizar e substituir em todos os tópicos de um mapa, incluindo tópicos em submapas e arquivos de Markdown.
 
 ![](images/map-find-replace.png){align="left"}
 
@@ -1094,6 +1098,10 @@ Para exibir os comentários de revisão nas tarefas de revisão ativas que estã
 
    ![](images/web-editor-review-panel.png){width="300" align="left"}
 1. Selecione um projeto de revisão e, em seguida, selecione uma tarefa de revisão na lista para abri-lo.
+1. Você pode selecionar o ícone **Abrir painel do projeto** para abrir o projeto no **console de Projetos**.
+
+   ![](images/web-editor-project-dashboard.png){width="300" align="left"}
+
 1. Você também pode filtrar seus projetos das seguintes maneiras:
 
    - Insira o termo ou texto de pesquisa que deseja localizar no título do projeto. Pressione Enter para realizar a pesquisa. Por exemplo, você pode pesquisar todos os projetos com o termo &quot;espaço&quot; no título.
@@ -1122,4 +1130,4 @@ Para exibir os comentários de revisão nas tarefas de revisão ativas que estã
 
 </details>
 
-**Tópico pai:**&#x200B;[ Introdução ao Editor](web-editor.md)
+**Tópico pai:**[ Introdução ao Editor](web-editor.md)

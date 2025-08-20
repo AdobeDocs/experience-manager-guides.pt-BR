@@ -4,9 +4,9 @@ description: Revise tópicos ou mapas com eficiência no AEM Guides para uma ava
 exl-id: 81ea0b52-52b0-4764-a6d8-a96d5c7693bf
 feature: Reviewing
 role: User
-source-git-commit: 38ea2eb35ebd75c1202c86d598ad953db3894d40
+source-git-commit: b7648fe1d36de3c243ca5a55f42a41f7523056ce
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Alguns dos principais recursos oferecidos pelo Adobe Experience Manager Guides a
 - Compartilhe uma versão atualizada do tópico para revisão no Painel de revisão.
 
 - Acesse comentários compartilhados em diferentes versões do tópico.
-
+- Marque facilmente os usuários de tarefas de revisão específicas em comentários ou respostas para ações rápidas e acompanhamento. Os usuários marcados são notificados imediatamente por meio de notificações do AEM e por email.
 - Agrupar e filtrar comentários com base na versão do tópico.
 
 - Exibir diferenças lado a lado entre diferentes versões de tópicos compartilhados para revisão.
@@ -41,6 +41,7 @@ Recursos disponíveis para os *revisores*:
 - Alternar entre a exibição composta e a exibição de tópico individual.
 - Use as ferramentas de comentários, como inserção de texto, exclusão, destaque e observação/comentário para fornecer seu feedback.
 - Anexe um ou vários arquivos a um comentário de revisão.
+- Responda a um comentário marcando os usuários envolvidos na mesma tarefa de revisão.
 - Baixar anexos de um comentário.
 - Use o Painel de revisão para adicionar comentários ou responder a comentários de outros usuários.
 - Saiba facilmente a versão do tópico em análise.
@@ -57,10 +58,18 @@ Recursos disponíveis para os *revisores*:
 
 - **[Enviar tópicos para revisão](review-send-topics-for-review.md)**
 
+- **[Tópicos de revisão](review-topics.md)**
+
 - **[Reatribuir tarefa de revisão usando notificação](reassign-review-using-notification.md)**
 
-- **[Tópicos de revisão](review-topics.md)**
+- **[Concluir a tarefa de revisão como Revisor](review-complete-review-tasks.md)**
 
 - **[Endereçar comentários de revisão](review-address-review-comments.md)**
 
+- **[Fechar ou solicitar revisão para uma tarefa de revisão](review-close-review-task.md)**
+
 - **[Gerenciar tarefas de revisão usando o Painel de Revisão](review-manage-tasks-review-dashboard.md)**
+
+- **[Exibir uma tarefa de revisão concluída](review-view-completed-task.md)**
+
+- **[Noções básicas sobre notificações de revisão](review-understanding-review-notifications.md)**

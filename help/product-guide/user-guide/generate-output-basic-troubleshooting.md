@@ -4,9 +4,9 @@ description: Resolva problemas com a solução básica de problemas no AEM Guide
 exl-id: 57b88291-b5a3-4931-b3ed-f2b2ce7a463c
 feature: Publishing, Troubleshooting
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 262edba89ab4bf65cb6e109bd7c5df177e2e56fe
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
@@ -21,24 +21,32 @@ Execute as seguintes etapas para exibir e verificar o arquivo de log de geraçã
 
 1. Depois de iniciar o processo de geração de saída, selecione **Saídas** no console do mapa DITA.
 
-   A coluna **Geral** de **Saídas Geradas** mostra os ícones para dar uma dica visual sobre o sucesso ou falha da geração de saída.
+   A coluna **Configuração de geração** de **Saídas Geradas** mostra a cor para dar uma dica visual sobre o sucesso ou falha da geração de saída para diferentes predefinições de saída.
 
-   ![](images/output-general-settings.png){width="300" align="left"}
+   ![](images/output-general-settings-new.png){width="300" align="left"}
 
-   Na captura de tela acima, o primeiro e o terceiro ícones mostram a geração de saída com falha. O segundo ícone mostra uma geração de saída bem-sucedida, mas com mensagens. A última é uma geração de saída bem-sucedida sem nenhuma mensagem.
+   Na captura de tela acima:
+
+   - Vermelho indica falha na geração de saída.
+   - O verde indica uma geração de saída bem-sucedida.
+   - Âmbar indica uma geração de saída bem-sucedida com erros.
+
+   >[!NOTE]
+   >
+   > As cores da guia **Saída**, que indicam o status de vários resultados de saída, são diferentes das cores usadas para categorizar os vários tipos de erro nos arquivos de log.
 
 1. Selecione o link na coluna **Gerado às** após a conclusão do trabalho.
 
    O arquivo de log é aberto em uma nova guia.
 
-   ![](images/log-file.png){align="left"}
+   ![](images/log-file-new.png){align="left"}
 
 1. Aplique os seguintes filtros para realçar o texto no arquivo de log:
-   - Fatal: realça os erros fatais no arquivo de log com a cor rosa.
-   - Erro: realça os erros no arquivo de log com a cor laranja.
-   - Aviso: realça os avisos no arquivo de log com cor roxa.
-   - Informações: destaca as mensagens de informações no arquivo de log com a cor azul.
-   - Exceção: Realça as exceções no arquivo de log com a cor amarela.
+   - Fatal: Realça os erros fatais no arquivo de log com a cor vermelho-escuro.
+   - Erro: realça os erros no arquivo de log com cor vermelha. As exceções são tratadas como erros e destacadas de forma semelhante em vermelho.
+   - Aviso: realça os avisos no arquivo de log com cor âmbar.
+   - Informações: realça as mensagens de informações no arquivo de log com a cor verde.
+
 1. Use os botões de navegação para cima e para baixo para ir até o texto destacado no arquivo de log.
 
    Como alternativa, role pelo arquivo de log e verifique as mensagens.
@@ -91,4 +99,4 @@ Execute as seguintes etapas para resolver esse problema:
 1. Aumente o valor do parâmetro *Número de Chamadas por Solicitação* de acordo com suas necessidades.
 
 
-**Tópico pai:**&#x200B;[ Geração de saída](generate-output.md)
+**Tópico pai:**[ Geração de saída](generate-output.md)

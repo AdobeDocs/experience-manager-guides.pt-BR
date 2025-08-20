@@ -5,10 +5,10 @@ exl-id: 38711c0c-efa8-461a-92e1-ecfcdcdd36d3
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: a3c7973868549c72e868c05a3fc6ca8bdce9bce3
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 1%
+source-wordcount: '327'
+ht-degree: 0%
 
 ---
 
@@ -41,12 +41,13 @@ Para incluir o atributo `@navtitle` por padrão nas propriedades dos arquivos de
                            },
    ```
 
-1. Alterar o parâmetro `required` como:
+1. Altere o parâmetro `required` conforme mostrado abaixo:
 
    ```
    "required": {"navtitle": true}
    ```
 
+   Quando definido como `true`, o botão **Atualizar atributo de título de navegação** está habilitado para aparecer na barra de ferramentas do Editor. Quando definido como `false` ou deixado em branco, o botão permanece oculto no Editor.
 1. Salve o arquivo.
 
 1. Faça upload do arquivo no perfil correspondente \(Global ou Folder\).
@@ -54,4 +55,6 @@ Para incluir o atributo `@navtitle` por padrão nas propriedades dos arquivos de
 
 Com essa configuração, cada arquivo de referência adicionado a um mapa conterá o atributo `@navtitle` por padrão.
 
-**Tópico pai:**&#x200B;[ Personalizar editor da Web](conf-web-editor.md)
+
+
+**Tópico pai:**[ Personalizar editor da Web](conf-web-editor.md)

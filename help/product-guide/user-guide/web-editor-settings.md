@@ -4,9 +4,9 @@ description: Saiba mais sobre as várias configurações disponíveis na interfa
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: fad2874f-dab5-4538-8502-f7112c51d941
-source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
+source-git-commit: 84cc3db0e14217a7ba92143cb63b94329d5c26e1
 workflow-type: tm+mt
-source-wordcount: '1975'
+source-wordcount: '2112'
 ht-degree: 0%
 
 ---
@@ -33,11 +33,34 @@ A opção **Configurações** presente na [Barra de guias](./web-editor-tab-bar.
 
 ## Geral
 
-As configurações Gerais permitem configurar o dicionário a ser usado com o Editor. Esta guia contém quatro seções: **Verificação ortográfica**, **Condição**, **Criação** e **Citações**.
+As configurações Gerais permitem definir as configurações para usar o Editor. Esta guia contém cinco seções: **Assistente de IA**, **Criação**, **Citações**, **Condição** e **Verificação ortográfica**.
 
-![](images/editor-setting-general.png){width="650" align="left"}
+![](images/editor-setting-general-new.png){width="350" align="left"}
 
-- **Verificação ortográfica**: há duas opções — **Verificação ortográfica do AEM** e **Verificação ortográfica do navegador**. Por padrão, o editor usa o recurso de verificação ortográfica do navegador, no qual a verificação ortográfica é executada usando o dicionário interno do navegador. Você pode alternar para a verificação ortográfica do AEM para usar o dicionário do Adobe Experience Manager, que também pode ser personalizado para adicionar sua lista de palavras personalizada. Para obter mais informações sobre como personalizar o dicionário do AEM, consulte [Personalizar o dicionário padrão do AEM](../cs-install-guide/customize-aem-custom-dictionary.md) na seção Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service.
+- **Assistente de IA**
+Selecione esta opção para habilitar o recurso [Assistente de IA](./ai-assistant.md) no Experience Manager Guides. Desmarque para desativar o recurso.
+
+  Depois de habilitar a opção de alternância **Assistente de IA**, você pode configurar quais opções serão exibidas na **guia Criação** para autores usando o menu **Ações rápidas de criação**, conforme mostrado abaixo.\
+  Essas alterações se aplicam ao perfil de pasta específico com o qual você está trabalhando. Se você criar um novo perfil de pasta, ele herdará as configurações do editor definidas no perfil de pasta **Global** por padrão. Você pode modificar essas configurações conforme necessário usando as **Configurações do editor** e salvar a configuração atualizada.\
+  Para obter uma visão geral detalhada das opções disponíveis para Criação usando o Assistente de IA, exiba [Crie documentos de forma inteligente com o Assistente de IA](./ai-assistant-right-panel.md).
+
+  No menu **Ações rápidas de criação**, você pode:
+
+   - use os botões para ativar ou desativar opções específicas que os autores podem acessar ao trabalhar com o Assistente de IA.
+
+   - altere a ordem na qual as opções são exibidas, arraste-as e solte-as conforme necessário.
+
+  ![](images/authoring-quick-actions.png){width="350" align="left"}
+
+
+
+- **Criação**
+
+   - **Habilitar Substituir Tudo**: selecione esta opção para exibir o ícone **Substituir Tudo** no painel **Localizar e substituir**.
+
+- **Citações**
+
+  Alterar o estilo das citações. Escolha o estilo da citação no menu suspenso que deseja usar em seu projeto. Para obter mais detalhes, consulte [Alterar estilos de citação](./web-editor-apply-citations.md#change-citation-style).
 
 - **Condição**
 
@@ -51,16 +74,8 @@ As configurações Gerais permitem configurar o dicionário a ser usado com o Ed
 
    - **Mostrar esquema de assunto no painel Condições**: selecione esta opção para exibir um esquema de assunto no painel Condições. Se você desmarcar essa opção, as condições definidas serão mostradas no painel Condições.
 
-- **Criação**
-
-   - **Habilitar Substituir Tudo**: selecione esta opção para exibir o ícone **Substituir Tudo** no painel **Localizar e substituir**.
-
-- **Citações**
-
-  Alterar o estilo das citações. Escolha o estilo da citação no menu suspenso que deseja usar em seu projeto. Para obter mais detalhes, consulte [Alterar estilos de citação](./web-editor-apply-citations.md#change-citation-style).
-
-- **Assistente de IA**
-Selecione esta opção para habilitar o recurso [Assistente de IA](./ai-assistant.md) no Experience Manager Guides. Desmarque para desativar o recurso.
+- **Verificação ortográfica**
+Há duas opções: **verificação ortográfica do AEM** e **verificação ortográfica do navegador**. Por padrão, o editor usa o recurso de verificação ortográfica do navegador, no qual a verificação ortográfica é executada usando o dicionário interno do navegador. Você pode alternar para a verificação ortográfica do AEM para usar o dicionário do Adobe Experience Manager, que também pode ser personalizado para adicionar sua lista de palavras personalizada. Para obter mais informações sobre como personalizar o dicionário do AEM, consulte [Personalizar o dicionário padrão do AEM](../cs-install-guide/customize-aem-custom-dictionary.md) na seção Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service.
 
 
 ## Painéis
@@ -116,7 +131,7 @@ Ela contém os Perfis que podem ser usados para publicar a saída da **Base de D
 
 **Pré-requisitos**
 
-- Crie um aplicativo conectado para o Salesforce. Para obter mais detalhes, consulte [Habilitar configurações do OAuth para integração com a API](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&amp;type=5).
+- Crie um aplicativo conectado para o Salesforce. Para obter mais detalhes, consulte [Habilitar configurações do OAuth para integração com a API](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&type=5).
 
 - Ao configurar o aplicativo conectado, verifique o seguinte:
 
@@ -244,4 +259,4 @@ Um erro é exibido se o caminho de metadados estiver em branco. Se você deixar 
 Você também pode definir a ordem em que essas tags de metadados são exibidas. Para alterar a ordem padrão dessas tags, selecione as barras pontilhadas para arrastar e soltar as tags no local desejado.
 Os rótulos de metadados aparecem na mesma sequência na caixa de diálogo **Histórico de versões** do Editor.
 
-**Tópico pai:**&#x200B;[ Introdução ao Editor](web-editor.md)
+**Tópico pai:**[ Introdução ao Editor](web-editor.md)

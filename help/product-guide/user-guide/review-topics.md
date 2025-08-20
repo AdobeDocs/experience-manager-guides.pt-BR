@@ -4,9 +4,9 @@ description: Saiba como revisar tópicos e usar os recursos como revisor, exibi�
 exl-id: fc87fc37-f1cd-4a19-96c2-3a08a8222002
 feature: Reviewing
 role: User
-source-git-commit: 9197cb757e3b883d81eee8a72c797b74cf06e570
+source-git-commit: b7648fe1d36de3c243ca5a55f42a41f7523056ce
 workflow-type: tm+mt
-source-wordcount: '2476'
+source-wordcount: '2655'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 0%
 # Revisar tópicos {#id2056B0W0FBI}
 
 Se você for um revisor, receberá um email de solicitação de revisão com o link para os tópicos da revisão. Usando este link, você pode acessar a página de revisão, na qual pode adicionar seu feedback sobre os tópicos compartilhados.
+
+>[!NOTE]
+>
+> Ao acessar a solicitação de revisão a partir da notificação, você pode optar por reatribuí-la a outro usuário que faça parte do mesmo projeto de revisão. Para obter detalhes, exiba [Reatribuir tarefa de revisão usando notificação](./reassign-review-using-notification.md).
 
 Execute as seguintes etapas para revisar um tópico:
 
@@ -34,8 +38,6 @@ Execute as seguintes etapas para revisar um tópico:
    > - Adobe Experience Manager Guides as a Cloud Service versão de novembro de 2022 ou anterior
    > - Adobe Experience Manager Guides versão 4.1 ou anterior
 
-
-
    A tela a seguir é exibida quando um mapa DITA é usado para iniciar o workflow de revisão:
 
    ![](images/multiple-topics-review.png){align="left"}
@@ -54,7 +56,7 @@ Execute as seguintes etapas para revisar um tópico:
 
      >[!NOTE]
      >
-     > Ao aplicar os filtros, somente os comentários que correspondem aos filtros selecionados são exibidos no painel de comentários. O número de comentários filtrados é mostrado à esquerda no painel de tópicos.
+     > Ao aplicar os filtros, somente os comentários que correspondem aos filtros selecionados são exibidos no painel Comentários. O número de comentários filtrados é mostrado à esquerda no painel de tópicos.
 
    - **E**: um tópico atribuído para revisão ao revisor atual é mostrado em preto e pode ser selecionado. Quando o revisor seleciona um link de tópico, esse tópico é trazido para a parte superior da tela.
    - **F**: um tópico que não está disponível para revisão está esmaecido. O tópico é exibido no modo somente leitura e você não tem permissão para adicionar comentários de revisão sobre esses tópicos.
@@ -162,6 +164,21 @@ A captura de tela a seguir mostra o conteúdo no modo *Visualização*:
 
 ![](images/review-preview-mode.png){width="550" align="left"}
 
+
+**Marcar usuários da tarefa em um comentário**
+
+Ao colaborar em uma tarefa de revisão com vários revisores, é possível aprimorar a comunicação marcando usuários específicos em novos comentários e respostas. Como revisor, você pode iniciar um comentário ou responder a um existente enquanto marca outros usuários envolvidos na mesma tarefa de revisão para chamar sua atenção ou atribuir acompanhamentos. Essa funcionalidade só está disponível para tarefas de revisão ativas.
+
+>[!NOTE]
+>
+> Para exibir a lista de usuários atribuídos a uma tarefa de revisão e marcá-los em um comentário, você deve ter acesso de *Leitura* aos nós `/home/users and /home/groups`. Para obter detalhes, consulte [Administração e segurança do usuário](../cs-install-guide/user-admin-sec.md#additional-notes-on-user-groups). <br> Se a marcação ainda não estiver disponível após a confirmação do acesso, talvez o administrador precise atribuir uma licença do `user-admin` para habilitar essa funcionalidade.
+
+![](images/tag-users-review-ui.png){width="350" align="left"}
+
+Os usuários marcados recebem um email e uma notificação do AEM, garantindo que sejam informados imediatamente. Para obter mais detalhes sobre como as notificações de revisão disparam, consulte [Noções básicas sobre notificações de revisão](./review-understanding-review-notifications.md).
+
+![](images/mentioned-in-tags-author.png){width="350" align="left"}
+
 **Adicionar anexos aos comentários** -   Se quiser complementar seu comentário fornecendo informações adicionais que estão disponíveis em algum outro arquivo, anexe-o ao seu comentário. Como revisor, você pode adicionar facilmente um ou vários arquivos do sistema local ao comentário. Um arquivo pode ser adicionado a todas as formas de comentários aceitos - Realce, Tachado, Inserir texto ou um Comentário.
 
 Quando você insere qualquer um dos comentários, o pop-up de comentários é exibido. Depois de fornecer comentários ou informações adicionais na janela pop-up, você pode enviá-las pressionando Enter. Depois que o comentário for adicionado, você terá a opção de adicionar um anexo a ele.
@@ -257,4 +274,4 @@ Selecione uma ou mais das seguintes opções de filtragem na caixa de diálogo *
 
 Para remover o filtro e exibir todos os comentários, desmarque todos os filtros da caixa de diálogo **Tipo de Filtro** e selecione **Aplicar**.
 
-**Tópico pai:**&#x200B;[ Introdução à revisão](review.md)
+**Tópico pai:**[ Introdução à revisão](review.md)

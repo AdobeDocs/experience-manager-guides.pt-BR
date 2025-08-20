@@ -4,9 +4,9 @@ description: Criação de documentos de markdown a partir do Editor. Saiba como 
 exl-id: def14e35-27c5-4b90-bc3d-eef7e8f317d2
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 779be011c078fb3c2fae4fc6a92e3e2d734672b0
 workflow-type: tm+mt
-source-wordcount: '1254'
+source-wordcount: '1197'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ O Markdown é uma linguagem de marcação simples que pode ajudar você a adicio
 Execute as seguintes etapas para criar um tópico do Markdown no editor:
 
 1. No painel Repositório, selecione ![](images/Add_icon.svg) e, em seguida, selecione **Tópico** na lista suspensa.
-1. Na caixa de diálogo **Novo tópico**, forneça os seguintes detalhes:
+2. Na caixa de diálogo **Novo tópico**, forneça os seguintes detalhes:
 
    ![](images/create-markdown-dialog.png){width="300" align="left"}
 
@@ -29,10 +29,10 @@ Execute as seguintes etapas para criar um tópico do Markdown no editor:
    * **Modelo**: selecione **Markdown** na lista suspensa. O modelo **Tópico** é selecionado por padrão.
    * **Caminho**: procure o caminho onde você deseja salvar o arquivo de tópico. Por padrão, o caminho da pasta selecionada no momento no repositório é mostrado no campo Caminho.
 
-   >
+   >[!NOTE]
    >
    > No caso de uma atualização, é necessário adicionar o modelo do Markdown ao perfil da pasta atual em uso. Você pode [criar um novo modelo de marcação a partir do Editor](./web-editor-features.md#templates) ou usar um modelo existente para criação de marcação. Para obter detalhes sobre como adicionar modelos de criação no Experience Manager Guides, exiba [Configurar perfis globais ou de nível de pasta](../cs-install-guide/conf-folder-level.md).
-1. Selecione **Criar**.
+3. Selecione **Criar**.
 
    O tópico do Markdown é criado no caminho selecionado e está aberto para edição.
 
@@ -158,7 +158,7 @@ A seção Referências fornece acesso aos seguintes recursos:
 * **Usado em**: as referências Usado em listam os documentos nos quais o arquivo atual está sendo referenciado ou usado.
 * **Links de saída**: os Links de saída listam os documentos referenciados no documento atual.
 
->
+>[!NOTE]
 >
 > Todas as referências a links usados em e links de saída são vinculadas aos documentos por hiperlink. É possível abrir e editar facilmente os documentos vinculados.
 
@@ -170,12 +170,9 @@ Os seguintes recursos do Experience Manager Guides não se aplicam à criação 
 2. Mesclar
 3. Assistente de IA
 4. Rastrear alterações
-5. Localizar e substituir
-6. Pesquisar e filtrar
-
->[!NOTE]
->
-> O recurso **Localizar e substituir** não processa arquivos do Markdown no nível do repositório. Isso inclui a pesquisa de um arquivo do Markdown em um mapa ou pasta. No entanto, ele ainda pode ser usado no editor do Markdown. Além disso, as opções **Pesquisar** e **Filtrar** na exibição Repositório não processam arquivos Markdown.
 
 
-**Tópico pai:**&#x200B;[ Introdução ao Editor](web-editor.md)
+
+
+
+**Tópico pai:**[ Introdução ao Editor](web-editor.md)

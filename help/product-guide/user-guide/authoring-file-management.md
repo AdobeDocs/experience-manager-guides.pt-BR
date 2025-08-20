@@ -4,9 +4,9 @@ description: Saiba como gerenciar arquivos e pastas no AEM Guides. Copie e cole,
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-source-git-commit: 717d300c6e879bad573f67e3eb91dd266ab203c6
+source-git-commit: 14bbb3a055d8b528b6ed657be797c5fa96dd3e7e
 workflow-type: tm+mt
-source-wordcount: '3201'
+source-wordcount: '3263'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,6 @@ Esta seção explica como o Adobe Experience Manager Guides lida com as operaç�
 - *Se o arquivo com o mesmo nome não existir na pasta de destino*: uma nova cópia do arquivo será criada e uma nova UUID também será atribuída a ele no novo local. Aqui, o nome do arquivo é igual ao UUID.
 - *Se o arquivo com o mesmo nome já existir na pasta de destino*: uma nova cópia do arquivo será criada e uma nova UUID também será atribuída a ele. O nome do arquivo é igual ao UUID.
 
-
 ## Copiar e colar pastas
 
 **Copiar e colar a pasta no mesmo local**
@@ -43,6 +42,16 @@ Esta seção explica como o Adobe Experience Manager Guides lida com as operaç�
 - *A pasta tem arquivos com nomes de arquivo legíveis por humanos*: uma nova cópia da pasta é criada e uma nova UUID também é atribuída a todos os arquivos dentro da pasta no novo local. Aqui, não há alteração na pasta ou nos nomes dos arquivos.
 
 - *A pasta tem arquivos com nomes de arquivo baseados em um padrão UUID*: uma nova cópia da pasta é criada com o mesmo nome da pasta original. Um novo UUID também é atribuído a todos os arquivos na nova pasta. Os nomes dos arquivos também são alterados; os nomes dos arquivos são iguais aos da nova UUID.
+
+**Mensagem e notificação de êxito**
+
+A operação de copiar e colar de pastas na interface do usuário do Assets é executada de forma assíncrona em segundo plano, permitindo que você continue trabalhando enquanto o sistema processa a solicitação. Uma mensagem pop-up é exibida para indicar que o processo foi iniciado.
+
+![](images/copy-folders-success-popup.png){width="350" align="left"}
+
+Quando a operação for concluída, uma notificação de sucesso ou falha será acionada para indicar se a operação foi bem-sucedida ou falhou.
+
+![](images/copy-folders-success-notification.png){width="650" align="left"}
 
 
 ## Arrastar e soltar arquivos
@@ -317,4 +326,4 @@ Se o arquivo de mídia tiver sofrido alterações, você poderá localizar e vis
    ![](images/media-version-preview.png){width="650" align="center"}
 
 
-**Tópico pai:**&#x200B;[ Gerenciar conteúdo](authoring.md)
+**Tópico pai:**[ Gerenciar conteúdo](authoring.md)

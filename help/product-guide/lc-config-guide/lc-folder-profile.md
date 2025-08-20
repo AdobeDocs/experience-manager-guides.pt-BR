@@ -4,9 +4,10 @@ description: Saiba como configurar perfis de pastas ao trabalhar com o conteúdo
 feature: Authoring
 role: Admin
 level: Experienced
-source-git-commit: b114cbcc0f637a71a9d9b7458686a06070179983
+exl-id: dc26ae48-c953-492c-823a-5f65157b6902
+source-git-commit: f14ee85ccc49abd662a046b2bd4e7be2eece4902
 workflow-type: tm+mt
-source-wordcount: '1296'
+source-wordcount: '1451'
 ht-degree: 0%
 
 ---
@@ -17,12 +18,23 @@ ht-degree: 0%
 
 Para começar a usar a configuração do perfil de pasta para o conteúdo de Aprendizado e Treinamento, é necessário:
 
-1. [Criar um perfil de pasta](../cs-install-guide/conf-folder-level.md#create-and-configure-a-folder-level-profile).
-2. **Selecione o perfil de pasta a ser configurado**: depois que o perfil de pasta for criado, você precisará selecionar o perfil de Pasta na página [Preferências do Usuário](../user-guide/intro-home-page.md#user-preferences) para garantir que os Autores e Publicadores tenham acesso aos modelos corretos.
+1. **Crie pastas diferentes para gerenciar modelos de criação e saída**: você pode criar pastas para Autores e Editores que trabalham em diferentes departamentos ou produtos da sua empresa. Essas pastas podem ser mapeadas para perfis de pastas específicos, cada um configurado com diferentes modelos de criação e saída para suportar a criação de cursos de aprendizado específicos do departamento e a administração descentralizada.
+
+   Você pode criar uma nova pasta no painel Repositório.
+
+   ![](assets/create-new-folder.png){width="350" align="left"}
+2. **Criar pastas de idioma para gerenciar a tradução**: se você traduzir conteúdo em idiomas diferentes, deverá criar pastas correspondentes a cada idioma. Cada uma dessas pastas de idioma conterá o conteúdo correspondente a esse idioma.
+
+   Para obter detalhes, consulte [Práticas recomendadas para tradução de conteúdo](../user-guide/translation-first-time.md).
+3. **Criar uma pasta para gerenciar o Assets**: assim como as pastas, você também pode criar diferentes pastas do Assets para atender às necessidades de diferentes departamentos. Dessa forma, você também garante que Autores e Editores tenham acesso ao CSS correto configurado em seus modelos, imagens e outros ativos.
+
+   ![](assets/configure-assets-folder.png){width="350" align="left"}
+4. [Crie um perfil de pasta](../cs-install-guide/conf-folder-level.md#create-and-configure-a-folder-level-profile) para mapear pastas diferentes.
+5. **Selecione o perfil de pasta a ser configurado**: depois que o perfil de pasta for criado, você precisará selecionar o perfil de Pasta na página [Preferências do Usuário](../user-guide/intro-home-page.md#user-preferences) para garantir que os Autores e Publicadores tenham acesso aos modelos corretos.
 
    ![](assets/folder-profile.png){width="650" align="left"}
 
-3. **Definir configurações do perfil da pasta**: para conteúdo de Aprendizado e Treinamento, as seguintes configurações podem ser definidas no nível da pasta:
+6. **Definir configurações do perfil da pasta**: para conteúdo de Aprendizado e Treinamento, as seguintes configurações podem ser definidas no nível da pasta:
    - [Painéis](#configure-panels)
    - [Modelos](#configure-templates)
    - [Predefinições de saída](#configure-output-presets)

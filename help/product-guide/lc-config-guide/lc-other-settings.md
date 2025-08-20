@@ -4,9 +4,10 @@ description: Saiba como configurar pastas, pastas de ativos, variáveis, trechos
 feature: Authoring
 role: Admin
 level: Experienced
-source-git-commit: 5f42540a32da6e85a5c8aa0831582ce871c9088a
+exl-id: 15a0cd40-45be-4631-8d60-4a9474bc431c
+source-git-commit: f14ee85ccc49abd662a046b2bd4e7be2eece4902
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---
@@ -15,18 +16,6 @@ ht-degree: 0%
 
 Como Administrador, você também pode definir as seguintes configurações para os Autores e Editores do curso de aprendizado:
 
-- **Configurações de pasta**
-   - **Criar pastas diferentes**: você pode criar pastas para Autores e Editores que trabalham em diferentes departamentos ou produtos da sua empresa. Essas pastas podem ser mapeadas para perfis de pastas específicos, cada um configurado com diferentes modelos de criação e saída para suportar a criação de cursos de aprendizado específicos do departamento e a administração descentralizada.
-
-     Você pode criar uma nova pasta no painel Repositório.
-
-     ![](assets/create-new-folder.png){width="350" align="left"}
-   - **Criar pastas de idioma**: se você traduzir conteúdo para idiomas diferentes, deverá criar pastas correspondentes a cada idioma. Cada uma dessas pastas de idioma conterá o conteúdo correspondente a esse idioma.
-
-     Para obter detalhes, consulte [Práticas recomendadas para tradução de conteúdo](../user-guide/translation-first-time.md).
-   - **Gerenciamento de Assets**: assim como as pastas, você também pode criar diferentes pastas do Assets para atender às necessidades de diferentes departamentos. Dessa forma, você também garante que Autores e Editores tenham acesso ao CSS correto configurado em seus modelos, imagens e outros ativos.
-
-     ![](assets/configure-assets-folder.png){width="350" align="left"}
 - **Trechos**: você pode configurar trechos no nível da pasta para garantir que os autores tenham acesso aos trechos corretos. Somente administradores podem criar trechos no Experience Manager Guides, que podem ser usados pelos autores no editor.
 
   Você pode acessar Trechos no painel esquerdo do Editor.

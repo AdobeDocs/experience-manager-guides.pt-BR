@@ -4,9 +4,9 @@ description: Conheça a barra de ferramentas no editor. Saiba mais sobre a inter
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
-source-git-commit: b80737d6066008104ceea103edbc828bc8e632cb
+source-git-commit: 3dee9b2c90515ff7681770247f215996dc2c8325
 workflow-type: tm+mt
-source-wordcount: '5909'
+source-wordcount: '5962'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,11 @@ A barra de ferramentas aparece quando você abre um tópico ou mapa para ediçã
 
 ## Menu suspenso
 
-A lista suspensa Menu fornece acesso às ações de edição, Localizar e substituir, Histórico de versão, Rótulo de versão, Mesclar, Criar tarefa de revisão, Rastrear alterações e Recurso de tags.
+A lista suspensa Menu fornece acesso às ações de edição, Localizar e substituir, Histórico de versão, Rótulo de versão, Mesclar, Criar tarefa de revisão e menu Mostrar (que inclui Rastrear alterações, Tags, Espaço não-separável).
 
-A explicação detalhada desses recursos é a seguinte:
+![Menu suspenso da barra de ferramentas do Editor](images/editor-toolbar-menu-dropdown-new.png){width="350" align="left"}
+
+Veja a seguir a explicação detalhada desses recursos:
 
 **Editar ações**
 
@@ -227,52 +229,52 @@ Para mesclar alterações em um arquivo de mapa, execute as seguintes etapas:
 
 Você pode [criar uma tarefa de revisão](./review-send-topics-for-review.md) do tópico atual ou mapear arquivo diretamente do Editor. Abra o arquivo para o qual deseja criar a tarefa de revisão e selecione **Criar tarefa de revisão** na lista suspensa Menu para iniciar o processo de criação da revisão.
 
-**Controlar alterações**
+**Mostrar menu**
 
-Você pode controlar todas as atualizações feitas em um documento ativando o modo Controlar alterações. Depois de ativar o controle de alterações, todas as inserções e exclusões são capturadas no documento. Todo o conteúdo excluído é realçado usando Tachado e todas as inserções são realçadas em texto de cor verde. Além disso, você também obtém as barras de alteração na borda da página de tópico. Novamente, uma barra vermelha é exibida para o conteúdo excluído, e uma barra verde é exibida para o conteúdo adicionado. Caso haja uma adição e exclusão na mesma linha, as barras verde e vermelha são exibidas.
+O menu Mostrar inclui os seguintes recursos:
 
+- **Controlar alterações:** você pode controlar todas as atualizações feitas em um documento habilitando o modo Controlar alterações. Depois de ativar o controle de alterações, todas as inserções e exclusões são capturadas no documento. Todo o conteúdo excluído é realçado usando Tachado e todas as inserções são realçadas em texto de cor verde. Além disso, você também obtém as barras de alteração na borda da página de tópico. Novamente, uma barra vermelha é exibida para o conteúdo excluído, e uma barra verde é exibida para o conteúdo adicionado. Caso haja uma adição e exclusão na mesma linha, as barras verde e vermelha são exibidas.
 A captura de tela a seguir destaca o conteúdo excluído e inserido junto com as barras de alteração:
+  ![](images/track-changes-content.png){width="650" align="left"}
 
-![](images/track-changes-content.png){width="650" align="left"}
+  Um caso de uso típico para rastrear alterações em um documento pode ser para fazer revisão por pares. Você pode habilitar o controle de alterações e compartilhar seu documento para revisão, e o revisor faz alterações com o controle de alterações ATIVADO. Ao receber o documento, você deve ter um mecanismo para visualizar as atualizações sugeridas, juntamente com uma maneira conveniente de aceitar ou rejeitar alterações.
 
-Um caso de uso típico para rastrear alterações em um documento pode ser para fazer revisão por pares. Você pode habilitar o controle de alterações e compartilhar seu documento para revisão, e o revisor faz alterações com o controle de alterações ATIVADO. Ao receber o documento, você deve ter um mecanismo para visualizar as atualizações sugeridas, juntamente com uma maneira conveniente de aceitar ou rejeitar alterações.
+  O Experience Manager Guides fornece o recurso Alterações controladas que contém informações sobre as atualizações feitas no documento. O recurso Alterações rastreadas fornece informações sobre quais atualizações foram feitas, quem as fez e em que momento. Usando o recurso Alterações controladas, você também pode aceitar ou rejeitar facilmente as atualizações sugeridas no documento.
 
-O Experience Manager Guides fornece o recurso Alterações controladas que contém informações sobre as atualizações feitas no documento. O recurso Alterações rastreadas fornece informações sobre quais atualizações foram feitas, quem as fez e em que momento. Usando o recurso Alterações controladas, você também pode aceitar ou rejeitar facilmente as atualizações sugeridas no documento.
+  Para acessar o recurso, selecione o ícone **Controlar alterações** no painel direito.
 
-Para acessar o recurso, selecione o ícone **Controlar alterações** no painel direito.
+  ![](images/changes-panel_cs.png){width="300" align="left"}
 
-![](images/changes-panel_cs.png){width="300" align="left"}
+  Selecionar uma alteração controlada seleciona o conteúdo alterado no documento. Você pode aceitar uma alteração selecionando o ícone Aceitar alteração ou rejeitá-la selecionando Rejeitar alteração.
 
-Selecionar uma alteração controlada seleciona o conteúdo alterado no documento. Você pode aceitar uma alteração selecionando o ícone Aceitar alteração ou rejeitá-la selecionando Rejeitar alteração.
+  Se quiser aceitar ou rejeitar todas as alterações com um único clique, selecione **Aceitar todas as alterações** ou **Rejeitar todas as alterações**.
 
-Se quiser aceitar ou rejeitar todas as alterações com um único clique, selecione **Aceitar todas as alterações** ou **Rejeitar todas as alterações**.
+  >[!NOTE]
+  >
+  > O modo Visualizar permite visualizar o documento com ou sem as marcações do conteúdo alterado. Para obter mais detalhes, veja o modo [Visualização](web-editor-views.md#preview-mode).
 
->[!NOTE]
->
-> O modo Visualizar permite visualizar o documento com ou sem as marcações do conteúdo alterado. Para obter mais detalhes, veja o modo [Visualização](web-editor-views.md#preview-mode).
+- **Marcas:** O recurso **Marcas** no Editor é um botão de alternância que controla a visibilidade dos elementos DITA. Quando ativado, ele exibe tags estruturais no conteúdo, permitindo que você visualize e gerencie os elementos DITA subjacentes com mais eficiência. Quando desativado, o editor oculta essas tags, fornecendo um ambiente de criação mais limpo e focado.
 
-**Tags**
+  A captura de tela a seguir mostra um documento com a exibição de Tags ativada:
 
-O recurso **Tags** no Editor é um botão de alternância que controla a visibilidade dos elementos DITA. Quando ativado, ele exibe tags estruturais no conteúdo, permitindo que você visualize e gerencie os elementos DITA subjacentes com mais eficiência. Quando desativado, o editor oculta essas tags, fornecendo um ambiente de criação mais limpo e focado.
+  ![](images/tags-view.png){width="650" align="left"}
 
-A captura de tela a seguir mostra um documento com a exibição de Tags ativada:
+  As seguintes operações podem ser executadas em um documento com Tags:
 
-![](images/tags-view.png){width="650" align="left"}
+   - **Selecionar um elemento**: selecione a marca de abertura ou de fechamento de um elemento para selecionar seu conteúdo.
 
-As seguintes operações podem ser executadas em um documento com Tags:
+   - **Expandir ou recolher marcas**: selecione as marcas + ou - para expandir ou recolher uma marca.
 
-- **Selecionar um elemento**: selecione a marca de abertura ou de fechamento de um elemento para selecionar seu conteúdo.
+   - **Usar o menu de contexto**: o menu de contexto fornece opções para recortar, copiar ou colar o elemento selecionado. Também é possível inserir um elemento antes ou depois do elemento selecionado. As outras opções permitem Gerar ID ou abrir o painel Propriedades do elemento selecionado.
 
-- **Expandir ou recolher marcas**: selecione as marcas + ou - para expandir ou recolher uma marca.
-
-- **Usar o menu de contexto**: o menu de contexto fornece opções para recortar, copiar ou colar o elemento selecionado. Também é possível inserir um elemento antes ou depois do elemento selecionado. As outras opções permitem Gerar ID ou abrir o painel Propriedades do elemento selecionado.
-
-- **Arrastar e soltar elementos**: selecione a marca de um elemento e arraste-a e solte-a facilmente no seu documento. Se o local de destino for um local válido onde o elemento é permitido, o elemento será colocado no local de destino.
+   - **Arrastar e soltar elementos**: selecione a marca de um elemento e arraste-a e solte-a facilmente no seu documento. Se o local de destino for um local válido onde o elemento é permitido, o elemento será colocado no local de destino.
 
 
->[!NOTE]
->
-> Se um usuário ativar a visualização Tags no Editor, ela permanecerá ativada mesmo nas sessões. Isso significa que não é necessário habilitar a exibição de Tags novamente para acessá-la posteriormente. O valor padrão para o modo de exibição de Tags da sessão de um novo usuário é determinado pela propriedade `tagsView` no arquivo `ui\_config.json`. Para obter mais detalhes, exiba a seção [Configurar valor padrão para Exibição de Marcas](../cs-install-guide/configure-default-value-tags-view.md) em Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service.
+  >[!NOTE]
+  >
+  > Se um usuário ativar a visualização Tags no Editor, ela permanecerá ativada mesmo nas sessões. Isso significa que não é necessário habilitar a exibição de Tags novamente para acessá-la posteriormente. O valor padrão para o modo de exibição de Tags da sessão de um novo usuário é determinado pela propriedade `tagsView` no arquivo `ui\_config.json`. Para obter mais detalhes, exiba a seção [Configurar valor padrão para Exibição de Marcas](../cs-install-guide/configure-default-value-tags-view.md) em Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service.
+
+- **Espaço não-separável:** Habilite esta opção para mostrar um indicador para os espaços não-separáveis ao editá-lo no Editor. Ele está visível somente na exibição **Autor** para o tópico DITA e mapas DITA.
 
 ## Opções de inserção de conteúdo
 
@@ -621,4 +623,4 @@ Se um arquivo for bloqueado por outro usuário, passar o mouse sobre o ícone de
 Como administrador, você também tem acesso ao recurso **Forçar desbloqueio** que permite desbloquear o arquivo bloqueado por outros usuários. Use este recurso para acessar os direitos de edição em um arquivo bloqueado por outros usuários.
 
 ![](images/web-editor-force-unlock-new.png){width="350" align="left"}
-**Tópico pai:**&#x200B;[ Introdução ao Editor](web-editor.md)
+**Tópico pai:**[ Introdução ao Editor](web-editor.md)

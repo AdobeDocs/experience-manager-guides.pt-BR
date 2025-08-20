@@ -4,9 +4,9 @@ description: Gere uma saída para um mapa DITA no console do mapa e no painel Ma
 exl-id: d6cbd44c-e74c-4192-bcc4-fb7752c59508
 feature: Publishing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 358d38ca761661eaee7aeac2cc7d46c53105c543
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,15 @@ Você pode visualizar o status atual da solicitação de geração de saída na 
 
 Você também pode gerar a saída do AEM Sites para um ou mais tópicos, ou todo o mapa DITA no console Mapa. Para obter mais detalhes, exiba [Gerar saída da Base de Dados de Conhecimento](web-editor-article-publishing.md#id218CK0U019I).
 
+## Mesclando diferentes tópicos em um mapa DITA usando o atributo `chunk`
+
+Um mapa DITA pode incluir diferentes tipos de tópicos, como referência, conceito e tarefa. O atributo `chunk=to-content` permite unir esses tópicos para gerar uma única saída de página no AEM Sites. No entanto, para publicar o tópico mesclado corretamente, certifique-se de que o administrador configurou o catálogo XML correto nos Perfis DITA.
+
+O sistema requer uma ID pública com a palavra-chave `composite` no catálogo XML para identificar e aplicar corretamente a regra DTD apropriada.
+Essa configuração é incluída por padrão no catálogo XML padrão. No entanto, se estiver usando um catálogo XML personalizado, verifique se o administrador adicionou essa ID pública à configuração. Sem ele, o tópico mesclado pode não ser publicado corretamente.
+
+Para obter detalhes sobre como usar a ID pública e a ID do sistema nos DTDs/XSDs personalizados, exiba [Integrar especialização de DITA](../cs-install-guide/dita-ot-specialization.md#integrate-dita-specialization-id211mb0e00xa).
 
 
 
-**Tópico pai:**&#x200B;[ Geração de saída](generate-output.md)
+**Tópico pai:**[ Geração de saída](generate-output.md)

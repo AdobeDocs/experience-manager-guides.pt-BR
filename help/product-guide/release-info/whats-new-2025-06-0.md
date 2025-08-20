@@ -3,9 +3,9 @@ title: Notas de versão | Novidades da versão 2025.06.0 do Adobe Experience Man
 description: Saiba mais sobre os recursos novos e aprimorados da versão 2025.06.0 do Adobe Experience Manager Guides
 role: Leader
 exl-id: 48f27aa6-d870-4228-8e62-db81699a25f7
-source-git-commit: 158c2a99ac43fd70726bedf30f4de1a970a48864
+source-git-commit: d418ffb254b11430509609b91e0174690815cf73
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
@@ -17,14 +17,6 @@ Este artigo aborda os recursos novos e aprimorados introduzidos com a versão 20
 Para obter a lista de problemas corrigidos nesta versão, consulte [Problemas corrigidos na versão 2025.06.0](fixed-issues-2025-06-0.md).
 
 Saiba mais sobre [as instruções de atualização para a versão 2025.06.0](../release-info/upgrade-instructions-2025-06-0.md).
-
-## Os arquivos temporários para saída publicada agora incluem Autor e URLs de publicação em um novo arquivo de configuração
-
-Os últimos aprimoramentos de publicação no Experience Manager Guides agora adicionam um novo arquivo `system_config.json` aos arquivos temporários gerados ao publicar saídas do HTML, PDF e JSON usando DITA-OT, bem como saída do PDF nativo. Este arquivo é incluído automaticamente no trabalho de publicação e também pode ser acessado por meio de arquivos temporários quando você habilita a opção **Reter arquivos temporários** para as predefinições e gera a saída.
-
-O arquivo `system_config.json` contém detalhes importantes da instância, incluindo a URL do Autor, a URL Local e a URL de Publicação, que fornecem um contexto mais claro e melhoram a rastreabilidade das URLs baixadas.
-
-Para obter mais detalhes, consulte [Compreender as predefinições de saída](../user-guide/generate-output-understand-presets.md).
 
 ## Solicitação de tempo limite da sessão para evitar perda acidental de conteúdo
 

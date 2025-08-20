@@ -4,29 +4,28 @@ description: Saiba como tratar comentários de revisão como autor no AEM Guides
 exl-id: 4c969788-f700-4fd6-8afa-8e5b411b59f3
 feature: Reviewing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: f8320d0e0b5982d932c9df46f8ccf35d5f44dbac
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1220'
 ht-degree: 0%
 
 ---
 
 # Comentários de revisão de endereço {#id2056B0X0KBI}
 
+Como um Autor, você pode endereçar comentários em um tópico usando o Editor. Os comentários são carregados com base na tarefa de revisão selecionada no painel Revisão. Para obter mais detalhes, exiba a descrição do recurso **Painel de revisão** ![](images/active-review-tasklist-icon.svg) na seção [Painel esquerdo](../user-guide/web-editor-features.md#id2051EA0M0HS).
 
-Como autor, você pode endereçar comentários em um tópico usando o Editor da Web. Os comentários são carregados com base na tarefa de revisão selecionada no painel Revisão. Para obter mais detalhes, exiba a descrição do recurso **Painel de revisão** ![](images/active-review-tasklist-icon.svg) na seção [Painel esquerdo](../user-guide/web-editor-features.md#id2051EA0M0HS).
+As seções a seguir descrevem maneiras de abordar comentários no Editor.
 
-As seções a seguir descrevem maneiras de endereçar comentários no Editor da Web.
-
-Um autor pode endereçar comentários em um documento do Editor da Web. Indicadores visuais são fornecidos indicando se os comentários foram inseridos \(texto\), excluídos ou realçados. Além disso, o tipo de comentário é mencionado na parte superior de cada entrada de comentário.
+Um Autor pode endereçar comentários em um documento do Editor. Indicadores visuais são fornecidos indicando se os comentários foram inseridos \(texto\), excluídos ou realçados. Além disso, o tipo de comentário é mencionado na parte superior de cada entrada de comentário.
 
 >[!NOTE]
 >
-> Ao abordar os comentários de revisão \(para um documento de revisão ativo\), certifique-se de que você—não abra o tópico em revisão em várias guias com a exibição de tags completas ativada, não alterne entre os modos de exibição Autor e Source.
+> Ao abordar os comentários de revisão \(para um documento de revisão ativo\), certifique-se de não abrir o tópico em revisão em várias guias com a exibição de tags completas ativada, e não alterne entre os modos de exibição Autor e Source.
 
 ![](images/comments-page-web-editor_cs-new.png){align="left"}
 
-No modo Editor da Web, o painel direito contém os ícones Revisar e Controlar alterações. O painel Revisão mostra todos os comentários feitos em seu documento pelos revisores. O painel **Controlar Alterações** mostra o status de todos os comentários inseridos e excluídos no documento.
+No Editor, o painel direito contém os ícones Revisar e Controlar alterações. O painel Revisão mostra todos os comentários feitos em seu documento por Revisores. O painel **Controlar alterações** mostra o status de todos os comentários inseridos e excluídos no documento.
 
 - **A**: selecione uma tarefa de revisão para exibir comentários de revisão. Se o seu tópico tiver sido compartilhado para revisão em várias tarefas de revisão, você visualizará essas tarefas listadas nesse menu suspenso.
 
@@ -42,7 +41,7 @@ No modo Editor da Web, o painel direito contém os ícones Revisar e Controlar a
   >
   > Se o mapa raiz da sua tarefa de revisão for diferente do mapa raiz de criação, ele exibirá as informações sobre ele para indicar que a criação e o mapa raiz de revisão não correspondem.
 
-- **C**: se você atualizou seu tópico após iniciar a revisão, selecionar o ícone Reverter Tópico para Versão de Revisão reverte sua cópia de trabalho para a versão que foi compartilhada para revisão. Isso facilita a incorporação do feedback de revisão diretamente na versão que foi compartilhada para revisão. Depois de incorporar o feedback, você pode salvar as alterações na versão revertida ou criar uma nova revisão do seu tópico. Se você optar por criar uma nova revisão do tópico, uma nova ramificação será criada a partir da versão do tópico que foi compartilhada para revisão. Por exemplo, se você compartilhou a versão `1.2` de um tópico para revisão enquanto a versão de criação atual é `1.3`, é possível usar esse ícone para voltar para a versão `1.2` para incorporar comentários de revisão. Se você optar por criar uma nova revisão após incorporar as alterações na versão `1.2`, uma nova ramificação com a versão `1.2.0` será criada para o tópico.
+- **C**: se você tiver atualizado seu tópico após iniciar a revisão, selecionar o ícone **Reverter Tópico para Versão de Revisão** reverterá sua cópia de trabalho para a versão que foi compartilhada para revisão. Isso facilita a incorporação do feedback de revisão diretamente na versão que foi compartilhada para revisão. Depois de incorporar o feedback, você pode salvar as alterações na versão revertida ou criar uma nova revisão do seu tópico. Se você optar por criar uma nova revisão do tópico, uma nova ramificação será criada a partir da versão do tópico que foi compartilhada para revisão. Por exemplo, se você compartilhou a versão `1.2` de um tópico para revisão enquanto a versão de criação atual é `1.3`, é possível usar esse ícone para voltar para a versão `1.2` para incorporar comentários de revisão. Se você optar por criar uma nova revisão após incorporar as alterações na versão `1.2`, uma nova ramificação com a versão `1.2.0` será criada para o tópico.
 
   Normalmente, depois de incorporar o feedback da revisão, você gostaria de mesclar as alterações da versão mais recente do tópico. Para fazer isso, use o recurso [Mesclar](web-editor-features.md#id205DF04E0HS) para obter todas as atualizações feitas após o tópico ter sido compartilhado para revisão.
 
@@ -72,5 +71,23 @@ No modo Editor da Web, o painel direito contém os ícones Revisar e Controlar a
 
 - **I**: aplicar um filtro aos comentários. Você pode filtrar para exibir comentários com base no Tipo de revisão \(todos, destacados, excluídos, inseridos ou nota adesiva\), Status da revisão \(todos, aceitos, rejeitados ou nenhum\), Revisores \(todos ou revisores específicos\(s\)\) ou Versões de tópico.
 
+**Responder a um comentário marcando outros usuários**
 
-**Tópico pai:**&#x200B;[ Introdução à revisão](review.md)
+Como Autor e iniciador da tarefa de revisão, você pode responder a comentários de revisão e marcar outros usuários envolvidos na mesma tarefa de revisão para direcionar sua atenção ou atribuir acompanhamentos. Essa funcionalidade só está disponível para tarefas de revisão ativas.
+
+>[!NOTE]
+>
+> Para exibir a lista de usuários atribuídos a uma tarefa de revisão e marcá-los em um comentário, você deve ter acesso de *Leitura* aos nós `/home/users and /home/groups`. Para obter detalhes, consulte [Administração e segurança do usuário](../cs-install-guide/user-admin-sec.md#additional-notes-on-user-groups). <br> Se a marcação ainda não estiver disponível após a confirmação do acesso, talvez o administrador precise atribuir uma licença do `user-admin` para habilitar essa funcionalidade.
+
+![](images/tag-users-review.png){width="350" align="left"}
+*Legenda:Tag usuários como iniciador/Autor*
+
+Os usuários marcados recebem um email e uma notificação do AEM, garantindo que sejam informados imediatamente. Para obter mais detalhes sobre como as notificações de revisão disparam, consulte [Noções básicas sobre notificações de revisão](./review-understanding-review-notifications.md).
+
+**Acessar comentários de revisão usando a Interface de Revisão**
+
+Se você for o iniciador ou o Autor de uma tarefa de revisão e abri-la no **console de Projetos**, o tópico será iniciado na interface de Revisão. Como essa tarefa não está atribuída a você, você pode exibir e responder aos comentários, mas não pode executar nenhuma ação de revisão. A barra de ferramentas de comentários permanece desativada para usuários que não estão atribuídos à tarefa.
+
+![](images/review-comments-toolbar-disabled.png){width="350" align="left"}
+
+**Tópico pai:**[ Introdução à revisão](review.md)

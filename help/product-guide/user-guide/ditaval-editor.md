@@ -4,7 +4,7 @@ description: Entenda como criar e editar arquivos DITAVAL usando o Editor DIVATA
 exl-id: f3901a4f-1925-42aa-b773-0d6f18175ce8
 feature: Authoring, DITAVAL Editor
 role: User
-source-git-commit: a49234698e040c7441ea0f82265f4b7936a95dfc
+source-git-commit: cbc9cd59e36dad63b25866b2d5c52a7380dc7d26
 workflow-type: tm+mt
 source-wordcount: '1501'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Os arquivos DITAVAL são usados para gerar saída condicional. Em um único tópico, você pode adicionar condições usando atributos de elemento para condicionar o conteúdo. Em seguida, crie um arquivo DITAVAL, no qual especifique as condições que devem ser selecionadas para gerar conteúdo e qual condição deve ser deixada de fora da saída final.
 
-O Adobe Experience Manager Guides permite criar e editar facilmente arquivos DITAVAL usando o editor DITAVAL. O editor DITAVAL recupera os atributos (que podem ser usados como condições) definidos no sistema e você pode usá-los para criar ou editar arquivos DITAVAL. Para obter mais detalhes sobre como criar e gerenciar condições no Adobe Experience Manager, consulte a seção [Administração de tags](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=pt-BR) na documentação do Adobe Experience Manager.
+O Adobe Experience Manager Guides permite criar e editar facilmente arquivos DITAVAL usando o editor DITAVAL. O editor DITAVAL recupera os atributos (que podem ser usados como condições) definidos no sistema e você pode usá-los para criar ou editar arquivos DITAVAL. Para obter mais detalhes sobre como criar e gerenciar condições no Adobe Experience Manager, consulte a seção [Administração de tags](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) na documentação do Adobe Experience Manager.
 
 As seções a seguir abordam as opções disponíveis para um arquivo DITAVAL no Experience Manager Guides.
 
@@ -30,7 +30,7 @@ Execute as seguintes etapas para criar um arquivo DITAVAL:
 
 1. No painel Repositório, selecione o ícone **Novo arquivo** e selecione **Tópico** no menu suspenso.
 
-   ![](images/new-file-option.png){width="300" align="left"}
+   ![](images/new-file-option.png){width="350" align="left"}
 
    Você também pode acessar esta opção a partir da [Página inicial do Experience Manager Guides](./intro-home-page.md) e do menu de opções de uma pasta na exibição Repositório.
 
@@ -42,7 +42,7 @@ Execute as seguintes etapas para criar um arquivo DITAVAL:
    - Um modelo no qual o tópico será baseado. Para um arquivo DITAVAL, selecione **Ditaval** na lista suspensa.
    - Caminho no qual você deseja salvar o arquivo de tópico. Por padrão, o caminho da pasta selecionada no momento no repositório é mostrado no campo Caminho.
 
-   ![](images/new-topic-dialog-ditaval.png){width="300" align="left"}
+   ![](images/new-topic-dialog-ditaval.png){width="350" align="left"}
 
 
 4. Selecione **Criar**.
@@ -112,35 +112,35 @@ Há quatro ações disponíveis principais para uma determinada propriedade que 
 - **Cor do Plano de Fundo**: selecione o matiz, a saturação e o contraste na cor do Plano de Fundo. O valor hexadecimal correspondente será atualizado automaticamente com base na sua seleção. Também é possível alternar o formato do espaço de cores usando a lista suspensa para escolher entre HEX, RGB e HSB.
 
 
-![](images/ditaval-background-color.png){width="650" align="left"}
+  ![](images/ditaval-background-color.png){width="350" align="left"}
 
 
 
 - **Cor do Texto**: selecione a matiz, a saturação e o contraste na cor do Texto. O valor hexadecimal correspondente será atualizado automaticamente com base na sua seleção. Também é possível alternar o formato do espaço de cores usando a lista suspensa para escolher entre HEX, RGB e HSB.
 
 
-![](images/ditaval-text-color.png){width="650" align="left"}
+  ![](images/ditaval-text-color.png){width="350" align="left"}
 
 
 
 - **Opções de estilo**: você pode adicionar algumas opções de estilo, como Negrito, Itálico, Sublinhado, Sobreposto, Sublinhado duplo.
 
 
-![](images/ditaval-styling-option.png){width="650" align="left"}
+  ![](images/ditaval-styling-option.png){width="350" align="left"}
 
 
 
 - **Sinalizadores de Início e Término**: você pode inserir imagens como sinalizadores de início e término usando o botão **Adicionar Sinalizador**. Para escolher imagens, use o **Procurar Assets** para selecionar no repositório de Guias ou o **Adicionar Arquivo** para carregar do seu sistema local. Além disso, é possível especificar texto alternativo para as imagens.
 
 
-![](images/ditaval-start-end-flags.png){width="650" align="left"}
+  ![](images/ditaval-start-end-flags.png){width="350" align="left"}
 
 
 
 - **Conflito de estilo**: resolve os conflitos que ocorrem quando um único elemento contém várias propriedades com estilos de Sinalizador diferentes. Nesses casos, o valor definido nas propriedades de conflito de estilo é selecionado, atuando efetivamente como um seletor de valor padrão para cores de fundo e texto.
 
 
-![](images/ditaval-style-conflict.png){width="650" align="left"}
+  ![](images/ditaval-style-conflict.png){width="650" align="left"}
 
 
 #### Informações de versão e Salvar como nova versão

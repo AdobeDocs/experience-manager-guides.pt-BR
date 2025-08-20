@@ -5,9 +5,9 @@ exl-id: 3be387b9-6ac2-4b61-afdf-fbe9d8b6cc1e
 feature: Workflow Configuration
 role: Admin
 level: Experienced
-source-git-commit: 3f61aa6615a1b9765154d55249a33136443dfa33
+source-git-commit: 01efb1f17b39fcbc48d78dd1ae818ece167f4fe5
 workflow-type: tm+mt
-source-wordcount: '1856'
+source-wordcount: '1854'
 ht-degree: 2%
 
 ---
@@ -18,20 +18,20 @@ Os workflows permitem automatizar as atividades do Adobe Experience Manager \(AE
 
 Para obter mais informações sobre fluxos de trabalho no AEM, consulte:
 
-- [Administrando Fluxos de Trabalho](https://helpx.adobe.com/br/experience-manager/6-5/sites/administering/using/workflows.html)
+- [Administrando Fluxos de Trabalho](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html)
 
-- Aplicando e participando de fluxos de trabalho: [Trabalhando com fluxos de trabalho](https://helpx.adobe.com/br/experience-manager/6-5/sites/authoring/using/workflows.html).
+- Aplicando e participando de fluxos de trabalho: [Trabalhando com fluxos de trabalho](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/workflows.html).
 
-- Criação de modelos de fluxo de trabalho e extensão da funcionalidade do fluxo de trabalho: [Desenvolvimento e extensão de Fluxos de Trabalho](https://helpx.adobe.com/br/experience-manager/6-5/sites/developing/using/workflows.html).
+- Criação de modelos de fluxo de trabalho e extensão da funcionalidade do fluxo de trabalho: [Desenvolvimento e extensão de Fluxos de Trabalho](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/workflows.html).
 
-- Melhorando o desempenho de fluxos de trabalho que usam recursos significativos do servidor: [Processamento de Fluxo de Trabalho Simultâneo](https://helpx.adobe.com/br/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance).
+- Melhorando o desempenho de fluxos de trabalho que usam recursos significativos do servidor: [Processamento de Fluxo de Trabalho Simultâneo](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance).
 
 
 As seções neste tópico guiarão você pelas várias personalizações que podem ser feitas nos fluxos de trabalho padrão enviados no AEM Guides.
 
 ## Personalizar fluxo de trabalho de revisão {#id176NE0C00HS}
 
-A equipe de criação de conteúdo de cada organização trabalha de maneira específica para atender às suas necessidades de negócios. Em algumas organizações há um editor dedicado, enquanto outras poderiam ter um sistema automatizado de revisão editorial em vigor. Por exemplo, em uma organização, um fluxo de trabalho típico de criação e publicação pode incluir tarefas como: sempre que um autor é concluído com a criação de conteúdo, ele vai automaticamente para os revisores e, quando a revisão é concluída, vai para o editor para gerar a saída final. No AEM, as atividades que você faz no conteúdo e nos ativos podem ser combinadas no formato de um processo e mapeadas para um fluxo de trabalho do AEM. Para obter mais informações sobre fluxos de trabalho no AEM, consulte [Administração de fluxos de trabalho](https://helpx.adobe.com/br/experience-manager/6-5/sites/administering/using/workflows.html) na documentação do AEM.
+A equipe de criação de conteúdo de cada organização trabalha de maneira específica para atender às suas necessidades de negócios. Em algumas organizações há um editor dedicado, enquanto outras poderiam ter um sistema automatizado de revisão editorial em vigor. Por exemplo, em uma organização, um fluxo de trabalho típico de criação e publicação pode incluir tarefas como: sempre que um autor é concluído com a criação de conteúdo, ele vai automaticamente para os revisores e, quando a revisão é concluída, vai para o editor para gerar a saída final. No AEM, as atividades que você faz no conteúdo e nos ativos podem ser combinadas no formato de um processo e mapeadas para um fluxo de trabalho do AEM. Para obter mais informações sobre fluxos de trabalho no AEM, consulte [Administração de fluxos de trabalho](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html) na documentação do AEM.
 
 O AEM Guides permite personalizar o workflow de revisão padrão. Você pode usar os quatro processos personalizados relacionados à revisão a seguir com outros fluxos de trabalho de criação ou publicação.
 
@@ -108,7 +108,7 @@ Você pode criar esse script no nó `/etc/workflows/scripts`. A tabela a seguir 
 | `startTime` | Longo | Use a função `System.currentTimeMillis()` para obter a hora atual do sistema. |
 | `projectPath` | String | Caminho do projeto de revisão ao qual a tarefa de revisão será atribuída, por exemplo: /content/projects/samplereviewproject. |
 | `reviewType` | String | Valor estático &quot;AEM&quot;. |
-| `versionJson` | Objeto JSON | versionJson é uma lista de tópicos que entram na revisão, em que cada objeto de tópico tem a seguinte estrutura { &quot;path&quot;: &quot;/content/dam/1-topic.dita&quot;, &quot;version&quot;: &quot;1.1&quot;, &quot;review&quot;: true, &quot;revisores&quot;: [&quot;projects-we_retail-editor&quot;] } |
+| `versionJson` | Objeto JSON | versionJson é uma lista de tópicos que entram na revisão, em que cada objeto de tópico tem a seguinte estrutura [ { &quot;path&quot;: &quot;/content/dam/1-topic.dita&quot;, &quot;version&quot;: &quot;1.1&quot;, &quot;review&quot;: true, &quot;revisores&quot;: [&quot;projects-we_retail-editor&quot;] } ] |
 | `isDitamap` | Booleano | falso/verdadeiro |
 | `ditamapHierarchy` | Objeto JSON | Caso o mapa seja enviado para revisão, o valor aqui deve ser como:[ { &quot;path&quot;: &quot;GUID-f0df1513-fe07-473f-9960-477d4df29c87.ditamap&quot;, &quot;items&quot;: [ { &quot;path&quot;: &quot;GUID-9747e8ab-8cf1-45dd-9e20-d47d482f667d.dita&quot;, &quot;title&quot;: &quot;&quot;, &quot;items&quot;: [] } ] } ]. |
 | `ditamap` | String | Especificar o caminho do ditamap da tarefa de revisão |

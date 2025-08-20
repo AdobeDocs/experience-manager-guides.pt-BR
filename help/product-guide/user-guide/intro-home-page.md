@@ -4,9 +4,9 @@ description: Conheça a página inicial da Adobe Experience Manager Guides.
 feature: Authoring
 role: User
 exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 03f117381bda7d31b50085b83f309e24f9a75210
 workflow-type: tm+mt
-source-wordcount: '1853'
+source-wordcount: '1824'
 ht-degree: 0%
 
 ---
@@ -159,22 +159,22 @@ As preferências do usuário estão disponíveis para todos os autores. Usando a
 
 - **Geral**: a guia Geral permite definir as seguintes configurações:
 
-  ![](images/user_preference_editor.PNG){align="left"}
+  ![](images/user_preference_editor-new.png){align="left"}
 
    - **Perfil de pasta**: o perfil de pasta controla várias configurações relacionadas a atributos condicionais, modelos de criação, predefinições de saída e configurações do Editor. O perfil Global é exibido por padrão. Além disso, se o administrador tiver configurado perfis de pastas no sistema, esses perfis de pastas também serão mostrados na lista Perfis de pastas.
    - **Caminho base**: por padrão, ao acessar o repositório do Experience Manager Guides a partir do Editor, você verá ativos do local /content/dam. Sua pasta de trabalho provavelmente seria algumas pastas dentro da pasta /content/dam/. Você pode definir o Caminho base para sua pasta de trabalho e a Visualização do repositório, em seguida, mostra o conteúdo desse local antecipadamente. Isso reduz o tempo de acesso à pasta de trabalho. Além disso, ao inserir qualquer referência ou arquivo de mídia no tópico, o local de navegação do arquivo começa com a pasta definida no caminho Base.
-      - **Selecionar mapa de raiz**: selecione um arquivo de mapa DITA para resolver referências de chave ou entradas de glossário. O mapa raiz selecionado tem a precedência mais alta para resolver referências principais. Para obter mais detalhes, consulte [Resolver referências de chave](./map-editor-other-features.md).
-      - **Número máximo de arquivos recentes**: use este campo para definir um limite máximo nos arquivos exibidos no widget Arquivos recentes.
-      - **Definir comportamento padrão de abertura de mapa**: aqui, você pode selecionar um comportamento padrão que o sistema seguirá ao abrir um arquivo de mapa DITA.
+   - **Selecionar mapa de raiz**: selecione um arquivo de mapa DITA para resolver referências de chave ou entradas de glossário. O mapa raiz selecionado tem a precedência mais alta para resolver referências principais. Para obter mais detalhes, consulte [Resolver referências de chave](./map-editor-other-features.md).
+   - **Número máximo de arquivos recentes**: use este campo para definir um limite máximo nos arquivos exibidos no widget Arquivos recentes.
+   - **Abrindo preferências para Mapas**: aqui, você pode selecionar um comportamento padrão que o sistema seguirá ao abrir um arquivo de mapa DITA.
 
 - **Aparência**: a guia Aparência fornece as opções para selecionar os temas do aplicativo e a exibição de origem da área de edição de conteúdo. Use esta guia para definir as seguintes configurações:
 
-  ![](images/user_preference_editor_appearance.png){align="left"}
+  ![](images/user_preference_editor_appearance-new.png){align="left"}
 
-   - **Configuração de exibição de arquivos do editor**: selecione a maneira padrão de exibir os arquivos no Editor. Você pode visualizar a lista de arquivos por títulos ou nomes de arquivo dos vários painéis na visualização Autor. Por padrão, os arquivos são exibidos por título no Editor.
    - **Tema do aplicativo e exibição do Source**: você pode escolher entre os temas Claro ou Escuro para a exibição do aplicativo e da fonte. No caso do tema Luz, as barras de ferramentas e os painéis usam um plano de fundo de cor cinza-claro. No caso do tema Escuro, as barras de ferramentas e os painéis usam um plano de fundo preto. Selecione o tema **Usar dispositivo** para permitir que o Experience Manager Guides selecione os temas claro e escuro com base no tema do seu dispositivo.
 
      Em todos os temas, a área de edição de conteúdo é mostrada em fundo branco na exibição Autor.
 
+   - **Configuração de exibição de arquivos do editor**: selecione a maneira padrão de exibir os arquivos no Editor. Você pode exibir a lista de arquivos por títulos ou nomes de arquivos dos vários painéis na exibição Autor. Por padrão, os arquivos são exibidos por título no Editor.
+
    - **Sempre localizar arquivos no repositório**: selecione esta opção para mostrar o local de um arquivo no repositório ao editá-lo no Editor.
-   - **Mostrar indicador de espaço não-separável no modo de autor**: selecione esta opção para mostrar um indicador para os espaços não-separáveis ao editá-lo no Editor. Está ativado por padrão.
