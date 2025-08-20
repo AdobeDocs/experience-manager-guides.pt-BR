@@ -130,4 +130,4 @@ O relatório de status da tarefa de revisão contém os seguintes detalhes:
 - Número total de comentários feitos em todos os tópicos. No caso de vários tópicos em revisão, o número de comentários para cada tópico é mencionado \(entre parênteses\) em relação ao nome do tópico.
 - A data em que qualquer tópico foi acessado pela última vez pelo revisor.
 
-**Tópico pai:**[ Introdução à revisão](review.md)
+**Tópico pai:**&#x200B;[ Introdução à revisão](review.md)

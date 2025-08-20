@@ -49,4 +49,4 @@ Para obter mais detalhes sobre como os vários cenários de carregamento de arqu
 
 Caso use uma ferramenta como o aplicativo de desktop do Adobe Experience Manager ou o Assimilador de ativos em massa, a ação a ser executada em um arquivo duplicado é controlada por uma configuração no servidor do Adobe Experience Manager. Entre em contato com o administrador do sistema para saber sobre essa configuração.
 
-**Tópico pai:**[ Gerenciar conteúdo](authoring.md)
+**Tópico pai:**&#x200B;[ Gerenciar conteúdo](authoring.md)
