@@ -133,4 +133,4 @@ Instale o **Pacote de Componentes (guides-components.all-1.x.x.zip)** e execute 
 
 >[!NOTE]
 >
-> Verifique se todas as configurações foram testadas em um ambiente de não produção antes de implantar na produção. <br><br> Consulte a [documentação oficial de Implantação do AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview) para obter mais detalhes.
+> Verifique se todas as configurações foram testadas em um ambiente de não produção antes de implantar na produção. <br><br> Consulte a [documentação oficial de Implantação do AEM as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/implementing/deploying/overview) para obter mais detalhes.
