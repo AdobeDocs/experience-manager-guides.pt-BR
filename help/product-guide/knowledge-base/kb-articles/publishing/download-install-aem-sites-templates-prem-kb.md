@@ -35,7 +35,7 @@ Antes de continuar com a configuração, verifique se os seguintes pré-requisit
 ## Instalação de pacote usando o Gerenciador de pacotes do CRX
 
 1. **Instalar o Pacote de Componentes:**
-   1. Navegue até [**CRX Package Manager**](http://<your-aem-instance>/crx/packmgr).
+   1. Navegue até [**CRX Package Manager**](http://&lt;your-aem-instance>/crx/packmgr).
    2. Carregue e instale o pacote no local-guides-components.all-1.x.0.zip.
 
 2. **Instalar o Pacote do Sites:** Carregue e instale o pacote aemg-docs.all-1.x.0.zip usando o Gerenciador de Pacotes do CRX.
