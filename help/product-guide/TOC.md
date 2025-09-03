@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leia a documentação do produto do Adobe Experience Manager Guides.
 breadcrumb-title: Documentação do AEM Guides
-source-git-commit: ace32569321747c53829c58f9daca7e5c7753f99
+source-git-commit: 45dba186e27762bae48f90f9d4edd790b9a940ce
 workflow-type: tm+mt
-source-wordcount: '2353'
-ht-degree: 7%
+source-wordcount: '2363'
+ht-degree: 8%
 
 ---
 
@@ -102,6 +102,10 @@ ht-degree: 7%
             - [Notas de versão de janeiro](./release-info/release-notes-2022-1-0.md)
       - No local/Managed Services {#on-prem-release-notes}
          - [Versões de [!DNL AEM Guides]](./release-info/latest-release-info.md)
+         - Versão 5.1.0 SP1 {#510-release}
+            - [Novidades](./release-info/whats-new-5-1-0.md)
+            - [Problemas corrigidos](./release-info/fixed-issues-5-1-0.md)
+            - [Instruções de atualização](./release-info/upgrade-instructions-5-1-0.md)
          - Versão 5.0.0 SP1 {#500-sp1-release}
             - [Problemas corrigidos](./release-info/fixed-issues-5-0-0-sp1.md)
             - [Instruções de atualização](./release-info/upgrade-instructions-5-0-0-sp1.md)
@@ -144,8 +148,8 @@ ht-degree: 7%
                - [Notas de versão 4.2.1](./release-info/release-notes-4-2-1.md)
                - [Notas de versão 4.2](./release-info/release-notes-4-2.md)
          - [Notas de versão 4.1.x](./release-info/release-notes-4-1.md)
-         - [Notas de versão do 4.0.x](https://helpx.adobe.com/br/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [Notas de versão da 3.8.x](https://helpx.adobe.com/br/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [Notas de versão do 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [Notas de versão da 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Guia do usuário (nova interface do usuário) {#user-guide}
    - Introdução {#about-aemg}
       - [Sobre [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -342,7 +346,7 @@ ht-degree: 7%
       - Resolução de problemas {#troubleshooting}
          - [Tempo limite da sessão](./user-guide/session-timeout-prompt.md)
 - Guia do usuário (interface antiga) {#user-guide-old-ui}
-   - [visão geral do AEM Guides](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [visão geral do AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Instalação e configuração {#install-guide}
    - No local {#on-prem-ig}
       - [Noções básicas no local](./install-guide/introduction.md)

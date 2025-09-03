@@ -3,9 +3,10 @@ title: Solicitar uma revisão ou fechar uma tarefa de revisão como um Autor
 description: Saber sobre o fluxo de trabalho de fechamento de uma tarefa de revisão ou de solicitação de uma revisão como um Autor no Experience Manager Guides.
 feature: Reviewing
 role: User
-source-git-commit: b7648fe1d36de3c243ca5a55f42a41f7523056ce
+exl-id: d2119bbe-3a0c-4da3-b4f8-7872496fa61f
+source-git-commit: 439be49e8f4c8cfacb16679257352f4197574365
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
@@ -45,13 +46,18 @@ Execute as seguintes etapas para solicitar uma revisão ou fechar uma tarefa de 
 4. Selecione **Atualizar tarefa** para executar mais ações na tarefa de revisão selecionada.
 5. Na caixa de diálogo **Atualizar tarefa**, escolha uma das seguintes ações:
 
-   - **Solicitar uma revisão**: inicia outra rodada de revisão. É possível selecionar uma versão diferente do tópico para revisão. Por padrão, a versão mais recente (ou a última edição) do tópico ou arquivo de mapa enviado para revisão é selecionada. Os revisores que concluíram a revisão anterior receberão uma notificação para fornecer feedback sobre a versão atualizada. Outros Revisores, que não marcaram a tarefa de revisão como concluída, serão notificados sobre a atualização do tópico.
+   - **Solicitar uma revisão**: inicia outra rodada de revisão. É possível selecionar uma versão diferente do tópico para revisão. Por padrão, a versão mais recente (ou a última edição) do tópico ou arquivo de mapa enviado para revisão é selecionada. Você também pode usar a opção **Editar versões** para definir a versão dos tópicos selecionados como **Versão mais recente**, **Versão em** e **Linha de Base** de acordo com a necessidade.  Os revisores que concluíram a revisão anterior receberão uma notificação para fornecer feedback sobre a versão atualizada. Outros Revisores, que não marcaram a tarefa de revisão como concluída, serão notificados sobre a atualização do tópico.
 
    - **Fechar revisão**: fecha a tarefa de revisão. O botão **Atualizar tarefa**, presente na parte inferior do painel Revisão, muda para **Fechado** e uma notificação é enviada a todos os usuários envolvidos na tarefa de revisão indicando seu encerramento.
 
-   Para obter mais detalhes sobre como as notificações de revisão disparam, consulte [Noções básicas sobre notificações de revisão](./review-understanding-review-notifications.md).
+   Para obter detalhes sobre como as notificações de revisão disparam, exiba [Noções básicas sobre notificações de revisão](./review-understanding-review-notifications.md).
 
-   ![](images/update-task-dialog.png).
+   ![](images/update-task-dialog.png){width="350" align="left"}
+
+   >[!NOTE]
+   >
+   > A caixa de diálogo **Atualizar tarefa** também incluirá uma coluna **Estado do documento** para indicar o estado atual dos tópicos de revisão listados ao usar o Experience Manager Guides como Cloud Services.
+
 
 6. Selecione **Confirmar**.
 
