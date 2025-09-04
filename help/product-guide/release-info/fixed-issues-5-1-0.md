@@ -1,9 +1,9 @@
 ---
 title: Notas de versão | Correção de problemas na versão 5.1.0 do Adobe Experience Manager Guides
 description: Saiba mais sobre as correções de erros na versão 5.1.0 do Adobe Experience Manager Guides.
-source-git-commit: 64df76f371867469d738f59a174e7931176e8591
+source-git-commit: 6c29d5540f48c850416db279b4392b6042c8ca2c
 workflow-type: tm+mt
-source-wordcount: '1796'
+source-wordcount: '1789'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,6 @@ A Adobe identificou os seguintes problemas conhecidos para a versão 5.1.0:
 
 - O comentário mais recente no nível da tarefa é exibido na notificação por e-mail ao iniciador da tarefa se o Revisor concluir a tarefa sem adicionar um comentário. (GUIDES-33590)
 - Na caixa de diálogo Mesclar, a lista suspensa exibe incorretamente o Conteúdo principal em vez de mostrar as versões disponíveis do tópico selecionado. (GUIDES-30820)
-em que o link se torna operacional. (GUIDES-30820)
 - Alternar entre predefinições que usam a mesma Linha de base desativa o botão Salvar da predefinição atual. (GUIDES-28025)
 - Uma linha vazia é inserida automaticamente ao colar o novo conteúdo em uma nova linha em um elemento de bloco de código.(GUIDES-27842)
 - Um tópico em um mapa DITA não é publicado na saída do AEM Sites quando está sendo usado como keydef e topicref em seus submapas. (GUIDES-22269)
