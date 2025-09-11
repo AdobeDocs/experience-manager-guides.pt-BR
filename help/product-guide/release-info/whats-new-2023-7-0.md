@@ -4,9 +4,9 @@ description: Conheça os recursos novos e aprimorados da versão de julho de 202
 exl-id: 4b907729-4fbf-48ed-a2e1-014bd1101c73
 feature: What's New
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 7d0ae0f13ab77a10beb89fcb0d8592b05c3828bd
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '687'
 ht-degree: 0%
 
 ---
@@ -46,31 +46,31 @@ Para obter mais detalhes, consulte a descrição do recurso **Revisão** na seç
 
 Uma Coleção de mapas ajuda a organizar vários mapas e a publicá-los em lote. Muitos aprimoramentos novos foram feitos na Coleção de mapas:
 
-- Agora, você também pode adicionar predefinições de saída de PDF nativo a uma coleção de mapas e usá-las para gerar a saída de PDF.
-- É possível visualizar as predefinições de perfil global e de pasta criadas pelo administrador e usá-las para gerar a saída do PDF.
+- Agora, você também pode adicionar predefinições de saída do PDF nativo a uma coleção de mapas e usá-las para gerar a saída do PDF.
+- É possível exibir as predefinições de perfil global e de pasta criadas pelo administrador e usá-las para gerar a saída do PDF.
 - Agora, é possível não apenas selecionar uma predefinição individual, mas também ativar todas as predefinições de perfil de pasta para um mapa DITA de uma só vez.
   ![](assets/edit-map-collection.png){width="800" align="left"}
 
 Para obter mais detalhes, consulte [Usar Coleção de Mapas para geração de saída](../user-guide/generate-output-use-map-collection-output-generation.md).
 
-## Capacidade de acessar arquivos de HTML temporários ao gerar a saída de PDF nativa
+## Capacidade de acessar arquivos temporários do HTML ao gerar a saída nativa do PDF
 
-Agora, o AEM Guides permite baixar os arquivos de HTML temporários criados ao gerar a saída de PDF nativa. Nas configurações de predefinição de saída, selecione a opção para baixar os arquivos temporários.  O AEM Guides permite baixar os arquivos temporários criados ao gerar a saída usando essa predefinição.
+Agora, o AEM Guides permite baixar os arquivos temporários do HTML criados ao gerar a saída nativa do PDF. Nas configurações de predefinição de saída, selecione a opção para baixar os arquivos temporários.  O AEM Guides permite baixar os arquivos temporários criados ao gerar a saída usando essa predefinição.
 
 Esse recurso permite obter melhores insights sobre o processo de geração, com acesso a estilos e layouts provisórios, e ajuda a corrigir ou alterar os estilos CSS de acordo com os requisitos.
 
 ![](assets/native-pdf-advanced-settings.png){width="800" align="left"}
 
-Para obter mais detalhes, consulte [Criar uma predefinição de saída de PDF](../web-editor/native-pdf-web-editor.md#create-output-preset).
+Para obter mais detalhes, consulte [Criar uma predefinição de saída do PDF](../web-editor/native-pdf-web-editor.md#create-output-preset).
 
 ## Publicação baseada em microsserviços para gerar HTML5 e saída personalizada
 
-O novo microsserviço de publicação permite executar grandes cargas de trabalho de publicação simultaneamente no AEM Guides as a Cloud Service e aproveitar a plataforma Adobe I/O Runtime sem servidor, líder do setor. Agora, usando o microsserviço, você também pode gerar o HTML5 e a saída Personalizada.
+O novo microsserviço de publicação permite executar grandes cargas de trabalho de publicação simultaneamente no AEM Guides as a Cloud Service e aproveitar a plataforma Adobe I/O Runtime sem servidor, líder do setor. Agora, usando o microsserviço, você também pode gerar a HTML5 e a saída Personalizada.
 Você pode executar várias solicitações de publicação e obter um desempenho aprimorado para gerar esses formatos de saída.
 Para obter mais detalhes, consulte [Configurar publicação baseada em microsserviço para o AEM Guides as a Cloud Service](../knowledge-base/publishing/configure-microservices.md).
 
 ## Exibir detalhes da versão do AEM Guides nas informações Sobre
 
-Agora, juntamente com as informações de AEM **Sobre**, você também pode exibir os detalhes da versão do AEM Guides. Você pode exibir os detalhes da versão atual na opção **Sobre** da **Ajuda** da página Navegação por AEM.
+Agora, juntamente com as informações de **Sobre** do AEM, você também pode exibir os detalhes da versão do AEM Guides. Você pode exibir os detalhes da versão atual na opção **Sobre** da **Ajuda** na página Navegação do AEM.
 
-![](assets/about-aem-help.png)(width=&quot;800&quot; align=&quot;left&quot;)
+![](assets/about-aem-help.png){width="800" align="left"}
