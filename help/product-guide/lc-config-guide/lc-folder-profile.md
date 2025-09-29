@@ -5,9 +5,9 @@ feature: Authoring
 role: Admin
 level: Experienced
 exl-id: dc26ae48-c953-492c-823a-5f65157b6902
-source-git-commit: f14ee85ccc49abd662a046b2bd4e7be2eece4902
+source-git-commit: 64adc89966e60823f6b46fb062b7659ed150cfc3
 workflow-type: tm+mt
-source-wordcount: '1451'
+source-wordcount: '1453'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 0%
 # Configurar perfis de pasta
 
 É necessário um perfil de pasta para separar as configurações de diferentes departamentos ou produtos em sua empresa. Para conteúdo de aprendizado e treinamento, você pode criar e configurar um perfil no nível da pasta para gerenciar modelos de criação, modelos de saída, predefinições de saída e outras configurações no nível da pasta.
+
+Saiba mais sobre [Práticas recomendadas para configurar a estrutura de pastas](best-practices-folder-structure.md).
 
 Para começar a usar a configuração do perfil de pasta para o conteúdo de Aprendizado e Treinamento, é necessário:
 
@@ -25,7 +27,6 @@ Para começar a usar a configuração do perfil de pasta para o conteúdo de Apr
    ![](assets/create-new-folder.png){width="350" align="left"}
 2. **Criar pastas de idioma para gerenciar a tradução**: se você traduzir conteúdo em idiomas diferentes, deverá criar pastas correspondentes a cada idioma. Cada uma dessas pastas de idioma conterá o conteúdo correspondente a esse idioma.
 
-   Para obter detalhes, consulte [Práticas recomendadas para tradução de conteúdo](../user-guide/translation-first-time.md).
 3. **Criar uma pasta para gerenciar o Assets**: assim como as pastas, você também pode criar diferentes pastas do Assets para atender às necessidades de diferentes departamentos. Dessa forma, você também garante que Autores e Editores tenham acesso ao CSS correto configurado em seus modelos, imagens e outros ativos.
 
    ![](assets/configure-assets-folder.png){width="350" align="left"}

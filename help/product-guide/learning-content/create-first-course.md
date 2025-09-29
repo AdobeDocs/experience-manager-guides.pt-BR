@@ -3,19 +3,26 @@ title: Criar seu primeiro curso
 description: Saiba como começar com seu primeiro curso de aprendizado no Adobe Experience Manager Guides.
 feature: Authoring
 role: User
-source-git-commit: 33b6080ec0a98e85f96e0ccb46c91bbffb882d2a
+exl-id: 8680482d-5688-4bb5-890f-c5a7e4bfdba1
+source-git-commit: 74e5baaf1743986ab188f5c89644d7683f885d0a
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
 
 # Criar seu primeiro curso
 
+Os cursos no Experience Manager Guides podem ser projetados para corresponder a diferentes metas de aprendizado. Embora um curso de aprendizado regular possa incluir tópicos, questionários e resumos, você também pode criar cursos que se concentram principalmente em avaliações. Por exemplo, você pode configurar um curso com apenas um questionário ou um questionário junto com um tópico de visão geral para verificar rapidamente a compreensão. Você também pode criar um caminho estruturado com um questionário de pré-avaliação, o conteúdo principal do curso e um questionário final. Essas opções ajudam a fornecer experiências de aprendizado direcionadas e, ao mesmo tempo, medir com eficiência o progresso do aluno.
+
+Antes de mergulharmos no processo passo a passo, assista a um pequeno vídeo explicativo que demonstra como criar seu primeiro curso e adicionar componentes a ele.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on)
+
+
 Execute as seguintes etapas para criar seu primeiro curso:
 
 1. Navegue até a pasta na qual deseja criar um curso e selecione **Novo > Curso** no menu **Opções**.
-
    ![](assets/create-new-course.png)
 
    A **caixa de diálogo Novo curso** é exibida.
@@ -33,6 +40,3 @@ Execute as seguintes etapas para criar seu primeiro curso:
 O curso é criado no caminho especificado com base no modelo selecionado. Além disso, o curso é aberto no Gerenciador de cursos para edição.
 
    ![](assets/course-manager-read-only-mode.png)
-
-
-

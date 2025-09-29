@@ -1,9 +1,10 @@
 ---
 title: Gerar PDF
-description: Saiba como gerar saída do PDF em conteúdo de aprendizado e treinamento.
+description: Saiba como gerar saída do PDF em Treinamento e aprendizado de produtos.
 feature: Authoring
 role: User
-source-git-commit: 4b581043d2577545b69773d33869dcd873a2ea3b
+exl-id: 364aa6a4-4ef6-4f7d-b207-ee011b79183c
+source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
 workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 4%
@@ -26,8 +27,3 @@ Execute as seguintes etapas para gerar uma PDF:
 1. Você pode baixar a PDF selecionando **Exibir saída** na mensagem de sucesso, bem como na barra de ferramentas.
 
    ![](assets/view-output.png){width="650" align="left"}
-
-
-
-
-

@@ -1,10 +1,10 @@
 ---
 title: Criar predefinição do PDF
-description: Criar uma predefinição do PDF no conteúdo de aprendizado e treinamento
+description: Criar uma predefinição do PDF no Treinamento e aprendizado do produto
 feature: Authoring
 role: User
 exl-id: c353cee7-eee1-4e6d-92b4-73016cb8cfa3
-source-git-commit: 57ddd498cd06d7d8cb511b0c3108591280a35bdb
+source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 0%

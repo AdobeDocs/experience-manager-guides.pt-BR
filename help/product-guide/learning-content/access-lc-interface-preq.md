@@ -1,9 +1,10 @@
 ---
 title: Explorar a interface e os pré-requisitos
-description: Explore a interface e os pré-requisitos ao trabalhar com o conteúdo de aprendizado e treinamento no Adobe Experience Manager Guides.
+description: Explore a interface e os pré-requisitos ao trabalhar com o Treinamento e aprendizado do produto no Adobe Experience Manager Guides.
 feature: Authoring
 role: User
-source-git-commit: eda6c57d80359b1c70266708dc444f4880e1bf6c
+exl-id: b55af490-ebd5-4aa0-a5f3-84d835175dc9
+source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -44,13 +45,3 @@ A página Preferências do usuário consiste em duas guias:
 - **Aparência**: fornece as opções para selecionar os temas do aplicativo e a exibição de origem do conteúdo de Aprendizado.
 
 Para obter detalhes, consulte [Preferências do usuário](../user-guide/intro-home-page.md#user-preferences) no Experience Manager Guides.
-
-
-
-
-
-
-
-
-
-

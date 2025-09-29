@@ -1,11 +1,12 @@
 ---
 title: Predefinições suportadas
-description: Fornece uma introdução às predefinições compatíveis para publicação de um curso no conteúdo de aprendizado e treinamento
+description: Fornece uma introdução às predefinições compatíveis para publicação de um curso no Treinamento e aprendizado do produto
 feature: Authoring
 role: User
-source-git-commit: 54956963caf6384e129da97ed0f2100913893977
+exl-id: 32f30bba-4600-4d75-b0bb-1093490ec11e
+source-git-commit: 37eeecfa5683ce9de95f576b185e98bf180fab18
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
@@ -18,6 +19,4 @@ Ao publicar um curso, você pode escolher o SCORM e o PDF para entregar seu cont
 
 - **PDF:** a predefinição de saída do PDF permite publicar o conteúdo do curso em um formato profissional pronto para impressão. O formato PDF o torna ideal para compartilhamento de conteúdo para fins de revisão ou arquivamento.
 
-
-
-
+Para obter uma visão geral em vídeo sobre como criar, configurar e gerar saída para uma predefinição, exiba [Criar e configurar predefinições](https://video.tv.adobe.com/v/3469529/aem-guides-learning-content).

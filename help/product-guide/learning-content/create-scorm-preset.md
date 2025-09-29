@@ -1,10 +1,10 @@
 ---
 title: Criar predefinição de SCORM
-description: Saiba como criar uma predefinição de SCORM no conteúdo de aprendizado e treinamento
+description: Saiba como criar uma predefinição de SCORM no Treinamento e aprendizado do produto
 feature: Authoring
 role: User
 exl-id: 4a433b9d-594d-42b5-8c59-f246eda7e631
-source-git-commit: 57ddd498cd06d7d8cb511b0c3108591280a35bdb
+source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 0%

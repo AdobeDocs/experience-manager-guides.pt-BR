@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leia a documentação do produto do Adobe Experience Manager Guides.
 breadcrumb-title: Documentação do AEM Guides
-source-git-commit: a437256345b923bbcdbfb3fcdd79d1e0f67bc9f7
+source-git-commit: fc250384e887f28ab22248e787d1b003d1fa966c
 workflow-type: tm+mt
-source-wordcount: '2370'
+source-wordcount: '2373'
 ht-degree: 8%
 
 ---
@@ -151,8 +151,8 @@ ht-degree: 8%
                - [Notas de versão 4.2.1](./release-info/release-notes-4-2-1.md)
                - [Notas de versão 4.2](./release-info/release-notes-4-2.md)
          - [Notas de versão 4.1.x](./release-info/release-notes-4-1.md)
-         - [Notas de versão do 4.0.x](https://helpx.adobe.com/br/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [Notas de versão da 3.8.x](https://helpx.adobe.com/br/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [Notas de versão do 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [Notas de versão da 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Guia do usuário (nova interface do usuário) {#user-guide}
    - Introdução {#about-aemg}
       - [Sobre [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -307,9 +307,9 @@ ht-degree: 8%
             - [Noções básicas sobre o Gerente do curso](./learning-content/course-manager-basics.md)
             - [Gerenciar seu curso](./learning-content/manage-course.md)
          - Criar e personalizar conteúdo de aprendizado {#customize-lc}
-            - [Visão geral do conteúdo de aprendizado](./learning-content/lc-overview.md)
-            - [Criar conteúdo de aprendizado](./learning-content/create-content.md)
-            - [Editar conteúdo de aprendizado](./learning-content/edit-content.md)
+            - [Visão geral](./learning-content/lc-overview.md)
+            - [Criar tópico](./learning-content/create-content.md)
+            - [Editar tópico](./learning-content/edit-content.md)
             - [Adicionar blocos de construção básicos](./learning-content/lc-basic-blocks.md)
             - [Usar widgets interativos](./learning-content/lc-widgets.md)
             - [Usar estilos em linha](./learning-content/lc-inline-styles.md)
@@ -318,10 +318,10 @@ ht-degree: 8%
             - [Criar questionário](./learning-content/create-quiz.md)
             - [Editar questionário](./learning-content/edit-quiz.md)
             - [Inserir perguntas em um questionário](./learning-content/quiz-insert-questions.md)
+            - [Propriedades do questionário](./learning-content/quiz-properties.md)
             - Banco de perguntas {#question-bank}
                - [Criar banco de perguntas](./learning-content/create-qb.md)
                - [Inserir perguntas do banco de perguntas](./learning-content/insert-questions.md)
-            - [Propriedades do questionário](./learning-content/quiz-properties.md)
          - Publicar o curso {#publish-course}
             - [Sobre a publicação do curso](./learning-content/publish-overview.md)
             - [Predefinições suportadas](./learning-content/course-presets.md)
@@ -336,6 +336,7 @@ ht-degree: 8%
       - Guia de configuração {#config-lc}
          - [Sobre este guia](./lc-config-guide/introduction.md)
          - [Configurar perfis de pasta](./lc-config-guide/lc-folder-profile.md)
+         - [Práticas recomendadas para configurar a estrutura de pastas](./lc-config-guide/best-practices-folder-structure.md)
          - [Definir outras configurações](./lc-config-guide/lc-other-settings.md)
       - Tutoriais em vídeo {#lc-video}
          - [Fluxo de trabalho do autor](./lc-video-tutorials/author-workflow.md)
@@ -349,7 +350,7 @@ ht-degree: 8%
       - Resolução de problemas {#troubleshooting}
          - [Tempo limite da sessão](./user-guide/session-timeout-prompt.md)
 - Guia do usuário (interface antiga) {#user-guide-old-ui}
-   - [visão geral do AEM Guides](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [visão geral do AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Instalação e configuração {#install-guide}
    - No local {#on-prem-ig}
       - [Noções básicas no local](./install-guide/introduction.md)

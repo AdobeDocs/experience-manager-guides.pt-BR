@@ -3,16 +3,22 @@ title: Usar widgets interativos
 description: Saiba mais sobre os widgets interativos que você pode usar no conteúdo de aprendizado.
 feature: Authoring
 role: User
-source-git-commit: 54956963caf6384e129da97ed0f2100913893977
+exl-id: e7ca2df1-9d15-4718-9698-8a0f059a86d7
+source-git-commit: 74e5baaf1743986ab188f5c89644d7683f885d0a
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
 
 # Usar widgets interativos
 
-Você pode aprimorar o conteúdo de aprendizado adicionando vários widgets para tornar o curso mais interativo. Selecione o menu **Inserir** na barra de ferramentas para acessar os widgets. Os widgets disponíveis incluem:
+Você pode aprimorar o conteúdo de aprendizado adicionando vários widgets para tornar o curso mais interativo. Este é um vídeo curto de apresentação dos vários widgets disponíveis.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3469531/learning-content-aem-guides)
+
+
+Os widgets disponíveis criados para aprimorar a experiência do usuário e simplificar a entrega de conteúdo incluem:
 
 - **Acordeão:** Adiciona um acordeão ao conteúdo. É possível inserir texto adequado tanto no cabeçalho do acordeão quanto no corpo. Suas propriedades podem ser gerenciadas usando o painel **Propriedades de conteúdo**, incluindo opções para permitir que acordeões únicos ou múltiplos sejam abertos simultaneamente, bem como para adicionar ou remover elementos.
 
