@@ -73,5 +73,5 @@ Para atribuir permissões, navegue até **Ferramentas** > **Segurança** > **Per
 
 Essas permissões ajudam a garantir que os usuários possam criar ou modificar conteúdo somente em suas pastas designadas.
 
-Para obter mais detalhes, consulte [Permissões no AEM](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/security/security#permissions-in-aem).
+Para obter mais detalhes, consulte [Permissões no AEM](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/security/security#permissions-in-aem).
 
