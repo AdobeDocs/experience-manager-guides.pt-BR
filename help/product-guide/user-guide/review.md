@@ -4,9 +4,9 @@ description: Revise tópicos ou mapas com eficiência no AEM Guides para uma ava
 exl-id: 81ea0b52-52b0-4764-a6d8-a96d5c7693bf
 feature: Reviewing
 role: User
-source-git-commit: b7648fe1d36de3c243ca5a55f42a41f7523056ce
+source-git-commit: 6f18b2e4b5cd095f5b446fa9a78badfcdbefc068
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
@@ -50,9 +50,6 @@ Recursos disponíveis para os *revisores*:
 - Visualize comentários feitos por outros revisores ou respostas em comentários do autor em tempo real.
 - Acesse os comentários fornecidos na versão mais antiga do tópico.
 
->[!NOTE]
->
-> Exiba a seção *Revisão* no guia de práticas recomendadas para obter as práticas recomendadas sobre como criar uma tarefa de revisão.
 
 - **[Criar um projeto DITA](authoring-create-dita-project.md)**
 
