@@ -4,7 +4,7 @@ description: Saiba mais sobre os vários recursos presentes no Experience Manage
 feature: Authoring
 role: User
 exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
-source-git-commit: 0c3cb192391248adcca4b845b5e4237531fc0ab7
+source-git-commit: 6a61f404892dee8256e969a0b3433b8425f84c6c
 workflow-type: tm+mt
 source-wordcount: '567'
 ht-degree: 1%
@@ -48,7 +48,7 @@ O conteúdo selecionado do curso é adicionado ao curso a partir do repositório
 
 >[!NOTE]
 >
->Você também pode usar a opção **Adicionar existente**>**Arquivo (zip somente recurso)** para incluir um arquivo zip que é descompactado e integrado à estrutura de pastas da saída final do SCORM. Isso ajuda a simplificar o empacotamento de recursos durante a publicação do curso.
+>Você também pode usar a opção **Adicionar existente** > **Arquivo (zip somente recurso)** para incluir um arquivo zip que é descompactado e integrado à estrutura de pastas da saída final do SCORM. Isso ajuda a simplificar o empacotamento de recursos durante a publicação do curso.
 
 Para ter uma visão geral, assista [Adicionar conteúdo existente ao curso](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on).
 

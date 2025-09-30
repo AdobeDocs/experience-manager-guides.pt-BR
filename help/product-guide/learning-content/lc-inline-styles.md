@@ -4,9 +4,9 @@ description: Saiba mais sobre como usar vários estilos em linha ao criar conte�
 feature: Authoring
 role: User
 exl-id: 78b62eb3-bc61-4c39-96b2-c0511d659ebf
-source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
+source-git-commit: 6a61f404892dee8256e969a0b3433b8425f84c6c
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,8 @@ ht-degree: 0%
 # Usar estilos em linha
 
 Aplique estilos em linha para personalizar a aparência de um texto específico diretamente no conteúdo do curso. Isso permite ajustes rápidos de formatação, como tamanho da fonte, cor, alinhamento e muito mais. Você pode modificar os estilos embutidos para o texto selecionado usando o painel **Propriedades de conteúdo**.
+
+Este é um vídeo de apresentação curto que demonstra sobre vários estilos em linha disponíveis.
 
 >[!NOTE]
 >
@@ -23,10 +25,7 @@ Aplique estilos em linha para personalizar a aparência de um texto específico 
 >[!VIDEO](https://video.tv.adobe.com/v/3469533/aem-guides-learning-content)
 
 
-As seguintes opções de estilo em linha estão disponíveis.
-
-![](assets/content-properties-learning-content.png){width="350" align="left"}
-
+A descrição das opções de estilo em linha disponíveis é a seguinte:
 
 - **Fonte:** permite personalizar a aparência do texto usando várias opções, como família de fontes, espessura da fonte, decoração do texto, tamanho da fonte e muito mais. Essas configurações ajudam a estilizar o conteúdo, como mostrado no exemplo abaixo.
 
