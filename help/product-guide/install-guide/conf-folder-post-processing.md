@@ -5,16 +5,16 @@ feature: Filename Configuration
 role: Admin
 level: Experienced
 exl-id: ff6e1322-9655-42aa-b353-199c70c9de49
-source-git-commit: d525775afeeb89754762ff514126b1c3a3307b3f
+source-git-commit: e84a00237e61275c6cd1ddd312883ac4f66b65ff
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
 
 # Desativar pós-processamento para uma pasta
 
-Por padrão, todos os ativos carregados são processados usando o fluxo de trabalho Atualizar ativo do DAM. O Experience Manager Guides executa um processamento adicional, chamado pós-processamento, como parte desse fluxo de trabalho. Isso também ajuda a gerar as UUIDs
+Por padrão, todos os ativos carregados são processados usando o fluxo de trabalho Atualizar ativo do DAM. O Experience Manager Guides executa um processamento adicional, chamado pós-processamento, como parte desse fluxo de trabalho. Isso também ajuda a gerar os UUIDs.
 
 Ao carregar seus arquivos e pastas para o servidor do *Adobe Experience Manager Assets*, você também pode desabilitar o pós-processamento e a geração de UUIDs.
 
@@ -32,7 +32,7 @@ Execute as seguintes etapas para desativar o pós-processamento em um determinad
 
 1. Procure e clique no pacote **com.adobe.fmdita.config.ConfigManager**.
 
-1. Selecione a opção **Caminhos ignorados para processamento Post** para ignorar uma pasta para pós-processamento.
+1. Selecione a opção **Caminhos ignorados para pós-processamento** para ignorar uma pasta para pós-processamento.
 
    Valor da cadeia de caracteres para definir qualquer NODE_OPTIONS padrão (propriedade de vários valores, cadeias de caracteres com caminho que omite `/` no final)
 
@@ -42,7 +42,7 @@ Execute as seguintes etapas para desativar o pós-processamento em um determinad
    >
    > Essa propriedade é desabilitada por padrão e a guia Tradução está disponível no painel de mapa.
 
-1. Selecione a opção **Caminhos habilitados para processamento Post** para habilitar um caminho para pós-processamento.
+1. Selecione a opção **Caminhos habilitados para pós-processamento** para habilitar um caminho para pós-processamento.
 
    Valor da cadeia de caracteres para definir qualquer NODE_OPTIONS padrão (propriedade de vários valores, cadeias de caracteres com caminho que omite `/` no final)
 
@@ -55,11 +55,13 @@ Execute as seguintes etapas para desativar o pós-processamento em um determinad
 
 1. Clique em **Salvar**.
 
-
+>[!NOTE]
+>
+> Além dos caminhos ignorados e habilitados configurados pela configuração OSGi, o comportamento do pós-processamento também é influenciado por um nó de nível de repositório localizado em `/var/dxml/postprocess/ignoredPaths`. <br> Se uma pasta for excluída inesperadamente do pós-processamento e não estiver listada na configuração OSGi, é recomendável verificar esse nó de repositório. Se o caminho aparecer lá e estiver definido como `true`, ele será ignorado. Para reativar o processamento, você pode remover a propriedade correspondente manualmente do nó.
 
 ## Regras para ativar ou desativar o pós-processamento
 
-Por padrão, o pós-processamento é feito para cada caminho de pasta na pasta Experience Manager DAM. As configurações são aplicadas a qualquer pasta de acordo com as seguintes regras:
+Por padrão, o pós-processamento é feito para cada caminho de pasta na pasta do Experience Manager DAM. As configurações são aplicadas a qualquer pasta de acordo com as seguintes regras:
 
 * Se o pai for ignorado para pós-processamento, mas a pasta filho estiver habilitada, o filho e todos os seus sucessores serão considerados habilitados.
 * Se o pai estiver ativado para pós-processamento, mas o filho for ignorado, o filho e todos os seus sucessores serão considerados ignorados.
