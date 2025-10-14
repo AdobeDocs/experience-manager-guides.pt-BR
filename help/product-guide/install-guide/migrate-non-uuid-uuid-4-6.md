@@ -219,5 +219,5 @@ Além disso, uma lista de **Arquivos atualizados com erros** e **Arquivos com fa
    > Se, antes da migração, a propriedade **Usar título para nomes de página de Sites do AEM** dentro de `com.adobe.fmdita.config.ConfigManager`, for definida como *False*, essa propriedade precisará ser atualizada após a migração.
 
 
-1. Depois que a validação for concluída, a maior parte do espaço em disco poderá ser recuperada executando a compactação (consulte `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`).
+1. Depois que a validação for concluída, a maior parte do espaço em disco poderá ser recuperada executando a compactação (consulte `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=pt-BR`).
 
