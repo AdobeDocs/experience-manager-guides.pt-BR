@@ -266,4 +266,4 @@ Você pode exibir o relatório de links desfeitos executando as seguintes etapas
 1. Selecione **Baixar** para baixar o instantâneo de todos os links corrompidos no mapa DITA. O arquivo do Excel contém as colunas selecionadas e os links quebrados filtrados na exibição Links quebrados.
 
 
-**Tópico pai:**[ Introdução aos relatórios](reports-intro.md)
+**Tópico pai:**&#x200B;[&#x200B; Introdução aos relatórios](reports-intro.md)

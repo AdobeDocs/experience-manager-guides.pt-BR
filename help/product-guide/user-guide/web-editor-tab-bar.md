@@ -57,4 +57,4 @@ Uma ferramenta avançada orientada por IA, projetada para melhorar a produtivida
 >
 > Se estiver usando o Adobe Experience Manager Guides em uma configuração no local, a opção de configurações do Workspace continuará a aparecer como **Configurações** no menu Mais ações.
 
-**Tópico pai:**[ Introdução ao Editor](web-editor.md)
+**Tópico pai:**&#x200B;[&#x200B; Introdução ao Editor](web-editor.md)
