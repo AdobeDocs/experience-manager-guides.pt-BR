@@ -61,4 +61,4 @@ Execute as seguintes etapas para criar um tópico:
 >
 > Depois de criar o tópico DITA, continue salvando as alterações na sua cópia de trabalho e crie uma nova versão após concluir as atualizações do tópico.
 
-**Tópico pai:**&#x200B;[ Criar e visualizar tópicos](create-preview-topics.md)
+**Tópico pai:**&#x200B;[&#x200B; Criar e visualizar tópicos](create-preview-topics.md)

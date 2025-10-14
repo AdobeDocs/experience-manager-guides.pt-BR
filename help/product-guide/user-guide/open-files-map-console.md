@@ -17,7 +17,7 @@ Execute as seguintes etapas para abrir um arquivo de mapa DITA no console Mapa:
 
 1. Abra o **Console de mapas** na Home page.
 
-   ![Novo(a) ](images/map-console-home-page.png){width="800"align="left"}
+   ![Novo(a) &#x200B;](images/map-console-home-page.png){width="800"align="left"}
 
 2. Como nenhum arquivo de mapa está selecionado, você será solicitado a selecionar um arquivo de mapa para usar os recursos de gerenciamento e publicação de mapas.
 
@@ -45,4 +45,4 @@ Você também pode abrir um arquivo de mapa existente no console Mapa a partir d
 
    O arquivo de mapa é aberto no console Mapa.
 
-   ![Novo(a) ](images/map-console.png){align="left"}
+   ![Novo(a) &#x200B;](images/map-console.png){align="left"}

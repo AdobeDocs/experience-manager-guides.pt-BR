@@ -33,7 +33,7 @@ Saiba mais sobre a descrição do recurso **Histórico de Versões** na seção 
 
 Você pode definir atributos de condição em seus tópicos DITA. Em seguida, use os atributos de condição na predefinição de condição para publicar o conteúdo em um mapa DITA. O Experience Manager Guides agora também oferece uma experiência aprimorada no Editor da Web, que ajuda a criar e gerenciar predefinições de condição com mais eficiência. Também é possível editá-los, duplicá-los ou excluí-los facilmente.
 
-![Predefinições de condição da guia Gerenciar do editor da Web ](assets/web-editor-manage-condition-presets.png){width="550" align="left"}
+![Predefinições de condição da guia Gerenciar do editor da Web &#x200B;](assets/web-editor-manage-condition-presets.png){width="550" align="left"}
 
 Para obter mais detalhes, consulte [Usar predefinições de condição](../user-guide/generate-output-use-condition-presets.md).
 
@@ -80,7 +80,7 @@ As opções **Atualização manual** e **Atualização automática** são mais i
 Também permite duplicar uma linha de base com base no rótulo. A versão de referência é separada com base no rótulo fornecido (se existir) durante a duplicação, ou então escolhe a versão da linha de base duplicada.
 
 
-![duplicar uma linha de base ](assets/duplicate-baseline.png) {width="300" align="left"}
+![duplicar uma linha de base &#x200B;](assets/duplicate-baseline.png) {width="300" align="left"}
 
 *Duplique uma linha de base com base em um rótulo ou crie uma cópia exata.*
 

@@ -33,4 +33,4 @@ Para aumentar o número de nós que uma consulta pode ler de cada vez, execute a
 
 Quando você aumenta esse valor de atributo, ele ajuda a gerar o relatório para mapas DITA maiores.
 
-**Tópico pai:**&#x200B;[ Personalizar editor da Web](conf-web-editor.md)
+**Tópico pai:**&#x200B;[&#x200B; Personalizar editor da Web](conf-web-editor.md)

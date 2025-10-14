@@ -48,4 +48,4 @@ Para obter mais detalhes sobre como os vários cenários de carregamento de arqu
 
 Caso use uma ferramenta como o aplicativo de desktop do AEM ou o Assimilador de ativos em massa, a ação a ser executada em um arquivo duplicado é controlada por uma configuração no servidor do AEM. Entre em contato com o administrador do sistema para saber sobre essa configuração.
 
-**Tópico pai:**&#x200B;[ Gerenciar conteúdo](authoring.md)
+**Tópico pai:**&#x200B;[&#x200B; Gerenciar conteúdo](authoring.md)

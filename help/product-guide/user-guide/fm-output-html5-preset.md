@@ -27,4 +27,4 @@ As seguintes opções estão disponíveis para a saída HTML5:
 | Caminho de destino | O caminho no repositório do AEM onde a saída do HTML5 está armazenada. |
 | Executar fluxo de trabalho de pós-geração | Ao escolher essa opção, uma nova lista suspensa Fluxo de trabalho de pós-geração é exibida contendo todos os fluxos de trabalho configurados no AEM. Você deve selecionar um workflow que deseja executar após a conclusão do workflow de geração de saída. |
 
-**Tópico pai:**&#x200B;[ Gerar saída de documentos do FrameMaker](fm-output-generatation.md)
+**Tópico pai:**&#x200B;[&#x200B; Gerar saída de documentos do FrameMaker](fm-output-generatation.md)

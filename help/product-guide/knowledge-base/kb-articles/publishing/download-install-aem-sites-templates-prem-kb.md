@@ -85,7 +85,7 @@ Antes de continuar com a configuração, verifique se os seguintes pré-requisit
    2. Crie uma nova página de produto na estrutura do site OOTB.
    3. Navegue até **Documentação do AEMG** > **Inglês** > **Documentação**.
 
-      ![Criar página na estrutura de Site do AEM ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-page.png){width="350" align="left"}
+      ![Criar página na estrutura de Site do AEM &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-page.png){width="350" align="left"}
 
    4. Selecione o bloco **Página inicial** e selecione **Avançar**.
 

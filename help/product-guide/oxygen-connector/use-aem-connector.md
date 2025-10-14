@@ -209,7 +209,7 @@ Execute as seguintes etapas para definir as configurações de conexão no Plug-
 
 1. No painel AEM Guides, clique no ícone de configurações e selecione **Configurações**.
 
-   ![Configurações de conexão ](images/settings.png){width="800" align="left"}
+   ![Configurações de conexão &#x200B;](images/settings.png){width="800" align="left"}
 
 1. Especifique os seguintes detalhes:
    - **URL do Servidor**: URL do servidor AEM, por exemplo:

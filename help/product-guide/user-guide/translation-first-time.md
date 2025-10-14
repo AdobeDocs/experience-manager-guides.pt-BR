@@ -79,4 +79,4 @@ Após a conclusão da tradução, o status do trabalho de tradução é alterado
 >- Se você rejeitar, excluir ou cancelar o trabalho de tradução de um tópico presente em vários projetos (para qualquer um dos projetos), o status de tradução **Em andamento** do tópico não será revertido, mas esse projeto será removido da lista de projetos **Em andamento** desse ativo específico.
 >- Além disso, se você cancelar ou excluir o trabalho de tradução ou excluir o projeto inteiro, o status de tradução **Em andamento** será revertido para seu status original.
 
-**Tópico principal:**&#x200B;[ Visão geral da tradução de conteúdo](translation.md)
+**Tópico principal:**&#x200B;[&#x200B; Visão geral da tradução de conteúdo](translation.md)

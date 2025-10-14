@@ -59,4 +59,4 @@ Para ativar a geração de PDF antiga por meio do DITA-OT a partir do modo de vi
 
 Depois de executar as etapas fornecidas acima, se você escolher o mesmo perfil de pasta em Preferências do usuário no Editor da Web, verá a opção para geração de PDF no modo de visualização de um tópico.
 
-**Tópico pai:**&#x200B;[ Personalizar editor da Web](conf-web-editor.md)
+**Tópico pai:**&#x200B;[&#x200B; Personalizar editor da Web](conf-web-editor.md)

@@ -115,4 +115,4 @@ Isso pode ser feito em tempo de execução por meio do console Felix ou por meio
 Um aumento no número de **Limitar Páginas do Site AEM na propriedade Heap** otimiza o processo de geração de saída do Site AEM.
 
 
-**Tópico pai:**&#x200B;[ Baixar e instalar](download-install.md)
+**Tópico pai:**&#x200B;[&#x200B; Baixar e instalar](download-install.md)

@@ -31,7 +31,7 @@ Execute as seguintes etapas para gerar uma saída baseada em artigo:
 
 1. No prompt **Confirmar arquivos para publicação**, selecione os arquivos que deseja publicar e confirme selecionando **Publicar**.
 
-   ![Novo(a) ](images/knowledge-base-confirm-files-for-publishing.png){align="left"}
+   ![Novo(a) &#x200B;](images/knowledge-base-confirm-files-for-publishing.png){align="left"}
 
    Você visualizará o status do processo de geração de saída. A coluna **Tópicos** lista os tópicos para os quais a saída está sendo gerada, enquanto a coluna **Status** exibe o status de publicação de cada tópico.
 
@@ -46,4 +46,4 @@ Execute as seguintes etapas para gerar uma saída baseada em artigo:
    > Também é possível Renomear, Duplicar ou Excluir uma predefinição de saída existente no menu Opções.
 
 
-**Tópico pai:**&#x200B;[ Trabalhar com o editor](web-editor.md)
+**Tópico pai:**&#x200B;[&#x200B; Trabalhar com o editor](web-editor.md)

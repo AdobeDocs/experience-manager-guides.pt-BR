@@ -66,7 +66,7 @@ Agora você pode escolher a maneira padrão de exibir os arquivos no Editor da W
 
 Você pode definir atributos de condição em seus tópicos DITA. Em seguida, use os atributos de condição na predefinição de condição para publicar o conteúdo em um mapa DITA. O Experience Manager Guides agora também permite criar e gerenciar predefinições de condição no Editor da Web. Também é possível editá-los, duplicá-los ou excluí-los facilmente.
 
-![Predefinições de condição da guia Gerenciar do editor da Web ](assets/web-editor-manage-condition-presets.png){width="550" align="left"}
+![Predefinições de condição da guia Gerenciar do editor da Web &#x200B;](assets/web-editor-manage-condition-presets.png){width="550" align="left"}
 
 Para obter mais detalhes, consulte [Usar predefinições de condição](../user-guide/generate-output-use-condition-presets.md).
 

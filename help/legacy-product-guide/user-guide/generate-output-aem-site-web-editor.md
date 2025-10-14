@@ -33,7 +33,7 @@ Execute as seguintes etapas para criar as predefinições do AEM Sites a partir 
 1. Selecione **AEM Sites** no menu suspenso **Tipo** na caixa de diálogo **Nova predefinição de saída**.
 1. Desmarque a opção **Usar mapeamento de componente herdado** da caixa de diálogo **Nova predefinição de saída**.
 
-![Novo(a) ](images/new-aem-sites-dialog-box.png)
+![Novo(a) &#x200B;](images/new-aem-sites-dialog-box.png)
 
 
 

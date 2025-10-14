@@ -80,4 +80,4 @@ Execute as seguintes etapas para configurar os filtros de texto:
 
 Os filtros configurados estão disponíveis no painel Filtros.
 
-**Tópico pai:**&#x200B;[ Personalizar editor da Web](conf-web-editor.md)
+**Tópico pai:**&#x200B;[&#x200B; Personalizar editor da Web](conf-web-editor.md)

@@ -26,4 +26,4 @@ Use as instruções fornecidas em [Substituições de configuração](download-i
 >
 > Quando essa opção estiver ativada, os autores não verão a opção para especificar o nome do arquivo ao criar um novo tópico ou arquivo de mapa. Um novo tópico ou arquivo de mapa pode ser criado na interface do usuário do Assets e no Editor da Web.
 
-**Tópico pai:**&#x200B;[ Configurar nomes de arquivo](conf-file-names.md)
+**Tópico pai:**&#x200B;[&#x200B; Configurar nomes de arquivo](conf-file-names.md)

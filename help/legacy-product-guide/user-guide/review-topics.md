@@ -250,4 +250,4 @@ Selecione uma ou mais das seguintes opções de filtragem na caixa de diálogo *
 
 Para remover o filtro e exibir todos os comentários, desmarque todos os filtros da caixa de diálogo **Tipo de Filtro** e clique em **Aplicar**.
 
-**Tópico pai:**&#x200B;[ Tópicos ou mapas de revisão](review.md)
+**Tópico pai:**&#x200B;[&#x200B; Tópicos ou mapas de revisão](review.md)

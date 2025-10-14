@@ -107,4 +107,4 @@ Ao abrir um arquivo no Editor da Web, o Experience Manager Guides fornece o recu
 Você pode desativar o recurso para localizar o arquivo com a opção **Sempre localizar arquivos no repositório** da guia **Aparência** das **Preferências do usuário**.
 
 
-**Tópico pai:**&#x200B;[ Trabalhar com o Editor da Web](web-editor.md)
+**Tópico pai:**&#x200B;[&#x200B; Trabalhar com o Editor da Web](web-editor.md)

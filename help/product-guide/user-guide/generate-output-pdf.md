@@ -41,4 +41,4 @@ Para obter mais informações sobre a criação da predefinição nativa do PDF,
 
 
 
-**Tópico pai:**&#x200B;[ Noções básicas sobre as predefinições de saída](generate-output-understand-presets.md)
+**Tópico pai:**&#x200B;[&#x200B; Noções básicas sobre as predefinições de saída](generate-output-understand-presets.md)

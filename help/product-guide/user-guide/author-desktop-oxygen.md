@@ -19,4 +19,4 @@ Você pode produzir saídas em PDF, ePub, HTML e muitos outros formatos, usando 
 
 *Contate a equipe de êxito do cliente para habilitar este recurso no ambiente. Isso não é habilitado como parte do suporte pronto para uso.*
 
-**Tópico pai:**&#x200B;[ Crie conteúdo usando ferramentas de desktop](author-desktop-tools.md)
+**Tópico pai:**&#x200B;[&#x200B; Crie conteúdo usando ferramentas de desktop](author-desktop-tools.md)

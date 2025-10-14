@@ -219,4 +219,4 @@ Se a coluna Com check-out não estiver visível, selecione **Configurações de 
 
   Uma nova ramificação é criada a partir da versão selecionada do tópico. O processo acima também é aplicável para reverter para uma versão específica de um tópico. Reverter para uma versão específica tecnicamente significa que você cria uma nova ramificação da versão selecionada e torna essa versão a cópia de trabalho atual do tópico. Você também pode exibir o histórico de arquivos que foram revertidos no relatório Histórico de reversão da versão. Para obter mais detalhes sobre este relatório, consulte [Relatório de histórico de versão de arquivos revertidos](reports-reverted-file-version-history.md#).
 
-**Tópico pai:**&#x200B;[ Criar e visualizar tópicos](create-preview-topics.md)
+**Tópico pai:**&#x200B;[&#x200B; Criar e visualizar tópicos](create-preview-topics.md)

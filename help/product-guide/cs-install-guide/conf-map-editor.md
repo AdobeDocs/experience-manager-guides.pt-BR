@@ -33,4 +33,4 @@ Use as instruções fornecidas em [Substituições de configuração](download-i
 >
 > Por padrão, quando um autor cria um arquivo de mapa e opta por abri-lo para edição, o Editor de mapa básico é iniciado. Quando a opção Editar é selecionada para um arquivo de mapa na interface do usuário do Assets, ela também é aberta no Editor de mapa básico.
 
-**Tópico pai:**&#x200B;[ Personalizar editor da Web](conf-web-editor.md)
+**Tópico pai:**&#x200B;[&#x200B; Personalizar editor da Web](conf-web-editor.md)

@@ -94,7 +94,7 @@ Para obter mais detalhes sobre como manipular definições hierárquicas de defi
 
 Use o menu de contexto para visualizar rapidamente o arquivo (.dita, .xml, áudio, vídeo ou imagem) sem abri-lo. Agora é possível redimensionar o painel de visualização e, se o conteúdo contiver qualquer link de referência, você poderá selecioná-lo para abri-lo em uma nova guia.
 
-![Painel de visualização ](assets/quick-preview_cs.png){width="800" align="left"}
+![Painel de visualização &#x200B;](assets/quick-preview_cs.png){width="800" align="left"}
 
 *Visualizar o arquivo no painel.*
 

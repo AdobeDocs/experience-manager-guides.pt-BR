@@ -77,4 +77,4 @@ Execute as seguintes etapas para criar um projeto DITA:
 1. Clique em **Abrir** para abrir a página do projeto.
 
 
-**Tópico pai:**&#x200B;[ Tópicos ou mapas de revisão](review.md)
+**Tópico pai:**&#x200B;[&#x200B; Tópicos ou mapas de revisão](review.md)

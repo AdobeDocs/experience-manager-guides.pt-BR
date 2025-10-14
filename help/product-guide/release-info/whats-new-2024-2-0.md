@@ -27,7 +27,7 @@ Agora, você pode aprimorar sua jornada de criação com as Sugestões inteligen
 
 Para manter o conteúdo correto e consistente, a pesquisa e as sugestões estão limitadas ao conteúdo de propriedade da organização e correspondem estreitamente às palavras-chave que você pesquisa.
 
-![Painel de sugestões inteligentes no Editor da Web ](assets/web-editor-smart-suggestion.png) {width="800" align="left"}
+![Painel de sugestões inteligentes no Editor da Web &#x200B;](assets/web-editor-smart-suggestion.png) {width="800" align="left"}
 
 
 *Exiba as Sugestões Inteligentes para localizar e adicionar referências de conteúdo correspondentes a partir do seu repositório de conteúdo.*

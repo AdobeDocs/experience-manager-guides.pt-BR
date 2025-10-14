@@ -81,4 +81,4 @@ Ao usar uma Dispatcher com o AEM Guides, se a instância do Autor tiver um dispa
                 }
 ```
 
-**Tópico pai:**&#x200B;[ Baixar e instalar](download-install.md)
+**Tópico pai:**&#x200B;[&#x200B; Baixar e instalar](download-install.md)

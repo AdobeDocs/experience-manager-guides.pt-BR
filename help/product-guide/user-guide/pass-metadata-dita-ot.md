@@ -86,4 +86,4 @@ As propriedades de metadados selecionadas serão passadas para a saída gerada u
 
 
 
-**Tópico pai:**&#x200B;[ Geração de saída](generate-output.md)
+**Tópico pai:**&#x200B;[&#x200B; Geração de saída](generate-output.md)

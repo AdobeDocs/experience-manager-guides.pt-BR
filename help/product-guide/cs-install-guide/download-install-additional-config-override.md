@@ -65,4 +65,4 @@ Execute as seguintes etapas para configurar a interface do usuário do Experienc
 
 
 
-**Tópico pai:**&#x200B;[ Baixar e instalar](download-install.md)
+**Tópico pai:**&#x200B;[&#x200B; Baixar e instalar](download-install.md)

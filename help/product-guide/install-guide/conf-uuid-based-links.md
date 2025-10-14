@@ -35,4 +35,4 @@ Execute as seguintes etapas para mostrar o caminho relativo ou a UUID do conteú
 1. Clique em **Salvar**.
 
 
-**Tópico pai:**&#x200B;[ Personalizar editor da Web](conf-web-editor.md)
+**Tópico pai:**&#x200B;[&#x200B; Personalizar editor da Web](conf-web-editor.md)

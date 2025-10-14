@@ -114,4 +114,4 @@ Você pode procurar por uma string na saída do AEM Sites. Por padrão, é poss�
 
 Para obter mais detalhes, consulte a seção *Configurar nivelamento da estrutura do nó do site do AEM* no guia Instalar e configurar o Adobe Experience Manager Guides.
 
-**Tópico pai:**&#x200B;[ Noções básicas sobre as predefinições de saída](generate-output-understand-presets.md)
+**Tópico pai:**&#x200B;[&#x200B; Noções básicas sobre as predefinições de saída](generate-output-understand-presets.md)

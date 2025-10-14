@@ -45,7 +45,7 @@ Você pode acessar o recurso **Propriedades de conteúdo** selecionando o ícone
 
 1. No painel suspenso **Atributo**, selecione o atributo na lista suspensa e especifique o valor de um atributo.  Em seguida, selecione **Adicionar**.
 
-   ![painel de atributos com vários atributos ](images/attributes-multiple-properties.png){width="300" align="left"}
+   ![painel de atributos com vários atributos &#x200B;](images/attributes-multiple-properties.png){width="300" align="left"}
 
 1. Para editar o atributo, passe o mouse sobre ele e selecione **Editar** ![ícone de edição](images/edit_pencil_icon.svg).
 
@@ -141,4 +141,4 @@ Saiba como trabalhar com arquivos Schematron no Experience Manager Guides, consu
 
 
 
-**Tópico pai:**&#x200B;[ Introdução ao Editor](web-editor.md)
+**Tópico pai:**&#x200B;[&#x200B; Introdução ao Editor](web-editor.md)

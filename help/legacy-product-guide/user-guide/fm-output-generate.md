@@ -31,4 +31,4 @@ Execute as seguintes etapas para gerar saída para documentos do FrameMaker:
 >
 > Você pode visualizar o status atual da solicitação de geração de saída clicando em Saídas. Para obter mais informações, consulte [Exibir o status da tarefa de geração de saída](fm-output-view-status.md).
 
-**Tópico pai:**&#x200B;[ Gerar saída de documentos do FrameMaker](fm-output-generatation.md)
+**Tópico pai:**&#x200B;[&#x200B; Gerar saída de documentos do FrameMaker](fm-output-generatation.md)

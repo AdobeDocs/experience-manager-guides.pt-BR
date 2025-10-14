@@ -156,7 +156,7 @@ Na captura de tela a seguir, apenas 3 dos 4 elementos configurados da captura de
 
      **Pré-requisitos**
 
-      - Crie um aplicativo conectado para o Salesforce. Para obter mais detalhes, consulte [Habilitar configurações do OAuth para integração com a API](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&amp;type=5).
+      - Crie um aplicativo conectado para o Salesforce. Para obter mais detalhes, consulte [Habilitar configurações do OAuth para integração com a API](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&type=5).
 
       - Ao configurar o aplicativo conectado, verifique o seguinte:
 
@@ -753,7 +753,7 @@ Para acessar o histórico de versões e reverter para uma versão específica do
    Guia **Visualizar**: o conteúdo recém-adicionado está em fonte verde e o conteúdo excluído está em fonte vermelha.
 
    Guia **Metadata**: os metadados recém-adicionados estão em fonte verde e os metadados excluídos estão em fonte vermelha.
-   ![Diferença de metadados para versões ](images/metadata-version-diff.png){width="550" align="left"}
+   ![Diferença de metadados para versões &#x200B;](images/metadata-version-diff.png){width="550" align="left"}
    *Comparar os metadados de diferentes versões no histórico de Versões.*
 
    >[!NOTE]
@@ -937,7 +937,7 @@ Você tem as seguintes opções para filtrar os arquivos e restringir sua pesqui
 - **Arquivos DITA**: você pode procurar todos os **tópicos DITA** e **mapas DITA** presentes no caminho selecionado. Elas são selecionadas por padrão.
 - **Arquivos não DITA**: você pode pesquisar por **Arquivos Ditaval**, **Arquivos de Imagem**, **Multimídia**, **Documentos** e **Json** no caminho selecionado.
 
-![filtro de pesquisa rápida ](images/repository-filter-search-quick.png) {width="300" align="left"}
+![filtro de pesquisa rápida &#x200B;](images/repository-filter-search-quick.png) {width="300" align="left"}
 
 *Use os filtros rápidos para procurar arquivos DITA e não DITA.*
 
@@ -1971,7 +1971,7 @@ Você pode acessar o recurso **Propriedades de Conteúdo** selecionando o ícone
 
 1. No painel suspenso **Atributo**, selecione o atributo na lista suspensa e especifique o valor de um atributo.  Depois clique em **Adicionar**.
 
-   ![painel de atributos com vários atributos ](images/attributes-multiple-properties.png){width="300" align="left"}
+   ![painel de atributos com vários atributos &#x200B;](images/attributes-multiple-properties.png){width="300" align="left"}
 
 1. Para editar o atributo, passe o mouse sobre ele e selecione **Editar** ![ícone de edição](images/edit_pencil_icon.svg).
    ![editar atributos](images/edit-attributes-content-properties.png){width="300" align="left"}
@@ -2006,7 +2006,7 @@ A seção Geral fornece acesso aos seguintes recursos:
 - **Idioma**: mostra o idioma do tópico. Ele é definido no campo Language na página de propriedades.
 - **Criado em**: Exibe a data e a hora em que o tópico foi criado.
 - **Retirado por**: mostra o usuário que fez check-out do tópico.
-- **Estado do Documento**: você pode selecionar e atualizar o estado do documento do tópico aberto no momento. Para obter mais detalhes, consulte [Estado do Documento ](web-editor-document-states.md#)*.*
+- **Estado do Documento**: você pode selecionar e atualizar o estado do documento do tópico aberto no momento. Para obter mais detalhes, consulte [Estado do Documento &#x200B;](web-editor-document-states.md#)*.*
 
 **Observação:** você pode copiar os valores de atributo de vários campos nas propriedades de Arquivo para a área de transferência.
 
@@ -2049,4 +2049,4 @@ Usando o recurso Alterações controladas do painel direito, você pode exibir a
 >
 > O recurso Alterações controladas mostra todas as atualizações que foram controladas usando o recurso Habilitar/Desabilitar Controlar alterações da barra de ferramentas principal. Para obter mais detalhes, consulte [Habilitar/Desabilitar o Controle de Alterações](#id205DF0203Y4).
 
-**Tópico pai:**&#x200B;[ Trabalhar com o Editor da Web](web-editor.md)
+**Tópico pai:**&#x200B;[&#x200B; Trabalhar com o Editor da Web](web-editor.md)

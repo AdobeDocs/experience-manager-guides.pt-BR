@@ -19,4 +19,4 @@ O AEM Guides também oferece suporte à criação usando ferramentas de desktop,
 - **[Trabalhar com o Oxygen](author-desktop-oxygen.md)**
 
 
-**Tópico pai:**&#x200B;[ Conteúdo do autor](authoring-content.md)
+**Tópico pai:**&#x200B;[&#x200B; Conteúdo do autor](authoring-content.md)

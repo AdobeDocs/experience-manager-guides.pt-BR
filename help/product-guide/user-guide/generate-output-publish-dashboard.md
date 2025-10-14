@@ -89,4 +89,4 @@ Execute as seguintes etapas para cancelar uma tarefa de geração de saída no P
    ![](images/cancelled-output-task.png){align="left"}
 
 
-**Tópico pai:**&#x200B;[ Geração de saída](generate-output.md)
+**Tópico pai:**&#x200B;[&#x200B; Geração de saída](generate-output.md)

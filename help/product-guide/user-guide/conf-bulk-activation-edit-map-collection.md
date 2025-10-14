@@ -49,4 +49,4 @@ Você pode visualizar os vários tipos de predefinições de saída juntamente c
 1. Selecione **Concluído**.
 
 
-**Tópico pai:**&#x200B;[ Ativação em massa do conteúdo publicado](conf-bulk-activation.md)
+**Tópico pai:**&#x200B;[&#x200B; Ativação em massa do conteúdo publicado](conf-bulk-activation.md)

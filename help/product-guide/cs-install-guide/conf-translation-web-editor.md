@@ -48,4 +48,4 @@ Para ocultar a guia **Gerenciar** no Editor da Web, execute as seguintes etapas:
 
 Observe que o filtro **Gerenciar** não está mais disponível.
 
-**Tópico pai:**&#x200B;[ Personalizar editor da Web](conf-web-editor.md)
+**Tópico pai:**&#x200B;[&#x200B; Personalizar editor da Web](conf-web-editor.md)

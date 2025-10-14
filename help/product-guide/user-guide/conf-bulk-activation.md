@@ -41,4 +41,4 @@ Predefinições de saída JSON.
 - **[Excluir uma coleção de mapas de ativação em massa](conf-bulk-activation-delete-map-collection.md)**
 
 
-**Tópico pai:**&#x200B;[ Geração de saída](generate-output.md)
+**Tópico pai:**&#x200B;[&#x200B; Geração de saída](generate-output.md)

@@ -49,7 +49,7 @@ Execute as seguintes etapas para criar a predefinição do AEM Sites usando o ma
    A predefinição do AEM Sites é criada.
 
 
-   ![Novo(a) ](images/new-aem-sites-dialog-box.png){width="300" align="left"}
+   ![Novo(a) &#x200B;](images/new-aem-sites-dialog-box.png){width="300" align="left"}
 
 <!-----------------------
 ### Generate the AEM Sites output using the templates
@@ -88,7 +88,7 @@ No console Mapa, as opções de configuração predefinidas para o mapeamento de
 - Lista de tópicos
 - Referências de mapa cruzado
 
-![Novo(a) ](images/aem-sites-new-config.png){width="650" align="left"}
+![Novo(a) &#x200B;](images/aem-sites-new-config.png){width="650" align="left"}
 
 **Geral**
 
@@ -153,7 +153,7 @@ No console Mapa, as opções de configuração predefinidas para o mapeamento de
 - Conteúdo
 - Referências de mapa cruzado
 
-![Novo(a) ](images/aem-sites-preset-legacy-config.png){width="500" align="left"}
+![Novo(a) &#x200B;](images/aem-sites-preset-legacy-config.png){width="500" align="left"}
 
 **Geral**
 
@@ -171,7 +171,7 @@ A guia **Geral** contém as seguintes opções de configuração:
 
 **Conteúdo**
 
-![Novo(a) ](images/aem-sites-content-tab.png){width="650" align="left"}
+![Novo(a) &#x200B;](images/aem-sites-content-tab.png){width="650" align="left"}
 
 A guia **Conteúdo** contém as seguintes opções de configuração:
 

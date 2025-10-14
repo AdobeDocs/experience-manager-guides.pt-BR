@@ -124,7 +124,7 @@ O Experience Manager Guides agora fornece uma experiência do usuário aprimorad
 Também permite duplicar uma linha de base com base no rótulo. A versão de referência é separada com base no rótulo fornecido (se existir) durante a duplicação, ou então escolhe a versão da linha de base duplicada.
 
 
-![duplicar uma linha de base ](assets/duplicate-baseline.png) {width="300" align="left"}
+![duplicar uma linha de base &#x200B;](assets/duplicate-baseline.png) {width="300" align="left"}
 
 *Duplique uma linha de base com base em um rótulo ou crie uma cópia exata.*
 

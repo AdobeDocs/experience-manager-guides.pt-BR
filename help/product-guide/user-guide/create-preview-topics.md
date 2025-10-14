@@ -20,4 +20,4 @@ O Adobe Experience Manager Guides vem com um recurso poderoso para criar e visua
 - **[Visualizar um tópico](web-editor-preview-topics.md)**
 
 
-**Tópico pai:**&#x200B;[ Introdução ao Editor](web-editor.md)
+**Tópico pai:**&#x200B;[&#x200B; Introdução ao Editor](web-editor.md)

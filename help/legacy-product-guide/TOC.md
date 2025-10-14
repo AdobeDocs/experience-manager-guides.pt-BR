@@ -22,7 +22,7 @@ ht-degree: 3%
       - [Sobre [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides] trabalhando e recursos principais {#aemg-works-features}
          - [Como [!DNL AEM Guides] funciona](./user-guide/intro-how-dxml-works.md)
-         - [Recursos da chave [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
+         - [Recursos da chave [!DNL AEM Guides] &#x200B;](./user-guide/intro-dxml-features.md)
    - Gerenciar conteúdo {#manage-content}
       - [Principais conceitos, funções e permissões e pré-requisitos](./user-guide/authoring.md)
       - [Fazer upload de arquivos](./user-guide/authoring-upload-existing-files.md)

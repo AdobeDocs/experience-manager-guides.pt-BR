@@ -30,4 +30,4 @@ Execute as seguintes etapas para gerar a saída do painel **Geração rápida**:
 1. Clique em **Gerar** para gerar a saída para as predefinições selecionadas. Uma mensagem de sucesso é exibida na geração da saída. Uma mensagem de erro será exibida se a geração falhar. Você também pode exibir o log de erros para ver os detalhes do erro que ocorreu no processo de geração.
 1. Clique no ícone **Exibir saída** \( ![](images/view-output-icon.svg)\) de uma predefinição específica para exibir a saída gerada para a predefinição.
 
-**Tópico pai:**&#x200B;[ Trabalhar com o Editor da Web](web-editor.md)
+**Tópico pai:**&#x200B;[&#x200B; Trabalhar com o Editor da Web](web-editor.md)

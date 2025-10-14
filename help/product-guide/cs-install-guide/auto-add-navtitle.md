@@ -57,4 +57,4 @@ Com essa configuração, cada arquivo de referência adicionado a um mapa conter
 
 
 
-**Tópico pai:**&#x200B;[ Personalizar editor da Web](conf-web-editor.md)
+**Tópico pai:**&#x200B;[&#x200B; Personalizar editor da Web](conf-web-editor.md)

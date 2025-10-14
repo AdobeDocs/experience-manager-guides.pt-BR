@@ -30,4 +30,4 @@ A tabela a seguir lista as variáveis compatíveis prontas para uso:
 | `${system_time}` | Usa a hora atual do servidor para criar o caminho de destino. | **Nome do arquivo de mapa DITA:** <br>`SampleDita.ditamap` <br> <br> **Caminho do arquivo de mapa DITA:** <br>`/content/dam/projects/AEM-Guides/en/user-guide/` <br><Br>**Caminho de Destino** configurado como: <br> `/content/output/sites/${system_time}`<br><br>**Local de saída final:**<br>`/content/output/sites/055612/SampleDita.html` |
 
 Além disso, também é possível usar os metadados definidos para o mapa DITA ou arquivo de mapa como variáveis. Os metadados podem ser encontrados no nó `/jcr:content/metadata` do mapa DITA ou do arquivo de mapa. Por exemplo, uma das propriedades de metadados definidas no nó `/jcr:content/metadata` é `dc:title`. Você pode especificar `${dc:title}` e o valor do título é usado na saída final.
-**Tópico pai:**&#x200B;[ Geração de saída](generate-output.md)
+**Tópico pai:**&#x200B;[&#x200B; Geração de saída](generate-output.md)

@@ -26,15 +26,15 @@ Esse processo envolve 3 etapas:
 
 ## Etapa 1: Fazer upload da fonte personalizada para a pasta de recursos do seu modelo
 
-![Importar e carregar fontes personalizadas ](../assets/publishing/custom-font1.png)
+![Importar e carregar fontes personalizadas &#x200B;](../assets/publishing/custom-font1.png)
 
 ## Etapa 2: Fazer as alterações necessárias na folha de estilos dos modelos PDF
 
-![Face de fonte na folha de estilos do modelo PDF ](../assets/publishing/custom-font2.png)
+![Face de fonte na folha de estilos do modelo PDF &#x200B;](../assets/publishing/custom-font2.png)
 
 ## Etapa 3 (opcional): incorporar fonte usada no PDF
 
-![Incorporação de fonte personalizada no PDF ](../assets/publishing/custom-font3.png) do DITA
+![Incorporação de fonte personalizada no PDF &#x200B;](../assets/publishing/custom-font3.png) do DITA
 
 ## Perguntas frequentes
 

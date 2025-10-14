@@ -169,4 +169,4 @@ Execute as seguintes etapas para remover uma tarefa de saída da lista Saída Ge
    A tarefa é excluída da lista Saída gerada.
 
 
-**Tópico pai:**&#x200B;[ Geração de saída](generate-output.md)
+**Tópico pai:**&#x200B;[&#x200B; Geração de saída](generate-output.md)

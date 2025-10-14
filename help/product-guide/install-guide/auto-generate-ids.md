@@ -45,4 +45,4 @@ Execute as seguintes etapas para configurar elementos para que tenham uma ID ger
 1. Clique em **Salvar**.
 
 
-**Tópico pai:**&#x200B;[ Personalizar editor da Web](conf-web-editor.md)
+**Tópico pai:**&#x200B;[&#x200B; Personalizar editor da Web](conf-web-editor.md)

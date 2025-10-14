@@ -18,4 +18,4 @@ O AEM Guides permite criar saída para documentos do FrameMaker nos formatos PDF
 
 As seções a seguir explicam as opções disponíveis para os formatos de saída compatíveis.
 
-**Tópico pai:**&#x200B;[ Gerar saída de documentos do FrameMaker](fm-output-generatation.md)
+**Tópico pai:**&#x200B;[&#x200B; Gerar saída de documentos do FrameMaker](fm-output-generatation.md)

@@ -41,7 +41,7 @@ Execute as seguintes etapas para criar predefinições de saída para o mapa DIT
    A predefinição da Knowledge Base é criada.
 
 
-   ![Novo(a) ](images/knowledge-base-preset-dialog-box.png){align="left"}
+   ![Novo(a) &#x200B;](images/knowledge-base-preset-dialog-box.png){align="left"}
 
 Depois que a predefinição é criada, é possível gerar a saída para artigos específicos da base de conhecimento. Para fazer isso, navegue até a guia **Artigos** e selecione os tópicos para os quais deseja gerar a saída.
 1. Selecione **Gerar saída** na parte superior para gerar a saída.
@@ -50,7 +50,7 @@ Depois que a predefinição é criada, é possível gerar a saída para artigos 
 
 1. No prompt **Confirmar arquivos para publicação**, selecione os arquivos que deseja publicar e confirme selecionando **Publicar**.
 
-   ![Novo(a) ](images/knowledge-base-confirm-files-for-publishing.png){align="left"}
+   ![Novo(a) &#x200B;](images/knowledge-base-confirm-files-for-publishing.png){align="left"}
 
 Você visualizará o status do processo de geração de saída. A coluna **Tópicos** lista os tópicos para os quais a saída está sendo gerada, enquanto a coluna **Status** exibe o status de publicação de cada tópico.
 
@@ -66,4 +66,4 @@ Para exibir a saída, feche a caixa de diálogo Saída Gerada e selecione **Exib
 
 
 
-**Tópico pai:**&#x200B;[ Publicação baseada em artigo do Editor](web-editor-article-publishing.md)
+**Tópico pai:**&#x200B;[&#x200B; Publicação baseada em artigo do Editor](web-editor-article-publishing.md)

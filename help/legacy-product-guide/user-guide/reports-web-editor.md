@@ -198,4 +198,4 @@ Clique em **Atualizar** para obter uma nova lista de links com falha e exibir qu
 1. Clique em **Baixar CSV** para baixar o instantâneo atual dos links corrompidos no mapa DITA. O CSV contém as colunas selecionadas e os links quebrados filtrados na exibição Links quebrados. Em seguida, você pode abrir e visualizar esse arquivo CSV em qualquer editor CSV.
 
 
-**Tópico pai:**&#x200B;[ Relatórios](reports-intro.md)
+**Tópico pai:**&#x200B;[&#x200B; Relatórios](reports-intro.md)

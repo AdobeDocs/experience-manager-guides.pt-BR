@@ -68,7 +68,7 @@ Agora, além de ativar a saída para sua coleção de ativação em massa na ins
 Este recurso ajuda a ativar o conteúdo para uma instância de visualização, permitindo verificar sua aparência e funcionamento antes de ativá-lo para a instância do **Publish**.
 
 
-![ criou a guia de histórico de auditoria da coleção de ativação em massa](assets/bulk-collection-audit-history.png){width="800" align="left"}
+![&#x200B; criou a guia de histórico de auditoria da coleção de ativação em massa](assets/bulk-collection-audit-history.png){width="800" align="left"}
 
 *Exiba as informações sobre as saídas do mapa ativado na guia **Histórico de Auditoria**.*
 
@@ -160,7 +160,7 @@ Agora, você tem uma experiência aprimorada ao filtrar arquivos. A funcionalida
 
 Aproveite benefícios como acesso mais rápido a arquivos relevantes e uma interface do usuário mais intuitiva, tornando sua experiência de pesquisa mais estável e eficiente.
 
-![filtro de pesquisa rápida ](assets/repository-filter-search-quick.png) {width="300" align="left"}
+![filtro de pesquisa rápida &#x200B;](assets/repository-filter-search-quick.png) {width="300" align="left"}
 
 *Use os filtros rápidos para procurar arquivos DITA e não DITA.*
 

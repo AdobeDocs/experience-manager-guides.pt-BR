@@ -149,4 +149,4 @@ Semelhante à maneira de cancelar uma tarefa de geração de saída do [console 
 
 ![](images/cancel-publish-task-map-collection.png){align="left"}
 
-**Tópico pai:**&#x200B;[ Geração de saída](generate-output.md)
+**Tópico pai:**&#x200B;[&#x200B; Geração de saída](generate-output.md)

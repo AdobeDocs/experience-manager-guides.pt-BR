@@ -37,4 +37,4 @@ Execute as seguintes etapas para atribuir automaticamente o nome de arquivo base
 >
 > Por padrão, essa opção está desativada. Quando essa opção estiver ativada, os autores não verão a opção para especificar o nome do arquivo ao criar um novo tópico ou arquivo de mapa. Um novo tópico ou arquivo de mapa pode ser criado na interface do usuário do Assets e no Editor da Web.
 
-**Tópico pai:**&#x200B;[ Configurar nomes de arquivo](conf-file-names.md)
+**Tópico pai:**&#x200B;[&#x200B; Configurar nomes de arquivo](conf-file-names.md)

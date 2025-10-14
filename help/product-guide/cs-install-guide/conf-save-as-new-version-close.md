@@ -26,4 +26,4 @@ Quando esta configuração está habilitada, a caixa de seleção **Salvar como 
 
 Para obter mais detalhes, consulte a seção *Cenários de fechamento e salvamento de arquivos*, no Guia as a Cloud Service Uso do Adobe Experience Manager Guides.
 
-**Tópico pai:**&#x200B;[ Personalizar editor da Web](conf-web-editor.md)
+**Tópico pai:**&#x200B;[&#x200B; Personalizar editor da Web](conf-web-editor.md)

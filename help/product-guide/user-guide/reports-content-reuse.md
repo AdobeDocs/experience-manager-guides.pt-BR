@@ -62,4 +62,4 @@ Execute as seguintes etapas para exibir o Relatório de reutilização de conte�
 >
 > Você também pode exportar o Relatório de reutilização de conteúdo no formato CSV. Para fazer isso, selecione o link Exportar para CSV no canto superior esquerdo da tela e escolha um local para salvar o arquivo CSV. Em seguida, você pode abrir esse arquivo CSV em qualquer editor CSV.
 
-**Tópico pai:**&#x200B;[ Introdução aos relatórios](reports-intro.md)
+**Tópico pai:**&#x200B;[&#x200B; Introdução aos relatórios](reports-intro.md)

@@ -33,4 +33,4 @@ Você também pode usar as predefinições de saída criadas para o mapa DITA pa
 - **[Gerar saída do painel Repositório ou do painel Exibição de Mapa](web-editor-article-publishing-output.md)**
 
 
-**Tópico pai:**&#x200B;[ Trabalhar com o Editor da Web](web-editor.md)
+**Tópico pai:**&#x200B;[&#x200B; Trabalhar com o Editor da Web](web-editor.md)

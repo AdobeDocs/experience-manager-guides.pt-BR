@@ -28,4 +28,4 @@ Use as instruções fornecidas em [Substituições de configuração](download-i
 >
 > Essa configuração é desativada por padrão e a opção não está disponível no Editor da Web.
 
-**Tópico pai:**&#x200B;[ Personalizar editor da Web](conf-web-editor.md)
+**Tópico pai:**&#x200B;[&#x200B; Personalizar editor da Web](conf-web-editor.md)

@@ -54,4 +54,4 @@ No menu Opções, também é possível executar as seguintes operações na pred
 >
 > Quando uma predefinição de saída em Perfis Globais e de Pasta for excluída, ela será refletida em todos os mapas relacionados e não aparecerá na guia **Saída**.
 
-**Tópico pai:**&#x200B;[ Trabalhar com o Editor da Web](web-editor.md)
+**Tópico pai:**&#x200B;[&#x200B; Trabalhar com o Editor da Web](web-editor.md)

@@ -33,7 +33,7 @@ Consulte instalação e configuração: [4.1 instalação e configurações](htt
 
 ### FMPS
 
-Para instalação FMPS, você pode consultar o [link do YouTube](https://www.youtube.com/watch?v=2deelyM5VA8&amp;t) ou a [instalação e configuração do FMPS](https://help.adobe.com/en_US/framemaker/server/index.html#t=fmps-user-guide%2Finstall_config_fmps.html%23install_config_fmps&amp;rhtocid=_2)
+Para instalação FMPS, você pode consultar o [link do YouTube](https://www.youtube.com/watch?v=2deelyM5VA8&t) ou a [instalação e configuração do FMPS](https://help.adobe.com/en_US/framemaker/server/index.html#t=fmps-user-guide%2Finstall_config_fmps.html%23install_config_fmps&amp;rhtocid=_2)
 
 ## Configurações necessárias
 
@@ -95,6 +95,6 @@ Você pode publicar suas linhas de base já criadas com o FMPS2020.0.2 ou versã
 
 [Aprendizagem e Suporte do AEM Guides](https://helpx.adobe.com/in/support/xml-documentation-for-experience-manager.html)
 
-[FrameMaker e comunidade FMPS](https://community.adobe.com/t5/framemaker/ct-p/ct-framemaker?page=1&amp;sort=latest_replies&amp;lang=all&amp;tabid=all)
+[FrameMaker e comunidade FMPS](https://community.adobe.com/t5/framemaker/ct-p/ct-framemaker?page=1&sort=latest_replies&lang=all&tabid=all)
 
 [Comunidade AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=pt)

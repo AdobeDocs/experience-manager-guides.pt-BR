@@ -36,4 +36,4 @@ Execute as seguintes etapas para exibir a fila de geração de saída:
      Nesta lista, você pode ter tarefas que foram executadas com sucesso ou tarefas que falharam. Para as tarefas concluídas com sucesso, o processo de publicação cria um arquivo de log \(logs.txt\) que pode ser acessado selecionando o link na coluna Gerado em.
 
 
-**Tópico pai:**&#x200B;[ Gerar saída de documentos do FrameMaker](fm-output-generatation.md)
+**Tópico pai:**&#x200B;[&#x200B; Gerar saída de documentos do FrameMaker](fm-output-generatation.md)

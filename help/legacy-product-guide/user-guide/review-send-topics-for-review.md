@@ -267,4 +267,4 @@ Para enviar um ou vários tópicos juntamente com o arquivo de mapa para revisã
 
 Um email é enviado para todos os revisores, notificando que eles receberam tópicos para revisão. O e-mail contém um link direto no qual eles podem clicar e acessar o tópico em uma janela do navegador. Os tópicos, juntamente com o mapa DITA, são abertos no modo de revisão.
 
-**Tópico pai:**&#x200B;[ Tópicos ou mapas de revisão](review.md)
+**Tópico pai:**&#x200B;[&#x200B; Tópicos ou mapas de revisão](review.md)
