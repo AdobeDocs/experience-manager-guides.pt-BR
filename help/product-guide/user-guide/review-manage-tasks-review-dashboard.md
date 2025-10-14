@@ -1,12 +1,12 @@
 ---
 title: Gerenciar tarefas de revisão usando o Painel de revisão
-description: Gerencie tarefas de revisão no Painel de revisão no AEM Guides. Saiba mais sobre como executar ações na guia tarefa, conteúdo, revisores e verifique o status de uma tarefa de revisão.
+description: Gerencie tarefas de revisão no Painel de revisão no AEM Guides. Saiba mais sobre as ações a serem executadas nas guias de tarefa, conteúdo e Revisores e verifique o status de uma tarefa de revisão.
 exl-id: 4fef5653-1c73-4b68-adf2-b24145555142
 feature: Reviewing
 role: User
-source-git-commit: 19e521ed790a7ac25afab88e8878250f943d9bff
+source-git-commit: e38cd858201ea657ce276eb4b358b0d4eff502b2
 workflow-type: tm+mt
-source-wordcount: '1348'
+source-wordcount: '1437'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,10 @@ Execute as seguintes etapas para acessar e usar o Painel de Revisão:
 
    O Painel de Revisão exibe os detalhes sobre a tarefa de revisão, como o nome da tarefa, quem iniciou a revisão, a data em que a revisão foi iniciada, a data de vencimento, o status, o número de novos comentários que não foram aceitos ou rejeitados pelo autor e o nome dos revisores. As tarefas são listadas na ordem de tarefas recém-criadas para tarefas mais antigas.
 
+   No painel Revisão, o campo **Status** pode mostrar um dos seguintes valores:
+   - **Em andamento**: isso indica que a revisão ainda está em andamento.
+   - **Fechado**: indica que a tarefa de revisão foi concluída.
+
    >[!NOTE]
    >
    > Se você selecionar o link Tarefa de revisão, o tópico ou arquivo de mapa enviado para revisão será aberto.
@@ -59,7 +63,7 @@ Execute as seguintes etapas para acessar e usar o Painel de Revisão:
 Você pode executar as seguintes ações na guia **Tarefa**:
 
 - Modifique o título da tarefa no campo **Título**.
-- Adicionar atribuídos padrão na lista suspensa **Atribuir a**. Os revisores adicionados aqui têm acesso para revisar todos os tópicos que fazem parte dessa tarefa de revisão. Você pode optar por remover ou adicionar seletivamente mais revisores a tópicos específicos na [guia Revisores](#reviewer-tab-id199RF0N0MUI).
+- Adicionar atribuídos padrão na lista suspensa **Atribuir a**. Os revisores adicionados aqui têm acesso para revisar todos os tópicos que fazem parte dessa tarefa de revisão. Você pode optar por remover ou adicionar seletivamente mais revisores a tópicos específicos na [guia Revisores](#Reviewer-tab-id199RF0N0MUI).
 - Atualize a descrição da tarefa no campo **Descrição**.
 - Modifique a **Data de Conclusão**. Você pode adiar ou adiar o prazo para a conclusão da tarefa.
 - Selecione a opção para impedir que os usuários revisem apenas os tópicos atribuídos a eles.
@@ -71,7 +75,7 @@ Você pode executar as seguintes ações na guia **Tarefa**:
 
   Se você tiver selecionado uma tarefa de revisão criada a partir de um mapa DITA, serão exibidos os tópicos que são parte do mapa. Você pode então escolher os tópicos que deseja incluir na nova tarefa de revisão.
 
-  No caso de tarefa de revisão duplicada de uma ou várias revisões de tópicos, apenas esses tópicos serão mostrados na lista de tarefas de revisão. Você pode optar por compartilhar esses tópicos para revisão com um conjunto diferente de revisores.
+  No caso de tarefa de revisão duplicada de uma ou várias revisões de tópicos, apenas esses tópicos serão mostrados na lista de tarefas de revisão. Você pode optar por compartilhar esses tópicos para revisão com um conjunto diferente de Revisores.
 
 - Selecione **Fechar** para ir para a página Caixa de Entrada.
 
@@ -83,7 +87,7 @@ Você pode executar as seguintes ações na guia **Conteúdo**:
 
 - Alterar a versão do tópico enviado para revisão. Você pode escolher a versão mais recente do tópico, a versão como na data, a versão com um rótulo específico ou a versão com uma linha de base específica \(para um mapa DITA\).
 
-- Selecione **Atualizar** para compartilhar a versão atualizada do tópico com os revisores. Os revisores recebem uma notificação por email informando que a versão mais recente do tópico foi enviada para revisão. Na próxima vez que um revisor abrir o tópico, ele visualizará a versão atualizada do tópico.
+- Selecione **Atualizar** para compartilhar a versão atualizada do tópico com os revisores. Os revisores recebem uma notificação por email informando que a versão mais recente do tópico foi enviada para revisão. Na próxima vez que um Revisor abrir o tópico, ele exibirá a versão atualizada do tópico.
 
   >[!NOTE]
   >
@@ -94,7 +98,7 @@ Você pode executar as seguintes ações na guia **Conteúdo**:
 - Selecione **Duplicar** para criar uma nova tarefa de revisão usando a tarefa atual como base.
 
 
-## Guia Revisores {#reviewer-tab-id199RF0N0MUI}
+## Guia Revisores {#Reviewer-tab-id199RF0N0MUI}
 
 ![](images/reviewers-tab.png){align="left"}
 
@@ -107,27 +111,33 @@ Você pode executar as seguintes ações na guia **Revisores**:
   >
   > Você também pode marcar ou desmarcar um tópico individualmente marcando a caixa de seleção ao lado do tópico.
 
-- **Adicionar**: exibe a caixa de diálogo Adicionar Revisores. É possível digitar o nome de um revisor ou função de usuário \(ou grupo\) que você deseja adicionar como revisor aos tópicos selecionados.
-- **Remover**: exibe a caixa de diálogo Remover Revisores. Você pode digitar o nome de um revisor ou função de usuário \(ou grupo\) que deseja remover como revisor dos tópicos selecionados.
-- **Reatribuir**: exibe a caixa de diálogo Reatribuir Revisores. É possível digitar o nome de um revisor ou função de usuário \(ou grupo\) à qual você deseja atribuir a tarefa de revisão. Isso remove todos os revisores existentes dos tópicos selecionados e atribui os revisores recém-selecionados a esses tópicos.
-- **Exportar**: permite exportar os detalhes da tarefa de revisão em um arquivo CSV. O arquivo contém detalhes como caminho e título do tópico, nome do revisor e versão dos tópicos enviados para revisão.
+- **Adicionar**: exibe a caixa de diálogo Adicionar Revisores. É possível digitar o nome de um Revisor ou função de usuário \(ou grupo\) que você deseja adicionar como Revisor aos tópicos selecionados.
+- **Remover**: exibe a caixa de diálogo Remover Revisores. É possível digitar o nome de um Revisor ou função de usuário \(ou grupo\) que você deseja remover como Revisor dos tópicos selecionados.
+- **Reatribuir**: exibe a caixa de diálogo Reatribuir Revisores. É possível digitar o nome de um Revisor ou de uma função de usuário \(ou grupo\) à qual você deseja atribuir a tarefa de revisão. Isso remove todos os revisores existentes dos tópicos selecionados e atribui os revisores recém-selecionados a esses tópicos.
+- **Exportar**: permite exportar os detalhes da tarefa de revisão em um arquivo CSV. O arquivo contém detalhes como caminho e título do tópico, nome do Revisor e versão dos tópicos enviados para revisão.
 - **Editar Revisores**: selecionar o ícone ![](images/edit_pencil_icon.svg) na lista de tópicos exibe a caixa de diálogo Editar Revisores. Você pode adicionar ou remover revisores para o tópico selecionado nesta caixa de diálogo.
 
 ## Verificar o status de uma tarefa de revisão {#check-review-status-id199RF0A0UHS}
 
-Na página principal do Painel de Revisão, se você selecionar uma tarefa de revisão e escolher **Status**, o relatório de status da tarefa de revisão será mostrado.
+No Experience Manager Guides, cada tarefa de revisão tem um status que reflete seu status atual. No Painel de Revisão, você pode acessar essas informações selecionando uma tarefa e escolhendo a opção **Status**.
 
-![](images/review-status-report.png){align="left"}
+![](images/review-dashboard-select-option.png){width="650" align="left"}
+
+Isso abrirá um relatório de status da tarefa de revisão, conforme mostrado abaixo:
+
+![](images/check-review-status-dashboard.png){width="650" align="left"}
+
+Como alternativa, você pode acessar o relatório de status diretamente do [Painel de revisão](./web-editor-left-panel.md#review) no Editor. Abra uma tarefa de revisão ativa no painel Revisão, selecione **Atualizar tarefa** e escolha **Verificar status da revisão**.
 
 O relatório de status da tarefa de revisão contém os seguintes detalhes:
 
-- Nome\(s\) do revisor ao qual a tarefa de revisão foi atribuída.
+- Nome\(s\) do Revisor a quem a tarefa de revisão é atribuída.
 - A coluna Status indica o status da revisão. O Status pode ser um dos seguintes:
-   - **Não iniciado**: o revisor ainda não abriu o link de revisão.
-   - **Em andamento**: o revisor abriu o link de revisão e está em processo de revisão do tópico.
-   - **Concluído**: o revisor concluiu a revisão ao concluir a tarefa de revisão atribuída a ele. A tarefa de revisão está na Caixa de entrada de notificação do AEM para cada revisor.
-- Quando um revisor abre um link de revisão e navega para um tópico específico, esse tópico é adicionado à lista Tópicos revisados. Isso ajuda os autores a determinar se os revisores abriram ou não suas respectivas seções. Se forem feitos comentários, eles serão mostrados entre parênteses.
+   - **Não iniciado**: o Revisor ainda não abriu a tarefa de revisão.
+   - **Em andamento**: o Revisor abriu a tarefa de revisão e está em processo de revisão do tópico.
+   - **Concluído**: o Revisor concluiu a revisão e marcou a tarefa como concluída na Interface de Revisão. A tarefa de revisão está na Caixa de entrada de notificação do AEM para cada Revisor.
+- Quando um Revisor abre um link de revisão e navega até um tópico específico, esse tópico é adicionado à lista Tópicos revisados. Isso ajuda os autores a determinar se os revisores abriram ou não suas respectivas seções. Se forem feitos comentários, eles serão mostrados entre parênteses.
 - Número total de comentários feitos em todos os tópicos. No caso de vários tópicos em revisão, o número de comentários para cada tópico é mencionado \(entre parênteses\) em relação ao nome do tópico.
-- A data em que qualquer tópico foi acessado pela última vez pelo revisor.
+- A data em que qualquer tópico foi acessado pela última vez pelo Revisor.
 
-**Tópico pai:**&#x200B;[ Introdução à revisão](review.md)
+**Tópico pai:**[ Introdução à revisão](review.md)

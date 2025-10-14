@@ -4,9 +4,9 @@ description: Explore outros recursos do Editor no Adobe Experience Manager Guide
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: c8ea6eae180ce7045a0364713604711aae2bb6bd
+source-git-commit: b00f8ba0e27cc26c48e1b058e25c05c4b6e9dffd
 workflow-type: tm+mt
-source-wordcount: '2556'
+source-wordcount: '2652'
 ht-degree: 0%
 
 ---
@@ -246,8 +246,19 @@ Faça o seguinte para gerar automaticamente a ID de um ou vários elementos:
 1. Selecione o conteúdo no qual deseja atribuir IDs.
 1. Clique com o botão direito e selecione **Gerar IDs** no menu de contexto.
 
-   Como alternativa, clique com o botão direito do mouse na navegação estrutural e selecione **Gerar IDs**.
+Como alternativa, clique com o botão direito do mouse na navegação estrutural e selecione **Gerar IDs**.
 
+## Identificação de IDs duplicadas para elementos em um mapa ou tópico na exibição Autor
+
+Se um determinado tópico ou mapa contiver elementos com IDs duplicadas, o botão **IDs duplicadas** será exibido no canto inferior direito da área de edição de conteúdo adjacente às exibições do Editor.
+
+![](images/duplicate-element-IDs.png){width="350" align="left"}
+
+Selecionar **IDs duplicadas** abre um pop-over listando todas as IDs duplicadas. Você pode selecionar a ID exibida no popover para navegar até o elemento correspondente e atualizá-lo com uma ID exclusiva.
+
+>[!NOTE]
+>
+> O botão **IDs Duplicadas** está disponível somente na exibição **Autor**, e IDs de elementos semelhantes são permitidas em diferentes tópicos aninhados.
 
 
 ## Manuseio de arquivos grandes no Editor
@@ -268,4 +279,4 @@ Os principais recursos destinados a melhorar o tratamento de arquivos grandes s�
 
 - A mensagem de alerta está disponível somente para arquivos DITA e está visível em todas as exibições: Autor, Source e Layout.
 
-**Tópico pai:**&#x200B;[ Introdução ao Editor](web-editor.md)
+**Tópico pai:**[ Introdução ao Editor](web-editor.md)

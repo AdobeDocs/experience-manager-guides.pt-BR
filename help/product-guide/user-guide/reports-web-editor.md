@@ -4,9 +4,9 @@ description: Gerar relatórios de mapa DITA no console de mapas no AEM Guides. S
 exl-id: 2f202b41-85d9-4a5a-aa28-e25715ce5e2e
 feature: Report Generation
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 0d713f9ff4bd48aa90bce368d6ad7abf86ecbbf7
 workflow-type: tm+mt
-source-wordcount: '2568'
+source-wordcount: '2614'
 ht-degree: 0%
 
 ---
@@ -61,9 +61,8 @@ Você pode exibir o relatório da lista de tópicos de um mapa executando as seg
    - **Local do Arquivo** O caminho completo do tópico.
    - **Tipo de Referência** O tipo de referência - direta ou indireta.
    - **Estado do Documento** O estado do tópico.
-   - **Autor** O usuário que trabalhou por último no tópico.
+   - **Autor** O usuário que trabalhou por último no tópico. A lista é paginada e carregada de forma assíncrona, mostrando um conjunto limitado de usuários de cada vez e buscando mais à medida que você rola a tela ou navega. Isso melhora a velocidade de carregamento e o desempenho geral, especialmente ao trabalhar com um grande número de usuários.
    - **Mapa Pai** A lista de todos os mapas nos quais o tópico é referenciado diretamente.
-
    >[!NOTE]
    >
    > Selecione **Atualizar** para obter uma nova lista de tópicos e exibir qualquer alteração no arquivo de mapa ou se qualquer referência no arquivo de tópico for atualizada.
@@ -149,7 +148,7 @@ Para atualizar os metadados, execute as seguintes etapas:
 
 Esse recurso permite adicionar colunas de metadados personalizadas de acordo com o requisito, que são exibidas nos relatórios de metadados. Também oferece maior flexibilidade nos relatórios de metadados. Para adicionar uma nova coluna de metadados personalizada, execute as seguintes etapas:
 
-1. Para adicionar uma coluna de metadados personalizada, selecione **Configurações** nos três pontos no canto superior direito da página de metadados.
+1. Para adicionar uma coluna de metadados personalizada, selecione **Configurações do Workspace** (aparecendo como **Configurações** para **No local**) nos três pontos no canto superior direito da página de metadados.
 
    ![](images/custom-metadata-setting.png){width="600" align="left"}
 
@@ -207,7 +206,6 @@ O relatório **Multimídia** fornece informações detalhadas sobre a multimídi
    - **Tipo de multimídia** \(selecionado por padrão\) Tipo de multimídia. As opções disponíveis são Áudio, Vídeo ou Imagem.
    - **Usado em** \(selecionado por padrão\) As referências nas quais a multimídia foi usada. Você pode selecionar a referência para editá-la.
    - **Tipo de Referência** \(selecionado por padrão\) O tipo de referência - direta ou indireta.
-
    >[!NOTE]
    >
    > Selecione **Atualizar** para obter uma nova lista de multimídia e exibir qualquer alteração no arquivo de mapa ou se qualquer multimídia no mapa DITA for atualizada.
@@ -268,4 +266,4 @@ Você pode exibir o relatório de links desfeitos executando as seguintes etapas
 1. Selecione **Baixar** para baixar o instantâneo de todos os links corrompidos no mapa DITA. O arquivo do Excel contém as colunas selecionadas e os links quebrados filtrados na exibição Links quebrados.
 
 
-**Tópico pai:**&#x200B;[ Introdução aos relatórios](reports-intro.md)
+**Tópico pai:**[ Introdução aos relatórios](reports-intro.md)

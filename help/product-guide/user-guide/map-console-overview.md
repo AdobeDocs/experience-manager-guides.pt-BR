@@ -4,9 +4,9 @@ description: Saiba mais sobre o Console de mapas e os vários recursos disponív
 feature: Publishing
 role: User
 exl-id: b273b1ae-fbb2-4b35-abce-0df78eeb2e11
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: e14b19ff7c128899b4536d5b8c4290c476991bef
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,12 @@ A interface do console do Mapa está dividida principalmente em duas seções: *
 
    - **Alternador de navegação**: permite a navegação contínua para outras páginas - Editor ou Página inicial:
    - **Arquivo de mapa selecionado**: exibe o nome do arquivo de mapa selecionado no momento. Você pode abri-lo no Editor ou escolher um arquivo de mapa diferente para o console Mapa.
-   - **Mais ações**: fornece opções para navegar até a **Interface do usuário do Assets** e as **Configurações**. Para obter detalhes, consulte a seção **Mais ações** do documento [Conhecer os recursos do Editor](./web-editor-features.md#tab-bar).
+   - **Mais ações**: fornece opções para navegar até a **Interface do usuário do Assets** e as **configurações do Workspace**. Para obter detalhes, exiba a [Barra de guias](./web-editor-tab-bar.md).
+
+  >[!NOTE]
+  >
+  > Se estiver usando o Adobe Experience Manager Guides em uma configuração no local, a opção de configurações do Workspace continuará a aparecer como **Configurações** no menu Mais ações.
+
    - **Expandir exibição**: permite expandir a exibição de página usando o ícone **Expandir**. Nesta visualização, a barra do cabeçalho fica oculta, maximizando o espaço de conteúdo. Para retornar ao modo de exibição padrão, use o ícone **Sair do modo de exibição expandido**.
 
   >[!NOTE]

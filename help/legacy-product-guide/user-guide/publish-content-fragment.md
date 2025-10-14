@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: f8a8dfd3-19de-49ff-b4d4-265b3ac09488
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: 1e08dce0bd64d1a15d42baf4c9720405a9eec146
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Por exemplo, adicione `/conf/we-retail` na configuração de nuvem. Essa configu
 
 1. Para gerar um Fragmento de Conteúdo, selecione **Nova Saída** ![novo ícone de saída](./images/Add_icon.svg) na seção **Saídas** em **Propriedades do Arquivo** de um tópico.
 1. Selecione **Fragmento do conteúdo**.\
-   ![guia de opções de propriedades de arquivo](./images/file-properties-outputs-tab.png) {width="300" align="left"}
+   ![guia de opções de propriedades do arquivo](./images/file-properties-outputs-tab.png) {width="300" align="left"}
 
    *Adicionar um novo Fragmento de Conteúdo das Propriedades de Arquivo de um tópico*.
 
@@ -50,7 +50,6 @@ Por exemplo, adicione `/conf/we-retail` na configuração de nuvem. Essa configu
    * **Nome**: digite o nome do Fragmento de Conteúdo. Por padrão, o nome é preenchido com o título do tópico e os espaços são substituídos por &quot;_&quot;. Por exemplo, *sample_content_fragment*. Você pode editá-lo.  Esse nome é usado para gerar o URL do fragmento de conteúdo.
 
    * Você pode selecionar condições diferentes para criar variantes de fragmento de conteúdo. Selecione uma das seguintes opções:
-
      >[!NOTE]
      > 
      > As condições serão ativadas somente se os atributos de condição forem definidos no tópico.
@@ -113,4 +112,4 @@ Você também pode executar as seguintes ações para um Fragmento de Conteúdo 
 
 O novo script de migração de conteúdo UUID foi significativamente otimizado, tornando a migração de conteúdo de Não UUID para UUID 30 vezes mais rápida do que o script anterior. Ele inclui recursos como a retomada a partir de pontos de verificação, insights em tempo real, tempo estimado de conclusão e relatórios detalhados, garantindo um processo de migração harmonioso. Notavelmente, o processo de migração preserva os metadados de ativos sem qualquer alteração. O script foi testado e verificado em um grande conjunto de dados de 3 milhões de ativos, confirmando sua eficiência e confiabilidade para migrações em larga escala.
 
-Saiba mais sobre [Não UUID para migração de conteúdo UUID](/help/product-guide/install-guide/migrate-non-uuid-uuid.md).
+Saiba mais sobre [Não UUID para migração de conteúdo UUID](/help/product-guide/install-guide/migrate-non-uuid-4-3.md).

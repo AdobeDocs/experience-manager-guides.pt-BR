@@ -3,9 +3,10 @@ title: Barra de guias no editor
 description: Conheça a barra de guias no editor. Saiba mais sobre a interface e os recursos do Editor no Adobe Experience Manager Guides.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: b3597cac602cf5a22aff9d8db108e3652591d662
+exl-id: 02e45d34-898f-411c-bd80-bd4f2364b7d7
+source-git-commit: e14b19ff7c128899b4536d5b8c4290c476991bef
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -50,6 +51,10 @@ Uma ferramenta avançada orientada por IA, projetada para melhorar a produtivida
    - **Serviços em Nuvem**: se você estiver usando os Serviços em Nuvem, selecionar a opção **Assets** o levará à página Navegação da AEM.
 
    - **Software Local**: se estiver usando o Adobe Experience Manager Guides (4.2.1 e posterior), selecionar a opção **Assets** levará você ao caminho do arquivo atual na interface do usuário do Assets.
-- **Configurações**: Leva você à caixa de diálogo Configurações do Editor. Para obter detalhes, consulte [Trabalhando com Configurações do Editor](./web-editor-settings.md).
+- **Configurações do Workspace**: Leva você à caixa de diálogo de configurações do Workspace. Para obter detalhes, consulte [Definir configurações do Workspace](../cs-install-guide/workspace-settings.md).
 
-**Tópico pai:**&#x200B;[ Introdução ao Editor](web-editor.md)
+>[!NOTE]
+>
+> Se estiver usando o Adobe Experience Manager Guides em uma configuração no local, a opção de configurações do Workspace continuará a aparecer como **Configurações** no menu Mais ações.
+
+**Tópico pai:**[ Introdução ao Editor](web-editor.md)

@@ -2,7 +2,8 @@
 title: Notas de versão | Novidades da versão 2025.08.0 do Adobe Experience Manager Guides
 description: Saiba mais sobre os recursos novos e aprimorados da versão 2025.08.0 do Adobe Experience Manager Guides
 role: Leader
-source-git-commit: d418ffb254b11430509609b91e0174690815cf73
+exl-id: c3461d0a-6394-4275-9d54-b2b1545d7c18
+source-git-commit: 1a44af3522060ebc531393d4d01b1cd00eb02c10
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 0%
@@ -39,7 +40,7 @@ A última atualização apresenta uma configuração aprimorada para **Ações r
 
 Depois que a opção de alternância **Assistente de IA** estiver habilitada, os administradores poderão escolher seletivamente quais ações rápidas estarão visíveis na guia **Criação**, ajudando a simplificar as interações do autor. Essas configurações de visibilidade são específicas para cada perfil de pasta.
 
-Saiba mais sobre o [assistente de IA nas configurações do Editor](../user-guide/web-editor-settings.md#general) no Experience Manager Guides.
+Saiba mais sobre o [assistente de IA nas configurações do Editor](../cs-install-guide/workspace-settings.md#general) no Experience Manager Guides.
 
 ![](assets/authoring-quick-actions.png){width="350" align="left"}
 
@@ -93,9 +94,3 @@ Com esta versão, as configurações em **Preferências do usuário** na página
 Além disso, na barra de ferramentas do Editor, alguns alternadores de acesso rápido para habilitar ou desabilitar o Controle de Alterações, Marcas e Espaços Não Separáveis agora estão agrupados na opção **Mostrar** na lista suspensa Menu para melhor usabilidade.
 
 Para obter mais detalhes, exiba [Barra de ferramentas no Editor](../user-guide/web-editor-toolbar.md#menu-dropdown).
-
-
-
-
-
-

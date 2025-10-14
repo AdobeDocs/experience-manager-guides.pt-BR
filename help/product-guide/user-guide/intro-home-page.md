@@ -4,9 +4,9 @@ description: Conheça a página inicial da Adobe Experience Manager Guides.
 feature: Authoring
 role: User
 exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
-source-git-commit: 03f117381bda7d31b50085b83f309e24f9a75210
+source-git-commit: f9b879d6d374334a08a1d3b0a47b0cb419f02140
 workflow-type: tm+mt
-source-wordcount: '1824'
+source-wordcount: '1966'
 ht-degree: 0%
 
 ---
@@ -50,6 +50,18 @@ Os recursos disponíveis na barra de navegação são explicados da seguinte man
   No momento, o recurso [Assistente de IA](./ai-assistant.md) está disponível apenas para o Adobe Experience Manager as Cloud Service.
 - **Seção de visão geral personalizada**: permite ocultar ou mostrar os widgets na seção Widgets.
 - **Perfil de pasta em uso**: exibe o perfil de pasta em uso no momento.
+- **Mais ações**: fornece acesso a opções adicionais. Selecionar esse botão abre um menu com as seguintes opções:
+
+   - **Assets**: leva você a um destino com base em sua configuração.
+      - **Serviços em Nuvem**: se você estiver usando os Serviços em Nuvem, selecionar a opção **Assets** o levará à página Navegação da AEM.
+
+      - **Software Local**: se estiver usando o Adobe Experience Manager Guides (4.2.1 e posterior), selecionar a opção **Assets** levará você ao caminho do arquivo atual na interface do usuário do Assets.
+   - **Configurações do Workspace**: Leva você à caixa de diálogo **Configurações do Workspace**. Para obter detalhes, consulte [Definir configurações do Workspace](../cs-install-guide/workspace-settings.md).
+
+     >[!NOTE]
+     >
+     > Na página inicial, a opção de configurações do Workspace está disponível somente para a configuração dos serviços em nuvem. Em uma configuração no local, a opção Mais ações não está disponível na página inicial. No entanto, ainda é possível acessar as configurações relevantes por meio da interface do Editor e do console Mapa, navegando até Mais opções > Configurações.
+
 - **Expandir exibição**: permite expandir a exibição de página usando o ícone **Expandir**. Nesta visualização, a barra do cabeçalho fica oculta, maximizando o espaço de conteúdo. Para retornar ao modo de exibição padrão, use o ícone **Sair do modo de exibição expandido**.
 
 ## Painel esquerdo
@@ -169,7 +181,7 @@ As preferências do usuário estão disponíveis para todos os autores. Usando a
 
 - **Aparência**: a guia Aparência fornece as opções para selecionar os temas do aplicativo e a exibição de origem da área de edição de conteúdo. Use esta guia para definir as seguintes configurações:
 
-  ![](images/user_preference_editor_appearance-new.png){align="left"}
+  ![](images/user_preference_editor_appearance.png){align="left"}
 
    - **Tema do aplicativo e exibição do Source**: você pode escolher entre os temas Claro ou Escuro para a exibição do aplicativo e da fonte. No caso do tema Luz, as barras de ferramentas e os painéis usam um plano de fundo de cor cinza-claro. No caso do tema Escuro, as barras de ferramentas e os painéis usam um plano de fundo preto. Selecione o tema **Usar dispositivo** para permitir que o Experience Manager Guides selecione os temas claro e escuro com base no tema do seu dispositivo.
 

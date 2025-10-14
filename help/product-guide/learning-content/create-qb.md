@@ -4,7 +4,7 @@ description: Saiba como criar um banco de perguntas no Treinamento e aprendizado
 feature: Authoring
 role: User
 exl-id: c658af49-b0e6-4188-b3ba-8f3223b12632
-source-git-commit: 74e5baaf1743986ab188f5c89644d7683f885d0a
+source-git-commit: 6f0643ca4b43f88ead42bbeade4e3e7252263f32
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 0%
@@ -21,6 +21,8 @@ Antes de mergulharmos no processo passo a passo, aqui está um pequeno vídeo ex
 >[!VIDEO](https://video.tv.adobe.com/v/3475212/learning-content-aem-guides)
 
 Execute as seguintes etapas para criar um banco de perguntas:
+
+>[!VIDEO](https://video.tv.adobe.com/v/3469321)
 
 1. Abra um curso no **Gerenciador de cursos** e selecione **Adicionar novo** no **menu Opções**.
 1. Selecione **Banco de perguntas**.

@@ -4,9 +4,9 @@ description: Traduza o conteúdo para vários idiomas no editor da Web. Saiba co
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 0d713f9ff4bd48aa90bce368d6ad7abf86ecbbf7
 workflow-type: tm+mt
-source-wordcount: '2365'
+source-wordcount: '2376'
 ht-degree: 0%
 
 ---
@@ -157,7 +157,7 @@ Para obter detalhes sobre como configurar perfis globais e de nível de pasta, c
 
 O Experience Manager Guides permite passar o rótulo do arquivo de origem para o arquivo de destino. Isso ajudará você a identificar facilmente a versão de origem do arquivo traduzido.
 
-Para adicionar o rótulo da versão de origem na cópia de destino, o administrador do sistema deve habilitar a opção **Propagar rótulos da versão de origem para a versão de destino** na guia **Tradução** em **Configurações**.
+Para adicionar o rótulo da versão de origem na cópia de destino, o administrador do sistema deve habilitar a opção **Propagar rótulos da versão de origem para a versão de destino** na guia **Tradução** em **Configurações do Workspace** (exibidas como **Configurações** para **No local**).
 
 Por exemplo, se você tiver alguns arquivos de origem com o rótulo da versão `Release 1.0` aplicado a eles, você também poderá passar o rótulo de origem \(`Release 1.0`\) para o arquivo traduzido.
 
@@ -219,11 +219,11 @@ Selecione o nome da referência na caixa de diálogo para abri-la no modo de vis
 > 
 >Esse recurso está disponível para os novos projetos de tradução criados usando a versão 2404 ou posterior do Experience Manager Guides.  Isso não afetará nenhum projeto existente.
 
-O administrador pode configurar a opção **Limpeza do projeto de tradução após a conclusão** na guia **Tradução** em **Configurações do Editor** para desabilitar ou excluir os projetos de tradução automaticamente.
+O administrador pode configurar a opção **Limpeza do projeto de tradução após a conclusão** na guia **Tradução** das **Configurações do Workspace** (exibidas como **Configurações** para **No local**) para desabilitar ou excluir os projetos de tradução automaticamente.
 
 Para afetar o gerenciamento de documentos, o Experience Manager Guides fornece a capacidade de excluir os projetos de tradução depois que você conclui a tradução.
 
 Você também pode desativar os projetos de tradução se desejar usá-los posteriormente. A exclusão de um projeto exclui todos os arquivos e pastas presentes no projeto. Desativar um projeto não o exclui, mas o mantém no repositório. Mas você não pode atualizar ou editar um projeto desativado.  A exclusão ou desativação de um projeto não afetará o status de tradução de nenhuma referência.
 
 
-**Tópico pai:**&#x200B;[ Introdução ao Editor](web-editor.md)
+**Tópico pai:**[ Introdução ao Editor](web-editor.md)

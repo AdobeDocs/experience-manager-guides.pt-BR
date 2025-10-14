@@ -4,9 +4,9 @@ description: Saiba como tratar comentários de revisão como autor no AEM Guides
 exl-id: 4c969788-f700-4fd6-8afa-8e5b411b59f3
 feature: Reviewing
 role: User
-source-git-commit: f8320d0e0b5982d932c9df46f8ccf35d5f44dbac
+source-git-commit: 35480e842f6c05811333a14e80c0e9b6431e9176
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1228'
 ht-degree: 0%
 
 ---
@@ -69,9 +69,10 @@ No Editor, o painel direito contém os ícones Revisar e Controlar alterações.
 - **G**: pesquisar um texto dentro de comentários.
 - **H**: Aceitar ou rejeitar um comentário.
 
-- **I**: aplicar um filtro aos comentários. Você pode filtrar para exibir comentários com base no Tipo de revisão \(todos, destacados, excluídos, inseridos ou nota adesiva\), Status da revisão \(todos, aceitos, rejeitados ou nenhum\), Revisores \(todos ou revisores específicos\(s\)\) ou Versões de tópico.
+- **I**: aplicar um filtro aos comentários. Você pode filtrar para exibir comentários com base no Tipo de revisão \(todos, destacados, excluídos, inseridos ou nota adesiva\), Status da revisão \(todos, aceitos, rejeitados ou nenhum\), Revisores \(todos ou revisores específicos\(s\)\) ou Versões de tópico. Por padrão, nenhum dos filtros é selecionado.
 
-**Responder a um comentário marcando outros usuários**
+  ![](images/review-comments-author-filter.png){width="350" align="left"}
+  **Responder a um comentário marcando outros usuários**
 
 Como Autor e iniciador da tarefa de revisão, você pode responder a comentários de revisão e marcar outros usuários envolvidos na mesma tarefa de revisão para direcionar sua atenção ou atribuir acompanhamentos. Essa funcionalidade só está disponível para tarefas de revisão ativas.
 
@@ -90,4 +91,4 @@ Se você for o iniciador ou o Autor de uma tarefa de revisão e abri-la no **con
 
 ![](images/review-comments-toolbar-disabled.png){width="350" align="left"}
 
-**Tópico pai:**&#x200B;[ Introdução à revisão](review.md)
+**Tópico pai:**[ Introdução à revisão](review.md)

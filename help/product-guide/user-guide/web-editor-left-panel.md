@@ -4,9 +4,9 @@ description: Conheça o painel esquerdo no editor. Saiba mais sobre a interface 
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 92496d39-b423-4635-8b05-c67fd6af47de
-source-git-commit: 97e80f9115f84291a7190cf4c4cf25426b3a83bb
+source-git-commit: 0d713f9ff4bd48aa90bce368d6ad7abf86ecbbf7
 workflow-type: tm+mt
-source-wordcount: '9390'
+source-wordcount: '9542'
 ht-degree: 0%
 
 ---
@@ -179,6 +179,15 @@ Você pode exibir as seguintes opções nas guias **Geral** e **Avançado**.
 Está sincronizado com a caixa de pesquisa na janela do repositório. Por exemplo, se você digitar `general purpose` na caixa de pesquisa no painel do repositório, ele também aparecerá na caixa de diálogo **Filtro avançado** e vice-versa.
 
 - **Pesquisar em**: selecione o caminho em que deseja pesquisar os arquivos presentes no repositório do Adobe Experience Manager.
+- **Arquivos DITA**: você pode procurar todos os **tópicos DITA** e **mapas DITA** presentes no caminho selecionado. Elas são selecionadas por padrão.
+- **Arquivos não DITA**: você pode pesquisar por **Arquivos Ditaval**, **Arquivos de Imagem**, **Multimídia**, **Documentos** e **JSON** no caminho selecionado.
+- **Bloqueado por**: exibe uma lista de usuários. A lista é paginada e carregada de forma assíncrona, mostrando um conjunto limitado de usuários de cada vez e buscando mais à medida que você rola a tela ou navega. Isso melhora a velocidade de carregamento e o desempenho geral, especialmente ao trabalhar com um grande número de usuários.
+- **Modificado após** / **Modificado antes**: filtre o conteúdo com base na data de modificação. Selecione um intervalo de datas no calendário ou escolha uma das seguintes opções de intervalo de tempo:
+   - Nas últimas duas horas
+   - Na semana passada
+   - No mês passado
+   - No ano passado
+- **Marcas**: filtrar conteúdo com base em marcas.
 
 **Avançado**
 
@@ -635,10 +644,8 @@ Se um elemento de bloco tiver seu próprio texto, ele será exibido junto com es
 
 ![](images/outline-view-block-element.png){width="550" align="left"}
 
-Se o administrador tiver criado um perfil para atributos, você obterá esses atributos junto com seus valores configurados. Você também pode atribuir atributos de exibição configurados pelo administrador na guia **Atributos de exibição** em **Configurações**. Os atributos definidos para um elemento são exibidos na exibição Layout e Estrutura de Tópicos.
+Se o administrador tiver criado um perfil para atributos, você obterá esses atributos junto com seus valores configurados. Você também pode atribuir atributos de exibição configurados pelo administrador na guia **Atributos de exibição** das **Configurações do Workspace** (exibidas como **Configurações** para **No local**). Os atributos definidos para um elemento são exibidos na exibição Layout e Estrutura de Tópicos.
 
-
-Para obter mais detalhes, exiba os *Atributos de exibição* na descrição do recurso *Configurações* no painel esquerdo.
 
 **Recurso de pesquisa**
 
@@ -933,7 +940,7 @@ Você também pode alterar os valores do menu suspenso do atributo na visualiza�
 
 Você também pode exibir e aplicar o esquema de assunto do painel Condições.
 
-Para exibir o esquema de assunto no painel Condições, o administrador do sistema deve selecionar a opção **Mostrar esquema de assunto no painel Condições** na guia Geral em Configurações. Para obter mais detalhes, exiba a seção **Configurações** na [Barra de guias](./web-editor-tab-bar.md).
+Para exibir o esquema do assunto no painel Condições, o administrador do sistema deve selecionar a opção **Mostrar esquema do assunto no painel Condições** na guia Geral das **configurações do Workspace** (exibidas como **Configurações** para **No local**). Para obter mais detalhes, exiba a [Barra de guias](./web-editor-tab-bar.md).
 
 O painel Condições exibe a estrutura vertical plana das definições de assunto dentro do esquema de assunto.
 
@@ -1056,7 +1063,7 @@ Para executar a pesquisa global e substituir, execute as seguintes etapas:
 1. Selecione **Substituir única ocorrência** \( ![](images/replace-icon.svg)\) para substituir o termo de pesquisa destacado no tópico ou selecione Próxima correspondência ![](images/next-match-in-search.png) ou ![](images/previous-match-in-search.png) Correspondência anterior para ir para a próxima ocorrência ou ocorrência anterior do texto.
 1. Selecione **Substituir todos** \( ![](images/replace-all-in-file-icon.svg)\)para substituir todas as ocorrências do termo pesquisado em um único arquivo pelo termo de substituição em um único clique. Você receberá uma notificação depois de substituir todas as ocorrências no arquivo selecionado.
 
-Para habilitar o ícone **Substituir tudo**, o administrador do sistema deve selecionar a opção **Habilitar Substituir tudo** na guia **Geral** em **Configurações**.
+Para habilitar o ícone **Substituir tudo**, o administrador do sistema deve selecionar a opção **Habilitar Substituir tudo** na guia **Geral** das **Configurações do Workspace** (exibidas como **Configurações** para **No local**).
 
     >[!NOTE]
     >
@@ -1110,7 +1117,12 @@ Para exibir os comentários de revisão nas tarefas de revisão ativas que estã
 
      ![](images/active-review-select-project.png){width="300" align="left"}
 
-     Habilite a opção **Tarefas iniciadas por mim** para exibir somente as tarefas que você iniciou. O estado de alternância dessa opção é mantido mesmo após a atualização da página. Habilite a opção **Mostrar somente tarefas ativas** para filtrar a lista de projetos de forma a mostrar tarefas que estão ativas no momento.
+     A caixa de diálogo **Filtro** também inclui as seguintes opções que podem ser habilitadas ou desabilitadas usando a opção:
+
+      - **Tarefas iniciadas por mim**: quando habilitado, exibe somente as tarefas que você iniciou.
+      - **Mostrar somente tarefas ativas**: quando habilitado, filtra a lista de projetos para exibir somente as tarefas que estão ativas no momento.
+
+     Por padrão, ambas as opções estão desativadas. Além disso, o estado de alternância selecionado é mantido mesmo após a atualização da página.
 
 1. Por padrão, no projeto de revisão, você exibirá uma lista simples de tópicos que têm comentários associados a eles. Aplique os filtros necessários no painel esquerdo para filtrar os tópicos com base nos comentários de revisão presentes neles:
 
@@ -1130,4 +1142,4 @@ Para exibir os comentários de revisão nas tarefas de revisão ativas que estã
 
 </details>
 
-**Tópico pai:**&#x200B;[ Introdução ao Editor](web-editor.md)
+**Tópico pai:**[ Introdução ao Editor](web-editor.md)
