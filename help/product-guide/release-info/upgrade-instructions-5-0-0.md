@@ -1,7 +1,8 @@
 ---
 title: Notas de versão | Instruções de atualização da versão Adobe Experience Manager Guides 5.0.0
 description: Saiba mais sobre a matriz de compatibilidade e como atualizar para a versão 5.0.0 do Adobe Experience Manager Guides.
-source-git-commit: 5ae05935d254b03ad99221bd5f65dbb6a3580c5f
+exl-id: 763db247-133e-40c0-807a-2f965b1ddb2f
+source-git-commit: ef8de789f8d6cf0cabc55f4d12c72b164619231c
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 1%
@@ -18,7 +19,7 @@ Para obter a lista de problemas que foram corrigidos nesta versão, consulte [Pr
 
 ## Matriz de compatibilidade
 
-Esta seção lista a matriz de compatibilidade dos aplicativos de software compatíveis com a versão 4.6.0 do Experience Manager Guides.
+Esta seção lista a matriz de compatibilidade para os aplicativos de software compatíveis com a versão Experience Manager Guides 5.0.0.
 
 ### Adobe Experience Manager
 
@@ -62,7 +63,7 @@ Você pode atualizar facilmente sua versão atual do Guides para a versão 5.0.0
 - Se você estiver usando a versão 4.3.x, 4.2, 4.2.1 (Hotfix 4.2.1.3), 4.1 ou 4.1.x, será necessário atualizar para a versão 4.4 antes de atualizar para a versão 5.0.0.
 - Se você estiver usando a versão 4.0, será necessário atualizar para a versão 4.2 antes de atualizar para a versão 4.3.x.
 - Se você estiver usando a versão 3.8.5, será necessário atualizar para a versão 4.0 antes de atualizar para a versão 4.2.
-- Se você estiver usando uma versão anterior à 3.8.5, consulte a seção Atualizar Experience Manager Guides no guia de instalação específico do produto, disponível no [arquivo PDF de ajuda do Adobe Experience Manager Guides](https://helpx.adobe.com/br/xml-documentation-for-experience-manager/archive.html).
+- Se você estiver usando uma versão anterior à 3.8.5, consulte a seção Atualizar Experience Manager Guides no guia de instalação específico do produto, disponível no [arquivo PDF de ajuda do Adobe Experience Manager Guides](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 >[!NOTE]
 >
