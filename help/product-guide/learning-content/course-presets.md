@@ -4,9 +4,9 @@ description: Fornece uma introdução às predefinições compatíveis para publ
 feature: Authoring
 role: User
 exl-id: 32f30bba-4600-4d75-b0bb-1093490ec11e
-source-git-commit: 40ce03adef1b9a50afd6698de49c09b65e565b3e
+source-git-commit: 26fe86ea790432dfef40ca404ff497722164b593
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
@@ -19,4 +19,4 @@ Ao publicar um curso, você pode escolher o SCORM e o PDF para entregar seu cont
 
 - **PDF:** a predefinição de saída do PDF permite publicar o conteúdo do curso em um formato profissional pronto para impressão. O formato PDF o torna ideal para compartilhamento de conteúdo para fins de revisão ou arquivamento.
 
-Para obter uma visão geral em vídeo sobre como criar, configurar e gerar saída para uma predefinição, exiba [![](assets/Smock_VideoCheckedOut_18_N.svg)](https://video.tv.adobe.com/v/3469529/aem-guides-learning-content).
+Para obter uma visão geral em vídeo sobre como criar, configurar e gerar saída para uma predefinição, exiba [Predefinições compatíveis](https://video.tv.adobe.com/v/3469529/aem-guides-learning-content) ![](assets/Smock_VideoCheckedOut_18_N.svg).
