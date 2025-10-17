@@ -4,9 +4,9 @@ description: Saiba como inserir perguntas do banco de perguntas no questionário
 feature: Authoring
 role: User
 exl-id: dfc247f7-31f9-4bcf-84e2-151993603b89
-source-git-commit: 26fe86ea790432dfef40ca404ff497722164b593
+source-git-commit: 757582f6bdcb64b004d430679eaf6e8a5fbdc807
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
@@ -38,4 +38,4 @@ Execute as seguintes etapas para inserir perguntas do banco de perguntas no ques
    ![](assets/inserted-question.png){width="650" align="left"}
 
 
-Para obter uma visão geral rápida do vídeo, [Insira as perguntas do banco de perguntas](https://video.tv.adobe.com/v/3475212/learning-content-aem-guides) ![](assets/Smock_VideoCheckedOut_18_N.svg).
+Para obter uma visão geral rápida do vídeo, exiba [Inserir perguntas do banco de perguntas](https://video.tv.adobe.com/v/3475212/learning-content-aem-guides) ![](assets/Smock_VideoCheckedOut_18_N.svg).
