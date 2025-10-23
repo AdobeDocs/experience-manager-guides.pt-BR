@@ -91,4 +91,4 @@ Se você for o iniciador ou o Autor de uma tarefa de revisão e abri-la no **con
 
 ![](images/review-comments-toolbar-disabled.png){width="350" align="left"}
 
-**Tópico pai:**[ Introdução à revisão](review.md)
+**Tópico pai:**&#x200B;[&#x200B; Introdução à revisão](review.md)
