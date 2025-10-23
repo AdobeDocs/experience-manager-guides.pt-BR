@@ -4,7 +4,7 @@ description: Conhecer os recursos do Editor de mapas no Adobe Experience Manager
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 6235af9bf85b2d0e2007bd2279d8ac018f82ffc1
+source-git-commit: 4cb5934fab1897bd36de33f2192ae2c4392c07eb
 workflow-type: tm+mt
 source-wordcount: '2563'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Recursos do Editor de Mapa {#id1942D0S0IHS}
 
-A barra de ferramentas no Editor de Mapa é semelhante ao Editor de tópico. As operações básicas, como alternar o painel esquerdo, salvar o mapa, criar uma nova versão do mapa, desfazer/refazer a última operação e excluir os elementos selecionados, são comuns em ambos os editores. Para obter detalhes sobre como essas operações funcionam, consulte a seção [Conhecer os recursos do Editor](web-editor-features.md#).
+A barra de ferramentas no Editor de Mapa é semelhante ao Editor de tópico. As operações básicas, como alternar o painel esquerdo, salvar o mapa, criar uma nova versão do mapa, desfazer/refazer a última operação e excluir os elementos selecionados, são comuns em ambos os editores. Para obter detalhes sobre como essas operações funcionam, exiba a [Barra de ferramentas na seção Editor](web-editor-toolbar.md#).
 
 As opções exibidas na barra de ferramentas do editor se baseiam na visualização Editor de mapa. Há quatro exibições disponíveis no Editor de mapa:
 
@@ -146,7 +146,7 @@ Além disso, você pode exibir os seguintes ícones e executar as tarefas relaci
 
 **Inserir antes/Inserir depois de** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
-Exibe a caixa de diálogo **Inserir elemento antes ou &#x200B;** Inserir elemento após. Selecione o elemento que deseja inserir no mapa. Dependendo da operação, o novo elemento é inserido antes ou depois do elemento atual no mapa.
+Exibe a caixa de diálogo **Inserir elemento antes ou **Inserir elemento após. Selecione o elemento que deseja inserir no mapa. Dependendo da operação, o novo elemento é inserido antes ou depois do elemento atual no mapa.
 
 **Elemento** - ![](images/Add_icon.svg)
 
