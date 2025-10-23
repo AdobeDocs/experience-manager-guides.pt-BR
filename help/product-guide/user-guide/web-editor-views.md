@@ -4,7 +4,7 @@ description: Exibir tópicos no modo de autor, origem e visualização. Saiba co
 exl-id: 74db2902-4507-4904-85d8-6b52e4af4c55
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
 workflow-type: tm+mt
 source-wordcount: '1447'
 ht-degree: 0%
@@ -49,7 +49,7 @@ A visualização Source exibe o XML subjacente que compõe o tópico. Se você s
   Na captura de tela acima, um destaque cruzado é usado para apontar a linha que contém XML incorreto.
 
 * O recurso Localizar e substituir permite procurar qualquer texto, elemento ou atributo na Exibição do Source.
-Para obter mais detalhes, exiba a descrição do recurso **Localizar e Substituir** na seção [Barra de guias](web-editor-features.md#tab-bar).
+Para obter mais detalhes, exiba a descrição do recurso **Localizar e Substituir** na seção [Barra de guias](web-editor-tab-bar.md).
 
 * A Exibição do Source fornece muitos atalhos para ajudá-lo a navegar e trabalhar rapidamente em um documento. A tabela a seguir lista as ações compatíveis e suas teclas de atalho:
 
@@ -149,4 +149,4 @@ Para exportar um tópico como PDF, siga estas etapas:
    A PDF é gerada e aberta em uma nova guia ou você verá uma caixa de diálogo para salvar a PDF no sistema local.
 
 
-**Tópico pai:**&#x200B;[&#x200B; Introdução ao Editor](web-editor.md)
+**Tópico pai:**[ Introdução ao Editor](web-editor.md)

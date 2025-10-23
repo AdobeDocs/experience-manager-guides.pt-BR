@@ -4,7 +4,7 @@ description: Crie um mapa com o Editor de mapas no Experience Manager Guides. En
 exl-id: b9cda118-ab6f-4d6b-9616-a083180ba069
 feature: Authoring, Map Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
 workflow-type: tm+mt
 source-wordcount: '1555'
 ht-degree: 0%
@@ -56,17 +56,17 @@ Execute as seguintes etapas para adicionar tópicos a um arquivo de mapa no cons
    ![](images/new-map-file-in-editor.png){align="left"}
 
 
-   - **A** - \(*Barra de guias*\): é semelhante à barra de guias do Editor. Exiba a [barra de guias](./web-editor-features.md#tab-bar) no Editor para obter mais detalhes.
+   - **A** - \(*Barra de guias*\): é semelhante à barra de guias do Editor. Exiba a [barra de guias](./web-editor-tab-bar.md) no Editor para obter mais detalhes.
 
    - **B** - \(*Barra de Ferramentas*\) Esta é a barra de ferramentas que permite trabalhar com arquivos de mapa. Para obter mais informações sobre as funcionalidades disponíveis na barra de ferramentas, exiba [Recursos disponíveis na barra de ferramentas do Editor de Mapas](#features-available-in-the-map-editors-toolbar).
 
    - **C** - \(*Visualizações de mapa*\): permite que você alterne o Editor de mapa entre Layout, Autor, Source e Visualização. O modo de exibição **Layout** permite que você organize os tópicos em um mapa DITA. Isso fornece a exibição em árvore ou hierárquica do mapa. O modo de exibição **Autor** permite que você edite os tópicos no Editor de Mapa. Isso também fornece a visualização WYSIWYG do arquivo de mapa. A exibição **Source** permite trabalhar com o XML subjacente do arquivo de mapa. A Visualização fornece uma exibição consolidada de todos os tópicos e submapas no arquivo de mapa.
 
-   - **D** - \(*Painel Esquerdo*\): Dá acesso ao painel esquerdo, que dá acesso aos recursos Coleções, Repositório, Mapa, Estrutura de Tópicos e outros. Você pode expandi-lo ou recolhê-lo selecionando o ícone Expandir/recolher. Para obter mais detalhes sobre os recursos disponíveis no painel esquerdo, exiba [painel esquerdo](./web-editor-features.md#left-panel) no Editor.
+   - **D** - \(*Painel Esquerdo*\): Dá acesso ao painel esquerdo, que dá acesso aos recursos Coleções, Repositório, Mapa, Estrutura de Tópicos e outros. Você pode expandi-lo ou recolhê-lo selecionando o ícone Expandir/recolher. Para obter mais detalhes sobre os recursos disponíveis no painel esquerdo, exiba [painel esquerdo](./web-editor-left-panel.md) no Editor.
 
    - **E** - \(*Área do Meio*\): Mapear área de edição de conteúdo.
 
-   - **F** - \(*Painel Direito*\): Dá acesso ao painel Propriedades. É possível exibir as propriedades de conteúdo e as propriedades do mapa do tópico ou mapa selecionado. Para obter mais detalhes sobre as funcionalidades disponíveis neste painel, consulte [Painel direito](web-editor-features.md#right-panel) no Editor.
+   - **F** - \(*Painel Direito*\): Dá acesso ao painel Propriedades. É possível exibir as propriedades de conteúdo e as propriedades do mapa do tópico ou mapa selecionado. Para obter mais detalhes sobre as funcionalidades disponíveis neste painel, consulte [Painel direito](web-editor-right-panel.md) no Editor.
 
 1. No Painel Esquerdo, alterne para a exibição **Repositório**.
 

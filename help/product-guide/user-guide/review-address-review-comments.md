@@ -4,7 +4,7 @@ description: Saiba como tratar comentários de revisão como autor no AEM Guides
 exl-id: 4c969788-f700-4fd6-8afa-8e5b411b59f3
 feature: Reviewing
 role: User
-source-git-commit: 35480e842f6c05811333a14e80c0e9b6431e9176
+source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
 workflow-type: tm+mt
 source-wordcount: '1228'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Comentários de revisão de endereço {#id2056B0X0KBI}
 
-Como um Autor, você pode endereçar comentários em um tópico usando o Editor. Os comentários são carregados com base na tarefa de revisão selecionada no painel Revisão. Para obter mais detalhes, exiba a descrição do recurso **Painel de revisão** ![](images/active-review-tasklist-icon.svg) na seção [Painel esquerdo](../user-guide/web-editor-features.md#id2051EA0M0HS).
+Como um Autor, você pode endereçar comentários em um tópico usando o Editor. Os comentários são carregados com base na tarefa de revisão selecionada no painel Revisão. Para obter mais detalhes, exiba a descrição do recurso **Painel de revisão** ![](images/active-review-tasklist-icon.svg) na seção [Painel esquerdo](../user-guide/web-editor-left-panel.md).
 
 As seções a seguir descrevem maneiras de abordar comentários no Editor.
 
@@ -91,4 +91,4 @@ Se você for o iniciador ou o Autor de uma tarefa de revisão e abri-la no **con
 
 ![](images/review-comments-toolbar-disabled.png){width="350" align="left"}
 
-**Tópico pai:**&#x200B;[&#x200B; Introdução à revisão](review.md)
+**Tópico pai:**[ Introdução à revisão](review.md)

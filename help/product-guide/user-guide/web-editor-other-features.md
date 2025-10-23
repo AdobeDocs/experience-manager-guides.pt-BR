@@ -4,7 +4,7 @@ description: Explore outros recursos do Editor no Adobe Experience Manager Guide
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: b00f8ba0e27cc26c48e1b058e25c05c4b6e9dffd
+source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
 workflow-type: tm+mt
 source-wordcount: '2652'
 ht-degree: 0%
@@ -49,7 +49,7 @@ As várias opções no menu de contexto são explicadas abaixo:
 
 ***Salvar como nova versão***
 
-Para criar uma nova versão do arquivo, selecione **Salvar como nova versão**. Para obter mais detalhes sobre **Salvar** e **Salvar como nova versão**, consulte [Conhecer os recursos do Editor](web-editor-features.md#).
+Para criar uma nova versão do arquivo, selecione **Salvar como nova versão**. Para obter mais detalhes sobre **Salvar** e **Salvar como nova versão**, consulte a [Barra de ferramentas no Editor](web-editor-toolbar.md).
 
 ***Copiar***: você pode escolher entre as seguintes opções:
 
@@ -66,9 +66,9 @@ Para criar uma nova versão do arquivo, selecione **Salvar como nova versão**. 
 
 ***Adicionar a***: você pode escolher entre as seguintes opções:
 
-- **Coleções**: para adicionar o arquivo selecionado às coleções, selecione **Adicionar a \> Coleções**. Para obter mais detalhes, exiba a descrição do recurso **Coleções** na seção [Painel esquerdo](web-editor-features.md#left-panel).
+- **Coleções**: para adicionar o arquivo selecionado às coleções, selecione **Adicionar a \> Coleções**. Para obter mais detalhes, exiba a descrição do recurso **Coleções** na seção [Painel esquerdo](web-editor-left-panel.md).
 
-- **Conteúdo reutilizável**: para copiar o arquivo selecionado para a lista de conteúdo reutilizável, selecione **Adicionar a \> Conteúdo reutilizável**. Para obter mais detalhes, exiba a descrição do recurso **Conteúdo reutilizável** na seção [Painel esquerdo](web-editor-features.md#left-panel).
+- **Conteúdo reutilizável**: para copiar o arquivo selecionado para a lista de conteúdo reutilizável, selecione **Adicionar a \> Conteúdo reutilizável**. Para obter mais detalhes, exiba a descrição do recurso **Conteúdo reutilizável** na seção [Painel esquerdo](web-editor-left-panel.md).
 
 ***Propriedades***
 
@@ -114,7 +114,7 @@ A experiência de gravação de arquivos dependerá dos três cenários a seguir
 É possível exibir as seguintes opções, dependendo se o arquivo está bloqueado/desbloqueado e se tem alterações salvas ou não:
 
 - **Desbloquear e Fechar**: o bloqueio do arquivo é liberado e o arquivo é fechado.
-- **Salvar como uma nova versão**: isso salvará as alterações feitas no conteúdo e criará uma nova versão do arquivo. Você também pode adicionar rótulos e comentários para a versão recém-salva. Para obter mais informações sobre como salvar uma nova versão, consulte [Salvar como nova versão](web-editor-features.md#save-as-new-version).
+- **Salvar como uma nova versão**: isso salvará as alterações feitas no conteúdo e criará uma nova versão do arquivo. Você também pode adicionar rótulos e comentários para a versão recém-salva. Para obter mais informações sobre como salvar uma nova versão, consulte [Salvar como nova versão](web-editor-toolbar.md#version-information-and-save-as-new-version).
 
 - **Desbloquear o arquivo**: se você optar por desbloquear um arquivo, ele liberará o bloqueio do arquivo e as alterações serão salvas na versão atual do arquivo.
 
@@ -279,4 +279,4 @@ Os principais recursos destinados a melhorar o tratamento de arquivos grandes s�
 
 - A mensagem de alerta está disponível somente para arquivos DITA e está visível em todas as exibições: Autor, Source e Layout.
 
-**Tópico pai:**&#x200B;[&#x200B; Introdução ao Editor](web-editor.md)
+**Tópico pai:**[ Introdução ao Editor](web-editor.md)

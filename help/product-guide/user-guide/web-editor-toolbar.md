@@ -4,7 +4,7 @@ description: Conheça a barra de ferramentas no editor. Saiba mais sobre a inter
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
-source-git-commit: 3dee9b2c90515ff7681770247f215996dc2c8325
+source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
 workflow-type: tm+mt
 source-wordcount: '5962'
 ht-degree: 0%
@@ -84,7 +84,7 @@ O recurso **Histórico de versões** no Editor permite verificar as versões dis
 
    Guia **Metadata**: os metadados recém-adicionados estão em fonte verde e os metadados excluídos estão em fonte vermelha.
 
-   ![Diferença de metadados para versões &#x200B;](images/metadata-version-diff.png){width="550" align="left"}
+   ![Diferença de metadados para versões ](images/metadata-version-diff.png){width="550" align="left"}
 
    *Comparar os metadados de diferentes versões no histórico de Versões.*
 
@@ -406,7 +406,7 @@ Você também pode adicionar outras propriedades para um arquivo de imagem selec
 
 >[!NOTE]
 >
->Você também pode definir áreas clicáveis \(mapa de imagem\) na sua imagem. Para obter mais detalhes, exiba a descrição do recurso **Inserir/Editar Mapa de Imagem** na seção [Painel esquerdo](web-editor-features.md#left-panel).
+>Você também pode definir áreas clicáveis \(mapa de imagem\) na sua imagem. Para obter mais detalhes, exiba a descrição do recurso **Inserir/Editar Mapa de Imagem** na seção [Painel esquerdo](web-editor-left-panel.md).
 
 **Menu de contexto para arquivos de imagem ou mídia**
 
@@ -623,4 +623,4 @@ Se um arquivo for bloqueado por outro usuário, passar o mouse sobre o ícone de
 Como administrador, você também tem acesso ao recurso **Forçar desbloqueio** que permite desbloquear o arquivo bloqueado por outros usuários. Use este recurso para acessar os direitos de edição em um arquivo bloqueado por outros usuários.
 
 ![](images/web-editor-force-unlock-new.png){width="350" align="left"}
-**Tópico pai:**&#x200B;[&#x200B; Introdução ao Editor](web-editor.md)
+**Tópico pai:**[ Introdução ao Editor](web-editor.md)

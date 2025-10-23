@@ -4,7 +4,7 @@ description: Saiba como criar uma tarefa de revisão e enviar tópicos para revi
 exl-id: c486eb6a-7e1f-4faa-973d-b47252d3e7c5
 feature: Reviewing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
 workflow-type: tm+mt
 source-wordcount: '2793'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Como o fluxo de trabalho de revisão é específico do projeto, o iniciador da r
 
 É possível criar uma tarefa de revisão a partir de:
 
-- **Editor**: permite enviar um tópico individual ou mapa DITA para revisão. Observe que o fluxo de trabalho para criar uma tarefa de revisão é comum na interface do Editor e do Assets. Somente o método de início do fluxo de trabalho de revisão é diferente. Para obter informações sobre como iniciar o fluxo de trabalho de revisão a partir do Editor, exiba o recurso [Criar Tarefa de Revisão](web-editor-features.md#id215OCJ00JXA) no Editor.
+- **Editor**: permite enviar um tópico individual ou mapa DITA para revisão. Observe que o fluxo de trabalho para criar uma tarefa de revisão é comum na interface do Editor e do Assets. Somente o método de início do fluxo de trabalho de revisão é diferente. Para obter informações sobre como iniciar o fluxo de trabalho de revisão a partir do Editor, exiba o recurso [Criar Tarefa de Revisão](web-editor-left-panel.md#review) no Editor.
 
 - **Interface do usuário do Assets**: permite enviar um ou vários tópicos e mapa DITA para revisão. O compartilhamento de documentos para revisão do fluxo de trabalho da interface do usuário do Assets é abordado neste tópico.
 
@@ -250,7 +250,6 @@ Para enviar um ou vários tópicos juntamente com o arquivo de mapa para revisã
    - **Reatribuir**: exibe a caixa de diálogo Reatribuir Revisores. É possível digitar o nome de um revisor ou função de usuário \(ou grupo\) à qual você deseja atribuir a tarefa de revisão. Isso remove todos os revisores existentes dos tópicos selecionados e atribui os revisores recém-selecionados a esses tópicos.
    - **Exportar**: permite exportar os detalhes da tarefa de revisão em um arquivo CSV. O arquivo contém detalhes como caminho e título do tópico, nome do revisor e versão dos tópicos enviados para revisão.
    - **Editar Revisores**: selecionar o ícone ![](images/edit_pencil_icon.svg) na lista de tópicos exibe a caixa de diálogo Editar Revisores. Você pode adicionar ou remover revisores para o tópico selecionado nesta caixa de diálogo.
-
    >[!IMPORTANT]
    >
    > Você deve atribuir pelo menos um revisor para criar a tarefa de revisão.
@@ -270,4 +269,4 @@ Para enviar um ou vários tópicos juntamente com o arquivo de mapa para revisã
 
 Um email é enviado para todos os revisores, notificando que eles receberam tópicos para revisão. O e-mail contém um link direto que eles podem usar para acessar o tópico em uma janela do navegador. Os tópicos, juntamente com o mapa DITA, são abertos no modo de revisão.
 
-**Tópico pai:**&#x200B;[&#x200B; Introdução à revisão](review.md)
+**Tópico pai:**[ Introdução à revisão](review.md)

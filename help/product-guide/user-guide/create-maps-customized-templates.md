@@ -4,7 +4,7 @@ description: Saiba como criar um modelo personalizado, usá-los para criar novos
 exl-id: 9cb0035f-bf81-4ab5-a575-53851bbff494
 feature: Authoring, Map Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
 workflow-type: tm+mt
 source-wordcount: '1541'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Você pode criar modelos de mapa e tópico das seguintes maneiras:
 
 ### Criar modelos personalizados no Editor
 
-O recurso **Modelos** está presente no painel [Esquerdo da interface do Editor](./web-editor-features.md#left-panel) e só está disponível para administradores. Usando esse painel, o administrador pode criar e gerenciar facilmente modelos que podem ser usados pelos autores. Por padrão, os modelos são categorizados em *mapa* e *tópico* modelos de tipo.
+O recurso **Modelos** está presente no painel [Esquerdo da interface do Editor](./web-editor-left-panel.md) e só está disponível para administradores. Usando esse painel, o administrador pode criar e gerenciar facilmente modelos que podem ser usados pelos autores. Por padrão, os modelos são categorizados em *mapa* e *tópico* modelos de tipo.
 
 ![](images/templates-panel_cs.png){width="300" align="left"}
 
@@ -230,4 +230,4 @@ O mapa gera todos os ativos que são referenciados dentro da pasta de modelo. Al
 
 - Se outro mapa ou tópico for criado no mesmo nível na pasta, os nomes dos ativos recém-criados serão anexados com 0,1,2 e assim por diante. Você pode optar por abrir o mapa para edição ou salvar o arquivo de mapa no repositório.
 
-**Tópico pai:**&#x200B;[&#x200B; Introdução ao Editor de Mapa](map-editor.md)
+**Tópico pai:**[ Introdução ao Editor de Mapa](map-editor.md)
