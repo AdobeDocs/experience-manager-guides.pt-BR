@@ -36,7 +36,7 @@ Antes de continuar com a configuração, verifique se os seguintes pré-requisit
 ## Instalação de pacote usando o Gerenciador de pacotes do CRX
 
 1. **Instalar o Pacote de Componentes:**
-   1. Navegue até [**CRX Package Manager**](http://<your-aem-instance>/crx/packmgr).
+   1. Navegue até [**CRX Package Manager**](http://&lt;your-aem-instance>/crx/packmgr).
    2. Carregue e instale o pacote no local-guides-components.all-1.x.0.zip.
 
 2. **Instalar o Pacote do Sites:** Carregue e instale o pacote aemg-docs.all-1.x.0.zip usando o Gerenciador de Pacotes do CRX.
@@ -86,7 +86,7 @@ Antes de continuar com a configuração, verifique se os seguintes pré-requisit
    2. Crie uma nova página de produto na estrutura do site OOTB.
    3. Navegue até **Documentação do AEMG** > **Inglês** > **Documentação**.
 
-      ![Criar página na estrutura de Site do AEM ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-page.png){width="350" align="left"}
+      ![Criar página na estrutura de Site do AEM &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-page.png){width="350" align="left"}
 
    4. Selecione o bloco **Página inicial** e selecione **Avançar**.
 

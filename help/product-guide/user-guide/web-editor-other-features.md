@@ -282,4 +282,4 @@ Os principais recursos destinados a melhorar o tratamento de arquivos grandes s�
 
 - A mensagem de alerta está disponível somente para arquivos DITA e está visível em todas as exibições: Autor, Source e Layout.
 
-**Tópico pai:**[ Introdução ao Editor](web-editor.md)
+**Tópico pai:**&#x200B;[&#x200B; Introdução ao Editor](web-editor.md)

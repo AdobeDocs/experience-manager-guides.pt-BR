@@ -411,7 +411,7 @@ Se você tiver atualizado uma predefinição de saída existente ou quiser dispo
 
 ## Configurar o AI Assistant para obter ajuda e criação inteligentes
 
-Para Experience Manager Guides as a Cloud Service (![nuvem AEM ](assets/aem-cloud-icon.svg)).
+Para Experience Manager Guides as a Cloud Service (![nuvem AEM &#x200B;](assets/aem-cloud-icon.svg)).
 
 O Assistente de IA do Adobe Experience Manager Guides é uma ferramenta avançada orientada por IA, projetada para aprimorar o conteúdo por meio de criação inteligente e experiências de reutilização de conteúdo. Ele reúne dois recursos avançados de IA — **Criação** e **Ajuda** — na interface do Experience Manager Guides, permitindo que você crie documentos e acesse informações de maneira mais rápida e eficiente.
 
@@ -497,7 +497,7 @@ Para garantir que as sugestões inteligentes funcionem de maneira eficaz, lembre
 
 **Personalizar as perguntas padrão da ajuda inteligente**
 
-Para Experience Manager Guides as a Cloud Service (![nuvem AEM ](assets/aem-cloud-icon.svg)).
+Para Experience Manager Guides as a Cloud Service (![nuvem AEM &#x200B;](assets/aem-cloud-icon.svg)).
 
 Você pode configurar a **Ajuda** inteligente baseada em IA para ajudar os Autores a fazer perguntas e localizar facilmente o conteúdo necessário da [documentação do Experience Manager Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 
