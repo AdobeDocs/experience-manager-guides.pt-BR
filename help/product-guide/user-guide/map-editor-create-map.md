@@ -4,24 +4,28 @@ description: Crie um mapa com o Editor de mapas no Experience Manager Guides. En
 exl-id: b9cda118-ab6f-4d6b-9616-a083180ba069
 feature: Authoring, Map Editor
 role: User
-source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
+source-git-commit: 21c45ac9ad32d8590f6ed180816853c24a4fa3dc
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1578'
 ht-degree: 0%
 
 ---
 
 # Criar um mapa {#id176FEN0D05Z}
 
+>[!INFO]
+>
+>Na versão 2025.11.0, o **Repositório** foi renomeado para **Explorer**. Para configuração no local, ele continua disponível como Repositório até a versão 5.1 do Experience Manager Guides.
+
 O Adobe Experience Manager Guides fornece dois modelos de mapa prontos para uso - mapa DITA e mapa de livros. Você também pode criar seus próprios modelos de mapa e compartilhá-los com seus autores para criar arquivos de mapa.
 
 Execute as seguintes etapas para criar um mapa:
 
-1. No painel Repositório, selecione o ícone **Novo arquivo** e selecione **Mapa DITA** no menu suspenso.
+1. No painel Explorer, selecione o ícone **Novo arquivo** e selecione **Mapa DITA** no menu suspenso.
 
    ![](images/create-map-options.png){align="left"}
 
-   Você também pode acessar esta opção a partir da [Página inicial do Experience Manager Guides](./intro-home-page.md) e do menu de opções de uma pasta na exibição Repositório.
+   Você também pode acessar esta opção na [Página inicial do Experience Manager Guides](./intro-home-page.md) e no menu de opções de uma pasta na exibição do Explorer.
 
 2. A caixa de diálogo **Novo mapa** é exibida.
 
@@ -29,7 +33,7 @@ Execute as seguintes etapas para criar um mapa:
    - Um Título para o mapa.
    - \(Opcional\)* O nome do arquivo do mapa. O nome do arquivo é sugerido automaticamente com base no tópico Título. Caso o administrador tenha ativado nomes de arquivo automáticos com base na configuração UUID, você não visualizará o campo Nome.
    - Um modelo no qual o tópico será baseado. Para um arquivo de mapa, as opções disponíveis são **Bookmap**, **Mapa** e **Esquema de assunto**.
-   - Caminho no qual você deseja salvar o arquivo de mapa. Por padrão, o caminho da pasta selecionada no momento no repositório é mostrado no campo Caminho.
+   - Caminho no qual você deseja salvar o arquivo de mapa. Por padrão, o caminho da pasta selecionada no momento no Explorer é mostrado no campo Caminho.
 
    ![](images/new-map-dialog.png){width="300" align="left"}
 
@@ -46,7 +50,7 @@ Além de editar arquivos de mapa diretamente do Editor, você também pode abrir
 
 Execute as seguintes etapas para adicionar tópicos a um arquivo de mapa no console Mapa:
 
-1. Na exibição Repositório, navegue e abra o arquivo de mapa que deseja editar.
+1. Na exibição do Explorer, navegue até o arquivo de mapa que deseja editar e abra-o.
 1. Selecione o ícone **Editar**.
 
    ![](images/edit-map-icon.png){width="450" align="left"}
@@ -62,17 +66,17 @@ Execute as seguintes etapas para adicionar tópicos a um arquivo de mapa no cons
 
    - **C** - \(*Visualizações de mapa*\): permite que você alterne o Editor de mapa entre Layout, Autor, Source e Visualização. O modo de exibição **Layout** permite que você organize os tópicos em um mapa DITA. Isso fornece a exibição em árvore ou hierárquica do mapa. O modo de exibição **Autor** permite que você edite os tópicos no Editor de Mapa. Isso também fornece a visualização WYSIWYG do arquivo de mapa. A exibição **Source** permite trabalhar com o XML subjacente do arquivo de mapa. A Visualização fornece uma exibição consolidada de todos os tópicos e submapas no arquivo de mapa.
 
-   - **D** - \(*Painel Esquerdo*\): Dá acesso ao painel esquerdo, que dá acesso aos recursos Coleções, Repositório, Mapa, Estrutura de Tópicos e outros. Você pode expandi-lo ou recolhê-lo selecionando o ícone Expandir/recolher. Para obter mais detalhes sobre os recursos disponíveis no painel esquerdo, exiba [painel esquerdo](./web-editor-left-panel.md) no Editor.
+   - **D** - \(*Painel Esquerdo*\): Dá acesso ao painel esquerdo, que dá acesso aos recursos Coleções, Explorer, Mapa, Estrutura de Tópicos e outros. Você pode expandi-lo ou recolhê-lo selecionando o ícone Expandir/recolher. Para obter mais detalhes sobre os recursos disponíveis no painel esquerdo, exiba [painel esquerdo](./web-editor-left-panel.md) no Editor.
 
    - **E** - \(*Área do Meio*\): Mapear área de edição de conteúdo.
 
    - **F** - \(*Painel Direito*\): Dá acesso ao painel Propriedades. É possível exibir as propriedades de conteúdo e as propriedades do mapa do tópico ou mapa selecionado. Para obter mais detalhes sobre as funcionalidades disponíveis neste painel, consulte [Painel direito](web-editor-right-panel.md) no Editor.
 
-1. No Painel Esquerdo, alterne para a exibição **Repositório**.
+1. No Painel Esquerdo, alterne para o modo de exibição **Explorer**.
 
-1. No repositório do Adobe Experience Manager, navegue até a pasta que contém os tópicos ou submapas que deseja adicionar.
+1. No Adobe Experience Manager Explorer, navegue até a pasta que contém os tópicos ou submapas que deseja adicionar.
 
-1. Selecione o tópico ou arquivo de mapa na exibição **Repositório** e arraste-o e solte-o na área de edição de conteúdo do mapa \(meio\).
+1. Selecione o tópico ou arquivo de mapa no modo de exibição **Explorer** e arraste-o e solte-o na área de edição de conteúdo do mapa \(meio\).
 
    O tópico é adicionado no mapa.
 
@@ -136,7 +140,7 @@ Execute as seguintes etapas para criar um mapa na interface do usuário do Asset
 
    As informações de versão para um mapa recém-criado são mostradas como *nenhuma*. Ao salvar uma nova versão, um número de versão é atribuído como 1.0. Para obter mais informações sobre como salvar uma nova versão, consulte [Salvar como nova versão](web-editor-features.md#save-as-new-version).
 
-   Você pode optar por abrir o mapa para edição no editor de mapa configurado ou salvar o arquivo de mapa no repositório do Adobe Experience Manager.
+   Você pode optar por abrir o mapa para edição no editor de mapa configurado ou salvar o arquivo de mapa no Explorer.
 
    >[!NOTE]
    >

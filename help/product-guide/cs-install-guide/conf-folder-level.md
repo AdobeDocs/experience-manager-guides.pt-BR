@@ -5,16 +5,16 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: 63e81b6213e293dd6b6e7e46b611b25d8cb6a815
+source-git-commit: 1ea27a0ca99e61049d08f89a0cf5e0584b38edae
 workflow-type: tm+mt
-source-wordcount: '4794'
+source-wordcount: '5127'
 ht-degree: 0%
 
 ---
 
 # Configurar perfis globais ou de nível de pasta {#id181AH2003PF}
 
-Em uma empresa, diferentes grupos ou produtos podem usar diferentes modelos de criação, modelos de saída, perfis de atributo condicional \(ou esquemas de assunto\) e configurações do Editor da Web. Configurar esses apenas em nível corporativo \(ou global\) pode dificultar a experiência dos autores, pois eles verão modelos ou perfis que não são relevantes para eles.
+Em uma empresa, diferentes grupos ou produtos podem usar diferentes modelos de criação, modelos de saída, perfis de atributo condicional \(ou esquemas de assunto\) e configurações do Editor da Web. Configurar esses apenas em nível corporativo \(ou global\) pode dificultar a experiência dos Autores, pois eles verão modelos ou perfis que não são relevantes para eles.
 
 O AEM Guides permite configurar a criação de modelos \(tópico ou mapa\), modelos de saída, atributo condicional e configurações do Editor da Web em nível corporativo \(global\), bem como em nível de pasta. Dessa forma, você pode separar as configurações de diferentes departamentos ou produtos em sua empresa.
 
@@ -28,7 +28,7 @@ Ao usar o bloco Perfis de pasta nas configurações de Guias, você pode definir
 
 - **Atributos Condicionais**: use esta guia para configurar atributos condicionais em nível global ou de pasta. Um atributo condicional é uma combinação do nome e do valor do atributo, e você também pode definir um rótulo para ele. Você pode usar os atributos DITA padrão ou seus próprios atributos personalizados. Os atributos condicionais definidos no nível global são disponibilizados a todos os usuários nos projetos. Caso tenha definido atributos condicionais no nível da pasta, eles são mesclados com os atributos condicionais definidos globalmente.
 
-- **Modelos**: use esta guia para configurar os modelos que os autores usarão para criar ou publicar conteúdo DITA. Os seguintes modelos de tópico estão disponíveis prontamente:
+- **Modelos**: use esta guia para configurar os modelos que seus Autores usarão para criar ou publicar conteúdo DITA. Os seguintes modelos de tópico estão disponíveis prontamente:
 
    - Glossário
 
@@ -50,7 +50,7 @@ Ao usar o bloco Perfis de pasta nas configurações de Guias, você pode definir
   >
   > Você pode usar qualquer um dos modelos existentes como base para criar novos modelos. O modelo DITA em branco não contém nenhuma estrutura ou elementos como os outros modelos. Você pode usar qualquer um dos modelos OOTB DITA como base, fazer modificações nele e salvá-lo com um nome diferente. Depois de fazer as alterações necessárias, adicione o modelo atualizado à configuração global ou de modelos de criação no nível da pasta e, em seguida, ele fica disponível para criação.
 
-  Juntamente com os modelos de tópico, também é possível definir os modelos de mapa que serão disponibilizados aos autores. Os seguintes modelos de mapa estão disponíveis prontamente:
+  Juntamente com os modelos de tópico, também é possível definir os modelos de mapa que serão disponibilizados para os Autores. Os seguintes modelos de mapa estão disponíveis prontamente:
 
    - Mapa
 
@@ -80,7 +80,7 @@ Ao usar o bloco Perfis de pasta nas configurações de Guias, você pode definir
    - Rótulos da versão do conteúdo XML
    - Roteiro \(somente no nível da pasta\)
 
-Você pode configurar ambos — perfil global e perfil de nível de pasta. Em um perfil de nível de pasta, é possível definir as pastas nas quais as configurações serão aplicáveis. Essas configurações incluem atributos condicionais, modelos, predefinições de saída e configurações do Editor de XML. As predefinições condicionais, os modelos e as configurações do Editor XML são então disponibilizados aos autores que trabalham nas pastas configuradas. Da mesma forma, os editores terão acesso às predefinições de saída configuradas definidas nas pastas configuradas.
+Você pode configurar ambos — perfil global e perfil de nível de pasta. Em um perfil de nível de pasta, é possível definir as pastas nas quais as configurações serão aplicáveis. Essas configurações incluem atributos condicionais, modelos, predefinições de saída e configurações do Editor de XML. As predefinições condicionais, os modelos e as configurações do Editor XML são então disponibilizados aos Autores que trabalham nas pastas configuradas. Da mesma forma, os editores terão acesso às predefinições de saída configuradas definidas nas pastas configuradas.
 
 Um perfil de nível de pasta substitui as configurações definidas no perfil global. Em outras palavras, se uma pasta tiver um perfil no nível da pasta, ela mostrará os modelos, os modelos de saída e as configurações do Editor XML definidas em seu perfil de pasta correspondente. Ele não mostrará as configurações definidas no perfil global. No entanto, isso não se aplica aos atributos condicionais. No caso de atributos condicionais, os atributos condicionais são mesclados nos níveis global e de pasta.
 
@@ -94,7 +94,7 @@ Execute as seguintes etapas para configurar o perfil global:
 
 1. Clique no link do Adobe Experience Manager na parte superior e escolha **Ferramentas**.
 
-1. Selecione **Guias** na lista de ferramentas e clique em **Perfis de Pasta**.
+1. Selecione **Guias** na lista de ferramentas e clique no bloco **Perfis de Pasta**.
 
    Pela primeira vez, a página Perfis de pasta é exibida somente com o bloco Perfil global.
 
@@ -232,7 +232,7 @@ Se você estiver usando um atributo personalizado, ele deverá ser um atributo D
 
 ## Configurar modelos {#id1889D0IL0Y4}
 
-O AEM Guides vem com 7 modelos de tópico prontos para uso, 2 modelos de mapa DITA e 3 modelos PDF. Você pode optar por ter somente alguns modelos disponíveis para seus autores e editores. Caso use um modelo personalizado, o mesmo pode ser configurado e disponibilizado para criação e publicação. Use a guia **Modelos** na configuração Perfis de pasta para adicionar ou remover modelos de tópico, mapa ou PDF de perfis globais ou em nível de pasta.
+O AEM Guides vem com 7 modelos de tópico prontos para uso, 2 modelos de mapa DITA e 3 modelos PDF. Você pode optar por ter somente alguns modelos disponíveis para seus Autores e editores. Caso use um modelo personalizado, o mesmo pode ser configurado e disponibilizado para criação e publicação. Use a guia **Modelos** na configuração Perfis de pasta para adicionar ou remover modelos de tópico, mapa ou PDF de perfis globais ou em nível de pasta.
 
 Mesmo antes de configurar os modelos de tópico, mapa ou PDF no nível global ou de pasta, você também pode definir um local para armazenar os modelos personalizados. Para configurar um local personalizado para armazenar os modelos, consulte [Configurar caminho da pasta de modelo DITA personalizado](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z).
 
@@ -411,15 +411,15 @@ Se você tiver atualizado uma predefinição de saída existente ou quiser dispo
 
 ## Configurar o AI Assistant para obter ajuda e criação inteligentes
 
-Para Experience Manager Guides as a Cloud Service (![nuvem AEM &#x200B;](assets/aem-cloud-icon.svg)).
+Para Experience Manager Guides as a Cloud Service (![nuvem AEM ](assets/aem-cloud-icon.svg)).
 
-O Assistente de IA do Adobe Experience Manager Guides é uma ferramenta avançada orientada por IA, projetada para aprimorar o conteúdo por meio de criação inteligente e experiências de reutilização de conteúdo. Ele reúne dois recursos robustos de IA — **Criação** e **Ajuda** — na interface do Experience Manager Guides, permitindo que você crie documentos e acesse informações de maneira mais rápida e eficiente.
+O Assistente de IA do Adobe Experience Manager Guides é uma ferramenta avançada orientada por IA, projetada para aprimorar o conteúdo por meio de criação inteligente e experiências de reutilização de conteúdo. Ele reúne dois recursos avançados de IA — **Criação** e **Ajuda** — na interface do Experience Manager Guides, permitindo que você crie documentos e acesse informações de maneira mais rápida e eficiente.
 
 Para obter detalhes sobre a configuração, consulte [Configuração do assistente de IA](./conf-smart-suggestions.md).
 
 **Configurar sugestões inteligentes habilitadas por IA**
 
-Você pode configurar as sugestões inteligentes habilitadas por IA e ajudar os autores a reutilizar o conteúdo existente e criar facilmente referências de conteúdo corretas e consistentes. A guia **Configuração de IA** permite controlar as configurações de **Sugerir conteúdo reutilizável** no painel Assistente de IA no Editor da Web.
+Você pode configurar as sugestões inteligentes habilitadas por IA e ajudar os Autores a reutilizar o conteúdo existente e criar facilmente referências de conteúdo corretas e consistentes. A guia **Configuração de IA** permite controlar as configurações de **Sugerir conteúdo reutilizável** no painel Assistente de IA no Editor.
 
 Execute as seguintes etapas para definir a configuração de IA padrão no perfil global ou de nível de pasta:
 1. Faça logon no Adobe Experience Manager como administrador ou usuário com direitos administrativos em um perfil de nível de pasta.
@@ -438,25 +438,68 @@ Execute as seguintes etapas para definir a configuração de IA padrão no perfi
 1. Selecione **Editar**.
 1. Como administrador, você pode definir as seguintes configurações:
 
-   **Mínimo de caracteres**: insira o número mínimo de caracteres que os autores precisam digitar para obter as sugestões. Por exemplo, se esse número for 7, o autor deverá adicionar pelo menos 7 caracteres para exibir uma sugestão inteligente.
+   **Mínimo de caracteres**: insira o número mínimo de caracteres que os Autores precisam selecionar para obter as sugestões. Por exemplo, se esse número for 40, o Autor deverá selecionar pelo menos 40 caracteres para exibir uma sugestão inteligente.
 
-   **Máximo de sugestões**: insira o número máximo de sugestões que os autores podem receber ao criar o conteúdo. Por exemplo, se esse número for 5, o autor poderá exibir cinco ou menos sugestões inteligentes.
+   Para seleções que não atendem ao requisito de caracteres mínimos, a seguinte mensagem é exibida no painel Assistente de IA:
 
-   **Arquivos e pastas**: selecione os arquivos ou pastas a partir dos quais as sugestões inteligentes devem ser mostradas. *Para garantir a consistência do conteúdo, é recomendável que não haja duas entradas na lista com arquivos comuns entre elas*. Após selecionar os arquivos e as pastas, eles serão listados.
+   ![](assets/smart-suggestions-character-limit.png)
+
+   No entanto, para seleções gerais em que nenhuma sugestão está disponível, a seguinte mensagem é exibida:
+
+   ![](assets/smart-suggestions-select-another-text-message.png)
+
+   Isso ajuda os Autores a entender se as sugestões estão indisponíveis devido à seleção insuficiente de caracteres ou ao conteúdo não correspondente.
+
+   **Máximo de sugestões**: insira o número máximo de sugestões que os Autores podem receber ao criar o conteúdo. Por exemplo, se esse número for 5, o Autor poderá exibir cinco ou menos sugestões inteligentes.
+
+   **Arquivos e pastas**: selecione as pastas a partir das quais as sugestões inteligentes devem ser mostradas. Somente as pastas secundárias do caminho de pasta especificado em um perfil de pasta podem ser selecionadas. Para obter mais detalhes, exiba [Restrições de perfil de pasta](#folder-profile-restrictions).
+
+   *Para manter a consistência do conteúdo, é recomendável que nenhuma entrada na lista tenha arquivos comuns entre elas*. Após selecionar os arquivos e as pastas, eles serão listados.
 
 1. Clique em **Salvar**.
 
    >[!NOTE]
    >
-   > Os detalhes do último status indexado são exibidos na parte superior depois de salvar o arquivo.
+   > O último status indexado do perfil da pasta é exibido na parte superior depois que você salva o arquivo.
 
 Saiba mais sobre como exibir e adicionar [sugestões inteligentes baseadas em IA](../user-guide/authoring-ai-based-smart-suggestions.md) para adicionar referências de conteúdo durante a criação no Editor da Web.
 
+### Restrições de perfil de pasta
+
+Para garantir que as sugestões inteligentes funcionem de maneira eficaz, lembre-se dos seguintes pontos ao indexar pastas:
+
+1. O conteúdo deve ser indexado por meio de perfis de pasta para que o assistente de IA forneça sugestões inteligentes aos autores.
+2. Ao especificar uma pasta para indexação, somente as pastas que estão no perfil da pasta atual podem ser adicionadas. Tentar adicionar pastas fora deste perfil de pasta acionará um aviso.
+
+   ![](assets/warning-message-indexing.png)
+
+   Essa restrição se aplica somente aos perfis no nível da pasta. O perfil global não impõe limitações de caminho e pode indexar pastas que não estão em nenhum outro perfil de pasta.
+3. Se uma pasta principal for adicionada para indexação, todas as pastas secundárias já listadas serão removidas automaticamente para evitar duplicação. A adição de uma pasta filho de um pai já indexado também acionará um aviso.
+
+   ![](assets/parent-child-warning-message-indexing.png)
+4. Quaisquer atualizações, movimentações ou exclusões de arquivos nas pastas indexadas acionam a reindexação ou remoção automática do índice.
+5. Para cada tentativa de indexação, os seguintes status de indexação são exibidos:
+
+   - Em andamento: Indica que a indexação está em andamento.
+   - Indexação concluída: indica que a indexação foi concluída com êxito.
+   - Falha na indexação: Indica que a indexação falhou.
+   - Não sincronizado: indica que a indexação não está sincronizada, normalmente observada após uma atualização ou migração, quando o status de indexação atual não pôde ser verificado. Você pode tentar indexar novamente para atualizar o status.
+
+   Quando a indexação falhar, você receberá as opções **Exibir logs de erros** e **Repetir indexação** para solucionar o problema.
+
+   ![](assets/indexing-failed-options.png)
+
+   Os registros de erro são exibidos conforme mostrado abaixo:
+
+   ![alt texto](index-error-log.png)
+
+6. Um carimbo de data e hora para a hora do último índice é exibido para cada perfil de pasta.
+
 **Personalizar as perguntas padrão da ajuda inteligente**
 
-Para Experience Manager Guides as a Cloud Service (![nuvem AEM &#x200B;](assets/aem-cloud-icon.svg)).
+Para Experience Manager Guides as a Cloud Service (![nuvem AEM ](assets/aem-cloud-icon.svg)).
 
-Você pode configurar a **Ajuda** inteligente baseada em IA para ajudar os autores a fazer perguntas e localizar facilmente o conteúdo necessário da [documentação do Experience Manager Guides](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using/overview).
+Você pode configurar a **Ajuda** inteligente baseada em IA para ajudar os Autores a fazer perguntas e localizar facilmente o conteúdo necessário da [documentação do Experience Manager Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 
 A guia **Configuração do Editor XML** permite configurar as perguntas padrão do painel **Ajuda**.
 
@@ -502,13 +545,13 @@ Saiba mais sobre como usar a [Ajuda Inteligente fornecida por IA](../user-guide/
 
 ## Configurar e personalizar o editor de XML {#id2065G300O5Z}
 
-Por padrão, o Editor de XML vem com vários recursos para ajudar seus autores a criar documentos DITA. Se você trabalhar em um ambiente restritivo, poderá escolher quais recursos serão expostos aos autores. A guia Configuração do editor XML permite controlar facilmente os recursos e também alterar a aparência do editor. Como administrador, você pode personalizar os seguintes componentes do Editor:
+Por padrão, o Editor de XML vem com vários recursos para ajudar seus Autores a criar documentos DITA. Se você trabalhar em um ambiente restritivo, poderá escolher quais recursos serão expostos aos seus Autores. A guia Configuração do editor XML permite controlar facilmente os recursos e também alterar a aparência do editor. Como administrador, você pode personalizar os seguintes componentes do Editor:
 
 **Configuração da Interface do Usuário do Editor XML**
 
 Essa configuração permite criar extensões JSON que refletem as modificações feitas no arquivo `ui_config.json`. É possível fazer upload dessas extensões de maneira independente no nível do perfil da pasta, oferecendo mais flexibilidade e personalização. Por exemplo, quando você faz alterações na **Configuração do Editor XML**, como a atualização de um botão, o sistema identifica automaticamente as diferenças. Ao carregar essas alterações na **Configuração da Interface do Usuário do Editor de XML** e convertê-las em extensões JSON usando o botão **Converter Configuração da Interface do Usuário em JSON**, o sistema gera uma extensão que incorpora a nova funcionalidade.
 
-Saiba mais sobre [personalização de configurações JSON e conversão de configurações de interface do usuário para o novo Editor do AEM Guides](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+Saiba mais sobre [personalização de configurações JSON e conversão de configurações de interface do usuário para o novo Editor do AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 >[!NOTE]
 >
@@ -538,7 +581,7 @@ Salve este arquivo e faça upload na seção Layout de modelo CSS. Na próxima v
 
 **Trechos do Editor XML**
 
-Usando o arquivo de configuração desta seção, você pode criar alguns trechos padrão e compartilhá-los com seus autores. A estrutura padrão do arquivo é fornecida abaixo:
+Usando o arquivo de configuração desta seção, você pode criar alguns trechos padrão e compartilhá-los com seus Autores. A estrutura padrão do arquivo é fornecida abaixo:
 
 ```
 {
@@ -566,7 +609,7 @@ Os seguintes detalhes são necessários para criar um trecho:
 
 **Rótulos de Versão do Conteúdo XML**
 
-Por padrão, os autores têm permissão para criar rótulos de sua escolha e associá-los a seus arquivos de tópico. No entanto, isso pode levar a muitas variações de um mesmo rótulo. Por exemplo, um poderia ter rótulos de &quot;Versão 1.0&quot;, &quot;Versão 1.0&quot;, &quot;Versão 1&quot; para identificar o mesmo estágio de um tópico. Para evitar essa rotulagem inconsistente no sistema, você pode criar uma lista predefinida de rótulos que os autores teriam permissão para escolher. Ter uma rotulagem consistente ajuda a gerenciar melhor os arquivos em seu sistema.
+Por padrão, os Autores têm permissão para criar rótulos de sua escolha e associá-los a seus arquivos de tópico. No entanto, isso pode levar a muitas variações de um mesmo rótulo. Por exemplo, um poderia ter rótulos de &quot;Versão 1.0&quot;, &quot;Versão 1.0&quot;, &quot;Versão 1&quot; para identificar o mesmo estágio de um tópico. Para evitar essa rotulagem inconsistente no sistema, você pode criar uma lista predefinida de rótulos que os autores teriam permissão para escolher. Ter uma rotulagem consistente ajuda a gerenciar melhor os arquivos em seu sistema.
 
 Usando a configuração de rótulo de versão, você pode fazer upload de uma lista de rótulos válidos para sua organização. Baixe o arquivo label.json padrão e modifique-o conforme mostrado abaixo:
 
@@ -581,7 +624,7 @@ Usando a configuração de rótulo de versão, você pode fazer upload de uma li
 }
 ```
 
-No exemplo acima, o &quot;label1&quot; é o identificador para a sequência do rótulo e é anexado pelo rótulo que é exibido aos autores sempre que um rótulo é necessário. Salve este arquivo e faça upload dele na seção Rótulos da versão do conteúdo XML.
+No exemplo acima, o &quot;label1&quot; é o identificador para a sequência do rótulo e é anexado pelo rótulo que é exibido aos Autores sempre que um rótulo é necessário. Salve este arquivo e faça upload dele na seção Rótulos da versão do conteúdo XML.
 
 >[!IMPORTANT]
 >
@@ -589,4 +632,4 @@ No exemplo acima, o &quot;label1&quot; é o identificador para a sequência do r
 
 **Roteiro**
 
-Se os autores trabalharem com um mapa raiz específico, você poderá navegar até esse mapa e selecioná-lo aqui. Observe que é possível definir o mapa de roteiro somente para um perfil de nível de pasta.
+Se os Autores trabalharem com um mapa raiz específico, você poderá navegar até esse mapa e selecioná-lo aqui. Observe que é possível definir o mapa de roteiro somente para um perfil de nível de pasta.

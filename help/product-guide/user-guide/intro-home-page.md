@@ -4,9 +4,9 @@ description: Conheça a página inicial da Adobe Experience Manager Guides.
 feature: Authoring
 role: User
 exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
-source-git-commit: f9b879d6d374334a08a1d3b0a47b0cb419f02140
+source-git-commit: c2dbf53040abc3e5873fd81050ed7e59c4faaaf0
 workflow-type: tm+mt
-source-wordcount: '1966'
+source-wordcount: '2099'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 A Página inicial é a primeira tela exibida ao fazer logon no Experience Manager Guides. Ele oferece uma experiência de tela de boas-vindas unificada e intuitiva, que inclui uma visualização rápida dos arquivos acessados recentemente, coleções e muito mais.
 
-![](images/aem-home-page.png){align="left"}
+![](images/aem-home-page-new.png){align="left"}
 
 A página inicial do Experience Manager Guides é dividida nas seguintes seções:
 
@@ -60,15 +60,19 @@ Os recursos disponíveis na barra de navegação são explicados da seguinte man
 
      >[!NOTE]
      >
-     > Na página inicial, a opção de configurações do Workspace está disponível somente para a configuração dos serviços em nuvem. Em uma configuração no local, a opção Mais ações não está disponível na página inicial. No entanto, ainda é possível acessar as configurações relevantes por meio da interface do Editor e do console Mapa, navegando até Mais opções > Configurações.
+     > Na Página inicial, a opção de configurações do Workspace está disponível somente para a configuração do Cloud Services. Em uma configuração no local, a opção Mais ações não está disponível na página inicial. No entanto, ainda é possível acessar as configurações relevantes por meio da interface do Editor e do console Mapa, navegando até Mais opções > Configurações.
 
 - **Expandir exibição**: permite expandir a exibição de página usando o ícone **Expandir**. Nesta visualização, a barra do cabeçalho fica oculta, maximizando o espaço de conteúdo. Para retornar ao modo de exibição padrão, use o ícone **Sair do modo de exibição expandido**.
 
 ## Painel esquerdo
 
-O painel esquerdo fornece acesso rápido aos recursos Visão geral, Mapear coleções, Publicação em massa, Publicar fila e Preferências do usuário. Você pode expandir o painel selecionando o ícone **Expandir** posicionado no canto inferior esquerdo da interface. Depois de expandido, use o ícone **Recolher** para recolher o painel.
+>[!NOTE]
+>
+> O repositório está disponível no painel Esquerdo somente para configuração do serviço na nuvem a partir da versão 2025.11.0. Para configuração no local, o Repositório continua a ser acessado da interface do Editor.
 
-![](images/aem-home-left-panel.png){width="300" align="left"}
+O painel esquerdo fornece acesso rápido aos recursos Visão geral, Repositório, Coleções de mapas, Publicação em massa, Fila de publicação e Preferências do usuário. Você pode expandir o painel selecionando o ícone **Expandir** posicionado no canto inferior esquerdo da interface. Depois de expandido, use o ícone **Recolher** para recolher o painel.
+
+![](images/home-with-repository.png){width="300" align="left"}
 
 O que você visualiza nesse painel depende da sua função de usuário. A tabela a seguir lista as funções e as respectivas seções exibidas no painel esquerdo.
 
@@ -80,6 +84,7 @@ O que você visualiza nesse painel depende da sua função de usuário. A tabela
 Os recursos disponíveis no painel esquerdo são explicados da seguinte maneira:
 
 - [Visão geral](#overview)
+- [Repositório](#repository)
 - [Mapear Coleções](#map-collections)
 - [Publicar em massa](#bulk-publish)
 - [Publicar fila](#publish-queue)
@@ -151,6 +156,10 @@ Os seguintes widgets estão presentes na seção Widgets:
 >
 > Além disso, se o administrador tiver configurado a integração do Adobe Workfront no sistema, o widget **Suas tarefas** também será exibido na seção Widgets. Saiba mais sobre a [integração do Adobe Workfront](./workfront-integration.md#working-with-the-your-tasks-widget) no Experience Manager Guides.
 
+### Repositório
+
+O Repositório serve como um hub centralizado para descobrir pastas e arquivos com facilidade. Ele fornece uma visualização de lista tabular abrangente de todos os arquivos e pastas, juntamente com seus detalhes contextuais. Por meio dessa interface unificada, você pode navegar pelos arquivos de maneira contínua e realizar pesquisas com opções de filtragem robustas, garantindo eficiência e uma experiência aprimorada. Saiba mais sobre [Repositório](./home-page-repository-view.md).
+
 ### Mapear coleções
 
 O Experience Manager Guides oferece a capacidade de organizar seu conteúdo para publicação usando um painel chamado **Mapear coleções**. Para usar este recurso, selecione **Mapear coleções** no painel esquerdo. Você será direcionado para a página Mapear coleções na **Interface do usuário do Assets**, onde é possível [usar a coleção de mapas para geração de saída.](./generate-output-use-map-collection-output-generation.md)
@@ -189,4 +198,8 @@ As preferências do usuário estão disponíveis para todos os autores. Usando a
 
    - **Configuração de exibição de arquivos do editor**: selecione a maneira padrão de exibir os arquivos no Editor. Você pode exibir a lista de arquivos por títulos ou nomes de arquivos dos vários painéis na exibição Autor. Por padrão, os arquivos são exibidos por título no Editor.
 
-   - **Sempre localizar arquivos no repositório**: selecione esta opção para mostrar o local de um arquivo no repositório ao editá-lo no Editor.
+   - **Sempre localizar arquivos no explorador**: selecione essa opção para mostrar o local de um arquivo no repositório ao editá-lo no Editor.
+
+  >[!NOTE]
+  >
+  >Na versão 2025.11.0, a configuração **Sempre localizar arquivos no repositório** foi renomeada para **Sempre localizar arquivos no explorador**. Para configuração no local, ele continua disponível como Sempre localizar arquivos no repositório até a versão 5.1 do Experience Manager Guides.

@@ -4,9 +4,9 @@ description: Saiba como importar e validar um tópico DITA, usar instruções de
 exl-id: ed07a5ec-6adc-43a3-8f03-248b8c963e9a
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: ee784edcbaef0641784cd1eb18748fc12a4f90bb
+source-git-commit: 64d2f0027c35396a549d11a0186e218dd513b22a
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
@@ -45,10 +45,19 @@ Quando você abre um tópico no Editor, um painel Validação do Schematron é e
 
 1. Selecione o ícone Esquematron () para abrir o painel Esquematron.
 1. Use **Adicionar Arquivo do Esquematron** para adicionar arquivos do Esquematron.
+
+   >[!NOTE]
+   >
+   > Quando um arquivo de esquema inválido é adicionado, uma mensagem de erro é exibida no painel Validação.
+
+   ![](images/schematron-panel-error.png){width="300" align="left"}
+
 1. Se o arquivo do Schematron não tiver erros, ele será adicionado e listado no painel Validação. Uma mensagem de erro é exibida para o arquivo do Schematron contendo erros.
+
    >[!NOTE]
    >
    >Você pode usar o ícone de cruz próximo ao nome do arquivo do Schematron para removê-lo.
+
 1. Selecione **Validar com Esquematron** para validar o tópico.
 
    * Se o tópico não quebrar nenhuma regra, a mensagem de sucesso de validação será exibida para o arquivo.

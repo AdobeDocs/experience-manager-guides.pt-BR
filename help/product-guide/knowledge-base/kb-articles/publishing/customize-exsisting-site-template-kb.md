@@ -4,9 +4,10 @@ description: Saiba como personalizar modelos existentes de site do AEM para o AE
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 1cec8975e8aad56184793a023d066aa467d8cec5
+exl-id: d48709b8-f5b2-4545-ac65-838c5d8b1bae
+source-git-commit: 4c564a0ffaa8f287bcaf012634d49dbf1e0682b4
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '919'
 ht-degree: 1%
 
 ---
@@ -32,9 +33,9 @@ Se estiver usando o modelo pronto para uso do AEM Guides (AEMG Docs), as configu
 
 Os nomes dos modelos variam de acordo com a configuração do projeto. Por exemplo, na configuração OOTB AEMG Docs:
 
-- Página do contêiner da documentação: /conf/AEMG-Docs-Site/settings/wcm/templates/kb-content
+- Página de Contêiner da Documentação: `/conf/AEMG-Docs-Site/settings/wcm/templates/kb-content`
 
-- Página de tópico: /conf/AEMG-Docs-Site/settings/wcm/templates/topic-content
+- Página de Tópicos: `/conf/AEMG-Docs-Site/settings/wcm/templates/topic-content`
 
 **Personalização:** o processo de personalização envolve duas etapas principais:
 
@@ -85,7 +86,7 @@ Se você tiver um tópico DITA sobre &quot;Instruções de instalação&quot;, o
 
 >[!NOTE]
 >
-> Certifique-se de que os componentes que usam sling:resourceType em wcm/foundation/components sejam migrados para o core/wcm/components correspondente.
+> Certifique-se de que os componentes que usam sling:resourceType em `wcm/foundation/components` sejam migrados para o `core/wcm/components` correspondente.
 
 Adicione o mesmo (contêiner e componente de texto) na estrutura do mesmo modelo:
 
@@ -139,4 +140,4 @@ Por padrão, as bibliotecas de clientes (clientlibs) fornecidas no pacote de com
 
 >[!NOTE]
 >
-> Verifique se os modelos foram testados em um ambiente de não produção antes de implantar na produção.<br><br>Consulte a documentação oficial do [AEM Guides](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using/overview) e do [AEM Sites](https://experienceleague.adobe.com/pt-br/docs/experience-manager-core-components/using/get-started/authoring) para obter detalhes adicionais.
+> Verifique se os modelos foram testados em um ambiente de não produção antes de implantar na produção.<br><br>Consulte a documentação oficial do [AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview) e do [AEM Sites](https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/get-started/authoring) para obter detalhes adicionais.

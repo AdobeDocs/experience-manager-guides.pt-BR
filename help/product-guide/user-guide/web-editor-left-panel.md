@@ -4,9 +4,9 @@ description: Conheça o painel esquerdo no editor. Saiba mais sobre a interface 
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 92496d39-b423-4635-8b05-c67fd6af47de
-source-git-commit: 0d713f9ff4bd48aa90bce368d6ad7abf86ecbbf7
+source-git-commit: 565f7b9b8139bfa3e21c91c4b60b6c9757b67429
 workflow-type: tm+mt
-source-wordcount: '9542'
+source-wordcount: '9769'
 ht-degree: 0%
 
 ---
@@ -17,12 +17,13 @@ O painel esquerdo fornece acesso rápido a Coleções, Exibição de repositóri
 
 >[!NOTE]
 >
-> O painel esquerdo é redimensionável. Para redimensionar o painel, coloque o cursor no limite do painel, o cursor se transformará em uma seta de duas pontas, selecione e arraste para redimensionar a largura do painel.
+>O painel esquerdo é redimensionável. Para redimensionar o painel, coloque o cursor no limite do painel, o cursor se transformará em uma seta de duas pontas, selecione e arraste para redimensionar a largura do painel.
 
 O painel esquerdo fornece acesso aos seguintes recursos:
 
 - [Coleções](#collections)
 - [Repositório](#repository)
+- [Explorer](#explorer)
 - [Mapa](#map)
 - [Conteúdo reutilizável](#reusable-content)
 - [Estrutura](#outline)
@@ -118,6 +119,10 @@ Também é possível executar muitas ações usando o menu Opções disponível 
 
 ## Repositório
 
+>[!NOTE]
+>
+> A partir da versão 2025.11.0, o **Repositório** no Editor será substituído pelo **Explorer** para a configuração do **Cloud service**. Para a configuração **No local**, você continuará a visualizar e usar o Repositório por meio da interface do Editor até a versão 5.1 do Experience Manager Guides.
+
 Ao selecionar o ícone Repositório, você obtém uma lista de arquivos e pastas disponíveis no DAM. Por padrão, é possível visualizar os arquivos por títulos. Ao passar o mouse sobre um arquivo, é possível exibir o título e o nome do arquivo como uma dica de ferramenta.
 
 >[!NOTE]
@@ -134,7 +139,7 @@ velocidade ou visualizar imagem na imagem.
 
 Selecione um mapa e pressione Enter ou clique duas vezes para abri-lo na **Exibição do mapa**. Para obter mais detalhes, consulte a descrição do recurso **Exibição de mapa** no painel esquerdo. Selecione um tópico e pressione Enter ou clique duas vezes para abri-lo na [área de edição de conteúdo](./web-editor-content-editing-area.md). Ser capaz de navegar e abrir um arquivo diretamente do Editor economiza tempo e aumenta a produtividade.
 
-**Filtrar pesquisa no repositório**
+## Filtrar pesquisa no repositório
 
 O Editor fornece filtros aprimorados para pesquisar texto. Você pode pesquisar e filtrar por um texto nos arquivos presentes no caminho selecionado do repositório do Adobe Experience Manager. Ele pesquisa o título, o nome do arquivo e o conteúdo nos arquivos.
 
@@ -155,7 +160,7 @@ Você tem as seguintes opções para filtrar os arquivos e restringir sua pesqui
 - **Arquivos DITA**: você pode procurar todos os **tópicos DITA** e **mapas DITA** presentes no caminho selecionado. Elas são selecionadas por padrão.
 - **Arquivos não DITA**: você pode pesquisar por **Arquivos Ditaval**, **Arquivos de Imagem**, **Multimídia**, **Documentos** e **JSON** no caminho selecionado.
 
-  ![filtro de pesquisa rápida &#x200B;](images/repository-filter-search-quick.png) {width="300" align="left"}
+  ![filtro de pesquisa rápida ](images/repository-filter-search-quick.png) {width="300" align="left"}
 
   *Use os filtros rápidos para procurar arquivos DITA e não DITA.*
 
@@ -206,7 +211,7 @@ Está sincronizado com a caixa de pesquisa na janela do repositório. Por exempl
   >
   >A lista de arquivos filtrados que contêm o texto pesquisado é exibida. Por exemplo, os arquivos contendo o texto `personal spaceship` estão listados na captura de tela anterior. Você pode selecionar vários arquivos da lista filtrada para arrastá-los e soltá-los em um mapa aberto para edição.
 
-**Menu Opções**
+### Menu Opções
 
 Além de abrir arquivos no painel esquerdo, você também pode executar muitas ações usando o menu Opções disponível na visualização Repositório. Você verá diferentes opções, dependendo se você escolhe uma pasta, um arquivo de tópico ou um arquivo de mídia.
 
@@ -427,6 +432,23 @@ As várias opções no menu Opções são explicadas abaixo:
 
 - **Gerar**: use a opção para publicar um mapa ou tópicos em um mapa em uma página do Sites, Fragmento de Conteúdo ou Fragmento de Experiência.
 
+## Explorer
+
+>[!NOTE]
+>
+> A partir da versão 2025.11.0, o termo Repositório no Editor será substituído por **Explorer** para configuração do serviço na nuvem. A configuração no local continuará a ver e acessar o Repositório no Editor.
+
+O Explorer fornece a maioria dos recursos disponíveis anteriormente no Repository, incluindo:
+
+- Navegação pelos arquivos e pastas
+- Menu de opções para arquivos e pastas
+
+Mas apresenta uma experiência aprimorada de pesquisa e filtragem, projetada para melhorar a usabilidade e a eficiência.
+
+Para obter informações detalhadas sobre o menu de contexto de arquivos e pastas, exiba o [menu Opções](#options-menu).
+
+Para obter informações detalhadas sobre a experiência de Pesquisa, consulte o [painel de Pesquisa](./search-panel-explorer.md).
+
 ## Mapa
 
 Quando você seleciona o ícone Exibição de mapa, a exibição de mapa é exibida, onde uma lista de tópicos dentro do arquivo de mapa é exibida. Se você não tiver aberto nenhum arquivo de mapa, a exibição Mapa aparecerá em branco. Clicar duas vezes em qualquer arquivo de mapa abre o arquivo de mapa nesta exibição. Você pode clicar duas vezes em qualquer arquivo no mapa para abri-lo no Editor.
@@ -474,7 +496,7 @@ Você pode executar as seguintes ações usando o menu Opções do arquivo de ma
    - **Copiar UUUID**: Copiar a UUID do arquivo de mapa para a Área de Transferência.
    - **Copiar Caminho**: Copiar o caminho completo do arquivo de mapa para a Área de Transferência.
 
-- **Localizar no repositório**: mostra o local do arquivo de mapa no repositório \(ou DAM\).
+- **Localizar no explorador**: mostra o local do arquivo de mapa no explorador\(ou DAM\).
 
 - **Adicionar a**: você pode escolher entre as seguintes opções:
    - **Coleções**: adiciona o arquivo de mapa às coleções. Você pode optar por adicioná-la a uma coleção existente ou nova.
@@ -531,7 +553,7 @@ Você pode executar as seguintes ações usando o menu Opções:
    - **Copiar Caminho**: copia o caminho completo do arquivo selecionado para a Área de Transferência.
 
 
-- **Localizar no repositório**: mostra o local do arquivo selecionado no repositório \(ou DAM\).
+- **Localizar no explorador**: mostra o local do arquivo selecionado no explorador \(ou DAM\).
 - **Expandir tudo**: expandir todos os tópicos nos arquivos de mapa.
 
 - **Recolher tudo**: Recolher todos os tópicos que fazem parte do arquivo de mapa atual.
@@ -956,26 +978,32 @@ Os trechos são pequenos fragmentos de conteúdo que podem ser reutilizados em v
 
 ![](images/snippets-panel_cs.png){align="left"}
 
+**Criar um trecho**
+
 Para adicionar um trecho, use um dos seguintes métodos:
 
-- Selecione o ícone **+** ao lado de Trechos para abrir a caixa de diálogo **Novo Trecho**.
+1. Selecione o ícone **+** ao lado de Trechos para abrir a caixa de diálogo **Novo Trecho**.
 
-  ![](images/snippet-new-dialog.png){width="300" align="left"}
+   ![](images/snippet-new-dialog.png){width="300" align="left"}
 
-  Na caixa de diálogo Novo trecho, forneça um título que apareça no painel Trechos, uma descrição e o código XML do conteúdo do trecho que você deseja criar. Selecione **Criar** para salvar e criar o trecho.
+   Na caixa de diálogo Novo trecho, forneça um Título que apareça no painel Trechos, uma Descrição, selecione um Formato (DITA ou HTML) para o seu conteúdo e forneça um código do conteúdo do trecho que você deseja criar. Selecione **Criar** para salvar e criar o trecho.
 
-- Na área de edição de conteúdo, clique com o botão direito do mouse na navegação estrutural do elemento que você deseja usar como snippet e escolha **Criar snippet** no menu de contexto. A caixa de diálogo Novo trecho é exibida com o código XML do elemento selecionado preenchido no campo **Conteúdo**. Insira o **Título** e a **Descrição** para o trecho e selecione **Criar** para salvar o trecho.
+2. Na área de edição de conteúdo, clique com o botão direito do mouse na navegação estrutural do elemento que você deseja usar como snippet e escolha **Criar snippet** no menu de contexto. A caixa de diálogo Novo trecho é exibida com o código XML do elemento selecionado preenchido no campo **Conteúdo**. Insira o **Título** e a **Descrição** para o trecho e selecione **Criar** para salvar o trecho.
 
-- Na área de edição de conteúdo, clique com o botão direito do mouse em qualquer lugar do conteúdo que você deseja usar como um trecho e escolha **Criar trecho** no menu de contexto. A caixa de diálogo Novo trecho é exibida com o código XML do elemento selecionado preenchido no campo **Conteúdo**. Insira o **Título** e a **Descrição** para o trecho e selecione **Criar** para salvar o trecho.
+3. Na área de edição de conteúdo, clique com o botão direito do mouse em qualquer lugar do conteúdo que você deseja usar como um trecho e escolha **Criar trecho** no menu de contexto. A caixa de diálogo Novo trecho é exibida com o código XML do elemento selecionado preenchido no campo **Conteúdo**. Insira o **Título** e a **Descrição** para o trecho e selecione **Criar** para salvar o trecho.
 
-  A captura de tela a seguir destaca a navegação estrutural e a área de conteúdo da qual você pode chamar o menu de contexto.
+   A captura de tela a seguir destaca a navegação estrutural e a área de conteúdo da qual você pode chamar o menu de contexto.
 
-  ![](images/snippet-create-from-breadcrumb-content.png){width="350" align="left"}
+   ![](images/snippet-create-from-breadcrumb-content.png){width="350" align="left"}
 
+**Inserir um trecho**
 
 Para inserir um trecho, use um dos seguintes métodos:
 
-- Selecione um trecho no painel Snippets e arraste-o e solte-o no local desejado no seu tópico.
+- Selecione um trecho no painel Snippets e arraste-o e solte-o no local desejado no seu tópico. Também é possível usar as opções de filtro na parte superior do painel Fragmentos para refinar a visualização:
+
+   - **Mostrar todos os trechos**: lista todos os trechos disponíveis, incluindo os formatos DITA e HTML.
+   - **Mostrar apenas os trechos aplicáveis**: Filtra a lista para mostrar apenas os trechos relevantes ao seu tópico ou contexto atual. Por exemplo, se estiver trabalhando em um tópico DITA, os trechos de HTML serão excluídos da lista para garantir a precisão contextual.
 
 - Posicione o ponto de inserção onde deseja inserir o trecho. No menu Opções do trecho necessário, escolha Inserir trecho.
 
@@ -1142,4 +1170,4 @@ Para exibir os comentários de revisão nas tarefas de revisão ativas que estã
 
 </details>
 
-**Tópico pai:**&#x200B;[&#x200B; Introdução ao Editor](web-editor.md)
+**Tópico pai:**[ Introdução ao Editor](web-editor.md)

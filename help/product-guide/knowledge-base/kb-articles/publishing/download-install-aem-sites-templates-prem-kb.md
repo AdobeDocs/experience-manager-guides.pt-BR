@@ -4,9 +4,10 @@ description: Saiba como Baixar e instalar modelos do AEM Sites para no Prem Serv
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 20ba7f4582f1d155e555c9ff3ac58e1e3c400765
+exl-id: aa843a72-ff0d-4c9a-a87d-48d099087b5e
+source-git-commit: 4c564a0ffaa8f287bcaf012634d49dbf1e0682b4
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -35,7 +36,7 @@ Antes de continuar com a configuração, verifique se os seguintes pré-requisit
 ## Instalação de pacote usando o Gerenciador de pacotes do CRX
 
 1. **Instalar o Pacote de Componentes:**
-   1. Navegue até [**CRX Package Manager**](http://&lt;your-aem-instance>/crx/packmgr).
+   1. Navegue até [**CRX Package Manager**](http://<your-aem-instance>/crx/packmgr).
    2. Carregue e instale o pacote no local-guides-components.all-1.x.0.zip.
 
 2. **Instalar o Pacote do Sites:** Carregue e instale o pacote aemg-docs.all-1.x.0.zip usando o Gerenciador de Pacotes do CRX.
@@ -60,14 +61,14 @@ Antes de continuar com a configuração, verifique se os seguintes pré-requisit
 
    1. Selecione **Site** como **Documentação do AEMG**.
    2. Verifique se o **Caminho de publicação** e o **Modelo de página de tópico** estão definidos automaticamente como:
-      - Caminho de publicação: aemg-docs/en/docs/product1
+      - Caminho de publicação: `aemg-docs/en/docs/product1`
       - Modelo da página de tópico: Página de tópico.
 
       ![Usar lista suspensa de sites](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown.png){width="350" align="left"}
 
    **Opção 2: Usar o Caminho do Site**
 
-   1. Defina o **Caminho do site** manualmente como /content/aemg-docs/en/docs/product1.
+   1. Defina o **caminho do site** manualmente como `/content/aemg-docs/en/docs/product1`.
    2. Verifique se o **modelo de página de Tópico** está automaticamente definido como Página de Tópico.
 
       ![Usar Caminho do Site](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path.png){width="350" align="left"}
@@ -78,14 +79,14 @@ Antes de continuar com a configuração, verifique se os seguintes pré-requisit
 
 1. **Gerar Site:**
    1. Com a predefinição configurada, agora é possível gerar o site do AEM para o mapa DITA correspondente.
-   2. O site gerado estará disponível no caminho: /content/aemg-docs/en/docs/product1.
+   2. O site gerado estará disponível no caminho: `/content/aemg-docs/en/docs/product1`.
 2. **Alterar o Caminho de Geração Padrão (Opcional):** Se desejar alterar o caminho padrão para geração de site, execute as seguintes etapas:
 
    1. Navegue até **AEM Sites**.
    2. Crie uma nova página de produto na estrutura do site OOTB.
    3. Navegue até **Documentação do AEMG** > **Inglês** > **Documentação**.
 
-      ![Criar página na estrutura de Site do AEM &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-page.png){width="350" align="left"}
+      ![Criar página na estrutura de Site do AEM ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-page.png){width="350" align="left"}
 
    4. Selecione o bloco **Página inicial** e selecione **Avançar**.
 
@@ -93,4 +94,3 @@ Antes de continuar com a configuração, verifique se os seguintes pré-requisit
 
    5. Insira o **Título** e o **Nome** da página.
    6. Selecione **Criar**.
-

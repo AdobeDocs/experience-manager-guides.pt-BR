@@ -4,9 +4,9 @@ description: Explore outros recursos do Editor no Adobe Experience Manager Guide
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
+source-git-commit: c84a95b4d0b5df5b29d16efa7478bbfdc953bc5b
 workflow-type: tm+mt
-source-wordcount: '2652'
+source-wordcount: '2678'
 ht-degree: 0%
 
 ---
@@ -61,8 +61,11 @@ Para criar uma nova versão do arquivo, selecione **Salvar como nova versão**. 
 
 - **Mapa**: se você tiver aberto um mapa DITA grande e quiser encontrar o local exato de um arquivo no mapa, selecione **Localizar em \> Mapa**. Quando você seleciona a opção Localizar no mapa, o arquivo \(de onde a opção é chamada\) está localizado e realçado na hierarquia do mapa. Para usar esse recurso, é necessário abrir o arquivo de mapa no Editor. Se a Visualização de mapa estiver oculta, invocar esse recurso exibirá a Visualização de mapa e o arquivo será destacado na hierarquia de mapa.
 
-- **Repositório**: assim como Localizar no Mapa, o **Localizar no \> Repositório** mostra o local do arquivo no repositório \(ou DAM\). A Visualização de repositório é aberta e o arquivo selecionado é realçado no repositório. Se o arquivo estiver em uma pasta, ela será expandida para mostrar o local do arquivo selecionado no repositório.
+- **Explorer**: assim como Localizar no Mapa, o **Localizar no \> Explorer** mostra o local do arquivo no Explorer \(ou DAM\). A Visualização do Explorer é aberta e o arquivo selecionado é realçado no Explorer. Se o arquivo estiver em uma pasta, essa pasta será expandida para mostrar o local do arquivo selecionado no Explorer.
 
+  >[!NOTE]
+  >
+  >Na versão 2025.11.0, o **Repositório** foi renomeado para **Explorer**. Para configuração no local, ele continua disponível como Repositório até a versão 5.1 do Experience Manager Guides.
 
 ***Adicionar a***: você pode escolher entre as seguintes opções:
 
@@ -279,4 +282,4 @@ Os principais recursos destinados a melhorar o tratamento de arquivos grandes s�
 
 - A mensagem de alerta está disponível somente para arquivos DITA e está visível em todas as exibições: Autor, Source e Layout.
 
-**Tópico pai:**&#x200B;[&#x200B; Introdução ao Editor](web-editor.md)
+**Tópico pai:**[ Introdução ao Editor](web-editor.md)

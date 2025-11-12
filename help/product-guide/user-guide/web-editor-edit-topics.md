@@ -4,9 +4,9 @@ description: Saiba como editar tópicos no Editor. Saiba mais sobre vários recu
 exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
 feature: Authoring, Web Editor
 role: User
-source-git-commit: d203ca0e1a5ca90f30f33e25e425552141674fe5
+source-git-commit: bdf838da24d7e426c34265cdad454d52f657cfae
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '1029'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,6 @@ Da mesma forma, se você excluir o conteúdo selecionado, o conteúdo restante a
 
    - Selecione o conteúdo em um elemento.
    - Selecione o ícone ![adicionar](images/Add_icon.svg) na barra de ferramentas na parte superior para exibir a caixa de diálogo **Inserir elemento**. A caixa de diálogo lista os elementos válidos para o conteúdo selecionado.
-
      >[!NOTE]
      >
      > Você também pode visualizar a caixa de diálogo Inserir elemento selecionando o menu de contexto do conteúdo selecionado.
@@ -108,11 +107,14 @@ You can access the **Layout** view for read-only DITA maps. This view lets you s
 
  -->
 
-## Localizar um arquivo aberto na exibição Repositório
+## Localizar um arquivo aberto no Explorer
 
-Enquanto você abre um arquivo no Editor, o Experience Manager Guides fornece o recurso para localizar o arquivo na visualização Repositório. Por exemplo, ela localiza o tópico atual enquanto você o edita.
+Enquanto você abre um arquivo no Editor, o Experience Manager Guides fornece o recurso para localizar o arquivo no Explorer. Por exemplo, ela localiza o tópico atual enquanto você o edita.
 
-Você pode desativar o recurso para localizar o arquivo com a opção **Sempre localizar arquivos no repositório** da guia **Aparência** das **Preferências do usuário**.
+Você pode desativar o recurso para localizar o arquivo com a opção **Sempre localizar arquivos no Explorer** da guia **Aparência** das **Preferências do usuário**.
 
+>[!NOTE]
+>
+>Na versão 2025.11.0, a configuração **Sempre localizar arquivos no repositório** foi renomeada para **Sempre localizar arquivos no explorador**. Para configuração no local, ele continua disponível como Sempre localizar arquivos no repositório até a versão 5.1 do Experience Manager Guides.
 
-**Tópico pai:**&#x200B;[&#x200B; Trabalhar com o editor](web-editor.md)
+**Tópico pai:**[ Trabalhar com o editor](web-editor.md)

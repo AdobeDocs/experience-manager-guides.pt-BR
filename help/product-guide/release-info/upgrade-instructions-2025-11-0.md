@@ -1,37 +1,37 @@
 ---
-title: Notas de versão | Instruções de atualização e problemas corrigidos na versão 2025.10.0 do Adobe Experience Manager Guides
-description: Saiba mais sobre a matriz de compatibilidade e como atualizar para a versão 2025.10.0 do Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 25bfa20f469930b3b683e4753812227abdf36f24
+title: Notas de versão | Instruções de atualização e problemas corrigidos no Adobe Experience Manager Guides versão 2025.11.0
+description: Saiba mais sobre a matriz de compatibilidade e como atualizar para a versão 2025.11.0 do Adobe Experience Manager Guides as a Cloud Service.
+source-git-commit: b33f9385cd0364009a70c1a5fddcc1a5c118b08b
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1039'
 ht-degree: 0%
 
 ---
 
-# Instruções de atualização para a versão 2025.10.0
+# Instruções de atualização para a versão 2025.11.0
 
-Este artigo aborda as instruções de atualização e a matriz de compatibilidade da versão 2025.10.0 do Adobe Experience Manager Guides as a Cloud Service.
+Este artigo aborda as instruções de atualização e a matriz de compatibilidade da versão 2025.11.0 do Adobe Experience Manager Guides as a Cloud Service.
 
-Para obter mais informações sobre os novos recursos e aprimoramentos, consulte [Novidades na versão 2025.10.0](whats-new-2025-10-0.md).
+Para obter mais informações sobre os novos recursos e aprimoramentos, consulte [Novidades na versão 2025.11.0](whats-new-2025-11-0.md).
 
-Para obter a lista de problemas corrigidos nesta versão, consulte [Problemas corrigidos na versão 2025.10.0](fixed-issues-2025-10-0.md).
+Para obter a lista de problemas corrigidos nesta versão, consulte [Problemas corrigidos na versão 2025.11.0](fixed-issues-2025-11-0.md).
 
 ## Matriz de compatibilidade
 
-Esta seção aponta a matriz de compatibilidade dos aplicativos de software compatíveis com a versão 2025.10.0 do Experience Manager Guides as a Cloud Service.
+Esta seção aponta a matriz de compatibilidade dos aplicativos de software compatíveis com a versão 2025.11.0 do Experience Manager Guides as a Cloud Service.
 
 ### FRAMEMAKER e FRAMEMAKER PUBLISHING SERVER
 
 | Versão do Experience Manager Guides as a Cloud | FMPS | FrameMaker |
 | --- | --- | --- |
-| 2025.10.0 | Não compatível | 2022 ou superior |
+| 2025.11.0 | Não compatível | 2022 ou superior |
 
 
 ### Conector de oxigênio
 
 | Versão do Experience Manager Guides as a Cloud | Janelas do conector Oxygen | Conector Oxygen Mac | Editar no Oxygen Windows | Editar no Oxygen Mac |
 | --- | --- | --- | --- | --- |
-| 2025.10.0 | 3.8 -uuid 1 | 3.8 -uuid 1 | 2,3 | 2,3 |
+| 2025.11.0 | 3.8 -uuid 1 | 3.8 -uuid 1 | 2,3 | 2,3 |
 
 
 ### Versão do modelo da knowledge base
@@ -48,13 +48,9 @@ Esta seção aponta a matriz de compatibilidade dos aplicativos de software comp
 | guides-components.all-1.4.0 | aemg-sites-template-1.3.0 |
 
 
-## Atualização para a versão 2025.10.0
+## Atualização para a versão 2025.11.0
 
 O Experience Manager Guides é atualizado automaticamente após a atualização para a versão mais recente do Experience Manager as a Cloud Service.
-
->[!NOTE]
->
-> Esta versão inclui atualizações nas configurações de perfil da pasta (ui_config.json). Se você estiver usando configurações personalizadas, certifique-se de fazer um backup delas antes da atualização. Após a atualização, revise e ajuste suas configurações para alinhar-se às alterações introduzidas na versão mais recente.
 
 Execute as seguintes etapas para o Experience Manager Guides as a Cloud Service se ainda não tiver feito isso antes na sua versão existente:
 
@@ -177,7 +173,7 @@ http://<aem_domain>/var/dxml/executor-locks/cf-reference-store-btree-migration/1
 
 ### Etapas para aplicar filtros de pesquisa em arquivos DITAVAL para todas as predefinições de saída
 
-Para garantir que os filtros de pesquisa funcionem corretamente para arquivos DITAVAL, modifique o arquivo `ui_config.json` aplicando as seguintes atualizações no campo **browseFilters** na seção **Arquivos não DITA**:
+Para garantir que os filtros funcionem corretamente, atualize o ui_config.json. Altere as propriedades listadas em **browseFilters** > **Arquivos não DITA** > **Arquivos Ditaval** conforme mostrado abaixo:
 
 ```
 {

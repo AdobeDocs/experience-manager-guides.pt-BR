@@ -3,9 +3,9 @@ title: Configurações do Workspace no Experience Manager Guides
 description: Saiba mais sobre as várias configurações disponíveis na interface do editor do Experience Manager Guides.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 1e08dce0bd64d1a15d42baf4c9720405a9eec146
+source-git-commit: d838a7d6e576e0f9317ebe8c7a811c3efebe9f72
 workflow-type: tm+mt
-source-wordcount: '2132'
+source-wordcount: '2151'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ Essa configuração controla os painéis exibidos nos painéis esquerdo e direit
 
 Você também pode definir a ordem em que os recursos presentes nos painéis são exibidos. Para alterar a ordem padrão dos recursos disponíveis nos painéis, selecione as barras pontilhadas para arrastar e soltar as guias de recursos no local desejado. Um recurso também pode ser movido da seção **Mais** para a seção principal de um painel, e vice-versa de acordo com o requisito. Depois de reordenados, os recursos aparecem na mesma sequência nos respectivos painéis direito e esquerdo.
 
-![](../user-guide/images/panels-screen.png){width="650" align="left"}
+![](../user-guide/images/panels-screen-new.png){width="650" align="left"}
 
 
 No máximo oito painéis podem ser exibidos de cada vez. Quaisquer alterações feitas nas configurações do painel são aplicadas imediatamente.
@@ -188,13 +188,16 @@ Esta guia contém opções para configurar as validações do Schematron no Edit
 
   >[!NOTE]
   >
-  > O(s) arquivo(s) de esquema selecionado(s) persistirá(ão) no perfil de pasta selecionado.
+  >- O(s) arquivo(s) de esquema selecionado(s) persistirá(ão) no perfil de pasta selecionado.
+  >- Quando um arquivo de Schematron inválido é adicionado, uma mensagem de erro é exibida, como mostrado abaixo.
 
-  ![Validação nas configurações do espaço de trabalho](../user-guide/images/editor-setting-validation.png){width="550" align="left"}
+  ![Validação nas configurações do espaço de trabalho](../user-guide/images/editor-setting-validation-error.png){width="550" align="left"}
 
   Isso impede que os usuários salvem qualquer arquivo que quebre uma regra definida no(s) arquivo(s) selecionado(s) do Schematron. Se esta opção não estiver selecionada, o arquivo não será validado antes de salvar as alterações.
 
 - **Permitir que todos os usuários adicionem arquivos de esquematron no painel de validação**: selecione essa opção para permitir que os usuários adicionem qualquer arquivo de Esquematron no painel Validação do Editor. Isso permite que os usuários adicionem arquivos do Schematron e, em seguida, validem os tópicos em relação ao arquivo Schematron. Se esta opção não estiver selecionada, a opção para adicionar o arquivo de esquematron **botão Adicionar Arquivo de Esquematron** não estará disponível para os usuários no **Painel de validação** do Editor.
+
+  ![Validação nas configurações do espaço de trabalho](../user-guide/images/editor-setting-validation.png){width="550" align="left"}
 
 
 ## Exibir atributos

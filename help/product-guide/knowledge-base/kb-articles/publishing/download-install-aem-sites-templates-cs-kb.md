@@ -4,9 +4,10 @@ description: Saiba como Baixar e instalar modelos do AEM Sites para serviços em
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 1cec8975e8aad56184793a023d066aa467d8cec5
+exl-id: 67f7ff26-fbc7-426c-aa7d-9bf4debf05d8
+source-git-commit: 4c564a0ffaa8f287bcaf012634d49dbf1e0682b4
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '671'
 ht-degree: 1%
 
 ---
@@ -45,7 +46,7 @@ Instale o **Pacote de Componentes (guides-components.all-1.x.x.zip)** e execute 
    3. Clonar o repositório no sistema local usando o nome de usuário e a senha fornecidos (gerar senha, se necessário).
 2. **Adicionar Pacote ao Pacote Maven:**
    1. No repositório clonado localmente, crie um novo pacote Maven ou adicione a um existente.
-   2. Verifique se a estrutura /jcr_root/apps/fmdita/install existe no projeto Maven.
+   2. Verifique se a estrutura `/jcr_root/apps/fmdita/` instalada existe no projeto Maven.
 
       ![Estrutura em projeto Maven](/help/product-guide/knowledge-base/kb-articles/assets/publishing/maven-structure.png){width="650" align="left"}
 
@@ -55,7 +56,7 @@ Instale o **Pacote de Componentes (guides-components.all-1.x.x.zip)** e execute 
 3. **Atualizar filters.xml:**
 
    1. Abra o arquivo filters.xml localizado na pasta META-INF do diretório de conteúdo principal.
-   2. Adicione o seguinte filtro: filter root=&quot;/apps/fmdita&quot; mode=&quot;merge&quot;/
+   2. Adicionar o filtro a seguir: raiz do filtro=`/apps/fmdita` modo=`merge`/
 
 
       ![Adicionar filtro](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-filter-xml.png){width="650" align="left"}
@@ -98,14 +99,14 @@ Instale o **Pacote de Componentes (guides-components.all-1.x.x.zip)** e execute 
 
    1. Selecione **Site** como o criado acima (por exemplo, Site AEMG Docs).
    2. Verifique se o **Caminho de publicação** e o modelo de **Página de tópico** estão definidos automaticamente como:
-      - Caminho de publicação: /content/AEMG-Docs-Site/en/docs/product
+      - Caminho de publicação: `/content/AEMG-Docs-Site/en/docs/product`
       - Modelo da página de tópico: Página de tópico
 
       ![Usar a lista suspensa de sites para configurar o Site do AEM](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown-cs.png){width="350" align="left"}
 
    **Opção 2: Usar o Caminho do Site**
 
-   1. Defina o **Caminho do site** manualmente como /content/AEMG-Docs-Site/en/docs/product.
+   1. Defina o **caminho do site** manualmente como `/content/AEMG-Docs-Site/en/docs/product`.
    2. Verifique se o modelo de **Página de Tópico** está automaticamente definido como Página de Tópico.
 
       ![Usar o caminho do site para configurar o Site do AEM](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path-cs.png){width="650" align="left"}
@@ -116,7 +117,7 @@ Instale o **Pacote de Componentes (guides-components.all-1.x.x.zip)** e execute 
 
 1. **Gerar Site:**
    1. Com a predefinição configurada, gere o site do AEM para o mapa DITA correspondente.
-   2. O site gerado estará disponível no caminho: /content/AEMG-Docs-Site/en/docs/product.
+   2. O site gerado estará disponível no caminho: `/content/AEMG-Docs-Site/en/docs/product`.
 2. **Alterar o Caminho de Geração Padrão (Opcional):** Se desejar alterar o caminho padrão para geração de site, execute as seguintes etapas:
    1. Navegue até **AEM Sites**.
    2. Crie uma nova página de produto na estrutura do site OOTB.
@@ -133,4 +134,4 @@ Instale o **Pacote de Componentes (guides-components.all-1.x.x.zip)** e execute 
 
 >[!NOTE]
 >
-> Verifique se todas as configurações foram testadas em um ambiente de não produção antes de implantar na produção. <br><br> Consulte a [documentação oficial de Implantação do AEM as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/implementing/deploying/overview) para obter mais detalhes.
+> Verifique se todas as configurações foram testadas em um ambiente de não produção antes de implantar na produção. <br><br> Consulte a [documentação oficial de Implantação do AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview) para obter mais detalhes.
