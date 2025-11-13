@@ -1,14 +1,14 @@
 ---
-source-git-commit: a7a7cf93770ea491709059b06babf050daa15aa9
+source-git-commit: 1789c6c420e1e5c7f6c3efc5992178cb0c3c589b
 workflow-type: tm+mt
-source-wordcount: '25'
-ht-degree: 4%
+source-wordcount: '26'
+ht-degree: 3%
 
 ---
 # Trechos
 
 ## Testar trecho {#test}
 
-Para testar este trecho, você adicionaria `{{test}}` a um artigo.
+Para testar esse trecho, você adicionaria isso a um artigo.
 
 Você pode excluir esta seção de trechos de código e substituí-la por trechos de código reais.
