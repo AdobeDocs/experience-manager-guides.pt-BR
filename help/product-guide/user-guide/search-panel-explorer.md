@@ -3,7 +3,7 @@ title: Painel de pesquisa na interface do editor
 description: Saiba como usar o painel de Pesquisa na interface do Editor.
 feature: Authoring
 role: User
-source-git-commit: bdf838da24d7e426c34265cdad454d52f657cfae
+source-git-commit: 5b4aebce91d6cad7c99bf97e3d6d592ad38fa373
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 0%
@@ -20,7 +20,7 @@ O painel Pesquisar pode ser acessado das seguintes opções:
 
   ![](images/search-icon-editor.png){align="left"}
 
-- **Página inicial**: usando a opção **Mostrar no painel de Pesquisa** ao navegar da interface do Repositório na Página inicial. Para exibição de detalhes, [Pesquise no Repositório](#search-from-repository-interface-on-the-home-page).
+- **Página inicial**: usando a opção **Mostrar no painel de Pesquisa** ao navegar da interface do Repositório na Página inicial. Para exibição de detalhes, [Pesquise no Repositório](#search-from-the-repository-interface-on-the-home-page).
 
   ![](images/search-panel-repo.png){align="left"}
 
