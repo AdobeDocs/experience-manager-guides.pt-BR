@@ -5,7 +5,7 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: c787947a-b235-4c12-a9cc-eac5136d31db
-source-git-commit: e5d02c6047c3ed74efa1777ce6585efc391af426
+source-git-commit: b511f12dab6c4980091aabe57446cbbd84d79080
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
@@ -57,6 +57,6 @@ Execute as seguintes etapas para acessar o relatório Reverter histórico:
 
    - **Comentário**: qualquer comentário fornecido pelo usuário que reverteu o arquivo.
 
-{{test}}
+{{$include /help/_includes/overview.md}}
 
-**Tópico pai:**&#x200B;[&#x200B; Relatórios](reports-intro.md)
+**Tópico pai:**[ Relatórios](reports-intro.md)
