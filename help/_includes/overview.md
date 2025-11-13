@@ -4,9 +4,9 @@ description: Encontre vídeos tutoriais do Experience Manager Guides (antigo XML
 feature: AEM Guides Tutorials
 role: User
 hide: true
-source-git-commit: b511f12dab6c4980091aabe57446cbbd84d79080
+source-git-commit: 67c4458180ff7e5690bc1ee51fe9e46bce57c9d5
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '220'
 ht-degree: 11%
 
 ---
@@ -23,8 +23,3 @@ Com a solução [!DNL AEM Guides], as empresas podem oferecer experiências perf
 > 
 > O Adobe Experience Manager Guides era anteriormente conhecido como _XML Documentation para o Adobe Experience Manager_. Observe que algumas referências contidas na documentação ainda podem se referir a marcas anteriores, mas ainda se aplicam à oferta atual.
 
-## Recursos adicionais
-
-* [[!DNL AEM Guides] Guia do Usuário (Nova Interface do Usuário)](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using/overview)
-* [[!DNL AEM Guides] Aprendizagem e Suporte](https://helpx.adobe.com/br/support/xml-documentation-for-experience-manager.html)
-* [Experience League - Explorar o AEM](https://business.adobe.com/br/products/experience-manager/adobe-experience-manager.html)
