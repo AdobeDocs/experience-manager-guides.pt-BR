@@ -59,4 +59,4 @@ Execute as seguintes etapas para acessar o relatório Reverter histórico:
 
 {{$include /help/_includes/overview.md}}
 
-**Tópico pai:**[ Relatórios](reports-intro.md)
+**Tópico pai:**&#x200B;[&#x200B; Relatórios](reports-intro.md)
