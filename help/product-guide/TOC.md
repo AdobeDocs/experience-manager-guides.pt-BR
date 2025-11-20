@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leia a documentação do produto do Adobe Experience Manager Guides.
 breadcrumb-title: Documentação do AEM Guides
-source-git-commit: e1b332b100cc8e3937557e4617d66352c1a0dc3c
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '2428'
+source-wordcount: '2418'
 ht-degree: 8%
 
 ---
@@ -162,14 +162,14 @@ ht-degree: 8%
                - [Notas de versão 4.2.1](./release-info/release-notes-4-2-1.md)
                - [Notas de versão 4.2](./release-info/release-notes-4-2.md)
          - [Notas de versão 4.1.x](./release-info/release-notes-4-1.md)
-         - [Notas de versão do 4.0.x](https://helpx.adobe.com/br/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [Notas de versão da 3.8.x](https://helpx.adobe.com/br/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [Notas de versão do 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [Notas de versão da 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Guia do usuário (nova interface do usuário) {#user-guide}
    - Introdução {#about-aemg}
       - [Sobre [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides] trabalhando e os principais recursos {#aemg-works-features}
          - [Como [!DNL AEM Guides] funciona](./user-guide/intro-how-dxml-works.md)
-         - [Recursos da chave [!DNL AEM Guides] &#x200B;](./user-guide/intro-dxml-features.md)
+         - [Recursos da chave [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
    - Home page {#home-page}
       - [Experiência da página inicial [!DNL AEM Guides]](./user-guide/intro-home-page.md)
       - [Interface do repositório](./user-guide/home-page-repository-view.md)
@@ -364,7 +364,7 @@ ht-degree: 8%
       - Resolução de problemas {#troubleshooting}
          - [Tempo limite da sessão](./user-guide/session-timeout-prompt.md)
 - Guia do usuário (interface antiga) {#user-guide-old-ui}
-   - [visão geral do AEM Guides](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [visão geral do AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Instalação e configuração {#install-guide}
    - No local {#on-prem-ig}
       - [Noções básicas no local](./install-guide/introduction.md)
@@ -390,7 +390,6 @@ ht-degree: 8%
          - [Migrar conteúdo não DITA](./install-guide/migrate-content-non-dita.md)
       - Trabalhar com DITA-OT personalizado e especialização {#custom-dita-ot-spec}
          - [Usar a especialização personalizada do DITA-OT e do DITA](./install-guide/dita-ot-specialization.md)
-      - Configurar UUID e nomes de arquivo não baseados em UUID {#conf-non-uuid-filename}
       - [Configurar pós-processamento para uma pasta](./install-guide/conf-folder-post-processing.md)
       - [Configurar nomes de arquivo](./install-guide/conf-file-names.md)
       - [Configurar nomes de arquivo automáticos com base no UUID](./install-guide/conf-auto-uuid-filenames.md)
@@ -453,7 +452,6 @@ ht-degree: 8%
                - [Aplicar estilos a notas de rodapé](./native-pdf/footnote-number-style.md)
          - [Configurar sinalizadores JVM para publicação nativa no PDF](./native-pdf/configure-jvm-flags.md)
          - [Configurar o local de saída base para a saída de publicação](./native-pdf/configure-base-output-location.md)
-         - Trabalhar com fluxos de trabalho personalizados {#custom-workflow}
          - [Configurar e personalizar workflows](./install-guide/customize-workflows.md)
       - Trabalhar com configurações de tradução {#translate-config}
          - [Traduzir conteúdo](./install-guide/translation.md)
