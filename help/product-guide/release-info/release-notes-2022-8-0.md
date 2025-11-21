@@ -1,10 +1,10 @@
 ---
-title: Notas de versão | as a Cloud Service do Adobe Experience Manager Guides, versão de agosto de 2022
+title: Notas de versão | Adobe Experience Manager Guides as a Cloud Service, versão de agosto de 2022
 description: Versão de agosto do Adobe Experience Manager Guides as a Cloud Service
 exl-id: a01bfe8a-4715-438c-bb94-aa1d31f6662d
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 0%
@@ -15,10 +15,10 @@ ht-degree: 0%
 
 ## Atualização para a versão de agosto
 
-Atualize sua configuração atual do Adobe Experience Manager Guides as a Cloud Service (mais tarde chamada de configuração do *AEM Guides as a Cloud Service*) executando as seguintes etapas:
-1. Confira o código Git do Cloud Service e alterne para a ramificação configurada no pipeline Cloud Service correspondente ao ambiente que você deseja atualizar.
-1. Atualize a propriedade `<dox.version>` no arquivo `/dox/dox.installer/pom.xml` do código Git do Cloud Service para 2022.8.167.
-1. Confirme as alterações e execute o pipeline do Cloud Service para atualizar para a versão de agosto do AEM Guides as a Cloud Service.
+Atualize sua configuração atual do Adobe Experience Manager Guides as a Cloud Service (mais tarde chamada de *AEM Guides as a Cloud Service*) executando as seguintes etapas:
+1. Confira o código Git do Cloud Services e alterne para a ramificação configurada no pipeline do Cloud Services correspondente ao ambiente que você deseja atualizar.
+1. Atualize a propriedade `<dox.version>` no arquivo `/dox/dox.installer/pom.xml` do seu código Git do Cloud Services para 2022.8.167.
+1. Confirme as alterações e execute o pipeline de Serviços em nuvem para atualizar para a versão de agosto do AEM Guides as a Cloud Service.
 
 ## Matriz de compatibilidade
 
@@ -43,7 +43,7 @@ Esta seção lista a matriz de compatibilidade dos aplicativos de software compa
 
 ## Novos recursos e melhorias
 
-O AEM Guides as a Cloud Service fornece vários aprimoramentos e novos recursos na versão de agosto:
+O AEM Guides as a Cloud Service oferece muitos aprimoramentos e novos recursos na versão de agosto:
 
 ### Exibição de layout no Editor de mapa
 
@@ -82,7 +82,7 @@ Os Atributos em Linha configurados definidos para um tópico são exibidos em re
 
 ### Filtros adicionais na visualização de Repositório
 
-Agora, a pesquisa por filtro na visualização de repositório ficou mais eficiente. Dois novos critérios de pesquisa, **Última modificação** e **Marcas**, foram adicionados para filtrar os arquivos e restringir sua pesquisa no repositório AEM:
+Agora, a pesquisa por filtro na visualização de repositório ficou mais eficiente. Dois novos critérios de pesquisa, **Última modificação** e **Marcas**, foram adicionados para filtrar os arquivos e restringir sua pesquisa no repositório do AEM:
 * **Última modificação**: você pode procurar arquivos que foram modificados pela última vez após uma data selecionada, mas antes de uma data selecionada. Você também tem a opção de usar os critérios predefinidos e procurar arquivos que foram modificados pela última vez nas últimas 2 horas, semana passada, mês passado ou ano passado.
 * **Marcas**: você também pode procurar arquivos que tenham marcas específicas aplicadas. Você pode digitar a tag ou selecioná-la na lista suspensa.
 
@@ -98,8 +98,8 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 * O tópico DITA não é atualizado automaticamente com as alterações feitas na página **Propriedades**. (8745)
 * O elemento Frontmatter, quando adicionado a um mapa DITA, não funciona corretamente. (9507)
 * PDF nativo | Um PDF em branco é gerado ao usar a **Geração rápida** para vários arquivos quando um elemento vazio é selecionado. (9822)
-* PDF nativo | O Apêndice é publicado como um capítulo na saída do PDF. (9829)
-* PDF nativo | Quando uma imagem de SVG é editada, ela não é mostrada atualizada no layout da página. (9069)
+* PDF nativo | O apêndice é publicado como um capítulo na saída do PDF. (9829)
+* PDF nativo | Quando uma imagem do SVG é editada, ela não é mostrada atualizada no layout da página. (9069)
 * Um caractere de hífen regular é inserido quando um caractere `Nonbreaking Hyphen` é inserido usando a caixa de diálogo **Inserir Caractere Especial**. (8919)
 * O Editor de XML não mostra imagens atualizadas nos tópicos se elas tiverem sido editadas. (9500)
 * Ao publicar a saída por meio do Editor, as predefinições não podem ser excluídas da guia **Saída**. (9100)
@@ -109,12 +109,12 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 * Nenhuma opção está presente para procurar os tópicos ou mapas presentes nas subpastas de um mapa ou modelo de tópico. (9889)
 * Quando um arquivo do Schematron é atualizado e salvo junto com o arquivo DITA, o painel direito não é exibido (se o arquivo DITA quebrar as validações presentes no arquivo do Schematron). (9986)
 * Uma nova predefinição de saída duplicada poderá ser criada se o nome for igual a uma predefinição existente. (9997)
-* As imagens de SVG são corrompidas e não são publicadas corretamente ao gerar a saída de HTML. (9949)
+* As imagens do SVG são corrompidas e não são publicadas corretamente ao gerar a saída do HTML. (9949)
 
 
 ## Problemas conhecidos
 
-O Adobe identificou os seguintes problemas conhecidos para a versão as a Cloud Service de agosto de 2022 do AEM Guides.
+A Adobe identificou os seguintes problemas conhecidos para a versão de agosto de 2022 do AEM Guides as a Cloud Service.
 
 ### Problemas conhecidos com a solução alternativa
 

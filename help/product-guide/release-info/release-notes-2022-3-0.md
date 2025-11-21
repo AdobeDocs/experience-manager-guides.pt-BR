@@ -1,28 +1,28 @@
 ---
 title: Notas de versão do  [!DNL AEM Guides], versão de março de 2022
-description: Versão de março de  [!DNL Adobe Experience Manager Guides] as a Cloud Service
+description: Versão de março do  [!DNL Adobe Experience Manager Guides] as a Cloud Service
 exl-id: 885edbb5-dfe4-4bdc-bb66-0df64addb094
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 0%
 
 ---
 
-# Lançamento de março do [!DNL Adobe Experience Manager Guides] as a Cloud Service
+# Versão de março do as a Cloud Service [!DNL Adobe Experience Manager Guides]
 
 ## Atualização para a versão de março
 
 Atualize sua configuração atual do [!DNL Adobe Experience Manager Guides] as a Cloud Service (mais tarde chamada de *[!DNL AEM Guides]as a Cloud Service*) executando as seguintes etapas:
-1. Confira o código Git do Cloud Service e alterne para a ramificação configurada no pipeline Cloud Service correspondente ao ambiente que você deseja atualizar.
-1. Atualize a propriedade `<dox.version>` no arquivo `/dox/dox.installer/pom.xml` do seu código Git Cloud Service para 2022.3.123.
-1. Confirme as alterações e execute o pipeline do Cloud Service para atualizar para a versão de março do [!DNL AEM Guides] as a Cloud Service.
+1. Confira o código Git do Cloud Services e alterne para a ramificação configurada no pipeline do Cloud Services correspondente ao ambiente que você deseja atualizar.
+1. Atualize a propriedade `<dox.version>` no arquivo `/dox/dox.installer/pom.xml` do seu código Git do Cloud Services para 2022.3.123.
+1. Confirme as alterações e execute o pipeline de Serviços em Nuvem para atualizar para a versão de março do as a Cloud Service [!DNL AEM Guides].
 
 ## Matriz de compatibilidade
 
-As a Cloud Service Esta seção lista a matriz de compatibilidade dos aplicativos de software compatíveis com a versão do dia 22 de março de 2022 do [!DNL AEM Guides].
+Esta seção lista a matriz de compatibilidade dos aplicativos de software compatíveis com a versão de março de 2022 do [!DNL AEM Guides] as a Cloud Service.
 
 ### FRAMEMAKER e FRAMEMAKER PUBLISHING SERVER
 
@@ -45,7 +45,7 @@ As a Cloud Service Esta seção lista a matriz de compatibilidade dos aplicativo
 
 ### Novo painel Linha de base
 
-A versão de março as a Cloud Service do [!DNL AEM Guides] fornece o recurso de Linha de Base integrado ao Editor da Web. Agora você pode criar linhas de base no Editor da Web e usá-las para publicar ou traduzir tópicos de diferentes versões.
+A versão de março do as a Cloud Service [!DNL AEM Guides] fornece o recurso de Linha de Base integrado ao Editor da Web. Agora você pode criar linhas de base no Editor da Web e usá-las para publicar ou traduzir tópicos de diferentes versões.
 
 Observação: para um sistema atualizado, atualize o **ui_config.json** mais recente para o Perfil de Pasta.
 
@@ -77,9 +77,9 @@ as alterações não salvas forem abertas para edição, você será solicitado 
 
 O processo de publicação foi aprimorado ainda mais com a versão de março do [!DNL AEM Guides] as a Cloud Service:
 
-* Linhas de base foram honradas para os metadados de saída do site AEM. Você também pode processar as propriedades de uma versão de linha de base como metadados. Se nenhuma linha de base for definida, as propriedades da versão mais recente serão processadas como metadados.
+* As linhas de base foram respeitadas para os metadados de saída do site do AEM. Você também pode processar as propriedades de uma versão de linha de base como metadados. Se nenhuma linha de base for definida, as propriedades da versão mais recente serão processadas como metadados.
 
-* As opções **Nome do Arquivo** e **Argumentos de Linha de Comando DITA-OT** foram adicionadas para predefinições de HTML5, EPUB e Saída personalizada. Agora você pode especificar o nome do arquivo com o qual deseja salvar a saída. Você também pode especificar os argumentos adicionais que deseja que o DITA-OT processe ao gerar saída.
+* As opções **Nome do Arquivo** e **Argumentos de Linha de Comando DITA-OT** foram adicionadas para predefinições de saída HTML5, EPUB e Personalizada. Agora você pode especificar o nome do arquivo com o qual deseja salvar a saída. Você também pode especificar os argumentos adicionais que deseja que o DITA-OT processe ao gerar saída.
 
 ## Problemas corrigidos
 
@@ -95,7 +95,7 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 
 ## Problemas conhecidos
 
-O Adobe identificou o seguinte problema conhecido na versão de março as a Cloud Service [!DNL AEM Guides].
+A Adobe identificou o seguinte problema conhecido na versão de março do as a Cloud Service [!DNL AEM Guides].
 
 * A remoção de rótulos em referências diretas também remove os rótulos de referências indiretas.
 

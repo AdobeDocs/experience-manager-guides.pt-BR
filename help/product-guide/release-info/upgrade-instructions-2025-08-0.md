@@ -1,7 +1,8 @@
 ---
 title: Notas de versão | Instruções de atualização e problemas corrigidos na versão 2025.08.0 do Adobe Experience Manager Guides
 description: Saiba mais sobre a matriz de compatibilidade e como atualizar para a versão 2025.08.0 do Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 3b306a873f3b71078256407d977e8bdd5af1180b
+exl-id: 8f58962c-5f49-4b48-a161-4a34cd3366cb
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1035'
 ht-degree: 0%

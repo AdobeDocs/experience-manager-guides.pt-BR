@@ -4,7 +4,7 @@ description: Saiba como migrar conteúdo não UUID para UUID
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: e38cd858201ea657ce276eb4b358b0d4eff502b2
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1568'
 ht-degree: 1%
@@ -178,9 +178,9 @@ Além disso, uma lista de **Arquivos atualizados com erros** e **Arquivos com fa
 
 | Resumo após a conclusão do processo | Como interpretar? | Ação |
 |---|---|---|
-| Número total de arquivos: 288 | Número de mapas DITA com pelo menos uma linha de base. |
-| Número de arquivos migrados com êxito: 13 | Número de mapas DITA, atualizados com êxito com todas as linhas de base. |
-| Número de arquivos ignorados: 275 | Número de mapas DITA sem nenhuma linha de base. |
+| Número total de arquivos: 288 | Número de mapas DITA com pelo menos uma linha de base. |  |
+| Número de arquivos migrados com êxito: 13 | Número de mapas DITA, atualizados com êxito com todas as linhas de base. |  |
+| Número de arquivos ignorados: 275 | Número de mapas DITA sem nenhuma linha de base. |  |
 | Número de arquivos com falha de atualização: 0 | O número de objetos de linha de base inválidos (estavam vazios) está listado no relatório (Excel). | Verificar se há outros erros além de: `baselineObj not found on` |
 
 Além disso, uma lista de **Arquivos atualizados com erros** e **Arquivos com falha** durante o processo de migração pode ser acessada na tabela de resumo do relatório.
@@ -219,5 +219,5 @@ Além disso, uma lista de **Arquivos atualizados com erros** e **Arquivos com fa
    > Se, antes da migração, a propriedade **Usar título para nomes de página de Sites do AEM** dentro de `com.adobe.fmdita.config.ConfigManager`, for definida como *False*, essa propriedade precisará ser atualizada após a migração.
 
 
-1. Depois que a validação for concluída, a maior parte do espaço em disco poderá ser recuperada executando a compactação (consulte `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=pt-BR`).
+1. Depois que a validação for concluída, a maior parte do espaço em disco poderá ser recuperada executando a compactação (consulte `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`).
 

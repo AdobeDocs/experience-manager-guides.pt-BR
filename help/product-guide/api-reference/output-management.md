@@ -5,7 +5,7 @@ exl-id: dab654f5-555d-4a89-bc94-55b1e938f255
 feature: Rest API Output Management
 role: Developer
 level: Experienced
-source-git-commit: 45ae1471fe0f0586764ede9dd96530b7f75f69ee
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1175'
 ht-degree: 6%
@@ -36,17 +36,17 @@ Retorna uma matriz de objetos Predefinição de Saída JSON, cada objeto contend
 | Elemento | Descrição |
 |-------|-----------|
 | `outputName` | Nome da predefinição de saída. Os nomes de saída são exclusivos no escopo do mapa DITA em que estão definidos. |
-| `outputType` | Tipo de saída gerado usando essa predefinição, por exemplo, AEM Site, PDF, EPUB ou outro. As opções disponíveis são:<br>-   AEMSITE <br>-   PDF <br>-   HTML5 <br>-   EPUB <br>-   PERSONALIZAR |
+| `outputType` | Tipo de saída gerada usando essa predefinição, por exemplo, AEM Site, PDF, EPUB ou outro. As opções disponíveis são:<br>-   AEMSITE <br>-   PDF <br>-   HTML5 <br>-   EPUB <br>-   PERSONALIZAR |
 | `outputTitle` | Um nome descritivo para as configurações de predefinição de saída. Isso é usado para definir o valor da propriedade Nome da configuração para a predefinição de saída. |
 | `ditaValPathList` | Matriz de caminhos de arquivo DITAVAL a serem usados para gerar a saída desejada. |
 | `targetPath` | Caminho onde a saída é publicada ou armazenada. |
-| `siteName` | *\(Para saída do Site AEM\)* Nome do Site AEM. |
-| `templatePath` | *\(Para saída do Site AEM\)* Caminho do nó de modelo a ser usado para gerar a saída desejada. |
+| `siteName` | *\(Para saída de Site do AEM\)* Nome do Site do AEM. |
+| `templatePath` | *\(Para saída de Site do AEM\)* Caminho do nó de modelo a ser usado para gerar a saída desejada. |
 | `searchScope` | Especifique o escopo da operação de pesquisa. O valor deste parâmetro deve ser definido como `local`. |
-| `generateTOC` | *\(Para saída do Site AEM\)* Especifique se um índice é gerado \(true\) ou não \(false\). |
-| `generateBreadcrumbs` | *\(Para saída do Site AEM\)* Especifique se as navegações estruturais são geradas \(true\) ou não \(false\). |
-| `overwriteStrategy` | *\(Para saída do Site AEM\)* Especifique se os arquivos no destino serão substituídos \(true\) ou não \(false\). |
-| `pdfGenerator` | Especifique o mecanismo de geração de PDF a ser usado. Os valores possíveis são:<br>-   DITAOT <br>-   FMPS |
+| `generateTOC` | *\(Para saída de Site do AEM\)* Especifique se um índice é gerado \(true\) ou não \(false\). |
+| `generateBreadcrumbs` | *\(Para saída de Site do AEM\)* Especifique se as navegações estruturais são geradas \(true\) ou não \(false\). |
+| `overwriteStrategy` | *\(Para saída de Site do AEM\)* Especifique se os arquivos no destino serão substituídos \(true\) ou não \(false\). |
+| `pdfGenerator` | Especifique o mecanismo de geração do PDF a ser usado. Os valores possíveis são:<br>-   DITAOT <br>-   FMPS |
 
 >[!NOTE]
 >
@@ -66,7 +66,7 @@ http://*&lt;aem-guides-server\>*: *&lt;número-porta\>*/bin/publishlistener
 | `:operation` | String | Sim | Nome da operação que está sendo chamada. O valor deste parâmetro é ``createoutput``.<br> **Observação:** o valor não diferencia maiúsculas de minúsculas. |
 | `sourcePath` | String | Sim | Caminho absoluto do arquivo de mapa DITA. |
 | `outputTitle` | String | Sim | Um nome descritivo para as configurações de predefinição de saída. Isso é usado para definir o valor da propriedade Setting Name para a predefinição de saída.<br> **Observação:** quando uma nova predefinição de saída é criada, o sistema back-end direciona um nome exclusivo para a predefinição de saída do título fornecido. |
-| `outputType` | String | Sim | Tipo de saída gerado usando essa predefinição, por exemplo, AEM Site, PDF, EPUB ou outro. As opções disponíveis são:<br>-   AEMSITE <br>-   PDF <br>-   HTML5 <br>-   EPUB <br>-   PERSONALIZAR |
+| `outputType` | String | Sim | Tipo de saída gerada usando essa predefinição, por exemplo, AEM Site, PDF, EPUB ou outro. As opções disponíveis são:<br>-   AEMSITE <br>-   PDF <br>-   HTML5 <br>-   EPUB <br>-   PERSONALIZAR |
 
 **Valores de resposta**:
 
@@ -76,7 +76,7 @@ http://*&lt;aem-guides-server\>*: *&lt;número-porta\>*/bin/publishlistener
 
 ## Salvar predefinição de saída
 
-Um método POST que salva as alterações feitas em uma predefinição de saída.
+Um método POST que salva alterações feitas em uma predefinição de saída.
 
 **Solicitar URL**:
 http://*&lt;aem-guides-server\>*: *&lt;número-porta\>*/bin/publishlistener
@@ -112,18 +112,18 @@ http://*&lt;aem-guides-server\>*: *&lt;número-porta\>*/bin/publishlistener
 | Elemento | Descrição |
 |-------|-----------|
 | `outputName` | Nome da predefinição de saída. Os nomes de saída são exclusivos no escopo do mapa DITA em que estão definidos. |
-| `outputType` | Tipo de saída gerado usando essa predefinição, por exemplo, AEM Site, PDF, EPUB ou outro. As opções disponíveis são:<br>-   AEMSITE <br>-   PDF <br>-   HTML5 <br>-   EPUB <br>-   PERSONALIZAR <br> |
+| `outputType` | Tipo de saída gerada usando essa predefinição, por exemplo, AEM Site, PDF, EPUB ou outro. As opções disponíveis são:<br>-   AEMSITE <br>-   PDF <br>-   HTML5 <br>-   EPUB <br>-   PERSONALIZAR <br> |
 | `outputTitle` | Um nome descritivo para as configurações de predefinição de saída. Isso é usado para definir o valor da propriedade Nome da configuração para a predefinição de saída. |
 | `ditaValPathList` | Matriz de caminhos de arquivo DITAVAL a serem usados para gerar a saída desejada. |
 | `targetPath` | Caminho onde a saída é publicada ou armazenada. |
-| `siteName` | \(Para saída do site AEM\) Nome do site AEM. |
-| `siteTitle` | \(Para saída do site AEM\) Título do site AEM. |
-| `templatePath` | \(Para saída do site AEM\) Caminho do nó do modelo a ser usado para gerar a saída desejada. |
+| `siteName` | \(Para saída do site do AEM\) Nome do site do AEM. |
+| `siteTitle` | \(Para saída do site do AEM\) Título do site do AEM. |
+| `templatePath` | \(Para saída do site do AEM\) Caminho do nó do modelo a ser usado para gerar a saída desejada. |
 | `searchScope` | Especifique o escopo da operação de pesquisa. O valor deste parâmetro deve ser definido como `local`. |
-| `generateTOC` | \(Para saída do site AEM\) Especifique se um índice é gerado \(true\) ou não \(false\). |
-| `generateBreadcrumbs` | \(Para saída do site AEM\) Especifique se as navegações estruturais são geradas \(true\) ou não \(false\). |
-| `overwriteFiles` | \(Para saída do site AEM\) Especifique se os arquivos no destino são substituídos \(true\) ou não \(false\). |
-| `pdfGenerator` | Especifique o mecanismo de geração de PDF a ser usado. Os valores possíveis são:<br>-   DITAOT <br>-   FMPS |
+| `generateTOC` | \(Para saída do site do AEM\) Especifique se um índice é gerado \(true\) ou não \(false\). |
+| `generateBreadcrumbs` | \(Para saída do site do AEM\) Especifique se as navegações estruturais são geradas \(true\) ou não \(false\). |
+| `overwriteFiles` | \(Para saída do site do AEM\) Especifique se os arquivos no destino são substituídos \(true\) ou não \(false\). |
+| `pdfGenerator` | Especifique o mecanismo de geração do PDF a ser usado. Os valores possíveis são:<br>-   DITAOT <br>-   FMPS |
 
 >[!NOTE]
 >
@@ -142,7 +142,7 @@ http://*&lt;aem-guides-server\>*: *&lt;número-porta\>*/bin/publishlistener
 |----|----|--------|-----------|
 | `operation` | String | Sim | Nome da operação que está sendo chamada. O valor deste parâmetro é `GENERATEOUTPUT`.<br> **Observação:** o valor diferencia maiúsculas de minúsculas. |
 | `source` | String | Sim | Caminho absoluto do arquivo de mapa DITA. |
-| `outputName` | String | Sim | Nome da predefinição de saída\(s\) a ser usada para gerar saída. Várias predefinições de saída podem ser especificadas usando um delimitador de barra vertical \(&quot;\|&quot;\), por exemplo `aemsite|pdfoutput`. |
+| `outputName` | String | Sim | Nome da predefinição de saída\(s\) a ser usada para gerar saída. Várias predefinições de saída podem ser especificadas usando um delimitador de barra vertical \(&quot;\|&quot;\), por exemplo `aemsite\|pdfoutput`. |
 
 **Valores de resposta**:
 Retorna uma resposta HTTP 200 \(Successful\).

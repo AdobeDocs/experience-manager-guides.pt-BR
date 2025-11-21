@@ -1,28 +1,28 @@
 ---
-title: Notas de versão | Versão as a Cloud Service do Adobe Experience Manager Guides de maio de 2022
-description: Lançamento de maio do Adobe Experience Manager Guides as a Cloud Service
+title: Notas de versão | Adobe Experience Manager Guides as a Cloud Service, versão de maio de 2022
+description: Versão de maio do Adobe Experience Manager Guides as a Cloud Service
 exl-id: 7928a300-5ec9-492c-b9be-02b6f87638c6
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1887'
 ht-degree: 0%
 
 ---
 
-# Lançamento de maio do Adobe Experience Manager Guides as a Cloud Service
+# Versão de maio do Adobe Experience Manager Guides as a Cloud Service
 
 ## Atualização para a versão de maio
 
-Atualize sua configuração atual do Adobe Experience Manager Guides as a Cloud Service (mais tarde chamada de configuração do *AEM Guides as a Cloud Service*) executando as seguintes etapas:
-1. Confira o código Git do Cloud Service e alterne para a ramificação configurada no pipeline Cloud Service correspondente ao ambiente que você deseja atualizar.
-1. Atualize a propriedade `<dox.version>` no arquivo `/dox/dox.installer/pom.xml` do código Git do Cloud Service para 2022.5.144.
-1. Confirme as alterações e execute o pipeline do Cloud Service para atualizar para a versão de maio do AEM Guides as a Cloud Service.
+Atualize sua configuração atual do Adobe Experience Manager Guides as a Cloud Service (mais tarde chamada de *AEM Guides as a Cloud Service*) executando as seguintes etapas:
+1. Confira o código Git do Cloud Services e alterne para a ramificação configurada no pipeline do Cloud Services correspondente ao ambiente que você deseja atualizar.
+1. Atualize a propriedade `<dox.version>` no arquivo `/dox/dox.installer/pom.xml` do seu código Git do Cloud Services para 2022.5.144.
+1. Confirme as alterações e execute o pipeline dos Serviços em nuvem para atualizar para a versão de maio do AEM Guides as a Cloud Service.
 
 ## Matriz de compatibilidade
 
-Esta seção lista a matriz de compatibilidade dos aplicativos de software compatíveis com a versão de as a Cloud Service de maio de 2022 da AEM Guides.
+Esta seção lista a matriz de compatibilidade dos aplicativos de software compatíveis com a versão de maio de 2022 do AEM Guides as a Cloud Service.
 
 ### FRAMEMAKER e FRAMEMAKER PUBLISHING SERVER
 
@@ -43,7 +43,7 @@ Esta seção lista a matriz de compatibilidade dos aplicativos de software compa
 
 ## Novos recursos e melhorias
 
-O AEM Guides as a Cloud Service fornece vários aprimoramentos e novos recursos na versão de maio:
+O AEM Guides as a Cloud Service oferece muitos aprimoramentos e novos recursos na versão de maio:
 
 ### Editor da Web aprimorado
 
@@ -67,7 +67,7 @@ O modelo de mapa personalizado pode ajudá-lo a replicar com facilidade os model
 
 ![carregar mais arquivos](assets/load-more-files.png)
 
-* É possível renderizar imagens de SVG que incluem dados ou links incorporados em todas as telas do editor XML, incluindo, mas não limitado à, visualização e Autor.
+* É possível renderizar imagens do SVG que incluem dados ou links incorporados em todas as telas do editor XML, incluindo, mas não limitado a, Visualização e Autor.
 
 * O XSD/DTD padrão pode ser atualizado para a versão mais recente
 
@@ -88,19 +88,19 @@ Se precisar criar somente o escopo para que um projeto seja traduzido, você pod
 
 * Ao carregar um mapa DITA que esteja fora da pasta de idioma, nenhuma exceção é registrada no back-end.
 
-Para obter mais detalhes sobre a tradução, consulte a seção *Traduzir documentos do Editor da Web* em Uso do Adobe Experience Manager Guides as a Cloud Service.
+Para obter mais detalhes sobre tradução, consulte a seção *Traduzir documentos do Editor da Web* em Uso do Adobe Experience Manager Guides as a Cloud Service.
 
 
 ### Publicação aprimorada
 
-* Você também pode acessar o **Painel do Publish** na guia Saídas enquanto gera a saída do painel do mapa. Uma lista de todas as tarefas de publicação ativas está disponível no Painel do Publish.
+* Você também pode acessar o **Painel de Publicação** na guia Saídas enquanto gera saída do painel de mapa. Uma lista de todas as tarefas de publicação ativas está disponível no Painel de publicação.
 
 ![saídas na fila](assets/queued-output.png)
 
-* No painel de mapa, é possível selecionar vários arquivos DITAVAL para gerar conteúdo condicional. É possível manter a ordem dos arquivos adicionando ou excluindo arquivos. Você também pode passar o mouse sobre o nome do arquivo para ver o caminho no repositório AEM onde o arquivo está armazenado.
+* No painel de mapa, é possível selecionar vários arquivos DITAVAL para gerar conteúdo condicional. É possível manter a ordem dos arquivos adicionando ou excluindo arquivos. Você também pode passar o mouse sobre o nome do arquivo para ver o caminho no repositório do AEM onde o arquivo está armazenado.
 
 * **Recurso obsoleto**
-O AEM as a Cloud Service não oferece mais suporte à geração de formato de saída DITA para documentos do FrameMaker. Essa opção DITA também foi removida das Predefinições de saída do painel Mapa.
+O AEM as a Cloud Service não oferece mais suporte à geração de formato de saída DITA para documentos FrameMaker. Essa opção DITA também foi removida das Predefinições de saída do painel Mapa.
 
 ### Publicação aprimorada baseada em artigos
 
@@ -109,7 +109,7 @@ O Editor de XML oferece a capacidade de mapear mais de uma categoria de produto 
 ### Outras melhorias de recursos
 
 * O modo de Visualização também oferece suporte ao atributo de processamento condicional `deliveryTarget` em DITA. Está disponível como uma opção no filtro suspenso junto com **público-alvo**, **plataforma**, **produto**, propriedades, **outras propriedades**.
-* Foi fornecida uma opção para a sincronização forçada entre o servidor AEM no Oxygen e o sistema local.
+* Foi fornecida uma opção para forçar a sincronização entre o servidor do AEM no Oxygen e o sistema local.
 
 ## Problemas corrigidos
 
@@ -119,7 +119,7 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 * O aplicativo fica em branco ao clicar em uma pasta em branco após atualizá-la por meio do menu Opções. (9639)
 * Uma nova versão está sendo criada quando **Salvamos e Fechamos** o arquivo com check-in. (9638)
 * O botão Fechar não é exibido quando a caixa de seleção **Salvar como nova versão** está habilitada. (9637)
-* O PDF correto não será publicado se for publicado primeiro por meio de um PDF separado para cada capítulo e, em seguida, um único arquivo de PDF (a opção Criar arquivos de PDF separados está desmarcada). (9632)
+* O PDF correto não será publicado se for publicado primeiro por meio de uma PDF separada para cada capítulo e, em seguida, um único arquivo PDF (a opção Criar arquivos PDF separados está desmarcada). (9632)
 * O painel de mapa está gerando um problema de metadados para usuários não administradores. (9620)
 * Depois que uma linha de base é criada, o status é definido como falha na interface (a chamada get status está falhando) se o servidor estiver tendo mais de 10000 arquivos. (9608)
 * Armazenar grandes dados em propriedades resulta em um erro de publicação, pois o fluxo de trabalho de publicação dividido falha. (9586)
@@ -138,7 +138,7 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 * No Histórico de versões, o número da versão e o rótulo não são exibidos para a versão atual. (9446)
 * O editor congela quando determinados arquivos de conteúdo são abertos no editor. (9443)
 * Pesquisar no painel Repositório e a caixa de diálogo Procurar topicref congela a tela quando o conteúdo é grande. (9432)
-* Os metadados transmitidos para a saída do site AEM não respeitam a linha de base do conteúdo. (9416)
+* Os metadados transmitidos para a saída do site do AEM não respeitam a linha de base do conteúdo. (9416)
 * O Oxygen verifica uma versão incorreta de um tópico após uma reversão de versão no AEM. (9411)
 * Falha na linha de base desativa a edição na guia Predefinição do painel do mapa. (9403)
 * O erro sempre é registrado na criação de novo conteúdo. (9388)
@@ -152,7 +152,7 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 * Não é possível pesquisar arquivos usando **Localizar Arquivos na Pasta** no menu **Mais Opções** e o aplicativo fica sem resposta. (9337)
 * A caixa de diálogo Procurar trava se houver um grande número de chaves. (9332)
 * Os arquivos DITAVAL não funcionam durante a publicação baseada em artigos. (9330)
-* A ordem das notas de rodapé está incorreta na saída do site AEM. (9327)
+* A ordem das notas de rodapé está incorreta na saída do site do AEM. (9327)
 * A pesquisa não é executada automaticamente quando o caminho selecionado é alterado. (9323)
 * Quando a tradução for concluída, uma versão adicional será criada para o ativo traduzido. (9310)
 * Não é possível excluir os usuários administradores no perfil de pasta. (9306)
@@ -169,7 +169,7 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 * `xref` sem texto não está sendo exibido na saída da publicação baseada em artigo. (8764)
 * As referências são interrompidas ao mover imagens ou arquivos multimídia que têm um espaço nos nomes de arquivo. (8624)
 * As referências são interrompidas ao escolher `Select All` e mover os arquivos multimídia ou o conteúdo DITA para outra pasta. (8622)
-* Os trabalhos de saída com status como &quot;Aguardando&quot; ou &quot;Executando&quot; não são limpos no Painel do Publish.  (8569)
+* Os trabalhos de saída com status como &quot;Aguardando&quot; ou &quot;Executando&quot; não são limpos no Painel de publicação.  (8569)
 * O recurso de limpeza de saída falhará se um grande número de nós de histórico de saída restantes estiverem presentes. (8568)
 * O pacote de complemento DITA impede a detecção de ativos duplicados do DAM. (8417)
 * Botão Criar tarefa de revisão ativado para arquivos não DITA. (8401)
@@ -177,14 +177,14 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 * Espaço inesperado encontrado em cada elemento `entry` em branco quando o atributo outputclass é adicionado ao elemento `tgroup`. (7532)
 * O painel Repositório não exibe ícones de bloqueio de arquivos com check-in ou check-out assim que a ação for concluída. (5817)
 * O ícone de bloqueio é exibido na visualização de repositório mesmo quando o arquivo é submetido a check-in pelo editor.  (5756)
-* Os sites estão ausentes nas predefinições de AEM na guia Saída. (9567)
+* Os sites estão ausentes nas predefinições do AEM na guia Saída. (9567)
 * O Editor de XML trava ao tentar editar alguns arquivos DITA. (9537)
 * Fazer uma pesquisa no Editor de XML faz com que a página congele. (9452)
 * Baixar o mapa com a linha de base inoperante se o conteúdo for movido para outra pasta. (9331)
 * O recarregamento falha no Oxygen quando os arquivos já existem no AEM no mesmo local. (9328)
 * A posição do realce está incorreta na exibição lado a lado. (9305)
-* Após o check-in de um documento do Oxygen para o AEM, o conteúdo em japonês no documento é substituído por pontos de interrogação (???). (9276)
-* O upload de arquivos do Oxygen para o AEM falha. (9157)
+* Após o check-in de um documento do Oxygen para o AEM, o conteúdo japonês no documento é substituído por pontos de interrogação (???). (9276)
+* Falha ao fazer upload de arquivos do Oxygen para o AEM. (9157)
 * A notificação por email não é enviada quando uma tarefa de revisão é reatribuída na Caixa de entrada. (8376)
 
 ## Problemas conhecidos

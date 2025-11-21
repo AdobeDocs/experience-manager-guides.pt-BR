@@ -1,20 +1,20 @@
 ---
-title: Sobrepor as tags HTML na saída não herdada do AEM Sites
+title: Sobrepor as tags do HTML na saída do AEM Sites não herdada
 description: Defina as configurações de vídeo e imagem para a saída do aem sites com base no mapeamento dos componentes principais
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 8310ae8d2e2eeda0fcfba9ec50650c806263cd49
+exl-id: 726420e0-fe52-4334-b72a-8eb8bcae4d6c
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 0%
 
 ---
 
+# Sobrepor tags do HTML na saída do AEM Sites
 
-# Sobrepor tags HTML na saída do AEM Sites
-
-Você pode adicionar e personalizar tags HTML na saída do AEM Sites gerada usando a predefinição do AEM Sites com base no mapeamento dos componentes principais do Editor da Web. Para personalizar as tags HTML, você pode sobrepor o arquivo `config.xml`. Por exemplo, você pode configurar os mapas de vídeo e imagem na saída do AEM Sites.
+Você pode adicionar e personalizar tags HTML na saída do AEM Sites gerada usando a predefinição do AEM Sites com base no mapeamento dos componentes principais do Editor da Web. Para personalizar as marcas HTML, você pode sobrepor o arquivo `config.xml`. Por exemplo, você pode configurar os mapas de vídeo e imagem na saída do AEM Sites.
 
 Execute as seguintes etapas para sobrepor e atualizar o arquivo `config.xml`:
 
@@ -36,7 +36,7 @@ Vídeos:
 
 ```XML
     <tag name="video" action="validate">
-   	<attribute name="src">
+    <attribute name="src">
       <regexp-list>
         <regexp name="anything"/>
       </regexp-list>
@@ -84,63 +84,63 @@ Vídeos:
 Mapas de imagem:
 
 ```XML
-    	<tag name="map" action="validate">
-	<attribute    name="name">
-		<regexp-list>
-			<regexp name="anything"/>
-		</regexp-list>
-	</attribute>
+        <tag name="map" action="validate">
+    <attribute    name="name">
+        <regexp-list>
+            <regexp name="anything"/>
+        </regexp-list>
+    </attribute>
     </tag>
     <!-- Image & image related tags -->
     <tag name="img" action="validate">
-	<attribute name="src" onInvalid="removeTag">
-		<regexp-list>
-			<regexp name="onsiteURL"/>
-			<regexp name="offsiteURL"/>
-		</regexp-list>
-	</attribute>
-	<attribute name="name"/>
-	<attribute name="alt"/>
-	<attribute name="height"/>
-	<attribute name="width"/>
-	<attribute name="border"/>
-	<attribute name="align"/>
-	<attribute name="usemap">
-		<regexp-list>
-			<regexp name="anything"/>
-		</regexp-list>
-	</attribute>
-	<attribute name="hspace">
-		<regexp-list>
-			<regexp name="number"/>
-		</regexp-list>
-	</attribute>
-	<attribute name="vspace">
-		<regexp-list>
-			<regexp name="number"/>
-		</regexp-list>
-	</attribute>
+    <attribute name="src" onInvalid="removeTag">
+        <regexp-list>
+            <regexp name="onsiteURL"/>
+            <regexp name="offsiteURL"/>
+        </regexp-list>
+    </attribute>
+    <attribute name="name"/>
+    <attribute name="alt"/>
+    <attribute name="height"/>
+    <attribute name="width"/>
+    <attribute name="border"/>
+    <attribute name="align"/>
+    <attribute name="usemap">
+        <regexp-list>
+            <regexp name="anything"/>
+        </regexp-list>
+    </attribute>
+    <attribute name="hspace">
+        <regexp-list>
+            <regexp name="number"/>
+        </regexp-list>
+    </attribute>
+    <attribute name="vspace">
+        <regexp-list>
+            <regexp name="number"/>
+        </regexp-list>
+    </attribute>
     </tag>
     <tag name="area" action="validate">
-	<attribute name="shape">
-		<regexp-list>
-			<regexp name="anything"/>
-		</regexp-list>
-	</attribute>
-	<attribute name="coords">
-		<regexp-list>
-			<regexp name="anything"/>
-		</regexp-list>
-	</attribute>
-	<attribute name="href">
-		<regexp-list>
-			<regexp name="anything"/>
-		</regexp-list>
-	</attribute>
+    <attribute name="shape">
+        <regexp-list>
+            <regexp name="anything"/>
+        </regexp-list>
+    </attribute>
+    <attribute name="coords">
+        <regexp-list>
+            <regexp name="anything"/>
+        </regexp-list>
+    </attribute>
+    <attribute name="href">
+        <regexp-list>
+            <regexp name="anything"/>
+        </regexp-list>
+    </attribute>
    </tag>
 ```
 
 
 
 
-Saiba mais sobre as práticas recomendadas do [Security](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/developing/introduction/security).
+Saiba mais sobre as práticas recomendadas do [Security](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/security).

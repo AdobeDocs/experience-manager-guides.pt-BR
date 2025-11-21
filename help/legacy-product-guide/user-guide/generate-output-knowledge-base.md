@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 5fc81de9-9ae0-4cd4-a7ef-b52eed2479f7
-source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1158'
 ht-degree: 2%
@@ -60,7 +60,6 @@ Também é possível exibir as seguintes opções nas predefinições do Salesfo
 | Carregar como rascunho | Selecione esta opção para fazer upload do tópico e compartilhá-lo como rascunho antes de disponibilizá-lo aos usuários. |
 | Carregar imagens | Selecione esta opção se desejar que quaisquer imagens nos tópicos sejam incluídas na saída publicada. |
 | Fazer upload de documentos vinculados | Selecione essa opção para incluir os documentos vinculados em tópicos na saída publicada. |
-
 
 ### Adobe Experience Manager
 

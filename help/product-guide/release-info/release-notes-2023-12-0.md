@@ -4,10 +4,10 @@ description: Saiba mais sobre as correções de erros e como atualizar para a ve
 feature: Release Notes
 role: Leader
 exl-id: 63efe42a-b817-49df-8f76-df8d7acf9194
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1319'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -21,9 +21,9 @@ Para obter mais informações sobre os novos recursos e aprimoramentos, consulte
 
 Atualize sua configuração atual do Experience Manager Guides as a Cloud Service executando as seguintes etapas:
 
-1. Confira o código Git do Cloud Service e alterne para a ramificação configurada no pipeline Cloud Service correspondente ao ambiente que você deseja atualizar.
-2. Atualize a propriedade `<dox.version>` no arquivo `/dox/dox.installer/pom.xml` do seu código Git Cloud Service para 2023.12.0.16.
-3. Confirme as alterações e execute o pipeline do Cloud Service para atualizar para a versão de dezembro de 2023 do Experience Manager Guides as a Cloud Service.
+1. Confira o código Git do Cloud Services e alterne para a ramificação configurada no pipeline do Cloud Services correspondente ao ambiente que você deseja atualizar.
+2. Atualize a propriedade `<dox.version>` no arquivo `/dox/dox.installer/pom.xml` do seu código Git do Cloud Services para 2023.12.0.16.
+3. Confirme as alterações e execute o pipeline dos Serviços em nuvem para atualizar para a versão de dezembro de 2023 do Experience Manager Guides as a Cloud Service.
 
 ## Etapas para ativar o acionador de um script por meio de um servlet
 
@@ -31,7 +31,7 @@ Atualize sua configuração atual do Experience Manager Guides as a Cloud Servic
 
 Após concluir a instalação, você pode optar por APRESENTAR o acionador para iniciar o trabalho de tradução:
 
-POST:
+PUBLICAÇÃO:
 
 ```
 http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
@@ -76,12 +76,12 @@ Execute as seguintes etapas para pós-processar o conteúdo existente e usar o n
      | org.apache.jackrabbit.oak.query.QueryEngineSettingsService | queryLimitReads | Valor: 200000 Valor padrão: 100000 |
      | org.apache.jackrabbit.oak.query.QueryEngineSettingsService | queryLimitInMemory | Valor: 200000 Valor padrão: 100000 |
 
-1. Execute uma solicitação POST no servidor (com autenticação correta) - `http://<server>//bin/guides/reports/upgrade`.
+1. Execute uma solicitação POST para o servidor (com autenticação correta) - `http://<server>//bin/guides/reports/upgrade`.
 
-1. A API retorna um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação de GET com id de trabalho para o mesmo ponto de extremidade - `http://<server>/bin/guides/reports/upgrade?jobId= {jobId}`
+1. A API retorna um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação GET com a ID do trabalho para o mesmo ponto de extremidade - `http://<server>/bin/guides/reports/upgrade?jobId= {jobId}`
 (Por exemplo: `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
-1. Quando o trabalho for concluído, a solicitação do GET anterior responderá com êxito. Se a tarefa falhar por algum motivo, a falha poderá ser vista nos logs do servidor.
+1. Quando o trabalho for concluído, a solicitação anterior do GET responderá com êxito. Se a tarefa falhar por algum motivo, a falha poderá ser vista nos logs do servidor.
 
 1. Reverta para o valor padrão ou existente anterior de `queryLimitReads` se você o alterou na etapa 1.
 
@@ -91,14 +91,14 @@ Execute as seguintes etapas para pós-processar o conteúdo existente e usar o n
 
 Execute as seguintes etapas para indexar o conteúdo existente e usar o novo texto de localização e substituição no nível do mapa e da lista de tópicos na guia relatórios:
 
-1. Execute uma solicitação POST no servidor (com autenticação correta) - `http://<server:port>/bin/guides/map-find/indexing`. (Opcional: é possível passar caminhos específicos dos mapas para indexá-los; por padrão, todos os mapas serão indexados|| Por exemplo: `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
+1. Execute uma solicitação POST para o servidor (com autenticação correta) - `http://<server:port>/bin/guides/map-find/indexing`. (Opcional: é possível passar caminhos específicos dos mapas para indexá-los; por padrão, todos os mapas serão indexados|| Por exemplo: `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
 1. Você também pode passar uma pasta raiz para indexar os mapas DITA de uma pasta específica (e suas subpastas). Por exemplo, `http://<server:port>/bin/guides/map-find/indexing?root=/content/dam/test`. Observe que se os parâmetros de caminhos e de raiz forem transmitidos, somente o parâmetro de caminhos será considerado.
 
-1. A API retorna um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação GET com id de trabalho para o mesmo ponto de extremidade - `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`(Por exemplo: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
+1. A API retorna um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação do GET com a ID do trabalho para o mesmo ponto de extremidade - `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`(Por exemplo: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
 
-1. Quando o trabalho for concluído, a solicitação do GET anterior responderá com sucesso e mencionará se algum mapa falhou. Os mapas indexados com êxito podem ser confirmados nos logs do servidor.
+1. Quando o trabalho for concluído, a solicitação anterior do GET responderá com sucesso e mencionará se algum mapa falhou. Os mapas indexados com êxito podem ser confirmados nos logs do servidor.
 
 ## Etapas para lidar com o conflito `'fmdita rewriter'`
 
@@ -111,7 +111,7 @@ Durante esta atualização, como o valor de `'order'` é alterado de 1000 para 5
 
 ## Matriz de compatibilidade
 
-Experience Manager Guides Esta seção lista a matriz de compatibilidade dos aplicativos de software compatíveis com a versão as a Cloud Service de dezembro de 2023.
+Esta seção lista a matriz de compatibilidade dos aplicativos de software compatíveis com a versão de dezembro de 2023 do Experience Manager Guides as a Cloud Service.
 
 ### FRAMEMAKER e FRAMEMAKER PUBLISHING SERVER
 
@@ -126,7 +126,7 @@ Experience Manager Guides Esta seção lista a matriz de compatibilidade dos apl
 | Versão do Experience Manager Guides as a Cloud | Janelas do conector Oxygen | Conector Oxygen Mac | Editar no Oxygen Windows | Editar no Oxygen Mac |
 | --- | --- | --- | --- | --- |
 | 2023.12.0 | 3.3-uuid.5 | 3.3-uuid.5 | 2,3 | 2,3 |
-|  |  |  |  |
+|  |  |  |  |  |
 
 
 ### Versão do modelo da knowledge base
@@ -141,9 +141,9 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 
 
 
-### Criação  
+### Criação
 
-- O **Título** na guia Editor da Web é truncado após um ponto (.) “?”. (14372)
+- O **Título** na guia Editor da Web é truncado após um caractere de ponto (.). (14372)
 - As mensagens de erro para nomes de mapa duplicados na interface do Assets não são atualizadas. (14320)
 - Ocorre um erro na lógica de criação de versão durante a ação de arrastar e soltar ativos. (14291)
 - O conteúdo reutilizável ignora as IDs do elemento. (14213)
@@ -159,20 +159,20 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 ### Publicação
 
 - Os componentes da Fmdita têm um caminho codificado de `delegator.jsp`, impedindo a sobreposição de componentes do AEM Sites. (13993)
-- A exibição marcada do reator de PDF na saída de publicação de PDF nativo não está funcionando como esperado. (13622)
-- A publicação do site AEM encontra um problema ao confirmar para o armazenamento de dados de mapas grandes com links de mesmo nível de escopo. (13531)
+- A exibição marcada do reator do PDF na saída de publicação nativa do PDF não está funcionando como esperado. (13622)
+- A publicação do site do AEM encontra um problema ao confirmar no armazenamento de dados para mapas grandes com links de mesmo nível de escopo. (13531)
 - Não é possível ativar um site usando o painel Publicação em massa do Experience Manager Guides. (13439)
 - A localização dos rótulos dos elementos não está funcionando corretamente na saída do AEM Sites. (12144)
 - Opção **ditaval** ausente em predefinições de saída em nível de perfil de pasta criadas pela interface do usuário do Editor da Web. (11903)
 
 ### Gerenciamento
 
-- Ambientes de nuvem AEM encontram uma exceção MongoWrite devido a nós de grande porte. (13509)
+- Os ambientes de nuvem do AEM encontram uma exceção MongoWrite devido a nós de grande porte. (13509)
 
 ### Tradução
 
 - Os botões **Aceitar/Rejeitar** aparecem erroneamente para tradução humana aprovada automaticamente. (14318)
-- Problemas de internacionalização (i18n) ocorrem durante a transformação de arquivos DITA em outros idiomas para páginas AEM. (14286)
+- Problemas de internacionalização (i18n) ocorrem durante a transformação de arquivos DITA em outros idiomas para páginas do AEM. (14286)
 - O conteúdo traduzido não é sincronizado dos projetos de tradução temporários, e o assistente de tradução do editor XML DITA mostra incorretamente o status **Em andamento** para trabalhos aprovados. (9938)
 
 ### Acessibilidade
@@ -181,5 +181,5 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 
 ## Problema conhecido
 
-O Adobe identificou o seguinte problema conhecido para a versão de dezembro de 2023:
+A Adobe identificou o seguinte problema conhecido para a versão de dezembro de 2023:
 - &quot;Obter erro de DTD inválido&quot; ocorre intermitentemente na atualização para a versão de dezembro de 2023.

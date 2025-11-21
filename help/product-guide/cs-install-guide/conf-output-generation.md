@@ -5,9 +5,9 @@ exl-id: b5cf4f6c-dc56-428e-a514-6c9f879ac03d
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: a2e52572edf0915c1701a384d396a32de2429f53
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '5620'
+source-wordcount: '5615'
 ht-degree: 0%
 
 ---
@@ -128,7 +128,7 @@ Execute as seguintes etapas para especificar seu próprio modelo de design a ser
 >
 > Depois de criar um nó de modelo de design personalizado, você deve atualizar a opção Design nas predefinições de saída do site do AEM para usar o nó de modelo de design personalizado.
 
-Para obter mais informações, consulte [Criar o primeiro site do Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=pt-BR) e [Noções básicas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=pt-BR) sobre como desenvolver seu próprio site no AEM.
+Para obter mais informações, consulte [Criar o primeiro site do Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=en) e [Noções básicas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=en) sobre como desenvolver seu próprio site no AEM.
 
 ### Usar o título do documento para gerar a saída do site do AEM
 
@@ -269,7 +269,7 @@ Para excluir o elemento `table` do nivelamento, adicione a seguinte propriedade 
 
 ### Configurar o controle de versão para páginas excluídas na saída do site do AEM
 
-Ao gerar a saída de Site do AEM com as opções **Excluir e** Criar **&#x200B;**&#x200B;selecionadas para a configuração Páginas de Saída Existentes, uma versão é criada para a página\(s\) que está sendo excluída. Você pode configurar o sistema para interromper a criação de uma versão antes da exclusão.
+Ao gerar a saída de Site do AEM com as opções **Excluir e** Criar ****selecionadas para a configuração Páginas de Saída Existentes, uma versão é criada para a página\(s\) que está sendo excluída. Você pode configurar o sistema para interromper a criação de uma versão antes da exclusão.
 
 Execute as seguintes etapas para interromper a criação de uma versão para a página\(s\) que está sendo excluída:
 
@@ -349,7 +349,7 @@ Em seguida, você precisa disponibilizar os metadados personalizados no console 
 
    >[!NOTE]
    >
-   > O arquivo metadataList contém uma lista de propriedades que são mostradas na lista suspensa **Propriedades** de um mapa DITA no painel de mapa. Por padrão, há quatro propriedades listadas nesse arquivo: docstate, dc:language, dc:description e dc:title.
+   > O arquivo metadataList contém uma lista de propriedades que são mostradas na lista suspensa **Propriedades** de um mapa DITA no painel de mapa. Por padrão, há quatro propriedades listadas neste arquivo— docstate, dc:language, dc:description e dc:title.
 
 1. Adicione os metadados personalizados adicionados na página Forms do Esquema de metadados. Para o nosso exemplo, adicione o parâmetro de público-alvo ao final da lista padrão.
 
@@ -603,7 +603,7 @@ A tabela a seguir descreve os elementos do esquema de elemento DITA:
 | `<wrapelement>` | O elemento HTML no qual envolver o conteúdo. |
 | `<wrapclass>` | O valor do elemento para a propriedade `wrapclass.` |
 | `<attributemap>` | Nó de contêiner contendo um ou mais nós `<attribute>`. |
-| `<attribute from="attrname" to="propname" ispath="true|false" rel="source|target" />` | Mapeia os atributos DITA para propriedades do AEM: <br> -   **`from`**: Nome do atributo DITA <br> -   **`to`**: nome da propriedade do componente AEM <br> -   **`ispath`**: Se o atributo for um valor de caminho \(por exemplo: *image*\) <br> -   **`rel`**: Se o caminho for a origem ou o destino <br> **Observação:** se `attrname` começar com `%`, mapeie `attrname minus '%'` para prop &#39; `propname`&#39;. |
+| `<attribute from="attrname" to="propname" ispath="true\|false" rel="source\|target" />` | Mapeia os atributos DITA para propriedades do AEM: <br> -   **`from`**: Nome do atributo DITA <br> -   **`to`**: nome da propriedade do componente AEM <br> -   **`ispath`**: Se o atributo for um valor de caminho \(por exemplo: *image*\) <br> -   **`rel`**: Se o caminho for a origem ou o destino <br> **Observação:** se `attrname` começar com `%`, mapeie `attrname minus '%'` para prop &#39; `propname`&#39;. |
 
 **Observações adicionais**
 
@@ -630,11 +630,11 @@ A AEM Guides fornece a categoria `apps.fmdita.dashboard-extn` para personalizar 
 
 >[!NOTE]
 >
-> Para obter mais informações sobre como criar a Biblioteca de Cliente do AEM, consulte [Usando Bibliotecas do Lado do Cliente](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=pt-BR).
+> Para obter mais informações sobre como criar a Biblioteca de Cliente do AEM, consulte [Usando Bibliotecas do Lado do Cliente](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=en).
 
 ## Manipular a representação da imagem durante a geração da saída {#id177BF0G0VY4}
 
-O AEM vem com um conjunto de workflows e manipuladores de mídia padrão para processar ativos. No AEM, há fluxos de trabalho predefinidos para lidar com o processamento de ativos para os tipos MIME mais comuns. Normalmente, para cada imagem que você carrega, o AEM cria várias representações da mesma em formato binário. Essas representações podem ser de tamanhos diferentes, com uma resolução diferente, com uma marca d&#39;água adicionada ou alguma outra característica alterada. Para obter mais informações sobre como o AEM lida com ativos, consulte [Processando o Assets usando Manipuladores e fluxos de trabalho de mídia](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=pt-BR) na documentação do AEM.
+O AEM vem com um conjunto de workflows e manipuladores de mídia padrão para processar ativos. No AEM, há fluxos de trabalho predefinidos para lidar com o processamento de ativos para os tipos MIME mais comuns. Normalmente, para cada imagem que você carrega, o AEM cria várias representações da mesma em formato binário. Essas representações podem ser de tamanhos diferentes, com uma resolução diferente, com uma marca d&#39;água adicionada ou alguma outra característica alterada. Para obter mais informações sobre como o AEM lida com ativos, consulte [Processando o Assets usando Manipuladores e fluxos de trabalho de mídia](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=en) na documentação do AEM.
 
 O AEM Guides permite configurar qual representação de imagem usar no momento da geração de saída para seus documentos. Por exemplo, você pode escolher uma das representações de imagem padrão ou criar uma e usar a mesma para publicar seus documentos. O mapeamento de representação de imagem para publicação de seus documentos está armazenado no arquivo `/libs/fmdita/config/ **renditionmap.xml**`. Um trecho do arquivo `renditionmap.xml` é o seguinte:
 
@@ -686,8 +686,8 @@ Use as instruções fornecidas em [Substituições de configuração](download-i
 
 | PID | Chave de propriedade | Valor de propriedade |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `output.history.purgeperiod` | Especifique o número de dias após os quais o histórico de saída, juntamente com os logs de saída, será removido. Se você quiser desativar esse recurso, defina essa propriedade como 0.Everyday no horário especificado em que o processo de limpeza é executado nas saídas geradas antes do número de dias especificados nessa propriedade. <br> **Valor padrão**: 5 |
-| `output.history.purgetime` | Especifique a hora em que o processo de expurgação será iniciado. <br> **Valor padrão**: 0:00 \(ou meia-noite\) |
+| `com.adobe.fmdita.config.ConfigManager\|output.history.purgeperiod` | Especifique o número de dias após os quais o histórico de saída, juntamente com os logs de saída, será removido. Se você quiser desativar esse recurso, defina essa propriedade como 0.Everyday no horário especificado em que o processo de limpeza é executado nas saídas geradas antes do número de dias especificados nessa propriedade. | **Valor padrão**: 5 |
+| `output.history.purgetime` | Especifique a hora em que o processo de expurgação será iniciado. | **Valor padrão**: 0:00 \(ou meia-noite :00\) |
 
 ## Alterar o limite da lista de saídas recém-geradas {#id1679JH0H0O2}
 

@@ -4,9 +4,9 @@ description: Saiba como adicionar um novo botão personalizado na barra de ferra
 exl-id: 34999db6-027a-4d93-944f-b285b4a44288
 feature: Web Editor
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '527'
 ht-degree: 0%
 
 ---
@@ -57,12 +57,12 @@ Use os perfis de pasta para verificar o *ui_config.json* na guia &quot;Configura
 }
 ```
 
-[use este link para saber mais sobre o Perfil de pasta e a configuração ui_config.json](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=pt-BR)
+[use este link para saber mais sobre o Perfil de pasta e a configuração ui_config.json](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=en)
 
 
 ### Manipular o evento ao clicar para o novo botão
 
-    OBSERVAÇÃO: as etapas mencionadas abaixo estão disponíveis como pacote anexado nesta publicação
+OBSERVAÇÃO: as etapas mencionadas abaixo estão disponíveis como pacote anexado a esta publicação
 
 
 - Depois de salvar o perfil de pasta, crie um &quot;cq:ClientLibraryFolder&quot; em um diretório de projeto (pode estar em */apps*) e adicione propriedades conforme mostrado na captura de tela abaixo:

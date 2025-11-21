@@ -5,7 +5,7 @@ exl-id: 10ab0f3c-97dc-4293-ab73-75b438c03d99
 feature: User Management
 role: Admin
 level: Experienced
-source-git-commit: 6aaa5c1eeb9b74ababc7ebf427babfff101acc70
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 10%
@@ -18,9 +18,9 @@ Para acessar e configurar recursos na AEM Guides, é necessário criar usuários
 
 Os seguintes tópicos na documentação do AEM ajudarão você a entender a administração do usuário e os conceitos e recursos relacionados à segurança:
 
-- [Usuários, grupos e permissões do AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html?lang=pt-BR)
+- [Usuários, grupos e permissões do AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html)
 
-- [Segurança e Administração de Usuários](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=pt-BR)
+- [Segurança e Administração de Usuários](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html)
 
 
 ## Grupos de usuários criados pelo AEM Guides {#id181TF0K0MHT}
@@ -48,27 +48,27 @@ A tabela a seguir lista várias tarefas e os grupos que podem executá-las:
 | Copiar | Sim |   | Sim |
 | Excluir | Sim |   | Sim |
 | Compartilhar | Sim |   | Sim |
-| **Estado do documento** |
+| **Estado do documento** |  |  |  |
 | Criar/editar perfil de estado do documento |   |   | Sim |
 | Alterar estado do documento[2](#fntarg_2) | Sim | Sim | Sim |
-| **Recursos disponíveis no console de mapa DITA \(guia Predefinições de Saída\)** |
+| **Recursos disponíveis no console de mapa DITA \(guia Predefinições de Saída\)** |  |  |  |
 | Gerar |   |   | Sim |
 | Editar |   |   | Sim |
 | Duplicado |   |   | Sim |
 | Criar |   |   | Sim |
 | Excluir predefinição |   |   | Sim |
-| **Recursos disponíveis no console de mapa DITA \(guia Saídas\)** |
+| **Recursos disponíveis no console de mapa DITA \(guia Saídas\)** |  |  |  |
 | Exibir saída gerada | Sim |   | Sim |
-| **Recursos disponíveis no console de mapa DITA \(guia Tópicos\)** |
+| **Recursos disponíveis no console de mapa DITA \(guia Tópicos\)** |  |  |  |
 | Criar tarefa de análise | Sim |   | Sim |
 | Editar | Sim |   | Sim |
-| **Recursos disponíveis no console de mapa DITA \(guia Linhas de Base\)** |
+| **Recursos disponíveis no console de mapa DITA \(guia Linhas de Base\)** |  |  |  |
 | Criar |   |   | Sim |
 | Editar |   |   | Sim |
 | Duplicado |   |   | Sim |
 | Remover |   |   | Sim |
 | Console do mapa DITA \(guia Relatórios\) | Sim |   | Sim |
-| **Recursos disponíveis no console de mapa DITA \(Predefinições de Condição\)** |
+| **Recursos disponíveis no console de mapa DITA \(Predefinições de Condição\)** |  |  |  |
 | Criar/editar predefinição de condição |   |   | Sim |
 
 ## Observações adicionais sobre os grupos de usuários

@@ -4,7 +4,7 @@ description: Crie e configure a predefinição do AEM Sites no console do Mapa u
 feature: Publishing
 role: User
 exl-id: f3657268-9dee-43af-b643-499dbc3ca948
-source-git-commit: 358d38ca761661eaee7aeac2cc7d46c53105c543
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '3592'
 ht-degree: 0%
@@ -49,7 +49,7 @@ Execute as seguintes etapas para criar a predefinição do AEM Sites usando o ma
    A predefinição do AEM Sites é criada.
 
 
-   ![Novo(a) &#x200B;](images/new-aem-sites-dialog-box.png){width="300" align="left"}
+   ![Novo(a) ](images/new-aem-sites-dialog-box.png){width="300" align="left"}
 
 <!-----------------------
 ### Generate the AEM Sites output using the templates
@@ -88,7 +88,7 @@ No console Mapa, as opções de configuração predefinidas para o mapeamento de
 - Lista de tópicos
 - Referências de mapa cruzado
 
-![Novo(a) &#x200B;](images/aem-sites-new-config.png){width="650" align="left"}
+![Novo(a) ](images/aem-sites-new-config.png){width="650" align="left"}
 
 **Geral**
 
@@ -97,8 +97,8 @@ A guia **Geral** contém as seguintes opções de configuração:
 | Opções do AEM Sites | Descrição |
 | --- | --- |
 | Usar caminho do site | Use essa opção para publicar seu conteúdo em um site do Experience Manager. |
-| Caminho do site | **Esta opção aparecerá se você selecionar a opção** Usar caminho do site **&#x200B;**. Procure o caminho predefinido do site do Experience Manager ou especifique um caminho personalizado no qual deseja que a saída seja publicada. A opção **Usar sites** permite especificar o caminho de publicação inteiro mesmo que o caminho especificado não tenha sido pré-criado dentro da estrutura do AEM Sites. Nesses casos, o sistema cria a estrutura necessária durante o processo de publicação usando o modelo de página inicial do mapa selecionado.<br><br>Você também pode usar variáveis ao definir o caminho do Site. Para obter detalhes, exiba [Use variáveis para definir as opções Caminho de Destino, Nome do Site ou Nome do Arquivo](./generate-output-use-variables.md) |
-| Mapear modelo de página | **Esta opção aparecerá se você selecionar a opção** Usar caminho do site **&#x200B;**. Selecione um modelo que deseja aplicar às páginas iniciais do mapa. |
+| Caminho do site | **Esta opção aparecerá se você selecionar a opção** Usar caminho do site ****. Procure o caminho predefinido do site do Experience Manager ou especifique um caminho personalizado no qual deseja que a saída seja publicada. A opção **Usar sites** permite especificar o caminho de publicação inteiro mesmo que o caminho especificado não tenha sido pré-criado dentro da estrutura do AEM Sites. Nesses casos, o sistema cria a estrutura necessária durante o processo de publicação usando o modelo de página inicial do mapa selecionado.<br><br>Você também pode usar variáveis ao definir o caminho do Site. Para obter detalhes, exiba [Use variáveis para definir as opções Caminho de Destino, Nome do Site ou Nome do Arquivo](./generate-output-use-variables.md) |
+| Mapear modelo de página | **Esta opção aparecerá se você selecionar a opção** Usar caminho do site ****. Selecione um modelo que deseja aplicar às páginas iniciais do mapa. |
 | Site | Nome da Experience Manager Sites na qual você deseja publicar seu conteúdo. As opções na lista suspensa são preenchidas com base na lista de sites disponíveis no AEM Sites. <br>Selecione **Atualizar** ![ícone de atualização](images/navtitle-refresh-icon.svg) para obter uma nova lista de opções e refletir os dados atualizados. |
 | Caminho de publicação | O caminho no repositório do AEM onde a saída é armazenada. O Caminho de publicação é preenchido com todos os caminhos que contêm páginas criadas com base no modelo da Página inicial. A saída do AEM Sites do mapa DITA é gerada nesse caminho.  Por exemplo, se você especificar o Site como `AEMG-Docs` e o Caminho de Publicação como `aemg-docs-en/docs/product-abc.`, a saída do AEM Sites será gerada sob o nó `aemg-docs-en/docs/product-abc/` em `crx/de`. |
 | Modelo de página de tópico | Selecione o template que deseja aplicar a todos os tópicos de saída. |
@@ -153,7 +153,7 @@ No console Mapa, as opções de configuração predefinidas para o mapeamento de
 - Conteúdo
 - Referências de mapa cruzado
 
-![Novo(a) &#x200B;](images/aem-sites-preset-legacy-config.png){width="500" align="left"}
+![Novo(a) ](images/aem-sites-preset-legacy-config.png){width="500" align="left"}
 
 **Geral**
 
@@ -171,7 +171,7 @@ A guia **Geral** contém as seguintes opções de configuração:
 
 **Conteúdo**
 
-![Novo(a) &#x200B;](images/aem-sites-content-tab.png){width="650" align="left"}
+![Novo(a) ](images/aem-sites-content-tab.png){width="650" align="left"}
 
 A guia **Conteúdo** contém as seguintes opções de configuração:
 

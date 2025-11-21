@@ -4,9 +4,9 @@ description: Conheça o painel esquerdo no editor. Saiba mais sobre a interface 
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 92496d39-b423-4635-8b05-c67fd6af47de
-source-git-commit: 565f7b9b8139bfa3e21c91c4b60b6c9757b67429
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '9769'
+source-wordcount: '9768'
 ht-degree: 0%
 
 ---
@@ -160,7 +160,7 @@ Você tem as seguintes opções para filtrar os arquivos e restringir sua pesqui
 - **Arquivos DITA**: você pode procurar todos os **tópicos DITA** e **mapas DITA** presentes no caminho selecionado. Elas são selecionadas por padrão.
 - **Arquivos não DITA**: você pode pesquisar por **Arquivos Ditaval**, **Arquivos de Imagem**, **Multimídia**, **Documentos** e **JSON** no caminho selecionado.
 
-  ![filtro de pesquisa rápida &#x200B;](images/repository-filter-search-quick.png) {width="300" align="left"}
+  ![filtro de pesquisa rápida ](images/repository-filter-search-quick.png) {width="300" align="left"}
 
   *Use os filtros rápidos para procurar arquivos DITA e não DITA.*
 
@@ -1093,9 +1093,9 @@ Para executar a pesquisa global e substituir, execute as seguintes etapas:
 
 Para habilitar o ícone **Substituir tudo**, o administrador do sistema deve selecionar a opção **Habilitar Substituir tudo** na guia **Geral** das **Configurações do Workspace** (exibidas como **Configurações** para **No local**).
 
-    >[!NOTE]
-    >
-    > Passe o mouse sobre um arquivo da lista de resultados da pesquisa para exibir o ícone Substituir tudo no Arquivo à direita. Você também obtém o ícone Ignorar arquivo para remover o arquivo do resultado da pesquisa. Os arquivos ignorados são removidos da lista e o termo pesquisado não é substituído neles.
+>[!NOTE]
+>
+> Passe o mouse sobre um arquivo da lista de resultados da pesquisa para exibir o ícone Substituir tudo no arquivo à direita. Você também obtém o ícone Ignorar arquivo para remover o arquivo do resultado da pesquisa. Os arquivos que você ignora são removidos da lista e o termo pesquisado não é substituído neles.
 
 Somente uma operação de substituição total pode ser executada de cada vez em todo o sistema. Até que a operação esteja sendo executada, você verá o status &quot;Substituir tudo em andamento&quot;. Você também pode abortar a operação replace all entre as duas ou exibir o relatório de log. Se você suspender a operação, receberá uma notificação sobre ela na sua Caixa de entrada. Você receberá uma notificação de sucesso depois de substituir todas as ocorrências no arquivo selecionado.
 
@@ -1170,4 +1170,4 @@ Para exibir os comentários de revisão nas tarefas de revisão ativas que estã
 
 </details>
 
-**Tópico pai:**&#x200B;[&#x200B; Introdução ao Editor](web-editor.md)
+**Tópico pai:**[ Introdução ao Editor](web-editor.md)

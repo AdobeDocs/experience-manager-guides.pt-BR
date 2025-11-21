@@ -1,11 +1,11 @@
 ---
-title: Recurso nativo do PDF Publish | Trabalhar com os estilos de conteúdo comuns
+title: Recurso de publicação nativo do PDF | Trabalhar com os estilos de conteúdo comuns
 description: Saiba como criar folhas de estilos de uso e criar estilos para o seu conteúdo.
 exl-id: 42ba7347-d81d-45d9-9627-8d164e4f9539
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: f98aa2b4b196ee0fd46542317894163b64b8a486
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '3778'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Uma folha de estilos contém as definições de estilos para os elementos usados na saída do PDF. Você pode optar por trabalhar com as folhas de estilos de amostra ou criar novas. Na maioria dos casos, criar uma cópia da folha de estilos de amostra do OOTB ajudará você a começar rapidamente.
 
-O editor de estilos é um editor WYSIWYG que oculta todas as complexidades de um código CSS por trás da interface do usuário. Usando o editor de estilos, é possível personalizar estilos fácil e rapidamente para os elementos de sua escolha. Os estilos são classificados nos seguintes cabeçalhos:
+O editor de estilos é um editor do WYSIWYG que oculta todas as complexidades de um código CSS por trás da interface do usuário. Usando o editor de estilos, é possível personalizar estilos fácil e rapidamente para os elementos de sua escolha. Os estilos são classificados nos seguintes cabeçalhos:
 
 * Estilos de cabeçalho
 * Estilos de parágrafo
@@ -49,7 +49,7 @@ Os estilos de cabeçalho encapsulam todos os estilos de base para os cabeçalhos
 
 Em um livro (ou um mapa), você trabalha com Capítulos. Os estilos de cabeçalho básicos são projetados de forma a serem aplicados em seus cabeçalhos de nível de capítulo sem nenhuma personalização. No entanto, se você quiser criar cabeçalhos especializados para seu conteúdo, será necessário criar esses cabeçalhos. Por exemplo, o cabeçalho padrão `h1.chapter` é aplicado no título do capítulo. Se quiser que o título do capítulo apareça em um estilo diferente, será necessário personalizar o estilo `h1.chapter`. Da mesma forma, você pode criar estilos personalizados para subcabeçalhos no capítulo. Por exemplo, se você deseja criar um estilo personalizado para todos os cabeçalhos de nível 2<sup>nd</sup> e 3<sup>rd</sup> no capítulo, será necessário criar um novo estilo como `h2.chatper` e `h3.chatper`.
 
-Como o recurso Publicação PDF nativa contém as definições de estilo base para os estilos mais comuns, mesmo que você exclua acidentalmente um estilo, o estilo padrão é aplicado no conteúdo. Por exemplo, se não houver uma definição de estilo para o estilo h2 na folha de estilos, o recurso Publicação de PDF nativo aplicará algum estilo base no conteúdo h2.
+Como o recurso Publicação nativa no PDF contém as definições de estilo base para os estilos mais comuns, mesmo que você exclua um estilo acidentalmente, o estilo padrão será aplicado ao conteúdo. Por exemplo, se não houver uma definição de estilo para o estilo h2 na folha de estilos, o recurso Publicação nativa do PDF aplicará algum estilo base no conteúdo h2.
 
 Neste exemplo, criaremos um estilo de cabeçalho de capítulo de segundo nível:
 
@@ -93,7 +93,7 @@ As propriedades do estilo h1 são mostradas no painel Propriedades junto com sua
    Os estilos que podem ser aplicados na lista de numeração automática são mostrados abaixo da propriedade Numeração automática.
 
 1. Defina as seguintes propriedades:
-   * **Estilo**: selecione entre uma grande variedade de estilos de numeração genéricos ou específicos de localidade. Você pode escolher estilos como indo-arábico, devanágari, georgiano, decimal, Alpha inferior e muito mais. Para o exemplo atual, selecione `upper-alpha`.
+   * **Estilo**: selecione entre uma grande variedade de estilos de numeração genéricos ou específicos de localidade. Você pode escolher estilos como Árabe-Índico, Devanágari, Georgiano, Decimal, Lower-Alpha e muito mais. Para o exemplo atual, selecione `upper-alpha`.
 
    * **Formato**: o formato padrão está definido como `<x>`, em que o valor `x` é substituído pelo Estilo de numeração selecionado na propriedade Style. Por exemplo, se você selecionou o estilo `decimal` (1), o valor de `x` é incrementado automaticamente para cada instância do estilo `h1`, vai para 2, 3 e assim por diante. Também é possível adicionar texto personalizado no campo para formatar o estilo do cabeçalho. Por exemplo, se você quiser que todos os cabeçalhos h1 tenham um prefixo `Chapter`, será necessário definir esse campo como `Chapter <x>`.
 
@@ -131,17 +131,16 @@ As propriedades do estilo h1 são mostradas no painel Propriedades junto com sua
    | h1 | Estilo | Decimal | Essas propriedades estão na categoria Autonumeração |
    |  | Formato | `Capter <x>:` |  |
    |  | Largura do prefixo | 160px |  |
-   |  | Fonte > Alinhamento de texto | À esquerda | Certifique-se de que &#39;Aplicar formatação a&#39; esteja definido como &#39;Numeração&#39; |
+   |  | Fonte > Alinhamento de texto | Esquerda | Certifique-se de que &#39;Aplicar formatação a&#39; esteja definido como &#39;Numeração&#39; |
    | h2 | Estilo | Decimal | Essas propriedades estão na categoria Autonumeração |
    |  | Formato | `Section <x>:` |  |
    |  | Largura do prefixo | 125 px |  |
-   |  | Fonte > Alinhamento de texto | À esquerda | Certifique-se de que &#39;Aplicar formatação a&#39; esteja definido como &#39;Numeração&#39; |
+   |  | Fonte > Alinhamento de texto | Esquerda | Certifique-se de que &#39;Aplicar formatação a&#39; esteja definido como &#39;Numeração&#39; |
    | h3 | Estilo | Decimal | Essas propriedades estão na categoria Autonumeração |
    |  | Inserir Nível | 2 |  |
    |  | Formato | `Section <2>.<x>:` |  |
    |  | Largura do prefixo | 125 px |  |
-   |  | Fonte > Alinhamento de texto | À esquerda | Certifique-se de que &#39;Aplicar formatação a&#39; esteja definido como &#39;Numeração&#39; |
-   |  |
+   |  | Fonte > Alinhamento de texto | Esquerda | Certifique-se de que &#39;Aplicar formatação a&#39; esteja definido como &#39;Numeração&#39; |
 
    <img src="./assets/auto-number-output.png" width="500">
 
@@ -151,7 +150,7 @@ Um estilo de parágrafo pode ser criado para aplicar formatação especial a um 
 
 ### Criar o estilo de capitular {#drop-cap-style}
 
-Um estilo capitular (ou capitular) é usado em revistas e documentos literários nos quais o primeiro caractere de um parágrafo ou seção recebe um estilo especial. Você pode obter o mesmo efeito usando o recurso Publicação de PDF nativo.
+Um estilo capitular (ou capitular) é usado em revistas e documentos literários nos quais o primeiro caractere de um parágrafo ou seção recebe um estilo especial. Você pode obter o mesmo efeito usando o recurso Publicação nativa do PDF.
 
 No exemplo a seguir, criaremos um estilo de capitular:
 
@@ -345,7 +344,7 @@ No exemplo a seguir, vemos como criar um estilo de tabela e as várias opções 
 
 ## Trabalhar com outros estilos {#other-styles}
 
-Se estiver trabalhando com conteúdo estruturado (DITA), você notará que quase todos os elementos DITA têm um mapeamento de estilos na folha de estilos padrão. Por exemplo, o estilo de um elemento `<shortdesc>` é definido na definição de estilo **Outro Estilo** > **.shortdesc**. É possível personalizar facilmente qualquer um desses estilos e eles são aplicados automaticamente na saída de PDF gerada a partir do conteúdo estruturado. Isso significa que, diferente de outros estilos personalizados, você não precisa adicionar um atributo `outputclass` no conteúdo desses estilos.
+Se estiver trabalhando com conteúdo estruturado (DITA), você notará que quase todos os elementos DITA têm um mapeamento de estilos na folha de estilos padrão. Por exemplo, o estilo de um elemento `<shortdesc>` é definido na definição de estilo **Outro Estilo** > **.shortdesc**. É possível personalizar facilmente qualquer um desses estilos e eles serão aplicados automaticamente na saída do PDF gerada a partir do conteúdo estruturado. Isso significa que, diferente de outros estilos personalizados, você não precisa adicionar um atributo `outputclass` no conteúdo desses estilos.
 
 Caso deseje criar uma definição de estilo para qualquer elemento que não esteja disponível por padrão ou tenha um elemento personalizado, é possível criá-lo facilmente na folha de estilos. O único ponto que você deve considerar é criar o estilo com o mesmo nome do nome do elemento estruturado.
 
@@ -378,8 +377,8 @@ A captura de tela a seguir exibe o estilo wintitle que está sendo aplicado ao t
 
 ## Definir um estilo exclusivo para um layout de página única
 
-Ao publicar a saída de PDF nativo, todos os estilos são mesclados no PDF final e é crucial atribuir um estilo exclusivo a cada modelo no CSS.
-Use nomes de estilo CSS distintos para aplicar fontes e estilos específicos a diferentes seções de um PDF. Por exemplo, você pode definir a fonte desejada para a página de capa usando o seguinte CSS.
+Ao publicar a saída do PDF nativo, todos os estilos são mesclados no PDF final e é crucial atribuir um estilo exclusivo a cada modelo no CSS.
+Use nomes de estilo CSS distintos para aplicar fontes e estilos específicos a diferentes seções de uma PDF. Por exemplo, você pode definir a fonte desejada para a página de capa usando o seguinte CSS.
 
 ```css
 ...
@@ -406,12 +405,12 @@ Por exemplo, você pode definir os seguintes estilos para definir o tamanho de f
 
 >[!NOTE]
 >
->No exemplo anterior, &quot;Frente&quot; e &quot;Voltar&quot; são os nomes de exemplo dos arquivos de layout que podem ser usados nos modelos.
+> No exemplo anterior, &quot;Frente&quot; e &quot;Voltar&quot; são os nomes de exemplo dos arquivos de layout que podem ser usados nos modelos.
 
 
 ## Definir o estilo CSS personalizado para o conteúdo de prefixo e sufixo
 
-Se você definir os estilos CSS personalizados, eles terão a primeira precedência ao gerar a saída de PDF nativo.
+Se você definir os estilos CSS personalizados, eles terão a primeira prioridade ao gerar a saída PDF nativa.
 O estilo CSS padrão a seguir oculta o conteúdo do prefixo e do sufixo.
 
 ```css

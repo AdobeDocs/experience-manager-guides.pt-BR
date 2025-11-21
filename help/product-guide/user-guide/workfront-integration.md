@@ -1,17 +1,17 @@
 ---
-title: Integração do Workfront
+title: Integração com o Workfront
 description: Saiba como integrar o Workfront ao Adobe Experience Manager Guides e começar a criar tarefas para criação, publicação, revisão e fluxos de trabalho de tradução.
 feature: Authoring
 role: User
 exl-id: fd988434-3ebd-40ac-a776-e62359dcb6ef
-source-git-commit: 62b1abd012f4bbf532480e2625505cdea1c70bc7
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '2482'
 ht-degree: 0%
 
 ---
 
-# Integração do Workfront
+# Integração com o Workfront
 
 O Adobe Workfront é uma solução de gerenciamento de trabalho baseada em nuvem que ajuda equipes e organizações a planejar, rastrear e gerenciar seu trabalho com eficiência. A integração entre o Experience Manager Guides e o Adobe Workfront oferece acesso a recursos robustos de gerenciamento de projetos além dos principais recursos do CCMS do Experience Manager Guides, permitindo planejar, alocar e rastrear tarefas com eficiência.
 
@@ -25,10 +25,10 @@ Com a integração do Experience Manager Guides e do Adobe Workfront, você pode
 
 * Planeje, aloque e acompanhe o progresso de tarefas e projetos individuais sem depender de várias ferramentas não integradas.
 * Gerencie todos os fluxos de trabalho do Experience Manager Guides, inclusive criação, revisão, publicação e tradução de conteúdo com mais eficiência.
-* Receba notificações por email da Adobe Workfront sempre que novas tarefas forem atribuídas. Para obter mais detalhes, consulte [Visão geral das notificações](https://experienceleague.adobe.com/pt-br/docs/workfront/using/basics/use-notifications/wf-notifications).
+* Receba notificações por email da Adobe Workfront sempre que novas tarefas forem atribuídas. Para obter mais detalhes, consulte [Visão geral das notificações](https://experienceleague.adobe.com/en/docs/workfront/using/basics/use-notifications/wf-notifications).
 * Monitore a integridade do projeto usando o painel intuitivo do Adobe Workfront, que oferece insights em tempo real sobre o desempenho do projeto.
 
-  Para saber mais sobre os recursos robustos de gerenciamento de projetos da Adobe Workfront habilitados para gerentes de projeto na Experience Manager Guides, veja [Planejar uma visão geral do projeto](https://experienceleague.adobe.com/pt-br/docs/workfront/using/manage-work/projects/plan-a-project/plan-project).
+  Para saber mais sobre os recursos robustos de gerenciamento de projetos da Adobe Workfront habilitados para gerentes de projeto na Experience Manager Guides, veja [Planejar uma visão geral do projeto](https://experienceleague.adobe.com/en/docs/workfront/using/manage-work/projects/plan-a-project/plan-project).
 
 ## Introdução
 
@@ -61,7 +61,7 @@ Os seguintes recursos estão disponíveis na página de tarefas do Workfront:
 
 A página de tarefas do Workfront também inclui um ícone de link externo ![](./images/Smock_LinkOut_18_N.svg), que, quando selecionado, leva você à página de projeto do Adobe Workfront. Aqui, você pode exibir detalhes da tarefa, exibir comentários, adicionar comentários e acessar outros recursos com base nas permissões mapeadas com sua conta do Adobe Workfront.
 
-Para obter mais detalhes, consulte [Visão geral das datas do Projeto, da Tarefa e do Problema no Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront/using/basics/navigate/definitions-pti-dates).
+Para obter mais detalhes, consulte [Visão geral das datas do Projeto, da Tarefa e do Problema no Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/navigate/definitions-pti-dates).
 
 ### Criar tarefas do Workfront
 
@@ -122,7 +122,7 @@ Uma nova tarefa é criada e listada na guia **Criado por você**.
 
 >[!NOTE]
 >
-> Como gerente de projeto, você pode visualizar essa tarefa recém-criada no painel do Adobe Workfront juntamente com outros detalhes importantes da tarefa. Para obter mais detalhes, consulte [Compreender painéis](https://experienceleague.adobe.com/pt-br/docs/workfront/using/reporting/dashboards/understand-dashboards/understand-dashboards).
+> Como gerente de projeto, você pode visualizar essa tarefa recém-criada no painel do Adobe Workfront juntamente com outros detalhes importantes da tarefa. Para obter mais detalhes, consulte [Compreender painéis](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/dashboards/understand-dashboards/understand-dashboards).
 
 ### Gerenciar tarefas criadas por você
 
@@ -315,7 +315,7 @@ Execute as seguintes etapas para trabalhar em uma tarefa de publicação:
 3. Revise os detalhes da tarefa e o arquivo adicionado para publicação.
 
    ![](./images/publishing-tasks-review-details.png){align="left"}
-4. Navegue até **Predefinições de saída** e execute as ações de publicação necessárias para publicar a tarefa. Para obter mais detalhes, consulte [Noções básicas sobre as predefinições de saída](../user-guide/generate-output-understand-presets.md/).
+4. Navegue até **Predefinições de saída** e execute as ações de publicação necessárias para publicar a tarefa. Para obter mais detalhes, consulte [Noções básicas sobre as predefinições de saída](../user-guide/generate-output-understand-presets.md).
 5. Após a conclusão da publicação, navegue até a seção **Workfront** e selecione **Marcar como concluído** para indicar que a tarefa foi concluída.
 6. Alterne para a guia **Comentários** para adicionar um comentário a esta tarefa. Esses comentários, adicionados no nível da tarefa, serão refletidos no painel de projetos da Workfront.
 

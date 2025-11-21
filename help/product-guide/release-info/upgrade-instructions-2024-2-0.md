@@ -2,10 +2,10 @@
 title: Notas de versão | Instruções de atualização e problemas corrigidos no Adobe Experience Manager Guides versão 2024.2.0
 description: Saiba mais sobre a matriz de compatibilidade e como atualizar para a versão 2024.2.0 do Adobe Experience Manager Guides as a Cloud Service.
 exl-id: 7aaa4317-eb96-4fff-8a45-b38b9dfc234a
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '866'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -35,7 +35,7 @@ Esta seção lista a matriz de compatibilidade dos aplicativos de software compa
 | Versão do Experience Manager Guides as a Cloud | Janelas do conector Oxygen | Conector Oxygen Mac | Editar no Oxygen Windows | Editar no Oxygen Mac |
 | --- | --- | --- | --- | --- |
 | 2024.2.0 | 3.5-uuid 1 | 3.5-uuid 1 | 2,3 | 2,3 |
-|  |  |  |  |
+|  |  |  |  |  |
 
 
 ### Versão do modelo da knowledge base
@@ -46,7 +46,7 @@ Esta seção lista a matriz de compatibilidade dos aplicativos de software compa
 
 ## Atualização para a versão 2024.2.0
 
-O Experience Manager Guides é atualizado automaticamente após o upgrade da versão atual (mais recente) do Experience Manager as a Cloud Service.
+O Experience Manager Guides é atualizado automaticamente após a atualização da versão atual (mais recente) do Experience Manager as a Cloud Service.
 
 
 Execute as seguintes etapas para o Experience Manager Guides as a Cloud Service se ainda não tiver feito a versão atual:
@@ -57,7 +57,7 @@ Execute as seguintes etapas para o Experience Manager Guides as a Cloud Service 
 
 Após concluir a instalação, você pode optar por APRESENTAR o acionador para iniciar o trabalho de tradução:
 
-POST:
+PUBLICAÇÃO:
 
 ```
 http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
@@ -102,12 +102,12 @@ Execute as seguintes etapas para pós-processar o conteúdo existente e usar o n
      | org.apache.jackrabbit.oak.query.QueryEngineSettingsService | queryLimitReads | Valor: 200000 Valor padrão: 100000 |
      | org.apache.jackrabbit.oak.query.QueryEngineSettingsService | queryLimitInMemory | Valor: 200000 Valor padrão: 100000 |
 
-1. Execute uma solicitação POST no servidor (com autenticação correta) - `http://<server>//bin/guides/reports/upgrade`.
+1. Execute uma solicitação POST para o servidor (com autenticação correta) - `http://<server>//bin/guides/reports/upgrade`.
 
-1. A API retorna um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação de GET com id de trabalho para o mesmo ponto de extremidade - `http://<server>/bin/guides/reports/upgrade?jobId= {jobId}`
+1. A API retorna um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação GET com a ID do trabalho para o mesmo ponto de extremidade - `http://<server>/bin/guides/reports/upgrade?jobId= {jobId}`
 (Por exemplo: `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
-1. Quando o trabalho for concluído, a solicitação do GET anterior responderá com êxito. Se a tarefa falhar por algum motivo, a falha poderá ser vista nos logs do servidor.
+1. Quando o trabalho for concluído, a solicitação anterior do GET responderá com êxito. Se a tarefa falhar por algum motivo, a falha poderá ser vista nos logs do servidor.
 
 1. Reverta para o valor padrão ou existente anterior de `queryLimitReads` se você o alterou na etapa 1.
 
@@ -117,11 +117,11 @@ Execute as seguintes etapas para pós-processar o conteúdo existente e usar o n
 
 Execute as seguintes etapas para indexar o conteúdo existente e usar o novo texto de localização e substituição no nível do mapa e da lista de tópicos na guia relatórios:
 
-1. Execute uma solicitação POST no servidor (com autenticação correta) - `http://<server:port>/bin/guides/map-find/indexing`. (Opcional: é possível passar caminhos específicos dos mapas para indexá-los; por padrão, todos os mapas serão indexados|| Por exemplo: `https://<Server:port>/bin/guides/map-find/indexing?paths=<path of the MAP in repository>`)
+1. Execute uma solicitação POST para o servidor (com autenticação correta) - `http://<server:port>/bin/guides/map-find/indexing`. (Opcional: é possível passar caminhos específicos dos mapas para indexá-los; por padrão, todos os mapas serão indexados|| Por exemplo: `https://<Server:port>/bin/guides/map-find/indexing?paths=<path of the MAP in repository>`)
 
-1. A API retornará um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação GET com id de trabalho para o mesmo ponto de extremidade - `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`(Por exemplo: `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
+1. A API retornará um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação do GET com a ID do trabalho para o mesmo ponto de extremidade - `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`(Por exemplo: `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
-1. Quando o trabalho for concluído, a solicitação do GET anterior responderá com êxito. Se o trabalho falhar por algum motivo, a falha poderá ser vista nos logs do servidor.
+1. Quando o trabalho for concluído, a solicitação anterior do GET responderá com êxito. Se o trabalho falhar por algum motivo, a falha poderá ser vista nos logs do servidor.
 
 1. Reverta para o valor padrão ou existente anterior de queryLimitReads, se você o alterou na etapa 1.
 

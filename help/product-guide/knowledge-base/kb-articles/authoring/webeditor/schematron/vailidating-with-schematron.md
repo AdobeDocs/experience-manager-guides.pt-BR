@@ -4,7 +4,7 @@ description: Trabalhar com o Schematron no webeditor
 exl-id: 3e61432f-d81e-446e-b0ad-560f5b9fa91a
 feature: Web Editor
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Além do suporte para regras DITA, o editor da Web também oferece suporte à va
 
 &quot;*Schematron*&quot; refere-se a uma linguagem de validação baseada em regras usada para definir testes para um arquivo XML. É possível importar os arquivos do Schematron e editá-los no Editor da Web. Usando um arquivo de &quot;Esquematron&quot;, você pode definir determinadas regras e validá-las para um tópico DITA ou um mapa. As regras de esquema podem garantir a consistência da estrutura XML, impondo restrições definidas como regras. Estas restrições são impostas por PME que detêm a qualidade e a coerência do conteúdo.
 
-    OBSERVAÇÃO: o editor da Web oferece suporte ao Esquematron ISO.
+OBSERVAÇÃO: o editor da Web é compatível com o Schematron ISO.
 
 
 ## Saber como o &quot;Schematron&quot; funciona no editor da Web
@@ -41,7 +41,7 @@ As configurações do Editor da Web permitem que os usuários avançados configu
 
 Sim, como autor/usuário ao criar conteúdo, você pode usar o painel Esquematron no editor da Web para fazer upload de um arquivo de esquematron e executar validações no arquivo aberto no editor.
 
-    Para que isso funcione, o administrador de perfil da pasta deve permitir que todos os usuários adicionem arquivos do Schemtron no painel Validação. Ver configurações do editor (captura de tela fornecida acima)
+Para que isso funcione, o administrador de perfil da pasta deve permitir que todos os usuários adicionem arquivos Schemtron no painel Validação. Ver configurações do editor (captura de tela acima)
 
 ![Escolher arquivo do Schematron](../../../assets/authoring/schematron-rightpanel-validation-addsch.png)
 ![Executar validação](../../../assets/authoring/schematron-rightpanel-validation-runsch.png)

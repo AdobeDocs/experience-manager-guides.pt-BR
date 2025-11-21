@@ -4,7 +4,7 @@ description: Versão mais recente do Adobe Experience Manager Guides
 exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
 feature: Release Notes
 role: Leader
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '3644'
 ht-degree: 1%
@@ -49,7 +49,7 @@ Para obter mais detalhes, consulte a seção Technical requirements no guia Inst
 | --- | --- | --- | --- | --- |
 | 4.1.3 (Não UUID) | 2020.2 ou superior* | 2019 | 2020.3 ou superior | 2019.8 (atualização mais recente) |
 | 4.1.3 (UUID) | 2020.2 ou superior* | Não compatível | 2020.4 ou superior | Não compatível |
-| | | | |
+| | | | |  |
 
 *A linha de base e as condições criadas no AEM são compatíveis com as versões do FMPS a partir de 2020.2.
 
@@ -59,7 +59,7 @@ Para obter mais detalhes, consulte a seção Technical requirements no guia Inst
 | --- | --- | --- |--- |--- |
 | 4.1.3 (Não UUID) | 2.0 | 2.0 | 1,6 | 1,6 |
 | 4.1.3 (UUID) | 2,7 | 2,7 | 2,3 | 2,3 |
-|  |  |   |
+|  |  |   |  |  |
 
 
 ## Problemas corrigidos
@@ -92,7 +92,7 @@ Para obter mais detalhes, consulte a seção Technical requirements no guia Inst
 | --- | --- | --- | --- | --- |
 | 4.1.2 (Não UUID) | 2020.2 ou superior* | 2019 | 2020.3 ou superior | 2019.8 (atualização mais recente) |
 | 4.1.2 (UUID) | 2020.2 ou superior* | Não compatível | 2020.4 ou superior | Não compatível |
-| | | | |
+| | | | |  |
 
 *A linha de base e as condições criadas no AEM são compatíveis com as versões do FMPS a partir de 2020.2.
 
@@ -102,7 +102,7 @@ Para obter mais detalhes, consulte a seção Technical requirements no guia Inst
 | --- | --- | --- |--- |--- |
 | 4.1.2 (Não UUID) | 2.0 | 2.0 | 1,6 | 1,6 |
 | 4.1.2 (UUID) | 2,7 | 2,7 | 2,3 | 2,3 |
-|  |  |   |
+|  |  |   |  |  |
 
 
 ## Problemas corrigidos
@@ -149,7 +149,7 @@ Para obter mais detalhes, consulte a seção Technical requirements no guia Inst
 | --- | --- | --- | --- | --- |
 | 4.1 (Não UUID) | 2020.2 ou superior* | 2019 | 2020.3 ou superior | 2019.8 (atualização mais recente) |
 | 4.1 (UUID) | 2020.2 ou superior* | Não compatível | 2020.4 ou superior | Não compatível |
-| | | | |
+| | | | | |
 
 *A linha de base e as condições criadas no AEM são compatíveis com as versões do FMPS a partir de 2020.2.
 
@@ -159,20 +159,21 @@ Para obter mais detalhes, consulte a seção Technical requirements no guia Inst
 | --- | --- | --- |--- |--- |
 | 4.1 (Não UUID) | 2.0 | 2.0 | 1,6 | 1,6 |
 | 4.1 (UUID) | 2,7 | 2,7 | 2,3 | 2,3 |
-|  |  |  |
+|  |  |  | | |
 
 
 ## Novos recursos e melhorias
 
 O AEM Guides fornece muitos aprimoramentos e novos recursos na versão 4.1:
 
-### Publicação de PDF nativo
+### Publicação nativa no PDF
 
 O suporte para a criação de um PDF nativo também foi adicionado na versão 4.1 do AEM Guides. Um novo mecanismo de publicação foi introduzido com os seguintes recursos:
+
 * Criar um modelo CSS
 * Criar modelos de página diferentes
-* Criar modelos de PDF compreendendo CSS e modelos de página
-* Conteúdo do mapa e do tópico do Publish no formato PDF
+* Criar modelos do PDF incluindo CSS e modelos de página
+* Publicar o mapa e o conteúdo do tópico no formato PDF
 
 ### Suporte para caminho do site da base de dados de conhecimento na publicação baseada em artigo
 
@@ -300,15 +301,15 @@ Para obter mais detalhes sobre tradução, consulte a seção *Traduzir document
 
 ### Publicação aprimorada
 
-* Você também pode acessar o **Painel do Publish** na guia Saídas enquanto gera a saída do painel do mapa. Uma lista de todas as tarefas de publicação ativas está disponível no Painel do Publish.
+* Você também pode acessar o **Painel de Publicação** na guia Saídas enquanto gera saída do painel de mapa. Uma lista de todas as tarefas de publicação ativas está disponível no Painel de publicação.
 
 ![saídas na fila](assets/queued-output.png)
 
-* No painel de mapa, é possível selecionar vários arquivos DITAVAL para gerar conteúdo condicional. É possível manter a ordem dos arquivos adicionando ou excluindo arquivos. Você também pode passar o mouse sobre o nome do arquivo para ver o caminho no repositório AEM onde o arquivo está armazenado.
+* No painel de mapa, é possível selecionar vários arquivos DITAVAL para gerar conteúdo condicional. É possível manter a ordem dos arquivos adicionando ou excluindo arquivos. Você também pode passar o mouse sobre o nome do arquivo para ver o caminho no repositório do AEM onde o arquivo está armazenado.
 
-* Linhas de base foram honradas para os metadados de saída do site AEM. Você também pode processar as propriedades de uma versão de linha de base como metadados. Se nenhuma linha de base for definida, as propriedades da versão mais recente serão processadas como metadados.
+* As linhas de base foram respeitadas para os metadados de saída do site do AEM. Você também pode processar as propriedades de uma versão de linha de base como metadados. Se nenhuma linha de base for definida, as propriedades da versão mais recente serão processadas como metadados.
 
-* As opções **Nome do Arquivo** e **Argumentos de Linha de Comando DITA-OT** foram adicionadas para predefinições de HTML5, EPUB e Saída personalizada. Agora você pode especificar o nome do arquivo com o qual deseja salvar a saída. Você também pode especificar os argumentos adicionais que deseja que o DITA-OT processe ao gerar saída.
+* As opções **Nome do Arquivo** e **Argumentos de Linha de Comando DITA-OT** foram adicionadas para predefinições de saída HTML5, EPUB e Personalizada. Agora você pode especificar o nome do arquivo com o qual deseja salvar a saída. Você também pode especificar os argumentos adicionais que deseja que o DITA-OT processe ao gerar saída.
 
 ### Mapear painel
 
@@ -323,7 +324,7 @@ Quando você seleciona baixar o mapa DITA, a solicitação é enfileirada e voc�
 
 ### Recurso obsoleto
 
-O AEM Guides não oferece mais suporte à geração de formato de saída DITA para documentos do FrameMaker. Essa opção DITA também foi removida das Predefinições de saída do painel Mapa.
+O AEM Guides não oferece mais suporte à geração de formato de saída DITA para documentos FrameMaker. Essa opção DITA também foi removida das Predefinições de saída do painel Mapa.
 
 ## Problemas corrigidos
 
@@ -331,13 +332,13 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 
 * O suporte à criação não está disponível como uma alternativa para a referência baseada em caminho de arquivo para publicação. (8076)
 * O pacote de complemento DITA impede a detecção de ativos duplicados do DAM. (8417)
-* Após o check-in de um documento do Oxygen para o AEM, o conteúdo em japonês no documento é substituído por pontos de interrogação (???). (9124)
+* Após o check-in de um documento do Oxygen para o AEM, o conteúdo japonês no documento é substituído por pontos de interrogação (???). (9124)
 * A atualização de arquivos obtidos não está funcionando no logon com autenticação da Web no Oxygen. (9179)
 * O check-out do arquivo não é feito quando aberto no Oxygen. (9192)
-* Após o check-in de um documento do Oxygen para o AEM, o conteúdo em japonês no documento é substituído por pontos de interrogação (???). (9276)
+* Após o check-in de um documento do Oxygen para o AEM, o conteúdo japonês no documento é substituído por pontos de interrogação (???). (9276)
 * A autenticação da Web não está funcionando no Oxygen. (9296)
 * O recarregamento falha no Oxygen quando os arquivos já existem no AEM no mesmo local. (9328)
-* Opção não disponível para a sincronização forçada do conteúdo entre o AEM e o sistema local. (9439)
+* Opção não disponível para forçar a sincronização de conteúdo entre o AEM e o sistema local. (9439)
 * A ID não é gerada automaticamente para o elemento adicionado usando a caixa de diálogo **Inserir Conteúdo Reutilizável** da barra de ferramentas secundária. (5826)
 * Nenhuma caixa de diálogo de confirmação é exibida ao fazer upload de uma imagem com o mesmo nome de um arquivo existente, por meio do editor. (6011)
 * Um espaço sem quebra não disponível no palete de caracteres. (7523)
@@ -361,19 +362,19 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 * A descrição da tarefa de revisão não aparece na notificação por email que está sendo enviada quando uma nova tarefa de revisão está sendo atribuída. (8507)
 * Baixar API do mapa | As pastas temporárias não são limpas em caso de erros no processo de download. (8523)
 * `columnpreview.jsp` é dependente do SP.  (8543)
-* Os trabalhos de saída com status como &quot;Aguardando&quot; ou &quot;Executando&quot; não são limpos no Painel do Publish.  (8569)
+* Trabalhos de saída com status como &quot;Aguardando&quot; ou &quot;Executando&quot; não são limpos no Painel de publicação.  (8569)
 * Ícone padrão escolhido na geração de um relatório usando o botão Gerar, mesmo quando a propriedade do ícone é definida. (8573)
 * Problemas ocorrem no processo de revisão durante a atualização de 3.8.X para 4.0. (8788)
 * No painel Revisão do Editor da Web, se um nome de usuário for longo, os ícones para aceitar/rejeitar não serão exibidos claramente. (8793)
 * A árvore de referência é interrompida após a remoção de um tópico e a execução de uma operação de movimentação. (8804)
 * O DTD personalizado definido pelo usuário não tem precedência sobre o DTD DITA padrão incorporado no DITA-OT. (9104)
 * A posição do realce está incorreta na exibição lado a lado. (9305)
-* A nota de rodapé de uso por referência não rola até a seção de nota de rodapé na saída do site AEM. (9061)
-* A ordem das notas de rodapé está incorreta na saída do site AEM. (9327)
+* A nota de rodapé de uso por referência não é rolada até a seção de nota de rodapé na saída do site do AEM. (9061)
+* A ordem das notas de rodapé está incorreta na saída do site do AEM. (9327)
 * Os ativos DITA recém-criados sempre passam por check-out por outro usuário. (9387)
 * O erro sempre é registrado na criação de novo conteúdo. (9388)
 * A terceira tela no processo de criação da tarefa de revisão não mostra a lista de glossários. (4558)
-* Referências UUID incorretas atribuídas ao carregar vários arquivos do Conector FrameMaker/Oxygen. (8269)
+* Referências UUID incorretas atribuídas ao carregar vários arquivos do FrameMaker/Oxygen Connector. (8269)
 * A notificação por email não é enviada quando uma tarefa de revisão é reatribuída na Caixa de entrada. (8376)
 * O segundo usuário administrador não pode ser adicionado como o primeiro usuário administrador a uma pasta. (8430)
 * A caixa de diálogo **Aplicar rótulos** na guia Linha de Base não exibe rótulos na lista suspensa. (8455)
@@ -382,7 +383,7 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 * No painel Histórico de versão, a seção versão atual mostra um carimbo de data e hora incorreto e modificado pelas informações. (8765)
 * Linha de base não atualizada com base no rótulo definido. (8799)
 * O erro ocorre quando os arquivos cuja pasta pai tem caracteres especiais no nome do arquivo são abertos no Oxygen (usando o botão **Editar no Oxygen**). (8918)
-* O upload de arquivos do Oxygen para o AEM falha. (9157)
+* Falha ao fazer upload de arquivos do Oxygen para o AEM. (9157)
 * Baixar o mapa com a linha de base inoperante se o conteúdo for movido para outra pasta. (9331)
 * O Oxygen verifica uma versão incorreta de um tópico após uma reversão de versão no AEM. (9411)
 * Pesquisar no painel Repositório e a caixa de diálogo Procurar topicref congela a tela quando o conteúdo é grande. (9432)
@@ -392,7 +393,7 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 * O ícone de bloqueio é exibido na visualização de repositório mesmo quando o arquivo é submetido a check-in pelo editor.  (5756)
 * Não é possível adicionar elementos de primeiro plano e de segundo plano em um mapa usando a exibição Autor do Editor da Web. (7652)
 * O modo de Visualização não oferece suporte ao atributo de processamento condicional `deliveryTarget` em DITA. (7685)
-* Ao abrir um tópico de glossário no editor XML, o AEM força o salvamento, mesmo que ele não tenha sido modificado. (8105)
+* Ao abrir um tópico de glossário no editor XML, o AEM força salvá-lo mesmo que ele não tenha sido modificado. (8105)
 * A caixa de diálogo Inserir referências é aberta ao adicionar subjectref a um mapa usando a interface do usuário. (8212)
 * Reutilizar falhas do painel de conteúdo ao pesquisar caracteres especiais `[` ou `*`.(8279)
 * Ao criar Glossentry, o Editor da Web mostra o conteúdo como uma Nota. (8384)
@@ -403,7 +404,7 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 * Os atributos estão ausentes ao adicionar um capítulo no bookmap usando a função Arrastar e soltar da exibição Favoritos. (8746)
 * A caixa de diálogo Inserir palavra-chave não tem a capacidade de pesquisa e as palavras-chave não são listadas em ordem de classificação. (9094)
 * Fazer uma pesquisa no Editor de XML faz com que a página congele. (9452)
-* Os sites estão ausentes nas predefinições de AEM na guia Saída. (9567)
-* Imagens SVG que não são renderizadas corretamente nos modos do autor do Editor XML. (9426)
+* Os sites estão ausentes nas predefinições do AEM na guia Saída. (9567)
+* Imagens SVG que não são renderizadas corretamente nos modos de criação do Editor XML. (9426)
 * A linha de base não está sendo aplicada durante a publicação pelo Salesforce. (8953)
 * A capacidade de limpar o mapa de roteiros das configurações de preferências do usuário não está presente. (8534)

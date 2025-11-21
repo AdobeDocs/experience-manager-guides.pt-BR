@@ -5,9 +5,9 @@ exl-id: ba82af48-9357-4f29-90ce-6793366ab432
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 5778ed2855287d1010728e689abbe6020ad56574
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '989'
 ht-degree: 0%
 
 ---
@@ -18,12 +18,11 @@ Por padrão, o Editor da Web é fornecido com os recursos editoriais mais comuns
 
 >[!NOTE]
 >
-> Ao migrar da interface antiga para a nova interface do AEM Guides (aplicável a partir das versões 2502 e 5.0 do AEM Guides), as atualizações do `ui_config` devem ser convertidas em configurações de interface mais flexíveis e modulares. Essa estrutura ajuda a adotar alterações facilmente na editor_toolbar e em outro widget do target, conforme aplicável. Para obter detalhes, consulte [Visão geral da configuração da interface de conversão](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+> Ao migrar da interface antiga para a nova interface do AEM Guides (aplicável a partir das versões 2502 e 5.0 do AEM Guides), as atualizações do `ui_config` devem ser convertidas em configurações de interface mais flexíveis e modulares. Essa estrutura ajuda a adotar alterações facilmente na editor_toolbar e em outro widget do target, conforme aplicável. Para obter detalhes, consulte [Visão geral da configuração da interface de conversão](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 Há duas maneiras de personalizar a barra de ferramentas do Editor da Web:
 
 - Adicionar uma nova funcionalidade à barra de ferramentas
-
 - Remover qualquer funcionalidade existente da barra de ferramentas
 
 
@@ -50,19 +49,19 @@ Execute as seguintes etapas para adicionar um recurso à barra de ferramentas do
 
    **itens**:   Especifique a definição de todos os grupos na barra de ferramentas. Cada grupo pode conter um ou vários ícones da barra de ferramentas. Para definir ícones em um grupo de barras de ferramentas, você precisa definir novamente o atributo `type` em `items` e definir seu valor como `buttonGroup`. Especifique um ou mais nomes de classe na propriedade `extraclass`. Especifique o nome do recurso na propriedade `label`. O trecho a seguir do arquivo `ui_config.json` mostra a definição do bloco da barra de ferramentas principal, seguida pela definição `buttonGroup`:
 
-       &quot;
-       &quot;barra de ferramentas&quot;: &lbrace;
-       &quot;type&quot;: &quot;blockGroup&quot;,
-       &quot;classe de extração&quot;:
-       &quot;operações da barra de ferramentas&quot;,
-       &quot;itens&quot;: &lbrack;
-       &lbrace;
-       &quot;tipo&quot;: &quot;buttonGroup&quot;,
-       &quot;extraclass&quot;: &quot;left-controls&quot;,
-       &quot;rótulo&quot;: &quot;Controles de Esquerda&quot;,
-       &quot;itens&quot;: &lbrack;
-       &quot;
-   
+   ```
+   "toolbar": {    
+   "type": "blockGroup",    
+   "extraclass": 
+   "toolbar operations",    
+   "items": [      
+   {        
+       "type": "buttonGroup",        
+       "extraclass": "left-controls",        
+       "label": "Left Controls",        
+       "items": [
+   ```
+
    Na coleção `items`, é necessário especificar a definição de um ou mais ícones da barra de ferramentas.
 
    É necessário definir as seguintes propriedades para adicionar um ícone da barra de ferramentas:
@@ -77,10 +76,10 @@ Execute as seguintes etapas para adicionar um recurso à barra de ferramentas do
 
    **ao clicar**:   Especifique o nome do comando definido para o recurso no arquivo JavaScript. Se o comando exigir parâmetros de entrada, especifique o nome do comando como:
 
-       &quot;Javascript
-       &quot;ao clicar&quot;: {&quot;name&quot;: &quot;AUTHOR_INSERT_ELEMENT&quot;, &quot;args&quot;: &quot;simpletable&quot;}
-       &quot;
-   
+   ```Javascript
+   "on-click": {"name": "AUTHOR_INSERT_ELEMENT", "args": "simpletable"}
+   ```
+
    **mostrar ou ocultar**:   Se você estiver definindo a propriedade `show`, especifique os modos nos quais o ícone será exibido. Os valores possíveis são - `@isAuthorMode`, `@isSourceMode`, `@isPreviewMode`, `true` \(exibir em todos os modos\), ou `false` \(ocultar em todos os modos\).
 
    No lugar de `show`, você também pode definir a propriedade `hide`. Os valores possíveis são os mesmos da propriedade `show` com a única diferença de que o ícone não é exibido para o modo especificado.
@@ -145,4 +144,4 @@ Execute as seguintes etapas para remover qualquer recurso indesejado da barra de
 1. Salve o arquivo *ui\_config.json* e recarregue o Editor da Web.
 
 
-**Tópico pai:**&#x200B;[&#x200B; Personalizar editor da Web](conf-web-editor.md)
+**Tópico pai:**[ Personalizar editor da Web](conf-web-editor.md)

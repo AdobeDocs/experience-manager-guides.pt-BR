@@ -4,9 +4,9 @@ description: Saiba mais sobre as correções de erros e como atualizar para as v
 exl-id: 8a7fef77-63af-462f-89c5-054ab31e079b
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '1391'
+source-wordcount: '1390'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ Você pode atualizar facilmente sua versão atual do AEM Guides para a versão 4
 
 >[!NOTE]
 >
->Você deve instalar o service pack AEM antes de atualizar a versão do AEM Guides.
+>Você deve instalar o service pack do AEM antes de atualizar a versão do AEM Guides.
 
 Para obter detalhes, consulte [Instruções de atualização](assets/Adobe-Experience-Manager-Guides-Upgrade-Instructions-EN.pdf).
 
@@ -50,7 +50,7 @@ Para obter mais detalhes, consulte a seção *Requisitos técnicos* no guia Inst
 | --- | --- | --- | --- | --- |
 | 4.2 (Não UUID) | 2022 ou superior | 2020.2 ou superior* | 2022 ou superior | 2020.3 ou superior |
 | 4.2 (UUID) | 2022 ou superior | 2020.2 ou superior* | 2022 ou superior | 2020.4 ou superior |
-| | | | |
+| | | | | |
 
 *A linha de base e as condições criadas no AEM são compatíveis com as versões do FMPS a partir de 2020.2.
 
@@ -60,18 +60,18 @@ Para obter mais detalhes, consulte a seção *Requisitos técnicos* no guia Inst
 | --- | --- | --- |--- |--- |
 | 4.2 (Não UUID) | 2.1-regular-4 | 2.1-regular-4 | 1,6 | 1,6 |
 | 4.2 (UUID) | 2.8-uuid-8 | 2.8-uuid-8 | 2,3 | 2,3 |
-|  |  |   |
+|  |  |   |  |  |
 
 ## Problemas corrigidos
 
 Os bugs corrigidos em várias áreas estão listados abaixo:
 
-### Criação  
+### Criação
 
 * O painel esquerdo é interrompido ao adicionar uma guia. (11126)
 * As alterações no html do Editor da Web causam problemas com `<dl>` e `<dlentry>`. (11024)
 * Alguns atributos não estão sendo tratados como condicionais e estão causando problemas. (10895)
-* Três níveis ou mais aninhados `<indexterm>` não estão aninhados na exportação de PDF nativo. (10799)
+* Três níveis ou mais aninhados `<indexterm>` não estão aninhados na exportação nativa do PDF. (10799)
 * O conteúdo desaparece no corpo de uma tarefa ao alternar da exibição Autor para Source. (10735)
 * Comentários de revisão são colocados fora do lugar em uma tarefa de revisão. (10625)
 * `<conref>` a observação dentro de uma marca para não está sendo exibida no modo de visualização. (10559)
@@ -108,30 +108,30 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 * Editor da Web - Linha de base | O comportamento da coluna Mais recente é diferente no novo painel da linha de base no Editor da Web. (10808)
 * Tradução | A tarefa de tradução não é iniciada devido a /libs/fmdita/i18n/ja.json inválido. (10543)
 * Tradução | Ocorre um erro em um projeto de tradução de escopo criado a partir do painel de tradução (Tradução humana). (10526)
-* Tradução | O processamento do Post está bloqueado para toda a pasta de idioma cujos ativos estão presentes em um projeto de tradução ativo. (10332)
+* Tradução | O pós-processamento está bloqueado para toda a pasta de idioma cujos ativos estão presentes em um projeto de tradução ativo. (10332)
 * Tradução| Os metadados e as tags não estão sendo propagados para as cópias traduzidas. (4696)
 * Vários pop-ups são exibidos para qualquer ativo se a versão for alterada e salva no editor de linha de base. (10399)
-* O vazamento da sessão ocorre em com.day.cq.search.impl.builder.QueryBuilderImpl.createResourceResolver(QueryBuilderImpl.java:210). (10279)
+* O Vazamento de Sessão ocorre em com.day.cq.search.impl.builder.QueryBuilderImpl.createResourceResolver(QueryBuilderImpl.java:210). (10279)
 * O arquivo de vídeo está ausente na linha de base se a pasta pai contiver espaço no nome. (10031)
 
 ### Publicação
 
 * A regeneração de tópico não está funcionando para alguns cenários. (10635)
-* A publicação de PDF falha ao gerar a saída para uma predefinição duplicada (de uma predefinição existente). (10584)
-* O botão Visualizar log não funciona caso a geração de PDF falhe para uma predefinição. (10576)
+* A publicação no PDF falha ao gerar a saída para uma predefinição duplicada (de uma predefinição existente). (10584)
+* O botão Exibir log não funciona caso ocorra falha na geração de PDF para uma predefinição. (10576)
 * O Publishlistener não exibe os dados solicitados em logs de informações e também contém alguns logs de lixo eletrônico.(10567)
-* PDF nativo | Falha na geração de PDF com uma exceção de Null Pointer. (10950)
+* PDF nativo | Falha na geração do PDF com uma exceção de Null Pointer. (10950)
 * PDF nativo | conkeyref não está sendo resolvido na saída gerada. (10564)
 * PDF nativo | Ocorrem problemas com os metadados de um mapa que precisa ser referido na saída do PDF.(10556)
 * PDF nativo | Ocorrem problemas ao girar o cabeçalho da tabela. (10555)
 * PDF nativo | Ocorrem problemas ao remover tópicos com função de processamento=&#39;resource-only&#39;. (10554)
-* PDF nativo | Keyrefs vazios são exibidos na saída de PDF. (10553)
-* PDF nativo | `<indexterm>` aninhados não estão aninhados na exportação de PDF nativo. (10521)
-* PDF nativo | O PDF nativo usa estilo em linha em vez do nome da classe para as tags geradas. (10498)
-* PDF nativo | Tópicos aninhados nos apêndices são todos transformados em h1 no HTML temporário.(10454)
+* PDF nativo | Keyrefs vazios são exibidos na saída do PDF. (10553)
+* PDF nativo | `<indexterm>` aninhados não estão aninhados na exportação nativa do PDF. (10521)
+* PDF nativo | O PDF nativo usa o estilo em linha em vez do nome da classe para as tags geradas. (10498)
+* PDF nativo | Os tópicos aninhados ref nos apêndices são todos transformados em h1 no HTML temporário.(10454)
 * PDF nativo | Não é possível ocultar tópicos de destaque do sumário. (10355)
 * PDF nativo | Atributo de quadro de tabela não propagado para o HTML temporário (como classe). (10353)
-* PDF nativo | Arquivos HTML temporários adicionam as classes colsep e rowsep a <td> e <th> mesmo que o valor seja 0 no DITA de origem. (10352)
+* PDF nativo | Arquivos temporários do HTML adicionam as classes colsep e rowsep a <td> e <th> mesmo que o valor seja 0 no DITA de origem. (10352)
 * PDF nativo | Reiniciar os números de página no layout do capítulo inicia aleatoriamente a numeração a partir do final do capítulo anterior. (10154)
 * PDF nativo | As principais referências para keydefs com imagem ou links externos não estão sendo resolvidas. (10063)
 * PDF nativo | O apêndice está sendo exibido como um capítulo no PDF gerado. (9829)
@@ -144,6 +144,6 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 
 ## Problema conhecido
 
-O Adobe identificou o seguinte problema conhecido para a versão 4.2 do AEM Guides:
+A Adobe identificou o seguinte problema conhecido na versão 4.2 do AEM Guides:
 
 * Os usuários podem executar operações de revisão mesmo após a conclusão da tarefa de revisão.

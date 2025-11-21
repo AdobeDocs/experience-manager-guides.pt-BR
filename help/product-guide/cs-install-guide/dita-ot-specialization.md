@@ -5,9 +5,9 @@ exl-id: 4d3e0fc1-b684-44f9-ab0d-411033024019
 feature: DITA-OT Configuration
 role: Admin
 level: Experienced
-source-git-commit: 3119ef32a753afac9405af31a241ae508f922ea7
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '1701'
+source-wordcount: '1700'
 ht-degree: 0%
 
 ---
@@ -48,11 +48,11 @@ Execute as seguintes etapas para fazer upload do plug-in DITA-OT personalizado n
 
    - Execute o integrador \(para instalar o plug-in personalizado\) em um sistema operacional Mac/Linux para evitar problemas com separadores de arquivos - como os sistemas operacionais Windows e Linux têm separadores de arquivos diferentes, o plug-in integrado no sistema operacional Mac/Linux é compatível com a configuração do Windows e do Linux.
    - Verifique se o arquivo `DITA-OT.ZIP` contém uma pasta chamada &quot;DITA-OT&quot; que tem todos os plug-ins e arquivos relevantes.
-   - Verifique se o arquivo `DITA-OT.ZIP` criado é mimeType: &quot;nt:file&quot; \(corresponde ao tipo primário de arquivo ZIP quando carregado para AEM\). Use uma ferramenta WebDAV ou implantação de código para fazer upload desse arquivo ZIP para o caminho desejado no AEM. \(Não use o gerenciador de pacotes da AEM para implantar este arquivo ZIP, pois ele não é um pacote de conteúdo do AEM, mas apenas um arquivo morto.\)
+   - Verifique se o arquivo `DITA-OT.ZIP` criado é mimeType: &quot;nt:file&quot; \(isso corresponde ao tipo primário de arquivo ZIP quando carregado para AEM\). Use uma ferramenta WebDAV ou implantação de código para fazer upload desse arquivo ZIP para o caminho desejado no AEM. \(Não use o gerenciador de pacotes da AEM para implantar este arquivo ZIP, pois ele não é um pacote de conteúdo do AEM, mas apenas um arquivo morto.\)
 
    >[!NOTE]
    >
-   > É recomendável não substituir o pacote DITA-OT padrão. Você deve fazer upload do pacote DITA-OT personalizado que contém o plug-in /var/dxml/dita\_resources/dita-ot. Também é possível fazer isso usando o pipeline do Cloud Manager. Consulte [Implantação no AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=pt-BR) na documentação do AEM para obter mais detalhes.
+   > É recomendável não substituir o pacote DITA-OT padrão. Você deve fazer upload do pacote DITA-OT personalizado que contém o plug-in /var/dxml/dita\_resources/dita-ot. Também é possível fazer isso usando o pipeline do Cloud Manager. Consulte [Implantação no AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html) na documentação do AEM para obter mais detalhes.
 
 1. Você pode optar por editar o Perfil padrão, criar um novo perfil ou duplicar configurações do Perfil padrão para criar um novo perfil.
 
@@ -64,12 +64,12 @@ Execute as seguintes etapas para fazer upload do plug-in DITA-OT personalizado n
 
    | Nome da propriedade | Descrição |
    |-------------|-----------|
-   | **Propriedades de perfil** |
+   | **Propriedades de perfil** |  |
    | Nome do perfil | Forneça um nome exclusivo para este perfil. |
    | Reutilizar saída | *\(Opcional\)* Se o seu perfil for baseado em um perfil existente, selecione esta opção. Selecionar essa opção garante que o AEM Guides não extraia novamente o conteúdo do pacote DITA-OT e reutilize o pacote DITA-OT existente. |
    | Caminho de extração de perfil | *\(Opcional\)* Especifique o caminho onde o DITA-OT é mantido no disco. Por padrão, o AEM Guides agrupa um pacote DITA-OT em seu repositório e ele é extraído no disco nesse caminho. <br> **OBSERVAÇÃO** Você pode definir este caminho usando qualquer variável ou propriedade do sistema existente. Consulte a descrição da propriedade [Variáveis de ambiente DITA-OT](#id181NH0YN0AX) para obter mais informações. |
    | Caminho atribuído | \(*Opcional*\) Especifique o caminho no repositório de conteúdo ao qual esse perfil se aplica. Você pode especificar vários locais. |
-   | **Propriedades DITA-OT** |
+   | **Propriedades DITA-OT** |  |
    | Tempo limite do DITA-OT | \(*Opcional*\) Especifique o tempo \(em segundos\) durante o qual o AEM Guides aguarda uma resposta do plug-in DITA-OT. Se nenhuma resposta for recebida no tempo especificado, o AEM Guides encerra a tarefa de publicação e a tarefa é sinalizada como com falha. Além disso, os logs de falha são disponibilizados no arquivo de log de geração de saída. <br> Valor padrão: 300 segundos \(5 minutos\) |
    | Argumentos do DITA-OT PDF | Especifique os argumentos de linha de comando processados pelo plug-in DITA-OT personalizado para gerar a saída do PDF. Para todos os perfis DITA-OT personalizados, especifique o seguinte argumento de linha de comando:`-lib plugins/org.dita.pdf2.fop/lib/` |
    | Argumentos do DITA-OT AEM | \(*Opcional*\) Especifique os argumentos de linha de comando personalizados que são processados pelo plug-in DITA-OT personalizado para gerar a saída do site do AEM. |

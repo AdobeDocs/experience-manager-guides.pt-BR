@@ -5,7 +5,7 @@ exl-id: 1f0e023a-422c-47b9-917f-b0d80090471c
 feature: Rest API Conditional Attributes
 role: Developer
 level: Experienced
-source-git-commit: 6184bb98c9897e980a6fba2f97476570228188af
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 6%
@@ -21,7 +21,7 @@ A API REST a seguir permite adicionar atributos condicionais em um perfil de pas
 Um método POST que adiciona atributos condicionais a um determinado perfil de nível de pasta.
 
 **Solicitar URL**:\
-http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/fmdita/folderprofiles
+http://*<aem-guides-server\>*: *<port-number\>*/bin/fmdita/folderprofiles
 
 **Parâmetros**:
 

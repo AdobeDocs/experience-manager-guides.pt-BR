@@ -4,7 +4,7 @@ description: Versão de fevereiro do  [!DNL Adobe Experience Manager Guides] as 
 exl-id: eb7ff475-bb5b-4d32-b291-024147fbfed1
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '974'
 ht-degree: 0%
@@ -15,14 +15,14 @@ ht-degree: 0%
 
 ## Atualização para a versão de fevereiro
 
-As a Cloud Service Atualize sua configuração atual do [!DNL Adobe Experience Manager Guides] (mais tarde chamada de as a Cloud Service do [!DNL AEM Guides]) executando as seguintes etapas:
-1. Confira o código Git do Cloud Service e alterne para a ramificação configurada no pipeline Cloud Service correspondente ao ambiente que você deseja atualizar.
-1. Atualize a propriedade `<dox.version>` no arquivo `/dox/dox.installer/pom.xml` do código Git do Cloud Service para 2022.2.114.
-1. Confirme as alterações e execute o pipeline do Cloud Service para atualizar para a versão de fevereiro do [!DNL AEM Guides] as a Cloud Service.
+Atualize sua configuração atual do as a Cloud Service [!DNL Adobe Experience Manager Guides] (mais tarde chamada de as a Cloud Service [!DNL AEM Guides]) executando as seguintes etapas:
+1. Confira o código Git do Cloud Services e alterne para a ramificação configurada no pipeline do Cloud Services correspondente ao ambiente que você deseja atualizar.
+1. Atualize a propriedade `<dox.version>` no arquivo `/dox/dox.installer/pom.xml` do seu código Git do Cloud Services para 2022.2.114.
+1. Confirme as alterações e execute o pipeline de Serviços em Nuvem para atualizar para a versão de fevereiro do as a Cloud Service [!DNL AEM Guides].
 
 ## Matriz de compatibilidade
 
-As a Cloud Service Esta seção lista a matriz de compatibilidade para os aplicativos de software compatíveis com a versão de fevereiro de 2022 do [!DNL AEM Guides].
+Esta seção lista a matriz de compatibilidade dos aplicativos de software compatíveis com a versão de fevereiro de 2022 do [!DNL AEM Guides] as a Cloud Service.
 
 ### FRAMEMAKER e FRAMEMAKER PUBLISHING SERVER
 
@@ -42,17 +42,17 @@ As a Cloud Service Esta seção lista a matriz de compatibilidade para os aplica
 
 ## Novos recursos e melhorias
 
-### Publicação de PDF nativo
+### Publicação nativa no PDF
 
-O suporte para a criação de um PDF nativo também foi adicionado na versão de fevereiro do [!DNL AEM Guides] as a Cloud Service. Um novo mecanismo de publicação foi introduzido com os seguintes recursos:
+O suporte para criar um PDF nativo também foi adicionado na versão de fevereiro do as a Cloud Service [!DNL AEM Guides]. Um novo mecanismo de publicação foi introduzido com os seguintes recursos:
 * Criar um modelo CSS
 * Criar modelos de página diferentes
-* Criar modelos de PDF compreendendo CSS e modelos de página
-* Conteúdo do mapa e do tópico do Publish no formato PDF
+* Criar modelos do PDF incluindo CSS e modelos de página
+* Publicar o mapa e o conteúdo do tópico no formato PDF
 
 ### Suporte para caminho do site da base de dados de conhecimento na publicação baseada em artigo
 
-O [!DNL AEM Guides] as a Cloud Service fornece o recurso de publicação baseado em artigos para gerar de forma incremental uma saída de um ou mais tópicos ou publicar seu conteúdo em uma plataforma da base de conhecimento. Com a versão de fevereiro, você terá uma opção adicional para escolher o caminho do site da Base de conhecimento no qual o tópico/mapa precisa ser publicado. Após selecionar o caminho, a saída é gerada no caminho especificado.
+O as a Cloud Service [!DNL AEM Guides] fornece o recurso de publicação baseado em artigos para gerar de forma incremental uma saída de um ou mais tópicos ou publicar seu conteúdo em uma plataforma da base de conhecimento. Com a versão de fevereiro, você terá uma opção adicional para escolher o caminho do site da Base de conhecimento no qual o tópico/mapa precisa ser publicado. Após selecionar o caminho, a saída é gerada no caminho especificado.
 
 ### Aprimoramentos no Editor da Web
 
@@ -60,7 +60,7 @@ Muitos aprimoramentos e novos recursos foram adicionados ao Editor da Web:
 
 * **Caixa de diálogo aprimorada no fechamento do arquivo**
 
-O [!DNL AEM Guides] as a Cloud Service que você salve as alterações e desbloqueie os arquivos bloqueados ao tentar fechar um arquivo aberto no Editor da Web. Os prompts são exibidos com base nas configurações **Solicitar check-in ao fechar** e **Solicitar nova versão ao fechar** definidas pelo administrador.
+O as a Cloud Service [!DNL AEM Guides] solicita que você salve suas alterações e desbloqueie os arquivos bloqueados ao tentar fechar um arquivo aberto no Editor da Web. Os prompts são exibidos com base nas configurações **Solicitar check-in ao fechar** e **Solicitar nova versão ao fechar** definidas pelo administrador.
 
 Com base na configuração, você tem a opção de salvar as alterações e criar uma nova versão do documento. Ou você também pode fazer check-in do arquivo e salvar as alterações na versão atual.
 
@@ -68,7 +68,7 @@ Com base na configuração, você tem a opção de salvar as alterações e cria
 
 Para obter mais detalhes, consulte *Cenários de fechamento e salvamento de arquivos* no Guia do Usuário.
 
-* Um espaço sem quebra foi adicionado ao palete de caracteres.  Um espaço **não-separável** impede uma quebra de linha automática em um ponto específico em um documento HTML. O Editor da Web suporta um espaço não-separável para saída de AEM Site e HTML 5.
+* Um espaço sem quebra foi adicionado ao palete de caracteres.  Um espaço **não-separável** impede uma quebra de linha automática em um ponto específico de um documento HTML. O Editor da Web é compatível com um espaço ininterrupto para as saídas do AEM Site e do HTML5.
 
 * Ao fazer upload de uma imagem do Editor da Web, uma caixa de diálogo de confirmação será exibida se uma imagem com o mesmo nome já existir. Você pode manter ambos os arquivos, existentes e novos, ou substituir o arquivo existente e salvar apenas o novo arquivo.
 
@@ -112,7 +112,7 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 
 * A edição de imagens não funciona conforme esperado no servidor de nuvem. (8768)
 * No painel Histórico de versão, a seção versão atual mostra um carimbo de data e hora incorreto e modificado pelas informações. (8765)
-* O upload de arquivo DITAVAL no servidor da nuvem falha quando a ferramenta de desktop AEM é usada. (8707)
+* O upload do arquivo DITAVAL no servidor da nuvem falha quando a ferramenta de desktop do AEM é usada. (8707)
 * O segundo usuário administrador não pode ser adicionado como o primeiro usuário administrador a uma pasta. (8430)
 * As propriedades não exclusivas de um ativo não são copiadas quando o ativo é copiado e colado. (8241)
 

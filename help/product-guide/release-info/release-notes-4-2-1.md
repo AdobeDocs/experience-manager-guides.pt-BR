@@ -4,7 +4,7 @@ description: Saiba mais sobre as correções de erros e como atualizar para as v
 exl-id: a75ec83f-564b-4243-b5c5-341049521adb
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 1%
@@ -29,7 +29,7 @@ Você pode atualizar sua versão atual do AEM Guides para a versão 4.2.1
 
 >[!NOTE]
 >
->Você deve instalar o service pack AEM antes de atualizar a versão do AEM Guides.
+>Você deve instalar o service pack do AEM antes de atualizar a versão do AEM Guides.
 
 Para obter detalhes, consulte [Instruções de atualização](../install-guide/upgrade-xml-documentation.md).
 
@@ -53,7 +53,7 @@ Para obter mais detalhes, consulte a seção *Requisitos técnicos* no guia Inst
 | --- | --- | --- | --- | --- |
 | 4.2.1 (Não UUID) | 2022 ou superior | 2020.2 ou superior* | 2022 ou superior | 2020.3 ou superior |
 | 4.2.1 (UUID) | 2022 ou superior | 2020.2 ou superior* | 2022 ou superior | 2020.4 ou superior |
-| | | | |
+| | | | |  |
 
 *A linha de base e as condições criadas no AEM são compatíveis com as versões do FMPS a partir de 2020.2.
 
@@ -63,16 +63,16 @@ Para obter mais detalhes, consulte a seção *Requisitos técnicos* no guia Inst
 | --- | --- | --- |--- |--- |
 | 4.2.1 (Não UUID) | 2.2-regular-3 | 2.2-regular-3 | 1,6 | 1,6 |
 | 4.2.1 (UUID) | 2.9-uuid-2 | 2.9-uuid-2 | 2,3 | 2,3 |
-|  |  |   |
+|  |  |   |  |  |
 
 ## Problemas corrigidos
 
 Os bugs corrigidos em várias áreas estão listados abaixo:
 
-### Criação  
+### Criação
 
 * Navtitle é removido do conteúdo ao alternar da exibição de layout para a exibição de autor ou fonte. (12174)
-* O botão Fechar no Editor da Web não leva à página Navegação por AEM. (1948)
+* O botão Fechar no Editor da Web não abre a página Navegação do AEM. (1948)
 * Às vezes, ocorre um erro no aplicativo ao clicar em um mapa DITA. (11842)
 * Ocorre um problema ao mover (arrastar e soltar) no lugar de um item de lista existente com o Controle de alterações ativado. (11570)
 * Ocorre um problema ao mover (arrastar e soltar) como um novo item de lista com a opção Controlar alterações ativada. (11569)
@@ -98,10 +98,10 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 
 * PDF nativo | A publicação de conteúdo que tem uma classe de saída com colchetes() leva a um congelamento da publicação. (1936)
 * Saída JSON | Mapear metadados com o valor de propriedade como `"value in spaces and double quotes"` leva a um erro de publicação. (1933)
-* Problema ocorre na pesquisa do site AEM (não funciona além de 2-3 nós de nível). (11352)
-* Editor da Web | O caminho de saída e o modelo não podem ser selecionados na Predefinição de AEM. (11530)
-* Ao atualizar da versão 4.1.x para a 4.2, o mecanismo de PDF nativo não funciona e lança NullPointerException mesmo para o sistema operacional suportado.(11526)
-* O processo de PDF de download não está funcionando adequadamente no Editor da Web. (11496)
+* Problema ocorre na pesquisa do site do AEM (não funciona além de nós de nível 2-3). (11352)
+* Editor da Web | O caminho de saída e o modelo não podem ser selecionados na Predefinição do AEM. (11530)
+* Ao atualizar da versão 4.1.x para a 4.2, o mecanismo Native PDF não funciona e lança NullPointerException mesmo para o sistema operacional compatível.(11526)
+* O processo de download do PDF não está funcionando adequadamente no Editor da Web. (11496)
 * PDF nativo | Comentários de rascunho são ocultos por padrão na saída gerada. (10560)
 * PDF nativo | navtitle não é homenageado por topichead. (10509)
 * PDF nativo | Adicionar `xref` a uma imagem não renderiza a imagem no PDF gerado. (11346)

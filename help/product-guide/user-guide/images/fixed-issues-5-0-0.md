@@ -1,7 +1,7 @@
 ---
 title: Notas de versão | Correção de problemas na versão 5.0.0 do Adobe Experience Manager Guides
 description: Saiba mais sobre as correções de erros na versão 5.0.0 do Adobe Experience Manager Guides.
-source-git-commit: 410d7c059ff1219b73f2dc6199690c77d1ba0e48
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1221'
 ht-degree: 0%
@@ -12,13 +12,12 @@ ht-degree: 0%
 
 Este artigo aborda os bugs corrigidos em várias áreas da versão 5.0.0 do Adobe Experience Manager Guides.
 
-
-Para obter mais informações sobre os novos recursos e aprimoramentos, consulte [Novidades na versão 5.0.0](whats-new-5-0.md).
+Para obter mais informações sobre os novos recursos e aprimoramentos, consulte [Novidades na versão 5.0.0](/help/product-guide/release-info/whats-new-5-0-0.md).
 
 Saiba mais sobre as [instruções de atualização para a versão 5.0.0](upgrade-instructions-5-0-0.md).
 
 
-## Criação  
+## Criação
 
 - Ao atualizar as condições do perfil da pasta, todos os grupos de condições são perdidos e as condições são niveladas. (23526)
 - A alteração do valor das linhas de cabeçalho de uma tabela no painel **Propriedades de conteúdo** não aplica o valor atualizado. (23213)

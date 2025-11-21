@@ -4,7 +4,7 @@ description: Versão de outubro do Adobe Experience Manager Guides as a Cloud Se
 exl-id: 38638080-625c-49c3-9e54-56cc23831546
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 1%
@@ -15,10 +15,10 @@ ht-degree: 1%
 
 ## Atualize para a versão de outubro
 
-Atualize sua configuração atual do Adobe Experience Manager Guides as a Cloud Service (mais tarde chamada de configuração do *AEM Guides as a Cloud Service*) executando as seguintes etapas:
-1. Confira o código Git do Cloud Service e alterne para a ramificação configurada no pipeline Cloud Service correspondente ao ambiente que você deseja atualizar.
-1. Atualize a propriedade `<dox.version>` no arquivo `/dox/dox.installer/pom.xml` do seu código Git Cloud Service para 2022.10.183.
-1. Confirme as alterações e execute o pipeline do Cloud Service para atualizar para a versão de outubro do AEM Guides as a Cloud Service.
+Atualize sua configuração atual do Adobe Experience Manager Guides as a Cloud Service (mais tarde chamada de *AEM Guides as a Cloud Service*) executando as seguintes etapas:
+1. Confira o código Git do Cloud Services e alterne para a ramificação configurada no pipeline do Cloud Services correspondente ao ambiente que você deseja atualizar.
+1. Atualize a propriedade `<dox.version>` no arquivo `/dox/dox.installer/pom.xml` de seu código Git do Cloud Services para 2022.10.183.
+1. Confirme as alterações e execute o pipeline dos Serviços em nuvem para atualizar para a versão de outubro do AEM Guides as a Cloud Service.
 
 ## Matriz de compatibilidade
 
@@ -38,7 +38,7 @@ Esta seção lista a matriz de compatibilidade dos aplicativos de software compa
 | Versão do AEM Guides as a Cloud | Janelas do conector Oxygen | Conector Oxygen Mac | Editar no Oxygen Windows | Editar no Oxygen Mac |
 | --- | --- | --- | --- | --- |
 | 2022.10.0 | 2.7.13 | 2.7.13 | 2,3 | 2,3 |
-|  |  |  |  |
+|  |  |  |  |  |
 
 
 ## Novos recursos e melhorias
@@ -63,7 +63,7 @@ Selecione uma ou mais predefinições e gere rapidamente a saída. Também é po
 
 Os bugs corrigidos em várias áreas estão listados abaixo:
 
-* PDF nativo | Ocorre um erro ao remover tópicos somente de recursos da saída do PDF. (10554)
+* PDF nativo | Ocorre um erro na remoção de tópicos somente de recursos da saída do PDF. (10554)
 * PDF nativo | Keyrefs vazios são exibidos na saída do PDF. (10553)
 * PDF nativo | `navtitle` para `topichead` não é respeitado. (10509)
 * PDF nativo | Suporte necessário para tipos de JDK amd64. (10465)
@@ -71,4 +71,4 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 * PDF nativo | Reiniciar o número da página no layout do capítulo inicia aleatoriamente a numeração a partir do final do capítulo anterior. (10154)
 * Navegador Chrome | A tela está ficando em branco ao arrastar e soltar qualquer elemento da interface do usuário. Por exemplo, ao arrastar uma condição do painel Condições. (10524)
 * As propriedades do nó estão sendo removidas após a operação de copiar e colar de um ativo. (10053)
-* Ao clicar em **Fechar**, os usuários foram redirecionados para os ativos. A experiência foi corrigida para levar os usuários à página inicial do AEM. (9654)
+* Ao clicar em **Fechar**, os usuários eram redirecionados para os ativos. A experiência foi corrigida para levar os usuários à página inicial do AEM. (9654)

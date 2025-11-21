@@ -4,7 +4,7 @@ description: Saiba como criar uma predefinição JSON no console de Mapa. Config
 exl-id: 9eb426fc-ca0a-4932-8a55-fea731281a0a
 feature: Publishing
 role: User
-source-git-commit: 47927187ec0d9eb4f2f78e3cf6062f1992ad0615
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '915'
 ht-degree: 0%
@@ -63,4 +63,4 @@ As seguintes opções estão disponíveis para a predefinição JSON:
 | Propriedades a serem propagadas na saída | Selecione as propriedades que deseja processar como metadados. Essas propriedades são definidas na página Propriedades do mapa DITA ou do arquivo de mapa. As propriedades selecionadas na lista suspensa estão listadas abaixo do campo Propriedades.<br><br>**Observação**: você também pode definir propriedades personalizadas e transmitir os metadados para a saída usando a publicação DITA-OT. Para obter mais detalhes, [Trabalhe com metadados](metadata-dita.md#id21BJ00QD0XA). |
 | Fluxo de trabalho de pós-geração | Ao escolher essa opção, uma nova lista suspensa Fluxo de trabalho de pós-geração é exibida contendo todos os fluxos de trabalho configurados no AEM. Você deve selecionar um workflow que deseja executar após a conclusão do workflow de geração de saída.<br><br>**Observação**: para obter mais informações sobre como criar um fluxo de trabalho personalizado de geração de pós-saída, exiba _Personalizar fluxo de trabalho de geração de pós-saída_ no guia Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service. |
 
-**Tópico pai:**&#x200B;[&#x200B; Noções básicas sobre as predefinições de saída](generate-output-understand-presets.md)
+**Tópico pai:**[ Noções básicas sobre as predefinições de saída](generate-output-understand-presets.md)

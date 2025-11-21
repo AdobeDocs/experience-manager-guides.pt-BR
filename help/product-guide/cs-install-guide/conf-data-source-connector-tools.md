@@ -5,9 +5,9 @@ exl-id: d7cd412b-89ea-43a5-97b3-09944863bbee
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 873542cb2e8e1b7e80e0ecc113cae4f603b18592
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '883'
 ht-degree: 0%
 
 ---
@@ -35,8 +35,10 @@ Para configurar um conector, execute as seguintes etapas:
    <img src="./assets/data-sources-create-window.png" alt= "origens de dados listadas na página origens de dados" width="800">
 
    *Exibir ou criar um conector de fonte de dados.*
+
 1. Clique em **Criar**.
 1. Selecione o banco de dados para o qual deseja criar o conector. Por exemplo, o conector Elasticsearch.
+
    >[!NOTE]
    >
    >Todos os bancos de dados prontos para uso disponíveis são listados.
@@ -47,7 +49,7 @@ Para configurar um conector, execute as seguintes etapas:
    >[!TIP]
    >
    >* Focalizar <img src="./assets/info-details.svg" alt= "ícone de informações" width="25"> próximo ao campo para ver mais detalhes sobre ele.
-   > * Os campos com * são obrigatórios. Por exemplo, você pode inserir os seguintes detalhes para o conector Elasticsearch.
+   >* Os campos com * são obrigatórios. Por exemplo, você pode inserir os detalhes a seguir para o conector do Elasticsearch.
 
    * **Nome**: insira o nome da fonte de dados.
    * **Tipo de autenticação**: selecione o tipo de autenticação no menu suspenso. Por exemplo, Autenticação básica de nome de usuário e senha
@@ -57,12 +59,7 @@ Para configurar um conector, execute as seguintes etapas:
 
 
 1. Selecione a opção **Excluir modelos de fábrica** para impedir que os modelos de fábrica sejam usados para geração de tópico e trecho. Eles não aparecerão na lista suspensa **Modelo de mapeamento de dados** na caixa de diálogo **Adicionar gerador de trecho de conteúdo** ou **Adicionar gerador de tópico**.
-
-
 1. Selecione **Testar conexão**. Você pode exibir o botão **Testar Conexão** habilitado somente após adicionar os detalhes necessários. Veja uma mensagem de sucesso se os detalhes da conexão estiverem corretos. Caso contrário, você poderá exibir uma mensagem de erro.
-
-
-
 1. Selecione **Salvar** na parte superior para salvar o conector.     Exiba o botão **Salvar** habilitado depois que você preencher todos os detalhes e a conexão for bem-sucedida.
 
 
@@ -78,7 +75,6 @@ Execute as seguintes etapas para criar um recurso:
 1. Configure todos os detalhes na caixa de diálogo **Adicionar recurso**.
 1. Clique em **Adicionar**.
 1. Você pode editar o ![ícone de edição](assets/edit_pencil_icon.svg) ou excluir o recurso ![excluir](assets/Delete_icon.svg) da lista de recursos de URL.
-
 1. Você também pode usar os recursos padrão disponíveis para fontes de dados como Salsify, Akeneo e Microsoft ADO. Ative as opções DESATIVADAS para o recurso que você não deseja configurar para uma fonte de dados.
 
 Isso ajuda a buscar dados rapidamente de qualquer um dos recursos de uma fonte de dados específica em um único trecho de conteúdo ou tópico.
@@ -87,7 +83,7 @@ Isso ajuda a buscar dados rapidamente de qualquer um dos recursos de uma fonte d
 
 ## Instalar um conector de código aberto{#install-open-source-connector}
 
-Para publicar uma dependência presente no [repositório central Maven](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides) nos Cloud Service, você precisa incluir e incorporar a dependência de um conector de código aberto.
+Para publicar uma dependência presente no [repositório central Maven](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides) nos Serviços de nuvem, você precisa incluir e incorporar a dependência de um conector de código aberto.
 
 1. Adicione a dependência em `all/pom.xml` no código do projeto Git do Cloud Manager. Por exemplo, você pode adicionar a seguinte dependência para o conector de fonte de dados das placas DevOps do Microsoft Azure.
 
@@ -103,16 +99,16 @@ Para publicar uma dependência presente no [repositório central Maven](https://
 
 1. Incorpore a dependência adicionada.
 
-       &quot;
-       &lt;incorporada>
-       &lt;groupId>com.adobe.aem.addon.guides&lt;/groupId>
-       &lt;artifactId>konnect-azure-devops&lt;/artifactId>
-       &lt;type>jar&lt;/type>
-       &lt;target>/apps/aemdoxonaemcsstageprogram-vendor-packages/content/install&lt;/target>
-       &lt;/incorporado>
-       &quot;
-   
-1. Execute o pipeline para aplicar as alterações nos Cloud Service.
+   ```
+   <embedded>
+       <groupId>com.adobe.aem.addon.guides</groupId>
+       <artifactId>konnect-azure-devops</artifactId>
+       <type>jar</type>
+       <target>/apps/aemdoxonaemcsstageprogram-vendor-packages/content/install</target>
+   </embedded> 
+   ```
+
+1. Execute o pipeline para aplicar as alterações nos Serviços em nuvem.
 O conector é instalado em seu ambiente.
 
 

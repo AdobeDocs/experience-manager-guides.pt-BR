@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 9a9ae44f-8fed-4a4e-812c-451bcf138d0a
-source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '2732'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Execute as seguintes etapas para criar as predefinições do AEM Sites a partir 
 1. Selecione **AEM Sites** no menu suspenso **Tipo** na caixa de diálogo **Nova predefinição de saída**.
 1. Desmarque a opção **Usar mapeamento de componente herdado** da caixa de diálogo **Nova predefinição de saída**.
 
-![Novo(a) &#x200B;](images/new-aem-sites-dialog-box.png)
+![Novo(a) ](images/new-aem-sites-dialog-box.png)
 
 
 
@@ -42,8 +42,8 @@ Execute as seguintes etapas para criar as predefinições do AEM Sites a partir 
 >[!NOTE]
 >
 >Antes de configurar as predefinições do AEM Sites para o Experience Manager Guides, o administrador precisa criar uma estrutura do AEM Sites usando os modelos.
->- **Software Local**: saiba mais sobre como [baixar e instalar modelos do AEM Sites](/help/product-guide/install-guide/download-install-aem-sites-templates.md) para Software Local.
->- **Cloud Service**: saiba mais sobre como [baixar e instalar modelos do AEM Sites](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md) para Cloud Service.
+- **Software Local**: saiba mais sobre como [baixar e instalar modelos do AEM Sites](/help/product-guide/install-guide/download-install-aem-sites-templates.md) para Software Local.
+- **Cloud Service**: saiba mais sobre como [baixar e instalar modelos do AEM Sites](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md) para Cloud Service.
 
 
 

@@ -5,7 +5,7 @@ feature: Content Management
 role: User
 hide: true
 exl-id: 54b960cf-fb00-4d4a-a836-9de4738c49a8
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '717'
 ht-degree: 10%
@@ -22,7 +22,7 @@ Alguns conceitos principais de gerenciamento de conteúdo no AEM são os seguint
 
 **Gerenciamento de ativos**
 
-O AEM Guides usa o gerenciamento de ativos digitais da AEM \(DAM\) para gerenciar seus arquivos DITA. Os arquivos carregados ou verificados no DAM são armazenados como ativos digitais. Você pode gerenciar e editar seus ativos no AEM Assets. Para obter mais informações sobre o gerenciamento de ativos, consulte [Gerenciar ativos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=pt-BR).
+O AEM Guides usa o gerenciamento de ativos digitais da AEM \(DAM\) para gerenciar seus arquivos DITA. Os arquivos carregados ou verificados no DAM são armazenados como ativos digitais. Você pode gerenciar e editar seus ativos no AEM Assets. Para obter mais informações sobre o gerenciamento de ativos, consulte [Gerenciar ativos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=en).
 
 **Gerenciamento de links**
 
@@ -63,27 +63,27 @@ A tabela a seguir lista várias tarefas e os grupos que podem executá-las:
 | Copiar | Sim |   | Sim |
 | Excluir | Sim |   | Sim |
 | Compartilhar | Sim |   | Sim |
-| **Estado do documento** |
+| **Estado do documento** |  |  |  |
 | Criar/editar perfil de estado do documento |   |   | Sim |
 | Alterar estado do documento[2](#fntarg_2) | Sim | Sim | Sim |
-| **Recursos disponíveis no console de mapa DITA \(guia Predefinições de Saída\)** |
+| **Recursos disponíveis no console de mapa DITA \(guia Predefinições de Saída\)** |  |  |  |
 | Gerar |   |   | Sim |
 | Editar |   |   | Sim |
 | Duplicado |   |   | Sim |
 | Criar |   |   | Sim |
 | Excluir predefinição |   |   | Sim |
-| **Recursos disponíveis no console de mapa DITA \(guia Saídas\)** |
+| **Recursos disponíveis no console de mapa DITA \(guia Saídas\)** |  |  |  |
 | Exibir saída gerada | Sim |   | Sim |
-| **Recursos disponíveis no console de mapa DITA \(guia Tópicos\)** |
+| **Recursos disponíveis no console de mapa DITA \(guia Tópicos\)** |  |  |  |
 | Criar tarefa de análise | Sim |   | Sim |
 | Editar | Sim |   | Sim |
-| **Recursos disponíveis no console de mapa DITA \(guia Linhas de Base\)** |
+| **Recursos disponíveis no console de mapa DITA \(guia Linhas de Base\)** |  |  |  |
 | Criar |   |   | Sim |
 | Editar |   |   | Sim |
 | Duplicado |   |   | Sim |
 | Remover |   |   | Sim |
 | Console do mapa DITA \(guia Relatórios\) | Sim |   | Sim |
-| **Recursos disponíveis no console de mapa DITA \(Predefinições de Condição\)** |
+| **Recursos disponíveis no console de mapa DITA \(Predefinições de Condição\)** |  |  |  |
 | Criar/editar predefinição de condição |   |   | Sim |
 
 [1](#fnsrc_1) Se *Autores* e *Editores* forem convidados para uma revisão.

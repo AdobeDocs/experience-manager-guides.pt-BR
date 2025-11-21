@@ -1,10 +1,10 @@
 ---
-title: Notas de versão | Versão as a Cloud Service do Adobe Experience Manager Guides de abril de 2022
+title: Notas de versão | Adobe Experience Manager Guides as a Cloud Service, versão de abril de 2022
 description: Versão de abril do Adobe Experience Manager Guides as a Cloud Service
 exl-id: c735ba24-a803-454b-8723-57dacf90061b
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '809'
 ht-degree: 0%
@@ -16,13 +16,13 @@ ht-degree: 0%
 ## Atualização para a versão de abril
 
 Atualize sua configuração atual do [!DNL Adobe Experience Manager Guides] as a Cloud Service (mais tarde chamada de *[!DNL AEM Guides]as a Cloud Service*) executando as seguintes etapas:
-1. Confira o código Git do Cloud Service e alterne para a ramificação configurada no pipeline Cloud Service correspondente ao ambiente que você deseja atualizar.
-1. Atualize a propriedade `<dox.version>` no arquivo `/dox/dox.installer/pom.xml` do seu código Git Cloud Service para 2022.4.133.
-1. Confirme as alterações e execute o pipeline do Cloud Service para atualizar para a versão de abril do [!DNL AEM Guides] as a Cloud Service.
+1. Confira o código Git do Cloud Services e alterne para a ramificação configurada no pipeline do Cloud Services correspondente ao ambiente que você deseja atualizar.
+1. Atualize a propriedade `<dox.version>` no arquivo `/dox/dox.installer/pom.xml` do seu código Git do Cloud Services para 2022.4.133.
+1. Confirme as alterações e execute o pipeline de Serviços em Nuvem para atualizar para a versão de abril do as a Cloud Service [!DNL AEM Guides].
 
 ## Matriz de compatibilidade
 
-Esta seção lista a matriz de compatibilidade dos aplicativos de software compatíveis com a versão de as a Cloud Service de 2022 do [!DNL AEM Guides].
+Esta seção lista a matriz de compatibilidade dos aplicativos de software compatíveis com a versão de abril de 2022 do [!DNL AEM Guides] as a Cloud Service.
 
 ### FRAMEMAKER e FRAMEMAKER PUBLISHING SERVER
 
@@ -86,7 +86,7 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 * A pesquisa à medida que você digita faz com que solicitações de pesquisa indesejadas sejam exibidas na exibição Repositório. (9307)
 * Problemas ocorrem quando qualquer palavra-chave é usada no título da guia. (9318)
 * A linha de base falha ao adicionar um rótulo com espaços. (9362)
-* A saída do site AEM não exibe o elemento glossusage corretamente. (8936)
+* A saída do site do AEM não exibe o elemento glossusage corretamente. (8936)
 * Erro de console ao abrir a guia **Saída** no Editor da Web. (8715)
 * A mensagem de erro exibida ao publicar um tipo de registro manual por meio do Salesforce não é intuitiva. (8952)
 * A configuração Validar com atributos de condição não é aberta imediatamente. Em vez disso, o usuário precisa reabrir o arquivo para ver as validações. (9300)
@@ -95,12 +95,12 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 * O DTD personalizado definido pelo usuário não tem precedência sobre o DTD DITA padrão incorporado no DITA-OT. (9104)
 * No recurso PDF nativo, o upload nos modelos falha para arquivos não DITA e não de imagem. (9070)
 * O mecanismo de autorização executa duas consultas em vez de uma, em alguns cenários especializados. (9221)
-* A publicação da saída do site AEM falha ao usar DTD personalizado. (9243)
-* A nota de rodapé de uso por referência não rola até a seção de nota de rodapé na saída do site AEM. (9234)
+* A publicação da saída do site do AEM falha ao usar o DTD personalizado. (9243)
+* A nota de rodapé de uso por referência não é rolada até a seção de nota de rodapé na saída do site do AEM. (9234)
 
 ## Problemas conhecidos
 
-O Adobe identificou o seguinte problema conhecido na versão de as a Cloud Service de abril do [!DNL AEM Guides].
+A Adobe identificou o seguinte problema conhecido na versão de abril do as a Cloud Service [!DNL AEM Guides].
 
 * O Editor da Web não relata um erro quando duas ou mais linhas de base são criadas com o mesmo nome, mas têm diferenças de espaço ou caixa. Por exemplo, &quot;adobe&quot; e &quot;Adobe &quot; ou &quot;Adobe&quot;.
 * O conector Oxygen trava intermitentemente ao fazer login ou logout frequentes ou alternar entre diferentes tipos de autenticação.

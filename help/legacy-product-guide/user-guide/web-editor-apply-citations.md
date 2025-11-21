@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: 832dbc5d-85f7-41fd-8f5d-789732b46f80
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1887'
 ht-degree: 0%
@@ -99,7 +99,7 @@ Para importar citações, siga estas etapas:
 
    >[!NOTE]
    > <ol><li> O AEM Guides importa somente as citações que são exclusivas e que ainda não estão presentes.
-   > &gt; <li> O AEM Guides pode importar citações de um Livro, Diário ou Site. Atualmente, não aceita citações de outras fontes.
+    &gt; <li> O AEM Guides pode importar citações de um Livro, Diário ou Site. Atualmente, não aceita citações de outras fontes.
 
 ## Gerenciar citações
 
@@ -189,7 +189,7 @@ Execute as seguintes etapas para inserir citações a um tópico:
 
 ### Na barra de ferramentas principal
 
-1. Selecione o ícone **Citations** ![citations &#x200B;](images/citations-icon.svg) na barra de ferramentas principal.
+1. Selecione o ícone **Citations** ![citations ](images/citations-icon.svg) na barra de ferramentas principal.
 1. Na caixa de diálogo **Citações**, escolha a citação. Também é possível selecionar várias citações.
    ![caixa de diálogo de citação](images/citation-dialog-main-toolbar.png){width="300" align="left"}
 1. Você pode filtrar citações digitando os primeiros alfabetos no painel de pesquisa da caixa de diálogo **Citação**.
@@ -204,7 +204,7 @@ A citação selecionada é adicionada no local do cursor em seu tópico.
 > 
 >Para exibir o ícone **Citações** no painel esquerdo, o administrador do sistema deve selecionar a opção **Citações** na guia **Painéis** das **Configurações do Editor**.
 
-1. Selecione o ícone **Citações** ![citações &#x200B;](images/citations-icon.svg) no painel esquerdo.
+1. Selecione o ícone **Citações** ![citações ](images/citations-icon.svg) no painel esquerdo.
 1. Arraste a citação do painel **Citações** e solte-a no local apropriado no tópico.
 
    Você também pode selecionar **Inserir** de ![](images/options.svg) **Opções** para inserir uma citação.

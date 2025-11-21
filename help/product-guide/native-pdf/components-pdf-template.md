@@ -5,9 +5,9 @@ exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 47a6819654877e9a4e3e542fa6e5e360b3f3938f
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '4716'
+source-wordcount: '4702'
 ht-degree: 0%
 
 ---
@@ -198,7 +198,7 @@ O arquivo selecionado é importado e listado na pasta Recursos.
 Use a seção Configurações para definir as configurações avançadas para o layout de página do PDF, iniciando o PDF a partir de página ímpar ou par, formatos para as referências cruzadas e habilitando marcas de impressão no PDF final gerado
 usando o template.
 
->
+>[!NOTE]
 >
 > A partir da versão Experience Manager Guides 5.0/2025.02.0, a seção **Imprimir** das configurações avançadas do PDF foi movida para o painel **Predefinições de saída**. Para definir as configurações de Impressão, exiba [Publicar saída do PDF](../web-editor/native-pdf-web-editor.md#print).
 
@@ -457,13 +457,13 @@ Por exemplo, é possível adicionar uma variável de idioma &quot;reference-labe
 
 
 Ao adicionar `${lng:<variable name>}` à seção Parágrafo, as referências cruzadas nos parágrafos da saída contêm o texto localizado e o número da página.\
-Por exemplo, as capturas de tela a seguir mostram as referências cruzadas &quot;View on page 1&quot; em inglês e &quot;Einzelheiten finden Sie auf der Seite 1&quot; em alemão.
+Por exemplo, as capturas de tela a seguir mostram as referências cruzadas &quot;View on page 1 &quot; em inglês e &quot;Einzelheiten finden Sie auf der Seite 1&quot; em alemão.
 
-<img src="./assets/english-output-corss-reference.png" alt="Inglês output of a cross-reference in a pragrah&quot; width =&quot;800" border="2px">
+<img src="./assets/english-output-corss-reference.png" alt="Inglês output of a cross-reference in a pragrah" width ="800" border="2px">
 
 *Uma referência cruzada dentro de um parágrafo quando publicado em inglês.*
 
-<img src="./assets/german-output-corss-reference.png" alt="Saída alemã de uma referência cruzada em um pragrah&quot; width =&quot;800" border="2px">
+<img src="./assets/german-output-corss-reference.png" alt="Saída alemã de uma referência cruzada em um pragrah" width ="800" border="2px">
 
 
 *Uma referência cruzada dentro de um parágrafo quando publicado em alemão.*

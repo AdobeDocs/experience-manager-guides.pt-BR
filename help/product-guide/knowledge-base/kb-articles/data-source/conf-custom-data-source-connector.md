@@ -4,7 +4,8 @@ description: Saiba como configurar um conector personalizado para as fontes de d
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: fdd19363c6768860ffa2f70c934b6f71c811c08b
+exl-id: ef7ab117-7541-4e89-9ba4-22254a17efc0
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1521'
 ht-degree: 0%
@@ -63,7 +64,7 @@ Implemente as seguintes funções importantes:
 | getName | sim | <ul><li>Esse método fornece uma maneira de recuperar o nome exclusivo atribuído a um conector. <li>O nome retornado é fundamental para identificar o conector em um contexto de interface do usuário (UI), especialmente se as configurações do conector não especificarem um nome explicitamente. <li>Esse nome é usado em vários componentes da interface do usuário para exibir ou gerenciar conectores de maneira simples. |
 | getGroup | sim | <ul> <li>Este método fornece uma maneira de recuperar o nome do grupo associado a um conector. <li>Os nomes de grupo normalmente são usados para organizar ou categorizar conectores em grupos lógicos com base em sua funcionalidade, finalidade ou tipo. <li> Isso facilita o gerenciamento e a apresentação de conectores na interface do usuário de configuração. |
 | getDefaultTemplatePath |  | <ul><li> Esse método retorna o caminho padrão para os templates associados a esse conector. <li> Por padrão, retorna uma string vazia, indicando que nenhum caminho padrão é definido, a menos que seja substituído. |
-| getLogoSvg |  | <ul><li>Use este método para retornar a representação de SVG do logotipo do conector. <li> Por padrão, retorna uma string vazia, indicando que nenhum dado de SVG é fornecido, a menos que seja substituído. |
+| getLogoSvg |  | <ul><li>Use este método para retornar a representação SVG do logotipo do conector. <li> Por padrão, ele retorna uma string vazia, indicando que nenhum dado do SVG é fornecido, a menos que seja substituído. |
 | getMaxNoRowsForPreviewQuery | | <ul><li>Esse método retorna o número máximo de linhas consultadas ou exibidas na visualização da interface do usuário. <li> Por padrão, retorna o valor de DEFAULT_LIMIT_PREVIEW, uma constante que representa o limite padrão para linhas de visualização. |
 | getConfigClass | sim | <ul><li>Este método fornece informações sobre as classes que implementam a interface Config e são compatíveis com esse conector. <li> Ele permite que o aplicativo ou a estrutura descubra e trabalhe dinamicamente com configurações compatíveis com o conector. |
 
@@ -120,6 +121,6 @@ O Experience Manager Guides também permite fornecer recursos personalizados par
 Para que possam ser usadas pelo conector, é obrigatório implementar estas funções de conector:
 
 
-- `getLogoSvg` - Retorna o SVG de logotipo como uma cadeia de caracteres.
+- `getLogoSvg` - Retorna o logotipo SVG como uma cadeia de caracteres.
 
 - `getTemplates` - Retorna a lista de modelos no formato especificado.

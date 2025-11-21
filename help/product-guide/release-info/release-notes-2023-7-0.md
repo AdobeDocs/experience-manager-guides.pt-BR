@@ -4,7 +4,7 @@ description: Saiba mais sobre as correções de erros e como atualizar para a ve
 exl-id: f1765c6a-cb8e-4a06-a6f4-f5c225b6bc88
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '926'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Versão de julho de 2023 do Adobe Experience Manager Guides as a Cloud Service
 
-Esta nota de versão aborda as instruções de atualização, a matriz de compatibilidade e os problemas corrigidos na versão de julho de 2023 do Adobe Experience Manager Guides (mais tarde referido como *AEM Guides as a Cloud Service*).
+Esta nota de versão aborda as instruções de atualização, a matriz de compatibilidade e os problemas corrigidos na versão de julho de 2023 do Adobe Experience Manager Guides (mais tarde conhecido como *AEM Guides as a Cloud Service*).
 
 Para obter mais informações sobre os novos recursos e aprimoramentos, consulte [Novidades da versão de julho de 2023 do AEM Guides as a Cloud Service](whats-new-2023-7-0.md).
 
@@ -21,9 +21,9 @@ Para obter mais informações sobre os novos recursos e aprimoramentos, consulte
 
 Atualize sua configuração atual do AEM Guides as a Cloud Service executando as seguintes etapas:
 
-1. Confira o código Git do Cloud Service e alterne para a ramificação configurada no pipeline Cloud Service correspondente ao ambiente que você deseja atualizar.
-2. Atualize a propriedade `<dox.version>` no arquivo `/dox/dox.installer/pom.xml` do código Git do Cloud Service para 2023.7.0.314.
-3. Confirme as alterações e execute o pipeline do Cloud Service para atualizar para a versão de julho de 2023 do AEM Guides as a Cloud Service.
+1. Confira o código Git do Cloud Services e alterne para a ramificação configurada no pipeline do Cloud Services correspondente ao ambiente que você deseja atualizar.
+2. Atualize a propriedade `<dox.version>` no arquivo `/dox/dox.installer/pom.xml` do seu código Git do Cloud Services para 2023.7.0.314.
+3. Confirme as alterações e execute o pipeline dos Serviços em nuvem para atualizar para a versão de julho de 2023 do AEM Guides as a Cloud Service.
 
 ## Etapas para ativar o acionador de um script por meio de um servlet
 
@@ -31,7 +31,7 @@ Atualize sua configuração atual do AEM Guides as a Cloud Service executando as
 
 Após concluir a instalação, você pode optar por APRESENTAR o acionador para iniciar o trabalho de tradução:
 
-POST:
+PUBLICAÇÃO:
 
 ```
 http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
@@ -76,12 +76,12 @@ as a Cloud Service, para criar o arquivo de configuração.
      |---|---|---|
      | org.apache.jackrabbit.oak.query.QueryEngineSettingsService | queryLimitReads | Valor: 200000 Valor padrão: 100000 |
 
-1. Execute uma solicitação POST no servidor (com autenticação correta) - `http://<server:port>//bin/guides/reports/upgrade`.
+1. Execute uma solicitação POST para o servidor (com autenticação correta) - `http://<server:port>//bin/guides/reports/upgrade`.
 
-1. A API retornará um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação de GET com id de trabalho para o mesmo ponto de extremidade - `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
+1. A API retornará um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação GET com a ID do trabalho para o mesmo ponto de extremidade - `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
 (Por exemplo: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
-1. Quando a tarefa for concluída, a solicitação anterior do GET responderá com sucesso. Se o trabalho falhar por algum motivo, a falha poderá ser vista nos logs do servidor.
+1. Quando o trabalho for concluído, a solicitação anterior do GET responderá com sucesso. Se o trabalho falhar por algum motivo, a falha poderá ser vista nos logs do servidor.
 
 1. Reverta para o valor padrão ou existente anterior de `queryLimitReads` se você o alterou na etapa 1.
 
@@ -95,14 +95,14 @@ Execute as seguintes etapas para indexar o conteúdo existente e usar o novo tex
 
 1. Você também pode passar uma pasta raiz para indexar os mapas DITA de uma pasta específica (e suas subpastas). Por exemplo, `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Observe que se os parâmetros de caminhos e de raiz forem transmitidos, somente o parâmetro de caminhos será considerado.
 
-1. A API retornará um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação de GET com ID de trabalho para o mesmo ponto de extremidade - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(Por exemplo: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
+1. A API retornará um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação do GET com ID do trabalho para o mesmo ponto de extremidade - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(Por exemplo: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
 
 
 1. Quando o trabalho for concluído, a solicitação anterior do GET responderá com sucesso e mencionará se algum mapa falhou. Os mapas indexados com êxito podem ser confirmados nos logs do servidor.
 
 ## Matriz de compatibilidade
 
-Esta seção lista a matriz de compatibilidade dos aplicativos de software compatíveis com a versão de as a Cloud Service de julho de 2023 da AEM Guides.
+Esta seção lista a matriz de compatibilidade dos aplicativos de software compatíveis com a versão de julho de 2023 do AEM Guides as a Cloud Service.
 
 ### FRAMEMAKER e FRAMEMAKER PUBLISHING SERVER
 
@@ -117,14 +117,14 @@ Esta seção lista a matriz de compatibilidade dos aplicativos de software compa
 | Versão do AEM Guides as a Cloud | Janelas do conector Oxygen | Conector Oxygen Mac | Editar no Oxygen Windows | Editar no Oxygen Mac |
 | --- | --- | --- | --- | --- |
 | 2023.07.0 | 2.9-uuid-2 | 2.9-uuid-2 | 2,3 | 2,3 |
-|  |  |  |  |
+|  |  |  |  |  |
 
 
 ## Problemas corrigidos
 
 Os bugs corrigidos em várias áreas estão listados abaixo:
 
-### Criação  
+### Criação
 
 - Os atributos em linha/Exibição não aparecem na exibição de layout do Editor da Web. (12498)
 - Upload de arquivos no plug-in Oxygen para o AEM Guides não está funcionando nos serviços em nuvem se você tiver o! no nome do arquivo. (12207)

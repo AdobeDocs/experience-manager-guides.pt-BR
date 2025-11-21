@@ -4,9 +4,9 @@ description: Saiba mais sobre as correções de erros e como atualizar para as v
 exl-id: 7fb568a0-0b88-4ea0-9b79-2625336348ff
 feature: Release Notes
 role: Leader
-source-git-commit: 5a444e88b0adba7fa3d498437df39b729b10b5eb
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: '1085'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ Você pode atualizar sua versão atual do AEM Guides para a versão 4.3.0
 
 >[!NOTE]
 >
->Você deve instalar o service pack AEM antes de atualizar a versão do AEM Guides.
+>Você deve instalar o service pack do AEM antes de atualizar a versão do AEM Guides.
 
 Para obter detalhes, consulte [Instruções de atualização](../install-guide/upgrade-xml-documentation.md).
 
@@ -57,7 +57,7 @@ Para obter mais detalhes, consulte a seção *Requisitos técnicos* no guia Inst
 | --- | --- | --- | --- | --- |
 | 4.3.0 (Não UUID) | 2022 ou superior | 2020.2 ou superior* | 2022 ou superior | 2020.3 ou superior |
 | 4.3.0 (UUID) | 2022 ou superior | 2020.2 ou superior* | 2022 ou superior | 2020.4 ou superior |
-| | | | |
+| | | | | |
 
 *A linha de base e as condições criadas no AEM são compatíveis com as versões do FMPS a partir de 2020.2.
 
@@ -67,19 +67,19 @@ Para obter mais detalhes, consulte a seção *Requisitos técnicos* no guia Inst
 | --- | --- | --- |--- |--- |
 | 4.3.0 (Não UUID) | 2.3-regular-5 | 2.3-regular-5 | 1,6 | 1,6 |
 | 4.3.0 (UUID) | 3.0-uuid-4 | 3.0-uuid-3 | 2,3 | 2,3 |
-|  |  |   |
+|  |  |   |  |  |
 
 ## Problemas corrigidos
 
 Os bugs corrigidos em várias áreas estão listados abaixo:
 
-### Criação  
+### Criação
 
 - O arquivo de tópico não está desbloqueado no Editor da Web, embora as opções Desbloquear o arquivo e Não salvar estejam selecionadas. (12558)
 - Não é possível fazer check-out de um arquivo no Editor da Web, apesar de escolher a opção NÃO para descartar as alterações antes do check-in. (12557)
 - As dicas de ferramentas para os ícones Bloquear e Desbloquear arquivo na barra de ferramentas principal no Editor da Web não são consistentes com os ícones exibidos na Exibição do repositório.(12555)
 - A opção Cancelar check-out e Desbloquear é exibida para um arquivo no Editor da Web que ainda não foi submetido a check-out na Exibição de mapa. (12556)
-- Não é possível selecionar os ativos de PDF nos links &quot;topicref&quot; existentes. (12477).
+- Não é possível selecionar os ativos do PDF nos links &quot;topicref&quot; existentes. (12477).
 - Ao fazer uma mesclagem e divisão nas tabelas, o AEM Guides 4.2 gera células de tabela adicionais. (11793)
 - Na Exibição de repositório, os tópicos ou imagens não podem ser arrastados após o uso da funcionalidade Pesquisar/Filtrar. (12396)
 - Os resultados da pesquisa são desativados no painel Localizar e substituir após abrir um arquivo pesquisado. (12142)
@@ -111,28 +111,28 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 
 ### Publicação
 
-- Falha na publicação ao renomear uma predefinição de PDF nativa. (12564)
-- A duplicação de um modelo de PDF nativo duplica para o local do modelo padrão em vez do local do modelo personalizado fornecido. (12563)
+- Falha na publicação ao renomear uma predefinição nativa do PDF. (12564)
+- A duplicação de um modelo PDF nativo duplica para o local do modelo padrão em vez do local do modelo personalizado fornecido. (12563)
 - PDF nativo | Os metadados de idioma não podem ser definidos no PDF gerado para estar em conformidade com a WCAG 2.0. (12407)
-- A publicação no site AEM falha ao ler arquivos temporários do pod que podem ter sido atualizados ou reiniciados. (12113)
-- PDF nativo | Os atributos personalizados não são propagados para o mecanismo de HTML ou PDF temporário. (DXML-12005)
+- A publicação no site do AEM falha ao ler arquivos temporários do pod que podem ter sido atualizados ou reiniciados. (12113)
+- PDF nativo | Os atributos personalizados não são propagados para o mecanismo temporário do HTML ou PDF. (DXML-12005)
 - PDF nativo |  Java OutOfMemoryError ocorre ao publicar conteúdo grande. (11789)
 - PDF nativo | Xref está imprimindo o conteúdo do título do tópico href em vez do rótulo Xref. (11322)
-- PDF nativo | Não é possível salvar as configurações do modelo de PDF. (10751)
+- PDF nativo | Não é possível salvar as configurações do modelo do PDF. (10751)
 - PDF nativo | O texto se estende além da largura da coluna ao incluir várias xrefs. (10876)
-- PDF nativo | O elemento `<note>` `</note>` não gera um título de extensão extra de seu tipo. (10549)
+- PDF nativo | O elemento `<note>``</note>` não gera um título de extensão extra de seu tipo. (10549)
 - Saída JSON | A propriedade `fmUuid` no nó jcr:content do JSON é diferente da &quot;id&quot; dentro do JSON. (11564)
 - Saída JSON | Se o mapa e o tópico com o mesmo nome de arquivo estiverem presentes, o JSON do mapa será removido. (11524)
 
 ## Problema conhecido
 
-A Adobe identificou o seguinte problema conhecido para a versão 4.3.0 do AEM Guides:
+A Adobe identificou o seguinte problema conhecido na versão 4.3.0 do AEM Guides:
 
 - O layout de página comum definido no modelo Básico não é aplicado como modelo padrão.
 
   Solução alternativa:
 Adicione o layout de página comum como capa frontal e traseira e, em seguida, ele começa a vir para cada página.
-- Problema ocorre na Pesquisa do site ao pesquisar na página de saída do site AEM no AEM Service Pack 16 ou 17.
+- Problema ocorre na Pesquisa do site ao pesquisar na página de saída do site do AEM no AEM Service Pack 16 ou 17.
 
   Solução alternativa:
 

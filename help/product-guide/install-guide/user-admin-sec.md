@@ -5,7 +5,7 @@ exl-id: 1269a652-5261-413d-9ea0-b4f75003e9d8
 feature: User Management
 role: Admin
 level: Experienced
-source-git-commit: 9b657b0530db8fafe3bb6d30a9002791acf8f226
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 10%
@@ -18,13 +18,13 @@ Para acessar e configurar recursos no AEM Guides, é necessário criar usuários
 
 Os seguintes tópicos na documentação do AEM ajudarão você a entender a administração do usuário e os conceitos e recursos relacionados à segurança:
 
-- [Usuários e grupos no AEM](https://helpx.adobe.com/br/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)
+- [Usuários e grupos no AEM](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)
 
-- [Permissões no AEM](https://helpx.adobe.com/br/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)
+- [Permissões no AEM](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)
 
-- [Gerenciando Usuários e Grupos](https://helpx.adobe.com/br/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)
+- [Gerenciando Usuários e Grupos](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)
 
-- [Gerenciando Permissões](https://helpx.adobe.com/br/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions)
+- [Gerenciando Permissões](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions)
 
 
 ## Grupos de usuários criados pelo AEM Guides {#id181TF0K0MHT}
@@ -53,27 +53,27 @@ A tabela a seguir lista várias tarefas e os grupos que podem executá-las:
 | Copiar | Sim |   | Sim |
 | Excluir | Sim |   | Sim |
 | Compartilhar | Sim |   | Sim |
-| **Estado do documento** |
+| **Estado do documento** |  |  |  |
 | Criar/editar perfil de estado do documento |   |   | Sim |
 | Alterar estado do documento[2](#fntarg_2) | Sim | Sim | Sim |
-| **Recursos disponíveis no console de mapa DITA \(guia Predefinições de Saída\)** |
+| **Recursos disponíveis no console de mapa DITA \(guia Predefinições de Saída\)** |  |  |  |
 | Gerar |   |   | Sim |
 | Editar |   |   | Sim |
 | Duplicado |   |   | Sim |
 | Criar |   |   | Sim |
 | Excluir predefinição |   |   | Sim |
-| **Recursos disponíveis no console de mapa DITA \(guia Saídas\)** |
+| **Recursos disponíveis no console de mapa DITA \(guia Saídas\)** |  |  |  |
 | Exibir saída gerada | Sim |   | Sim |
-| **Recursos disponíveis no console de mapa DITA \(guia Tópicos\)** |
+| **Recursos disponíveis no console de mapa DITA \(guia Tópicos\)** |  |  |  |
 | Criar tarefa de análise | Sim |   | Sim |
 | Editar | Sim |   | Sim |
-| **Recursos disponíveis no console de mapa DITA \(guia Linhas de Base\)** |
+| **Recursos disponíveis no console de mapa DITA \(guia Linhas de Base\)** |  |  |  |
 | Criar |   |   | Sim |
 | Editar |   |   | Sim |
 | Duplicado |   |   | Sim |
 | Remover |   |   | Sim |
 | Console do mapa DITA \(guia Relatórios\) | Sim |   | Sim |
-| **Recursos disponíveis no console de mapa DITA \(Predefinições de Condição\)** |
+| **Recursos disponíveis no console de mapa DITA \(Predefinições de Condição\)** |  |  |  |
 | Criar/editar predefinição de condição |   |   | Sim |
 
 ## Observações adicionais sobre os grupos de usuários

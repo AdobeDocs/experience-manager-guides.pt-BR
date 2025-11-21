@@ -4,7 +4,7 @@ description: Adicionar e gerenciar citações no AEM Guides. Saiba como aplicar,
 exl-id: 685d747d-e017-4350-a6bf-822fd55c76e8
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1890'
 ht-degree: 0%
@@ -66,8 +66,8 @@ Para adicionar citações, siga estas etapas:
    | **Ano** <br> Adicione o ano em que o livro é publicado. | **Data de atualização** <br> Adicione a data em que o conteúdo do site é atualizado. | **Páginas** <br> Adicione o número da página ou o intervalo de páginas no qual o artigo é encontrado. |
    | **Versão** <br> Adicione a versão do livro. | **Identificador exclusivo** <br> Adicione um identificador exclusivo para a citação. Um identificador exclusivo é um identificador exclusivo para essa citação. | **URL** <br>Adicionar o link da Web ao diário. |
    | **Série** <br>Adicione a série do livro. |  | **Identificador exclusivo** <br> Adicione um identificador exclusivo para a citação. Um Identificador exclusivo é um identificador exclusivo para essa citação. |
-   | **URL** <br> Adicione o link da Web ao livro. |
-   | **Identificador exclusivo** <br> Adicione um identificador exclusivo para a citação. Um identificador exclusivo é um identificador exclusivo para essa citação. |
+   | **URL** <br> Adicione o link da Web ao livro. |  |  |
+   | **Identificador exclusivo** <br> Adicione um identificador exclusivo para a citação. Um identificador exclusivo é um identificador exclusivo para essa citação. |  |  |
 
 1. Selecione **Concluído**.
 
@@ -96,7 +96,7 @@ Para importar citações, siga estas etapas:
 
    >[!NOTE]
    > <ol><li> O Experience Manager Guides importa somente as citações que são exclusivas e que ainda não estão presentes.
-   > &gt; <li> O Experience Manager Guides pode importar citações de um Livro, Diário ou Site. Atualmente, não aceita citações de outras fontes.
+    &gt; <li> O Experience Manager Guides pode importar citações de um Livro, Diário ou Site. Atualmente, não aceita citações de outras fontes.
 
 ## Gerenciar citações
 
@@ -186,7 +186,7 @@ Execute as seguintes etapas para inserir citações a um tópico:
 
 ### Na barra de ferramentas principal
 
-1. Selecione o ícone **Citations** ![citations &#x200B;](images/citations-icon.svg) na barra de ferramentas principal.
+1. Selecione o ícone **Citations** ![citations ](images/citations-icon.svg) na barra de ferramentas principal.
 1. Na caixa de diálogo **Citações**, escolha a citação. Também é possível selecionar várias citações.
    ![caixa de diálogo de citação](images/citation-dialog-main-toolbar.png){width="300" align="left"}
 1. Você pode filtrar citações digitando os primeiros alfabetos no painel de pesquisa da caixa de diálogo **Citação**.
@@ -201,7 +201,7 @@ A citação selecionada é adicionada no local do cursor em seu tópico.
 > 
 >Para exibir o ícone **Citações** no painel esquerdo, o administrador do sistema deve habilitar a opção **Citações** na guia **Painéis** das **Configurações**.
 
-1. Selecione o ícone **Citações** ![citações &#x200B;](images/citations-icon.svg) no painel esquerdo.
+1. Selecione o ícone **Citações** ![citações ](images/citations-icon.svg) no painel esquerdo.
 1. Arraste a citação do painel **Citações** e solte-a no local apropriado no tópico.
 
    Você também pode selecionar **Inserir** de ![](images/options.svg) **Opções** para inserir uma citação.
