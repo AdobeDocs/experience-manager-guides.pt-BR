@@ -18,9 +18,9 @@ Para acessar e configurar recursos na AEM Guides, é necessário criar usuários
 
 Os seguintes tópicos na documentação do AEM ajudarão você a entender a administração do usuário e os conceitos e recursos relacionados à segurança:
 
-- [Usuários, grupos e permissões do AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html)
+- [Usuários, grupos e permissões do AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html?lang=pt-BR)
 
-- [Segurança e Administração de Usuários](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html)
+- [Segurança e Administração de Usuários](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=pt-BR)
 
 
 ## Grupos de usuários criados pelo AEM Guides {#id181TF0K0MHT}

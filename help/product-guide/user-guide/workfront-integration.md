@@ -25,10 +25,10 @@ Com a integração do Experience Manager Guides e do Adobe Workfront, você pode
 
 * Planeje, aloque e acompanhe o progresso de tarefas e projetos individuais sem depender de várias ferramentas não integradas.
 * Gerencie todos os fluxos de trabalho do Experience Manager Guides, inclusive criação, revisão, publicação e tradução de conteúdo com mais eficiência.
-* Receba notificações por email da Adobe Workfront sempre que novas tarefas forem atribuídas. Para obter mais detalhes, consulte [Visão geral das notificações](https://experienceleague.adobe.com/en/docs/workfront/using/basics/use-notifications/wf-notifications).
+* Receba notificações por email da Adobe Workfront sempre que novas tarefas forem atribuídas. Para obter mais detalhes, consulte [Visão geral das notificações](https://experienceleague.adobe.com/pt-br/docs/workfront/using/basics/use-notifications/wf-notifications).
 * Monitore a integridade do projeto usando o painel intuitivo do Adobe Workfront, que oferece insights em tempo real sobre o desempenho do projeto.
 
-  Para saber mais sobre os recursos robustos de gerenciamento de projetos da Adobe Workfront habilitados para gerentes de projeto na Experience Manager Guides, veja [Planejar uma visão geral do projeto](https://experienceleague.adobe.com/en/docs/workfront/using/manage-work/projects/plan-a-project/plan-project).
+  Para saber mais sobre os recursos robustos de gerenciamento de projetos da Adobe Workfront habilitados para gerentes de projeto na Experience Manager Guides, veja [Planejar uma visão geral do projeto](https://experienceleague.adobe.com/pt-br/docs/workfront/using/manage-work/projects/plan-a-project/plan-project).
 
 ## Introdução
 
@@ -61,7 +61,7 @@ Os seguintes recursos estão disponíveis na página de tarefas do Workfront:
 
 A página de tarefas do Workfront também inclui um ícone de link externo ![](./images/Smock_LinkOut_18_N.svg), que, quando selecionado, leva você à página de projeto do Adobe Workfront. Aqui, você pode exibir detalhes da tarefa, exibir comentários, adicionar comentários e acessar outros recursos com base nas permissões mapeadas com sua conta do Adobe Workfront.
 
-Para obter mais detalhes, consulte [Visão geral das datas do Projeto, da Tarefa e do Problema no Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/navigate/definitions-pti-dates).
+Para obter mais detalhes, consulte [Visão geral das datas do Projeto, da Tarefa e do Problema no Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront/using/basics/navigate/definitions-pti-dates).
 
 ### Criar tarefas do Workfront
 
@@ -122,7 +122,7 @@ Uma nova tarefa é criada e listada na guia **Criado por você**.
 
 >[!NOTE]
 >
-> Como gerente de projeto, você pode visualizar essa tarefa recém-criada no painel do Adobe Workfront juntamente com outros detalhes importantes da tarefa. Para obter mais detalhes, consulte [Compreender painéis](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/dashboards/understand-dashboards/understand-dashboards).
+> Como gerente de projeto, você pode visualizar essa tarefa recém-criada no painel do Adobe Workfront juntamente com outros detalhes importantes da tarefa. Para obter mais detalhes, consulte [Compreender painéis](https://experienceleague.adobe.com/pt-br/docs/workfront/using/reporting/dashboards/understand-dashboards/understand-dashboards).
 
 ### Gerenciar tarefas criadas por você
 
