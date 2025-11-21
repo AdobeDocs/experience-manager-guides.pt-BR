@@ -341,7 +341,7 @@ Para acessar o histórico de versões e reverter para uma versão específica do
 
    Guia **Metadata**: os metadados recém-adicionados estão em fonte verde e os metadados excluídos estão em fonte vermelha.
 
-   ![Diferença de metadados para versões ](images/metadata-version-diff.png){width="550" align="left"}
+   ![Diferença de metadados para versões &#x200B;](images/metadata-version-diff.png){width="550" align="left"}
 
    *Comparar os metadados de diferentes versões no histórico de Versões.*
 
@@ -1000,7 +1000,7 @@ Você tem as seguintes opções para filtrar os arquivos e restringir sua pesqui
 - **Arquivos DITA**: você pode procurar todos os **tópicos DITA** e **mapas DITA** presentes no caminho selecionado. Elas são selecionadas por padrão.
 - **Arquivos não DITA**: você pode pesquisar por **Arquivos Ditaval**, **Arquivos de Imagem**, **Multimídia**, **Documentos** e **JSON** no caminho selecionado.
 
-  ![filtro de pesquisa rápida ](images/repository-filter-search-quick.png) {width="300" align="left"}
+  ![filtro de pesquisa rápida &#x200B;](images/repository-filter-search-quick.png) {width="300" align="left"}
 
   *Use os filtros rápidos para procurar arquivos DITA e não DITA.*
 
@@ -1975,7 +1975,7 @@ Você pode acessar o recurso **Propriedades de conteúdo** selecionando o ícone
 
 1. No painel suspenso **Atributo**, selecione o atributo na lista suspensa e especifique o valor de um atributo.  Em seguida, selecione **Adicionar**.
 
-   ![painel de atributos com vários atributos ](images/attributes-multiple-properties.png){width="300" align="left"}
+   ![painel de atributos com vários atributos &#x200B;](images/attributes-multiple-properties.png){width="300" align="left"}
 
 1. Para editar o atributo, passe o mouse sobre ele e selecione **Editar** ![ícone de edição](images/edit_pencil_icon.svg).
 

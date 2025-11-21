@@ -120,7 +120,7 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 - PDF nativo | Xref está imprimindo o conteúdo do título do tópico href em vez do rótulo Xref. (11322)
 - PDF nativo | Não é possível salvar as configurações do modelo do PDF. (10751)
 - PDF nativo | O texto se estende além da largura da coluna ao incluir várias xrefs. (10876)
-- PDF nativo | O elemento `<note>``</note>` não gera um título de extensão extra de seu tipo. (10549)
+- PDF nativo | O elemento `<note>` `</note>` não gera um título de extensão extra de seu tipo. (10549)
 - Saída JSON | A propriedade `fmUuid` no nó jcr:content do JSON é diferente da &quot;id&quot; dentro do JSON. (11564)
 - Saída JSON | Se o mapa e o tópico com o mesmo nome de arquivo estiverem presentes, o JSON do mapa será removido. (11524)
 
