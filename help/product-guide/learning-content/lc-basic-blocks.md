@@ -4,9 +4,9 @@ description: Saiba mais sobre os componentes básicos que podem ser adicionados 
 feature: Authoring
 role: User
 exl-id: 171b9df9-3782-4cfa-b450-7824e5fd390d
-source-git-commit: 74e5baaf1743986ab188f5c89644d7683f885d0a
+source-git-commit: 41ea5e91b5ee096ede2eb06dae7a44f01e0c0571
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,9 @@ Para fornecer uma compreensão mais clara de como criar um Tópico de aprendizad
 
 Você pode usar os recursos básicos de edição disponíveis na barra de ferramentas do Editor, conforme descrito abaixo:
 
-- **Widgets**: adicione widgets como acordeão, carrossel, hotspots e muito mais ao seu Tópico ou conteúdo de aprendizado usando o menu **Inserir**, como mostrado abaixo. Para obter mais detalhes sobre widgets interativos, veja [Usar widgets interativos](./lc-widgets.md).
+- **Opções de inserção**: fornece opções para adicionar [Widgets interativos](./lc-widgets.md), como Acordeão, Carrossel, Ponto de acesso, Guias, Cartões invertidos e Clique para revelar, bem como [elementos estruturais](./lc-other-insert-options.md), como Iframe, Cotas de bloqueio, Bloco de código e muito mais. Use esse menu para adicionar funcionalidade e variedade ao seu conteúdo de aprendizado, tornando-o envolvente e bem estruturado.
 
-  ![](assets/widgets-learning-content.png){width="650" align="left"}
+  ![](assets/insert-menu-options-lc.png){width="650" align="left"}
 
 - **Componentes de texto**: adiciona cabeçalho/títulos, parágrafo, aspas embutidas, sobrescrito, subscrito e citação ao seu conteúdo.
 
@@ -45,15 +45,33 @@ Você pode usar os recursos básicos de edição disponíveis na barra de ferram
 
   ![](assets/image-learning-content.png){width="650" align="left"}
 
-- **Multimídia**: adiciona vídeo e áudio ao conteúdo do menu **Mais** da barra de ferramentas. Você pode personalizar suas propriedades usando o painel **Propriedades de Conteúdo**.
+- **Multimídia**: adiciona vídeo e áudio ao conteúdo. Você pode personalizar suas propriedades usando o painel **Propriedades de Conteúdo**.
 
   ![](assets/video-learning-content.png){width="650" align="left"}
 
-- **Símbolos**: adiciona símbolos de sua escolha ao conteúdo de uma lista, conforme mostrado abaixo. Você pode usá-lo no menu **Mais** da barra de ferramentas.
+- **Conteúdo reutilizável**: permite que você incorpore conteúdo existente de seus ativos ou repositório para reutilização. Execute as seguintes etapas para inserir um conteúdo reutilizável:
+
+   1. Selecione **Conteúdo reutilizável** na barra de ferramentas.
+A caixa de diálogo **Reutilizar conteúdo** é aberta.
+   2. Navegue e selecione o tópico desejado para incluir seu conteúdo no curso atual.
+   3. Selecione a ID do conteúdo que deseja adicionar; uma visualização será exibida junto com o para referência.
+
+      ![](assets/reuse-content-dialog.png){width="650" align="left"}
+
+   4. Escolha **Selecionar**.
+
+  O conteúdo é inserido. Por exemplo, a seção Estrutura do veículo é um conteúdo reutilizado e adicionado ao tópico do curso. O tipo é mostrado como **Reference**, e sua **ID** é refletida no painel **Content properties**.
+
+  ![](assets/reusable-content.png){width="650" align="left"}
+
+
+- **Símbolos**: adiciona símbolos de sua escolha ao conteúdo de uma lista, conforme mostrado abaixo.
 
   ![](assets/symbol-learning-content.png){width="350" align="left"}
 
 
-- **Hiperlinks**: adiciona hiperlinks ao local necessário em seu conteúdo. Você pode usá-lo no menu **Mais** da barra de ferramentas. Pode ser uma referência de arquivo, um URL da Web ou um link de email, conforme mostrado abaixo.
+- **Hiperlinks**: adiciona hiperlinks ao local necessário em seu conteúdo. Pode ser uma referência de arquivo, um URL da Web ou um link de email, conforme mostrado abaixo.
 
   ![](assets/hyperlink-learning-content.png){width="650" align="left"}
+
+Além disso, a lista suspensa **Menu** fornece acesso às ações de edição (Recortar, Copiar, Excluir), Localizar e substituir e ao rótulo Versão.

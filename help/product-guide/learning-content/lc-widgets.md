@@ -4,9 +4,9 @@ description: Saiba mais sobre os widgets interativos que você pode usar no cont
 feature: Authoring
 role: User
 exl-id: e7ca2df1-9d15-4718-9698-8a0f059a86d7
-source-git-commit: 74e5baaf1743986ab188f5c89644d7683f885d0a
+source-git-commit: d4fd08c70c590496fef7a047745d4403546664fe
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -28,33 +28,22 @@ Os widgets disponíveis criados para aprimorar a experiência do usuário e simp
 
   ![](assets/carousal-learning-content.png){width="650" align="left"}
 
-- **Pontos de acesso:** Adicione pontos de acesso a uma imagem selecionada. Comece escolhendo uma imagem e navegue até **Inserir > Ponto de acesso**. Isso abre a caixa de diálogo Ponto de acesso, onde é possível configurar várias opções, como definir diferentes tamanhos de pontos de acesso, adicionar links correspondentes e ajustar a disposição em camadas, trazendo as áreas para frente ou para trás.
+- **Ponto de acesso:** Adiciona ponto de acesso a uma imagem selecionada. Comece escolhendo uma imagem e navegue até **Inserir > Ponto de acesso**. Isso abre a caixa de diálogo Ponto de acesso, onde é possível configurar várias opções, como definir diferentes tamanhos de pontos de acesso, adicionar links correspondentes e ajustar a disposição em camadas, trazendo as áreas para frente ou para trás.
 
   ![](assets/hotspot-learning-content.png){width="650" align="left"}
 
-- **Citações em bloco:** adiciona citações em bloco juntamente com citações ao seu conteúdo.
+- **Guia:** permite organizar o conteúdo em seções interativas.  Cada guia pode representar um tópico ou categoria distinta; os alunos podem clicar ou tocar nas guias para revelar o conteúdo correspondente. Coloque o cursor onde deseja que o widget Guia apareça no conteúdo e navegue até **Inserir > Widget > Guia**. Isso adiciona um contêiner de guia ao conteúdo. Agora, comece a adicionar conteúdo à guia, que inclui um título de guia e seu conteúdo correspondente.
 
-  ![](assets/block-quote-learning-content.png){width="650" align="left"}
+  ![](assets/insert-tab-lc.png)
 
-- **Blocos de código:** Adiciona um bloco de código ao seu conteúdo.
+  Para adicionar, excluir e alternar o layout de guias (guias verticais ou horizontais), use a seção **Propriedades de conteúdo** no painel direito.
+- **Inverter cartão:** Adiciona um cartão interativo ao seu conteúdo que inverte para revelar informações adicionais. Cada cartão tem dois lados - frontal e traseira, permitindo que os alunos explorem as informações de forma envolvente.  Para inserir um cartão Inverter, coloque o cursor no local desejado e navegue até **Inserir > Widget > Inverter cartão**, que adiciona um contêiner de Cartão Inverter ao seu conteúdo. Em seguida, você pode adicionar um título e uma imagem opcional ao lado frontal e inserir o conteúdo correspondente no verso.
 
-  ![](assets/code-block-learning-content.png){width="650" align="left"}
+  ![](assets/insert-flip-card-lc.png)
 
-- **Iframes:** insira um iframe no conteúdo para incorporar páginas da Web externas ou recursos interativos. Você pode configurar as propriedades do iframe usando o painel **Propriedades de conteúdo**, incluindo a URL de origem, largura, altura, alinhamento e o título. Você pode visualizar o conteúdo adicionado no iframe alternando para o modo **Visualização**, conforme mostrado abaixo.
+  Para adicionar, excluir cartões ou alterar seu layout, use a seção **Propriedades de conteúdo** no painel direito.
+- **Clique para revelar:** insere um widget interativo ao seu conteúdo que oculta o conteúdo até que os alunos cliquem para revelá-lo. Isso ajuda a reduzir a desordem e a incentivar a exploração. Insira o widget colocando o cursor no local desejado e selecionando **Inserir > Widget > Clique para revelar**. Depois de inserido, forneça o título para o cabeçalho do widget e defina o conteúdo oculto que aparece quando os alunos interagem.
 
-  Exibição de **Author**:
+  ![](assets/insert-click-to-reveal-lc.png)
 
-  ![](assets/iframe-learning-content.png){width="650" align="left"}
-
-
-  Modo de **visualização**:
-
-  ![](assets/iframe-learning-content-preview.png){width="650" align="left"}
-
-- **Campo de entrada:** adicione um campo de entrada de texto junto com um botão ao seu conteúdo. Você pode usar essa combinação para capturar a entrada do usuário e acionar ações específicas. Um botão Reproduzir é adicionado ao conteúdo, conforme mostrado abaixo.
-
-  ![](assets/button-learning-content.png){width="650" align="left"}
-
-- **Mais opções:** você tem opções adicionais para aprimorar o conteúdo de aprendizado, incluindo a inserção de uma linha horizontal, quebra de linha, caixa de texto, caixa de texto posicionada e HTML inserido.
-
-  ![](assets/more-options-learning-content.png){width="650" align="left"}
+  Para adicionar ou excluir o widget, ou gerenciar sua orientação, use a seção **Propriedades de conteúdo** no painel direito.

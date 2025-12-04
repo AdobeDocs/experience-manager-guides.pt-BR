@@ -4,10 +4,10 @@ description: Saiba mais sobre os vários recursos presentes no Experience Manage
 feature: Authoring
 role: User
 exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
-source-git-commit: 17d71e65e2f4f79a764d822f6f1ada136a7379d7
+source-git-commit: 0171f7b798686a0a16942e98133001a4c05bb76b
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 1%
+source-wordcount: '708'
+ht-degree: 0%
 
 ---
 
@@ -84,3 +84,15 @@ A opção **Mostrar** determina como os tópicos são exibidos. Você pode optar
 ![](assets/course-display-settings.png)
 
 Para obter uma visão geral do vídeo, exiba [Mostrar configurações](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides) ![](assets/Smock_VideoCheckedOut_18_N.svg).
+
+## Criar tarefa de revisão
+
+Como Autor de um curso de aprendizado ou Administrador, você pode criar uma tarefa de revisão para o curso e atribuí-la a um Revisor para feedback. Comece abrindo o curso no painel **Gerenciador de cursos** e selecione **Criar tarefa de revisão** no menu **Opções**, conforme mostrado abaixo:
+
+![](assets/create-review-task-lc.png)
+
+Você é direcionado à página **Criar Tarefa de Revisão**, na qual precisa adicionar detalhes da tarefa, como o título da tarefa de revisão, especificar o projeto DITA do qual ele faz parte, definir linhas do tempo da tarefa, atribuir revisores e muito mais. Depois de concluído, o(s) Revisor(es) receberá(ão) uma notificação para essa tarefa. Os tópicos selecionados do curso são abertos na interface de revisão, onde o(s) revisor(es) pode(m) adicionar comentários e enviar os tópicos novamente para atualizações.
+
+Para entender o fluxo de trabalho de revisão no Experience Manager Guides, exiba [Enviar tópicos para revisão](../user-guide/review-send-topics-for-review.md).
+
+
