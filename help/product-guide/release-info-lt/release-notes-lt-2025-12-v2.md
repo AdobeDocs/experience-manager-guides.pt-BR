@@ -3,7 +3,7 @@ title: Notas de versão | Novidades da versão de dezembro de 2025 do conteúdo 
 description: Saiba mais sobre os recursos novos e aprimorados da versão de dezembro de 2025 do conteúdo de treinamento e aprendizado do produto
 role: Leader
 hidefromtoc: true
-source-git-commit: fe7e1605933f925530d7767af22770dcde90b6df
+source-git-commit: a5a5202d652096ef4de1db78b8638e605e9d80f4
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Esta nota de versão aborda os recursos novos e aprimorados introduzidos na vers
 
   Para obter mais detalhes, consulte [Outras opções no menu Inserir](../learning-content/lc-other-insert-options.md).
 
-  ![](assets/knowledge-check-topic.png){width="350" align="left"}
+  ![](assets/knowledge-check-topic.png){width="650" align="left"}
 
 - **Novos widgets interativos**: você pode envolver alunos com alguns novos widgets interativos que tornam o conteúdo mais imersivo: **Clique para revelar**, **Inverter cartão** e **Guia**.
 
@@ -36,7 +36,7 @@ Esta nota de versão aborda os recursos novos e aprimorados introduzidos na vers
 
   Para obter detalhes, consulte [Tipos de perguntas do questionário](../learning-content/quiz-insert-questions.md#question-types).
 
-  ![](assets/question-types.png){width="350" align="left"}
+  ![](assets/question-types.png){width="650" align="left"}
 
 ## Revisar
 
@@ -44,7 +44,7 @@ Esta nota de versão aborda os recursos novos e aprimorados introduzidos na vers
 
   Para obter detalhes, exiba [Criar tarefa de revisão](../learning-content/manage-course.md#create-review-task).
 
-  ![](assets/create-review-task-lc.png){width="350" align="left"}
+  ![](assets/create-review-task-lc.png){width="650" align="left"}
 
 ## Gestão de conteúdo
 
@@ -52,7 +52,7 @@ Esta nota de versão aborda os recursos novos e aprimorados introduzidos na vers
 
   Para obter mais detalhes, consulte [Adicionar blocos de construção básicos](../learning-content/lc-basic-blocks.md).
 
-  ![](assets/reusable-content.png){width="350" align="left"}
+  ![](assets/reusable-content.png){width="650" align="left"}
 
 
 
