@@ -3,9 +3,9 @@ title: Outras opções no menu Inserir
 description: Saiba mais sobre as opções do menu de inserção que podem ser usadas no conteúdo de aprendizado.
 feature: Authoring
 role: User
-source-git-commit: 1fe46636a82b87b65fb5b29e7282636e7dec2358
+source-git-commit: e31f7744d4c01a2924a710f547375b1b497163ee
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -48,13 +48,13 @@ As outras opções disponíveis no menu Inserir na barra de ferramentas do Edito
   > A edição ou criação de conteúdo H5P não é suportada no Adobe Experience Manager Guides. Prepare seu pacote H5P externamente antes de fazer upload.
 
 
-- **Equação matemática:** insere equações do MathML ao seu conteúdo. Você pode criar uma equação do MathML e selecionar **Inserir** para adicioná-la ao seu documento.
+- **Equação do MathML:** insere equações do MathML ao seu conteúdo. Você pode criar uma equação do MathML e selecionar **Inserir** para adicioná-la ao seu documento.
 
   ![](./assets/insert-mathml.png){width="350" align="left"}
 
   A equação é inserida com o plano de fundo cinza-claro. A qualquer momento, você pode atualizar uma equação clicando com o botão direito do mouse em uma equação existente e selecionando **Editar equação matemática** no menu de contexto. Para obter detalhes sobre a validação de equações do MathML no Experience Manager Guides, exiba [Validação de equações no editor do MathML](../user-guide/web-editor-other-features.md#validation-of-equations-in-the-mathml-editor).
 
-- **Verificação de conhecimento:** permite adicionar perguntas nos formatos disponíveis (Correção Simples, Correção Múltipla, Verdadeiro/Falso, Corresponder ao Seguinte ou inserir do banco de perguntas) ao seu tópico para revisão e para confirmar a compreensão sem classificação ou relatório. Essas perguntas espelham formatos padrão e excluem a pontuação, tornando-as ideais para autoavaliação e adequadas como parte do conteúdo do curso ou de um tópico antes de um questionário ou avaliação posterior, conforme necessário.
+- **Verificação de conhecimento:** permite adicionar perguntas nos formatos disponíveis (Correção Simples, Correção Múltipla, Verdadeiro/Falso, Corresponder ao Seguinte ou inserir do banco de perguntas) ao seu tópico para revisão e para confirmar a compreensão sem classificação. Essas perguntas espelham formatos padrão e excluem a pontuação, tornando-as ideais para autoavaliação e adequadas como parte do conteúdo do curso ou de um tópico antes de um questionário ou avaliação posteriormente, se disponível.
 
   ![](assets/knowledge-check-topic.png){width="650" align="left"}
 
