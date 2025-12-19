@@ -5,9 +5,9 @@ exl-id: 6df31e3c-683c-4188-b917-9c1855d9b95b
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: 9769a196346117237f2f72b6c88f8ac14fece740
 workflow-type: tm+mt
-source-wordcount: '5756'
+source-wordcount: '5824'
 ht-degree: 0%
 
 ---
@@ -185,7 +185,7 @@ Execute as seguintes etapas para especificar seu próprio modelo de design a ser
 >
 > Depois de criar um nó de modelo de design personalizado, você deve atualizar a opção Design nas predefinições de saída do site do AEM para usar o nó de modelo de design personalizado.
 
-Para obter mais informações, consulte [Criar o seu primeiro site do Adobe Experience Manager 6.3](https://helpx.adobe.com/experience-manager/using/first_aem63_website.html) e [Noções básicas](https://helpx.adobe.com/br/experience-manager/6-3/sites/developing/using/the-basics.html) sobre como desenvolver seu próprio site no AEM.
+Para obter mais informações, consulte [Criar o seu primeiro site do Adobe Experience Manager 6.3](https://helpx.adobe.com/experience-manager/using/first_aem63_website.html) e [Noções básicas](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/the-basics.html) sobre como desenvolver seu próprio site no AEM.
 
 ### Usar o título do documento para gerar a saída do site do AEM
 
@@ -332,7 +332,7 @@ Para excluir o elemento `table` do nivelamento, adicione a seguinte propriedade 
 
 ### Configurar o controle de versão para páginas excluídas na saída do site do AEM
 
-Ao gerar a saída de Site do AEM com as opções **Excluir e** Criar **&#x200B;**&#x200B;selecionadas para a configuração Páginas de Saída Existentes, uma versão é criada para a página\(s\) que está sendo excluída. Você pode configurar o sistema para interromper a criação de uma versão antes da exclusão.
+Ao gerar a saída de Site do AEM com as opções **Excluir e** Criar ****selecionadas para a configuração Páginas de Saída Existentes, uma versão é criada para a página\(s\) que está sendo excluída. Você pode configurar o sistema para interromper a criação de uma versão antes da exclusão.
 
 Execute as seguintes etapas para interromper a criação de uma versão para a página\(s\) que está sendo excluída:
 
@@ -642,11 +642,11 @@ A AEM Guides fornece a categoria `apps.fmdita.dashboard-extn` para personalizar 
 
 >[!NOTE]
 >
-> Para obter mais informações sobre como criar a Biblioteca de Cliente do AEM, consulte [Usando Bibliotecas do Lado do Cliente](https://helpx.adobe.com/br/experience-manager/6-4/sites/developing/using/clientlibs.html).
+> Para obter mais informações sobre como criar a Biblioteca de Cliente do AEM, consulte [Usando Bibliotecas do Lado do Cliente](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/clientlibs.html).
 
 ## Manipular a representação da imagem durante a geração da saída {#id177BF0G0VY4}
 
-O AEM vem com um conjunto de workflows e manipuladores de mídia padrão para processar ativos. No AEM, há fluxos de trabalho predefinidos para lidar com o processamento de ativos para os tipos MIME mais comuns. Normalmente, para cada imagem que você carrega, o AEM cria várias representações da mesma em formato binário. Essas representações podem ser de tamanhos diferentes, com uma resolução diferente, com uma marca d&#39;água adicionada ou alguma outra característica alterada. Para obter mais informações sobre como o AEM lida com ativos, consulte [Processando o Assets usando Manipuladores e fluxos de trabalho de mídia](https://helpx.adobe.com/br/experience-manager/6-5/assets/using/media-handlers.html) na documentação do AEM.
+O AEM vem com um conjunto de workflows e manipuladores de mídia padrão para processar ativos. No AEM, há fluxos de trabalho predefinidos para lidar com o processamento de ativos para os tipos MIME mais comuns. Normalmente, para cada imagem que você carrega, o AEM cria várias representações da mesma em formato binário. Essas representações podem ser de tamanhos diferentes, com uma resolução diferente, com uma marca d&#39;água adicionada ou alguma outra característica alterada. Para obter mais informações sobre como o AEM lida com ativos, consulte [Processando o Assets usando Manipuladores e fluxos de trabalho de mídia](https://helpx.adobe.com/experience-manager/6-5/assets/using/media-handlers.html) na documentação do AEM.
 
 O AEM Guides permite configurar qual representação de imagem usar no momento da geração de saída para seus documentos. Por exemplo, você pode escolher uma das representações de imagem padrão ou criar uma e usar a mesma para publicar seus documentos. O mapeamento de representação de imagem para publicação de seus documentos está armazenado no arquivo `/libs/fmdita/config/ **renditionmap.xml**`. Um trecho do arquivo `renditionmap.xml` é o seguinte:
 
@@ -661,6 +661,7 @@ O AEM Guides permite configurar qual representação de imagem usar no momento d
       <rendition output="AEMSITE">cq5dam.web.1280.1280.jpeg</rendition>
       <rendition output="PDF">original</rendition>
       <rendition output="HTML5">cq5dam.web.1280.1280.jpeg</rendition>
+      <rendition output="HTML5" outputName="ditahtml5">cq5dam.thumbnail.319.319.png</rendition>
       <rendition output="EPUB">cq5dam.web.1280.1280.jpeg</rendition>
       <rendition output="CUSTOM">cq5dam.web.1280.1280.jpeg</rendition>
    </mapelement>
@@ -669,6 +670,26 @@ O AEM Guides permite configurar qual representação de imagem usar no momento d
 ```
 
 O elemento `mimetype` especifica o tipo MIME do formato de arquivo. O elemento `rendition output` especifica o tipo de formato de saída e o nome da representação \(por exemplo, `cq5dam.web.1280.1280.jpeg`\) que deve ser usada para publicar a saída especificada. Você pode especificar as representações de imagem a serem usadas para todos os formatos de saída compatíveis: AEMSITE, PDF, HTML5, EPUB e CUSTOM.
+
+Se quiser especificar diferentes representações de imagem para uma predefinição de saída, você poderá usar o atributo `outputName` para definir representações personalizadas para predefinições de saída específicas no mesmo tipo de saída. Isso é útil quando você precisa de tamanhos ou formatos de imagem diferentes para cenários de publicação diferentes.
+
+Por exemplo:
+
+
+```XML
+<renditionmap>
+   <mapelement>
+      <mimetype>image/png</mimetype>
+      
+      <rendition output="HTML5">cq5dam.web.1280.1280.jpeg</rendition>
+      <rendition output="HTML5" outputName="ditahtml5">cq5dam.thumbnail.319.319.png</rendition>
+      
+   </mapelement>
+...
+</renditionmap>
+```
+
+Nas representações acima, com o atributo `outputName` definido na representação, a predefinição ditahtml5 usa `cq5dam.thumbnail.319.319.png`, e sem `outputName`, todas as saídas HTML5 usam `cq5dam.web.1280.1280.jpeg`.
 
 Se a representação especificada não estiver presente, o processo de publicação do AEM Guides primeiro procurará a representação da Web da imagem fornecida. Se nem mesmo a representação da Web for encontrada, a representação original da imagem será usada.
 
