@@ -4,9 +4,9 @@ description: Conheça a barra de ferramentas no editor. Saiba mais sobre a inter
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
-source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
+source-git-commit: 172599c2bd99f1779b04255aac5e7d505614b463
 workflow-type: tm+mt
-source-wordcount: '5962'
+source-wordcount: '6011'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ O recurso **Histórico de versões** no Editor permite verificar as versões dis
 
    Guia **Metadata**: os metadados recém-adicionados estão em fonte verde e os metadados excluídos estão em fonte vermelha.
 
-   ![Diferença de metadados para versões &#x200B;](images/metadata-version-diff.png){width="550" align="left"}
+   ![Diferença de metadados para versões ](images/metadata-version-diff.png){width="550" align="left"}
 
    *Comparar os metadados de diferentes versões no histórico de Versões.*
 
@@ -471,6 +471,10 @@ Também é possível pesquisar usando a UUID do arquivo que você deseja referen
 
 Se o administrador tiver habilitado a opção UUIDs no *XMLEditorConfig*, você exibirá a UUID do conteúdo referenciado na propriedade **Link**.
 
+>[!IMPORTANT]
+>
+> De acordo com o comportamento DITA padrão, o atributo scope=`external` não deve ser aplicado a links internos, pois é destinado apenas a referências a recursos externos. A aplicação desse atributo a links internos pode interromper os workflows. Para conteúdo gerenciado no Experience Manager Guides, use o escopo padrão=`local` ou referências baseadas em chave.
+
 ![](images/ref-link-uuid_cs.png){align="left"}
 
 >[!NOTE]
@@ -623,4 +627,4 @@ Se um arquivo for bloqueado por outro usuário, passar o mouse sobre o ícone de
 Como administrador, você também tem acesso ao recurso **Forçar desbloqueio** que permite desbloquear o arquivo bloqueado por outros usuários. Use este recurso para acessar os direitos de edição em um arquivo bloqueado por outros usuários.
 
 ![](images/web-editor-force-unlock-new.png){width="350" align="left"}
-**Tópico pai:**&#x200B;[&#x200B; Introdução ao Editor](web-editor.md)
+**Tópico pai:**[ Introdução ao Editor](web-editor.md)
