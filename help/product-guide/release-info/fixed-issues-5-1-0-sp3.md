@@ -2,9 +2,9 @@
 title: Notas de versão | Correção de problemas na versão Adobe Experience Manager Guides 5.1.0 Service Pack 3
 description: Saiba mais sobre as correções de erros na versão 5.1.0 Service Pack 3 do Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 64d7e4f8028ade36c4fee9bb3407e70b10da6869
+source-git-commit: 82eb0e18eb285006c66b1fe2b6ecc3ca86fefe61
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '302'
 ht-degree: 1%
 
 ---
@@ -40,6 +40,12 @@ Saiba mais sobre [as instruções de atualização para o 5.1.0 Service Pack 3 v
 ## Platform
 
 - Usar `scope="external"` para uma referência ao conteúdo DAM em um tópico ou mapa faz com que o caminho relativo do ativo seja substituído por um GUID. (GUIDES-35605)
+
+## Problema conhecido
+
+A Adobe identificou o seguinte problema conhecido para a versão 5.1.0 Service Pack 3:
+
+- Quando você marca uma tarefa de revisão como concluída na página de detalhes da tarefa, a tarefa é concluída e fechada; no entanto, seu status continua a ser exibido como **Em andamento** no painel Revisão. (GUIDES-39375)
 
 
 
