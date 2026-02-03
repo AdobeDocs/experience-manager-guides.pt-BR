@@ -306,4 +306,4 @@ Quando a tarefa de revisão for atualizada, os revisores receberão notificaçõ
 Para obter mais detalhes, consulte [Noções básicas sobre notificações de revisão](./review-understanding-review-notifications.md).
 
 
-**Tópico pai:**[ Introdução à revisão](review.md)
+**Tópico pai:**&#x200B;[&#x200B; Introdução à revisão](review.md)

@@ -84,7 +84,7 @@ O recurso **Histórico de versões** no Editor permite verificar as versões dis
 
    Guia **Metadata**: os metadados recém-adicionados estão em fonte verde e os metadados excluídos estão em fonte vermelha.
 
-   ![Diferença de metadados para versões ](images/metadata-version-diff.png){width="550" align="left"}
+   ![Diferença de metadados para versões &#x200B;](images/metadata-version-diff.png){width="550" align="left"}
 
    *Comparar os metadados de diferentes versões no histórico de Versões.*
 
@@ -659,4 +659,4 @@ Se um arquivo for bloqueado por outro usuário, passar o mouse sobre o ícone de
 Como administrador, você também tem acesso ao recurso **Forçar desbloqueio** que permite desbloquear o arquivo bloqueado por outros usuários. Use este recurso para acessar os direitos de edição em um arquivo bloqueado por outros usuários.
 
 ![](images/web-editor-force-unlock-new.png){width="350" align="left"}
-**Tópico pai:**[ Introdução ao Editor](web-editor.md)
+**Tópico pai:**&#x200B;[&#x200B; Introdução ao Editor](web-editor.md)

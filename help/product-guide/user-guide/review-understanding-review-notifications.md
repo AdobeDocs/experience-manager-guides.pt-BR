@@ -61,4 +61,4 @@ Para obter uma lista completa de variáveis predefinidas e revisar a personaliza
 
 
 
-**Tópico pai:**[ Introdução à revisão](review.md)
+**Tópico pai:**&#x200B;[&#x200B; Introdução à revisão](review.md)

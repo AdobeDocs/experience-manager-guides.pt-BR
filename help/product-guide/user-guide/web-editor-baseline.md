@@ -168,5 +168,5 @@ Usando o ícone Filtros no painel **Filtros da linha de base**, você pode aplic
 
 Depois de editar a linha de base, selecione **Salvar** para salvar as alterações na linha de base. Você pode selecionar **Redefinir** se não quiser salvar a alteração e redefinir a linha de base. Quando você seleciona **Redefinir**, é exibido um aviso de que as alterações não salvas serão perdidas.
 
-**Tópico pai:**[ Geração de saída](generate-output.md)
+**Tópico pai:**&#x200B;[&#x200B; Geração de saída](generate-output.md)
 
