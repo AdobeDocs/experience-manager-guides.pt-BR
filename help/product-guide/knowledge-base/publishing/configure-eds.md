@@ -4,7 +4,7 @@ description: Entenda como o Edge Delivery Services (Beta) expande as possibilida
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 5808d42c530e55e309f192c99a0e71334c888b57
+source-git-commit: 7ca2eeb0356f3c82a8d970f291006fc6d19aca23
 workflow-type: tm+mt
 source-wordcount: '1532'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Para habilitar a publicação do Experience Manager Guides no EDS (Beta), você 
 2. [Criar e configurar um perfil de publicação para EDS (Beta) no Experience Manager Guides](#create-and-configure-a-publish-profile-for-eds-beta-in-experience-manager)
 3. [Personalizar saída usando blocos EDS](#customize-output-using-eds-blocks)
 
-Para obter uma apresentação rápida em vídeo, exiba [Publicação no AEM Guides](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25).
+Para obter uma apresentação rápida em vídeo, exiba [Publicação no AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25).
 
 
 
@@ -57,7 +57,7 @@ Execute as seguintes etapas para instalar e configurar o aplicativo *AEM Code Sy
 1. Navegue até a página [Sincronização de Código AEM](https://github.com/apps/aem-code-sync) e selecione **Instalar**.
 2. A *Sincronização de Código AEM* monitora as alterações no repositório e garante que as atualizações sejam enviadas corretamente para o GitHub.
 
-   >
+   >[!NOTE]
    >
    > Ao instalar o aplicativo, certifique-se de usar a mesma conta GitHub que possui o repositório.
 
@@ -128,7 +128,7 @@ Para configurar a URL do ponto de montagem no arquivo `fstab.yaml`:
    - `your-user-name`
    - `your-repo-name`
 
-   >
+   >[!NOTE]
    >
    > Na URL do ponto de montagem, `main` indica a ramificação na qual você deseja publicar o conteúdo e `docs` indica a pasta raiz do repositório EDS (Beta) no qual você está trabalhando. Se preferir alterar o nome da ramificação no GitHub, atualize o mesmo nome de ramificação na URL *mountpoint* (no arquivo `fstab.yaml`) e o perfil de publicação de EDS correspondente no Experience Manager Guides.
 
@@ -148,7 +148,7 @@ As seções abaixo descrevem cada etapa em sequência e explicam como configurar
 
 ### Criar o perfil de publicação do EDS (Beta)
 
-1. Vá para **[Configurações do Workspace]** **>** **Publicar perfis**.
+1. Vá para **[Configurações do Workspace](/help/product-guide/cs-install-guide/workspace-settings.md)** **>** **Publicar perfis**.
 2. Selecione o ícone **+** para criar um novo perfil de publicação e fornecer os seguintes detalhes:
    - **Tipo de servidor**: selecione **GitHub Edge Delivery Services (Beta)** na lista suspensa.
    - **Nome**: insira um nome para este perfil.
@@ -184,7 +184,7 @@ O perfil de publicação de EDS (Beta) agora está configurado.
 
 6. Selecione **Salvar** e depois **Gerar saída**.
 
->
+>[!NOTE]
 >
 > A saída gerada é armazenada na pasta **docs** do repositório EDS (Beta).
 

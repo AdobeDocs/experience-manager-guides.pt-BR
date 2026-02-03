@@ -4,9 +4,9 @@ description: Conhecer os recursos do Editor de mapas no Adobe Experience Manager
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 4cb5934fab1897bd36de33f2192ae2c4392c07eb
+source-git-commit: a487c81c5a49ec2b8ec780ffd73cc38fcb693acc
 workflow-type: tm+mt
-source-wordcount: '2563'
+source-wordcount: '2671'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ As seguintes opções estão disponíveis na barra de ferramentas da exibição 
 
 **Referência de tópico** - ![](images/topic-reference.svg)
 
-Exibe a caixa de diálogo de pesquisa de tópico. Navegue até o arquivo de tópico/mapa que você deseja inserir e escolha **Selecionar** para adicioná-lo ao mapa.
+Exibe a caixa de diálogo Selecionar arquivo. Navegue até o arquivo de tópico/mapa que você deseja inserir e escolha **Selecionar** para adicioná-lo ao mapa.
 
 ![](images/insert-topic-reference-dialog.png){align="left"}
 
@@ -146,7 +146,7 @@ Além disso, você pode exibir os seguintes ícones e executar as tarefas relaci
 
 **Inserir antes/Inserir depois de** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
-Exibe a caixa de diálogo **Inserir elemento antes ou &#x200B;** Inserir elemento após. Selecione o elemento que deseja inserir no mapa. Dependendo da operação, o novo elemento é inserido antes ou depois do elemento atual no mapa.
+Exibe a caixa de diálogo **Inserir elemento antes ou **Inserir elemento após. Selecione o elemento que deseja inserir no mapa. Dependendo da operação, o novo elemento é inserido antes ou depois do elemento atual no mapa.
 
 **Elemento** - ![](images/Add_icon.svg)
 
@@ -260,15 +260,31 @@ Além de poder exibir a posição de cada arquivo de tópico em um mapa, é dese
 
 Você pode executar as seguintes tarefas adicionais no modo de visualização:
 
+**Abrir tópicos para edição**
+
 - Clique com o botão direito em um tópico e selecione **Editar** para abrir o tópico para edição em uma nova guia.
 
   >[!NOTE]
   >
   > Se você não tiver direitos de edição, o tópico será aberto no modo somente leitura.
 
+  ![](images/edit-topic-preview-mode.png){width="650" align="left"}
+
 - Pule para o tópico desejado selecionando o título do tópico na árvore de mapa \(no painel esquerdo\).
 
 - O tópico atual na visualização do mapa também é destacado na árvore do mapa.
+
+**Atualizar tópicos ou mapa**
+
+Quando um mapa é aberto no modo Visualização e você volta a ele a partir de outra guia no Editor, a visualização não é atualizada automaticamente. Para recarregar a visualização do mapa, é necessária uma atualização manual.
+
+Você pode usar a funcionalidade Atualizar, disponível no modo Visualização do mapa, de duas maneiras:
+
+- **Atualização no nível do mapa**: selecionar o botão **Atualizar** atualiza a visualização do mapa inteiro (incluindo todos os tópicos) e leva você à primeira posição de rolagem para obter uma exibição clara.
+  ![](images/refresh-map.png){width="650" align="left"}
+
+- **Atualização no nível do tópico**: selecionar **Atualizar tópico** no menu de contexto atualiza esse tópico específico, mantendo a posição de rolagem inalterada.
+  ![](images/refresh-topic.png){width="650" align="left"}
 
 **Outras maneiras de visualizar um arquivo de mapa**
 

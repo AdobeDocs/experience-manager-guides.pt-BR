@@ -4,9 +4,9 @@ description: Saiba como criar uma tarefa de revisão e enviar tópicos para revi
 exl-id: c486eb6a-7e1f-4faa-973d-b47252d3e7c5
 feature: Reviewing
 role: User
-source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
+source-git-commit: cd536b9e27b3c422fc723e9f13b12ac432fa3fc9
 workflow-type: tm+mt
-source-wordcount: '2793'
+source-wordcount: '3055'
 ht-degree: 0%
 
 ---
@@ -269,4 +269,41 @@ Para enviar um ou vários tópicos juntamente com o arquivo de mapa para revisã
 
 Um email é enviado para todos os revisores, notificando que eles receberam tópicos para revisão. O e-mail contém um link direto que eles podem usar para acessar o tópico em uma janela do navegador. Os tópicos, juntamente com o mapa DITA, são abertos no modo de revisão.
 
-**Tópico pai:**&#x200B;[&#x200B; Introdução à revisão](review.md)
+## Adicionar ou remover tópicos de uma tarefa de revisão em andamento
+
+Como Autor ou iniciador de uma tarefa de revisão, você pode adicionar novos tópicos a uma tarefa de revisão em andamento (se eles não tiverem sido enviados anteriormente para revisão) ou remover tópicos de uma tarefa de revisão em andamento sem afetar o fluxo de trabalho de revisão.
+
+Execute as seguintes etapas para adicionar ou remover tópicos de uma tarefa de revisão em andamento:
+
+1. No painel Revisão, navegue até a tarefa de revisão que deseja modificar e selecione **Abrir detalhes da tarefa** no menu de contexto.
+
+   A página **Detalhes da Tarefa** é exibida.
+
+1. Selecione a guia **CONTEÚDO** para exibir os tópicos atualmente incluídos na tarefa de revisão.
+1. Revise a lista de tópicos e modifique a seleção conforme necessário.
+
+   - Selecione novos tópicos que não foram enviados anteriormente para revisão.
+   - Desmarque os tópicos que deseja remover da tarefa de revisão.
+
+   >[!NOTE]
+   >
+   > Pelo menos um tópico deve permanecer selecionado para atualizar uma tarefa de revisão em andamento.
+
+   ![](images/modify-review-topics.png)
+
+1. Depois de modificar a lista de tópicos, as atualizações correspondentes são propagadas automaticamente para a guia **REVISORES** da página Detalhes da Tarefa.
+
+   ![](images/modify-reviewers.png)
+
+   Revise a lista de tópicos atualizada na guia Revisores. Para qualquer tópico novo adicionado, é necessário atribuir revisores, a menos que a configuração **Permitir que os atribuídos revisem qualquer tópico** esteja habilitada para a tarefa de revisão.
+1. Selecione **Atualizar**.
+
+Quando a tarefa de revisão for atualizada, os revisores receberão notificações (AEM e Email) com base no status da revisão:
+
+- **Em andamento**: os revisores que ainda estão trabalhando na tarefa são notificados de que a tarefa foi atualizada.
+- **Concluído**: os revisores que concluírem sua revisão receberão uma notificação solicitando uma revisão.
+
+Para obter mais detalhes, consulte [Noções básicas sobre notificações de revisão](./review-understanding-review-notifications.md).
+
+
+**Tópico pai:**[ Introdução à revisão](review.md)

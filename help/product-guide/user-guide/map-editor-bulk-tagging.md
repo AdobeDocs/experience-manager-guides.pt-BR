@@ -4,18 +4,21 @@ description: Use a marcação em massa de conteúdo no AEM Guides para melhorar 
 exl-id: 4c6639a3-333b-44ad-9aec-735a327c3320
 feature: Metadata Management
 role: User
-source-git-commit: 9898f98d897da4da9ca76a89efd262239606ac2e
+source-git-commit: 4b4abf5958f251da05257d34a68471d5f36969a3
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 0%
 
 ---
 
+
 # Marcação em massa de conteúdo DITA {#id179SG0TN05Z}
+
+![](images/test-version-info-table.svg){width="650" align="left"}
 
 As tags permitem agrupar ou classificar o conteúdo no repositório de conteúdo e também na saída publicada. Se você tiver aplicado tags ao seu conteúdo, poderá encontrar facilmente tópicos relacionados em um mapa DITA que podem ajudá-lo a criar conteúdo. Com a saída publicada, os usuários finais poderão localizar o conteúdo correto mais rapidamente com as tags apropriadas em vigor.
 
-O Adobe Experience Manager Guides permite marcar conteúdo DITA em algumas etapas. Você pode usar o recurso de marcação em massa para aplicar várias tags a vários tópicos, um mapa DITA ou um submapa. Ou você também pode aplicar tags a um tópico individual. A marcação é o recurso nativo no Adobe Experience Manager. Você pode encontrar mais detalhes sobre como criar e gerenciar tags na seção [Administração de tags](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=pt-BR) da documentação da Adobe Experience Manager.
+O Adobe Experience Manager Guides permite marcar conteúdo DITA em algumas etapas. Você pode usar o recurso de marcação em massa para aplicar várias tags a vários tópicos, um mapa DITA ou um submapa. Ou você também pode aplicar tags a um tópico individual. A marcação é o recurso nativo no Adobe Experience Manager. Você pode encontrar mais detalhes sobre como criar e gerenciar tags na seção [Administração de tags](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) da documentação da Adobe Experience Manager.
 
 Por padrão, a Experience Manager Guides não concede acesso de leitura a nenhum usuário na pasta em que todas as tags do repositório do Adobe Experience Manager estão armazenadas. Para usar tags definidas no repositório do Adobe Experience Manager, você deve solicitar que o administrador do sistema conceda acesso à pasta em que as tags estão armazenadas.
 
@@ -107,4 +110,4 @@ Execute as seguintes etapas para remover todas as tags de um ou mais tópicos:
 
 Se você tiver uma longa lista de tags aplicadas em seus tópicos, talvez ache difícil navegar por ela. Você pode ocultar tags facilmente na exibição de console do mapa DITA selecionando o ícone Ocultar tags. Da mesma forma, quando as tags não estão visíveis, selecionar Mostrar tags revela todas as tags.
 
-**Tópico pai:**&#x200B;[&#x200B; Gerenciar metadados](manage-metadata.md)
+**Tópico pai:**[ Gerenciar metadados](manage-metadata.md)

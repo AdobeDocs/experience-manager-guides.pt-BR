@@ -4,7 +4,7 @@ description: Saiba como gerenciar arquivos e pastas no AEM Guides. Copie e cole,
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-source-git-commit: 14bbb3a055d8b528b6ed657be797c5fa96dd3e7e
+source-git-commit: 9e4fc7d482b6a37552d31ba2b07fae53018b4dc6
 workflow-type: tm+mt
 source-wordcount: '3263'
 ht-degree: 0%
@@ -104,7 +104,6 @@ Se você escolher a opção **Substituir arquivo existente\(s\)**, o arquivo que
 Se você escolher a opção **Mover Arquivo\(s\) para Novo Local**, o arquivo existente será movido para o local atual e será substituído pelo arquivo que está sendo carregado. Mover um arquivo para o novo local não interrompe nenhuma referência existente do ou para o arquivo.
 
 Ao substituir ou mover os arquivos, se você escolher a opção para criar uma versão a partir da cópia existente, uma nova versão a partir da cópia de trabalho do documento será criada; o novo arquivo será substituído no local existente ou movido para o novo local.
-
 
 ## Mover arquivos em massa {#move-files-bulk}
 
@@ -326,4 +325,4 @@ Se o arquivo de mídia tiver sofrido alterações, você poderá localizar e vis
    ![](images/media-version-preview.png){width="650" align="center"}
 
 
-**Tópico pai:**&#x200B;[&#x200B; Gerenciar conteúdo](authoring.md)
+**Tópico pai:**[ Gerenciar conteúdo](authoring.md)

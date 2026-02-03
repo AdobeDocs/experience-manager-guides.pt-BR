@@ -3,9 +3,9 @@ title: Repositório na página inicial
 description: Conheça o Repositório na Home page. Saiba mais sobre a Interface do repositório e os recursos no Adobe Experience Manager Guides na página inicial.
 feature: Authoring
 role: User
-source-git-commit: 1919e622b1b148d16bcdb85f79e2a1cd706fe33e
+source-git-commit: e45343812a67c6755c76f1b31b68c7201cdd8772
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1412'
 ht-degree: 0%
 
 ---
@@ -76,11 +76,11 @@ O Repository serve como o espaço central fornecendo uma lista tabular de todas 
    - **Novo**: crie um novo tópico DITA, mapa DITA ou uma pasta.
    - **Carregar Assets**: carregue um arquivo do sistema local para a pasta selecionada no repositório.
    - **Adicionar às coleções**: adiciona a pasta selecionada aos favoritos. Você pode optar por adicioná-la a uma coleção existente ou nova.
-   - **Reprocessar ativos**: aciona o processamento de todos os ativos recém-criados e não processados.
+   - **Reprocessar ativos**: aciona o processamento para todos os ativos na pasta.
 
 - **Menu de opções para arquivos**: você pode executar as seguintes ações usando o menu **Opções** para um arquivo:
 
-  ![](images/options-file-repo.png){width="350" align="left"}
+  ![](images/options-file-repo-new.png){width="350" align="left"}
 
    - **Editar**: abrir o arquivo para edição.
    - **Editar no Oxygen**: selecione essa opção para editar o arquivo selecionado no plug-in do conector do Oxygen.
@@ -99,6 +99,7 @@ O Repository serve como o espaço central fornecendo uma lista tabular de todas 
    - **Excluir**: use esta opção para excluir o arquivo selecionado.
    - **Adicionar a**: escolha adicionar a Coleções ou conteúdo Reutilizável.
    - **Copiar**: copia a UUID ou o caminho completo do arquivo.
+   - **Reprocessar ativo**: aciona o processamento para o ativo selecionado.
    - **Propriedades**: use esta opção para abrir a página Propriedades do arquivo selecionado.
    - **Baixar como PDF**: use a opção para gerar a saída do PDF e baixá-la.
 
@@ -116,7 +117,16 @@ Você tem as seguintes opções para filtrar os arquivos e restringir sua pesqui
 
 - **Pesquisar em**: selecione o caminho no qual deseja pesquisar os arquivos presentes no Repositório.
 
-- **Tipo de arquivo**: você pode procurar todos os **Tópicos DITA**, **Mapas DITA**, **Arquivos DITAVAL**, **Arquivos de Imagem**, **Multimídia**, **Documentos** e **JSON**.
+- **Tipo de arquivo**: filtre sua pesquisa com base em um tipo de arquivo específico. Opções disponíveis: **Tópico**, **Mapa**, **DITAVAL**, **Imagem**, **Multimídia**, **Documento** e **Outros**.
+
+- **Estado do documento**: você pode filtrar sua pesquisa com base no estado atual do documento dos arquivos. Os valores de filtro disponíveis são definidos no campo `repositoryFilters` de `ui_config.json file` e estão associados ao perfil de pasta que você está usando no momento.
+
+  Isso significa que:
+
+   - Se você estiver usando o Perfil global, os valores de filtros configurados no Perfil global serão aplicados.
+   - Se você selecionar um perfil de pasta específico, os valores de filtros definidos nesse perfil serão buscados.
+
+  Os valores de filtro padrão disponíveis para o estado do documento são: Rascunho, Editar, Em revisão, Aprovado, Revisado e Concluído. Para obter detalhes sobre como personalizar valores de filtro para estados de documento, consulte [Configurar filtros de estado de documento](../cs-install-guide/config-doc-state-filters.md).
 
 - **Bloqueado por**: exibe uma lista de usuários. A lista é paginada e carregada de forma assíncrona, mostrando um conjunto limitado de usuários de cada vez e buscando mais à medida que você rola a tela ou navega. Isso melhora a velocidade de carregamento e o desempenho geral, especialmente ao trabalhar com um grande número de usuários.
 
@@ -127,7 +137,7 @@ Você tem as seguintes opções para filtrar os arquivos e restringir sua pesqui
 
 - **Marcas**: filtrar conteúdo com base em marcas.
 
-- **Elemento DITA**: filtre o conteúdo com base em vários elementos DITA.
+- **Elementos DITA**: filtre o conteúdo com base em vários elementos DITA.
 
 Depois de aplicar todos os filtros necessários, selecione **Aplicar** no canto inferior direito do painel Filtros.
 

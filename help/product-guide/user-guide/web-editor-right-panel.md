@@ -4,9 +4,9 @@ description: Conheça o painel direito no Editor. Saiba mais sobre a interface e
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 6a0f4ed2-6eca-4b3c-bd3a-3f72f6919b36
-source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
+source-git-commit: 05a44af6982a9a23e6bbddeaac52b0700e2e2170
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '1095'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Você pode acessar o recurso **Propriedades de conteúdo** selecionando o ícone
 
 1. No painel suspenso **Atributo**, selecione o atributo na lista suspensa e especifique o valor de um atributo.  Em seguida, selecione **Adicionar**.
 
-   ![painel de atributos com vários atributos &#x200B;](images/attributes-multiple-properties.png){width="300" align="left"}
+   ![painel de atributos com vários atributos ](images/attributes-multiple-properties.png){width="300" align="left"}
 
 1. Para editar o atributo, passe o mouse sobre ele e selecione **Editar** ![ícone de edição](images/edit_pencil_icon.svg).
 
@@ -76,8 +76,20 @@ A seção Geral fornece acesso aos seguintes recursos:
 
 - **Nome do arquivo**: exibe o nome do arquivo do tópico selecionado. O nome do arquivo tem um hiperlink para a página de propriedades do arquivo selecionado.
 - **ID**: exibe a ID do tópico selecionado.
+- **Contagem de palavras**: exibe o número total de palavras no tópico DITA correspondente. As palavras separadas por espaços são contadas como palavras individuais. A contagem é atualizada sempre que você salva alterações no tópico. Para referências cruzadas, somente o texto de exibição é incluído na contagem, enquanto as chaves são excluídas.
+
+  >[!NOTE]
+  >
+  > O recurso **Contagem de palavras** foi introduzido na versão 2026.01.0 do Experience Manager Guides as a Cloud Service. Qualquer novo tópico DITA criado após a atualização para esta versão terá automaticamente a contagem de palavras calculadas no painel Direito. Para tópicos existentes, é necessário [reprocessar os ativos](./asset-processor.md).
+
 - **Marcas**: estas são as marcas de metadados do tópico. Eles são definidos no campo tags na página propriedades. Você pode digitá-los ou selecioná-los na lista suspensa.  As tags são exibidas na lista suspensa. Para excluir uma tag, selecione o ícone de cruz ao lado da tag.
-- **Editar mais propriedades**: é possível editar mais propriedades na página de propriedades do arquivo.
+- **Editar mais propriedades**: você pode editar mais propriedades (para arquivos que não estão no modo **Somente leitura**) na página Propriedades do arquivo.
+
+  >[!NOTE]
+  >
+  > Qualquer adição, exclusão ou modificação das propriedades de metadados (padrão ou personalizadas) acionará o [indicador de cópia de trabalho](./web-editor-edit-topics.md#working-copy-indicator) na versão do documento.
+
+
 - **Idioma**: mostra o idioma do tópico. Ele é definido no campo Language na página de propriedades.
 - **Criado em**: exibe a data e a hora em que o tópico foi criado.
 - **Modificado em**: exibe a data e a hora em que o tópico foi modificado.
@@ -141,4 +153,4 @@ Saiba como trabalhar com arquivos Schematron no Experience Manager Guides, consu
 
 
 
-**Tópico pai:**&#x200B;[&#x200B; Introdução ao Editor](web-editor.md)
+**Tópico pai:**[ Introdução ao Editor](web-editor.md)

@@ -4,9 +4,9 @@ description: Gerar relatórios de mapa DITA no console de mapas no AEM Guides. S
 exl-id: 2f202b41-85d9-4a5a-aa28-e25715ce5e2e
 feature: Report Generation
 role: User
-source-git-commit: 0d713f9ff4bd48aa90bce368d6ad7abf86ecbbf7
+source-git-commit: 11b0082b160a35fee0fc9d6478f5fe896de80d31
 workflow-type: tm+mt
-source-wordcount: '2614'
+source-wordcount: '2645'
 ht-degree: 0%
 
 ---
@@ -121,11 +121,13 @@ Você pode aplicar tags a um tópico individual ou usar o recurso de marcação 
 
 Para atualizar os metadados, execute as seguintes etapas:
 
-1. Para atualizar metadados, selecione os arquivos que deseja atualizar. Você pode selecionar os arquivos que estão aparecendo no painel Metadados, marcando a caixa de seleção que aparece ao lado de **Título**. Se quiser selecionar todos os registros, use a guia **Selecionar tudo** acima da barra de Título, conforme mostrado abaixo.
+1. Para atualizar metadados, selecione os arquivos que deseja atualizar. Você pode selecionar os arquivos que estão aparecendo no painel Metadados, marcando a caixa de seleção que aparece ao lado de **Título**.
+
+   Se quiser selecionar todos os registros, use a guia **Selecionar tudo** acima da barra de Título. Como os registros são carregados progressivamente à medida que você rola a tela, certifique-se de rolar até o final da lista antes de usar **Selecionar tudo**. Isso garante que as permissões de edição e o status do bloqueio sejam avaliados para todos os arquivos, não apenas para os registros visíveis no momento.
 
    >[!NOTE]
    >
-   > Não é possível selecionar arquivos com check-out. Um ícone de check-out também é exibido próximo ao título de um arquivo com check-out. Você pode passar o mouse sobre o ícone para visualizar o nome do usuário.
+   > Se um arquivo for bloqueado por outro usuário, ele não poderá ser selecionado para atualização de metadados. Um ícone de bloqueio também é exibido próximo ao título de um arquivo bloqueado. Você pode passar o mouse sobre o ícone para visualizar o nome do usuário.
 
    ![](images/all-selection.png){align="left"}
 
@@ -136,9 +138,7 @@ Para atualizar os metadados, execute as seguintes etapas:
 
 1. Se quiser adicionar novas tags, selecione novas tags na lista suspensa para aplicá-las a todos os tópicos selecionados. Também é possível excluir qualquer tag ao selecionar o ícone de cruz próximo à tag.
 
-   >[!NOTE]
-   >
-   > As tags comuns aplicadas em todos os tópicos selecionados são listadas.
+
 
 1. Selecione um novo estado do documento se desejar alterar o estado do documento de todas as referências selecionadas. O menu suspenso exibe o estado comum possível de todos os tópicos selecionados. Por exemplo, se o estado atual dos tópicos for Em revisão, você poderá exibir o estado Rascunho, Aprovado ou Revisado.
 1. Selecione **Atualizar** para atualizar os metadados. Uma mensagem de confirmação é exibida para os metadados, independentemente de ela ser atualizada com sucesso ou ter atualizações com falha. Você também pode selecionar **Baixar relatório** para baixar o instantâneo do relatório. Este instantâneo contém os detalhes do status atualizado das referências selecionadas.
@@ -236,16 +236,16 @@ Você pode exibir o relatório de links desfeitos executando as seguintes etapas
 
 1. Você pode filtrar os links com falha com base no **Tipo de Arquivo** e no **Tipo de Link**. A lista de links com falha é exibida com base na sua seleção na lista suspensa. Por exemplo, você pode optar por exibir apenas as referências de conteúdo no mapa DITA, e um arquivo mostra apenas as referências de conteúdo corrompidas usadas nele.
 
-   Tópico DITA, Mapa DITA, Referência de arquivo, Referência de chave, Referência de conteúdo, Referência de chave de conteúdo, Referência de imagem, Referência de arquivo multimídia e Referência de chave multimídia estão disponíveis para o menu suspenso **Tipo de link**, e Tópico DITA, Mapa DITA, Documento, Imagem, Vídeo, Áudio e outros estão disponíveis para o menu suspenso **Tipo de arquivo**.
+   Tópico DITA, Mapa DITA, Referência de arquivo, Referência de chave, Referência de conteúdo, Referência de chave de conteúdo, Referência de imagem, Referência de arquivo multimídia e Referência de chave multimídia estão disponíveis para o menu suspenso **Tipo de link** e Tópico, Mapa, Documento, Imagem, Vídeo, Áudio e outros estão disponíveis para o menu suspenso **Tipo de arquivo**.
 1. Você também pode usar as seguintes opções de filtro para optar por exibir as seguintes colunas na lista:
 
    - **Link quebrado** (selecionado por padrão) O caminho do link quebrado é especificado no mapa DITA.
 
-   - **Tipo de Link** (selecionado por padrão) O tipo dos links. As opções disponíveis são Tópico DITA, Mapa DITA, Referência do arquivo, Referência da chave, Referência do conteúdo, Referência da chave de conteúdo, Referência da imagem, Referência do arquivo multimídia e Referência da chave multimídia.
+   - **Tipo de Link** (selecionado por padrão) O tipo dos links. As opções disponíveis são Tópico, Mapa, Referência de arquivo, Referência de chave, Referência de conteúdo, Referência de chave de conteúdo, Referência de imagem, Referência de arquivo multimídia e Referência de chave multimídia.
 
    - **Usado em** (selecionado por padrão) As referências nas quais o link corrompido foi usado. Você pode selecionar a referência para exibi-la no modo de autor.
 
-   - **Tipo de Arquivo** (selecionado por padrão) O tipo de referência - Tópico DITA, Mapa DITA, Documento, Imagem, Vídeo, Áudio e Outros.
+   - **Tipo de Arquivo** (selecionado por padrão) O tipo de referência - Tópico, Mapa, Documento, Imagem, Vídeo, Áudio e Outros.
 
    Selecione **Atualizar** para obter uma nova lista de links com falha e exibir qualquer alteração no arquivo de mapa ou se algum link com falha no mapa DITA for atualizado.
 1. Você pode selecionar no ícone **Corrigir link** (![](images/fix-broken-link.svg)) para corrigir o link corrompido.
@@ -266,4 +266,4 @@ Você pode exibir o relatório de links desfeitos executando as seguintes etapas
 1. Selecione **Baixar** para baixar o instantâneo de todos os links corrompidos no mapa DITA. O arquivo do Excel contém as colunas selecionadas e os links quebrados filtrados na exibição Links quebrados.
 
 
-**Tópico pai:**&#x200B;[&#x200B; Introdução aos relatórios](reports-intro.md)
+**Tópico pai:**[ Introdução aos relatórios](reports-intro.md)

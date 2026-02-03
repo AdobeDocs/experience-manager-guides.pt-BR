@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leia a documentação do produto do Adobe Experience Manager Guides.
 breadcrumb-title: Documentação do AEM Guides
-source-git-commit: d56c5d92a05e8652e9ce1e8b5d508c1441daf012
+source-git-commit: 34a9fcb414831c3a6437ea39fa3541ef7994dd1c
 workflow-type: tm+mt
-source-wordcount: '2452'
-ht-degree: 8%
+source-wordcount: '2492'
+ht-degree: 9%
 
 ---
 
@@ -19,6 +19,11 @@ ht-degree: 8%
    - Notas de versão {#release-notes}
       - Cloud Services {#cloud-release-notes}
          - [Instruções de implantação](./release-info/deploy-xml-on-aemaacs.md)
+         - Versões de 2026 {#2026-releases}
+            - Versão 2026.01.0 {#2601-release}
+               - [Novidades](./release-info/whats-new-2026-01-0.md)
+               - [Problemas corrigidos](./release-info/fixed-issues-2026-01-0.md)
+               - [Instruções de atualização](./release-info/upgrade-instructions-2026-01-0.md)
          - Versões de 2025 {#2025-releases}
             - Versão 2025.11.0 {#2511-release}
                - [Novidades](./release-info/whats-new-2025-11-0.md)
@@ -169,14 +174,14 @@ ht-degree: 8%
                - [Notas de versão 4.2.1](./release-info/release-notes-4-2-1.md)
                - [Notas de versão 4.2](./release-info/release-notes-4-2.md)
          - [Notas de versão 4.1.x](./release-info/release-notes-4-1.md)
-         - [Notas de versão do 4.0.x](https://helpx.adobe.com/br/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [Notas de versão da 3.8.x](https://helpx.adobe.com/br/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [Notas de versão do 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [Notas de versão da 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Guia do usuário (nova interface do usuário) {#user-guide}
    - Introdução {#about-aemg}
       - [Sobre [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides] trabalhando e os principais recursos {#aemg-works-features}
          - [Como [!DNL AEM Guides] funciona](./user-guide/intro-how-dxml-works.md)
-         - [Recursos da chave [!DNL AEM Guides] &#x200B;](./user-guide/intro-dxml-features.md)
+         - [Recursos da chave [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
    - Home page {#home-page}
       - [Experiência da página inicial [!DNL AEM Guides]](./user-guide/intro-home-page.md)
       - [Interface do repositório](./user-guide/home-page-repository-view.md)
@@ -374,7 +379,7 @@ ht-degree: 8%
       - Resolução de problemas {#troubleshooting}
          - [Tempo limite da sessão](./user-guide/session-timeout-prompt.md)
 - Guia do usuário (interface antiga) {#user-guide-old-ui}
-   - [visão geral do AEM Guides](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [visão geral do AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Instalação e configuração {#install-guide}
    - No local {#on-prem-ig}
       - [Noções básicas no local](./install-guide/introduction.md)
@@ -471,6 +476,8 @@ ht-degree: 8%
          - [Configurar o recurso de processamento de ativos](./install-guide/configure-asset-processing.md)
       - Trabalhar com limpeza da árvore B{#btree-cleanup}
          - [Configurar limpeza da árvore B](./install-guide/configure-btree-clean-up-job.md)
+      - Indexação personalizada{#custom-indexing}
+         - [Implantando índice personalizado para Localizar e substituir (modo de exibição Source)](./install-guide/custom-indexing-prem.md)
       - [Apêndice](./install-guide/appendix.md)
    - Cloud Services {#cs-ig}
       - [Sobre este guia](./cs-install-guide/introduction.md)
@@ -503,6 +510,7 @@ ht-degree: 8%
          - [Configurar modelo de mapa DITA personalizado](./cs-install-guide/conf-template-tags-custom-dita-map-templates.md)
       - Trabalhar com estados de documentos {#doc-state-cs}
          - [Configurar estados dos documentos](./cs-install-guide/customize-doc-state.md)
+         - [Configurar filtros de estado do documento](./cs-install-guide/config-doc-state-filters.md)
       - Definir configurações do Workspace {#workspace-configs}
          - [configurações do Workspace](./cs-install-guide/workspace-settings.md)
       - Trabalhar com as configurações do Editor da Web {#web-editor-configs-cs}
@@ -540,7 +548,7 @@ ht-degree: 8%
          - [Configurar Workfront](./cs-install-guide/conf-workfront.md)
       - Trabalhar com configurações de geração de saída {#output-gen-config-cs}
          - [Definir configurações de geração de saída](./cs-install-guide/conf-output-generation.md)
-         - [Baixe e instale modelos do aem sites](./cs-install-guide/download-install-aem-sites-templates-cs.md)
+         - [Baixar e instalar modelos do AEM Sites](./cs-install-guide/download-install-aem-sites-templates-cs.md)
          - [Publicação nativa no PDF](./cs-install-guide/native-pdf-publishing.md)
          - [Configurar processo de nó para publicação nativa do PDF](./native-pdf/configure-node-options.md)
          - [Criar um mapeamento entre um tópico e um fragmento de conteúdo](./cs-install-guide/conf-content-fragment-mapping-cs.md)
@@ -556,6 +564,8 @@ ht-degree: 8%
          - [Configurar o recurso de processamento de ativos](./cs-install-guide/configure-asset-processing-cs.md)
       - Trabalhar com limpeza da árvore B{#btree-cleanup-cs}
          - [Configurar limpeza da árvore B](./cs-install-guide/configure-btree-cleanup-cs.md)
+      - Indexação personalizada{#custom-indexing-cs}
+         - [Implantando índice personalizado para Localizar e substituir (modo de exibição Source)](./cs-install-guide/custom-indexing.md)
       - [Apêndice](./cs-install-guide/appendix.md)
 - Referência da API  {#api-reference}
    - [Introdução](./api-reference/introduction.md)
@@ -570,6 +580,7 @@ ht-degree: 8%
    - [API para iniciar o processamento em massa de ativos](./api-reference/bulk-assets-processing.md)
    - [Manipulador de eventos de ativação em massa concluída](./api-reference/bulk-activation-complete-event.md)
    - [Manipulador de eventos do processo de conversão](./api-reference/conversion-complete-event.md)
+   - [Criar projeto de tradução](./api-reference/translation-project.md)
 - Knowledge Base {#knowledge-base}
    - Sessão com especialista {#expert-session}
       - [Visão geral da sessão com especialistas](./knowledge-base/expert-sessions/expert-session.md)

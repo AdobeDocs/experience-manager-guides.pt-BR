@@ -4,9 +4,9 @@ description: Traduza o conteúdo para vários idiomas no editor da Web. Saiba co
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: 0d713f9ff4bd48aa90bce368d6ad7abf86ecbbf7
+source-git-commit: 4165535976082c1e8f28bf15f16999b6bfe5bf9a
 workflow-type: tm+mt
-source-wordcount: '2376'
+source-wordcount: '2446'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,15 @@ Antes de executar etapas neste procedimento, verifique se você criou a raiz de 
    - **Nome do Arquivo**: Nome do arquivo de origem
    - **Tipo de Arquivo**: Tipo do arquivo de origem. As opções disponíveis são Mapa, Tópico e Imagem.
    - **Tipo de Referência**: Referências diretas ou indiretas
-   - **Versão**: número da versão do arquivo de origem
+   - **Versão**: número da versão do arquivo de origem.
+
+     Se um arquivo tiver salvo alterações sem controle de versão (ou seja, que não foram salvas como uma nova versão no mapa), um ícone de informações será exibido ao lado do arquivo, indicando a presença de alterações sem controle de versão.
+
+     ![](images/unversioned-changes-translation.png){width="650" align="left"}
+
+     >
+     >
+     > Para exibir somente arquivos com alterações sem controle de versão, habilite a configuração **Mostrar ativos somente com alterações sem controle de versão** no painel Filtros. Além disso, o indicador sem versão é visível somente ao traduzir arquivos com base em suas versões mais recentes.
    - **Rótulo da Versão**: Rótulo para a versão selecionada do arquivo de origem
    - **Versão de Destino**: número da versão do arquivo de destino
    - **Estado do Documento**: estado do arquivo de origem. As opções disponíveis são Rascunho, Em revisão e Revisado.
@@ -226,4 +234,4 @@ Para afetar o gerenciamento de documentos, o Experience Manager Guides fornece a
 Você também pode desativar os projetos de tradução se desejar usá-los posteriormente. A exclusão de um projeto exclui todos os arquivos e pastas presentes no projeto. Desativar um projeto não o exclui, mas o mantém no repositório. Mas você não pode atualizar ou editar um projeto desativado.  A exclusão ou desativação de um projeto não afetará o status de tradução de nenhuma referência.
 
 
-**Tópico pai:**&#x200B;[&#x200B; Introdução ao Editor](web-editor.md)
+**Tópico pai:**[ Introdução ao Editor](web-editor.md)

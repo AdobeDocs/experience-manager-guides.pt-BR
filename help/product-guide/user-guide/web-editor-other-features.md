@@ -4,9 +4,9 @@ description: Explore outros recursos do Editor no Adobe Experience Manager Guide
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: c84a95b4d0b5df5b29d16efa7478bbfdc953bc5b
+source-git-commit: f0ba8dce38a6eef5dedc8a81107c8e31ea6b26b3
 workflow-type: tm+mt
-source-wordcount: '2678'
+source-wordcount: '3653'
 ht-degree: 0%
 
 ---
@@ -145,6 +145,132 @@ O Editor fornece uma caixa de diálogo de procura inteligente de arquivos. O edi
 >
 > No caso de um arquivo de imagem, áudio ou vídeo, a caixa de diálogo de navegação de arquivo assume como padrão o local do arquivo e não o último local usado.
 
+## Procurar arquivos e pastas no Experience Manager Guides
+
+O Experience Manager Guides fornece caixas de diálogo intuitivas - **Selecionar arquivo** e **Selecionar caminho** - para ajudá-lo a navegar e escolher arquivos ou pastas no repositório de conteúdo com eficiência.
+
+>[!NOTE]
+>
+> O navegador de caminho de arquivos e pastas é introduzido com uma interface renovada na versão 2601 do Experience Manager Guides as a Cloud Service. A nova interface é ativada por padrão. Se preferir continuar usando a interface do usuário existente sem essas atualizações, entre em contato com a equipe de Sucesso do cliente para desativar esse novo aprimoramento.
+
+### Procurar arquivos no Experience Manager Guides
+
+O navegador de caminho de arquivo permite localizar e selecionar rapidamente arquivos específicos no repositório de conteúdo. Esse recurso está disponível para tarefas como adicionar um tópico a um mapa, vincular uma imagem ou referência cruzada, criar conteúdo reutilizável e muito mais.
+
+![](images/select-file-dialog-new.png){width="350" align="left"}
+
+Ao iniciar o navegador de arquivos, a caixa de diálogo **Selecionar arquivo** é aberta. Esta caixa de diálogo inclui duas guias: **Repositório** e **Coleções**. Por padrão, a guia Repository (Repositório) é selecionada.
+
+![](images/select-file.png){width="650" align="left"}
+
+**Recursos disponíveis na guia Repositório para navegação de arquivos**
+
+**Exibição tabular de arquivos e pastas**
+
+A guia Repositório fornece uma visualização tabular de arquivos e pastas do repositório de conteúdo, facilitando a localização do caminho de arquivo correto. Você também pode usar a navegação estrutural na parte superior e o painel de navegação da pasta à esquerda para percorrer as pastas.
+
+![](images/select-file-dialog-navigate-files.png){width="650" align="left"}
+
+**Seleção de um e vários arquivos**
+
+Para usar um arquivo, basta selecionar o arquivo e escolher **Selecionar**.
+
+![](images/select-file-single-file-selection.png){width="650" align="left"}
+
+Em alguns casos, você também pode selecionar vários arquivos nesta caixa de diálogo do navegador de caminho. Por exemplo, ao navegar pelos arquivos em busca de conteúdo Reutilizável, você pode selecionar vários arquivos e torná-los parte de seu conteúdo reutilizável.
+
+![](images/select-file-multiple-file-selection.png){width="650" align="left"}
+
+A seleção de vários arquivos está disponível no momento para conteúdo reutilizável, referências de tópico, esquema, predefinições de saída (usando DITAVAL) e Workfront.
+
+>[!NOTE]
+>
+> Ao selecionar arquivos na caixa de diálogo do navegador de caminho, algumas pastas podem parecer desativadas. Esse comportamento restringe o acesso a tipos de arquivos específicos para garantir seleções válidas. Por exemplo, ao criar conteúdo reutilizável, somente arquivos de tópico e de mapa devem ser usados. Para evitar o uso de um tipo de arquivo inválido, como uma imagem, os arquivos correspondentes não são exibidos ou permanecem desativados para seleção no navegador de caminho.
+
+**Visualizar arquivos selecionados**
+
+Você pode visualizar os arquivos selecionados usando o botão **Visualizar**, conforme mostrado abaixo:
+
+![](images/select-file-preview-button.png){width="650" align="left"}
+
+A visualização do arquivo selecionado é exibida à direita.
+
+![](images/select-file-dialog-preview.png){width="650" align="left"}
+
+Para várias seleções, uma visualização de todos os arquivos selecionados é exibida no painel Visualização para facilitar a revisão.
+
+![](images/reusable-content-selection-left-panel.png){width="650" align="left"}
+
+Você também pode usar o ícone **Remover** para desmarcar alguns arquivos da Visualização.
+
+![](images/resusable-content-remove-preview.png){width="650" align="left"}
+
+**Pesquisar e filtrar experiência**
+
+Ao navegar pelos arquivos no Repositório, você pode pesquisar arquivos por nome, título ou conteúdo no caminho selecionado. Você pode usar qualquer um, dois ou todos os três critérios para sua pesquisa. Se nenhum dos critérios for selecionado, os resultados incluirão informações comuns aos três critérios.
+
+![](images/select-file-search.png){width="650" align="left"}
+
+Selecione o ícone **Filtrar pesquisa** \(![Ícone Filtrar pesquisa](images/filter-search-icon.svg)\) para abrir o painel Filtro à direita.
+
+![](images/select-file-filters.png){align="left"}
+
+Você tem as seguintes opções para filtrar os arquivos e restringir sua pesquisa:
+
+- **Pesquisar em**: selecione o caminho no qual deseja pesquisar os arquivos presentes no Repositório.
+
+- **Tipo de arquivo**: filtre sua pesquisa com base em um tipo de arquivo específico. Opções disponíveis: **Tópico**, **Mapa**, **DITAVAL**, **Imagem**, **Multimídia**, **Documento** e **Outros**.
+
+  >[!NOTE]
+  >
+  > Em alguns casos, o filtro **Tipo de arquivo** é pré-aplicado em tipos de arquivo específicos com base na tarefa e não pode ser alterado. Por exemplo, ao procurar uma imagem, o filtro é definido para exibir somente arquivos de imagem e, ao criar conteúdo reutilizável, é definido para mostrar somente arquivos de tópico e de mapa. Você ainda pode ajustar outros filtros, como estado do documento, tags ou data da última modificação, para refinar os resultados da pesquisa.
+
+- **Estado do documento**: você pode filtrar sua pesquisa com base no estado atual do documento dos arquivos. Os valores de filtro disponíveis são definidos no campo `repositoryFilters` de `ui_config.json file` e estão associados ao perfil de pasta que você está usando no momento.
+
+  Isso significa que:
+
+   - Se você estiver usando o Perfil global, os valores de filtros configurados no Perfil global serão aplicados.
+   - Se você selecionar um perfil de pasta específico, os valores de filtros definidos nesse perfil serão buscados.
+
+  Os valores de filtro padrão disponíveis para o estado do documento são: Rascunho, Editar, Em revisão, Aprovado, Revisado e Concluído. Para obter detalhes sobre como personalizar valores de filtro para estados de documento, consulte [Configurar filtros de estado de documento](../cs-install-guide/config-doc-state-filters.md).
+
+- **Bloqueado por**: exibe uma lista de usuários. A lista é paginada e carregada de forma assíncrona, mostrando um conjunto limitado de usuários de cada vez e buscando mais à medida que você rola a tela ou navega. Isso melhora a velocidade de carregamento e o desempenho geral, especialmente ao trabalhar com um grande número de usuários.
+
+- **Última modificação**: filtrar conteúdo com base na data de modificação. Selecione um intervalo de datas no calendário ou escolha uma das seguintes opções de intervalo de tempo:
+   - Na semana passada
+   - No mês passado
+   - No ano passado
+
+- **Marcas**: filtrar conteúdo com base em marcas.
+
+- **Elementos DITA**: filtre o conteúdo com base em vários elementos DITA.
+
+Depois de aplicar todos os filtros necessários, selecione **Aplicar** no canto inferior direito do painel Filtros.
+
+**Recursos disponíveis na guia Coleções para navegação de arquivos**
+
+A guia **Coleções** fornece uma exibição com curadoria dos arquivos disponíveis em suas Coleções para acesso rápido e reutilização. Ao contrário da guia Repositório, que exibe a hierarquia completa de pastas, as Coleções permitem selecionar tópicos, mapas e imagens usados com frequência sem navegar por várias pastas.
+
+![](images/select-file-collections.png)
+
+Na guia Coleções, é possível:
+
+- Use a navegação estrutural na parte superior e o painel de navegação da pasta à direita para navegar facilmente pelas Coleções.
+
+  ![](images/collections-folder-navigation-panel.png)
+- Selecione os arquivos presentes em um caminho de Coleções específico e visualize-o no Painel direito.
+
+  ![](images/collections-file-preview.png)
+
+
+
+### Pastas do navegador no repositório
+
+A procura de pastas usando a caixa de diálogo **Selecionar pasta** concentra-se em selecionar o caminho de pasta correto no Repositório para tarefas como a criação de novos tópicos ou a especificação de locais de saída para conteúdo publicado. Ele oferece uma visualização de pastas clara e estruturada em árvore, tornando a navegação intuitiva e garantindo que o conteúdo seja colocado no local correto.
+
+![](images/select-path-dialog-new.png){width="300" align="left"}
+
+
 ## Suporte para publicação baseada em artigo
 
 No Editor, é possível gerar a saída para um ou mais tópicos ou para o mapa DITA inteiro. É necessário criar predefinições de saída para o mapa DITA e, em seguida, gerar facilmente a saída para um ou mais tópicos. Se você tiver atualizado alguns tópicos no mapa, também poderá gerar a saída somente para esses tópicos do Editor. Para obter mais detalhes, exiba [publicação baseada em artigo](web-editor-article-publishing.md#id218CK0U019I).
@@ -282,4 +408,4 @@ Os principais recursos destinados a melhorar o tratamento de arquivos grandes s�
 
 - A mensagem de alerta está disponível somente para arquivos DITA e está visível em todas as exibições: Autor, Source e Layout.
 
-**Tópico pai:**&#x200B;[&#x200B; Introdução ao Editor](web-editor.md)
+**Tópico pai:**[ Introdução ao Editor](web-editor.md)

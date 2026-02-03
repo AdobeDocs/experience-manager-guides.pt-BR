@@ -4,10 +4,10 @@ description: Saiba mais sobre a API para iniciar o processamento em massa de ati
 feature: Post-Processing Event Handler
 role: Developer
 level: Experienced
-source-git-commit: e2eca63a5dd56e358aeea047b37f4b0f88dc720b
+source-git-commit: 8671a26bfee2d9e3b4e70a8f2615568c08c0a370
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 8%
+source-wordcount: '587'
+ht-degree: 9%
 
 ---
 
@@ -26,6 +26,15 @@ Um método POST que inicia o processamento de ativos em massa para um caminho es
 | `path` | String | Sim | Caminho absoluto da pasta ou do ativo no repositório do AEM a ser processado. |
 | `excludedPaths` | String | Não | Lista de caminhos a serem excluídos do processamento |
 | `type` | String | Sim | Tipo de processamento a ser executado. Por exemplo: ASSET_PROCESSING. |
+| `filter` | Objeto | Não | Filtros aplicados aos ativos selecionados |
+
+**Filtrar campos de objeto**
+
+| Nome | Tipo | Descrição |
+|----|----|-----------|
+| fileTypes | String | Tipos de ativo a processar. Valores permitidos: DITATOPIC, DITAMAP, MARKDOWN, HTML/CSS, DITAVAL, OTHERS. |
+| startTime | Número inteiro | Limite inferior para o tempo de criação do ativo |
+| endTime | Número inteiro | Limite superior para o tempo de criação do ativo |
 
 **Solicitar Exemplo**
 
@@ -35,7 +44,12 @@ Um método POST que inicia o processamento de ativos em massa para um caminho es
   "excludedPaths": [
     "content/dam/status-fetch1/excluded-folder"
   ],
-  "type": "ASSET_PROCESSING"
+  "type": "ASSET_PROCESSING",
+  "filter": {
+        "fileTypes": ["DITAMAP", "DITATOPIC"],
+        "startTime": 1758876933000
+        "endTime": 1764932039000
+    }
 }
 ```
 

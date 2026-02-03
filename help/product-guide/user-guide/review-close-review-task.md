@@ -4,9 +4,9 @@ description: Saber sobre o fluxo de trabalho de fechamento de uma tarefa de revi
 feature: Reviewing
 role: User
 exl-id: d2119bbe-3a0c-4da3-b4f8-7872496fa61f
-source-git-commit: e38cd858201ea657ce276eb4b358b0d4eff502b2
+source-git-commit: 6f9265b341b4122e7f13a429cc2fecacb14ae39c
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
@@ -33,9 +33,9 @@ Execute as seguintes etapas para solicitar uma revisão ou fechar uma tarefa de 
 
    >[!NOTE]
    >
-   > Também é possível abrir a tarefa no painel de tarefas para obter uma visualização mais abrangente. Para fazer isso, selecione **Abrir no painel de tarefas** no menu Opções de qualquer tarefa de revisão ativa. Isso abre os detalhes da tarefa no console Projetos.
+   > Você pode acessar a página **Detalhes da tarefa** para gerenciar a tarefa de revisão. Para fazer isso, selecione **Abrir detalhes da tarefa** no menu Opções de qualquer tarefa de revisão ativa. Isso abre os detalhes da tarefa no console Projetos.
 
-   ![](images/task-dashboard-selection-author-view.png)
+   ![](images/task-details-selection-author-view.png)
 3. Selecione o ícone **Comentários da tarefa** para acessar e revisar os comentários no nível da tarefa adicionados pelo Revisor.
 
    ![](images/task-comments-selection-author-view.png).

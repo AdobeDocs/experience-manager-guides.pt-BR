@@ -4,9 +4,9 @@ description: Conheça o painel esquerdo no editor. Saiba mais sobre a interface 
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 92496d39-b423-4635-8b05-c67fd6af47de
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: f0ba8dce38a6eef5dedc8a81107c8e31ea6b26b3
 workflow-type: tm+mt
-source-wordcount: '9768'
+source-wordcount: '10929'
 ht-degree: 0%
 
 ---
@@ -160,7 +160,7 @@ Você tem as seguintes opções para filtrar os arquivos e restringir sua pesqui
 - **Arquivos DITA**: você pode procurar todos os **tópicos DITA** e **mapas DITA** presentes no caminho selecionado. Elas são selecionadas por padrão.
 - **Arquivos não DITA**: você pode pesquisar por **Arquivos Ditaval**, **Arquivos de Imagem**, **Multimídia**, **Documentos** e **JSON** no caminho selecionado.
 
-  ![filtro de pesquisa rápida &#x200B;](images/repository-filter-search-quick.png) {width="300" align="left"}
+  ![filtro de pesquisa rápida ](images/repository-filter-search-quick.png) {width="300" align="left"}
 
   *Use os filtros rápidos para procurar arquivos DITA e não DITA.*
 
@@ -228,18 +228,19 @@ Você pode executar as seguintes ações usando o menu Opções disponível para
     <summary> Etapas para criar um novo tópico </summary>
 
 Etapas para criar um novo tópico:
+
 1. Selecione **Novo** > **Tópico**.
-2. A caixa de diálogo **Novo tópico** é exibida.
+1. A caixa de diálogo **Novo tópico** é exibida.
 
    ![](images/create-topic-dialog.png){width="300" align="left"}
 
-3. Na caixa de diálogo **Novo tópico**, forneça os seguintes detalhes:
+1. Na caixa de diálogo **Novo tópico**, forneça os seguintes detalhes:
    - Um Título para o tópico.
    - \(Opcional\)* O nome do arquivo do tópico. O nome do arquivo é sugerido automaticamente com base no tópico Título. Caso o administrador tenha ativado nomes de arquivo automáticos com base na configuração UUID, você não visualizará o campo Nome.
    - Um modelo no qual o tópico será baseado. Por exemplo, para uma configuração pronta para uso, você pode escolher entre os modelos Em branco, Conceito, DITAVAL, Referência, Tarefa, Tópico, Markdown, Glossário e Solução de problemas. Se a pasta tiver um Perfil de Pasta configurado, você visualizará somente os modelos de tópico configurados no perfil de Pasta.
 
    - Caminho no qual você deseja salvar o arquivo de tópico. Por padrão, o caminho da pasta selecionada no momento no repositório é mostrado no campo Caminho.
-4. Selecione **Criar**. O tópico é criado no caminho especificado. Além disso, o tópico é aberto no Editor para edição.
+1. Selecione **Criar**. O tópico é criado no caminho especificado. Além disso, o tópico é aberto no Editor para edição.
 
 </details>
 
@@ -279,7 +280,7 @@ Etapas para criar uma nova pasta:
 
 </details>
 
-- **Carregar Assets**: carregue um arquivo do sistema local para a pasta selecionada no repositório do Adobe Experience Manager. Você também pode arrastar e soltar arquivos do seu sistema local no tópico de trabalho atual. Isso é muito útil se você quiser inserir imagens do sistema local no tópico.
+- **Carregar ativos**: carregue um arquivo do sistema local para a pasta selecionada no repositório do Adobe Experience Manager. Você também pode arrastar e soltar arquivos do seu sistema local no tópico de trabalho atual. Isso é muito útil se você quiser inserir imagens do sistema local no tópico.
 
   ![](images/upload-assets.png){width="300" align="left"}
 
@@ -289,6 +290,35 @@ Etapas para criar uma nova pasta:
 
   ![](images/uuid-in-source-upload-image_cs.png){align="left"}
 
+  Após um upload bem-sucedido, a seguinte caixa de diálogo de confirmação será exibida:
+
+  ![](images/upload-successful.png)
+
+  <details>
+
+  <summary>Manipulação de caracteres inválidos em nomes de arquivo</summary>
+
+  Se o nome do arquivo do ativo que está sendo carregado contiver caracteres inválidos (como * / : [\] | # % { } ?), os seguintes cenários podem ocorrer:
+
+   - **Carregamento parcial**: indica que um ou mais ativos que estão sendo carregados contêm caracteres inválidos em seus nomes de arquivo.
+
+     ![](images/partial-asset-upload.png)
+
+   - **Falha ao Carregar** : indica que todos os ativos que estão sendo carregados contêm caracteres inválidos em seus nomes de arquivo.
+
+     ![](images/upload-asset-failed.png)
+
+  Para resolver esses conflitos, remova os caracteres inválidos dos nomes de arquivo dos ativos e, em seguida, faça upload deles novamente para o repositório.
+
+  </details>
+
+- **Atualizar**: obtenha uma lista atualizada de arquivos e pastas do repositório.
+- **Recolher**: recolher a pasta selecionada no repositório.
+
+  >[!NOTE]
+  >
+  > Use o ícone **\>** ao lado de uma pasta para expandi-la.
+
 - **Localizar arquivos na pasta**: desloca o foco para a pesquisa no repositório onde você pode inserir o termo de pesquisa. A pesquisa é realizada na pasta selecionada no repositório. Você também pode aplicar um filtro para retornar Arquivos DITA, Arquivos de imagem ou ambos.
 
   ![](images/find-files-in-folders-repo-view_cs.png){width="300" align="left"}
@@ -297,15 +327,9 @@ Etapas para criar uma nova pasta:
 
   ![](images/uuid-repo-search-image-topic-file_cs.png){width="300" align="left"}
 
-- **Recolher**: recolher a pasta selecionada no repositório.
-
-  >[!NOTE]
-  >
-  > Use o ícone **\>** ao lado de uma pasta para expandi-la.
-
 - **Adicionar às coleções**: adiciona a pasta selecionada aos favoritos. Você pode optar por adicioná-la a uma coleção existente ou nova.
 
-- **Atualizar**: obtenha uma lista atualizada de arquivos e pastas do repositório.
+- **Reprocessar ativos**: aciona o processamento de todos os ativos da pasta.
 - **Exibir na interface do usuário do Assets**: mostrar o conteúdo da pasta na interface do usuário do Assets.
 
 **Opções para um arquivo**
@@ -324,6 +348,7 @@ Obtenha acesso a diferentes opções no menu Opções dependendo se você seleci
 - Baixar como PDF
 - Adicionar a
 - Copiar
+- Reprocessar ativo
 - Exibir na interface do usuário do Assets
 - Propriedades
 
@@ -334,17 +359,24 @@ As várias opções no menu Opções são explicadas abaixo:
 
 - **Editar**: abrir o arquivo para edição. No caso de um arquivo .ditamap/.bookmap, ele é aberto no [Editor de Mapas](map-editor-advanced-map-editor.md#) para edição.
 
-- **Duplicar**: use esta opção para criar uma duplicata ou uma cópia do arquivo selecionado. Você também tem a opção de renomear o arquivo duplicado no prompt Duplicar ativo. Por padrão, o arquivo é criado com um sufixo \(como nomedoarquivo\_1.extensão\). O título do arquivo permanece o mesmo do arquivo de origem, e o novo arquivo começa com a versão 1.0. Todas as referências, tags e metadados são copiados, enquanto as linhas de base não são copiadas no arquivo duplicado.
+- **Editar no Oxygen**: selecione essa opção para editar o arquivo selecionado no plug-in do conector do Oxygen. O arquivo está aberto para edição.
+
+  >[!NOTE]
+  >
+  >Entre em contato com a equipe de sucesso do cliente para habilitar esse recurso no ambiente. Isso não é ativado como parte do suporte pronto para uso. Para obter mais detalhes, exiba a opção [Configurar a opção para editar no Oxygen](../cs-install-guide/conf-edit-in-oxygen.md) na seção do Guia de Instalação e Configuração.
+
+- **Abrir no painel de mapa**: caso o arquivo selecionado seja um mapa DITA, essa opção abrirá o painel de mapa.
+
+- **Abrir no console de mapa**: caso o arquivo selecionado seja um mapa DITA, essa opção abrirá o console de mapa.
+
 - **Bloqueio**: obtenha um bloqueio no arquivo selecionado para edição. Se o arquivo estiver bloqueado, passar o ponteiro do mouse sobre o ícone de bloqueio mostrará **Bloqueado por você** se você o bloqueou, ou **Bloqueado por [nome de usuário]** se outro usuário o bloqueou.
 
 - **Visualização**: obtenha uma visualização rápida do arquivo (.dita, .xml, áudio, vídeo ou imagem) sem abri-lo. É possível redimensionar o painel de visualização. Se o conteúdo contiver qualquer `<xref>` ou `<conref>`, você poderá selecioná-lo para abri-lo em uma nova guia. O título do arquivo aparece na janela. Se nenhum título estiver presente, o nome do arquivo será exibido. Para fechar o painel **Visualização**, você pode selecionar o ícone de fechamento ou qualquer lugar fora do painel.
 
   ![](images/quick-preview_cs.png){align="left"}
 
-- **Renomear**: use esta opção para renomear o arquivo selecionado. Digite o nome do novo arquivo na caixa de diálogo **Renomear ativo**.
-   - É possível renomear arquivos de qualquer tipo.
-   - Não é possível alterar a extensão de um arquivo.
-   - Dois arquivos não podem ter o mesmo nome. Portanto, não é possível renomear um arquivo com um nome que já existe. Um erro é exibido.
+
+- **Duplicar**: use esta opção para criar uma duplicata ou uma cópia do arquivo selecionado. Você também tem a opção de renomear o arquivo duplicado no prompt Duplicar ativo. Por padrão, o arquivo é criado com um sufixo \(como nomedoarquivo\_1.extensão\). O título do arquivo permanece o mesmo do arquivo de origem, e o novo arquivo começa com a versão 1.0. Todas as referências, tags e metadados são copiados, enquanto as linhas de base não são copiadas no arquivo duplicado.
 
 - **Mover para**: use esta opção para mover o arquivo selecionado para outra pasta.
    - Você pode digitar o nome da pasta de destino ou escolher **Selecionar caminho** para selecionar a pasta de destino.
@@ -377,6 +409,11 @@ As várias opções no menu Opções são explicadas abaixo:
   Renomear ou mover qualquer arquivo não interrompe nenhuma referência existente do ou para o arquivo, pois cada arquivo tem uma UUID exclusiva.
   </details>
 
+- **Renomear**: use esta opção para renomear o arquivo selecionado. Digite o nome do novo arquivo na caixa de diálogo **Renomear ativo**.
+   - É possível renomear arquivos de qualquer tipo.
+   - Não é possível alterar a extensão de um arquivo.
+   - Dois arquivos não podem ter o mesmo nome. Portanto, não é possível renomear um arquivo com um nome que já existe. Um erro é exibido.
+
 - **Excluir**: use esta opção para excluir o arquivo selecionado. Um prompt de confirmação é exibido antes de excluir o arquivo.
 
    - Um prompt de confirmação é exibido antes de excluir o arquivo.
@@ -402,35 +439,30 @@ As várias opções no menu Opções são explicadas abaixo:
   >
   > Você também pode excluir o arquivo selecionado de forma semelhante usando a tecla Delete do teclado.
 
-- **Copiar**: você pode escolher entre as seguintes opções:
-
-   - **Copiar UUUID**: Copiar a UUID do arquivo selecionado para a Área de Transferência.
-
-   - **Copiar Caminho**: Copie o caminho completo do arquivo selecionado para a Área de Transferência.
+- **Gerar**: use a opção para publicar um mapa ou tópicos em um mapa em uma página do Sites, Fragmento de Conteúdo ou Fragmento de Experiência.
 
 - **Adicionar a**: você pode escolher entre as seguintes opções:
    - **Coleções**: adiciona o arquivo selecionado às Coleções. Você pode optar por adicioná-la a uma coleção existente ou nova.
 
    - **Conteúdo reutilizável**: adiciona o arquivo selecionado à lista de conteúdo reutilizável no painel esquerdo.
 
-- **Propriedades**: use esta opção para abrir a página de propriedades do arquivo selecionado. Essa página de propriedades também pode ser acessada na interface do usuário do Assets selecionando um arquivo e, em seguida, selecionando o ícone Propriedades na barra de ferramentas.
+- **Copiar**: você pode escolher entre as seguintes opções:
 
-- **Abrir no painel de mapa**: caso o arquivo selecionado seja um mapa DITA, essa opção abrirá o painel de mapa.
+   - **Copiar UUUID**: Copiar a UUID do arquivo selecionado para a Área de Transferência.
 
-- **Abrir no console de mapa**: caso o arquivo selecionado seja um mapa DITA, essa opção abrirá o console de mapa.
+   - **Copiar Caminho**: Copie o caminho completo do arquivo selecionado para a Área de Transferência.
 
-- **Editar no Oxygen**: selecione essa opção para editar o arquivo selecionado no plug-in do conector do Oxygen. O arquivo está aberto para edição.
-
-  >[!NOTE]
-  >
-  >Entre em contato com a equipe de sucesso do cliente para habilitar esse recurso no ambiente. Isso não é ativado como parte do suporte pronto para uso. Para obter mais detalhes, exiba a opção [Configurar a opção para editar no Oxygen](../cs-install-guide/conf-edit-in-oxygen.md) na seção do Guia de Instalação e Configuração.
-
+- **Reprocessar ativo**: aciona o processamento para o ativo selecionado.
 
 - **Exibir na interface do usuário do Assets**: use esta opção para mostrar uma visualização de um arquivo .dita/.xml na interface do usuário do Assets. No caso de um arquivo .ditamap/.bookmap, todos os arquivos de tópico no mapa são mostrados em uma única exibição unificada página por página.
 
-- **Baixar como PDF**: use a opção para gerar a saída do PDF e baixá-la.
+- **Propriedades**: use esta opção para abrir a página de propriedades do arquivo selecionado.
 
-- **Gerar**: use a opção para publicar um mapa ou tópicos em um mapa em uma página do Sites, Fragmento de Conteúdo ou Fragmento de Experiência.
+  Qualquer adição, exclusão ou modificação das propriedades de metadados nesta página (seja padrão ou personalizada) acionará o [indicador de cópia de trabalho](./web-editor-edit-topics.md#working-copy-indicator) na versão do documento.
+
+  Você também pode acessar a página Propriedades na interface do usuário do Assets selecionando um arquivo e, em seguida, o ícone Propriedades na barra de ferramentas.
+
+- **Baixar como PDF**: use a opção para gerar a saída do PDF e baixá-la.
 
 ## Explorer
 
@@ -587,12 +619,19 @@ Por padrão, é possível visualizar os arquivos por títulos. Ao passar o mouse
 
 Para adicionar um arquivo DITA ao painel Conteúdo reutilizável, use um dos seguintes métodos:
 
-- Selecione o ícone **+** ao lado de Conteúdo reutilizável para abrir a caixa de diálogo Procurar arquivo. Selecione o arquivo que deseja adicionar e selecione **Adicionar** para concluir o processo.
+- Selecione o ícone **+** ao lado de Conteúdo reutilizável para abrir a caixa de diálogo **Selecionar arquivo**.
+- Selecione o arquivo que deseja adicionar e escolha **Selecionar**. Também é possível pesquisar arquivos específicos usando a opção de pesquisa de filtro. Para obter mais detalhes, exiba [Outros recursos no Editor](./web-editor-other-features.md).
 
+
+
+  ![](images/reusable-content-selection-left-panel.png){width="650" align="left"}
+
+  Você também pode usar o ícone **Remover** para desmarcar alguns arquivos da Visualização.
+
+  ![](images/resusable-content-remove-preview.png){width="650" align="left"}
 - Na exibição Repositório, selecione o ícone **Opções** do arquivo desejado e escolha **Adicionar a** > **Conteúdo reutilizável** no menu de contexto.
 
 - Clique com o botão direito do mouse na guia de um arquivo no editor para abrir o menu de contexto e escolha **Adicionar a** > **Conteúdo reutilizável**.
-
 
 Depois que o arquivo for adicionado, você poderá exibir todos os elementos de conteúdo reutilizáveis do arquivo no painel Conteúdo reutilizável. O conteúdo reutilizável é exibido com as IDs e os nomes de elemento.
 
@@ -1047,63 +1086,177 @@ O Experience Manager Guides permite criar e gerenciar variáveis para publicaç�
 
 O ícone Localizar e substituir está localizado na parte inferior do painel esquerdo. O painel Localizar e substituir permite procurar e substituir texto entre arquivos em um mapa ou uma pasta no repositório. É possível executar operações de Localizar e substituir em todos os tópicos de um mapa, incluindo tópicos em submapas e arquivos de Markdown.
 
-![](images/map-find-replace.png){align="left"}
-
 Por padrão, é possível visualizar os arquivos por títulos. Ao passar o mouse sobre um arquivo, é possível visualizar o título do arquivo e o caminho do arquivo como uma dica de ferramenta.
 
 >[!NOTE]
 >
 > Como administrador, você também pode optar por visualizar a lista de nomes de arquivo no Editor. Selecione a opção **Nome do arquivo** da seção **Configuração de exibição dos arquivos do editor** em **Preferências do usuário**.
 
+O recurso Localizar e substituir pode ser usado em dois modos distintos, dependendo de suas necessidades:
+
+- **Com o modo Source:** a pesquisa verifica não apenas o conteúdo visível, mas também o conteúdo de origem subjacente (estrutura XML, incluindo elementos, marcas e valores de atributo) da cadeia de caracteres pesquisada. Esse modo garante uma pesquisa abrangente em todo o conteúdo. Para usar este recurso, você deve habilitar a opção **Usar modo de origem**, disponível no painel Localizar e substituir.
+
+  >[!NOTE]
+  >
+  > O recurso **Usar modo de origem** está disponível no Experience Manager Guides as a Cloud Service com a versão 2026.01.0 e para instalação no local com a versão 5.2. Para usar esse recurso, primeiro você deve indexar o conteúdo dependendo da configuração que está usando.
+  > - **Para serviços em nuvem**: uma implantação de índice personalizada deve ser executada. Para obter detalhes, consulte [Implantando índice personalizado](/help/product-guide/cs-install-guide/custom-indexing.md). Depois de concluído, entre em contato com a equipe de Sucesso do cliente para ativar esse recurso.
+  > - **Para No Local**: a reindexação do conteúdo existente é necessária antes que o recurso possa ser usado. Para obter detalhes, exiba [Reindexação de conteúdo](/help/product-guide/install-guide/custom-indexing-prem.md). Depois de concluído, entre em contato com a equipe de Sucesso do cliente para ativar esse recurso.
+
+  ![](images/map-find-replace-with-source-mode.png){align="left"}
+
+<br>
+
 <details>
-    <summary> Executar a pesquisa global e substituir </summary>
+    <summary> Executar pesquisa global e substituir pelo modo Source</summary>
 
-
-Para executar a pesquisa global e substituir, execute as seguintes etapas:
+Para executar a pesquisa global e substituir pelo modo Source, execute as seguintes etapas:
 
 1. Abra o painel global **Localizar e substituir**.
-1. Selecione a lista suspensa **Examinar** e selecione uma das seguintes opções para realizar a pesquisa.
-
-   - **Mapa atual**: para pesquisar no mapa atualmente aberto
-
-     >[!NOTE]
-     >
-     > Essa opção será exibida se você já tiver aberto um mapa para edição.
+1. Habilitar a opção **Usar o modo de origem**.
+1. Selecione a lista suspensa **Caminho** e selecione uma das seguintes opções para realizar a pesquisa.
 
    - **Caminho**: para pesquisar no caminho selecionado
-   - **Selecionar mapa**: para pesquisar no mapa selecionado
+   - **Mapa**: para pesquisar em algum mapa específico a partir do Repositório ou de Coleções
+   - **Mapa atual**: para pesquisar no mapa atualmente aberto
 
-1. Você pode usar a lista suspensa **Opções** e escolher entre as seguintes opções:
+   ![](images/path-dropdown-source-mode.png){width="350" align="left"}
 
-   - **Bloquear arquivo antes de substituir**: selecione esta opção se desejar bloquear um arquivo automaticamente antes de substituir o termo de pesquisa. Essa configuração é mais relevante caso o administrador tenha ativado a configuração para bloquear um arquivo antes de editar. Com a configuração de backend ativada, você deve selecionar essa opção. Isso impedirá que a caixa de diálogo de bloqueio de arquivo solicite que você bloqueie todos os arquivos antes de fazer qualquer alteração. Se você não selecionar essa opção, um prompt será exibido antes que um arquivo seja aberto para edição.
+
+1. Insira a cadeia de caracteres de pesquisa no campo **Localizar**. Para restringir os resultados, selecione o ícone **Filtro** ao lado do campo Localizar e selecione os seguintes filtros desejados:
+
+   ![](images/find-filters-source-mode.png){width="350" align="left"}
+
+   - **Tipo de arquivo**: escolha o tipo de arquivo; **Tópicos** e **Mapas** onde deseja pesquisar o texto
+   - **Estado do documento**: você pode selecionar um estado de documento nas opções disponíveis. As opções de estado do documento exibidas são derivadas dos perfis de Pasta. Eles representam o conjunto combinado de todos os estados de documento possíveis nesses perfis. Os estados padrão incluem Em revisão, Concluído, Rascunho, Aprovado, Editar e Revisado.
+   - **Última modificação**: filtrar conteúdo com base na data de modificação. Selecione um intervalo de datas no calendário ou escolha uma das seguintes opções de intervalo de tempo:
+
+      - Nas últimas 2 horas
+      - Na semana passada
+      - No mês passado
+      - No ano passado
+   - **Outros**: você pode configurar o seguinte:
+      - **Marcas**: filtrar conteúdo com base em marcas.
+      - **Pesquisa que diferencia maiúsculas de minúsculas**: habilita a pesquisa, garantindo que os resultados correspondam à letra exata de maiúsculas e minúsculas especificada.
+      - **Listar arquivos bloqueados por outros**: exibe os arquivos bloqueados por outros usuários, impedindo edições até que o bloqueio seja liberado.
+
+1. Pressione Enter ou selecione o ícone **Pesquisar** para realizar a pesquisa.
+
+   ![](images/search-icon.png){width="350" align="left"}
+
+1. Selecione um arquivo na lista de resultados da pesquisa. O arquivo é aberto na visualização Source com o termo pesquisado destacado no conteúdo.
+
+1. Digite o termo que você deseja usar como substituição no campo **Substituir por**. Para personalizar como as substituições são aplicadas, clique no ícone **Configurações** ao lado do campo e escolha entre as opções disponíveis.
+
+   - **Substituir arquivos desbloqueados**: selecione esta opção para permitir a substituição nos arquivos desbloqueados.
+
+   - **Criar nova versão após substituir**: selecione essa opção se desejar criar uma nova versão do tópico no qual você escolhe substituir o texto. Você também pode fornecer comentários de versão que serão adicionados com cada arquivo atualizado. Se você não selecionar essa opção, as alterações serão salvas na versão atual do tópico e nenhuma nova versão será criada.
+
+   ![](images/replace-settings-source-mode.png){width="350" align="left"}
+
+
+1. Selecione **Substituir ocorrência** para substituir a cadeia de caracteres de pesquisa atualmente destacada no tópico ou selecione as setas superior e inferior para mover para a próxima ocorrência ou ocorrência anterior do texto.
+
+   ![](images/replace-occurrence.png){width="350" align="left"}
+
+1. Selecione **Substituir tudo** para substituir todas as ocorrências da cadeia de caracteres pesquisada em todos os arquivos pesquisados pela cadeia de caracteres de substituição especificada de uma única vez. Você receberá uma notificação depois que todas as ocorrências forem substituídas.
+
+   ![](images/replace-all.png){width="350" align="left"}
+
+   >[!NOTE]
+   >
+   >Para habilitar o botão **Substituir tudo**, o administrador do perfil da pasta ou o administrador do sistema deve selecionar a opção **Habilitar Substituir tudo** na guia **Geral** das **Configurações do Workspace** (exibidas como **Configurações** para **No local**).
+
+1. Você também pode passar o mouse sobre um arquivo da lista de resultados da pesquisa para exibir o ícone **Substituir tudo no arquivo** à direita, que permite substituir todas as ocorrências do termo em um único arquivo.
+
+   >[!NOTE]
+   >
+   > Você também obtém o ícone **Remover** para remover o arquivo do resultado da pesquisa. Os arquivos removidos são movidos para fora da lista e o termo pesquisado não é substituído neles.
+
+   ![](images/replace-all-in-file.png){width="350" align="left"}
+
+1. Depois que a operação Substituir tudo for concluída, um relatório de CSV que pode ser baixado será gerado, fornecendo um instantâneo de todas as ações de substituição executadas. É possível baixar o relatório para exibir informações detalhadas sobre as operações de substituição, incluindo o número de ocorrências substituídas com êxito, juntamente com detalhes de cada uma, bem como quaisquer falhas e seus motivos correspondentes. A operação pode falhar devido a alguns motivos específicos, como o bloqueio do arquivo por outro usuário, erros de validação causados por alterações feitas no arquivo durante a operação ou outros problemas semelhantes.
+
+   ![](images/snapshot-replace-all.png){width="350" align="left"}
+
+Somente uma operação de substituição total pode ser executada de cada vez em todo o sistema. Até que a operação esteja sendo executada, você verá o status &quot;Substituir tudo em andamento&quot;. Você também pode cancelar a operação de substituição de todos os intervalos. Se você suspender a operação, receberá uma notificação sobre ela na sua Caixa de entrada.
+
+![](images/replace-all-in-progress-source-mode.png){width="350" align="left"}
+
+</details>
+
+<br>
+
+- **Sem modo Source:** a pesquisa está restrita ao texto exibido no modo de exibição Autor, focalizando apenas o conteúdo visível, ignorando o conteúdo de origem, como elementos XML ou atributos. Esse modo é ideal para pesquisas rápidas, somente de conteúdo.
+
+  ![](images/map-find-replace-without-source-mode.png){align="left"}
+
+<br>
+<details>
+    <summary> Executar pesquisa global e substituir sem modo Source</summary>
+
+
+Para executar a pesquisa global e substituir sem o modo Source, execute as seguintes etapas:
+
+1. Abra o painel global **Localizar e substituir**.
+1. Selecione a lista suspensa **Caminho** e escolha uma das seguintes opções para realizar a pesquisa.
+
+   - **Caminho**: para pesquisar no caminho selecionado
+   - **Mapa**: para pesquisar em algum mapa específico a partir do Repositório ou de Coleções
+   - **Mapa atual**: para pesquisar no mapa atualmente aberto
+
+   ![](images/path-dropdown.png){width="350" align="left"}
+
+1. Insira a cadeia de caracteres de pesquisa no campo **Localizar**. Para restringir os resultados, selecione o ícone **Filtro** ao lado do campo Localizar e selecione os seguintes filtros desejados:
+
+
    - **Somente palavras inteiras**: selecione esta opção se desejar pesquisar toda a cadeia de caracteres de pesquisa. Por exemplo, se você inserir sobre na cadeia de caracteres de pesquisa, o resultado da pesquisa retornará todos os arquivos contendo palavras como sobre e visão geral. Se quiser restringir a pesquisa para retornar o termo exato inserido, selecione essa opção.
-   - **Criar nova versão após substituir**: selecione essa opção se desejar criar uma nova versão do tópico no qual você escolhe substituir o texto. Você também pode fornecer comentários de versão que serão adicionados com cada arquivo atualizado.
-
-     Se você não selecionar essa opção, as alterações serão salvas na versão atual do tópico e nenhuma nova versão será criada.
 
    - **Incluir referências indiretas**: selecione essa opção se desejar pesquisar a cadeia de caracteres nas referências indiretas também no mapa DITA. Por padrão, isso fica desativado para que a pesquisa seja executada somente nas referências diretas.
 
-1. Informe o termo ou texto de pesquisa que deseja localizar.
-1. Insira o texto pelo qual deseja substituir o termo de pesquisa.
-1. Pressione Enter ou selecione o ícone **Pesquisar** \( ![](images/search-icon.svg)\) para realizar a pesquisa.
-1. Selecione um arquivo na lista de resultados da pesquisa. O arquivo é aberto na área de edição de conteúdo com o termo pesquisado realçado no conteúdo.
+   ![](images/find-filters.png){width="350" align="left"}
 
-1. Selecione **Substituir única ocorrência** \( ![](images/replace-icon.svg)\) para substituir o termo de pesquisa destacado no tópico ou selecione Próxima correspondência ![](images/next-match-in-search.png) ou ![](images/previous-match-in-search.png) Correspondência anterior para ir para a próxima ocorrência ou ocorrência anterior do texto.
-1. Selecione **Substituir todos** \( ![](images/replace-all-in-file-icon.svg)\)para substituir todas as ocorrências do termo pesquisado em um único arquivo pelo termo de substituição em um único clique. Você receberá uma notificação depois de substituir todas as ocorrências no arquivo selecionado.
+1. Pressione Enter ou selecione o ícone **Pesquisar** para realizar a pesquisa.
 
-Para habilitar o ícone **Substituir tudo**, o administrador do sistema deve selecionar a opção **Habilitar Substituir tudo** na guia **Geral** das **Configurações do Workspace** (exibidas como **Configurações** para **No local**).
+   ![](images/search-icon.png){width="350" align="left"}
 
->[!NOTE]
->
-> Passe o mouse sobre um arquivo da lista de resultados da pesquisa para exibir o ícone Substituir tudo no arquivo à direita. Você também obtém o ícone Ignorar arquivo para remover o arquivo do resultado da pesquisa. Os arquivos que você ignora são removidos da lista e o termo pesquisado não é substituído neles.
+1. Selecione um arquivo na lista de resultados da pesquisa. O arquivo é aberto na visualização Autor na área de edição de conteúdo com o termo pesquisado realçado no conteúdo.
+
+1. Digite o termo que você deseja usar como substituição no campo **Substituir por**. Para personalizar como as substituições são aplicadas, clique no ícone **Configurações** ao lado do campo e escolha entre as opções disponíveis.
+
+   - **Bloquear arquivo antes de substituir**: selecione esta opção se desejar bloquear um arquivo automaticamente antes de substituir a cadeia de caracteres de pesquisa. Essa configuração é mais relevante caso o administrador tenha ativado a configuração para bloquear um arquivo antes de editar. Com a configuração de backend ativada, você deve selecionar essa opção. Isso impedirá que a caixa de diálogo de bloqueio de arquivo solicite que você bloqueie todos os arquivos antes de fazer qualquer alteração. Se você não selecionar essa opção, um prompt será exibido antes que um arquivo seja aberto para edição.
+
+   - **Criar nova versão após substituir**: selecione essa opção se desejar criar uma nova versão do tópico no qual você escolhe substituir o texto. Você também pode fornecer comentários de versão que serão adicionados com cada arquivo atualizado. Se você não selecionar essa opção, as alterações serão salvas na versão atual do tópico e nenhuma nova versão será criada.
+
+   ![](images/replace-settings.png){width="350" align="left"}
+
+
+1. Selecione **Substituir ocorrência** para substituir a cadeia de caracteres de pesquisa atualmente destacada no tópico ou selecione as setas superior e inferior para ir até a próxima ocorrência ou a ocorrência anterior do texto
+
+   ![](images/replace-occurrence.png){width="350" align="left"}
+
+1. Selecione **Substituir tudo** para substituir todas as ocorrências do termo pesquisado em um único arquivo pelo termo de substituição em um único processo. Você receberá uma notificação depois de substituir todas as ocorrências no arquivo selecionado.
+
+   >[!NOTE]
+   >
+   > Para habilitar o ícone **Substituir tudo**, o administrador do perfil de pasta ou o administrador do sistema deve selecionar a opção **Habilitar Substituir tudo** na guia **Geral** das **configurações do Workspace** (exibidas como **Configurações** para **No local**). Se ocorrerem erros durante a operação de substituição, esses arquivos serão ignorados devido a problemas de análise XML ou erros relacionados a DITA.
+
+   ![](images/replace-all.png){width="350" align="left"}
+
+1. Você também pode passar o mouse sobre um arquivo da lista de resultados da pesquisa para exibir o ícone **Substituir tudo no arquivo** à direita, que permite substituir todas as ocorrências do termo em um único arquivo.
+
+   >[!NOTE]
+   >
+   > Você também obtém o ícone **Remover** para remover o arquivo do resultado da pesquisa. Os arquivos removidos são movidos para fora da lista e o termo pesquisado não é substituído neles.
+
+   ![](images/replace-all-in-file-no-source.png){width="350" align="left"}
 
 Somente uma operação de substituição total pode ser executada de cada vez em todo o sistema. Até que a operação esteja sendo executada, você verá o status &quot;Substituir tudo em andamento&quot;. Você também pode abortar a operação replace all entre as duas ou exibir o relatório de log. Se você suspender a operação, receberá uma notificação sobre ela na sua Caixa de entrada. Você receberá uma notificação de sucesso depois de substituir todas as ocorrências no arquivo selecionado.
 
-![](images/replace-all-in-progress.png){width="300" align="left"}
+![](images/replace-all-in-progress.png){width="350" align="left"}
 
 Você também pode usar a opção **Localizar no mapa** do menu **Opções** de um mapa para localizar e substituir texto em um mapa. Essa opção aparece para um mapa aberto no painel de repositório ou na exibição de mapa.
 
-![](images/map-options-menu.png){width="550" align="left"}
+![](images/map-options-menu.png){width="650" align="left"}
 
 </details>
 
@@ -1170,4 +1323,4 @@ Para exibir os comentários de revisão nas tarefas de revisão ativas que estã
 
 </details>
 
-**Tópico pai:**&#x200B;[&#x200B; Introdução ao Editor](web-editor.md)
+**Tópico pai:**[ Introdução ao Editor](web-editor.md)

@@ -4,9 +4,9 @@ description: Resolva problemas com a solução básica de problemas no AEM Guide
 exl-id: 57b88291-b5a3-4931-b3ed-f2b2ce7a463c
 feature: Publishing, Troubleshooting
 role: User
-source-git-commit: 262edba89ab4bf65cb6e109bd7c5df177e2e56fe
+source-git-commit: e049cb1f3d091c701285dbe89194058b93d5e2e4
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
@@ -42,15 +42,17 @@ Execute as seguintes etapas para exibir e verificar o arquivo de log de geraçã
    ![](images/log-file-new.png){align="left"}
 
 1. Aplique os seguintes filtros para realçar o texto no arquivo de log:
-   - Fatal: Realça os erros fatais no arquivo de log com a cor vermelho-escuro.
-   - Erro: realça os erros no arquivo de log com cor vermelha. As exceções são tratadas como erros e destacadas de forma semelhante em vermelho.
-   - Aviso: realça os avisos no arquivo de log com cor âmbar.
-   - Informações: realça as mensagens de informações no arquivo de log com a cor verde.
+   - **Fatal**: realça os erros fatais no arquivo de log com a cor vermelho-escuro.
+   - **Erro**: realça os erros no arquivo de log com a cor vermelha. As exceções são tratadas como erros e destacadas de forma semelhante em vermelho.
+   - **Aviso**: realça os avisos no arquivo de log com cor âmbar.
+   - **Informações**: realça as mensagens de informações no arquivo de log com a cor verde.
 
-1. Use os botões de navegação para cima e para baixo para ir até o texto destacado no arquivo de log.
+1. Use os botões de navegação para cima e para baixo para ir até o texto destacado no arquivo de log. Como alternativa, role pelo arquivo de log e verifique as mensagens.
 
-   Como alternativa, role pelo arquivo de log e verifique as mensagens.
+1. Você pode executar as seguintes ações no arquivo de log:
 
+   - **Log de Downloads**: se a lista de logs for extensa, selecione **Baixar Log** para baixar o arquivo de log no seu dispositivo para facilitar o acesso e a revisão.
+   - **Copiar Log**: copia a lista de logs para a área de transferência, permitindo que você cole-a rapidamente em algum editor de texto.
 
 ## Copiar e verificar o arquivo de log em um editor de texto
 
@@ -82,6 +84,9 @@ Execute as seguintes etapas para copiar e verificar o arquivo de log de geraçã
    ![](images/process-error-in-log-file.png){width="650" align="left"}
 
 
+
+
+
 ## Resolver erro de compilação de JSP
 
 Se o tópico DITA for muito grande, você poderá exibir o erro de compilação JSP \(`org.apache.sling.api.request.TooManyCallsException`\) no navegador. Esse erro pode aparecer ao abrir um tópico para edição, revisão ou publicação.
@@ -99,4 +104,4 @@ Execute as seguintes etapas para resolver esse problema:
 1. Aumente o valor do parâmetro *Número de Chamadas por Solicitação* de acordo com suas necessidades.
 
 
-**Tópico pai:**&#x200B;[&#x200B; Geração de saída](generate-output.md)
+**Tópico pai:**[ Geração de saída](generate-output.md)

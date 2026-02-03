@@ -5,9 +5,9 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: 27786098-119c-4b7a-8275-8a89d435294f
-source-git-commit: 32ed6c47f8193f955df8a60fc8cdc931b28fa7a4
+source-git-commit: 62221031e445ccdbf1f2567f38fa888ff52017d4
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -53,20 +53,29 @@ Siga as etapas mencionadas abaixo para processar os ativos:
 
 1. Selecione a guia **Novo Processo** no canto superior direito da janela para iniciar uma nova tarefa de processamento.
 
+   A caixa de diálogo **Novo processo** é aberta.
+
    ![Novo-processador-ativo-processo](images/new-asset-processor.png){width="350" align="left"}
 
-1. Selecione a pasta que deseja processar. Você também pode selecionar as pastas (dentro da pasta principal selecionada) que deseja excluir ou ignorar.
+1. Forneça os seguintes detalhes na caixa de diálogo:
+
+   1. **Tipo de recurso**: selecione **Processamento de ativo** na lista suspensa.
+   1. **Selecionar pastas e arquivos**: navegue e escolha uma ou várias pastas e arquivos para processar.
+   1. **Selecionar pastas a serem ignoradas**: como opção, selecione subpastas dentro da pasta pai escolhida para excluir do processamento.
+   1. **Tipo de ativo**: na lista suspensa, selecione o tipo de ativo específico a ser processado (por exemplo, Tópico DITA, Mapa DITA, Markdown, HTML/CSS, DITAVAL ou outros arquivos). Somente o tipo de ativo selecionado é processado das pastas especificadas anteriormente.
+Exemplo: a seleção de Tópico DITA processa apenas tópicos DITA dentro da pasta selecionada, permitindo a filtragem direcionada.
+   1. **Criado após/Criado antes**: aplique filtros de data para processar ativos criados dentro do período de tempo especificado.
 
    >[!NOTE]
    >
-   >Somente uma pasta pode ser selecionada em um determinado momento para processamento. Para operações específicas, é possível excluir várias pastas.
+   > Se um processo já estiver em execução para uma pasta, não será possível iniciar um novo processo para a mesma pasta até que a tarefa atual seja concluída.
 
-1. Selecione **Criar**. Você recebe um pop-up mostrando **Sucesso e o Processo acionado com êxito** como mostrado no trecho. O mesmo se reflete na lista. Você pode ver o status da tarefa de processamento na janela.
+1. Selecione **Criar**. Você recebe um pop-up mostrando **Sucesso e o Processo acionado com êxito**. Você pode ver o status da tarefa de processamento na janela.
 
    ![Processador de ativos de mensagens](images/message-asset-processor.png){width="350" align="left"}
 
 
-## Opções adicionais para as tarefas de processamento
+## Opções adicionais para tarefas de processamento de ativos
 
 Opções adicionais estão disponíveis para a tarefa de processamento depois de iniciada. Você pode acessar essas opções ao passar o cursor do mouse sobre a ID de execução da tarefa. Detalhes dessas opções são fornecidos abaixo:
 

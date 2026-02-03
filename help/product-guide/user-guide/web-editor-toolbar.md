@@ -4,9 +4,9 @@ description: Conheça a barra de ferramentas no editor. Saiba mais sobre a inter
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
-source-git-commit: 172599c2bd99f1779b04255aac5e7d505614b463
+source-git-commit: a17f9c5d5143de2ca8836ef6282a796abb766d78
 workflow-type: tm+mt
-source-wordcount: '6011'
+source-wordcount: '6173'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ O recurso **Histórico de versões** no Editor permite verificar as versões dis
 
    Guia **Metadata**: os metadados recém-adicionados estão em fonte verde e os metadados excluídos estão em fonte vermelha.
 
-   ![Diferença de metadados para versões &#x200B;](images/metadata-version-diff.png){width="550" align="left"}
+   ![Diferença de metadados para versões ](images/metadata-version-diff.png){width="550" align="left"}
 
    *Comparar os metadados de diferentes versões no histórico de Versões.*
 
@@ -384,13 +384,30 @@ Insere uma imagem no local válido atual ou próximo. Selecione o ícone Imagem 
 
 ![](images/insert-image-new-dialog.png){width="300" align="left"}
 
-Você pode adicionar uma imagem/Título da Figura e Texto Alternativo para a imagem na caixa de diálogo Inserir Imagem.
+
+Na caixa de diálogo **Selecionar arquivo**, você pode procurar o arquivo de imagem necessário de **Repositório** ou **Coleções**.
+
+>[!NOTE]
+>
+> O navegador de caminho de arquivos e pastas é introduzido com uma interface renovada na versão 2601 do Experience Manager Guides as a Cloud Service. A nova interface é ativada por padrão. Se preferir continuar usando a interface do usuário existente sem essas atualizações, entre em contato com a equipe de Sucesso do cliente para desativar esse novo aprimoramento.
+
+![](images/select-file-browser-images.png)
+
+Use a navegação estrutural na parte superior e o painel de navegação da pasta à esquerda para navegar facilmente pelas pastas.
+
+![](images/select-file-browser-file-navigation.png)
+
+Você pode pesquisar o arquivo de imagem necessário por Nome do arquivo, Título do arquivo e Conteúdo. Você também pode filtrar os resultados da pesquisa por Caminho \(para pesquisar em\), Estado do documento, Bloqueado por, Última modificação e Tags. O filtro de tipo de arquivo é pré-aplicado a **Imagens** e permanece desabilitado para outros tipos de arquivo para permitir seleções de arquivos válidas. Para obter mais detalhes sobre como usar filtros neste navegador de caminho, exiba [Outros recursos no Editor](./web-editor-other-features.md).
+
+![](images/select-file-dialog-image-filter.png)
+
+Depois de encontrar o arquivo de imagem necessário, selecione o arquivo e escolha **Selecionar** para inserir a imagem no documento. Você pode inserir vários formatos de arquivos de imagem, como `.png`, `.svg`, `.gif`, `.jpg`, `.eps`, `.ai`, `.psd` e muito mais.
+
+Você também pode adicionar uma imagem/Título da figura e Texto alternativo para a imagem na caixa de diálogo Inserir imagem.
 
 >[!NOTE]
 >
 > Quando você insere uma imagem e especifica um texto alternativo para a mesma, ela é adicionada dentro do elemento `<alt>` de acordo com os padrões DITA mais recentes. O uso do atributo `@alt` para texto alternativo está obsoleto, mas ele permanece com suporte em versões DITA anteriores.
-
-Usando a opção **Selecionar Arquivo**, você pode procurar o arquivo de imagem necessário por nome de arquivo. Você também pode filtrar os resultados da pesquisa por Caminho \(para pesquisar em\), Coleções, Tipo de arquivo e Tags. Depois de encontrar o arquivo de imagem necessário, selecione o arquivo e escolha **Selecionar** para inserir a imagem no documento. Você pode inserir vários formatos de arquivos de imagem, como `.png`, `.svg`, `.gif`, `.jpg`, `.eps`, `.ai`, `.psd` e muito mais.
 
 Depois de inserir uma imagem, você pode alterar a altura, a largura, a disposição e os atributos no painel Propriedades de conteúdo. Selecione o arquivo de imagem e faça as alterações no painel Propriedades de conteúdo no painel direito.
 
@@ -426,7 +443,7 @@ Selecione uma imagem no tópico atual e selecione o ícone Inserir/Editar mapa d
 
 Escolha a forma preferida Retangle ![](images/imagemap-rectangle-toolbar.png), Circle ![](images/imagemap-circle-toolbar.png) ou Polygon ![](images/imagemap-polygon-toolbr.png) para definir uma área sobre uma imagem que você deseja usar como um link. Depois de definir uma área, a caixa de diálogo Referência é exibida, onde é necessário especificar o link para conteúdo interno ou externo:
 
-![](images/reference-dialog.png){width="650" align="left"}
+![](images/reference-dialog.png){width="350" align="left"}
 
 Se houver sobreposição de áreas, você poderá trazer a forma para frente ou enviá-la para trás clicando no respectivo ícone na barra de ferramentas. Você também pode remover uma área selecionando-a e clicando no ícone Excluir. Clicar duas vezes em uma área abre a caixa de diálogo Referência, na qual é possível alterar o link de destino. Depois de marcar as áreas necessárias na imagem, salve as alterações selecionando **Concluído**.
 
@@ -440,13 +457,19 @@ Insere diferentes tipos de arquivos multimídia. Selecione o ícone suspenso Mul
 - YouTube
 - Vimeo
 
-Ao selecionar a opção de arquivo de Áudio ou Vídeo, você verá a exibição de repositório para procurar e selecionar o arquivo desejado. Se você escolher YouTube ou Vimeo, você obterá a caixa de diálogo Inserir multimídia. Cole o link do arquivo de vídeo no campo Link da Web e selecione Inserir para adicionar o vídeo no local válido atual ou próximo no documento.
+Ao selecionar a opção de arquivo de Áudio ou Vídeo, você verá a caixa de diálogo **Selecionar arquivo** para procurar e selecionar o arquivo desejado em Repositório ou Coleções.
+
+![](images/select-file-dialog-multimedia.png){width="650" align="left"}
+
+Se você escolher YouTube ou Vimeo, você verá a caixa de diálogo **Inserir multimídia**. Cole o link do arquivo de vídeo no campo Link da Web e selecione Inserir para adicionar o vídeo no local válido atual ou próximo no documento.
+
+![](images/insert-multimedia-dialog.png){width="350" align="left"}
 
 >[!NOTE]
 >
 > Ao adicionar um link de vídeo do YouTube, é necessário substituir a cadeia de caracteres `watch?v=` por `embed` na URL. Por exemplo, para adicionar um link de vídeo do YouTube: `https://www.youtube.com/**watch?v**=WlIKQOrmZcs`, você precisa adicioná-lo como: `https://www.youtube.com/**embed/**WlIKQOrmZcs`. Essa alteração garante que o vídeo seja incorporado na saída do AEM Site e do PDF.
 
-Você poderá também adicionar o Arquivo de Áudio ou Vídeo a partir da janela Inserir Multimídia. Selecione a opção Arquivo de áudio/vídeo e, em seguida, selecione o ícone de navegação para iniciar a visualização de repositório. Selecione o arquivo de áudio ou vídeo do repositório e selecione **Selecionar** para adicionar o link do arquivo no campo Arquivo de Áudio/Vídeo. Caso escolha um arquivo de vídeo, uma pré-visualização do arquivo também é mostrada na área Pré-visualização. É possível reproduzir o arquivo de vídeo para visualizá-lo.
+Você também pode adicionar o arquivo de Áudio ou Vídeo da caixa de diálogo **Inserir Multimídia**. Selecione a opção Arquivo de áudio/vídeo e, em seguida, selecione o ícone de navegação para iniciar a visualização de repositório. Selecione o arquivo de áudio ou vídeo do repositório e selecione **Selecionar** para adicionar o link do arquivo no campo Arquivo de Áudio/Vídeo. Caso escolha um arquivo de vídeo, uma pré-visualização do arquivo também é mostrada na área Pré-visualização. É possível reproduzir o arquivo de vídeo para visualizá-lo.
 
 ![](images/insert-multimedia.png){width="650" align="left"}
 
@@ -489,20 +512,29 @@ Se o administrador tiver habilitado a opção UUIDs no *XMLEditorConfig*, você 
 >
 > Exiba a seção Referências no Guia de práticas recomendadas para obter as práticas recomendadas sobre referência de conteúdo.
 
-**Filtrar Pesquisa**
+**Filtrar pesquisa na exibição Repositório**
 
-Você pode procurar algum texto nos arquivos presentes no caminho selecionado do repositório do AEM. Por exemplo, é feita uma pesquisa de &quot;geral&quot; na captura de tela a seguir. Também é possível restringir sua pesquisa usando filtros aprimorados. Você pode procurar todos os arquivos DITA como Tópicos DITA e Mapas DITA presentes no caminho selecionado.
+Na caixa de diálogo **Selecionar arquivo**, você pode procurar algum texto nos arquivos presentes no caminho selecionado do **Repositório**. Por exemplo, *frenagem* é pesquisada na captura de tela abaixo.
 
-Você pode pesquisar arquivos não DITA como arquivos de imagem, multimídia e documentos no caminho selecionado. Também é possível pesquisar valores específicos nos atributos de elementos DITA. Você também pode procurar arquivos cujo check-out tenha sido feito pelo usuário especificado.
+>[!NOTE]
+>
+> O navegador de Arquivo e Caminho é introduzido com uma interface renovada na versão 2601 do Experience Manager Guides as a Cloud Service. A nova interface é ativada por padrão. Se preferir continuar usando a interface do usuário existente sem essas atualizações, entre em contato com a equipe de Sucesso do cliente para desativar esse novo aprimoramento.
 
 ![](images/reference-search-filters.png){width="650" align="left"}
+
+Você pode usar a navegação estrutural na parte superior e o painel de navegação da pasta à esquerda para navegar facilmente pelas pastas.
+
+![](images/select-file-browser-file-navigation.png)
+
+Você pode pesquisar o arquivo necessário por Nome do arquivo, Título do arquivo e Conteúdo. Você também pode restringir sua pesquisa usando filtros aprimorados no painel Direito. Para obter mais detalhes, exiba [Outros recursos no Editor](./web-editor-other-features.md).
+
+![](images/select-file-dialog-image-filter.png)
+
+A lista de arquivos filtrados que contém o texto pesquisado é exibida. Você também pode visualizar o conteúdo do arquivo.
 
 >[!NOTE]
 >
 > O administrador do sistema também pode configurar os filtros de texto e mostrar ou ocultar outros filtros. Para obter mais detalhes, consulte a seção *Configurar filtros de texto* em Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service.
-
-A lista de arquivos filtrados que contém o texto pesquisado é exibida. Por exemplo, na captura de tela acima, os arquivos que contêm o texto &quot;geral&quot; são listados. Você também pode visualizar o conteúdo do arquivo.
-
 
 **Conteúdo Reutilizável** - ![](images/reusable-content.svg)
 
@@ -542,7 +574,7 @@ Inserir palavra-chave definida no mapa DITA. Selecione a opção Palavra-chave p
 
 As palavras-chave são listadas em ordem alfabética e você também pode pesquisar palavras-chave\(s\) digitando uma string de pesquisa na caixa Pesquisar. O resultado da pesquisa retornará as palavras-chave que contêm a cadeia de caracteres em ID ou Valor. As palavras-chave definidas no mapa DITA são listadas nesta caixa de diálogo. Escolha a palavra-chave que deseja inserir e selecione **Inserir**.
 
-Você também pode alterar os atributos da palavra-chave inserida clicando com o botão direito do mouse na palavra-chave e selecionando a opção Atributos. A caixa de diálogo **Atributos para palavra-chave é aberta:
+Você também pode alterar os atributos da palavra-chave inserida clicando com o botão direito do mouse na palavra-chave e selecionando a opção Atributos. A caixa de diálogo **Atributos da Palavra-chave** é aberta:
 
 ![](images/attributes-for-keyword.png){width="550" align="left"}
 
@@ -627,4 +659,4 @@ Se um arquivo for bloqueado por outro usuário, passar o mouse sobre o ícone de
 Como administrador, você também tem acesso ao recurso **Forçar desbloqueio** que permite desbloquear o arquivo bloqueado por outros usuários. Use este recurso para acessar os direitos de edição em um arquivo bloqueado por outros usuários.
 
 ![](images/web-editor-force-unlock-new.png){width="350" align="left"}
-**Tópico pai:**&#x200B;[&#x200B; Introdução ao Editor](web-editor.md)
+**Tópico pai:**[ Introdução ao Editor](web-editor.md)

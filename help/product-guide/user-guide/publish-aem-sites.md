@@ -4,9 +4,9 @@ description: Publique um tópico ou os elementos dentro de um tópico para uma s
 feature: Publishing
 role: User
 exl-id: acbc48b7-93a2-41c6-8565-359fbbdd1fb9
-source-git-commit: 144ecbea83b2c649a00c6b88e533327f3ce111f4
+source-git-commit: e1bac3680afda837393d86ee5f19d5877237ffe9
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -21,13 +21,11 @@ Esse recurso permite publicar um tópico e seus elementos sem criar um mapa DITA
 Para gerar uma página Sites, execute as seguintes etapas:
 
 
-1. Abra o tópico no Editor e selecione Propriedades do arquivo no painel direito.
+1. Abra o tópico no Editor e selecione **Propriedades do arquivo** no painel direito.
 1. Selecione o ícone **Nova saída**![novo ícone de saída](./images/Add_icon.svg) na seção **Saídas**.
 1. Selecione a **página Sites**.
 1. Na caixa de diálogo **Gerar página de Sites**, preencha os seguintes detalhes:
    ![Adicionar o caminho e os detalhes do modelo na página Gerar Sites](images/aem-sites-page-generate.png){width="500" align="left"}
-
-   *Adicione o caminho, o título, o nome e os detalhes do modelo para publicar um tópico ou seus elementos como uma página do Sites. *
 
    * **Caminho**: procure e selecione o caminho da pasta em que deseja publicar a página Sites.
    * **Título**: digite o título da página Sites. Por padrão, o título é preenchido com o título do tópico. Você pode editá-lo. Esse título é usado para gerar o nome da página Sites.
@@ -35,10 +33,10 @@ Para gerar uma página Sites, execute as seguintes etapas:
    * **Modelo de página**: selecione o modelo de página Sites para criar sua página Sites. É possível exibir os modelos na pasta no caminho selecionado. Seu administrador também pode fazer upload de modelos personalizados.
 
 
-   * Você também pode selecionar condições diferentes para publicar o conteúdo.  Selecione uma das seguintes opções:
+   * Você também pode selecionar condições diferentes para publicar o conteúdo. Selecione uma das seguintes opções:
 
 
-      * **Nenhum**: selecione essa opção se não quiser aplicar nenhuma condição à saída publicada.
+      * **Nenhum**: selecione esta opção se não quiser aplicar nenhuma condição à saída publicada.
       * **Usando DITAVAL**: selecione o arquivo DITAVAL para gerar conteúdo personalizado. Você pode selecionar o arquivo DITAVAL usando a caixa de diálogo Procurar ou digitando o caminho do arquivo.
       * **Uso de atributos**: você pode definir atributos de condição em seus tópicos DITA. Em seguida, selecione o atributo de condição para publicar o conteúdo relevante.
 
@@ -51,7 +49,7 @@ Para gerar uma página Sites, execute as seguintes etapas:
 1. Selecione **Gerar** para publicar a página Sites.
 1. Você pode exibir a página Sites de um tópico na seção **Saídas** em **Propriedades do Arquivo**. As páginas do Sites são exibidas de acordo com a data e a hora de sua publicação, sendo que a mais recente é a primeira.
 
-   ![Exibir a página Sites para um tópico](images/aem-sites-output-new.png){width=300 align=&quot;left&quot;}
+   ![Exibir a página Sites de um tópico](images/aem-sites-output-new.png){width=300 align="left"}
 
    *Exiba a página Sites presente para um tópico e republique-os.*
 

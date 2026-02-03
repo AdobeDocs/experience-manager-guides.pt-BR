@@ -3,9 +3,10 @@ title: Noções básicas das notificações de revisão
 description: Saiba mais sobre os diferentes tipos de notificações de revisão e como elas são acionadas durante as diferentes fases do fluxo de trabalho de revisão no Experience Manager Guides.
 feature: Reviewing
 role: User
-source-git-commit: b7648fe1d36de3c243ca5a55f42a41f7523056ce
+exl-id: dc452e7d-a317-4168-8015-9fa4a06666ea
+source-git-commit: 16688221c35e0b24c51cbff27953a93892cd0944
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '732'
 ht-degree: 0%
 
 ---
@@ -37,6 +38,7 @@ A tabela abaixo fornece uma visão geral dos diferentes tipos de notificações 
 | Revisor não atribuído | Tarefa de revisão não atribuída **Revisão da página inicial** | Não atribuído por **Autor** | Tarefa de revisão não atribuída **Revisão da página inicial** | Você foi desatribuído da tarefa de revisão **Revisão da Página Inicial** no projeto **Renovação de WebDocs** pelo **Autor**. | **Revisor** |
 | Menção de tag | Mencionado no comentário da tarefa de revisão para **Revisão da página inicial** | Mencionado por **Autor** | Mencionado no comentário da tarefa de revisão para **Revisão da página inicial** | Você foi mencionado em um comentário na tarefa **Revisão da Página Inicial** em **Renovação de WebDocs** por **Autor**. **Trecho do comentário:** *&quot;Atualize a estrutura do cabeçalho para seguir as diretrizes de acessibilidade.&quot;* | **Usuário mencionado** |
 | Conteúdo atualizado durante a revisão | Tópico atualizado na tarefa de revisão **Revisão da Página Inicial** | Atualizado por **Autor** | Tópico atualizado na tarefa de revisão **Revisão da Página Inicial** | **O Autor** atualizou as versões de tópico para a tarefa de revisão **Revisão da Página Inicial**. Revise com bastante antecedência a data de vencimento **15 de agosto de 2025**. | **Revisor** |
+| Tópicos adicionados ou removidos ou versão atualizada enquanto uma tarefa de revisão está em andamento com o(s) revisor(es) | Tópicos atualizados na tarefa de revisão **Revisão da Página Inicial** | Atualizado por **Autor** | Tópicos atualizados na tarefa de revisão **Revisão da Página Inicial** | **O Autor** atualizou as versões de tópico para a tarefa de revisão **Revisão da Página Inicial**. Revise com bastante antecedência a data de vencimento **15 de agosto de 2025**. | **Revisor** |
 
 
 Na tabela acima, o **texto em negrito** representa valores de exemplo e está sendo orientado por variáveis predefinidas que podem ser usadas em notificações.
@@ -59,4 +61,4 @@ Para obter uma lista completa de variáveis predefinidas e revisar a personaliza
 
 
 
-**Tópico pai:**&#x200B;[&#x200B; Introdução à revisão](review.md)
+**Tópico pai:**[ Introdução à revisão](review.md)

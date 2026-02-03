@@ -1,13 +1,13 @@
 ---
 title: Exemplos
 description: Lista de exemplos de personalização
-source-git-commit: fc0b19ac44ca9cbc1e9c5cf046f9a0a24f2a1794
+exl-id: 40cdc703-7a78-4979-a7b5-1158558d4868
+source-git-commit: 924c34a2ec6249b81cbdddf72392dac600e22e9f
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
-
 
 # Exemplos
 
@@ -26,6 +26,9 @@ Neste exemplo, personalizamos o `right tab panel` para ter outro `tab` chamado &
 
 5. [Barra de ferramentas](./examples/toolbar.ts)
 Neste exemplo, substituímos os botões `Insert Element`, `Insert Paragraph`, `Insert Numbered List`, `Insert Bulleted List` por um único botão `More Insert Options` que contém todos esses.
+
+6. [Botão Gerenciar no painel Metadados](./examples/metadata_report_manage_button.ts)
+Neste exemplo, personalizamos o botão **Gerenciar** (localizado no painel Metadados da página Relatórios) para que ele seja desativado quando os arquivos selecionados estiverem no modo somente leitura. Isso ajuda a impedir edições acidentais de metadados em arquivos que não se destinam à edição.
 
 [Analisar Exemplos de Aplicativos]
 
