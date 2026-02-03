@@ -213,5 +213,5 @@ A verificação primária está testando o recurso:
 
 - [Documentação de indexação do AEM as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/operations/indexing)
 - [Guia de indexação do Apache Jackrabbit Oak](https://jackrabbit.apache.org/oak/docs/query/indexing.html)
-- [Documentação do AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides)
+- [Documentação do AEM Guides](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides)
 - [Documentação do Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager)

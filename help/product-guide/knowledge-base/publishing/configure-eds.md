@@ -23,7 +23,7 @@ Para habilitar a publicação do Experience Manager Guides no EDS (Beta), você 
 2. [Criar e configurar um perfil de publicação para EDS (Beta) no Experience Manager Guides](#create-and-configure-a-publish-profile-for-eds-beta-in-experience-manager)
 3. [Personalizar saída usando blocos EDS](#customize-output-using-eds-blocks)
 
-Para obter uma apresentação rápida em vídeo, exiba [Publicação no AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25).
+Para obter uma apresentação rápida em vídeo, exiba [Publicação no AEM Guides](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25).
 
 
 
