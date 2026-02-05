@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leia a documentação do produto do Adobe Experience Manager Guides.
 breadcrumb-title: Documentação do AEM Guides
-source-git-commit: cb3b06e18391fdfc53eb5abd4096553781eab0b8
+source-git-commit: c7157e04f758d08b6402a969a35d0c231a1ca476
 workflow-type: tm+mt
-source-wordcount: '2497'
+source-wordcount: '2502'
 ht-degree: 9%
 
 ---
@@ -174,14 +174,14 @@ ht-degree: 9%
                - [Notas de versão 4.2.1](./release-info/release-notes-4-2-1.md)
                - [Notas de versão 4.2](./release-info/release-notes-4-2.md)
          - [Notas de versão 4.1.x](./release-info/release-notes-4-1.md)
-         - [Notas de versão do 4.0.x](https://helpx.adobe.com/br/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [Notas de versão da 3.8.x](https://helpx.adobe.com/br/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [Notas de versão do 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [Notas de versão da 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Guia do usuário (nova interface do usuário) {#user-guide}
    - Introdução {#about-aemg}
       - [Sobre [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides] trabalhando e os principais recursos {#aemg-works-features}
          - [Como [!DNL AEM Guides] funciona](./user-guide/intro-how-dxml-works.md)
-         - [Recursos da chave [!DNL AEM Guides] &#x200B;](./user-guide/intro-dxml-features.md)
+         - [Recursos da chave [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
    - Home page {#home-page}
       - [Experiência da página inicial [!DNL AEM Guides]](./user-guide/intro-home-page.md)
       - [Interface do repositório](./user-guide/home-page-repository-view.md)
@@ -379,7 +379,7 @@ ht-degree: 9%
       - Resolução de problemas {#troubleshooting}
          - [Tempo limite da sessão](./user-guide/session-timeout-prompt.md)
 - Guia do usuário (interface antiga) {#user-guide-old-ui}
-   - [visão geral do AEM Guides](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [visão geral do AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Instalação e configuração {#install-guide}
    - No local {#on-prem-ig}
       - [Noções básicas no local](./install-guide/introduction.md)
@@ -449,7 +449,8 @@ ht-degree: 9%
          - [Integrar editores de XML baseados em desktop](./install-guide/integrate-desktop-editors.md)
       - Trabalhar com configurações de geração de saída {#output-gen-config}
          - [Definir configurações de geração de saída](./install-guide/conf-output-generation.md)
-         - [Baixe e instale modelos do aem sites](./install-guide/download-install-aem-sites-templates.md)
+         - [Baixar e instalar modelos do AEM Sites](./install-guide/download-install-aem-sites-templates.md)
+         - [Mapeamento de componentes do AEM Sites](./install-guide/component-mapping.md)
          - [Sobrepor tags do HTML na saída do AEM Sites](./install-guide/overlay-html-tags-aem-sites.md)
          - Publicação nativa no PDF {#config-native-pdf-publish}
             - [Modelo do PDF](./native-pdf/pdf-template.md)
