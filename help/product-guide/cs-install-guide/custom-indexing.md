@@ -4,7 +4,7 @@ description: Saiba como personalizar o conteúdo de índice
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 7d2d0c21001cd53244588f6b700db184a73ffa77
+source-git-commit: 9a4f0391c464d69ea65ecfdaac6ecdcb17d1a3da
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 3%
@@ -52,9 +52,6 @@ Crie a seguinte definição de índice no seu projeto em:
           compatVersion="{Long}2"
           evaluatePathRestrictions="{Boolean}true"
           includedPaths="[/content/dam]"
-          reindex="{Boolean}false"
-          reindexCount="{Long}1"
-          seed="{Long}958982603885135223"
           selectionPolicy="tag"
           tags="[ditaSearch]"
           type="lucene">
@@ -213,5 +210,5 @@ A verificação primária está testando o recurso:
 
 - [Documentação de indexação do AEM as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/operations/indexing)
 - [Guia de indexação do Apache Jackrabbit Oak](https://jackrabbit.apache.org/oak/docs/query/indexing.html)
-- [Documentação do AEM Guides](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides)
+- [Documentação do AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides)
 - [Documentação do Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager)
