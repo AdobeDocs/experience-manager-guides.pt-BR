@@ -4,14 +4,15 @@ description: Saiba como fazer o mapeamento de componentes para o AEM Sites
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: c7157e04f758d08b6402a969a35d0c231a1ca476
+exl-id: 376aea7a-7850-44d4-a620-6b1a798a0801
+source-git-commit: beb1ca15fdfb0e7ea30e6e685ac67a2a398cc064
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1042'
 ht-degree: 0%
 
 ---
 
-# Mapeamento de componente para o AEM Sites (usando o mapeamento de componente composto)
+# Mapeamento de componentes do AEM Sites
 
 O artigo fala sobre os vários aspectos do mapeamento de componentes para sites do AEM (usando o mapeamento de componentes compostos).
 
