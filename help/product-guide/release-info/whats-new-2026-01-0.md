@@ -2,9 +2,10 @@
 title: Notas de versão | Novidades na versão 2026.01.0 do Adobe Experience Manager Guides
 description: Saiba mais sobre os recursos novos e aprimorados da versão 2026.01.0 do Adobe Experience Manager Guides
 role: Leader
-source-git-commit: cb3b06e18391fdfc53eb5abd4096553781eab0b8
+exl-id: f24a6f4a-2754-48d9-b0ce-79229dc8dba9
+source-git-commit: 2c20191ba998ad7da98587f1832e1fe8499d023c
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1591'
 ht-degree: 0%
 
 ---
@@ -106,9 +107,18 @@ Agora é possível rastrear a contagem de palavras presente em um mapa ou arquiv
 
 Para obter detalhes, exiba [painel direito no Editor](../user-guide/web-editor-right-panel.md#file-properties).
 
-### Manuseio aprimorado de arquivos somente leitura
+### As propriedades de metadados não são mais editáveis para arquivos somente leitura
 
-A edição das propriedades do Arquivo agora está restrita para arquivos que estão no modo **Somente leitura**. Se um arquivo estiver bloqueado por outro usuário (disponível no modo Somente leitura), você não poderá alterar nenhuma propriedade de metadados, seja do [painel direito](../user-guide/web-editor-right-panel.md#file-properties), da opção **Propriedades** no [menu de contexto de um arquivo](../user-guide/web-editor-other-features.md#context-menu-functions-on-a-files-tab) ou do [Relatório de Metadados](../user-guide/reports-web-editor.md#metadata-report). Isso ajuda a evitar alterações acidentais em arquivos somente leitura.
+Com esta versão, quando a configuração `Disable Edit Without Checkout` está habilitada, as propriedades do arquivo não podem mais ser editadas se um arquivo estiver no modo **Somente leitura**.
+
+Essa restrição se aplica a todos os pontos de entrada nos quais as propriedades podem ser modificadas, incluindo:
+
+- O **painel direito** da interface do Editor
+- A opção **Propriedades** do menu de contexto do arquivo
+- O Relatório de Metadados de um mapa
+- A interface do usuário do Assets
+
+Se um arquivo for Somente leitura, você deverá primeiro fazer check-out do arquivo antes de fazer qualquer alteração nas propriedades dele. Essa alteração impõe controles de permissão mais rígidos e garante que as atualizações de propriedade sigam as mesmas regras de check-out e bloqueio que as edições de conteúdo.
 
 ## Revisar melhorias
 
@@ -176,19 +186,3 @@ As seguintes melhorias na API foram feitas como parte desta versão:
 
 - Novas APIs são introduzidas para criar um novo projeto de tradução e rastrear seu status. Essas APIs ajudam a automatizar o processo de tradução, reduzindo o esforço manual e melhorando a eficiência. Para obter detalhes, exiba [Criar projeto de tradução](../api-reference/translation-project.md)
 - APIs de processamento de ativos aprimoradas com capacidade de filtragem aprimorada para arquivos e pastas. Para obter detalhes, consulte [Processar ativos](../api-reference/bulk-assets-processing.md).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
