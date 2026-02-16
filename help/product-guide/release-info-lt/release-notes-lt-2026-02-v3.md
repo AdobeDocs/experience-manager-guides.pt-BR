@@ -3,9 +3,9 @@ title: Notas de versão | Novidades da versão de fevereiro de 2026 do conteúdo
 description: Saiba mais sobre os recursos novos e aprimorados da versão de fevereiro de 2026 do conteúdo de treinamento e aprendizado do produto
 role: Leader
 hidefromtoc: true
-source-git-commit: 5ba7ba00cbc9209aad9f17f0793d621f1f1838e2
+source-git-commit: 16e7f12ddc9e72e4344bf98e65718c0f3681b348
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '728'
 ht-degree: 0%
 
 ---
@@ -30,12 +30,14 @@ Os seguintes recursos foram introduzidos na versão de fevereiro de 2026 do cont
 
   ![](assets/negative-scores-lc.png)
 
-- **Excluir widgets com um clique no botão direito do mouse**: além de excluir perguntas do questionário, agora é possível excluir widgets como Acordeões, Cartões invertidos e Guias com **Clique com o botão direito do mouse > Excluir item**. Este aprimoramento estende a funcionalidade existente de *Excluir pergunta* para widgets, permitindo removê-los com menos cliques e navegação mínima.
+- **Excluir widgets com um clique no botão direito do mouse**: além de excluir perguntas do questionário, agora é possível excluir widgets como Acordeões, Cartões invertidos e outros widgets com **Clique com o botão direito do mouse > Excluir item**. Este aprimoramento estende a funcionalidade existente de *Excluir pergunta* para widgets, permitindo removê-los com menos cliques e navegação mínima.
 
   Saiba mais sobre [Usar widgets interativos](../learning-content/lc-widgets.md).
 
   ![](assets/delete-widget-items.png)
 - **Opções de resposta de PIN**: agora é possível fixar opções de resposta específicas para que suas posições permaneçam inalteradas, mesmo quando as respostas forem aleatórias durante a geração da saída SCORM. Isso é especialmente útil para opções como *Todas as opções acima* ou *Nenhuma das opções acima*.
+
+  Saiba mais sobre [Propriedades da pergunta](../learning-content/quiz-insert-questions.md#question-properties).
 
   ![](assets/pin-question.png)
 - **Tipo de resposta curta**: o tipo de pergunta de resposta curta permite que os alunos respondam usando respostas alfanuméricas breves e descritivas em vez de selecionar opções predefinidas. Esse tipo de pergunta incentiva os alunos a recordar e articular ativamente sua compreensão em suas próprias palavras, tornando as avaliações mais envolventes para os alunos.
@@ -64,5 +66,5 @@ Os seguintes problemas foram corrigidos na versão de fevereiro de 2026 do conte
 - Ao usar o Experience Manager Guides no Mozilla Firefox, o cartão Inverter exibe o texto da frente no verso no verso depois de virar. (GUIDES-39983)
 - Quando você clica no índice no painel esquerdo do curso, o curso continua a mostrar o status de conclusão mesmo que o questionário tenha falhado. (GUIDES-40398)
 - Tentar Corresponder ao seguinte tipo de pergunta em um questionário incorretamente no ALM faz com que as opções selecionadas não apareçam no relatório. (GUIDES-38640)
-- Ao gerar a saída do PDF, os estilos de criação aplicados não são preservados, resultando em inconsistências no design.(GUIDES-38642)
+- Ao gerar a saída do PDF, os estilos de criação aplicados não são preservados, resultando em inconsistências no design. (GUIDES-38642)
 

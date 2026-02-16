@@ -4,7 +4,7 @@ description: Saiba mais sobre os componentes básicos que podem ser adicionados 
 feature: Authoring
 role: User
 exl-id: 171b9df9-3782-4cfa-b450-7824e5fd390d
-source-git-commit: 338213dd1e6f093a82bbf7d3283f81c3fdb96431
+source-git-commit: 16e7f12ddc9e72e4344bf98e65718c0f3681b348
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 0%
@@ -94,6 +94,7 @@ Execute as seguintes etapas para incluir título e subtítulo ao seu conteúdo d
    >[!NOTE]
    >
    > Se você não quiser usar o cabeçalho existente como o título, primeiro insira um cabeçalho usando o componente Texto na barra de ferramentas do Editor e selecione **Adicionar título**. Isso adiciona uma amostra do **Título** ao conteúdo, que pode ser editado conforme necessário.
+
 1. Em Propriedades do arquivo, selecione **Adicionar subtítulo**.
 Um exemplo de **Subtítulo** foi adicionado ao conteúdo.
 
