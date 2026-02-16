@@ -4,9 +4,9 @@ description: Saiba como inserir perguntas em um questionário no Treinamento e a
 feature: Authoring
 role: User
 exl-id: dff38476-c078-4970-b967-05a902430015
-source-git-commit: 41ea5e91b5ee096ede2eb06dae7a44f01e0c0571
+source-git-commit: 1df47cf35590f10bdfe7fdbc3501d7c47137ed56
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Execute as seguintes etapas para inserir perguntas em um questionário:
 
-1. Escolha o tipo de pergunta desejado no menu suspenso **Perguntas** da barra de ferramentas. Com base em suas necessidades, você pode adicionar perguntas usando qualquer um dos quatro formatos disponíveis: Verdadeiro ou Falso, Único correto, Vários corretos e Corresponder ao seguinte, conforme mostrado abaixo. Para obter mais detalhes, consulte [Tipos de pergunta](#question-types).
+1. Escolha o tipo de pergunta desejado no menu suspenso **Perguntas** da barra de ferramentas. Com base em suas necessidades, você pode adicionar perguntas usando qualquer um dos quatro formatos disponíveis: Verdadeiro ou Falso, Único correto, Múltiplo correto, Corresponder ao seguinte e Breve resposta, conforme mostrado abaixo. Para obter mais detalhes, consulte [Tipos de pergunta](#question-types).
 
    ![](assets/question-types.png){width="650" align="left"}
 
@@ -25,11 +25,28 @@ Execute as seguintes etapas para inserir perguntas em um questionário:
 
 1. Uma pergunta é inserida no formato selecionado. É possível editar a pergunta com base nas suas necessidades.
 
-1. Você pode selecionar qualquer pergunta e configurar suas propriedades usando o painel **Propriedades de conteúdo**. Por exemplo, você pode especificar a resposta correta, definir as marcas a serem atribuídas e definir qualquer penalidade para respostas incorretas.
+1. Você pode selecionar qualquer pergunta e configurar suas propriedades usando o painel **Propriedades de conteúdo**.
 
    ![](assets/question-properties.png){width="650" align="left"}
 
 1. Salve todas as alterações feitas no questionário.
+
+
+## Propriedades da pergunta
+
+Você pode configurar as perguntas usando as seguintes propriedades de pergunta do painel **Propriedades de conteúdo**:
+
+![](assets/question-properties-new.png){width="350" align="left"}
+
+- **Opções**: especifique a resposta correta da pergunta
+- **Id da Pergunta**: especifica a ID da pergunta para cada pergunta. Se uma id de pergunta não estiver presente, é recomendável sempre adicioná-la.
+- **Pontos para resposta correta**: especifique os pontos a serem atribuídos para a resposta correta.
+- **Multa por resposta incorreta**: especifique os pontos a serem deduzidos por uma resposta incorreta.
+- **Rótulo da pergunta**: habilitar para adicionar um rótulo de pergunta.
+- **Feedback**: habilite a fornecer o feedback para resposta correta ou incorreta.
+- **Opção de fixação na posição**: quando uma opção específica para uma pergunta é fixada, ela permanece fixa na posição especificada na lista de opções, mesmo se **Randomizar opções de resposta para cada tentativa** estiver habilitada na configuração predefinida de SCORM, o que, de outra forma, reorganizaria as opções disponíveis. Você pode passar o mouse sobre a opção desejada de uma pergunta no painel Propriedades de conteúdo e fixá-la.
+
+  ![](assets/pin-question.png){width="350" align="left"}
 
 ## Inserir parágrafo no questionário
 
@@ -62,7 +79,7 @@ Os seguintes tipos de perguntas são suportados em um questionário:
   ![](assets/true-false.png){width="650" align="left"}
 
 
-- **Várias Correções**: uma pergunta com várias opções em que mais de uma resposta pode estar correta.
+- **Correção múltipla**: uma pergunta com várias opções em que mais de uma resposta pode estar correta.
 
   ![](assets/multi-correct.png){width="650" align="left"}
 
@@ -73,3 +90,8 @@ Os seguintes tipos de perguntas são suportados em um questionário:
   Na saída publicada, a pergunta **Corresponder à seguinte** é exibida com o menu suspenso para cada item, permitindo que você selecione a correspondência correta dentre as opções disponíveis.
 
   ![](assets/question-type-publishing.png){width="650" align="left"}
+
+
+- **Resposta curta**: permite aos alunos responder usando uma breve entrada de texto. Aceita respostas alfanuméricas, corresponde respostas sem distinção entre maiúsculas e minúsculas e, para respostas muito longas, fornece uma barra de rolagem horizontal.
+
+  ![](assets/short-answer.png){width="650" align="left"}

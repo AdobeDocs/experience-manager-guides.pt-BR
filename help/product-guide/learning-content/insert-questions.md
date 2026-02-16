@@ -4,7 +4,7 @@ description: Saiba como inserir perguntas do banco de perguntas no questionário
 feature: Authoring
 role: User
 exl-id: dfc247f7-31f9-4bcf-84e2-151993603b89
-source-git-commit: 757582f6bdcb64b004d430679eaf6e8a5fbdc807
+source-git-commit: cb8789b0ee0ebdfb864ecac8b00a22c62faf3823
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 0%
@@ -17,7 +17,7 @@ Execute as seguintes etapas para inserir perguntas do banco de perguntas no ques
 
 1. Selecione a opção **Inserir do banco de perguntas** no menu suspenso **Perguntas**, na barra de ferramentas, conforme mostrado abaixo.
 
-   ![](assets/insert-from-question-bank.png){width="350" align="left"}
+   ![](assets/question-types.png){width="350" align="left"}
 
    A caixa de diálogo **Inserir do banco de perguntas do HTML** é exibida.
 
