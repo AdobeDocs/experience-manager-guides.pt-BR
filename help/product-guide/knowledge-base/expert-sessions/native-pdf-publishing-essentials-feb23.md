@@ -41,11 +41,11 @@ Nesta sessão, você aprenderá sobre o seguinte:
 
 ## Recursos relacionados
 
-- **Vídeos em destaque** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
+- **Vídeos em destaque** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=pt-BR)
 
-- **Guia do Usuário** - [Publicação nativa do PDF](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/map-management-publishing/output-gen/output-presets-aemg/pdf-preset/native-pdf-web-editor)
+- **Guia do Usuário** - [Publicação nativa do PDF](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using/user-guide/map-management-publishing/output-gen/output-presets-aemg/pdf-preset/native-pdf-web-editor)
 
-- **Fórum da comunidade** - Para interações da comunidade específicas de sessão no Experience League, visite [Fórum do AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Fórum da comunidade** - Para interações da comunidade específicas de sessão no Experience League, visite [Fórum do AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=pt).
 
 >[!NOTE]
 >
