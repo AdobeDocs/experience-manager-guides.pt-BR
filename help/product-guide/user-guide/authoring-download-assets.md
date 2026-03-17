@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Baixar arquivos {#id216MC0H0BE8}
 
-Você pode baixar ativos, incluindo arquivos DITA e não DITA. Há várias maneiras de baixar ativos, alguns métodos são nativos do Adobe Experience Manager e outros são compatíveis com o Adobe Experience Manager Guides. Para obter informações sobre o download de ativos nativos do Adobe Experience Manager, consulte [Baixar ativos do Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html) na documentação do Adobe Experience Manager. A seção a seguir explica o mecanismo de download de arquivos no Experience Manager Guides.
+Você pode baixar ativos, incluindo arquivos DITA e não DITA. Há várias maneiras de baixar ativos, alguns métodos são nativos do Adobe Experience Manager e outros são compatíveis com o Adobe Experience Manager Guides. Para obter informações sobre o download de ativos nativos do Adobe Experience Manager, consulte [Baixar ativos do Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html?lang=pt-BR) na documentação do Adobe Experience Manager. A seção a seguir explica o mecanismo de download de arquivos no Experience Manager Guides.
 
 ## Baixar um arquivo de mapa DITA do Editor
 
