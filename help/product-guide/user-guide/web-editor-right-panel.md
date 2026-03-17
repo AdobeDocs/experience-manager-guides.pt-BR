@@ -4,7 +4,7 @@ description: Conheça o painel direito no Editor. Saiba mais sobre a interface e
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 6a0f4ed2-6eca-4b3c-bd3a-3f72f6919b36
-source-git-commit: 4bc6fba88d584af0bfebcc8c8dc5b1da52923d0f
+source-git-commit: ddf28ee20b15ea8bb50c555d1196532ee00d34a5
 workflow-type: tm+mt
 source-wordcount: '1290'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Você pode acessar o recurso **Propriedades de conteúdo** selecionando o ícone
 
 1. No painel suspenso **Atributo**, selecione o atributo na lista suspensa e especifique o valor de um atributo.  Em seguida, selecione **Adicionar**.
 
-   ![painel de atributos com vários atributos &#x200B;](images/attributes-multiple-properties.png){width="300" align="left"}
+   ![painel de atributos com vários atributos ](images/attributes-multiple-properties.png){width="300" align="left"}
 
 1. Para editar o atributo, passe o mouse sobre ele e selecione **Editar** ![ícone de edição](images/edit_pencil_icon.svg).
 
@@ -125,7 +125,7 @@ Além de abrir arquivos, você também pode executar muitas ações usando o men
 
 Esta seção lista todas as cópias de idioma disponíveis para o ativo atualmente aberto no Editor, em ordem alfabética. As informações são apresentadas em uma exibição tabular, mostrando cada código de idioma junto com o *título do arquivo* correspondente (ou o *nome do arquivo*, caso o *título do arquivo* não esteja disponível).
 
->
+>[!INFO]
 >
 > Cópias de idioma são criadas quando um ativo é enviado para tradução. O inglês (`en`) atua como idioma de origem e as cópias traduzidas são geradas nas respectivas pastas de idioma de destino (por exemplo, `de` para alemão ou `fr` para francês). Se um ativo existir somente na pasta `en`, nenhuma cópia de idioma adicional será exibida até que a tradução seja iniciada e concluída para os idiomas de destino. Se o ativo não estiver presente em nenhuma pasta de idioma, **Nenhuma tradução disponível** será exibida. Para obter mais detalhes, consulte [Práticas recomendadas para tradução de conteúdo](./translation-first-time.md).
 
@@ -169,4 +169,4 @@ Saiba como trabalhar com arquivos Schematron no Experience Manager Guides, consu
 
 
 
-**Tópico pai:**&#x200B;[&#x200B; Introdução ao Editor](web-editor.md)
+**Tópico pai:**[ Introdução ao Editor](web-editor.md)

@@ -3,7 +3,8 @@ title: Criar e gerenciar uma nova linha de base (Beta) no console Mapa
 description: Crie e gerencie uma nova linha de base (Beta) no console de mapa no Adobe Experience Manager Guides.
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: d5d1d66daaecb0e573f12abe0ddeef173038739b
+exl-id: 574806bb-21c5-41fe-b8be-4c6506ce8cce
+source-git-commit: ddf28ee20b15ea8bb50c555d1196532ee00d34a5
 workflow-type: tm+mt
 source-wordcount: '1274'
 ht-degree: 0%
@@ -164,4 +165,4 @@ As seguintes atualizações se aplicam ao trabalhar com linhas de base criadas u
    - Selecione **Atualizar** para aplicar as alterações.
 
   A linha de base é atualizada com a versão selecionada.
-+++
+  +++
