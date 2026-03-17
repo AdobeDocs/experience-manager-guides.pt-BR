@@ -4,16 +4,16 @@ description: Saiba como baixar arquivos do console de mapa DITA no AEM Guides e 
 exl-id: ae9eb355-d3ac-446a-958b-5f2da43f5533
 feature: Content Management
 role: User
-source-git-commit: e413a49a8ec5e2e129b86b50bc5750f41c101e5d
+source-git-commit: 5deb4411c82f07aa82e52b4608a71a78136c128d
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
 
 # Baixar arquivos {#id216MC0H0BE8}
 
-Você pode baixar ativos, incluindo arquivos DITA e não DITA. Há várias maneiras de baixar ativos, alguns métodos são nativos do Adobe Experience Manager e outros são compatíveis com o Adobe Experience Manager Guides. Para obter informações sobre o download de ativos nativos do Adobe Experience Manager, consulte [Baixar ativos do Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html?lang=pt-BR) na documentação do Adobe Experience Manager. A seção a seguir explica o mecanismo de download de arquivos no Experience Manager Guides.
+Você pode baixar ativos, incluindo arquivos DITA e não DITA. Há várias maneiras de baixar ativos, alguns métodos são nativos do Adobe Experience Manager e outros são compatíveis com o Adobe Experience Manager Guides. Para obter informações sobre o download de ativos nativos do Adobe Experience Manager, consulte [Baixar ativos do Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html) na documentação do Adobe Experience Manager. A seção a seguir explica o mecanismo de download de arquivos no Experience Manager Guides.
 
 ## Baixar um arquivo de mapa DITA do Editor
 
@@ -37,18 +37,17 @@ Execute as seguintes etapas para baixar um arquivo de mapa DITA do Editor:
    - **Opções de hierarquia de arquivo**: você também pode usar a lista suspensa de hierarquia de arquivo para escolher como a estrutura de pastas será tratada para os arquivos de mapa baixados. As opções disponíveis são:
 
       - **Reter hierarquia de arquivos**: selecione esta opção na lista suspensa para reter a estrutura de pastas existente para os arquivos baixados.
+      - **Nivelar hierarquia de arquivos**: selecione esta opção na lista suspensa para baixar todos os tópicos e arquivos de mídia referenciados em uma única pasta.
 
-        As opções disponíveis nesse método são as seguintes:
+     Para cada opção, você pode especificar ainda mais como os nomes dos arquivos são tratados para os arquivos baixados. As seguintes opções de nome de arquivo estão disponíveis:
 
-         - **Usar nome de arquivo GUID** - Baixa o arquivo de mapa com GUID como nome de arquivo.
-
-         - **Usar nome de arquivo real** - Baixa o arquivo de mapa com seu nome de arquivo original.
-
-      - **Nivelar hierarquia de arquivos**: selecione esta opção na lista suspensa para baixar todos os tópicos e arquivos de mídia referenciados em uma única pasta. Somente a opção **Usar nome de arquivo GUID** está disponível para arquivos de mapa ao usar este método.
+      - **Usar nome de arquivo GUID**: baixa o arquivo de mapa com GUID como nome de arquivo.
+      - **Usar nome de arquivo real**: baixa o arquivo de mapa com seu nome de arquivo original. Quando essa opção é usada com Nivelar hierarquia de arquivos, todos os nomes de arquivo duplicados no mapa são resolvidos automaticamente ao anexar sufixos numéricos (_2, _3 e assim por diante) para garantir nomes de arquivo exclusivos.
 
    >[!NOTE]
    >
    > Também é possível baixar o arquivo de mapa sem selecionar nenhuma opção. Nesse caso, a última versão persistente dos tópicos e arquivos de mídia referenciados é baixada.
+
 
 1. Selecione **Baixar**.
 
@@ -65,6 +64,8 @@ Execute as seguintes etapas para baixar um arquivo de mapa DITA do Editor:
    >[!NOTE]
    >
    > Por padrão, os mapas baixados permanecem por cinco dias na Caixa de entrada de notificação do Adobe Experience Manager.
+
+Após o download do mapa, você pode selecionar o mapa e usar o ícone Abrir na parte superior para abrir o conteúdo baixado. Para exibir os metadados associados do mapa baixado, abra o arquivo `metdata.json` incluído no conteúdo baixado. Este arquivo está disponível para as opções *Hierarquia de arquivos* - Nivelar hierarquia de arquivos e Reter hierarquia de arquivos.
 
 ## Baixar um arquivo de mapa DITA no painel Mapa
 
@@ -109,6 +110,6 @@ Execute as seguintes etapas para baixar um arquivo de mapa DITA junto com seus a
 
 ![](images/download-map-inbox.png){width="300" align="left"}
 
-Depois que o mapa for baixado, você poderá selecionar o mapa e usar o ícone Abrir na parte superior para abrir o relatório selecionado.
+Após o download do mapa, você pode selecionar o mapa e usar o ícone Abrir na parte superior para abrir o conteúdo baixado.
 
-**Tópico pai:**&#x200B;[&#x200B; Gerenciar conteúdo](authoring.md)
+**Tópico pai:**[ Gerenciar conteúdo](authoring.md)

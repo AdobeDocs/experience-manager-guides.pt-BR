@@ -4,14 +4,18 @@ description: Crie e gerencie linhas de base no console de mapas no Adobe Experie
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: eb68e4583083ff209fd717049c6e50b996cba8e8
+source-git-commit: 24ed0edbfcbe968938473e31f3abf13779d04235
 workflow-type: tm+mt
-source-wordcount: '1881'
+source-wordcount: '1921'
 ht-degree: 0%
 
 ---
 
 # Criar e gerenciar linhas de base do console de Mapa {#id223MB0ZF043}
+
+>[!NOTE]
+>
+> Uma nova Linha de base (Beta) que oferece melhor desempenho e estabilidade está disponível com a versão 2026.03.0 do Experience Manager Guides. Para usar essa linha de base, entre em contato com a Equipe de sucesso do cliente para ativar o recurso. Saiba mais sobre a [Nova Linha de Base (Beta)](./web-editor-baseline-v2.md).
 
 O recurso Linha de base permite criar uma versão dos tópicos e ativos que podem ser usados para publicação ou tradução. Por exemplo, se o seu mapa DITA tem `topicA` e `imageA`, você pode criar uma Linha de Base para usar a 3ª versão do `topicA`, mas a 4ª versão do `ImageA`. Depois de ter uma Linha de base em vigor, você poderá publicar ou traduzir tópicos de diferentes versões em uma única etapa.
 
@@ -168,5 +172,5 @@ Usando o ícone Filtros no painel **Filtros da linha de base**, você pode aplic
 
 Depois de editar a linha de base, selecione **Salvar** para salvar as alterações na linha de base. Você pode selecionar **Redefinir** se não quiser salvar a alteração e redefinir a linha de base. Quando você seleciona **Redefinir**, é exibido um aviso de que as alterações não salvas serão perdidas.
 
-**Tópico pai:**&#x200B;[&#x200B; Geração de saída](generate-output.md)
+**Tópico pai:**[ Geração de saída](generate-output.md)
 

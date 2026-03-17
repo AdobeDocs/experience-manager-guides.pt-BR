@@ -4,9 +4,10 @@ description: Saiba como personalizar o conteúdo de índice
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 9a4f0391c464d69ea65ecfdaac6ecdcb17d1a3da
+exl-id: 682d58df-7404-4e84-9b5f-ab40c46bef84
+source-git-commit: 1bffdade37658bd44128cac9226a349f828abd45
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '439'
 ht-degree: 3%
 
 ---
@@ -34,6 +35,10 @@ Para habilitar o recurso Localizar e substituir (exibição do Source), você pr
 ```
 guidesAssetLucene-1-custom-1
 ```
+
+>[!NOTE]
+>
+> Incrementar o número do índice se já existir um índice personalizado com o mesmo nome.
 
 ### Definição de índice (.content.xml)
 
@@ -153,6 +158,11 @@ Crie a seguinte definição de índice no seu projeto em:
                         jcr:primaryType="nt:unstructured"
                         mappedType="text/markdown+source"/>
             </text>
+            <text jcr:primaryType="nt:unstructured">
+   <html
+        jcr:primaryType="nt:unstructured"
+        mappedType="text/html+source"/>
+</text>
         </mimeTypes>
     </tika>
 </jcr:root>
@@ -210,5 +220,5 @@ A verificação primária está testando o recurso:
 
 - [Documentação de indexação do AEM as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/operations/indexing)
 - [Guia de indexação do Apache Jackrabbit Oak](https://jackrabbit.apache.org/oak/docs/query/indexing.html)
-- [Documentação do AEM Guides](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides)
+- [Documentação do AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides)
 - [Documentação do Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager)

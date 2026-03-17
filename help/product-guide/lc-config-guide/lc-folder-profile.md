@@ -5,9 +5,9 @@ feature: Authoring
 role: Admin
 level: Experienced
 exl-id: dc26ae48-c953-492c-823a-5f65157b6902
-source-git-commit: 64adc89966e60823f6b46fb062b7659ed150cfc3
+source-git-commit: dedd253dba3d93beed162eb5258125928f6d315c
 workflow-type: tm+mt
-source-wordcount: '1453'
+source-wordcount: '1657'
 ht-degree: 0%
 
 ---
@@ -36,15 +36,28 @@ Para começar a usar a configuração do perfil de pasta para o conteúdo de Apr
    ![](assets/folder-profile.png){width="650" align="left"}
 
 6. **Definir configurações do perfil da pasta**: para conteúdo de Aprendizado e Treinamento, as seguintes configurações podem ser definidas no nível da pasta:
+   - [Geral](#general)
    - [Painéis](#configure-panels)
-   - [Modelos](#configure-templates)
+   - [Modelos de conteúdo](#configure-content-templates)
    - [Predefinições de saída](#configure-output-presets)
    - [editor do HTML](#html-editor-settings)
    - [Publicar perfis](#manage-publish-profiles)
 
-Para acessar essas configurações, alterne para o modo de exibição Editor e selecione **Configurações** no menu **Opções**, conforme mostrado abaixo:
+Para acessar essas configurações, alterne para o modo de exibição Editor e selecione **configurações do Workspace** no menu **Opções**, conforme mostrado abaixo:
 
 ![](assets/access-editor-settings.png)
+
+## Geral
+
+Na guia General, você pode definir as seguintes configurações específicas para o recurso Product Training and Learning Content:
+
+![](assets/lc-config-settings-general.png){width="350" align="left"}
+
+- **Conteúdo de aprendizado**: Use a opção **Habilitar conteúdo de aprendizado** para habilitar ou desabilitar o recurso no nível de perfil de pasta.
+- **Editor do HTML**: essa configuração permite configurar o Editor para criação baseada no HTML. As principais opções de configuração presentes nessa configuração são as seguintes:
+
+   - **Ocultar estilo em linha**: habilite esta opção para impedir que os autores apliquem formatação em linha ao conteúdo do curso. Quando ativado, todas as opções de estilo em linha, como Fontes, Borda, Layout, Plano de fundo e Colunas presentes no painel direito do Editor permanecem ocultas para Autores. No entanto, os Autores ainda podem usar as opções de estilo baseadas em classe global disponíveis no painel **Estilos**. Isso ajuda a manter a consistência com as diretrizes de estilo de sua organização.
+   - **Ocultar o modo de exibição do Source para Autores**: habilite essa opção para restringir o acesso ao código-fonte do HTML. Isso é útil quando você deseja simplificar a experiência de edição ou evitar alterações acidentais no código subjacente.
 
 ## Configurar painéis
 
@@ -60,15 +73,24 @@ Para o conteúdo de aprendizado e treinamento, verifique se apenas os seguintes 
 **Painel esquerdo**
 
 - **Coleções**: permite que você organize e salve arquivos usados com frequência ou acesse rapidamente arquivos compartilhados.
-- **Repositório**: permite que você visualize e acesse todos os seus mapas, tópicos, imagens e outros ativos armazenados no repositório de conteúdo.
+- **Explorer**: permite que você visualize e acesse todos os seus mapas, tópicos, imagens e outros ativos armazenados no repositório de conteúdo.
 - **Gerenciador de cursos**: fornece um espaço de trabalho dedicado para a criação e o gerenciamento de cursos.
+- **Mapa**: fornece uma exibição de mapa do arquivo de mapa aberto no momento.
+- **Estrutura de Tópicos**: exibe a hierarquia estrutural do tópico ou mapa aberto no momento, permitindo a navegação rápida e o acesso em nível de elemento.
+- **Workfront**: fornece acesso a recursos robustos de gerenciamento de projetos além dos principais recursos do Experience Manager Guides CCMS.
+- **Conteúdo reutilizável**: permite gerenciar e inserir elementos ou tópicos reutilizáveis para garantir a consistência e reduzir a duplicação no conteúdo.
+- **Glossário**: permite criar e gerenciar termos de glossário e incluí-los em tópicos para manter a terminologia consistente.
 - **Fragmentos**: permite criar e reutilizar pequenos fragmentos de conteúdo em vários tópicos em seus cursos de aprendizado.
 - **Condições**: permite configurar atributos condicionais em nível global e de pasta.
+- **Modelos**: permite que você crie e gerencie os modelos do curso.
+- **Citações**: permite que você adicione e gerencie citações em conteúdo usando estilos de citação compatíveis.
+- **Variáveis de idioma**: permite definir variáveis de idioma para saída publicada.
 - **Variáveis**: permite criar e gerenciar variáveis para usar no conteúdo de aprendizado.
-- **Variáveis de idioma**: permite definir cadeias de caracteres localizadas para saída publicada ou texto estático em modelos.
-- **Modelos**: permite que você crie e gerencie modelos para serem usados pelos Autores.
 - **Modelos de saída**: permite que você crie e gerencie modelos de saída para gerar saída em vários formatos.
 - **Localizar e substituir**: fornece opções para procurar e substituir texto entre arquivos em um mapa ou uma pasta no seu repositório. 
+- **Fontes de dados**: permite que você se conecte a fontes de dados externas e reutilize os dados em seu conteúdo.
+- **Avaliação**: permite criar e gerenciar fluxos de trabalho de revisão no Experience Manager Guides.
+- **Relatórios do sistema**: permite criar e gerenciar relatórios.
 
 **Painel direito**
 
@@ -90,7 +112,11 @@ Para o conteúdo de aprendizado e treinamento, verifique se apenas os seguintes 
 
 - **Filtros**: permite que você use filtros ao trabalhar com relatórios e tradução.
 
-## Configurar modelos
+## Configurar modelos de conteúdo
+
+>[!NOTE]
+>
+> Esta configuração está disponível somente quando o recurso de conteúdo de aprendizado está habilitado nas **configurações do Workspace** > **Geral**.
 
 Essa configuração permite gerenciar os modelos de criação e publicação presentes no [painel esquerdo do Editor](../user-guide/web-editor-left-panel.md). É possível adicionar, remover ou reordenar modelos de criação e saída, que estarão acessíveis a Autores e Editores.
 
@@ -180,6 +206,10 @@ Você também pode definir a ordem em que os modelos presentes em uma categoria 
 
 ## Configurar predefinições de saída
 
+>[!NOTE]
+>
+> Esta configuração está disponível somente quando o recurso de conteúdo de aprendizado está habilitado nas **configurações do Workspace** > **Geral**.
+
 A guia Output presets permite definir quais formatos de saída estão disponíveis para publicar um curso. Ele contém duas seções: **Tipos de predefinição de saída permitidos** e **Predefinições de saída comuns**.
 
 ![](assets/configure-course-output-presets.png){width="350" align="left"}
@@ -191,15 +221,6 @@ A guia Output presets permite definir quais formatos de saída estão disponíve
 - **Predefinições de saída comuns**: esta seção exibe as predefinições de saída criadas e adicionadas com frequência pelos Publicadores a um perfil de pasta específico. Também é possível remover qualquer predefinição que não seja mais necessária.
 
   ![](assets/common-output-presets.png){width="350" align="left"}
-
-## Configurações do editor do HTML
-
-Essa configuração permite configurar o Editor para criação baseada em HTML. As principais opções de configuração presentes nessa configuração são as seguintes:
-
-![](assets/configure-html-editor-setting.png){width="350" align="left"}
-
-- **Ocultar estilo em linha**: habilite esta opção para impedir que os autores apliquem formatação em linha ao conteúdo do curso. Quando ativado, todas as opções de estilo em linha, como Fontes, Borda, Layout, Plano de fundo e Colunas presentes no painel direito do Editor permanecem ocultas para Autores. No entanto, os Autores ainda podem usar as opções de estilo baseadas em classe global disponíveis no painel **Estilos**. Isso ajuda a manter a consistência com as diretrizes de estilo de sua organização.
-- **Ocultar o modo de exibição do Source para Autores**: habilite essa opção para restringir o acesso ao código-fonte do HTML. Isso é útil quando você deseja simplificar a experiência de edição ou evitar alterações acidentais no código subjacente.
 
 ## Gerenciar perfis de publicação
 

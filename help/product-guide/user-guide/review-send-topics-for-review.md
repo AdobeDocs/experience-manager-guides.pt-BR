@@ -4,9 +4,9 @@ description: Saiba como criar uma tarefa de revisão e enviar tópicos para revi
 exl-id: c486eb6a-7e1f-4faa-973d-b47252d3e7c5
 feature: Reviewing
 role: User
-source-git-commit: cd536b9e27b3c422fc723e9f13b12ac432fa3fc9
+source-git-commit: c36dbb3861f904bda1aee176fc5f4c0dd69b97dc
 workflow-type: tm+mt
-source-wordcount: '3055'
+source-wordcount: '3135'
 ht-degree: 0%
 
 ---
@@ -53,19 +53,20 @@ Para criar uma tarefa de revisão e enviar tópicos para revisão, execute as se
    >
    > É possível criar uma tarefa de revisão somente para os tópicos que têm uma revisão. Caso o tópico selecionado não tenha uma revisão, você receberá um prompt.
 
-   ![](images/create-review-task-023.png){width="650" align="left"}
-
+   ![](images/create-review-task-023.png)
 1. Insira um **Título** para a tarefa e selecione um projeto DITA.
 
 1. No campo suspenso **Projeto**, selecione um projeto DITA para esta tarefa de revisão. Você também pode digitar o nome do projeto para localizá-lo rapidamente na lista suspensa.
 
-1. No campo suspenso **Atribuir a**, selecione os revisores para os quais deseja enviar os tópicos para revisão.
+1. No campo suspenso **Atribuir a**, selecione os revisores para os quais deseja enviar os tópicos para revisão. Você também pode pesquisar por nome de membro ou nome de função no projeto selecionado ao digitar.
 
-   É possível atribuir uma tarefa de revisão a usuários individuais do projeto ou a grupos de usuários. Observe que você pode atribuir uma tarefa de revisão a usuários individuais somente quando fizer parte do grupo de administradores do projeto; caso contrário, você só exibirá os grupos de usuários no campo Atribuir a.
+   O campo *Atribuir a* só estará habilitado depois que você selecionar um projeto ativo no campo *Projeto*. A lista de membros ou funções é obtida com base no projeto selecionado. Se nenhum projeto for selecionado, o campo *Atribuir a* permanecerá desativado.
+
+   É possível atribuir uma tarefa de revisão a usuários individuais do projeto ou a grupos de usuários. Observe que você só pode atribuir uma tarefa de revisão a usuários individuais quando fizer parte do grupo de administradores do projeto; caso contrário, você só exibirá os grupos de usuários no campo *Atribuir a*.
 
    >[!NOTE]
    >
-   > O fluxo de trabalho de revisão é específico do projeto. Ao criar projetos, você adiciona os membros da equipe ao projeto e os atribui a grupos. Então quando você seleciona o projeto aqui, você tem que escolher os membros que são parte daquele projeto. Para obter mais informações sobre projetos, consulte [Criar um projeto DITA](authoring-create-dita-project.md#).
+   > O fluxo de trabalho de revisão é específico do projeto. Ao criar projetos, você adiciona os membros da equipe ao projeto e os atribui a grupos. Então, quando você seleciona o projeto aqui, você tem que escolher os membros que são uma parte daquele projeto. Para obter mais informações sobre projetos, consulte [Criar um projeto DITA](authoring-create-dita-project.md#).
 
 1. Insira uma **Descrição** para a tarefa.
 
@@ -92,6 +93,10 @@ Para criar uma tarefa de revisão e enviar tópicos para revisão, execute as se
    Se você não selecionar essa opção, os revisores adicionados ao campo **Atribuir a** terão acesso para revisar somente os tópicos atribuídos a eles.
 
 1. Selecione **Próximo**.
+
+   >[!NOTE]
+   >
+   > O botão **Avançar** só será habilitado depois que você fornecer detalhes de todos os campos obrigatórios, incluindo *Título*, *Projeto*, *Atribuir a* e *Data de Conclusão*.
 
    A página Content é exibida.
 
@@ -306,4 +311,4 @@ Quando a tarefa de revisão for atualizada, os revisores receberão notificaçõ
 Para obter mais detalhes, consulte [Noções básicas sobre notificações de revisão](./review-understanding-review-notifications.md).
 
 
-**Tópico pai:**&#x200B;[&#x200B; Introdução à revisão](review.md)
+**Tópico pai:**[ Introdução à revisão](review.md)

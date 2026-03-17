@@ -4,9 +4,9 @@ description: Traduza o conteúdo para vários idiomas no editor da Web. Saiba co
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: 4165535976082c1e8f28bf15f16999b6bfe5bf9a
+source-git-commit: c619c518a3ae1629897eb90f5f15aa4742be5ef2
 workflow-type: tm+mt
-source-wordcount: '2446'
+source-wordcount: '2519'
 ht-degree: 0%
 
 ---
@@ -78,6 +78,11 @@ Antes de executar etapas neste procedimento, verifique se você criou a raiz de 
    **Usar Versão Mais Recente como em**: escolha filtrar a versão dos tópicos com base na data e hora de sua criação. Quando você seleciona uma data e hora, somente a versão mais recente dos arquivos criados na data e hora selecionadas ou antes dela é exibida.
 
 1. Selecione **Aplicar**. Uma lista com detalhes de tópicos e ativos associados é exibida.
+
+   >[!NOTE]
+   >
+   > Ao traduzir mapas com referências de arquivo DITAVAL e Markdown, e quando a tradução é baseada na cópia de trabalho, referências como imagens e outros ativos vinculados são incluídos, desde que existam na pasta de idioma de origem. Essas referências aparecem na lista de referências do painel de tradução, permitindo que você as selecione explicitamente para tradução. Durante a tradução, os ativos referenciados são copiados para a pasta de idioma de destino e tratados de forma consistente com o comportamento padrão de tradução de imagem.
+
 1. Selecione os tópicos que deseja enviar para tradução. Você também pode usar as opções de filtragem de tópico para as seguintes colunas:
 
    - **Título**: título do arquivo de origem.  Passe o mouse sobre o título do arquivo de origem para exibir o título do arquivo de destino ou traduzido.
@@ -234,4 +239,4 @@ Para afetar o gerenciamento de documentos, o Experience Manager Guides fornece a
 Você também pode desativar os projetos de tradução se desejar usá-los posteriormente. A exclusão de um projeto exclui todos os arquivos e pastas presentes no projeto. Desativar um projeto não o exclui, mas o mantém no repositório. Mas você não pode atualizar ou editar um projeto desativado.  A exclusão ou desativação de um projeto não afetará o status de tradução de nenhuma referência.
 
 
-**Tópico pai:**&#x200B;[&#x200B; Introdução ao Editor](web-editor.md)
+**Tópico pai:**[ Introdução ao Editor](web-editor.md)

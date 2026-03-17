@@ -4,7 +4,7 @@ description: Saiba mais sobre os vários recursos presentes no Experience Manage
 feature: Authoring
 role: User
 exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
-source-git-commit: 0171f7b798686a0a16942e98133001a4c05bb76b
+source-git-commit: f758ef6f2d238cbb71dc395add12fc7e30172871
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Você pode adicionar conteúdo existente do seu repositório de conteúdo ao cur
 
 1. Selecione o menu **Opções** > **Adicionar existente**.
 2. Selecione o tipo de conteúdo do curso que deseja criar.
-3. Na caixa de diálogo **Selecionar caminho**, navegue até o local do conteúdo e selecione o conteúdo de Aprendizado desejado.
+3. Na caixa de diálogo **Selecionar arquivo**, navegue até o local do conteúdo e selecione o conteúdo de Aprendizado desejado.
 
    ![](assets/add-existing-learning-content.png)
 4. Escolha **Selecionar**.
