@@ -82,7 +82,7 @@ Nas predefinições de Saída, selecione **PDF** > **Native-PDF** > **Metadata**
 
 * **Fornecer arquivo XMP**
 
-  Você também pode preencher diretamente os campos de metadados importando o arquivo [XMP](https://www.adobe.com/products/xmp.html) (Plataforma de Metadados Extensível). Você pode baixar um arquivo de amostra do XMP aqui.
+  Você também pode preencher diretamente os campos de metadados importando o arquivo [XMP](https://www.adobe.com/br/products/xmp.html) (Plataforma de Metadados Extensível). Você pode baixar um arquivo de amostra do XMP aqui.
 
 [Download](assets/SampleXMP.xmp)
 
