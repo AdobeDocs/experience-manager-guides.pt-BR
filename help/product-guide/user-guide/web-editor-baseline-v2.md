@@ -4,9 +4,9 @@ description: Crie e gerencie uma nova linha de base (Beta) no console de mapa no
 feature: Authoring, Features of Web Editor, Publishing
 role: User
 exl-id: 574806bb-21c5-41fe-b8be-4c6506ce8cce
-source-git-commit: ddf28ee20b15ea8bb50c555d1196532ee00d34a5
+source-git-commit: d7e5af83e88de18cd8ac2e849c9d6e1807988099
 workflow-type: tm+mt
-source-wordcount: '1274'
+source-wordcount: '1294'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,9 @@ ht-degree: 0%
 >
 > Este artigo se aplica à nova linha de base, atualmente disponível como um recurso do *Beta*, que oferece melhor desempenho e estabilidade disponíveis na versão Experience Manager Guides 2026.03.0. Para habilitar o novo recurso de linha de base em sua configuração, entre em contato com a Equipe de sucesso do cliente.
 
-O novo recurso básico trata dos problemas críticos de confiabilidade e desempenho associados a mapas grandes e complexos. Ela vem com uma arquitetura de linha de base reprojetada que oferece uma experiência de linha de base mais rápida, estável e consistente.
+O novo recurso básico trata dos problemas críticos de confiabilidade e desempenho associados a mapas grandes e complexos. Ela vem com uma arquitetura de linha de base reprojetada que oferece uma experiência de linha de base mais rápida, estável e consistente. Antes de analisarmos os detalhes, assista a um pequeno vídeo explicativo que destaca os recursos do novo recurso de linha de base.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3483154/aem-guides)
 
 O novo modelo de linha de base fortalece o manuseio da linha de base ao abordar os pontos problemáticos comuns:
 
