@@ -1,7 +1,9 @@
 ---
 title: Notas de versão | Correção de problemas na versão 2026.03.0 do Adobe Experience Manager Guides
 description: Saiba mais sobre as correções de erros na versão 2026.03.0 do Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 764f6cc0b061020b78cd2808e08a5d05bd183c81
+exl-id: 6eca85f5-d7d3-4486-8b32-8af3a6cce4ee
+hidefromtoc: true
+source-git-commit: 22ea3fe3ccb974fe3795299f7815e7aae78d41e7
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 0%
@@ -60,13 +62,3 @@ A Adobe identificou os seguintes problemas conhecidos para a versão 2026.03.0:
 - Na interface do usuário do Assets, o botão **Mover** não é habilitado na primeira tentativa quando mais de 2 arquivos ou pastas são selecionados. (GUIDES-42721) <br> **Solução alternativa**: depois de selecionar mais de dois arquivos ou pastas, aguarde alguns segundos antes de selecionar a pasta de destino.
 - Quando você navega do Editor para **Preferências do usuário** e atualiza o mapa raiz enquanto o modo de Visualização está aberto no Editor, a visualização do mapa é carregada como uma tela em branco quando você retorna ao Editor. (GUIDES-42412) <br> **Solução alternativa**: atualizar a visualização usando o ícone **Atualizar** disponível no modo de Visualização resolve o problema.
 - Renomear um modelo existente não atualiza o nome no painel **Modelos de saída** até que a página seja atualizada manualmente. (GUIDES-42528)<br> **Solução alternativa**: atualize o navegador para exibir o nome do modelo atualizado no painel Modelos de saída.
-
-
-
-
-
-
-
-
-
-
