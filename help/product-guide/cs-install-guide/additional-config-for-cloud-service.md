@@ -1,7 +1,9 @@
 ---
 title: Configuração adicional para atualizar o serviço em nuvem
 description: Saiba mais sobre a configuração adicional para atualizar o serviço em nuvem
-source-git-commit: 1ded80114aa25761fcca3f540d8b14ad7f5c4a31
+exl-id: 3d60d06b-ce50-4948-b50d-bd373051d055
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 0%
@@ -81,7 +83,7 @@ As seguintes configurações são necessárias somente se estiver usando uma ver
 +++Etapas para indexar o conteúdo existente para usar a nova localização e substituição e lista de tópicos na guia Relatórios
 Execute as seguintes etapas para indexar o conteúdo existente e usar o novo texto de localização e substituição no nível do mapa e da lista de tópicos na guia relatórios:
 
-1. Execute uma solicitação POST para o servidor (com autenticação correta) - `http://<server:port>/bin/guides/map-find/indexing`. (Opcional: é possível passar caminhos específicos dos mapas para indexá-los; por padrão, todos os mapas são indexados|| Exemplo: `https://<Server:port>/bin/guides/map-find/indexing?paths=<path of the MAP in repository>`)
+1. Execute uma solicitação POST para o servidor (com autenticação correta) - `http://<server:port>/bin/guides/map-find/indexing`. (Opcional: é possível passar caminhos específicos dos mapas para indexá-los, por padrão, todos os mapas são indexados|| Exemplo: `https://<Server:port>/bin/guides/map-find/indexing?paths=<path of the MAP in repository>`)
 
 1. Você também pode passar uma pasta raiz para indexar os mapas DITA de uma pasta específica (e suas subpastas). Por exemplo, `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Observe que se os parâmetros de caminhos e de raiz forem transmitidos, somente o parâmetro de caminhos será considerado.
 
@@ -148,15 +150,3 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 ```
 
 +++
-
-
-
-
-
-
-
-
-
-
-
-

@@ -5,7 +5,8 @@ exl-id: d184c97f-8405-4bcd-963d-635f17584897
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 1%
@@ -35,6 +36,6 @@ A caixa de seleção **Desbloquear o Arquivo** não está habilitada por padrão
 
 Quando esta configuração está habilitada, a caixa de seleção **Desbloquear o Arquivo** é marcada por padrão na caixa de diálogo.
 
-Para obter mais detalhes, consulte a seção *Cenários de fechamento e salvamento de arquivos*, no Guia as a Cloud Service Uso do Adobe Experience Manager Guides.
+Para obter mais detalhes, consulte a seção *Cenários de fechamento e salvamento de arquivos* no guia Uso do Adobe Experience Manager Guides as a Cloud Service.
 
-**Tópico pai:**&#x200B;[&#x200B; Personalizar editor da Web](conf-web-editor.md)
+**Tópico pai:**[ Personalizar editor da Web](conf-web-editor.md)

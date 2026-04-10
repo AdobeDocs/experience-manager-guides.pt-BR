@@ -5,7 +5,8 @@ exl-id: ba82af48-9357-4f29-90ce-6793366ab432
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '989'
 ht-degree: 0%
@@ -18,7 +19,7 @@ Por padrão, o Editor da Web é fornecido com os recursos editoriais mais comuns
 
 >[!NOTE]
 >
-> Ao migrar da interface antiga para a nova interface do AEM Guides (aplicável a partir das versões 2502 e 5.0 do AEM Guides), as atualizações do `ui_config` devem ser convertidas em configurações de interface mais flexíveis e modulares. Essa estrutura ajuda a adotar alterações facilmente na editor_toolbar e em outro widget do target, conforme aplicável. Para obter detalhes, consulte [Visão geral da configuração da interface de conversão](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+> Ao migrar da interface antiga para a nova interface do AEM Guides (aplicável a partir das versões 2502 e 5.0 do AEM Guides), as atualizações do `ui_config` devem ser convertidas em configurações de interface mais flexíveis e modulares. Essa estrutura ajuda a adotar alterações facilmente na editor_toolbar e em outro widget do target, conforme aplicável. Para obter detalhes, consulte [Visão geral da configuração da interface de conversão](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 Há duas maneiras de personalizar a barra de ferramentas do Editor da Web:
 
@@ -144,4 +145,4 @@ Execute as seguintes etapas para remover qualquer recurso indesejado da barra de
 1. Salve o arquivo *ui\_config.json* e recarregue o Editor da Web.
 
 
-**Tópico pai:**&#x200B;[&#x200B; Personalizar editor da Web](conf-web-editor.md)
+**Tópico pai:**[ Personalizar editor da Web](conf-web-editor.md)

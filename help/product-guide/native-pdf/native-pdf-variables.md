@@ -5,7 +5,8 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 96e54aee-52df-4af1-97fd-34986f553be4
-source-git-commit: 594248c42b14c960d858a2e0e6994aa9bb4acd4e
+hidefromtoc: true
+source-git-commit: 34687ac8f8877d05e545b23cf0830aa0345a25f7
 workflow-type: tm+mt
 source-wordcount: '1450'
 ht-degree: 0%
@@ -25,15 +26,15 @@ Execute as seguintes etapas para criar uma variável:
 *Crie variáveis e defina valores para elas.*
 
 
-1. No editor, navegue até o painel esquerdo e selecione **Variáveis** <img alt= "ícone de variável" src="./assets/variables-icon.svg" width="25">. Essa opção está disponível na seção Mais.
-1. Selecionar **Editar** <img alt= "ícone de lápis de Editar" src="./assets/edit_pencil_icon.svg" width="25"> para abrir o editor de **Variáveis**.
+1. No Editor, navegue até o painel esquerdo e selecione **Variáveis** <img alt= "ícone de variável" src="./assets/variables-icon.svg" width="25">. Essa opção está disponível na seção Mais.
+1. Selecionar **Editar** <img alt= "Ícone Editar lápis" src="./assets/edit_pencil_icon.svg" width="25"> para abrir o editor de **Variáveis**.
 As variáveis são listadas em ordem alfabética.
 1. Insira o nome da variável na coluna **Nome** e seu valor na coluna **Valor**.
    >[!TIP]
    >
-   >Você pode usar qualquer conteúdo HTML como um valor de variável para exibir o valor variável em formatação específica. Por exemplo, é possível adicionar uma `<b>` tag ao valor variável para exibir o valor **Experience Manager Guias** em negrito. Você também pode adicionar imagens do repositório como valores.
+   >Você pode usar qualquer conteúdo do HTML como um valor de variável para exibir o valor da variável em formatação específica. Por exemplo, você pode adicionar uma tag `<b>` ao valor da variável para exibir o valor **Experience Manager Guides** em negrito. Você também pode adicionar imagens do repositório como valores.
 
-1. Selecione **Adicionar variável** <img alt= "Ícone Adicionar" src="./assets/add-icon.svg" width="25"> para adicionar uma nova variável. Não é possível criar uma variável com o mesmo nome de uma variável existente. Um erro é exibido.
+1. Selecionar **Adicionar variável** <img alt= "Ícone Adicionar" src="./assets/add-icon.svg" width="25"> para adicionar uma nova variável. Não é possível criar uma variável com o mesmo nome de uma variável existente. Um erro é exibido.
 
    >[!NOTE]
    >
@@ -110,20 +111,20 @@ O nome padrão da variável é `<selected variable name>` (como &quot;exemplo&qu
 1. Selecione uma variável no painel **Variáveis**.
 1. Passe o mouse sobre a variável para ver o menu **Opções** e selecione a opção **Excluir**.
 
-**Nas variáveis editor**
+**No editor de Variáveis**
 
-1. Passe o mouse sobre as variável no lista para visualização no **menu Opções** .
-1. Selecione **Excluir** opção.
+1. Passe o mouse sobre a variável na lista para ver o menu **Opções**.
+1. Selecione a opção **Excluir**.
 
 A variável é excluída de todos os conjuntos de variáveis.
 
 ## Conjuntos de variáveis para as predefinições de saída
 
-O Adobe Experience Manager Guides também é compatível com conjuntos de variáveis, que permitem atribuir valores alternativos às variáveis. Por exemplo, uma empresa pode vender dois produtos, A e B. Ela tem especificações diferentes para cada uma delas. Essas especificações podem incluir o nome do produto, o número da versão e a data de lançamento. Pode haver outras diferenças no marca. Usando variável conjuntos, você define um conjunto diferente de valores para suas variáveis. Ao gerar a saída, escolha a variável adequada definida e produza a saída necessária.
+O Adobe Experience Manager Guides também é compatível com conjuntos de variáveis, que permitem atribuir valores alternativos às variáveis. Por exemplo, uma empresa pode vender dois produtos, A e B. Ela tem especificações diferentes para cada uma delas. Essas especificações podem incluir o nome do produto, o número da versão e a data de lançamento. Pode haver outras diferenças na identidade visual. Usando conjuntos de variáveis, você define um conjunto diferente de valores para as variáveis. Ao gerar a saída, você escolhe o conjunto de variáveis apropriado e produz a saída necessária.
 
-### Configurar conjuntos variável
+### Configurar conjuntos de variáveis
 
-É necessário configurar conjuntos de variável antes de adicionar variáveis a eles.
+É necessário configurar conjuntos de variáveis antes de adicionar variáveis a eles.
 
 1. Selecionar **Configurações** <img alt= "Ícone Configurações" src="./assets/settings-icon.svg" width="25"> para abrir a caixa de diálogo **Configurar conjuntos de variáveis**.
    ![configurar conjunto de variáveis](assets/configure-variable-set.png){width="550" align="left"}
@@ -194,10 +195,10 @@ Para inserir uma variável como o Nome do produto na área de cabeçalho, execut
    1. Selecionar **Inserir Variável/Campos** <img alt= "ícone de variável" src="./assets/variables-icon.svg" width="25">.
    1. Na caixa de diálogo **Variável**, selecione o nome da variável para inseri-la na área de cabeçalho.
    1. Você também pode inserir a string de pesquisa na caixa de texto. Os nomes das variáveis que contêm a cadeia de caracteres fornecida são filtrados e exibidos na lista. A variável selecionada é inserida na área de cabeçalho. É possível visualizar o valor padrão da variável.
-   1. Para substituir uma variável, duplo clique no valor da variável e selecione outra variável na **caixa de diálogo Variável** . A variável é substituída.
+   1. Para substituir uma variável, clique duas vezes no valor e selecione outra variável na caixa de diálogo **Variável**. A variável é substituída.
 
 
-## Gerar saída PDF com variáveis
+## Gerar saída do PDF com variáveis
 
 Você pode gerar a saída do PDF com os valores de variáveis diferentes. Antes de gerar o layout, escolha um conjunto de variáveis na lista suspensa **Conjunto de variáveis** de uma predefinição de saída para escolher seus valores.
 
@@ -207,13 +208,13 @@ Você pode gerar a saída do PDF com os valores de variáveis diferentes. Antes 
 
 >[!NOTE]
 >
-> Você também pode selecionar (Padrão) na lista suspensa para publicar os valores padrão de todas as variáveis.
+> Você também pode selecionar (Padrão) na lista suspensa para publicar os valores padrão para todas as variáveis.
 
-Dependendo do conjunto de variável escolhido, você obterá uma saída correspondente aos valores variável definidos no conjunto de variável. Por exemplo, se você selecionar a variável definida *Adobe Systems-set1*, sua saída exibirá os valores das variáveis conforme definido neste conjunto.
+Dependendo do conjunto de variáveis escolhido, você obterá uma saída correspondente aos valores de variáveis definidos no conjunto de variáveis. Por exemplo, se você selecionar o conjunto de variáveis *Adobe-set1*, sua saída exibirá os valores das variáveis conforme definidos nesse conjunto.
 
 
-<img src="assets/variable-pdf-output.png" alt="Saída em PDF com variáveis" width="500" border="2px">
+<img src="assets/variable-pdf-output.png" alt="Saída do PDF com variáveis" width="500" border="2px">
 
-*Gere a saída PDF usando variáveis no layout do página.*
+*Gere a saída do PDF usando variáveis no layout da página.*
 
 Você também pode atualizar rapidamente os valores de qualquer conjunto de variáveis sempre que necessário e gerar novamente a saída. Por exemplo, se você precisar atualizar os detalhes de uma versão, é possível atualizar o valor da versão na variável VersionNumber e gerar novamente a saída.

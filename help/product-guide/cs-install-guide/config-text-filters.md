@@ -5,18 +5,19 @@ exl-id: 0963606c-010e-4a72-b7bf-850b86b34a84
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
 
 # Configurar filtros de texto {#id21BPD0FK0XA}
 
-O AEM Guides fornece o recurso para procurar texto nos arquivos presentes no caminho selecionado do repositório AEM. Você pode usar a pesquisa de filtro para pesquisar arquivos no painel de repositório ou para procurar arquivos. Ao trabalhar no Editor da Web, é necessário usar a caixa de diálogo de navegação de arquivos para inserir elementos como imagem, referência ou referência de chave.
+O AEM Guides fornece o recurso para procurar texto nos arquivos presentes no caminho selecionado do repositório do AEM. Você pode usar a pesquisa de filtro para pesquisar arquivos no painel de repositório ou para procurar arquivos. Ao trabalhar no Editor da Web, é necessário usar a caixa de diálogo de navegação de arquivos para inserir elementos como imagem, referência ou referência de chave.
 
-Por padrão, você pode usar alguns filtros aprimorados para pesquisar os arquivos no repositório AEM. Você pode filtrar todos os arquivos DITA ou arquivos não DITA presentes no caminho selecionado. Também é possível pesquisar valores específicos nos atributos de elementos DITA. Você também pode procurar arquivos cujo check-out tenha sido feito pelo usuário especificado.
+Por padrão, você pode usar alguns filtros aprimorados para pesquisar os arquivos no repositório do AEM. Você pode filtrar todos os arquivos DITA ou arquivos não DITA presentes no caminho selecionado. Também é possível pesquisar valores específicos nos atributos de elementos DITA. Você também pode procurar arquivos cujo check-out tenha sido feito pelo usuário especificado.
 
 >[!NOTE]
 >
@@ -70,14 +71,14 @@ Execute as seguintes etapas para configurar os filtros de texto:
 
       No trecho de código acima, o primeiro filtro é para Arquivos DITA. A definição do filtro usa os seguintes parâmetros:
 
-      **&#x200B;**&#x200B;Título&#x200B;**&#x200B;**: o nome para exibição do filtro. Este título aparece como a opção de filtragem na caixa de diálogo de procura de arquivo.
+      ****Título****: o nome para exibição do filtro. Este título aparece como a opção de filtragem na caixa de diálogo de procura de arquivo.
 
-      **&#x200B;**&#x200B;Propriedade&#x200B;**&#x200B;**: a propriedade que deve corresponder aos metadados do arquivo. Por exemplo, para permitir somente os arquivos que têm os metadados dita\_class em sua propriedade, o filtro de propriedade usa &quot;jcr:content/metadata/dita\_class&quot; como seu valor.
+      ****Propriedade****: a propriedade que deve corresponder aos metadados do arquivo. Por exemplo, para permitir somente os arquivos que têm os metadados dita\_class em sua propriedade, o filtro de propriedade usa &quot;jcr:content/metadata/dita\_class&quot; como seu valor.
 
-      **&#x200B;**&#x200B;Operação **:**&#x200B;especifique &quot;existe&quot; para corresponder à existência do valor especificado no parâmetro de propriedade
+      ****Operação **:**especifique &quot;existe&quot; para corresponder à existência do valor especificado no parâmetro de propriedade
 
 1. Carregue o arquivo ui\_config.json atualizado que contém os filtros adicionados.
 
 Os filtros configurados estão disponíveis no painel Filtros.
 
-**Tópico pai:**&#x200B;[&#x200B; Personalizar editor da Web](conf-web-editor.md)
+**Tópico pai:**[ Personalizar editor da Web](conf-web-editor.md)

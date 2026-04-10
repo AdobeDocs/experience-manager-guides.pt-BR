@@ -5,7 +5,8 @@ exl-id: 2a599228-6d46-494f-a57a-96c3f30e073a
 feature: Filename Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 0%
@@ -37,4 +38,4 @@ Execute as seguintes etapas para atribuir automaticamente o nome de arquivo base
 >
 > Por padrão, essa opção está desativada. Quando essa opção estiver ativada, os autores não verão a opção para especificar o nome do arquivo ao criar um novo tópico ou arquivo de mapa. Um novo tópico ou arquivo de mapa pode ser criado na interface do usuário do Assets e no Editor da Web.
 
-**Tópico pai:**&#x200B;[&#x200B; Configurar nomes de arquivo](conf-file-names.md)
+**Tópico pai:**[ Configurar nomes de arquivo](conf-file-names.md)

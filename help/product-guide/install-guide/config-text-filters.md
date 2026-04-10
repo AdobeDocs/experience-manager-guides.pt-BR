@@ -5,18 +5,19 @@ exl-id: 180e4ab5-5259-4a00-ac3c-bb1d6814ce0d
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
 
 # Configurar filtros de texto {#id21BPD0FK0XA}
 
-O AEM Guides fornece o recurso para procurar texto nos arquivos presentes no caminho selecionado do repositório AEM. Você pode usar a pesquisa de filtro para pesquisar arquivos no painel de repositório ou para procurar arquivos. Ao trabalhar no Editor da Web, é necessário usar a caixa de diálogo de navegação de arquivos para inserir elementos como imagem, referência ou referência de chave.
+O AEM Guides fornece o recurso para procurar texto nos arquivos presentes no caminho selecionado do repositório do AEM. Você pode usar a pesquisa de filtro para pesquisar arquivos no painel de repositório ou para procurar arquivos. Ao trabalhar no Editor da Web, é necessário usar a caixa de diálogo de navegação de arquivos para inserir elementos como imagem, referência ou referência de chave.
 
-Por padrão, você pode usar alguns filtros aprimorados para pesquisar os arquivos no repositório AEM. Você pode filtrar todos os arquivos DITA ou arquivos não DITA presentes no caminho selecionado. Também é possível pesquisar valores específicos nos atributos de elementos DITA. Você também pode procurar arquivos cujo check-out tenha sido feito pelo usuário especificado.
+Por padrão, você pode usar alguns filtros aprimorados para pesquisar os arquivos no repositório do AEM. Você pode filtrar todos os arquivos DITA ou arquivos não DITA presentes no caminho selecionado. Também é possível pesquisar valores específicos nos atributos de elementos DITA. Você também pode procurar arquivos cujo check-out tenha sido feito pelo usuário especificado.
 
 >[!NOTE]
 >
@@ -102,4 +103,4 @@ Execute as seguintes etapas para configurar os filtros de texto:
 
 Os filtros configurados estão disponíveis no painel Filtros.
 
-**Tópico pai:**&#x200B;[&#x200B; Personalizar editor da Web](conf-web-editor.md)
+**Tópico pai:**[ Personalizar editor da Web](conf-web-editor.md)

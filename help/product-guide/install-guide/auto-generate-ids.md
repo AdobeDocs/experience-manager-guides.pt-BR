@@ -5,7 +5,8 @@ exl-id: 8d09ab89-4be5-49f1-9831-9f01c92dc472
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 0%
@@ -45,4 +46,4 @@ Execute as seguintes etapas para configurar elementos para que tenham uma ID ger
 1. Clique em **Salvar**.
 
 
-**Tópico pai:**&#x200B;[&#x200B; Personalizar editor da Web](conf-web-editor.md)
+**Tópico pai:**[ Personalizar editor da Web](conf-web-editor.md)

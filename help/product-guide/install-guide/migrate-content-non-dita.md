@@ -5,7 +5,8 @@ exl-id: 4597d1be-5426-4eba-8490-e42d0e565427
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 2c20191ba998ad7da98587f1832e1fe8499d023c
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '2392'
 ht-degree: 0%
@@ -397,4 +398,4 @@ Para converter os documentos estruturados existentes no formato DITA, execute as
 
 Usando o bloco `<config> </config>`, você pode definir um ou vários blocos de configurações para conversão. O fluxo de trabalho de conversão é executado e a saída final na forma de um tópico DITA é salva no local especificado no elemento `outputDir`.
 
-**Tópico pai:**&#x200B;[&#x200B; Migrar conteúdo existente](migrate-content.md)
+**Tópico pai:**[ Migrar conteúdo existente](migrate-content.md)

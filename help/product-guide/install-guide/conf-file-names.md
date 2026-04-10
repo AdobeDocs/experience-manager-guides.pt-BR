@@ -5,7 +5,8 @@ exl-id: e5e50cb8-45a9-4045-abac-88a3de62803d
 feature: Filename Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '70'
 ht-degree: 0%
@@ -20,4 +21,4 @@ Este tópico aborda informações sobre como trabalhar com nomes de arquivo para
 
 - **[Configurar Regx para caracteres de nome de arquivo válidos](conf-file-names-valid-regx.md)**
 
-- **[Configurar nomes de arquivo válidos para saída do site AEM](conf-file-names-valid-regx-aem-site-output.md)**
+- **[Configurar nomes de arquivo válidos para a saída do site do AEM](conf-file-names-valid-regx-aem-site-output.md)**

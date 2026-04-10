@@ -4,7 +4,8 @@ description: Saiba mais sobre as várias configurações disponíveis na interfa
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 3c3880af-8d32-4d8a-9dca-8be12e9a5fd5
-source-git-commit: dedd253dba3d93beed162eb5258125928f6d315c
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '2440'
 ht-degree: 0%

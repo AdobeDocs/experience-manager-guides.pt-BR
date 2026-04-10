@@ -5,7 +5,8 @@ exl-id: f6010cc3-5fec-4ec7-adf7-5ad3c9bd8879
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 2%
@@ -33,4 +34,4 @@ Para aumentar o número de nós que uma consulta pode ler de cada vez, execute a
 
 Quando você aumenta esse valor de atributo, ele ajuda a gerar o relatório para mapas DITA maiores.
 
-**Tópico pai:**&#x200B;[&#x200B; Personalizar editor da Web](conf-web-editor.md)
+**Tópico pai:**[ Personalizar editor da Web](conf-web-editor.md)

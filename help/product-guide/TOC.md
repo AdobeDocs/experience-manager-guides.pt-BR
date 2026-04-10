@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leia a documentação do produto do Adobe Experience Manager Guides.
 breadcrumb-title: Documentação do AEM Guides
-source-git-commit: 22ea3fe3ccb974fe3795299f7815e7aae78d41e7
+source-git-commit: 7b9efe58b04b6b4bf5b9c3eb9772aa88a3aa7bfd
 workflow-type: tm+mt
-source-wordcount: '2584'
-ht-degree: 9%
+source-wordcount: '3232'
+ht-degree: 7%
 
 ---
 
@@ -188,14 +188,14 @@ ht-degree: 9%
                - [Notas de versão 4.2.1](./release-info/release-notes-4-2-1.md)
                - [Notas de versão 4.2](./release-info/release-notes-4-2.md)
          - [Notas de versão 4.1.x](./release-info/release-notes-4-1.md)
-         - [Notas de versão do 4.0.x](https://helpx.adobe.com/br/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [Notas de versão da 3.8.x](https://helpx.adobe.com/br/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [Notas de versão do 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [Notas de versão da 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Guia do usuário (nova interface do usuário) {#user-guide}
    - Introdução {#about-aemg}
       - [Sobre [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides] trabalhando e os principais recursos {#aemg-works-features}
          - [Como [!DNL AEM Guides] funciona](./user-guide/intro-how-dxml-works.md)
-         - [Recursos da chave [!DNL AEM Guides] &#x200B;](./user-guide/intro-dxml-features.md)
+         - [Recursos da chave [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
    - Home page {#home-page}
       - [Experiência da página inicial [!DNL AEM Guides]](./user-guide/intro-home-page.md)
       - [Interface do repositório](./user-guide/home-page-repository-view.md)
@@ -396,7 +396,7 @@ ht-degree: 9%
       - Resolução de problemas {#troubleshooting}
          - [Tempo limite da sessão](./user-guide/session-timeout-prompt.md)
 - Guia do usuário (interface antiga) {#user-guide-old-ui}
-   - [visão geral do AEM Guides](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [visão geral do AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Instalação e configuração {#install-guide}
    - No local {#on-prem-ig}
       - [Noções básicas no local](./install-guide/introduction.md)
@@ -584,13 +584,135 @@ ht-degree: 9%
          - [Configurar pesquisa para a interface do usuário do AEM Assets](./cs-install-guide/conf-dita-search.md)
       - Trabalhar com processamento de ativos {#asset-processing-cloud}
          - [Configurar o recurso de processamento de ativos](./cs-install-guide/configure-asset-processing-cs.md)
-      - Trabalhar com limpeza da árvore B{#btree-cleanup-cs}
+      - Trabalhar com limpeza da árvore B {#btree-cleanup-cs}
          - [Configurar limpeza da árvore B](./cs-install-guide/configure-btree-cleanup-cs.md)
-      - Indexação personalizada{#custom-indexing-cs}
+      - Indexação personalizada {#custom-indexing-cs}
          - [Implantando índice personalizado para Localizar e substituir (modo de exibição Source)](./cs-install-guide/custom-indexing.md)
-      - Trabalhar com a replicação de ativos DITA{#dita-assets-replication-cs}
+      - Trabalhar com a replicação de ativos DITA {#dita-assets-replication-cs}
          - [Configurar a replicação de ativos DITA](./cs-install-guide/configure-dita-assets-replication.md)
       - [Apêndice](./cs-install-guide/appendix.md)
+- Instalação e configuração {#install-conf-guide}
+   - [Download, instalação e atualização](./install-conf-guide/introduction.md)
+   - Processo de instalação do Cloud Service {#deploy-conf-aemg-cs}
+      - [Configuração de implantação e dispatcher](./install-conf-guide/conf-deployment-dispatcher-cs.md)
+   - Processo de instalação para no local {#deploy-conf-aemg-on-prem}
+      - [Requisitos técnicos](./install-conf-guide/aemg-technical-requirements.md)
+      - [Instalar o Adobe Experience Manager](./install-conf-guide/download-install-aem.md)
+      - [Baixe e instale o AEM Guides pela primeira vez](./install-conf-guide/download-install-aemg-first-time.md)
+      - [Configurar o Dispatcher](./install-conf-guide/conf-dispatcher.md)
+      - [Desinstalar o AEM Guides](./install-conf-guide/unistall-aemg.md)
+   - [Verificar a instalação do AEM Guides](./install-conf-guide/verify-aemg-installation.md)
+   - Atualizar o AEM Guides {#upgrade-aemg}
+      - Cloud Service {#cloud-service}
+         - [Atualizar o AEM Guides Cloud Service](./install-conf-guide/download-install-upgrade-aemg.md)
+         - [Configuração adicional para atualizar o AEM Guides as Cloud Service](./install-conf-guide/additional-config-for-upgrade.md)
+         - [Substituições de configuração para o Cloud Service](./install-conf-guide/download-install-config-override.md)
+      - No local {#on-prem}
+         - [Atualizar o AEM Guides no Local 4.6.0 e posterior](./install-conf-guide/upgrade-aemg-latest-version.md)
+         - [Atualizar versões anteriores do AEM Guides no Local](./install-conf-guide/upgrade-aemg-prev-versions.md)
+   - Recomendações para a otimização do desempenho {#performance-optimization-aemg}
+      - [Otimização do desempenho para o Cloud Service](./install-conf-guide/perf-optimization-cs.md)
+      - [Otimização de desempenho para No Local](./install-conf-guide/perf-optimization-on-prem.md)
+   - Migração de conteúdo {#migrate-content-cs}
+      - [Migrar conteúdo existente](./install-conf-guide/migrate-content.md)
+      - [Fazer upload de conteúdo DITA existente usando a ferramenta Framemaker e WebDAV (no local)](./install-conf-guide/upload-dita-content.md)
+      - [Use o comando Curl para carregar conteúdo DITA](./install-conf-guide/use-curl-command.md)
+      - [Configurar padrão do arquivo UUID](./install-conf-guide/conf-uuid-filename-pattern.md)
+      - [Migrar conteúdo não DITA](./install-conf-guide/non-dita-content.md)
+      - [Migrar conteúdo do Local para o Cloud Service](./install-conf-guide/migrate-on-premise-content-cloud.md)
+      - Processo de migração para local {#migration-process-on-prem}
+         - [Migração de conteúdo não UUID para UUID](./install-conf-guide/uuid-non-uuid.md)
+         - [4.3.1 não UUID para migração de conteúdo UUID 4.3.2](./install-conf-guide/non-uuid-4-3.md)
+         - [4.6.0 não UUID para 4.6.1 Migração de conteúdo UUID](./install-conf-guide/non-uuid-uuid-4-6.md)
+   - DITA-OT personalizado e especialização {#custom-dita-ot-cs}
+      - [Usar a especialização personalizada do DITA-OT e do DITA](./install-conf-guide/dita-ot-specialization.md)
+   - Grupos de usuários e segurança {#user-group-sec-cs}
+      - [Gerenciamento de usuários](./install-conf-guide/user-admin-sec.md)
+   - Configurações do sistema {#aemg-system-settings}
+      - Configurar UUID e nomes de arquivo não baseados em UUID {#conf-filename}
+         - [Configurar nomes de arquivo](./install-conf-guide/conf-file-names-overview.md)
+         - [Configurar nomes de arquivo automáticos com base no UUID](./install-conf-guide/auto-uuid-filenames.md)
+         - [Configurar Regx para caracteres de nome de arquivo válidos](./install-conf-guide/file-names-valid-regx.md)
+      - Processamento de ativos {#asset-processing}
+         - [Configurar o recurso de processamento de ativos](./install-conf-guide/conf-asset-processing.md)
+         - [Configurar pós-processamento para uma pasta](./install-conf-guide/conf-folder-post-processing.md)
+      - [Gerenciamento de versão](./install-conf-guide/version-management.md)
+      - [Configurar limpeza da árvore B](./install-conf-guide/conf-btree-cleanup.md)
+      - [Configurar a replicação de ativos DITA](./install-conf-guide/conf-dita-asset-replication.md)
+   - Configurações do editor {#editor-configs}
+      - [Personalizar editor](./install-conf-guide/customize-overview.md)
+      - [Personalizar barra de ferramentas](./install-conf-guide/customize-toolbar.md)
+      - [Configurar um painel personalizado no painel esquerdo](./install-conf-guide/conf-custom-panel.md)
+      - [Configurar valor padrão para a exibição de tags](./install-conf-guide/conf-default-value-tags-view.md)
+      - [Gerar IDs de elemento automaticamente](./install-conf-guide/auto-generate-element-ids.md)
+      - [Incluir atributo @navtitle por padrão](./install-conf-guide/auto-add-navtitle.md)
+      - [Configurar a exibição de links baseados em UUID](./install-conf-guide/conf-uuid-based-links.md)
+      - [Abrir tópico DITA ou mapear arquivos na mesma guia](./install-conf-guide/open-dita-files-same-tab.md)
+      - [Definir o Editor de Mapa Avançado como padrão](./install-conf-guide/conf-default-map-editor.md)
+      - [Configurar o salvamento automático de arquivos no Editor da Web](./install-conf-guide/conf-auto-save-in-editor.md)
+      - [Configurar o prompt para salvar como uma nova versão ao fechar](./install-conf-guide/conf-save-as-new-version-close.md)
+      - [Configurar prompt para fazer check-in de um arquivo ao fechar](./install-conf-guide/conf-checkin-file-close.md)
+      - [Configurar caracteres especiais permitidos](./install-conf-guide/conf-special-chars.md)
+      - [Personalizar o dicionário padrão do AEM](./install-conf-guide/customize-aem-default-dictionary.md)
+      - [Configurar filtros de texto](./install-conf-guide/conf-text-filters.md)
+      - [Configurar filtros para a caixa de diálogo de procura de arquivos](./install-conf-guide/conf-custom-file-filters.md)
+      - [Instalar pacotes para publicação baseada em artigo](./install-conf-guide/conf-article-based-publishing.md)
+      - Configuração do editor para o Cloud Service {#editor-cloud-settings}
+         - [Configurar as sugestões inteligentes habilitadas por IA para criação no Cloud Service](./install-conf-guide/conf-smart-suggestions.md)
+         - [Configure a Ajuda inteligente habilitada para IA para pesquisar conteúdo para o Cloud Service](./install-conf-guide/conf-smart-help.md)
+         - [Configure a opção para editar no Oxygen for Cloud Service](./install-conf-guide/conf-edit-in-oxygen.md)
+         - [Configurar exibição de tabelas coladas para o Cloud Service](./install-conf-guide/conf-pasted-tables.md)
+         - [Configurar a geração de PDF de um único tópico para o Cloud Service](./install-conf-guide/conf-pdf-generation-dita-ot.md)
+         - [Configurar o recurso de tradução no Editor da Web do Cloud Service](./install-conf-guide/conf-translation-editor.md)
+      - Configuração do editor para no local {#editor-on-prem-settings}
+         - [Configurar caracteres especiais adicionais para no local](/help/product-guide/web-editor/conf-additional-special-characters.md)
+         - [Configurar o título para os ícones de Check-in e Check-out para no local](./install-conf-guide/conf-checkin-checkout-title.md)
+         - [Configurar o número de LimitReads para uma consulta no local](./install-conf-guide/conf-query-limitreads.md)
+      - Conector da fonte de dados {#data-source}
+         - [Configurar um conector de fonte de dados na interface do usuário](./install-conf-guide/conf-data-source-connector-tools.md)
+         - [Configurar um conector de fonte de dados para o Cloud Service](./install-conf-guide/conf-data-source-connector-cs.md)
+   - Perfis globais e em nível de pasta {#global-folder-profiles}
+      - [Configurar perfis globais ou de nível de pasta](./install-conf-guide/conf-profiles.md)
+   - Tópico e modelos de mapa {#topic-map-template}
+      - [Configurar tópico e modelos de mapa](./install-conf-guide/conf-template-tags.md)
+      - [Configurar modelo de tópico DITA personalizado](./install-conf-guide/conf-template-tags-custom-dita-topic-template.md)
+      - [Configurar modelo de mapa DITA personalizado](./install-conf-guide/conf-template-tags-custom-dita-map-templates.md)
+   - Estados do documento {#doc-state}
+      - [Configurar estados dos documentos](./install-conf-guide/customize-doc-state.md)
+      - [Configurar filtros de estado do documento para o Cloud Service](./install-conf-guide/conf-doc-state-filters.md)
+   - Definir configurações do Workspace {#workspace-configs}
+      - [configurações do Workspace](./install-conf-guide/workspace-settings.md)
+   - Pesquisa no AEM Assets {#aem-asset-search}
+      - [Configurar pesquisa para a interface do AEM Assets](./install-conf-guide/conf-dita-search.md)
+   - Configurações de geração de saída {#output-gen-config}
+      - [Definir configurações de geração de saída](./install-conf-guide/conf-output-generation.md)
+      - Definir configurações de saída do site do AEM {#conf-aem-sites-output}
+         - [Baixar e instalar modelos do AEM Sites](./install-conf-guide/download-install-aem-sites-templates.md)
+         - [Instruções gerais para personalizar modelos existentes de site do AEM](./install-conf-guide/customize-existing-site-template.md)
+         - [Personalizar nova saída do site do AEM](./install-conf-guide/customize-aem-site-output.md)
+         - [Personalizar o mapeamento de elemento DITA com componentes do AEM para saída de site herdada do AEM](./install-conf-guide/customize-dita-element-mapping-aem-components.md)
+         - [Sobrepor tags HTML na saída do AEM Sites para no local](./install-conf-guide/overlay-html-tags-aem-sites-on-prem.md)
+         - [Configure nomes de arquivo válidos para a saída do site do AEM](./install-conf-guide/conf-file-names-valid-regx-aem-site-output.md)
+      - Publicação nativa no PDF {#config-native-pdf-publish}
+         - [Modelos e estilos de conteúdo nativos do PDF Publishing](./install-conf-guide/template-content-styles.md)
+         - [Configurar o processo de nó para publicação nativa do PDF para Cloud Service](./native-pdf/conf-node-options-cs.md)
+         - [Configurar sinalizadores JVM para publicação nativa do PDF no local](./native-pdf/conf-jvm-flags-on-prem.md)
+      - Configurar fragmentos de conteúdo e experiência para o Cloud Service {#conf-content-exp-fragment}
+         - [Criar um mapeamento entre um tópico e um fragmento de conteúdo](./install-conf-guide/conf-mapping-topic-content-fragment-cs.md)
+         - [Criar um mapeamento entre um tópico e um fragmento de experiência](./install-conf-guide/conf-mapping-topic-content-exp-cs.md)
+   - Personalização do fluxo de trabalho {#workflow}
+      - [Configurar e personalizar fluxos de trabalho](./install-conf-guide/conf-customize-workflows.md)
+   - Integrações {#aemg-integrations}
+      - [Integrar editores de XML baseados em desktop](./install-conf-guide/integrate-desktop-editors.md)
+      - [Configurar o Workfront para o Cloud Service](./install-conf-guide/conf-workfront.md)
+      - [Configurar tradução](./install-conf-guide/conf-translation.md)
+   - Extensão dos recursos {#aemg-customization}
+      - [Implantar índice personalizado para o recurso Localizar e substituir do Cloud Service](./install-conf-guide/custom-indexing-cs.md)
+      - [Reindexar para Localizar e substituir o recurso no Local](./install-conf-guide/custom-indexing-on-prem.md)
+      - [Mapeamento de componentes do AEM Sites](./install-conf-guide/component-mapping.md)
+   - Apêndice {#appendix}
+      - [Apêndice](./install-conf-guide/aemg-appendix.md)
+
 - Referência da API  {#api-reference}
    - [Introdução](./api-reference/introduction.md)
    - [REST APIs para gerenciamento de saída](./api-reference/output-management.md)

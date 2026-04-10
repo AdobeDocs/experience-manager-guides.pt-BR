@@ -5,7 +5,8 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 2b59db60-61b5-4a7e-bbf1-35cab8b89323
-source-git-commit: d525775afeeb89754762ff514126b1c3a3307b3f
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 0%
@@ -46,7 +47,7 @@ O Adobe Experience Manager Guides fornece o recurso para criar um mapeamento bas
 
 1. Salve o arquivo e faça upload dele.
 
-O Experience Manager Guides converte o tópico completo em HTML, que pode ser mapeado para os componentes principais usados no Fragmento de experiência. Por exemplo, o conteúdo em uma marca `<p>` pode ser mapeado para criar um componente de texto no Fragmento de experiência.
+O Experience Manager Guides converte o tópico completo para o HTML, que pode ser mapeado para os componentes principais usados no Fragmento de experiência. Por exemplo, o conteúdo em uma marca `<p>` pode ser mapeado para criar um componente de texto no Fragmento de experiência.
 * `name`: especifique o elemento HTML. Por exemplo, `<div>`, `<img>`
 * `class`: especifique a marca do elemento DITA correspondente ao elemento HTML. Por exemplo, `<p>` `<image>`
 * `resourceType`: especifique o tipo de recurso aplicável ao componente usado no Fragmento de experiência. Por exemplo, `wcm/foundation/components/text` é o resourceType do componente wcm `text`.
@@ -159,4 +160,4 @@ Arquivo de exemplo:
 
 Ao publicar os Fragmentos de experiência no Editor da Web, selecione o `Template` na lista suspensa da caixa de diálogo **Gerar fragmento de experiência** para exibir o mapeamento disponível para o modelo no campo **Mapeamento**. Se nenhum mapeamento personalizado estiver presente para um modelo, o mapeamento padrão será listado. Você pode usar o mapeamento padrão para publicar todo o tópico como um Fragmento de experiência.
 
-Para obter mais detalhes, consulte [Fragmentos de experiência do Publish](../user-guide/publish-experience-fragment.md).
+Para obter mais detalhes, consulte [Publicar Fragmentos de Experiência](../user-guide/publish-experience-fragment.md).

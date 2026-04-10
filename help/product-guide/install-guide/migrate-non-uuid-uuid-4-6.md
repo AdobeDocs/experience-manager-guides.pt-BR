@@ -4,7 +4,9 @@ description: Saiba como migrar conteúdo não UUID para UUID
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 56f1bd81e74ad9b479b2dcbcf04e1ee82e9a9041
+exl-id: f17a2e02-62de-4ed6-8d1f-4c72e7488437
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '1568'
 ht-degree: 1%
@@ -219,5 +221,4 @@ Além disso, uma lista de **Arquivos atualizados com erros** e **Arquivos com fa
    > Se, antes da migração, a propriedade **Usar título para nomes de página de Sites do AEM** dentro de `com.adobe.fmdita.config.ConfigManager`, for definida como *False*, essa propriedade precisará ser atualizada após a migração.
 
 
-1. Depois que a validação for concluída, a maior parte do espaço em disco poderá ser recuperada executando a compactação (consulte `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=pt-BR`).
-
+1. Depois que a validação for concluída, a maior parte do espaço em disco poderá ser recuperada executando a compactação (consulte `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`).

@@ -1,11 +1,12 @@
 ---
-title: Recurso nativo do PDF Publish | Trabalhar com estilos de barras de alteração personalizados
+title: Recurso de publicação nativo do PDF | Trabalhar com estilos de barras de alteração personalizados
 description: Saiba como aplicar estilos a barras de alteração.
 exl-id: a81ec56c-ccbb-4599-a696-8edef7a73cdd
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 Uma barra de alteração é uma linha vertical que identifica visualmente o conteúdo novo ou revisado. O AEM Guides permite exibir uma barra de alterações à esquerda do conteúdo alterado em tópicos e também nos tópicos alterados no índice da saída do PDF.
 
-Para obter mais detalhes sobre como mostrar a barra de alterações, consulte a configuração *Criar PDF com Barra de Alterações entre Versões Publicadas* em [Saída do PDF Publish](../web-editor/native-pdf-web-editor.md).
+Para obter mais detalhes sobre como mostrar a barra de alterações, consulte a configuração *Criar PDF com Barra de Alterações entre Versões Publicadas* em [Publicar Saída do PDF](../web-editor/native-pdf-web-editor.md).
 
 ## Conteúdo alterado nos tópicos
 
@@ -29,7 +30,7 @@ Você pode modificar os estilos a seguir para mostrar o conteúdo alterado e ent
 >
 >Esses estilos fazem parte do arquivo `layout.css` e você pode editá-los conforme necessário.
 
-Por exemplo, você pode usar o atributo de cor no estilo `.inserted-block` para definir a forma como o conteúdo inserido aparece na saída de PDF publicada.
+Por exemplo, você pode usar o atributo de cor no estilo `.inserted-block` para definir a forma como o conteúdo inserido aparece na saída publicada do PDF.
 
 
 ```css
@@ -46,7 +47,7 @@ Por exemplo, você pode usar o atributo de cor no estilo `.inserted-block` para 
 ...
 ```
 
-Da mesma forma, você pode usar o estilo `.deleted-block` para definir a forma como o conteúdo excluído aparece na saída de PDF publicado.
+Da mesma forma, você pode usar o estilo `.deleted-block` para definir a forma como o conteúdo excluído aparece na saída do PDF publicada.
 
 ```css
 ...

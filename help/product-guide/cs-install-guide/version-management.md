@@ -5,9 +5,10 @@ exl-id: f7638cb3-faca-4170-9a8c-f6362e174c18
 feature: Version Management
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
-source-wordcount: '1502'
+source-wordcount: '1514'
 ht-degree: 0%
 
 ---
@@ -26,7 +27,7 @@ Em um ambiente multiuso, também é importante garantir que os usuários não ex
 >
 > Essa configuração é aplicável somente durante o upload de arquivos.
 
-Para habilitar a opção **Criar nova versão para arquivo carregado**, execute as seguintes etapas:
+As guias a seguir fornecem instruções para habilitar a opção **Criar nova versão para arquivo carregado** com base na configuração do Experience Manager Guides: Cloud Service ou No Local.
 
 1. Use as instruções fornecidas em [Substituições de configuração](download-install-additional-config-override.md#) para criar o arquivo de configuração.
 1. No arquivo de configuração, forneça os seguintes detalhes \(propriedade\) para configurar a opção **Criar nova versão para arquivo carregado**:
@@ -92,7 +93,7 @@ Use as instruções fornecidas em [Substituições de configuração](download-i
 
 ## Impedir exclusão de arquivos referenciados
 
-Como administrador, você pode controlar quem pode excluir arquivos do repositório AEM. Especificamente, se um arquivo contiver referências ou for referenciado por algum outro arquivo, você poderá definir quem poderá excluir esses arquivos.
+Como administrador, você pode controlar quem pode excluir arquivos do repositório do AEM. Especificamente, se um arquivo contiver referências ou for referenciado por algum outro arquivo, você poderá definir quem poderá excluir esses arquivos.
 
 Usando essa configuração, você pode permitir ou impedir que todos os usuários excluam arquivos, ou permitir que apenas um grupo de usuários específico exclua arquivos. Se a exclusão de arquivos for permitida, o seguinte processo será seguido:
 
@@ -142,7 +143,7 @@ Execute as seguintes etapas para expurgar as versões mais antigas:
 
    ![](assets/preview-purge-report.png)
 
-1. &#x200B;
+1. 
    - **Número de Versões a Reter da Versão Mais Recente**: insira o número de versões que devem ser retidas e não removidas. Por exemplo, se informarmos 5, as últimas 5 versões serão retidas e as versões anteriores serão qualificadas para expurgação caso outras condições de expurgação sejam atendidas.
 - **Reter versões criadas dentro do período \(Em dias\)**: insira a idade máxima de uma versão em dias. As versões anteriores ao número de dias especificado são qualificadas para expurgação caso outras condições de expurgação sejam atendidas. Por exemplo, se informarmos 100, todas as versões criadas antes de 100 dias serão qualificadas para expurgação caso outras condições de expurgação sejam atendidas.
 - **Caminho**: selecione o caminho do arquivo ou pasta cujos arquivos você deseja limpar.

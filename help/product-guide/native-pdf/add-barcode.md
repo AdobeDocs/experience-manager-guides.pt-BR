@@ -2,7 +2,8 @@
 title: Recurso de publicação nativo do PDF | Adicionar código de barras
 description: Saiba como adicionar códigos de barras.
 exl-id: 206bdcf9-2bcd-4bf1-815a-c97cdf0dc415
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 0%

@@ -1,18 +1,19 @@
 ---
-title: Recommendations para otimização de desempenho
-description: Conheça o Recommendations para otimização de desempenho
+title: Recomendações para a otimização do desempenho
+description: Conheça as recomendações para a otimização do desempenho
 exl-id: 92ac1f81-2f51-44b0-82c3-56b39e8f3027
 feature: Performance Optimization
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 0%
 
 ---
 
-# Recommendations para otimização de desempenho {#id213BD0JG0XA}
+# Recomendações para a otimização do desempenho {#id213BD0JG0XA}
 
 Para otimização de desempenho, considere os seguintes pontos:
 
@@ -25,4 +26,4 @@ Para otimização de desempenho, considere os seguintes pontos:
   Essa alteração reduz o tempo de publicação e a utilização da memória durante a publicação de mapas DITA com um grande número de tópicos.
 
 
-**Tópico pai:**&#x200B;[&#x200B; Baixar e instalar](download-install.md)
+**Tópico pai:**[ Baixar e instalar](download-install.md)

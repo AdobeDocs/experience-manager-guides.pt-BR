@@ -5,7 +5,8 @@ exl-id: 83436f2e-73a7-45f3-8b86-373643edf2a5
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 # Migrar conteúdo existente {#id181AGB000Y4}
 
-O AEM Guides permite converter uma variedade de documentos estruturados e não estruturados em formato DITA. Este tópico aborda as informações sobre o upload de conteúdo DITA no repositório AEM e a conversão de conteúdo não DITA para o formato DITA.
+O AEM Guides permite converter uma variedade de documentos estruturados e não estruturados em formato DITA. Este tópico aborda as informações sobre o upload de conteúdo DITA no repositório do AEM e a conversão de conteúdo não DITA para o formato DITA.
 
 >[!TIP]
 >

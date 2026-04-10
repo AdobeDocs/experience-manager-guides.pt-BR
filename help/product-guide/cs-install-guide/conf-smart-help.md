@@ -1,17 +1,18 @@
 ---
 title: Configurar a Ajuda inteligente para pesquisar conteúdo
 description: Saiba como configurar a Ajuda inteligente para pesquisar conteúdo
-source-git-commit: 48f7b38448e821a7ad5931a685dedc95303aea95
+exl-id: b5836c02-027e-459a-a7f0-f7d631f999dc
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '609'
 ht-degree: 0%
 
 ---
 
-
 # Configure a Ajuda inteligente habilitada para IA para pesquisar conteúdo
 
-Como administrador, você pode configurar o recurso Ajuda inteligente para os autores. O serviço de Ajuda inteligente é protegido pela autenticação baseada em autenticação do Adobe IMS. Integre seu ambiente com os workflows de autenticação segura baseada em token do Adobe e comece a usar o novo recurso Smart Help. As configurações a seguir ajudam a adicionar a guia **Configuração de IA** a um perfil de pasta. Depois de adicionado, você pode usar o recurso Ajuda inteligente no Editor da Web.
+Como administrador, você pode configurar o recurso Ajuda inteligente para os autores. O serviço de Ajuda inteligente é protegido pela autenticação baseada em autenticação do Adobe IMS. Integre seu ambiente com os workflows de autenticação seguros baseados em token da Adobe e comece a usar o novo recurso de Ajuda inteligente. As configurações a seguir ajudam a adicionar a guia **Configuração de IA** a um perfil de pasta. Depois de adicionado, você pode usar o recurso Ajuda inteligente no Editor da Web.
 
 ## Criar configurações do IMS no Adobe Developer Console
 
@@ -27,7 +28,7 @@ Execute as seguintes etapas para criar configurações do IMS no Adobe Developer
    ![Links de início rápido](assets/conf-ss-quick-start.png) {width="550" align="left"}
    *Criar um novo projeto.*
 
-1. Selecione **Adicionar API** na tela **Projetos**.  A tela **Adicionar uma API** é exibida. Esta tela exibe todas as APIs, Eventos e serviços disponíveis para produtos e tecnologias Adobe com os quais você pode desenvolver aplicativos.
+1. Selecione **Adicionar API** na tela **Projetos**.  A tela **Adicionar uma API** é exibida. Esta tela exibe todas as APIs, Eventos e serviços disponíveis para produtos e tecnologias da Adobe com os quais você pode desenvolver aplicativos.
 
 1. Selecione a **API de Gerenciamento de E/S** para adicioná-la ao seu projeto.
    ![API de gerenciamento de E/S](assets/confi-ss-io-management.png)

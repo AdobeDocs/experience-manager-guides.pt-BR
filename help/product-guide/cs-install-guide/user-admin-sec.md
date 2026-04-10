@@ -5,7 +5,8 @@ exl-id: 10ab0f3c-97dc-4293-ab73-75b438c03d99
 feature: User Management
 role: Admin
 level: Experienced
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 10%
@@ -18,9 +19,9 @@ Para acessar e configurar recursos na AEM Guides, é necessário criar usuários
 
 Os seguintes tópicos na documentação do AEM ajudarão você a entender a administração do usuário e os conceitos e recursos relacionados à segurança:
 
-- [Usuários, grupos e permissões do AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html?lang=pt-BR)
+- [Usuários, grupos e permissões do AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html)
 
-- [Segurança e Administração de Usuários](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=pt-BR)
+- [Segurança e Administração de Usuários](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html)
 
 
 ## Grupos de usuários criados pelo AEM Guides {#id181TF0K0MHT}

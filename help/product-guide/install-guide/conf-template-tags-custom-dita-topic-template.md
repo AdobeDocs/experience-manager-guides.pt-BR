@@ -5,7 +5,8 @@ exl-id: a9b2c479-7bf6-4c62-addd-fdfe74dc1f69
 feature: Template Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 34687ac8f8877d05e545b23cf0830aa0345a25f7
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 2%
@@ -77,4 +78,4 @@ Para configurar uma pasta para seus modelos de tópico DITA personalizados, exec
 
 Se o local especificado existir no DAM, todos os modelos de mapa e tópico padrão serão copiados para essa pasta. Se o local não existir, a pasta será criada com todos os modelos de mapa e tópico padrão.
 
-**Tópico pai:**&#x200B;[&#x200B; Configurar tópico e mapear modelos](conf-template-tags.md)
+**Tópico pai:**[ Configurar tópico e mapear modelos](conf-template-tags.md)

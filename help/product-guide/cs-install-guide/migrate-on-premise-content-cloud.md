@@ -1,10 +1,12 @@
 ---
-title: Migrar conteúdo do local para o Cloud Service
-description: Saiba como migrar o conteúdo do software local para o Cloud Service
+title: Migrar conteúdo do local para o Cloud Services
+description: Saiba como migrar o conteúdo do software local para o Cloud Services
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 645d9983b66c740444f24e2283806b5ec4a4ee79
+exl-id: da3a6f83-b21a-4b19-8b54-ee96f11e7c09
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '1000'
 ht-degree: 1%
@@ -16,7 +18,7 @@ ht-degree: 1%
 O Experience Manager as a Cloud Service fornece uma base de tecnologia escalável, segura e ágil para Experience Manager Guides, Assets, Forms e Screens. Isso permite que profissionais de marketing e TI se concentrem em fornecer experiências impactantes em escala.
 Com o Experience Manager as a Cloud Service, suas equipes podem se concentrar em inovar em vez de planejar atualizações de produtos. Os novos recursos do produto são totalmente testados e entregues às suas equipes, sem interrupção, para que elas sempre possam acessar a versão mais recente do Adobe Experience Manager.
 
-Este artigo fornece um processo passo a passo detalhado para migrar o conteúdo do Experience Manager Guides no local ou do Managed Services para o Cloud Service, garantindo uma transição suave para a plataforma baseada em nuvem.
+Este artigo fornece um processo passo a passo detalhado para migrar o conteúdo do Experience Manager Guides no local ou do Managed Services para o Cloud Services, garantindo uma transição suave para a plataforma baseada em nuvem.
 
 ## Pré-requisitos
 
@@ -30,7 +32,7 @@ Este artigo fornece um processo passo a passo detalhado para migrar o conteúdo 
 
 ## Processo de migração
 
-A **Ferramenta de transferência de conteúdo** é uma ferramenta desenvolvida pelo Adobe que você pode usar para iniciar a migração de conteúdo existente de uma instância de origem do Adobe Experience Manager no local ou do Managed Services para a instância do Experience Manager Cloud Service de destino.
+A **Ferramenta de transferência de conteúdo** é uma ferramenta desenvolvida pela Adobe que você pode usar para iniciar a migração de conteúdo existente de uma instância do Adobe Experience Manager no local ou do Managed Services de origem para a instância do Experience Manager Cloud Service de destino.
 Essa ferramenta também transfere entidades principais (usuários ou grupos) automaticamente.
 
 Você pode baixar a **Ferramenta de Transferência de Conteúdo** como um arquivo ZIP no portal de **Distribuição de Software**:
@@ -41,7 +43,7 @@ Você pode baixar a **Ferramenta de Transferência de Conteúdo** como um arquiv
 
 ![baixar ferramenta de transferência de conteúdo](./assets/content-transfer-tool-software-portal.png)
 Em seguida, instale o pacote por meio do **Gerenciador de Pacotes** na instância do Adobe Experience Manager de origem. Baixe a versão mais recente.
-Para obter mais detalhes sobre a versão mais recente, consulte as [Notas de versão](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=pt-BR).
+Para obter mais detalhes sobre a versão mais recente, consulte as [Notas de versão](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=en).
 
 >[!NOTE]
 > 
@@ -51,7 +53,7 @@ Para obter mais detalhes sobre a versão mais recente, consulte as [Notas de ver
 
 
 
-Execute as seguintes etapas para migrar o conteúdo do Experience Manager Guides para o Experience Manager as a cloud service.
+Execute as seguintes etapas para migrar o conteúdo do Experience Manager Guides para o Experience Manager as a Cloud Service.
 
 1. Faça logon em [experience.adobe.com](https://experience.adobe.com/) e selecione **Experience Manager**.
 
@@ -88,7 +90,7 @@ Execute as seguintes etapas para migrar o conteúdo do Experience Manager Guides
    ![portal de distribuição de software](./assets/migration-software-portal.png)
 
 
-1. No portal **Distribuição de Software**, selecione **Adobe Experience Manager como a guia Cloud Service**, pesquise &quot;ferramenta de transferência de conteúdo&quot; e baixe o pacote de ferramentas de transferência de conteúdo.
+1. No portal **Distribuição de Software**, selecione **Adobe Experience Manager como guia do Cloud Service**, pesquise &quot;ferramenta de transferência de conteúdo&quot; e baixe o pacote de ferramentas de transferência de conteúdo.
 
    >[!NOTE]
    >
@@ -129,7 +131,7 @@ ou
 
 1. Clique em **Salvar**
 1. Selecione o **conjunto de migração** e selecione **Extrair** na parte superior.
-   ![extração do conjunto de migração &#x200B;](./assets/migration-extract.png)
+   ![extração do conjunto de migração ](./assets/migration-extract.png)
 
 1. Verifique os detalhes no pop-up **Extração do conjunto de migração** para os caminhos e configurações selecionados e clique em **Extrair**. A extração levará minutos, e você visualizará o status como atualizado.
    ![extração do conjunto de migração](./assets/migration-set-extraction.png)
@@ -150,24 +152,24 @@ Para obter mais informações, selecione os três pontos e, em seguida, selecion
 
    ![nova assimilação](./assets/migration-new-ingestion.png)
 
-## Executar a ferramenta Transferência de conteúdo em uma instância do Publish
+## Executar a ferramenta Transferência de conteúdo em uma instância de publicação
 
-Instale a Ferramenta Transferência de conteúdo na instância do Publish de origem para mover o conteúdo para a instância do Publish de destino.
-A ferramenta Transferência de conteúdo não diferencia entre conteúdo publicado e não publicado ao assimilar conteúdo em um ambiente do Publish. O conteúdo especificado no conjunto de migração é assimilado na instância de destino escolhida. O usuário pode assimilar um conjunto de migração em uma instância do Autor, instância do Publish ou em ambas.
+Instale a Ferramenta Transferência de conteúdo na instância de publicação de origem para mover o conteúdo para a instância de publicação de destino.
+A ferramenta Transferência de conteúdo não diferencia entre conteúdo publicado e não publicado ao assimilar conteúdo em um ambiente de publicação. O conteúdo especificado no conjunto de migração é assimilado na instância de destino escolhida. O usuário pode assimilar um conjunto de migração em uma instância de Autor, instância de Publicação ou ambas.
 
 ### Abordagem recomendada
 
 Considere as seguintes recomendações:
 
 * Use a mesma versão da **Ferramenta de transferência de conteúdo** que foi usada na instância do Autor.
-* Durante a assimilação no Publish, o nível do Publish não será reduzido (ao contrário do autor).
-* Migrar apenas um único nó do Publish. Antes de iniciar a extração, remova-a do balanceador de carga.
+* Durante a assimilação para a publicação, o nível de Publicação não será reduzido (ao contrário do autor).
+* Migrar apenas um único nó Publicar. Antes de iniciar a extração, remova-a do balanceador de carga.
 
 >[!NOTE]
 >
-> Como precaução, verifique se não ocorrem operações de gravação nas instâncias do Publish, incluindo ações iniciadas pelo usuário como:
-> * Distribuição de conteúdo do autor do AEM as a Cloud Service para o Publish nesse ambiente
-> * Sincronização de usuários entre instâncias do Publish
+> Como precaução, verifique se não ocorrem operações de gravação nas instâncias de Publicação, incluindo ações iniciadas pelo usuário como:
+> * Distribuição de conteúdo do autor do AEM as a Cloud Service para publicação nesse ambiente
+> * Sincronização de usuários entre instâncias de publicação
 
 
 ## Resolução de problemas
@@ -185,7 +187,3 @@ Se a extração falhar devido ao seguinte erro, você poderá resolver isso impo
 
 
 *Habilitar o log SSL.*
-
-
-
-

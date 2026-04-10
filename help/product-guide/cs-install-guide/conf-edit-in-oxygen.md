@@ -5,7 +5,8 @@ exl-id: 96081a6d-39cf-4697-8b43-6494543ea187
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 1%
@@ -28,4 +29,4 @@ Use as instruções fornecidas em [Substituições de configuração](download-i
 >
 > Essa configuração é desativada por padrão e a opção não está disponível no Editor da Web.
 
-**Tópico pai:**&#x200B;[&#x200B; Personalizar editor da Web](conf-web-editor.md)
+**Tópico pai:**[ Personalizar editor da Web](conf-web-editor.md)

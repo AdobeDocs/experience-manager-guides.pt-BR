@@ -1,11 +1,12 @@
 ---
-title: Recurso nativo do PDF Publish | Aplicar estilo personalizado em entradas de índice e conteúdo de tópico
+title: Recurso de Publicação Nativa do PDF | Aplica um estilo personalizado a entradas de índice e conteúdo de tópico
 description: Saiba como criar folhas de estilos de uso e criar estilos para o seu conteúdo.
 exl-id: f65c9683-a1fc-432a-854b-83e8f39d7dae
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: db4c823e592e249e1d828a7071fc0848a5e68c0f
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '399'
 ht-degree: 0%
@@ -37,7 +38,7 @@ Vamos ver como cada um desses cenários pode ser definido no CSS. Na seguinte de
 …
 ```
 
-Essa definição controla a cor do texto no índice e o título do tópico. A saída de PDF a seguir mostra a cor diferente aplicada na entrada de índice:
+Essa definição controla a cor do texto no índice e o título do tópico. A seguinte saída do PDF mostra a cor diferente aplicada na entrada do índice:
 
 <img src="./assets/pdf-output-toc-entry.jpg" width="500">
 

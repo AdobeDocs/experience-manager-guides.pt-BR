@@ -5,7 +5,8 @@ exl-id: d7bf7e69-fe12-4c48-8ce4-17b74a6c61e7
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '3896'
 ht-degree: 0%
@@ -58,7 +59,7 @@ Ao usar o bloco Perfis de pasta nas configurações de Guias, você pode definir
 
 - **Predefinição de Saída**: Assim como os Modelos de Criação, existem cinco predefinições de saída pré-configuradas:
 
-   - Site AEM
+   - Site do AEM
 
    - PDF
 
@@ -363,7 +364,7 @@ Execute as seguintes etapas para configurar predefinições de saída globais ou
 
 1. Na página do perfil. clique na guia **Predefinições de saída**.
 
-   É exibida uma lista de predefinições de saída prontas para uso, que inclui AEM Site, PDF, HTML5, EPUB e CUSTOM.
+   Uma lista de predefinições de saída prontas para uso é exibida, incluindo AEM Site, PDF, HTML5, EPUB e CUSTOM.
 
 1. Siga um destes procedimentos para criar ou editar uma predefinição de saída:
 
@@ -399,7 +400,7 @@ Se você tiver atualizado uma predefinição de saída existente ou quiser dispo
 
 1. Na página do perfil. clique na guia **Predefinições de saída**.
 
-   É exibida uma lista de predefinições de saída prontas para uso, que inclui AEM Site, PDF, HTML5, EPUB e CUSTOM.
+   Uma lista de predefinições de saída prontas para uso é exibida, incluindo AEM Site, PDF, HTML5, EPUB e CUSTOM.
 
 1. Selecione a predefinição de saída que deseja aplicar aos mapas DITA existentes.
 

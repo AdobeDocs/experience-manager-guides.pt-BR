@@ -1,11 +1,12 @@
 ---
 title: Apêndice
-description: Saiba como preparar arquivos do InDesign para conversão
+description: Saiba como preparar arquivos InDesign para conversão
 exl-id: 02da0e61-7a73-4c4c-9bd7-2664d90fa728
 feature: InDesign File Conversion
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '2851'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 # Apêndice {#id195AD0L60Y4}
 
-## Preparar arquivos de InDesign para conversão {#id195DBF0045Z}
+## Preparar arquivos do InDesign para conversão {#id195DBF0045Z}
 
 O InDesign fornece aos autores um conjunto avançado de recursos para criar documentos atraentes e complexos. Geralmente, isso significa que as várias partes de um documento são colocadas na página visualmente, mas sem nenhuma tentativa de fornecer nenhum fluxo entre esses quadros de texto. Quando a &#39;*ordem de leitura*&#39; dos quadros de texto não estiver definida, o arquivo IDML conterá histórias que podem não seguir nenhuma ordem significativa. O resultado final será um ou mais tópicos DITA com parágrafos, tabelas e gráficos em uma ordem aleatória.
 
@@ -28,9 +29,9 @@ O InDesign usa o termo *&#39;threading&#39;* para o processo de vinculação de 
 
 Alguns documentos do InDesign usam quadros sobrepostos não encadeados por motivos de layout. Pode ser muito difícil mesclar esse conteúdo na thread principal. A melhor opção pode ser editar o resultado no ambiente DITA.
 
-***histórias de InDesigns***
+***Histórias do InDesign***
 
-Cada fluxo encadeado de conteúdo em um documento de InDesign é chamado de &#39;*história*&#39;. Para obter melhores resultados, é recomendável manter o número de histórias limitado. No entanto, há algumas partes do documento que podem não ser necessárias na saída DITA. Por exemplo, rodapés de página raramente são necessários, mas podem aparecer no meio de um tópico se não forem tratados com cuidado.
+Cada fluxo encadeado de conteúdo em um documento InDesign é chamado de &#39;*história*&#39;. Para obter melhores resultados, é recomendável manter o número de histórias limitado. No entanto, há algumas partes do documento que podem não ser necessárias na saída DITA. Por exemplo, rodapés de página raramente são necessários, mas podem aparecer no meio de um tópico se não forem tratados com cuidado.
 
 A maneira mais fácil de excluir texto não necessário no documento é fornecer a ele uma *Marca de parágrafo* especial, usada somente para o conteúdo indesejado. Por exemplo, em vez de reutilizar um *\[Parágrafo básico\]* para o rodapé, crie uma tag *Rodapé* dedicada. Em seguida, no arquivo MapStyle, basta definir os parágrafos *Footer* para serem soltos desta forma:
 
@@ -62,23 +63,23 @@ Se alguns dos parágrafos *Cabeçalho1* precisarem ser convertidos em diferentes
 </doctypes>
 ```
 
-***Documentos de InDesign estruturados***
+***Documentos estruturados do InDesign***
 
 O InDesign tem uma relação ampla com XML. Embora um documento possa incluir um DTD XML e a matéria principal possa ser válida em relação a esse DTD, também é possível criar documentos híbridos nos quais parte do conteúdo é XML, mas nenhum DTD está incluído. Esses são os casos indesejáveis para uma conversão bem-sucedida em DITA. Se um documento contiver partes XML, tente salvar a saída em XML e ver se os resultados são aceitáveis. Caso contrário, o conteúdo DITA também incluirá conteúdo inválido ou poderá falhar completamente.
 
 ***Formatação da tabela***
 
-A conversão das regras de formatação da tabela do InDesign para a formatação de tabela equivalente em DITA é um processo complexo. Isso se deve aos recursos de formatação avançada disponíveis nos arquivos de origem em comparação às opções básicas fornecidas pelo modelo de tabela Oasis \(CALS\) usado no DITA. O alinhamento de texto vertical e horizontal é fornecido e fornece resultados semelhantes, embora o Texto justificado seja sempre justificado de acordo com a direção do texto, enquanto o InDesign permite Justificado à esquerda e Justificado à direita.
+A conversão das regras de formatação de tabela do InDesign para a formatação de tabela equivalente em DITA é um processo complexo. Isso se deve aos recursos de formatação avançada disponíveis nos arquivos de origem em comparação às opções básicas fornecidas pelo modelo de tabela Oasis \(CALS\) usado no DITA. O alinhamento de texto vertical e horizontal é fornecido e fornece resultados semelhantes, embora o Texto justificado seja sempre justificado de acordo com a direção do texto, enquanto o InDesign permite Justificado à esquerda e Justificado à direita.
 
-O manuseio de separadores de coluna e linha pelo InDesign é novamente muito mais capaz do que as opções básicas do modelo de tabela do Oasis. O InDesign fornece quatro bordas de célula: Tipo de borda \(sólida ou padrão\), Peso da borda, Cor da borda, Tonalidade da borda, Cor de espaço da borda e Tonalidade de espaço da borda. Todos eles devem ser mapeados para as bordas à direita e abaixo de cada célula \(elemento de entrada\) onde as únicas opções são 0 ou 1 - ocultar a borda ou mostrar a borda.
+A manipulação de separadores de coluna e linha pela InDesign é, novamente, muito mais capaz do que as opções básicas do modelo de tabela do Oasis. O InDesign fornece quatro bordas de célula: Tipo de borda \(sólida ou padrão\), Peso da borda, Cor da borda, Tonalidade da borda, Cor de espaço da borda e Tonalidade de espaço da borda. Todos eles devem ser mapeados para as bordas à direita e abaixo de cada célula \(elemento de entrada\) onde as únicas opções são 0 ou 1 - ocultar a borda ou mostrar a borda.
 
-A decisão fronteiriça em InDesign pode ser aplicada nos seguintes níveis:
+As regras de fronteira no InDesign podem ser aplicadas nos seguintes níveis:
 
 - Estilos de Tabela
 - Estilos de Célula
 - Substituições locais em cada célula
 
-O processo de conversão do InDesign para o DITA aplica a decisão de fronteira da seguinte forma:
+O processo de conversão do InDesign em DITA aplica a decisão fiscal prévia da seguinte forma:
 
 - Os Estilos de Tabela são mapeados para o atributo `colspec/@colsep` de regras verticais. As regras horizontais estão mapeadas para o atributo `row/@rowsep`. Em ambos os casos, se a borda não estiver definida, o atributo não será criado.
 - Os Estilos de Célula são mapeados para os atributos `entry/@colsep` e `entry/@rowsep`. Esses valores substituirão qualquer regra de borda derivada do Estilo de tabela.
@@ -86,13 +87,13 @@ O processo de conversão do InDesign para o DITA aplica a decisão de fronteira 
 
 ***Padrões alternados***
 
-Os Estilos de Tabela de InDesign permitem que as regras de coluna e célula sigam um padrão alternado. Embora esse recurso seja compatível com a conversão, os resultados só serão óbvios quando um grupo de padrão for mapeado para mostrar a regra \(1\) e o outro grupo de padrão for mapeado para ocultar a regra \(0\).
+Os Estilos de tabela do InDesign permitem que as regras de coluna e célula sigam um padrão alternado. Embora esse recurso seja compatível com a conversão, os resultados só serão óbvios quando um grupo de padrão for mapeado para mostrar a regra \(1\) e o outro grupo de padrão for mapeado para ocultar a regra \(0\).
 
-## Preparar o arquivo de mapeamento para migração do InDesign para o DITA {#id194AF0003HT}
+## Preparar o arquivo de mapeamento para a migração do InDesign para o DITA {#id194AF0003HT}
 
-A conversão DITA correta requer um arquivo de mapeamento que corresponda ao conteúdo do documento de origem. Para documentos de InDesign não estruturados, isso significa que todos os Estilos de parágrafo e de caractere disponíveis precisam ser mapeados. Para documentos de InDesign estruturados XML, todos os elementos em seu DTD associado devem ser mapeados.
+A conversão DITA correta requer um arquivo de mapeamento que corresponda ao conteúdo do documento de origem. Para documentos não estruturados do InDesign, isso significa que todos os Estilos de parágrafo e de caractere disponíveis precisam ser mapeados. Para documentos InDesign estruturados em XML, todos os elementos em seu DTD associado devem ser mapeados.
 
-Os arquivos de mapeamento para documentos de InDesign não estruturados e estruturados são diferentes. Isso se deve aos requisitos de processamento mais complexos para converter conteúdo original não estruturado em DITA.
+Os arquivos de mapeamento de documentos não estruturados e estruturados do InDesign são diferentes. Isso se deve aos requisitos de processamento mais complexos para converter conteúdo original não estruturado em DITA.
 
 Uma amostra do arquivo de mapeamento é fornecida abaixo:
 
@@ -195,7 +196,7 @@ No exemplo acima, há dois elementos `paraRule` para `@style` = &quot;Heading1&q
 
 Os atributos usados em `doctypeParaRule` são explicados abaixo:
 
-- `@style`: O nome de um estilo no documento de InDesign de origem.
+- `@style`: O nome de um estilo no documento InDesign de origem.
 - `@local`: Consulte [\#id194CG0V005Z](#id194CG0V005Z).
 - `@mapToDoctype`: o nome de um tipo de tópico DITA de uma lista enumerada de todos os `doctypes` válidos.
 
@@ -297,15 +298,15 @@ Os elementos `<paragraphStyleRule>` estão descritos abaixo:
 
 ***`paraRule`elemento***
 
-O elemento `paraRule` é obrigatório. Especifica as regras de mapeamento para todos os Estilos de parágrafo. Em um documento de InDesign, todo o texto está contido em uma subestrutura de Estilos de parágrafo, até mesmo parágrafos sem nenhum estilo são nomeados como `[No paragraph style]`. Os colchetes indicam um nome de estilo de InDesign interno.
+O elemento `paraRule` é obrigatório. Especifica as regras de mapeamento para todos os Estilos de parágrafo. Em um documento do InDesign, todo o texto está contido em uma subestrutura de Estilos de parágrafo. Mesmo parágrafos sem nenhum estilo são nomeados como `[No paragraph style]`. Os colchetes indicam um nome de estilo InDesign incorporado.
 
 >[!NOTE]
 >
-> Os colchetes indicam um nome de estilo de InDesign incorporado.
+> Os colchetes indicam um nome de estilo InDesign incorporado.
 
 Os atributos usados em `paraRule` são explicados abaixo:
 
-- `@style`: O nome de um estilo no documento de InDesign de origem.
+- `@style`: O nome de um estilo no documento InDesign de origem.
 - `@local`: Consulte [\#id194CG0V005Z](#id194CG0V005Z).
 - `@mapTo`: o nome de um elemento de destino DITA.
 
@@ -334,11 +335,11 @@ Os elementos `charRule` estão descritos abaixo:
 
 Esse é um elemento opcional.
 
-Essas são as regras de mapeamento para todos os Estilos de Caractere. Em um documento de InDesign, todo o texto está contido em elementos secundários de Estilos de caractere.
+Essas são as regras de mapeamento para todos os Estilos de Caractere. Em um documento do InDesign, todo o texto é contido em elementos secundários de Estilos de caractere.
 
 Os atributos usados em `charRule` são explicados abaixo:
 
-- `@style`: O nome de um estilo no documento de InDesign de origem.
+- `@style`: O nome de um estilo no documento InDesign de origem.
 - `@local`: Consulte [\#id194CG0V005Z](#id194CG0V005Z).
 - `@mapTo`: o nome de um elemento de destino DITA.
 - `@refactor`: Este atributo opcional tem uma opção de dois valores:
@@ -392,7 +393,7 @@ Os atributos `@local` são apresentados como um formato delimitado especial, ond
 - **Posição do caractere** para sobrescrito ou subscrito.
 - **Em** para sublinhado.
 - **Tachado** para tachado.
-- **Código de lista** para identificar o tipo de lista como com marcadores ou Numerado - nem sempre usado pelo InDesign.
+- **Código de lista** para identificar o tipo de lista como com marcadores ou Numerada - nem sempre é usado pelo InDesign.
 - **Código do marcador** lista todos os tipos de marcadores definidos no documento.
 - **Código numérico** lista todos os estilos de numeração definidos no documento.
 
@@ -414,11 +415,11 @@ O elemento `mapDoctypeElemRule` é obrigatório. Os atributos deste elemento nã
 
 **`elementRules`elemento** Lista todos os elementos.
 
-**`elementRule`elemento** O elemento `elementRule` é obrigatório. Estas são as regras de mapeamento para todos os elementos de origem. Embora um documento de InDesign contenha elementos de estilo não estruturados, eles são ignorados para conteúdo estruturado, a menos que o processamento do &#39;***modo híbrido***&#39; esteja habilitado.
+**`elementRule`elemento** O elemento `elementRule` é obrigatório. Estas são as regras de mapeamento para todos os elementos de origem. Embora um documento do InDesign contenha elementos de estilo não estruturados, eles são ignorados para conteúdo estruturado, a menos que o processamento do &#39;***modo híbrido***&#39; esteja habilitado.
 
 Os atributos usados em `elementRule` são explicados abaixo:
 
-- `@elementName`: O nome de um elemento no documento de InDesign de origem.
+- `@elementName`: O nome de um elemento no documento InDesign de origem.
 
 - `@local`: Consulte [\#id194CG0V005Z](#id194CG0V005Z). \(Útil somente para documentos híbridos\).
 
@@ -453,7 +454,7 @@ Execute as seguintes etapas para verificar as referências usando o script de va
 1. Execute o script de validação \[`/bin/fmdita/validatebtree?operation=validate`\] para verificar se há novas referências corrompidas.
 1. Caso o script de validação reporte algum erro, você poderá corrigi-lo usando o script de correção.
 1. Registre os detalhes fornecidos a seguir e, se necessário, compartilhe-os com a equipe de sucesso do cliente:
-1. &#x200B;
+1. 
    - Logs impressos pelo script de validação
 - Pacote de &quot;`/content/fmdita/references`&quot;
 - Quaisquer outros detalhes necessários, dependendo do cenário relatado
@@ -467,7 +468,7 @@ Execute as seguintes etapas para corrigir referências quebradas, usando o scrip
    **Observação:* é recomendável copiar e salvar os logs para fins de referência.
 
 1. Quando o script de patch for executado com sucesso, você poderá fazer as seguintes verificações:
-1. &#x200B;
+1. 
    - Verificar se um novo nó &quot;`references_backup_<timestamp>"`&quot; foi criado em `/content/fmdita`
 - Verifique se as referências foram corrigidas
 

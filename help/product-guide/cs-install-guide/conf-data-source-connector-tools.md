@@ -5,7 +5,8 @@ exl-id: d7cd412b-89ea-43a5-97b3-09944863bbee
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: c790d5edd1ab799564aebfa96f4a41288c977a6c
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 0%
@@ -67,7 +68,7 @@ Para configurar um conector, execute as seguintes etapas:
 
 **Conectar a vários recursos**
 
-Você pode adicionar ou usar vários recursos com base em URLs diferentes para alguns conectores, como Cliente REST genérico, Salsify, Akeneo e placas DevOps (ADO) do Microsoft Azure. Em seguida, conecte-se com eles para criar trechos de conteúdo ou tópicos usando os geradores para eles.
+Você pode adicionar ou usar vários recursos com base em URLs diferentes para alguns conectores, como Cliente REST genérico, Salsify, Akeneo e placas Microsoft Azure DevOps (ADO). Em seguida, conecte-se com eles para criar trechos de conteúdo ou tópicos usando os geradores para eles.
 
 Execute as seguintes etapas para criar um recurso:
 
@@ -85,7 +86,7 @@ Isso ajuda a buscar dados rapidamente de qualquer um dos recursos de uma fonte d
 
 Para publicar uma dependência presente no [repositório central Maven](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides) nos Serviços de nuvem, você precisa incluir e incorporar a dependência de um conector de código aberto.
 
-1. Adicione a dependência em `all/pom.xml` no código do projeto Git do Cloud Manager. Por exemplo, você pode adicionar a seguinte dependência para o conector de fonte de dados das placas DevOps do Microsoft Azure.
+1. Adicione a dependência em `all/pom.xml` no código do projeto Git do Cloud Manager. Por exemplo, você pode adicionar a seguinte dependência para o conector de origem de dados das placas Microsoft Azure DevOps.
 
 
    ```

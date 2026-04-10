@@ -1,40 +1,41 @@
 ---
-title: Criar e personalizar modelos de PDF nativos
-description: Saiba como criar e personalizar modelos de PDF nativo.
+title: Criar e personalizar modelos nativos do PDF
+description: Saiba como criar e personalizar modelos nativos do PDF.
 exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: a6c87e6f9a68962488e70985a0513dcb05eaa9cd
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '1151'
 ht-degree: 0%
 
 ---
 
-# modelo PDF {#PDF-template}
+# Modelo do PDF {#PDF-template}
 
-O uso de um modelo garante a consistência do layout e da estrutura do conteúdo. Como os modelos são predefinidos, você pode evitar retrabalho em problemas de formatação que surgem para cada novo projeto ou atualização. Os modelos permitem criar layouts de página, conteúdo de estilo e aplicar várias configurações para personalizar o PDF.
+O uso de um modelo garante a consistência do layout e da estrutura do conteúdo. Como os modelos são predefinidos, você pode evitar retrabalho em problemas de formatação que surgem para cada novo projeto ou atualização. Os modelos permitem criar layouts de página, estilizar o conteúdo e aplicar várias configurações para personalizar o PDF.
 
-## Modelos de PDF de fábrica e personalizados
+## Modelos de fábrica e personalizados do PDF
 
 Há alguns modelos de fábrica de amostra enviados imediatamente, que os desenvolvedores podem usar como modelos base para criar modelos personalizados de acordo com seus requisitos organizacionais.
 
 
 
-## Criar um novo modelo de PDF {#create-pdf-template}
+## Criar um novo modelo do PDF {#create-pdf-template}
 
-Você pode criar modelos de PDF personalizados com layouts de página específicos e definir a formatação de componentes de layout de página (como índice, glossário) ou componentes DITA (como cabeçalho, parágrafo, lista) usando folhas de estilos.
+Você pode criar modelos personalizados do PDF com layouts de página específicos e definir a formatação de componentes de layout de página (como índice, glossário) ou componentes DITA (como cabeçalho, parágrafo, lista) usando folhas de estilos.
 
-Para criar um novo modelo de PDF, execute as seguintes etapas:
+Para criar um novo modelo do PDF, execute as seguintes etapas:
 
 1. No Editor da Web, vá para a guia **Saída**.
 1. Selecionar **Modelos** <img src="./assets/template.png" alt= "ícone de modelos" width="25"> no painel esquerdo.
 
-   <img src="assets/create-pdf-template.png" alt="Criar modelo de PDF" width="400">
+   <img src="assets/create-pdf-template.png" alt="Criar modelo do PDF" width="400">
 
-1. PDF Na janela **Modelos**, selecione o ícone **+** ao lado de **Modelos** e escolha **Modelo**.
-1. Na caixa de diálogo **Novo Modelo de PDF**, selecione um modelo de fábrica que você deseja usar como base para criar o modelo personalizado. Você também pode usar a caixa de pesquisa para procurar um template.
+1. Na janela **Modelos**, selecione o ícone **+** ao lado de **Modelos** e escolha **Modelo do PDF**.
+1. Na caixa de diálogo **Novo Modelo do PDF**, selecione um modelo de fábrica que você deseja usar como base para criar o modelo personalizado. Você também pode usar a caixa de pesquisa para procurar um template.
 1. Especifique um título para o modelo.
 
    >[!NOTE]
@@ -45,21 +46,21 @@ Para criar um novo modelo de PDF, execute as seguintes etapas:
 
    O novo modelo é criado e adicionado ao painel **Modelos**.
 
-## Duplicação de um modelo de PDF {#duplicate-pdf-template}
+## Duplicação de um template do PDF {#duplicate-pdf-template}
 
 Para criar um novo modelo com os mesmos layouts e formatação de página de um modelo existente, é possível criar uma cópia. Depois que um modelo for duplicado, você poderá personalizar ainda mais seus componentes conforme necessário.
 
-Para duplicar um template de PDF existente, siga as etapas abaixo:
+Para duplicar um template do PDF existente, siga as etapas abaixo:
 
 1. No Editor da Web, vá para a guia **Saída**.
 1. Selecionar **Modelos** <img src="./assets/template.svg" alt= "ícone de modelos" width="25"> no painel esquerdo. Isso abre a janela **Modelos**.
 1. Passe o mouse sobre o modelo que você deseja duplicar, selecione o ícone **...** *Opções* e escolha **Duplicar** no menu de contexto.
 
-   Isso abre a caixa de diálogo **Duplicar Modelo de PDF**.
+   Isso abre a caixa de diálogo **Duplicar Modelo do PDF**.
 
-   <img src="assets/duplicate-template.png" alt="Duplicar modelo de PDF" width="350">
+   <img src="assets/duplicate-template.png" alt="Modelo do PDF duplicado" width="350">
 
-   *Selecione um modelo para duplicar, visualize a miniatura e atualize o título na caixa de diálogo **Duplicar Modelo de PDF**.*
+   *Selecione um modelo a ser duplicado, visualize a miniatura e atualize o título na caixa de diálogo **Duplicar Modelo do PDF**.*
 
 1. Especifique um título para o modelo.
 
@@ -76,7 +77,7 @@ Para duplicar um template de PDF existente, siga as etapas abaixo:
 
 Você também pode executar as seguintes operações nos modelos do menu **Opções**:
 
-<img src="assets/PDF-template-options.png" alt="Duplicar modelo de PDF" width="350">
+<img src="assets/PDF-template-options.png" alt="Modelo do PDF duplicado" width="350">
 
 ### Excluir
 
@@ -91,9 +92,9 @@ Selecione esta opção para exibir e editar as propriedades do modelo. Você pod
 
 Selecione essa opção para exibir o modelo na interface do usuário do Assets. Ao abrir o local raiz do modelo, você pode visualizar todos os recursos do modelo.
 
-Depois de criar o modelo personalizado, você pode escolhê-lo nos Layouts de página na predefinição de saída PDF.
+Depois de criar o modelo personalizado, você pode escolhê-lo nos Layouts de página na predefinição de saída do PDF.
 
-Saiba como [publicar uma saída de PDF](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=pt-BR).
+Saiba como [publicar uma saída do PDF](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=en).
 
 >[!NOTE]
 >
@@ -103,7 +104,7 @@ Com base na sua configuração, o administrador pode configurar os modelos:
 
 +++ Cloud Services
 
-Para obter detalhes sobre como configurar perfis globais e de nível de pasta, consulte a seção [Configurar modelos](../cs-install-guide/conf-folder-level.md#id1889D0IL0Y4) no guia de instalação e configuração para o Cloud Service.
+Para obter detalhes sobre como configurar perfis globais e de nível de pasta, consulte a seção [Configurar modelos](../cs-install-guide/conf-folder-level.md#id1889D0IL0Y4) no guia de instalação e configuração do Cloud Services.
 
 +++
 
@@ -113,11 +114,11 @@ Para obter detalhes sobre como configurar perfis globais e de nível de pasta, c
 
 +++
 
-## Personalizar um modelo de PDF {#customize-pdf-template}
+## Personalizar um modelo do PDF {#customize-pdf-template}
 
 É possível personalizar modelos ajustando os componentes do modelo e aplicando formatos de estilo usando folhas de estilos.
 
-Para personalizar um modelo de PDF, execute as seguintes etapas:
+Para personalizar um modelo do PDF, execute as seguintes etapas:
 
 1. No Editor da Web, vá para a guia **Saída**.
 1. Expanda a barra lateral esquerda e selecione **Modelos**.
@@ -141,20 +142,20 @@ Para personalizar um modelo de PDF, execute as seguintes etapas:
 
    Os vários componentes do modelo que você pode personalizar são categorizados nas seguintes seções:
 
-   * Layouts de página: um PDF típico contém páginas diferentes, como uma capa ou página de título, índice, capítulo, índice, citações e muito mais. A seção Layouts de página permite que você crie a aparência de páginas diferentes que formariam seu PDF. Para obter mais detalhes, consulte [Layouts de página](../native-pdf/components-pdf-template.md#page-layouts).
+   * Layouts de página: um PDF comum contém páginas diferentes, como uma capa ou uma página de título, índice, capítulo, índice, citações e muito mais. A seção Layouts de página permite que você crie a aparência de páginas diferentes que formariam sua PDF. Para obter mais detalhes, consulte [Layouts de página](../native-pdf/components-pdf-template.md#page-layouts).
 
      Além da aparência, também é possível definir a organização dos elementos da página, como o cabeçalho, o rodapé e as áreas de conteúdo em uma página. Para saber mais sobre como personalizar o layout de uma página, consulte [Criar e personalizar layouts de página](components-pdf-template.md#create-customize-page-layout).
 
    * Folhas de estilos: as configurações na seção Folhas de estilos permitem personalizar a aparência dos componentes de layout da página, como índice, glossário, citações e muito mais. Além disso, também é possível personalizar os estilos do conteúdo DITA, como cabeçalhos, parágrafos, listas e muito mais. Para saber mais sobre como usar as folhas de estilos, consulte [Usar folhas de estilos para personalizar o PDF](components-pdf-template.md#stylesheet-customization).
-   * Recursos: armazene arquivos de ativos que você precisaria personalizar ou criar modelos de PDF. Assets como logotipos, fontes personalizadas, imagens de fundo e muito mais são armazenados em Recursos.
-Você também pode usar os recursos presentes em qualquer outro local no repositório. Não é necessário criar recursos duplicados para cada modelo, e você pode mantê-los em uma pasta compartilhada e usá-los em todos os modelos de PDF nativo.
+   * Recursos: armazene arquivos de ativos que você precisaria personalizar ou criar modelos do PDF. Assets como logotipos, fontes personalizadas, imagens de fundo e muito mais são armazenados em Recursos.
+Você também pode usar os recursos presentes em qualquer outro local no repositório. Não é necessário criar recursos duplicados para cada modelo, e você pode mantê-los em uma pasta compartilhada e usá-los em todos os modelos nativos do PDF.
 
      Para saber mais sobre a utilização de recursos, consulte [Trabalhar com recursos](components-pdf-template.md#work-with-resources).
 
-   * Configurações: defina as configurações de saída para gerar um PDF usando o modelo. Esta seção permite definir o mapeamento de modelo para várias páginas em um PDF, página inicial de capítulo, marcadores de impressão, citações e muito mais.
+   * Configurações: defina as configurações de saída para gerar uma PDF usando o modelo. Esta seção permite definir o mapeamento de modelo para várias páginas em uma PDF, página inicial do capítulo, marcadores de impressão, citações e muito mais.
 
    Você também pode organizar a ordem em que eles devem aparecer na saída final do PDF.
-Para obter mais informações sobre como aplicar configurações, consulte [Configurações avançadas do PDF](components-pdf-template.md#advanced-pdf-settings).
+Para obter mais informações sobre como aplicar configurações, consulte [Configurações Avançadas do PDF](components-pdf-template.md#advanced-pdf-settings).
 
 
 1. Para personalizar um componente de modelo, clique duas vezes em um componente de modelo ou selecione o ícone > antes dele.

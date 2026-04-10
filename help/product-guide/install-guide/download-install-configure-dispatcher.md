@@ -1,28 +1,29 @@
 ---
-title: Configurar Dispatcher
+title: Configurar o Dispatcher
 description: Saiba como configurar o Dispatcher
 exl-id: 525de1c3-5a79-4d65-89b4-ca05ae660c2c
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '302'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
-# Configurar Dispatcher {#id213BCM0M05U}
+# Configurar o Dispatcher {#id213BCM0M05U}
 
-Se você planeja usar uma instância do autor do Dispatcher no AEM junto com o AEM Guides, é necessário executar as seguintes configurações adicionais para concluir a configuração:
+Se você planeja usar uma instância do Dispatcher no AEM Author junto com o AEM Guides, será necessário executar as seguintes configurações adicionais para concluir a configuração:
 
 >[!NOTE]
 >
-> O Dispatcher é a ferramenta de balanceamento de carga e/ou cache do Adobe Experience Manager. Para obter mais detalhes sobre como usar o Dispatcher, consulte [Visão geral do Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=pt-BR).
+> O Dispatcher é a ferramenta de balanceamento de carga e/ou cache do Adobe Experience Manager. Para obter mais detalhes sobre como usar o Dispatcher, consulte [Visão geral do Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=en).
 
 ## Ativar AllowEncodedSlashes em URLs
 
-Os URLs com barras codificadas não são ativados por padrão na configuração do Dispatcher do AEM, mas, ao trabalhar no AEM Guides, é necessário ativar isso. Para fazer isso, você precisa definir o parâmetro AllowEncodedSlashes como On na configuração do Apache, conforme mostrado no seguinte snippet:
+Os URLs com barras codificadas não são ativados por padrão na configuração do AEM Dispatcher, mas, ao trabalhar no AEM Guides, é necessário ativar isso. Para fazer isso, você precisa definir o parâmetro AllowEncodedSlashes como On na configuração do Apache, conforme mostrado no seguinte snippet:
 
 ```XML
 <VirtualHost *:80>
@@ -81,4 +82,4 @@ Ao usar uma Dispatcher com o AEM Guides, se a instância do Autor tiver um dispa
                 }
 ```
 
-**Tópico pai:**&#x200B;[&#x200B; Baixar e instalar](download-install.md)
+**Tópico pai:**[ Baixar e instalar](download-install.md)

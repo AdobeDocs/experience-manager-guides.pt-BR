@@ -1,22 +1,22 @@
 ---
-title: PDF nativo | Configurar sinalizadores JVM para publicação de PDF nativo
-description: Configurar sinalizadores JVM para publicação de PDF nativo
-exl-id: d5432913-4b5a-48e7-9467-7f6c6e0adbe4
+title: PDF nativo | Configurar sinalizadores JVM para publicação PDF nativa
+description: Configurar sinalizadores JVM para publicação nativa no PDF
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '127'
 ht-degree: 1%
 
 ---
 
-# Configurar sinalizadores JVM para publicação de PDF nativo
+# Configurar sinalizadores JVM para publicação nativa do PDF no local
 
-A publicação de PDF nativo inicia um processo JVM separado para gerar um PDF. Talvez seja necessário ajustar as configurações dessa JVM para suportar diferentes cenários. Por exemplo, para executar cargas de trabalho maiores, você deve aumentar o tamanho máximo do heap disponível para o processo JVM gerado.
+A publicação nativa do PDF inicia um processo JVM separado para gerar um PDF. Talvez seja necessário ajustar as configurações dessa JVM para suportar diferentes cenários. Por exemplo, para executar cargas de trabalho maiores, você deve aumentar o tamanho máximo do heap disponível para o processo JVM gerado.
 
-Execute as seguintes etapas para configurar os sinalizadores JVM de publicação do PDF nativo do AEM Guides:
+Execute as seguintes etapas para configurar os sinalizadores JVM de publicação PDF nativo do AEM Guides:
 
 1. Abra a página Configuração do console da Web do Adobe Experience Manager.
 

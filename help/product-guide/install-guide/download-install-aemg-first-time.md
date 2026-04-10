@@ -5,7 +5,8 @@ exl-id: 830a4381-303c-419c-b87f-9563352a7eeb
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-source-git-commit: dbcc625220c9ad1fa60942b2f43c38d3d6778541
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 0%
@@ -20,7 +21,7 @@ Execute as seguintes etapas para baixar e instalar o AEM Guides pela primeira ve
 >
 > Se você quiser usar o Livefyre juntamente com o AEM Guides, instale as versões do Livefyre anteriores à 3.0 antes de instalar o AEM Guides. Se você estiver usando o Livefyre versão 3.0 ou superior, essa restrição não existe.
 
-1. Baixe o AEM Guides do [Portal de Distribuição de Software do Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html).
+1. Baixe o AEM Guides do [Portal de Distribuição de Software da Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html).
 
    >[!NOTE]
    >
@@ -32,7 +33,7 @@ Execute as seguintes etapas para baixar e instalar o AEM Guides pela primeira ve
    http://<server name>:<port>/crx/packmgr/index.jsp
    ```
 
-   O Gerenciador de pacotes gerencia os pacotes na sua instalação local do AEM. Para obter mais informações sobre como trabalhar com o Gerenciador de Pacotes, consulte [Como trabalhar com pacotes](https://helpx.adobe.com/br/experience-manager/6-5/sites/administering/using/package-manager.html) na documentação do AEM.
+   O Gerenciador de pacotes gerencia os pacotes na instalação local do AEM. Para obter mais informações sobre como trabalhar com o Gerenciador de Pacotes, consulte [Como trabalhar com pacotes](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html) na documentação do AEM.
 
    ![](assets/package-manager.png){width="650" align="left"}
 
@@ -40,7 +41,7 @@ Execute as seguintes etapas para baixar e instalar o AEM Guides pela primeira ve
 
 1. Na caixa de diálogo Carregar pacote, navegue até o arquivo AEM Guides que você baixou na Etapa 1 e clique em **OK**.
 
-   O pacote é carregado para a instância do AEM.
+   O pacote é carregado na instância do AEM.
 
 1. Para instalar o pacote, clique em **Instalar**.
 
@@ -53,6 +54,6 @@ Execute as seguintes etapas para baixar e instalar o AEM Guides pela primeira ve
 
 >[!NOTE]
 >
-> Execute o procedimento de instalação em todas as instâncias de servidores AEM em sua configuração.
+> Execute o procedimento de instalação em todas as instâncias dos servidores AEM na sua configuração.
 
-**Tópico pai:**&#x200B;[&#x200B; Baixar e instalar](download-install.md)
+**Tópico pai:**[ Baixar e instalar](download-install.md)

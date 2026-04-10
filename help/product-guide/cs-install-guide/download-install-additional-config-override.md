@@ -5,7 +5,8 @@ exl-id: dc5f81f7-5b0a-4d12-a944-ba66b0239d5c
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: e4b213b5f0efda18fb24f100f3ee8237947890bf
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%
@@ -65,4 +66,4 @@ Execute as seguintes etapas para configurar a interface do usuário do Experienc
 
 
 
-**Tópico pai:**&#x200B;[&#x200B; Baixar e instalar](download-install.md)
+**Tópico pai:**[ Baixar e instalar](download-install.md)

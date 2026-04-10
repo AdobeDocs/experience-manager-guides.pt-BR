@@ -5,7 +5,8 @@ exl-id: 365264ab-f990-42c1-ab79-61a40ecea42f
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 126cecdaa481b9da1add4ba3664c26c2bc5da068
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
@@ -33,4 +34,4 @@ Use as instruções fornecidas em [Substituições de configuração](download-i
 >
 > Por padrão, quando um autor cria um arquivo de mapa e opta por abri-lo para edição, o Editor de mapa básico é iniciado. Quando a opção Editar é selecionada para um arquivo de mapa na interface do usuário do Assets, ela também é aberta no Editor de mapa básico.
 
-**Tópico pai:**&#x200B;[&#x200B; Personalizar editor da Web](conf-web-editor.md)
+**Tópico pai:**[ Personalizar editor da Web](conf-web-editor.md)

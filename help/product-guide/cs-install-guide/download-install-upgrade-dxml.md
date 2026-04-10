@@ -5,7 +5,8 @@ exl-id: 57ae906f-69e3-4319-89f6-0fa9ddb7a3ff
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 0%
@@ -25,10 +26,10 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> Para obter mais detalhes sobre como usar o pipeline de CI/CD, consulte [Usar o pipeline de CI/CD no Adobe Cloud Manager](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/cloud-manager/use-the-cicd-pipeline-in-cloud-manager-for-aem.html?lang=pt-BR).
+> Para obter mais detalhes sobre como usar o pipeline de CI/CD, consulte [Usar o pipeline de CI/CD no Adobe Cloud Manager](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/cloud-manager/use-the-cicd-pipeline-in-cloud-manager-for-aem.html).
 
 ## Limpar cache do navegador
 
 Após concluir o processo de atualização, todos os usuários devem limpar o cache do navegador antes de usar a versão atualizada do AEM Guides.
 
-**Tópico pai:**&#x200B;[&#x200B; Baixar e instalar](download-install.md)
+**Tópico pai:**[ Baixar e instalar](download-install.md)

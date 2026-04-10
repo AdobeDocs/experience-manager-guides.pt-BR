@@ -5,7 +5,8 @@ exl-id: 2a0ac0a0-b2a9-453e-851b-fb04c8903526
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 1eb4fcb33d6f905df3f543232e7040d1da42560b
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 0%
@@ -38,7 +39,7 @@ Para configurar um conector, execute as seguintes etapas:
 
    >[!TIP]
    >* Focalizar <img src="./assets/info-details.svg" alt= "ícone de informações" width="25"> próximo ao campo para ver mais detalhes sobre ele.
-   > * Os campos com * são obrigatórios. Por exemplo, você pode inserir os seguintes detalhes para o conector Elasticsearch.
+   > * Os campos com * são obrigatórios. Por exemplo, você pode inserir os detalhes a seguir para o conector do Elasticsearch.
 
    * **Nome**: insira o nome da fonte de dados.
    * Tipo de autenticação: selecione o tipo de autenticação no menu suspenso. Por exemplo, Autenticação básica de nome de usuário e senha

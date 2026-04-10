@@ -1,11 +1,12 @@
 ---
-title: Recurso nativo do PDF Publish | Usar o JavaScript para trabalhar com conteúdo ou estilo
+title: Recurso de publicação nativo do PDF | Use o JavaScript para trabalhar com conteúdo ou estilo
 description: Saiba como criar folhas de estilos de uso e criar estilos para o seu conteúdo.
 exl-id: 2f301f6a-0d1c-4194-84c2-0fddaef8d3ec
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: ad12cac61d14bc68bf73dc407a74a22c8248d7b3
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 0%
@@ -14,11 +15,11 @@ ht-degree: 0%
 
 # Usar o JavaScript para trabalhar com conteúdo ou estilo
 
-O recurso Publicação de PDF nativo permite executar o JavaScript para manipular o conteúdo ou estilo aplicado no conteúdo antes que o PDF final seja gerado. Esse recurso oferece controle total sobre como a saída final é gerada. Por exemplo, você pode adicionar informações de avisos legais à saída PDF, que reside em outro PDF. Com o JavaScript, você pode adicionar as informações de avisos legais depois que o PDF for criado para o conteúdo base, mas antes que o PDF final seja gerado.\
-Para oferecer suporte à execução do JavaScript, o recurso Publicação de PDF nativo fornece as seguintes funções de retorno de chamada:
+O recurso Publicação nativa no PDF permite executar o JavaScript para manipular o conteúdo ou estilo aplicado no conteúdo antes que o PDF final seja gerado. Esse recurso oferece controle total sobre como a saída final é gerada. Por exemplo, você pode adicionar informações de avisos legais à saída do PDF, que reside em outra PDF. Usando o JavaScript, você pode adicionar as informações de avisos legais depois que o PDF for criado para o conteúdo base, mas antes que o PDF final seja gerado.\
+Para oferecer suporte à execução do JavaScript, o recurso Publicação nativa do PDF fornece as seguintes funções de retorno de chamada:
 
 * `window.pdfLayout.onBeforeCreateTOC(callback)`: Essa função de retorno de chamada é executada antes que o sumário seja gerado.
-* `window.pdfLayout.onBeforePagination(callback)`: essa função de retorno de chamada é executada após a geração do sumário, mas antes de as quebras de página serem adicionadas no PDF.
+* `window.pdfLayout.onBeforePagination(callback)`: essa função de retorno de chamada é executada após a geração do índice, mas antes da adição de quebras de página no PDF.
 * `window.pdfLayout.onAfterPagination(callback)`: essa função de retorno de chamada é executada após o sumário e as quebras de página serem adicionadas no PDF.
 
 >[!NOTE]
@@ -65,7 +66,7 @@ window.addEventListener('DOMContentLoaded', function () {
 >
 >A função `window.addEventListener('DOMContentLoaded', function ()` deve ser chamada antes de as funções de retorno de chamada serem usadas.
 
-Em seguida, esse script deve ser chamado de um arquivo de modelo usado para gerar a saída de PDF. Para nosso exemplo, vamos adicioná-lo no modelo de índice. Verifique se a marca `<script>` foi adicionada em uma marca `<div>` predefinida dentro da marca `<body>`. Se você adicioná-lo na tag `<head>` ou fora da tag `<body>`, o script não será executado.
+Em seguida, esse script deve ser chamado de um arquivo de modelo usado para gerar a saída do PDF. Para nosso exemplo, vamos adicioná-lo no modelo de índice. Verifique se a marca `<script>` foi adicionada em uma marca `<div>` predefinida dentro da marca `<body>`. Se você adicioná-lo na tag `<head>` ou fora da tag `<body>`, o script não será executado.
 
 <img src="./assets/js-added-resources-template.png" width="500">
 
@@ -76,7 +77,7 @@ A saída gerada usando esse código e o modelo exibem o título da figura abaixo
 ## Adicionar uma marca d&#39;água à saída do PDF para documentos de rascunho {#watermark-draft-document}
 
 Também é possível usar o JavaScript para adicionar marcas d&#39;água condicionais. Essas marcas d&#39;água são adicionadas ao documento quando a condição definida é atendida.\
-Por exemplo, você pode criar um arquivo JavaScript com o seguinte código para criar uma marca d&#39;água na saída PDF do documento que ainda não foi aprovado. Essa marca d&#39;água não aparecerá se você gerar o PDF para o documento no estado de documento ‘Aprovado’.
+Por exemplo, você pode criar um arquivo JavaScript com o seguinte código para criar uma marca d&#39;água na saída PDF do documento que ainda não foi aprovado. Essa marca d&#39;água não aparecerá se você gerar a PDF para o documento no estado de documento &quot;Aprovado&quot;.
 
 ```css
 ...
@@ -101,6 +102,6 @@ window.addEventListener('DOMContentLoaded', function () {
 ...
 ```
 
-A saída de PDF gerada com esse código exibe uma marca d&#39;água *Rascunho* na página de capa do seu documento:
+A saída do PDF gerada com este código exibe uma marca d&#39;água *Rascunho* na página de capa do seu documento:
 
 <img src="./assets/draft-watermark.png" width="500">

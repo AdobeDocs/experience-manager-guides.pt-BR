@@ -5,7 +5,8 @@ exl-id: 8e0afe18-5675-4c7e-b216-6de1a752bd01
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 0%
@@ -28,11 +29,11 @@ Depois de instalar o AEM Guides, você precisa verificar se a instalação foi b
 
    A lista de pacotes é filtrada para mostrar os pacotes instalados pelo AEM Guides. Se a instalação for bem-sucedida, todos os conjuntos instalados terão um **Status** de **Ativo**.
 
-   Se algum dos pacotes não tiver o status **Ativo**, verifique os logs de AEM para solucionar o problema de instalação.
+   Se algum dos pacotes não tiver o status **Ativo**, verifique os logs do AEM para solucionar o problema de instalação.
 
 
 >[!IMPORTANT]
 >
-> Há várias recomendações de otimização de desempenho que você pode considerar para melhorar o desempenho do seu sistema. Consulte [Recommendations para otimização de desempenho](download-install-recommend-perf-optimiz.md#) para obter detalhes.
+> Há várias recomendações de otimização de desempenho que você pode considerar para melhorar o desempenho do seu sistema. Consulte [Recomendações para otimização de desempenho](download-install-recommend-perf-optimiz.md#) para obter detalhes.
 
-**Tópico pai:**&#x200B;[&#x200B; Baixar e instalar](download-install.md)
+**Tópico pai:**[ Baixar e instalar](download-install.md)

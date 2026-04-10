@@ -5,7 +5,8 @@ exl-id: 24e44618-9c4e-4547-a00d-216ef3fb4854
 feature: Version Management
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '1662'
 ht-degree: 0%
@@ -152,7 +153,7 @@ Além da nova propriedade de índice, verifique se as seguintes propriedades est
 
 ## Impedir exclusão de arquivos referenciados
 
-Como administrador, você pode controlar quem pode excluir arquivos do repositório AEM. Especificamente, se um arquivo contiver referências ou for referenciado por algum outro arquivo, você poderá definir quem poderá excluir esses arquivos.
+Como administrador, você pode controlar quem pode excluir arquivos do repositório do AEM. Especificamente, se um arquivo contiver referências ou for referenciado por algum outro arquivo, você poderá definir quem poderá excluir esses arquivos.
 
 Usando essa configuração, você pode permitir ou impedir que todos os usuários excluam arquivos, ou permitir que apenas um grupo de usuários específico exclua arquivos. Se a exclusão de arquivos for permitida, o seguinte processo será seguido:
 
@@ -212,7 +213,7 @@ Execute as seguintes etapas para expurgar as versões mais antigas:
 
    ![](assets/preview-purge-report.png){width="350" align="left"}
 
-1. &#x200B;
+1. 
    - **Número de Versões a Reter da Versão Mais Recente**: insira o número de versões que devem ser retidas e não removidas. Por exemplo, se informarmos 5, as últimas 5 versões serão retidas e as versões anteriores serão qualificadas para expurgação caso outras condições de expurgação sejam atendidas.
 - **Reter versões criadas dentro do período \(Em dias\)**: insira a idade máxima de uma versão em dias. As versões anteriores ao número de dias especificado são qualificadas para expurgação caso outras condições de expurgação sejam atendidas. Por exemplo, se informarmos 100, todas as versões criadas antes de 100 dias serão qualificadas para expurgação caso outras condições de expurgação sejam atendidas.
 - **Caminho**: selecione o caminho do arquivo ou pasta cujos arquivos você deseja limpar.

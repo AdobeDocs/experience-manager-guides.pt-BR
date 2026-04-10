@@ -1,11 +1,12 @@
 ---
-title: Recurso nativo do PDF Publish | Usar estilos personalizados em notas de rodapé
+title: Recurso de publicação nativo do PDF | Usar estilos personalizados em notas de rodapé
 description: Saiba como aplicar estilo aos números em notas de rodapé.
 exl-id: f1068f2f-2ace-4bdb-b5a4-46b03d4e43d6
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '667'
 ht-degree: 0%
@@ -24,7 +25,7 @@ Cada nota de rodapé tem um marcador na parte inferior da página, que geralment
 
 ## Alterar os estilos de chamadas e marcadores de notas de rodapé
 
-É possível alterar os estilos das chamadas e dos marcadores de notas de rodapé e gerenciar sua aparência na saída de PDF. Esses estilos ajudam a identificar rapidamente as notas de rodapé no documento.
+É possível alterar os estilos das chamadas e dos marcadores de notas de rodapé e gerenciar sua aparência na saída do PDF. Esses estilos ajudam a identificar rapidamente as notas de rodapé no documento.
 
 
 **Exemplo 1**:
@@ -80,7 +81,7 @@ A chamada de nota de rodapé está oculta no conteúdo principal, mas o marcador
 
 ```css
 .fn[id]::footnote-call {
-		display: none;
+        display: none;
                         }
 ```
 
@@ -91,22 +92,22 @@ A área da nota de rodapé é onde todas as notas de rodapé são colocadas, ger
 
 ### Layouts de página
 
-É possível usar as propriedades de página dos layouts de página para estilizar a área da nota de rodapé nas diferentes seções de um documento PDF. Por exemplo, você pode especificar as margens e as propriedades de preenchimento da área da nota de rodapé em um capítulo. Também é possível alterar o lado da borda, o estilo, a cor, a largura e o raio.
+É possível usar as propriedades de página para layouts de página para estilizar a área da nota de rodapé nas diferentes seções em um documento do PDF. Por exemplo, você pode especificar as margens e as propriedades de preenchimento da área da nota de rodapé em um capítulo. Também é possível alterar o lado da borda, o estilo, a cor, a largura e o raio.
 
 Saiba como [trabalhar com as propriedades de página de um layout de página](./design-page-layout.md#page-props-page-layout).
 
 ### Estilos CSS
 
-É possível aplicar estilos e formatar a área da nota de rodapé em um documento PDF. Por exemplo, é possível alterar o comprimento, o estilo, a cor e a largura da borda.
+É possível aplicar estilos e formatar a área da nota de rodapé em um documento do PDF. Por exemplo, é possível alterar o comprimento, o estilo, a cor e a largura da borda.
 
 ```css
-	@page {
-	  @footnote {
-   		border-top-style: solid;
-   		border-top-color: #FF0000;
-   		border-top-width: 3px;
- 		        }
-	      }
+   @page {
+     @footnote {
+           border-top-style: solid;
+           border-top-color: #FF0000;
+           border-top-width: 3px;
+                 }
+         }
 ```
 
 ## Reiniciar a numeração das notas de rodapé
@@ -116,11 +117,11 @@ Por padrão, as notas de rodapé são numeradas continuamente em um documento. N
 
 ### Layouts de página
 
-Você pode especificar um número nos layouts de página para reiniciar a numeração de notas de rodapé nas diferentes seções de um documento PDF. Por exemplo, selecione um número no campo **Reiniciar numeração de** do painel Propriedades da página para reiniciar a numeração de notas de rodapé para cada capítulo.
+Você pode especificar um número nos layouts de página para reiniciar a numeração de notas de rodapé nas diferentes seções em um documento do PDF. Por exemplo, selecione um número no campo **Reiniciar numeração de** do painel Propriedades da página para reiniciar a numeração de notas de rodapé para cada capítulo.
 
 ### Estilos CSS
 
-Use o estilo a seguir para redefinir a numeração de notas de rodapé em cada página da saída de PDF:
+Use o estilo a seguir para redefinir a numeração de nota de rodapé em cada página da saída do PDF:
 
 ```css
 @page
@@ -137,15 +138,15 @@ Normalmente, cada nota de rodapé aparece como um bloco ou começa em uma nova l
 
 ```css
 .fn{
-  	display: inline;
+      display: inline;
               }
 ```
 
 ## Aplicar estilos a referências cruzadas de notas de rodapé
 
-Também é possível fazer referência cruzada de uma nota de rodapé e fazer referência à mesma nota de rodapé várias vezes na saída em PDF. Isso ajuda a fazer referência à mesma citação ou nota detalhada várias vezes no documento, sem criar uma nota de rodapé para ela novamente.
+Também é possível fazer referência cruzada de uma nota de rodapé e fazer referência à mesma nota de rodapé várias vezes na saída do PDF. Isso ajuda a fazer referência à mesma citação ou nota detalhada várias vezes no documento, sem criar uma nota de rodapé para ela novamente.
 
-Por exemplo, a captura de tela a seguir mostra como a mesma nota de rodapé é referenciada para todas as cidades na saída do PDF.
+Por exemplo, a captura de tela a seguir mostra como a mesma nota de rodapé é referenciada entre cidades na saída do PDF.
 <img width="550" alt="referências de notas de rodapé em um pdf" src="./assets/link-footnotes.png" border="2px">
 
 *Insira a referência cruzada para uma nota de rodapé.*
@@ -158,8 +159,8 @@ Usando estilos CSS, você também pode formatar as referências cruzadas para no
 
 ```css
     .xref-fn{
-	background-color: red;
-	}
+    background-color: red;
+    }
 ```
 
 

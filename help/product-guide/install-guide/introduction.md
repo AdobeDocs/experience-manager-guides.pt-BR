@@ -5,7 +5,8 @@ exl-id: 90d5ad94-eb68-4d73-9b23-a1f3d4b802ba
 feature: Introduction
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 # Sobre este guia {#id175MC0P0S5Z}
 
-O Adobe Experience Manager Guides \(mais tarde conhecido como *AEM Guides*\) é uma poderosa solução de gerenciamento de conteúdo de componentes corporativos \(CCMS\). Ela permite o suporte ao DITA nativo no Adobe Experience Manager, permitindo que o AEM lide forma a lidar com a criação e a entrega de conteúdo baseado em DITA. Ele permite que os autores criem conteúdo usando qualquer ferramenta de criação DITA offline, como o Adobe FrameMaker ou um Editor da Web integrado e fácil de usar.
+O Adobe Experience Manager Guides \(mais tarde conhecido como *AEM Guides*\) é uma poderosa solução de gerenciamento de conteúdo de componentes corporativos \(CCMS\). Ela permite o suporte ao DITA nativo no Adobe Experience Manager, permitindo que o AEM lide com a criação e a entrega de conteúdo baseado em DITA. Ele permite que os autores criem conteúdo usando qualquer ferramenta de criação DITA offline, como o Adobe FrameMaker ou um Editor da Web integrado e fácil de usar.
 
 Este guia fornece instruções para baixar, instalar e configurar o AEM Guides. Neste guia, você encontrará instruções detalhadas para configurar o AEM Guides de acordo com suas necessidades organizacionais de criação e publicação.
 
@@ -39,11 +40,11 @@ As informações neste guia estão organizadas da seguinte maneira:
 
 - [Configurar estados do documento](customize-doc-state.md#): este tópico explica como configurar estados personalizados para seus documentos DITA.
 
-- [Migrar conteúdo existente](migrate-content.md#): este tópico descreve como integrar o conteúdo existente no repositório AEM.
+- [Migrar conteúdo existente](migrate-content.md#): este tópico descreve como integrar o conteúdo existente no repositório do AEM.
 
 - [Configurar nomes de arquivo](conf-file-names.md#): este tópico explica como definir configurações para atribuir nomes de arquivo automaticamente e definir regex para caracteres de nomes de arquivo válidos.
 
-- [Configurar tópico e modelos de mapa](conf-template-tags.md#): este tópico descreve como configurar tópicos e modelos de mapa para atender às suas necessidades de criação. Saiba mais sobre como marcar o sistema no AEM e como configurar tags para funcionar com o AEM Guides.
+- [Configurar tópico e modelos de mapa](conf-template-tags.md#): este tópico descreve como configurar tópicos e modelos de mapa para atender às suas necessidades de criação. Saiba mais sobre o sistema de marcação na AEM e como configurar tags para funcionar com a AEM Guides.
 
 - [Personalizar Editor da Web](conf-web-editor.md#): este tópico explica as várias personalizações que você pode fazer no Editor da Web para aprimorar sua funcionalidade.
 
@@ -68,9 +69,9 @@ As informações neste guia estão organizadas da seguinte maneira:
 
 ## Recursos adicionais
 
-Veja a seguir uma lista de outros recursos úteis do AEM Guides, que estão disponíveis na página [Aprendizagem e Suporte](https://helpx.adobe.com/br/support/xml-documentation-for-experience-manager.html):
+Veja a seguir uma lista de outros recursos úteis do AEM Guides, que estão disponíveis na página [Aprendizagem e Suporte](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html):
 
 - Guia do usuário
 - Guia de referência de API
 - Guia de início rápido
-- [Página de Arquivamento da Ajuda](https://helpx.adobe.com/br/xml-documentation-for-experience-manager/archive.html) \(acesse a documentação de versão mais antiga\)
+- [Página de Arquivamento da Ajuda](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \(acesse a documentação de versão mais antiga\)

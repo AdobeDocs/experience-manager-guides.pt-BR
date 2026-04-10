@@ -5,7 +5,8 @@ exl-id: a0eeb43c-06e4-4922-a005-704e8929063f
 feature: Template Configuration
 role: Admin
 level: Experienced
-source-git-commit: 83971ee35a19cf0146ddd034b1ae7a345f587663
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 1%
@@ -49,7 +50,7 @@ Execute as seguintes etapas para adicionar seus modelos de mapa personalizados:
    Você pode optar por abrir o modelo para edição no Editor de mapa ou salvar o arquivo de modelo no local de armazenamento do modelo. Depois que o modelo é criado, você pode usar o Editor de mapa para personalizar o modelo de acordo com suas necessidades de criação. Depois que um modelo estiver em vigor, certifique-se de associá-lo a um perfil global ou de nível de pasta.
 
 
-Na próxima vez que você criar um novo mapa, seu modelo será exibido na página Blueprint. Para obter mais informações sobre como criar um mapa DITA, consulte Uso do guia as a Cloud Service do Adobe Experience Manager Guides.
+Na próxima vez que você criar um novo mapa, seu modelo será exibido na página Blueprint. Para obter mais informações sobre como criar um mapa DITA, consulte o guia Uso do Adobe Experience Manager Guides as a Cloud Service.
 
 >[!TIP]
 >

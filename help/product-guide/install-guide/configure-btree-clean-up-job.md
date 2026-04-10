@@ -4,7 +4,9 @@ description: Configurar o trabalho de limpeza da árvore B para serviços no loc
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: e1b332b100cc8e3937557e4617d66352c1a0dc3c
+exl-id: ff6f968c-3440-4757-882a-676711ad05c3
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 2%
@@ -56,4 +58,3 @@ Execute as seguintes etapas para ativar a configuração:
    ![](assets/btree-cleanup-setting.png){align="left"}
 
 1. Selecione **Salvar**.
-

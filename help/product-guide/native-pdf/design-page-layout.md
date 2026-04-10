@@ -5,9 +5,10 @@ exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: e8aecbdca448c321ac36804255416a4fb2561f79
+hidefromtoc: true
+source-git-commit: 34687ac8f8877d05e545b23cf0830aa0345a25f7
 workflow-type: tm+mt
-source-wordcount: '5017'
+source-wordcount: '5016'
 ht-degree: 0%
 
 ---
@@ -100,7 +101,7 @@ Ao projetar um layout de página, é essencial ter controle sobre várias propri
 
 * **Rotação de Exibição**: especifique o lado ou a direção na qual o lado superior original é representado após a rotação. Você pode escolher entre 90 e 90 graus no sentido horário ou 180 graus no sentido anti-horário. Isso é muito útil em uma situação em que você deseja usar uma combinação de layouts Retrato e Paisagem na saída. Por exemplo, você pode usar retrato como o layout de página genérico e pode definir um layout de página paisagem para renderizar tabelas largas. Nessa situação, você pode definir a exibição do conteúdo da tabela no sentido horário em 90 graus. Dessa forma, a página será orientada em paisagem e o conteúdo será girado 90 graus para manter a continuidade da exibição. Veremos como isso é feito, como exemplo, posteriormente nesta seção.
 
-* **Numeração de páginas**: a numeração de páginas, por padrão, é contínua em uma PDF. Por exemplo, uma PDF de 100 páginas pode ter números de página contínuos de 1 a 100. Você também pode reiniciar a numeração a partir de um número específico em todas as diferentes seções ou na primeira ocorrência de uma seção.
+* **Numeração de páginas** A numeração de páginas :The, por padrão, é contínua em uma PDF. Por exemplo, uma PDF de 100 páginas pode ter números de página contínuos de 1 a 100. Você também pode reiniciar a numeração a partir de um número específico em todas as diferentes seções ou na primeira ocorrência de uma seção.
    * **Reiniciar de**: especifique o número da página onde a numeração deste layout de página será iniciada. Por exemplo, você pode definir o número de página a ser reiniciado para cada capítulo. Nesse caso, você precisa definir a propriedade restart from como 1 na variante de layout First page do layout da página do capítulo. Por padrão, a numeração de páginas continua a partir da página anterior.
 
    * **Aplicar somente à primeira ocorrência**: também é possível iniciar com um número específico somente para a primeira ocorrência de uma seção. Por exemplo, você pode iniciar somente o primeiro capítulo de 1 e continuar os números de página de outros capítulos.
@@ -165,7 +166,6 @@ Execute as seguintes etapas para realizar as tarefas acima:
 1. Altere a propriedade Rotação de exibição para renderizar o conteúdo em 90° no sentido horário.
 
    1. Selecione **90°** no sentido horário na lista suspensa Exibir Rotação.
-
    <img src="./assets/view-rotation-page-props.png" width="300">
 
    1. Clique em **Salvar tudo** para salvar as propriedades atualizadas do layout da página.
@@ -180,11 +180,9 @@ Execute as seguintes etapas para realizar as tarefas acima:
       A folha de estilos de layout é aberta para edição.
 
    1. Clique com o botão direito do mouse em **Outros Estilos** e escolha **Novo Estilo**.
-
       <img src="./assets/stylesheet-other-new-style.png" width="300">
 
    1. No pop-up Adicionar estilo, digite **scape-style** em **classname**.
-
       <img src="./assets/stylesheet-new-landscape-style.png" width="400">
 
    1. Clique em **Concluído**.
@@ -440,7 +438,6 @@ No exemplo a seguir, inseriremos um número de página e um título de capítulo
    1. No painel direito, clique em **Propriedades do conteúdo** (<img src="./assets/content-properties-icon.png" width="25">) ícone.
 
    1. Expanda a seção de propriedades **Layout** e defina o valor da propriedade **Float** como **right**.
-
       <img src="./assets/float-prop-html-content.png" width="400">
 
       O campo Título de capítulo é alinhado à direita do rodapé da página.

@@ -5,7 +5,8 @@ exl-id: 9029b671-8ff8-45eb-b27e-ab89bd09e7ed
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 1%
@@ -24,6 +25,6 @@ Use as instruções fornecidas em [Substituições de configuração](download-i
 
 Quando esta configuração está habilitada, a caixa de seleção **Salvar como uma Nova Versão** é marcada por padrão na caixa de diálogo.
 
-Para obter mais detalhes, consulte a seção *Cenários de fechamento e salvamento de arquivos*, no Guia as a Cloud Service Uso do Adobe Experience Manager Guides.
+Para obter mais detalhes, consulte a seção *Cenários de fechamento e salvamento de arquivos* no guia Uso do Adobe Experience Manager Guides as a Cloud Service.
 
-**Tópico pai:**&#x200B;[&#x200B; Personalizar editor da Web](conf-web-editor.md)
+**Tópico pai:**[ Personalizar editor da Web](conf-web-editor.md)

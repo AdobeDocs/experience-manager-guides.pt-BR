@@ -5,7 +5,8 @@ exl-id: d7603b4e-aae4-48ca-be84-8edb51626405
 feature: Document State
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '1131'
 ht-degree: 0%
@@ -126,7 +127,7 @@ Se não quiser alterar manualmente os estados do documento, você poderá criar 
 
 Execute as seguintes etapas para automatizar a alteração do estado do documento:
 
-1. Abra a página de fluxo de trabalho no URL do servidor AEM.
+1. Abra a página de fluxo de trabalho no URL do servidor do AEM.
 
    `<AEM_Server_URL>:<port>/workflow`
 

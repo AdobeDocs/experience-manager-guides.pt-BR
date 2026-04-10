@@ -5,7 +5,8 @@ exl-id: 3bb28304-d8e2-45eb-8297-546eed428b8c
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 1b25f1df67fa2442ab79830dc2ac5a6eabd0394c
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '52'
 ht-degree: 0%
@@ -14,8 +15,8 @@ ht-degree: 0%
 
 # Implantar módulo do Adobe Experience Manager Guides {#id213BCL00KEV}
 
-Você pode começar implantando o Experience Manager Guides por meio da Cloud Manager. Para implantar o módulo, você pode seguir as instruções mencionadas em [as a Cloud Service de implantação do AEM Guides](../release-info/deploy-xml-on-aemaacs.md)
+Você pode começar implantando o Experience Manager Guides por meio da Cloud Manager. Para implantar o módulo, você pode seguir as instruções mencionadas em [Implantação do AEM Guides as a Cloud Service](../release-info/deploy-xml-on-aemaacs.md)
 
 
 
-**Tópico pai:**&#x200B;[&#x200B; Baixar e instalar](download-install.md)
+**Tópico pai:**[ Baixar e instalar](download-install.md)
