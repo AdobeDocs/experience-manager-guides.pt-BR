@@ -175,4 +175,4 @@ Você verá um erro se existir um conector com o mesmo nome.
 
 Após configurar a fonte de dados, o conector será listado no **painel Fontes de Dados** do Editor da Web. Em seguida, você pode se conectar à fonte de dados e inserir um trecho de conteúdo em seus tópicos. Para obter mais detalhes, exiba [Inserir um trecho de conteúdo da sua fonte de dados](../user-guide/web-editor-content-snippet.md).
 
-Somente para configuração no local, também é possível criar conectores personalizados e usá-los com fontes de dados diferentes. Saiba como [configurar conectores personalizados](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/external-data-source/conf-custom-data-source-connector).
+Somente para configuração no local, também é possível criar conectores personalizados e usá-los com fontes de dados diferentes. Saiba como [configurar conectores personalizados](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using/knowledge-base/kb-articles/external-data-source/conf-custom-data-source-connector).

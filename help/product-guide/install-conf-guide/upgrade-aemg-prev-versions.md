@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Este artigo fornece instruções para atualizar **Adobe Experience Manager Guides** versões **anteriores a 4.6.0** (até **4.4.0** inclusive).
 
-Se você estiver em uma versão **anterior a 3.8.5**, consulte a seção **Atualizar Experience Manager Guides** no guia de instalação específico do produto, disponível no [arquivo PDF da ajuda do Adobe Experience Manager Guides](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
+Se você estiver em uma versão **anterior a 3.8.5**, consulte a seção **Atualizar Experience Manager Guides** no guia de instalação específico do produto, disponível no [arquivo PDF da ajuda do Adobe Experience Manager Guides](https://helpx.adobe.com/br/xml-documentation-for-experience-manager/archive.html).
 
 Para obter instruções de atualização para versões mais recentes, consulte [Atualizar o Adobe Experience Manager Guides para a versão 4.6.0 e posterior](./upgrade-aemg-latest-version.md).
 
@@ -57,7 +57,7 @@ Algumas atualizações também exigem a definição do nível de log como `INFO`
 
 >[!NOTE]
 >
-> Este processo de atualização é aplicável **somente** de **3.8.5** para **4.0**. Para atualizações do **3.4 ou superior** para o **3.8.5**, consulte o guia de instalação específico do produto disponível no [arquivo PDF da ajuda do Adobe Experience Manager Guides](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
+> Este processo de atualização é aplicável **somente** de **3.8.5** para **4.0**. Para atualizações do **3.4 ou superior** para o **3.8.5**, consulte o guia de instalação específico do produto disponível no [arquivo PDF da ajuda do Adobe Experience Manager Guides](https://helpx.adobe.com/br/xml-documentation-for-experience-manager/archive.html).
 
 Se você estiver usando a versão **3.8.5** do Experience Manager Guides, é possível atualizar para a versão **4.0** sem desinstalar a versão anterior.
 
