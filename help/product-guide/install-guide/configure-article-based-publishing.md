@@ -22,4 +22,4 @@ Para habilitar a publicação baseada em artigos, baixe e instale os seguintes p
 - Modelo da knowledge base para publicação baseada em artigo
 - Pacote de componentes para publicação baseada em artigo
 
-**Tópico pai:**[ Personalizar editor da Web](conf-web-editor.md)
+**Tópico pai:**&#x200B;[&#x200B; Personalizar editor da Web](conf-web-editor.md)

@@ -43,4 +43,4 @@ Para criar um site do AEM para publicar a saída baseada em artigo, execute as s
 
 Você pode usar o site do AEM para publicar seu artigo usando as predefinições de saída do Editor da Web.
 
-**Tópico pai:**[ Personalizar editor da Web](conf-web-editor.md)
+**Tópico pai:**&#x200B;[&#x200B; Personalizar editor da Web](conf-web-editor.md)

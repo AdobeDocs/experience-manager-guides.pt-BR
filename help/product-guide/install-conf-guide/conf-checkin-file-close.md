@@ -58,4 +58,4 @@ Para obter mais detalhes, consulte a seção *Cenários de fechamento e salvamen
 
 >[!ENDTABS]
 
-**Tópico pai:**[ Personalizar editor da Web](customize-overview.md)
+**Tópico pai:**&#x200B;[&#x200B; Personalizar editor da Web](customize-overview.md)

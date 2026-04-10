@@ -129,7 +129,7 @@ ou
 
 1. Clique em **Salvar**
 1. Selecione o **conjunto de migração** e selecione **Extrair** na parte superior.
-   ![extração do conjunto de migração ](./assets/migration-extract.png)
+   ![extração do conjunto de migração &#x200B;](./assets/migration-extract.png)
 
 1. Verifique os detalhes no pop-up **Extração do conjunto de migração** para os caminhos e configurações selecionados e clique em **Extrair**. A extração levará minutos, e você visualizará o status como atualizado.
    ![extração do conjunto de migração](./assets/migration-set-extraction.png)

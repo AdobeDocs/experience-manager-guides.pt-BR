@@ -33,4 +33,4 @@ Use as instruções fornecidas em [Substituições de configuração](download-i
 >
 > Semelhante à lista de caracteres de nome de arquivo válidos, você também pode especificar uma lista de caracteres de nome de arquivo válidos para a saída do AEM Site. Para obter mais detalhes, consulte [Configurar nomes de arquivo válidos para a saída do site do AEM](conf-file-names-valid-regx-aem-site-output.md#).
 
-**Tópico pai:**[ Configurar nomes de arquivo](conf-file-names.md)
+**Tópico pai:**&#x200B;[&#x200B; Configurar nomes de arquivo](conf-file-names.md)

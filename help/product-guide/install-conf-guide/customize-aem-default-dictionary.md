@@ -61,4 +61,4 @@ Os autores precisariam reiniciar a sessão do Editor da Web para atualizar a lis
 
 >[!ENDTABS]
 
-**Tópico pai:**[ Personalizar editor da Web](customize-overview.md)
+**Tópico pai:**&#x200B;[&#x200B; Personalizar editor da Web](customize-overview.md)

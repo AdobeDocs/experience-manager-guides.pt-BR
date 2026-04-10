@@ -65,4 +65,4 @@ Use as instruções fornecidas em [Substituições de configuração](download-i
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `topic.templates` | Especifique um local para armazenar modelos personalizados.<br> Se o local especificado existir no DAM, todos os modelos de mapa e tópico padrão serão copiados para essa pasta. Se o local não existir, a pasta será criada com todos os modelos de mapa e tópico padrão. |
 
-**Tópico pai:**[ Configurar tópico e mapear modelos](conf-template-tags.md)
+**Tópico pai:**&#x200B;[&#x200B; Configurar tópico e mapear modelos](conf-template-tags.md)

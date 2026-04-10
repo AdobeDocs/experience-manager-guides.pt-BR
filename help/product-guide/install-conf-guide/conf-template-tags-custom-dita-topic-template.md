@@ -99,4 +99,4 @@ Se o local especificado existir no DAM, todos os modelos de mapa e t처pico padr�
 >[!ENDTABS]
 
 
-**T처pico pai:**[ Configurar t처pico e mapear modelos](conf-template-tags.md)
+**T처pico pai:**&#x200B;[&#x200B; Configurar t처pico e mapear modelos](conf-template-tags.md)
