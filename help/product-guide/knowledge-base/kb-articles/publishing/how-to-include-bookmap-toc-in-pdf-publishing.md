@@ -93,13 +93,13 @@ Se você estiver publicando o Ditamap, o PDF Nativo fornecerá a funcionalidade 
 
 ## Recursos adicionais:
 
-- [Documentação de layout da página de design do PDF nativa](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/design-page-layout)
-- [Sessão de especialista pré-gravada do PDF Essentials](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23)
+- [Documentação de layout da página de design do PDF nativa](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/design-page-layout)
+- [Sessão de especialista pré-gravada do PDF Essentials](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23)
 
 <br>
 <br>
 
-Publique qualquer consulta no [fórum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) da Comunidade do AEM Guides.
+Publique qualquer consulta no [fórum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=pt) da Comunidade do AEM Guides.
 
 
 

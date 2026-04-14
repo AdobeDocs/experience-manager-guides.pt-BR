@@ -167,4 +167,4 @@ Verifique se você abriu o mapa raiz/mapa pai na exibição de mapa, que tem uma
 <br>
 
 
-Publique qualquer consulta no [fórum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) da Comunidade do AEM Guides.
+Publique qualquer consulta no [fórum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=pt) da Comunidade do AEM Guides.
