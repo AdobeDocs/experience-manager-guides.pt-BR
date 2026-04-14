@@ -4,7 +4,7 @@ description: Saiba como usar a publicação nativa do PDF, criar e gerar uma pre
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
 feature: Publishing, Native PDF Output
 role: User
-source-git-commit: a6dafe6c634b872001a2b82d9d081b3e52a75b80
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '3293'
 ht-degree: 0%
@@ -60,8 +60,7 @@ Use para especificar configurações básicas de saída, como especificar o cami
 | **Usar Linha de Base** | Se tiver criado uma Linha de Base para o mapa DITA selecionado, selecione essa opção para especificar a versão que deseja publicar. Exiba [Trabalhar com Linha de Base](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html) para obter mais detalhes. |
 | **Criar PDF com Barra de Alterações entre Versões Publicadas** | Use as seguintes opções para criar uma PDF mostrando as diferenças no conteúdo entre duas versões usando barras de alteração:   <br><ul><li> **Linha de Base da Versão Anterior** Escolha a versão de linha de base que você deseja comparar com a versão atual ou outra linha de base. Uma barra de alteração é exibida na PDF para indicar o conteúdo modificado. Uma barra de alteração é uma linha vertical que identifica visualmente o conteúdo novo ou revisado. A barra de alterações aparece à esquerda do conteúdo que foi inserido, alterado ou excluído. <br> **Observação**: se você selecionar **Usar Linha de Base** e escolher uma linha de base para publicar, a comparação será feita entre as duas versões de linha de base selecionadas. Por exemplo, se você escolher Versão 1.3 da linha de base em **Usar linha de base** e Versão 1.1 em **Linha de base da Versão Anterior**, a comparação será feita entre a Versão 1.1 da linha de base e a Versão 1.3 da linha de base. <br><li> **Mostrar Texto Adicionado** Selecione para mostrar o texto inserido na cor verde e sublinhado. Essa opção é selecionada por padrão. <br> <li> **Mostrar texto excluído** Selecione para mostrar o texto excluído em vermelho e marcado com um tachado. Essa opção é selecionada por padrão. <br>**Observação** Você também pode personalizar o estilo da barra de alterações, o conteúdo inserido ou o conteúdo excluído usando a folha de estilos.<br></ul> |
 | **Idioma** | Selecione o idioma para que a saída seja traduzida. <br> **Observação**: textos de referência cruzada como &quot;Veja no capítulo&quot; ou &quot;Veja na página&quot; são controlados por uma variável de idioma. A variável usa o idioma definido no tópico por meio do atributo `xml:lang`. Se nenhum idioma for especificado, será usado o idioma predefinido. Se ambos estiverem ausentes, o padrão será inglês (en_US). |
-
-| **Fluxo de Trabalho de Pós-Geração** |Selecione para mostrar uma lista suspensa que contenha todos os fluxos de trabalho configurados no AEM. Você pode selecionar o workflow que deseja executar após a conclusão do workflow de geração do PDF.|
+| **Fluxo de Trabalho de Pós-Geração** | Selecione para mostrar uma lista suspensa que contém todos os workflows configurados no AEM. Você pode selecionar o workflow que deseja executar após a conclusão do workflow de geração do PDF. |
 
 **Metadados**
 
@@ -82,7 +81,7 @@ Nas predefinições de Saída, selecione **PDF** > **Native-PDF** > **Metadata**
 
 * **Fornecer arquivo XMP**
 
-  Você também pode preencher diretamente os campos de metadados importando o arquivo [XMP](https://www.adobe.com/br/products/xmp.html) (Plataforma de Metadados Extensível). Você pode baixar um arquivo de amostra do XMP aqui.
+  Você também pode preencher diretamente os campos de metadados importando o arquivo [XMP](https://www.adobe.com/products/xmp.html) (Plataforma de Metadados Extensível). Você pode baixar um arquivo de amostra do XMP aqui.
 
 [Download](assets/SampleXMP.xmp)
 
@@ -124,7 +123,7 @@ Use para definir layouts de página e especificar opções de exibição de pág
 | Configuração | Descrição |
 | --- | --- |
 | **Modelo do PDF** | Os modelos do PDF fornecem uma estrutura clara para definir layouts de página, estilo do conteúdo e aplicar várias configurações à saída do PDF. Selecione nas opções suspensas do modelo PDF para escolher o modelo preferido. <br> Você também pode selecionar **Procurar Modelo** <img src="./assets/browse-templates-icon.svg"  alt= "ícone procurar modelos" width="25"> para escolher um modelo. Na caixa de diálogo **Selecionar modelo de PDF**, você também pode visualizar a miniatura e exibir o título e a descrição do modelo selecionado. |
-| **Exibição de página** | Use a Exibição de página para a exibição de página que mostra como a PDF é exibida quando aberta. Selecione nas opções suspensas Exibição da página para escolher uma exibição preferencial. <br><ul><li> **Padrão** É exibido de acordo com a configuração padrão do visualizador do PDF no computador de um usuário.  <br> <li> **Exibição de página única** Exibe uma página de cada vez.   <br> <li> **Rolagem de Página Única** Exibe uma única página em uma coluna vertical contínua.  <br> <li> **Exibição de duas páginas** Exibe duas páginas espelhadas lado a lado de cada vez. .<br> <li> **Rolagem de Duas Páginas** Exibe duas páginas espelhadas lado a lado com rolagem contínua. </ul> |
+| **Exibição de página** | Use a Exibição de página para a exibição de página que mostra como a PDF é exibida quando aberta. Selecione nas opções suspensas Exibição da página para escolher uma exibição preferencial. <br><ul><li> **Padrão** É exibido de acordo com a configuração padrão do visualizador do PDF no computador de um usuário.  <br> <li> **Exibição de página única** Exibe uma página de cada vez.   <br> <li> **Rolagem de Página Única** Exibe uma única página em uma coluna vertical contínua.  <br> <li> **Exibição de Duas Páginas** Exibe duas páginas espelhadas lado a lado de cada vez. .<br> <li> **Rolagem de Duas Páginas** Exibe duas páginas espelhadas lado a lado com rolagem contínua. </ul> |
 | **Zoom** | Selecione para redimensionar a exibição de página que mostra como o PDF é exibido quando é aberto.  <br><ul><li> **Padrão** É exibido de acordo com a configuração padrão do visualizador do PDF no computador de um usuário    <br> <li> **100%** Faz com que a página apareça em seu tamanho real.     <br> <li> **Ajustar página** Faz com que a largura e a altura da página caibam no painel de documentos.   .<br> <li> **Ajustar largura da página** Faz com que a largura da página preencha a largura do painel de documentos.  <br> <li> **Ajustar altura da página** Faz com que a altura da página preencha a altura do painel de documentos. </ul> |
 
 **Segurança**
@@ -186,13 +185,12 @@ Use as opções a seguir para especificar configurações avançadas para mescla
 | **Criar formulário interativo do PDF** | Selecione essa opção se desejar incluir campos de formulário interativos e personalizáveis do PDF para entrada aprimorada do usuário em saídas geradas do PDF. |
 | **Incluir alterações de controle** | Selecione essa opção se desejar incluir alterações controladas no PDF gerado para facilitar a revisão e a comparação. |
 | **Reter arquivos temporários** | Selecione essa opção se quiser manter os arquivos provisórios do HTML criados ao gerar a saída do PDF nativo. Posteriormente, você pode baixar os arquivos temporários depois de gerar a saída. Os arquivos baixados também incluem o arquivo `system_config.xml`, que fornece informações sobre a URL do autor, a URL local e a URL de publicação. Essas URLs são definidas nas configurações de Externalização do AEM e são refletidas no arquivo `system_config.xml`. |
-| **Conformidade do PDF** | É o padrão para o qual você pretende salvar seu PDF para garantir sua conformidade. Selecione na lista suspensa para escolher na lista de padrões disponíveis do PDF. Para obter mais detalhes sobre os padrões compatíveis, consulte [Sobre os padrões da PDF](https://helpx.adobe.com/br/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
+| **Conformidade do PDF** | É o padrão para o qual você pretende salvar seu PDF para garantir sua conformidade. Selecione na lista suspensa para escolher na lista de padrões disponíveis do PDF. Para obter mais detalhes sobre os padrões compatíveis, consulte [Sobre os padrões da PDF](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
 | **Propriedades do arquivo** | Selecione os metadados que deseja passar para a publicação nativa do PDF. A lista suspensa lista as propriedades personalizadas e padrão. Por exemplo, `dc:description`, `dc:language`, `dc:title` e `docstate` são as propriedades padrão, enquanto você pode ter `author` como a propriedade personalizada. As propriedades de metadados selecionadas são passadas para o arquivo PDF gerado usando o PDF Nativo. <br> Essas propriedades são selecionadas do arquivo `metadataList` disponível em:`/libs/fmdita/config/metadataList`. <br>Este arquivo pode ser sobreposto em: `/apps/fmdita/config/metadataList`. |
 
 
 
-<!--------------
-
+<!--
 
 ### Additional notes for PDF output
 
@@ -217,4 +215,4 @@ Experience Manager Guides also provides support for your Markdown documents.  Ma
 
 You can add the Markdown topics to your DITA map and generate the PDF output using the Native PDF output presets.  Learn how to configure or [create a PDF output preset](#create-a-pdf-output-preset-create-output-preset). 
 
---------------->
+-->

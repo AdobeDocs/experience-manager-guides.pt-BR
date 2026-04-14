@@ -4,7 +4,8 @@ description: Saiba como usar a especialização personalizada do DITA-OT e do DI
 feature: DITA-OT Configuration
 role: Admin
 level: Experienced
-source-git-commit: 5ea96ec21b5115b1509372ddc834e061c1c84be6
+exl-id: 4a5ba148-da31-4751-943d-624165c66429
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '3523'
 ht-degree: 0%
@@ -58,7 +59,7 @@ Execute as seguintes etapas para fazer upload do plug-in DITA-OT personalizado n
 
    >[!NOTE]
    >
-   > É recomendável não substituir o pacote DITA-OT padrão. Você deve fazer upload do pacote DITA-OT personalizado que contém o plug-in /var/dxml/dita\_resources/dita-ot. Também é possível fazer isso usando o pipeline do Cloud Manager. Consulte [Implantação no AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=pt-BR) na documentação do AEM para obter mais detalhes.
+   > É recomendável não substituir o pacote DITA-OT padrão. Você deve fazer upload do pacote DITA-OT personalizado que contém o plug-in /var/dxml/dita\_resources/dita-ot. Também é possível fazer isso usando o pipeline do Cloud Manager. Consulte [Implantação no AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html) na documentação do AEM para obter mais detalhes.
 
 1. Você pode optar por editar o Perfil padrão, criar um novo perfil ou duplicar configurações do Perfil padrão para criar um novo perfil.
 
@@ -70,12 +71,12 @@ Execute as seguintes etapas para fazer upload do plug-in DITA-OT personalizado n
 
    | Nome da propriedade | Descrição |
    |-------------|-----------|
-   | **Propriedades de perfil** |
+   | **Propriedades de perfil** | |
    | Nome do perfil | Forneça um nome exclusivo para este perfil. |
    | Reutilizar saída | *\(Opcional\)* Se o seu perfil for baseado em um perfil existente, selecione esta opção. Selecionar essa opção garante que o AEM Guides não extraia novamente o conteúdo do pacote DITA-OT e reutilize o pacote DITA-OT existente. |
    | Caminho de extração de perfil | *\(Opcional\)* Especifique o caminho onde o DITA-OT é mantido no disco. Por padrão, o AEM Guides agrupa um pacote DITA-OT em seu repositório e ele é extraído no disco nesse caminho. <br> **OBSERVAÇÃO** Você pode definir este caminho usando qualquer variável ou propriedade do sistema existente. Consulte a descrição da propriedade [Variáveis de ambiente DITA-OT](#id181NH0YN0AX) para obter mais informações. |
    | Caminho atribuído | \(*Opcional*\) Especifique o caminho no repositório de conteúdo ao qual esse perfil se aplica. Você pode especificar vários locais. |
-   | **Propriedades DITA-OT** |
+   | **Propriedades DITA-OT** |  |
    | Tempo limite do DITA-OT | \(*Opcional*\) Especifique o tempo \(em segundos\) durante o qual o AEM Guides aguarda uma resposta do plug-in DITA-OT. Se nenhuma resposta for recebida no tempo especificado, o AEM Guides encerra a tarefa de publicação e a tarefa é sinalizada como com falha. Além disso, os logs de falha são disponibilizados no arquivo de log de geração de saída. <br> Valor padrão: 300 segundos \(5 minutos\) |
    | Argumentos do DITA-OT PDF | Especifique os argumentos de linha de comando processados pelo plug-in DITA-OT personalizado para gerar a saída do PDF. Para todos os perfis DITA-OT personalizados, especifique o seguinte argumento de linha de comando:`-lib plugins/org.dita.pdf2.fop/lib/` |
    | Argumentos do DITA-OT AEM | \(*Opcional*\) Especifique os argumentos de linha de comando personalizados que são processados pelo plug-in DITA-OT personalizado para gerar a saída do site do AEM. |
@@ -171,12 +172,12 @@ Execute as seguintes etapas para criar um novo perfil e configurá-lo para usar 
 
    | Nome da propriedade | Descrição |
    |-------------|-----------|
-   | **Propriedades de perfil** |
+   | **Propriedades de perfil** |  |
    | Nome do perfil | Forneça um nome exclusivo para este perfil. |
    | Reutilizar saída | *\(Opcional\)* Se o seu perfil for baseado em um perfil existente, selecione esta opção. Selecionar essa opção garante que o AEM Guides não extraia novamente o conteúdo do pacote DITA-OT e reutilize o pacote DITA-OT existente. |
    | Caminho de extração de perfil | *\(Opcional\)* Especifique o caminho onde o DITA-OT é mantido no disco. Por padrão, o AEM Guides agrupa um pacote DITA-OT em seu repositório e ele é extraído no disco nesse caminho.<br>**Observação** Você pode definir este caminho usando qualquer variável ou propriedade do sistema existente. Consulte a descrição da propriedade [Variáveis de ambiente DITA-OT](#id181NH0YN0AX) para obter mais informações. |
    | Caminho atribuído | \(*Opcional*\) Especifique o caminho no repositório de conteúdo ao qual esse perfil se aplica. Você pode especificar vários locais. |
-   | **Propriedades DITA-OT** |
+   | **Propriedades DITA-OT** |  |
    | Tempo limite do DITA-OT | \(*Opcional*\) Especifique o tempo \(em segundos\) durante o qual o AEM Guides aguarda uma resposta do plug-in DITA-OT. Se nenhuma resposta for recebida no tempo especificado, o AEM Guides encerra a tarefa de publicação e a tarefa é sinalizada como com falha. Além disso, os logs de falha são disponibilizados no arquivo de log de geração de saída. <br>Valor padrão: 300 segundos \(5 minutos\) |
    | Argumentos do DITA-OT PDF | Especifique os argumentos de linha de comando processados pelo plug-in DITA-OT personalizado para gerar a saída do PDF. Para todos os perfis DITA-OT personalizados, especifique o seguinte argumento de linha de comando:`-lib plugins/org.dita.pdf2.fop/lib/` |
    | Argumentos do DITA-OT AEM | \(*Opcional*\) Especifique os argumentos de linha de comando personalizados que são processados pelo plug-in DITA-OT personalizado para gerar a saída do site do AEM. |

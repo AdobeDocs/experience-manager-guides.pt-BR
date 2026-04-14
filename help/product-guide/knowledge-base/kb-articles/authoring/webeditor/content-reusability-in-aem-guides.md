@@ -4,7 +4,7 @@ description: Este breve artigo informa como o AEM Guides e o DITA ajudam a econo
 role: User, Admin
 author: Pulkit Nagpal(punagpal)
 exl-id: 1522ebf5-2aea-4d8f-ade7-367227b31dd9
-source-git-commit: f971be4be9e2d32618616727cd9c682941dd3fb2
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%
@@ -153,13 +153,13 @@ Etapa 2: Depois de adicionado, arraste e solte o fragmento que deseja reutilizar
 
 ## Perguntas frequentes
 
-- ### Todo o conteúdo não é exibido após a seleção do arquivo/chave na caixa de diálogo Reutilizar conteúdo
+### Todo o conteúdo não é exibido após a seleção do arquivo/chave na caixa de diálogo Reutilizar conteúdo
 
 Atribuir IDs a fragmentos (elementos Dita) que você deseja reutilizar em outros tópicos
 
-- ## As chaves não são exibidas na caixa de diálogo Reutilizar conteúdo
+## As chaves não são exibidas na caixa de diálogo Reutilizar conteúdo
 
-  Verifique se você abriu o mapa raiz/mapa pai na exibição de mapa, que tem uma definição de chave ou adiciona o caminho do mapa raiz manualmente na mesma caixa de diálogo.
+Verifique se você abriu o mapa raiz/mapa pai na exibição de mapa, que tem uma definição de chave ou adiciona o caminho do mapa raiz manualmente na mesma caixa de diálogo.
 
 
 <br>
@@ -167,4 +167,4 @@ Atribuir IDs a fragmentos (elementos Dita) que você deseja reutilizar em outros
 <br>
 
 
-Publique qualquer consulta no [fórum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=pt) da Comunidade do AEM Guides.
+Publique qualquer consulta no [fórum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) da Comunidade do AEM Guides.

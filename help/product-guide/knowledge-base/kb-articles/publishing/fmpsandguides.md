@@ -5,7 +5,7 @@ exl-id: 05d4d876-f83b-473c-bf31-14d6565e80e2
 feature: AEM Guides FrameMaker Publishing Server
 author: Pulkit Nagpal(punagpal)
 role: User, Admin
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%
@@ -19,9 +19,9 @@ O artigo ajuda na configuração e execução do FMPS com o AEM Guides.
 
 ## Compatibilidade do FMPS com o AEM Guides
 
-- Compatibilidade com o 4.1 AEM Guides: [4.1 matriz de compatibilidade](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=pt-BR/#compatibility-matrix)
+- Compatibilidade com o 4.1 AEM Guides: [4.1 matriz de compatibilidade](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=en/#compatibility-matrix)
 - Compatibilidade com o AEM Guides 4.0: [Matriz de compatibilidade 4.0](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html/#Compatibility%20matrix)
-- Versão mais recente: [Informações da versão mais recente](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=pt-BR)
+- Versão mais recente: [Informações da versão mais recente](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=en)
 
 ## Instalação
 
@@ -66,37 +66,37 @@ Você pode publicar suas linhas de base já criadas com o FMPS2020.0.2 ou versã
 
 ## Perguntas frequentes e solução de problemas:
 
-- ### Falha na publicação do FMPS com &quot;Exceção de tempo limite&quot;
+### Falha na publicação do FMPS com &quot;Exceção de tempo limite&quot;
 
 >Verifique e aumente o valor de &quot;Tempo limite do FMPS&quot; (Segundos) em /system/console/configMgr/com.adobe.fmdita.config.ConfigManager&quot;
 
-- ### Não é possível obter a predefinição FMPS na lista suspensa
+### Não é possível obter a predefinição FMPS na lista suspensa
 
 >Verifique se você tem uma predefinição de FMPS predefinida criada no Servidor e se as configurações de conexão estão corretas.
 
-- ### Estou recebendo PDFs em branco ao publicar
+### Estou recebendo PDFs em branco ao publicar
 
 >Se estiver usando UUID, certifique-se de marcar &quot;Usar referência baseada em UUID&quot; nas Preferências de edição do FrameMaker e vice-versa para guias do AEM que não sejam UUID.
 
-- ### Minhas configurações/adições não estão sendo aplicadas na saída final publicada
+### Minhas configurações/adições não estão sendo aplicadas na saída final publicada
 
 >Verifique se você não está escolhendo simultaneamente a predefinição FMPS e o arquivo de configuração/discagem. Use o FrameMaker para verificar a saída manualmente.
 
-- ### A linha de base não está sendo publicada do FMPS
+### A linha de base não está sendo publicada do FMPS
 
 >O FMPS2020.0.2 ou versões posteriores são compatíveis com a publicação da linha de base.
 >Certifique-se de que sua linha de base foi criada corretamente. Para verificar, vá para o Painel do mapa — Tópicos— Download  Mapeie e escolha &quot;Usar linha de base&quot;.
 
-- ### Tarefas de Publicação do FMPS levam mais tempo do que outros Mecanismos
+### Tarefas de Publicação do FMPS levam mais tempo do que outros Mecanismos
 
 >Ao publicar do FMPS, o tempo do cabeçalho fixo ideal é de aproximadamente 3 a 4 minutos; se achar que é mais longo, consulte o administrador do FMPS ou entre em contato com o Suporte da Adobe.
 
 ## Outros recursos:
 
-[Aprendizagem e Suporte do FMPS](https://helpx.adobe.com/br/support/framemaker-publishing-server.html)
+[Aprendizagem e Suporte do FMPS](https://helpx.adobe.com/support/framemaker-publishing-server.html)
 
 [Aprendizagem e Suporte do AEM Guides](https://helpx.adobe.com/in/support/xml-documentation-for-experience-manager.html)
 
 [Comunidade FrameMaker e FMPS](https://community.adobe.com/t5/framemaker/ct-p/ct-framemaker?page=1&sort=latest_replies&lang=all&tabid=all)
 
-[Comunidade AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=pt)
+[Comunidade AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)

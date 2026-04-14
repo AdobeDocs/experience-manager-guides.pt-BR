@@ -4,7 +4,7 @@ description: Versão de janeiro do  [!DNL Adobe Experience Manager Guides] as a 
 exl-id: b2da77fa-f17c-440b-be59-acaafcd9a57c
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '2440'
 ht-degree: 0%
@@ -37,8 +37,6 @@ Esta seção lista a matriz de compatibilidade dos aplicativos de software compa
 | Versão da nuvem do [!DNL AEM Guides] | Janelas do conector Oxygen | Conector Oxygen Mac | Editar no Oxygen Windows | Editar no Oxygen Mac |
 | --- | --- | --- | --- | --- |
 | 2022.1.0 | 2.4.0 | 2.4.0 | 2,2 | 2,2 |
-|  |  |  |  |  |  |
-
 
 ## Novos recursos e melhorias
 
@@ -50,7 +48,7 @@ Esse recurso permite que os usuários criem o mapa DITA de forma aditiva e publi
 
 ![Publicação baseada em artigo](assets/article-based-publishing.png)
 
-Além do AEM, você pode usar esse recurso exclusivo para publicar seus artigos em qualquer portal da base de conhecimento, como o Salesforce. Esse recurso também vem com um modelo de conteúdo OOTB, criado sobre os componentes principais do AEM, que permite criar um repositório baseado em conhecimento do conteúdo técnico. O interessante desse modelo é que ele é completamente personalizável para atender aos seus requisitos organizacionais e também pode suportar casos de uso como portais corporativos de intranet.
+Além do AEM, você pode usar esse recurso exclusivo para publicar seus artigos em qualquer portal da base de conhecimento, como o Salesforce. Esse recurso também vem com um modelo de conteúdo OOTB, criado sobre os componentes principais do AEM, que permite criar um repositório baseado em conhecimento do conteúdo técnico. O interessante desse modelo é que ele é completamente personalizável para atender aos seus requisitos organizacionais e também oferece suporte a casos de uso como portais corporativos de intranet.
 Você também pode filtrar os artigos com base no estado do documento e na hora da modificação.
 
 Essa publicação de artigos contínua e baseada na necessidade não somente oferece controle total sobre a publicação de conteúdo, como também reduz o tempo geral de publicação do conteúdo atualizado.
@@ -197,7 +195,7 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 ### Mapear painel
 
 * Não é possível ver o conteúdo conref no título de um tópico nos tópicos do painel do mapa ou na guia de relatórios. (8263)
-* Saída do AEM Sites | o jcr:title da página de site gerada não é atualizado quando o título do tópico DITA é atualizado. (8131)
+* O AEM Sites Output | jcr:title da página de site gerada não é atualizado quando o título do tópico DITA é atualizado. (8131)
 * Baixar MAPA não baixa os arquivos de vídeo usados nos tópicos. (8070)
 * Os arquivos de mídia não são baixados quando a tag do objeto é usada por meio da API de download de mapa. (8057)
 * Um relatório incorreto é mostrado na guia Relatórios se qualquer tópico tiver conref para o arquivo cujo título começa com conref. (4698)
@@ -236,9 +234,9 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 
 ### Importação de conteúdo
 
-* Conversão do HTML em DITA | A tabela com &#39;tr&#39; com entradas &#39;td&#39; vazias causa linhas adicionais na saída. (8132)
-* Conversão do HTML em DITA | O HTML que tem uma tabela com vários corpos falha, com exceção. (7940)
-* Conversão do HTML em DITA | erros se o HTML de origem tiver comentários. (7937)
+* Conversão do HTML em DITA | A tabela com entradas &#39;td&#39; vazias provoca linhas adicionais na saída. (8132)
+* Conversão do HTML para o DITA | O HTML com uma tabela com vários corpos falha, com exceção. (7940)
+* Conversão de HTML para DITA | erros desativados se o HTML de origem tiver comentários. (7937)
 * A importação de arquivos DITA 1.3 DITA faz com que alguns href se transformem em links malformados. (8019)
 
 ## Problemas conhecidos

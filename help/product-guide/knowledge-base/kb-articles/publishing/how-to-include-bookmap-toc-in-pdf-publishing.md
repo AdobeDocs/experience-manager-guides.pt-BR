@@ -5,7 +5,7 @@ feature: Native PDF Output
 author: Pulkit Nagpal(punagpal)
 role: User, Admin
 exl-id: c551f0a8-f973-4c5a-bd34-f52890a91342
-source-git-commit: 7638f3634ad45bbadda64ec6e3f706cbb65d696c
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 0%
@@ -68,11 +68,11 @@ Exemplo de estrutura de mapa com índice, lista de figuras e lista de tabelas no
 
 O índice e as listas de favoritos são gerados automaticamente com base na estrutura definida no seu mapa de favoritos.
 
-Depois que o seu bookmap for configurado, use o PDF nativo para gerar a saída de PDF. Ela processa a estrutura e as referências do mapa, incluindo o índice e as listas de favoritos.
+Depois que o bookmap for configurado, use o PDF nativo para gerar a saída do PDF. Ela processa a estrutura e as referências do mapa, incluindo o índice e as listas de favoritos.
 
 ## Design do índice e sua ordem no PDF
 
-A funcionalidade PDF nativa fornece um método conveniente para adaptar o layout e o design do índice.
+A funcionalidade nativa do PDF fornece um método conveniente para personalizar o layout e o design do índice.
 
 Você pode controlar o design por meio de um layout de página separado para índice e estilos por meio de layout.css.
 
@@ -83,23 +83,23 @@ O índice e outros pedidos de listas de favoritos no PDF são baseados somente n
 
 ## Perguntas frequentes
 
-- ### Como incluir o índice de um Ditamap em um PDF
+### Como incluir o índice de um Ditamap em uma PDF
 
 Os próprios mapas de dicionário não têm um sumário diretamente (índice), como um mapa tem. No entanto, os ditamaps desempenham um papel crucial na definição da estrutura do conteúdo e contribuem indiretamente para o processo de geração de índice.
 
-Se você estiver publicando o Ditamap, o PDF nativo fornecerá a funcionalidade para gerar o índice e a lista de favoritos automaticamente. É possível habilitar/desabilitar a geração de índice no ditamap nas configurações de PDF nativo.
+Se você estiver publicando o Ditamap, o PDF Nativo fornecerá a funcionalidade para gerar o índice e a lista de livros automaticamente. Você pode habilitar/desabilitar a geração de índice no ditamap a partir das configurações do PDF Nativo.
 
 ![Habilitar Desabilitação do Sumário](../assets/publishing/pageorder.png)
 
 ## Recursos adicionais:
 
-- [Documentação de layout da página de design do PDF nativo](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/design-page-layout)
-- [Sessão de especialista pré-gravada do Native PDF essentials](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23)
+- [Documentação de layout da página de design do PDF nativa](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/design-page-layout)
+- [Sessão de especialista pré-gravada do PDF Essentials](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23)
 
 <br>
 <br>
 
-Post no [fórum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=pt) da Comunidade AEM Guides para qualquer consulta.
+Publique qualquer consulta no [fórum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) da Comunidade do AEM Guides.
 
 
 

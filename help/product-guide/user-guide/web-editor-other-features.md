@@ -4,7 +4,7 @@ description: Explore outros recursos do Editor no Adobe Experience Manager Guide
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: f0ba8dce38a6eef5dedc8a81107c8e31ea6b26b3
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '3653'
 ht-degree: 0%
@@ -85,13 +85,13 @@ Por padrão, o Editor permite exibir um tópico de cada vez. Pode haver instânc
 
 
 
-<!--------------------------------------------
+<!--
 
 ***Quick Generate***
 
 Generate the output for the selected file. Output can be generated only for files that are a part of an output preset. For more details, view [Article-based publishing from the Web Editor](web-editor-article-publishing.md#id218CK0U019I).
 
---->
+-->
 
 ***Fechar***: você pode escolher entre as seguintes opções:
 
@@ -408,4 +408,4 @@ Os principais recursos destinados a melhorar o tratamento de arquivos grandes s�
 
 - A mensagem de alerta está disponível somente para arquivos DITA e está visível em todas as exibições: Autor, Source e Layout.
 
-**Tópico pai:**&#x200B;[&#x200B; Introdução ao Editor](web-editor.md)
+**Tópico pai:**[ Introdução ao Editor](web-editor.md)

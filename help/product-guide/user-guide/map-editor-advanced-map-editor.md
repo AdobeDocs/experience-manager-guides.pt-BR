@@ -4,7 +4,7 @@ description: Conhecer os recursos do Editor de mapas no Adobe Experience Manager
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: a487c81c5a49ec2b8ec780ffd73cc38fcb693acc
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '2671'
 ht-degree: 0%
@@ -146,7 +146,7 @@ Além disso, você pode exibir os seguintes ícones e executar as tarefas relaci
 
 **Inserir antes/Inserir depois de** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
-Exibe a caixa de diálogo **Inserir elemento antes ou &#x200B;** Inserir elemento após. Selecione o elemento que deseja inserir no mapa. Dependendo da operação, o novo elemento é inserido antes ou depois do elemento atual no mapa.
+Exibe a caixa de diálogo **Inserir elemento antes ou **Inserir elemento após. Selecione o elemento que deseja inserir no mapa. Dependendo da operação, o novo elemento é inserido antes ou depois do elemento atual no mapa.
 
 **Elemento** - ![](images/Add_icon.svg)
 
@@ -155,7 +155,7 @@ Exibe a caixa de diálogo **Inserir elemento**. Selecione o elemento que deseja 
 
 
 
-<!-----------------------------------------------------------
+<!--
 
 **Relationship table** - ![](images/relationship_table_icon.svg)
 
@@ -211,7 +211,7 @@ If you want to delete a topic from your table, click the cross icon next to the 
 **Delete the relationship table**
 
 If you want to delete the relationship table, click anywhere outside the relationship table and click Delete. For details, view [Work with relationship tables in the Map Editor](map-editor-basic-map-editor.md).
------>
+-->
 
 **Conteúdo reutilizável** - ![](images/reusable-content.svg)
 

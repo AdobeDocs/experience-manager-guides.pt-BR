@@ -6,7 +6,7 @@ feature: Migration
 role: Admin
 level: Experienced
 hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '2521'
 ht-degree: 0%
@@ -129,7 +129,7 @@ O processo de conversão envolve as seguintes ações no back-end:
 - Criação e validação de tópicos e arquivos de mapa DITA individuais.
 - Exclusão de arquivos temporários.
 
-De maneira geral, o processo de conversão requer que você [Prepare arquivos do InDesign para a conversão](appendix.md#id195DBF0045Z) [appendix.md\#id195DBF0045Z](appendix.md#id195DBF0045Z) e [Prepare o arquivo de mapeamento para a migração do InDesign para o DITA](appendix.md#id194AF0003HT) [appendix.md\#id194AF0003HT](appendix.md#id194AF0003HT). Em seguida, você precisa seguir o procedimento fornecido para executar o processo de conversão.
+De maneira geral, o processo de conversão requer que você [Prepare arquivos do InDesign para a conversão](appendix.md#id195DBF0045Z)[appendix.md\#id195DBF0045Z](appendix.md#id195DBF0045Z) e [Prepare o arquivo de mapeamento para a migração do InDesign para o DITA](appendix.md#id194AF0003HT)[appendix.md\#id194AF0003HT](appendix.md#id194AF0003HT). Em seguida, você precisa seguir o procedimento fornecido para executar o processo de conversão.
 
 Execute as seguintes etapas para converter seus documentos existentes do InDesign em um documento do tipo de tópico DITA:
 
@@ -299,7 +299,8 @@ Para converter conteúdo não estruturado do Adobe FrameMaker (.fm e .book) em D
 
 Após a conversão, o conteúdo estruturado pode ser migrado para o AEM Guides.  Para obter mais detalhes, consulte [Fazer upload de conteúdo DITA existente](./migrate-content-upload-existing-dita-content.md).
 
-<!-- Deprecated information -
+<!--
+Deprecated information -
  //The first step is to create style mappings using FrameMaker and save those settings in a .sts file. Next, if you are using custom DITA, then you can map your custom elements with the source FrameMaker formats in the `ditaElems.xml` file. For example, if you have created a custom element named `impnote` to handle all important notes, then you can define this custom element in the `ditaElems.xml` file. Once this custom element is defined, AEM Guides would not raise an error while converting FrameMaker document containing `impnote` element.
 
 Also, If you want to specify some additional attributes with your custom or valid DITA element, you can define those in the style2attrMap.xml file. For example, you can specify the `type` attribute with the value of `important` to be passed on with the `impnote` element. This additional information can be specified in the style2attrMap.xml file.
@@ -402,4 +403,4 @@ Para converter os documentos estruturados existentes no formato DITA, execute as
 
 Usando o bloco `<config> </config>`, você pode definir um ou vários blocos de configurações para conversão. O fluxo de trabalho de conversão é executado e a saída final na forma de um tópico DITA é salva no local especificado no elemento `outputDir`.
 
-**Tópico pai:**&#x200B;[&#x200B; Migrar conteúdo existente](migrate-content.md)
+**Tópico pai:**[ Migrar conteúdo existente](migrate-content.md)

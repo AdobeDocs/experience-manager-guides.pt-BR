@@ -4,7 +4,7 @@ description: Traduza o conteúdo para vários idiomas no editor da Web. Saiba co
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: c619c518a3ae1629897eb90f5f15aa4742be5ef2
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '2519'
 ht-degree: 0%
@@ -95,9 +95,10 @@ Antes de executar etapas neste procedimento, verifique se você criou a raiz de 
 
      ![](images/unversioned-changes-translation.png){width="650" align="left"}
 
-     >
+     >[!NOTE]
      >
      > Para exibir somente arquivos com alterações sem controle de versão, habilite a configuração **Mostrar ativos somente com alterações sem controle de versão** no painel Filtros. Além disso, o indicador sem versão é visível somente ao traduzir arquivos com base em suas versões mais recentes.
+
    - **Rótulo da Versão**: Rótulo para a versão selecionada do arquivo de origem
    - **Versão de Destino**: número da versão do arquivo de destino
    - **Estado do Documento**: estado do arquivo de origem. As opções disponíveis são Rascunho, Em revisão e Revisado.
@@ -239,4 +240,4 @@ Para afetar o gerenciamento de documentos, o Experience Manager Guides fornece a
 Você também pode desativar os projetos de tradução se desejar usá-los posteriormente. A exclusão de um projeto exclui todos os arquivos e pastas presentes no projeto. Desativar um projeto não o exclui, mas o mantém no repositório. Mas você não pode atualizar ou editar um projeto desativado.  A exclusão ou desativação de um projeto não afetará o status de tradução de nenhuma referência.
 
 
-**Tópico pai:**&#x200B;[&#x200B; Introdução ao Editor](web-editor.md)
+**Tópico pai:**[ Introdução ao Editor](web-editor.md)

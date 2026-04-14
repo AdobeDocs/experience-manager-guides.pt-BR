@@ -5,7 +5,7 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 142a588a-3d26-48ee-a3fe-23882922243c
-source-git-commit: 2749c0df3bd5640c9491dce3ab6c96f707625969
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 1%
@@ -29,7 +29,7 @@ Use as instruções fornecidas em [Substituições de configuração](download-i
 | PID | Chave de propriedade | Valor de propriedade |
 |---|------------|--------------|
 | `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.autosave` | Booleano \(true/false\).<br> **Valor padrão**: falso |
-| `xmleditor.autosaveinterval` | Especifique o intervalo de tempo em segundos para acionar o recurso de salvamento automático. |
+| `xmleditor.autosaveinterval` | Especifique o intervalo de tempo em segundos para acionar o recurso de salvamento automático. |  |
 
 >[!TAB No local]
 
