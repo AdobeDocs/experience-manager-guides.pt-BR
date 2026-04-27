@@ -4,15 +4,15 @@ description: Saiba como definir configurações de geração de saída
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 0849544d-fa7b-4c66-b418-1ffcd1ca09df
+source-git-commit: d5dbd67ba44735cf1545291e9a03e3096acd8166
 workflow-type: tm+mt
-source-wordcount: '3098'
-ht-degree: 0%
+source-wordcount: '3190'
+ht-degree: 1%
 
 ---
 
-
-# Personalizar a saída do site do AEM {#id166TG0B30WR}
+# Personalizar saída existente do site do AEM {#id166TG0B30WR}
 
 O AEM Guides oferece suporte à criação de saídas nos seguintes formatos:
 
@@ -79,7 +79,7 @@ As propriedades do modelo de design do AEM Guides são descritas na tabela a seg
 
 | Propriedade | Descrição |
 |--------|-----------|
-| `landingPageTemplate`, `searchPageTemplate`, `topicPageTemplate`, `shadowPageTemplate` | Especifique o nó `cq:Template` dessas páginas correspondentes \(aterrissagem, pesquisa e tópico\). Por padrão, o nó `cq:Template` dessas páginas pode ser encontrado no nó `/libs/fmdita/templates/default/cqtemplates`. Esse nó define a estrutura e as propriedades das páginas de aterrissagem, pesquisa e tópico.<br> O `shadowPageTemplate` é usado para otimizar o conteúdo fragmentado. É necessário definir o valor dessa propriedade como: `fmdita/templates/default/cqtemplates/shadowpage` <br> **Observação:** especifique um valor para `topicPageTemplate`. `landingPageTemplate` e `searchPageTemplate` são propriedades opcionais. Se não quiser que as páginas de pesquisa e de aterrissagem sejam geradas, não especifique essas propriedades. |
+| `landingPageTemplate`, `searchPageTemplate`, `topicPageTemplate`, `shadowPageTemplate` | Especifique o nó `cq:Template` dessas páginas correspondentes \(aterrissagem, pesquisa e tópico\). Por padrão, o nó `cq:Template` dessas páginas pode ser encontrado no nó `/libs/fmdita/templates/default/cqtemplates`. Este nó define a estrutura e as propriedades das páginas de aterrissagem, pesquisa e tópico.<br> O `shadowPageTemplate` é usado para otimizar o conteúdo fragmentado. É necessário definir o valor dessa propriedade como: `fmdita/templates/default/cqtemplates/shadowpage` <br> **Observação:** especifique um valor para `topicPageTemplate`. `landingPageTemplate` e `searchPageTemplate` são propriedades opcionais. Se não quiser que as páginas de pesquisa e de aterrissagem sejam geradas, não especifique essas propriedades. |
 | `title` | Um nome descritivo do modelo de design. |
 | `topicContentNode` | O local do nó que conterá o conteúdo DITA em uma página de tópico. O caminho é relativo à página de tópico. |
 | `topicHeadNode` | O local do nó que conterá os valores de cabeçalho \(ou metadados\) derivados do conteúdo DITA. O caminho é relativo à página de tópico. |
@@ -98,7 +98,7 @@ As propriedades do modelo de design do AEM Guides são descritas na tabela a seg
 >
 > Depois de criar um nó de modelo de design personalizado, você deve atualizar a opção Design nas predefinições de saída do site do AEM para usar o nó de modelo de design personalizado.
 
-Para obter mais informações, consulte [Criar o primeiro site do Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=pt-BR) e [Noções básicas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=pt-BR) sobre como desenvolver seu próprio site no AEM.
+Para obter mais informações, consulte [Criar o primeiro site do Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=en) e [Noções básicas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=en) sobre como desenvolver seu próprio site no AEM.
 
 ## Usar o título do documento para gerar a saída do site do AEM
 
@@ -363,7 +363,7 @@ Para excluir o elemento `table` do nivelamento, adicione a seguinte propriedade 
 
 ## Configurar o controle de versão para páginas excluídas na saída do site do AEM
 
-Ao gerar a saída de Site do AEM com as opções **Excluir e** Criar **&#x200B;**&#x200B;selecionadas para a configuração Páginas de Saída Existentes, uma versão é criada para a página\(s\) que está sendo excluída. Você pode configurar o sistema para interromper a criação de uma versão antes da exclusão.
+Ao gerar a saída de Site do AEM com as opções **Excluir e** Criar ****selecionadas para a configuração Páginas de Saída Existentes, uma versão é criada para a página\(s\) que está sendo excluída. Você pode configurar o sistema para interromper a criação de uma versão antes da exclusão.
 
 As guias a seguir fornecem instruções para interromper a criação de uma versão para a página\(s\) que está sendo excluída com base na configuração do Experience Manager Guides: Cloud Service ou No local.
 
@@ -409,6 +409,3 @@ As guias a seguir fornecem instruções para interromper a criação de uma vers
 O Experience Manager Guides tem um módulo sling [**rewriter**](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html) personalizado para manipular os links gerados no caso de mapas cruzados (links entre os tópicos de dois mapas diferentes). Esta configuração de reescrita está instalada no seguinte caminho: <br> `/apps/fmdita/config/rewriter/fmdita-crossmap-link-patcher`.
 
 Se você tiver outro reescritor sling personalizado em sua base de código, use um valor de `'order'` maior que 50, pois o reescritor Experience Manager Guides sling usa `'order'` 50.  Para substituir isso, é necessário um valor >50. Para obter mais detalhes, consulte [Pipelines de regravação de saída](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
-
-
-

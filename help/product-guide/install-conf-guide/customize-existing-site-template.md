@@ -4,14 +4,15 @@ description: Saiba como personalizar modelos existentes de site do AEM para o AE
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: eabaec57-e717-45a9-8321-4057b993d7fb
+source-git-commit: d5dbd67ba44735cf1545291e9a03e3096acd8166
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '944'
 ht-degree: 1%
 
 ---
 
-# Personalizar modelos existentes de sites do AEM
+# Personalizar novos modelos de site do AEM
 
 Este guia fornece instruções passo a passo para personalizar modelos de site do AEM existentes para uso com o AEM Guides para gerar AEM Sites a partir de mapas e tópicos DITA.
 
@@ -139,4 +140,4 @@ Por padrão, as bibliotecas de clientes (clientlibs) fornecidas no pacote de com
 
 >[!NOTE]
 >
-> Verifique se os modelos foram testados em um ambiente de não produção antes de implantar na produção.<br><br>Consulte a documentação oficial do [AEM Guides](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using/overview) e do [AEM Sites](https://experienceleague.adobe.com/pt-br/docs/experience-manager-core-components/using/get-started/authoring) para obter detalhes adicionais.
+> Verifique se os modelos foram testados em um ambiente de não produção antes de implantar na produção.<br><br>Consulte a documentação oficial do [AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview) e do [AEM Sites](https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/get-started/authoring) para obter detalhes adicionais.
