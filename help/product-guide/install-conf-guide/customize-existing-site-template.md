@@ -140,4 +140,4 @@ Por padrão, as bibliotecas de clientes (clientlibs) fornecidas no pacote de com
 
 >[!NOTE]
 >
-> Verifique se os modelos foram testados em um ambiente de não produção antes de implantar na produção.<br><br>Consulte a documentação oficial do [AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview) e do [AEM Sites](https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/get-started/authoring) para obter detalhes adicionais.
+> Verifique se os modelos foram testados em um ambiente de não produção antes de implantar na produção.<br><br>Consulte a documentação oficial do [AEM Guides](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using/overview) e do [AEM Sites](https://experienceleague.adobe.com/pt-br/docs/experience-manager-core-components/using/get-started/authoring) para obter detalhes adicionais.
