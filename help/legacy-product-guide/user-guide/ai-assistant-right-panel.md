@@ -1,11 +1,11 @@
 ---
-title: Usar o Assistente de IA para criar documentos com inteligência &grave;
+title: Usar o Assistente de IA para criar documentos com inteligência `
 description: Saiba como usar o Assistente de IA para criar documentos com eficiência inteligente no Editor da Web.
 hide: true
 exl-id: c7d37da8-e838-47a2-b469-287bcd841933
-source-git-commit: 8659035c57ce2b6f760b342fa9d88d656fcabf23
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1055'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ O Experience Manager Guides fornece uma ferramenta de Assistente de IA que ajuda
 >[!NOTE]
 >
 > Para adicionar o recurso Assistente de IA no painel direito, o administrador do sistema deve selecionar a opção **Assistente de IA** na guia **Painéis** das **configurações do Workspace** ![ícone de configurações do Workspace](./images/editor_settings_icon.svg).
-> &#x200B;> Além disso, você deve fazer check-out do documento para exibir o ícone do Assistente do AI.
+> Além disso, você deve fazer check-out do documento para exibir o ícone do Assistente do AI.
 
 Esse recurso está disponível somente para tópicos DITA. Depois de selecionar o texto em um tópico, você pode optar por executar qualquer uma das ações do Assistente do AI:
 
@@ -29,7 +29,7 @@ Esse recurso está disponível somente para tópicos DITA. Depois de selecionar 
 ## Sugerir conteúdo reutilizável
 
 
-Use o recurso **Sugerir conteúdo reutilizável** ![ai sugerir ícone de conteúdo reutilizável &#x200B;](./images/ai-suggest-reusable-content-icon.svg) para criar conteúdo de forma consistente e precisa. Você pode selecionar o conteúdo, e o Experience Manager Guides fornece sugestões sobre como reutilizar o conteúdo existente no repositório.
+Use o recurso **Sugerir conteúdo reutilizável** ![ai sugerir ícone de conteúdo reutilizável ](./images/ai-suggest-reusable-content-icon.svg) para criar conteúdo de forma consistente e precisa. Você pode selecionar o conteúdo, e o Experience Manager Guides fornece sugestões sobre como reutilizar o conteúdo existente no repositório.
 Saiba mais sobre como usar as [sugestões inteligentes habilitadas por IA para criar conteúdo](authoring-ai-based-smart-suggestions.md).
 
 

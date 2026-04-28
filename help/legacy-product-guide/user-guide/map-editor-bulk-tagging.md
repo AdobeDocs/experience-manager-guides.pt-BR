@@ -5,9 +5,9 @@ feature: Metadata Management
 role: User
 hide: true
 exl-id: b320e34f-ee0a-4cc3-b4f6-d322fbb29844
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '716'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 As tags permitem agrupar ou classificar o conteúdo no repositório de conteúdo e também na saída publicada. Se você tiver aplicado tags ao seu conteúdo, poderá encontrar facilmente tópicos relacionados em um mapa DITA que podem ajudá-lo a criar conteúdo. Com a saída publicada, os usuários finais poderão localizar o conteúdo correto mais rapidamente com as tags apropriadas em vigor.
 
-O AEM Guides permite marcar o conteúdo DITA com apenas alguns cliques. Você pode usar o recurso de marcação em massa para aplicar várias tags a vários tópicos, um mapa DITA ou um submapa. Ou você também pode aplicar tags a um tópico individual. A marcação é o recurso nativo no AEM. Você pode encontrar mais detalhes sobre como criar e gerenciar tags na seção [Administração de tags](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=pt-BR) da documentação da AEM.
+O AEM Guides permite marcar o conteúdo DITA com apenas alguns cliques. Você pode usar o recurso de marcação em massa para aplicar várias tags a vários tópicos, um mapa DITA ou um submapa. Ou você também pode aplicar tags a um tópico individual. A marcação é o recurso nativo no AEM. Você pode encontrar mais detalhes sobre como criar e gerenciar tags na seção [Administração de tags](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) da documentação da AEM.
 
 Por padrão, a AEM Guides não concede acesso de leitura a nenhum usuário na pasta em que todas as tags do repositório do AEM estão armazenadas. Para usar tags definidas no repositório do AEM, você deve solicitar que o administrador do sistema conceda acesso à pasta em que as tags estão armazenadas.
 
@@ -108,4 +108,4 @@ Execute as seguintes etapas para remover todas as tags de um ou mais tópicos:
 
 Se você tiver uma longa lista de tags aplicadas em seus tópicos, talvez ache difícil navegar por ela. Você pode ocultar tags facilmente na exibição do console de mapa DITA clicando no ícone Ocultar tags. Da mesma forma, quando as tags não estão visíveis, clicar em Mostrar tags revela todas as tags.
 
-**Tópico pai:**&#x200B;[&#x200B; Gerenciar metadados](manage-metadata.md)
+**Tópico pai:**[ Gerenciar metadados](manage-metadata.md)

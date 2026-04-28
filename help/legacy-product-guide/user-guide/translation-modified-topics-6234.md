@@ -5,9 +5,9 @@ feature: Translation
 role: User
 hide: true
 exl-id: b623b109-8695-40e5-9e28-78f78cf57ad6
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '613'
 ht-degree: 0%
 
 ---
@@ -79,4 +79,4 @@ Execute as seguintes etapas para enviar um tópico modificado para nova traduç�
 1. Volte para o arquivo de mapa DITA na pasta de idioma de origem na interface do Assets. Os tópicos retraduzidos agora estão em sincronia.
 
 
-**Tópico pai:**&#x200B;[&#x200B; Traduzir conteúdo](translation.md)
+**Tópico pai:**[ Traduzir conteúdo](translation.md)

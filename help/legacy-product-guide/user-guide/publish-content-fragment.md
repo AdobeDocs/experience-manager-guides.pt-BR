@@ -5,10 +5,10 @@ feature: Publishing
 role: User
 hide: true
 exl-id: f8a8dfd3-19de-49ff-b4d4-265b3ac09488
-source-git-commit: 1e08dce0bd64d1a15d42baf4c9720405a9eec146
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1031'
-ht-degree: 0%
+source-wordcount: '1052'
+ht-degree: 1%
 
 ---
 
@@ -41,7 +41,7 @@ Por exemplo, adicione `/conf/we-retail` na configuração de nuvem. Essa configu
 1. Na caixa de diálogo **Gerar fragmento de conteúdo**, preencha os detalhes a seguir nas guias **Geral** e **Mapeamento**.
 
    Guia **Geral**
-   ![Adicionar o modelo de fragmento e os detalhes do mapeamento na caixa de diálogo Publicar como fragmento de conteúdo](images/generate-content-fragment.png)
+   ![Adicione o modelo de fragmento e os detalhes do mapeamento na caixa de diálogo Publicar como fragmento de conteúdo](images/generate-content-fragment.png)
    *Adicione o caminho, o nome, o título e a filtragem de condição para publicar um tópico ou seus elementos como um Fragmento de Conteúdo.*
 
 

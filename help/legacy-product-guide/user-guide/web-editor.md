@@ -1,50 +1,50 @@
 ---
-title: Trabalhar com o editor da Web
-description: Crie e edite documentos estruturados usando o editor da Web. Saiba como trabalhar com o editor da Web seguindo os padrões DITA no AEM Guides.
+title: Work with the Web Editor
+description: Create and edit structured documents using web editor. Learn how to work with the web editor following the DITA standards in AEM Guides.
 feature: Authoring, Web Editor
 role: User
 hide: true
 exl-id: a5b0d107-4e17-4d0c-99dd-0228189e2449
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '227'
 ht-degree: 0%
 
 ---
 
-# Trabalhar com o editor da Web {#id181OD0QE05Z}
+# Work with the Web Editor {#id181OD0QE05Z}
 
-O AEM Guides vem com um Editor da Web fácil de usar para criar e editar documentos estruturados. O editor oculta todas as complexidades da estrutura DITA do autor. O editor fornece uma lista de elementos DITA que um usuário normalmente precisaria para trabalhar em um documento.
+AEM Guides comes with an easy-to-use web-based Web Editor for creating and editing structured documents. The editor hides all the complexities of the DITA structure from the writer. The editor provides a list of DITA elements that a user would usually need to work within a document.
 
-Além disso, o Editor da Web tem reconhecimento de DITA e é compatível com os padrões DITA 1.3, 1.2, DITA leve e DITA especializado. Isso implica que não permitirá colocar elementos em locais que não estejam de acordo com os padrões DITA. O Editor da Web também permite trabalhar com os elementos de bloco e em linha mais usados.
+Also, the Web Editor is DITA-aware and it supports DITA 1.3, 1.2 standards, lightweight DITA, and also specialized DITA. This implies that it will not allow you to place elements at locations that are not in accordance with the DITA standards. The Web Editor also allows you to work with the most commonly used block and in-line elements.
 
-- **[Iniciar o Editor da Web](web-editor-launch-editor.md)**
+- **[Launch the Web Editor](web-editor-launch-editor.md)**
 
-- **[Editar tópicos no Editor da Web](web-editor-edit-topics.md)**
+- **[Edit topics in the Web Editor](web-editor-edit-topics.md)**
 
-- **[Conhecer os recursos do Editor da Web](web-editor-features.md)**
+- **[Know the Web Editor features](web-editor-features.md)**
 
-- **[Atalhos de teclado no Editor da Web](web-editor-keyboard-shortcuts.md)**
+- **[Keyboard shortcuts in the Web Editor](web-editor-keyboard-shortcuts.md)**
 
-- **[Outros recursos no Editor da Web](web-editor-other-features.md)**
+- **[Other features in the Web Editor](web-editor-other-features.md)**
 
-- **[modos de exibição do Editor da Web](web-editor-views.md)**
+- **[Web Editor views](web-editor-views.md)**
 
-- **[Documentos do Author Markdown do Editor da Web](web-editor-markdown-topic.md)**
+- **[Author Markdown documents from the Web Editor](web-editor-markdown-topic.md)**
 
-- **[Gerenciar predefinições de saída de Perfil Global e de Pasta](web-editor-manage-output-presets.md)**
+- **[Manage Global and Folder Profile output presets](web-editor-manage-output-presets.md)**
 
-- **[Publicação baseada em artigo do Editor da Web](web-editor-article-publishing.md)**
+- **[Article-based publishing from the Web Editor](web-editor-article-publishing.md)**
 
-- **[Use o painel &#39;Geração rápida&#39; para gerar e exibir a saída](web-editor-quick-generate-panel.md)**
+- **[Use Quick Generate panel to generate and view output](web-editor-quick-generate-panel.md)**
 
-- **[Traduzir documentos do Editor da Web](translate-documents-web-editor.md)**
+- **[Translate documents from the Web Editor](translate-documents-web-editor.md)**
 
-- **[Criar e gerenciar linhas de base do Editor da Web](web-editor-baseline.md)**
+- **[Create and manage baselines from the Web Editor](web-editor-baseline.md)**
 
-- **[Estado do documento](web-editor-document-states.md)**
+- **[Document state](web-editor-document-states.md)**
 
-- **[Usar rótulos](web-editor-use-label.md)**
+- **[Use labels](web-editor-use-label.md)**
 
 
-**Tópico pai:**&#x200B;[&#x200B; Conteúdo de autor usando o AEM Guides](authoring-content-xml-doc.md)
+**Parent topic:**[ Author content using AEM Guides](authoring-content-xml-doc.md)

@@ -5,10 +5,10 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 991179c7-186e-4b23-b918-248f596644ec
-source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1210'
-ht-degree: 1%
+source-wordcount: '1213'
+ht-degree: 2%
 
 ---
 
@@ -168,4 +168,4 @@ A ação é definida como ação padrão para todos os atributos, sejam eles adi
 1. Clique no botão **Remover**.
 1. Clique em **Remover** para confirmar a ação.
 
-**Tópico pai:**&#x200B;[&#x200B; Geração de saída](generate-output.md)
+**Tópico pai:**[ Geração de saída](generate-output.md)

@@ -5,9 +5,9 @@ feature: Authoring, Map Editor
 role: User
 hide: true
 exl-id: b63d7c0f-9c29-4fb4-b8fe-9790b16f8726
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '3788'
+source-wordcount: '3838'
 ht-degree: 0%
 
 ---
@@ -207,7 +207,7 @@ Além de organizar tópicos no arquivo de mapa, você também pode executar as s
 - **Adicionar**: você pode optar por adicionar um novo tópico ou uma referência vazia do Editor de Mapa:
    - **Referência vazia**: essa opção permite adicionar uma referência vazia ao mapa DITA. Você pode clicar duas vezes na referência vazia inserida posteriormente e adicionar os detalhes do tópico. Para obter mais detalhes, consulte [Criar um tópico](web-editor-features.md#id228ICI0105U) no Editor da Web.
    - **Novo Tópico**: Quando você opta por criar um novo tópico do menu, a caixa de diálogo Criar Novo Tópico é exibida. Na caixa de diálogo Criar novo tópico, forneça os detalhes necessários e clique em Criar. Para obter mais detalhes, consulte [Criar um tópico](web-editor-features.md#id228ICI0105U) no Editor da Web.
-- **Mover**: você pode optar por mover um tópico para cima/baixo/direita/esquerda na hierarquia.Você também pode arrastar e soltar um tópico ou um mapa do painel do repositório para o mapa aberto no Editor de Mapa.
+- **Mover**: você pode optar por mover um tópico para cima/baixo/direita/esquerda na hierarquia.Você também pode arrastar e soltar um tópico ou um mapa do painel do repositório no mapa aberto no Editor de Mapas.
 - **Desfazer**: desfaz a última operação no modo de exibição de layout.
 - **Refazer**: refaz a última operação no modo de exibição de layout.
 - **Copiar**: copie a referência selecionada do arquivo de mapa.

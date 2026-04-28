@@ -2,9 +2,10 @@
 title: Ajuda inteligente habilitada por IA para pesquisar conteúdo
 description: Saiba como visualizar e utilizar a Ajuda inteligente habilitada por IA no Editor da Web.
 hide: true
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+exl-id: cf08f6a9-bf92-47d9-9952-da0301ea7023
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 
 
-O Experience Manager Guides fornece a Smart Help baseada em GenAI, um recurso de pesquisa conversacional que ajuda a encontrar conteúdo relevante na [Documentação do Adobe Experience Manager Guides](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using/overview).
+O Experience Manager Guides fornece a Smart Help baseada em GenAI, um recurso de pesquisa conversacional que ajuda a encontrar conteúdo relevante na [Documentação do Adobe Experience Manager Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 Você pode fazer suas perguntas e obter respostas de forma informativa. A resposta à sua consulta baseia-se no conteúdo da documentação do produto. Essa busca é totalmente conversacional. Você pode fazer perguntas e então, com base na resposta, você também pode fazer outras perguntas. A resposta também inclui links para documentos de origem, os quais você pode consultar para obter detalhes.
 
 Por exemplo, talvez você queira criar um tópico no Experience Manager Guides para sua documentação. Você pode perguntar *Como criar um tópico?* Você recebe uma resposta e os links para os artigos relacionados. Em seguida, se quiser saber como gerar a saída do PDF para o documento, faça perguntas sobre ele. Por exemplo, *Como publicar um tópico em uma PDF?* ou *Como gerar a saída do PDF para um tópico?*

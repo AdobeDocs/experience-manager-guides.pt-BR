@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor, Publishing
 role: User
 hide: true
 exl-id: ce8e3614-907b-4172-a8f0-e81e4dc096df
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 0%
@@ -61,4 +61,4 @@ Execute as seguintes etapas para criar predefinições de saída para o mapa DIT
 
 ![](images/edit-preset_cs.png){width="550" align="left"}
 
-**Tópico pai:**&#x200B;[&#x200B; Publicação baseada em artigo do Editor da Web](web-editor-article-publishing.md)
+**Tópico pai:**[ Publicação baseada em artigo do Editor da Web](web-editor-article-publishing.md)

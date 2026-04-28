@@ -5,9 +5,9 @@ feature: Publishing FrameMaker Documents
 role: User
 hide: true
 exl-id: 691773e5-547f-4638-9ce0-f6d08e1153d7
-source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '89'
 ht-degree: 0%
 
 ---
@@ -18,4 +18,4 @@ O AEM Guides permite criar saída para documentos do FrameMaker nos formatos PDF
 
 As seções a seguir explicam as opções disponíveis para os formatos de saída compatíveis.
 
-**Tópico pai:**&#x200B;[&#x200B; Gerar saída de documentos do FrameMaker](fm-output-generatation.md)
+**Tópico pai:**[ Gerar saída de documentos do FrameMaker](fm-output-generatation.md)

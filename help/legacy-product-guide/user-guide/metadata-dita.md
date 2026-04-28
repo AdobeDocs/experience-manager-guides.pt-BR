@@ -5,9 +5,9 @@ feature: Metadata Management
 role: User
 hide: true
 exl-id: 578ea79c-cfb7-4902-b6d5-9d8a010fe26a
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,6 @@ ht-degree: 0%
 
 O Adobe Experience Manager Assets fornece o recurso para criar ativos e adicionar metadados a eles. É possível manter metadados para cada ativo. Você pode gerenciar metadados com seus ativos e também organizar e processar ativos automaticamente com base em seus metadados.
 
-Para obter mais detalhes sobre o gerenciamento de metadados no AEM, consulte [Gerenciar metadados de seus ativos digitais](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/metadata.html?lang=pt-BR).
+Para obter mais detalhes sobre o gerenciamento de metadados no AEM, consulte [Gerenciar metadados de seus ativos digitais](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/metadata.html?lang=en).
 
-**Tópico pai:**&#x200B;[&#x200B; Gerenciar metadados](manage-metadata.md)
+**Tópico pai:**[ Gerenciar metadados](manage-metadata.md)

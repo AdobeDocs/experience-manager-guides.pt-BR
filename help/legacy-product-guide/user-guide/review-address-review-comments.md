@@ -5,9 +5,9 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: a9551eb0-ad30-424d-b1c8-c079125d8118
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1036'
 ht-degree: 0%
 
 ---
@@ -74,4 +74,4 @@ No modo Editor da Web, o painel direito contém os ícones Revisar e Alteraçõe
 - **I**: aplicar um filtro aos comentários. Você pode filtrar para ver comentários com base no Tipo de revisão \(todos, realçado, excluído, inserido ou nota adesiva\), Status da revisão \(todos, aceitos, rejeitados ou nenhum\), Revisores \(todos ou revisores específicos\(s\)\) ou Versões do tópico.
 
 
-**Tópico pai:**&#x200B;[&#x200B; Tópicos ou mapas de revisão](review.md)
+**Tópico pai:**[ Tópicos ou mapas de revisão](review.md)

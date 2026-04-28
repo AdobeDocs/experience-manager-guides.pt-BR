@@ -4,9 +4,10 @@ description: Publique um tópico ou os elementos dentro de um tópico para uma s
 feature: Publishing
 role: User
 hide: true
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+exl-id: 3e77747d-ff04-465c-9305-fd6f1c74df04
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '634'
 ht-degree: 0%
 
 ---
@@ -58,7 +59,7 @@ Para gerar uma página Sites, execute as seguintes etapas:
 1. Clique em **Gerar** para publicar a página Sites.
 1. Você pode exibir a página Sites de um tópico na seção **Saídas** em **Propriedades do Arquivo**. As páginas do Sites são exibidas de acordo com a data e a hora de sua publicação, sendo que a mais recente é a primeira.
 
-   ![Exibir a página Sites para um tópico](images/aem-sites-outputs.png){width=300 align=&quot;left&quot;}
+   ![Exibir a página Sites de um tópico](images/aem-sites-outputs.png){width=300 align="left"}
 
    *Exiba a página Sites presente para um tópico e republique-os.*
 
