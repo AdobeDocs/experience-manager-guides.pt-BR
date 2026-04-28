@@ -22,7 +22,7 @@ Alguns conceitos principais de gerenciamento de conteúdo no AEM são os seguint
 
 **Gerenciamento de ativos**
 
-O AEM Guides usa o gerenciamento de ativos digitais da AEM \(DAM\) para gerenciar seus arquivos DITA. Os arquivos carregados ou verificados no DAM são armazenados como ativos digitais. Você pode gerenciar e editar seus ativos no AEM Assets. Para obter mais informações sobre o gerenciamento de ativos, consulte [Gerenciar ativos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=en).
+O AEM Guides usa o gerenciamento de ativos digitais da AEM \(DAM\) para gerenciar seus arquivos DITA. Os arquivos carregados ou verificados no DAM são armazenados como ativos digitais. Você pode gerenciar e editar seus ativos no AEM Assets. Para obter mais informações sobre o gerenciamento de ativos, consulte [Gerenciar ativos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=pt-BR).
 
 **Gerenciamento de links**
 
