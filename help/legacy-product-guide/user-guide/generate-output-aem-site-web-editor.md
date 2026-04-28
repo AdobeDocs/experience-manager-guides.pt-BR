@@ -33,7 +33,7 @@ Execute as seguintes etapas para criar as predefinições do AEM Sites a partir 
 1. Selecione **AEM Sites** no menu suspenso **Tipo** na caixa de diálogo **Nova predefinição de saída**.
 1. Desmarque a opção **Usar mapeamento de componente herdado** da caixa de diálogo **Nova predefinição de saída**.
 
-![Novo(a) ](images/new-aem-sites-dialog-box.png)
+![Novo(a) &#x200B;](images/new-aem-sites-dialog-box.png)
 
 
 
@@ -42,8 +42,8 @@ Execute as seguintes etapas para criar as predefinições do AEM Sites a partir 
 >[!NOTE]
 >
 >Antes de configurar as predefinições do AEM Sites para o Experience Manager Guides, o administrador precisa criar uma estrutura do AEM Sites usando os modelos.
-- **Software Local**: saiba mais sobre como [baixar e instalar modelos do AEM Sites](/help/product-guide/install-guide/download-install-aem-sites-templates.md) para Software Local.
-- **Cloud Service**: saiba mais sobre como [baixar e instalar modelos do AEM Sites](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md) para Cloud Service.
+>- **Software Local**: saiba mais sobre como [baixar e instalar modelos do AEM Sites](/help/product-guide/install-guide/download-install-aem-sites-templates.md) para Software Local.
+>- **Cloud Service**: saiba mais sobre como [baixar e instalar modelos do AEM Sites](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md) para Cloud Service.
 
 
 

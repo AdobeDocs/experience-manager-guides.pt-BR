@@ -41,4 +41,4 @@ The following sections explain the options available for the supported output fo
 
 As an administrator, Experience Manager Guides allows you to create and manage output presets for the Global and Folder Profiles. For more details, view [Manage Global and Folder Profile output presets](./web-editor-manage-output-presets.md).
 
-**Parent topic:**[ Output generation](generate-output.md)
+**Parent topic:**&#x200B;[&#x200B; Output generation](generate-output.md)

@@ -55,4 +55,4 @@ Execute as seguintes etapas para criar um arquivo de mapa:
    > To use the Advanced Map Editor, access the map file in the Web Editor. In case your administrator has configured the Advanced Map Editor as the default editor in the map files, then the map file is opened directly in the Advanced Map Editor for editing. See *Set the Advanced Map Editor as default* section in Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
 
-**Parent topic:**[ Work with the Map Editor](map-editor.md)
+**Parent topic:**&#x200B;[&#x200B; Work with the Map Editor](map-editor.md)

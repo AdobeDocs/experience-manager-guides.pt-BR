@@ -47,4 +47,4 @@ Also, the Web Editor is DITA-aware and it supports DITA 1.3, 1.2 standards, ligh
 - **[Use labels](web-editor-use-label.md)**
 
 
-**Parent topic:**[ Author content using AEM Guides](authoring-content-xml-doc.md)
+**Parent topic:**&#x200B;[&#x200B; Author content using AEM Guides](authoring-content-xml-doc.md)
