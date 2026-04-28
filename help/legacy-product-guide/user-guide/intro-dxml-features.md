@@ -5,16 +5,16 @@ feature: Introduction
 role: User
 hide: true
 exl-id: b3e17f62-70d0-470e-9e52-73489510c62f
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '985'
 ht-degree: 0%
 
 ---
 
 # Principais recursos do AEM Guides {#id167G9I060SI}
 
-**Criação avançada de DITA e gerenciamento de conteúdo**
+**Criação e gerenciamento de conteúdo avançados de DITA**
 Aumente significativamente a produtividade da criação por meio da fonte única de informações modulares otimizadas para reutilização eficaz em nível detalhado (módulos, componentes, palavras, gráficos, multimídia e traduções\).
 
 O editor integrado baseado na Web ajuda você a criar e gerenciar com facilidade tópicos, mapas e arquivos DITAVAL DITA. O editor integrado tem uma interface de processamento de texto simples e intuitiva, que fornece uma entrada fácil para especialistas no assunto, colaboradores casuais e revisores que podem não ser treinados para usar o DITA. Com a funcionalidade inteligente Inserir elemento, você não precisa se preocupar em colocar um elemento no local correto. Um elemento é sempre inserido no próximo local válido disponível.
@@ -41,12 +41,12 @@ O AEM Guides oferece recursos de análise baseados na Web avançados, mas fácei
 
 Todos os documentos no DAM agora recebem um status de documento. Este status de documento ajuda a identificar o estado no processo de documentação do documento. Como administrador do sistema, você pode definir os estados do documento, os estados inicial e final padrão e a transição de estado do documento para seus documentos.
 
-**Gerenciamento de tradução e suporte de localização líderes do setor**
+**O melhor suporte de gerenciamento e localização para tradução do setor**
 Obtenha economias significativas no tempo e nos custos de tradução e garanta que o conteúdo publicado não contenha erros de tradução.
 
 O Adobe Experience Manager vem com conectores integrados para os principais provedores de tradução. Aproveite esses conectores para gerenciar conteúdo específico do local. Aproveite ao máximo os relatórios de tradução prontos para uso detalhados para identificar o conteúdo não traduzido antes da publicação e tomar as ações corretivas adequadas. Você pode gerenciar o status do conteúdo traduzido em relação às atualizações do idioma principal para realizar a tradução somente para os arquivos DITA atualizados. A identificação manual e demorada dos arquivos a serem enviados para tradução não é necessária.
 
-**A melhor publicação multicanal da classe de conteúdo DITA**
+**A melhor publicação multicanal da categoria de conteúdo DITA**
 Simplifique a publicação de conteúdo corporativo com uma abordagem contínua de um toque que acelera o tempo de entrada no mercado.
 
 Com o suporte ao DITA nativo adicionado ao Experience Manager, gere saída para Experience Manager Sites, PDF, HTML5, EPUBS ou saída personalizada por meio do DITA-OT. Você pode aproveitar a saída totalmente configurável para fornecer experiências de conteúdo altamente personalizadas, relevantes e imersivas para os usuários finais. Você também pode facilmente executar a geração de lotes ou usar a Linha de base para publicar uma versão específica da documentação.

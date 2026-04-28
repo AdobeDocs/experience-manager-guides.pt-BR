@@ -5,9 +5,9 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: 1a61fc05-b2b4-4665-a15a-0058fbbc2942
-source-git-commit: 6050e2667698150df9f76068dce4ca9f9b56a443
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '428'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Execute as seguintes etapas para exibir o Relatório de reutilização de conte�
 
       - **Número de Vezes Reutilizado**: Número de vezes que o tópico correspondente foi reutilizado. Isso é calculado como a soma total das entradas nas colunas Referenciado por menos 1.
 
-      - **Referenciado por**: os tópicos nos quais o tópico correspondente foi referenciado. Aqui, somente as referências diretas \(primeiro nível\) são consideradas. Vários tópicos são separados por vírgulas. A UUID do arquivo referenciado também é mencionada entre parênteses. Clicar no link de título do tópico abre a visualização do tópico.
+      - **Referenciado por**: os tópicos nos quais o tópico correspondente foi referenciado. Aqui, somente as referências diretas \(primeiro nível\) são consideradas. Vários tópicos são separados por vírgulas. A UUID do arquivo referenciado também é mencionada entre parênteses.Clicar no link do título do tópico abre a visualização do tópico.
 
 
 >[!NOTE]

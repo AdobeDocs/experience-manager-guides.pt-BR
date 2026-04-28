@@ -5,9 +5,9 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: 045cafac-393f-49e9-9432-6533a4c6dc01
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '18802'
+source-wordcount: '18945'
 ht-degree: 0%
 
 ---
@@ -174,7 +174,6 @@ Na captura de tela a seguir, apenas 3 dos 4 elementos configurados da captura de
 
 
    - Para criar um Perfil de Publicação do Salesforce, selecione a Base de Conhecimento **Salesforce** na lista suspensa **Tipo de Servidor**. Insira um Nome de perfil. No **URL do Site**, insira o site do consumidor que você usaria para publicar a saída e adicionar a **Chave do Consumidor** e o **Segredo do Consumidor** fornecidos pelo site do consumidor do Salesforce. Em seguida, **Validar** e **Salvar** o perfil recém-criado.
-
      ![perfil de publicação do salesforce nas configurações do editor](./images/salesforce-publish-profile.png){width="550" align="left"}
 
      >[!NOTE]
@@ -632,7 +631,7 @@ As seguintes operações podem ser executadas em um documento com a Exibição d
 
 >[!NOTE]
 >
-> Se um usuário ativar a Exibição de tags no Editor da Web, ela permanecerá ativada mesmo nas sessões. Isso significa que não é necessário ativar a Exibição de tags novamente para acessá-la posteriormente. O valor padrão para a Exibição de tags para a sessão de um novo usuário é determinado pela propriedade tagsView no arquivo ui\_config.json. Para obter mais detalhes, consulte a seção *Configurar valor padrão para Exibição de Tags* em Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service.
+> Se um usuário ativar a Exibição de tags no Editor da Web, ela permanecerá ativada mesmo nas sessões. Isso significa que não é necessário ativar a Exibição de tags novamente para acessá-la posteriormente.O valor padrão para a Exibição de tags da sessão de um novo usuário é determinado pela propriedade tagsView no arquivo ui\_config.json. Para obter mais detalhes, consulte a seção *Configurar valor padrão para Exibição de Tags* em Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service.
 
 **Habilitar/Desabilitar o Controle de Alterações** ![](images/track-change-icon.svg)
 
@@ -735,7 +734,7 @@ Para acessar o histórico de versões e reverter para uma versão específica do
 
    A caixa de diálogo **Histórico da Versão** é exibida.
 
-   ![Caixa de diálogo do histórico de versões](images/version-history-dialog-web-editor.png){width="550" align="left"}
+   ![Caixa de diálogo Histórico de versões](images/version-history-dialog-web-editor.png){width="550" align="left"}
    *Visualize as alterações nas diferentes versões de um tópico.*
 
 1. Escolha uma versão do tópico que você deseja comparar ou reverter na lista suspensa **Comparar com**.
@@ -1039,7 +1038,7 @@ Você verá diferentes opções no menu Opções dependendo se você seleciona u
 - Renomear
 - Excluir
 - Copiar
-- Recolher Tudo
+- Recolher tudo
 - Adicionar a Favoritos
 - Propriedades
 - Exibir na interface do usuário do Assets
@@ -1350,7 +1349,7 @@ A Exibição de Estrutura de Tópicos oferece os seguintes recursos:
 
 - Use a lista suspensa de filtro para mostrar todos os elementos ou somente as referências corrompidas:
 
-- Clicar em um elemento no Modo de Exibição de Estrutura de Tópicos seleciona o conteúdo do elemento no modo de exibição Autor ou Source. O modo de exibição de Estrutura de Tópicos permanece sincronizado com o modo de exibição Autor e Source. Se você fizer alterações em qualquer exibição, poderá vê-las na exibição Estrutura de Tópicos. Por exemplo, se você adicionar um parágrafo ou atualizar um elemento na exibição Autor, ele será mostrado na exibição Estrutura de tópicos.
+- Clicar em um elemento na Exibição de estrutura de tópicos seleciona o conteúdo do elemento na exibição Autor ou Source.A exibição de Estrutura de tópicos permanece sincronizada com a exibição do Autor e do Source. Se você fizer alterações em qualquer exibição, poderá vê-las na exibição Estrutura de Tópicos. Por exemplo, se você adicionar um parágrafo ou atualizar um elemento na exibição Autor, ele será mostrado na exibição Estrutura de tópicos.
 
   ![](images/select-element-content-outline-view_cs.png){width="650" align="left"}
 
@@ -1385,7 +1384,7 @@ Se o administrador tiver criado um perfil para atributos, você obterá esses at
 
 Para obter mais detalhes, consulte os *Atributos de Exibição* na descrição do recurso *Configurações do Editor*, na seção [Painel Esquerdo](web-editor-features.md#id2051EA0M0HS).
 
-**Recurso de pesquisa**
+**Pesquisar recurso**
 Usando o recurso de pesquisa, você pode pesquisar um elemento por seu nome, id, texto ou valor de atributo.
 
 A pesquisa não diferencia maiúsculas de minúsculas e corresponde exatamente à sequência de caracteres. Os resultados da pesquisa são classificados de acordo com a posição do elemento no documento.
@@ -1821,7 +1820,6 @@ Para exibir os comentários de revisão nas tarefas de revisão ativas que estã
    - Insira o termo ou texto de pesquisa que deseja localizar no título do projeto. Pressione Enter para realizar a pesquisa. Por exemplo, você pode pesquisar todos os projetos com o termo &quot;espaço&quot; no título.
 
    - Selecione ![](images/filter-search-icon.svg) para abrir o diálogo **Filtro**. Você pode selecionar todos ou somente projetos específicos. Os projetos selecionados estão listados no painel **Revisão**.
-
      ![](images/active-review-select-project.png){width="300" align="left"}
 
      A opção **Tarefas iniciadas por mim** está habilitada por padrão. Permite exibir somente as tarefas que você iniciou. O estado de alternância dessa opção é mantido mesmo após a atualização da página.

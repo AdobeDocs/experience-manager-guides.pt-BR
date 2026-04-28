@@ -5,9 +5,9 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: d0fc902a-0b50-4af5-9e24-5564d216396c
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '2366'
+source-wordcount: '2384'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,6 @@ Você pode criar um relatório dos tópicos executando as seguintes etapas:
    - **Estado do Documento** O estado atual do tópico.
    - **Autor** O usuário que trabalhou por último no tópico.
    - **Mapa Pai** A lista de todos os mapas nos quais o tópico é referenciado diretamente.
-
    >[!NOTE]
    >
    > Clique em **Atualizar** para obter uma nova lista de tópicos e exibir qualquer alteração no arquivo de mapa ou se qualquer referência no arquivo de tópico for atualizada.
@@ -138,7 +137,6 @@ O relatório **Multimídia** fornece informações detalhadas sobre a multimídi
    - **Tipo de multimídia** \(selecionado por padrão\) Tipo de multimídia. As opções disponíveis são Áudio, Vídeo ou Imagem.
    - **Usado em** \(selecionado por padrão\) As referências nas quais a multimídia foi usada. Você pode clicar na referência para editá-la.
    - **Tipo de Referência** \(selecionado por padrão\) O tipo de referência - direta ou indireta.
-
    >[!NOTE]
    >
    > Clique em **Atualizar** para obter uma nova lista de multimídia e exibir qualquer alteração no arquivo de mapa ou se qualquer multimídia no mapa DITA for atualizada.
@@ -161,11 +159,9 @@ Você pode exibir o relatório de links desfeitos executando as seguintes etapas
 1. No painel **Filtros**, é possível ordenar a lista por links ou pelos nomes de usados nas referências.
 
    - Quando você ordena por **Link quebrado**, os caminhos dos links quebrados são exibidos na primeira coluna e, em seguida, os nomes de todas as referências nas quais eles foram usados são exibidos em outra coluna em linhas separadas. Se o mesmo link quebrado for usado em vários arquivos, eles serão exibidos em uma linha e serão mostrados como agrupados ou sublinhas. Por exemplo, a captura de tela a seguir mostra três links desfeitos na primeira coluna e a referência na qual eles são usados, `TestMap.ditamap`, é exibida na terceira coluna em três linhas separadas.
-
    ![](images/broken-link-report.png){width="800" align="left"}
 
    - Se ordenar por **Usado em** coluna, você exibirá a exibição transposta na qual os nomes das referências nas quais os links desfeitos foram usados são listados na primeira coluna, enquanto os links desfeitos são listados em outra coluna na mesma linha. Por exemplo, a captura de tela a seguir mostra a referência (em que o link quebrado é usado) `TestMap.ditamap` na primeira coluna e os links quebrados são exibidos na terceira coluna na mesma linha.
-
    ![](images/broken-link-filter-usedin.png){width="800" align="left"}
 1. Você pode filtrar os links com falha com base no **Tipo de Arquivo** e no **Tipo de Link**. A lista de links com falha é exibida com base na sua seleção na lista suspensa. Por exemplo, você pode optar por exibir somente as referências de conteúdo no mapa DITA, e um arquivo mostra somente as referências de conteúdo usadas nele.
 

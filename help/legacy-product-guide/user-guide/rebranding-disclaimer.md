@@ -4,7 +4,7 @@ description: Este é um aviso de isenção de responsabilidade para abordar a al
 feature: Disclaimer
 role: User, Leader, Admin, Developer
 hide: true
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 3%

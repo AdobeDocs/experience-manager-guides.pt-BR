@@ -1,35 +1,35 @@
 ---
-title: Noções básicas sobre as predefinições de saída
-description: Entender as predefinições de saída no AEM Guides. Crie predefinições de saída no editor da Web e no painel de mapa para os formatos de site, PDF, HTML5, EPUB, personalizado e JSON do AEM.
+title: Understanding the output presets
+description: Understand the output presets in AEM Guides. Create output presets from the web editor and the map dashboard for AEM site, PDF, HTML5, EPUB, custom, and JSON formats.
 feature: Publishing
 hide: true
 role: User
 exl-id: 682ca543-86f3-46b0-9e05-7e011a4cf7b8
-source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%
 
 ---
 
-# Noções básicas sobre as predefinições de saída {#understanding_output_settings}
+# Understanding the output presets {#understanding_output_settings}
 
-O AEM Guides oferece suporte à criação de saída nos formatos mais populares, como AEM Site, PDF, Knowledge Base, HTML5, EPUB, JSON e saída personalizada por meio do DITA-OT, Native PDF e FMPS. Usando esses formatos de saída, é possível configurar várias predefinições de saída. Uma predefinição de saída representa um formato de saída personalizado no qual você deseja que o conteúdo seja publicado.
+AEM Guides supports creating output in the most popular formats like AEM Site, PDF, Knowledge Base, HTML5, EPUB, JSON, and custom output through DITA-OT, Native PDF, and FMPS. Using these output formats, you can configure various output presets. An output preset represents a customized output format in which you would like the content to be published.
 
-As seções a seguir explicam as opções disponíveis para os formatos de saída compatíveis.
+The following sections explain the options available for the supported output formats.
 
-É possível criar predefinições de duas maneiras:
+You can create presets in two ways:
 
-- **No Editor da Web**: você pode criar predefinições de saída do AEM Site, PDF, Knowledge Base, HTML5, Custom e JSON e gerar as respectivas saídas.
-- **No painel de mapa**: você pode criar um site do AEM, PDF, HTML5, EPUB e predefinição de saída personalizada e gerar as respectivas saídas.
+- **From the Web Editor**: You can create AEM Site, PDF, Knowledge Base, HTML5, Custom, and JSON output preset and generate the respective outputs.
+- **From the map dashboard**: You can create AEM Site, PDF, HTML5, EPUB, and custom output preset and generate the respective outputs.
 
-As seções a seguir explicam as opções disponíveis para os formatos de saída compatíveis.
+The following sections explain the options available for the supported output formats.
 
-- **[Site do AEM](generate-output-aem-site.md)**
+- **[AEM Site](generate-output-aem-site.md)**
 
 - **[PDF](generate-output-pdf.md)**
 
-- **[Base de Dados de Conhecimento](generate-output-knowledge-base.md)**
+- **[Knowledge Base](generate-output-knowledge-base.md)**
 
 - **[HTML5](generate-output-html5.md)**
 
@@ -39,6 +39,6 @@ As seções a seguir explicam as opções disponíveis para os formatos de saíd
 
 - **[JSON](generate-output-json.md)**
 
-Como administrador, o Experience Manager Guides permite criar e gerenciar predefinições de saída para os Perfis global e de pasta. Para obter mais detalhes, consulte [Gerenciar predefinições de saída de Perfil Global e de Pasta](./web-editor-manage-output-presets.md).
+As an administrator, Experience Manager Guides allows you to create and manage output presets for the Global and Folder Profiles. For more details, view [Manage Global and Folder Profile output presets](./web-editor-manage-output-presets.md).
 
-**Tópico pai:**&#x200B;[&#x200B; Geração de saída](generate-output.md)
+**Parent topic:**&#x200B;[&#x200B; Output generation](generate-output.md)

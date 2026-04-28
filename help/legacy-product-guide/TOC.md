@@ -4,10 +4,10 @@ user-guide-description: Leia a documentação do produto Adobe Experience Manage
 breadcrumb-title: Documentação do AEM Guides
 hide: true
 badgeAll: label="Guia da interface antiga - Mais informações" type="Informative" url="/help/legacy-product-guide/disclaimer.md" tooltip="Guia da antiga interface do usuário"
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 3%
+source-wordcount: '599'
+ht-degree: 4%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 3%
 
 - [Aviso](disclaimer.md)
 - [Visão geral do [!DNL AEM Guides]](overview.md)
-- [Informações sobre a versão](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using/release-info/aem-guides-releases-roadmap){target="_blank"}
-- Guia do Usuário (Interface Antiga) {#user-guide}
+- [Informações da versão](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using/release-info/aem-guides-releases-roadmap){target="_blank"}
+- Guia do usuário (interface antiga) {#user-guide}
    - Introdução {#about-aem-guide}
       - [Sobre [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
-      - [!DNL AEM Guides] trabalhando e recursos principais {#aemg-works-features}
+      - [!DNL AEM Guides] trabalhando e os principais recursos {#aemg-works-features}
          - [Como [!DNL AEM Guides] funciona](./user-guide/intro-how-dxml-works.md)
          - [Recursos da chave [!DNL AEM Guides] &#x200B;](./user-guide/intro-dxml-features.md)
    - Gerenciar conteúdo {#manage-content}
@@ -28,8 +28,8 @@ ht-degree: 3%
       - [Fazer upload de arquivos](./user-guide/authoring-upload-existing-files.md)
       - [Gerenciar arquivos e pastas](./user-guide/authoring-file-management.md)
       - [Baixar arquivos](./user-guide/authoring-download-assets.md)
-   - Conteúdo do Autor {#author-content}
-      - [Visão geral de criação](./user-guide/authoring-content.md)
+   - Conteúdo do autor {#author-content}
+      - [Visão geral da criação](./user-guide/authoring-content.md)
       - Criação e visualização do tópico {#create-preview-topics}
          - [Criar e visualizar tópicos](./user-guide/create-preview-topics.md)
          - [Criar tópicos](./user-guide/web-editor-create-topics.md)
@@ -70,7 +70,7 @@ ht-degree: 3%
                - [Outros recursos nos editores de mapa](./user-guide/map-editor-other-features.md)
             - Editor DITAVAL {#ditaval-editor}
                - [Trabalhar com o editor DITAVAL](./user-guide/ditaval-editor.md)
-         - Ferramentas de área de trabalho para criação de conteúdo {#author-using-desktop-tools}
+         - Ferramentas de desktop para criação de conteúdo {#author-using-desktop-tools}
             - [Criar conteúdo usando ferramentas de desktop](./user-guide/author-desktop-tools.md)
             - [Trabalhar com o FrameMaker](./user-guide/author-desktop-framemaker.md)
             - [Trabalhar com oxigênio](./user-guide/author-desktop-oxygen.md)
@@ -79,7 +79,7 @@ ht-degree: 3%
       - [Criar um projeto DITA](./user-guide/authoring-create-dita-project.md)
       - [Enviar tópicos para revisão](./user-guide/review-send-topics-for-review.md)
       - [Reatribuir tarefa de revisão usando notificação](./user-guide/reassign-review-using-notification.md)
-      - Revisão de tópico {#review-topics}
+      - Análise de tópico {#review-topics}
          - [Revisar tópicos](./user-guide/review-topics.md)
          - [Comentários de revisão de endereço](./user-guide/review-address-review-comments.md)
       - [Gerenciar tarefas de revisão usando o Painel de revisão](./user-guide/review-manage-tasks-review-dashboard.md)
@@ -120,7 +120,7 @@ ht-degree: 3%
       - [Publicar fragmentos de conteúdo](./user-guide/publish-content-fragment.md)
       - [Publicar fragmentos de experiência](./user-guide/publish-experience-fragment.md)
       - [Publicar páginas do AEM Sites](./user-guide/publish-aem-sites.md)
-      - Ativação em massa do conteúdo {#bulk-activation}
+      - Ativação em massa de conteúdo {#bulk-activation}
          - [Ativação em massa de conteúdo publicado](./user-guide/conf-bulk-activation.md)
          - [Criar uma coleção de mapas de ativação em massa](./user-guide/conf-bulk-activation-create-map-collection.md)
          - [Ativar saída](./user-guide/conf-bulk-activation-publish-map-collection.md)
@@ -128,7 +128,7 @@ ht-degree: 3%
          - [Excluir uma coleção de mapas de ativação em massa](./user-guide/conf-bulk-activation-delete-map-collection.md)
    - Geração de saída de documentos do FrameMaker {#generate-fm-output}
       - [Gerar saída de documentos do FrameMaker](./user-guide/fm-output-generatation.md)
-      - Predefinições com suporte {#fm-docs-generating-presets}
+      - Predefinições suportadas {#fm-docs-generating-presets}
          - [Predefinições para gerar documentos do FrameMaker](./user-guide/fm-output-understand-presets.md)
          - [PDF](./user-guide/fm-output-pdf-preset.md)
          - [HTML 5](./user-guide/fm-output-html5-preset.md)

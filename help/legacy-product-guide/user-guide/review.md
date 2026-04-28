@@ -1,49 +1,49 @@
 ---
-title: Revisar tópicos ou mapas
-description: Revise tópicos ou mapas com eficiência no AEM Guides para uma avaliação de conteúdo suave. Conhecer os recursos para autores e revisores no AEM Guides.
+title: Review topics or maps
+description: Efficiently review topics or maps in AEM Guides for smooth content evaluation. Know the features for authors and reviewers in AEM Guides.
 feature: Reviewing
 role: User
 hide: true
 exl-id: 21e444e5-28ae-49f0-9010-c8687da16371
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
 
-# Revisar tópicos ou mapas {#id1645H6010Q5}
+# Review topics or maps {#id1645H6010Q5}
 
-Quase todos os documentos técnicos precisam passar por várias rodadas de revisões. Na maioria dos casos, um ciclo de revisão envolve mais de um revisor. Tratar e responder a comentários de vários revisores é sempre desafiador para os autores. Além disso, em um cenário de vários revisores, é útil que um revisor também possa ver os comentários feitos por outros revisores.
+Almost all technical documents need to go through multiple rounds of reviews. In most cases, a review cycle involves more than one reviewer. Addressing and responding to comments from multiple reviewers is always challenging for authors. Also, in a multiple reviewer scenario, it is helpful if one reviewer can also see the comments made by other reviewers.
 
-Alguns dos principais recursos oferecidos pelo AEM Guides aos *iniciadores \(ou autores\)* são:
+Some of the main features offered by AEM Guides to the *initiators \(or authors\)* are:
 
-- Crie um projeto DITA para o fluxo de trabalho de revisão.
-- Envie um ou mais tópicos para revisão em uma única tarefa de revisão.
+- Create a DITA project for the review workflow.
+- Send one or more topics for review in a single review task.
 
-- Envie um tópico para revisão em várias tarefas de revisão.
+- Send a topic for review in multiple review tasks.
 
-- Crie uma tarefa de revisão selecionando um mapa DITA ou tópico com base em sua versão mais recente, versão na data ou um rótulo \(para tópicos\) e Linha de base \(para mapa\).
+- Create a review task by selecting a DITA map or topic based on their latest version, version on date, or a label \(for topics\) and Baseline \(for map\).
 
-- Compartilhe uma versão atualizada do tópico para revisão no Painel de revisão.
+- Share an updated version of the topic for review from the Review Dashboard.
 
-- Acesse comentários compartilhados em diferentes versões do tópico.
+- Access comments shared on different versions of topic.
 
-- Agrupar e filtrar comentários com base na versão do tópico.
+- Group and filter comments based on version of topic.
 
-- Veja as diferenças lado a lado entre as diferentes versões dos tópicos compartilhados para revisão.
+- See side-by-side differences between different versions of topics shared for review.
 
-- Importar comentários \(excluídos ou inseridos\) automaticamente para a versão do tópico que foi compartilhada para revisão.
+- Automatically import \(deleted or inserted\) comments into the version of topic that was shared for review.
 
 
-Recursos disponíveis para os *revisores*:
+Features available to the *reviewers*:
 
-- Obtenha uma exibição composta dos tópicos compartilhados para revisão.
-- Alternar entre a exibição composta e a exibição de tópico individual.
-- Use as ferramentas de comentários, como inserção de texto, exclusão, destaque e observação/comentário para fornecer seu feedback.
-- Anexe um ou vários arquivos a um comentário de revisão.
-- Baixar anexos de um comentário.
-- Use o Painel de revisão para adicionar comentários ou responder a comentários de outros usuários.
+- Get one composite view of the topics shared for review.
+- Switch between composite view and individual topic view.
+- Use the commenting tools, such as text insertion, deletion, highlight, and note/comment to provide their feedback.
+- Attach one or multiple files to a review comment.
+- Download attachments from a comment.
+- Use the Review Panel to add comments or respond to comments from other users.
 - Saiba facilmente a versão do tópico em análise.
 - Receba uma notificação quando uma tarefa for atribuída a eles para revisão.
 - Consulte as diferenças entre as versões mais antiga e mais recente do tópico compartilhado para revisão.

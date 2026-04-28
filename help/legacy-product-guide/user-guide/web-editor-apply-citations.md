@@ -5,9 +5,9 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: 832dbc5d-85f7-41fd-8f5d-789732b46f80
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1887'
+source-wordcount: '1896'
 ht-degree: 0%
 
 ---
@@ -136,7 +136,7 @@ As seguintes opções estão disponíveis na lista suspensa:
 | MLA | APA | Chicago | IEEE | AHA |
 |---|---|---|---|---|
 | Estilo de Associação de Idioma Moderno <br> | American Psychological Association Estilo | Manual de estilo de Chicago | Estilo do Instituto de Engenheiros Elétricos e Eletrônicos | Estilo American Heart Association |
-| Exemplo:<br> Crawford, Claire, et al. *Conteúdo emocional de memórias escuras*.Editado por Memória, vol 16, 2010, Amsterdã. | Exemplo: <br> Crawford, C., J., &amp; , C. (2010). *Conteúdo emocional de memórias escuras* (505-16 ed.). 10.1080/ 09658210902067289 | Exemplo: <br> Crawford, Claire, et al. *Conteúdo emocional das memórias escuras*. 505-16, 2010. | Exemplo: <br> C. Crawford, J. , e C. , *Conteúdo emocional das memórias escuras*. Amsterdam, 2010. | Exemplo: <br> C. Crawford, J. , e C. , *Conteúdo emocional das memórias escuras*. Amsterdam, 2010. |
+| Exemplo:<br> Crawford, Claire, et al. *Conteúdo emocional de memórias escuras*.Editado por Memória, vol 16, 2010, Amsterdã. | Exemplo: <br> Crawford, C., J., &amp; , C. (2010). *Conteúdo emocional de memórias escuras* (505-16 ed.). 10.1080/ 09658210902067289 | Exemplo: <br> Crawford, Claire, et al. *Conteúdo emocional das memórias escuras*. 505-16, 2010. | Exemplo: <br> C. Crawford, J. e C. , *Conteúdo emocional de memórias escuras*. Amsterdam, 2010. | Exemplo: <br> C. Crawford, J. e C. , *Conteúdo emocional de memórias escuras*. Amsterdam, 2010. |
 
 
 ## Editar uma citação
