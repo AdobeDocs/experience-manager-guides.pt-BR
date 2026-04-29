@@ -1,10 +1,10 @@
 ---
-title: Notas de versão | Correção de problemas na versão 5.0.0 do Adobe Experience Manager Guides
+title: Notas de versão | Problemas corrigidos no Adobe Experience Manager Guides, versão 5.0.0
 description: Saiba mais sobre as correções de erros na versão 5.0.0 do Adobe Experience Manager Guides.
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
 source-wordcount: '1221'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -23,18 +23,18 @@ Saiba mais sobre as [instruções de atualização para a versão 5.0.0](upgrade
 - A alteração do valor das linhas de cabeçalho de uma tabela no painel **Propriedades de conteúdo** não aplica o valor atualizado. (23213)
 - Para transições subsequentes de estado do documento de Guias, é necessária uma atualização de página. (19421)
 - Ao adicionar tópicos no mapa DITA usando a caixa de diálogo de elemento **Referência de tópico** na exibição **Autor**, os tópicos selecionados são inseridos na ordem inversa de serem selecionados. (8031)
-- Ao alternar entre a exibição **Autor** e a exibição **Source**, os espaços à esquerda nos elementos `<pre>` ou `<codeblock>` são excluídos e o arquivo é salvo com esta exclusão. (1998)
-- O Estado do Documento marcado como **Concluído** reverte para **Rascunho** antes de salvar uma nova versão, resultando no estado **Concluído** que não persiste em nenhuma versão do documento. (2006)
+- Ao alternar entre a exibição **Autor** e a exibição **Source**, os espaços à esquerda nos elementos `<pre>` ou `<codeblock>` são excluídos e o arquivo é salvo com esta exclusão. (19987)
+- O Estado do Documento marcado como **Concluído** reverte para **Rascunho** antes de salvar uma nova versão, resultando no estado **Concluído** que não persiste em nenhuma versão do documento. (20006)
 - Quando os itens de lista são movidos para fora da tag para, o conteúdo do item de lista é perdido. (22764)
 - Ao adicionar tópicos no mapa DITA usando a caixa de diálogo de elemento **Referência de tópico** na exibição **Autor**, os tópicos selecionados são inseridos na ordem inversa de serem selecionados. (22858)
 - Ao adicionar novas referências de tópico no mapa DITA usando a caixa de diálogo de elemento **Referência de tópico** no modo de exibição **Layout**, as referências adicionadas serão mostradas como links desfeitos. (22859)
 - Ao clicar com o botão direito do mouse na tag `<simpletable>` dentro de um tópico, a opção **Renomear** não é exibida. (22860)
-- Quando você insere um `xref` que utiliza uma referência baseada em chave com texto de link, o texto do link não é exibido no Experience Manager Guides. 18775)
+- Quando você insere um `xref` que utiliza uma referência baseada em chave com texto de link, o texto do link não é exibido no Experience Manager Guides. (18775)
 - Arrastar e soltar uma imagem em um tópico na exibição **Autor** faz com que a referência da imagem seja interrompida, resultando em perda de dados. (25769)
 - Ao pesquisar arquivos no repositório usando a funcionalidade **Pesquisar e filtrar**, não é possível selecionar vários arquivos. (25104)
 - Ao copiar uma imagem de qualquer produto externo (por exemplo, MS PowerPoint) e colá-la nos Guias, a funcionalidade de fazer upload do ativo instantaneamente para uso no arquivo do é interrompida. (24983)
 - Arrastar um `topicref` sobre outro (no modo de exibição **Autor** ou **Layout**) solicita uma confirmação para substituição em vez de aninhar, e selecionar **Não** na caixa de diálogo de confirmação ainda fará com que o conteúdo seja substituído, resultando em perda de dados. (18602)
-- Não é possível adicionar vários atalhos a um único evento, nem adicionar um argumento a um evento ao acioná-lo a partir de um atalho. (1906)
+- Não é possível adicionar vários atalhos a um único evento, nem adicionar um argumento a um evento ao acioná-lo a partir de um atalho. (19066)
 - Ao recarregar o navegador, a guia de imagem fechada anteriormente é reaberta. (19267)
 - Selecionar parcialmente o texto em um elemento de parágrafo ou lista e arrastá-lo para fora do elemento causa perda de conteúdo ao alternar entre as exibições do **Author** e do **Source**. (25790)
 
@@ -64,7 +64,7 @@ Saiba mais sobre as [instruções de atualização para a versão 5.0.0](upgrade
 - O título e o ícone da caixa de diálogo **Forçar exclusão** estão desalinhados na interface do Assets. (21933)
 - Quando qualquer JSON é atualizado no perfil de pasta para Configuração do editor XML, a operação de salvamento interrompe a configuração do editor XML. (22414)
 - Ao duplicar qualquer perfil de pasta, sua lista de usuários administradores também é copiada do perfil da pasta original. (19067)
-- Ocorre um erro ao mover pastas grandes (com um grande volume de conteúdo DITA, até 200.000 itens) da interface do Assets. (2010)
+- Ocorre um erro ao mover pastas grandes (com um grande volume de conteúdo DITA, até 200.000 itens) da interface do Assets. (20107)
 - A edição do perfil **Pasta** com o Unified Shell habilitado resulta em uma interface em branco. (22212)
 - Ao excluir pastas que contêm um grande número de arquivos, a operação falha. (17107)
 - Ao cancelar/excluir o trabalho de tradução ou excluir o projeto, o painel de tradução mostra o status **Em andamento**. (18417)

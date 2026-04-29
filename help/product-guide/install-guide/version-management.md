@@ -5,10 +5,9 @@ exl-id: 24e44618-9c4e-4547-a00d-216ef3fb4854
 feature: Version Management
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '1662'
+source-wordcount: '1668'
 ht-degree: 0%
 
 ---
@@ -19,7 +18,7 @@ O controle de versão é um aspecto importante de qualquer sistema de gerenciame
 
 Como administrador, você pode aplicar regras que impedirão os usuários de editar um arquivo sem fazer check-out. Da mesma forma, é possível garantir que todos os arquivos com check-out sejam verificados novamente para evitar perda de dados.
 
-Em um ambiente multiuso, também é importante garantir que os usuários não excluam arquivos do sistema. Esse requisito é mais crítico para arquivos cujo check-out tenha sido feito por outros usuários.Você pode permitir ou impedir que os usuários substituam arquivos cujo check-out tenha sido feito por outros usuários. Para impedir que os usuários excluam acidentalmente arquivos verificados do sistema, o AEM Guides fornece uma configuração que pode ser usada. Além dos arquivos com check-out, também é possível controlar a exclusão de arquivos que contêm referências ou são referenciados a partir de outros arquivos. Além disso, você também pode criar uma nova versão para o arquivo carregado.
+Em um ambiente multiuso, também é importante garantir que os usuários não excluam arquivos do sistema. Esse requisito é mais crítico para arquivos com check-out feito por outros usuários.Você pode permitir ou impedir que os usuários substituam arquivos cujo check-out tenha sido feito por outros usuários. Para impedir que os usuários excluam acidentalmente arquivos verificados do sistema, o AEM Guides fornece uma configuração que pode ser usada. Além dos arquivos com check-out, também é possível controlar a exclusão de arquivos que contêm referências ou são referenciados a partir de outros arquivos. Além disso, você também pode criar uma nova versão para o arquivo carregado.
 
 ## Criar nova versão para o arquivo carregado
 
@@ -213,7 +212,7 @@ Execute as seguintes etapas para expurgar as versões mais antigas:
 
    ![](assets/preview-purge-report.png){width="350" align="left"}
 
-1. &#x200B;
+1. 
    - **Número de Versões a Reter da Versão Mais Recente**: insira o número de versões que devem ser retidas e não removidas. Por exemplo, se informarmos 5, as últimas 5 versões serão retidas e as versões anteriores serão qualificadas para expurgação caso outras condições de expurgação sejam atendidas.
 - **Reter versões criadas dentro do período \(Em dias\)**: insira a idade máxima de uma versão em dias. As versões anteriores ao número de dias especificado são qualificadas para expurgação caso outras condições de expurgação sejam atendidas. Por exemplo, se informarmos 100, todas as versões criadas antes de 100 dias serão qualificadas para expurgação caso outras condições de expurgação sejam atendidas.
 - **Caminho**: selecione o caminho do arquivo ou pasta cujos arquivos você deseja limpar.

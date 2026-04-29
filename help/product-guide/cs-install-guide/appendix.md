@@ -5,10 +5,9 @@ exl-id: 71b09039-b220-45f3-b334-c23f5b09dadc
 feature: InDesign File Conversion, Troubleshooting
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '2852'
+source-wordcount: '2866'
 ht-degree: 0%
 
 ---
@@ -35,7 +34,7 @@ Execute as seguintes etapas para verificar as referências usando o script de va
 1. Execute o script de validação \[`/bin/fmdita/validatebtree?operation=validate`\] para verificar se há novas referências corrompidas.
 1. Caso o script de validação reporte algum erro, você poderá corrigi-lo usando o script de correção.
 1. Registre os detalhes fornecidos a seguir e, se necessário, compartilhe-os com a equipe de sucesso do cliente:
-1. &#x200B;
+1. 
    - Logs impressos pelo script de validação
 - Pacote de &quot;`/content/fmdita/references`&quot;
 - Quaisquer outros detalhes necessários, dependendo do cenário relatado
@@ -51,7 +50,7 @@ Execute as seguintes etapas para corrigir referências quebradas, usando o scrip
 > É recomendável copiar e salvar os logs para fins de referência.
 
 1. Quando o script de patch for executado com sucesso, você poderá fazer as seguintes verificações:
-1. &#x200B;
+1. 
    - Verificar se um novo nó &quot;`references_backup_<timestamp>"`&quot; foi criado em `/content/fmdita`
 - Verifique se as referências foram corrigidas
 
@@ -345,7 +344,7 @@ O exemplo a seguir mostra como mover um `title` para um `table`:
 
 Os elementos `paragraphStyleRule` estão descritos abaixo:
 
-**&#x200B; `paraRule` elemento**
+** `paraRule` elemento**
 
 O elemento `paraRule` é obrigatório. Especifica as regras de mapeamento para todos os Estilos de parágrafo. Em um documento do InDesign, todo o texto está contido em uma subestrutura de Estilos de parágrafo. Mesmo parágrafos sem nenhum estilo são nomeados como `\[No paragraph style\]`. Os colchetes indicam um nome de estilo InDesign incorporado.
 

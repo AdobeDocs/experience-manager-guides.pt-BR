@@ -5,10 +5,9 @@ exl-id: b2a836a0-de82-4d89-aae3-43276997da74
 feature: Performance Optimization
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '917'
 ht-degree: 0%
 
 ---
@@ -18,7 +17,7 @@ ht-degree: 0%
 ## Configurar armazenamento de dados \(Obrigatório\)
 
 **Qual é a alteração?**
-Defina a propriedade `minRecordLength` com um valor de `100` na configuração `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.`. Para obter mais informações sobre o armazenamento de dados do arquivo e o armazenamento de dados S3, consulte o artigo [Configurando armazenamentos de nós e armazenamentos de dados no AEM 6](https://helpx.adobe.com/br/experience-manager/6-5/sites/deploying/using/data-store-config.html).
+Defina a propriedade `minRecordLength` com um valor de `100` na configuração `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.`. Para obter mais informações sobre o armazenamento de dados do arquivo e o armazenamento de dados S3, consulte o artigo [Configurando armazenamentos de nós e armazenamentos de dados no AEM 6](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/data-store-config.html).
 
 >[!NOTE]
 >
@@ -52,7 +51,7 @@ Os parâmetros de inicialização da JVM devem ser cuidadosamente ajustados com 
 
 - Defina o tamanho do heap de JVM para um mínimo de 1/4 do total de memória disponível. Use o parâmetro `-Xmx<size>` para definir o tamanho da memória de heap. Defina o valor de -`Xms` igual a `-Xmx`.
 
-- Habilitar `-XX:+HeapDumpOnOutOfMemoryError` e definir o caminho para `-XX:HeapDumpPath=</path/to/folder` `>`.
+- Habilitar `-XX:+HeapDumpOnOutOfMemoryError` e definir o caminho para `-XX:HeapDumpPath=</path/to/folder``>`.
 
 - Habilitar log do Java GC como:
 
@@ -116,4 +115,4 @@ Isso pode ser feito em tempo de execução por meio do console Felix ou por meio
 Um número aumentado da propriedade **Limitar Páginas do Site do AEM na Heap** otimiza o processo de geração de saída do Site do AEM.
 
 
-**Tópico pai:**&#x200B;[&#x200B; Baixar e instalar](download-install.md)
+**Tópico pai:**[ Baixar e instalar](download-install.md)

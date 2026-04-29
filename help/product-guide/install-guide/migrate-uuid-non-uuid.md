@@ -5,8 +5,7 @@ exl-id: f8b723bf-84c0-4fe6-936e-63970fb3e417
 feature: Migration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 0%
@@ -57,8 +56,8 @@ O utilitário de migração processa ativos a uma taxa média de ~50 ms por ativ
 
 Para obter etapas detalhadas sobre como migrar seu conteúdo, consulte os seguintes artigos:
 
-- [**4.3.1 não UUID para migração de conteúdo UUID 4.3.2**](./migrate-non-uuid-4-3.md)
-- [**4.6.0 Service Pack 4 não UUID para migração de conteúdo UUID 4.6.1**](./migrate-non-uuid-uuid-4-6.md)
+- [**4.3.1 não UUID para 4.3.2 Migração de conteúdo UUID**](./migrate-non-uuid-4-3.md)
+- [**4.6.0 Service Pack 4 não UUID para 4.6.1 Migração de conteúdo UUID**](./migrate-non-uuid-uuid-4-6.md)
 
 
 

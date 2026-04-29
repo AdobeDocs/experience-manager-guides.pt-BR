@@ -5,10 +5,9 @@ exl-id: 876dfc77-078f-4341-b99d-02a453d2e065
 feature: Filename Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '397'
 ht-degree: 0%
 
 ---
@@ -48,4 +47,4 @@ Para configurar regx para caracteres \(ou permitidos\) válidos em nomes de arqu
 >
 > Semelhante à lista de caracteres de nome de arquivo válidos, você também pode especificar uma lista de caracteres de nome de arquivo válidos para a saída do AEM Site. Para obter mais detalhes, consulte [Configurar nomes de arquivo válidos para a saída do site do AEM](conf-file-names-valid-regx-aem-site-output.md#).
 
-**Tópico pai:**&#x200B;[&#x200B; Configurar nomes de arquivo](conf-file-names.md)
+**Tópico pai:**[ Configurar nomes de arquivo](conf-file-names.md)

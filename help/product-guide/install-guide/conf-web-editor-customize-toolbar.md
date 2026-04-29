@@ -5,10 +5,9 @@ exl-id: 14a82c7e-5c07-43a8-bd9e-b221d80f6d05
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: '967'
 ht-degree: 0%
 
 ---
@@ -19,7 +18,7 @@ Por padrão, o Editor da Web é fornecido com os recursos editoriais mais comuns
 
 >[!NOTE]
 >
-> Ao migrar da interface antiga para a nova interface do AEM Guides (aplicável a partir das versões 2502 e 5.0 do AEM Guides), as atualizações do `ui_config` devem ser convertidas em configurações de interface mais flexíveis e modulares. Essa estrutura ajuda a adotar alterações facilmente na editor_toolbar e em outro widget do target, conforme aplicável. Para obter detalhes, consulte [Visão geral da configuração da interface de conversão](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+> Ao migrar da interface antiga para a nova interface do AEM Guides (aplicável a partir das versões 2502 e 5.0 do AEM Guides), as atualizações do `ui_config` devem ser convertidas em configurações de interface mais flexíveis e modulares. Essa estrutura ajuda a adotar alterações facilmente na editor_toolbar e em outro widget do target, conforme aplicável. Para obter detalhes, consulte [Visão geral da configuração da interface de conversão](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 Há duas maneiras de personalizar a barra de ferramentas do Editor da Web:
 
@@ -50,7 +49,7 @@ Execute as seguintes etapas para adicionar um recurso à barra de ferramentas do
 
 1. No arquivo `ui_config.json`, adicione a definição do novo recurso na seção de barras de ferramentas. Normalmente, você pode criar um novo grupo de botões da barra de ferramentas e adicionar um ou mais botões da barra de ferramentas a ele. Ou você pode adicionar um novo botão de barra de ferramentas em um grupo existente. Os detalhes a seguir são necessários para criar um novo grupo de barras de ferramentas:
 
-   - **tipo:**&#x200B;especifique `blockGroup` como o valor `type`. Esse valor indica que você está criando um grupo de blocos que conteria um ou mais grupos da barra de ferramentas.
+   - **tipo:**especifique `blockGroup` como o valor `type`. Esse valor indica que você está criando um grupo de blocos que conteria um ou mais grupos da barra de ferramentas.
 
    - **classe(s) de extração:** Nome da(s) classe(s) separada(s) por espaço.
 
@@ -226,11 +225,11 @@ Execute as seguintes etapas para remover qualquer recurso indesejado da barra de
 1. Navegue e abra o arquivo `ui_config.json` no nó `apps` para edição.
 O arquivo `ui_config.json` tem três seções:
 
-- **barras de ferramentas:**   Esta seção contém a definição de todos os recursos disponíveis na barra de ferramentas do editor, como Inserir/Remover lista numerada, \(arquivo\) Fechar, Salvar, Comentários e muito mais.
+- **barras de ferramentas:** Esta seção contém a definição de todos os recursos disponíveis na barra de ferramentas do editor, como Inserir/Remover Lista Numerada, \(arquivo\) Fechar, Salvar, Comentários e muito mais.
 
-- **atalhos:**   Esta seção contém a definição de atalhos de teclado atribuídos a um recurso específico no editor.
+- **atalhos:** esta seção contém a definição de atalhos de teclado atribuídos a um recurso específico no editor.
 
-- **modelos:**   Esta seção contém a estrutura predefinida de elementos DITA que você pode usar no documento. Por padrão, a seção de modelos contém definições de modelo para um parágrafo, tabela simples, tabela e elementos de corpo. É possível criar uma definição de modelo para qualquer elemento adicionando uma estrutura XML válida para o elemento desejado. Por exemplo, se você deseja adicionar um elemento `p` a cada novo elemento `li` em uma lista, é possível adicionar o seguinte código no final da seção de modelos para fazer isso:
+- **modelos:** esta seção contém a estrutura predefinida de elementos DITA que você pode usar no documento. Por padrão, a seção de modelos contém definições de modelo para um parágrafo, tabela simples, tabela e elementos de corpo. É possível criar uma definição de modelo para qualquer elemento adicionando uma estrutura XML válida para o elemento desejado. Por exemplo, se você deseja adicionar um elemento `p` a cada novo elemento `li` em uma lista, é possível adicionar o seguinte código no final da seção de modelos para fazer isso:
 
 ```HTML
 "li": "<li><p></p></li>"
@@ -241,4 +240,4 @@ O arquivo `ui_config.json` tem três seções:
 1. Salve o arquivo *ui\_config.json* e recarregue o Editor da Web.
 
 
-**Tópico pai:**&#x200B;[&#x200B; Personalizar editor da Web](conf-web-editor.md)
+**Tópico pai:**[ Personalizar editor da Web](conf-web-editor.md)

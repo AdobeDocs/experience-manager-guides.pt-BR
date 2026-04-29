@@ -2,10 +2,10 @@
 title: Notas de versão | Novidades da versão de fevereiro de 2026 do conteúdo de treinamento e aprendizado do produto
 description: Saiba mais sobre os recursos novos e aprimorados da versão de fevereiro de 2026 do conteúdo de treinamento e aprendizado do produto
 role: Leader
-hidefromtoc: true
-source-git-commit: 16e7f12ddc9e72e4344bf98e65718c0f3681b348
+exl-id: aef24b0c-0cb8-4646-9d8b-92d3460a7faa
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '735'
 ht-degree: 0%
 
 ---
@@ -67,4 +67,3 @@ Os seguintes problemas foram corrigidos na versão de fevereiro de 2026 do conte
 - Quando você clica no índice no painel esquerdo do curso, o curso continua a mostrar o status de conclusão mesmo que o questionário tenha falhado. (GUIDES-40398)
 - Tentar Corresponder ao seguinte tipo de pergunta em um questionário incorretamente no ALM faz com que as opções selecionadas não apareçam no relatório. (GUIDES-38640)
 - Ao gerar a saída do PDF, os estilos de criação aplicados não são preservados, resultando em inconsistências no design. (GUIDES-38642)
-

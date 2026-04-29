@@ -5,11 +5,10 @@ exl-id: 42ba7347-d81d-45d9-9627-8d164e4f9539
 feature: Output Generation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '3778'
-ht-degree: 0%
+source-wordcount: '3818'
+ht-degree: 1%
 
 ---
 
@@ -131,7 +130,7 @@ As propriedades do estilo h1 são mostradas no painel Propriedades junto com sua
    | :- | :- | :- | :- |
    | h1 | Estilo | Decimal | Essas propriedades estão na categoria Autonumeração |
    |  | Formato | `Capter <x>:` |  |
-   |  | Largura do prefixo | 160px |  |
+   |  | Largura do prefixo | 160 px |  |
    |  | Fonte > Alinhamento de texto | Esquerda | Certifique-se de que &#39;Aplicar formatação a&#39; esteja definido como &#39;Numeração&#39; |
    | h2 | Estilo | Decimal | Essas propriedades estão na categoria Autonumeração |
    |  | Formato | `Section <x>:` |  |

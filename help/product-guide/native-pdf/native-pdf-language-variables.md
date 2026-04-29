@@ -5,10 +5,9 @@ exl-id: 2335a7d5-251b-4266-8bba-9c9935e7bbf4
 feature: Output Generation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '1594'
+source-wordcount: '1604'
 ht-degree: 0%
 
 ---
@@ -123,7 +122,7 @@ As variáveis com a mesma ID são importadas após a importação do arquivo. Os
 >[!NOTE]
 > 
 ><ul><li>Se o arquivo não for um arquivo XML ou se contiver um formato incorreto que não mapeie com as variáveis de idioma, você verá um erro de que há um problema com o arquivo XML. 
->&gt;<li>Se o arquivo não contiver variáveis com a mesma ID, você verá um aviso de que nenhuma variável de idioma correspondente é encontrada no arquivo importado.
+&gt;<li>Se o arquivo não contiver variáveis com a mesma ID, você verá um aviso de que nenhuma variável de idioma correspondente é encontrada no arquivo importado.
 
 ### Opções para uma variável de idioma
 
@@ -131,7 +130,7 @@ Passe o mouse sobre a variável para ver o menu **Opções** para ela.
 
 <img width="550" alt="menu de opções para variáveis de idioma" src="./assets/language-variable-user-options.png">
 
-*Use o menu **Opções**&#x200B;para excluir, visualizar ou duplicar uma variável de idioma.*
+*Use o menu **Opções**para excluir, visualizar ou duplicar uma variável de idioma.*
 
 Você pode visualizar as variáveis do aplicativo e do usuário. Para exibir como o valor da variável é exibido na saída, selecione **Visualizar** no menu **Opções** da variável selecionada.
 Você também pode optar por **Excluir** ou **Duplicar** as variáveis de usuário. A exclusão de uma variável de um idioma a exclui automaticamente de todos os idiomas.

@@ -3,10 +3,9 @@ title: Notas de versão | Novidades na versão 2026.03.0 do Adobe Experience Man
 description: Saiba mais sobre os recursos novos e aprimorados da versão 2026.03.0 do Adobe Experience Manager Guides
 role: Leader
 exl-id: ae26dd14-983e-4116-ac8d-729c1f4fad20
-hidefromtoc: true
-source-git-commit: 22ea3fe3ccb974fe3795299f7815e7aae78d41e7
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: '833'
 ht-degree: 0%
 
 ---

@@ -5,17 +5,16 @@ exl-id: 2b385eef-00a7-4c25-9e78-367a0c9e44ba
 feature: Migration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
 
 # Fazer upload de conteúdo DITA existente {#id176FF000JUI}
 
-Provavelmente, você teria um repositório de conteúdo DITA existente que gostaria de usar com o AEM Guides. Para esse conteúdo existente, você pode usar qualquer um dos métodos compatíveis explicados em [Adicionar ativos digitais ao Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=pt-BR).
+Provavelmente, você teria um repositório de conteúdo DITA existente que gostaria de usar com o AEM Guides. Para esse conteúdo existente, você pode usar qualquer um dos métodos compatíveis explicados em [Adicionar ativos digitais ao Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html).
 
 ## Configurar padrão de nome de arquivo UUID
 
@@ -82,4 +81,4 @@ Especifique os seguintes parâmetros para adicionar informações de metadados:
 - `<metadata node path>`: Caminho completo da pasta incluindo o nome do arquivo e seu nó de metadados. Por exemplo, se você especificar o caminho como `http://192.168.1.1:4502/content/dam/projects/AEM-Guides/intro.xml/jcr:content/metadata`, as informações de metadados especificadas serão definidas no arquivo `intro.xml`.
 
 
-**Tópico pai:**&#x200B;[&#x200B; Migrar conteúdo existente](migrate-content.md)
+**Tópico pai:**[ Migrar conteúdo existente](migrate-content.md)

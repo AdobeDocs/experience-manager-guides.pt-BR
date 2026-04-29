@@ -5,11 +5,10 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '9148'
-ht-degree: 0%
+source-wordcount: '9267'
+ht-degree: 1%
 
 ---
 
@@ -27,7 +26,7 @@ Você pode atualizar sua versão atual do Experience Manager Guides para a vers�
 - Se você estiver usando a versão 4.3.x, 4.2, 4.2.1 (Hotfix 4.2.1.3), 4.1 ou 4.1.x, será necessário atualizar para a versão 4.4 antes de atualizar para a versão 5.0.0.
 - Se você estiver usando a versão 4.0, será necessário atualizar para a versão 4.2 antes de atualizar para a versão 4.3.x.
 - Se você estiver usando a versão 3.8.5, será necessário atualizar para a versão 4.0 antes de atualizar para a versão 4.2.
-- Se você estiver usando uma versão anterior à 3.8.5, consulte a seção Atualizar Experience Manager Guides no guia de instalação específico do produto, disponível no [arquivo PDF de ajuda do Adobe Experience Manager Guides](https://helpx.adobe.com/br/xml-documentation-for-experience-manager/archive.html).
+- Se você estiver usando uma versão anterior à 3.8.5, consulte a seção Atualizar Experience Manager Guides no guia de instalação específico do produto, disponível no [arquivo PDF de ajuda do Adobe Experience Manager Guides](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 
 >[!NOTE]
@@ -60,11 +59,11 @@ Antes de executar o processo, há determinadas tarefas que você deve concluir. 
 
 >[!NOTE]
 >
-> Este processo de atualização é aplicável somente da versão 3.8.5 para a versão 4.0. Para o processo de atualização da versão 3.4 ou superior para a 3.8.5, consulte a seção *Atualizar Experience Manager Guides* no guia de instalação específico do produto, disponível em [arquivo PDF de ajuda do Adobe Experience Manager Guides](https://helpx.adobe.com/br/xml-documentation-for-experience-manager/archive.html).
+> Este processo de atualização é aplicável somente da versão 3.8.5 para a versão 4.0. Para o processo de atualização da versão 3.4 ou superior para a 3.8.5, consulte a seção *Atualizar Experience Manager Guides* no guia de instalação específico do produto, disponível em [arquivo PDF de ajuda do Adobe Experience Manager Guides](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 
 
-**&#x200B;**&#x200B;Pré-requisitos&#x200B;**&#x200B;**
+****Pré-requisitos****
 
 Antes de iniciar o processo de atualização do Experience Manager Guides, verifique se você tem:
 
@@ -89,7 +88,7 @@ Essa API foi projetada para avaliar o status atual do sistema e relatar se a atu
 | Ponto final | /bin/dxml/upgrade/3xto4x/report |
 | --- | --- |
 | Tipo de solicitação | **GET** Você pode usar um navegador da Web, no qual você tenha feito logon na instância do AEM como administrador. |
-| Resposta esperada | -   Caso todos os nós necessários possam ser movidos, você receberá uma verificação aprovada. <br>-   Caso um nó esteja presente no local de destino, você receberá um erro relevante. Limpe o repositório \(delete node /var/dxml\) e reinstale o pacote de atualização e acione esse endpoint novamente. <br>**Observação:** não é um erro comum, pois o local de destino não foi usado anteriormente pelo Experience Manager Guides 3.x. <br> -   Se o script não for bem-sucedido, não continue e relate à equipe de sucesso do cliente. |
+| Resposta esperada | - Caso todos os nós necessários possam ser movidos, você receberá uma verificação aprovada. <br>- Caso haja um nó no local de destino, você receberá um erro relevante. Limpe o repositório \(delete node /var/dxml\) e reinstale o pacote de atualização e acione esse endpoint novamente. <br>**Observação:** não é um erro comum, pois o local de destino não foi usado anteriormente pelo Experience Manager Guides 3.x. <br> - Se esse script não for bem-sucedido, não continue e relate à equipe de êxito do cliente. |
 
 **API de migração de dados do sistema**
 
@@ -101,7 +100,7 @@ Esta API foi projetada para migrar os dados do sistema conforme mencionado na se
 | Ponto final | /bin/dxml/upgrade/3xto4x |
 | --- | --- |
 | Tipo de solicitação | **POST** Este script é uma solicitação POST, portanto, deve ser executado por agentes como o Postman. |
-| Resposta esperada | -   Depois que a migração for bem-sucedida, você poderá instalar a solução XML Documentation versão 4.0.<br>-   Caso haja erros, restaure para o último ponto de verificação e compartilhe os logs de erro junto com a saída da API com a equipe de sucesso do cliente. |
+| Resposta esperada | - Depois que a migração for bem-sucedida, você poderá instalar a solução XML Documentation versão 4.0.<br>- Caso haja erros, restaure até o último ponto de verificação e compartilhe os logs de erros, juntamente com a saída da API com a equipe de sucesso do cliente. |
 
 **Mapeamento de Migração**: a API acima migra todos os dados do local de origem para o local de destino.
 
@@ -137,7 +136,7 @@ A atualização para a versão 4.2 depende da versão atual do Experience Manage
 
 Se você estiver usando a versão 4.0, 4.1 ou 4.1.x, é possível atualizar diretamente para a versão 4.2.
 
-**&#x200B;**&#x200B;Pré-requisitos&#x200B;**&#x200B;**
+****Pré-requisitos****
 
 Antes de iniciar o processo de atualização do Experience Manager Guides 4.2, verifique se você tem:
 
@@ -313,7 +312,7 @@ A atualização para a versão 4.2.1 depende da versão atual do Experience Mana
 >
 >O pós-processamento e a indexação podem levar algumas horas. Recomendamos que você inicie o processo de atualização fora do horário de pico.
 
-**&#x200B;**&#x200B;Pré-requisitos&#x200B;**&#x200B;**
+****Pré-requisitos****
 
 Antes de iniciar o processo de atualização do Experience Manager Guides 4.2.1, verifique se você tem:
 
@@ -490,7 +489,7 @@ A atualização para a versão 4.3.0 depende da versão atual do Experience Mana
 >
 >O pós-processamento e a indexação podem levar algumas horas. Recomendamos que você inicie o processo de atualização fora do horário de pico.
 
-**&#x200B;**&#x200B;Pré-requisitos&#x200B;**&#x200B;**
+****Pré-requisitos****
 
 Antes de iniciar o processo de atualização do Experience Manager Guides 4.3.0, verifique se você tem:
 
@@ -527,7 +526,7 @@ Execute as seguintes etapas para o pós-processamento do conteúdo existente e u
    | Ponto final | /bin/guides/reports/upgrade |
    |---|---|
    | Tipo de solicitação | **POST** Este script é uma solicitação POST, portanto, deve ser executado por agentes como o Postman. |
-   | Resposta esperada | A API retornará um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação do GET com a ID do trabalho para o mesmo ponto de extremidade.<br> Exemplo de URL: `http://<server:port>/bin/guides/reports/upgrade` |
+   | Resposta esperada | A API retornará um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação GET com a ID do trabalho para o mesmo ponto de extremidade.<br> Amostra da URL: `http://<server:port>/bin/guides/reports/upgrade` |
 
    | Ponto final | /bin/guides/reports/upgrade |
    |---|---|
@@ -548,7 +547,7 @@ A atualização para a versão 4.3.1 depende da versão atual do Experience Mana
 >
 >O pós-processamento e a indexação podem levar algumas horas. Recomendamos que você inicie o processo de atualização fora do horário de pico.
 
-**&#x200B;**&#x200B;Pré-requisitos&#x200B;**&#x200B;**
+****Pré-requisitos****
 
 Antes de iniciar o processo de atualização do Experience Manager Guides 4.3.1, verifique se você tem:
 
@@ -728,7 +727,7 @@ Execute as seguintes etapas para o pós-processamento do conteúdo existente e u
    | Ponto final | /bin/guides/reports/upgrade |
    |---|---|
    | Tipo de solicitação | **POST** Este script é uma solicitação POST, portanto, deve ser executado por agentes como o Postman. |
-   | Resposta esperada | A API retornará um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação do GET com a ID do trabalho para o mesmo ponto de extremidade.<br> Exemplo de URL: `http://<server:port>/bin/guides/reports/upgrade` |
+   | Resposta esperada | A API retornará um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação GET com a ID do trabalho para o mesmo ponto de extremidade.<br> Amostra da URL: `http://<server:port>/bin/guides/reports/upgrade` |
 
    | Ponto final | /bin/guides/reports/upgrade |
    |---|---|
@@ -789,7 +788,7 @@ A atualização para a versão 4.4.0 depende da versão atual do Experience Mana
 >
 >O pós-processamento e a indexação podem levar algumas horas. Recomendamos que você inicie o processo de atualização fora do horário de pico.
 
-**&#x200B;**&#x200B;Pré-requisitos&#x200B;**&#x200B;**
+****Pré-requisitos****
 
 Antes de iniciar o processo de atualização do Experience Manager Guides 4.4.0, verifique se você tem:
 
@@ -929,7 +928,7 @@ Execute as seguintes etapas para o pós-processamento do conteúdo existente e u
    | Ponto final | /bin/guides/reports/upgrade |
    |---|---|
    | Tipo de solicitação | **POST** Este script é uma solicitação POST, portanto, deve ser executado por agentes como o Postman. |
-   | Resposta esperada | A API retornará um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação do GET com a ID do trabalho para o mesmo ponto de extremidade.<br> Exemplo de URL: `http://<server:port>/bin/guides/reports/upgrade` |
+   | Resposta esperada | A API retornará um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação GET com a ID do trabalho para o mesmo ponto de extremidade.<br> Amostra da URL: `http://<server:port>/bin/guides/reports/upgrade` |
 
    | Ponto final | /bin/guides/reports/upgrade |
    |---|---|
@@ -982,7 +981,7 @@ Se você tiver outro reescritor sling personalizado em sua base de código, use 
 Durante esta atualização, como o valor de `'order'` é alterado de 1000 para 50, você precisa mesclar o reescritor personalizado existente, se houver, com `'fmdita-rewriter'`.
 
 
-**Tópico pai:**&#x200B;[&#x200B; Baixar e instalar](download-install.md)
+**Tópico pai:**[ Baixar e instalar](download-install.md)
 
 
 ## Atualizar para a versão 4.6.0
@@ -997,7 +996,7 @@ A atualização para a versão 4.6.0 depende da versão atual do Experience Mana
 >
 > O pós-processamento e a indexação podem levar algumas horas. Recomendamos que você inicie o processo de atualização fora do horário de pico.
 
-**&#x200B;**&#x200B;Pré-requisitos&#x200B;**&#x200B;**
+****Pré-requisitos****
 
 Antes de iniciar o processo de atualização do Experience Manager Guides 4.6.0, verifique se você tem:
 
@@ -1152,7 +1151,7 @@ Durante esta atualização, como o valor de `'order'` é alterado de 1000 para 5
 >
 > O pós-processamento e a indexação podem levar algumas horas. Recomendamos que você inicie o processo de atualização fora do horário de pico.
 
-**&#x200B;**&#x200B;Pré-requisitos&#x200B;**&#x200B;**
+****Pré-requisitos****
 
 Antes de iniciar o processo de atualização do Experience Manager Guides 5.0.0, verifique se você tem:
 
@@ -1300,7 +1299,7 @@ Durante esta atualização, como o valor de `'order'` é alterado de 1000 para 5
 
 ## Etapas para reindexar o damAssetLucene
 
-A definição do índice é atualizada para damAssetLucene com Guias. Consulte [este artigo](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-kcs/kbarticles/ka-16460) para reindexar o damAssetLucene depois de atualizar para a versão 5.0.0.
+A definição do índice é atualizada para damAssetLucene com Guias. Consulte [este artigo](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) para reindexar o damAssetLucene depois de atualizar para a versão 5.0.0.
 
 >[!NOTE]
 >
@@ -1310,7 +1309,7 @@ A definição do índice é atualizada para damAssetLucene com Guias. Consulte [
 
 >[!IMPORTANT]
 >
-> Se você estiver usando o AEM 6.5 e planeja migrar para o AEM 6.5 LTS, conclua a atualização do AEM primeiro antes de prosseguir com a atualização do Experience Manager Guides 5.1.0. Para obter detalhes, consulte [Atualização para o Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
+> Se você estiver usando o AEM 6.5 e planeja migrar para o AEM 6.5 LTS, conclua a atualização do AEM primeiro antes de prosseguir com a atualização do Experience Manager Guides 5.1.0. Para obter detalhes, consulte [Atualização para o Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
 
 **Pré-requisitos**
 
@@ -1467,7 +1466,7 @@ Durante esta atualização, como o valor de `'order'` é alterado de 1000 para 5
 
 ## Etapas para reindexar o damAssetLucene
 
-A definição do índice é atualizada para damAssetLucene com Guias. Consulte [este artigo](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-kcs/kbarticles/ka-16460) para reindexar o damAssetLucene depois de atualizar para a versão 5.1.0.
+A definição do índice é atualizada para damAssetLucene com Guias. Consulte [este artigo](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) para reindexar o damAssetLucene depois de atualizar para a versão 5.1.0.
 
 >[!NOTE]
 >

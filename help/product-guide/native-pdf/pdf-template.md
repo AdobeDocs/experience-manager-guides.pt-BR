@@ -5,10 +5,9 @@ exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
 feature: Output Generation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: '1181'
 ht-degree: 0%
 
 ---
@@ -94,7 +93,7 @@ Selecione essa opção para exibir o modelo na interface do usuário do Assets. 
 
 Depois de criar o modelo personalizado, você pode escolhê-lo nos Layouts de página na predefinição de saída do PDF.
 
-Saiba como [publicar uma saída do PDF](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=pt-BR).
+Saiba como [publicar uma saída do PDF](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=en).
 
 >[!NOTE]
 >

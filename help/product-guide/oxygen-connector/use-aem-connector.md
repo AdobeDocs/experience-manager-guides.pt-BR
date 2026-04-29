@@ -2,24 +2,23 @@
 title: Plug-in Oxygen para Adobe Experience Manager Guides
 description: Saiba como usar o Oxygen Plugin para Adobe Experience Manager Guides para criar e gerenciar seu conteúdo.
 hide: true
-hidefromtoc: true
 exl-id: 9a140564-27eb-404e-93a5-f5c81364e7f7
 feature: Oxygen Plugin, Authoring, Web Editor
 role: User, Admin
-source-git-commit: b2b26a85236245f989866ab8ee801a930ed8a8c4
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '6347'
+source-wordcount: '6522'
 ht-degree: 0%
 
 ---
 
 # Plug-in Oxygen para Adobe Experience Manager Guides {#id1645H6010Q5}
 
-O Plug-in do Oxygen para o Adobe Experience Manager Guides \(mais tarde conhecido como Plug-in do Oxygen para o AEM Guides no guia\) permite conectar o Oxygen XML Author ao repositório Adobe Experience Manager \(AEM\) para a criação e gerenciamento de conteúdo. Você pode usar o plug-in para procurar, pesquisar e abrir arquivos; arquivos de check-out e check-in; carregar pastas e arquivos no repositório AEM. O painel AEM Guides no aplicativo de desktop permite marcar as pastas desejadas \(do repositório AEM\) para a lista de pastas favoritas para acesso rápido. Além disso, você pode instalar um pacote na interface da web do AEM e abrir seus arquivos DITA no Oxygen XML Author diretamente da interface da web do AEM.
+O Plug-in do Oxygen para o Adobe Experience Manager Guides \(mais tarde conhecido como Plug-in do Oxygen para o AEM Guides no guia\) permite conectar o Oxygen XML Author ao repositório Adobe Experience Manager \(AEM\) para a criação e o gerenciamento de conteúdo. Você pode usar o plug-in para procurar, pesquisar e abrir arquivos; arquivos de check-out e check-in; carregar pastas e arquivos no repositório do AEM. O painel AEM Guides no aplicativo de desktop permite marcar as pastas desejadas \(do repositório do AEM\) para a lista de pastas favoritas para acesso rápido. Além disso, você pode instalar um pacote na interface da Web do AEM e abrir os arquivos DITA no Oxygen XML Author diretamente da interface da Web do AEM.
 
 ## Baixar e instalar {#id1826M0L0PUI}
 
-O plug-in Oxygen para AEM Guides é disponibilizado por meio do Portal de distribuição de software Adobe. Procure por &quot;oxigênio&quot; na guia Experience Manager e baixe o instalador de plug-in do [Portal de distribuição de software Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html).
+O plug-in Oxygen do AEM Guides é disponibilizado por meio do Portal de distribuição de software da Adobe. Pesquise por &quot;oxigênio&quot; na guia Experience Manager e baixe o instalador de plug-in do [Portal de Distribuição de Software da Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html).
 
 >[!NOTE]
 >
@@ -44,7 +43,7 @@ Depois de ter o instalador, instale-o no computador local onde o Oxygen XML Auth
 
 >[!IMPORTANT]
 >
->Se você tiver uma versão mais antiga do plug-in instalada em seu sistema, desinstale-a antes de iniciar o processo de instalação. Consulte a seção **Desinstalando Pacotes** no artigo [Como trabalhar com pacotes](https://helpx.adobe.com/br/experience-manager/6-4/sites/administering/using/package-manager.html) para obter instruções de desinstalação.
+>Se você tiver uma versão mais antiga do plug-in instalada em seu sistema, desinstale-a antes de iniciar o processo de instalação. Consulte a seção **Desinstalando Pacotes** no artigo [Como trabalhar com pacotes](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html) para obter instruções de desinstalação.
 
 Execute as seguintes etapas no sistema em que o Oxygen XML Author está instalado:
 
@@ -67,7 +66,7 @@ Execute as seguintes etapas no sistema em que o Oxygen XML Author está instalad
 
    O painel AEM Guides é exibido no Oxygen XML Author.
 
-   ![Conector AEM](images/oxygen-aem-connector.png){width="800" align="left"}
+   ![Conector do AEM](images/oxygen-aem-connector.png){width="800" align="left"}
 
    >[!NOTE]
    >
@@ -78,7 +77,7 @@ Execute as seguintes etapas no sistema em que o Oxygen XML Author está instalad
 
 >[!IMPORTANT]
 >
->Se você tiver uma versão mais antiga do plug-in instalada em seu sistema, desinstale-a antes de iniciar o processo de instalação. Consulte a seção **Desinstalando Pacotes** no artigo [Como Trabalhar com Pacotes](https://helpx.adobe.com/br/experience-manager/6-4/sites/administering/using/package-manager.html) para obter instruções sobre como desinstalar.
+>Se você tiver uma versão mais antiga do plug-in instalada em seu sistema, desinstale-a antes de iniciar o processo de instalação. Consulte a seção **Desinstalando Pacotes** no artigo [Como Trabalhar com Pacotes](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html) para obter instruções sobre como desinstalar.
 
 Execute as seguintes etapas no sistema em que o Oxygen XML Author está instalado:
 
@@ -99,25 +98,25 @@ Execute as seguintes etapas no sistema em que o Oxygen XML Author está instalad
 
    O painel AEM Guides é exibido no Oxygen XML Author.
 
-   ![Conector AEM Mac](images/oxygen-aem-connector-mac.png) {width="800" align="left"}
+   ![Mac do AEM Connector](images/oxygen-aem-connector-mac.png) {width="800" align="left"}
 
    >[!NOTE]
    >
    >Se você não vir o painel do AEM Guides, consulte as soluções alternativas na seção de solução de problemas—[Painel do AEM Guides ausente](#id192BH200ZAX).
 
 
-### Instale o pacote para ativar o recurso de edição de documentos a partir da interface web AEM {#id182CE0Q0TY4}
+### Instale o pacote para ativar o recurso de edição de documentos na interface da Web do AEM {#id182CE0Q0TY4}
 
-Como autor, você pode abrir e editar seus mapas ou tópicos DITA no Oxygen XML Author diretamente da interface da web do AEM. Para ativar esse recurso na interface da web do AEM, o administrador do AEM precisa instalar um pacote na instância de criação do AEM.
+Como autor, você pode abrir e editar os mapas ou tópicos DITA no Oxygen XML Author diretamente da interface da Web do AEM. Para ativar esse recurso na interface da Web do AEM, o administrador do AEM precisa instalar um pacote na instância de criação do AEM.
 
 Como administrador do AEM, execute as seguintes etapas para instalar o pacote:
 
 1. Obtenha o arquivo .zip do pacote com sua equipe de TI.
-1. Faça logon na instância do AEM *\(como administrador\)* e navegue até o Gerenciador de pacotes da CRX. O URL padrão para acessar o gerenciador de pacotes é
+1. Faça logon na instância do AEM *\(como administrador\)* e navegue até o Gerenciador de pacotes do CRX. O URL padrão para acessar o gerenciador de pacotes é
 
    `http://<server name>:<port>/crx/packmgr/index.jsp`
 
-   O Gerenciador de pacotes gerencia os pacotes na sua instalação local do AEM. Para obter mais informações sobre como trabalhar com o Gerenciador de Pacotes, consulte [Como trabalhar com pacotes](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager.html?lang=pt-BR) na documentação do AEM.
+   O Gerenciador de pacotes gerencia os pacotes na instalação local do AEM. Para obter mais informações sobre como trabalhar com o Gerenciador de Pacotes, consulte [Como trabalhar com pacotes](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager.html?lang=en) na documentação do AEM.
 
    ![Gerenciador de pacotes](images/package-manager.png) {width="650" align="left"}
 
@@ -134,7 +133,7 @@ Como administrador do AEM, execute as seguintes etapas para instalar o pacote:
 1. Após concluir a instalação, clique no botão Início no canto superior esquerdo do Gerenciador de pacotes do CRX.
 1. Selecione um arquivo DITA na pasta de assets.
 
-   A opção **Editar no Oxigênio** está disponível na barra de ferramentas. Para obter mais informações sobre como usar esta opção, consulte [Abrir tópico DITA no Autor de XML de Oxigênio da interface Web do AEM](#id182CE0I905Z).
+   A opção **Editar no Oxigênio** está disponível na barra de ferramentas. Para obter mais informações sobre como usar esta opção, consulte [Abrir tópico DITA no Autor de XML de Oxygen na interface da Web do AEM](#id182CE0I905Z).
 
    >[!NOTE]
    >
@@ -146,7 +145,7 @@ Como administrador do AEM, execute as seguintes etapas para instalar o pacote:
 Depois de baixar e instalar o plug-in, é necessário configurar o seguinte para funcionar com o plug-in:
 
 - **Configurações de autenticação da Web**: configurações para autenticação SSO no plug-in do AEM Guides.
-- **Configurações Gerais**: configurações de conexão para o plug-in, como a URL do servidor AEM, detalhes de logon etc.
+- **Configurações Gerais**: configurações de conexão para o plug-in, como a URL do servidor do AEM, detalhes de logon, etc.
 - **Preferência para a personalização do atributo de criação de perfil e nomes de arquivo em referências cruzadas**: essa configuração é necessária para os esquemas de atributo de criação de perfil dos conjuntos de documentação.
 
 ### Configurações de autenticação da Web
@@ -209,7 +208,7 @@ Execute as seguintes etapas para definir as configurações de conexão no Plug-
 
 1. No painel AEM Guides, clique no ícone de configurações e selecione **Configurações**.
 
-   ![Configurações de conexão &#x200B;](images/settings.png){width="800" align="left"}
+   ![Configurações de conexão ](images/settings.png){width="800" align="left"}
 
 1. Especifique os seguintes detalhes:
    - **URL do Servidor**: URL do servidor AEM, por exemplo:
@@ -218,19 +217,19 @@ Execute as seguintes etapas para definir as configurações de conexão no Plug-
      http[s]://<host>:<port>
      ```
 
-     No URL acima, especifique o nome do host e a porta do servidor onde o servidor AEM está implantado.
+     No URL acima, especifique o nome do host e a porta do servidor onde o servidor do AEM está implantado.
 
      >[!IMPORTANT]
      >
-     >Se o servidor AEM for implantado na porta 80 ou 443, não será necessário especificá-lo no URL.
+     >Se o servidor do AEM for implantado na porta 80 ou 443, não será necessário especificá-lo no URL.
 
    - **Autenticação:** Escolha entre **Básico \(Nome de Usuário/Senha\)** ou **Autenticação da Web**. Caso você selecione a autenticação **Básica**, é necessário inserir o **Nome de Usuário** e a **Senha** na caixa de diálogo Preferências.
 
-     Se você selecionar Autenticação da Web, será exibida a tela de logon AEM. Insira suas credenciais de logon e clique no botão **Entrar**. Ao fazer logon com êxito, a tela de Logon AEM é fechada e o painel AEM Guides exibe a lista de arquivos do servidor AEM.
+     Se você selecionar Web Authentication, será exibida a tela AEM Login. Insira suas credenciais de logon e clique no botão **Entrar**. Ao fazer logon, a tela de Logon do AEM é fechada e o painel AEM Guides exibe a lista de arquivos do servidor do AEM.
 
    - **Tempo limite de conexão**: especifique o tempo em segundos que o cliente aguardará uma resposta do servidor AEM. Caso nenhuma resposta do servidor seja recebida dentro do tempo especificado, a solicitação será encerrada. O valor padrão é de 20 segundos.
 
-   - **Pasta Local**: local no computador local onde os arquivos do repositório AEM são armazenados após o check-out. Se você especificar um local que não existe na unidade, o plug-in criará esse local.
+   - **Pasta Local**: local no computador local onde os arquivos do repositório do AEM são armazenados após o check-out. Se você especificar um local que não existe na unidade, o plug-in criará esse local.
    - **Abrir arquivo com check-out**: se selecionado, abre os arquivos no check-out.
    - **Fechar arquivo ao fazer check-in**: se selecionado, fecha os arquivos no check-in. Antes de fechar o arquivo, você verá uma janela pop-up na qual poderá especificar os comentários da versão.
    - **Mostrar Caixa de Diálogo de Check-in sobre o Fechamento de Arquivo**: Se selecionada, você verá um pop-up ao fechar um arquivo. Na janela pop-up, você pode optar por fazer check-in do arquivo ou fechá-lo sem fazer check-in.
@@ -254,8 +253,7 @@ Execute as seguintes etapas para configurar os atributos de criação de perfil 
 
 1. Na guia **Extensões**, faça as seguintes alterações:
 
-   - Clique em **Escolher** ao lado do **Pacote de extensões** e selecione   `LinkResolverExtensionBundle - com.adobe.o2.framework.extn` na lista **Classe**. Clique em **OK**.
-
+   - Clique em **Escolher** ao lado do **Pacote de extensões** e selecione `LinkResolverExtensionBundle - com.adobe.o2.framework.extn` na lista **Classe**. Clique em **OK**.
      ![Extensão configurada para tópicos DITA](images/dita-map-extenstion-link-resolve.png) {width="650" align="left"}
    - Clique em **Escolher** ao lado de **Ouvinte de Estado de Extensão do Autor** em **Extensões Individuais** e selecione `CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn` na lista **Classe**. Clique em **OK**.
    - Clique em **Escolher** ao lado do **Editor de Valor de Atributo Personalizado de Autor** em **Extensões Individuais** e selecione `CustomValueEditor - com.adobe.o2.framework.extn` na lista **Classe**. Clique em **OK**.
@@ -268,7 +266,7 @@ Execute as seguintes etapas para configurar os atributos de criação de perfil 
 
 ### Configurar extensão do mapa DITA
 
-A configuração da extensão de mapa DITA é necessária para habilitar a abertura de arquivos de mapa no Oxygen XML Author diretamente da interface da web do AEM. Essas configurações são semelhantes às configurações para criar o perfil dos atributos feitas no procedimento anterior.
+A configuração da extensão de mapa DITA é necessária para habilitar a abertura de arquivos de mapa no Oxygen XML Author diretamente da interface da Web do AEM. Essas configurações são semelhantes às configurações para criar o perfil dos atributos feitas no procedimento anterior.
 
 Execute as seguintes etapas para configurar a extensão do mapa DITA:
 
@@ -276,7 +274,7 @@ Execute as seguintes etapas para configurar a extensão do mapa DITA:
 1. Na guia **Associação de Tipo de Documento**, selecione **Mapa DITA** e clique em **Estender**.
 1. Na guia **Classpath**, selecione com.adobe.o2.connector no menu suspenso **Usar carregador de classe pai do plug-in com ID**.
 1. Na guia **Extensões**, faça as seguintes alterações:
-   - Clique em **Escolher** ao lado do **Pacote de extensões** e selecione   `com.adobe.o2.framework.extn.LinkResolverDITAMapExtensionBundle` na lista **Classe**. Clique em **OK**.
+   - Clique em **Escolher** ao lado do **Pacote de extensões** e selecione `com.adobe.o2.framework.extn.LinkResolverDITAMapExtensionBundle` na lista **Classe**. Clique em **OK**.
 
    - Clique em **Escolher** ao lado de **Ouvinte de Estado de Extensão do Autor** em **Extensões Individuais** e selecione `CustomDITAMapAuthorExtensionStateListener - com.adobe.o2.framework.extn` na lista **Classe**. Clique em **OK**.
 
@@ -302,40 +300,40 @@ A tela a seguir mostra o painel AEM Guides.
 
 **A**\) Mostra a barra de Pesquisa.
 
-**B**\) Mostra a pasta Favoritos. Por padrão, está vazio. Você pode adicionar pastas do repositório AEM como favorito, e as pastas favoritas serão exibidas aqui.
+**B**\) Mostra a pasta Favoritos. Por padrão, está vazio. Você pode adicionar pastas do repositório do AEM como favoritas, as pastas favoritas são exibidas aqui.
 
-**C**\) A pasta do DAM mostra o repositório AEM. Você pode expandir e recolher a visualização de pastas.
+**C**\) A pasta do DAM mostra o repositório do AEM. Você pode expandir e recolher a visualização de pastas.
 
 **D**\) O ícone Configurações \(engrenagem\) com as seguintes opções:
 
-- **Conectar**: selecione esta opção para se conectar ao servidor AEM. A opção é desativada quando o Oxygen XML Author está conectado ao servidor AEM.
-- **Atualizar**: selecione essa opção para obter o status mais recente dos arquivos e pastas do repositório AEM.
+- **Conectar**: selecione esta opção para se conectar ao servidor do AEM. A opção é desativada quando o Oxygen XML Author está conectado ao AEM Server.
+- **Atualizar**: selecione essa opção para obter o status mais recente dos arquivos e da pasta do repositório do AEM.
 
   >[!NOTE]
   >
   >Salve os arquivos antes de atualizá-los. Ao selecionar a opção **Atualizar**, você receberá um aviso para salvar seus arquivos antes de atualizá-los. Se você não tiver salvo seus arquivos, clique em **Cancelar** e salve-os.
 
 - **Configurações**: você pode usar esta opção para abrir a caixa de diálogo Preferências gerais do Plug-in.
-- **Logout**: selecione essa opção para fechar a conexão do servidor AEM. Essa opção só estará disponível se você estiver usando o modo de Autenticação da Web.
+- **Logout**: selecione esta opção para fechar a conexão com o servidor AEM. Essa opção só estará disponível se você estiver usando o modo de Autenticação da Web.
 
 ### Funções do menu de contexto
 
-As funções do plug-in Oxygen para AEM Guides estão disponíveis ao clicar com o botão direito do mouse em uma pasta ou arquivo no repositório AEM. As funções disponíveis para as pastas são diferentes dos arquivos. Esta é uma lista completa das funções no menu de contexto do Plug-in Oxygen para AEM Guides:
+As funções do plug-in Oxygen para AEM Guides estão disponíveis ao clicar com o botão direito do mouse em uma pasta ou arquivo no repositório do AEM. As funções disponíveis para as pastas são diferentes dos arquivos. Esta é uma lista completa das funções no menu de contexto do Plug-in Oxygen para AEM Guides:
 
 - **Abrir**: abre o arquivo selecionado ou expande a pasta selecionada.
 - **Abrir em**: você pode optar por abrir o arquivo selecionado no Editor da Web do AEM Guides, no Painel de Mapas ou no Editor de Mapas. Para obter mais informações sobre essas opções, consulte [Abrir arquivo no editor do AEM Guides](#id195GH0V30KX).
-- **Check-out**: faz o check-out de um arquivo do repositório AEM. Para obter mais detalhes, consulte [Arquivos de check-out](#id195HC020TS4).
+- **Check-out**: faz o check-out de um arquivo do repositório do AEM. Para obter mais detalhes, consulte [Arquivos de check-out](#id195HC020TS4).
 - **Check-out com dependentes**: faz check-out de um arquivo com suas referências diretas. Para obter mais detalhes, consulte [Arquivos de check-out](#id195HC020TS4).
 - **Fazer check-out com dependentes somente leitura**: faz check-out do arquivo selecionado junto com seus dependentes. Não é possível fazer alterações nos arquivos dependentes. Para obter mais detalhes, consulte [Arquivos de check-out](#id195HC020TS4).
 - **Cancelar check-out**: cancela o arquivo com check-out, fecha o arquivo do editor e reverte as alterações para a última versão do arquivo salvo no servidor.
-- **Atualizar**: no caso de um arquivo, busca a cópia mais recente do arquivo no repositório AEM. Para uma pasta, ele busca a estrutura da pasta e o status do arquivo. Isso significa que um arquivo foi adicionado e, em seguida, ele será mostrado na Exibição do AEM Guides. Além disso, se o check-out de um arquivo for feito no servidor AEM, fazer uma atualização no Oxygen Author mostrará o arquivo como check-out. No entanto, isso não atualiza a lista de arquivos na Exibição *Arquivos com Check-out no AEM Guides*.
-- **Atualizar Arquivos com Check-out**: atualiza a lista de arquivos com check-out na exibição *Arquivos com Check-out no AEM Guides*. Se o check-out de um arquivo for feito no servidor AEM, a atualização atualizará a lista de arquivos com check-out no modo de exibição *Arquivos com Check-out no AEM Guides*. No entanto, se um novo arquivo tiver sido adicionado ou o status de um arquivo tiver sido alterado, ele não o atualizará na exibição em árvore do AEM Guides. Para atualizar o status dos arquivos no AEM, é necessário fazer uma Atualização.
+- **Atualizar**: no caso de um arquivo, busca a cópia mais recente do arquivo no repositório do AEM. Para uma pasta, ele busca a estrutura da pasta e o status do arquivo. Isso significa que um arquivo foi adicionado e, em seguida, ele será mostrado na Exibição do AEM Guides. Além disso, se o check-out de um arquivo for feito no servidor do AEM, fazer uma atualização no Oxygen Author mostrará o arquivo como check-out. No entanto, isso não atualiza a lista de arquivos na Exibição *Arquivos com Check-out no AEM Guides*.
+- **Atualizar Arquivos com Check-out**: atualiza a lista de arquivos com check-out na exibição *Arquivos com Check-out no AEM Guides*. Se um arquivo estiver com check-out no servidor do AEM, uma atualização atualizará a lista de arquivos com check-out no modo de exibição *Arquivos com Check-out no AEM Guides*. No entanto, se um novo arquivo tiver sido adicionado ou o status de um arquivo tiver sido alterado, ele não o atualizará na exibição em árvore do AEM Guides. Para atualizar o status dos arquivos no AEM, você deve fazer uma Atualização.
 - **Check-in**: faz o check-in de arquivos que você fez check-out. Para obter mais detalhes, consulte [Fazer check-in de um arquivo](#id182CF0J0FHS).
 - **Check-in com dependentes**: se você tiver feito check-out de arquivos com dependentes, essa opção fará check-in no arquivo principal junto com seus dependentes. Para obter mais detalhes, consulte [Fazer check-in de um arquivo](#id182CF0J0FHS).
-- **Criar pasta**: cria uma pasta no repositório AEM. Essa opção está disponível somente no nível da pasta.
+- **Criar pasta**: cria uma pasta no repositório do AEM. Essa opção está disponível somente no nível da pasta.
 - **Carregar arquivo\(s\)**: carrega um ou vários arquivos. Para obter mais detalhes, consulte [Fazer upload de arquivos e pastas](#id195HC03F03J).
 - **Carregar com dependentes**: carrega arquivos DITA \(XML, DITA, Book map ou DITA map\) com seus dependentes. Para obter mais detalhes, consulte [Fazer upload de arquivos e pastas](#id195HC03F03J).
-- **Pasta de Carregamento**: carrega uma pasta no repositório AEM. Para obter mais detalhes, consulte [Fazer upload de arquivos e pastas](#id195HC03F03J).
+- **Carregar pasta**: carrega uma pasta no repositório do AEM. Para obter mais detalhes, consulte [Fazer upload de arquivos e pastas](#id195HC03F03J).
 - **Adicionar aos Favoritos**: adiciona uma pasta à pasta *Favoritos* no painel do AEM Guides. É recomendável adicionar sua pasta de trabalho aqui, o que facilita a sincronização de arquivos e o status do arquivo do AEM.
 - **Remover dos Favoritos**: remove uma pasta dos *Favoritos*. Para obter mais detalhes, consulte [Adicionar ou remover Favoritos](#id195HC04405P).
 - **Exibir Metadados**: mostra os metadados como Classe DITA, Título do documento, Tipo, UUID e outras informações associadas a um arquivo. Para obter mais detalhes, consulte [Exibir metadados de um arquivo](#id195GHN0H05C).
@@ -343,7 +341,7 @@ As funções do plug-in Oxygen para AEM Guides estão disponíveis ao clicar com
 
 ### Abra um arquivo no Oxygen XML Author {#id195GHJ0A0UB}
 
-Depois de se conectar ao repositório AEM, você pode abrir arquivos para edição no Oxygen XML Author. Execute as seguintes etapas para abrir um arquivo para edição no Oxygen XML Author:
+Depois de se conectar ao repositório do AEM, é possível abrir arquivos para edição no Oxygen XML Author. Execute as seguintes etapas para abrir um arquivo para edição no Oxygen XML Author:
 
 1. Clique com o botão direito do mouse em um arquivo no painel AEM Guides que deseja abrir para edição.
 
@@ -381,7 +379,7 @@ Se quiser usar os editores disponíveis no AEM Guides, selecione a opção neces
 
 ### Fazer check-out de arquivos {#id195HC020TS4}
 
-Ao fazer check-out de um arquivo, ele é armazenado localmente no sistema e bloqueado para edição no repositório AEM. Execute as seguintes etapas para fazer check-out de um arquivo:
+Ao fazer check-out de um arquivo, ele é armazenado localmente no sistema e bloqueado para edição no repositório do AEM. Execute as seguintes etapas para fazer check-out de um arquivo:
 
 1. Você pode fazer check-out dos arquivos de uma das seguintes maneiras:
    - Clique com o botão direito do mouse em um arquivo no painel AEM Guides.
@@ -390,7 +388,7 @@ Ao fazer check-out de um arquivo, ele é armazenado localmente no sistema e bloq
    - Clique com o botão direito do mouse na guia do arquivo ao abrir um mapa ou tópico no Editor.
 
 1. Selecione uma das seguintes opções:
-   - **Check-out:** faz o check-out de um arquivo do repositório AEM e o disponibiliza para edição.
+   - **Check-out:** faz o check-out de um arquivo do repositório do AEM e o disponibiliza para edição.
    - **Check-out com dependentes**: faz check-out de um arquivo com suas referências diretas. É possível fazer alterações em páginas pai e filho usando essa opção. O plug-in Oxygen para AEM Guides oferece suporte à verificação de um nível de dependentes. Por exemplo, o Mapa A faz referência ao Tópico A e o Tópico A faz referência ao Tópico B. Fazer check-out do Mapa A finalizará o Tópico A, independentemente do seu nível na hierarquia do índice. No entanto, ele não verificará o Tópico B porque não está diretamente vinculado do Mapa A.
    - **Check-out com dependentes somente leitura**: faz o check-out de um arquivo e baixa seus dependentes para o computador local como cópias somente leitura. Não é possível fazer alterações nos arquivos dependentes.
 
@@ -406,11 +404,11 @@ Na captura de tela acima, um arquivo com check-out feito por outro usuário é m
 
 >[!NOTE]
 >
->Se o arquivo com check-out for excluído ou movido para qualquer outra pasta no AEM, você receberá uma mensagem de erro ao fazer check-in do arquivo. Certifique-se de que o arquivo com check-out não seja movido ou excluído usando a interface da Web AEM.
+>Se o arquivo com check-out for excluído ou movido para qualquer outra pasta no AEM, você receberá uma mensagem de erro ao fazer check-in do arquivo. Certifique-se de que o arquivo com check-out não seja movido ou excluído usando a interface da Web do AEM.
 
 ### Fazer check-in de um arquivo {#id182CF0J0FHS}
 
-Ao fazer check-in de um arquivo, a cópia local do sistema é armazenada no repositório AEM e o bloqueio do arquivo é removido. Execute as seguintes etapas para fazer check-in de um arquivo:
+Ao fazer check-in de um arquivo, a cópia local do sistema é armazenada no repositório do AEM e o bloqueio do arquivo é removido. Execute as seguintes etapas para fazer check-in de um arquivo:
 
 1. Salve o arquivo clicando em **Arquivo** \> **Salvar**.
 
@@ -422,7 +420,7 @@ Ao fazer check-in de um arquivo, a cópia local do sistema é armazenada no repo
 
 1. Escolha entre as duas opções a seguir:
 
-   - **Check-in**: faz o check-in do arquivo selecionado do sistema local no repositório AEM.
+   - **Check-in**: faz o check-in do arquivo selecionado do sistema local no repositório do AEM.
    - **Check-in com Dependentes:** Se você tiver feito check-out de um arquivo junto com seus dependentes, use esta opção para fazer check-in de todos os arquivos dependentes em uma única operação. Ao selecionar essa opção, você verá a caixa de diálogo Check-in com todos os arquivos dependentes. Clique em OK para fazer check-in de todos os arquivos de uma só vez.
 
    Se você não tiver feito check-out de arquivos dependentes e escolher essa opção, então somente os arquivos dependentes aos quais você \(separadamente\) fez check-out serão submetidos a check-in. Você verá uma lista de arquivos que não puderam ser verificados:
@@ -433,13 +431,13 @@ Ao fazer check-in de um arquivo, a cópia local do sistema é armazenada no repo
 
    Se um arquivo dependente for submetido a check-out no AEM, o Check-in com Dependentes não mostrará o arquivo dependente na caixa de diálogo Check-in. Para obter uma lista de arquivos dependentes que estão check-out no AEM, você deve fazer uma Atualização de pasta.
 
-   Da mesma forma, se você tiver feito o check-in de um arquivo dependente por meio do AEM, a lista de arquivos não será atualizada no Oxygen Author até que você faça uma pasta Atualizar e atualizar arquivos com check-out. Se você fizer um Check-in com Dependentes com alguns arquivos verificados por meio do AEM, você receberá um erro listando os arquivos que não puderam ser verificados.
+   Da mesma forma, se você tiver feito o check-in de um arquivo dependente por meio do AEM, a lista de arquivos não será atualizada no Oxygen Author até que você faça uma pasta Atualizar e atualizar arquivos com check-out. Se você fizer um Check-in com Dependentes com alguns arquivos com check-in feito pelo AEM, será exibido um erro listando os arquivos que não puderam ser submetidos a check-in.
 
 1. \(Opcional\) Na caixa de diálogo **Check-in** ou **Check-in com Dependentes**, adicione um comentário na caixa de texto **Comentários da Versão**.
 
    >[!NOTE]
    >
-   >Este comentário é exibido no histórico de versões AEM do arquivo.
+   >Este comentário é exibido no histórico de versões do AEM do arquivo.
 
 1. Adicionar rótulo(s) na caixa de texto **Rótulo** do **Check-in** ou da caixa de diálogo **Check-in com Dependentes**. Insira um rótulo e pressione Enter. Por exemplo, *2307 Versão*.
 
@@ -447,23 +445,23 @@ Ao fazer check-in de um arquivo, a cópia local do sistema é armazenada no repo
 
    ![Caixa de diálogo de check-in](images/checkin-dropdown-labels.png){width="550" align="left"}
 
-   Você pode adicionar vários rótulos (separados por vírgulas) à mesma versão de um tópico.  Por exemplo, *Adobe*, *AEM*, *Guias*.
+   Você pode adicionar vários rótulos (separados por vírgulas) à mesma versão de um tópico.  Por exemplo, *Adobe*, *AEM*, *Guides*.
 No entanto, não é possível adicionar o mesmo rótulo às diferentes versões de um tópico. Se você adicionar um rótulo já adicionado a uma versão anterior, ele será adicionado à versão mais recente e removido da versão anterior.
 
    >[!NOTE]
    > 
-   > Esses rótulos são exibidos no histórico de versões AEM do arquivo.
+   > Esses rótulos são exibidos no histórico de versões do AEM do arquivo.
 
 
 1. Clique em **OK**.
 
 >[!NOTE]
 >
->Se o arquivo com check-out for excluído ou movido para qualquer outra pasta no AEM, você receberá uma mensagem de erro ao fazer check-in do arquivo. Certifique-se de que o arquivo com check-out não seja movido ou excluído usando a interface da Web AEM.
+>Se o arquivo com check-out for excluído ou movido para qualquer outra pasta no AEM, você receberá uma mensagem de erro ao fazer check-in do arquivo. Certifique-se de que o arquivo com check-out não seja movido ou excluído usando a interface da Web do AEM.
 
 ### Arquivos com check-out na exibição do AEM Guides
 
-Quando você tem arquivos em várias pastas, não é fácil descobrir quantos arquivos foram submetidos a check-out em uma visualização. O AEM Guides fornece Arquivos com check-out na exibição do AEM Guides, que fornece um instantâneo completo dos arquivos com check-out no momento. Usando essa visualização, você pode descobrir facilmente quais arquivos foram verificados por você no repositório AEM usando o AEM Guides. Execute as seguintes etapas para acessar e trabalhar com essa visualização:
+Quando você tem arquivos em várias pastas, não é fácil descobrir quantos arquivos foram submetidos a check-out em uma visualização. O AEM Guides fornece Arquivos com check-out na exibição do AEM Guides, que fornece um instantâneo completo dos arquivos com check-out no momento. Usando essa visualização, você pode descobrir facilmente quais arquivos foram verificados por você no repositório do AEM usando o AEM Guides. Execute as seguintes etapas para acessar e trabalhar com essa visualização:
 
 1. Clique em **Janela** \> **Mostrar Exibição** \> **Arquivos com Check-out no AEM Guides**.
 
@@ -485,7 +483,7 @@ Quando você tem arquivos em várias pastas, não é fácil descobrir quantos ar
 
 - O Check-out de *Arquivos na Exibição do AEM Guides* mantém sessões do usuário. Isso significa que os arquivos com check-out feito pelo usuário atual são armazenados e mantidos na visualização nas mesmas sessões do usuário \(ou cache\).
 
-- Se o usuário alterar as credenciais de logon ou o servidor AEM, os dados do arquivo com check-out \(ou cache\) na exibição serão redefinidos. O usuário deve executar manualmente um comando *Atualizar Arquivos com Check-out* em cada pasta de onde os arquivos tiveram check-out anteriormente. Para simplificar, é recomendável adicionar suas pastas de trabalho a *Favoritos*, de onde você pode atualizar rapidamente as pastas.
+- Se o usuário alterar as credenciais de logon ou o servidor do AEM, os dados do arquivo com check-out \(ou cache\) na exibição serão redefinidos. O usuário deve executar manualmente um comando *Atualizar Arquivos com Check-out* em cada pasta de onde os arquivos tiveram check-out anteriormente. Para simplificar, é recomendável adicionar suas pastas de trabalho a *Favoritos*, de onde você pode atualizar rapidamente as pastas.
 
 - Você pode classificar a lista de arquivos com base nos nomes de arquivo, Título ou Caminho. Se for feito o check-out de um novo arquivo, ele aparecerá na ordem de classificação na exibição.
 
@@ -496,13 +494,13 @@ Execute as seguintes etapas para fazer upload de arquivos ou pastas:
 
 1. Clique com o botão direito do mouse em uma pasta no painel AEM Guides.
 1. Selecione uma das seguintes opções:
-   - **Carregar arquivo\(s\)**: selecione essa opção para carregar um ou vários arquivos para a pasta selecionada no repositório AEM. Na caixa de diálogo Selecionar arquivos \(s\) para upload, selecione os arquivos e clique em **Abrir**.
+   - **Carregar arquivo\(s\)**: selecione essa opção para carregar um ou vários arquivos para a pasta selecionada no repositório do AEM. Na caixa de diálogo Selecionar arquivos \(s\) para upload, selecione os arquivos e clique em **Abrir**.
    - **Carregar com dependentes**: selecione esta opção para carregar um arquivo DITA com seus dependentes. Na caixa de diálogo Selecionar arquivo para carregamento, selecione os arquivos e clique em **Abrir**.
-   - **Carregar pasta**: selecione essa opção para carregar uma pasta no repositório AEM. Na caixa de diálogo Escolher, selecione a pasta e clique em **Escolher**.
+   - **Carregar pasta**: selecione esta opção para carregar uma pasta no repositório do AEM. Na caixa de diálogo Escolher, selecione a pasta e clique em **Escolher**.
 
 **Observações adicionais sobre o trabalho com arquivos baseados em UUID**:
 
-Os seguintes pontos devem ser considerados ao mover ou copiar o conteúdo do seu sistema local para o repositório do AEM:
+Os seguintes pontos devem ser considerados ao mover ou copiar o conteúdo do sistema local para o repositório do AEM:
 
 - Ao carregar um ou mais arquivos, um novo UUID é gerado para arquivos que não têm UUID. Esta UUID é adicionada no `topic id` de um arquivo DITA.
 
@@ -516,7 +514,7 @@ Os seguintes pontos devem ser considerados ao mover ou copiar o conteúdo do seu
 
 - Se um arquivo estiver sendo carregado por dois usuários diferentes ao mesmo tempo, o arquivo processado posteriormente substituirá o arquivo anterior. No entanto, tal prática deve ser evitada.
 
-- Ao fazer check-out do conteúdo do repositório AEM e fazer alterações no sistema local, verifique se o nome do arquivo não foi alterado no momento do upload do arquivo.
+- Ao fazer check-out do conteúdo do repositório do AEM e fazer alterações no sistema local, verifique se o nome do arquivo não foi alterado no momento do upload do arquivo.
 
 - Ao inserir uma referência no Gerenciador de mapas DITA ou no Editor, ela exibe o título do arquivo e não a UUID. Se o título não estiver presente, ele exibirá o nome do arquivo.
 
@@ -527,7 +525,7 @@ Execute as seguintes etapas para adicionar ou remover uma pasta da pasta Favorit
 - Clique com o botão direito do mouse em uma pasta e selecione **Adicionar a Favoritos**. Você pode adicionar uma pasta aos favoritos se ela não estiver em Favoritos.
 - Você pode remover uma pasta dos favoritos das seguintes maneiras:
    - Clique com o botão direito do mouse em uma pasta da pasta **Favoritos** e selecione **Remover dos Favoritos**.
-   - Clique com o botão direito do mouse em uma pasta no repositório AEM na pasta **DAM** que já foi adicionada como favorita e selecione **Remover dos favoritos**.
+   - Clique com o botão direito do mouse em uma pasta no repositório do AEM na pasta **DAM** que já foi adicionada como favorita e selecione **Remover dos favoritos**.
 
 ### Exibir o histórico de versões de um arquivo {#id195GI000D5Q}
 
@@ -555,13 +553,13 @@ Execute as seguintes etapas para exibir os metadados de um arquivo:
    ![Exibir metadados](images/metadata.png){width="550" align="left"}
 
 
-## Pesquisar um tópico no repositório AEM {#id1826J20405Z}
+## Pesquisar um tópico no repositório do AEM {#id1826J20405Z}
 
-Você pode pesquisar tópicos no repositório AEM usando a barra de Pesquisa no painel AEM Guides. Pesquise em toda a pasta do DAM ou selecione uma pasta e procure um tópico nessa pasta. O resultado da pesquisa mostra os tópicos que têm texto correspondente à sua consulta de pesquisa.
+Você pode pesquisar tópicos no repositório do AEM usando a barra Pesquisar no painel AEM Guides. Pesquise em toda a pasta do DAM ou selecione uma pasta e procure um tópico nessa pasta. O resultado da pesquisa mostra os tópicos que têm texto correspondente à sua consulta de pesquisa.
 
 Execute as seguintes etapas para pesquisar tópicos:
 
-1. Selecione uma pasta no repositório AEM em que deseja pesquisar um tópico.
+1. Selecione uma pasta no repositório do AEM em que deseja pesquisar um tópico.
 1. Insira a consulta de pesquisa \(por exemplo, `introduction`\) na barra de Pesquisa do Plug-in Oxygen para AEM Guides.
 1. Clique no botão de pesquisa ou pressione Enter.
 
@@ -570,13 +568,13 @@ Execute as seguintes etapas para pesquisar tópicos:
    ![Resultados da pesquisa](images/search.png){width="550" align="left"}
 
 1. \(Opcional\) Clique duas vezes em um arquivo no resultado da pesquisa para abri-lo no Oxygen XML Author.
-1. Para voltar para a exibição do Repositório AEM, siga um destes procedimentos:
-   - Para exibir o Repositório AEM sem limpar os resultados da pesquisa, clique na guia **Procurar**.
-   - Para limpar os resultados da pesquisa e exibir o Repositório AEM, clique em Excluir ícone de pesquisa.
+1. Para voltar para a exibição do Repositório do AEM, siga um destes procedimentos:
+   - Para exibir o Repositório do AEM sem limpar os resultados da pesquisa, clique na guia **Procurar**.
+   - Para limpar os resultados da pesquisa e exibir o Repositório do AEM, clique em Excluir ícone de pesquisa.
 
-## Abrir tópico DITA no Oxygen XML Author da interface da web do AEM {#id182CE0I905Z}
+## Abrir tópico DITA no Oxygen XML Author da interface da Web do AEM {#id182CE0I905Z}
 
-Você pode abrir e editar seu tópico DITA no Oxygen XML Author da interface da web do AEM. É necessário instalar um pacote no AEM para habilitar essa opção. Para obter mais informações sobre a instalação do pacote, consulte [Instalar o pacote para habilitar o recurso de edição de documentos da interface Web AEM](#id182CE0Q0TY4).
+É possível abrir e editar o tópico DITA no Oxygen XML Author na interface da Web do AEM. É necessário instalar um pacote no AEM para habilitar essa opção. Para obter mais informações sobre a instalação do pacote, consulte [Instalar o pacote para habilitar o recurso de edição de documentos da interface Web do AEM](#id182CE0Q0TY4).
 
 >[!NOTE]
 >
@@ -592,7 +590,7 @@ Execute as seguintes etapas para abrir um tópico DITA no Oxygen XML Author:
    >
    >Se o tópico não tiver sofrido check-out, ele será primeiramente submetido a check-out e, em seguida, aberto no Oxygen no modo de edição.
 
-1. Selecione Oxygen XML Author *&lt;version\>* na caixa de mensagem **Launch Application**. Você pode selecionar a opção **Lembrar minha escolha para links AEM** para salvar sua preferência.
+1. Selecione Oxygen XML Author *&lt;version\>* na caixa de mensagem **Launch Application**. Você pode selecionar a opção **Lembrar minha escolha para links do AEM** para salvar sua preferência.
 
 **Editar um tópico DITA**
 
@@ -605,7 +603,7 @@ Execute as seguintes etapas para editar um tópico DITA no Oxygen XML Author:
    >
    >Se o tópico não tiver sofrido check-out, ele será primeiramente submetido a check-out e, em seguida, aberto no Oxygen no modo de edição.
 
-1. Selecione Oxygen XML Author *&lt;version\>* na caixa de mensagem **Launch Application**. Você pode selecionar a opção **Lembrar minha escolha para links AEM** para salvar sua preferência.
+1. Selecione Oxygen XML Author *&lt;version\>* na caixa de mensagem **Launch Application**. Você pode selecionar a opção **Lembrar minha escolha para links do AEM** para salvar sua preferência.
 1. Edite o tópico no Autor de XML do Oxygen.
 1. Acesse o tópico do Plug-in Oxygen para AEM Guides.
 
@@ -613,7 +611,7 @@ Execute as seguintes etapas para editar um tópico DITA no Oxygen XML Author:
 
    >[!NOTE]
    >
-   >Certifique-se de fazer check-in do tópico usando o Plug-in Oxygen para AEM Guides. Se você fizer check-in a partir da interface da Web AEM, as alterações feitas no Oxygen XML Author não serão salvas na versão de check-in do tópico.
+   >Certifique-se de fazer check-in do tópico usando o Plug-in Oxygen para AEM Guides. Se você fizer check-in na interface da Web do AEM, as alterações feitas no Autor XML do Oxygen não serão salvas na versão de check-in do tópico.
 
 **Inserir uma referência a um tópico do repositório do Experience Manager Guides**
 
@@ -636,7 +634,7 @@ Se você soltar no Editor ou no Gerenciador de mapas DITA com um Mapa aberto:
 
 ## Trabalhar com perfis de atributo {#id1827JA002YK}
 
-O AEM Guides permite criar e associar facilmente atributos condicionais usando os atributos DITA relevantes. Você pode definir atributos condicionais no nível global ou no nível da pasta. As condições definidas globalmente são visíveis em todos os projetos e as condições no nível da pasta são visíveis somente em projetos criados na pasta especificada. Os autores de conteúdo podem usar esses atributos condicionais para condicionar o conteúdo em seus tópicos ou mapas DITA que eles criam ou usam. Para saber mais sobre como criar atributos condicionais no AEM usando a AEM Guides, consulte a seção *Configurar atributos condicionais para perfis globais ou de nível de pasta*, em Instalar e configurar o Adobe Experience Manager Guides.
+O AEM Guides permite criar e associar facilmente atributos condicionais usando os atributos DITA relevantes. Você pode definir atributos condicionais no nível global ou no nível da pasta. As condições definidas globalmente são visíveis em todos os projetos e as condições no nível da pasta são visíveis somente em projetos criados na pasta especificada. Os autores de conteúdo podem usar esses atributos condicionais para condicionar o conteúdo em seus tópicos ou mapas DITA que eles criam ou usam. Para saber mais sobre como criar atributos condicionais no AEM usando o AEM Guides, consulte a seção *Configurar atributos condicionais para perfis globais ou de nível de pasta* em Instalar e configurar o Adobe Experience Manager Guides.
 
 >[!NOTE]
 >
@@ -712,7 +710,7 @@ Execute as seguintes etapas para alterar a porta padrão do servidor proxy:
 
 ### O painel AEM Guides não navega até o local do arquivo aberto
 
-Problema: Quando você opta por abrir um arquivo para edição no Oxygen XML Author do servidor AEM, o arquivo é aberto para edição no Oxygen XML Author. No entanto, o painel AEM Guides não mostra o local do arquivo na árvore de navegação.
+Problema: quando você opta por abrir um arquivo para edição no Oxygen XML Author do servidor do AEM, o arquivo é aberto para edição no Oxygen XML Author. No entanto, o painel AEM Guides não mostra o local do arquivo na árvore de navegação.
 
 Solução: esse problema foi observado em cenários em que o caminho do arquivo contém /content/dam duas vezes nele. Por padrão, todos os ativos no AEM são armazenados na pasta /content/dam. Se você fizer upload ou criar uma estrutura de pastas que também contenha /content/dam, esse problema será observado. Você pode executar todas as operações normais nesses arquivos, no entanto, o local na árvore de navegação não é mostrado por padrão. Para acessar esse arquivo na árvore de navegação, é necessário navegar manualmente até o local do arquivo. Observe que na árvore de navegação, o caminho /content/dam duplicado é substituído por /content/assets.
 

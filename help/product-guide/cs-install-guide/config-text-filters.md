@@ -5,10 +5,9 @@ exl-id: 0963606c-010e-4a72-b7bf-850b86b34a84
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '389'
 ht-degree: 0%
 
 ---
@@ -71,14 +70,14 @@ Execute as seguintes etapas para configurar os filtros de texto:
 
       No trecho de código acima, o primeiro filtro é para Arquivos DITA. A definição do filtro usa os seguintes parâmetros:
 
-      **&#x200B;**&#x200B;Título&#x200B;**&#x200B;**: o nome para exibição do filtro. Este título aparece como a opção de filtragem na caixa de diálogo de procura de arquivo.
+      ****Título****: o nome para exibição do filtro. Este título aparece como a opção de filtragem na caixa de diálogo de procura de arquivo.
 
-      **&#x200B;**&#x200B;Propriedade&#x200B;**&#x200B;**: a propriedade que deve corresponder aos metadados do arquivo. Por exemplo, para permitir somente os arquivos que têm os metadados dita\_class em sua propriedade, o filtro de propriedade usa &quot;jcr:content/metadata/dita\_class&quot; como seu valor.
+      ****Propriedade****: a propriedade que deve corresponder aos metadados do arquivo. Por exemplo, para permitir somente os arquivos que têm os metadados dita\_class em sua propriedade, o filtro de propriedade usa &quot;jcr:content/metadata/dita\_class&quot; como seu valor.
 
-      **&#x200B;**&#x200B;Operação **:**&#x200B;especifique &quot;existe&quot; para corresponder à existência do valor especificado no parâmetro de propriedade
+      ****Operação **:**especifique &quot;existe&quot; para corresponder à existência do valor especificado no parâmetro de propriedade
 
 1. Carregue o arquivo ui\_config.json atualizado que contém os filtros adicionados.
 
 Os filtros configurados estão disponíveis no painel Filtros.
 
-**Tópico pai:**&#x200B;[&#x200B; Personalizar editor da Web](conf-web-editor.md)
+**Tópico pai:**[ Personalizar editor da Web](conf-web-editor.md)

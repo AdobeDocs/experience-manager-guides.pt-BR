@@ -5,10 +5,9 @@ exl-id: 05215bec-653b-4563-83c6-a1bb16200469
 feature: Filename Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '145'
 ht-degree: 1%
 
 ---
@@ -23,4 +22,4 @@ Use as instruções fornecidas em [Substituições de configuração](download-i
 |---|------------|--------------|
 | `com.adobe.fmdita.common.SanitizeNodeNameImpl` | `aemsite.DisallowedFileNameChars` | Adicione os caracteres que você deseja substituir por um sublinhado nos nomes de arquivo de saída do site do AEM. <br> **Valor padrão**: ``'<\>\`@$`` |
 
-**Tópico pai:**&#x200B;[&#x200B; Configurar nomes de arquivo](conf-file-names.md)
+**Tópico pai:**[ Configurar nomes de arquivo](conf-file-names.md)

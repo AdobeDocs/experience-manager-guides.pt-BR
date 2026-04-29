@@ -5,11 +5,10 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: da3a6f83-b21a-4b19-8b54-ee96f11e7c09
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 1%
+source-wordcount: '1034'
+ht-degree: 2%
 
 ---
 
@@ -43,7 +42,7 @@ Você pode baixar a **Ferramenta de Transferência de Conteúdo** como um arquiv
 
 ![baixar ferramenta de transferência de conteúdo](./assets/content-transfer-tool-software-portal.png)
 Em seguida, instale o pacote por meio do **Gerenciador de Pacotes** na instância do Adobe Experience Manager de origem. Baixe a versão mais recente.
-Para obter mais detalhes sobre a versão mais recente, consulte as [Notas de versão](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=pt-BR).
+Para obter mais detalhes sobre a versão mais recente, consulte as [Notas de versão](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=en).
 
 >[!NOTE]
 > 
@@ -109,7 +108,7 @@ Execute as seguintes etapas para migrar o conteúdo do Experience Manager Guides
    ![](./assets/migration-create-migration-set.png)
 
 1. Forneça o caminho que você deseja migrar e clique em **Salvar**.
-Por exemplo, `/content/sites`
+Por exemplo,  `/content/sites`
 ou
    `/content/dam/tech-docs`
    ![caminhos incluídos](./assets/migration-included-paths.png)
@@ -131,7 +130,7 @@ ou
 
 1. Clique em **Salvar**
 1. Selecione o **conjunto de migração** e selecione **Extrair** na parte superior.
-   ![extração do conjunto de migração &#x200B;](./assets/migration-extract.png)
+   ![extração do conjunto de migração ](./assets/migration-extract.png)
 
 1. Verifique os detalhes no pop-up **Extração do conjunto de migração** para os caminhos e configurações selecionados e clique em **Extrair**. A extração levará minutos, e você visualizará o status como atualizado.
    ![extração do conjunto de migração](./assets/migration-set-extraction.png)

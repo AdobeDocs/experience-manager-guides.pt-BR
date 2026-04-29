@@ -5,10 +5,9 @@ exl-id: d7bf7e69-fe12-4c48-8ce4-17b74a6c61e7
 feature: Profiles
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '3896'
+source-wordcount: '3974'
 ht-degree: 0%
 
 ---
@@ -218,7 +217,7 @@ Se você estiver usando um atributo personalizado, ele deverá ser um atributo D
 
    >[!IMPORTANT]
    >
-   > O arquivo DTD especializado deve fazer parte da implantação do código personalizado. Os DTDs em /etc fazem parte da implantação do produto e, portanto, são substituídos pela instalação de qualquer nova versão. É recomendável adicionar um DTD especializado em /apps dentro da pasta do projeto, e incluir o caminho do catálogo/DTD no perfil DITA. Para obter mais informações, consulte [Integrar especialização DITA](dita-ot-specialization.md#id211MB0E00XA).
+   > O arquivo DTD especializado deve fazer parte da implantação do código personalizado. Os DTDs em /etc fazem parte da implantação do produto e, portanto, são substituídos pela instalação de qualquer nova versão. É recomendável adicionar um DTD especializado em /apps dentro da pasta do projeto, e incluir o caminho do catálogo/DTD no perfil DITA.Para obter mais informações, consulte [Integrar especialização de DITA](dita-ot-specialization.md#id211MB0E00XA).
 
 1. Abra a página Configuração do console da Web do Adobe Experience Manager.
 
@@ -421,7 +420,7 @@ Por padrão, o Editor da Web de XML vem com vários recursos para ajudar seus au
 
 **Configuração da Interface do Usuário do Editor XML**
 
-Essa configuração controla a barra de ferramentas e os outros elementos da interface do usuário do Editor da Web. Clique no ícone **Baixar** para baixar o arquivo ui\_config.json mais recente em seu sistema local. Em seguida, é possível fazer alterações no arquivo e fazer o upload da mesma maneira. Clique no ícone **Baixar padrão** para baixar o arquivo padrão ui\_config.json no sistema local. Você sempre pode baixar o arquivo padrão, fazer alterações nele e fazer upload dele.Dependendo de onde você estiver fazendo upload do arquivo no perfil global ou de pasta, as alterações serão aplicadas adequadamente. Para obter mais detalhes sobre como personalizar o Editor de XML usando o arquivo ui\_config.json, consulte [Personalizar barra de ferramentas](conf-web-editor-customize-toolbar.md#).
+Essa configuração controla a barra de ferramentas e os outros elementos da interface do usuário do Editor da Web. Clique no ícone **Baixar** para baixar o arquivo ui\_config.json mais recente em seu sistema local. Em seguida, é possível fazer alterações no arquivo e fazer o upload da mesma maneira. Clique no ícone **Baixar padrão** para baixar o arquivo padrão ui\_config.json no sistema local. Você sempre pode baixar o arquivo padrão, fazer alterações nele e carregá-lo.Dependendo de onde você estiver fazendo upload do arquivo no perfil global ou de nível de pasta, as alterações serão aplicadas adequadamente. Para obter mais detalhes sobre como personalizar o Editor de XML usando o arquivo ui\_config.json, consulte [Personalizar barra de ferramentas](conf-web-editor-customize-toolbar.md#).
 
 **Layout do modelo CSS**
 
@@ -449,13 +448,13 @@ Usando o arquivo de configuração desta seção, você pode criar alguns trecho
 
 Os seguintes detalhes são necessários para criar um trecho:
 
-- **snippetID:**   Um identificador exclusivo para o trecho. Ele pode receber um valor alfanumérico.
+- **snippetID:** um identificador exclusivo para o trecho. Ele pode receber um valor alfanumérico.
 
-- **nome:**   Um nome descritivo para identificar o trecho. Esse nome é exibido no painel Snippets.
+- **nome:** um nome descritivo para identificar o trecho. Esse nome é exibido no painel Snippets.
 
-- **descrição:**   Adicione uma informação descritiva para o trecho.
+- **descrição:** Adicione uma informação descritiva para o trecho.
 
-- **valor:**   Forneça o código XML do trecho.
+- **valor:** forneça o código XML do trecho.
 
 >[!NOTE]
 >

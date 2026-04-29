@@ -5,10 +5,9 @@ exl-id: b920ba7f-e8fc-4af6-aa8a-b8516b1cffc0
 feature: Search Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '1692'
+source-wordcount: '1704'
 ht-degree: 1%
 
 ---
@@ -179,7 +178,7 @@ Execute as seguintes etapas para adicionar elementos ou atributos DITA personali
 
 1. Abra a página Configuração do console da Web do Adobe Experience Manager. O URL padrão para acessar a página de configuração é:
 
-   http://&lt;server name\>:<port\>/system/console/configMgr
+   http://<server name\>:<port\>/system/console/configMgr
 
 1. Procure e clique no pacote *com.adobe.fmdita.config.ConfigManager*.
 
@@ -203,7 +202,7 @@ Execute as seguintes etapas para habilitar a opção de extração de metadados 
 
 1. Abra a página Configuração do console da Web do Adobe Experience Manager. O URL padrão para acessar a página de configuração é:
 
-   http://&lt;server name\>:<port\>/system/console/configMgr
+   http://<server name\>:<port\>/system/console/configMgr
 
 1. Procure e clique no pacote *com.adobe.fmdita.config.ConfigManager*.
 

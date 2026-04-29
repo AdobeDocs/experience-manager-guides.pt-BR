@@ -2,10 +2,10 @@
 title: Notas de versão | Novidades da versão de dezembro de 2025 do conteúdo de treinamento e aprendizado do produto
 description: Saiba mais sobre os recursos novos e aprimorados da versão de dezembro de 2025 do conteúdo de treinamento e aprendizado do produto
 role: Leader
-hidefromtoc: true
-source-git-commit: a5a5202d652096ef4de1db78b8638e605e9d80f4
+exl-id: 72d4fd5c-194a-4671-bcec-35fc35ff3165
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,3 @@ Esta nota de versão aborda os recursos novos e aprimorados introduzidos na vers
   Para obter mais detalhes, consulte [Adicionar blocos de construção básicos](../learning-content/lc-basic-blocks.md).
 
   ![](assets/reusable-content.png){width="650" align="left"}
-
-
-
-
