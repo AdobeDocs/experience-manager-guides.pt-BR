@@ -142,7 +142,7 @@ Execute as seguintes etapas para expurgar as versões mais antigas:
 
    ![](assets/preview-purge-report.png)
 
-1. 
+1. &#x200B;
    - **Número de Versões a Reter da Versão Mais Recente**: insira o número de versões que devem ser retidas e não removidas. Por exemplo, se informarmos 5, as últimas 5 versões serão retidas e as versões anteriores serão qualificadas para expurgação caso outras condições de expurgação sejam atendidas.
 - **Reter versões criadas dentro do período \(Em dias\)**: insira a idade máxima de uma versão em dias. As versões anteriores ao número de dias especificado são qualificadas para expurgação caso outras condições de expurgação sejam atendidas. Por exemplo, se informarmos 100, todas as versões criadas antes de 100 dias serão qualificadas para expurgação caso outras condições de expurgação sejam atendidas.
 - **Caminho**: selecione o caminho do arquivo ou pasta cujos arquivos você deseja limpar.
