@@ -1,14 +1,13 @@
 ---
-title: Recurso de publicação nativa do PDF | Componentes de um modelo do PDF
+title: Recurso de publicação nativo do PDF | Componentes de um modelo do PDF
 description: Saiba mais sobre os vários componentes de um modelo do PDF e como personalizá-los e configurá-los.
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
 feature: Output Generation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '4702'
+source-wordcount: '4767'
 ht-degree: 0%
 
 ---
@@ -191,7 +190,7 @@ Para adicionar um arquivo de ativo à pasta Recursos, siga as etapas abaixo:
 
 1. Clique em **Escolher arquivos** para procurar o arquivo de ativo de seu computador local
 
-1. Clique em **Carregar**.
+1. Clique em **Fazer upload**.
 O arquivo selecionado é importado e listado na pasta Recursos.
 
 ## Configurações avançadas do PDF {#advanced-pdf-settings}
@@ -290,7 +289,7 @@ As seguintes configurações estão disponíveis na seção Layout da página:
 
   As **Front Matter Pages** também são usadas como layout de fallback para o **TOC**, **Lista de Figuras** e Lista de Tabelas.  Da mesma forma, as **Páginas de Retorno** também são usadas como layout de fallback para os layouts do **Índice** e do **Glossário**. Se você não tiver selecionado o layout dessas páginas, o layout selecionado de Páginas da frente ou do verso será aplicado.  Se você não tiver selecionado o layout Páginas da frente ou do verso, o layout padrão da página será aplicado a elas.
 
-* **Layout da página para páginas vazias**:    Você também pode especificar o layout das páginas vazias. O layout selecionado será aplicado a todas as páginas vazias. Por exemplo, se você tiver criado um layout de página em branco para todas as páginas vazias, selecione **Em branco** na lista suspensa e todas as páginas vazias no documento terão o layout de página em branco.
+* **Layout de página para páginas vazias**: você também pode especificar o layout de página para as páginas vazias. O layout selecionado será aplicado a todas as páginas vazias. Por exemplo, se você tiver criado um layout de página em branco para todas as páginas vazias, selecione **Em branco** na lista suspensa e todas as páginas vazias no documento terão o layout de página em branco.
 
 * **Página de capa e página traseira**: se você criou um layout de página de capa, mapeie-o para a opção **Página de capa**. Da mesma forma, se você tiver um layout de página de trás, mapeie-o para a opção **Página de trás**. Se nenhum layout de folha de rosto ou de página posterior tiver sido criado, o layout de página padrão será aplicado.
 
@@ -332,7 +331,7 @@ Por padrão, todas as seções começam em uma nova página. Selecione a opção
 
 >[!NOTE]
 >
-> Essa configuração se aplica somente à seção e não a seus componentes.  Por exemplo, se você selecionar a opção **Página anterior** para **Capítulos e tópicos**, a seção **Capítulos e tópicos** será mesclada com a página anterior. Os vários capítulos e tópicos são publicados de acordo com as configurações de **Geral**.Por exemplo, se em **Iniciar qualquer novo capítulo da configuração**, você selecionar **Página ímpar**, uma página em branco será inserida após um capítulo que terminar em uma página ímpar.
+> Essa configuração se aplica somente à seção e não a seus componentes.  Por exemplo, se você selecionar a opção **Página anterior** para **Capítulos e tópicos**, a seção **Capítulos e tópicos** será mesclada com a página anterior. Os vários capítulos e tópicos são publicados de acordo com as configurações **Geral**.Por exemplo, se em **Iniciar qualquer novo capítulo da configuração**, você selecionar **Página ímpar**, uma página em branco será inserida após um capítulo que termina em uma página ímpar.
 
 Ao mesclar uma seção com sua página anterior ou próxima página, o conteúdo é mesclado e o estilo da seção de destino na qual o conteúdo é mesclado é aplicado.
 

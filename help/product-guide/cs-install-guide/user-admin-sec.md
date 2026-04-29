@@ -5,11 +5,10 @@ exl-id: 10ab0f3c-97dc-4293-ab73-75b438c03d99
 feature: User Management
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 10%
+source-wordcount: '728'
+ht-degree: 12%
 
 ---
 
@@ -21,7 +20,7 @@ Os seguintes tópicos na documentação do AEM ajudarão você a entender a admi
 
 - [Usuários, grupos e permissões do AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html?lang=pt-BR)
 
-- [Segurança e Administração de Usuários](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=pt-BR)
+- [Administração e segurança do usuário](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=pt-BR)
 
 
 ## Grupos de usuários criados pelo AEM Guides {#id181TF0K0MHT}

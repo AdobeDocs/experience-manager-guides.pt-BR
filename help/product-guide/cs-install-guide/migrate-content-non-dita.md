@@ -5,10 +5,9 @@ exl-id: cf437fb8-ed33-47af-aa7e-ffd8acd232da
 feature: Migration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '2521'
+source-wordcount: '2581'
 ht-degree: 0%
 
 ---
@@ -235,7 +234,7 @@ Os seguintes pontos devem ser considerados para fazer upload de documentos em um
   </html>
   ```
 
-  Observe que toda marca `ul` deve ter o atributo `class` definido como `book`. Da mesma forma, cada `li` de tag de `class` deve ser definido como `topicref`.
+  Observe que toda marca `ul` deve ter o atributo `class` definido como `book`. Da mesma forma, cada `class` de tag de `li` deve ser definido como `topicref`.
 
 - Se você usar estilos em linha, converta os estilos em linha em classes de estilo baseadas em CSS no arquivo XHTML. Em seguida, use o mapeamento style-attribute para converter esses estilos baseados em classes para o atributo DITA `outputclass` no arquivo DITA convertido.
 

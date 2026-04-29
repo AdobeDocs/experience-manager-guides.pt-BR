@@ -5,10 +5,9 @@ exl-id: b5cf4f6c-dc56-428e-a514-6c9f879ac03d
 feature: Output Generation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '5703'
+source-wordcount: '5820'
 ht-degree: 1%
 
 ---
@@ -110,7 +109,7 @@ Execute as seguintes etapas para especificar seu próprio modelo de design a ser
 
    | Propriedade | Descrição |
    |--------|-----------|
-   | `landingPageTemplate`, `searchPageTemplate`, `topicPageTemplate`, `shadowPageTemplate` | Especifique o nó `cq:Template` dessas páginas correspondentes \(aterrissagem, pesquisa e tópico\). Por padrão, o nó `cq:Template` dessas páginas pode ser encontrado no nó `/libs/fmdita/templates/default/cqtemplates`. Esse nó define a estrutura e as propriedades das páginas de aterrissagem, pesquisa e tópico.<br> O `shadowPageTemplate` é usado para otimizar o conteúdo fragmentado. É necessário definir o valor dessa propriedade como: `fmdita/templates/default/cqtemplates/shadowpage` <br> **Observação:** especifique um valor para `topicPageTemplate`. `landingPageTemplate` e `searchPageTemplate` são propriedades opcionais. Se não quiser que as páginas de pesquisa e de aterrissagem sejam geradas, não especifique essas propriedades. |
+   | `landingPageTemplate`, `searchPageTemplate`, `topicPageTemplate`, `shadowPageTemplate` | Especifique o nó `cq:Template` dessas páginas correspondentes \(aterrissagem, pesquisa e tópico\). Por padrão, o nó `cq:Template` dessas páginas pode ser encontrado no nó `/libs/fmdita/templates/default/cqtemplates`. Este nó define a estrutura e as propriedades das páginas de aterrissagem, pesquisa e tópico.<br> O `shadowPageTemplate` é usado para otimizar o conteúdo fragmentado. É necessário definir o valor dessa propriedade como: `fmdita/templates/default/cqtemplates/shadowpage` <br> **Observação:** especifique um valor para `topicPageTemplate`. `landingPageTemplate` e `searchPageTemplate` são propriedades opcionais. Se não quiser que as páginas de pesquisa e de aterrissagem sejam geradas, não especifique essas propriedades. |
    | `title` | Um nome descritivo do modelo de design. |
    | `topicContentNode` | O local do nó que conterá o conteúdo DITA em uma página de tópico. O caminho é relativo à página de tópico. |
    | `topicHeadNode` | O local do nó que conterá os valores de cabeçalho \(ou metadados\) derivados do conteúdo DITA. O caminho é relativo à página de tópico. |
@@ -331,7 +330,7 @@ Para adicionar os metadados necessários no sistema, execute as seguintes etapas
 
    3. No **Rótulo do campo**, digite o nome dos metadados— Público-alvo.
 
-   4. Na configuração **Mapear para a Propriedade**, especifique ./jcr:content/metadata/&lt;nome dos metadados\>. Para o nosso exemplo, vamos defini-lo como ./jcr:content/metadata/audience.
+   4. Na configuração **Mapear para a Propriedade**, especifique ./jcr:content/metadata/&lt;name of the metadata\>. Para nosso exemplo, vamos defini-lo como ./jcr:content/metadata/audience.
 
    Usando essas etapas, adicione todos os parâmetros de metadados necessários.
 
@@ -595,16 +594,16 @@ A tabela a seguir descreve os elementos do esquema de elemento DITA:
 | `<ditaelement>` | O nó de nível superior de cada elemento de mapeamento. |
 | `<class>` | O atributo de classe do elemento DITA de destino para o qual você está gravando o componente.<br> Por exemplo, o atributo de classe para o tópico DITA é: <br> `- topic/topic` |
 | `<componentpath>` | O caminho CRXDE do componente do AEM mapeado. |
-| `<type>` | Valores possíveis:<br> -   **COMPOSITE**: processar elementos filho também <br> -   **INDEPENDENTE**: ignora o processamento de elementos filho |
+| `<type>` | Valores possíveis:<br> - **COMPOSITE**: também processa elementos filho <br> - **STANDALONE**: ignora o processamento de elementos filho |
 | `<attributeprop>` | Usado para mapear atributos e valores DITA serializados para nós do AEM como propriedade. Por exemplo, se você tiver o elemento `<note type="Caution">` e o componente mapeado para esse elemento tiver `<attributeprop>attr_t</ attributeprop>`, o atributo e o valor do nó serão serializados para a propriedade `attr_t` do nó AEM correspondente \( `attr_t->type="caution"`\). |
 | `<textprop>propname_t</textprop>` | Salvar a saída `getTextContent()` na propriedade definida por `propname_t.` <br> **Observação:** esta é uma propriedade otimizada. |
 | `<xmlprop>propname_x </xmlprop>` | Salvar XML serializado deste nó na propriedade definida por `propname_x.<br> `**Observação:** Esta é uma propriedade otimizada. |
 | `<xpath>` | Se o elemento XPath for fornecido no mapeamento de elementos, juntamente com o nome e a classe do elemento, a condição XPath também deverá ser atendida para que o mapeamento do componente seja usado. |
-| `<target>` | Coloque o elemento DITA no repositório crx no local especificado.<br> Valores possíveis: <br> - **cabeçalho**: Sob o nó de cabeçalho <br> - **texto**: Sob o nó de parágrafo |
+| `<target>` | Coloque o elemento DITA no repositório crx no local especificado.<br> Valores possíveis: <br> - **head**: Sob o nó de cabeçalho <br> - **text**: Sob o nó de parágrafo |
 | `<wrapelement>` | O elemento HTML no qual envolver o conteúdo. |
 | `<wrapclass>` | O valor do elemento para a propriedade `wrapclass.` |
 | `<attributemap>` | Nó de contêiner contendo um ou mais nós `<attribute>`. |
-| `<attribute from="attrname" to="propname" ispath="true\|false" rel="source\|target" />` | Mapeia os atributos DITA para propriedades do AEM: <br> -   **`from`**: Nome do atributo DITA <br> -   **`to`**: nome da propriedade do componente AEM <br> -   **`ispath`**: Se o atributo for um valor de caminho \(por exemplo: *image*\) <br> -   **`rel`**: Se o caminho for a origem ou o destino <br> **Observação:** se `attrname` começar com `%`, mapeie `attrname minus '%'` para prop &#39; `propname`&#39;. |
+| `<attribute from="attrname" to="propname" ispath="true\|false" rel="source\|target" />` | Mapeia os atributos DITA para propriedades AEM: <br> - **`from`**: Nome do atributo DITA <br> - **`to`**: Nome da propriedade do componente AEM <br> - **`ispath`**: Se o atributo for um valor de caminho \(por exemplo: *image*\) <br> - **`rel`**: Se o caminho for a origem ou o destino <br> **Observação:** se `attrname` começar com `%`, mapeie `attrname minus '%'` para prop &#39; `propname`&#39;. |
 
 **Observações adicionais**
 

@@ -5,10 +5,9 @@ exl-id: ba82af48-9357-4f29-90ce-6793366ab432
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '1003'
 ht-degree: 0%
 
 ---
@@ -44,11 +43,11 @@ Execute as seguintes etapas para adicionar um recurso à barra de ferramentas do
 
    Normalmente, você pode criar um novo grupo de botões da barra de ferramentas e adicionar um ou mais botões da barra de ferramentas a ele. Ou você pode adicionar um novo botão de barra de ferramentas em um grupo existente. Os detalhes a seguir são necessários para criar um novo grupo de barras de ferramentas:
 
-   **tipo**:   Especifique `blockGroup` como o valor `type`. Esse valor indica que você está criando um grupo de blocos que conteria um ou mais grupos da barra de ferramentas.
+   **tipo**: especifique `blockGroup` como o valor `type`. Esse valor indica que você está criando um grupo de blocos que conteria um ou mais grupos da barra de ferramentas.
 
-   **classe_de_extração**:   Nome da classe ou classes separadas por espaço.
+   **extraclass**: nome da(s) classe(s) separada(s) por espaço.
 
-   **itens**:   Especifique a definição de todos os grupos na barra de ferramentas. Cada grupo pode conter um ou vários ícones da barra de ferramentas. Para definir ícones em um grupo de barras de ferramentas, você precisa definir novamente o atributo `type` em `items` e definir seu valor como `buttonGroup`. Especifique um ou mais nomes de classe na propriedade `extraclass`. Especifique o nome do recurso na propriedade `label`. O trecho a seguir do arquivo `ui_config.json` mostra a definição do bloco da barra de ferramentas principal, seguida pela definição `buttonGroup`:
+   **itens**: especifique a definição de todos os grupos na barra de ferramentas. Cada grupo pode conter um ou vários ícones da barra de ferramentas. Para definir ícones em um grupo de barras de ferramentas, você precisa definir novamente o atributo `type` em `items` e definir seu valor como `buttonGroup`. Especifique um ou mais nomes de classe na propriedade `extraclass`. Especifique o nome do recurso na propriedade `label`. O trecho a seguir do arquivo `ui_config.json` mostra a definição do bloco da barra de ferramentas principal, seguida pela definição `buttonGroup`:
 
    ```
    "toolbar": {    
@@ -67,21 +66,21 @@ Execute as seguintes etapas para adicionar um recurso à barra de ferramentas do
 
    É necessário definir as seguintes propriedades para adicionar um ícone da barra de ferramentas:
 
-   **tipo**:   Especifique `button` como o valor `type`. Esse valor indica que você está adicionando um botão da barra de ferramentas.
+   **tipo**: especifique `button` como o valor `type`. Esse valor indica que você está adicionando um botão da barra de ferramentas.
 
-   **ícone**:   Especifique o nome do ícone Coral que deseja usar na barra de ferramentas.
+   **ícone**: especifique o nome do ícone Coral que você deseja usar na barra de ferramentas.
 
-   **variante**:   Especifique `quiet` como o valor `variant`.
+   **variante**: especifique `quiet` como o valor `variant`.
 
-   **título**:   Especifique a dica de ferramenta do ícone.
+   **título**: especifique a dica de ferramenta para o ícone.
 
-   **ao clicar**:   Especifique o nome do comando definido para o recurso no arquivo JavaScript. Se o comando exigir parâmetros de entrada, especifique o nome do comando como:
+   **ao clicar**: especifique o nome do comando definido para o recurso no arquivo JavaScript. Se o comando exigir parâmetros de entrada, especifique o nome do comando como:
 
    ```Javascript
    "on-click": {"name": "AUTHOR_INSERT_ELEMENT", "args": "simpletable"}
    ```
 
-   **mostrar ou ocultar**:   Se você estiver definindo a propriedade `show`, especifique os modos nos quais o ícone será exibido. Os valores possíveis são - `@isAuthorMode`, `@isSourceMode`, `@isPreviewMode`, `true` \(exibir em todos os modos\), ou `false` \(ocultar em todos os modos\).
+   **mostrar ou ocultar**: se estiver definindo a propriedade `show`, especifique os modos nos quais o ícone será exibido. Os valores possíveis são - `@isAuthorMode`, `@isSourceMode`, `@isPreviewMode`, `true` \(exibir em todos os modos\), ou `false` \(ocultar em todos os modos\).
 
    No lugar de `show`, você também pode definir a propriedade `hide`. Os valores possíveis são os mesmos da propriedade `show` com a única diferença de que o ícone não é exibido para o modo especificado.
 
@@ -130,11 +129,11 @@ Execute as seguintes etapas para remover qualquer recurso indesejado da barra de
 
    O arquivo `ui_config.json` tem três seções:
 
-   1. **barras de ferramentas**:   Esta seção contém a definição de todos os recursos disponíveis na barra de ferramentas do editor, como Inserir/Remover lista numerada, \(arquivo\) Fechar, Salvar, Comentários e muito mais.
+   1. **barras de ferramentas**: esta seção contém a definição de todos os recursos disponíveis na barra de ferramentas do editor, como Inserir/Remover Lista Numerada, \(arquivo\) Fechar, Salvar, Comentários e muito mais.
 
-   1. **atalhos**:   Esta seção contém a definição de atalhos de teclado atribuídos a um recurso específico no editor.
+   1. **atalhos**: esta seção contém a definição de atalhos de teclado atribuídos a um recurso específico no editor.
 
-   1. **modelos**:   Esta seção contém a estrutura predefinida de elementos DITA que você pode usar no documento. Por padrão, a seção de modelos contém definições de modelo para um parágrafo, tabela simples, tabela e elementos de corpo. É possível criar uma definição de modelo para qualquer elemento adicionando uma estrutura XML válida para o elemento desejado. Por exemplo, se você deseja adicionar um elemento `p` a cada novo elemento `li` em uma lista, é possível adicionar o seguinte código no final da seção de modelos para fazer isso:
+   1. **modelos**: esta seção contém a estrutura predefinida de elementos DITA que você pode usar em seu documento. Por padrão, a seção de modelos contém definições de modelo para um parágrafo, tabela simples, tabela e elementos de corpo. É possível criar uma definição de modelo para qualquer elemento adicionando uma estrutura XML válida para o elemento desejado. Por exemplo, se você deseja adicionar um elemento `p` a cada novo elemento `li` em uma lista, é possível adicionar o seguinte código no final da seção de modelos para fazer isso:
 
    ```css
    "li": "<li><p></p></li>"

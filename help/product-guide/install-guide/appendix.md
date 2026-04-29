@@ -5,10 +5,9 @@ exl-id: 02da0e61-7a73-4c4c-9bd7-2664d90fa728
 feature: InDesign File Conversion
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '2851'
+source-wordcount: '2865'
 ht-degree: 0%
 
 ---
@@ -465,7 +464,7 @@ Execute as seguintes etapas para corrigir referências quebradas, usando o scrip
 
 1. Execute o script de patch `[/bin/fmdita/validatebtree?operation=patch]` para corrigir as referências corrompidas. A execução do script leva alguns minutos e imprime os registros conforme avança. Quando a execução for concluída, ele imprimirá &quot;`Done`&quot; no final.
 
-   **Observação:* é recomendável copiar e salvar os logs para fins de referência.
+   ** Observação:* é recomendável copiar e salvar os logs para fins de referência.
 
 1. Quando o script de patch for executado com sucesso, você poderá fazer as seguintes verificações:
 1. &#x200B;

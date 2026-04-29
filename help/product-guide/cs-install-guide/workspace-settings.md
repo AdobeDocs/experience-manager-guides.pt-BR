@@ -4,10 +4,9 @@ description: Saiba mais sobre as várias configurações disponíveis na interfa
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 3c3880af-8d32-4d8a-9dca-8be12e9a5fd5
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '2440'
+source-wordcount: '2470'
 ht-degree: 0%
 
 ---
@@ -40,7 +39,7 @@ As configurações Gerais permitem definir as configurações para usar o Editor
 ![](assets/workspace-settings.png){width="350" align="left"}
 
 - **Assistente de IA**
-Selecione esta opção para habilitar o recurso [Assistente de IA](../user-guide/ai-assistant.md) no Experience Manager Guides. Desmarque para desativar o recurso.
+Selecione esta opção para habilitar o recurso [Assistente de IA](../user-guide/ai-assistant.md) na Experience Manager Guides. Desmarque para desativar o recurso.
 
   Depois de habilitar a opção de alternância **Assistente de IA**, você pode configurar quais opções serão exibidas na **guia Criação** para autores usando o menu **Ações rápidas de criação**, conforme mostrado abaixo.\
   Essas alterações se aplicam ao perfil de pasta específico com o qual você está trabalhando. Se você criar um novo perfil de pasta, ele herdará as configurações do Workspace definidas no perfil de pasta **Global** por padrão. Você pode modificar essas configurações conforme necessário usando as **configurações do Workspace** e salvar a configuração atualizada.\

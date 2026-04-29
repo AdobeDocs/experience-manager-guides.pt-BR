@@ -5,10 +5,9 @@ exl-id: f7638cb3-faca-4170-9a8c-f6362e174c18
 feature: Version Management
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '1514'
+source-wordcount: '1518'
 ht-degree: 0%
 
 ---
@@ -106,7 +105,7 @@ Use as instruções fornecidas em [Substituições de configuração](download-i
 
 | PID | Chave de propriedade | Valor de propriedade |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `block.unsafe.delete` | Os valores possíveis são: <br> - allow\_unsafe\_delete\_for\_all <br> -   allow\_unsafe\_delete\_for\_delete\_assets\_group <br> - block\_unsafe\_delete\_for\_all <br> **Valor padrão**: `allow_unsafe_delete_for_delete_assets_group` <br> Os detalhes dessas constantes são fornecidos a seguir. |
+| `com.adobe.fmdita.config.ConfigManager` | `block.unsafe.delete` | Os valores possíveis são: <br> - allow\_unsafe\_delete\_for\_all <br> - allow\_unsafe\_delete\_for\_delete\_assets\_group <br> - block\_unsafe\_delete\_for\_all <br> **Valor padrão**: `allow_unsafe_delete_for_delete_assets_group` <br> Os detalhes dessas constantes são fornecidos a seguir. |
 
 Dependendo de quem você deseja conceder acesso para exclusão, especifique uma das seguintes constantes:
 

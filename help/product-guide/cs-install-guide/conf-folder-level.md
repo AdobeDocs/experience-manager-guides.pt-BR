@@ -5,10 +5,9 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '5127'
+source-wordcount: '5239'
 ht-degree: 0%
 
 ---
@@ -218,7 +217,7 @@ Se você estiver usando um atributo personalizado, ele deverá ser um atributo D
 
    >[!IMPORTANT]
    >
-   > O arquivo DTD especializado deve fazer parte da implantação do código personalizado. DTDs em /apps fazem parte da implantação do produto e, portanto, é substituído pela instalação de qualquer nova versão. É recomendável adicionar um DTD especializado em /var/dxml/dita\_resources na pasta do projeto e incluir o caminho do DTD/catálogo no perfil DITA. Para obter mais informações, consulte [Integrar especialização DITA](dita-ot-specialization.md#id211MB0E00XA).
+   > O arquivo DTD especializado deve fazer parte da implantação do código personalizado. DTDs em /apps fazem parte da implantação do produto e, portanto, é substituído pela instalação de qualquer nova versão. É recomendável adicionar um DTD especializado em /var/dxml/dita\_resources na pasta do projeto e incluir o caminho do DTD/catálogo no perfil DITA.Para obter mais informações, consulte [Integrar especialização de DITA](dita-ot-specialization.md#id211MB0E00XA).
 
 1. Use o Gerenciador de pacotes para baixar o arquivo /libs/fmdita/config/condAttrList.xml:
 

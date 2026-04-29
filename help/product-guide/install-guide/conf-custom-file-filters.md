@@ -5,8 +5,7 @@ exl-id: 1ef09820-3b18-4762-b177-4d40926e21f0
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 0%
@@ -56,11 +55,11 @@ Execute as seguintes etapas para adicionar as opções de filtragem de arquivo p
 
    No trecho de código acima, o primeiro filtro é para Arquivos DITA. A definição do filtro usa os seguintes parâmetros:
 
-   - **título:**   O nome de exibição do filtro. Este título aparece como a opção de filtragem na caixa de diálogo de procura de arquivo.
+   - **título:** o nome para exibição do filtro. Este título aparece como a opção de filtragem na caixa de diálogo de procura de arquivo.
 
-   - **propriedade:**   A propriedade a ser correspondida nos metadados do arquivo. Por exemplo, para permitir somente os arquivos que têm os metadados `dita_class` em sua propriedade, o filtro de propriedade assume &quot;`jcr:content/metadata/dita_class`&quot; como seu valor.
+   - **propriedade:** a propriedade que deve corresponder aos metadados do arquivo. Por exemplo, para permitir somente os arquivos que têm os metadados `dita_class` em sua propriedade, o filtro de propriedade assume &quot;`jcr:content/metadata/dita_class`&quot; como seu valor.
 
-   - **operação:**   Especifique &quot;`exists`&quot; para corresponder a existência do valor especificado no parâmetro de propriedade.
+   - **operação:** especifique &quot;`exists`&quot; para corresponder à existência do valor especificado no parâmetro de propriedade.
 
    O segundo filtro é para Arquivos de imagem. Os parâmetros são semelhantes ao primeiro filtro, exceto o parâmetro `value`. O parâmetro `value` usa uma matriz de tipos de imagem como seu valor. Todos os tipos de arquivos especificados no parâmetro value são pesquisados e mostrados na caixa de diálogo de procura de arquivos, todos os outros tipos de arquivos são ignorados.
 

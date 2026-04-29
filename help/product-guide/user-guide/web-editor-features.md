@@ -4,11 +4,10 @@ description: Descubra os recursos do Editor no Adobe Experience Manager Guides. 
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-hidefromtoc: true
 hide: true
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '18659'
+source-wordcount: '18790'
 ht-degree: 0%
 
 ---
@@ -110,7 +109,7 @@ A opção **Configurações** está disponível somente para administradores e a
 Alterar o estilo das citações. Escolha o estilo da citação no menu suspenso que deseja usar em seu projeto. Para obter mais detalhes, consulte [Alterar estilos de citação](./web-editor-apply-citations.md#change-citation-style).
 
    - **Assistente de IA**
-Selecione esta opção para habilitar o recurso [Assistente de IA](./ai-assistant.md) no Experience Manager Guides. Desmarque para desativar o recurso.
+Selecione esta opção para habilitar o recurso [Assistente de IA](./ai-assistant.md) na Experience Manager Guides. Desmarque para desativar o recurso.
 
 **Painéis**: esta configuração controla os painéis exibidos nos painéis esquerdo e direito do Editor e do console de Mapa. Você pode alternar o botão para mostrar ou ocultar o painel desejado.
 
@@ -1673,7 +1672,7 @@ As definições de assunto estão definidas em `subject_scheme_map_1.ditamap`
     </subjectScheme>
 ```
 
-A definição de enumeração está presente em    subject_scheme_map_2.ditamap.
+A definição de enumeração está presente em subject_scheme_map_2.ditamap.
 
 ```XML
 <?xml version="1.0" encoding="UTF-8"?> 

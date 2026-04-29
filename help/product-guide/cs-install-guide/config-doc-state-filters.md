@@ -5,10 +5,9 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 682c915b-bc42-4d2e-84a0-9e88734e278e
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -29,39 +28,39 @@ Execute as seguintes etapas para configurar os filtros de estado do documento:
 No arquivo `ui\_config.json` baixado, consulte a seguinte seção:
 
        &quot;
-       &quot;repositoryFilters&quot;: &lbrack;
-       &lbrace;
-       &quot;título&quot;: &quot;Estado do documento&quot;,
-       &quot;propriedade&quot;: &quot;jcr:content/metadata/docstate&quot;,
-       &quot;filhos&quot;: &lbrack;
-       &lbrace;
-       &quot;título&quot;: &quot;Rascunho&quot;,
-       &quot;valor&quot;: &quot;Rascunho&quot;
-       ,
-       &lbrace;
-       &quot;título&quot;: &quot;Editar&quot;,
-       &quot;valor&quot;: &quot;Editar&quot;
-       ,
-       &lbrace;
-       &quot;title&quot;: &quot;Em revisão&quot;,
-       &quot;valor&quot;: &quot;Em revisão&quot;
-       ,
-       &lbrace;
-&rbrace;       &quot;título&quot;: &quot;Aprovado&quot;,
-       &quot;valor&quot;: &quot;Aprovado&quot;
-       ,
-       &lbrace;
-       &quot;título&quot;: &quot;Revisado&quot;,
-       &quot;valor&quot;: &quot;Revisado&quot;
-       ,
-       &lbrace;
-       &quot;título&quot;: &quot;Concluído&quot;,
-       &quot;valor&quot;: &quot;Concluído&quot;
-       
-       &rbrack;
-       
-       &rbrack;
-       &quot;
+     &quot;repositoryFilters&quot;: &lbrack;
+     &lbrace;
+     &quot;title&quot;: &quot;Estado do documento&quot;,
+     &quot;propriedade&quot;: &quot;jcr:content/metadata/docstate&quot;,
+     &quot;filhos&quot;: &lbrack;
+     &lbrace;
+     &quot;title&quot;: &quot;Rascunho&quot;,
+     &quot;valor&quot;: &quot;Rascunho&quot;
+     &rbrace;,
+     &lbrace;
+     &quot;título&quot;: &quot;Editar&quot;,
+     &quot;valor&quot;: &quot;Editar&quot;
+     &rbrace;,
+     &lbrace;
+     &quot;título&quot;: &quot;Na Revisão&quot;,
+     &quot;valor&quot;: &quot;Na Revisão&quot;
+     &rbrace;,
+     &lbrace;
+     &quot;título&quot;: &quot;Aprovado&quot;,
+     &quot;valor&quot;: &quot;Aprovado&quot;
+     &rbrace;,
+     &lbrace;
+     &quot;título&quot;: &quot;Revisado&quot;,
+     &quot;valor&quot;: &quot;Revisado&quot;
+     ,
+     &lbrace;
+     &quot;título&quot;: &quot;Concluído&quot;,
+     &quot;valor&quot;: &quot;Concluído&quot;
+     
+     &rbrack;
+     &rbrace;
+     &rbrack;
+     &quot;
    Este trecho representa os filtros de estado de documento padrão disponíveis no Experience Manager Guides.
 
 1. Você pode personalizar os valores de filtro com base no fluxo de trabalho da sua organização. Por exemplo, para adicionar um estado de documento personalizado **Pendente**, insira a seguinte entrada em `children`:

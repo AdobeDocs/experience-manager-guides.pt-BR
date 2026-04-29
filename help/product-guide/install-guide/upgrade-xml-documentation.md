@@ -5,11 +5,10 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '9148'
-ht-degree: 0%
+source-wordcount: '9267'
+ht-degree: 1%
 
 ---
 
@@ -89,7 +88,7 @@ Essa API foi projetada para avaliar o status atual do sistema e relatar se a atu
 | Ponto final | /bin/dxml/upgrade/3xto4x/report |
 | --- | --- |
 | Tipo de solicitação | **GET** Você pode usar um navegador da Web, no qual você tenha feito logon na instância do AEM como administrador. |
-| Resposta esperada | -   Caso todos os nós necessários possam ser movidos, você receberá uma verificação aprovada. <br>-   Caso um nó esteja presente no local de destino, você receberá um erro relevante. Limpe o repositório \(delete node /var/dxml\) e reinstale o pacote de atualização e acione esse endpoint novamente. <br>**Observação:** não é um erro comum, pois o local de destino não foi usado anteriormente pelo Experience Manager Guides 3.x. <br> -   Se o script não for bem-sucedido, não continue e relate à equipe de sucesso do cliente. |
+| Resposta esperada | - Caso todos os nós necessários possam ser movidos, você receberá uma verificação aprovada. <br>- Caso haja um nó no local de destino, você receberá um erro relevante. Limpe o repositório \(delete node /var/dxml\) e reinstale o pacote de atualização e acione esse endpoint novamente. <br>**Observação:** não é um erro comum, pois o local de destino não foi usado anteriormente pelo Experience Manager Guides 3.x. <br> - Se esse script não for bem-sucedido, não continue e relate à equipe de êxito do cliente. |
 
 **API de migração de dados do sistema**
 
@@ -101,7 +100,7 @@ Esta API foi projetada para migrar os dados do sistema conforme mencionado na se
 | Ponto final | /bin/dxml/upgrade/3xto4x |
 | --- | --- |
 | Tipo de solicitação | **POST** Este script é uma solicitação POST, portanto, deve ser executado por agentes como o Postman. |
-| Resposta esperada | -   Depois que a migração for bem-sucedida, você poderá instalar a solução XML Documentation versão 4.0.<br>-   Caso haja erros, restaure para o último ponto de verificação e compartilhe os logs de erro junto com a saída da API com a equipe de sucesso do cliente. |
+| Resposta esperada | - Depois que a migração for bem-sucedida, você poderá instalar a solução XML Documentation versão 4.0.<br>- Caso haja erros, restaure até o último ponto de verificação e compartilhe os logs de erros, juntamente com a saída da API com a equipe de sucesso do cliente. |
 
 **Mapeamento de Migração**: a API acima migra todos os dados do local de origem para o local de destino.
 
@@ -527,7 +526,7 @@ Execute as seguintes etapas para o pós-processamento do conteúdo existente e u
    | Ponto final | /bin/guides/reports/upgrade |
    |---|---|
    | Tipo de solicitação | **POST** Este script é uma solicitação POST, portanto, deve ser executado por agentes como o Postman. |
-   | Resposta esperada | A API retornará um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação do GET com a ID do trabalho para o mesmo ponto de extremidade.<br> Exemplo de URL: `http://<server:port>/bin/guides/reports/upgrade` |
+   | Resposta esperada | A API retornará um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação GET com a ID do trabalho para o mesmo ponto de extremidade.<br> Amostra da URL: `http://<server:port>/bin/guides/reports/upgrade` |
 
    | Ponto final | /bin/guides/reports/upgrade |
    |---|---|
@@ -728,7 +727,7 @@ Execute as seguintes etapas para o pós-processamento do conteúdo existente e u
    | Ponto final | /bin/guides/reports/upgrade |
    |---|---|
    | Tipo de solicitação | **POST** Este script é uma solicitação POST, portanto, deve ser executado por agentes como o Postman. |
-   | Resposta esperada | A API retornará um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação do GET com a ID do trabalho para o mesmo ponto de extremidade.<br> Exemplo de URL: `http://<server:port>/bin/guides/reports/upgrade` |
+   | Resposta esperada | A API retornará um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação GET com a ID do trabalho para o mesmo ponto de extremidade.<br> Amostra da URL: `http://<server:port>/bin/guides/reports/upgrade` |
 
    | Ponto final | /bin/guides/reports/upgrade |
    |---|---|
@@ -929,7 +928,7 @@ Execute as seguintes etapas para o pós-processamento do conteúdo existente e u
    | Ponto final | /bin/guides/reports/upgrade |
    |---|---|
    | Tipo de solicitação | **POST** Este script é uma solicitação POST, portanto, deve ser executado por agentes como o Postman. |
-   | Resposta esperada | A API retornará um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação do GET com a ID do trabalho para o mesmo ponto de extremidade.<br> Exemplo de URL: `http://<server:port>/bin/guides/reports/upgrade` |
+   | Resposta esperada | A API retornará um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação GET com a ID do trabalho para o mesmo ponto de extremidade.<br> Amostra da URL: `http://<server:port>/bin/guides/reports/upgrade` |
 
    | Ponto final | /bin/guides/reports/upgrade |
    |---|---|

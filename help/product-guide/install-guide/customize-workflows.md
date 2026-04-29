@@ -5,11 +5,10 @@ exl-id: 3be387b9-6ac2-4b61-afdf-fbe9d8b6cc1e
 feature: Workflow Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '2126'
-ht-degree: 2%
+source-wordcount: '2228'
+ht-degree: 3%
 
 ---
 
@@ -19,7 +18,7 @@ Os workflows permitem automatizar as atividades do Adobe Experience Manager \(AE
 
 Para obter mais informações sobre fluxos de trabalho no AEM, consulte:
 
-- [Administrando Fluxos de Trabalho](https://helpx.adobe.com/br/experience-manager/6-5/sites/administering/using/workflows.html)
+- [Administração de fluxos de trabalho](https://helpx.adobe.com/br/experience-manager/6-5/sites/administering/using/workflows.html)
 
 - Aplicando e participando de fluxos de trabalho: [Trabalhando com fluxos de trabalho](https://helpx.adobe.com/br/experience-manager/6-5/sites/authoring/using/workflows.html).
 
@@ -117,7 +116,7 @@ Você pode criar esse script no nó `/etc/workflows/scripts`. A tabela a seguir 
 | `ditamap` | String | Especificar o caminho do ditamap da tarefa de revisão |
 | `allowAllReviewers` | Booleano | falso/verdadeiro |
 | `notifyViaEmail` | Booleano | falso/verdadeiro |
-| `reviewVersion` | String | Especifica a versão atual do fluxo de trabalho de Revisão. O valor padrão está definido como `3.0`.<br> Para habilitar os novos recursos de fluxo de trabalho de revisão para [Autores](../user-guide/review-close-review-task.md) e [Revisores](../user-guide/review-complete-review-tasks.md), verifique se `reviewVersion` está definido como `3.0`. |
+| `reviewVersion` | String | Especifica a versão atual do fluxo de trabalho de Revisão. O valor padrão está definido como `3.0` .<br> Para habilitar os novos recursos de fluxo de trabalho de revisão para [Autores](../user-guide/review-close-review-task.md) e [Revisores](../user-guide/review-complete-review-tasks.md), verifique se `reviewVersion` está definido como `3.0`. |
 
 
 Depois de criar o script, chame-o antes de chamar o processo Criar revisão no workflow. Em seguida, dependendo das suas necessidades, você poderá chamar os outros processos de workflow de revisão.

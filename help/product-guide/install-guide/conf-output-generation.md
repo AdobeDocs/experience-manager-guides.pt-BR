@@ -5,11 +5,10 @@ exl-id: 6df31e3c-683c-4188-b917-9c1855d9b95b
 feature: Output Generation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '5824'
-ht-degree: 0%
+source-wordcount: '5886'
+ht-degree: 1%
 
 ---
 
@@ -58,7 +57,7 @@ Para configurar o AEM Guides para usar o FMPS, atualize as seguintes propriedade
 
 | Propriedade | Descrição |
 |--------|-----------|
-| Domínio de logon do FrameMaker Publishing Server | Especifique o nome de domínio ou o nome do grupo de trabalho no qual o FrameMaker Publishing Server está hospedado. Com base na versão FMPS, forneça o nome de domínio como :-   **FMPS 2020**: endereço IP como 192.168.1.101 <br>- **FMPS 2019 e anterior**: endereço IP ou o nome de domínio |
+| Domínio de logon do FrameMaker Publishing Server | Especifique o nome de domínio ou o nome do grupo de trabalho no qual o FrameMaker Publishing Server está hospedado. Com base na versão do FMPS, forneça o nome de domínio como :- **FMPS 2020**: endereço IP como 192.168.1.101 <br>- **FMPS 2019 e anterior**: endereço IP ou o nome de domínio |
 | URL do FrameMaker Publishing Server | Especifique o URL do FrameMaker Publishing Server. Com base na versão do FMPS, forneça a URL do FMPS como:<br>- **FMPS 2020**: `http://<fmps_ip>:<port>` \(http://192.168.1.101:7000\) <br> - **FMPS 2019 e anterior**: `http://<fmps_ip>:<port>/fmserver/v1/` |
 | Versão do FMPS | Especifique o número da versão do FrameMaker Publishing Server. Com base na versão do FMPS, forneça as informações da versão como: <br>- **FMPS 2020**: 2020 <br> - **FMPS 2019 e anterior**: 2019 ou 2017 |
 | Nome de usuário e senha do FrameMaker Publishing Server | Especifique o nome de usuário e a senha para acessar o FrameMaker Publishing Server. |
@@ -394,7 +393,7 @@ Para adicionar os metadados necessários no sistema, execute as seguintes etapas
 
    1. No **Rótulo do campo**, digite o nome dos metadados— Público-alvo.
 
-   1. Na configuração **Mapear para a Propriedade**, especifique ./jcr:content/metadata/&lt;nome dos metadados\>. Para o nosso exemplo, vamos defini-lo como ./jcr:content/metadata/audience.
+   1. Na configuração **Mapear para a Propriedade**, especifique ./jcr:content/metadata/&lt;name of the metadata\>. Para nosso exemplo, vamos defini-lo como ./jcr:content/metadata/audience.
 
    Usando essas etapas, adicione todos os parâmetros de metadados necessários.
 

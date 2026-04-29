@@ -1,12 +1,11 @@
 ---
-title: Recurso de publicação nativo do PDF | Use o JavaScript para trabalhar com conteúdo ou estilo
+title: Recurso de publicação nativo do PDF | Usar o JavaScript para trabalhar com conteúdo ou estilo
 description: Saiba como criar folhas de estilos de uso e criar estilos para o seu conteúdo.
 exl-id: 2f301f6a-0d1c-4194-84c2-0fddaef8d3ec
 feature: Output Generation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: ad12cac61d14bc68bf73dc407a74a22c8248d7b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 0%

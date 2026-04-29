@@ -5,10 +5,9 @@ feature: Filename Configuration
 role: Admin
 level: Experienced
 exl-id: ff6e1322-9655-42aa-b353-199c70c9de49
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
@@ -58,7 +57,7 @@ Execute as seguintes etapas para desativar o pós-processamento em um determinad
 
 >[!NOTE]
 >
-> Além dos caminhos ignorados e habilitados configurados pela configuração OSGi, o comportamento do pós-processamento também é influenciado por um nó de nível de repositório localizado em `/var/dxml/postprocess/ignoredPaths`. <br> Se uma pasta for excluída inesperadamente do pós-processamento e não estiver listada na configuração OSGi, é recomendável verificar esse nó de repositório. Se o caminho aparecer lá e estiver definido como `true`, ele será ignorado. Para reativar o processamento, você pode remover a propriedade correspondente manualmente do nó.
+> Além dos caminhos ignorados e habilitados configurados pela configuração OSGi, o comportamento do pós-processamento também é influenciado por um nó de nível de repositório localizado em `/var/dxml/postprocess/ignoredPaths`. <br> Se uma pasta for excluída inesperadamente do pós-processamento e não estiver listada na configuração do OSGi, é recomendável verificar esse nó do repositório. Se o caminho aparecer lá e estiver definido como `true`, ele será ignorado. Para reativar o processamento, você pode remover a propriedade correspondente manualmente do nó.
 
 ## Regras para ativar ou desativar o pós-processamento
 

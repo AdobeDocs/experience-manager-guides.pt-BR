@@ -5,10 +5,9 @@ exl-id: 71b09039-b220-45f3-b334-c23f5b09dadc
 feature: InDesign File Conversion, Troubleshooting
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '2852'
+source-wordcount: '2866'
 ht-degree: 0%
 
 ---
