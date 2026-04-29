@@ -17,7 +17,7 @@ ht-degree: 0%
 ## Configurar armazenamento de dados \(Obrigatório\)
 
 **Qual é a alteração?**
-Defina a propriedade `minRecordLength` com um valor de `100` na configuração `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.`. Para obter mais informações sobre o armazenamento de dados do arquivo e o armazenamento de dados S3, consulte o artigo [Configurando armazenamentos de nós e armazenamentos de dados no AEM 6](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/data-store-config.html).
+Defina a propriedade `minRecordLength` com um valor de `100` na configuração `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.`. Para obter mais informações sobre o armazenamento de dados do arquivo e o armazenamento de dados S3, consulte o artigo [Configurando armazenamentos de nós e armazenamentos de dados no AEM 6](https://helpx.adobe.com/br/experience-manager/6-5/sites/deploying/using/data-store-config.html).
 
 >[!NOTE]
 >
