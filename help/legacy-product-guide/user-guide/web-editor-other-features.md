@@ -5,7 +5,7 @@ feature: Authoring, Web Editor
 role: User
 hide: true
 exl-id: 7639fa76-b319-44b5-9ff8-2b8c1a716b7b
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '2564'
 ht-degree: 0%
@@ -24,19 +24,19 @@ Ao abrir um arquivo no Editor da Web, você pode executar várias ações do men
 
 Você obtém as seguintes funções no menu de contexto da guia de um arquivo de mídia aberto:
 
-![](images/media-file-context-menu.png){width="300" align="left"}
+![](images/media-file-context-menu.png){width="300"}
 
 **Arquivo DITA único**
 
 Você obtém as seguintes funções no menu de contexto de uma guia de arquivo aberta:
 
-:   ![](images/single-file-context-menu.png){width="300" align="left"}
+:   ![](images/single-file-context-menu.png){width="300"}
 
 **Vários arquivos**
 
 Quando tiver múltiplos arquivos abertos, então você terá mais opções no menu de contexto:
 
-![](images/multiple-files-context-menu.png){width="550" align="left"}
+![](images/multiple-files-context-menu.png){width="550"}
 
 As várias opções no menu de contexto são explicadas abaixo:
 
@@ -85,7 +85,7 @@ Para ver a página de propriedades AEM do arquivo selecionado, selecione **Propr
 
 Por padrão, o Editor da Web permite exibir um tópico de cada vez. Pode haver instâncias em que você deseje ver dois ou mais tópicos ao mesmo tempo. Dividir a tela do editor permite exibir vários tópicos ao mesmo tempo. Por exemplo, se você tiver dois tópicos - A e B abertos no editor. Clicar com o botão direito do mouse no tópico B e escolher **Dividir \> Para cima** divide a janela do editor em duas partes. O tópico B é exibido na metade superior e o tópico A é exibido na metade inferior. Da mesma forma, você também pode dividir a tela horizontalmente selecionando **Dividir \> Esquerda** ou **Dividir \> Direita**. A captura de tela a seguir do Editor da Web exibe tópicos divididos horizontal e verticalmente. Em cada divisão, você pode ter uma visualização diferente. Por exemplo, na captura de tela a seguir, a tela 1 está no modo de exibição do Source, a tela 2 tem dois documentos abertos no modo Autor e a tela 3 está no modo de Visualização. Você pode mover seus documentos de uma tela para outra arrastando a guia do arquivo e soltando-a na tela onde deseja colocá-la. Da mesma forma, também é possível reordenar as guias de arquivo arrastando-as e movendo-as de acordo com sua preferência.
 
-![](images/split-editor.png){width="800" align="left"}
+![](images/split-editor.png){width="800"}
 
 ***Geração rápida***
 
@@ -116,7 +116,7 @@ Você pode ver as seguintes opções, dependendo se o arquivo está bloqueado/de
 
 - **Desbloquear e Fechar**: o bloqueio do arquivo é liberado e o arquivo é fechado.
 
-  ![](images/file-close-unlock-file.png){width="400" align="left"}
+  ![](images/file-close-unlock-file.png){width="400"}
 
 - **Salvar como uma Nova Versão**: isso salvará as alterações feitas no conteúdo e criará uma nova versão do arquivo. Você também pode adicionar rótulos e comentários para a versão recém-salva. Para obter mais informações sobre como salvar uma nova versão, consulte [Salvar como nova versão](web-editor-features.md#save-as-new-version-id209ME400GXA).
 
@@ -128,7 +128,7 @@ Você pode ver as seguintes opções, dependendo se o arquivo está bloqueado/de
 
   Por exemplo, um dos prompts é mostrado na seguinte captura de tela:
 
-  ![](images/file-close-save-changes-unlock.png){width="400" align="left"}
+  ![](images/file-close-save-changes-unlock.png){width="400"}
 
 **Indicações visuais para referências corrompidas**
 
@@ -162,11 +162,11 @@ Você pode ver as seguintes opções, dependendo se o arquivo está bloqueado/de
 
 - O Experience Manager Guides oferece suporte pronto para inserção de equações do MathML por integração com o aplicativo [MathType Web](https://docs.wiris.com/en/mathtype/mathtype_web/intro). Para inserir uma equação de MathML, selecione o ícone **Inserir Elemento** e digite mathml. Quando você seleciona um elemento matemático na lista, a caixa de diálogo **Inserir MathML** é exibida:
 
-![inserir equação matemática no editor matemático](images/insert-mathml-equation.png){width="550" align="left"}
+![inserir equação matemática no editor matemático](images/insert-mathml-equation.png){width="550"}
 
 Usando as ferramentas de equação do MathML, crie sua equação e clique em **Inserir** para adicioná-la ao seu documento. A equação é inserida com o plano de fundo cinza-claro, conforme mostrado abaixo:
 
-![exemplo de equação matemática](images/sample-mathml-equation.PNG){width="400" align="left"}
+![exemplo de equação matemática](images/sample-mathml-equation.PNG){width="400"}
 
 A qualquer momento, você pode atualizar uma equação clicando com o botão direito do mouse em uma equação existente e selecionando **Editar MathML** no menu de contexto.
 
@@ -175,7 +175,7 @@ A qualquer momento, você pode atualizar uma equação clicando com o botão dir
   O Experience Manager Guides valida as equações do MathML quando você salva um tópico contendo elas.
 Ao inserir uma equação usando o editor do MathML, o Experience Manager Guides realça a equação em vermelho se houver problemas de sintaxe. Você pode corrigi-la antes de inseri-la. Se você não fizer alterações, mas selecionar **Inserir**, exibirá um aviso.
 
-  ![validar equação matemática](images/validate-mathml-equation.png){width="400" align="left"}
+  ![validar equação matemática](images/validate-mathml-equation.png){width="400"}
 
   Se você inserir a equação do MathML que contém um erro de sintaxe, ocorrerá um erro de validação quando você tentar salvar o tópico.
 
@@ -189,7 +189,7 @@ Ao inserir uma equação usando o editor do MathML, o Experience Manager Guides 
 
 - O Editor da Web exibe a navegação estrutural do elemento na parte superior do tópico. Se quiser trocar ou substituir um elemento por outro elemento, faça isso no menu de contexto da navegação estrutural. Por exemplo, você pode trocar o elemento `p` por `note` ou qualquer outro elemento válido no contexto.
 
-![](images/rename-element.png){width="400" align="left"}
+![](images/rename-element.png){width="400"}
 
 Na navegação estrutural, clique com o botão direito do mouse no nome de um elemento que deseja substituir e selecione Renomear elemento no menu de contexto. A caixa de diálogo Renomear elemento exibe todos os elementos válidos permitidos no local atual. Na caixa de diálogo Renomear elemento, selecione o elemento que deseja usar. O elemento original é substituído pelo novo elemento.
 
@@ -228,7 +228,7 @@ Além do menu de contexto da navegação estrutural, a caixa de diálogo Renomea
 
 - Os elementos DITA que contêm quebra de linha e espaços são suportados e renderizados de acordo com sua definição nos modos Autor, Source ou Visualização e também na saída final publicada. A captura de tela a seguir mostra o conteúdo do elemento `msgblock` no qual as quebras de linha e os espaços \(recuo\) foram preservados:
 
-![](images/new-line-support_cs.png){width="500" align="left"}
+![](images/new-line-support_cs.png){width="500"}
 
 
 
@@ -253,4 +253,4 @@ Faça o seguinte para gerar automaticamente a ID de um ou vários elementos:
    Como alternativa, clique com o botão direito do mouse na navegação estrutural e selecione **Gerar IDs**.
 
 
-**Tópico pai:**&#x200B;[&#x200B; Trabalhar com o Editor da Web](web-editor.md)
+**Tópico pai:**[ Trabalhar com o Editor da Web](web-editor.md)

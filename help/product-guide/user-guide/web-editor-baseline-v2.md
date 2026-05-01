@@ -4,9 +4,9 @@ description: Crie e gerencie uma nova linha de base (Beta) no console de mapa no
 feature: Authoring, Features of Web Editor, Publishing
 role: User
 exl-id: 574806bb-21c5-41fe-b8be-4c6506ce8cce
-source-git-commit: d7e5af83e88de18cd8ac2e849c9d6e1807988099
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1294'
+source-wordcount: '1315'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Execute as etapas a seguir para migrar a linha de base existente para a nova.
 1. No painel **Ferramentas**, selecione **Guias**.
 1. Selecione o bloco **Processador em Massa**.
 
-   ![processador-ativo-fluxo](images/flow-asset-processor.png){align="left"}
+   ![processador-ativo-fluxo](images/flow-asset-processor.png)
 
    A página **Processador de Lote de Guias** é exibida.
 
@@ -87,7 +87,7 @@ Execute as etapas a seguir para migrar a linha de base existente para a nova.
    1. **Selecionar pasta(s) e arquivo(s)**: navegue e escolha uma ou várias pastas e arquivos para processar.
    1. **Selecione as pastas a serem ignoradas**: como opção, selecione as subpastas dentro da pasta pai escolhida para excluir da migração.
 
-   ![nova-linha-de-base-de-processo](images/new-process-baseline.png){align="left"}
+   ![nova-linha-de-base-de-processo](images/new-process-baseline.png)
 
 1. Selecione **Criar**.
 
@@ -95,11 +95,11 @@ Um pop-up mostrando **o processamento de ativos foi acionado com êxito** é exi
 
 Você também pode selecionar **Exibir logs** para verificar e baixar os logs da tarefa de migração.
 
-![view-logs-baseline](images/view-logs-baseline.png){align="left"}
+![view-logs-baseline](images/view-logs-baseline.png)
 
 O relatório de log fornece detalhes da migração, incluindo o número de mapas migrados, linhas de base migradas com êxito e detalhes relacionados.
 
-![logs-detail-baseline](images/logs-detail-baseline.png){align="left"}
+![logs-detail-baseline](images/logs-detail-baseline.png)
 
 >[!NOTE]
 >
@@ -131,7 +131,7 @@ As seguintes atualizações se aplicam ao trabalhar com linhas de base criadas u
    - **Editar propriedades**: permite editar as propriedades de uma linha de base existente.
    - **Recompilar**: permite que você recompile uma linha de base dinâmica sempre que ocorrerem alterações.
 
-     ![recompilar-linha-de-base](images/rebuild-baseline.png){align="left"}
+     ![recompilar-linha-de-base](images/rebuild-baseline.png)
 
 - A ação **Download** dá suporte a downloads paginados. Todo o conteúdo de linha de base que corresponde aos filtros aplicados é incluído no download, não apenas o conteúdo visível na página atual.
 - Filtre arquivos por GUID, além dos nomes ou do local dos arquivos. Uma opção adicional para **Filtrar arquivos sem rótulos** também está disponível.
@@ -150,13 +150,13 @@ As seguintes atualizações se aplicam ao trabalhar com linhas de base criadas u
    - Navegue até o arquivo que deseja editar e passe o mouse sobre ele.
    - Selecione o ícone **Editar**.
 
-     ![ícone-da-linha-de-base](images/edit-baseline-icon.png){align="left"}
+     ![ícone-da-linha-de-base](images/edit-baseline-icon.png)
 
      A caixa de diálogo **Editar versão** é exibida.
    - Selecione a versão necessária na lista suspensa **Versão** (por exemplo, altere da versão 1.0 para 1.1).
 
 
-     ![edit-version-baseline](images/edit-version-baseline.png){align="left"}
+     ![edit-version-baseline](images/edit-version-baseline.png)
 
      As dependências adicionadas e removidas são avaliadas e exibidas como pré-visualização. Revise as alterações antes de aplicá-las.
 

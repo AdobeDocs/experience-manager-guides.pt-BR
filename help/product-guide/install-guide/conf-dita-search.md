@@ -5,7 +5,7 @@ exl-id: b920ba7f-e8fc-4af6-aa8a-b8516b1cffc0
 feature: Search Configuration
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1704'
 ht-degree: 1%
@@ -45,13 +45,13 @@ Execute o seguinte para adicionar o componente de pesquisa de conteúdo DITA na 
 
 1. Arraste e solte o **Predicado do elemento DITA** no local necessário no formulário de pesquisa.
 
-   ![](assets/drag-search-predicate.png){width="650" align="left"}
+   ![](assets/drag-search-predicate.png){width="650"}
 
 1. Clique em **Concluído** para salvar suas alterações.
 
    Ao acessar a opção Filtros na interface do usuário do Assets, você terá a opção de filtragem de pesquisa Elemento DITA.
 
-   ![](assets/search-filter-asset-console.png){width="350" align="left"}
+   ![](assets/search-filter-asset-console.png){width="350"}
 
 
 ## Adicionar componente de pesquisa baseado em UUID na interface do usuário do Assets {#id2034F04K05Z}
@@ -90,7 +90,7 @@ Execute as seguintes etapas para fornecer acesso ao recurso Pesquisa DITA:
 
 1. Procure o grupo de usuários ou um usuário individual ao qual você deseja conceder acesso. Por exemplo, para conceder acesso a todos os usuários no grupo de autores, insira os autores no campo **Consulta de filtro** e pressione **Enter**.
 
-   ![](assets/authors-group-permission.png){width="350" align="left"}
+   ![](assets/authors-group-permission.png){width="350"}
 
 1. Selecione o grupo **autores**.
 
@@ -102,7 +102,7 @@ Execute as seguintes etapas para fornecer acesso ao recurso Pesquisa DITA:
 
 1. Conceda a permissão **Ler** na pasta de pesquisa.
 
-   ![](assets/read-permission-authors.png){width="650" align="left"}
+   ![](assets/read-permission-authors.png){width="650"}
 
 1. Clique em **Salvar**.
 
@@ -178,7 +178,7 @@ Execute as seguintes etapas para adicionar elementos ou atributos DITA personali
 
 1. Abra a página Configuração do console da Web do Adobe Experience Manager. O URL padrão para acessar a página de configuração é:
 
-   http://&lt;server name\>:<port\>/system/console/configMgr
+   http://<server name\>:<port\>/system/console/configMgr
 
 1. Procure e clique no pacote *com.adobe.fmdita.config.ConfigManager*.
 
@@ -202,7 +202,7 @@ Execute as seguintes etapas para habilitar a opção de extração de metadados 
 
 1. Abra a página Configuração do console da Web do Adobe Experience Manager. O URL padrão para acessar a página de configuração é:
 
-   http://&lt;server name\>:<port\>/system/console/configMgr
+   http://<server name\>:<port\>/system/console/configMgr
 
 1. Procure e clique no pacote *com.adobe.fmdita.config.ConfigManager*.
 

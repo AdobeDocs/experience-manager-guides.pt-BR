@@ -4,9 +4,10 @@ description: Saiba como Configurar filtros para a caixa de diálogo de procura d
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 62195863-cbab-4c53-9cf0-b4a8d26d44f2
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '627'
 ht-degree: 0%
 
 ---
@@ -53,14 +54,14 @@ As guias a seguir fornecem instruções para adicionar opções de filtragem de 
 
    No trecho de código acima, o primeiro filtro é para Arquivos DITA. A definição do filtro usa os seguintes parâmetros:
 
-   título
-:   O nome de exibição do filtro. Este título aparece como a opção de filtragem na caixa de diálogo de procura de arquivo.
+   cargo
+: o nome de exibição do filtro. Este título aparece como a opção de filtragem na caixa de diálogo de procura de arquivo.
 
    propriedade
-:   A propriedade a ser correspondida nos metadados do arquivo. Por exemplo, para permitir somente os arquivos que têm os metadados `dita_class` em sua propriedade, o filtro de propriedade assume &quot; `jcr:content/metadata/dita_class`&quot; como seu valor.
+: a propriedade que deve corresponder aos metadados do arquivo. Por exemplo, para permitir somente os arquivos que têm os metadados `dita_class` em sua propriedade, o filtro de propriedade assume &quot; `jcr:content/metadata/dita_class`&quot; como seu valor.
 
    operação
-:   Especifique &quot; `exists`&quot; para corresponder a existência do valor especificado no parâmetro de propriedade.
+: especifique &quot; `exists`&quot; para corresponder a existência do valor especificado no parâmetro de propriedade.
 
    O segundo filtro é para Arquivos de imagem. Os parâmetros são semelhantes ao primeiro filtro, exceto o parâmetro `value`. O parâmetro `value` usa uma matriz de tipos de imagem como seu valor. Todos os tipos de arquivos especificados no parâmetro value são pesquisados e mostrados na caixa de diálogo de procura de arquivos, todos os outros tipos de arquivos são ignorados.
 
@@ -109,11 +110,11 @@ As guias a seguir fornecem instruções para adicionar opções de filtragem de 
 
    No trecho de código acima, o primeiro filtro é para Arquivos DITA. A definição do filtro usa os seguintes parâmetros:
 
-   - **título:**   O nome de exibição do filtro. Este título aparece como a opção de filtragem na caixa de diálogo de procura de arquivo.
+   - **título:** o nome para exibição do filtro. Este título aparece como a opção de filtragem na caixa de diálogo de procura de arquivo.
 
-   - **propriedade:**   A propriedade a ser correspondida nos metadados do arquivo. Por exemplo, para permitir somente os arquivos que têm os metadados `dita_class` em sua propriedade, o filtro de propriedade assume &quot;`jcr:content/metadata/dita_class`&quot; como seu valor.
+   - **propriedade:** a propriedade que deve corresponder aos metadados do arquivo. Por exemplo, para permitir somente os arquivos que têm os metadados `dita_class` em sua propriedade, o filtro de propriedade assume &quot;`jcr:content/metadata/dita_class`&quot; como seu valor.
 
-   - **operação:**   Especifique &quot;`exists`&quot; para corresponder a existência do valor especificado no parâmetro de propriedade.
+   - **operação:** especifique &quot;`exists`&quot; para corresponder à existência do valor especificado no parâmetro de propriedade.
 
    O segundo filtro é para Arquivos de imagem. Os parâmetros são semelhantes ao primeiro filtro, exceto o parâmetro `value`. O parâmetro `value` usa uma matriz de tipos de imagem como seu valor. Todos os tipos de arquivos especificados no parâmetro value são pesquisados e mostrados na caixa de diálogo de procura de arquivos, todos os outros tipos de arquivos são ignorados.
 
@@ -121,9 +122,9 @@ As guias a seguir fornecem instruções para adicionar opções de filtragem de 
 
    Quando você inicia a caixa de diálogo de navegação de arquivos, as opções de filtro configuradas no arquivo ui\_config.json são exibidas.
 
-   ![](assets/file-browse-custom-filters.png){width="300" align="left"}
+   ![](assets/file-browse-custom-filters.png){width="300"}
 
 >[!ENDTABS]
 
 
-**Tópico pai:**&#x200B;[&#x200B; Personalizar editor da Web](customize-overview.md)
+**Tópico pai:**[ Personalizar editor da Web](customize-overview.md)

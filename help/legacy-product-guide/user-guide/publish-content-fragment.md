@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: f8a8dfd3-19de-49ff-b4d4-265b3ac09488
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1052'
 ht-degree: 1%
@@ -29,12 +29,12 @@ Para criar um fragmento de conteúdo, execute as seguintes etapas:
 1. Crie uma pasta na qual deseja salvar os fragmentos de conteúdo criados com base no modelo de fragmento de conteúdo. Por exemplo, &quot;stock-content-fragments&quot;.
 1. Edite as propriedades da pasta (por exemplo, &quot;stock-content-fragments&quot;) e adicione o caminho da pasta, que contém o modelo de Fragmento de conteúdo na configuração de nuvem.
 Por exemplo, adicione `/conf/we-retail` na configuração de nuvem. Essa configuração conecta todos os modelos de fragmento de conteúdo à pasta.\
-   ![adicionar detalhes de configuração da nuvem nas propriedades da pasta](images/fragment-folder-cloud-configuration.png){width="650" align="left"}
+   ![adicionar detalhes de configuração da nuvem nas propriedades da pasta](images/fragment-folder-cloud-configuration.png){width="650"}
    *Adicione a configuração da nuvem nas propriedades da pasta para conectá-la aos modelos de fragmento.*
 
 1. Para gerar um Fragmento de Conteúdo, selecione **Nova Saída** ![novo ícone de saída](./images/Add_icon.svg) na seção **Saídas** em **Propriedades do Arquivo** de um tópico.
 1. Selecione **Fragmento do conteúdo**.\
-   ![guia de opções de propriedades do arquivo](./images/file-properties-outputs-tab.png) {width="300" align="left"}
+   ![guia de opções de propriedades do arquivo](./images/file-properties-outputs-tab.png) {width="300"}
 
    *Adicionar um novo Fragmento de Conteúdo das Propriedades de Arquivo de um tópico*.
 
@@ -82,7 +82,7 @@ O lado direito é preenchido com o conteúdo do fragmento de conteúdo publicado
 
 1. Você pode exibir os Fragmentos de conteúdo de um tópico na seção **Saídas** em **Propriedades do arquivo**.
 
-   ![Exibir os Fragmentos de Conteúdo de um tópico](images/outputs-options-menu.png){width="300" align="left"}
+   ![Exibir os Fragmentos de Conteúdo de um tópico](images/outputs-options-menu.png){width="300"}
 
    *Exiba os Fragmentos de Conteúdo presentes para um tópico e publique-os novamente.*
 

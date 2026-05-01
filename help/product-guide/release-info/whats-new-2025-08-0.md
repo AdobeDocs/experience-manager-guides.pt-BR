@@ -1,11 +1,11 @@
 ---
-title: Notas de versão | Novidades da versão 2025.08.0 do Adobe Experience Manager Guides
+title: Notas de versão | Novidades na versão 2025.08.0 do Adobe Experience Manager Guides
 description: Saiba mais sobre os recursos novos e aprimorados da versão 2025.08.0 do Adobe Experience Manager Guides
 role: Leader
 exl-id: c3461d0a-6394-4275-9d54-b2b1545d7c18
-source-git-commit: 1a44af3522060ebc531393d4d01b1cd00eb02c10
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '844'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Depois que a opção de alternância **Assistente de IA** estiver habilitada, os
 
 Saiba mais sobre o [assistente de IA nas configurações do Editor](../cs-install-guide/workspace-settings.md#general) no Experience Manager Guides.
 
-![](assets/authoring-quick-actions.png){width="350" align="left"}
+![](assets/authoring-quick-actions.png){width="350"}
 
 
 ## Experiência aprimorada para criar e usar arquivos DITAVAL
@@ -54,9 +54,9 @@ Os principais destaques são os seguintes:
 - **Suporte aprimorado para sinalização na criação de arquivos DITAVAL:** o Experience Manager Guides oferece novos recursos para personalizar a publicação de conteúdo por meio do suporte aprimorado à sinalização em arquivos DITAVAL. Agora é possível aplicar sinalizadores de início e término ao redor de um conteúdo específico, incluindo imagens, e enriquecer as seções sinalizadas com opções de formatação como negrito, itálico e muito mais. Para lidar com sobreposições de condição, o **conflito de estilo** pode ser configurado, o que inclui a definição de uma cor de fundo e texto padrão, garantindo clareza e consistência na saída. Esses sinalizadores são totalmente compatíveis na geração do PDF nativo, e a saída resultante reflete de forma precisa e abrangente todos os elementos de estilo aplicados.
 Para obter mais detalhes, consulte [Usar o Editor DITAVAL](../user-guide/ditaval-editor.md).
 
-  ![](assets/ditaval-flag-style-new.png){width="350" align="left"}
+  ![](assets/ditaval-flag-style-new.png){width="350"}
 
-- **Suporte a vários arquivos DITAVAL para PDF PDF Nativo:** Agora, vários arquivos DITAVAL podem ser adicionados para que cada um seja exibido como uma entrada marcada, facilitando a identificação e a remoção, oferecendo maior flexibilidade e controle sobre o conteúdo condicional nas saídas do PDF
+- **Suporte a vários arquivos DITAVAL para PDF Nativo:** Agora, vários arquivos DITAVAL podem ser adicionados para que cada um seja exibido como uma entrada marcada, facilitando a identificação e a remoção, oferecendo maior flexibilidade e controle sobre o conteúdo condicional nas saídas do PDF
 
   Além disso, essa atualização melhora a criação de predefinições de saída, permitindo campos DITAVAL editáveis em todos os formatos, permitindo que os usuários especifiquem manualmente os caminhos DITAVAL.
 
@@ -68,7 +68,7 @@ Essa versão traz melhorias na interface do usuário para o recurso de filtragem
 
 Para obter mais detalhes, consulte [Solução de problemas básica](../user-guide/generate-output-basic-troubleshooting.md).
 
-![](./assets/log-file-new.png){align="left"}
+![](./assets/log-file-new.png)
 
 
 ## Os arquivos temporários para saída publicada agora incluem Autor e URLs de publicação em um novo arquivo de configuração

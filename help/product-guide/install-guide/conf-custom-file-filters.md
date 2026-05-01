@@ -5,7 +5,7 @@ exl-id: 1ef09820-3b18-4762-b177-4d40926e21f0
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 0%
@@ -67,4 +67,4 @@ Execute as seguintes etapas para adicionar as opções de filtragem de arquivo p
 
    Quando você inicia a caixa de diálogo de navegação de arquivos, as opções de filtro configuradas no arquivo ui\_config.json são exibidas.
 
-   ![](assets/file-browse-custom-filters.png){width="300" align="left"}
+   ![](assets/file-browse-custom-filters.png){width="300"}

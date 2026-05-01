@@ -4,9 +4,9 @@ description: Saiba como exibir o relatório de reutilização de conteúdo no AE
 exl-id: ccae4303-75b1-4077-829a-7ef6a14fd8ad
 feature: Report Generation
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Execute as seguintes etapas para exibir o Relatório de reutilização de conte�
 
 1. Selecione **Gerar relatório** para obter o Relatório de Reutilização de Conteúdo.
 
-   ![](images/content-reuse-uuid.png){align="left"}
+   ![](images/content-reuse-uuid.png)
 
    A página do relatório está dividida em duas partes:
 
@@ -55,11 +55,11 @@ Execute as seguintes etapas para exibir o Relatório de reutilização de conte�
 
       - **Número de Vezes Reutilizado**: Número de vezes que o tópico correspondente foi reutilizado. Isso é calculado como a soma total das entradas nas colunas Referenciado por menos 1.
 
-      - **Referenciado por**: os tópicos nos quais o tópico correspondente foi referenciado. Aqui, somente as referências diretas \(primeiro nível\) são consideradas. Vários tópicos são separados por vírgulas. A UUID do arquivo referenciado também é mencionada entre parênteses. Selecionar no link de título do tópico abre a visualização do tópico.
+      - **Referenciado por**: os tópicos nos quais o tópico correspondente foi referenciado. Aqui, somente as referências diretas \(primeiro nível\) são consideradas. Vários tópicos são separados por vírgulas. A UUID do arquivo referenciado também é mencionada entre parênteses.Selecionar no link do título do tópico abre a visualização do tópico.
 
 
 >[!NOTE]
 >
 > Você também pode exportar o Relatório de reutilização de conteúdo no formato CSV. Para fazer isso, selecione o link Exportar para CSV no canto superior esquerdo da tela e escolha um local para salvar o arquivo CSV. Em seguida, você pode abrir esse arquivo CSV em qualquer editor CSV.
 
-**Tópico pai:**&#x200B;[&#x200B; Introdução aos relatórios](reports-intro.md)
+**Tópico pai:**[ Introdução aos relatórios](reports-intro.md)

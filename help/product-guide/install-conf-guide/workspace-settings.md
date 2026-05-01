@@ -3,9 +3,10 @@ title: Configurações do Workspace no Experience Manager Guides
 description: Saiba mais sobre as várias configurações disponíveis na interface do editor do Experience Manager Guides.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 453da51a42984b912547570f2e1de70806b41171
+exl-id: 10df0495-1d52-4c7c-a11a-059fe72d09f2
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '2191'
+source-wordcount: '2220'
 ht-degree: 0%
 
 ---
@@ -15,7 +16,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 > Na configuração no local, a opção **Configurações** aparece na barra de guias do Editor. Na configuração do Cloud Service, esta opção foi renomeada para **configurações do Workspace**. Todas as opções de configuração existentes disponíveis em **Configurações do editor** permanecem inalteradas.
-> ![Configuração do editor para No local](assets/editor-settings-on-prem.png){width="650" align="left"}
+> ![Configuração do editor para No local](assets/editor-settings-on-prem.png){width="650"}
 
 
 A opção **Configurações do Workspace** presente na [Barra de guias](../user-guide/web-editor-tab-bar.md) do Editor está disponível somente para administradores e administradores de perfil de pasta e permite definir as seguintes configurações:
@@ -41,10 +42,10 @@ A opção **Configurações do Workspace** presente na [Barra de guias](../user-
 
 As configurações Gerais permitem definir as configurações para usar o Editor. Esta guia contém cinco seções: **Assistente de IA**, **Criação**, **Citações**, **Condição** e **Verificação ortográfica**.
 
-![](../user-guide/images/editor-setting-general.png){width="350" align="left"}
+![](../user-guide/images/editor-setting-general.png){width="350"}
 
 - **Assistente de IA**
-Selecione esta opção para habilitar o recurso [Assistente de IA](../user-guide/ai-assistant.md) no Experience Manager Guides. Desmarque para desativar o recurso.
+Selecione esta opção para habilitar o recurso [Assistente de IA](../user-guide/ai-assistant.md) na Experience Manager Guides. Desmarque para desativar o recurso.
 
   Depois de habilitar a opção de alternância **Assistente de IA**, você pode configurar quais opções serão exibidas na **guia Criação** para autores usando o menu **Ações rápidas de criação**, conforme mostrado abaixo.\
   Essas alterações se aplicam ao perfil de pasta específico com o qual você está trabalhando. Se você criar um novo perfil de pasta, ele herdará as configurações do Workspace definidas no perfil de pasta **Global** por padrão. Você pode modificar essas configurações conforme necessário usando as **configurações do Workspace** e salvar a configuração atualizada.\
@@ -56,7 +57,7 @@ Selecione esta opção para habilitar o recurso [Assistente de IA](../user-guide
 
    - altere a ordem na qual as opções são exibidas, arraste-as e solte-as conforme necessário.
 
-  ![](../user-guide/images/authoring-quick-actions-new.png){width="350" align="left"}
+  ![](../user-guide/images/authoring-quick-actions-new.png){width="350"}
 
 
 
@@ -76,7 +77,7 @@ Selecione esta opção para habilitar o recurso [Assistente de IA](../user-guide
 
    - **Mostrar chave com o título no painel Esquema de Assunto**: selecione essa opção para mostrar as chaves junto com títulos no esquema de assunto. Se você não selecionar essa opção, somente os títulos serão exibidos. Por exemplo, aqui as chaves &quot;os&quot;, &quot;audience&quot; e &quot;other&quot; também são mostradas junto com títulos.
 
-     ![](../user-guide/images/subject-scheme-title.png){width="550" align="left"}
+     ![](../user-guide/images/subject-scheme-title.png){width="550"}
 
    - **Mostrar esquema de assunto no painel Condições**: selecione esta opção para exibir um esquema de assunto no painel Condições. Se você desmarcar essa opção, as condições definidas serão mostradas no painel Condições.
 
@@ -88,11 +89,11 @@ Há duas opções: **verificação ortográfica do AEM** e **verificação ortog
 
 Essa configuração controla os painéis exibidos nos painéis esquerdo e direito do Editor e do console de Mapa. Você pode alternar o botão para mostrar ou ocultar o painel desejado.
 
-![](../user-guide/images/editor-setting-panel.png){width="650" align="left"}
+![](../user-guide/images/editor-setting-panel.png){width="650"}
 
 Você também pode definir a ordem em que os recursos presentes nos painéis são exibidos. Para alterar a ordem padrão dos recursos disponíveis nos painéis, selecione as barras pontilhadas para arrastar e soltar as guias de recursos no local desejado. Um recurso também pode ser movido da seção **Mais** para a seção principal de um painel, e vice-versa de acordo com o requisito. Depois de reordenados, os recursos aparecem na mesma sequência nos respectivos painéis direito e esquerdo.
 
-![](../user-guide/images/panels-screen-new.png){width="650" align="left"}
+![](../user-guide/images/panels-screen-new.png){width="650"}
 
 
 No máximo oito painéis podem ser exibidos de cada vez. Quaisquer alterações feitas nas configurações do painel são aplicadas imediatamente.
@@ -106,23 +107,23 @@ No máximo oito painéis podem ser exibidos de cada vez. Quaisquer alterações 
 
 Como administrador, você pode controlar a lista de elementos que um autor pode inserir em um arquivo e também definir o nome de exibição do elemento. A configuração da lista Elementos permite especificar o nome do elemento de acordo com as especificações DITA e um rótulo que você deseja usar em vez do nome do elemento definido por DITA:
 
-![](../user-guide/images/editor-setting-element-list.png){width="650" align="left"}
+![](../user-guide/images/editor-setting-element-list.png){width="650"}
 
 Na captura de tela acima, o elemento `p` recebeu um rótulo de Parágrafo, e `codeblock` recebeu um rótulo de Bloco de Código junto com alguns outros elementos. Se você selecionar a opção **Usar somente os elementos acima**, então somente os elementos válidos \(no ponto de inserção atual\) desta lista serão exibidos na caixa de diálogo **Inserir elemento**.
 
 Na captura de tela a seguir, apenas 3 dos 4 elementos configurados da captura de tela anterior são mostrados no contexto atual:
 
-![](../user-guide/images/editor-setting-insert-element-list.PNG){width="300" align="left"}
+![](../user-guide/images/editor-setting-insert-element-list.PNG){width="300"}
 
 ## Lista de atributos
 
 Semelhante à lista de elementos, você pode controlar a lista de atributos e seus nomes de exibição a serem exibidos na lista de atributos de um elemento. Na captura de tela a seguir, apenas 3 atributos foram configurados para serem mostrados na lista de atributos de um elemento:
 
-![](../user-guide/images/editor-setting-attributes-list.png){width="650" align="left"}
+![](../user-guide/images/editor-setting-attributes-list.png){width="650"}
 
 Com essa configuração, ao tentar adicionar um atributo a um elemento, você só visualiza a lista de atributos configurados na lista.
 
-![](../user-guide/images/editor-setting-add-attributes-list.png){width="300" align="left"}
+![](../user-guide/images/editor-setting-add-attributes-list.png){width="300"}
 
 
 ## Cores
@@ -154,7 +155,7 @@ Ela contém os Perfis que podem ser usados para publicar a saída da **Base de D
 
    - Para criar um perfil do Salesforce, selecione a Base de Dados de Conhecimento **Salesforce** na lista suspensa **Tipo de servidor**. Insira um Nome de perfil. No **URL do Site**, insira o site do consumidor que você usaria para publicar a saída e adicionar a **Chave do Consumidor** e o **Segredo do Consumidor** fornecidos pelo site do consumidor do Salesforce. Em seguida, **Validar** e **Salvar** o perfil recém-criado.
 
-     ![perfil de publicação do salesforce nas configurações do espaço de trabalho](../user-guide/images/salesforce-publish-profile.png){width="550" align="left"}
+     ![perfil de publicação do salesforce nas configurações do espaço de trabalho](../user-guide/images/salesforce-publish-profile.png){width="550"}
 
      >[!NOTE]
      >
@@ -179,7 +180,7 @@ Configure o servidor ServiceNow para fazer upload dos ativos.
 
 - Para criar um perfil, selecione a Base de Dados de Conhecimento ServiceNow na lista suspensa **Tipo de servidor**. Insira um perfil **Nome**. Na **URL do ServiceNow**, insira o site do consumidor que você usaria para publicar a saída e, em seguida, adicione o **Nome de Usuário** e a **Senha** fornecidos pelo site do consumidor do ServiceNow. Em seguida, **Validar** e **Salvar** o perfil recém-criado.
 
-  ![Perfil de publicação do ServiceNow](../user-guide/images/service-now-publish-profile.png){width="550" align="left"}
+  ![Perfil de publicação do ServiceNow](../user-guide/images/service-now-publish-profile.png){width="550"}
 
   Depois de validar, você pode selecionar o Perfil de Publicação nas predefinições de saída de um Mapa DITA e usá-lo para gerar a saída para o servidor do **Salesforce** ou do **ServiceNow** escolhido.
 
@@ -197,13 +198,13 @@ Esta guia contém opções para configurar as validações do Schematron no Edit
   >- O(s) arquivo(s) de esquema selecionado(s) persistirá(ão) no perfil de pasta selecionado.
   >- Quando um arquivo de Schematron inválido é adicionado, uma mensagem de erro é exibida, como mostrado abaixo.
 
-  ![Validação nas configurações do espaço de trabalho](../user-guide/images/editor-setting-validation-error.png){width="550" align="left"}
+  ![Validação nas configurações do espaço de trabalho](../user-guide/images/editor-setting-validation-error.png){width="550"}
 
   Isso impede que os usuários salvem qualquer arquivo que quebre uma regra definida no(s) arquivo(s) selecionado(s) do Schematron. Se esta opção não estiver selecionada, o arquivo não será validado antes de salvar as alterações.
 
 - **Permitir que todos os usuários adicionem arquivos de esquematron no painel de validação**: selecione essa opção para permitir que os usuários adicionem qualquer arquivo de Esquematron no painel Validação do Editor. Isso permite que os usuários adicionem arquivos do Schematron e, em seguida, validem os tópicos em relação ao arquivo Schematron. Se esta opção não estiver selecionada, a opção para adicionar o arquivo de esquematron **botão Adicionar Arquivo de Esquematron** não estará disponível para os usuários no **Painel de validação** do Editor.
 
-  ![Validação nas configurações do espaço de trabalho](../user-guide/images/editor-setting-validation.png){width="550" align="left"}
+  ![Validação nas configurações do espaço de trabalho](../user-guide/images/editor-setting-validation.png){width="550"}
 
 
 ## Exibir atributos
@@ -212,13 +213,13 @@ Assim como a lista Atributos, você pode controlar a lista de atributos a ser ex
 
 Os atributos definidos para um elemento são exibidos na exibição Layout e Estrutura de Tópicos.
 
-![](../user-guide/images/editor-settings-display-attributes.png){width="550" align="left"}
+![](../user-guide/images/editor-settings-display-attributes.png){width="550"}
 
 ## Tradução
 
 Essa guia contém as opções para criar grupos de idiomas, propagar os rótulos de origem para a versão de destino e limpar o projeto de tradução.
 
-![](../user-guide/images/editor-setting-translation.png){width="550" align="left"}
+![](../user-guide/images/editor-setting-translation.png){width="550"}
 
 - **Grupos de Idiomas**: como administrador, você pode criar um grupo de idiomas e usá-los como um conjunto para traduzir o conteúdo.
 
@@ -259,7 +260,7 @@ Os metadados podem ser escolhidos de qualquer propriedade no nó `/jcr:content` 
 Um erro é exibido se o caminho de metadados estiver em branco. Se você deixar o rótulo em branco, o último elemento será escolhido como o rótulo.
 
 
-![guia de metadados nas configurações do espaço de trabalho](../user-guide/images/editor-setting-metadata.png){width="550" align="left"}
+![guia de metadados nas configurações do espaço de trabalho](../user-guide/images/editor-setting-metadata.png){width="550"}
 
 *Configure os metadados da caixa de diálogo **Histórico de Versões**.*
 

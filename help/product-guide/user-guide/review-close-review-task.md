@@ -4,9 +4,9 @@ description: Saber sobre o fluxo de trabalho de fechamento de uma tarefa de revi
 feature: Reviewing
 role: User
 exl-id: d2119bbe-3a0c-4da3-b4f8-7872496fa61f
-source-git-commit: 6f9265b341b4122e7f13a429cc2fecacb14ae39c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Execute as seguintes etapas para solicitar uma revisão ou fechar uma tarefa de 
 
    A caixa de diálogo **Comentários da tarefa** é exibida à direita.
 
-   ![](images/task-comments-dialog-editor.png){width="350" align="left"}.
+   ![](images/task-comments-dialog-editor.png){width="350"}.
 4. Selecione **Atualizar tarefa** para executar mais ações na tarefa de revisão selecionada.
 5. Na caixa de diálogo **Atualizar tarefa**, escolha uma das seguintes ações:
 
@@ -52,22 +52,22 @@ Execute as seguintes etapas para solicitar uma revisão ou fechar uma tarefa de 
 
    Para obter detalhes sobre como as notificações de revisão disparam, exiba [Noções básicas sobre notificações de revisão](./review-understanding-review-notifications.md).
 
-   ![](images/update-task-dialog.png){width="350" align="left"}
+   ![](images/update-task-dialog.png){width="350"}
 
    Você também pode [verificar o status da sua tarefa de revisão](./review-manage-tasks-review-dashboard.md#check-the-status-of-a-review-task) usando a opção **Verificar status da revisão** presente na caixa de diálogo Atualizar tarefa. A seleção dessa opção o direciona ao painel Revisão, no qual o relatório de status da sua tarefa de revisão é exibido.
 
-   ![](images/check-review-status-icon.png){width="650" align="left"}
+   ![](images/check-review-status-icon.png){width="650"}
 
 6. Selecione **Confirmar**.
 
 
 Como Autor ou iniciador de uma tarefa de revisão, ao fechá-la, o botão **Atualizar tarefa**, presente na parte inferior do painel Revisão, é alterado para **Fechado**, indicando que a tarefa não está mais ativa.
 
-![](images/review-task-status-closed-review-panel.png){width="350" align="left"}
+![](images/review-task-status-closed-review-panel.png){width="350"}
 
 Além disso, o botão **Atualizar tarefa** presente no painel Revisão permanece desabilitado para os outros usuários da tarefa de revisão. Por exemplo, como um dos revisores de uma tarefa de revisão, se você abrir a tarefa no Editor, o botão Atualizar tarefa será desabilitado com uma mensagem **Você não tem permissão para agir nessa tarefa**. Somente o iniciador de uma tarefa de revisão tem permissão para atualizar a tarefa do Editor.
 
-![](images/update-task-button-disabled.png){width="350" align="left"}
+![](images/update-task-button-disabled.png){width="350"}
 
 
 

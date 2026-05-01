@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor, Translation
 role: User
 hide: true
 exl-id: a288a4d5-5c24-4021-8bfa-4b68cecf630f
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '2358'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Antes de executar etapas neste procedimento, verifique se você criou a raiz de 
 
 1. Como usuário, você pode exibir os grupos de idiomas configurados para o perfil da pasta. Os grupos de idiomas exibem as pastas de idiomas junto com seus códigos de idioma. Por exemplo, o grupo de idiomas denominado G1 contém as pastas de idiomas \(it\), Alemão \(de\), Francês \(fr\) e Inglês \(en\).
 
-   ![painel de tradução](images/translation-languages.png){width="300" align="left"}
+   ![painel de tradução](images/translation-languages.png){width="300"}
 
    *Selecione os grupos de idiomas ou idiomas nos quais você deseja traduzir os documentos.*
 
@@ -93,11 +93,11 @@ Antes de executar etapas neste procedimento, verifique se você criou a raiz de 
    - **Rótulo de Destino**: rótulo para a versão selecionada do arquivo de destino
 1. Clique em **Enviar para tradução** no canto superior direito.
 
-   ![](images/translation-send.png){width="800" align="left"}
+   ![](images/translation-send.png){width="800"}
 
 1. Na lista suspensa, selecione **Criar um novo projeto de tradução**.
 
-   ![](images/translation-project-types.png){width="350" align="left"}
+   ![](images/translation-project-types.png){width="350"}
 
    Além de um novo projeto de tradução, você também pode selecionar as seguintes opções:
 
@@ -162,7 +162,7 @@ Para adicionar o rótulo da versão de origem na cópia de destino, o administra
 
 Por exemplo, se você tiver alguns arquivos de origem com o rótulo da versão `Release 1.0` aplicado a eles, você também poderá passar o rótulo de origem \(`Release 1.0`\) para o arquivo traduzido.
 
-![](images/translation-pass-source-label.png){width="650" align="left"}
+![](images/translation-pass-source-label.png){width="650"}
 
 >[!NOTE]
 >
@@ -172,7 +172,7 @@ Por exemplo, se você tiver alguns arquivos de origem com o rótulo da versão `
 
 O AEM Guides fornece o recurso para verificar as diferenças entre a versão selecionada e a última versão de origem traduzida dos tópicos. Você pode optar por traduzir os arquivos **Fora de sincronização** com base nas alterações feitas.
 
-![](images/translation-version-diff.png){width="650" align="left"}
+![](images/translation-version-diff.png){width="650"}
 
 Selecione o ícone **Mostrar diferença**\(![](images/show-difference-icon.svg)\) de um tópico para ver as diferenças entre a última versão traduzida e a versão atual do arquivo selecionado.
 
@@ -182,7 +182,7 @@ Selecione o ícone **Mostrar diferença**\(![](images/show-difference-icon.svg)\
 
 A caixa de diálogo **Diferença de Versão** é exibida. Ela mostra o número da **Última versão traduzida** e da **Versão selecionada** à esquerda. A janela de visualização exibe as diferenças entre a última versão traduzida e a versão selecionada do tópico.
 
-![](images/version-diff.png){width="650" align="left"}
+![](images/version-diff.png){width="650"}
 
 ## Ignorar ativos fora de sincronia
 
@@ -193,7 +193,7 @@ Para descartar o status Fora de sincronização, execute as seguintes etapas:
 1. Selecione os ativos fora de sincronização para os quais deseja alterar o status.
 1. Selecione o botão **Marcar como Sincronizado** \(![](images/translation-mark-in-sync-icon.svg)\) acima. A caixa de diálogo **Marcar na Sincronização** é exibida.
 
-   ![](images/translation-mark-in-sync.png){width="550" align="left"}
+   ![](images/translation-mark-in-sync.png){width="550"}
 
 1. Clique em **Forçar sincronização**. Ele define o status como Em sincronia para os ativos Fora de sincronia selecionados.
 
@@ -211,7 +211,7 @@ Algumas das referências no painel de tradução podem estar com o status em and
 
 Clique no nome da referência na caixa de diálogo para abri-la no modo de visualização. Você também pode clicar no projeto de tradução para iniciar a tradução.
 
-![](images/translation-in-progress.png){width="550" align="left"}
+![](images/translation-in-progress.png){width="550"}
 
 
 ## Excluir ou desabilitar automaticamente um projeto de tradução concluído
@@ -227,4 +227,4 @@ Para afetar o gerenciamento de documentos, o Experience Manager Guides fornece a
 Você também pode desativar os projetos de tradução se desejar usá-los posteriormente. A exclusão de um projeto exclui todos os arquivos e pastas presentes no projeto. Desativar um projeto não o exclui, mas o mantém no repositório. Mas você não pode atualizar ou editar um projeto desativado.  A exclusão ou desativação de um projeto não afetará o status de tradução de nenhuma referência.
 
 
-**Tópico pai:**&#x200B;[&#x200B; Trabalhar com o Editor da Web](web-editor.md)
+**Tópico pai:**[ Trabalhar com o Editor da Web](web-editor.md)

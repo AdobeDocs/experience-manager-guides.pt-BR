@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: f8397acf-acd3-4e68-adce-9adbbef55337
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 1%
@@ -46,7 +46,7 @@ Para definir atributos condicionais, execute as seguintes etapas:
 
    A captura de tela a seguir mostra a definição do atributo `platform` com valor de `unix` e rótulo de `Red Hat Linux`.
 
-   ![](images/add-profile.png){width="800" align="left"}
+   ![](images/add-profile.png){width="800"}
 
 1. Se quiser adicionar mais valores para o mesmo atributo, clique no ícone **+** e insira valor e rótulo adicionais.
 
@@ -57,6 +57,6 @@ Para definir atributos condicionais, execute as seguintes etapas:
 
 O atributo `platform` está armazenado no sistema. Sempre que um autor decidir usar o atributo `platform` em um tópico DITA em uma pasta, ele verá os valores na guia Propriedades no Editor da Web.
 
-![](images/properties-tab.png){width="350" align="left"}
+![](images/properties-tab.png){width="350"}
 
-**Tópico pai:**&#x200B;[&#x200B; Geração de saída](generate-output.md)
+**Tópico pai:**[ Geração de saída](generate-output.md)

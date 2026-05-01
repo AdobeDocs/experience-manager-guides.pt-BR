@@ -5,7 +5,7 @@ feature: Translation
 role: User
 hide: true
 exl-id: b623b109-8695-40e5-9e28-78f78cf57ad6
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Execute as seguintes etapas para enviar um tópico modificado para nova traduç�
 
    Se você clicar na seta para ver mais detalhes. você pode ver a cópia de idioma específica que está desatualizada.
 
-   ![](images/out-of-sync-uuid.png){width="800" align="left"}
+   ![](images/out-of-sync-uuid.png){width="800"}
 
 1. Clique na caixa de seleção para selecionar os tópicos que deseja enviar para nova tradução.
 
@@ -54,7 +54,7 @@ Execute as seguintes etapas para enviar um tópico modificado para nova traduç�
 
 1. Navegue até o projeto de tradução no console Projeto. Um novo cartão de tarefa de tradução é criado na pasta. Clique nas reticências para ver os ativos da pasta.
 
-   ![](images/incremental-job.PNG){width="300" align="left"}
+   ![](images/incremental-job.PNG){width="300"}
 
 1. Para iniciar a tradução, clique na seta no cartão de trabalho de tradução e selecione **Iniciar** na lista. Uma mensagem notifica que o trabalho foi iniciado.
 
@@ -79,4 +79,4 @@ Execute as seguintes etapas para enviar um tópico modificado para nova traduç�
 1. Volte para o arquivo de mapa DITA na pasta de idioma de origem na interface do Assets. Os tópicos retraduzidos agora estão em sincronia.
 
 
-**Tópico pai:**&#x200B;[&#x200B; Traduzir conteúdo](translation.md)
+**Tópico pai:**[ Traduzir conteúdo](translation.md)

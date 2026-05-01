@@ -1,10 +1,11 @@
 ---
-title: Notas de versão | Novidades da versão 2025.11.0 do Adobe Experience Manager Guides
+title: Notas de versão | Novidades na versão 2025.11.0 do Adobe Experience Manager Guides
 description: Saiba mais sobre os recursos novos e aprimorados da versão 2025.11.0 do Adobe Experience Manager Guides
 role: Leader
-source-git-commit: a13fdb36efb5cfb548f8e128977469763836537a
+exl-id: 270a5faa-a16f-4939-900e-3c6c54660d2c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '512'
 ht-degree: 0%
 
 ---
@@ -22,11 +23,11 @@ Saiba mais sobre [as instruções de atualização para a versão 2025.11.0](../
 
 O Repositório, agora acessível diretamente da página inicial, serve como um espaço centralizado para a descoberta aprimorada de pastas e arquivos. Ele apresenta o **painel de navegação de pasta** dedicado e uma **exibição tabular do Repositório** personalizável. A experiência de pesquisa e filtro renovada facilita significativamente a localização e a localização de arquivos. Para obter mais detalhes, consulte [Conhecer a interface do Repositório](../user-guide/home-page-repository-view.md).
 
-![](assets/repository-view-home.png){align="left"}
+![](assets/repository-view-home.png)
 
 No Editor, a experiência de Pesquisa e filtro para arquivos agora é consistente com a Página inicial. Um novo [painel de Pesquisa](../user-guide/search-panel-explorer.md), localizado na parte inferior da interface do Editor, foi introduzido para exibir resultados de pesquisa. Além disso, o Repositório agora é renomeado para **Explorer** no Editor, permitindo que você procure pastas e arquivos como antes.
 
-![](assets/search-panel-explorer.png){align="left"}
+![](assets/search-panel-explorer.png)
 
 
 ## Indexação aprimorada para sugestões inteligentes no Assistente de IA
@@ -56,7 +57,3 @@ Após a atualização da build, o sistema pode enfrentar um aumento temporário 
 Um processo automatizado foi introduzido para manter os ativos no `/content/dam` atualizados. O sistema aciona o reprocessamento de ativos a cada 15 minutos. Durante cada ciclo, os ativos que foram adicionados recentemente ou que permaneceram não processados dentro do intervalo de 15 minutos mais recente são coletados e reprocessados, melhorando a eficiência e a consistência em todo o repositório de conteúdo.
 
 Para obter mais detalhes, consulte [Processar ativos](../user-guide/asset-processor.md).
-
-
-
-

@@ -5,7 +5,7 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: d0fc902a-0b50-4af5-9e24-5564d216396c
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '2384'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Você pode criar um relatório dos tópicos executando as seguintes etapas:
 1. Clique na guia **Gerenciar**.
 1. Clique duas vezes em **Lista de Tópicos** à esquerda. A lista de tópicos presentes no mapa DITA é exibida.
 
-   ![](images/web-editor-topiclist-panel.png){width="800" align="left"}
+   ![](images/web-editor-topiclist-panel.png){width="800"}
 
 1. No painel **Filtros**, você pode filtrar seus tópicos com base no **Tipo de referência** \(direto ou indireto\), **Estado do Documento** \(o estado atual de seus tópicos. Por exemplo, se os tópicos estiverem no estado Editar, Em revisão ou Revisado, eles serão listados\) ou o **Autor** do tópico.
 
@@ -60,7 +60,7 @@ Para exibir os metadados de suas referências no mapa DITA atual, execute as seg
 1. Clique na guia **Gerenciar**.
 1. Clique duas vezes em **Metadata** à esquerda. A lista de metadados de todas as referências no mapa DITA é exibida. Isso também inclui as referências de mídia.
 
-   ![](images/web-editor-metadata-panel.png){width="800" align="left"}
+   ![](images/web-editor-metadata-panel.png){width="800"}
 
 1. No painel **Filtros**, você pode filtrar seus tópicos com base no **Estado do Documento** \(o estado atual de seus tópicos. Por exemplo, se os tópicos estiverem no estado Editar, Em revisão ou Revisado, eles serão listados\), **Referências** \(direto ou indireto\), **Tipo de arquivo** \(Mapa, Tópico e Imagem\) da referência.
 1. Você também pode optar por exibir somente os **Arquivos sem marcas** ou escolher marcas específicas no filtro **Marcas** para exibir os arquivos associados a eles.
@@ -95,7 +95,7 @@ Para exibir os metadados de suas referências no mapa DITA atual, execute as seg
 
 1. Selecione **Gerenciar** de cima.
 
-   ![](images/web-editor-manage-metadata.png){width="350" align="left"}
+   ![](images/web-editor-manage-metadata.png){width="350"}
 
 1. Se quiser adicionar novas tags, selecione novas tags na lista suspensa para aplicá-las a todos os tópicos selecionados. Também é possível excluir qualquer tag ao clicar no ícone de cruz próximo à tag.
 
@@ -115,13 +115,13 @@ O relatório **Multimídia** fornece informações detalhadas sobre a multimídi
 1. Clique duas vezes em **Multimídia** à esquerda. A lista de multimídia presente no mapa DITA é exibida.
 1. No painel **Filtros**, você pode ordenar a lista por multimídia ou pelos nomes de usados nas referências.
 
-   - Ao fazer o pedido por **Multimídia**, o&#x200B;**&#x200B;**&#x200B;nome da multimídia é exibido na primeira coluna e, em seguida, os nomes de todas as referências nas quais foram usados são exibidos em outra coluna na mesma linha. Por exemplo, a captura de tela a seguir mostra a multimídia WarmCoolForC.gif na primeira coluna e três referências nas quais ela é usada são exibidas na terceira coluna na mesma linha.
+   - Ao fazer o pedido por **Multimídia**, o****nome da multimídia é exibido na primeira coluna e, em seguida, os nomes de todas as referências nas quais foram usados são exibidos em outra coluna na mesma linha. Por exemplo, a captura de tela a seguir mostra a multimídia WarmCoolForC.gif na primeira coluna e três referências nas quais ela é usada são exibidas na terceira coluna na mesma linha.
 
-     ![](images/multimedia-report-file-order.png){width="650" align="left"}
+     ![](images/multimedia-report-file-order.png){width="650"}
 
    - Se ordenar por coluna **Usado em**, você verá a exibição transposta na qual os nomes das referências nas quais o multimídia foi usado são listados na primeira coluna, enquanto os nomes de multimídia são listados em outra coluna em linhas separadas. Por exemplo, a captura de tela a seguir mostra os nomes de três referências \(Ajustar a temperatura da cadeira, Alterar a exibição da temperatura da cadeira e Área da tripulação\) na primeira coluna e a multimídia WarmCoolForC.gif é exibida na terceira coluna em três linhas separadas.
 
-     ![](images/multimedia-report-used-in-order.png){width="650" align="left"}
+     ![](images/multimedia-report-used-in-order.png){width="650"}
 
 1. Você pode filtrar sua multimídia com base no **Tipo de multimídia** e no **Tipo de Referência**. A lista de arquivos multimídia é exibida com base na sua seleção na lista suspensa. Por exemplo, você pode optar por exibir somente as referências de áudio no mapa DITA, e um arquivo mostra somente as referências de áudio usadas nele.
 
@@ -143,7 +143,7 @@ O relatório **Multimídia** fornece informações detalhadas sobre a multimídi
 
 1. Você também pode clicar e reproduzir um arquivo de áudio ou vídeo no Editor da Web. Você pode alterar o volume ou a visualização do vídeo. No menu de atalho, você também tem as opções para baixar, alterar a velocidade de reprodução ou visualizar uma imagem na imagem.
 
-   ![](images/video-web-editor.png){width="800" align="left"}
+   ![](images/video-web-editor.png){width="800"}
 
 1. Clique em **Baixar CSV** para baixar o instantâneo atual da multimídia no mapa DITA. O CSV contém as colunas selecionadas e a multimídia filtrada na exibição **Multimídia**. Em seguida, você pode abrir esse arquivo CSV multimídia em qualquer editor CSV.
 
@@ -159,10 +159,10 @@ Você pode exibir o relatório de links desfeitos executando as seguintes etapas
 1. No painel **Filtros**, é possível ordenar a lista por links ou pelos nomes de usados nas referências.
 
    - Quando você ordena por **Link quebrado**, os caminhos dos links quebrados são exibidos na primeira coluna e, em seguida, os nomes de todas as referências nas quais eles foram usados são exibidos em outra coluna em linhas separadas. Se o mesmo link quebrado for usado em vários arquivos, eles serão exibidos em uma linha e serão mostrados como agrupados ou sublinhas. Por exemplo, a captura de tela a seguir mostra três links desfeitos na primeira coluna e a referência na qual eles são usados, `TestMap.ditamap`, é exibida na terceira coluna em três linhas separadas.
-   ![](images/broken-link-report.png){width="800" align="left"}
+   ![](images/broken-link-report.png){width="800"}
 
    - Se ordenar por **Usado em** coluna, você exibirá a exibição transposta na qual os nomes das referências nas quais os links desfeitos foram usados são listados na primeira coluna, enquanto os links desfeitos são listados em outra coluna na mesma linha. Por exemplo, a captura de tela a seguir mostra a referência (em que o link quebrado é usado) `TestMap.ditamap` na primeira coluna e os links quebrados são exibidos na terceira coluna na mesma linha.
-   ![](images/broken-link-filter-usedin.png){width="800" align="left"}
+   ![](images/broken-link-filter-usedin.png){width="800"}
 1. Você pode filtrar os links com falha com base no **Tipo de Arquivo** e no **Tipo de Link**. A lista de links com falha é exibida com base na sua seleção na lista suspensa. Por exemplo, você pode optar por exibir somente as referências de conteúdo no mapa DITA, e um arquivo mostra somente as referências de conteúdo usadas nele.
 
    Dependendo do tipo de referências usado no seu mapa, a referência de Arquivo, a referência de Chave, a referência de Conteúdo, a referência de Chave de Conteúdo, a referência de Imagem e a referência de Arquivo Multimídia estão listadas na lista suspensa **Tipo de Link** e no **Tópico DITA** ou **Mapa DITA** estão listadas na lista suspensa **Tipo de Arquivo**.
@@ -194,4 +194,4 @@ Clique em **Atualizar** para obter uma nova lista de links com falha e exibir qu
 1. Clique em **Baixar CSV** para baixar o instantâneo atual dos links corrompidos no mapa DITA. O CSV contém as colunas selecionadas e os links quebrados filtrados na exibição Links quebrados. Em seguida, você pode abrir e visualizar esse arquivo CSV em qualquer editor CSV.
 
 
-**Tópico pai:**&#x200B;[&#x200B; Relatórios](reports-intro.md)
+**Tópico pai:**[ Relatórios](reports-intro.md)

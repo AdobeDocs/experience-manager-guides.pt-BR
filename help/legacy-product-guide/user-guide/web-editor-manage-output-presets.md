@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor, Publishing
 role: User
 hide: true
 exl-id: 4e9cd1d5-1c28-4363-917d-f58511c4f809
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Execute as seguintes etapas para criar uma predefinição de saída para os Perf
 1. Selecione a opção **Editar Tópicos** no menu **Opções** do arquivo de mapa. O arquivo de mapa é aberto para edição no Editor da Web.
 1. Na guia **Saída**, selecione o ícone + para criar uma predefinição de saída para o mapa DITA.
 
-   ![](images/add-global-output-preset.png){width="350" align="left"}
+   ![](images/add-global-output-preset.png){width="350"}
 
 1. Insira os seguintes detalhes na caixa de diálogo **Adicionar predefinição**:
    - Tipo
@@ -54,4 +54,4 @@ No menu Opções, também é possível executar as seguintes operações na pred
 >
 > Quando uma predefinição de saída em Perfis Globais e de Pasta for excluída, ela será refletida em todos os mapas relacionados e não aparecerá na guia **Saída**.
 
-**Tópico pai:**&#x200B;[&#x200B; Trabalhar com o Editor da Web](web-editor.md)
+**Tópico pai:**[ Trabalhar com o Editor da Web](web-editor.md)

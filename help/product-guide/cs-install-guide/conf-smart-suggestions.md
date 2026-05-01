@@ -2,7 +2,7 @@
 title: Configurar o AI Assistant para obter ajuda e criação inteligentes
 description: Saiba como configurar o Assistente de IA no Experience Manager Guides
 exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '989'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Execute as seguintes etapas para criar configurações do IMS no Adobe Developer
 1. Iniciar [Adobe Developer Console](https://developer.adobe.com/console).
 1. Depois de fazer logon no Developer Console, você verá a tela **Página inicial**. A tela **Página Inicial** é onde você pode encontrar facilmente informações e links rápidos, incluindo links de navegação superior para Projetos e Downloads.
 1. Para criar um novo projeto vazio, selecione **Criar novo projeto** nos links **Início rápido**.
-   ![Links de início rápido](assets/conf-ss-quick-start.png) {width="550" align="left"}
+   ![Links de início rápido](assets/conf-ss-quick-start.png) {width="550"}
    *Criar um novo projeto.*
 
 1. Selecione **Adicionar API** na tela **Projetos**.  A tela **Adicionar uma API** é exibida. Esta tela exibe todas as APIs, Eventos e serviços disponíveis para produtos e tecnologias da Adobe com os quais você pode desenvolver aplicativos.
@@ -53,7 +53,7 @@ Execute as seguintes etapas para criar configurações do IMS no Adobe Developer
 
 1. Selecione o link **Servidor a Servidor OAuth** para exibir os detalhes de credencial do seu projeto.
 
-   ![credenciais conectadas](assets/conf-ss-connected-credentials.png) {width="800" align="left"}
+   ![credenciais conectadas](assets/conf-ss-connected-credentials.png) {width="800"}
 
    *Conecte-se ao projeto para exibir os detalhes da credencial.*
 
@@ -81,7 +81,7 @@ Execute as seguintes etapas para adicionar a configuração IMS ao ambiente:
 1. Alterne para a guia **Configuração**.
 1. Cole os detalhes do serviço JSON (baixados na seção anterior) no campo **Value** correspondente a `SERVICE_ACCOUNT_DETAILS`. Certifique-se de usar o mesmo nome e configuração fornecidos na captura de tela a seguir.
 
-   ![configuração da conta de serviço ims](assets/ims-service-account-config.png){width="800" align="left"}
+   ![configuração da conta de serviço ims](assets/ims-service-account-config.png){width="800"}
 
 ## Habilitar o sinalizador de IA no ambiente
 
@@ -89,7 +89,7 @@ Para habilitar o recurso Assistente de IA na interface do usuário do Experience
 
 Certifique-se de que você esteja usando o mesmo nome e configuração fornecidos na captura de tela a seguir.
 
-![](assets/conf-folder-ai-assistant-enable.png){width="800" align="left"}
+![](assets/conf-folder-ai-assistant-enable.png){width="800"}
 
 Definir o sinalizador como **true** habilita a funcionalidade, enquanto a define como **false** a desabilita.
 
@@ -99,7 +99,7 @@ Adicione a variável `GUIDES_AI_SITE_ID` em seu ambiente (Cloud Manager) e defin
 
 Certifique-se de que você esteja usando o mesmo nome e configuração fornecidos na captura de tela a seguir.
 
-![](assets/conf-folder-guides-site-id.png){width="800" align="left"}
+![](assets/conf-folder-guides-site-id.png){width="800"}
 
 ## Aplicar alterações ao ambiente
 
@@ -119,7 +119,7 @@ Depois que as alterações de configuração forem aplicadas, ative o recurso As
 
 Para obter mais detalhes, consulte [Conhecer os recursos do Editor](../user-guide/web-editor-features.md).
 
-![](assets/conf-folder-ai-assistant-enable-settings.png){width="300" align="left"}
+![](assets/conf-folder-ai-assistant-enable-settings.png){width="300"}
 
 ## Configurar Sugestões Inteligentes no Perfil de Pasta
 

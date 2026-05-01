@@ -5,7 +5,7 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: 044fb5df-166d-44a2-9ed6-6db47e4f125e
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Execute as seguintes etapas para exibir o Relatório de mapa DITA:
 
 1. Clique em **Relatórios**.
 
-   ![](images/reports-page-uuid.png){width="800" align="left"}
+   ![](images/reports-page-uuid.png){width="800"}
 
    A página Relatórios está dividida em duas partes:
 
@@ -38,7 +38,7 @@ Execute as seguintes etapas para exibir o Relatório de mapa DITA:
 
      Quando você clica em um tópico, um relatório detalhado do tópico selecionado é exibido.
 
-     ![](images/detailed-report-uuid.png){width="800" align="left"}
+     ![](images/detailed-report-uuid.png){width="800"}
 
      Os itens realçados em **A**, **B**, **C** e **D** estão descritos abaixo:
 
@@ -81,19 +81,19 @@ Execute as seguintes etapas para gerar o CSV de um relatório de mapa DITA:
 
 1. Clique em **Gerar relatório** no canto superior esquerdo para gerar o relatório de mapa DITA.
 
-   ![](images/generate-DITA-map-report.png){width="800" align="left"}
+   ![](images/generate-DITA-map-report.png){width="800"}
 
 1. Você receberá uma notificação assim que o relatório estiver pronto para download. Clique em **Baixar** para baixar o CSV do relatório gerado.
 
-   ![](images/download-report-dialog.png){width="550" align="left"}
+   ![](images/download-report-dialog.png){width="550"}
 
 
    Posteriormente, também é possível baixar o CSV do relatório gerado na Caixa de entrada de notificações da AEM.
 
    Clique no relatório gerado na Caixa de entrada para baixar o relatório.
 
-   ![](images/report-inbox--notification.png){width="300" align="left"}
+   ![](images/report-inbox--notification.png){width="300"}
 
 Depois que o relatório for baixado na Caixa de entrada, você também poderá selecionar o relatório e usar o ícone Abrir na parte superior para abrir o relatório selecionado.
 
-**Tópico pai:**&#x200B;[&#x200B; Relatórios](reports-intro.md)
+**Tópico pai:**[ Relatórios](reports-intro.md)

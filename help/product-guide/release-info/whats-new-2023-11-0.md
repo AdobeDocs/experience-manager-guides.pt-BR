@@ -1,12 +1,12 @@
 ---
 title: Notas de versão | Novidades na Adobe Experience Manager Guides, versão de novembro de 2023
-description: Conheça os recursos novos e aprimorados da versão de novembro de 2023 do Adobe Experience Manager Guides as a Cloud Service.
+description: Saiba mais sobre os recursos novos e aprimorados da versão de novembro de 2023 do Adobe Experience Manager Guides as a Cloud Service.
 exl-id: 83c04e01-92f1-41b0-8866-a202f4106b51
 feature: What's New
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '803'
+source-wordcount: '811'
 ht-degree: 0%
 
 ---
@@ -17,20 +17,20 @@ Este artigo aborda os recursos novos e aprimorados da versão de novembro de 202
 
 Para obter mais detalhes sobre as instruções de atualização, a matriz de compatibilidade e os problemas corrigidos nesta versão, consulte as [Notas de versão](release-notes-2023-11-0.md).
 
-## Aprimoramentos de PDF nativo
+## Aprimoramentos no PDF nativo
 
 Os seguintes aprimoramentos do PDF nativo foram feitos na versão de novembro de 2023:
 
-### Usar e duplicar modelos de PDF prontos para uso
+### Usar e duplicar modelos prontos para uso do PDF
 
-A Experience Manager Guides fornece modelos de PDF de fábrica ou prontos para uso. Duplique os modelos de PDF de fábrica para criar os modelos de PDF personalizados.
+A Experience Manager Guides fornece modelos PDF prontos para uso ou de fábrica. Duplique os modelos de fábrica do PDF para criar os modelos personalizados do PDF.
 
 Agora, você também pode visualizar a imagem em miniatura de um modelo ao criar e duplicar um modelo. Também é possível editar ou excluir essa imagem. Esse recurso é útil para marcar ou distinguir templates com nomes semelhantes.
-Saiba mais sobre o [modelo de PDF](../native-pdf/pdf-template.md).
+Saiba mais sobre o [modelo do PDF](../native-pdf/pdf-template.md).
 
-![Caixa de diálogo de modelo de PDF duplicado](assets/duplicate-template.png){width="550" align="left"}
+![Caixa de diálogo de modelo do PDF duplicada](assets/duplicate-template.png){width="550"}
 
-*Duplicar um modelo de PDF existente.*
+*Duplicar um modelo existente do PDF.*
 
 
 ### Alterar a ordem das páginas e publicar várias páginas por folha
@@ -40,13 +40,13 @@ Além de publicar as páginas de acordo com o documento de origem, você também
 ### Classificar termos do glossário com base nas chaves de classificação
 
 Agora, você também pode classificar os termos do glossário com base nas teclas de classificação. Você pode usar a tag ‘sort-as’ para definir uma chave de classificação para os termos do glossário. Em seguida, você pode classificá-los com base nas teclas de classificação no lugar dos termos. Isso permite classificar os termos do glossário de acordo com os termos usados em diferentes idiomas. Você também pode definir uma única chave de classificação para um termo do glossário com uma frase ou um grupo de palavras.
-Para obter mais detalhes, consulte as [Configurações avançadas do PDF](../native-pdf/components-pdf-template.md#advanced-pdf-settings).
+Para obter mais detalhes, consulte as [Configurações Avançadas do PDF](../native-pdf/components-pdf-template.md#advanced-pdf-settings).
 
 
-### Gerenciamento de recursos aprimorado para modelos de PDF nativos
+### Gerenciamento de recursos aprimorado para modelos nativos do PDF
 
-A Experience Manager Guides agora melhorou o gerenciamento de recursos para modelos de PDF nativo. Agora é possível compartilhar e reutilizar recursos, como imagens, arquivos CSS e arquivos de fontes, em vários modelos de PDF nativos. Com essa melhoria, gerenciar os recursos de um grande conjunto de modelos é muito mais simples. Não é necessário criar recursos duplicados para cada modelo, e você pode mantê-los em uma pasta compartilhada e usá-los em todos os modelos de PDF nativo.
-Para obter mais detalhes, consulte [Modelo de PDF](../native-pdf/pdf-template.md).
+O Experience Manager Guides agora melhorou o gerenciamento de recursos para modelos nativos do PDF. Agora é possível compartilhar e reutilizar recursos, como imagens, arquivos CSS e arquivos de fontes, em vários modelos nativos do PDF. Com essa melhoria, gerenciar os recursos de um grande conjunto de modelos é muito mais simples. Não é necessário criar recursos duplicados para cada modelo, e você pode mantê-los em uma pasta compartilhada e usá-los em todos os modelos nativos do PDF.
+Para obter mais detalhes, consulte [Modelo do PDF](../native-pdf/pdf-template.md).
 
 ## Aprimoramentos no Editor da Web
 
@@ -57,7 +57,7 @@ Os seguintes aprimoramentos do Editor da Web foram feitos na versão de novembro
 
 Agora você pode escolher a maneira padrão de exibir os arquivos no Editor da Web. Você pode visualizar a lista de arquivos por títulos ou nomes de arquivo dos vários painéis na visualização Autor.
 
-![Caixa de diálogo Preferências do Usuário](assets/user-preferences-2311.png){width="550" align="left"}
+![Caixa de diálogo Preferências do Usuário](assets/user-preferences-2311.png){width="550"}
 
 *Altere a maneira padrão de exibir os arquivos na caixa de diálogo **Preferências do Usuário**.*
 
@@ -66,7 +66,7 @@ Agora você pode escolher a maneira padrão de exibir os arquivos no Editor da W
 
 Você pode definir atributos de condição em seus tópicos DITA. Em seguida, use os atributos de condição na predefinição de condição para publicar o conteúdo em um mapa DITA. O Experience Manager Guides agora também permite criar e gerenciar predefinições de condição no Editor da Web. Também é possível editá-los, duplicá-los ou excluí-los facilmente.
 
-![Predefinições de condição da guia Gerenciar do editor da Web &#x200B;](assets/web-editor-manage-condition-presets.png){width="550" align="left"}
+![Predefinições de condição da guia Gerenciar do editor da Web ](assets/web-editor-manage-condition-presets.png){width="550"}
 
 Para obter mais detalhes, consulte [Usar predefinições de condição](../user-guide/generate-output-use-condition-presets.md).
 

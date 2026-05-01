@@ -4,9 +4,9 @@ description: Saiba como criar um modelo personalizado, usá-los para criar novos
 exl-id: 9cb0035f-bf81-4ab5-a575-53851bbff494
 feature: Authoring, Map Editor
 role: User
-source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1541'
+source-wordcount: '1549'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Você pode criar modelos de mapa e tópico das seguintes maneiras:
 
 O recurso **Modelos** está presente no painel [Esquerdo da interface do Editor](./web-editor-left-panel.md) e só está disponível para administradores. Usando esse painel, o administrador pode criar e gerenciar facilmente modelos que podem ser usados pelos autores. Por padrão, os modelos são categorizados em *mapa* e *tópico* modelos de tipo.
 
-![](images/templates-panel_cs.png){width="300" align="left"}
+![](images/templates-panel_cs.png){width="300"}
 
 Por padrão, é possível visualizar os arquivos por títulos. Ao passar o mouse sobre um modelo, é possível exibir o título do arquivo e o nome do arquivo como uma dica de ferramenta.
 
@@ -51,16 +51,16 @@ Execute as seguintes etapas para criar um tópico ou modelo de mapa a partir do 
 
 1. Abra o painel **Modelos** no Editor e selecione o ícone **Criar modelo DITA**.
 
-   ![](images/create-dita-template-option.png){width="500" align="left"}
+   ![](images/create-dita-template-option.png){width="500"}
 
 1. Escolha **Modelo de tópico** ou **Modelo de mapa** no menu suspenso com base no tipo de modelo que você deseja criar.
 1. Se você selecionar **Modelo de tópico**, a caixa de diálogo **Novo modelo de tópico** será exibida.
 
-   ![](images/new-topic-template-dialog.png){width="300" align="left"}
+   ![](images/new-topic-template-dialog.png){width="300"}
 
    Se você selecionar **Modelo de mapa**, a caixa de diálogo **Novo modelo de mapa** será exibida.
 
-   ![](images/map-template-dialog.png){width="300" align="left"}
+   ![](images/map-template-dialog.png){width="300"}
 
    Você também pode selecionar **Pasta** na lista suspensa se quiser primeiro criar uma pasta dentro da pasta **tópico** ou **mapa**.
 
@@ -77,7 +77,7 @@ Depois que o modelo for criado, é necessário adicioná-lo ao perfil global ou 
 
 Usando o menu **Opções** em um modelo existente, você pode optar por **Editar** ou **Duplicar**. No caso de duplicação, a estrutura e o tipo do modelo \(do documento\) são retidos e você pode reutilizá-los para criar outro modelo a partir dele.
 
-![](images/template-options-menu-editor.png){width="500" align="left"}
+![](images/template-options-menu-editor.png){width="500"}
 
 ### Criar modelos personalizados na interface do usuário do Assets
 
@@ -85,12 +85,12 @@ Execute as seguintes etapas para criar um mapa ou modelo de tópico na interface
 
 1. Na **interface do usuário do Assets**, navegue até a pasta dita-templates.
 
-   ![](images/dita-templates.png){align="left"}
+   ![](images/dita-templates.png)
 
 1. Abra a pasta **tópicos** se desejar criar um modelo de **Tópico**. Abra a pasta **Mapas** se desejar criar um modelo de **Mapa**.
 1. Selecione **Criar \> Modelo DITA**.
 
-   ![](images/create-dita-template.png){width="300" align="left"}
+   ![](images/create-dita-template.png){width="300"}
 1. Na página Blueprint, selecione **Tópico \> Próximo** para criar um modelo de tópico. Caso contrário, selecione **Mapa \> Próximo** para criar um modelo de mapa.
 1. Na página Propriedades, especifique o modelo **Título**.
 1. Especifique o arquivo **Nome**.
@@ -188,7 +188,7 @@ No **Editor**, execute as seguintes etapas para criar um mapa usando o modelo de
 1. No **Editor**, navegue até a pasta onde deseja criar o mapa.
 1. No menu Opções, selecione **Novo \> Mapa DITA**.
 
-   ![](images/add-custom-template-dita-map.png){width="500" align="left"}
+   ![](images/add-custom-template-dita-map.png){width="500"}
 1. A caixa de diálogo **Novo mapa** é exibida.
 1. Na caixa de diálogo **Novo mapa**, especifique o mapa **Título**, arquivo **Nome**, e selecione o modelo de mapa que deseja usar.
 
@@ -230,4 +230,4 @@ O mapa gera todos os ativos que são referenciados dentro da pasta de modelo. Al
 
 - Se outro mapa ou tópico for criado no mesmo nível na pasta, os nomes dos ativos recém-criados serão anexados com 0,1,2 e assim por diante. Você pode optar por abrir o mapa para edição ou salvar o arquivo de mapa no repositório.
 
-**Tópico pai:**&#x200B;[&#x200B; Introdução ao Editor de Mapa](map-editor.md)
+**Tópico pai:**[ Introdução ao Editor de Mapa](map-editor.md)

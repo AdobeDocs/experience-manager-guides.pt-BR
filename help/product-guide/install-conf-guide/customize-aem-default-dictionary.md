@@ -4,9 +4,10 @@ description: Saiba como personalizar o dicionário padrão do AEM
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 51099b42-706f-42b4-993e-7d9577b5a4f0
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '270'
 ht-degree: 1%
 
 ---
@@ -52,7 +53,7 @@ Os autores precisariam reiniciar a sessão do Editor da Web para atualizar a lis
 
    A captura de tela a seguir mostra uma lista de palavras personalizadas adicionada ao arquivo user\_dictionary.txt:
 
-   ![](assets/custom-words-list-dictionary.png){width="650" align="left"}
+   ![](assets/custom-words-list-dictionary.png){width="650"}
 
 1. Salvar e fechar o arquivo.
 
@@ -61,4 +62,4 @@ Os autores precisariam reiniciar a sessão do Editor da Web para atualizar a lis
 
 >[!ENDTABS]
 
-**Tópico pai:**&#x200B;[&#x200B; Personalizar editor da Web](customize-overview.md)
+**Tópico pai:**[ Personalizar editor da Web](customize-overview.md)

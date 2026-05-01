@@ -4,9 +4,9 @@ description: Exibir tópicos no modo de autor, origem e visualização. Saiba co
 exl-id: 74db2902-4507-4904-85d8-6b52e4af4c55
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1456'
 ht-degree: 0%
 
 ---
@@ -33,18 +33,18 @@ A visualização Source exibe o XML subjacente que compõe o tópico. Se você s
 
 * Para chamar o Catálogo inteligente, coloque o cursor no final de qualquer tag de elemento onde deseja inserir o novo elemento e insira &quot;&lt;&quot;. O editor mostra uma lista de todos os elementos XML válidos que você pode inserir nesse local. Use as teclas de seta para selecionar o elemento que deseja inserir e pressione Enter. Ao inserir o colchete &quot;\>, a tag de fechamento do elemento é adicionada automaticamente.
 
-  ![](images/smart-catalog-elements.png){width="400" align="left"}
+  ![](images/smart-catalog-elements.png){width="400"}
 
 * Você também pode alterar um elemento facilmente na exibição do Source. Por exemplo, se você alterar a marca de abertura de um elemento `p` para `note`, a marca de fechamento `p` será automaticamente alterada para `/note`. Caso substitua um elemento por um elemento incorreto, você verá imediatamente o Erro de validação.
 
 * Se quiser adicionar um atributo a um elemento, coloque o cursor dentro da tag element e pressione a barra Espaço. Uma lista de atributos válidos para esse elemento é mostrada no Catálogo inteligente. Use as teclas de seta para selecionar o elemento desejado e pressione Enter para inserir o elemento. Para especificar um valor para o atributo, digite o sinal de igual \(=\) e o editor insere automaticamente as aspas de abertura e fechamento &quot; &quot;, onde você pode especificar o valor do atributo.
 
-  ![](images/smart-catalog-attribute.png){width="350" align="left"}
+  ![](images/smart-catalog-attribute.png){width="350"}
 
 * Na visualização Source, há uma opção de Recuo automático que reorganiza o código XML no formato apresentável e facilmente legível. Além disso, se você selecionar qualquer texto e alternar da exibição Autor para Source ou da exibição Source para Autor, o texto selecionado também será destacado na outra exibição.
 * Outro recurso poderoso na visualização Source é a validação XML no documento. Se você abrir um documento contendo XML inválido, ele será aberto na visualização Source com as informações sobre XML inválido. Por exemplo, na captura de tela a seguir, a informação exata sobre o XML incorreto é fornecida na janela pop-up Erro de análise.
 
-  ![](images/invalid-topic-xml.png){width="650" align="left"}
+  ![](images/invalid-topic-xml.png){width="650"}
 
   Na captura de tela acima, um destaque cruzado é usado para apontar a linha que contém XML incorreto.
 
@@ -104,13 +104,13 @@ Se você tiver usado condições em seu tópico ou mapa, essas condições serã
 
 A imagem a seguir mostra um tópico que usa duas condições — `Audience` e `Product`. O conteúdo condicional é realçado com o plano de fundo amarelo.
 
-![](images/preview-filters.png){align="left"}
+![](images/preview-filters.png)
 
 ### Exibir as marcações de alterações de controle {#id2114BJ00CE8}
 
 Se um documento contiver marcas de alteração de faixa \(ou dicas visuais\), você também poderá visualizar o documento com ou sem essas marcas. Ao visualizar um documento, o painel direito contém as opções Filtros e Rastreamento.
 
-![](images/preview-tracking_cs.png){width="400" align="left"}
+![](images/preview-tracking_cs.png){width="400"}
 
 Há três opções de **Rastreamento** que você pode escolher:
 
@@ -120,7 +120,7 @@ Há três opções de **Rastreamento** que você pode escolher:
 
   A imagem a seguir mostra a pré-visualização de um arquivo de mapa com marcações:
 
-  ![](images/preview-map-with-track-changes.png){width="300" align="left"}
+  ![](images/preview-map-with-track-changes.png){width="300"}
 
 
 ### Exportar um tópico como PDF {#id2114BL00B5U}
@@ -149,4 +149,4 @@ Para exportar um tópico como PDF, siga estas etapas:
    A PDF é gerada e aberta em uma nova guia ou você verá uma caixa de diálogo para salvar a PDF no sistema local.
 
 
-**Tópico pai:**&#x200B;[&#x200B; Introdução ao Editor](web-editor.md)
+**Tópico pai:**[ Introdução ao Editor](web-editor.md)

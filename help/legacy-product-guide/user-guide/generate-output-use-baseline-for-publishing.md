@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: d4892eca-2715-4bd6-8ac8-0a8edff2c4f8
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1972'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Execute as seguintes etapas para criar uma linha de base:
 
 1. Na página Linhas de Base, clique em **Criar**.
 1. Insira um nome para a Linha de Base em **Nome da Linha de Base**.
-   ![criar uma linha de base](images/create-baseline.png){width="800" align="left"}
+   ![criar uma linha de base](images/create-baseline.png){width="800"}
 1. Em **Definir a Versão com Base em**, selecione uma das seguintes opções:
 
    - **Rótulo**: selecione esta opção para escolher os tópicos de acordo com o rótulo aplicado a eles. Insira um rótulo para filtrar a lista com base na sequência de caracteres inserida. Na lista filtrada, é possível escolher um rótulo para selecionar tópicos e outros ativos com o rótulo especificado.
@@ -93,7 +93,7 @@ Execute as seguintes etapas para editar uma linha de base existente:
 1. Faça as alterações necessárias na linha de base. É possível alterar o nome e a versão do tópico ou conteúdo referenciado.
 1. Se quiser usar uma versão diferente para um ou mais tópicos, selecione manualmente esses tópicos. Clique em **Procurar Tópico**, selecione o tópico para o qual deseja usar uma versão diferente. Na lista suspensa Selecionar uma Versão para o tópico selecionado, selecione uma versão do tópico que deseja usar na linha de base e clique em **OK**.
 
-   ![](images/baseline-select-version-drop-down.png){width="800" align="left"}
+   ![](images/baseline-select-version-drop-down.png){width="800"}
 
    As informações sobre o tópico e sua versão selecionada são armazenadas no back-end. Você pode repetir essa etapa para alterar a versão selecionada de vários tópicos.
 
@@ -140,7 +140,7 @@ Execute as seguintes etapas para adicionar um rótulo a vários tópicos e conte
 
 1. Clique em **Adicionar rótulos**.
 
-   ![](images/add-label-baseline-uuid.png){width="800" align="left"}
+   ![](images/add-label-baseline-uuid.png){width="800"}
 
 1. Na caixa de diálogo **Adicionar Rótulo**, especifique um rótulo exclusivo para associar a esta linha de base.
 
@@ -151,7 +151,7 @@ Execute as seguintes etapas para adicionar um rótulo a vários tópicos e conte
    - Clique em **Adicionar**.
 O rótulo especificado é adicionado ao mapa DITA e aos tópicos e conteúdo referenciados.
 
-     ![](images/label-added-baseline-uuid.png){width="650" align="left"}
+     ![](images/label-added-baseline-uuid.png){width="650"}
 
 
 ## Exportar Linha de Base traduzida {#id196SE600GHS}
@@ -170,7 +170,7 @@ Execute as seguintes etapas para exportar uma Linha de Base traduzida:
 
 1. Na guia **Tradução**, expanda a opção **Linha de Base**, disponível no painel esquerdo.
 
-   ![](images/export-baseline.png){width="800" align="left"}
+   ![](images/export-baseline.png){width="800"}
 
 1. Selecione a opção **Usar Linha de Base** e escolha a Linha de Base que deseja exportar.
 
@@ -183,4 +183,4 @@ Execute as seguintes etapas para exportar uma Linha de Base traduzida:
 1. \(Opcional\) Para exportar uma Linha de Base que já foi exportada, selecione **Substituir Linha de Base Existente** e clique em **Exportar Linha de Base**.
 
 
-**Tópico pai:**&#x200B;[&#x200B; Geração de saída](generate-output.md)
+**Tópico pai:**[ Geração de saída](generate-output.md)

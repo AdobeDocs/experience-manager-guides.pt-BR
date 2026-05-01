@@ -5,7 +5,7 @@ feature: Authoring
 role: User
 hide: true
 exl-id: 70ab9226-82d4-4e6a-aa0b-0e298f266c2a
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '603'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Execute as seguintes etapas para criar um tópico:
 
 1. Na página Blueprint, selecione o tipo de documento DITA que você deseja criar e clique em **Próximo**.
 
-   ![](images/create_dita_topic.png){width="800" align="left"}
+   ![](images/create_dita_topic.png){width="800"}
 
    Por padrão, o AEM Guides fornece os modelos de tópicos DITA mais usados. Você pode configurar mais modelos de tópico de acordo com seus requisitos organizacionais. Consulte *Configurar modelos de criação* em Instalar e configurar o Adobe Experience Manager Guides para sua configuração.
 
@@ -48,7 +48,7 @@ Execute as seguintes etapas para criar um tópico:
 
    Todo tópico novo criado na interface do usuário do Assets **Criar** \> **Tópico DITA** ou no Editor da Web recebe uma ID de tópico exclusiva. O valor dessa ID é o próprio nome do arquivo. Além disso, um novo documento é salvo como a cópia de trabalho mais recente do tópico no DAM. Até salvar uma revisão de um tópico recém-criado, você não verá nenhum número de versão no Histórico de versões. Se você abrir o tópico para edição, as informações da versão serão mostradas no canto superior direito da guia do arquivo de tópico:
 
-   ![](images/topic-version-none_cs.png){width="550" align="left"}
+   ![](images/topic-version-none_cs.png){width="550"}
 
    As informações de versão de um tópico recém-criado são mostradas como *nenhuma*. Ao salvar uma nova versão, um número de versão é atribuído como 1.0. Para obter mais informações sobre como salvar uma nova versão, consulte [Salvar como nova versão](web-editor-features.md#save-as-new-version-id209ME400GXA).
 
@@ -61,4 +61,4 @@ Execute as seguintes etapas para criar um tópico:
 >
 > Depois de criar o tópico DITA, continue salvando as alterações na sua cópia de trabalho e crie uma nova versão após concluir as atualizações do tópico.
 
-**Tópico pai:**&#x200B;[&#x200B; Criar e visualizar tópicos](create-preview-topics.md)
+**Tópico pai:**[ Criar e visualizar tópicos](create-preview-topics.md)

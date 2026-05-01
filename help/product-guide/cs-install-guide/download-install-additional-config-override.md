@@ -5,7 +5,7 @@ exl-id: dc5f81f7-5b0a-4d12-a944-ba66b0239d5c
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 0%
@@ -59,10 +59,10 @@ Execute as seguintes etapas para configurar a interface do usuário do Experienc
 5. Selecione **Adicionar/Atualizar**.
 6. Adicione os detalhes de configuração da interface do usuário. Certifique-se de usar o mesmo nome e configuração fornecidos na captura de tela a seguir.
 
-   ![](assets/enable-penultimate-ui.png){width="800" align="left"}
+   ![](assets/enable-penultimate-ui.png){width="800"}
 
    Definir o valor como **true** retém a interface antiga, enquanto **false** ativa a nova interface.
 
 
 
-**Tópico pai:**&#x200B;[&#x200B; Baixar e instalar](download-install.md)
+**Tópico pai:**[ Baixar e instalar](download-install.md)

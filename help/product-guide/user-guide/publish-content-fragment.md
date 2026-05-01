@@ -4,10 +4,10 @@ description: Publique um tópico ou os elementos dentro de um tópico para um Fr
 exl-id: b1769e48-d721-4e93-b10f-04b385272be7
 feature: Publishing
 role: User
-source-git-commit: 26aacde56e84c9f3a5ee5106b9271b4b12f8969a
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '938'
-ht-degree: 0%
+source-wordcount: '955'
+ht-degree: 1%
 
 ---
 
@@ -28,19 +28,19 @@ Para criar um fragmento de conteúdo, execute as seguintes etapas:
 1. Crie uma pasta na qual deseja salvar os fragmentos de conteúdo criados com base no modelo de fragmento de conteúdo. Por exemplo, &quot;stock-content-fragments&quot;.
 1. Edite as propriedades da pasta (por exemplo, &quot;stock-content-fragments&quot;) e adicione o caminho da pasta, que contém o modelo de Fragmento de conteúdo na configuração de nuvem.
 Por exemplo, adicione `/conf/we-retail` na configuração de nuvem. Essa configuração conecta todos os modelos de fragmento de conteúdo à pasta.\
-   ![adicionar detalhes de configuração da nuvem nas propriedades da pasta](images/fragment-folder-cloud-configuration.png){width="650" align="left"}
+   ![adicionar detalhes de configuração da nuvem nas propriedades da pasta](images/fragment-folder-cloud-configuration.png){width="650"}
    *Adicione a configuração da nuvem nas propriedades da pasta para conectá-la aos modelos de fragmento.*
 
 1. Para gerar um Fragmento de Conteúdo, selecione **Nova Saída** ![novo ícone de saída](./images/Add_icon.svg) na seção **Saídas** em **Propriedades do Arquivo** de um tópico.
 1. Selecione **Fragmento do conteúdo**.\
-   ![guia de opções de propriedades de arquivo](./images/file-properties-outputs-tab-new.png) {width="300" align="left"}
+   ![guia de opções de propriedades do arquivo](./images/file-properties-outputs-tab-new.png) {width="300"}
 
    *Adicionar um novo Fragmento de Conteúdo das Propriedades de Arquivo de um tópico*.
 
 1. Na caixa de diálogo **Gerar fragmento de conteúdo**, preencha os detalhes a seguir nas guias **Geral** e **Mapeamento**.
 
    Guia **Geral**
-   ![Adicionar o modelo de fragmento e os detalhes do mapeamento na caixa de diálogo Publicar como fragmento de conteúdo](images/generate-content-fragment.png)
+   ![Adicione o modelo de fragmento e os detalhes do mapeamento na caixa de diálogo Publicar como fragmento de conteúdo](images/generate-content-fragment.png)
    *Adicione o caminho, o nome, o título e a filtragem de condição para publicar um tópico ou seus elementos como um Fragmento de Conteúdo.*
 
 
@@ -49,7 +49,6 @@ Por exemplo, adicione `/conf/we-retail` na configuração de nuvem. Essa configu
    * **Nome**: digite o nome do Fragmento de Conteúdo. Por padrão, o nome é preenchido com o título do tópico e os espaços são substituídos por &quot;_&quot;. Por exemplo, *sample_content_fragment*. Você pode editá-lo.  Esse nome é usado para gerar o URL do fragmento de conteúdo.
 
    * Você pode selecionar condições diferentes para criar variantes de fragmento de conteúdo. Selecione uma das seguintes opções:
-
      >[!NOTE]
      > 
      > As condições serão ativadas somente se os atributos de condição forem definidos no tópico.
@@ -82,7 +81,7 @@ O lado direito é preenchido com o conteúdo do fragmento de conteúdo publicado
 
 1. Você pode exibir os Fragmentos de conteúdo de um tópico na seção **Saídas** em **Propriedades do arquivo**.
 
-   ![Exibir os Fragmentos de Conteúdo de um tópico](images/outputs-options-menu-new.png){width="300" align="left"}
+   ![Exibir os Fragmentos de Conteúdo de um tópico](images/outputs-options-menu-new.png){width="300"}
 
    *Exiba os Fragmentos de Conteúdo presentes para um tópico e publique-os novamente.*
 

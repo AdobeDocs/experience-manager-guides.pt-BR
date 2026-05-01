@@ -4,7 +4,7 @@ description: Saiba mais sobre as várias configurações disponíveis na interfa
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: c6767c75-0b53-4bde-9c7f-7ae1cd9b5076
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '82'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Na configuração no local, a opção **Configurações** aparece na barra de gu
 Todas as opções de configuração existentes disponíveis em **Configurações do editor** permanecem inalteradas.
 
 
-![Configuração do editor no local](assets/editor-settings-on-prem.png){width="650" align="left"}
+![Configuração do editor no local](assets/editor-settings-on-prem.png){width="650"}
 
 
 Para saber mais sobre as opções de configuração disponíveis, exiba [Definir configurações do Workspace](../cs-install-guide/workspace-settings.md).

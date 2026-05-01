@@ -1,12 +1,12 @@
 ---
 title: Notas de versão | Novidades na Adobe Experience Manager Guides, versão de outubro de 2023
-description: Conheça os recursos novos e aprimorados da versão de outubro de 2023 do Adobe Experience Manager Guides as a Cloud Service.
+description: Saiba mais sobre os recursos novos e aprimorados da versão de outubro de 2023 do Adobe Experience Manager Guides as a Cloud Service.
 exl-id: 41bfed0d-5901-4ada-b6d7-a5be93b25ba8
 feature: What's New
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ O Experience Manager Guides agora fornece uma ferramenta de **Fontes de Dados** 
 
 Você também pode editar, reconectar, duplicar ou excluir facilmente um conector de origem de dados. Saiba como [configurar facilmente um conector de fonte de dados na interface do usuário](../cs-install-guide/conf-data-source-connector-tools.md).
 
-![conectores de fonte de dados listados no painel de fontes de dados](assets/data-sources-create-window.png){width="550" align="left"}
+![conectores de fonte de dados listados no painel de fontes de dados](assets/data-sources-create-window.png){width="550"}
 
 *Crie e exiba os conectores de fonte de dados a partir do painel de fontes de dados.*
 
@@ -39,19 +39,19 @@ Por exemplo, você pode usar a $mathTool para executar funções matemáticas.
 Saiba mais sobre como [usar as ferramentas do Velocity nos modelos de fonte de dados](../user-guide/web-editor-content-snippet.md#use-velocity-tools).
 
 
-## Aprimoramentos de PDF nativo
+## Aprimoramentos no PDF nativo
 
 Os seguintes aprimoramentos do PDF nativo foram feitos na versão de outubro de 2023:
 
 ### Redefinir o número de página para a primeira página de um layout
 
-Na saída de PDF nativa, é possível reiniciar os números de página e especificar o número a partir do qual a numeração começa. Agora, você também pode iniciar a numeração somente para a primeira ocorrência de uma seção.
+Na saída nativa do PDF, é possível reiniciar os números de página e especificar o número a partir do qual a numeração começa. Agora, você também pode iniciar a numeração somente para a primeira ocorrência de uma seção.
 Saiba mais sobre como [trabalhar com as propriedades de página de um layout de página](../native-pdf/design-page-layout.md#page-props-page-layout).
 
 
 ### Exibir capítulos sem números automáticos no sumário
 
-O Experience Manager Guides exibe os números dos capítulos junto com os nomes dos capítulos no índice. Agora você pode optar por publicar somente os nomes dos capítulos sem os números dos capítulos. Veja mais detalhes sobre como definir as [configurações avançadas de PDF de um modelo](../native-pdf/components-pdf-template.md#advanced-pdf-settings).
+O Experience Manager Guides exibe os números dos capítulos junto com os nomes dos capítulos no índice. Agora você pode optar por publicar somente os nomes dos capítulos sem os números dos capítulos. Veja mais detalhes sobre como definir as [configurações avançadas do PDF de um modelo](../native-pdf/components-pdf-template.md#advanced-pdf-settings).
 
 ## Baixar um mapa no Editor da Web
 
@@ -59,7 +59,7 @@ Agora, você não pode apenas editar um mapa na exibição de mapa do Editor da 
 
 Para obter mais detalhes, consulte a descrição do recurso **Exibição de mapa** na seção [Painel esquerdo](../user-guide/web-editor-features.md#id2051EA0M0HS).
 
-![menu de opções de um arquivo no modo de exibição de repositório](assets/options-menu-repo-view-file-level-2310.png){width="550" align="left"}
+![menu de opções de um arquivo no modo de exibição de repositório](assets/options-menu-repo-view-file-level-2310.png){width="550"}
 
 *Selecione um arquivo na exibição de repositório e escolha a opção para executar uma ação no arquivo.*
 

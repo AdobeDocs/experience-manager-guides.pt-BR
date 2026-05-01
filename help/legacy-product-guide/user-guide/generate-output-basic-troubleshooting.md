@@ -5,7 +5,7 @@ feature: Publishing, Troubleshooting
 role: User
 hide: true
 exl-id: f85fee0f-30d1-453f-8700-781e0be8f616
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Execute as seguintes etapas para exibir e verificar o arquivo de log de geraçã
 
    A coluna **Geral** de **Saídas Geradas** mostra os ícones para dar uma dica visual sobre o sucesso ou falha da geração de saída.
 
-   ![](images/output-general-settings.png){width="300" align="left"}
+   ![](images/output-general-settings.png){width="300"}
 
    Na captura de tela acima, o primeiro e o terceiro ícones mostram a geração de saída com falha. O segundo ícone mostra uma geração de saída bem-sucedida, mas com mensagens. A última é uma geração de saída bem-sucedida sem nenhuma mensagem.
 
@@ -32,7 +32,7 @@ Execute as seguintes etapas para exibir e verificar o arquivo de log de geraçã
 
    O arquivo de log é aberto em uma nova guia.
 
-   ![](images/log-file.png){width="800" align="left"}
+   ![](images/log-file.png){width="800"}
 
 1. Aplique os seguintes filtros para realçar o texto no arquivo de log:
    - Fatal: realça os erros fatais no arquivo de log com a cor rosa.
@@ -66,13 +66,13 @@ Execute as seguintes etapas para copiar e verificar o arquivo de log de geraçã
 
    No trecho de arquivo de log de exemplo a seguir, você pode ver a mensagem `BUILD FAILED` junto com o motivo do erro.
 
-   ![](images/dita-error-in-log-file.png){width="650" align="left"}
+   ![](images/dita-error-in-log-file.png){width="650"}
 
    - *erro relacionado ao AEM Guides*: o outro tipo de erro que você pode identificar no arquivo de log está relacionado ao próprio processo do AEM Guides. Nesse caso, o arquivo de mapa DITA é analisado com sucesso, mas o processo de geração de saída falha devido a algum erro interno no AEM Guides. Para esse tipo de erro, você deve procurar ajuda da equipe de suporte técnico.
 
    No trecho de arquivo de log de exemplo a seguir, você pode ver a mensagem `BUILD SUCCESSFUL`, seguida de outro erro técnico.
 
-   ![](images/process-error-in-log-file.png){width="650" align="left"}
+   ![](images/process-error-in-log-file.png){width="650"}
 
 
 ## Resolver erro de compilação de JSP
@@ -92,4 +92,4 @@ Execute as seguintes etapas para resolver esse problema:
 1. Aumente o valor do parâmetro *Número de Chamadas por Solicitação* de acordo com suas necessidades.
 
 
-**Tópico pai:**&#x200B;[&#x200B; Geração de saída](generate-output.md)
+**Tópico pai:**[ Geração de saída](generate-output.md)

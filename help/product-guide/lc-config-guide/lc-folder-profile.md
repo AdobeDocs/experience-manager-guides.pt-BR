@@ -5,9 +5,9 @@ feature: Authoring
 role: Admin
 level: Experienced
 exl-id: dc26ae48-c953-492c-823a-5f65157b6902
-source-git-commit: dedd253dba3d93beed162eb5258125928f6d315c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1657'
+source-wordcount: '1666'
 ht-degree: 0%
 
 ---
@@ -24,16 +24,16 @@ Para começar a usar a configuração do perfil de pasta para o conteúdo de Apr
 
    Você pode criar uma nova pasta no painel Repositório.
 
-   ![](assets/create-new-folder.png){width="350" align="left"}
+   ![](assets/create-new-folder.png){width="350"}
 2. **Criar pastas de idioma para gerenciar a tradução**: se você traduzir conteúdo em idiomas diferentes, deverá criar pastas correspondentes a cada idioma. Cada uma dessas pastas de idioma conterá o conteúdo correspondente a esse idioma.
 
 3. **Criar uma pasta para gerenciar o Assets**: assim como as pastas, você também pode criar diferentes pastas do Assets para atender às necessidades de diferentes departamentos. Dessa forma, você também garante que Autores e Editores tenham acesso ao CSS correto configurado em seus modelos, imagens e outros ativos.
 
-   ![](assets/configure-assets-folder.png){width="350" align="left"}
+   ![](assets/configure-assets-folder.png){width="350"}
 4. [Crie um perfil de pasta](../cs-install-guide/conf-folder-level.md#create-and-configure-a-folder-level-profile) para mapear pastas diferentes.
 5. **Selecione o perfil de pasta a ser configurado**: depois que o perfil de pasta for criado, você precisará selecionar o perfil de Pasta na página [Preferências do Usuário](../user-guide/intro-home-page.md#user-preferences) para garantir que os Autores e Publicadores tenham acesso aos modelos corretos.
 
-   ![](assets/folder-profile.png){width="650" align="left"}
+   ![](assets/folder-profile.png){width="650"}
 
 6. **Definir configurações do perfil da pasta**: para conteúdo de Aprendizado e Treinamento, as seguintes configurações podem ser definidas no nível da pasta:
    - [Geral](#general)
@@ -51,7 +51,7 @@ Para acessar essas configurações, alterne para o modo de exibição Editor e s
 
 Na guia General, você pode definir as seguintes configurações específicas para o recurso Product Training and Learning Content:
 
-![](assets/lc-config-settings-general.png){width="350" align="left"}
+![](assets/lc-config-settings-general.png){width="350"}
 
 - **Conteúdo de aprendizado**: Use a opção **Habilitar conteúdo de aprendizado** para habilitar ou desabilitar o recurso no nível de perfil de pasta.
 - **Editor do HTML**: essa configuração permite configurar o Editor para criação baseada no HTML. As principais opções de configuração presentes nessa configuração são as seguintes:
@@ -65,7 +65,7 @@ Esta configuração controla os painéis que são mostrados nos painéis esquerd
 
 Para o conteúdo de aprendizado e treinamento, verifique se apenas os seguintes recursos estão ativados para o editor e o console de mapa.
 
-![](assets/panels-settings.png){width="350" align="left"}
+![](assets/panels-settings.png){width="350"}
 
 
 ### Editor
@@ -120,11 +120,11 @@ Para o conteúdo de aprendizado e treinamento, verifique se apenas os seguintes 
 
 Essa configuração permite gerenciar os modelos de criação e publicação presentes no [painel esquerdo do Editor](../user-guide/web-editor-left-panel.md). É possível adicionar, remover ou reordenar modelos de criação e saída, que estarão acessíveis a Autores e Editores.
 
-![](assets/templates-settings.png){width="350" align="left"}
+![](assets/templates-settings.png){width="350"}
 
 Os modelos de Criação estão disponíveis em quatro categorias - Curso de aprendizado, Conteúdo de aprendizado, Questionário e Banco de perguntas. Se houver modelos predefinidos configurados na instância, eles serão exibidos por padrão.
 
-![](assets/templates-list.png){width="350" align="left"}
+![](assets/templates-list.png){width="350"}
 
 ### Adicionar modelos
 
@@ -134,13 +134,13 @@ Execute as seguintes etapas para adicionar um novo modelo:
 2. Na caixa de diálogo Selecionar caminho, selecione o modelo desejado.
 3. Escolha **Selecionar**.
 
-   ![](assets/add-templates.png){width="350" align="left"}
+   ![](assets/add-templates.png){width="350"}
 
 O modelo é adicionado à respectiva categoria no painel Configurações.
 
 Da mesma forma, é possível adicionar os outros templates de Criação e Saída. Depois de adicionados, esses modelos são disponibilizados para Autores e Editores nas respectivas caixas de diálogo do curso. Por exemplo, o modelo de curso de aprendizado adicionado pelo administrador estará disponível aos autores quando eles criarem um novo curso.
 
-![](assets/templates-added-course.png){width="350" align="left"}
+![](assets/templates-added-course.png){width="350"}
 
 ### Trabalhar com novos modelos de criação e saída
 
@@ -152,7 +152,7 @@ Para usar um modelo de mapa ou tópico diferente, crie um novo modelo de criaç�
 
 Para obter detalhes, consulte [Criar modelos personalizados no Editor](../user-guide/create-maps-customized-templates.md).
 
-![](assets/authoring-templates-editor.png){width="350" align="left"}
+![](assets/authoring-templates-editor.png){width="350"}
 
 **Criar novos modelos de saída**
 
@@ -162,17 +162,17 @@ Execute as seguintes etapas para criar um novo modelo de saída para o conteúdo
 
    O painel Modelos de saída é exibido.
 
-   ![](assets/output-templates-editor.png){width="350" height="" align="left"}
+   ![](assets/output-templates-editor.png){width="350" height=""}
 2. No painel Modelos de saída, selecione (+) para criar um novo modelo de saída.
 
-   ![](assets/create-new-output-template.png){width="350" align="left"}
+   ![](assets/create-new-output-template.png){width="350"}
 3. Selecione um Modelo de saída no menu suspenso.
 
 
-   ![](assets/output-template-types.png){width="650" align="left"}
+   ![](assets/output-template-types.png){width="650"}
 4. Com base no tipo de modelo de saída selecionado, uma caixa de diálogo é exibida onde você pode criar um novo modelo com base nos modelos disponíveis.
 
-   ![](assets/new-scorm-template-dialog.png){width="350" align="left"}
+   ![](assets/new-scorm-template-dialog.png){width="350"}
 
 5. Selecione **Criar**.
 
@@ -180,16 +180,16 @@ Execute as seguintes etapas para criar um novo modelo de saída para o conteúdo
 
 6. Para acessar e adicionar o Modelo de saída para editores, navegue até **Configurações** > **Modelos** > **Modelos de saída** e selecione **Adicionar**.
 
-   ![](assets/add-output-template-settings-panel.png){width="350" align="left"}
+   ![](assets/add-output-template-settings-panel.png){width="350"}
 
    O modelo de saída é exibido na caixa de diálogo Selecionar caminho.
 7. Selecione o modelo e escolha **Confirmar**.
 
-   ![](assets/select-scorm-template-dialog.png){width="350" align="left"}
+   ![](assets/select-scorm-template-dialog.png){width="350"}
 
    O modelo de saída selecionado agora é adicionado ao painel Configurações.
 
-   ![](assets/scorm-template-added.png){width="350" align="left"}
+   ![](assets/scorm-template-added.png){width="350"}
 
 ### Remover ou reordenar modelos
 
@@ -197,11 +197,11 @@ Depois de adicionado, é possível remover ou reordenar os modelos no painel Con
 
 Para remover um modelo, selecione o ícone **Remover** ao lado dele.
 
-![](assets/remove-teamplates.png){width="350" align="left"}
+![](assets/remove-teamplates.png){width="350"}
 
 Você também pode definir a ordem em que os modelos presentes em uma categoria são exibidos. Para alterar a ordem de exibição dos modelos, selecione as barras pontilhadas e arraste um modelo para a posição desejada.
 
-![](assets/reorder-templates.png){width="350" align="left"}
+![](assets/reorder-templates.png){width="350"}
 
 
 ## Configurar predefinições de saída
@@ -212,15 +212,15 @@ Você também pode definir a ordem em que os modelos presentes em uma categoria 
 
 A guia Output presets permite definir quais formatos de saída estão disponíveis para publicar um curso. Ele contém duas seções: **Tipos de predefinição de saída permitidos** e **Predefinições de saída comuns**.
 
-![](assets/configure-course-output-presets.png){width="350" align="left"}
+![](assets/configure-course-output-presets.png){width="350"}
 
 - **Tipos de predefinição de saída permitidos**: esta seção lista todas as predefinições de saída com suporte na instância do Experience Manager Guides. Para publicação do curso, somente os formatos **SCORM** e **PDF** são aplicáveis. É possível selecionar uma ou ambas as opções. As predefinições selecionadas estarão disponíveis para os editores ao gerar a saída do curso.
 
-  ![](assets/allowed-output-presets.png){width="350" align="left"}
+  ![](assets/allowed-output-presets.png){width="350"}
 
 - **Predefinições de saída comuns**: esta seção exibe as predefinições de saída criadas e adicionadas com frequência pelos Publicadores a um perfil de pasta específico. Também é possível remover qualquer predefinição que não seja mais necessária.
 
-  ![](assets/common-output-presets.png){width="350" align="left"}
+  ![](assets/common-output-presets.png){width="350"}
 
 ## Gerenciar perfis de publicação
 
@@ -230,4 +230,4 @@ Esta seção permite exibir, criar e gerenciar os perfis de publicação usados 
 
 Forneça os detalhes do servidor, juntamente com a ID do cliente e o segredo do cliente do aplicativo de nuvem SCORM associado, para configurar o perfil de publicação para a nuvem SCORM.
 
-![](assets/configure-publish-profiles.png){width="350" align="left"}
+![](assets/configure-publish-profiles.png){width="350"}

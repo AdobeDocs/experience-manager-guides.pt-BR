@@ -4,9 +4,9 @@ description: Trata da criação de um tópico no Treinamento e aprendizado do pr
 feature: Authoring
 role: User
 exl-id: a08a165d-801b-4b35-9626-b27471349327
-source-git-commit: b914c69f9d29884382ce43f163a8f766567b10bf
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '130'
 ht-degree: 1%
 
 ---
@@ -23,17 +23,17 @@ Execute as seguintes etapas para adicionar um Tópico a um curso:
 
 1. Abra um curso no **Gerenciador de cursos** e selecione **Adicionar novo** no menu **Opções**.
 
-   ![](assets/workflow-learning-content.png){width="650" align="left"}
+   ![](assets/workflow-learning-content.png){width="650"}
 
 1. Selecione **Tópico**.
 
    A caixa de diálogo **Novo tópico de aprendizado** é exibida.
 
-   ![](assets/new-learning-topic-dialog.png){width="350" align="left"}
+   ![](assets/new-learning-topic-dialog.png){width="350"}
 
 1. Selecione o modelo desejado no menu suspenso.
 
-   ![](assets/template-types-lc.png){width="350" align="left"}
+   ![](assets/template-types-lc.png){width="350"}
 
 1. Forneça um título adequado para o Tópico.
 1. Selecione **Criar**.

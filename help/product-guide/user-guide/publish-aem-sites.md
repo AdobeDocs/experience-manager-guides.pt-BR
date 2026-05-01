@@ -4,9 +4,9 @@ description: Publique um tópico ou os elementos dentro de um tópico para uma s
 feature: Publishing
 role: User
 exl-id: acbc48b7-93a2-41c6-8565-359fbbdd1fb9
-source-git-commit: e1bac3680afda837393d86ee5f19d5877237ffe9
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Para gerar uma página Sites, execute as seguintes etapas:
 1. Selecione o ícone **Nova saída**![novo ícone de saída](./images/Add_icon.svg) na seção **Saídas**.
 1. Selecione a **página Sites**.
 1. Na caixa de diálogo **Gerar página de Sites**, preencha os seguintes detalhes:
-   ![Adicionar o caminho e os detalhes do modelo na página Gerar Sites](images/aem-sites-page-generate.png){width="500" align="left"}
+   ![Adicionar o caminho e os detalhes do modelo na página Gerar Sites](images/aem-sites-page-generate.png){width="500"}
 
    * **Caminho**: procure e selecione o caminho da pasta em que deseja publicar a página Sites.
    * **Título**: digite o título da página Sites. Por padrão, o título é preenchido com o título do tópico. Você pode editá-lo. Esse título é usado para gerar o nome da página Sites.
@@ -49,7 +49,7 @@ Para gerar uma página Sites, execute as seguintes etapas:
 1. Selecione **Gerar** para publicar a página Sites.
 1. Você pode exibir a página Sites de um tópico na seção **Saídas** em **Propriedades do Arquivo**. As páginas do Sites são exibidas de acordo com a data e a hora de sua publicação, sendo que a mais recente é a primeira.
 
-   ![Exibir a página Sites de um tópico](images/aem-sites-output-new.png){width=300 align="left"}
+   ![Exibir a página Sites de um tópico](images/aem-sites-output-new.png){width=300}
 
    *Exiba a página Sites presente para um tópico e republique-os.*
 

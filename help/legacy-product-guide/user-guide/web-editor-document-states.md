@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor, Document State
 role: User
 hide: true
 exl-id: f8367f84-dd46-4140-8748-c3bda0cf933a
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '945'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Para alterar o estado de um documento, execute as seguintes etapas:
 
 A exibição de cartão da interface do usuário do Assets mostra o estado atual juntamente com a data de criação e o tamanho do respectivo tópico DITA ou mapa DITA.
 
-![](images/document_state.png){width="800" align="left"}
+![](images/document_state.png){width="800"}
 
 ## Usar estados de documento no DDLC
 
@@ -72,11 +72,11 @@ Para usar o recurso de aprovação de documento, execute as seguintes etapas:
 
 1. Se o documento estiver no estado a ser marcado como aprovado, a seguinte caixa de diálogo será exibida:
 
-   ![](images/mark-approved-correct-state.png){width="300" align="left"}
+   ![](images/mark-approved-correct-state.png){width="300"}
 
    Se o documento não puder ser marcado como aprovado, a seguinte mensagem será exibida:
 
-   ![](images/mark-approved-incorrect-state.png){width="300" align="left"}
+   ![](images/mark-approved-incorrect-state.png){width="300"}
 
 1. Se o documento estiver pronto para ser marcado como aprovado, selecione um rótulo na lista suspensa e clique em **Aprovar**.
 
@@ -86,7 +86,7 @@ Para usar o recurso de aprovação de documento, execute as seguintes etapas:
 
 1. Depois que o documento for marcado com êxito como aprovado, uma **Visualização** do documento será mostrada no modo somente leitura.
 
-   ![](images/approved-doc-read-only.png){width="650" align="left"}
+   ![](images/approved-doc-read-only.png){width="650"}
 
    >[!NOTE]
    >
@@ -104,4 +104,4 @@ Depois que um documento é marcado como aprovado, ele não fica mais disponível
    O estado do documento é alterado para Rascunho e o documento é aberto no Editor da Web no modo de edição.
 
 
-**Tópico pai:**&#x200B;[&#x200B; Trabalhar com o Editor da Web](web-editor.md)
+**Tópico pai:**[ Trabalhar com o Editor da Web](web-editor.md)

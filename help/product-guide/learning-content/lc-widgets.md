@@ -4,9 +4,9 @@ description: Saiba mais sobre os widgets interativos que você pode usar no cont
 feature: Authoring
 role: User
 exl-id: e7ca2df1-9d15-4718-9698-8a0f059a86d7
-source-git-commit: 781c6b6632c857f2130ef27751f66bfe1527f334
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
@@ -22,15 +22,15 @@ Os widgets disponíveis criados para aprimorar a experiência do usuário e simp
 
 - **Acordeão:** Adiciona um acordeão ao conteúdo. É possível inserir texto adequado tanto no cabeçalho do acordeão quanto no corpo. Suas propriedades podem ser gerenciadas usando o painel **Propriedades de conteúdo**, incluindo opções para permitir que acordeões únicos ou múltiplos sejam abertos simultaneamente, bem como para adicionar ou remover elementos. Para excluir um elemento ou item do widget, você também pode usar **Clique com o botão direito do mouse > Excluir item**.
 
-  ![](assets/accordion-learning-content.png){width="650" align="left"}
+  ![](assets/accordion-learning-content.png){width="650"}
 
 - **Carrossel:** Adiciona um carrossel ao conteúdo. Você pode inserir texto adequado no título do Cartão e no corpo. Suas propriedades podem ser gerenciadas usando o painel **Propriedades de conteúdo**, incluindo opções para adicionar ou remover elementos. Para excluir um elemento ou item do widget, você também pode usar **Clique com o botão direito do mouse > Excluir item**.
 
-  ![](assets/carousal-learning-content.png){width="650" align="left"}
+  ![](assets/carousal-learning-content.png){width="650"}
 
 - **Ponto de acesso:** Adiciona ponto de acesso a uma imagem selecionada. Comece escolhendo uma imagem e navegue até **Inserir > Ponto de acesso**. Isso abre a caixa de diálogo Ponto de acesso, onde é possível configurar várias opções, como definir diferentes tamanhos de pontos de acesso, adicionar links correspondentes e ajustar a disposição em camadas, trazendo as áreas para frente ou para trás. Para excluir um elemento ou item do widget, você também pode usar **Clique com o botão direito do mouse > Excluir item**.
 
-  ![](assets/hotspot-learning-content.png){width="650" align="left"}
+  ![](assets/hotspot-learning-content.png){width="650"}
 
 - **Guia:** permite organizar o conteúdo em seções interativas.  Cada guia pode representar um tópico ou categoria distinta; os alunos podem clicar ou tocar nas guias para revelar o conteúdo correspondente. Coloque o cursor onde deseja que o widget Guia apareça no conteúdo e navegue até **Inserir > Widget > Guia**. Isso adiciona um contêiner de guia ao conteúdo. Agora, comece a adicionar conteúdo à guia, que inclui um título de guia e seu conteúdo correspondente.  Para excluir um elemento ou item do widget, você também pode usar **Clique com o botão direito do mouse > Excluir item**.
 

@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor, Publishing
 role: User
 hide: true
 exl-id: f43bc3ae-b7b6-4a8c-b42d-28ec02d0d1d6
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1707'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Você pode criar uma linha de base no Editor da Web executando as seguintes etap
 1. No painel Repositório, abra o arquivo de mapa DITA na Exibição de mapa.
 1. Clique na guia **Gerenciar**. O painel **Linha de Base** exibe as linhas de base do mapa DITA.
 
-   ![Painel da linha de base](images/baseline-manage.png){width="800" align="left"}
+   ![Painel da linha de base](images/baseline-manage.png){width="800"}
 
 1. No painel **Linha de base**, selecione o ícone + na parte superior direita para começar a criar uma linha de base.
 1. Digite um nome para a linha de base em **Nome**.
@@ -59,7 +59,7 @@ Você pode criar uma linha de base no Editor da Web executando as seguintes etap
 
    As linhas de base criadas usando a configuração de atualização automática são atualizadas dinamicamente. Se você gerar uma linha de base, baixar uma linha de base ou criar um projeto de tradução usando uma linha de base, os arquivos serão selecionados dinamicamente com base nos rótulos atualizados. Por exemplo, se você tiver usado a versão 1.2 de um tópico com Rótulo Versão 1.0 para a linha de base e a versão mais recente atualizada 1.5 com Rótulo Versão 1.0, a linha de base será atualizada dinamicamente e a versão 1.5 será usada.
 
-   ![Criar uma linha de base](images/dynamic-baseline.png){width="300" align="left"}
+   ![Criar uma linha de base](images/dynamic-baseline.png){width="300"}
 
    - **Rótulos**: se os tópicos tiverem rótulos especificados para eles, use a lista suspensa **Rótulos** para escolher entre os [rótulos listados](#labels-list).
 Os rótulos selecionados primeiro recebem prioridade mais alta sobre os posteriores.
@@ -68,7 +68,7 @@ Os rótulos selecionados primeiro recebem prioridade mais alta sobre os posterio
      >
      >Enquanto os rótulos estão sendo puxados, um carregador é exibido e a lista suspensa é desativada.
 
-     Para linhas de base dinâmicas, os rótulos são extraídos da versão salva mais recente e da cópia de trabalho atual do mapa. Por exemplo, se você tiver criado rótulos   `Label Release A.1.0 ` e `Label Release A.1.1` para as versões 1.0 e 1.1 do Tópico A e rótulos `Label Release B.1.0` e `Label Release B.1.1` para as versões 1.0 e 1.1 do Tópico B. Em seguida, você pode adicionar o Tópico A ao Mapa A na versão 1.0 e o Tópico B ao Mapa A no 1.0* (cópia de trabalho). Nesse caso, você pode exibir `Label Release A.1.0 `, `Label Release A.1.1`, `Label Release B.1.0` e `Label Release B.1.1` na lista suspensa de rótulos de linha de base dinâmicos.
+     Para linhas de base dinâmicas, os rótulos são extraídos da versão salva mais recente e da cópia de trabalho atual do mapa. Por exemplo, se você tiver criado os rótulos `Label Release A.1.0 ` e `Label Release A.1.1` para as versões 1.0 e 1.1 do Tópico A e os rótulos `Label Release B.1.0` e `Label Release B.1.1` para as versões 1.0 e 1.1 do Tópico B. Em seguida, você pode adicionar o Tópico A ao Mapa A na versão 1.0 e o Tópico B ao Mapa A no 1.0* (cópia de trabalho). Nesse caso, você pode exibir `Label Release A.1.0 `, `Label Release A.1.1`, `Label Release B.1.0` e `Label Release B.1.1` na lista suspensa de rótulos de linha de base dinâmicos.
 
 1. **Referências indiretas**: para referências indiretas no mapa DITA, você tem as seguintes opções:
 
@@ -94,7 +94,7 @@ Você pode gerenciar suas linhas de base existentes usando os vários recursos n
   >
   >Editar operação no caso de linha de base dinâmica permite editar as propriedades da linha de base, pois as referências para linhas de base dinâmicas são geradas no tempo de execução usando os rótulos.
 
-  ![opções de uma linha de base](images/baseline-options.png){width="800" align="left"}
+  ![opções de uma linha de base](images/baseline-options.png){width="800"}
 
 
 
@@ -103,7 +103,7 @@ Você pode gerenciar suas linhas de base existentes usando os vários recursos n
 ### Duplicar uma linha de base
 
 Você pode duplicar uma linha de base e modificá-la de acordo com suas necessidades.
-![duplicar uma linha de base](images/baseline-duplicate.png){width="300" align="left"}
+![duplicar uma linha de base](images/baseline-duplicate.png){width="300"}
 *Duplique uma linha de base com base em um rótulo ou crie uma cópia exata.*
 
 1. Selecione **Duplicar** no menu Opções de uma linha de base. A caixa de diálogo **Duplicar linha de base** é aberta.
@@ -140,7 +140,7 @@ Os rótulos listados na lista suspensa são baseados nos seguintes critérios:
 
 Usando o ícone Filtros no painel **Filtros da linha de base**, você pode aplicar filtros na linha de base aberta na janela de edição da linha de base:
 
-![filtros de linha de base](images/baseline-filter.png){width="300" align="left"}
+![filtros de linha de base](images/baseline-filter.png){width="300"}
 
 - Filtre os arquivos com base nos nomes ou no local dos arquivos.
 - Filtre os arquivos com base nos valores de diferentes colunas, como Tipo de arquivo, Tipo de referência e assim por diante.
@@ -154,4 +154,4 @@ Usando o ícone Filtros no painel **Filtros da linha de base**, você pode aplic
 
 Depois de editar a linha de base, você pode clicar no botão **Salvar** na parte superior para salvar as alterações na linha de base. Você pode clicar no botão **Redefinir** se não quiser salvar a alteração e redefinir a linha de base. Quando você clica no botão **Redefinir**, é exibido um aviso de que as alterações não salvas serão perdidas.
 
-**Tópico pai:**&#x200B;[&#x200B; Trabalhar com o Editor da Web](web-editor.md)
+**Tópico pai:**[ Trabalhar com o Editor da Web](web-editor.md)

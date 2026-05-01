@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: fe7b3b8d-a4bd-43d2-ad20-49fa6c258b7d
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 0%
@@ -24,15 +24,15 @@ Execute as seguintes etapas para criar um tópico do Markdown no Editor da Web:
 1. Crie o **Tópico do Markdown** de uma das seguintes maneiras:
    1. Clique no ícone **Criar arquivo DITA** no canto superior direito do Painel do Repositório e selecione **Tópico do Markdown** na lista suspensa.
 
-   ![](images/create-markdown-dita-topic.png){width="550" align="left"}
+   ![](images/create-markdown-dita-topic.png){width="550"}
 
    1. Selecione **Criar** no menu Opções da pasta selecionada e selecione **Tópico do Markdown** na lista suspensa.
 
-   ![](images/create-markdown-options-menu.png){width="550" align="left"}
+   ![](images/create-markdown-options-menu.png){width="550"}
 
 1. Insira o nome e o caminho do tópico do Markdown na caixa de diálogo **Criar novo tópico do Markdown**.
 
-![](images/create-markdown-dialog.png){width="350" align="left"}
+![](images/create-markdown-dialog.png){width="350"}
 
 1. Clique em **Criar**.
 
@@ -62,4 +62,4 @@ Execute as seguintes etapas para criar um tópico do Markdown no editor da Web:
 >
 > Se você não tiver salvo as alterações, um pop-up será exibido e você será solicitado a salvar seu tópico antes de fechá-lo.
 
-**Tópico pai:**&#x200B;[&#x200B; Trabalhar com o Editor da Web](web-editor.md)
+**Tópico pai:**[ Trabalhar com o Editor da Web](web-editor.md)

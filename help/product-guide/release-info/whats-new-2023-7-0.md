@@ -4,9 +4,9 @@ description: Conheça os recursos novos e aprimorados da versão de julho de 202
 exl-id: 4b907729-4fbf-48ed-a2e1-014bd1101c73
 feature: What's New
 role: Leader
-source-git-commit: 7d0ae0f13ab77a10beb89fcb0d8592b05c3828bd
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '696'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Agora, o AEM Guides permite que o administrador configure os conectores prontos 
 
 Depois de adicionado, você pode exibir os conectores configurados listados no painel **Fontes de Dados** no Editor da Web.
 
-![](assets/code-snippet-generator.png){width="300" align="left"}
+![](assets/code-snippet-generator.png){width="300"}
 
 Você pode criar um gerador de snippet de conteúdo para buscar os dados de uma fonte de dados conectada. Em seguida, você pode inserir os dados em seus tópicos e editá-los.
 
@@ -38,7 +38,7 @@ Depois de criar um gerador de snippet de conteúdo, você pode reutilizá-lo par
 Agora, o AEM Guides torna suas análises mais simples. Ele fornece o painel Revisões no Editor da Web. O painel Revisões exibe todos os projetos de revisão e as tarefas de revisão ativas nos projetos de revisão dos quais você faz parte.
 
 Como autor, esse recurso ajuda você a abrir facilmente as tarefas de revisão, exibir os comentários e endereçar rapidamente os comentários em uma exibição centralizada.
-![](assets/active-review-task-comments.png){width="800" align="left"}
+![](assets/active-review-task-comments.png){width="800"}
 Para obter mais detalhes, consulte a descrição do recurso **Revisão** na seção [Painel esquerdo](../user-guide/web-editor-features.md#id2051EA0M0HS).
 
 
@@ -49,7 +49,7 @@ Uma Coleção de mapas ajuda a organizar vários mapas e a publicá-los em lote.
 - Agora, você também pode adicionar predefinições de saída do PDF nativo a uma coleção de mapas e usá-las para gerar a saída do PDF.
 - É possível exibir as predefinições de perfil global e de pasta criadas pelo administrador e usá-las para gerar a saída do PDF.
 - Agora, é possível não apenas selecionar uma predefinição individual, mas também ativar todas as predefinições de perfil de pasta para um mapa DITA de uma só vez.
-  ![](assets/edit-map-collection.png){width="800" align="left"}
+  ![](assets/edit-map-collection.png){width="800"}
 
 Para obter mais detalhes, consulte [Usar Coleção de Mapas para geração de saída](../user-guide/generate-output-use-map-collection-output-generation.md).
 
@@ -59,7 +59,7 @@ Agora, o AEM Guides permite baixar os arquivos temporários do HTML criados ao g
 
 Esse recurso permite obter melhores insights sobre o processo de geração, com acesso a estilos e layouts provisórios, e ajuda a corrigir ou alterar os estilos CSS de acordo com os requisitos.
 
-![](assets/native-pdf-advanced-settings.png){width="800" align="left"}
+![](assets/native-pdf-advanced-settings.png){width="800"}
 
 Para obter mais detalhes, consulte [Criar uma predefinição de saída do PDF](../web-editor/native-pdf-web-editor.md#create-output-preset).
 
@@ -73,4 +73,4 @@ Para obter mais detalhes, consulte [Configurar publicação baseada em microsser
 
 Agora, juntamente com as informações de **Sobre** do AEM, você também pode exibir os detalhes da versão do AEM Guides. Você pode exibir os detalhes da versão atual na opção **Sobre** da **Ajuda** na página Navegação do AEM.
 
-![](assets/about-aem-help.png){width="800" align="left"}
+![](assets/about-aem-help.png){width="800"}

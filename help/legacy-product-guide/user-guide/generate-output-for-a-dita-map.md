@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 5c2a8239-e6eb-482b-a11b-3732e667c880
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1421'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Execute as seguintes etapas para gerar saída para um mapa DITA:
 
 1. Selecione uma ou várias Predefinições de saída que deseja usar para gerar a saída.
 
-   ![](images/generate-multiple-outputs-uuid.png){width="800" align="left"}
+   ![](images/generate-multiple-outputs-uuid.png){width="800"}
 
    >[!NOTE]
    >
@@ -71,7 +71,7 @@ Execute as seguintes etapas para gerar novamente a saída de um tópico específ
    >
    > Se você tiver adicionado novos tópicos ao mapa DITA, não será possível gerar esses novos tópicos a partir daqui. Primeiro, publique os tópicos adicionados recentemente usando a função de publicação de mapa DITA.
 
-   ![](images/regenerate-topics.png){width="800" align="left"}
+   ![](images/regenerate-topics.png){width="800"}
 
 1. Clique em **Regenerar**.
 
@@ -98,7 +98,7 @@ Execute as seguintes etapas para exibir a fila de geração de saída:
 
 1. Clique em **Saídas**.
 
-   ![](images/output-queued.png){width="800" align="left"}
+   ![](images/output-queued.png){width="800"}
 
    A página Saídas é dividida em duas partes:
 
@@ -135,17 +135,17 @@ Execute as seguintes etapas para cancelar uma tarefa de geração de saída no c
 
 1. Clique no ícone *Cancelar este trabalho*.
 
-   ![](images/cancel-publish-task-map-console.png){width="800" align="left"}
+   ![](images/cancel-publish-task-map-console.png){width="800"}
 
 1. Clique em **Sim** no prompt da mensagem Confirmar cancelamento.
 
-   ![](images/confirm-cancel-output-map-condole.png){width="800" align="left"}
+   ![](images/confirm-cancel-output-map-condole.png){width="800"}
 
    Se a tarefa ainda não tiver sido iniciada, o comando cancel será executado na tarefa. Para uma tarefa que está sendo cancelada, o Status é definido como Canceling.
 
    Quando a tarefa for cancelada com êxito, ela será movida para a lista **Saídas Geradas** com o status **Cancelada**. Quando você passa o mouse sobre a tarefa cancelada, ele mostra o nome do usuário que cancelou a tarefa. Na captura de tela a seguir, a tarefa *HTML5* foi cancelada.
 
-   ![](images/cancelled-output-task.png){width="800" align="left"}
+   ![](images/cancelled-output-task.png){width="800"}
 
 
 ## Excluir uma tarefa de saída do console de mapas DITA
@@ -162,11 +162,11 @@ Execute as seguintes etapas para remover uma tarefa de saída da lista Saída Ge
 
 1. Clique no ícone de exclusão.
 
-   ![](images/delete-output-task.png){width="800" align="left"}
+   ![](images/delete-output-task.png){width="800"}
 
 1. Clique em **Sim** no prompt da mensagem Confirmar Exclusão.
 
    A tarefa é excluída da lista Saída gerada.
 
 
-**Tópico pai:**&#x200B;[&#x200B; Geração de saída](generate-output.md)
+**Tópico pai:**[ Geração de saída](generate-output.md)

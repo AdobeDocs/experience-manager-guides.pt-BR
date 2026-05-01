@@ -4,7 +4,7 @@ description: Criar uma predefinição do PDF no Treinamento e aprendizado do pro
 feature: Authoring
 role: User
 exl-id: c353cee7-eee1-4e6d-92b4-73016cb8cfa3
-source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 0%
@@ -17,7 +17,7 @@ Execute as seguintes etapas para criar uma predefinição de saída do PDF:
 
 1. Abra o curso no **Console de mapas**.
 
-   ![](assets/open-in-map-console.png){width="350" align="left"}
+   ![](assets/open-in-map-console.png){width="350"}
 
 1. No painel **Predefinições de saída**, selecione o ícone + para criar uma predefinição de saída.
 1. Selecione **PDF** na lista suspensa **Tipo** na caixa de diálogo Nova predefinição de saída.
@@ -28,4 +28,4 @@ Execute as seguintes etapas para criar uma predefinição de saída do PDF:
 
 A página de predefinição do PDF é aberta, onde você pode fazer as configurações necessárias.
 
-![](assets/learning-pdf-preset.png){width="650" align="left"}
+![](assets/learning-pdf-preset.png){width="650"}

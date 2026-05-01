@@ -3,9 +3,9 @@ title: Notas de versão | Novidades na versão 2026.01.0 do Adobe Experience Man
 description: Saiba mais sobre os recursos novos e aprimorados da versão 2026.01.0 do Adobe Experience Manager Guides
 role: Leader
 exl-id: f24a6f4a-2754-48d9-b0ce-79229dc8dba9
-source-git-commit: 2c20191ba998ad7da98587f1832e1fe8499d023c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1591'
+source-wordcount: '1599'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ O Experience Manager Guides introduziu várias melhorias no recurso Localizar e 
 
 Ativar esse modo permite executar uma pesquisa global não apenas no conteúdo visível, mas também no conteúdo original subjacente (estrutura XML, incluindo elementos, tags e valores de atributo) da string pesquisada. Esse modo garante uma pesquisa abrangente em todo o conteúdo.
 
-![](assets/map-find-replace-with-source-mode.png){width="650" align="left"}
+![](assets/map-find-replace-with-source-mode.png){width="650"}
 
 Nesse modo, é possível aplicar filtros para restringir a pesquisa por Tipo de arquivo, Estado do documento, Data da última modificação e muito mais. Você também tem a opção de baixar um relatório CSV detalhado após executar a operação Substituir tudo, que fornece um instantâneo de todas as ações de substituição executadas, juntamente com seus status de sucesso e falha.
 
@@ -33,7 +33,7 @@ Para obter mais detalhes, exiba a seção [Localizar e substituir](../user-guide
 
 >[!NOTE]
 >
-> Para o recurso **Usar modo de origem** no painel Localizar e substituir, uma implantação de índice personalizada deve ser concluída primeiro. Depois que a indexação estiver em vigor, entre em contato com a equipe de Sucesso do cliente para ativar esse recurso.
+>Para o recurso **Usar modo de origem** no painel Localizar e substituir, uma implantação de índice personalizada deve ser concluída primeiro. Depois que a indexação estiver em vigor, entre em contato com a equipe de Sucesso do cliente para ativar esse recurso.
 
 ## Experiência aprimorada de navegação em arquivos e pastas
 
@@ -41,7 +41,7 @@ Esta versão apresenta uma interface mais limpa e intuitiva para navegar pelos a
 
 Ao navegar pelos arquivos, a caixa de diálogo **Selecionar arquivo** renovada agora apresenta um layout com guias com duas exibições - **Repositório** para navegar por todo o repositório de conteúdo em um formato tabular e **Coleções** para acesso rápido a tópicos, mapas e imagens usados com frequência.
 
-![](assets/select-file.png){width="650" align="left"}
+![](assets/select-file.png){width="650"}
 
 Os principais aprimoramentos incluem:
 
@@ -53,7 +53,7 @@ Os principais aprimoramentos incluem:
 
 A caixa de diálogo **Selecionar caminho** também apresenta uma exibição estruturada em árvore aprimorada para navegação de pastas, garantindo uma maneira mais organizada e eficiente de selecionar caminhos no repositório de conteúdo.
 
-![](assets/select-path-dialog-new.png){width="350" align="left"}
+![](assets/select-path-dialog-new.png){width="350"}
 
 Para obter mais detalhes, exiba [seção Procurar arquivos e pastas no Experience Manager Guides](../user-guide/web-editor-other-features.md#browse-files-and-folders-in-experience-manager-guides) em _Outros recursos no Editor_.
 
@@ -63,7 +63,7 @@ Para obter mais detalhes, exiba [seção Procurar arquivos e pastas no Experienc
 
 Agora, filtre os resultados da pesquisa de Repositório com base no estado atual do documento dos arquivos. Com o novo filtro **Estado do documento**, você pode restringir sua pesquisa usando os valores de filtro disponíveis definidos no arquivo `ui_config.json` dentro do seu perfil de pasta.
 
-![](assets/document-state-filter-repository.png){align="left"}
+![](assets/document-state-filter-repository.png)
 
 Os valores de filtro padrão disponíveis para o estado do Documento são: Rascunho, Editar, Em revisão, Aprovado, Revisado e Concluído. Para obter detalhes sobre como personalizar os valores de filtros de estado de documento padrão, exiba [Configurar filtros de estado de documento](../cs-install-guide/config-doc-state-filters.md).
 
@@ -75,7 +75,7 @@ Os valores de filtro padrão disponíveis para o estado do Documento são: Rascu
 
 Todos os arquivos multimídia agora são exibidos com ícones de miniatura, facilitando a identificação visual e a localização de imagens no **Repositório**. Esse aprimoramento também se aplica à pesquisa de arquivos no **painel Pesquisar**, ajudando você a distinguir rapidamente os ativos multimídia de outros tipos de arquivos.
 
-![](assets/thumbnail-repository.png){align="left"}
+![](assets/thumbnail-repository.png)
 
 ## Aprimoramentos do editor
 
@@ -87,11 +87,11 @@ Apresentando a nova funcionalidade **Atualizar** para mapas que já estão abert
 
 - Para atualizar o mapa inteiro (incluindo todos os tópicos), um novo botão **Atualizar** é introduzido no canto superior esquerdo do Editor.
 
-  ![](assets/refresh-map.png){width="600" align="left"}
+  ![](assets/refresh-map.png){width="600"}
 
 - Para atualizar o conteúdo de tópicos individuais, uma nova opção **Atualizar tópico** é introduzida no menu de contexto.
 
-  ![](assets/refresh-topic.png){width="600" align="left"}
+  ![](assets/refresh-topic.png){width="600"}
 
 Para obter mais detalhes, consulte [Recursos do editor de mapas](../user-guide/map-editor-advanced-map-editor.md).
 
@@ -103,7 +103,7 @@ Qualquer alteração nos campos de metadados disponíveis em **Propriedades do a
 
 Agora é possível rastrear a contagem de palavras presente em um mapa ou arquivo de tópico. O novo campo **Contagem de palavras** do painel direito exibiria o número total de palavras presentes em um tópico (ou mapa), onde as palavras separadas por espaços são contadas como palavras individuais. Ele é atualizado automaticamente sempre que você salva as alterações. Para referências cruzadas, somente o texto de exibição é incluído, enquanto as teclas são excluídas.
 
-![](assets/file-properties-new.png){width="350" align="left"}
+![](assets/file-properties-new.png){width="350"}
 
 Para obter detalhes, exiba [painel direito no Editor](../user-guide/web-editor-right-panel.md#file-properties).
 
@@ -128,7 +128,7 @@ Agora é possível adicionar novos tópicos a uma tarefa de revisão em andament
 
 Na página **Detalhes da Tarefa**, você pode simplesmente selecionar ou desmarcar tópicos para modificar a lista de tópicos. Os revisores são notificados (via AEM e email) sobre qualquer alteração nos tópicos atribuídos por meio de notificações do AEM e por email. Para obter mais detalhes, exiba [Enviar tópicos para revisão](../user-guide/review-send-topics-for-review.md).
 
-![](assets/modify-review-topics.png){width="650" align="left"}
+![](assets/modify-review-topics.png){width="650"}
 
 ## Aprimoramentos de tradução
 
@@ -140,7 +140,7 @@ Se um arquivo contiver alterações sem controle de versão (não salvas como um
 
 Para obter mais detalhes, exiba [Traduzir documentos do Console de Mapa](../user-guide/translate-documents-web-editor.md).
 
-![](assets/unversioned-changes-translation.png){width="650" align="left"}
+![](assets/unversioned-changes-translation.png){width="650"}
 
 ## Aprimoramentos de publicação
 

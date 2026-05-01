@@ -5,7 +5,7 @@ feature: Publishing, Metadata Management
 role: User
 hide: true
 exl-id: 55d70c6d-feb0-43f7-9f18-6d1ccdd1e728
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Execute as seguintes etapas para transmitir os metadados para a saída usando a 
 1. Selecione e edite uma predefinição de saída para a qual deseja passar os campos de metadados. Por exemplo, selecione Predefinição de saída PDF.
 1. Selecione **DITA-OT** em Gerar &lt;output\> usando na predefinição de saída selecionada.
 
-   ![](images/custom-meta-data-output-preset.png){width="800" align="left"}
+   ![](images/custom-meta-data-output-preset.png){width="800"}
 
 1. Na lista suspensa Propriedades, selecione os metadados que deseja transmitir para a publicação DITA-OT.
 
@@ -34,15 +34,15 @@ Execute as seguintes etapas para transmitir os metadados para a saída usando a 
 
    Este arquivo pode ser sobreposto em: `/apps/fmdita/config/metadataList`.
 
-   Para transmitir uma propriedade personalizada para a qual você já definiu os valores, consulte [Usar metadados do AEM na saída do DITA-OT PDF](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880?profile.language=pt).
+   Para transmitir uma propriedade personalizada para a qual você já definiu os valores, consulte [Usar metadados do AEM na saída do DITA-OT PDF](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880).
 
 1. Na lista suspensa **Propriedades**, selecione as propriedades padrão e personalizadas necessárias. Por exemplo, selecione `author`, `dc:title` e `dc:description`. Estes são os `metadata/properties` padrão que são criados quando criamos um arquivo. As propriedades selecionadas são listadas abaixo da dropbox.
 
-   ![](images/selected-metadata-properties.png){width="300" align="left"}
+   ![](images/selected-metadata-properties.png){width="300"}
 
 1. Clique em **Concluído** no canto superior esquerdo para salvar as alterações.
 1. Gere a saída.
 
 As propriedades de metadados selecionadas serão passadas para a saída gerada usando o DITA-OT.
 
-**Tópico pai:**&#x200B;[&#x200B; Geração de saída](generate-output.md)
+**Tópico pai:**[ Geração de saída](generate-output.md)

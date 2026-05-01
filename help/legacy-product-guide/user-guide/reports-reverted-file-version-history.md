@@ -5,7 +5,7 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: c787947a-b235-4c12-a9cc-eac5136d31db
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Você pode acessar esse relatório nos seguintes locais:
 
 - **Interface do usuário do Assets**: selecionando um arquivo e abrindo o **Histórico de Versões** no painel esquerdo. A exibição **Histórico de Versão** contém o link **Reverter Logs de Versão** na parte inferior do painel. Ao clicar nesse link, o histórico do arquivo selecionado das versões revertidas é exibido.
 
-  ![](images/revert-log-from-assets-ui.png){width="300" align="left"}
+  ![](images/revert-log-from-assets-ui.png){width="300"}
 
 - **Visualização do tópico**: quando você estiver visualizando um tópico, também poderá exibir o painel **Histórico de Versões** no painel esquerdo. Você obterá um painel semelhante à interface do Assets de onde pode clicar no link **Reverter logs de versão** para acessar o histórico de versões revertidas do documento ativo.
 
@@ -41,7 +41,7 @@ Execute as seguintes etapas para acessar o relatório Reverter histórico:
 
 1. Clique em **Mostrar Logs** para gerar o relatório para o arquivo ou pasta selecionada.
 
-   ![](images/revert-version-history-report.png){width="800" align="left"}
+   ![](images/revert-version-history-report.png){width="800"}
 
    O relatório contém os seguintes detalhes:
 
@@ -59,4 +59,4 @@ Execute as seguintes etapas para acessar o relatório Reverter histórico:
 
 
 
-**Tópico pai:**&#x200B;[&#x200B; Relatórios](reports-intro.md)
+**Tópico pai:**[ Relatórios](reports-intro.md)

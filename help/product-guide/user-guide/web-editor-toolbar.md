@@ -4,9 +4,9 @@ description: Conheça a barra de ferramentas no editor. Saiba mais sobre a inter
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
-source-git-commit: a17f9c5d5143de2ca8836ef6282a796abb766d78
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '6173'
+source-wordcount: '6207'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ A barra de ferramentas aparece quando você abre um tópico ou mapa para ediçã
 
 A lista suspensa Menu fornece acesso às ações de edição, Localizar e substituir, Histórico de versão, Rótulo de versão, Mesclar, Criar tarefa de revisão e menu Mostrar (que inclui Rastrear alterações, Tags, Espaço não-separável).
 
-![Menu suspenso da barra de ferramentas do Editor](images/editor-toolbar-menu-dropdown-new.png){width="350" align="left"}
+![Menu suspenso da barra de ferramentas do Editor](images/editor-toolbar-menu-dropdown-new.png){width="350"}
 
 Veja a seguir a explicação detalhada desses recursos:
 
@@ -41,7 +41,7 @@ Ao editar um tópico no Editor, acesse as várias ações de edição, como **Re
 
 O recurso **Localizar e substituir** está disponível nos modos de exibição Autor e Source. Quando ativada, a barra de texto Localizar e Substituir aparece na parte inferior da área de edição de tópico. Você pode usar as teclas de atalho **CTRL**+**F** para invocar a barra Localizar e substituir.
 
-![](images/find-replace-bar.png){align="left"}
+![](images/find-replace-bar.png)
 
 Usando o ícone de configurações \(![](images/settings-find-replace-icon.svg)\), você pode alternar as opções de pesquisa **Ignorar maiúsculas e minúsculas** e **Somente palavra inteira**. Para executar a pesquisa que não diferencia maiúsculas de minúsculas, ative a opção **Ignorar maiúsculas e minúsculas**. Caso contrário, se você deseja realizar a pesquisa que diferencia maiúsculas de minúsculas, desative a opção **Ignorar maiúsculas e minúsculas**. Você também pode optar por pesquisar uma palavra inteira.
 
@@ -67,7 +67,7 @@ O recurso **Histórico de versões** no Editor permite verificar as versões dis
 
    A caixa de diálogo **Histórico da Versão** é exibida.
 
-   ![Caixa de diálogo do histórico de versões](images/version-history-dialog-web-editor.png){width="550" align="left"}
+   ![Caixa de diálogo do histórico de versões](images/version-history-dialog-web-editor.png){width="550"}
 
    *Visualize as alterações nas diferentes versões de um tópico.*
 
@@ -84,7 +84,7 @@ O recurso **Histórico de versões** no Editor permite verificar as versões dis
 
    Guia **Metadata**: os metadados recém-adicionados estão em fonte verde e os metadados excluídos estão em fonte vermelha.
 
-   ![Diferença de metadados para versões &#x200B;](images/metadata-version-diff.png){width="550" align="left"}
+   ![Diferença de metadados para versões ](images/metadata-version-diff.png){width="550"}
 
    *Comparar os metadados de diferentes versões no histórico de Versões.*
 
@@ -100,7 +100,7 @@ O recurso **Histórico de versões** no Editor permite verificar as versões dis
 
    A caixa de diálogo Reverter versão é exibida.
 
-   ![](images/version-history-revert-dialog-save-working-copy.png){width="550" align="left"}
+   ![](images/version-history-revert-dialog-save-working-copy.png){width="550"}
 
 1. \(*Opcional*\) Forneça um motivo para reverter para uma versão anterior. Você também pode criar uma nova versão da cópia de trabalho ativa do tópico.
 
@@ -110,7 +110,7 @@ O recurso **Histórico de versões** no Editor permite verificar as versões dis
 
    Quando você reverte para uma versão anterior, uma dica visual é mostrada, indicando que a versão em que você está trabalhando no momento não é a versão mais recente.
 
-   ![](images/older-version-visual-cue.png){align="left"}
+   ![](images/older-version-visual-cue.png){ }
 
 </details>
 
@@ -134,7 +134,7 @@ Há diferentes métodos pelos quais você pode aplicar rótulos aos seus tópico
 
    A caixa de diálogo Gerenciamento de Rótulos de Versão é exibida.
 
-   ![](images/version-label-management-dialog.png){width="350" align="left"}
+   ![](images/version-label-management-dialog.png){width="350"}
 
    A caixa de diálogo Gerenciamento de rótulo de versão é dividida em duas partes: o painel esquerdo tem uma lista de versões disponíveis para o tópico, juntamente com a lista suspensa de rótulos \(ou uma caixa de texto para inserir um rótulo\) e o painel direito com uma visualização do tópico.
 
@@ -175,7 +175,7 @@ Para mesclar alterações em um tópico, execute as seguintes etapas:
 
    A caixa de diálogo Mesclar é exibida.
 
-   ![](images/merge-changes-in-topic.png){width="550" align="left"}
+   ![](images/merge-changes-in-topic.png){width="550"}
 
 1. *\(Opcional\)* Você também pode procurar e selecionar um novo arquivo em algum outro local do seu repositório.
 
@@ -205,7 +205,7 @@ Para mesclar alterações em um arquivo de mapa, execute as seguintes etapas:
 
    A caixa de diálogo Mesclar é exibida.
 
-   ![](images/merge-changes-in-map.png){width="550" align="left"}
+   ![](images/merge-changes-in-map.png){width="550"}
 
 1. *\(Opcional\)* Você também pode procurar e selecionar um novo arquivo em algum outro local do seu repositório.
 
@@ -235,7 +235,7 @@ O menu Mostrar inclui os seguintes recursos:
 
 - **Controlar alterações:** você pode controlar todas as atualizações feitas em um documento habilitando o modo Controlar alterações. Depois de ativar o controle de alterações, todas as inserções e exclusões são capturadas no documento. Todo o conteúdo excluído é realçado usando Tachado e todas as inserções são realçadas em texto de cor verde. Além disso, você também obtém as barras de alteração na borda da página de tópico. Novamente, uma barra vermelha é exibida para o conteúdo excluído, e uma barra verde é exibida para o conteúdo adicionado. Caso haja uma adição e exclusão na mesma linha, as barras verde e vermelha são exibidas.
 A captura de tela a seguir destaca o conteúdo excluído e inserido junto com as barras de alteração:
-  ![](images/track-changes-content.png){width="650" align="left"}
+  ![](images/track-changes-content.png){width="650"}
 
   Um caso de uso típico para rastrear alterações em um documento pode ser para fazer revisão por pares. Você pode habilitar o controle de alterações e compartilhar seu documento para revisão, e o revisor faz alterações com o controle de alterações ATIVADO. Ao receber o documento, você deve ter um mecanismo para visualizar as atualizações sugeridas, juntamente com uma maneira conveniente de aceitar ou rejeitar alterações.
 
@@ -243,7 +243,7 @@ A captura de tela a seguir destaca o conteúdo excluído e inserido junto com as
 
   Para acessar o recurso, selecione o ícone **Controlar alterações** no painel direito.
 
-  ![](images/changes-panel_cs.png){width="300" align="left"}
+  ![](images/changes-panel_cs.png){width="300"}
 
   Selecionar uma alteração controlada seleciona o conteúdo alterado no documento. Você pode aceitar uma alteração selecionando o ícone Aceitar alteração ou rejeitá-la selecionando Rejeitar alteração.
 
@@ -257,7 +257,7 @@ A captura de tela a seguir destaca o conteúdo excluído e inserido junto com as
 
   A captura de tela a seguir mostra um documento com a exibição de Tags ativada:
 
-  ![](images/tags-view.png){width="650" align="left"}
+  ![](images/tags-view.png){width="650"}
 
   As seguintes operações podem ser executadas em um documento com Tags:
 
@@ -292,26 +292,26 @@ Por exemplo, se você estiver dentro do elemento `<b>` embutido, é possível in
 
 Você também pode digitar um caractere ou sequência de caracteres na caixa de pesquisa e pesquisar os elementos que começam com ele.
 
-![inserir elemento](images/insert-element.png){width="300" align="left"}
+![inserir elemento](images/insert-element.png){width="300"}
 
 *Digite &#39;t&#39; para procurar todos os elementos válidos que comecem com &#39;t&#39;.*
 
 Se você estiver trabalhando dentro de um elemento de bloco como `note`, use o ícone Inserir elemento para inserir um novo elemento após o elemento `note`. Na captura de tela a seguir, um elemento de nota foi inserido no elemento p \(parágrafo\):
 
-![Inserir elemento em um elemento de bloco](images/note-in-para-insert-element_cs.png){align="left"}
+![Inserir elemento em um elemento de bloco](images/note-in-para-insert-element_cs.png){ }
 
 Se você pressionar Enter no elemento de nota, um novo parágrafo será criado dentro do próprio elemento de nota. Para inserir um novo elemento fora da observação, selecione o elemento p \(destacado na captura de tela\) na navegação estrutural dos elementos e selecione o ícone Elemento ou pressione ***Alt***+***Enter*** para abrir a caixa de diálogo Inserir elemento. Em seguida, selecione o elemento desejado e pressione Enter para inserir o elemento selecionado após o elemento de nota.
 
 Você também pode adicionar um elemento entre dois elementos quando um cursor de bloco intermitente é exibido.
 
 
-![](images/Block-cursor.png){width="300" align="left"}
+![](images/Block-cursor.png){width="300"}
 
 Por exemplo, se você estiver trabalhando em um tópico DITA e o cursor de bloco estiver piscando entre a descrição curta e o corpo, é possível adicionar o elemento `prolog` e, em seguida, adicionar direitos autorais, autor e outros detalhes.
 
 Outra maneira de inserir um novo elemento é usando o menu de contexto. Clique com o botão direito do mouse em qualquer lugar do documento para chamar o menu de contexto. Nesse menu, escolha **Inserir Elemento** para exibir a caixa de diálogo **Inserir elemento** e escolha o elemento que deseja inserir.
 
-![](images/insert-element-before-after.png){width="300" align="left"}
+![](images/insert-element-before-after.png){width="300"}
 
 **Parágrafo** - ![](images/Paragraph_icon.svg)
 
@@ -333,7 +333,7 @@ Cria uma lista numerada no local válido atual ou próximo. Se você estiver em 
 
 Insere uma tabela no local válido atual ou próximo. Selecione o ícone Tabela para abrir a caixa de diálogo Inserir Tabela Simples.
 
-![](images/table-properties.png){width="550" align="left"}
+![](images/table-properties.png){width="550"}
 
 >[!NOTE]
 >
@@ -343,7 +343,7 @@ Você pode especificar o número de linhas e colunas necessárias na tabela. Par
 
 Depois de inserir uma tabela, você pode modificá-la usando o menu de contexto.
 
-![](images/table-context-menu_cs.png){width="550" align="left"}
+![](images/table-context-menu_cs.png){width="550"}
 
 
 
@@ -369,7 +369,7 @@ Você também pode definir atributos em várias células, linha inteira ou colun
 1. Na lista suspensa de valores, selecione o alinhamento de texto desejado que deseja aplicar às células selecionadas da tabela.
 1. Selecione **Adicionar.**
 
-![](images/align-table-cell_cs.png){align="left"}
+![](images/align-table-cell_cs.png){ }
 
 </details>
 
@@ -382,7 +382,7 @@ Insere uma imagem no local válido atual ou próximo. Selecione o ícone Imagem 
 > Você também pode adicionar uma imagem arrastando-a e soltando-a do seu sistema local no seu artigo. Nesse caso, o arquivo de imagem é adicionado usando o fluxo de trabalho **Carregar Assets**.  Para obter mais detalhes, exiba o fluxo de trabalho **Carregar Assets** na seção [Painel esquerdo](./web-editor-left-panel.md).
 
 
-![](images/insert-image-new-dialog.png){width="300" align="left"}
+![](images/insert-image-new-dialog.png){width="300"}
 
 
 Na caixa de diálogo **Selecionar arquivo**, você pode procurar o arquivo de imagem necessário de **Repositório** ou **Coleções**.
@@ -411,7 +411,7 @@ Você também pode adicionar uma imagem/Título da figura e Texto alternativo pa
 
 Depois de inserir uma imagem, você pode alterar a altura, a largura, a disposição e os atributos no painel Propriedades de conteúdo. Selecione o arquivo de imagem e faça as alterações no painel Propriedades de conteúdo no painel direito.
 
-![](images/image-properties.png){align="left"}
+![](images/image-properties.png){ }
 
 O campo Source exibe a UUID do arquivo de imagem inserido. Você pode encontrar o caminho completo do arquivo de imagem inserido passando o ponteiro do mouse sobre o campo Source. O caminho é exibido na dica de ferramenta.
 
@@ -439,11 +439,11 @@ Insere um mapa de imagem na imagem selecionada. Uma imagem com áreas clicáveis
 
 Selecione uma imagem no tópico atual e selecione o ícone Inserir/Editar mapa de imagem para abrir a caixa de diálogo Inserir mapa de imagem.
 
-![](images/insert-image-map.png){width="650" align="left"}
+![](images/insert-image-map.png){width="650"}
 
 Escolha a forma preferida Retangle ![](images/imagemap-rectangle-toolbar.png), Circle ![](images/imagemap-circle-toolbar.png) ou Polygon ![](images/imagemap-polygon-toolbr.png) para definir uma área sobre uma imagem que você deseja usar como um link. Depois de definir uma área, a caixa de diálogo Referência é exibida, onde é necessário especificar o link para conteúdo interno ou externo:
 
-![](images/reference-dialog.png){width="350" align="left"}
+![](images/reference-dialog.png){width="350"}
 
 Se houver sobreposição de áreas, você poderá trazer a forma para frente ou enviá-la para trás clicando no respectivo ícone na barra de ferramentas. Você também pode remover uma área selecionando-a e clicando no ícone Excluir. Clicar duas vezes em uma área abre a caixa de diálogo Referência, na qual é possível alterar o link de destino. Depois de marcar as áreas necessárias na imagem, salve as alterações selecionando **Concluído**.
 
@@ -459,11 +459,11 @@ Insere diferentes tipos de arquivos multimídia. Selecione o ícone suspenso Mul
 
 Ao selecionar a opção de arquivo de Áudio ou Vídeo, você verá a caixa de diálogo **Selecionar arquivo** para procurar e selecionar o arquivo desejado em Repositório ou Coleções.
 
-![](images/select-file-dialog-multimedia.png){width="650" align="left"}
+![](images/select-file-dialog-multimedia.png){width="650"}
 
 Se você escolher YouTube ou Vimeo, você verá a caixa de diálogo **Inserir multimídia**. Cole o link do arquivo de vídeo no campo Link da Web e selecione Inserir para adicionar o vídeo no local válido atual ou próximo no documento.
 
-![](images/insert-multimedia-dialog.png){width="350" align="left"}
+![](images/insert-multimedia-dialog.png){width="350"}
 
 >[!NOTE]
 >
@@ -471,7 +471,7 @@ Se você escolher YouTube ou Vimeo, você verá a caixa de diálogo **Inserir mu
 
 Você também pode adicionar o arquivo de Áudio ou Vídeo da caixa de diálogo **Inserir Multimídia**. Selecione a opção Arquivo de áudio/vídeo e, em seguida, selecione o ícone de navegação para iniciar a visualização de repositório. Selecione o arquivo de áudio ou vídeo do repositório e selecione **Selecionar** para adicionar o link do arquivo no campo Arquivo de Áudio/Vídeo. Caso escolha um arquivo de vídeo, uma pré-visualização do arquivo também é mostrada na área Pré-visualização. É possível reproduzir o arquivo de vídeo para visualizá-lo.
 
-![](images/insert-multimedia.png){width="650" align="left"}
+![](images/insert-multimedia.png){width="650"}
 
 **Referência cruzada**
 
@@ -479,7 +479,7 @@ Inserir referências do tipo — Referência de conteúdo, Referência de chave 
 
 Selecione o ícone **Selecionar Arquivo** \(para Referência de Conteúdo e Referência de Arquivo\) ou **Selecionar Mapa de Raiz** \(para Referência de Chave de Conteúdo e Referência de Chave\) e selecione o arquivo ou conteúdo desejado para ser vinculado.
 
-![](images/insert-references.png){width="650" align="left"}
+![](images/insert-references.png){width="650"}
 
 Um link da referência selecionada é adicionado no documento. O menu de contexto no link fornece as opções para:
 
@@ -490,7 +490,7 @@ Um link da referência selecionada é adicionado no documento. O menu de context
 
 Também é possível pesquisar usando a UUID do arquivo que você deseja referenciar. Para links de Referência de Conteúdo e Chave, insira a UUID do arquivo ao qual deseja vincular e o arquivo é automaticamente pesquisado e exibido na seção Visualizar. Ao especificar a UUID do arquivo, você não precisa mencionar explicitamente a extensão de arquivo para arquivos .xml. A extensão .xml é anexada automaticamente ao UUID.
 
-![](images/insert-content-using-uuid-search.png){width="650" align="left"}
+![](images/insert-content-using-uuid-search.png){width="650"}
 
 Se o administrador tiver habilitado a opção UUIDs no *XMLEditorConfig*, você exibirá a UUID do conteúdo referenciado na propriedade **Link**.
 
@@ -498,7 +498,7 @@ Se o administrador tiver habilitado a opção UUIDs no *XMLEditorConfig*, você 
 >
 > De acordo com o comportamento DITA padrão, o atributo scope=`external` não deve ser aplicado a links internos, pois é destinado apenas a referências a recursos externos. A aplicação desse atributo a links internos pode interromper os workflows. Para conteúdo gerenciado no Experience Manager Guides, use o escopo padrão=`local` ou referências baseadas em chave.
 
-![](images/ref-link-uuid_cs.png){align="left"}
+![](images/ref-link-uuid_cs.png){ }
 
 >[!NOTE]
 >
@@ -520,7 +520,7 @@ Na caixa de diálogo **Selecionar arquivo**, você pode procurar algum texto nos
 >
 > O navegador de Arquivo e Caminho é introduzido com uma interface renovada na versão 2601 do Experience Manager Guides as a Cloud Service. A nova interface é ativada por padrão. Se preferir continuar usando a interface do usuário existente sem essas atualizações, entre em contato com a equipe de Sucesso do cliente para desativar esse novo aprimoramento.
 
-![](images/reference-search-filters.png){width="650" align="left"}
+![](images/reference-search-filters.png){width="650"}
 
 Você pode usar a navegação estrutural na parte superior e o painel de navegação da pasta à esquerda para navegar facilmente pelas pastas.
 
@@ -540,7 +540,7 @@ A lista de arquivos filtrados que contém o texto pesquisado é exibida. Você t
 
 Reutilize o conteúdo que existe em qualquer outro documento no seu projeto. Você pode inserir conteúdo vinculando diretamente ao conteúdo em um arquivo ou usando uma referência de chave, exiba [Resolver referências de chave](map-editor-other-features.md#id176GD01H05Z). Ao selecionar o ícone Conteúdo reutilizável, você obtém a caixa de diálogo Reutilizar conteúdo:
 
-![](images/reuse-content-dialog.png){width="650" align="left"}
+![](images/reuse-content-dialog.png){width="650"}
 
 Na caixa de diálogo Reutilizar conteúdo, selecione o arquivo DITA para referências de arquivo ou o arquivo de mapa DITA que contém as referências principais. Depois de selecionada, o tópico ou as referências de chave são mostrados na caixa de diálogo. Você pode selecionar a ID/chave do tópico que deseja inserir e selecionar **Concluído** para inserir o conteúdo no seu tópico.
 
@@ -562,7 +562,7 @@ Insere caracteres especiais no tópico. Selecione o ícone de Símbolo para abri
 >
 > O Experience Manager Guides fornece caixas de diálogo móveis e redimensionáveis. As caixas de diálogo que têm duas linhas cruzadas no canto inferior direito podem ser redimensionadas. As linhas cruzadas na caixa de diálogo Caractere especial são mostradas abaixo.
 
-![](images/insert-special-char.png){width="350" align="left"}
+![](images/insert-special-char.png){width="350"}
 
 Na caixa de diálogo Inserir caractere especial, você pode procurar um caractere especial usando seu nome. Todos os caracteres especiais são armazenados em várias categorias. Use a lista suspensa Selecionar categoria e selecione uma categoria. Os caracteres especiais disponíveis na categoria selecionada são exibidos. Você pode navegar pela lista de caracteres especiais usando as teclas de seta ou selecionar o caractere desejado que deseja inserir. O Nome e o Código hexadecimal do caractere especial selecionado são exibidos abaixo da lista. Selecione **Inserir** para inserir o caractere selecionado no documento.
 
@@ -570,13 +570,13 @@ Na caixa de diálogo Inserir caractere especial, você pode procurar um caracter
 
 Inserir palavra-chave definida no mapa DITA. Selecione a opção Palavra-chave para abrir a caixa de diálogo Referência-chave.
 
-![](images/insert-keyword.png){width="550" align="left"}
+![](images/insert-keyword.png){width="550"}
 
 As palavras-chave são listadas em ordem alfabética e você também pode pesquisar palavras-chave\(s\) digitando uma string de pesquisa na caixa Pesquisar. O resultado da pesquisa retornará as palavras-chave que contêm a cadeia de caracteres em ID ou Valor. As palavras-chave definidas no mapa DITA são listadas nesta caixa de diálogo. Escolha a palavra-chave que deseja inserir e selecione **Inserir**.
 
 Você também pode alterar os atributos da palavra-chave inserida clicando com o botão direito do mouse na palavra-chave e selecionando a opção Atributos. A caixa de diálogo **Atributos da Palavra-chave** é aberta:
 
-![](images/attributes-for-keyword.png){width="550" align="left"}
+![](images/attributes-for-keyword.png){width="550"}
 
 Você pode alterar os atributos da palavra-chave ou adicionar um novo atributo à palavra-chave.
 
@@ -588,11 +588,11 @@ Ao selecionar a opção Trechos, você verá o catálogo Inserir trechos. O cat�
 
 O exemplo a seguir mostra dois trechos pré-configurados - Aviso e Erro que podem ser inseridos no local atual no documento.
 
-![](images/insert-snippet.png){width="300" align="left"}
+![](images/insert-snippet.png){width="300"}
 
 Quando você escolhe um trecho na lista, ele é inserido no local válido atual ou próximo no documento. A captura de tela a seguir mostra o trecho de erro inserido no documento:
 
-![](images/error-snippet.png){width="400" align="left"}
+![](images/error-snippet.png){width="400"}
 
 **Citações** - ![](images/Citations_icon.svg)
 
@@ -610,17 +610,17 @@ O recurso **Informações de versão e Salvar como nova versão** combina o rast
 
   O número da versão é alterado com cada nova versão criada para o tópico ou arquivo de mapa. Se você estiver trabalhando em um documento recém-criado, as informações da versão serão mostradas como **nenhuma**.
 
-  ![](images/version-information.png){align="left"}
+  ![](images/version-information.png){ }
 
 
 - **Salvar como nova versão** é um botão que salva as alterações feitas no tópico e também cria uma nova versão do tópico.
 
-  ![](images/save-as-new-version.png){align="left"}
+  ![](images/save-as-new-version.png){ }
 
 
 Quando você opta por salvar um tópico ou mapa usando **Salvar como nova versão**, a seguinte caixa de diálogo é exibida:
 
-![](images/save-as-new-version-dialog.PNG){width="300" align="left"}
+![](images/save-as-new-version-dialog.PNG){width="300"}
 
 Insira comentários e rótulos de versão para identificar as alterações e selecione **Salvar** para criar uma nova versão do arquivo.
 
@@ -628,7 +628,7 @@ Quando você escolhe a opção **Salvar como nova versão**, a primeira versão 
 
 Se o administrador tiver rótulos de versão pré-configurados, você os visualizará em uma lista suspensa. Você pode escolher um rótulo na lista de rótulos disponíveis e salvar seu documento.
 
-![](images/web-editor-pre-defined-labels.PNG){width="300" align="left"}
+![](images/web-editor-pre-defined-labels.PNG){width="300"}
 
 Ao salvar um tópico, você pode adicionar um comentário especificando as alterações feitas no tópico. Este comentário é mostrado no Histórico de versão do tópico.
 
@@ -636,7 +636,7 @@ Se o tópico estiver sendo revisado, os revisores receberão uma notificação i
 
 Ao passar o ponteiro sobre o título de um tópico, você verá o título do arquivo, o caminho do arquivo e o número da versão.
 
-![](images/mouse-hover-on-title_cs.png){align="left"}
+![](images/mouse-hover-on-title_cs.png){ }
 
 >[!NOTE]
 >
@@ -646,17 +646,17 @@ Ao passar o ponteiro sobre o título de um tópico, você verá o título do arq
 
 Bloqueia ou desbloqueia o arquivo atual. Bloquear um arquivo oferece acesso de gravação exclusivo ao arquivo. Isso impede que outros usuários editem o arquivo. Desbloqueie o arquivo se desejar que outras pessoas tenham acesso para edição. Quando o arquivo estiver desbloqueado, as alterações serão salvas na versão atual do arquivo.
 
-![](images/web-editor-lock-button.png){align="left"}
+![](images/web-editor-lock-button.png){ }
 
 Se você estiver na Exibição de mapa e expandir o mapa principal, será possível bloquear todos os arquivos no mapa com um único clique. Basta expandir o arquivo de mapa principal e selecionar o arquivo principal, o que resulta na seleção de todos os arquivos no mapa. Em seguida, você pode selecionar **Bloquear** ![](images/LockClosed_icon.svg) para obter o bloqueio em todos os arquivos do mapa.
 
 No painel Repositório, os arquivos bloqueados são exibidos com um ícone de bloqueio. Quando você passa o mouse sobre esse ícone de bloqueio, o Bloqueado por você/nome de usuário é exibido como uma dica de ferramenta.
 
-![](images/web-editor-locked-by-icon-new.png){width="350" align="left"}
+![](images/web-editor-locked-by-icon-new.png){width="350"}
 
 Se um arquivo for bloqueado por outro usuário, passar o mouse sobre o ícone de bloqueio no Repositório exibirá o nome do usuário que o bloqueou. Nesse caso, o arquivo abre no modo Somente leitura, com **Acesso somente leitura** exibido ao lado das informações da versão.
 
 Como administrador, você também tem acesso ao recurso **Forçar desbloqueio** que permite desbloquear o arquivo bloqueado por outros usuários. Use este recurso para acessar os direitos de edição em um arquivo bloqueado por outros usuários.
 
-![](images/web-editor-force-unlock-new.png){width="350" align="left"}
-**Tópico pai:**&#x200B;[&#x200B; Introdução ao Editor](web-editor.md)
+![](images/web-editor-force-unlock-new.png){width="350"}
+**Tópico pai:**[ Introdução ao Editor](web-editor.md)

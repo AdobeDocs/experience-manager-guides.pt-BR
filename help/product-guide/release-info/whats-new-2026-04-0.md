@@ -2,9 +2,10 @@
 title: Notas de versão | Novidades na versão 2026.04.0 do Adobe Experience Manager Guides
 description: Saiba mais sobre os recursos novos e aprimorados da versão 2026.04.0 do Adobe Experience Manager Guides
 role: Leader
-source-git-commit: ce2c9da0d9beb05a15f7cefcf9483e0c93abbf37
+exl-id: 39b73511-a324-461d-b569-b3b215988890
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: '833'
 ht-degree: 0%
 
 ---
@@ -52,13 +53,15 @@ Os seguintes aprimoramentos foram feitos na interface do usuário do Schematron 
 
 - No painel Validação, uma mensagem de estado vazio é exibida quando nenhum arquivo do Schematron é adicionado, fornecendo melhor clareza e direção para as próximas etapas.
 
-  ![](assets/schematron-panel.png){width="350" align="left"}
+  ![](assets/schematron-panel.png){width="350"}
+
 - Quando vários arquivos do Schematron são adicionados, eles são organizados em uma opção consolidada, fornecendo melhor visibilidade dos arquivos do Schematron configurados.
 
-  ![](assets/schematron-panel-error.png){width="350" align="left"}
+  ![](assets/schematron-panel-error.png){width="350"}
+
 - Com base no atributo de função definido no arquivo Schematron, os resultados da validação agora são categorizados como: `Fatal`, `Error`, `Warn` ou `Info`. Cada categoria inclui uma contagem visível juntamente com uma dica de ferramenta contextual para uma interpretação mais clara.
 
-  ![](assets/schematron-validation-errors.png){width="350" align="left"}
+  ![](assets/schematron-validation-errors.png){width="350"}
 
 Para obter mais detalhes sobre como usar arquivos Schematron no Experience Manager Guides, exiba [Suporte para arquivos Schematron](../user-guide/support-schematron-file.md).
 
@@ -66,7 +69,7 @@ Para obter mais detalhes sobre como usar arquivos Schematron no Experience Manag
 
 Uma nova seção **Traduções** está disponível no painel direito em *Propriedades do arquivo*, no Editor. Esta seção fornece acesso direto a todas as cópias de idioma disponíveis para o ativo aberto no momento (mapa, tópico, imagem etc.). Não é mais necessário navegar para a interface do usuário do Assets para exibir ou acessar essas cópias de idioma.
 
-![](assets/translations-right-panel.png){width="350" align="left"}
+![](assets/translations-right-panel.png){width="350"}
 
 Para cada cópia de idioma, é possível passar o mouse sobre o arquivo para localizar seu caminho no repositório ou simplesmente selecioná-lo para abri-lo no Editor. Além de abrir arquivos, você também pode executar muitas ações usando o menu **Opções**. Algumas das ações que você pode executar incluem Editar, Visualizar, Copiar UUID, Copiar caminho, Adicionar às coleções e Propriedades.
 
@@ -79,7 +82,7 @@ Agora você pode pesquisar citações em todos os campos do Diário, como *Títu
 
 Para obter mais detalhes sobre como adicionar citações no Experience Manager Guides, exiba [Adicionar e gerenciar citações em seu conteúdo](../user-guide/web-editor-apply-citations.md).
 
-![](assets/add-citations.png){width="350" align="left"}
+![](assets/add-citations.png){width="350"}
 
 
 

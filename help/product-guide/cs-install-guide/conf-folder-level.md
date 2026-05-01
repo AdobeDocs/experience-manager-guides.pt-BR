@@ -5,7 +5,7 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '5239'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Além disso, você pode delegar as configurações específicas da pasta a um de
 
 Ao usar o bloco Perfis de pasta nas configurações de Guias, você pode definir as configurações nas seguintes guias:
 
-![](assets/folder-profile-tabs.png){width="800" align="left"}
+![](assets/folder-profile-tabs.png){width="800"}
 
 - **Geral**: a guia geral só está disponível quando você está definindo as configurações no nível da pasta \(ou projeto/produto\). É possível definir configurações, como os caminhos de pasta aos quais as configurações serão aplicáveis e os usuários que terão direitos administrativos para criar ou atualizar configurações.
 
@@ -98,7 +98,7 @@ Execute as seguintes etapas para configurar o perfil global:
 
    Pela primeira vez, a página Perfis de pasta é exibida somente com o bloco Perfil global.
 
-   ![](assets/folder-profile-global.png){width="800" align="left"}
+   ![](assets/folder-profile-global.png){width="800"}
 
 1. Clique no bloco **Perfil Global**.
 
@@ -127,7 +127,7 @@ Execute as seguintes etapas para configurar um perfil no nível da pasta:
 
 1. Clique em **Criar**.
 
-   ![](assets/create-folder-profile.png){width="300" align="left"}
+   ![](assets/create-folder-profile.png){width="300"}
 
 1. Insira os seguintes detalhes na caixa de diálogo **Criar Perfil de Pasta**:
    - Nome do perfil da pasta.
@@ -259,7 +259,7 @@ Execute as seguintes etapas para adicionar o tópico, mapa ou modelos do PDF em 
    >
    > Por padrão, todos os modelos são armazenados na pasta /content/dam/dita-templates. A pasta `dita-templates` contém subpastas `topics`, `maps` e `PDF` para armazenar os modelos de tópico, mapa e PDF. Você pode adicionar seus modelos personalizados \(.dita,.xml ou .ditamapfiles\) nas pastas de modelo padrão. Depois de adicionar o modelo à pasta padrão, é possível adicioná-los ao perfil global ou de pasta. Para obter mais informações sobre como criar modelos personalizados usando o Editor da Web, consulte [Criar modelo de criação personalizado](#id1917D0EG0HJ).
 
-   ![](assets/search-author-temp.png){width="800" align="left"}
+   ![](assets/search-author-temp.png){width="800"}
 
 1. Adicione os modelos de tópico, mapa e PDF necessários ao seu perfil.
 
@@ -267,7 +267,7 @@ Execute as seguintes etapas para adicionar o tópico, mapa ou modelos do PDF em 
 
    - Escolha **Pesquisar ou Digitar** e digite ou selecione o nome de um modelo na lista suspensa. A lista suspensa consiste em todos os modelos padrão e qualquer novo modelo criado.
 
-     ![](assets/default-template-list.png){width="800" align="left"}
+     ![](assets/default-template-list.png){width="800"}
 
    - Clique em **Procurar** e selecione um modelo do DAM.
 
@@ -275,7 +275,7 @@ Execute as seguintes etapas para adicionar o tópico, mapa ou modelos do PDF em 
 
    Os modelos selecionados são adicionados à lista de modelos.
 
-   ![](assets/author-templ-added-list.png){width="800" align="left"}
+   ![](assets/author-templ-added-list.png){width="800"}
 
    >[!NOTE]
    >
@@ -411,7 +411,7 @@ Se você tiver atualizado uma predefinição de saída existente ou quiser dispo
 
 ## Configurar o AI Assistant para obter ajuda e criação inteligentes
 
-Para Experience Manager Guides as a Cloud Service (![nuvem AEM &#x200B;](assets/aem-cloud-icon.svg)).
+Para Experience Manager Guides as a Cloud Service (![nuvem AEM ](assets/aem-cloud-icon.svg)).
 
 O Assistente de IA do Adobe Experience Manager Guides é uma ferramenta avançada orientada por IA, projetada para aprimorar o conteúdo por meio de criação inteligente e experiências de reutilização de conteúdo. Ele reúne dois recursos avançados de IA — **Criação** e **Ajuda** — na interface do Experience Manager Guides, permitindo que você crie documentos e acesse informações de maneira mais rápida e eficiente.
 
@@ -433,7 +433,7 @@ Execute as seguintes etapas para definir a configuração de IA padrão no perfi
 
 1. Na página do perfil, selecione a guia **Configuração de IA**.
 
-   ![Guia de configuração de IA no perfil global](assets/global-profile-AI-configuration-cs.png) {width="800" align="left"}
+   ![Guia de configuração de IA no perfil global](assets/global-profile-AI-configuration-cs.png) {width="800"}
 
 1. Selecione **Editar**.
 1. Como administrador, você pode definir as seguintes configurações:
@@ -497,9 +497,9 @@ Para garantir que as sugestões inteligentes funcionem de maneira eficaz, lembre
 
 **Personalizar as perguntas padrão da ajuda inteligente**
 
-Para Experience Manager Guides as a Cloud Service (![nuvem AEM &#x200B;](assets/aem-cloud-icon.svg)).
+Para Experience Manager Guides as a Cloud Service (![nuvem AEM ](assets/aem-cloud-icon.svg)).
 
-Você pode configurar a **Ajuda** inteligente baseada em IA para ajudar os Autores a fazer perguntas e localizar facilmente o conteúdo necessário da [documentação do Experience Manager Guides](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using/overview).
+Você pode configurar a **Ajuda** inteligente baseada em IA para ajudar os Autores a fazer perguntas e localizar facilmente o conteúdo necessário da [documentação do Experience Manager Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 
 A guia **Configuração do Editor XML** permite configurar as perguntas padrão do painel **Ajuda**.
 
@@ -551,7 +551,7 @@ Por padrão, o Editor de XML vem com vários recursos para ajudar seus Autores a
 
 Essa configuração permite criar extensões JSON que refletem as modificações feitas no arquivo `ui_config.json`. É possível fazer upload dessas extensões de maneira independente no nível do perfil da pasta, oferecendo mais flexibilidade e personalização. Por exemplo, quando você faz alterações na **Configuração do Editor XML**, como a atualização de um botão, o sistema identifica automaticamente as diferenças. Ao carregar essas alterações na **Configuração da Interface do Usuário do Editor de XML** e convertê-las em extensões JSON usando o botão **Converter Configuração da Interface do Usuário em JSON**, o sistema gera uma extensão que incorpora a nova funcionalidade.
 
-Saiba mais sobre [personalização de configurações JSON e conversão de configurações de interface do usuário para o novo Editor do AEM Guides](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+Saiba mais sobre [personalização de configurações JSON e conversão de configurações de interface do usuário para o novo Editor do AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 >[!NOTE]
 >

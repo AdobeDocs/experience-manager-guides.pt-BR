@@ -4,9 +4,9 @@ description: Saiba como adicionar tags inteligentes no AEM Guides. Use a ferrame
 exl-id: 7fb4b881-0898-44eb-a0e8-85cb99d9593b
 feature: Metadata Management
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
@@ -25,12 +25,12 @@ Execute as seguintes etapas para criar tags inteligentes:
 1. Abra o tópico no modo de Visualização e selecione o ícone **Reprocessar Assets** na barra de ferramentas principal.
 1. Selecione Extração de palavra-chave XML para extrair palavras-chave relevantes.
 
-   ![](images/smart-tag-reprocess-asset.png){width="300" align="left"}
+   ![](images/smart-tag-reprocess-asset.png){width="300"}
 
 1. Selecione a opção Executar Pós-Processamento. Uma mensagem é exibida no início bem-sucedido da ferramenta.
 1. As tags são extraídas automaticamente e podem ser vistas na página Propriedades do tópico selecionado.
 
-   ![](images/properties-smart-tags.png){align="left"}
+   ![](images/properties-smart-tags.png)
 
    >[!NOTE]
    >
@@ -39,4 +39,4 @@ Execute as seguintes etapas para criar tags inteligentes:
 
 *Contate a equipe de êxito do cliente para habilitar este recurso no ambiente. Isso não é habilitado como parte do suporte pronto para uso.*
 
-**Tópico pai:**&#x200B;[&#x200B; Gerenciar metadados](manage-metadata.md)
+**Tópico pai:**[ Gerenciar metadados](manage-metadata.md)

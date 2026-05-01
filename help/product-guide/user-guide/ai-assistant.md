@@ -1,11 +1,11 @@
 ---
-title: Usar o Assistente de IA para criar documentos com inteligência &grave;
+title: Usar o Assistente de IA para criar documentos com inteligência `
 description: Saiba como usar o Assistente de IA para pesquisar e criar documentos de forma inteligente no Adobe Experience Manager Guides.
 exl-id: c18e8761-333e-40ef-9e16-e71a194a754a
-source-git-commit: aab7bc0c79d3c98f062d230d1d21ec7f4e6a01c3
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 0%
+source-wordcount: '364'
+ht-degree: 1%
 
 ---
 
@@ -21,14 +21,14 @@ O recurso **Criação** no Assistente de IA torna o processo de criação mais i
 
 Para obter mais detalhes, consulte [Criação](./ai-assistant-right-panel.md).
 
-![assistente de ia](./images/ai-assistant-panel.png){align="left"}
+![assistente de ia](./images/ai-assistant-panel.png)
 
 O recurso **Ajuda** do Assistente de IA é uma ferramenta intuitiva baseada em chat, projetada para ajudá-lo a entender melhor o Experience Manager Guides, solucionar problemas e pesquisar informações na Documentação do Adobe Experience Manager Guides. Em vez de pesquisar nos guias de usuário e documentos de referência, você pode usar o recurso **Ajuda** para encontrar rapidamente respostas relevantes para suas consultas. Isso ajuda a economizar tempo e permite que você se concentre na criação de conteúdo, resultando em maior produtividade e eficiência.
 
 Para obter mais detalhes, consulte a [Ajuda](./ai-based-smart-help.md).
 
 
-![Painel Ajuda Inteligente](images/smart-help-panel.png){align="left"}
+![Painel Ajuda Inteligente](images/smart-help-panel.png)
 
 ## Introdução ao Assistente de IA
 
@@ -41,7 +41,7 @@ Execute as seguintes etapas para iniciar o Assistente de IA:
 
    A página do Assistente de IA é exibida, destacando seus principais recursos, o link de diretrizes do usuário e um botão **Introdução**.
 
-   ![Painel Ajuda Inteligente](images/get-started-ai.png){align="left"}
+   ![Painel Ajuda Inteligente](images/get-started-ai.png)
 
 1. Leia as diretrizes de usuário cuidadosamente e selecione **Introdução** para iniciar o Assistente de IA.
 

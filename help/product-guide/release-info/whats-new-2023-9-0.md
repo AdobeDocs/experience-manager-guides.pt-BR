@@ -4,9 +4,9 @@ description: Conheça os recursos novos e aprimorados da versão de setembro de 
 exl-id: d185d27f-0cbb-4ec6-ac65-cb69f7572c3f
 feature: What's New
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1683'
+source-wordcount: '1691'
 ht-degree: 0%
 
 ---
@@ -41,26 +41,26 @@ No AEM Guides, é possível adicionar citações ou importar citações e aplic�
 
 Depois de inserir as citações nos tópicos, você pode visualizá-las no Editor da Web. Você também pode publicar conteúdo com citações usando o PDF nativo.
 
-![Citações listadas em um painel](assets/citation-panel.png){width="300" align="left"}
+![Citações listadas em um painel](assets/citation-panel.png){width="300"}
 
 *Exibir a lista de citações no painel Citações.*
 
 Para obter mais detalhes, exiba [Adicionar e gerenciar citações no seu conteúdo](../user-guide/web-editor-apply-citations.md).
 
 
-## Publish para um fragmento de conteúdo
+## Publicar em um fragmento de conteúdo
 
 Fragmentos de conteúdo são partes distintas do conteúdo no AEM. São conteúdos estruturados com base em um modelo de conteúdo. Fragmentos de conteúdo são conteúdo puro sem informações de design ou layout. Eles podem ser criados e gerenciados independentemente dos canais compatíveis com o AEM. A modularidade e a reutilização dos fragmentos de conteúdo levam a maior flexibilidade, consistência, eficiência e gerenciamento mais simples.
 
 Agora, o AEM Guides oferece uma maneira de publicar um tópico ou os elementos dentro de um tópico em um fragmento de conteúdo. Você pode criar um mapeamento baseado em JSON entre um tópico e um modelo de fragmento de conteúdo. Use esse mapeamento para publicar em um fragmento de conteúdo o conteúdo presente em alguns ou todos os elementos de um tópico.
 
-Aproveite o potencial do AEM Guides e dos fragmentos de conteúdo e use fragmentos de conteúdo em qualquer site de AEM. Também é possível extrair os detalhes por meio de APIs compatíveis com fragmentos de conteúdo.
+Aproveite o potencial do AEM Guides e dos fragmentos de conteúdo e use fragmentos de conteúdo em qualquer site do AEM. Também é possível extrair os detalhes por meio de APIs compatíveis com fragmentos de conteúdo.
 
-![opção para publicar o fragmento de conteúdo](assets/content-fragment-publish.png){width="550" align="left"}
+![opção para publicar o fragmento de conteúdo](assets/content-fragment-publish.png){width="550"}
 
-*Publish um tópico para um fragmento de conteúdo.*
+*Publicar um tópico em um fragmento de conteúdo.*
 
-Para obter mais detalhes, exiba [Publish em um fragmento de conteúdo](../user-guide//publish-content-fragment.md).
+Para obter mais detalhes, consulte [Publicar em um fragmento de conteúdo](../user-guide//publish-content-fragment.md).
 
 ## Revisar melhorias
 
@@ -71,7 +71,7 @@ O AEM Guides agora oferece um recurso aprimorado de revisão com as seguintes fu
 Realizar revisões é um recurso essencial do AEM Guides. Ajuda os revisores a revisar os documentos atribuídos a eles .
 Agora é possível pesquisar um tópico inserindo alguma parte do texto do título ou caminho de arquivo na barra de pesquisa da exibição de tópicos do painel de revisão. Você também pode optar por exibir todos os tópicos ou exibir tópicos com comentários. Por padrão, é possível exibir todos os tópicos presentes na tarefa de revisão. Para obter mais detalhes, consulte [Tópicos da revisão](../user-guide/review-topics.md).
 
-![Pesquisar em um painel de tópicos de revisão](assets/review-search-topic.png){width="800" align="left"}
+![Pesquisar em um painel de tópicos de revisão](assets/review-search-topic.png){width="800"}
 
 *Pesquisar um tópico de revisão no painel de revisão.*
 
@@ -83,7 +83,7 @@ Crie pacotes personalizados sobre o AEM Guides para fornecer extensibilidade usa
 
 
 
-## Aprimoramentos de PDF nativo
+## Aprimoramentos no PDF nativo
 
 Os seguintes aprimoramentos do PDF nativo foram feitos na versão de setembro de 2023 para tornar o AEM Guides um produto mais robusto:
 
@@ -108,7 +108,7 @@ Para obter mais detalhes, consulte [Ordem das páginas](../native-pdf/components
 
 ### Mesclar páginas
 
-Em uma saída de PDF nativo por padrão, todas as seções começam em uma nova página. Agora é possível mesclar uma seção com sua página anterior ou com a próxima página. Isso publica a seção em continuação com a página selecionada na saída do PDF e não há quebra de página entre eles.
+Em uma saída PDF nativa por padrão, todas as seções começam em uma nova página. Agora é possível mesclar uma seção com sua página anterior ou com a próxima página. Isso publica a seção em continuação com a página selecionada na saída do PDF e não há quebra de página entre elas.
 
 Para obter mais detalhes, exiba a descrição do recurso **Mesclar páginas** na seção [Ordem das páginas](../native-pdf/components-pdf-template.md#page-order).
 
@@ -118,7 +118,7 @@ Para obter mais detalhes, exiba a descrição do recurso **Mesclar páginas** na
 
 Agora, você também pode iniciar um capítulo da página atual. Se você optar por fazer isso, todos os capítulos serão publicados sem nenhuma quebra de página. Por exemplo, se um capítulo terminar no meio da página 15, o próximo capítulo também começará a partir da própria 15ª página.
 
-Para obter mais detalhes, consulte a descrição da guia **Geral** em [Configurações Avançadas do PDF](../native-pdf/components-pdf-template.md#advanced-pdf-settings-advanced-pdf-settings).
+Para obter mais detalhes, exiba a descrição da guia **Geral** em [Configurações Avançadas do PDF](../native-pdf/components-pdf-template.md#advanced-pdf-settings-advanced-pdf-settings).
 
 ### Páginas estáticas
 
@@ -148,7 +148,7 @@ Agora, o editor de CSS foi reprojetado para obter uma melhor experiência do usu
 
 Agora é possível usar seletores personalizados para adicionar estilos complexos. O novo campo Seletor ajuda você a adicionar seletores personalizados além da combinação Classe, Tag e Pseudo Classe. Por exemplo, você pode criar o estilo `table a.link` para todos os hiperlinks dentro de uma tabela.
 
-![adicionando estilos nos modelos pdf nativos](assets/add-styles-native-pdf.png){width="300" align="left"}
+![adicionando estilos nos modelos pdf nativos](assets/add-styles-native-pdf.png){width="300"}
 
 *Adicionar os detalhes do novo estilo.*
 
@@ -172,22 +172,22 @@ Para obter mais detalhes sobre como manipular definições hierárquicas de defi
 ## Selecionar todas as predefinições em uma coleção de mapas
 
 É possível não apenas ativar uma predefinição individual e todas as predefinições de perfil de pasta, mas também ativar todas as predefinições de um mapa DITA de uma só vez.
-![editar uma coleção de mapas](assets/edit-map-collection-cs.png){width="800" align="left"}\
+![editar uma coleção de mapas](assets/edit-map-collection-cs.png){width="800"}\
 *Selecione todas as predefinições em uma coleção de mapas.*
 
 Para obter mais detalhes, consulte [Usar Coleção de Mapas para geração de saída](../user-guide/generate-output-use-map-collection-output-generation.md).
 
 
-## Suporte nativo a PDF no painel Publish em massa
+## Suporte nativo do PDF no painel de publicação em massa
 
 
-Com o recurso de Ativação em massa do AEM Guides, você pode ativar rápida e facilmente seu conteúdo, desde a criação até a instância de publicação. No mapa de Ativação em massa, é possível incluir a predefinição de saída de PDF nativo, o site AEM, PDF, HTML5, Personalizado e saída JSON.
+Com o recurso de Ativação em massa do AEM Guides, você pode ativar rápida e facilmente seu conteúdo, desde a criação até a instância de publicação. No mapa de Ativação em massa, é possível incluir a predefinição de saída do PDF nativo, o site do AEM, o PDF, o HTML5, o Personalizado e a saída JSON.
 Para obter mais detalhes, exiba [Ativação em massa do conteúdo publicado](../user-guide/conf-bulk-activation.md).
 
 ## Ferramenta de movimentação em massa aprimorada
 
 Agora, como administrador, você pode usar a aprimorada Ferramenta de movimentação em massa para mover pastas com muitos arquivos de um local para outro.
-Você pode usar a caixa de diálogo Procurar arquivo para selecionar as pastas de origem que deseja mover. Você também pode procurar e selecionar o local de destino para mover as pastas de origem. Selecione o ![ícone de informações](assets/info-icon.svg) {width="25" align="left"} próximo a um campo para exibir mais informações sobre ele.
+Você pode usar a caixa de diálogo Procurar arquivo para selecionar as pastas de origem que deseja mover. Você também pode procurar e selecionar o local de destino para mover as pastas de origem. Selecione o ![ícone de informações](assets/info-icon.svg) {width="25"} próximo a um campo para exibir mais informações sobre ele.
 
 Para obter mais detalhes, exiba [Mover arquivos em massa](../user-guide/authoring-file-management.md#move-files-bulk).
 
@@ -196,7 +196,7 @@ Para obter mais detalhes, exiba [Mover arquivos em massa](../user-guide/authorin
 
 Use o menu de contexto para visualizar rapidamente o arquivo (.dita, .xml, áudio, vídeo ou imagem) sem abri-lo. Agora é possível redimensionar o painel de visualização e, se o conteúdo contiver qualquer link de referência, você poderá selecioná-lo para abri-lo em uma nova guia.
 
-![Painel de visualização &#x200B;](assets/quick-preview_cs.png){width="800" align="left"}
+![Painel de visualização ](assets/quick-preview_cs.png){width="800"}
 
 *Visualizar o arquivo no painel.*
 
@@ -205,6 +205,6 @@ Para obter mais detalhes sobre o menu de contexto, consulte a descrição do rec
 
 ## Usar variáveis para data e hora atuais nas opções Caminho de destino, Nome do site ou Nome do arquivo
 
-Ao gerar saídas no Site ou PDF AEM, você pode usar variáveis para definir as opções **Caminho de Destino**, **Nome do Site** ou **Nome do Arquivo**. Agora você também pode usar as variáveis `${system_date}` e `${system_time}`. Essas variáveis ajudam a anexar a data e a hora atuais a essas opções.
+Ao gerar saídas no Site do AEM ou em PDFs, você pode usar variáveis para definir as opções **Caminho de Destino**, **Nome do Site** ou **Nome do Arquivo**. Agora você também pode usar as variáveis `${system_date}` e `${system_time}`. Essas variáveis ajudam a anexar a data e a hora atuais a essas opções.
 
 Saiba como [usar variáveis para definir as opções Caminho de Destino, Nome do Site ou Nome do Arquivo](../user-guide/generate-output-use-variables.md).

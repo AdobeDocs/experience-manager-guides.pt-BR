@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor, Publishing
 role: User
 hide: true
 exl-id: 8ba8eaa2-9ab0-4132-a751-48d2a527faf4
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 0%
@@ -20,7 +20,7 @@ O AEM Guides fornece um painel **Geração rápida** integrado ao Editor da Web.
 >
 > O painel **Geração rápida** é exibido para o mapa DITA aberto no painel Exibição de mapa.
 
-![](images/quick-generate-map-view.png){width="800" align="left"}
+![](images/quick-generate-map-view.png){width="800"}
 
 Execute as seguintes etapas para gerar a saída do painel **Geração rápida**:
 
@@ -30,4 +30,4 @@ Execute as seguintes etapas para gerar a saída do painel **Geração rápida**:
 1. Clique em **Gerar** para gerar a saída para as predefinições selecionadas. Uma mensagem de sucesso é exibida na geração da saída. Uma mensagem de erro será exibida se a geração falhar. Você também pode exibir o log de erros para ver os detalhes do erro que ocorreu no processo de geração.
 1. Clique no ícone **Exibir saída** \( ![](images/view-output-icon.svg)\) de uma predefinição específica para exibir a saída gerada para a predefinição.
 
-**Tópico pai:**&#x200B;[&#x200B; Trabalhar com o Editor da Web](web-editor.md)
+**Tópico pai:**[ Trabalhar com o Editor da Web](web-editor.md)

@@ -4,9 +4,9 @@ description: Crie um projeto DITA usando um modelo no AEM Guides. Saiba como usa
 exl-id: 0cd83fe3-1764-4f04-ae11-0b71b6ac576c
 feature: Reviewing
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Execute as seguintes etapas para criar um projeto DITA:
 
 1. Selecione **Criar** \> **Projeto** para iniciar o assistente Criar Projeto.
 
-   ![](images/project-console-63.png){width="650" align="left"}
+   ![](images/project-console-63.png){width="650"}
 
 1. Na página Criar projeto, selecione o modelo **Projeto DITA** e selecione **Próximo**.
 
@@ -43,7 +43,7 @@ Execute as seguintes etapas para criar um projeto DITA:
 
    Informações na guia **Básico**:
 
-   ![](images/create-project.png){width="650" align="left"}
+   ![](images/create-project.png){width="650"}
 
    - Insira o **Título**, **Descrição** e **Data de Conclusão** do seu projeto.
 
@@ -76,4 +76,4 @@ Execute as seguintes etapas para criar um projeto DITA:
 1. Selecione **Abrir** para abrir a página do projeto.
 
 
-**Tópico pai:**&#x200B;[&#x200B; Introdução à revisão](review.md)
+**Tópico pai:**[ Introdução à revisão](review.md)

@@ -1,11 +1,11 @@
 ---
-title: Publish a topic to an Experience Fragment
-description: Publish a topic or the elements within a topic to an Experience Fragment in AEM Guides.  Learn how to view the Experience Fragments present for a topic and republish them.
+title: Publicar um tópico em um fragmento de experiência
+description: Publique um tópico ou os elementos dentro de um tópico em um Fragmento de experiência no AEM Guides.  Saiba como visualizar os Fragmentos de experiência presentes em um tópico e republicá-los.
 feature: Publishing
 role: User
 hide: true
 exl-id: c3c6c063-441c-413b-a63e-0acbd126ca6d
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 0%
@@ -14,51 +14,51 @@ ht-degree: 0%
 
 # Publicar fragmentos de experiência
 
-Experience Fragments are pieces of modular content in Adobe Experience Manager. These content blocks are based on templates and encapsulate both the content and its layout. These reusable pieces of content allow content creators to assemble and deliver consistent, scalable experiences across multiple channels that Experience Manager supports. This feature helps you easily create consistent marketing experiences efficiently, such as newsletters, promotion banners, and customer testimonials.
+Fragmentos de experiência são conteúdo modular no Adobe Experience Manager. Esses blocos de conteúdo são baseados em modelos e encapsulam o conteúdo e seu layout. Esses conteúdos reutilizáveis permitem que os criadores de conteúdo reúnam e entreguem experiências consistentes e dimensionáveis em vários canais compatíveis com o Experience Manager. Esse recurso ajuda você a criar experiências de marketing consistentes com facilidade, como boletins informativos, banners de promoção e depoimentos de clientes.
 
-Experience Manager Guides allow you to publish a topic or its elements to an Experience Fragment. You can create a JSON-based mapping between a topic and its elements in an Experience Fragment. Then, use the mapping to publish a topic or its elements to an Experience Fragment. You can then use Experience Fragments in any Experience Manager Site or extract the details via APIs supported by Experience Fragments.
-
-
+O Experience Manager Guides permite publicar um tópico ou seus elementos em um Fragmento de experiência. Você pode criar um mapeamento baseado em JSON entre um tópico e seus elementos em um Fragmento de experiência. Em seguida, use o mapeamento para publicar um tópico ou seus elementos em um Fragmento de experiência. Em seguida, você pode usar Fragmentos de experiência em qualquer site do Experience Manager ou extrair os detalhes por meio de APIs compatíveis com Fragmentos de experiência.
 
 
-To generate an Experience Fragment, perform the following steps:
 
 
-1. Create a folder in the Experience Fragments. Use this folder to save the Experience Fragments that you create based on the Experience Fragment templates. For example, *sales-experience-fragments*.
-1. Select the folder and then select the **Properties** icon from the top.
-1. Edit the folder&#39;s properties (for example, *sales-experience-fragments*).
+Para gerar um fragmento de experiência, execute as seguintes etapas:
 
 
-   * **Title**: View or edit the title of the folder.
+1. Crie uma pasta nos Fragmentos de experiência. Use esta pasta para salvar os Fragmentos de experiência criados com base nos modelos de Fragmento de experiência. Por exemplo, *sales-experience-fragments*.
+1. Selecione a pasta e o ícone **Propriedades** na parte superior.
+1. Edite as propriedades da pasta (por exemplo, *sales-experience-fragments*).
 
-   * **Allowed Templates**: Contains the list of templates that can be added as child pages of the experiencefragment. To add the allowed template, specify the regular expression for retrieving the required templates in the **Allowed Templates** field.
+
+   * **Título**: exibir ou editar o título da pasta.
+
+   * **Modelos permitidos**: contém a lista de modelos que podem ser adicionados como páginas secundárias do fragmento de experiência. Para adicionar o modelo permitido, especifique a expressão regular para recuperar os modelos necessários no campo **Modelos permitidos**.
 Por exemplo:
      `/libs/cq/experience-fragments/components/experiencefragment/template`
 
-     If you do not define an allowed template for a folder, the templates are picked from the parent folder or the templates folder by default.
-   * **Orderable**: Allows you to change the order of the assets inside a folder.
-     ![add cloud configuration details in the folder properties](images/experience-fragment-folder-properties.png){width="650" align="left"}
-     *Add the cloud configuration in the folder properties to connect it with the fragment templates.*
-1. To generate an Experience Fragment, select **New Output** ![new output icon](./images/Add_icon.svg) from the **Outputs** section in the **File Properties** of a topic.
-1. Select **Experience Fragment**.\
-   ![file properties options tab](./images/file-properties-outputs.png){width="300" align="left"}
+     Se você não definir um modelo permitido para uma pasta, os modelos serão escolhidos da pasta principal ou da pasta de modelos por padrão.
+   * **Solicitável**: permite alterar a ordem dos ativos dentro de uma pasta.
+     ![adicionar detalhes de configuração da nuvem nas propriedades da pasta](images/experience-fragment-folder-properties.png){width="650"}
+     *Adicione a configuração da nuvem nas propriedades da pasta para conectá-la aos modelos de fragmento.*
+1. Para gerar um Fragmento de Experiência, selecione **Nova Saída** ![novo ícone de saída](./images/Add_icon.svg) na seção **Saídas** em **Propriedades do Arquivo** de um tópico.
+1. Selecione **Fragmento de experiência**.\
+   ![guia de opções de propriedades do arquivo](./images/file-properties-outputs.png){width="300"}
 
-   *Add a new Experience Fragment from the File Properties of a topic*.
+   *Adicionar um novo Fragmento de experiência das Propriedades do arquivo de um tópico*.
 
    >[!NOTE]
    >
-   > You can also publish an Experience  Fragment from the **Repository View**. Select the topic that you want to publish as an Experience Fragment. Then, from the **Options** menu, select **Publish As** > **Experience Fragment**.
+   > Você também pode publicar um Fragmento de experiência da **Exibição do repositório**. Selecione o tópico que deseja publicar como um Fragmento de experiência. Em seguida, no menu **Opções**, selecione **Publicar como** > **Fragmento de experiência**.
 
-1. In the **Generate Experience Fragment** dialog box, fill in the following details:
-   ![Add the fragment model and mapping details in the Publish as Experience Fragment dialog](images/experience-fragment-generate.png){width="500" align="left"}
+1. Na caixa de diálogo **Gerar fragmento de experiência**, preencha os seguintes detalhes:
+   ![Adicionar o modelo do fragmento e os detalhes do mapeamento na caixa de diálogo Publicar como fragmento de experiência](images/experience-fragment-generate.png){width="500"}
 
-   *Add the path, template, and mapping details to publish a topic or its elements as an Experience Fragment. You can overwrite an existing Experience Fragment.*
+   *Adicione o caminho, o modelo e os detalhes de mapeamento para publicar um tópico ou seus elementos como um Fragmento de experiência. Você pode substituir um fragmento de experiência existente.*
 
-   * **Path**: Browse and select the path of the folder where you want to publish the Experience Fragment. You can also select an existing Experience Fragment and republish it.
-   * **Title**: Type the title of the Experience Fragment. By default, the title is populated with the title of the topic. You can edit it. This title is used to generate the name of the Experience Fragment.
-   * **Name**: Type the name of the Experience Fragment. By default, the name is populated with the title of the topic, and the spaces are replaced with &#39;_&#39;. For example, *sample_expereince_fragment*. You can edit it. This name is used to generate the URL for the Experience Fragment.
-   * **Template**: Select the Experience Fragment template that you want to use to create your Experience Fragment. The templates are picked from the folder that you have configured in the properties.
-   * **Mapping**: It picks the mapping from the *experienceFragmentMapping.json* file and displays it.
+   * **Caminho**: procure e selecione o caminho da pasta em que deseja publicar o Fragmento de experiência. Você também pode selecionar um fragmento de experiência existente e publicá-lo novamente.
+   * **Título**: digite o título do Fragmento de Experiência. Por padrão, o título é preenchido com o título do tópico. Você pode editá-lo. Esse título é usado para gerar o nome do Fragmento de experiência.
+   * **Nome**: digite o nome do Fragmento de Experiência. Por padrão, o nome é preenchido com o título do tópico e os espaços são substituídos por &quot;_&quot;. Por exemplo, *sample_experience_fragment*. Você pode editá-lo. Esse nome é usado para gerar o URL do Fragmento de experiência.
+   * **Modelo**: selecione o modelo de Fragmento de experiência que você deseja usar para criar seu Fragmento de experiência. Os modelos são selecionados da pasta configurada nas propriedades.
+   * **Mapping**: seleciona o mapeamento do arquivo *experienceFragmentMapping.json* e o exibe.
 
 
 
@@ -80,7 +80,7 @@ Por exemplo:
 1. Clique em **Gerar** para publicar o Fragmento de experiência.
 1. Você pode exibir os Fragmentos de experiência de um tópico na seção **Saídas** em **Propriedades do arquivo**. Os Fragmentos de experiência são exibidos de acordo com a data e a hora de sua publicação, sendo que o mais recente é o primeiro.
 
-   ![Exibir os Fragmentos de Experiência de um tópico](images/experience-fragment-outputs.png){width=300 align="left"}
+   ![Exibir os Fragmentos de Experiência de um tópico](images/experience-fragment-outputs.png){width=300}
 
    *Exiba os Fragmentos de Experiência presentes para um tópico e publique-os novamente.*
 

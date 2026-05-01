@@ -5,7 +5,7 @@ feature: Authoring, Web Editor
 role: User
 hide: true
 exl-id: 0341bdec-9635-4ced-b1c6-789b4e1aded8
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 0%
@@ -54,7 +54,7 @@ Da mesma forma, se você excluir o conteúdo selecionado, o conteúdo restante a
      > Você também pode visualizar a caixa de diálogo Circular com elemento selecionando o menu de contexto do conteúdo selecionado.
 
    - Selecione um elemento na caixa de diálogo. O conteúdo selecionado é colocado sob esse elemento. Por exemplo, se você selecionar o conteúdo em um parágrafo e escolher o elemento `<note>` na caixa de diálogo **Circundar com elemento**, o conteúdo selecionado será exibido abaixo de uma observação.\
-     ![caixa de diálogo elemento surround](./images/surround-element.png) {width="300" align="left"}
+     ![caixa de diálogo elemento surround](./images/surround-element.png) {width="300"}
 
 ## Atualizar o navegador ao editar os arquivos
 
@@ -70,11 +70,11 @@ O painel direito também é reaberto e exibe a mesma visualização de antes da 
 
 O AEM Guides fornece o indicador da cópia de trabalho, que mostra se a \(cópia de trabalho\) atual do arquivo está sincronizada ou não com a versão salva. Se você tiver alterado sua cópia atual e não tiver salvado o arquivo, uma marca \* será exibida junto com o título na guia do arquivo do tópico. Esse indicador atua como um lembrete para salvar suas alterações e desaparece ao salvar o arquivo.
 
-![indicador de cópia de trabalho](images/working-copy-text-update-indicator.png){width="550" align="left"}
+![indicador de cópia de trabalho](images/working-copy-text-update-indicator.png){width="550"}
 
 O AEM Guides também indica se a última cópia \(em funcionamento\) salva do arquivo está ou não sincronizada com a versão salva. Se você tiver algumas alterações não salvas entre a cópia de trabalho e a última versão salva, uma marca \* será exibida juntamente com as informações da versão mostradas no canto superior direito da guia Arquivo do tópico. Esse indicador atua como um lembrete para salvar e criar uma versão da sua cópia \(em funcionamento\) atual do arquivo.
 
-![Indicador de atualização de versão](images/version-update-indicator.png){width="550" align="left"}
+![Indicador de atualização de versão](images/version-update-indicator.png){width="550"}
 
 
 ## Abrir arquivos bloqueados nos modos Autor e Source
@@ -106,4 +106,4 @@ Ao abrir um arquivo no Editor da Web, o Experience Manager Guides fornece o recu
 Você pode desativar o recurso para localizar o arquivo com a opção **Sempre localizar arquivos no repositório** da guia **Aparência** das **Preferências do usuário**.
 
 
-**Tópico pai:**&#x200B;[&#x200B; Trabalhar com o Editor da Web](web-editor.md)
+**Tópico pai:**[ Trabalhar com o Editor da Web](web-editor.md)

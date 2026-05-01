@@ -4,9 +4,9 @@ description: Ative a saída de mapas DITA no AEM Guides. Saiba como ativar o con
 exl-id: 4da644b9-8c5f-4976-a212-960085b693b8
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '469'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ Depois de criar uma coleção de mapas para ativação em massa, a próxima etap
 
 1. Selecione a coleção que você deseja publicar e selecione **Abrir**.
 
-   ![](images/bulk-activation-collection-open.png){align="left"}
+   ![](images/bulk-activation-collection-open.png)
 
 1. \(*Opcional*\) Aplique os filtros necessários a partir do painel esquerdo para filtrar o mapa com base em sua \(status\), predefinição de saída ou linguagem modificada.
 
@@ -39,7 +39,7 @@ Veja as diferentes maneiras de ativar sua coleção com base em sua configuraç�
 <details>
 <summary> Cloud Services </summary>
 
-![publicação-coleção-em-massa no serviço de nuvem](images/bulk-activation-collection-quick-publish-CS.png){width="650" align="left"}
+![publicação-coleção-em-massa no serviço de nuvem](images/bulk-activation-collection-quick-publish-CS.png){width="650"}
 
 Você pode ativar a saída para as instâncias de **Visualização** ou **Publicação**.
 
@@ -73,8 +73,8 @@ Depois que a saída é ativada para os arquivos de mapa selecionados, a guia his
 Siga uma das seguintes opções:
 
 * Para ativar a saída de mapas selecionados, selecione a saída de mapa pré-gerada e selecione **Publicação Rápida**.
-* Para ativar a saída de todos os mapas DITA com suas predefinições configuradas, marque a caixa de seleção ao lado do Mapa (coluna) e selecione **Publicação Rápida.**
-  ![publicação-coleção-em-massa](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
+* Para ativar a saída de todos os mapas DITA com suas predefinições configuradas, marque a caixa de seleção ao lado do Mapa (coluna) e selecione **Publicação rápida.**
+  ![publicação-coleção-em-massa](images/bulk-activation-collection-quick-publish.png){width="650"}
 
   >[!NOTE]
   > 
@@ -85,4 +85,4 @@ Uma mensagem de sucesso é exibida quando a saída do mapa é colocada em fila p
 
 Depois que a saída é ativada para os arquivos de mapa selecionados, a guia histórico de auditoria é atualizada e a saída ativada mais recente é exibida na parte superior. A coluna **Publicado** é atualizada com a data e hora da publicação.
 
-**Tópico pai: &#x200B;** [Ativação em massa de conteúdo publicado](conf-bulk-activation.md)
+**Tópico pai: **[Ativação em massa de conteúdo publicado](conf-bulk-activation.md)

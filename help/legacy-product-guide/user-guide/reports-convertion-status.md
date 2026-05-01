@@ -5,7 +5,7 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: f6bf1033-9c2f-42c7-9ad5-e1060e2c9770
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Execute as seguintes etapas para exibir o Relatório de Status de Conversão:
 
    O Relatório de status de conversão é exibido para todas as tarefas de conversão executadas no sistema.
 
-   ![](images/conversion-status-report.png){width="800" align="left"}
+   ![](images/conversion-status-report.png){width="800"}
 
 1. A página do relatório está dividida em duas partes:
 
@@ -36,7 +36,7 @@ Execute as seguintes etapas para exibir o Relatório de Status de Conversão:
 
      A captura de tela a seguir exibe os dados do relatório para tarefas de conversão com status Falha, Ativo e Em fila.
 
-     ![](images/conversion-report-failed-active-queued.png){width="800" align="left"}
+     ![](images/conversion-report-failed-active-queued.png){width="800"}
 
    - **Dados do relatório:**
 
@@ -57,4 +57,4 @@ Execute as seguintes etapas para exibir o Relatório de Status de Conversão:
       - **Saída**: Caminho do documento convertido com êxito. Clicar no link Saída leva ao local onde a saída é salva.
 
 
-**Tópico pai:**&#x200B;[&#x200B; Relatórios](reports-intro.md)
+**Tópico pai:**[ Relatórios](reports-intro.md)

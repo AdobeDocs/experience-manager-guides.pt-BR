@@ -4,9 +4,9 @@ description: Conhecer as práticas recomendadas para tradução de conteúdo no 
 exl-id: f2a4df86-bba7-434c-b7f9-3587b8a4f9bc
 feature: Translation
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '857'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Considere o seguinte ponto para a tradução de conteúdo:
 
 A ilustração a seguir mostra um exemplo de estrutura de pastas no Adobe Experience Manager quando você tem conteúdo usado globalmente e três cópias de idioma.
 
-![](images/aem-directory_structure.png){align="left"}
+![](images/aem-directory_structure.png)
 
 ## Configurar serviço de tradução
 
@@ -49,7 +49,7 @@ Execute as seguintes etapas para configurar o serviço de tradução humana ou a
 
    >[!NOTE]
    >
-   > Exiba [Configurando a estrutura de integração de tradução](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=pt-BR) na documentação do Adobe Experience Manager para obter detalhes sobre a integração com serviços de tradução de terceiros.
+   > Exiba [Configurando a estrutura de integração de tradução](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) na documentação do Adobe Experience Manager para obter detalhes sobre a integração com serviços de tradução de terceiros.
 
 1. Selecione **Salvar e fechar** para salvar as propriedades atualizadas da pasta.
 
@@ -79,4 +79,4 @@ Após a conclusão da tradução, o status do trabalho de tradução é alterado
 >- Se você rejeitar, excluir ou cancelar o trabalho de tradução de um tópico presente em vários projetos (para qualquer um dos projetos), o status de tradução **Em andamento** do tópico não será revertido, mas esse projeto será removido da lista de projetos **Em andamento** desse ativo específico.
 >- Além disso, se você cancelar ou excluir o trabalho de tradução ou excluir o projeto inteiro, o status de tradução **Em andamento** será revertido para seu status original.
 
-**Tópico principal:**&#x200B;[&#x200B; Visão geral da tradução de conteúdo](translation.md)
+**Tópico principal:**[ Visão geral da tradução de conteúdo](translation.md)

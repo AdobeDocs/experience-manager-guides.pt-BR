@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: ca557b73-8608-4fdd-8e11-adc6de2ad82a
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '2408'
 ht-degree: 0%
@@ -56,13 +56,13 @@ Selecione uma fonte de dados para exibir os geradores de trechos de conteúdo e 
 
 ### Exibição de Lista ![](images/data-sources-list-view-icon.svg)
 
-![](images/data-sources-list-view.png){width="300" align="left"}
+![](images/data-sources-list-view.png){width="300"}
 
 *Lista de fontes de dados conectadas.*
 
-### Exibição lado a lado   ![](images/data-sources-tile-view-icon.svg)
+### Exibição de Bloco ![](images/data-sources-tile-view-icon.svg)
 
-![](images/data-sources-tile-view.png){width="300" align="left"}
+![](images/data-sources-tile-view.png){width="300"}
 
 *Exibir as fontes de dados conectadas como blocos.*
 
@@ -78,11 +78,11 @@ O AEM Guides fornece o recurso para conexão com sua fonte de dados. Você pode 
 
 Execute as seguintes etapas para criar um trecho de conteúdo usando o gerador de trecho de conteúdo e insira-o em seu tópico:
 
-1. Selecionar **Fontes de Dados** ![](images/data-source-icon.svg)   no painel esquerdo para exibir as fontes de dados conectadas.
+1. Selecione **Fontes de Dados** ![](images/data-source-icon.svg) no painel esquerdo para exibir as fontes de dados conectadas.
 
 1. Selecione uma fonte de dados para exibir os geradores de trecho de conteúdo disponíveis para a fonte de dados selecionada.
 
-   ![](images/code-snippet-generator.png){width="300" align="left"}
+   ![](images/code-snippet-generator.png){width="300"}
 
    *O painel Fontes de Dados lista os geradores de trecho de conteúdo disponíveis.*
 
@@ -125,7 +125,7 @@ Por exemplo:
       - Se você selecionou o modelo jira-ordered-list, é possível visualizar uma lista ordenada para os problemas do Jira.
 
    1. A exibição fonte mostra os dados na exibição fonte DITA.
-      ![](images/add-content-snippet-generator.png){width="800" align="left"}
+      ![](images/add-content-snippet-generator.png){width="800"}
       *Adicione um gerador de trecho de conteúdo. Exibir os dados no modo de origem ou de visualização.*
 
 1. Para salvar os resultados da consulta, digite o nome do gerador e clique em **ADICIONAR**.   Um novo gerador de trecho de conteúdo é adicionado à lista.
@@ -151,9 +151,9 @@ Clique com o botão direito do mouse em um gerador de trecho de conteúdo para a
 
 ### Inserir um trecho de consulta
 
-Você também pode usar o **Inserir trecho da consulta** ![](images/data-source-icon.svg)   na barra de ferramentas principal para inserir o trecho de dados nos tópicos.  Você pode selecionar um gerador na lista suspensa, editar sua query ou alterar o modelo e inserir os dados em seu tópico.
+Você também pode usar o **Inserir trecho de consulta** ![](images/data-source-icon.svg) da barra de ferramentas principal para inserir o trecho de dados nos tópicos.  Você pode selecionar um gerador na lista suspensa, editar sua query ou alterar o modelo e inserir os dados em seu tópico.
 
-![](images/insert-content-snippet.png){width="800" align="left"}
+![](images/insert-content-snippet.png){width="800"}
 
 *Editar e inserir um trecho de dados.*
 
@@ -173,7 +173,7 @@ Execute as seguintes etapas para criar um tópico usando o gerador de tópicos:
 
 1. Selecione uma fonte de dados para exibir os geradores de trechos de conteúdo e os geradores de tópicos disponíveis para a fonte de dados selecionada.
 
-   ![](images/data-sources.png){width="300" align="left"}
+   ![](images/data-sources.png){width="300"}
 
    *Adicionar um gerador de tópico para uma fonte de dados conectada.*
 
@@ -185,7 +185,7 @@ Execute as seguintes etapas para criar um tópico usando o gerador de tópicos:
 
    **Buscar configuração**
 
-   ![](images/topic-generator-fetch-configuration.png){width="300" align="left"}
+   ![](images/topic-generator-fetch-configuration.png){width="300"}
 
    *Adicione a Consulta de Dados, o modelo de mapeamento de dados e os detalhes do nó Raiz para o gerador de tópico e dê a ele um nome exclusivo no painel Buscar Configuração.*
 
@@ -218,7 +218,7 @@ Execute as seguintes etapas para criar um tópico usando o gerador de tópicos:
 
    **Configuração de saída**
 
-   ![](images/topic-generator-output-configuration.png){width="300" align="left"}
+   ![](images/topic-generator-output-configuration.png){width="300"}
 
    *Insira os detalhes do Caminho de saída e da Convenção de nomenclatura do tópico no painel Configuração de saída. Gere um mapa DITA e nomeie-o.*
 
@@ -237,7 +237,7 @@ Execute as seguintes etapas para criar um tópico usando o gerador de tópicos:
 
    Por exemplo, na captura de tela a seguir, `dc:description`, `dc:language`, `dc:title` e `docstate` são as propriedades padrão para as quais você pode definir os valores. Você pode criar uma propriedade personalizada como autor e definir seu valor.
 
-   ![](images/topic-generator-metadata.png){width="300" align="left"}
+   ![](images/topic-generator-metadata.png){width="300"}
 
    *Adicione as propriedades dos metadados no painel Metadados para passar para os tópicos.*
 
@@ -247,7 +247,7 @@ Execute as seguintes etapas para criar um tópico usando o gerador de tópicos:
 
 
 
-   ![](images/edit-topic-generator.png){width="650" align="left"}
+   ![](images/edit-topic-generator.png){width="650"}
 
    *Gerar novos tópicos a partir de um gerador de tópicos existente.*
 

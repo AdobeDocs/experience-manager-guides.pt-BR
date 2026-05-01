@@ -1,10 +1,11 @@
 ---
-title: Notas de versão | Novidades da versão 2025.02.0 do Adobe Experience Manager Guides
+title: Notas de versão | Novidades na versão 2025.02.0 do Adobe Experience Manager Guides
 description: Saiba mais sobre os recursos novos e aprimorados da versão 2025.02.0 do Adobe Experience Manager Guides
 role: Leader
-source-git-commit: b38cf2e45851caaf01aa9e1162cbbffc51fea9a8
+exl-id: 3e3177e8-cd29-4a86-b786-7c7a1d0047d9
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1758'
+source-wordcount: '1778'
 ht-degree: 0%
 
 ---
@@ -23,20 +24,20 @@ Os principais destaques são os seguintes:
 
   Para obter mais detalhes, consulte [Experiência da página inicial do Adobe Experience Manager Guides](../user-guide/intro-home-page.md).
 
-  ![](assets/aem-home-page.png){width="800" align="left"}
+  ![](assets/aem-home-page.png){width="800"}
 
 
 - **Nova experiência do Editor**: agora, experimente o Editor com uma nova aparência. A interface do editor renovada apresenta uma barra de ferramentas mais limpa e organizada, navegação contínua e uma experiência intuitiva geral para ajudar a criar documentos com mais rapidez e eficiência.
 
   Acessar [conhecer os recursos do Editor](../user-guide/web-editor-features.md).
 
-  ![](assets/editor-new-ui.png){width="800" align="left"}
+  ![](assets/editor-new-ui.png){width="800"}
 
 - **Console de mapas dedicados**: apresenta o console de mapas, um console dedicado onde todos os recursos de gerenciamento e publicação de mapas são agrupados. Agora, você tem opções para gerar saída, traduzir conteúdo, criar relatórios e muito mais, tudo em uma interface.
 
   Saiba mais sobre [gerenciamento e publicação de mapas](../user-guide/map-console-overview.md).
 
-  ![](assets/map-console-new-ui.png){width="800" align="left"}
+  ![](assets/map-console-new-ui.png){width="800"}
 
 
 
@@ -50,7 +51,7 @@ A integração também oferece a capacidade de monitorar suas filas de trabalho,
 
 Para obter mais detalhes, consulte [integração com o Workfront](../user-guide/workfront-integration.md).
 
-![](assets/workfront-integration-ui.png){width="800" align="left"}
+![](assets/workfront-integration-ui.png){width="800"}
 
 
 ## O Assistente de IA (Beta) com criação inteligente e recursos de ajuda para melhorar a produtividade
@@ -59,7 +60,7 @@ Agora, experimente a produtividade aprimorada com a criação inteligente basead
 
 Para obter mais detalhes, consulte o [Assistente de IA no Experience Manager Guides](../user-guide/ai-assistant.md).
 
-![](assets/ai-assistant-panel.png){width="300" align="left"}
+![](assets/ai-assistant-panel.png){width="300"}
 
 ## Novo mecanismo de publicação do AEM Sites mais rápido e escalável
 
@@ -67,7 +68,7 @@ Experimente uma publicação mais rápida e escalável no AEM Sites com o novo m
 
 Saiba mais sobre a [publicação do AEM Sites](../user-guide/generate-output-aem-site-web-editor.md).
 
-![](assets/new-aem-sites-preset.png){width="500" align="left"}
+![](assets/new-aem-sites-preset.png){width="500"}
 
 
 ## Publicar conteúdo independente no AEM Sites de maneira contínua com publicação de um único tópico
@@ -76,7 +77,7 @@ Introdução à publicação de um único tópico para páginas do AEM Sites, pe
 
 Para obter mais detalhes, exiba [Publicar páginas do AEM Sites](../user-guide/publish-aem-sites.md).
 
-![](assets/aem-sites-page-generate.png){width="500" align="left"}
+![](assets/aem-sites-page-generate.png){width="500"}
 
 
 
@@ -86,7 +87,7 @@ Agora, experimente uma maneira mais limpa, eficiente e eficiente de criar tópic
 
 Para obter mais detalhes, consulte [Criação no Markdown](../user-guide/web-editor-markdown-topic.md).
 
-![](assets/markdown-topic-side-by-side.png){width="800" align="left"}
+![](assets/markdown-topic-side-by-side.png){width="800"}
 
 ## Aprimoramentos do editor
 
@@ -141,14 +142,14 @@ Os seguintes aprimoramentos de publicação foram feitos como parte da nova vers
 
   Para obter mais detalhes, consulte [Adicionar campos e metadados no layout da página](../native-pdf/design-page-layout.md#add-fields-and-metadata-add-fields-metadata).
 
-  ![](assets/metadata-topic-content.png){width="300" align="left"}
+  ![](assets/metadata-topic-content.png){width="300"}
 
 
 - Introdução de uma opção para ativar ou desativar o pré-processamento DITA-OT para a saída do PDF nativo. Ative essa opção se o conteúdo exigir normalização baseada em DITA-OT ou plug-ins DITA-OT personalizados durante o processamento. Isso oferece maior controle sobre como o conteúdo é processado para geração de PDF. Por padrão, a configuração está definida como **Habilitada**.
 
   Para obter mais detalhes, consulte [Trabalho com a predefinição de saída do PDF](../user-guide/generate-output-pdf.md)
 
-  ![](assets/ditaot-setting-enabled.png){width="500" align="left"}
+  ![](assets/ditaot-setting-enabled.png){width="500"}
 
 - As configurações de Impressão para geração de saída do PDF Nativo foram movidas da configuração **Modelos** para a **predefinição de Saída do PDF Nativo** para melhor usabilidade. Agora é possível usar o mesmo modelo para PDFs online e de impressão com diferentes configurações de impressão, como perfil de cores.
 
@@ -179,7 +180,7 @@ O suporte para o pós-processamento de ativos foi fornecido por meio da API REST
 Para obter mais detalhes, consulte [Manipulador de eventos pós-processamento](../api-reference/post-process-event.md).
 
 
-## Recursos obsoletos
+## Recursos descontinuados
 
 **Geração rápida**
 
@@ -196,4 +197,3 @@ A capacidade de transmitir argumentos de metadados do mapa raiz por meio da linh
 Para continuar transmitindo os metadados na linha de comando DITA-OT, é necessário atualizar o `pass.metadata.args.cmd.line` no `Config.Manager`.
 
 Para obter mais detalhes, consulte [Definir configurações de geração de saída](../cs-install-guide/conf-output-generation.md#configure-the-dita-ot-command-line-argument-field-to-accept-root-map-metadata).
-

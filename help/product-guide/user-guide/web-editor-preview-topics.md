@@ -4,9 +4,9 @@ description: Saiba como visualizar um tópico no Adobe Experience Manager Guides
 exl-id: f4013ac6-226a-4e66-bd7b-604ac7c361ae
 feature: Authoring
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1988'
+source-wordcount: '1991'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,11 @@ Execute as seguintes etapas para visualizar um tópico do Editor:
 1. No painel Repositório, navegue até o tópico que deseja visualizar.
 1. Passe o mouse sobre o tópico que deseja visualizar e selecione **Visualizar** no menu Opções.
 
-   ![](images/preview-topic.png){width="600" align="left"}
+   ![](images/preview-topic.png){width="600"}
 
    A Visualização do tópico é exibida.
 
-   ![](images/preview-pop-up.png){align="left"}
+   ![](images/preview-pop-up.png)
 
 **Visualizar tópicos do modo de Visualização**
 
@@ -61,7 +61,7 @@ Execute as seguintes etapas para visualizar um tópico:
 
 As seguintes operações estão disponíveis na barra de ferramentas ao usar o recurso Visualizar na interface do usuário do Assets,
 
-![](images/preview-screen.png){align="left"}
+![](images/preview-screen.png)
 
 
 **Propriedades**
@@ -78,7 +78,7 @@ As referências **Usado em** listam os documentos nos quais o arquivo atual est�
 
 O ícone \(+\) na seção de referências **Usado em** permite navegar para cima para localizar onde esse tópico está sendo usado ou referenciado.
 
-![](images/used-in-dialog_cs.png){align="left"}
+![](images/used-in-dialog_cs.png)
 
 Selecionar o ícone ![](images/right-arrow-used-in-dialog.svg) ao lado de um documento mostra o mapa ou os arquivos de tópico para os quais esse documento está sendo mais referenciado.
 
@@ -90,7 +90,7 @@ Se o tópico tiver conteúdo condicional, você visualizará o ícone A/B na bar
 >
 > O conteúdo condicional é realçado usando a cor de fundo clara no Editor.
 
-![](images/conditional-popup_cs.png){width="300" align="left"}
+![](images/conditional-popup_cs.png){width="300"}
 
 **Editar**
 
@@ -108,7 +108,7 @@ Se o tópico tiver conteúdo condicional, você visualizará o ícone A/B na bar
   >
   > Para obter a visualização do código-fonte de um arquivo de mapa DITA, selecione o arquivo na interface do usuário do Assets e selecione Source.
 
-  ![](images/xml-source-code-view-from-preview_cs.png){align="left"}
+  ![](images/xml-source-code-view-from-preview_cs.png)
 
 **Compartilhar Link UUID**
 
@@ -120,7 +120,7 @@ Se o tópico tiver conteúdo condicional, você visualizará o ícone A/B na bar
 
 Uma nova opção **Compartilhar link de UUID** é mostrada na barra de ferramentas das áreas mencionadas acima. A captura de tela a seguir mostra a opção **Compartilhar Link UUID** no modo de Visualização de um tópico:
 
-![](images/share-uuid-link_cs.png){align="left"}
+![](images/share-uuid-link_cs.png)
 
 Na interface do usuário do Assets, essa opção fica visível ao selecionar um arquivo. Enquanto estiver no modo de Visualização, essa opção estará disponível na barra de ferramentas principal por padrão. Em um console de mapa DITA, essa opção está visível na seção Predefinições de saída.
 
@@ -140,15 +140,15 @@ Ao fazer check-out de um tópico, o status do arquivo é mostrado como check-out
 
 Arquivo com check-out na exibição de cartão:
 
-![](images/checkout-card-62.png){width="300" align="left"}
+![](images/checkout-card-62.png){width="300"}
 
 Arquivo com check-out na exibição de lista:
 
-![](images/checkout-list-62.png){width="550" align="left"}
+![](images/checkout-list-62.png){width="550"}
 
 Se a coluna Com check-out não estiver visível, selecione **Configurações de Exibição** em **Exibição da Lista** e selecione o status **Com Check-out** na caixa de diálogo **Configurar Colunas**.
 
-![](images/list-view-settings-check-out_cs.png){align="left"}
+![](images/list-view-settings-check-out_cs.png)
 
 >[!TIP]
 >
@@ -166,17 +166,17 @@ Se a coluna Com check-out não estiver visível, selecione **Configurações de 
 
    1. No painel à esquerda, selecione **Histórico de Versões** e selecione uma versão.
 
-      ![](images/timeline-versions62_cs.png){align="left"}
+      ![](images/timeline-versions62_cs.png)
 
    1. Nas versões listadas, selecione aquela que você deseja usar como a versão base e selecione **Visualizar Versão**. A visualização da versão selecionada é mostrada na janela Visualização de versão.
 
    1. Na lista **Mostrar comparação**, selecione a versão com a qual deseja comparar a versão base.
 
-      ![](images/show-diff-list-cropped.png){align="left"}
+      ![](images/show-diff-list-cropped.png)
 
       O conteúdo alterado é realçado na pré-visualização do tópico. O conteúdo realçado em verde significa que o conteúdo recém-adicionado e o conteúdo em vermelho é o conteúdo excluído.
 
-      ![](images/version-difference.png){align="left"}
+      ![](images/version-difference.png)
 
 
 ## Ramificar, reverter e versões subsequentes
@@ -217,7 +217,7 @@ Se a coluna Com check-out não estiver visível, selecione **Configurações de 
 
    1. Selecione uma versão em que deseja criar uma ramificação. Na captura de tela a seguir, a versão 1.2 é selecionada para criar uma ramificação.
 
-      ![](images/branching.png){width="300" align="left"}
+      ![](images/branching.png){width="300"}
 
       >[!NOTE]
       >
@@ -231,19 +231,19 @@ Se a coluna Com check-out não estiver visível, selecione **Configurações de 
 
       - Se você selecionar essa opção, uma ramificação será criada da versão 1.1. Além disso, uma nova versão do tópico também é criada a partir da cópia de trabalho atual do tópico e salva como a próxima versão - 1.4.
 
-        ![](images/next_version_created_over_working_copy.png){width="300" align="left"}
+        ![](images/next_version_created_over_working_copy.png){width="300"}
 
         A versão 1.2 se torna a cópia de trabalho atual do tópico. Qualquer versão salva depois disso é criada na nova ramificação da 1.1. Por exemplo, a versão subsequente de um novo tópico nesta ramificação será salva como 1.2.0.
 
-        ![](images/new_version_in_branch.png){width="300" align="left"}
+        ![](images/new_version_in_branch.png){width="300"}
 
       - Se você não selecionar essa opção, nenhuma nova versão da cópia de trabalho atual do tópico será criada. Uma nova ramificação é criada a partir da versão 1.2 do tópico. Qualquer versão subsequente do tópico é salva na ramificação 1.2 como 1.2.0, 1.2.1 e assim por diante.
 
-        ![](images/new_version_without_working_copy.png){width="300" align="left"}
+        ![](images/new_version_without_working_copy.png){width="300"}
 
    1. Selecione **OK**.
 
 
   Uma nova ramificação é criada a partir da versão selecionada do tópico. O processo acima também é aplicável para reverter para uma versão específica de um tópico. Reverter para uma versão específica tecnicamente significa que você cria uma nova ramificação da versão selecionada e torna essa versão a cópia de trabalho atual do tópico. Você também pode exibir o histórico de arquivos que foram revertidos no relatório Histórico de reversão da versão. Para obter mais detalhes sobre este relatório, exiba [relatório de histórico de versão de arquivos revertidos](reports-reverted-file-version-history.md#).
 
-**Tópico pai:**&#x200B;[&#x200B; Criar e visualizar tópicos](create-preview-topics.md)
+**Tópico pai:**[ Criar e visualizar tópicos](create-preview-topics.md)

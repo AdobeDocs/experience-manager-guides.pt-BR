@@ -4,9 +4,9 @@ description: Explore outros recursos do Editor no Adobe Experience Manager Guide
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '3653'
+source-wordcount: '3690'
 ht-degree: 0%
 
 ---
@@ -23,20 +23,20 @@ Ao abrir um arquivo no Editor, você pode executar várias ações do menu de co
 
 Você obtém as seguintes funções no menu de contexto da guia de um arquivo de mídia aberto:
 
-![](images/media-file-context-menu.png){width="300" align="left"}
+![](images/media-file-context-menu.png){width="300"}
 
 
 **Arquivo DITA único**
 
 Você obtém as seguintes funções no menu de contexto de uma guia de arquivo aberta:
 
-![](images/single-file-context-menu.png){width="400" align="left"}
+![](images/single-file-context-menu.png){width="400"}
 
 **Vários arquivos**
 
 Quando tiver múltiplos arquivos abertos, então você terá mais opções no menu de contexto:
 
-![](images/multiple-files-context-menu.png){width="550" align="left"}
+![](images/multiple-files-context-menu.png){width="550"}
 
 As várias opções no menu de contexto são explicadas abaixo:
 
@@ -127,7 +127,7 @@ A experiência de gravação de arquivos dependerá dos três cenários a seguir
 
   Por exemplo, um dos prompts é mostrado na seguinte captura de tela:
 
-  ![](images/file-close-save-changes-unlock.png){width="400" align="left"}
+  ![](images/file-close-save-changes-unlock.png){width="400"}
 
 **Indicações visuais para referências corrompidas**
 
@@ -157,11 +157,11 @@ O Experience Manager Guides fornece caixas de diálogo intuitivas - **Selecionar
 
 O navegador de caminho de arquivo permite localizar e selecionar rapidamente arquivos específicos no repositório de conteúdo. Esse recurso está disponível para tarefas como adicionar um tópico a um mapa, vincular uma imagem ou referência cruzada, criar conteúdo reutilizável e muito mais.
 
-![](images/select-file-dialog-new.png){width="350" align="left"}
+![](images/select-file-dialog-new.png){width="350"}
 
 Ao iniciar o navegador de arquivos, a caixa de diálogo **Selecionar arquivo** é aberta. Esta caixa de diálogo inclui duas guias: **Repositório** e **Coleções**. Por padrão, a guia Repository (Repositório) é selecionada.
 
-![](images/select-file.png){width="650" align="left"}
+![](images/select-file.png){width="650"}
 
 **Recursos disponíveis na guia Repositório para navegação de arquivos**
 
@@ -169,17 +169,17 @@ Ao iniciar o navegador de arquivos, a caixa de diálogo **Selecionar arquivo** �
 
 A guia Repositório fornece uma visualização tabular de arquivos e pastas do repositório de conteúdo, facilitando a localização do caminho de arquivo correto. Você também pode usar a navegação estrutural na parte superior e o painel de navegação da pasta à esquerda para percorrer as pastas.
 
-![](images/select-file-dialog-navigate-files.png){width="650" align="left"}
+![](images/select-file-dialog-navigate-files.png){width="650"}
 
 **Seleção de um e vários arquivos**
 
 Para usar um arquivo, basta selecionar o arquivo e escolher **Selecionar**.
 
-![](images/select-file-single-file-selection.png){width="650" align="left"}
+![](images/select-file-single-file-selection.png){width="650"}
 
 Em alguns casos, você também pode selecionar vários arquivos nesta caixa de diálogo do navegador de caminho. Por exemplo, ao navegar pelos arquivos em busca de conteúdo Reutilizável, você pode selecionar vários arquivos e torná-los parte de seu conteúdo reutilizável.
 
-![](images/select-file-multiple-file-selection.png){width="650" align="left"}
+![](images/select-file-multiple-file-selection.png){width="650"}
 
 A seleção de vários arquivos está disponível no momento para conteúdo reutilizável, referências de tópico, esquema, predefinições de saída (usando DITAVAL) e Workfront.
 
@@ -191,29 +191,29 @@ A seleção de vários arquivos está disponível no momento para conteúdo reut
 
 Você pode visualizar os arquivos selecionados usando o botão **Visualizar**, conforme mostrado abaixo:
 
-![](images/select-file-preview-button.png){width="650" align="left"}
+![](images/select-file-preview-button.png){width="650"}
 
 A visualização do arquivo selecionado é exibida à direita.
 
-![](images/select-file-dialog-preview.png){width="650" align="left"}
+![](images/select-file-dialog-preview.png){width="650"}
 
 Para várias seleções, uma visualização de todos os arquivos selecionados é exibida no painel Visualização para facilitar a revisão.
 
-![](images/reusable-content-selection-left-panel.png){width="650" align="left"}
+![](images/reusable-content-selection-left-panel.png){width="650"}
 
 Você também pode usar o ícone **Remover** para desmarcar alguns arquivos da Visualização.
 
-![](images/resusable-content-remove-preview.png){width="650" align="left"}
+![](images/resusable-content-remove-preview.png){width="650"}
 
 **Pesquisar e filtrar experiência**
 
 Ao navegar pelos arquivos no Repositório, você pode pesquisar arquivos por nome, título ou conteúdo no caminho selecionado. Você pode usar qualquer um, dois ou todos os três critérios para sua pesquisa. Se nenhum dos critérios for selecionado, os resultados incluirão informações comuns aos três critérios.
 
-![](images/select-file-search.png){width="650" align="left"}
+![](images/select-file-search.png){width="650"}
 
 Selecione o ícone **Filtrar pesquisa** \(![Ícone Filtrar pesquisa](images/filter-search-icon.svg)\) para abrir o painel Filtro à direita.
 
-![](images/select-file-filters.png){align="left"}
+![](images/select-file-filters.png)
 
 Você tem as seguintes opções para filtrar os arquivos e restringir sua pesquisa:
 
@@ -268,7 +268,7 @@ Na guia Coleções, é possível:
 
 A procura de pastas usando a caixa de diálogo **Selecionar pasta** concentra-se em selecionar o caminho de pasta correto no Repositório para tarefas como a criação de novos tópicos ou a especificação de locais de saída para conteúdo publicado. Ele oferece uma visualização de pastas clara e estruturada em árvore, tornando a navegação intuitiva e garantindo que o conteúdo seja colocado no local correto.
 
-![](images/select-path-dialog-new.png){width="300" align="left"}
+![](images/select-path-dialog-new.png){width="300"}
 
 
 ## Suporte para publicação baseada em artigo
@@ -289,7 +289,7 @@ O Editor oferece suporte a termos de glossário DITA que você pode inserir adic
 
 O Experience Manager Guides oferece suporte pronto para inserção de equações do MathML por integração com o aplicativo [MathType Web](https://docs.wiris.com/en/mathtype/mathtype_web/intro). Para inserir uma equação de MathML, selecione o ícone **Elemento** e digite mathml. Quando você seleciona um elemento matemático na lista, a caixa de diálogo **Inserir MathML** é exibida:
 
-![inserir equação matemática no editor matemático](images/insert-mathml-equation.png){width="550" align="left"}
+![inserir equação matemática no editor matemático](images/insert-mathml-equation.png){width="550"}
 
 Usando as ferramentas de equação do MathML, crie sua equação e selecione **Inserir** para adicioná-la ao seu documento. A equação é inserida com o plano de fundo cinza-claro.
 
@@ -300,7 +300,7 @@ A qualquer momento, você pode atualizar uma equação clicando com o botão dir
 O Experience Manager Guides valida as equações do MathML quando você salva um tópico contendo elas.
 Ao inserir uma equação usando o editor do MathML, o Experience Manager Guides realça a equação em vermelho se houver problemas de sintaxe. Você pode corrigi-la antes de inseri-la. Se você não fizer alterações, mas selecionar **Inserir**, exibirá um aviso.
 
-![validar equação matemática](images/validate-mathml-equation.png){width="400" align="left"}
+![validar equação matemática](images/validate-mathml-equation.png){width="400"}
 
 Se você inserir a equação do MathML que contém um erro de sintaxe, ocorrerá um erro de validação quando você tentar salvar o tópico.
 
@@ -314,7 +314,7 @@ Insira uma nota de rodapé em seu conteúdo usando o elemento `fn`. No modo de c
 
 O Editor exibe a navegação estrutural do elemento na parte inferior esquerda do tópico. Se quiser trocar ou substituir um elemento por outro elemento, faça isso no menu de contexto da navegação estrutural. Por exemplo, você pode trocar o elemento `p` por `note` ou qualquer outro elemento válido no contexto.
 
-![](images/rename-element.png){width="400" align="left"}
+![](images/rename-element.png){width="400"}
 
 Na navegação estrutural, clique com o botão direito do mouse no nome de um elemento que deseja substituir e selecione Renomear elemento no menu de contexto. A caixa de diálogo Renomear elemento exibe todos os elementos válidos permitidos no local atual. Na caixa de diálogo Renomear elemento, selecione o elemento que deseja usar. O elemento original é substituído pelo novo elemento.
 
@@ -353,7 +353,7 @@ Em XML, os espaços em branco incluem espaços, tabulações, retornos de carro 
 
 Os elementos DITA que contêm quebra de linha e espaços são suportados e renderizados de acordo com sua definição nos modos Autor, Source ou Visualização e também na saída final publicada. A captura de tela a seguir mostra o conteúdo do elemento `msgblock` no qual as quebras de linha e os espaços \(recuo\) foram preservados:
 
-![](images/new-line-support_cs.png){align="left"}
+![](images/new-line-support_cs.png)
 
 
 
@@ -381,7 +381,7 @@ Como alternativa, clique com o botão direito do mouse na navegação estrutural
 
 Se um determinado tópico ou mapa contiver elementos com IDs duplicadas, o botão **IDs duplicadas** será exibido no canto inferior direito da área de edição de conteúdo adjacente às exibições do Editor.
 
-![](images/duplicate-element-IDs.png){width="350" align="left"}
+![](images/duplicate-element-IDs.png){width="350"}
 
 Selecionar **IDs duplicadas** abre um pop-over listando todas as IDs duplicadas. Você pode selecionar a ID exibida no popover para navegar até o elemento correspondente e atualizá-lo com uma ID exclusiva.
 
@@ -398,14 +398,14 @@ Os principais recursos destinados a melhorar o tratamento de arquivos grandes s�
 
 - Uma mensagem de alerta é exibida na parte superior para arquivos grandes, como mostrado no trecho abaixo. Este alerta destaca o número de elementos com base no valor especificado no parâmetro **largeFileTagCount** do arquivo uiconfig.json. Por padrão, **largeFileTagCount** está definido como 2500.
 
-![](images/add-toast-notification.png){width="600" align="left"}
+![](images/add-toast-notification.png){width="600"}
 
 
 - Além disso, a contagem de tags é exibida na barra inferior da interface. Quando você passa o mouse sobre o valor de contagem de tags, uma dica de ferramenta é exibida. Selecionar a guia **Saiba mais** fornece detalhes sobre como manipular arquivos grandes.
 
-![](images/add-toast-tag-count.png){width="600" align="left"}
+![](images/add-toast-tag-count.png){width="600"}
 
 
 - A mensagem de alerta está disponível somente para arquivos DITA e está visível em todas as exibições: Autor, Source e Layout.
 
-**Tópico pai:**&#x200B;[&#x200B; Introdução ao Editor](web-editor.md)
+**Tópico pai:**[ Introdução ao Editor](web-editor.md)

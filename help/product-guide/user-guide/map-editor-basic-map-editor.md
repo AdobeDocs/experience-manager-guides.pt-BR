@@ -4,9 +4,9 @@ description: Saiba como trabalhar com o Editor de mapa básico no AEM Guides. Co
 exl-id: 13da729d-e8f7-46ae-873a-1bfc32da974f
 feature: Authoring, Map Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1508'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Execute as seguintes etapas para criar seu arquivo de mapa:
 
    O arquivo de mapa é aberto para edição no Editor de mapa. Usando o Editor de mapas, crie um mapa usando os tópicos disponíveis no momento que são exibidos no painel Referências.
 
-   ![](images/dita-map-01.png){align="left"}
+   ![](images/dita-map-01.png)
 
 1. Usando o painel **Referências**, navegue até a pasta que contém os tópicos ou submapas que deseja adicionar.
 
@@ -73,13 +73,13 @@ Execute as seguintes etapas para criar seu arquivo de mapa:
 
 A barra de ferramentas principal no Editor de mapa básico permite executar as seguintes tarefas:
 
-![](images/ditamap-toolbar-actions.png){align="left"}
+![](images/ditamap-toolbar-actions.png)
 
 **A: Pesquisar**
 
 Você pode pesquisar e incluir os tópicos necessários no DAM. Clicar nesse ícone exibe a caixa de diálogo Pesquisar:
 
-![](images/search-dita-map.png){align="left"}
+![](images/search-dita-map.png)
 
 Insira as palavras-chave que você deseja pesquisar; elas são combinadas no nome do arquivo do tópico, no conteúdo e até mesmo nos valores do atributo. Quando os resultados da pesquisa estiverem disponíveis, selecione o tópico desejado\(s\) e clique no botão Verificar para adicionar os arquivos selecionados no final da estrutura do mapa. Você pode filtrar os resultados da pesquisa especificando os parâmetros Modificar Data.
 
@@ -107,19 +107,19 @@ No **Modo Padrão**, clicar em um link de tópico mostra a visualização do tó
 **Observação:** no Modo Padrão você pode usar os atalhos de teclado para desfazer \(`Ctrl+z`\) ou refazer \(`Ctrl+y`\) a última ação.
 
 
-![](images/dita-map-invalid-source.png){width="650" align="left"}
+![](images/dita-map-invalid-source.png){width="650"}
 
 **G: Propriedades do Mapa**
 
 Exiba a caixa de diálogo Propriedades do Mapa, na qual você pode definir os atributos e as informações de metadados do mapa. Para adicionar um atributo, clique no botão **Adicionar** no canto inferior esquerdo da caixa de diálogo para obter a lista suspensa **Atributo**. Na lista, selecione o atributo que deseja adicionar. Se o atributo selecionado tiver valores predefinidos especificados no DTD, esses valores serão apresentados em uma nova lista suspensa. Você pode selecionar o valor desejado na lista suspensa. Se não houver um valor predefinido, será exibida uma caixa de texto para você inserir um valor para o atributo selecionado.
 
-![](images/map-properties.png){width="300" align="left"}
+![](images/map-properties.png){width="300"}
 
 ## Recursos disponíveis no nível de tópico no Editor básico de mapas
 
 Ao passar o ponteiro do mouse sobre um tópico ou um arquivo de submapa no Editor de Mapas Básico, você pode executar as seguintes tarefas:
 
-![](images/ditamap-actions.png){width="650" align="left"}
+![](images/ditamap-actions.png){width="650"}
 
 **A: Mover para a Esquerda ou Mover para a Direita**
 
@@ -130,7 +130,7 @@ Clique nos ícones de seta para a esquerda ou direita para mover o tópico para 
 Clique no ícone Propriedades para abrir a caixa de diálogo Propriedades de Topicref. Usando essa caixa de diálogo, você pode definir os atributos do tópico e as informações de metadados. Para obter mais informações sobre atributos e metadados de tópico padrão, consulte a documentação [topicref](https://docs.oasis-open.org/dita/v1.2/os/spec/langref/topicref.html) na Especificação de Linguagem OASIS DITA.
 
 
-![](images/map-properties-metadata.png){width="350" align="left"}
+![](images/map-properties-metadata.png){width="350"}
 
 **C: Adicionar Nova Referência**
 
@@ -162,7 +162,7 @@ Execute as seguintes etapas para trabalhar com tabelas de relacionamento no Edit
 
 1. Selecione **Relacionável** na barra de ferramentas.
 
-   ![](images/reltable.png){width="650" align="left"}
+   ![](images/reltable.png){width="650"}
 
 1. Arraste e solte tópicos da lista de tópicos para o editor Relacionável.
 
@@ -170,13 +170,13 @@ Execute as seguintes etapas para trabalhar com tabelas de relacionamento no Edit
    >
    > É possível adicionar tópicos de qualquer pasta no painel Referências.
 
-   ![](images/create-reltable.png){width="550" align="left"}
+   ![](images/create-reltable.png){width="550"}
 
 1. Para adicionar um cabeçalho à tabela de relacionamento, clique em **Adicionar Cabeçalho Novamente**.
 
 1. Para adicionar uma coluna à tabela de relação, clique em **Adicionar uma Coluna**.
 
-   ![](images/complete-reltable.png){width="550" align="left"}
+   ![](images/complete-reltable.png){width="550"}
 
 1. Clique em **Salvar**.
 
@@ -195,4 +195,4 @@ Se quiser deletar um tópico da tabela, clique no ícone cruzado ao lado do tóp
 
 Se quiser excluir a tabela de relacionamento, clique em qualquer lugar fora da tabela de relacionamento e clique em Excluir.
 
-**Tópico pai:**&#x200B;[&#x200B; Trabalhar com o Editor de Mapa](map-editor.md)
+**Tópico pai:**[ Trabalhar com o Editor de Mapa](map-editor.md)

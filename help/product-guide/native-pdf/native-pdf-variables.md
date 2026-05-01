@@ -5,7 +5,7 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 96e54aee-52df-4af1-97fd-34986f553be4
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1465'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Uma variável é um par de dados de valor de nome que serve como uma parte reuti
 
 Execute as seguintes etapas para criar uma variável:
 
-![Criar uma nova variável](assets/add-variable-default.png){width="800" align="left"}
+![Criar uma nova variável](assets/add-variable-default.png){width="800"}
 
 *Crie variáveis e defina valores para elas.*
 
@@ -82,7 +82,7 @@ A pré-visualização da variável exibe o valor padrão. Por exemplo, se você 
 1. Selecione uma variável no painel **Variáveis**.
 1. Passe o mouse sobre a variável para ver o menu **Opções** e selecione a opção **Visualizar**.
 
-   ![visualização de variável do painel de variáveis](assets/variables-panel-preview-default.png){width="550" align="left"}
+   ![visualização de variável do painel de variáveis](assets/variables-panel-preview-default.png){width="550"}
 
 *Visualize o valor padrão de uma variável.*
 
@@ -126,7 +126,7 @@ O Adobe Experience Manager Guides também é compatível com conjuntos de variá
 É necessário configurar conjuntos de variáveis antes de adicionar variáveis a eles.
 
 1. Selecionar **Configurações** <img alt= "Ícone Configurações" src="./assets/settings-icon.svg" width="25"> para abrir a caixa de diálogo **Configurar conjuntos de variáveis**.
-   ![configurar conjunto de variáveis](assets/configure-variable-set.png){width="550" align="left"}
+   ![configurar conjunto de variáveis](assets/configure-variable-set.png){width="550"}
 1. Insira o nome do conjunto de variáveis na coluna **Nome**.
 1. Selecionar **Adicionar variável** <img alt= "Ícone Adicionar" src="./assets/add-icon.svg" width="25"> para adicionar um novo conjunto de variáveis. Os conjuntos de variáveis são listados em ordem alfabética.
 1. Você pode selecionar **Excluir** para remover um conjunto de variáveis.
@@ -158,7 +158,7 @@ Cada nova variável é adicionada a todos os conjuntos de variáveis. Quando voc
 Também é possível visualizar os valores de um conjunto de variáveis.
 Por exemplo, para o conjunto de variáveis *Adobe-Set1*, você definiu o valor da variável ProductName como &quot;ProductA&quot; e, em seguida, ele exibe esse valor na visualização no editor de Variáveis.
 
-![visualização de variável do editor de variáveis](assets/variables-editor-preview.png){width="550" align="left"}
+![visualização de variável do editor de variáveis](assets/variables-editor-preview.png){width="550"}
 
 *Visualize o valor definido no conjunto de variáveis selecionado.*
 
@@ -201,7 +201,7 @@ Para inserir uma variável como o Nome do produto na área de cabeçalho, execut
 
 Você pode gerar a saída do PDF com os valores de variáveis diferentes. Antes de gerar o layout, escolha um conjunto de variáveis na lista suspensa **Conjunto de variáveis** de uma predefinição de saída para escolher seus valores.
 
-![lista suspensa do conjunto de variáveis](assets/output-preset-variable-dropdown.png){width="550" align="left"}
+![lista suspensa do conjunto de variáveis](assets/output-preset-variable-dropdown.png){width="550"}
 
 *Selecione um conjunto de variáveis na lista suspensa da predefinição de saída que você deseja usar para gerar a saída do PDF.*
 

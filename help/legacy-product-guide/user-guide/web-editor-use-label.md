@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor, Publishing
 role: User
 hide: true
 exl-id: bd488298-57d7-46fb-9820-cec8d0db8bd5
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Execute as seguintes etapas para adicionar um rótulo ao seu tópico:
 
    Os rótulos são exibidos no Histórico de Versões do tópico selecionado. A captura de tela a seguir exibe os rótulos *x.x Versão* e *Guia do Usuário* adicionados à versão destacada do tópico.
 
-   ![](images/labels.png){width="300" align="left"}
+   ![](images/labels.png){width="300"}
 
 >[!NOTE]
 >
@@ -51,11 +51,11 @@ Execute as seguintes etapas para excluir um rótulo:
 
    No Histórico de Versões, você verá todas as versões de um tópico e os rótulos anexados a elas. A imagem a seguir mostra um exemplo de diferentes versões de um tópico e uma versão tem rótulos adicionados a ele.
 
-   ![](images/labels.png){width="300" align="left"}
+   ![](images/labels.png){width="300"}
 
 1. Clique no botão Excluir \(**X**\) para excluir o rótulo.
 
-   ![](images/delete-labels.png){width="300" align="left"}
+   ![](images/delete-labels.png){width="300"}
 
 
-**Tópico pai:**&#x200B;[&#x200B; Trabalhar com o Editor da Web](web-editor.md)
+**Tópico pai:**[ Trabalhar com o Editor da Web](web-editor.md)

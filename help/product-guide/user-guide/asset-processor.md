@@ -5,9 +5,9 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: 27786098-119c-4b7a-8275-8a89d435294f
-source-git-commit: 62221031e445ccdbf1f2567f38fa888ff52017d4
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '677'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Siga as etapas mencionadas abaixo para processar os ativos:
 1. No painel **Ferramentas**, selecione **Guias**.
 1. Selecione o bloco **Processador em Massa**.
 
-   ![processador-ativo-fluxo](images/flow-asset-processor.png){align="left"}
+   ![processador-ativo-fluxo](images/flow-asset-processor.png)
 
 1. A janela Guias de processador em massa é aberta com os detalhes mostrados abaixo. Além disso, apenas as informações relacionadas às cinco últimas migrações são exibidas nessa janela.
 
@@ -49,13 +49,13 @@ Siga as etapas mencionadas abaixo para processar os ativos:
 
    - **Status**: mostra o status do processamento como Em andamento, Concluído ou Cancelado.
 
-   ![Guias-ativo-processador](images/guides-asset-processor-new.png){align="left"}
+   ![Guias-ativo-processador](images/guides-asset-processor-new.png)
 
 1. Selecione a guia **Novo Processo** no canto superior direito da janela para iniciar uma nova tarefa de processamento.
 
    A caixa de diálogo **Novo processo** é aberta.
 
-   ![Novo-processador-ativo-processo](images/new-asset-processor.png){width="350" align="left"}
+   ![Novo-processador-ativo-processo](images/new-asset-processor.png){width="350"}
 
 1. Forneça os seguintes detalhes na caixa de diálogo:
 
@@ -72,7 +72,7 @@ Exemplo: a seleção de Tópico DITA processa apenas tópicos DITA dentro da pas
 
 1. Selecione **Criar**. Você recebe um pop-up mostrando **Sucesso e o Processo acionado com êxito**. Você pode ver o status da tarefa de processamento na janela.
 
-   ![Processador de ativos de mensagens](images/message-asset-processor.png){width="350" align="left"}
+   ![Processador de ativos de mensagens](images/message-asset-processor.png){width="350"}
 
 
 ## Opções adicionais para tarefas de processamento de ativos
@@ -81,16 +81,16 @@ Opções adicionais estão disponíveis para a tarefa de processamento depois de
 
 - **Reiniciar** : reinicia a tarefa de processamento de ativos anteriormente bem-sucedida.
 
-  ![reiniciar-processador-ativo](images/restart-asset-processor.png){width="650" align="left"}
+  ![reiniciar-processador-ativo](images/restart-asset-processor.png){width="650"}
 
 - **Retomar** : retoma a tarefa de processamento de ativos cancelada ou com falha anteriormente.
 
-  ![retomar-ativo-processador](images/resume-asset-processor.png){width="650" align="left"}
+  ![retomar-ativo-processador](images/resume-asset-processor.png){width="650"}
 
 - **Cancelar** : cancela a tarefa de processamento de ativos em andamento.
 
-  ![cancel-asset-processor](images/cancel-asset-processor.png){width="650" align="left"}
+  ![cancel-asset-processor](images/cancel-asset-processor.png){width="650"}
 
 - **Exibir logs**: mostra os logs da tarefa de processamento de ativos. Para tarefas em andamento, o log mostra informações detalhadas de processamento, incluindo o tempo restante estimado e o status do ativo. Esta lista de logs exibe até as 500 entradas mais recentes. O registro completo pode ser baixado.
 
-  ![logs-asset-processor](images/logs-asset-processor.png){width="650" align="left"}
+  ![logs-asset-processor](images/logs-asset-processor.png){width="650"}

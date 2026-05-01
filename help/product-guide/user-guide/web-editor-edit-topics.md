@@ -4,9 +4,9 @@ description: Saiba como editar tópicos no Editor. Saiba mais sobre vários recu
 exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
 feature: Authoring, Web Editor
 role: User
-source-git-commit: df3da8a0b4dd50ac177c3b51f04a855e9638058e
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1051'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Da mesma forma, se você excluir o conteúdo selecionado, o conteúdo restante a
 
    - Selecione um elemento na caixa de diálogo. O conteúdo selecionado é colocado sob esse elemento. Por exemplo, se você selecionar o conteúdo em um parágrafo e escolher o elemento `<note>` na caixa de diálogo **Inserir elemento**, o conteúdo selecionado será exibido abaixo de uma observação.
 
-     ![Caixa de diálogo Inserir elemento](./images/insert-element-editor.png) {width="300" align="left"}
+     ![Caixa de diálogo Inserir elemento](./images/insert-element-editor.png) {width="300"}
 
 ## Atualizar o navegador ao editar os arquivos
 
@@ -70,7 +70,7 @@ O painel direito também é reaberto e exibe a mesma visualização de antes da 
 
 O Experience Manager Guides fornece o indicador da cópia de trabalho, que mostra se a \(cópia de trabalho\) atual do arquivo está sincronizada ou não com a versão salva. Se você tiver alterado sua cópia atual e não tiver salvado o arquivo, uma marca \* será exibida junto com o título na guia do arquivo do tópico. Esse indicador atua como um lembrete para salvar suas alterações e desaparece ao salvar o arquivo.
 
-![indicador de cópia de trabalho](images/working-copy-text-update-indicator.png){width="550" align="left"}
+![indicador de cópia de trabalho](images/working-copy-text-update-indicator.png){width="550"}
 
 O Experience Manager Guides também indica se a última cópia \(em funcionamento\) salva do arquivo está ou não sincronizada com a versão salva. Se você tiver algumas alterações não salvas entre a cópia de trabalho e a última versão salva, uma marca \* será exibida juntamente com as informações da versão mostradas no canto superior direito da guia Arquivo do tópico. Esse indicador atua como um lembrete para salvar e criar uma versão da sua cópia \(em funcionamento\) atual do arquivo.
 
@@ -78,7 +78,7 @@ O Experience Manager Guides também indica se a última cópia \(em funcionament
 >
 > Qualquer alteração nos campos de metadados disponíveis em [Propriedades do arquivo](./web-editor-right-panel.md#file-properties) também acionará o indicador de cópia de trabalho na versão do documento.
 
-![Indicador de atualização de versão](images/version-update-indicator.png){width="550" align="left"}
+![Indicador de atualização de versão](images/version-update-indicator.png){width="550"}
 
 ## Acessar arquivos bloqueados nos modos Autor e Source
 
@@ -120,4 +120,4 @@ Você pode desativar o recurso para localizar o arquivo com a opção **Sempre l
 >
 >Na versão 2025.11.0, a configuração **Sempre localizar arquivos no repositório** foi renomeada para **Sempre localizar arquivos no explorador**. Para configuração no local, ele continua disponível como Sempre localizar arquivos no repositório até a versão 5.1 do Experience Manager Guides.
 
-**Tópico pai:**&#x200B;[&#x200B; Trabalhar com o editor](web-editor.md)
+**Tópico pai:**[ Trabalhar com o editor](web-editor.md)

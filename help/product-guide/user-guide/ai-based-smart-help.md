@@ -2,24 +2,24 @@
 title: Ajuda inteligente habilitada por IA para pesquisar conteúdo
 description: Saiba como visualizar e utilizar a Ajuda inteligente habilitada por IA.
 exl-id: 61a15208-9600-4bb8-adc0-feca1a0ffef3
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '621'
 ht-degree: 0%
 
 ---
 
 # Aumente a eficiência com a Ajuda inteligente no Assistente de IA (Beta)
 
-O Experience Manager Guides fornece a Ajuda inteligente baseada em GenAI, um recurso de pesquisa conversacional que ajuda a localizar conteúdo relevante na [documentação do Adobe Experience Manager Guides](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using/overview).
+O Experience Manager Guides fornece a Ajuda inteligente baseada em GenAI, um recurso de pesquisa conversacional que ajuda a localizar conteúdo relevante na [documentação do Adobe Experience Manager Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 
 Você pode fazer suas perguntas e obter respostas de forma informativa. A resposta à sua consulta baseia-se no conteúdo da documentação do produto. Essa busca é totalmente conversacional. Você pode fazer perguntas sobre os vários recursos do Experience Manager Guides ou optar por fazer consultas de solução de problemas. Com base na resposta, você também pode fazer mais perguntas. A resposta também inclui links para documentos de origem, os quais você pode consultar para obter detalhes.
 
-Por exemplo, você pode querer fazer perguntas como *Como publico um mapa?* Você recebe uma resposta e os links para os artigos relacionados. Em seguida, se quiser saber como usar um método específico para publicar o output, você poderá fazer perguntas sobre ele. Por exemplo, *Como publicar um mapa no PDF?*
+Por exemplo, você pode fazer perguntas como *Como publicar um mapa?* Você recebe uma resposta e os links para os artigos relacionados. Em seguida, se quiser saber como usar um método específico para publicar o output, você poderá fazer perguntas sobre ele. Por exemplo, *Como publicar um mapa no PDF?*
 
 Quando você abre o **Assistente do AI** na Página Inicial, no console Mapa ou no Editor, o painel **Ajuda** é aberto à direita. No caso do Editor, o painel Criação também é exibido, oferecendo recursos de criação inteligentes. Para obter detalhes, exiba o [Assistente de IA para criar documentos de forma inteligente](./ai-assistant-right-panel.md)
 
-![Painel Ajuda Inteligente](images/smart-help-panel.png){width="300" align="left"}
+![Painel Ajuda Inteligente](images/smart-help-panel.png){width="300"}
 
 *Exibir o painel **Ajuda**.*
 
@@ -37,7 +37,7 @@ Execute as seguintes etapas para usar o painel Ajuda para encontrar o conteúdo 
 
    Dependendo da sua pergunta, você pode visualizar o conteúdo, as imagens aplicáveis e os links para os artigos.
 
-   ![Resposta do painel da Ajuda Inteligente](images/smart-help-panel-response.png){width="300" align="left"}
+   ![Resposta do painel da Ajuda Inteligente](images/smart-help-panel-response.png){width="300"}
 
 
    *Selecione a pergunta de exemplo e exiba o conteúdo e as imagens na resposta.*
@@ -55,7 +55,7 @@ Ao receber uma resposta do Assistente de IA no painel **Ajuda**, você pode inte
 
 As seguintes opções estão disponíveis para participação ou para fornecer feedback sobre as respostas fornecidas pelo painel **Ajuda** do Assistente de IA:
 
-![](images/ai-assistant-response-options.png){width="300" align="left"}
+![](images/ai-assistant-response-options.png){width="300"}
 
 - **Copiar**: copie a resposta para usar em seus documentos.
 - **Curtir**: indica que a resposta foi útil ou precisa. Selecione o ícone Curtir para gostar da resposta e use a opção **Conte-nos mais** para fornecer feedback detalhado.

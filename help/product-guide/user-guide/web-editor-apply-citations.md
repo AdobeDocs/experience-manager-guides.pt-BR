@@ -4,9 +4,9 @@ description: Adicionar e gerenciar citações no AEM Guides. Saiba como aplicar,
 exl-id: 685d747d-e017-4350-a6bf-822fd55c76e8
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1923'
+source-wordcount: '1932'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Para adicionar citações, siga estas etapas:
 
    O painel **Citações** é aberto.
 
-   ![](images/citation-panel.png){width="350" align="left"}
+   ![](images/citation-panel.png){width="350"}
 
 1. No painel **Citações**, selecione ![Ícone Adicionar](images/Add_icon.svg). Na lista suspensa, é possível optar por adicionar uma nova citação ou importar uma citação.
 
@@ -44,7 +44,7 @@ Para adicionar citações, siga estas etapas:
 
    A caixa de diálogo **Adicionar Citação** é aberta.
 
-   ![painel de citação no editor da web](images/citation-add.png) {width="300" align="left"}
+   ![painel de citação no editor da web](images/citation-add.png) {width="300"}
 
 
 1. Preencha os campos na caixa de diálogo **Adicionar Citação**.
@@ -56,7 +56,7 @@ Para adicionar citações, siga estas etapas:
    | Livro | Site | Diário |
    | --- | ---|---|
    | **Source** <br> No menu suspenso, selecione a origem da citação como um Livro. | **Source**<br> No menu suspenso, selecione a origem da citação como um Site. | **Source** <br> No menu suspenso, selecione a origem da citação como um Diário. |
-   | **Pesquisar por** <br> Selecione **ISBN** ou **DOI** no menu suspenso para procurar a identificação digital vinculada à citação.  <br> DOI: Identificador de Objeto Digital <br> ISBN: Identificador de Livro Numérico Exclusivo | **Pesquisar por** <br> Selecione **DOI** no menu suspenso para procurar a identificação digital vinculada à citação. | **Pesquisar por** <ul><li>Selecione **DOI** ou **PubMed ID** no menu suspenso para procurar a ID digital vinculada à citação.</li><li>Selecione **Qualquer campo** na lista suspensa para pesquisar em todos os campos do Diário, como *Título*, *Título do diário*, *Autor*, *Ano*, *Volume*, *Número* e *Páginas*. <br> A pesquisa retorna a citação mais próxima com base no texto inserido.</li> |
+   | **Pesquisar por** <br> Selecione **ISBN** ou **DOI** no menu suspenso para procurar a identificação digital vinculada à citação.  <br> DOI: Identificador de Objeto Digital <br> ISBN: Identificador de Livro Numérico Exclusivo | **Pesquisar por** <br> Selecione **DOI** no menu suspenso para procurar a identificação digital vinculada à citação. | **Pesquisar por** <ul><li>Selecione **DOI** ou **PubMed ID** no menu suspenso para procurar a ID digital vinculada à citação.</li><li>Selecione **Qualquer campo** da lista suspensa para pesquisar em todos os campos do Diário, como *Título*, *Título do diário*, *Autor*, *Ano*, *Volume*, *Número* e *Páginas*. <br> A pesquisa retorna a citação mais próxima com base no texto inserido.</li> |
    | **Autor** <br> Adicione o nome e o sobrenome do autor da citação. Selecione ![](images/Add_icon.svg) para adicionar mais nomes. | **Autor** <br> Adicione o nome e o sobrenome do autor da citação. Selecione ![](images/Add_icon.svg) para adicionar mais nomes. | **Autor** <br> Adicione o nome e o sobrenome do autor da citação. Selecione ![](images/Add_icon.svg) para adicionar mais nomes. |
    | **Título** <br> Adicione o título do livro. | **Título** <br> Adicione o título da página da Web. | **Título** <br> Adicione o título do artigo. |
    | **Editor** <br> Adicione o editor do livro. | **Nome do Site** <br> Adicione o nome do site. | **Título do diário** <br> Adicione o título do trabalho no qual o artigo é encontrado. |
@@ -96,7 +96,7 @@ Para importar citações, siga estas etapas:
 
    >[!NOTE]
    > <ol><li> O Experience Manager Guides importa somente as citações que são exclusivas e que ainda não estão presentes.
-   > &gt; <li> O Experience Manager Guides pode importar citações de um Livro, Diário ou Site. Atualmente, não aceita citações de outras fontes.
+    &gt; <li> O Experience Manager Guides pode importar citações de um Livro, Diário ou Site. Atualmente, não aceita citações de outras fontes.
 
 ## Gerenciar citações
 
@@ -133,7 +133,7 @@ As seguintes opções estão disponíveis na lista suspensa:
 | MLA | APA | Chicago | IEEE | AHA |
 |---|---|---|---|---|
 | Estilo de Associação de Idioma Moderno <br> | American Psychological Association Estilo | Manual de estilo de Chicago | Estilo do Instituto de Engenheiros Elétricos e Eletrônicos | Estilo American Heart Association |
-| Exemplo:<br> Crawford, Claire, et al. *Conteúdo emocional de memórias escuras*.Editado por Memória, vol 16, 2010, Amsterdã. | Exemplo: <br> Crawford, C., J., &amp; , C. (2010). *Conteúdo emocional de memórias escuras* (505-16 ed.). 10.1080/ 09658210902067289 | Exemplo: <br> Crawford, Claire, et al. *Conteúdo emocional das memórias escuras*. 505-16, 2010. | Exemplo: <br> C. Crawford, J. , e C. , *Conteúdo emocional das memórias escuras*. Amsterdam, 2010. | Exemplo: <br> C. Crawford, J. , e C. , *Conteúdo emocional das memórias escuras*. Amsterdam, 2010. |
+| Exemplo:<br> Crawford, Claire, et al. *Conteúdo emocional de memórias escuras*.Editado por Memória, vol 16, 2010, Amsterdã. | Exemplo: <br> Crawford, C., J., &amp; , C. (2010). *Conteúdo emocional de memórias escuras* (505-16 ed.). 10.1080/ 09658210902067289 | Exemplo: <br> Crawford, Claire, et al. *Conteúdo emocional das memórias escuras*. 505-16, 2010. | Exemplo: <br> C. Crawford, J. e C. , *Conteúdo emocional de memórias escuras*. Amsterdam, 2010. | Exemplo: <br> C. Crawford, J. e C. , *Conteúdo emocional de memórias escuras*. Amsterdam, 2010. |
 
 
 ## Editar uma citação
@@ -157,7 +157,7 @@ A citação selecionada é editada.
 
 Para visualizar uma citação, siga estas etapas:
 
-Passe o mouse sobre o nome da citação na lista. Selecionar     Ícone ![](images/options.svg) **Opções**.
+Passe o mouse sobre o nome da citação na lista. Selecione o ícone ![](images/options.svg) **Opções**.
 
 1. Selecione **Visualizar**.
 Você pode visualizar o conteúdo e o formato da citação no painel de visualização.
@@ -168,7 +168,7 @@ Você pode visualizar o conteúdo e o formato da citação no painel de visualiz
 
 1. Selecione qualquer lugar na tela para fechar a caixa de visualização.
 
-   ![](images/citation-preview.png){width="550" align="left"}
+   ![](images/citation-preview.png){width="550"}
 
 >[!NOTE]
 >
@@ -186,9 +186,9 @@ Execute as seguintes etapas para inserir citações a um tópico:
 
 ### Na barra de ferramentas principal
 
-1. Selecione o ícone **Citations** ![citations &#x200B;](images/citations-icon.svg) na barra de ferramentas principal.
+1. Selecione o ícone **Citations** ![citations ](images/citations-icon.svg) na barra de ferramentas principal.
 1. Na caixa de diálogo **Citações**, escolha a citação. Também é possível selecionar várias citações.
-   ![caixa de diálogo de citação](images/citation-dialog-main-toolbar.png){width="300" align="left"}
+   ![caixa de diálogo de citação](images/citation-dialog-main-toolbar.png){width="300"}
 1. Você pode filtrar citações digitando os primeiros alfabetos no painel de pesquisa da caixa de diálogo **Citação**.
 
 1. Selecione **Concluído**.
@@ -201,7 +201,7 @@ A citação selecionada é adicionada no local do cursor em seu tópico.
 > 
 >Para exibir o ícone **Citações** no painel esquerdo, o administrador do sistema deve habilitar a opção **Citações** na guia **Painéis** das **Configurações**.
 
-1. Selecione o ícone **Citações** ![citações &#x200B;](images/citations-icon.svg) no painel esquerdo.
+1. Selecione o ícone **Citações** ![citações ](images/citations-icon.svg) no painel esquerdo.
 1. Arraste a citação do painel **Citações** e solte-a no local apropriado no tópico.
 
    Você também pode selecionar **Inserir** de ![](images/options.svg) **Opções** para inserir uma citação.
@@ -225,7 +225,7 @@ Para excluir uma citação do painel Citações, siga estas etapas:
 
 1. Passe o mouse sobre o nome da citação na lista.
 1. Selecione o ícone ![](images/options.svg) **Opções**.
-1. Selecione o   **Excluir** ![](images/Delete_icon.svg).
+1. Selecione a **Excluir** ![](images/Delete_icon.svg).
 A caixa de diálogo de confirmação é aberta.
 1. Selecione **Sim**.
 A citação selecionada é excluída do painel de citações.

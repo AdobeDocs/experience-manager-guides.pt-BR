@@ -3,9 +3,10 @@ title: Outras opções no menu Inserir
 description: Saiba mais sobre as opções do menu de inserção que podem ser usadas no conteúdo de aprendizado.
 feature: Authoring
 role: User
-source-git-commit: e31f7744d4c01a2924a710f547375b1b497163ee
+exl-id: 8c12ed9b-6309-40bf-b264-a2323cd6f4b3
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
@@ -16,22 +17,22 @@ As outras opções disponíveis no menu Inserir na barra de ferramentas do Edito
 
 - **Citações em bloco:** adiciona citações em bloco juntamente com citações ao seu conteúdo.
 
-  ![](assets/block-quote-learning-content.png){width="650" align="left"}
+  ![](assets/block-quote-learning-content.png){width="650"}
 
 - **Blocos de código:** Adiciona um bloco de código ao seu conteúdo.
 
-  ![](assets/code-block-learning-content.png){width="650" align="left"}
+  ![](assets/code-block-learning-content.png){width="650"}
 
 - **Iframes:** insere um iframe no conteúdo para incorporar páginas da Web externas ou recursos interativos. Você pode configurar as propriedades do iframe usando o painel **Propriedades de conteúdo**, incluindo a URL de origem, largura, altura, alinhamento e o título. Você pode visualizar o conteúdo adicionado no iframe alternando para o modo **Visualização**, conforme mostrado abaixo.
 
   Exibição de **Author**:
 
-  ![](assets/iframe-learning-content.png){width="650" align="left"}
+  ![](assets/iframe-learning-content.png){width="650"}
 
 
   Modo de **visualização**:
 
-  ![](assets/iframe-learning-content-preview.png){width="650" align="left"}
+  ![](assets/iframe-learning-content-preview.png){width="650"}
 
 - **H5P:** Adiciona o pacote H5P interativo ao seu conteúdo de aprendizado. Para adicionar conteúdo H5P, coloque o cursor no local desejado e selecione **H5P** no menu Inserir. Na caixa de diálogo Inserir H5P, forneça uma referência ao arquivo H5P que você deseja adicionar ao conteúdo de aprendizagem.
 
@@ -50,23 +51,23 @@ As outras opções disponíveis no menu Inserir na barra de ferramentas do Edito
 
 - **Equação do MathML:** insere equações do MathML ao seu conteúdo. Você pode criar uma equação do MathML e selecionar **Inserir** para adicioná-la ao seu documento.
 
-  ![](./assets/insert-mathml.png){width="350" align="left"}
+  ![](./assets/insert-mathml.png){width="350"}
 
   A equação é inserida com o plano de fundo cinza-claro. A qualquer momento, você pode atualizar uma equação clicando com o botão direito do mouse em uma equação existente e selecionando **Editar equação matemática** no menu de contexto. Para obter detalhes sobre a validação de equações do MathML no Experience Manager Guides, exiba [Validação de equações no editor do MathML](../user-guide/web-editor-other-features.md#validation-of-equations-in-the-mathml-editor).
 
 - **Verificação de conhecimento:** permite adicionar perguntas nos formatos disponíveis (Correção Simples, Correção Múltipla, Verdadeiro/Falso, Corresponder ao Seguinte ou inserir do banco de perguntas) ao seu tópico para revisão e para confirmar a compreensão sem classificação. Essas perguntas espelham formatos padrão e excluem a pontuação, tornando-as ideais para autoavaliação e adequadas como parte do conteúdo do curso ou de um tópico antes de um questionário ou avaliação posteriormente, se disponível.
 
-  ![](assets/knowledge-check-topic.png){width="650" align="left"}
+  ![](assets/knowledge-check-topic.png){width="650"}
 
 
   Você pode configurar as respostas corretas e outros campos obrigatórios por meio do painel **Propriedades de conteúdo**. Para obter mais detalhes, consulte [Tipos de pergunta](./quiz-insert-questions.md). É possível adicionar vários tipos de pergunta usando as opções de verificação de conhecimento, conforme mostrado abaixo.
 
-  ![](assets/knowledge-check-content-properties.png){width="650" align="left"}
+  ![](assets/knowledge-check-content-properties.png){width="650"}
 
 - **Campo de entrada:** Adiciona um campo de entrada de texto junto com um botão ao seu conteúdo. Você pode usar essa combinação para capturar a entrada do usuário e acionar ações específicas. Um botão Reproduzir é adicionado ao conteúdo, conforme mostrado abaixo.
 
-  ![](assets/button-learning-content.png){width="650" align="left"}
+  ![](assets/button-learning-content.png){width="650"}
 
 - **Mais opções:** você tem opções adicionais para aprimorar o conteúdo de aprendizado, incluindo a inserção de uma linha horizontal, quebra de linha, caixa de texto, caixa de texto posicionada e HTML inserido.
 
-  ![](assets/more-options-learning-content.png){width="650" align="left"}
+  ![](assets/more-options-learning-content.png){width="650"}

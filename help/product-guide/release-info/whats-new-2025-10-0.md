@@ -1,10 +1,11 @@
 ---
-title: Notas de versão | Novidades da versão 2025.10.0 do Adobe Experience Manager Guides
+title: Notas de versão | Novidades na versão 2025.10.0 do Adobe Experience Manager Guides
 description: Saiba mais sobre os recursos novos e aprimorados da versão 2025.10.0 do Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 6f212862855e5ce1125137f462b88c933d23ed26
+exl-id: 5bc6f1f6-225b-46c0-a05a-099583e402d8
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
@@ -33,7 +34,7 @@ O Experience Manager Guides agora inclui um botão **IDs duplicadas** no Editor 
 
 Para obter mais detalhes, exiba [Recursos adicionais no Editor](../user-guide/web-editor-other-features.md).
 
-![](assets/duplicate-element-IDs.png){width="350" align="left"}
+![](assets/duplicate-element-IDs.png){width="350"}
 
 ## Melhorias nos filtros de Repositório e Relatórios
 
@@ -45,7 +46,7 @@ Como iniciador de uma tarefa de revisão, agora é possível verificar o status 
 
 Para obter mais detalhes, exiba [Solicitar uma revisão ou feche uma tarefa de revisão como um Autor](../user-guide/review-close-review-task.md).
 
-![](assets/check-review-status-icon.png){width="350" align="left"}
+![](assets/check-review-status-icon.png){width="350"}
 
 
 
@@ -59,4 +60,3 @@ Para obter detalhes, consulte:
 
 - [API para rastrear o status de pós-processamento de ativos e pastas individuais](../api-reference/track-post-processing-status.md)
 - [Configuração do manipulador de eventos pós-processamento no gerenciador de configurações da fmdita](../api-reference/post-process-event.md)
-
