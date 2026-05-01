@@ -120,4 +120,4 @@ Você pode desativar o recurso para localizar o arquivo com a opção **Sempre l
 >
 >Na versão 2025.11.0, a configuração **Sempre localizar arquivos no repositório** foi renomeada para **Sempre localizar arquivos no explorador**. Para configuração no local, ele continua disponível como Sempre localizar arquivos no repositório até a versão 5.1 do Experience Manager Guides.
 
-**Tópico pai:**[ Trabalhar com o editor](web-editor.md)
+**Tópico pai:**&#x200B;[&#x200B; Trabalhar com o editor](web-editor.md)

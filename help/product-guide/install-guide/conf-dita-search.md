@@ -178,7 +178,7 @@ Execute as seguintes etapas para adicionar elementos ou atributos DITA personali
 
 1. Abra a página Configuração do console da Web do Adobe Experience Manager. O URL padrão para acessar a página de configuração é:
 
-   http://<server name\>:<port\>/system/console/configMgr
+   http://&lt;server name\>:<port\>/system/console/configMgr
 
 1. Procure e clique no pacote *com.adobe.fmdita.config.ConfigManager*.
 
@@ -202,7 +202,7 @@ Execute as seguintes etapas para habilitar a opção de extração de metadados 
 
 1. Abra a página Configuração do console da Web do Adobe Experience Manager. O URL padrão para acessar a página de configuração é:
 
-   http://<server name\>:<port\>/system/console/configMgr
+   http://&lt;server name\>:<port\>/system/console/configMgr
 
 1. Procure e clique no pacote *com.adobe.fmdita.config.ConfigManager*.
 

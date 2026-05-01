@@ -115,7 +115,7 @@ O relatório **Multimídia** fornece informações detalhadas sobre a multimídi
 1. Clique duas vezes em **Multimídia** à esquerda. A lista de multimídia presente no mapa DITA é exibida.
 1. No painel **Filtros**, você pode ordenar a lista por multimídia ou pelos nomes de usados nas referências.
 
-   - Ao fazer o pedido por **Multimídia**, o****nome da multimídia é exibido na primeira coluna e, em seguida, os nomes de todas as referências nas quais foram usados são exibidos em outra coluna na mesma linha. Por exemplo, a captura de tela a seguir mostra a multimídia WarmCoolForC.gif na primeira coluna e três referências nas quais ela é usada são exibidas na terceira coluna na mesma linha.
+   - Ao fazer o pedido por **Multimídia**, o&#x200B;**&#x200B;**&#x200B;nome da multimídia é exibido na primeira coluna e, em seguida, os nomes de todas as referências nas quais foram usados são exibidos em outra coluna na mesma linha. Por exemplo, a captura de tela a seguir mostra a multimídia WarmCoolForC.gif na primeira coluna e três referências nas quais ela é usada são exibidas na terceira coluna na mesma linha.
 
      ![](images/multimedia-report-file-order.png){width="650"}
 
@@ -194,4 +194,4 @@ Clique em **Atualizar** para obter uma nova lista de links com falha e exibir qu
 1. Clique em **Baixar CSV** para baixar o instantâneo atual dos links corrompidos no mapa DITA. O CSV contém as colunas selecionadas e os links quebrados filtrados na exibição Links quebrados. Em seguida, você pode abrir e visualizar esse arquivo CSV em qualquer editor CSV.
 
 
-**Tópico pai:**[ Relatórios](reports-intro.md)
+**Tópico pai:**&#x200B;[&#x200B; Relatórios](reports-intro.md)

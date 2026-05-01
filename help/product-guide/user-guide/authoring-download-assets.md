@@ -112,4 +112,4 @@ Execute as seguintes etapas para baixar um arquivo de mapa DITA junto com seus a
 
 Após o download do mapa, você pode selecionar o mapa e usar o ícone Abrir na parte superior para abrir o conteúdo baixado.
 
-**Tópico pai:**[ Gerenciar conteúdo](authoring.md)
+**Tópico pai:**&#x200B;[&#x200B; Gerenciar conteúdo](authoring.md)

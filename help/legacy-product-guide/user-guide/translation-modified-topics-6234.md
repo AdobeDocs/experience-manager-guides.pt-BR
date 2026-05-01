@@ -79,4 +79,4 @@ Execute as seguintes etapas para enviar um tópico modificado para nova traduç�
 1. Volte para o arquivo de mapa DITA na pasta de idioma de origem na interface do Assets. Os tópicos retraduzidos agora estão em sincronia.
 
 
-**Tópico pai:**[ Traduzir conteúdo](translation.md)
+**Tópico pai:**&#x200B;[&#x200B; Traduzir conteúdo](translation.md)

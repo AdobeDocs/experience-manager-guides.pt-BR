@@ -108,4 +108,4 @@ Por exemplo, **Caminho de saída/Caminho de destino** - Aqui, **Caminho de saíd
 
 
 
-**Tópico pai:**[ Noções básicas sobre as predefinições de saída](generate-output-understand-presets.md)
+**Tópico pai:**&#x200B;[&#x200B; Noções básicas sobre as predefinições de saída](generate-output-understand-presets.md)

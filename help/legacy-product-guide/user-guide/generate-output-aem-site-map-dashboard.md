@@ -88,7 +88,7 @@ Execute as seguintes etapas para especificar o contexto de publicação para arq
 
    Ao selecionar um arquivo de mapa, a UUID do mapa é mostrada na coluna UUID do mapa principal. As Predefinições de saída associadas ao mapa selecionado são listadas na lista Predefinição do Mapa pai.
 
-1. Na lista suspensa Predefinição do mapa principal ****, selecione a predefinição de saída à qual deseja vincular a saída do mapa atual.
+1. Na lista suspensa Predefinição do mapa principal **&#x200B;**, selecione a predefinição de saída à qual deseja vincular a saída do mapa atual.
 
 1. Selecione o mapa necessário e sua predefinição de saída para todos os tópicos dependentes e clique em **Concluído**.
 
@@ -115,4 +115,4 @@ Você pode procurar por uma string na saída do AEM Sites. Por padrão, é poss�
 
 Para obter mais detalhes, consulte a seção *Configurar nivelamento da estrutura do nó do site do AEM* no guia Instalar e configurar o Adobe Experience Manager Guides.
 
-**Tópico pai:**[ Noções básicas sobre as predefinições de saída](generate-output-understand-presets.md)
+**Tópico pai:**&#x200B;[&#x200B; Noções básicas sobre as predefinições de saída](generate-output-understand-presets.md)

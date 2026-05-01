@@ -325,4 +325,4 @@ Se o arquivo de mídia tiver sofrido alterações, você poderá localizar e vis
    ![](images/media-version-preview.png){width="650" align="center"}
 
 
-**Tópico pai:**[ Gerenciar conteúdo](authoring.md)
+**Tópico pai:**&#x200B;[&#x200B; Gerenciar conteúdo](authoring.md)
