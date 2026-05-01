@@ -5,7 +5,7 @@ feature: Content Management
 role: User
 hide: true
 exl-id: b04a0abe-a029-44ac-b8f4-138d78908d44
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Execute as seguintes etapas para baixar um arquivo de mapa DITA junto com seus a
 
    A caixa de diálogo Baixar mapa é exibida.
 
-   ![](images/download-map.png){width="300" align="left"}
+   ![](images/download-map.png){width="300"}
 
 1. Clique em **Baixar**. Na caixa de diálogo Baixar mapa, escolha as seguintes opções:
 
@@ -44,7 +44,7 @@ Execute as seguintes etapas para baixar um arquivo de mapa DITA junto com seus a
 
 1. Depois de clicar no botão **Download**, a solicitação de download do mapa é enfileirada. Você receberá a seguinte notificação assim que o mapa estiver pronto para download.
 
-   ![](images/download-map-prompt.png){width="550" align="left"}
+   ![](images/download-map-prompt.png){width="550"}
 
    - Clique em **Baixar** para baixar o arquivo de mapa no formato .zip.
 
@@ -54,7 +54,7 @@ Execute as seguintes etapas para baixar um arquivo de mapa DITA junto com seus a
    >
    > Por padrão, os mapas baixados permanecem por cinco dias na Caixa de entrada de notificação do AEM.
 
-![](images/download-map-inbox.png){width="300" align="left"}
+![](images/download-map-inbox.png){width="300"}
 
 Depois que o mapa for baixado, você poderá selecionar o mapa e usar o ícone Abrir na parte superior para abrir o relatório selecionado.
 

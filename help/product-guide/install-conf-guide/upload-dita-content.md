@@ -4,9 +4,10 @@ description: Saiba como fazer upload do conteúdo DITA existente no Experience M
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 53eb863a-094f-4445-ab4b-d5fca2249c30
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -81,7 +82,7 @@ Execute as seguintes etapas para usar o AEM Connector do FrameMaker para fazer u
 
 1. Abra a caixa de diálogo **Gerenciador de Conexões**.
 
-   ![](assets/fm-aem-connector.png){width="550" align="left"}
+   ![](assets/fm-aem-connector.png){width="550"}
 
 1. Insira os seguintes detalhes para se conectar ao repositório do AEM:
 
@@ -94,7 +95,7 @@ Execute as seguintes etapas para usar o AEM Connector do FrameMaker para fazer u
 
    Depois que a conexão for estabelecida, o Assets do repositório do AEM será exibido na janela Gerenciador do repositório.
 
-   ![](assets/fm-repo-manager.png){width="550" align="left"}
+   ![](assets/fm-repo-manager.png){width="550"}
 
    Clicar com o botão direito do mouse em qualquer arquivo ou pasta permite executar operações relacionadas. Por exemplo, se você clicar com o botão direito do mouse em uma pasta, receberá opções para carregar um arquivo, carregar um arquivo com dependências, carregar uma pasta inteira e assim por diante.
 

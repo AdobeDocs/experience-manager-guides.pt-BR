@@ -4,9 +4,9 @@ description: Saiba como criar um banco de perguntas no Treinamento e aprendizado
 feature: Authoring
 role: User
 exl-id: c658af49-b0e6-4188-b3ba-8f3223b12632
-source-git-commit: b914c69f9d29884382ce43f163a8f766567b10bf
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Execute as seguintes etapas para criar um banco de perguntas:
 1. Selecione **Banco de perguntas**.
 A caixa de diálogo **Novo banco de perguntas** é aberta. Você pode selecionar o modelo na lista suspensa, especificar um título adequado para o banco de perguntas e especificar o caminho onde deseja que esse banco de perguntas seja armazenado no repositório.
 
-   ![](assets/question-bank-create.png){width="350" align="left"}
+   ![](assets/question-bank-create.png){width="350"}
 
 1. Selecione **Criar**.
 Um banco de Perguntas é adicionado como parte do curso e é exibido no painel Gerenciador de cursos.

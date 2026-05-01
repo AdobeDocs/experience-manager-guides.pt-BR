@@ -4,9 +4,9 @@ description: Crie e gerencie linhas de base no console de mapas no Adobe Experie
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: 24ed0edbfcbe968938473e31f3abf13779d04235
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1921'
+source-wordcount: '1929'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Você pode criar uma linha de base no console Mapa executando as seguintes etapa
 1. Navegue até a guia **Linha de base** e selecione o ícone + na parte superior direita para começar a criar uma linha de base.
 1. Na caixa de diálogo **Nova linha de base**, forneça os seguintes detalhes:
 
-   ![Painel da linha de base](images/baseline-manage.png){width="500" align="left"}
+   ![Painel da linha de base](images/baseline-manage.png){width="500"}
 
    - Insira um nome para a linha de base no campo **Nome**.
    - Em **Configuração**, escolha [Atualização manual](#configuring-baseline-for-manual-update) ou [Atualização automática](#configuring-baseline-for-automatic-update).
@@ -63,7 +63,7 @@ Em **Selecionar a versão baseada em,**, selecione uma das seguintes opções:
   >
   > Ao escolher rótulos, o carregador de rótulos permanece visível até que todos os rótulos tenham sido buscados com sucesso e totalmente carregados. Depois de carregados, os rótulos são exibidos em uma ordem alfabética que não diferencia maiúsculas de minúsculas. Eles são recuperados em lotes de 20, com rolagem infinita ativada na lista suspensa para carregar lotes adicionais à medida que você rolar a tela.
 
-  Para as referências diretas em linhas de base estáticas, os rótulos são extraídos da versão salva mais recente do mapa. Por exemplo, se você tiver criado os rótulos `Label Release 1.0` e `Label Release 1.1` para as versões 1.0 e 1.1 do Tópico A e, em seguida, adicionar o Tópico A ao mapa salvo como versão 1.0. Nesse caso, você pode visualizar os rótulos `Label Release 1.0` e `Label Release 1.1` na lista suspensa de rótulos de linha de base estáticos.
+  Para as referências diretas em linhas de base estáticas, os rótulos são extraídos da versão salva mais recente do mapa. Por exemplo, se você tiver criado os rótulos `Label Release 1.0` e `Label Release 1.1` para as versões 1.0 e 1.1 do Tópico A e, em seguida, adicionar o Tópico A ao mapa salvo como versão 1.0. Nesse caso, você pode exibir os rótulos `Label Release 1.0` e `Label Release 1.1` na lista suspensa de rótulos de linha de base estáticos.
 
   Ao selecionar **Rótulo**, você pode escolher as referências diretas e indiretas.
    - Para referências diretas no mapa DITA, você tem a opção de usar a versão mais recente de tópicos que não têm o rótulo especificado aplicado a eles.
@@ -82,7 +82,7 @@ Selecione essa opção para que a criação da linha de base escolha automaticam
 
 As linhas de base criadas usando a configuração de atualização automática são atualizadas dinamicamente. Se você gerar uma linha de base, baixar uma linha de base ou criar um projeto de tradução usando uma linha de base, os arquivos serão selecionados dinamicamente com base nos rótulos atualizados. Por exemplo, se você tiver usado a versão 1.2 de um tópico com Rótulo Versão 1.0 para a linha de base e a versão mais recente atualizada 1.5 com Rótulo Versão 1.0, a linha de base será atualizada dinamicamente e a versão 1.5 será usada.
 
-![Criar uma linha de base](images/dynamic-baseline.png){width="300" align="left"}
+![Criar uma linha de base](images/dynamic-baseline.png){width="300"}
 
 - **Rótulos**: se os tópicos tiverem rótulos especificados para eles, use a lista suspensa **Rótulos** para escolher entre os [rótulos listados](#labels-list).
 
@@ -92,7 +92,7 @@ As linhas de base criadas usando a configuração de atualização automática s
   >
   >Enquanto os rótulos estão sendo puxados, um carregador é exibido e a lista suspensa é desativada.
 
-  Para linhas de base dinâmicas, os rótulos são extraídos da versão salva mais recente e da cópia de trabalho atual do mapa. Por exemplo, se você tiver criado rótulos   `Label Release A.1.0 ` e `Label Release A.1.1` para as versões 1.0 e 1.1 do Tópico A e rótulos `Label Release B.1.0` e `Label Release B.1.1` para as versões 1.0 e 1.1 do Tópico B. Em seguida, você pode adicionar o Tópico A ao Mapa A na versão 1.0 e o Tópico B ao Mapa A no 1.0* (cópia de trabalho). Nesse caso, você pode exibir `Label Release A.1.0 `, `Label Release A.1.1`, `Label Release B.1.0` e `Label Release B.1.1` na lista suspensa de rótulos de linha de base dinâmicos.
+  Para linhas de base dinâmicas, os rótulos são extraídos da versão salva mais recente e da cópia de trabalho atual do mapa. Por exemplo, se você tiver criado os rótulos `Label Release A.1.0 ` e `Label Release A.1.1` para as versões 1.0 e 1.1 do Tópico A e os rótulos `Label Release B.1.0` e `Label Release B.1.1` para as versões 1.0 e 1.1 do Tópico B. Em seguida, você pode adicionar o Tópico A ao Mapa A na versão 1.0 e o Tópico B ao Mapa A no 1.0* (cópia de trabalho). Nesse caso, você pode exibir `Label Release A.1.0 `, `Label Release A.1.1`, `Label Release B.1.0` e `Label Release B.1.1` na lista suspensa de rótulos de linha de base dinâmicos.
 - **Referências indiretas**: para referências indiretas no mapa DITA, você tem as seguintes opções:
 
    - **Escolher automaticamente**: você pode optar por **Escolher automaticamente** para o conteúdo referenciado, e o sistema escolhe automaticamente a versão do conteúdo referenciado correspondente à versão do conteúdo no qual ele é referenciado.
@@ -113,7 +113,7 @@ Você pode gerenciar suas linhas de base existentes usando os vários recursos n
   >
   >Editar operação no caso de linha de base dinâmica permite editar as propriedades da linha de base, pois as referências para linhas de base dinâmicas são geradas no tempo de execução usando os rótulos.
 
-  ![opções de uma linha de base](images/baseline-options.png){align="left"}
+  ![opções de uma linha de base](images/baseline-options.png){}
 
 ### Ações disponíveis para uma linha de base existente
 
@@ -123,7 +123,7 @@ Você também pode executar as seguintes operações na linha de base a partir d
 
 Você pode duplicar uma linha de base e modificá-la de acordo com suas necessidades.
 
-![duplicar uma linha de base](images/baseline-duplicate.png){width="300" align="left"}
+![duplicar uma linha de base](images/baseline-duplicate.png){width="300"}
 *Duplique uma linha de base com base em um rótulo ou crie uma cópia exata.*
 
 1. Selecione **Duplicar** no menu Opções de uma linha de base. A caixa de diálogo **Duplicar linha de base** é aberta.
@@ -158,7 +158,7 @@ Os rótulos listados na lista suspensa são baseados nos seguintes critérios:
 
 Usando o ícone Filtros no painel **Filtros da linha de base**, você pode aplicar filtros na linha de base aberta na janela de edição da linha de base:
 
-![filtros de linha de base](images/baseline-filter.png){width="300" align="left"}
+![filtros de linha de base](images/baseline-filter.png){width="300"}
 
 - Filtre os arquivos com base nos nomes ou no local dos arquivos.
 - Filtre os arquivos com base nos valores de diferentes colunas, como Tipo de arquivo, Tipo de referência e assim por diante.

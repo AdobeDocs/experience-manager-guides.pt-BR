@@ -4,9 +4,9 @@ description: Saiba como criar, editar, renomear, duplicar e excluir predefiniç�
 exl-id: 549c9fe2-77f8-423c-8b3e-b43e56055732
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Execute as seguintes etapas para criar uma predefinição de saída para os Perf
 1. Selecione o ícone **Abrir no console de mapa** para abrir o arquivo de mapa no console de Mapa.
 1. No console Mapa, navegue até a guia **Predefinições de saída** e selecione o ícone + para criar uma predefinição de saída para seu mapa DITA.
 
-   ![](images/add-global-output-preset.png){width="350" align="left"}
+   ![](images/add-global-output-preset.png){width="350"}
 
 1. Insira os seguintes detalhes na caixa de diálogo **Adicionar predefinição**:
    - Tipo

@@ -4,9 +4,9 @@ description: Saiba mais sobre as várias configurações de predefinição SCORM
 feature: Authoring
 role: User
 exl-id: b3000708-6120-4725-bea1-0b8e58048948
-source-git-commit: 3fdedee6e07908632bcf1b804805fcac7925c4e0
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Após a criação da predefinição, defina as configurações de predefinição
 
 - **Geral:** usado para especificar as configurações básicas de saída, como a versão suportada, o caminho de saída, o nome do arquivo ZIP, o modelo de saída e outras opções relacionadas à experiência do aluno.
 
-  ![](assets/scorm-general-tab-v3.png){width="650" align="left"}
+  ![](assets/scorm-general-tab-v3.png){width="650"}
 
   **Experiência do aluno**
 
@@ -30,10 +30,10 @@ Após a criação da predefinição, defina as configurações de predefinição
 
 - **Conteúdo:** use para especificar a filtragem condicional disponível (usando DITAVAL ou usando alguma predefinição de condição) e o conjunto de variáveis.
 
-  ![](assets/scorm-content-tab.png){width="650" align="left"}
+  ![](assets/scorm-content-tab.png){width="650"}
 
 - **Publicar:** use essa configuração somente se desejar publicar a saída na Nuvem SCORM para acesso direto.
 
-  ![](assets/scorm-publish-tab.png){width="650" align="left"}
+  ![](assets/scorm-publish-tab.png){width="650"}
 
 Depois que todas as alterações forem configuradas, salve as alterações da predefinição SCORM usando **Salvar** no canto direito da barra de ferramentas da página de predefinições SCORM.

@@ -4,9 +4,9 @@ description: Saiba como editar o questionário no Treinamento e aprendizado do p
 feature: Authoring
 role: User
 exl-id: a8d967ce-9850-445f-b5fc-63ee14ee0dfa
-source-git-commit: 74e5baaf1743986ab188f5c89644d7683f885d0a
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Execute as seguintes etapas para editar o questionário:
 1. Clique duas vezes no questionário para abri-lo no painel Gerenciador de cursos.
 1. Você deve **Bloquear** o questionário usando a opção. Isso permite que você edite o questionário, e ninguém mais poderá fazer alterações nele.
 
-   ![](assets/quiz-lock.png){width="650" align="left"}
+   ![](assets/quiz-lock.png){width="650"}
 
 1. Você pode [adicionar perguntas ao questionário](./quiz-insert-questions.md) e [inserir perguntas do banco de perguntas](./insert-questions.md).
 1. Para salvar seu trabalho, use **Salvar como nova versão** para criar uma nova versão, ou pressione `Ctrl+S` para substituir o arquivo existente.

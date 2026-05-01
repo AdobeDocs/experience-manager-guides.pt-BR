@@ -4,9 +4,9 @@ description: Saiba mais sobre os recursos novos e aprimorados das versões 4.3.1
 exl-id: 14db7453-ccc1-4709-903f-677f55c263b2
 feature: What's New
 role: Leader
-source-git-commit: 5a444e88b0adba7fa3d498437df39b729b10b5eb
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1136'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ O Experience Manager Guides agora também fornece uma ferramenta de **Fontes de 
 
 Você também pode editar, reconectar, duplicar ou excluir facilmente um conector de origem de dados. Saiba como [configurar facilmente um conector de fonte de dados na interface do usuário](../install-guide/conf-data-source-connector-tools.md).
 
-![conectores de fonte de dados listados no painel de fontes de dados](assets/data-sources-create-window.png){width="550" align="left"}
+![conectores de fonte de dados listados no painel de fontes de dados](assets/data-sources-create-window.png){width="550"}
 
 *Crie e exiba os conectores de fonte de dados a partir do painel de fontes de dados.*
 
@@ -54,19 +54,19 @@ Por exemplo, você pode usar a $mathTool para executar funções matemáticas.
 Saiba mais sobre como [usar as ferramentas do Velocity nos modelos de fonte de dados](../user-guide/web-editor-content-snippet.md#use-velocity-tools).
 
 
-## Aprimoramentos de PDF nativo
+## Aprimoramentos no PDF nativo
 
 Os seguintes aprimoramentos do PDF nativo foram feitos na versão de outubro de 2023:
 
 ### Redefinir o número de página para a primeira página de um layout
 
-Na saída de PDF nativa, é possível reiniciar os números de página e especificar o número a partir do qual a numeração começa. Agora, você também pode iniciar a numeração somente para a primeira ocorrência de uma seção.
+Na saída nativa do PDF, é possível reiniciar os números de página e especificar o número a partir do qual a numeração começa. Agora, você também pode iniciar a numeração somente para a primeira ocorrência de uma seção.
 Saiba mais sobre como [trabalhar com as propriedades de página de um layout de página](../native-pdf/design-page-layout.md#page-props-page-layout).
 
 
 ### Exibir capítulos sem números automáticos no sumário
 
-O Experience Manager Guides exibe os números dos capítulos junto com os nomes dos capítulos no índice. Agora você pode optar por publicar somente os nomes dos capítulos sem os números dos capítulos. Veja mais detalhes sobre como definir as [configurações avançadas de PDF de um modelo](../native-pdf/components-pdf-template.md#advanced-pdf-settings).
+O Experience Manager Guides exibe os números dos capítulos junto com os nomes dos capítulos no índice. Agora você pode optar por publicar somente os nomes dos capítulos sem os números dos capítulos. Veja mais detalhes sobre como definir as [configurações avançadas do PDF de um modelo](../native-pdf/components-pdf-template.md#advanced-pdf-settings).
 
 ## Baixar um mapa no Editor da Web
 
@@ -74,7 +74,7 @@ Agora, você não pode apenas editar um mapa na exibição de mapa do Editor da 
 
 Para obter mais detalhes, consulte a descrição do recurso **Exibição de mapa** na seção [Painel esquerdo](../user-guide/web-editor-features.md#id2051EA0M0HS).
 
-![menu de opções de um arquivo no modo de exibição de repositório](assets/options-menu-repo-view-file-level-2310.png){width="550" align="left"}
+![menu de opções de um arquivo no modo de exibição de repositório](assets/options-menu-repo-view-file-level-2310.png){width="550"}
 
 *Selecione um arquivo na exibição de repositório e escolha a opção para executar uma ação no arquivo.*
 
@@ -94,7 +94,7 @@ Para obter mais detalhes sobre como manipular definições hierárquicas de defi
 
 Use o menu de contexto para visualizar rapidamente o arquivo (.dita, .xml, áudio, vídeo ou imagem) sem abri-lo. Agora é possível redimensionar o painel de visualização e, se o conteúdo contiver qualquer link de referência, você poderá selecioná-lo para abri-lo em uma nova guia.
 
-![Painel de visualização &#x200B;](assets/quick-preview_cs.png){width="800" align="left"}
+![Painel de visualização &#x200B;](assets/quick-preview_cs.png){width="800"}
 
 *Visualizar o arquivo no painel.*
 
@@ -108,7 +108,7 @@ Para obter mais detalhes, consulte a descrição do recurso **Opções de um arq
 
 ## Usar variáveis para data e hora atuais nas opções Caminho de destino, Nome do site ou Nome do arquivo
 
-Ao gerar saídas no Site ou PDF AEM, você pode usar variáveis para definir as opções **Caminho de Destino**, **Nome do Site** ou **Nome do Arquivo**. Agora você também pode usar as variáveis `${system_date}` e `${system_time}`. Essas variáveis ajudam a anexar a data e a hora atuais a essas opções.
+Ao gerar saídas no Site do AEM ou em PDFs, você pode usar variáveis para definir as opções **Caminho de Destino**, **Nome do Site** ou **Nome do Arquivo**. Agora você também pode usar as variáveis `${system_date}` e `${system_time}`. Essas variáveis ajudam a anexar a data e a hora atuais a essas opções.
 
 Saiba como [usar variáveis para definir as opções Caminho de Destino, Nome do Site ou Nome do Arquivo](../user-guide/generate-output-use-variables.md).
 

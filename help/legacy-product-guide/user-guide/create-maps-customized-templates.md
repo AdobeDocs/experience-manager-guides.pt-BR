@@ -5,7 +5,7 @@ feature: Authoring, Map Editor
 role: User
 hide: true
 exl-id: 0f86ac98-7ba4-4e15-8a1f-83456afa7570
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1111'
 ht-degree: 1%
@@ -44,7 +44,7 @@ Execute as seguintes etapas para criar um modelo de tópico:
 
 1. Na **interface do usuário do Assets**, navegue até a pasta dita-templates.
 
-   ![](images/dita-templates.png){width="800" align="left"}
+   ![](images/dita-templates.png){width="800"}
 
 1. Clique na pasta **tópicos** para abri-la.Clique em **Criar \> Modelo DITA**.
 1. Na página Blueprint, selecione **Tópico** e clique em **Avançar.**
@@ -66,7 +66,7 @@ Execute as seguintes etapas para criar um modelo de mapa:
 1. Clique na pasta **maps** para abri-la.
 1. Clique em **Criar \> Modelo DITA.**
 
-   ![](images/create-dita-template.png){width="300" align="left"}
+   ![](images/create-dita-template.png){width="300"}
 
 1. Na página Blueprint, selecione **Mapa** e clique em **Avançar**.
 1. Na página Propriedades, especifique o modelo de mapa **Título**.

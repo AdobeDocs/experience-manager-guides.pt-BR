@@ -5,7 +5,7 @@ feature: Translation
 role: User
 hide: true
 exl-id: 09e813fd-ec22-4d2e-9ee7-098d562ad44f
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1315'
 ht-degree: 1%
@@ -32,7 +32,7 @@ Considere o seguinte ponto para a tradução de conteúdo:
 
 A ilustração a seguir mostra um exemplo de estrutura de pastas no AEM quando você tem conteúdo usado globalmente e três cópias de idioma.
 
-![](images/aem-directory_structure.png){width="800" align="left"}
+![](images/aem-directory_structure.png){width="800"}
 
 ## Configurar serviço de tradução
 
@@ -107,7 +107,7 @@ Execute as seguintes etapas para criar um projeto de tradução:
 
    Um novo projeto de tradução é criado com a versão selecionada dos tópicos. No momento, uma mensagem pop-up é exibida confirmando que o projeto de tradução foi criado. Quando todas as cópias de idioma de destino estiverem disponíveis no projeto de tradução, você receberá uma notificação na Caixa de entrada. Depois que a área de cópias do idioma de destino estiver disponível no projeto de tradução, você poderá continuar e iniciar o trabalho de tradução.
 
-   ![](images/status-translation-uuid.png){width="800" align="left"}
+   ![](images/status-translation-uuid.png){width="800"}
 
 
 A guia Tradução tem as seguintes seções:

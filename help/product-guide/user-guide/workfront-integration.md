@@ -4,9 +4,9 @@ description: Saiba como integrar o Workfront ao Adobe Experience Manager Guides 
 feature: Authoring
 role: User
 exl-id: fd988434-3ebd-40ac-a776-e62359dcb6ef
-source-git-commit: a487c81c5a49ec2b8ec780ffd73cc38fcb693acc
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '2481'
+source-wordcount: '2531'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Execute as seguintes etapas para acessar suas tarefas do Adobe Workfront:
 
    A página **tarefas do Workfront** é exibida.
 
-   ![](./images/workfront-sign-in.png){align="left"}
+   ![](./images/workfront-sign-in.png)
 3. Selecione **Entrar**.
 
    Você é redirecionado para a página de logon da Adobe Workfront.
@@ -49,7 +49,7 @@ Execute as seguintes etapas para acessar suas tarefas do Adobe Workfront:
 
    Você é redirecionado automaticamente para a página **Tarefas do Workfront** no Experience Manager Guides.
 
-   ![](./images/workfront-tasks-page.png){align="left"}
+   ![](./images/workfront-tasks-page.png)
 
 ## Recursos disponíveis na página de tarefas do Workfront
 
@@ -73,7 +73,7 @@ Execute as seguintes etapas para criar uma nova tarefa do Adobe Workfront:
 
    A caixa de diálogo **Criar tarefa** é exibida.
 
-   ![](./images/workfront-create-task.png){align="left"}
+   ![](./images/workfront-create-task.png)
 2. Na guia **Geral**, insira os seguintes detalhes da tarefa:
 
    * **Tipo de tarefa**: selecione o tipo de tarefa que deseja criar. As opções disponíveis são: **Criação**, **Revisão**, **Publicação** e **Tradução**.
@@ -84,22 +84,22 @@ Execute as seguintes etapas para criar uma nova tarefa do Adobe Workfront:
    * **Atribuído**: selecione um destinatário para a tarefa.
 3. Na guia **Assets**, selecione **Adicionar** para adicionar um ativo a esta tarefa.
 
-   ![](./images/workfront-create-tasks-asset.png){align="left"}
+   ![](./images/workfront-create-tasks-asset.png)
 
    A caixa de diálogo **Selecionar caminho** é exibida. Selecione um caminho para o ativo necessário. Você pode adicionar vários ativos selecionando os caminhos válidos no navegador de caminhos. Os caminhos selecionados serão retidos, permitindo que você os revise ou modifique facilmente ao reabrir a caixa de diálogo.
 
    * Para tarefas de autoria, publicação e tradução, você será solicitado a selecionar o local do arquivo necessário na caixa de diálogo **Selecionar arquivo**. O arquivo selecionado (um tópico para criação e mapa para publicação e tradução) é adicionado à tarefa assim que o botão **Criar** é selecionado.
 
-     ![](./images/attach-asset.png){align="left"}
+     ![](./images/attach-asset.png)
 
    * Para tarefas de revisão, primeiro é solicitado que você selecione o Tipo de ativo (Mapa ou Tópicos) e, em seguida, os arquivos selecionados são exibidos da seguinte maneira:
 
 
-     ![Adicionando mapas a uma tarefa de revisão](./images/attach-asset-topics.png){align="left"}
+     ![Adicionando mapas a uma tarefa de revisão](./images/attach-asset-topics.png)
 
      *Adicionando tópicos a uma tarefa de revisão*
 
-     ![Adicionando mapas a uma tarefa de revisão](./images/attach-asset-maps.png){align="left"}
+     ![Adicionando mapas a uma tarefa de revisão](./images/attach-asset-maps.png)
 
      *Adicionando mapas a uma tarefa de revisão*
 
@@ -128,7 +128,7 @@ Uma nova tarefa é criada e listada na guia **Criado por você**.
 
 Todas as tarefas que você criou e que ainda estão ativas são exibidas na guia **Criado por você** na página de tarefas do Workfront, fornecendo detalhes importantes da tarefa, como nome do projeto, responsáveis, data de criação da tarefa, data de conclusão da tarefa e status da tarefa.
 
-![](./images/workfront-tasks-created-by-you.png){align="left"}
+![](./images/workfront-tasks-created-by-you.png)
 
 As seguintes opções estão disponíveis quando você passa o mouse sobre uma tarefa presente na guia Criado por você:
 
@@ -150,7 +150,7 @@ Exibe as informações da tarefa, incluindo detalhes inseridos durante a criaç�
 
 Todas as tarefas atribuídas a você e que ainda estão ativas são exibidas na guia **Atribuído a você** na página de tarefas do Workfront, fornecendo detalhes importantes da tarefa, como nome do projeto, responsáveis, data de vencimento e status da tarefa.
 
-![](./images/workfront-tasks-assigned-to-you.png){align="left"}
+![](./images/workfront-tasks-assigned-to-you.png)
 
 As seguintes opções estão disponíveis quando você passa o mouse sobre uma tarefa presente na guia Atribuído a você:
 
@@ -162,7 +162,7 @@ Permite abrir a tarefa. Dependendo do tipo de tarefa, ela será aberta no Editor
 
 Exibe as informações da tarefa, incluindo detalhes inseridos durante a criação da tarefa, status da tarefa e quaisquer ativos adicionados.
 
-![](images/task-details.png){align="left"}
+![](images/task-details.png)
 
 #### Acesso às tarefas atribuídas na seção Visão geral
 
@@ -170,7 +170,7 @@ Você também pode acessar suas tarefas atribuídas do Adobe Workfront na [seç�
 
 **Suas tarefas** é um widget onde uma lista de tarefas do Adobe Workfront (que estão atribuídas a você e ainda estão ativas) é exibida junto com os detalhes principais da tarefa, incluindo o nome da tarefa, o projeto associado, a data de vencimento e o status atual.
 
-![](./images/workfront-your-tasks-widget.png){align="left"}
+![](./images/workfront-your-tasks-widget.png)
 
 Semelhante à guia Atribuído a você, o widget Suas tarefas também fornece opções para **Abrir** e exibir **detalhes da tarefa** ao passar o mouse sobre uma tarefa.
 
@@ -197,19 +197,19 @@ Execute as seguintes etapas para trabalhar em uma tarefa de criação:
 
 1. Acesse a tarefa na seção [Visão geral](#accessing-assigned-tasks-from-overview-section) ou na guia [Atribuído a você](#managing-tasks-assigned-to-you).
 
-   ![Tarefas de criação na guia Atribuído a você](./images/authoring-task-access.png){align="left"}
+   ![Tarefas de criação na guia Atribuído a você](./images/authoring-task-access.png)
 
    *Tarefa de criação na guia Atribuído a você*
 
-   ![Tarefas de criação no widget Suas tarefas](./images/authoring-task-access-your-tasks.png){align="left"}
+   ![Tarefas de criação no widget Suas tarefas](./images/authoring-task-access-your-tasks.png)
 
    *Tarefa de criação no widget Suas tarefas*
-2. Passe o mouse sobre a tarefa que deseja trabalhar e selecione  ![](images/Smock_OpenIn_18_N.svg)  para abri-lo. Você também pode abrir a tarefa simplesmente selecionando-a.
+2. Passe o mouse sobre a tarefa que você deseja trabalhar e selecione ![](images/Smock_OpenIn_18_N.svg) para abri-la. Você também pode abrir a tarefa simplesmente selecionando-a.
 
    Todas as tarefas de criação são abertas no Editor.
 3. Revise os detalhes da tarefa na guia **Detalhes** e selecione o arquivo **Ativo** para abri-lo.
 
-   ![](./images/authoring-task-review-details-editor.png){align="left"}
+   ![](./images/authoring-task-review-details-editor.png)
 
 4. Faça as edições necessárias e selecione **Marcar como concluído**.
 5. Alterne para a guia **Comentários** para adicionar um comentário a esta tarefa. Esses comentários, adicionados no nível da tarefa, também refletirão no painel de projetos do Adobe Workfront.
@@ -226,18 +226,18 @@ Execute as seguintes etapas para trabalhar em uma tarefa de revisão atribuída 
 
 1. Acesse a tarefa na seção [Visão geral](#accessing-assigned-tasks-from-overview-section) ou na guia [Atribuído a você](#managing-tasks-assigned-to-you).
 
-   ![Revisar tarefas na guia Atribuído a você](./images/review-task-access.png){align="left"}
+   ![Revisar tarefas na guia Atribuído a você](./images/review-task-access.png)
 
    *Tarefa de revisão na guia Atribuído a você*
 
-   ![Revisar tarefas no widget Suas tarefas](./images/review-task-access-your-tasks.png){align="left"}
+   ![Revisar tarefas no widget Suas tarefas](./images/review-task-access-your-tasks.png)
 
    *Tarefa de criação no widget Suas tarefas*
-2. Passe o mouse sobre a tarefa que deseja trabalhar e selecione  ![](images/Smock_OpenIn_18_N.svg)  para abri-lo. Você também pode abrir a tarefa simplesmente selecionando-a.
+2. Passe o mouse sobre a tarefa que você deseja trabalhar e selecione ![](images/Smock_OpenIn_18_N.svg) para abri-la. Você também pode abrir a tarefa simplesmente selecionando-a.
 
    Para revisores, a tarefa de revisão é aberta na **Interface de revisão**.
 
-   ![](./images/review-task-access-review-ui.png){align="left"}
+   ![](./images/review-task-access-review-ui.png)
 
 3. Execute a revisão necessária. Para obter detalhes sobre como revisar um tópico, exiba [tópicos de revisão](./review-topics.md).
 4. Após a conclusão da revisão, selecione **Marcar como concluído**.
@@ -251,13 +251,13 @@ Marcar a tarefa como concluída pelo revisor não indica a conclusão da tarefa.
 
 As tarefas de revisão reatribuídas ao criador/autores para incorporação de revisão podem ser acessadas na seção [Visão geral](#accessing-assigned-tasks-from-overview-section) ou na guia [Atribuído a você](#managing-tasks-assigned-to-you).
 
-![Revisar tarefas no modo Autor](./images/review-task-author-mode.png){align="left"}
+![Revisar tarefas no modo Autor](./images/review-task-author-mode.png)
 
 *Tarefa de revisão atribuída de volta aos autores*
 
 Para essas tarefas, o estado da tarefa do destinatário muda para **Criação**, enquanto o tipo de tarefa permanece como **Revisão**. Essa alteração de estado acontece quando a revisão é concluída por todos os revisores.
 
-![](./images/review-tasks-with-authoring-doc-state.png){align="left"}
+![](./images/review-tasks-with-authoring-doc-state.png)
 
 
 Selecionar a tarefa ou o ícone de abertura ![](images/Smock_OpenIn_18_N.svg) abre a tarefa no Editor, onde o autor pode [endereçar comentários de revisão](../user-guide/review-address-review-comments.md), editar a tarefa atualizando a versão dos tópicos e atribuir novamente a tarefa ao revisor, se necessário.
@@ -274,21 +274,21 @@ Execute as seguintes etapas para trabalhar em uma tarefa de tradução:
 
 1. Acesse a tarefa na seção [Visão geral](#accessing-assigned-tasks-from-overview-section) ou na guia [Atribuído a você](#managing-tasks-assigned-to-you).
 
-   ![Tarefas de tradução na guia Atribuído a você](./images/translation-tasks-access.png){align="left"}
+   ![Tarefas de tradução na guia Atribuído a você](./images/translation-tasks-access.png)
 
    *Tarefa de tradução na guia Atribuído a você*
 
-   ![Tarefas de tradução no widget Suas tarefas](./images/translation-tasks-access-your-tasks.png){align="left"}
+   ![Tarefas de tradução no widget Suas tarefas](./images/translation-tasks-access-your-tasks.png)
 
    *Tarefa de tradução no widget Suas tarefas*
 
-2. Passe o mouse sobre a tarefa que deseja trabalhar e selecione  ![](images/Smock_OpenIn_18_N.svg)  para abri-lo no **Console de mapas**. Você também pode abrir a tarefa simplesmente selecionando-a.
+2. Passe o mouse sobre a tarefa que você deseja trabalhar e selecione ![](images/Smock_OpenIn_18_N.svg) para abri-la no **Console do mapa**. Você também pode abrir a tarefa simplesmente selecionando-a.
 3. Revise os detalhes da tarefa e o arquivo adicionado para tradução.
 
-   ![](./images/translation-tasks-review-details.png){align="left"}
+   ![](./images/translation-tasks-review-details.png)
 4. Navegue até a guia **Tradução** para obter as várias opções de tradução. Saiba como [traduzir conteúdo](../user-guide/translation.md) no Experience Manager Guides.
 5. Execute a tradução necessária e selecione **Enviar para tradução**.
-   ![](./images/translation-tasks-send-translation.png){align="left"}
+   ![](./images/translation-tasks-send-translation.png)
 6. Navegue até a seção **Workfront** e selecione **Marcar como concluído** para indicar que a tarefa foi concluída.
 7. Alterne para a guia **Comentários** para adicionar um comentário a esta tarefa. Esses comentários, adicionados no nível da tarefa, serão refletidos no painel de projetos do Adobe Workfront.
 
@@ -304,17 +304,17 @@ Execute as seguintes etapas para trabalhar em uma tarefa de publicação:
 
 1. Acesse a tarefa na seção [Visão geral](#accessing-assigned-tasks-from-overview-section) ou na guia [Atribuído a você](#managing-tasks-assigned-to-you).
 
-   ![Publicar tarefas na guia Atribuído a você](./images/publishing-tasks-access.png){align="left"}
+   ![Publicar tarefas na guia Atribuído a você](./images/publishing-tasks-access.png)
 
    *Publicando tarefa na guia Atribuído a você*
 
-   ![Publicar tarefas no widget Suas tarefas](./images/publishing-tasks-access-your-tasks.png){align="left"}
+   ![Publicar tarefas no widget Suas tarefas](./images/publishing-tasks-access-your-tasks.png)
 
    *Publicando tarefa no widget Suas tarefas*
-2. Passe o mouse sobre a tarefa que deseja trabalhar e selecione  ![](images/Smock_OpenIn_18_N.svg)  para abri-lo no **Console de mapas**. Você também pode abrir a tarefa simplesmente selecionando-a.
+2. Passe o mouse sobre a tarefa que você deseja trabalhar e selecione ![](images/Smock_OpenIn_18_N.svg) para abri-la no **Console do mapa**. Você também pode abrir a tarefa simplesmente selecionando-a.
 3. Revise os detalhes da tarefa e o arquivo adicionado para publicação.
 
-   ![](./images/publishing-tasks-review-details.png){align="left"}
+   ![](./images/publishing-tasks-review-details.png)
 4. Navegue até **Predefinições de saída** e execute as ações de publicação necessárias para publicar a tarefa. Para obter mais detalhes, consulte [Noções básicas sobre as predefinições de saída](../user-guide/generate-output-understand-presets.md).
 5. Após a conclusão da publicação, navegue até a seção **Workfront** e selecione **Marcar como concluído** para indicar que a tarefa foi concluída.
 6. Alterne para a guia **Comentários** para adicionar um comentário a esta tarefa. Esses comentários, adicionados no nível da tarefa, serão refletidos no painel de projetos da Workfront.

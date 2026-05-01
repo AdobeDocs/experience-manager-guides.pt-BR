@@ -4,9 +4,9 @@ description: Conheça o painel direito no Editor. Saiba mais sobre a interface e
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 6a0f4ed2-6eca-4b3c-bd3a-3f72f6919b36
-source-git-commit: ddf28ee20b15ea8bb50c555d1196532ee00d34a5
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1290'
+source-wordcount: '1297'
 ht-degree: 0%
 
 ---
@@ -41,11 +41,11 @@ Você pode acessar o recurso **Propriedades de conteúdo** selecionando o ícone
 
 1. Selecione **Adicionar**.
 
-   ![atributos em propriedades de conteúdo](images/properties-tab-attributes_cs.png){width="300" align="left"}
+   ![atributos em propriedades de conteúdo](images/properties-tab-attributes_cs.png){width="300"}
 
 1. No painel suspenso **Atributo**, selecione o atributo na lista suspensa e especifique o valor de um atributo.  Em seguida, selecione **Adicionar**.
 
-   ![painel de atributos com vários atributos &#x200B;](images/attributes-multiple-properties.png){width="300" align="left"}
+   ![painel de atributos com vários atributos &#x200B;](images/attributes-multiple-properties.png){width="300"}
 
 1. Para editar o atributo, passe o mouse sobre ele e selecione **Editar** ![ícone de edição](images/edit_pencil_icon.svg).
 
@@ -72,7 +72,7 @@ As propriedades do Arquivo têm as duas seções a seguir:
 
 A seção Geral fornece acesso aos seguintes recursos:
 
-![propriedades-arquivo](images/file-properties-general.png){width="300" align="left"}
+![propriedades-arquivo](images/file-properties-general.png){width="300"}
 
 - **Nome do arquivo**: exibe o nome do arquivo do tópico selecionado. O nome do arquivo tem um hiperlink para a página de propriedades do arquivo selecionado.
 - **ID**: exibe a ID do tópico selecionado.
@@ -104,7 +104,7 @@ A seção Geral fornece acesso aos seguintes recursos:
 
 A seção Referências fornece acesso aos seguintes recursos:
 
-![](images/file-properties-references.png){width="300" align="left"}
+![](images/file-properties-references.png){width="300"}
 
 - **Usado em**: as referências Usado em listam os documentos nos quais o arquivo atual está sendo referenciado ou usado.
 - **Links de saída:** os Links de saída listam os documentos referenciados no documento atual.
@@ -129,11 +129,11 @@ Esta seção lista todas as cópias de idioma disponíveis para o ativo atualmen
 >
 > Cópias de idioma são criadas quando um ativo é enviado para tradução. O inglês (`en`) atua como idioma de origem e as cópias traduzidas são geradas nas respectivas pastas de idioma de destino (por exemplo, `de` para alemão ou `fr` para francês). Se um ativo existir somente na pasta `en`, nenhuma cópia de idioma adicional será exibida até que a tradução seja iniciada e concluída para os idiomas de destino. Se o ativo não estiver presente em nenhuma pasta de idioma, **Nenhuma tradução disponível** será exibida. Para obter mais detalhes, consulte [Práticas recomendadas para tradução de conteúdo](./translation-first-time.md).
 
-![](images/translations-right-panel.png){width="300" align="left"}
+![](images/translations-right-panel.png){width="300"}
 
 Para cada cópia de idioma, é possível passar o mouse sobre o arquivo para localizar seu caminho no repositório ou simplesmente selecioná-lo para abri-lo no Editor. Além de abrir arquivos, você também pode executar muitas ações usando o menu **Opções** na seção Traduções. Algumas das ações que você pode executar incluem Editar, Visualizar, Copiar UUID, Copiar caminho, Adicionar às coleções e Propriedades.
 
-![](images/translations-right-panel-options-menu.png){width="300" align="left"}
+![](images/translations-right-panel-options-menu.png){width="300"}
 
 
 
@@ -141,7 +141,7 @@ Para cada cópia de idioma, é possível passar o mouse sobre o arquivo para loc
 
 Selecionar o ícone Revisar abre o painel de revisão, no qual é possível selecionar uma tarefa de revisão para o documento aberto no momento e exibir comentários.
 
-![](images/review-panel-before-opening.png){width="300" align="left"}
+![](images/review-panel-before-opening.png){width="300"}
 
 Se você tiver criado vários projetos de revisão, é possível selecionar um no menu suspenso e acessar os comentários da revisão.
 

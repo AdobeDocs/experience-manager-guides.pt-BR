@@ -4,9 +4,9 @@ description: Saiba como gerenciar arquivos e pastas no AEM Guides. Copie e cole,
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-source-git-commit: 9e4fc7d482b6a37552d31ba2b07fae53018b4dc6
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '3263'
+source-wordcount: '3300'
 ht-degree: 0%
 
 ---
@@ -47,11 +47,11 @@ Esta seção explica como o Adobe Experience Manager Guides lida com as operaç�
 
 A operação de copiar e colar de pastas na interface do usuário do Assets é executada de forma assíncrona em segundo plano, permitindo que você continue trabalhando enquanto o sistema processa a solicitação. Uma mensagem pop-up é exibida para indicar que o processo foi iniciado.
 
-![](images/copy-folders-success-popup.png){width="350" align="left"}
+![](images/copy-folders-success-popup.png){width="350"}
 
 Quando a operação for concluída, uma notificação de sucesso ou falha será acionada para indicar se a operação foi bem-sucedida ou falhou.
 
-![](images/copy-folders-success-notification.png){width="650" align="left"}
+![](images/copy-folders-success-notification.png){width="650"}
 
 
 ## Arrastar e soltar arquivos
@@ -145,7 +145,7 @@ Para mover arquivos em massa, execute as seguintes etapas:
 
    >[!TIP]
    >
-   > Selecionar <img src="images/info-icon.svg" width="25">   próximo a qualquer campo para exibir mais detalhes sobre ele.
+   > Selecionar <img src="images/info-icon.svg" width="25"> próximo a qualquer campo para ver mais detalhes sobre ele.
 
 
    - **Adicionar sufixo a pastas duplicadas**: caso esteja movendo pastas com o mesmo nome, você deve selecionar esta opção. Por exemplo, na captura de tela anterior, o **caminho do Source** contém o nome das pastas a serem movidas. A pasta chamada topic existe em dois locais diferentes — test-A e test-B. Ao selecionar essa opção, as pastas serão movidas com êxito. A primeira pasta movida será chamada de topic, enquanto a segunda pasta será chamada topic0. A operação de movimentação adiciona um sufixo em séries sequenciais \(0, 1, 2 e assim por diante\) às pastas com o mesmo nome.
@@ -154,7 +154,7 @@ Para mover arquivos em massa, execute as seguintes etapas:
 
    - **Caminho do Source\(s\)**: especifique o local das pastas que deseja mover.
 
-      - Selecionar **Pasta de Navegação**  <img src="images/browse-folder-icon.svg" width="25">    para abrir a caixa de diálogo **Selecionar caminho**. Selecione as pastas que deseja mover e escolha **Selecionar** para concluir o processo. Você pode selecionar várias pastas colocadas em locais diferentes no navegador de caminho. O caminho das pastas selecionadas será mantido, permitindo que você as revise ou modifique facilmente ao reabrir a caixa de diálogo.
+      - Selecionar **Pasta de Navegação**  <img src="images/browse-folder-icon.svg" width="25"> para abrir a caixa de diálogo **Selecionar caminho**. Selecione as pastas que deseja mover e escolha **Selecionar** para concluir o processo. Você pode selecionar várias pastas colocadas em locais diferentes no navegador de caminho. O caminho das pastas selecionadas será mantido, permitindo que você as revise ou modifique facilmente ao reabrir a caixa de diálogo.
 
       - Você também pode digitar ou copiar e colar o local de origem. Pressione Enter para adicionar a pasta à lista.
 
@@ -186,7 +186,7 @@ Para mover arquivos em massa, execute as seguintes etapas:
 
    >[!TIP]
    >
-   > Selecionar <img src="images/info-icon.svg" width="25">   próximo a qualquer campo para exibir mais detalhes sobre ele.
+   > Selecionar <img src="images/info-icon.svg" width="25"> próximo a qualquer campo para ver mais detalhes sobre ele.
 
    - **Tamanho do lote**: especifique o número de arquivos a serem movidos em um único lote. Os valores padrão são 50 arquivos.
    - **Intervalo de suspensão (segundos)**: especifique o tempo em segundos que o processo aguardará antes de iniciar o próximo lote. Durante esse intervalo de suspensão, o sistema corrige as referências de e para os arquivos movidos. O intervalo de suspensão padrão é de 60 segundos.
@@ -203,7 +203,7 @@ Para mover arquivos em massa, execute as seguintes etapas:
 
    - **Caminho do Source\(s\)**: especifique o local das pastas que deseja mover.
 
-      - Selecionar **Pasta de Navegação**  <img src="images/browse-folder-icon.svg" width="25">    para abrir a caixa de diálogo **Selecionar caminho**. Selecione as pastas que deseja mover e escolha **Selecionar** para concluir o processo. Você pode selecionar várias pastas colocadas em locais diferentes no navegador de caminho. O caminho das pastas selecionadas será mantido, permitindo que você as revise ou modifique facilmente ao reabrir a caixa de diálogo.
+      - Selecionar **Pasta de Navegação**  <img src="images/browse-folder-icon.svg" width="25"> para abrir a caixa de diálogo **Selecionar caminho**. Selecione as pastas que deseja mover e escolha **Selecionar** para concluir o processo. Você pode selecionar várias pastas colocadas em locais diferentes no navegador de caminho. O caminho das pastas selecionadas será mantido, permitindo que você as revise ou modifique facilmente ao reabrir a caixa de diálogo.
 
       - Você também pode digitar ou copiar e colar o local de origem. Pressione Enter para adicionar a pasta à lista.
 

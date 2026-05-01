@@ -4,9 +4,9 @@ description: Use a marcação em massa de conteúdo no AEM Guides para melhorar 
 exl-id: 4c6639a3-333b-44ad-9aec-735a327c3320
 feature: Metadata Management
 role: User
-source-git-commit: 4b4abf5958f251da05257d34a68471d5f36969a3
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '722'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Marcação em massa de conteúdo DITA {#id179SG0TN05Z}
 
-![](images/test-version-info-table.svg){width="650" align="left"}
+![](images/test-version-info-table.svg){width="650"}
 
 As tags permitem agrupar ou classificar o conteúdo no repositório de conteúdo e também na saída publicada. Se você tiver aplicado tags ao seu conteúdo, poderá encontrar facilmente tópicos relacionados em um mapa DITA que podem ajudá-lo a criar conteúdo. Com a saída publicada, os usuários finais poderão localizar o conteúdo correto mais rapidamente com as tags apropriadas em vigor.
 
@@ -36,7 +36,7 @@ Use o recurso de marcação em massa para aplicar várias tags de uma só vez. E
 
 1. Selecione os tópicos ou submapas nos quais deseja aplicar tags.
 
-   ![](images/apply-tags-uuid.png){width="650" align="left"}
+   ![](images/apply-tags-uuid.png){width="650"}
 
 
    >[!NOTE]

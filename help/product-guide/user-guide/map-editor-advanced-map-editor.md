@@ -4,9 +4,9 @@ description: Conhecer os recursos do Editor de mapas no Adobe Experience Manager
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '2671'
+source-wordcount: '2703'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ As seguintes opções estão disponíveis na barra de ferramentas da exibição 
 
 Exibe a caixa de diálogo Selecionar arquivo. Navegue até o arquivo de tópico/mapa que você deseja inserir e escolha **Selecionar** para adicioná-lo ao mapa.
 
-![](images/insert-topic-reference-dialog.png){align="left"}
+![](images/insert-topic-reference-dialog.png)
 
 
 **Grupo de tópicos** - ![](images/topic-group.svg)
@@ -49,7 +49,7 @@ Insira o elemento `topicgroup`. Para obter mais informações sobre tópicos de 
 
 Exibe a caixa de diálogo Inserir Keydef. Use esta caixa de diálogo para definir qualquer definição de chave que você deseja usar no mapa.
 
-![](images/insert-key-definition-dialog.png){width="300" align="left"}
+![](images/insert-key-definition-dialog.png){width="300"}
 
 **Inserir Antes/Inserir Depois** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
@@ -111,7 +111,7 @@ Mostra ou oculta uma caixa de seleção para cada tópico. Você pode usar a cai
 
 Além de organizar tópicos no arquivo de mapa, você também pode executar as seguintes ações usando o menu Opções que aparece ao passar o mouse sobre um arquivo ou clicar com o botão direito do mouse no editor na exibição de layout:
 
-![](images/map-editor-options-menu.png){width="650" align="left"}
+![](images/map-editor-options-menu.png){width="650"}
 
 - **Adicionar**: você pode optar por adicionar um novo tópico ou uma referência vazia do Editor de Mapa:
    - **Referência vazia**: essa opção permite adicionar uma referência vazia ao mapa DITA. Você pode clicar duas vezes na referência vazia inserida posteriormente e adicionar os detalhes do tópico.
@@ -140,7 +140,7 @@ Se você tiver aplicado condições em um tópico, um ícone de filtro será exi
 
 A exibição **Author** permite editar o mapa DITA no Editor. Isso mostra a visualização WYSIWYG do Editor de mapas e alguns dos ícones exibidos na visualização Autor são iguais à visualização Layout.
 
-![](images/map-editor-author-view.png){align="left"}
+![](images/map-editor-author-view.png)
 
 Além disso, você pode exibir os seguintes ícones e executar as tarefas relacionadas na exibição Autor:
 
@@ -179,7 +179,7 @@ Perform the following steps to work with relationship tables in the Basic Map Ed
 
 1.  Select **Reltable** from the toolbar.
 
-    ![](images/reltable.png){width="650" align="left"}
+    ![](images/reltable.png){width="650"}
 
 1.  Drag-and-drop topics from the topic list to the Reltable editor.
 
@@ -187,13 +187,13 @@ Perform the following steps to work with relationship tables in the Basic Map Ed
     >
     > You can add topics from any folder in the References rail.
 
-    ![](images/create-reltable.png){width="550" align="left"}
+    ![](images/create-reltable.png){width="550"}
 
 1.  To add a header to your relationship table, click **Add Relheader**.
 
 1.  To add a column to your relationship table, click **Add a Column**.
 
-    ![](images/complete-reltable.png){width="550" align="left"}
+    ![](images/complete-reltable.png){width="550"}
 
 1.  Click **Save**.
 
@@ -241,7 +241,7 @@ Você pode criar uma tarefa de revisão do tópico atual ou mapear o arquivo dir
 
 Essa visualização permite editar o conteúdo em seu formato bruto, fornecendo controle total sobre a estrutura e a formatação.
 
-![](images/map-editor-source-view.png){align="left"}
+![](images/map-editor-source-view.png)
 
 
 Nesta exibição, a barra de ferramentas fornece opções básicas de edição de conteúdo e inserção disponíveis no menu suspenso **Menu**, incluindo Recortar, Copiar, Desfazer, Refazer, Excluir, Localizar e substituir, Rótulo de versão, Mesclar, Salvar como nova versão, Bloquear e Desbloquear.
@@ -252,7 +252,7 @@ O modo de Visualização renderiza o conteúdo como ele aparecerá na saída fin
 
 Além de poder exibir a posição de cada arquivo de tópico em um mapa, é desejável exibir o conteúdo do mapa em um fluxo consecutivo. O recurso Visualizar mapa permite visualizar todo o conteúdo do arquivo de mapa em um único clique. Não é necessário gerar uma saída do arquivo de mapa para visualizar como o mapa inteiro será exibido depois de publicado. Você pode simplesmente acessar a visualização do mapa e todos os tópicos e submapas são renderizados na forma de um livro.
 
-![](images/map-editor-preview.png){align="left"}
+![](images/map-editor-preview.png)
 
 >[!NOTE]
 >
@@ -268,7 +268,7 @@ Você pode executar as seguintes tarefas adicionais no modo de visualização:
   >
   > Se você não tiver direitos de edição, o tópico será aberto no modo somente leitura.
 
-  ![](images/edit-topic-preview-mode.png){width="650" align="left"}
+  ![](images/edit-topic-preview-mode.png){width="650"}
 
 - Pule para o tópico desejado selecionando o título do tópico na árvore de mapa \(no painel esquerdo\).
 
@@ -281,10 +281,10 @@ Quando um mapa é aberto no modo Visualização e você volta a ele a partir de 
 Você pode usar a funcionalidade Atualizar, disponível no modo Visualização do mapa, de duas maneiras:
 
 - **Atualização no nível do mapa**: selecionar o botão **Atualizar** atualiza a visualização do mapa inteiro (incluindo todos os tópicos) e leva você à primeira posição de rolagem para obter uma exibição clara.
-  ![](images/refresh-map.png){width="650" align="left"}
+  ![](images/refresh-map.png){width="650"}
 
 - **Atualização no nível do tópico**: selecionar **Atualizar tópico** no menu de contexto atualiza esse tópico específico, mantendo a posição de rolagem inalterada.
-  ![](images/refresh-topic.png){width="650" align="left"}
+  ![](images/refresh-topic.png){width="650"}
 
 **Outras maneiras de visualizar um arquivo de mapa**
 
@@ -298,11 +298,11 @@ Você pode acessar a visualização de um mapa em:
 
 - **Editor de Mapas**: no Editor de Mapas, selecione **Visualizar** no menu de opções para exibir a visualização do mapa atual.
 
-  ![](images/map-preview-icon.png){width="650" align="left"}
+  ![](images/map-preview-icon.png){width="650"}
 
   A visualização do mapa é exibida em uma caixa pop-up.
 
-  ![](images/map-editor-preview-pop-up.png){width="500" align="left"}
+  ![](images/map-editor-preview-pop-up.png){width="500"}
 
 **Mapear propriedades**
 
@@ -329,7 +329,7 @@ Para editar tópicos por meio de um mapa DITA, execute as seguintes etapas:
 
    É possível abrir vários tópicos no editor e cada tópico é aberto em uma nova guia no editor. Mesmo que o mapa DITA contenha submapas, os tópicos desses submapas também serão abertos em uma nova guia para edição. Se quiser exibir os tópicos em um submapa, selecione e expanda o submapa.
 
-   ![](images/web-editor-multiple-topics.png){align="left"}
+   ![](images/web-editor-multiple-topics.png)
 
    Se você selecionar um arquivo de mapa, o mapa será aberto em uma nova guia do Editor.
 
@@ -337,7 +337,7 @@ Para editar tópicos por meio de um mapa DITA, execute as seguintes etapas:
 
    - Você pode salvá-los individualmente. Se fechar sem salvar os tópicos, você verá uma caixa de diálogo solicitando que salve os tópicos não salvos:
 
-     ![](images/save-multiple-topics-new.png){width="300" align="left"}
+     ![](images/save-multiple-topics-new.png){width="300"}
 
      Você pode optar por salvar todos os tópicos selecionados ou desmarcar os tópicos que não deseja salvar.
 
@@ -349,7 +349,7 @@ Para editar tópicos por meio de um mapa DITA, execute as seguintes etapas:
 
    - Se o administrador tiver ativado a opção de desbloquear arquivos ao fechar, você receberá um prompt para salvar os arquivos sempre que os arquivos bloqueados forem fechados. Com essa opção ativada, ao fechar o editor com arquivos alterados, você verá a lista de arquivos bloqueados que precisam ser salvos. Os arquivos bloqueados são mostrados com um ícone de bloqueio:
 
-     ![](images/save-on-close-new.png){width="350" align="left"}
+     ![](images/save-on-close-new.png){width="350"}
 
 ## Painel direito no Editor de mapa
 
@@ -361,7 +361,7 @@ O painel Propriedades de conteúdo contém informações sobre o tipo de tópico
 
 - **Outros atributos** Se o administrador tiver criado um perfil para atributos, você obterá esses atributos junto com seus valores configurados. Usando o painel de propriedades de conteúdo, você pode escolher esses atributos e atribuí-los ao conteúdo relevante em seu tópico. Você também pode atribuir atributos configurados pelo administrador em **Exibir atributos**. Os atributos definidos para um elemento são exibidos na exibição Layout e Estrutura de Tópicos. Isso ajuda você a ter uma olhada rápida em todos os tópicos em um mapa para o qual um determinado atributo é definido. Por exemplo, todos os tópicos que têm o atributo `audience` são definidos como `US`.
 
-  ![exibição de layout](images/layout-inline-attributes.png){width="650" align="left"}
+  ![exibição de layout](images/layout-inline-attributes.png){width="650"}
 
 
   Para obter mais detalhes, consulte [Exibir atributos](../cs-install-guide/workspace-settings.md#display-attributes).

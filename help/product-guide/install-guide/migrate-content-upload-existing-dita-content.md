@@ -5,7 +5,7 @@ exl-id: 1dde8a29-301f-461e-b598-2a8cab61bf3d
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1209'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Execute as seguintes etapas para usar o AEM Connector do FrameMaker para fazer u
 
 1. Abra a caixa de diálogo **Gerenciador de Conexões**.
 
-   ![](assets/fm-aem-connector.png){width="550" align="left"}
+   ![](assets/fm-aem-connector.png){width="550"}
 
 1. Insira os seguintes detalhes para se conectar ao repositório do AEM:
 
@@ -64,7 +64,7 @@ Execute as seguintes etapas para usar o AEM Connector do FrameMaker para fazer u
 
    Depois que a conexão for estabelecida, o Assets do repositório do AEM será exibido na janela Gerenciador do repositório.
 
-   ![](assets/fm-repo-manager.png){width="550" align="left"}
+   ![](assets/fm-repo-manager.png){width="550"}
 
    Clicar com o botão direito do mouse em qualquer arquivo ou pasta permite executar operações relacionadas. Por exemplo, se você clicar com o botão direito do mouse em uma pasta, receberá opções para carregar um arquivo, carregar um arquivo com dependências, carregar uma pasta inteira e assim por diante.
 

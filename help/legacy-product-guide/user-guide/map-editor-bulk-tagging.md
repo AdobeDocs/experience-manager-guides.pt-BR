@@ -5,7 +5,7 @@ feature: Metadata Management
 role: User
 hide: true
 exl-id: b320e34f-ee0a-4cc3-b4f6-d322fbb29844
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Use o recurso de marcação em massa para aplicar várias tags de uma só vez. E
 
 1. Selecione os tópicos ou submapas nos quais deseja aplicar tags.
 
-   ![](images/apply-tags-uuid.png){width="650" align="left"}
+   ![](images/apply-tags-uuid.png){width="650"}
 
 
    >[!NOTE]

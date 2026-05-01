@@ -3,7 +3,7 @@ title: Sugestões inteligentes alimentadas por IA para criar conteúdo
 description: Saiba como visualizar e utilizar sugestões inteligentes habilitadas por IA no Editor da Web.
 hide: true
 exl-id: 30c85d46-61ba-486c-979c-1a2ed95f5a32
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 0%
@@ -40,28 +40,28 @@ Execute as seguintes etapas para exibir as sugestões inteligentes para adiciona
 
 
 1. Você pode exibir as sugestões inteligentes no painel de sugestões.  O Experience Manager Guides fornece sugestões de conteúdo que é contextualmente semelhante ou tem o mesmo significado. Por exemplo, você pode pesquisar pelo tópico que contém o número exato da versão, como &quot;versão 2023.03.12&quot;. Você também pode pesquisar por &quot;Adobe tem sede em San Jose, Califórnia&quot; e encontrar conteúdo semelhante a &quot;San Jose tem o quartel de muitas empresas de software, como a Adobe&quot;.
-1. Select **Content Information** ![Content Information](images/smart-suggestions-content-info-icon.svg) to view the details.
+1. Selecione **Informações de Conteúdo** ![Informações de Conteúdo](images/smart-suggestions-content-info-icon.svg) para exibir os detalhes.
 
-   ![Content information panel](images/smart-suggestions-content-information.png){width="300" align="left"}
+   ![Painel de informações de conteúdo](images/smart-suggestions-content-information.png){width="300"}
 
-   *View the detailed information about the content reference.*
+   *Exibir as informações detalhadas sobre a referência de conteúdo.*
 
-   1. The title of the topic that contains the content reference is displayed as a hyperlink.
-   1. The path of the file that contains the content reference.
-   1. The type of reference where the content is referred.
-   1. The names of DITA files where the topic is referred to are displayed as hyperlinks.
-1. Select **Preview** ![preview icon](./images/expand-icon.svg) to compare the current content with the suggested content. This helps you compare the differences and determine if you want to add the content reference for the suggested content and make it consistent or retain your current content.
+   1. O título do tópico que contém a referência de conteúdo é exibido como um hiperlink.
+   1. O caminho do arquivo que contém a referência de conteúdo.
+   1. O tipo de referência para o qual o conteúdo é referenciado.
+   1. Os nomes dos arquivos DITA para os quais o tópico é referido são exibidos como hiperlinks.
+1. Selecione o **ícone de visualização** ![para comparar o conteúdo atual com o conteúdo sugerido. &#x200B;](./images/expand-icon.svg)Isso o ajuda a comparar as diferenças e determinar se deseja adicionar a referência de conteúdo para o conteúdo sugerido e torná-lo consistente ou manter o conteúdo atual.
 
-   ![Suggest reusable content preview](images/ai-assistant-suggest-reusable-content.png)
+   ![Sugerir visualização de conteúdo reutilizável](images/ai-assistant-suggest-reusable-content.png)
 
-   *Preview the comparison between the current content and the suggested content.*
+   *Visualize a comparação entre o conteúdo atual e o conteúdo sugerido.*
 
-1. Click **Accept** to add the suggested content reference in the **Suggest reusable content** preview.
-1. You can also select **Accept** or **Dismiss** in the suggestions panel for the appropriate recommendations.
+1. Clique em **Aceitar** para adicionar a referência de conteúdo sugerida na visualização de **Sugerir conteúdo reutilizável**.
+1. Você também pode selecionar **Aceitar** ou **Dispensar** no painel de sugestões para as recomendações apropriadas.
 
 
-This intelligent feature is handy and minimizes the effort of manual content searching, allowing you to concentrate more on generating new content. It also facilitates better team collaboration and helps maintain consistency in the content created by various authors.
+Esse recurso inteligente é útil e minimiza o esforço de pesquisa manual de conteúdo, permitindo que você se concentre mais na geração de novo conteúdo. Também facilita uma melhor colaboração em equipe e ajuda a manter a consistência no conteúdo criado por vários autores.
 
 >[!NOTE]
 >
->Smart suggestions don&#39;t retain your data beyond the current session. For responses, smart suggestions rely solely upon the index created on the content residing within your internal database. External AI tools are not used, ensuring your data remains within the system.
+>As sugestões inteligentes não retêm seus dados além da sessão atual. Para respostas do, as sugestões inteligentes dependem apenas do índice criado no conteúdo que reside no banco de dados interno. As ferramentas de IA externa não são usadas, garantindo que os dados permaneçam no sistema.

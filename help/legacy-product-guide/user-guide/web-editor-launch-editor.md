@@ -5,7 +5,7 @@ feature: Authoring, Web Editor
 role: User
 hide: true
 exl-id: 374042e4-0f1c-44cf-926c-c9fefa4b1de0
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 0%
@@ -26,11 +26,11 @@ As seções a seguir abordam os detalhes de como você pode acessar e iniciar o 
 
 Ao fazer logon no AEM, você verá a página Navegação:
 
-![](images/web-editor-from-navigation-page.png){width="800" align="left"}
+![](images/web-editor-from-navigation-page.png){width="800"}
 
 Ao clicar no link **Guias**, você será direcionado diretamente para o Editor da Web.
 
-![](images/web-editor-launch-page.png){width="800" align="left"}
+![](images/web-editor-launch-page.png){width="800"}
 
 Como você iniciou o Editor da Web sem selecionar nenhum arquivo, uma tela em branco do Editor da Web é exibida. Abra um arquivo para edição no repositório do AEM ou em sua coleção Favoritos.
 
@@ -67,7 +67,7 @@ Outro local onde você pode iniciar o Editor da Web é na interface do usuário 
 
    .
 
-   ![](images/assets_ui_with_uuid_cs.png){width="800" align="left"}
+   ![](images/assets_ui_with_uuid_cs.png){width="800"}
 
    >[!IMPORTANT]
    >
@@ -89,15 +89,15 @@ Outro local onde você pode iniciar o Editor da Web é na interface do usuário 
    >
    > Se quiser abrir vários tópicos para edição, selecione os tópicos desejados na interface do usuário do Assets e clique em Editar. Certifique-se de que o navegador não tenha o bloqueador de pop-ups ativado, caso contrário, somente o primeiro tópico na lista selecionada será aberto para edição.
 
-   ![](images/edit-from-preview_cs.png){width="800" align="left"}
+   ![](images/edit-from-preview_cs.png){width="800"}
 
    Se não quiser visualizar um tópico e quiser abri-lo diretamente no Editor da Web, clique no ícone Editar no menu de ação rápida da exibição de cartão:
 
-   ![](images/edit-topic-from-quick-action_cs.png){width="800" align="left"}
+   ![](images/edit-topic-from-quick-action_cs.png){width="800"}
 
 1. Clique em **Editar** para abrir o tópico no Editor da Web.
 
-   ![](images/edit-mode.png){width="800" align="left"}
+   ![](images/edit-mode.png){width="800"}
 
 
 ## Console de mapa DITA {#id2056BG090BF}
@@ -116,7 +116,7 @@ Para abrir o Editor da Web no console de mapa DITA, siga estas etapas:
 
 1. Clique em **Editar tópico**.
 
-   ![](images/edit-topics-map-console_cs.png){width="800" align="left"}
+   ![](images/edit-topics-map-console_cs.png){width="800"}
 
 1. O tópico é aberto no Editor da Web.
 

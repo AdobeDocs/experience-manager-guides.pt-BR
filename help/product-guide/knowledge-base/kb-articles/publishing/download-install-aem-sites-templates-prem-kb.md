@@ -5,9 +5,9 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: aa843a72-ff0d-4c9a-a87d-48d099087b5e
-source-git-commit: 4c564a0ffaa8f287bcaf012634d49dbf1e0682b4
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Antes de continuar com a configuração, verifique se os seguintes pré-requisit
    5. Desmarque a configuração **Usar mapeamento de componente herdado**.
    6. Selecione **Adicionar** para criar a predefinição.
 
-      ![Nova caixa de diálogo de predefinição de saída](/help/product-guide/knowledge-base/kb-articles/assets/publishing/new-output-preset.png){width="350" align="left"}
+      ![Nova caixa de diálogo de predefinição de saída](/help/product-guide/knowledge-base/kb-articles/assets/publishing/new-output-preset.png){width="350"}
 
 
 2. **Configurar predefinição do site AEM:** Há duas opções para configurar o site pronto para uso (OOTB):
@@ -64,14 +64,14 @@ Antes de continuar com a configuração, verifique se os seguintes pré-requisit
       - Caminho de publicação: `aemg-docs/en/docs/product1`
       - Modelo da página de tópico: Página de tópico.
 
-      ![Usar lista suspensa de sites](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown.png){width="350" align="left"}
+      ![Usar lista suspensa de sites](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown.png){width="350"}
 
    **Opção 2: Usar o Caminho do Site**
 
    1. Defina o **caminho do site** manualmente como `/content/aemg-docs/en/docs/product1`.
    2. Verifique se o **modelo de página de Tópico** está automaticamente definido como Página de Tópico.
 
-      ![Usar Caminho do Site](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path.png){width="350" align="left"}
+      ![Usar Caminho do Site](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path.png){width="350"}
 
 3. **Salvar a predefinição:** Salve as alterações feitas na predefinição.
 
@@ -86,11 +86,11 @@ Antes de continuar com a configuração, verifique se os seguintes pré-requisit
    2. Crie uma nova página de produto na estrutura do site OOTB.
    3. Navegue até **Documentação do AEMG** > **Inglês** > **Documentação**.
 
-      ![Criar página na estrutura de Site do AEM &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-page.png){width="350" align="left"}
+      ![Criar página na estrutura de Site do AEM &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-page.png){width="350"}
 
    4. Selecione o bloco **Página inicial** e selecione **Avançar**.
 
-      ![Selecionar bloco da página inicial](/help/product-guide/knowledge-base/kb-articles/assets/publishing/home-page-tile.png){width="350" align="left"}
+      ![Selecionar bloco da página inicial](/help/product-guide/knowledge-base/kb-articles/assets/publishing/home-page-tile.png){width="350"}
 
    5. Insira o **Título** e o **Nome** da página.
    6. Selecione **Criar**.

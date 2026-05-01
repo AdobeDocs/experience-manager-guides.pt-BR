@@ -4,7 +4,7 @@ description: Saiba como criar atributos condicionais no AEM Guides. Use atributo
 exl-id: 5ec7666e-df6b-4b0d-b6c2-cdc395fcccc5
 feature: Publishing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Para definir atributos condicionais, execute as seguintes etapas:
 
    A captura de tela a seguir mostra a definição do atributo `platform` com valor de `unix` e rótulo de `Red Hat Linux`.
 
-   ![](images/add-profile-new.png){align="left"}
+   ![](images/add-profile-new.png)
 
 1. Se quiser adicionar mais valores para o mesmo atributo, selecione o ícone **+** e insira valor e rótulo adicionais.
 
@@ -56,6 +56,6 @@ Para definir atributos condicionais, execute as seguintes etapas:
 
 O atributo `platform` está armazenado no sistema. Sempre que um autor decidir usar o atributo `platform` em um tópico DITA em uma pasta, ele poderá exibir os valores na guia Propriedades no Editor.
 
-![](images/properties-tab.png){width="350" align="left"}
+![](images/properties-tab.png){width="350"}
 
 **Tópico pai:**&#x200B;[&#x200B; Geração de saída](generate-output.md)

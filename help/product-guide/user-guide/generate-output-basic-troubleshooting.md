@@ -4,7 +4,7 @@ description: Resolva problemas com a solução básica de problemas no AEM Guide
 exl-id: 57b88291-b5a3-4931-b3ed-f2b2ce7a463c
 feature: Publishing, Troubleshooting
 role: User
-source-git-commit: e049cb1f3d091c701285dbe89194058b93d5e2e4
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '776'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Execute as seguintes etapas para exibir e verificar o arquivo de log de geraçã
 
    A coluna **Configuração de geração** de **Saídas Geradas** mostra a cor para dar uma dica visual sobre o sucesso ou falha da geração de saída para diferentes predefinições de saída.
 
-   ![](images/output-general-settings-new.png){width="300" align="left"}
+   ![](images/output-general-settings-new.png){width="300"}
 
    Na captura de tela acima:
 
@@ -39,7 +39,7 @@ Execute as seguintes etapas para exibir e verificar o arquivo de log de geraçã
 
    O arquivo de log é aberto em uma nova guia.
 
-   ![](images/log-file-new.png){align="left"}
+   ![](images/log-file-new.png)
 
 1. Aplique os seguintes filtros para realçar o texto no arquivo de log:
    - **Fatal**: realça os erros fatais no arquivo de log com a cor vermelho-escuro.
@@ -75,13 +75,13 @@ Execute as seguintes etapas para copiar e verificar o arquivo de log de geraçã
 
    No trecho de arquivo de log de exemplo a seguir, você pode exibir a mensagem `BUILD FAILED` junto com o motivo do erro.
 
-   ![](images/dita-error-in-log-file.png){width="650" align="left"}
+   ![](images/dita-error-in-log-file.png){width="650"}
 
    - *erro relacionado ao Experience Manager Guides*: o outro tipo de erro que você pode identificar no arquivo de log está relacionado ao próprio processo do Experience Manager Guides. Nesse caso, o arquivo de mapa DITA é analisado com sucesso, mas o processo de geração de saída falha devido a algum erro interno no Experience Manager Guides. Para esse tipo de erro, você deve procurar ajuda da equipe de suporte técnico.
 
    No trecho de arquivo de log de exemplo a seguir, você pode exibir a mensagem `BUILD SUCCESSFUL`, seguida de outro erro técnico.
 
-   ![](images/process-error-in-log-file.png){width="650" align="left"}
+   ![](images/process-error-in-log-file.png){width="650"}
 
 
 

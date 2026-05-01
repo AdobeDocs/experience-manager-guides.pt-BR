@@ -4,9 +4,9 @@ description: Gerencie o processo de geração de saída no AEM Sites, PDF, HTML5
 feature: Publishing
 role: User
 exl-id: 11bb3604-f45c-4df7-be74-588dbf8594af
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '783'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Depois de iniciar a tarefa de geração de saída para um mapa ou gerar novament
 
 1. Selecione **SAÍDAS**.
 
-   ![](images/output-queued.png){align="left"}
+   ![](images/output-queued.png)
 
    A página Saídas é dividida em duas partes:
 
@@ -64,17 +64,17 @@ Execute as seguintes etapas para cancelar uma tarefa de geração de saída no c
 
 1. Selecione o ícone **Cancelar este trabalho**.
 
-   ![](images/cancel-publish-task-map-console.png){align="left"}
+   ![](images/cancel-publish-task-map-console.png)
 
 1. Selecione **Sim** no prompt de mensagem **Confirmar cancelamento**.
 
-   ![](images/confirm-cancel-output-map-console.png){align="left"}
+   ![](images/confirm-cancel-output-map-console.png)
 
    Se a tarefa ainda não tiver sido iniciada, o comando cancel será executado na tarefa. Para uma tarefa que está sendo cancelada, o Status é definido como Canceling.
 
    Quando a tarefa for cancelada com êxito, ela será movida para a lista **Saídas Geradas** com o status **Cancelada**. Quando você passa o mouse sobre a tarefa cancelada, ele mostra o nome do usuário que cancelou a tarefa. Na captura de tela a seguir, a tarefa *HTML5* foi cancelada.
 
-   ![](images/cancelled-output-task.png){align="left"}
+   ![](images/cancelled-output-task.png)
 
 
 ## Excluir uma tarefa de saída
@@ -91,7 +91,7 @@ Execute as seguintes etapas para remover uma tarefa de saída da lista Saída Ge
 
 1. Selecione o ícone de exclusão.
 
-   ![](images/delete-output-task.png){align="left"}
+   ![](images/delete-output-task.png)
 
 1. Selecione **Sim** no prompt de mensagem **Confirmar Exclusão**.
 

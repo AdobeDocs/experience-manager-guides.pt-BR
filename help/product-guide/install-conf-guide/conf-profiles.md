@@ -4,9 +4,10 @@ description: Saiba como Configurar perfis globais ou de nível de pasta
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 0292a9cd-0f94-4039-8758-1740106feb71
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '5943'
+source-wordcount: '6078'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ Além disso, você pode delegar as configurações específicas da pasta a um de
 
 Ao usar o bloco Perfis de pasta nas configurações de Guias, você pode definir as configurações nas seguintes guias:
 
-![](assets/folder-profile-tabs.png){width="800" align="left"}
+![](assets/folder-profile-tabs.png){width="800"}
 
 - **Geral**: a guia geral só está disponível quando você está definindo as configurações no nível da pasta \(ou projeto/produto\). É possível definir configurações, como os caminhos de pasta aos quais as configurações serão aplicáveis e os usuários que terão direitos administrativos para criar ou atualizar configurações.
 
@@ -97,7 +98,7 @@ Execute as seguintes etapas para configurar o perfil global:
 
    Pela primeira vez, a página Perfis de pasta é exibida somente com o bloco Perfil global.
 
-   ![](assets/folder-profile-global.png){width="800" align="left"}
+   ![](assets/folder-profile-global.png){width="800"}
 
 1. Clique no bloco **Perfil Global**.
 
@@ -126,7 +127,7 @@ Execute as seguintes etapas para configurar um perfil no nível da pasta:
 
 1. Clique em **Criar**.
 
-   ![](assets/create-folder-profile.png){width="300" align="left"}
+   ![](assets/create-folder-profile.png){width="300"}
 
 1. Insira os seguintes detalhes na caixa de diálogo **Criar Perfil de Pasta**:
    - Nome do perfil da pasta.
@@ -221,7 +222,7 @@ Se você estiver usando um atributo personalizado, ele deverá ser um atributo D
 
    >[!IMPORTANT]
    >
-   > O arquivo DTD especializado deve fazer parte da implantação do código personalizado. DTDs em /apps fazem parte da implantação do produto e, portanto, é substituído pela instalação de qualquer nova versão. É recomendável adicionar um DTD especializado em /var/dxml/dita\_resources na pasta do projeto e incluir o caminho do DTD/catálogo no perfil DITA. Para obter mais informações, consulte [Integrar especialização DITA](dita-ot-specialization.md#id211MB0E00XA).
+   > O arquivo DTD especializado deve fazer parte da implantação do código personalizado. DTDs em /apps fazem parte da implantação do produto e, portanto, é substituído pela instalação de qualquer nova versão. É recomendável adicionar um DTD especializado em /var/dxml/dita\_resources na pasta do projeto e incluir o caminho do DTD/catálogo no perfil DITA.Para obter mais informações, consulte [Integrar especialização de DITA](dita-ot-specialization.md#id211MB0E00XA).
 
 1. Use o Gerenciador de pacotes para baixar o arquivo /libs/fmdita/config/condAttrList.xml:
 
@@ -241,7 +242,7 @@ Se você estiver usando um atributo personalizado, ele deverá ser um atributo D
 
    >[!IMPORTANT]
    >
-   > O arquivo DTD especializado deve fazer parte da implantação do código personalizado. Os DTDs em /etc fazem parte da implantação do produto e, portanto, são substituídos pela instalação de qualquer nova versão. É recomendável adicionar um DTD especializado em /apps dentro da pasta do projeto, e incluir o caminho do catálogo/DTD no perfil DITA. Para obter mais informações, consulte [Integrar especialização DITA](dita-ot-specialization.md#id211MB0E00XA).
+   > O arquivo DTD especializado deve fazer parte da implantação do código personalizado. Os DTDs em /etc fazem parte da implantação do produto e, portanto, são substituídos pela instalação de qualquer nova versão. É recomendável adicionar um DTD especializado em /apps dentro da pasta do projeto, e incluir o caminho do catálogo/DTD no perfil DITA.Para obter mais informações, consulte [Integrar especialização de DITA](dita-ot-specialization.md#id211MB0E00XA).
 
 1. Abra a página Configuração do console da Web do Adobe Experience Manager.
 
@@ -303,7 +304,7 @@ Execute as seguintes etapas para adicionar o tópico, mapa ou modelos do PDF em 
    >
    > Por padrão, todos os modelos são armazenados na pasta /content/dam/dita-templates. A pasta `dita-templates` contém subpastas `topics`, `maps` e `PDF` para armazenar os modelos de tópico, mapa e PDF. Você pode adicionar seus modelos personalizados \(.dita,.xml ou .ditamapfiles\) nas pastas de modelo padrão. Depois de adicionar o modelo à pasta padrão, é possível adicioná-los ao perfil global ou de pasta. Para obter mais informações sobre como criar modelos personalizados usando o Editor da Web, consulte [Criar modelo de criação personalizado](#id1917D0EG0HJ).
 
-   ![](assets/search-author-temp.png){width="800" align="left"}
+   ![](assets/search-author-temp.png){width="800"}
 
 1. Adicione os modelos de tópico, mapa e PDF necessários ao seu perfil.
 
@@ -311,7 +312,7 @@ Execute as seguintes etapas para adicionar o tópico, mapa ou modelos do PDF em 
 
    - Escolha **Pesquisar ou Digitar** e digite ou selecione o nome de um modelo na lista suspensa. A lista suspensa consiste em todos os modelos padrão e qualquer novo modelo criado.
 
-     ![](assets/default-template-list.png){width="800" align="left"}
+     ![](assets/default-template-list.png){width="800"}
 
    - Clique em **Procurar** e selecione um modelo do DAM.
 
@@ -319,7 +320,7 @@ Execute as seguintes etapas para adicionar o tópico, mapa ou modelos do PDF em 
 
    Os modelos selecionados são adicionados à lista de modelos.
 
-   ![](assets/author-templ-added-list.png){width="800" align="left"}
+   ![](assets/author-templ-added-list.png){width="800"}
 
    >[!NOTE]
    >
@@ -365,7 +366,7 @@ Execute as seguintes etapas para adicionar o tópico ou mapear modelos em um per
    >
    > Por padrão, todos os modelos de criação são armazenados na pasta /content/dam/dita-templates. A pasta `dita-templates` contém subpastas `topics` e `maps` para armazenar o tópico e mapear modelos. Você pode adicionar seus modelos personalizados \(.dita,.xml ou .ditamapfiles\) nas pastas de modelo padrão. Depois de adicionar o modelo à pasta padrão, é possível adicioná-los ao perfil global ou de pasta. Para obter mais informações sobre como criar modelos personalizados usando o Editor da Web, consulte [Criar modelo de criação personalizado](#id1917D0EG0HJ).
 
-   ![](assets/search-author-temp.png){width="550" align="left"}
+   ![](assets/search-author-temp.png){width="550"}
 
 1. Adicione o tópico necessário e mapeie os modelos ao seu perfil.
 
@@ -373,7 +374,7 @@ Execute as seguintes etapas para adicionar o tópico ou mapear modelos em um per
 
    - Escolha **Pesquisar ou Digitar** e digite ou selecione o nome de um modelo na lista suspensa. A lista suspensa consiste em todos os modelos padrão e qualquer novo modelo criado.
 
-     ![](assets/default-template-list.png){width="350" align="left"}
+     ![](assets/default-template-list.png){width="350"}
 
    - Clique em **Procurar** e selecione um modelo do DAM.
 
@@ -381,7 +382,7 @@ Execute as seguintes etapas para adicionar o tópico ou mapear modelos em um per
 
    Os modelos selecionados são adicionados à lista de modelos.
 
-   ![](assets/author-templ-added-list.png){width="550" align="left"}
+   ![](assets/author-templ-added-list.png){width="550"}
 
    >[!NOTE]
    >
@@ -536,7 +537,7 @@ Execute as seguintes etapas para definir a configuração de IA padrão no perfi
 
 1. Na página do perfil, selecione a guia **Configuração de IA**.
 
-   ![Guia de configuração de IA no perfil global](assets/global-profile-AI-configuration-cs.png) {width="800" align="left"}
+   ![Guia de configuração de IA no perfil global](assets/global-profile-AI-configuration-cs.png) {width="800"}
 
 1. Selecione **Editar**.
 1. Como administrador, você pode definir as seguintes configurações:
@@ -679,7 +680,7 @@ Essa configuração controla a barra de ferramentas e os outros elementos da int
 
 >[!TAB No local]
 
-Essa configuração controla a barra de ferramentas e os outros elementos da interface do usuário do Editor da Web. Clique no ícone **Baixar** para baixar o arquivo ui\_config.json mais recente em seu sistema local. Em seguida, é possível fazer alterações no arquivo e fazer o upload da mesma maneira. Clique no ícone **Baixar padrão** para baixar o arquivo padrão ui\_config.json no sistema local. Você sempre pode baixar o arquivo padrão, fazer alterações nele e fazer upload dele.Dependendo de onde você estiver fazendo upload do arquivo no perfil global ou de pasta, as alterações serão aplicadas adequadamente. Para obter mais detalhes sobre como personalizar o Editor de XML usando o arquivo ui\_config.json, consulte [Personalizar barra de ferramentas](customize-toolbar.md#).
+Essa configuração controla a barra de ferramentas e os outros elementos da interface do usuário do Editor da Web. Clique no ícone **Baixar** para baixar o arquivo ui\_config.json mais recente em seu sistema local. Em seguida, é possível fazer alterações no arquivo e fazer o upload da mesma maneira. Clique no ícone **Baixar padrão** para baixar o arquivo padrão ui\_config.json no sistema local. Você sempre pode baixar o arquivo padrão, fazer alterações nele e carregá-lo.Dependendo de onde você estiver fazendo upload do arquivo no perfil global ou de nível de pasta, as alterações serão aplicadas adequadamente. Para obter mais detalhes sobre como personalizar o Editor de XML usando o arquivo ui\_config.json, consulte [Personalizar barra de ferramentas](customize-toolbar.md#).
 
 >[!ENDTABS]
 
@@ -747,8 +748,3 @@ No exemplo acima, o &quot;label1&quot; é o identificador para a sequência do r
 **Roteiro**
 
 Se os autores trabalharem com um mapa raiz específico, você poderá navegar até esse mapa e selecioná-lo aqui. Observe que é possível definir o mapa de roteiro somente para um perfil de nível de pasta.
-
-
-
-
-

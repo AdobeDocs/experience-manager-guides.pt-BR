@@ -2,9 +2,9 @@
 title: Sugestões inteligentes alimentadas por IA para criar conteúdo
 description: Saiba como visualizar e utilizar sugestões inteligentes habilitadas por IA no Editor da Web.
 exl-id: 23c5285e-0d4f-484a-a062-fe1ba1608b8d
-source-git-commit: dd6fae108ddca23d36615fe38d176723bc4cfe86
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '690'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Execute as seguintes etapas para exibir as sugestões inteligentes para adiciona
 1. Você pode exibir as sugestões inteligentes no painel de sugestões.  O Experience Manager Guides fornece sugestões de conteúdo que é contextualmente semelhante ou tem o mesmo significado. Por exemplo, você pode pesquisar pelo tópico que contém o número exato da versão, como &quot;versão 2023.03.12&quot;. Você também pode pesquisar por &quot;Adobe tem sede em San Jose, Califórnia&quot; e encontrar conteúdo semelhante a &quot;San Jose tem o quartel de muitas empresas de software, como a Adobe&quot;.
 1. Selecione **Informações de Conteúdo** ![Informações de Conteúdo](images/smart-suggestions-content-info-icon.svg) para exibir os detalhes.
 
-   ![Painel de informações de conteúdo](images/smart-suggestions-content-information.png){width="300" align="left"}
+   ![Painel de informações de conteúdo](images/smart-suggestions-content-information.png){width="300"}
 
    *Exibir as informações detalhadas sobre a referência de conteúdo.*
 
@@ -49,7 +49,7 @@ Execute as seguintes etapas para exibir as sugestões inteligentes para adiciona
    1. O caminho do arquivo que contém a referência de conteúdo.
    1. O tipo de referência para o qual o conteúdo é referenciado.
    1. Os nomes dos arquivos DITA para os quais o tópico é referido são exibidos como hiperlinks.
-1. Selecione o **ícone de visualização** ![para comparar o conteúdo atual com o conteúdo sugerido. &#x200B;](./images/expand-icon.svg) Isso o ajuda a comparar as diferenças e determinar se deseja adicionar a referência de conteúdo para o conteúdo sugerido e torná-lo consistente ou manter o conteúdo atual.
+1. Selecione o **ícone de visualização** ![para comparar o conteúdo atual com o conteúdo sugerido. &#x200B;](./images/expand-icon.svg)Isso o ajuda a comparar as diferenças e determinar se deseja adicionar a referência de conteúdo para o conteúdo sugerido e torná-lo consistente ou manter o conteúdo atual.
 
    ![Sugerir visualização de conteúdo reutilizável](images/ai-assistant-suggest-reusable-content.png)
 

@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: c743baac-b6c1-4684-bbd1-8f9834ab272a
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '766'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 Execute as seguintes etapas para importar os arquivos do Schematron:
 
-![](images/scematron-panel-add.png){width="300" align="left"}
+![](images/scematron-panel-add.png){width="300"}
 
 1. Navegue até a pasta desejada (onde deseja fazer upload dos arquivos) em *Exibição do Repositório*.
 1. Clique no ícone **Opções** para abrir o menu de contexto e escolher **Carregar Assets**.
@@ -41,7 +41,7 @@ Após importar os arquivos do Schematron, você pode editá-los no Editor da Web
 * Deve haver pelo menos um topicref no mapa.
 
 Quando você abre um tópico no Editor da Web, um painel Validação do Schematron é exibido à direita. Execute as seguintes etapas para adicionar e validar um tópico ou mapa com um arquivo do Schematron:
-![](images/schematron-validate.png){width="300" align="left"}
+![](images/schematron-validate.png){width="300"}
 
 1. Clique no ícone Esquematron () para abrir o painel Esquematron.
 1. Use Adicionar arquivo de esquema para adicionar arquivos de esquema.

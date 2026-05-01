@@ -4,9 +4,9 @@ description: Use o painel de geração rápida no AEM Guides. Saiba como gerar e
 exl-id: 5de04980-91d7-4bbc-a4b7-9bfd60ccf3c7
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ O AEM Guides fornece um painel **Geração rápida** integrado ao Editor da Web.
 >
 > O painel **Geração rápida** é exibido para o mapa DITA aberto no painel Exibição de mapa.
 
-![](images/quick-generate-map-view.png){align="left"}
+![](images/quick-generate-map-view.png)
 
 Execute as seguintes etapas para gerar a saída do painel **Geração rápida**:
 

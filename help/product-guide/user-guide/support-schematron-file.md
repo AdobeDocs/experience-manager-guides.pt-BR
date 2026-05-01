@@ -4,9 +4,9 @@ description: Saiba como importar e validar um tópico DITA, usar instruções de
 exl-id: ed07a5ec-6adc-43a3-8f03-248b8c963e9a
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: dd058ef30707716054279f16527adb286a9deb8d
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '982'
+source-wordcount: '984'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Após importar os arquivos do Schematron, você pode editá-los no Editor. Você
 
 Quando você abre um tópico no Editor, um painel Validação do Schematron é exibido à direita. Execute as seguintes etapas para adicionar e validar um tópico ou mapa com um arquivo do Schematron:
 
-![](images/schematron-panel.png){width="350" align="left"}
+![](images/schematron-panel.png){width="350"}
 
 1. Selecione o ícone Esquematron para abrir o painel Esquematron.
 1. Use **Adicionar Arquivo do Esquematron** para adicionar arquivos do Esquematron.
@@ -48,7 +48,7 @@ Quando você abre um tópico no Editor, um painel Validação do Schematron é e
    >
    > Quando um arquivo de esquema inválido é adicionado, uma mensagem de erro é exibida no painel Validação.
 
-   ![](images/schematron-panel-error.png){width="350" align="left"}
+   ![](images/schematron-panel-error.png){width="350"}
 
 1. Se o arquivo do Schematron não tiver erros, ele será adicionado e listado no painel Validação. Uma mensagem de erro é exibida para o arquivo do Schematron contendo erros.
 
@@ -73,7 +73,7 @@ O suporte ao Schematron no Editor ajuda a validar os arquivos em relação a um 
 
 Os resultados da validação são exibidos com base no atributo de função definido no arquivo do Schematron. Problemas são categorizados como `Fatal`, `Error`, `Warn` ou `Info`, com uma contagem visível para cada categoria no painel Validação.
 
-![](images/schematron-validation-errors.png){width="350" align="left"}
+![](images/schematron-validation-errors.png){width="350"}
 
 Para determinar a gravidade de um problema, o valor _que diferencia maiúsculas de minúsculas_ do atributo de função definido no arquivo Schematron correspondente é avaliado.
 

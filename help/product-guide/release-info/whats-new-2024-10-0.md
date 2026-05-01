@@ -1,10 +1,11 @@
 ---
-title: Notas de versão | Novidades da versão 2024.10.0 do Adobe Experience Manager Guides
+title: Notas de versão | Novidades na versão 2024.10.0 do Adobe Experience Manager Guides
 description: Saiba mais sobre os recursos novos e aprimorados da versão 2024.10.0 do Adobe Experience Manager Guides
 role: Leader
-source-git-commit: b5ee4610811209719c7f0ff4bd03d8ae55f2d934
+exl-id: 13135928-f0fe-4147-83ac-8b06ca241ed7
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1026'
 ht-degree: 0%
 
 ---
@@ -40,16 +41,16 @@ O Experience Manager Guides também fornece algumas melhorias úteis nos Fragmen
 
 Agora, a publicação do Fragmento de conteúdo substitui somente o conteúdo mapeado, em vez de substituir o Fragmento de conteúdo completo. Esse recurso permite que um fragmento de conteúdo contenha dados de várias fontes, como vários tópicos ou o editor de fragmento de conteúdo.
 
-![Adicionar o modelo do fragmento e os detalhes do mapeamento na caixa de diálogo Publish como Fragmento de Conteúdo](assets/content-fragment-mapping.png)
+![Adicionar o modelo de fragmento e os detalhes do mapeamento na caixa de diálogo Publicar como fragmento de conteúdo](assets/content-fragment-mapping.png)
 
-Para obter mais detalhes, consulte [Fragmentos de conteúdo do Publish](../user-guide/publish-content-fragment.md).
+Para obter mais detalhes, consulte [Publicar fragmentos de conteúdo](../user-guide/publish-content-fragment.md).
 
 
-### Variantes do Fragmento de experiência do Publish com base em filtros de condição
+### Publicar variantes de fragmento de experiência com base em filtros de condição
 
 O Experience Manager Guides permite publicar um tópico ou seus elementos em um Fragmento de experiência. Agora, você também pode criar variantes de Fragmento de experiência usando os filtros condição ou DITAVAL e reutilizá-los em diferentes canais ou para públicos diferentes.
 
-Saiba mais sobre como [Fragmentos de experiência do Publish](../user-guide/publish-experience-fragment.md).
+Saiba mais sobre como [Publicar Fragmentos de experiência](../user-guide/publish-experience-fragment.md).
 
 
 ### Predefinição do AEM Sites reorganizada para facilitar o uso
@@ -80,13 +81,13 @@ Se o mesmo tópico for referido mais de uma vez em um arquivo, será possível a
 
 Saiba mais sobre [Predefinições do AEM Sites](../user-guide/generate-output-aem-site.md).
 
-### Opção para escolher uma hierarquia de arquivos simples ou aninhada para saída HTML5
+### Opção para escolher uma hierarquia de arquivo simples ou aninhada para a saída do HTML5
 
-Agora, o Experience Manager Guides permite que você mantenha a hierarquia de pastas simples para os arquivos temporários em que todo o conteúdo é publicado no formato de saída HTML5 e salvo em uma única pasta.
-Se você não optar por nivelar a hierarquia de arquivos, a saída HTML5 será gerada em uma hierarquia de pastas aninhada. Isso significa que a estrutura de pastas original do conteúdo, com arquivos organizados em subpastas, é replicada na saída. Essa hierarquia de pastas aninhada permite uma organização mais complexa e a categorização de arquivos, facilitando o gerenciamento e a navegação de grandes volumes de dados.
+Agora, o Experience Manager Guides permite manter a hierarquia de pastas simples para os arquivos temporários em que todo o conteúdo é publicado no formato de saída HTML5 e salvo em uma única pasta.
+Se você não optar por nivelar a hierarquia de arquivos, a saída do HTML5 será gerada em uma hierarquia de pastas aninhada. Isso significa que a estrutura de pastas original do conteúdo, com arquivos organizados em subpastas, é replicada na saída. Essa hierarquia de pastas aninhada permite uma organização mais complexa e a categorização de arquivos, facilitando o gerenciamento e a navegação de grandes volumes de dados.
 
 
-Saiba mais sobre como [gerar saída de HTML5](../user-guide/generate-output-html5.md).
+Saiba mais sobre como [gerar saída do HTML5](../user-guide/generate-output-html5.md).
 
 
 ## Aprimoramentos do editor
@@ -103,7 +104,7 @@ Você também pode acessar o modo de exibição **Layout** para mapas DITA somen
 >
 > Os administradores do perfil da sua pasta devem atualizar o *ui_config.json* para que você possa acessar harmoniosamente os arquivos somente leitura nos modos Autor, Source e Layout.
 
-![editor de arquivo bloqueado](./assets/locked-file-editor.png)
+![editor de arquivos bloqueado](./assets/locked-file-editor.png)
 *Exibir os arquivos bloqueados no modo Autor e Source.*
 
 
@@ -114,10 +115,6 @@ Saiba como [abrir arquivos bloqueados nos modos Autor e Source](../user-guide/we
 
 O Experience Manager Guides agora permite agrupar condições e apresentá-las em uma hierarquia aninhada, permitindo adicionar várias condições a um único grupo. Ao agrupar condições, é possível organizá-las e aplicá-las melhor em todo o conteúdo.
 
-![condições organizadas em uma hierarquia aninhada](assets/conditions-nested-hierarchy.png){width="300" align="left"}
+![condições organizadas em uma hierarquia aninhada](assets/conditions-nested-hierarchy.png){width="300"}
 
 Saiba mais sobre a descrição do recurso **Condições** na seção [Painel esquerdo](../user-guide/web-editor-features.md#id2051EA0M0HS).
-
-
-
-

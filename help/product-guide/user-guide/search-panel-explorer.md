@@ -3,9 +3,10 @@ title: Painel de pesquisa na interface do editor
 description: Saiba como usar o painel de Pesquisa na interface do Editor.
 feature: Authoring
 role: User
-source-git-commit: 5b4aebce91d6cad7c99bf97e3d6d592ad38fa373
+exl-id: cf3c03b5-383c-464c-8ef1-2f0f825c4e56
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
@@ -18,11 +19,11 @@ O painel Pesquisar pode ser acessado das seguintes opções:
 
 - **Interface do editor**: ao selecionar o **ícone Pesquisar** no **painel do Explorer** ou ao usar o **ícone Pesquisar** no canto inferior esquerdo da **área de edição de conteúdo**. Para obter detalhes, exiba [Pesquisar no painel Explorer](#search-from-the-explorer-panel).
 
-  ![](images/search-icon-editor.png){align="left"}
+  ![](images/search-icon-editor.png)
 
 - **Página inicial**: usando a opção **Mostrar no painel de Pesquisa** ao navegar da interface do Repositório na Página inicial. Para exibição de detalhes, [Pesquise no Repositório](#search-from-the-repository-interface-on-the-home-page).
 
-  ![](images/search-panel-repo.png){align="left"}
+  ![](images/search-panel-repo.png)
 
 ## Principais benefícios
 
@@ -40,21 +41,21 @@ Ao trabalhar na interface do Editor, você pode filtrar o conjunto de arquivos p
    >
    >Se já houver resultados de pesquisa da sua sessão atual, selecionar o **ícone Pesquisar** no Explorer ou o ícone na parte inferior esquerda da área de edição de conteúdo simplesmente abrirá o painel mostrando esses resultados anteriores. Para atualizar ou refinar as pesquisas, selecione **Modificar pesquisa**.
 
-   ![](images/search-repo-dialog.png){align="left"}
+   ![](images/search-repo-dialog.png)
 
 2. Faça a pesquisa e aplique filtros conforme necessário. Para obter instruções detalhadas sobre as opções de pesquisa e filtro, exiba a [experiência de pesquisa e filtro](./home-page-repository-view.md#search-and-filter-experience).
 
 3. Após concluir a pesquisa, selecione **Mostrar no painel Pesquisar**. Suas pesquisas recentes aparecerão no painel Pesquisar na parte inferior do Editor.
 
-   ![](images/show-search-explorer.png){align="left"}
+   ![](images/show-search-explorer.png)
 
 4. Para atualizar os resultados da pesquisa, selecione a opção **Modificar pesquisa** no painel Pesquisar e atualize os critérios para obter novos resultados.
 
-   ![](images/modify-search.png){align="left"}
+   ![](images/modify-search.png)
 
 Depois que os resultados da pesquisa forem exibidos no painel Pesquisar, você poderá trabalhar com eles, abrindo e editando um ou vários arquivos diretamente no painel, ou arrastando e soltando arquivos selecionados em um tópico ou mapa existente para adicionar referências.
 
-![](images/edit-search-panel.png){align="left"}
+![](images/edit-search-panel.png)
 
 ## Pesquisar na interface do Repositório na página inicial
 
@@ -62,13 +63,4 @@ Ao executar uma pesquisa e aplicar filtros na interface do Repositório na Pági
 
 No painel Pesquisar, você pode **arrastar e soltar** arquivos no tópico atual para anexar referências facilmente ou editar vários arquivos ao mesmo tempo. Além disso, você pode refinar os resultados da pesquisa usando a opção **Modificar pesquisa**, disponível no painel Pesquisar.
 
-![](images/search-panel-from-home.png){align="left"}
-
-
-
-
-
-
-
-
-
+![](images/search-panel-from-home.png)

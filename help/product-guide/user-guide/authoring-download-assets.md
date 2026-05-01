@@ -4,9 +4,9 @@ description: Saiba como baixar arquivos do console de mapa DITA no AEM Guides e 
 exl-id: ae9eb355-d3ac-446a-958b-5f2da43f5533
 feature: Content Management
 role: User
-source-git-commit: 5deb4411c82f07aa82e52b4608a71a78136c128d
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '864'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Execute as seguintes etapas para baixar um arquivo de mapa DITA do Editor:
 
    A caixa de diálogo **Baixar mapa** é exibida.
 
-   ![](images/download-map-dialog-new.png){width="300" align="left"}
+   ![](images/download-map-dialog-new.png){width="300"}
 
 1. Na caixa de diálogo Baixar mapa, escolha as seguintes opções:
 
@@ -57,7 +57,7 @@ Execute as seguintes etapas para baixar um arquivo de mapa DITA do Editor:
 
    Você receberá a seguinte notificação assim que o mapa estiver pronto para download.
 
-   ![](images/download-map-success-message.png){width="550" align="left"}
+   ![](images/download-map-success-message.png){width="550"}
 
 1. Selecione **Baixar** para baixar o arquivo de mapa no formato `.zip`. Ou baixe depois na caixa de entrada do AEM.
 
@@ -83,7 +83,7 @@ Execute as seguintes etapas para baixar um arquivo de mapa DITA junto com seus a
 
    A caixa de diálogo Baixar mapa é exibida.
 
-   ![](images/download-map.png){width="300" align="left"}
+   ![](images/download-map.png){width="300"}
 
 1. Selecione **Baixar**. Na caixa de diálogo Baixar mapa, escolha as seguintes opções:
 
@@ -98,7 +98,7 @@ Execute as seguintes etapas para baixar um arquivo de mapa DITA junto com seus a
 
 1. Após selecionar o botão **Baixar**, a solicitação de download de mapa é enfileirada. Você receberá a seguinte notificação assim que o mapa estiver pronto para download.
 
-   ![](images/download-map-prompt.png){width="550" align="left"}
+   ![](images/download-map-prompt.png){width="550"}
 
    - Selecione **Baixar** para baixar o arquivo de mapa no formato .zip.
 
@@ -108,7 +108,7 @@ Execute as seguintes etapas para baixar um arquivo de mapa DITA junto com seus a
    >
    > Por padrão, os mapas baixados permanecem por cinco dias na Caixa de entrada de notificação do Adobe Experience Manager.
 
-![](images/download-map-inbox.png){width="300" align="left"}
+![](images/download-map-inbox.png){width="300"}
 
 Após o download do mapa, você pode selecionar o mapa e usar o ícone Abrir na parte superior para abrir o conteúdo baixado.
 

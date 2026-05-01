@@ -5,9 +5,9 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: d48709b8-f5b2-4545-ac65-838c5d8b1bae
-source-git-commit: 4c564a0ffaa8f287bcaf012634d49dbf1e0682b4
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '947'
 ht-degree: 1%
 
 ---
@@ -53,11 +53,11 @@ O modelo da Página de contêiner da documentação é usado para criar a Págin
 - Ele serve como ponto de entrada ou página inicial de um conjunto específico de documentação (por exemplo, um manual ou guia de produto).
 - Adicione a propriedade id=&quot;category-page&quot; ao jcr:content do nó inicial do modelo. Isso garante que todas as páginas criadas com base nesse modelo sejam tratadas automaticamente como contêineres de documentação pelo AEM Guides.
 
-  ![Adicionando id=&quot;category-page&quot;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-id-category-page.png){width="650" align="left"}
+  ![Adicionando id=&quot;category-page&quot;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-id-category-page.png){width="650"}
 
 - Adicione um componente de Texto com a propriedade obrigatória: text=&quot;$category.html$&quot;.
 
-  ![Adicionando componente de texto](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component.png){width="650" align="left"}
+  ![Adicionando componente de texto](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component.png){width="650"}
 
 - Normalmente inclui elementos de navegação, como links para seções ou tópicos na documentação.
 - Ele pode ser personalizado para incluir marcas, cabeçalhos, rodapés e outros elementos de design.
@@ -71,7 +71,7 @@ Se você tiver um mapa DITA para um manual de produto, o modelo de página do co
 - Cada tópico em um mapa DITA é renderizado como uma página separada usando esse modelo.
 - Contém um **componente de Texto** com a propriedade obrigatória: text=&quot;$topic.content$&quot;.
 
-  ![Adicionando componente de texto com propriedade obrigatória](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component-mandatory-property.png){width="650" align="left"}
+  ![Adicionando componente de texto com propriedade obrigatória](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component-mandatory-property.png){width="650"}
 
 - Esse espaço reservado é substituído pelo conteúdo real do tópico DITA durante a geração do site.
    - O componente de texto normalmente é colocado dentro de um **Componente de contêiner** para garantir o layout e estilo adequados.
@@ -82,7 +82,7 @@ Se você tiver um tópico DITA sobre &quot;Instruções de instalação&quot;, o
 
 **Componente de contêiner:**
 
-![Adicionando componente de contêiner](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-component.png){width="650" align="left"}
+![Adicionando componente de contêiner](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-component.png){width="650"}
 
 >[!NOTE]
 >
@@ -90,7 +90,7 @@ Se você tiver um tópico DITA sobre &quot;Instruções de instalação&quot;, o
 
 Adicione o mesmo (contêiner e componente de texto) na estrutura do mesmo modelo:
 
-![Adicionando contêiner e componente de texto](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-and-text-component.png){width="650" align="left"}
+![Adicionando contêiner e componente de texto](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-and-text-component.png){width="650"}
 
 ## Renderizar guias Componentes em modelos personalizados
 
@@ -124,7 +124,7 @@ Por padrão, as bibliotecas de clientes (clientlibs) fornecidas no pacote de com
    1. Abra a **Página do Produto** no **Modo Editor**.
    2. Selecione **Editar Modelo** (isso abrirá uma URL como conf/settings/wcm/templates/structure.html).
 
-      ![Editar modelo](/help/product-guide/knowledge-base/kb-articles/assets/publishing/edit-template.png){width="650" align="left"}
+      ![Editar modelo](/help/product-guide/knowledge-base/kb-articles/assets/publishing/edit-template.png){width="650"}
 
 2. **Atualizar Política de Página:**
 
@@ -135,7 +135,7 @@ Por padrão, as bibliotecas de clientes (clientlibs) fornecidas no pacote de com
 
 3. **Salvar alterações:** Salve o modelo depois de adicionar as bibliotecas de clientes necessárias.
 
-   ![Adicionar bibliotecas de clientes](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-client-libraries.png){width="650" align="left"}
+   ![Adicionar bibliotecas de clientes](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-client-libraries.png){width="650"}
 
 
 >[!NOTE]

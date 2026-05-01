@@ -4,9 +4,9 @@ description: Descubra o uso de rótulos para diferentes versões de um arquivo n
 exl-id: d116906d-b469-4a97-b0af-4fadbe15222b
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
@@ -26,14 +26,14 @@ Execute as seguintes etapas para adicionar um rótulo ao seu tópico do Editor:
 1. No painel Repositório, navegue até um tópico e abra-o no Editor.
 1. Selecione **Rótulo de versão** na lista suspensa **Menu**.
 
-   ![](images/version-label-option.png){width="400" align="left"}
+   ![](images/version-label-option.png){width="400"}
 
    A caixa de diálogo **Gerenciamento de Rótulos de Versão** é exibida.
 
 1. Na caixa de diálogo **Gerenciamento de Rótulos de Versão**, selecione uma versão à qual deseja adicionar um rótulo.
 1. Selecione um rótulo para a versão selecionada e selecione **Adicionar rótulo**.
 
-   ![](images/version-label-management-dialog-new.png){width="650" align="left"}
+   ![](images/version-label-management-dialog-new.png){width="650"}
 
    >[!NOTE]
    >
@@ -42,7 +42,7 @@ Execute as seguintes etapas para adicionar um rótulo ao seu tópico do Editor:
 
    Os rótulos são exibidos no Histórico de Versões do tópico selecionado.
 
-   ![](images/label-comparison-version-history.png){width="650" align="left"}
+   ![](images/label-comparison-version-history.png){width="650"}
 
    >[!NOTE]
    >
@@ -50,7 +50,7 @@ Execute as seguintes etapas para adicionar um rótulo ao seu tópico do Editor:
 
 Para excluir um rótulo de versão de um tópico, use o ícone **Remover** fornecido em relação a cada rótulo adicionado na caixa de diálogo Gerenciamento de Rótulos de Versão.
 
-![](images/remove-version-label.png){align="left"}
+![](images/remove-version-label.png)
 
 
 ## Trabalhar com rótulos da interface do usuário do Assets
@@ -70,7 +70,7 @@ Execute as seguintes etapas para adicionar um rótulo a um tópico da interface 
 
    Os rótulos são exibidos no Histórico de Versões do tópico selecionado. A captura de tela a seguir exibe os rótulos *x.x Versão* e *Guia do Usuário* adicionados à versão destacada do tópico.
 
-   ![](images/labels.png){width="300" align="left"}
+   ![](images/labels.png){width="300"}
 
 >[!NOTE]
 >
@@ -78,7 +78,7 @@ Execute as seguintes etapas para adicionar um rótulo a um tópico da interface 
 
 Para excluir um rótulo de versão de um tópico, use o botão **Excluir** fornecido em relação a cada rótulo no painel Histórico de Versão.
 
-![](images/delete-labels.png){width="300" align="left"}
+![](images/delete-labels.png){width="300"}
 
 
 **Tópico pai:**&#x200B;[&#x200B; Introdução ao Editor](web-editor.md)

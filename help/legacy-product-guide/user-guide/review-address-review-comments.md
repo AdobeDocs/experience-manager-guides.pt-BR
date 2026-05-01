@@ -5,7 +5,7 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: a9551eb0-ad30-424d-b1c8-c079125d8118
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1036'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Um autor pode endereçar comentários em um documento do Editor da Web. Indicado
 >
 > Ao abordar os comentários de revisão \(para um documento de revisão ativo\), certifique-se de que você—não abra o tópico em revisão em várias guias com a exibição de tags completas ativada, não alterne entre os modos de exibição Autor e Source.
 
-![](images/comments-page-web-editor_cs.png){width="800" align="left"}
+![](images/comments-page-web-editor_cs.png){width="800"}
 
 No modo Editor da Web, o painel direito contém os ícones Revisar e Alterações controladas. O painel Revisão mostra todos os comentários feitos em seu documento pelos revisores. O painel **Alterações controladas** mostra o status de todos os comentários inseridos e excluídos no documento.
 
@@ -55,11 +55,11 @@ No modo Editor da Web, o painel direito contém os ícones Revisar e Alteraçõe
 
   Se quiser incorporar a alteração sugerida \(inserção ou exclusão\) uma de cada vez, basta clicar com o botão direito do mouse no comentário no conteúdo e selecionar Aceitar alteração ou Rejeitar alteração. Dependendo da sua seleção, o comentário será aceito ou rejeitado. No caso de comentário aceito, o conteúdo é adicionado ao conteúdo; e no caso de rejeição, ele é removido do conteúdo. Além disso, o status do comentário é alterado no painel Revisão.
 
-  ![](images/import-comment-accept-web-editor_cs.png){width="800" align="left"}
+  ![](images/import-comment-accept-web-editor_cs.png){width="800"}
 
   Você também pode usar o recurso de revisão no painel direito para aceitar ou rejeitar comentários. Clicar em qualquer comentário realça o comentário no documento.
 
-  ![](images/changes-tab_cs.png){width="800" align="left"}
+  ![](images/changes-tab_cs.png){width="800"}
 
   >[!IMPORTANT]
   >

@@ -3,7 +3,7 @@ title: Notas de versão | Novidades da versão de dezembro de 2025 do conteúdo 
 description: Saiba mais sobre os recursos novos e aprimorados da versão de dezembro de 2025 do conteúdo de treinamento e aprendizado do produto
 role: Leader
 exl-id: 72d4fd5c-194a-4671-bcec-35fc35ff3165
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 0%
@@ -24,19 +24,19 @@ Esta nota de versão aborda os recursos novos e aprimorados introduzidos na vers
 
   Para obter mais detalhes, consulte [Outras opções no menu Inserir](../learning-content/lc-other-insert-options.md).
 
-  ![](assets/knowledge-check-topic.png){width="650" align="left"}
+  ![](assets/knowledge-check-topic.png){width="650"}
 
 - **Novos widgets interativos**: você pode envolver alunos com alguns novos widgets interativos que tornam o conteúdo mais imersivo: **Clique para revelar**, **Inverter cartão** e **Guia**.
 
   Para obter detalhes, consulte [Usar widgets interativos](../learning-content/lc-widgets.md).
 
-  ![](assets/new-widgets-options.png){width="350" align="left"}
+  ![](assets/new-widgets-options.png){width="350"}
 
 - **Corresponder ao seguinte**: um novo tipo de pergunta, **Corresponder ao seguinte**, está disponível para testes. Os alunos podem combinar itens de duas listas para conectar ideias relacionadas, incentivando o pensamento crítico.
 
   Para obter detalhes, consulte [Tipos de perguntas do questionário](../learning-content/quiz-insert-questions.md#question-types).
 
-  ![](assets/question-types.png){width="650" align="left"}
+  ![](assets/question-types.png){width="650"}
 
 ## Revisar
 
@@ -44,7 +44,7 @@ Esta nota de versão aborda os recursos novos e aprimorados introduzidos na vers
 
   Para obter detalhes, exiba [Criar tarefa de revisão](../learning-content/manage-course.md#create-review-task).
 
-  ![](assets/create-review-task-lc.png){width="650" align="left"}
+  ![](assets/create-review-task-lc.png){width="650"}
 
 ## Gestão de conteúdo
 
@@ -52,4 +52,4 @@ Esta nota de versão aborda os recursos novos e aprimorados introduzidos na vers
 
   Para obter mais detalhes, consulte [Adicionar blocos de construção básicos](../learning-content/lc-basic-blocks.md).
 
-  ![](assets/reusable-content.png){width="650" align="left"}
+  ![](assets/reusable-content.png){width="650"}

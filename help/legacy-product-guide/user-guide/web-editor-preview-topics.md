@@ -5,7 +5,7 @@ feature: Authoring
 role: User
 hide: true
 exl-id: c2c24b6f-08e8-47be-be33-b3e9fb50052e
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1863'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Execute as seguintes etapas para visualizar um tópico:
 
 ## Recursos disponíveis no modo de visualização
 
-![](images/preview-screen.png){width="800" align="left"}
+![](images/preview-screen.png){width="800"}
 
 Você pode executar as seguintes operações na barra de ferramentas no modo de visualização:
 
@@ -51,7 +51,7 @@ As referências **Usado em** listam os documentos nos quais o arquivo atual est�
 
 O ícone \(+\) na seção de referências **Usado em** permite navegar para cima para localizar onde esse tópico está sendo usado ou referenciado.
 
-![](images/used-in-dialog_cs.png){width="800" align="left"}
+![](images/used-in-dialog_cs.png){width="800"}
 
 Clicar no ícone ![](images/right-arrow-used-in-dialog.svg) ao lado de um documento mostra o mapa ou os arquivos de tópico para os quais esse documento está sendo mais referenciado.
 
@@ -63,7 +63,7 @@ Se o tópico tiver conteúdo condicional, você verá o ícone A/B na barra de f
 >
 > O conteúdo condicional é realçado usando a cor de fundo clara no Editor da Web.
 
-![](images/conditional-popup_cs.png){width="300" align="left"}
+![](images/conditional-popup_cs.png){width="300"}
 
 **Editar**
 
@@ -81,7 +81,7 @@ Se o tópico tiver conteúdo condicional, você verá o ícone A/B na barra de f
   >
   > Para obter a visualização do código-fonte de um arquivo de mapa DITA, selecione o arquivo na interface do usuário do Assets e clique em Source.
 
-  ![](images/xml-source-code-view-from-preview_cs.png){width="800" align="left"}
+  ![](images/xml-source-code-view-from-preview_cs.png){width="800"}
 
 **Compartilhar Link UUID**
 
@@ -93,7 +93,7 @@ Se o tópico tiver conteúdo condicional, você verá o ícone A/B na barra de f
 
 Uma nova opção **Compartilhar link de UUID** é mostrada na barra de ferramentas das áreas mencionadas acima. A captura de tela a seguir mostra a opção **Compartilhar Link UUID** no modo de Visualização de um tópico:
 
-![](images/share-uuid-link_cs.png){width="800" align="left"}
+![](images/share-uuid-link_cs.png){width="800"}
 
 Na interface do usuário do Assets, essa opção fica visível ao selecionar um arquivo. Enquanto estiver no modo de Visualização, essa opção estará disponível na barra de ferramentas principal por padrão. Em um console de mapa DITA, essa opção está visível na seção Predefinições de saída.
 
@@ -113,15 +113,15 @@ Ao fazer check-out de um tópico, o status do arquivo é mostrado como check-out
 
 Arquivo com check-out na exibição de cartão:
 
-![](images/checkout-card-62.png){width="300" align="left"}
+![](images/checkout-card-62.png){width="300"}
 
 Arquivo com check-out na exibição de lista:
 
-![](images/checkout-list-62.png){width="550" align="left"}
+![](images/checkout-list-62.png){width="550"}
 
 Se a coluna Com check-out não estiver visível, selecione **Configurações de Exibição** em **Exibição em Lista** e selecione o status **Com check-out** na caixa de diálogo **Configurar Colunas**.
 
-![](images/list-view-settings-check-out_cs.png){width="800" align="left"}
+![](images/list-view-settings-check-out_cs.png){width="800"}
 
 >[!TIP]
 >
@@ -139,17 +139,17 @@ Se a coluna Com check-out não estiver visível, selecione **Configurações de 
 
    1. No painel à esquerda, clique em **Histórico de Versões** e selecione uma versão.
 
-      ![](images/timeline-versions62_cs.png){width="800" align="left"}
+      ![](images/timeline-versions62_cs.png){width="800"}
 
    1. Nas versões listadas, selecione aquela que você deseja usar como a versão base e clique em **Visualizar Versão**. A visualização da versão selecionada é mostrada na janela Visualização de versão.
 
    1. Na lista **Mostrar comparação**, selecione a versão com a qual deseja comparar a versão base.
 
-      ![](images/show-diff-list-cropped.png){width="800" align="left"}
+      ![](images/show-diff-list-cropped.png){width="800"}
 
       O conteúdo alterado é realçado na pré-visualização do tópico. O conteúdo realçado em verde significa que o conteúdo recém-adicionado e o conteúdo em vermelho é o conteúdo excluído.
 
-      ![](images/version-difference.png){width="800" align="left"}
+      ![](images/version-difference.png){width="800"}
 
 
 ### Ramificar, reverter e versões subsequentes {#id193PG0Y051X}
@@ -190,7 +190,7 @@ Se a coluna Com check-out não estiver visível, selecione **Configurações de 
 
    1. Selecione uma versão em que deseja criar uma ramificação. Na captura de tela a seguir, a versão 1.2 é selecionada para criar uma ramificação.
 
-      ![](images/branching.png){width="300" align="left"}
+      ![](images/branching.png){width="300"}
 
       >[!NOTE]
       >
@@ -204,15 +204,15 @@ Se a coluna Com check-out não estiver visível, selecione **Configurações de 
 
       - Se você selecionar essa opção, uma ramificação será criada da versão 1.1. Além disso, uma nova versão do tópico também é criada a partir da cópia de trabalho atual do tópico e salva como a próxima versão - 1.4.
 
-        ![](images/next_version_created_over_working_copy.png){width="300" align="left"}
+        ![](images/next_version_created_over_working_copy.png){width="300"}
 
         A versão 1.2 se torna a cópia de trabalho atual do tópico. Qualquer versão salva depois disso é criada na nova ramificação da 1.1. Por exemplo, a versão subsequente de um novo tópico nesta ramificação será salva como 1.2.0.
 
-        ![](images/new_version_in_branch.png){width="300" align="left"}
+        ![](images/new_version_in_branch.png){width="300"}
 
       - Se você não selecionar essa opção, nenhuma nova versão da cópia de trabalho atual do tópico será criada. Uma nova ramificação é criada a partir da versão 1.2 do tópico. Qualquer versão subsequente do tópico é salva na ramificação 1.2 como 1.2.0, 1.2.1 e assim por diante.
 
-        ![](images/new_version_without_working_copy.png){width="300" align="left"}
+        ![](images/new_version_without_working_copy.png){width="300"}
 
    1. Clique em **OK**.
 

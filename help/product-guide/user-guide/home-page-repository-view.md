@@ -3,9 +3,10 @@ title: Repositório na página inicial
 description: Conheça o Repositório na Home page. Saiba mais sobre a Interface do repositório e os recursos no Adobe Experience Manager Guides na página inicial.
 feature: Authoring
 role: User
-source-git-commit: e45343812a67c6755c76f1b31b68c7201cdd8772
+exl-id: 1466c263-d24b-4653-8361-098831002f4e
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1412'
+source-wordcount: '1423'
 ht-degree: 0%
 
 ---
@@ -16,7 +17,7 @@ O Repositório serve como um espaço centralizado para melhorar a capacidade de 
 
 Essa interface unificada simplifica várias funções, incluindo a criação de novos arquivos ou pastas, a edição de arquivos, o upload de ativos e a pesquisa de arquivos com opções de filtragem robustas, garantindo eficiência e facilidade de uso.
 
-![](images/repository-view-home.png){align="left"}
+![](images/repository-view-home.png)
 
 A interface do Repositório é dividida nas seguintes seções:
 
@@ -27,16 +28,16 @@ A interface do Repositório é dividida nas seguintes seções:
 
 A barra de navegação do Repositório, localizada na parte superior da interface do Repositório, fornece acesso rápido às ações essenciais listadas.
 
-![](images/tab-bar-repository-view.png){align="left"}
+![](images/tab-bar-repository-view.png)
 
 
 - **Painel de navegação de pasta**: apresenta uma exibição hierárquica em árvore das pastas no Repositório, permitindo uma navegação contínua. Esse painel mostra somente as informações no nível da pasta. Quando uma pasta é selecionada aqui, seu conteúdo, arquivos e subpastas são exibidos na visualização Repositório. Você pode mostrar ou ocultar esse painel usando o ícone destacado abaixo.
 
-  ![](images/folder-navigation-panel.png){align="left"}
+  ![](images/folder-navigation-panel.png)
 
 - **Navegação estrutural**: indica o caminho atual no Repositório, mostrando a hierarquia de pastas que leva à pasta atual. Você pode selecioná-la para voltar para uma pasta específica na hierarquia.
 
-  ![](images/breadcrumbs.png){width="650" align="left"}
+  ![](images/breadcrumbs.png){width="650"}
 
 - **Atualizar**: atualiza o repositório para refletir as alterações mais recentes.
 - **Carregar Assets**: permite carregar ativos diretamente na pasta atual, como destacado na navegação estrutural.
@@ -55,7 +56,7 @@ O Repository serve como o espaço central fornecendo uma lista tabular de todas 
 
 - **Personalizar**: você pode modificar as colunas exibidas usando a opção **Personalizar**, localizada no canto superior direito do modo de exibição Repositório. Essa opção permite mostrar ou ocultar qualquer coluna e também reorganizar as colunas conforme necessário. As colunas **Name** ou **Title** são obrigatórias e não podem ser desabilitadas juntas. Outros campos, como **Tipo de arquivo**, **UUID**, **Estado do documento**, **Bloqueado por**, **Criado em** e **Modificado em**, podem ser habilitados ou desabilitados conforme necessário. Você pode reorganizá-los simplesmente arrastando e soltando.
 
-  ![](images/customize-repo-view.png){width="350" align="left"}
+  ![](images/customize-repo-view.png){width="350"}
 
 - **Redimensionamento de colunas**: as colunas podem ser redimensionadas selecionando opções no menu suspenso de colunas.
 
@@ -67,11 +68,11 @@ O Repository serve como o espaço central fornecendo uma lista tabular de todas 
    - Depois de marcar os arquivos desejados usando a caixa de seleção, a opção **Editar** fica disponível no canto superior direito da exibição Repositório.
    - Selecionar **Editar** abre o(s) arquivo(s) selecionado(s) na interface do Editor, onde você pode começar a editar o arquivo.
 
-     ![](images/edit-repo-view.png){align="left"}
+     ![](images/edit-repo-view.png)
 
 - **Menu de opções para pastas**: você pode executar as seguintes ações usando o menu **Opções** disponível para uma pasta:
 
-  ![](images/options-folder-repo.png){width="350" align="left"}
+  ![](images/options-folder-repo.png){width="350"}
 
    - **Novo**: crie um novo tópico DITA, mapa DITA ou uma pasta.
    - **Carregar Assets**: carregue um arquivo do sistema local para a pasta selecionada no repositório.
@@ -80,7 +81,7 @@ O Repository serve como o espaço central fornecendo uma lista tabular de todas 
 
 - **Menu de opções para arquivos**: você pode executar as seguintes ações usando o menu **Opções** para um arquivo:
 
-  ![](images/options-file-repo-new.png){width="350" align="left"}
+  ![](images/options-file-repo-new.png){width="350"}
 
    - **Editar**: abrir o arquivo para edição.
    - **Editar no Oxygen**: selecione essa opção para editar o arquivo selecionado no plug-in do conector do Oxygen.
@@ -107,11 +108,11 @@ O Repository serve como o espaço central fornecendo uma lista tabular de todas 
 
 A opção **Pesquisar** ajuda a pesquisar os arquivos necessários no Repositório principalmente com base no **Título do arquivo**, **Nome do arquivo** e **Conteúdo**. Você pode usar qualquer um, dois ou todos os três critérios para sua pesquisa. Se nenhum dos critérios for selecionado, os resultados incluirão informações comuns aos três critérios.
 
-![](images/search-in-repository.png){align="left"}
+![](images/search-in-repository.png)
 
 Selecione o ícone **Filtrar pesquisa** \(![Ícone Filtrar pesquisa](images/filter-search-icon.svg)\) para abrir o painel Filtro à direita.
 
-![](images/Search-filters-repo.png){align="left"}
+![](images/Search-filters-repo.png)
 
 Você tem as seguintes opções para filtrar os arquivos e restringir sua pesquisa:
 
@@ -143,15 +144,14 @@ Depois de aplicar todos os filtros necessários, selecione **Aplicar** no canto 
 
 Os resultados da pesquisa personalizados de acordo com o filtro selecionado aparecem como uma **lista tabular de arquivos somente** (as pastas não são exibidas). É possível remover qualquer filtro individualmente ou vários filtros ao mesmo tempo, e os resultados são atualizados para refletir a seleção atualizada.
 
-![](images/search-results-with-filters.png){align="left"}
+![](images/search-results-with-filters.png)
 
 Depois que os resultados da pesquisa forem exibidos, você poderá selecionar vários arquivos e abri-los no Editor usando o ícone **Editar** ou trabalhar com todos os resultados enviando os resultados da pesquisa para o Editor por meio da opção **Mostrar no painel de pesquisa**.
 
-![](images/post-search-operation.png){align="left"}
+![](images/post-search-operation.png)
 
 **Mostrar no painel de pesquisa**
 
 A opção **Mostrar no painel de pesquisa** fica disponível após executar uma pesquisa no Repositório. Este recurso permite exibir todos os resultados pesquisados no **painel Pesquisar** dentro do Editor. Para obter mais detalhes, consulte [Painel de pesquisa](./search-panel-explorer.md).
 
-![](images/search-panel-repo.png){align="left"}
-
+![](images/search-panel-repo.png)

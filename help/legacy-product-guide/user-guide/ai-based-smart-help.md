@@ -3,7 +3,7 @@ title: Ajuda inteligente habilitada por IA para pesquisar conteúdo
 description: Saiba como visualizar e utilizar a Ajuda inteligente habilitada por IA no Editor da Web.
 hide: true
 exl-id: cf08f6a9-bf92-47d9-9952-da0301ea7023
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Quando você abre o Editor da Web, o painel **Ajuda Inteligente** é exibido à 
 >
 > O administrador deve configurar o recurso **Ajuda Inteligente**. Para obter mais detalhes, consulte a seção [Configurar a Ajuda Inteligente baseada em IA para pesquisar o conteúdo](/help/product-guide/cs-install-guide/conf-smart-help.md) no Guia de Instalação e Configuração do Cloud Services.
 
-![Painel Ajuda Inteligente](images/smart-help-panel.png){width="300" align="left"}
+![Painel Ajuda Inteligente](images/smart-help-panel.png){width="300"}
 
 *Exiba o painel **Ajuda Inteligente**.*
 
@@ -49,7 +49,7 @@ Execute as seguintes etapas para usar a pesquisa conversacional e encontrar o co
 
    Dependendo da sua pergunta, você pode visualizar o conteúdo, as imagens aplicáveis e os links para os artigos.
 
-   ![Resposta do painel da Ajuda Inteligente](images/smart-help-panel-response.png){width="300" align="left"}
+   ![Resposta do painel da Ajuda Inteligente](images/smart-help-panel-response.png){width="300"}
 
 
    *Selecione a pergunta de exemplo e exiba o conteúdo e as imagens na resposta.*

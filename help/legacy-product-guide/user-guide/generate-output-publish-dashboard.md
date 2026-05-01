@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 9d311979-a7d7-47f5-945c-520eda99798f
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Quando um grande conjunto de tarefas de publicação está em execução no sist
 
 O Painel de publicação fornece uma visão geral completa de todas as tarefas de publicação atualmente em execução no sistema.
 
-![](images/publish-dashboard.png){width="800" align="left"}
+![](images/publish-dashboard.png){width="800"}
 
 O Painel de publicação contém os seguintes detalhes:
 
@@ -40,7 +40,7 @@ O painel esquerdo no Painel de publicação fornece as seguintes opções de fil
 
 - **Predefinição de Saída** - Selecione uma ou mais predefinições de saída para as quais deseja ver as tarefas de publicação ativas no momento. Na captura de tela a seguir, as tarefas de publicação são filtradas para mostrar somente as tarefas que usam a predefinição de saída do AEM Site:
 
-  ![](images/publish-dashboard-preset-filter.png){width="800" align="left"}
+  ![](images/publish-dashboard-preset-filter.png){width="800"}
 
 - **Iniciado por** - Selecione um nome de usuário na lista para mostrar as tarefas de publicação iniciadas pelo usuário selecionado.
 
@@ -64,7 +64,7 @@ Execute as seguintes etapas para acessar o Painel de publicação:
 
    Se você clicar no link Nome do arquivo, será exibido o console de mapa DITA do mapa selecionado.
 
-   ![](images/publish-dashboard-click-filename-link.png){width="800" align="left"}
+   ![](images/publish-dashboard-click-filename-link.png){width="800"}
 
 
 >[!NOTE]
@@ -79,13 +79,13 @@ Execute as seguintes etapas para cancelar uma tarefa de geração de saída no P
 
 1. Na lista de tarefas de publicação ativas, clique no ícone excluir de uma tarefa que deseja cancelar.
 
-   ![](images/publish-dashboard-cancel-task.png){width="800" align="left"}
+   ![](images/publish-dashboard-cancel-task.png){width="800"}
 
 1. Clique em **Sim** no prompt da mensagem Confirmar cancelamento.
 
    O comando cancel é aceito e o cancelamento é tentado enquanto a tarefa permanecer ativa. Quando a tarefa for finalizada com sucesso, ela será removida da lista de tarefas ativas no momento. O status da tarefa também é atualizado no console do mapa DITA como Cancelado. Na captura de tela a seguir, a tarefa *HTML5* é cancelada no Painel de Publicação e seu status também é alterado no console de mapa DITA.
 
-   ![](images/cancelled-output-task.png){width="800" align="left"}
+   ![](images/cancelled-output-task.png){width="800"}
 
 
 **Tópico pai:**&#x200B;[&#x200B; Geração de saída](generate-output.md)

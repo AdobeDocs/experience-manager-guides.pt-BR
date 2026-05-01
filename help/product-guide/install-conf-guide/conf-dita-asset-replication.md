@@ -4,9 +4,10 @@ description: Saiba como configurar a replicação de ativos essenciais
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 453da51a42984b912547570f2e1de70806b41171
+exl-id: 8c551c37-2bfd-471b-bb72-514fabbc0bf2
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '111'
 ht-degree: 3%
 
 ---
@@ -42,7 +43,7 @@ As guias a seguir fornecem instruções para configurar o recurso de replicaçã
 1. Defina a configuração `Replicate DITA assets` de acordo com seu requisito. A configuração é ativada por padrão.
 
 
-   ![](assets/dita-assets-replication.png){width="350" align="left"}
+   ![](assets/dita-assets-replication.png){width="350"}
 
 
 1. Selecione **Salvar**.

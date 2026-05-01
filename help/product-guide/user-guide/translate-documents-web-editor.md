@@ -4,9 +4,9 @@ description: Traduza o conteúdo para vários idiomas no editor da Web. Saiba co
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '2519'
+source-wordcount: '2536'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Antes de executar etapas neste procedimento, verifique se você criou a raiz de 
 
 1. Como usuário, você pode exibir os grupos de idiomas configurados para o perfil da pasta. Os grupos de idiomas exibem as pastas de idiomas junto com seus códigos de idioma. Por exemplo, o grupo de idiomas denominado G1 contém as pastas de idiomas \(it\), Alemão \(de\), Francês \(fr\) e Inglês \(en\).
 
-   ![painel de tradução](images/translation-languages.png){width="300" align="left"}
+   ![painel de tradução](images/translation-languages.png){width="300"}
 
    *Selecione os grupos de idiomas ou idiomas nos quais você deseja traduzir os documentos.*
 
@@ -93,7 +93,7 @@ Antes de executar etapas neste procedimento, verifique se você criou a raiz de 
 
      Se um arquivo tiver salvo alterações sem controle de versão (ou seja, que não foram salvas como uma nova versão no mapa), um ícone de informações será exibido ao lado do arquivo, indicando a presença de alterações sem controle de versão.
 
-     ![](images/unversioned-changes-translation.png){width="650" align="left"}
+     ![](images/unversioned-changes-translation.png){width="650"}
 
      >[!NOTE]
      >
@@ -107,11 +107,11 @@ Antes de executar etapas neste procedimento, verifique se você criou a raiz de 
    - **Rótulo de Destino**: rótulo para a versão selecionada do arquivo de destino
 1. Selecione **Enviar para tradução** no canto superior direito.
 
-   ![](images/translation-send.png){align="left"}
+   ![](images/translation-send.png)
 
 1. Na lista suspensa, selecione **Criar um novo projeto de tradução**.
 
-   ![](images/translation-project-types.png){width="350" align="left"}
+   ![](images/translation-project-types.png){width="350"}
 
    Além de um novo projeto de tradução, você também pode selecionar as seguintes opções:
 
@@ -175,7 +175,7 @@ Para adicionar o rótulo da versão de origem na cópia de destino, o administra
 
 Por exemplo, se você tiver alguns arquivos de origem com o rótulo da versão `Release 1.0` aplicado a eles, você também poderá passar o rótulo de origem \(`Release 1.0`\) para o arquivo traduzido.
 
-![](images/translation-pass-source-label.png){width="650" align="left"}
+![](images/translation-pass-source-label.png){width="650"}
 
 >[!NOTE]
 >
@@ -185,7 +185,7 @@ Por exemplo, se você tiver alguns arquivos de origem com o rótulo da versão `
 
 O Experience Manager Guides fornece o recurso para verificar as diferenças entre a versão selecionada e a última versão de origem traduzida dos tópicos. Você pode optar por traduzir os arquivos **Fora de sincronização** com base nas alterações feitas.
 
-![](images/translation-version-diff.png){width="650" align="left"}
+![](images/translation-version-diff.png){width="650"}
 
 Selecione o ícone **Mostrar diferença**\(![](images/show-difference-icon.svg)\) de um tópico para exibir as diferenças entre a última versão traduzida e a versão atual do arquivo selecionado.
 
@@ -195,7 +195,7 @@ Selecione o ícone **Mostrar diferença**\(![](images/show-difference-icon.svg)\
 
 A caixa de diálogo **Diferença de Versão** é exibida. Ela mostra o número da **Última versão traduzida** e da **Versão selecionada** à esquerda. A janela de visualização exibe as diferenças entre a última versão traduzida e a versão selecionada do tópico.
 
-![](images/version-diff.png){width="650" align="left"}
+![](images/version-diff.png){width="650"}
 
 ## Ignorar ativos fora de sincronia
 
@@ -206,7 +206,7 @@ Para descartar o status Fora de sincronização, execute as seguintes etapas:
 1. Selecione os ativos fora de sincronização para os quais deseja alterar o status.
 1. Selecione o botão **Marcar como Sincronizado** \(![](images/translation-mark-in-sync-icon.svg)\) acima. A caixa de diálogo **Marcar na Sincronização** é exibida.
 
-   ![](images/translation-mark-in-sync.png){width="550" align="left"}
+   ![](images/translation-mark-in-sync.png){width="550"}
 
 1. Selecione **Forçar sincronização**. Ele define o status como Em sincronia para os ativos Fora de sincronia selecionados.
 
@@ -224,7 +224,7 @@ Algumas das referências no painel de tradução podem estar com o status em and
 
 Selecione o nome da referência na caixa de diálogo para abri-la no modo de visualização. Também é possível selecionar o projeto de tradução para iniciar a tradução.
 
-![](images/translation-in-progress.png){width="550" align="left"}
+![](images/translation-in-progress.png){width="550"}
 
 
 ## Excluir ou desabilitar automaticamente um projeto de tradução concluído

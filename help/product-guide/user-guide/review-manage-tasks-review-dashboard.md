@@ -4,9 +4,9 @@ description: Gerencie tarefas de revisão no Painel de revisão no AEM Guides. S
 exl-id: 4fef5653-1c73-4b68-adf2-b24145555142
 feature: Reviewing
 role: User
-source-git-commit: e38cd858201ea657ce276eb4b358b0d4eff502b2
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1437'
+source-wordcount: '1440'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Execute as seguintes etapas para acessar e usar o Painel de Revisão:
 
    Um painel Projeto com blocos de tarefas é exibido.
 
-   ![](images/review-management.png){align="left"}
+   ![](images/review-management.png)
 
    >[!NOTE]
    >
@@ -35,7 +35,7 @@ Execute as seguintes etapas para acessar e usar o Painel de Revisão:
 
    O Painel de Revisão é exibido. O painel lista todas as tarefas de revisão que você criou.
 
-   ![](images/review-dashboard.png){align="left"}
+   ![](images/review-dashboard.png)
 
    O Painel de Revisão exibe os detalhes sobre a tarefa de revisão, como o nome da tarefa, quem iniciou a revisão, a data em que a revisão foi iniciada, a data de vencimento, o status, o número de novos comentários que não foram aceitos ou rejeitados pelo autor e o nome dos revisores. As tarefas são listadas na ordem de tarefas recém-criadas para tarefas mais antigas.
 
@@ -58,7 +58,7 @@ Execute as seguintes etapas para acessar e usar o Painel de Revisão:
 
 ## Guia Tarefa
 
-![](images/review-task-page.png){align="left"}
+![](images/review-task-page.png)
 
 Você pode executar as seguintes ações na guia **Tarefa**:
 
@@ -81,7 +81,7 @@ Você pode executar as seguintes ações na guia **Tarefa**:
 
 ## Guia Conteúdo
 
-![](images/review-content-page.png){align="left"}
+![](images/review-content-page.png)
 
 Você pode executar as seguintes ações na guia **Conteúdo**:
 
@@ -100,7 +100,7 @@ Você pode executar as seguintes ações na guia **Conteúdo**:
 
 ## Guia Revisores {#Reviewer-tab-id199RF0N0MUI}
 
-![](images/reviewers-tab.png){align="left"}
+![](images/reviewers-tab.png)
 
 Você pode executar as seguintes ações na guia **Revisores**:
 
@@ -121,11 +121,11 @@ Você pode executar as seguintes ações na guia **Revisores**:
 
 No Experience Manager Guides, cada tarefa de revisão tem um status que reflete seu status atual. No Painel de Revisão, você pode acessar essas informações selecionando uma tarefa e escolhendo a opção **Status**.
 
-![](images/review-dashboard-select-option.png){width="650" align="left"}
+![](images/review-dashboard-select-option.png){width="650"}
 
 Isso abrirá um relatório de status da tarefa de revisão, conforme mostrado abaixo:
 
-![](images/check-review-status-dashboard.png){width="650" align="left"}
+![](images/check-review-status-dashboard.png){width="650"}
 
 Como alternativa, você pode acessar o relatório de status diretamente do [Painel de revisão](./web-editor-left-panel.md#review) no Editor. Abra uma tarefa de revisão ativa no painel Revisão, selecione **Atualizar tarefa** e escolha **Verificar status da revisão**.
 

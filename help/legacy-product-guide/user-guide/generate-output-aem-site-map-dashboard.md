@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 41c0d4d5-5c46-4d2b-90b3-8c441fee8e99
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '2421'
 ht-degree: 0%
@@ -48,13 +48,13 @@ Você pode gerar a saída do AEM Sites para um ou mais tópicos, ou todo o mapa 
 
 Outra maneira de vincular conteúdo é criar um link usando o `peer` `@scope`. Para esse conteúdo, o link é resolvido no tempo de execução ao escolher o título do arquivo e o contexto configurado para o tópico vinculado no contexto de publicação do mapa DITA. A captura de tela a seguir mostra o painel Propriedades para um link que tem o `peer` `@scope`:
 
-![](images/peer-link-scope-link.png){width="800" align="left"}
+![](images/peer-link-scope-link.png){width="800"}
 
 Para simplificar a publicação de mapas complexos e tópicos vinculados a outros tópicos em outros mapas, o AEM Guides permite definir o contexto de publicação de cada predefinição de saída.
 
 O contexto de publicação permite especificar qual tópico deve ser usado, de qual mapa para publicar uma saída específica. Vamos entender isso com a ajuda de um exemplo — digamos que você tenha quatro pastas: amostra a, amostra b, amostra c e amostra d. Cada pasta contém um mapa DITA — mapa DITA A, mapa DITA B, mapa DITA C e mapa DITA D. A vinculação entre mapas ocorrerá quando um tópico no mapa DITA A for vinculado a um tópico no mapa DITA B, C ou D. Na captura de tela a seguir, um tópico de conceito de amostra contém links \(ou referências\) para arquivos que fazem parte de outros mapas DITA.
 
-![](images/sample-concept-link-to-other.png){width="350" align="left"}
+![](images/sample-concept-link-to-other.png){width="350"}
 
 Agora, ao definir as configurações de publicação do AEM Sites para o arquivo de mapa que contém esse tópico, você pode selecionar qual contexto de publicação do conteúdo vinculado será usado durante a publicação. Um contexto de publicação é uma combinação do mapa DITA e sua predefinição de saída. A predefinição de saída, por sua vez, contém uma versão específica do conteúdo e predefinições condicionais. Essa combinação completa do mapa DITA, da predefinição de saída, da versão \(files\) e das condições define o contexto de publicação de um mapa vinculado.
 
@@ -66,7 +66,7 @@ Execute as seguintes etapas para especificar o contexto de publicação para arq
 
    Você obtém as guias Configurações de predefinições do AEM e Contexto de publicação.
 
-   ![](images/aem-site-publish-settings.png){width="800" align="left"}
+   ![](images/aem-site-publish-settings.png){width="800"}
 
 1. Abra a guia **Contexto de Publicação**.
 
@@ -78,7 +78,7 @@ Execute as seguintes etapas para especificar o contexto de publicação para arq
 
    Por padrão, todos os tópicos vinculados têm sua predefinição de saída e mapa mais recentes selecionados.
 
-   ![](images/default-publish-context.png){width="800" align="left"}
+   ![](images/default-publish-context.png){width="800"}
 
 1. Para alterar a seleção padrão do mapa e da predefinição DITA, clique em **Editar** \(na barra de ferramentas principal\).
 
@@ -111,7 +111,7 @@ Se você estiver usando `conref` no seu conteúdo, ele será publicado como cont
 
 Você pode procurar por uma string na saída do AEM Sites. Por padrão, é possível pesquisar a cadeia de caracteres somente nos títulos. Para pesquisar a string no conteúdo ou no corpo da saída do AEM Sites, entre em contato com o administrador do sistema para ativar a propriedade flattening.enabled.
 
-![Pesquisar saída do AEM Sites](images/aem-output-search.png){width="650" align="left"}
+![Pesquisar saída do AEM Sites](images/aem-output-search.png){width="650"}
 
 Para obter mais detalhes, consulte a seção *Configurar nivelamento da estrutura do nó do site do AEM* no guia Instalar e configurar o Adobe Experience Manager Guides.
 

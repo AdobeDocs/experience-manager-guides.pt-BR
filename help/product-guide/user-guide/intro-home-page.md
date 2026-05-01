@@ -4,9 +4,9 @@ description: Conheça a página inicial da Adobe Experience Manager Guides.
 feature: Authoring
 role: User
 exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
-source-git-commit: c2dbf53040abc3e5873fd81050ed7e59c4faaaf0
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '2099'
+source-wordcount: '2105'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 A Página inicial é a primeira tela exibida ao fazer logon no Experience Manager Guides. Ele oferece uma experiência de tela de boas-vindas unificada e intuitiva, que inclui uma visualização rápida dos arquivos acessados recentemente, coleções e muito mais.
 
-![](images/aem-home-page-new.png){align="left"}
+![](images/aem-home-page-new.png)
 
 A página inicial do Experience Manager Guides é dividida nas seguintes seções:
 
@@ -27,7 +27,7 @@ A página inicial do Experience Manager Guides é dividida nas seguintes seçõe
 
 A barra de cabeçalho é a barra superior da página inicial que exibe o logotipo do Adobe Experience Manager (ou um Unified Shell, se você estiver usando o Unified Shell como interface do usuário do Experience Manager Guides). Ao selecionar o logotipo, ele direciona você para a página Navegação do Experience Manager.
 
-![](images/aem-home-header.png){align="left"}
+![](images/aem-home-header.png)
 
 ## Barra de navegação
 
@@ -37,7 +37,7 @@ A barra de navegação exibe as ferramentas para alternar a navegação, persona
 >
 > Se estiver usando o Adobe Experience Manager Guides as a Cloud Service, um recurso adicional rotulado como **Assistente de IA** será exibido na barra de navegação.
 
-![](images/aem-home-nav-bar.png){align="left"}
+![](images/aem-home-nav-bar.png)
 
 Os recursos disponíveis na barra de navegação são explicados da seguinte maneira:
 
@@ -72,7 +72,7 @@ Os recursos disponíveis na barra de navegação são explicados da seguinte man
 
 O painel esquerdo fornece acesso rápido aos recursos Visão geral, Repositório, Coleções de mapas, Publicação em massa, Fila de publicação e Preferências do usuário. Você pode expandir o painel selecionando o ícone **Expandir** posicionado no canto inferior esquerdo da interface. Depois de expandido, use o ícone **Recolher** para recolher o painel.
 
-![](images/home-with-repository.png){width="300" align="left"}
+![](images/home-with-repository.png){width="300"}
 
 O que você visualiza nesse painel depende da sua função de usuário. A tabela a seguir lista as funções e as respectivas seções exibidas no painel esquerdo.
 
@@ -106,11 +106,11 @@ Os seguintes widgets estão presentes na seção Widgets:
 
 - **Arquivos Recentes**: o widget fornece um instantâneo dos arquivos abertos recentemente (uma lista de arquivos que você acessou no Editor), juntamente com os detalhes principais do arquivo, incluindo Título, Nome do arquivo, Tipo de arquivo, Caminho do arquivo e Acessado nas datas.
 
-  ![](images/aem-home-recent-files.png){align="left"}
+  ![](images/aem-home-recent-files.png)
 
   Você pode classificar e redimensionar as colunas selecionando opções no menu suspenso de colunas. Por padrão, os dados são classificados com base na data e hora do último acesso.
 
-  ![](images/aem-home-recent-files-sort-resize-options.png){align="left"}
+  ![](images/aem-home-recent-files-sort-resize-options.png)
 
 
   Em [Preferências do Usuário](#user-preferences), você pode definir o número máximo de arquivos que podem ser exibidos neste widget. Por padrão, esse limite está definido como **20**.
@@ -128,11 +128,11 @@ Os seguintes widgets estão presentes na seção Widgets:
 - **Coleções**: se você trabalhar em um conjunto de arquivos ou pastas, poderá adicioná-los a este widget para acessá-los rapidamente. Depois de adicionado, é possível visualizar os arquivos por Título, juntamente com outros detalhes importantes, como Proprietário e Datas de criação. Ao selecionar a lista suspensa de colunas, é possível visualizar as opções para classificar e redimensionar a coluna.
 
 
-  ![](images/aem-home-collections.png){align="left"}
+  ![](images/aem-home-collections.png)
 
   As navegações estruturais da coleção selecionada são exibidas na parte superior do widget Coleção. Você pode selecioná-la para voltar para uma pasta específica na hierarquia.
 
-  ![](images/aem-home-collections-breadcrumbs.png){align="left"}
+  ![](images/aem-home-collections-breadcrumbs.png)
 
   As seguintes opções estão disponíveis quando você passa o mouse sobre uma coleção e seleciona o ícone Mais ![](images/Smock_MoreSmallList_18_N.svg):
 
@@ -180,7 +180,7 @@ As preferências do usuário estão disponíveis para todos os autores. Usando a
 
 - **Geral**: a guia Geral permite definir as seguintes configurações:
 
-  ![](images/user_preference_editor-new.png){align="left"}
+  ![](images/user_preference_editor-new.png)
 
    - **Perfil de pasta**: o perfil de pasta controla várias configurações relacionadas a atributos condicionais, modelos de criação, predefinições de saída e configurações do Editor. O perfil Global é exibido por padrão. Além disso, se o administrador tiver configurado perfis de pastas no sistema, esses perfis de pastas também serão mostrados na lista Perfis de pastas.
    - **Caminho base**: por padrão, ao acessar o repositório do Experience Manager Guides a partir do Editor, você verá ativos do local /content/dam. Sua pasta de trabalho provavelmente seria algumas pastas dentro da pasta /content/dam/. Você pode definir o Caminho base para sua pasta de trabalho e a Visualização do repositório, em seguida, mostra o conteúdo desse local antecipadamente. Isso reduz o tempo de acesso à pasta de trabalho. Além disso, ao inserir qualquer referência ou arquivo de mídia no tópico, o local de navegação do arquivo começa com a pasta definida no caminho Base.
@@ -190,7 +190,7 @@ As preferências do usuário estão disponíveis para todos os autores. Usando a
 
 - **Aparência**: a guia Aparência fornece as opções para selecionar os temas do aplicativo e a exibição de origem da área de edição de conteúdo. Use esta guia para definir as seguintes configurações:
 
-  ![](images/user_preference_editor_appearance.png){align="left"}
+  ![](images/user_preference_editor_appearance.png)
 
    - **Tema do aplicativo e exibição do Source**: você pode escolher entre os temas Claro ou Escuro para a exibição do aplicativo e da fonte. No caso do tema Luz, as barras de ferramentas e os painéis usam um plano de fundo de cor cinza-claro. No caso do tema Escuro, as barras de ferramentas e os painéis usam um plano de fundo preto. Selecione o tema **Usar dispositivo** para permitir que o Experience Manager Guides selecione os temas claro e escuro com base no tema do seu dispositivo.
 

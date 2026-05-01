@@ -4,9 +4,9 @@ description: Saiba como traduzir novamente um tópico modificado no AEM Guides.
 exl-id: b3228ea9-24a8-44aa-8ba4-e8f44754ffe4
 feature: Translation
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '595'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Execute as seguintes etapas para enviar um tópico modificado para nova traduç�
 
    Se você selecionar a seta para exibir mais detalhes, poderá exibir a cópia de idioma específica que está fora de sincronia.
 
-   ![](images/out-of-sync-uuid-new.png){align="left"}
+   ![](images/out-of-sync-uuid-new.png)
 
 1. Marque a caixa de seleção para selecionar os tópicos que deseja enviar para nova tradução.
 
@@ -53,7 +53,7 @@ Execute as seguintes etapas para enviar um tópico modificado para nova traduç�
 
 1. Navegue até o projeto de tradução no console Projeto. Um novo cartão de tarefa de tradução é criado na pasta. Selecione as reticências para visualizar os ativos da pasta.
 
-   ![](images/incremental-job-new.png){width="300" align="left"}
+   ![](images/incremental-job-new.png){width="300"}
 
 1. Para iniciar a tradução, selecione a seta no cartão de trabalho de tradução e selecione **Iniciar** na lista. Uma mensagem notifica que o trabalho foi iniciado.
 

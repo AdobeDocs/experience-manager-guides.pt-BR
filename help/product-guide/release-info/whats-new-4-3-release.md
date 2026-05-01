@@ -1,12 +1,12 @@
 ---
-title: Notas de versão | Novidades da versão 4.3.0 do Adobe Experience Manager Guides
+title: Notas de versão | Novidades na versão 4.3.0 do Adobe Experience Manager Guides
 description: Conheça os recursos novos e aprimorados das versões 4.3.0 do Adobe Experience Manager Guides
 exl-id: 36decbf0-ec9d-43e2-99b7-85b0f9a87bc1
 feature: What's New
 role: Leader
-source-git-commit: 5a444e88b0adba7fa3d498437df39b729b10b5eb
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '2655'
+source-wordcount: '2659'
 ht-degree: 0%
 
 ---
@@ -41,20 +41,20 @@ No AEM Guides, é possível adicionar citações ou importar citações e aplic�
 
 Depois de inserir as citações nos tópicos, você pode visualizá-las no Editor da Web. Você também pode publicar conteúdo com citações usando o PDF nativo.
 
-![Citações listadas em um painel](assets/citation-panel.png){width="300" align="left"}
+![Citações listadas em um painel](assets/citation-panel.png){width="300"}
 
 
 Para obter mais detalhes, exiba [Adicionar e gerenciar citações no seu conteúdo](../user-guide/web-editor-apply-citations.md).
 
-## Publish para um fragmento de conteúdo
+## Publicar em um fragmento de conteúdo
 
 Fragmentos de conteúdo são partes distintas do conteúdo no AEM. São conteúdos estruturados com base em um modelo de conteúdo. Fragmentos de conteúdo são conteúdo puro sem informações de design ou layout. Eles podem ser criados e gerenciados independentemente dos canais compatíveis com o AEM. A modularidade e a reutilização dos fragmentos de conteúdo levam a maior flexibilidade, consistência, eficiência e gerenciamento mais simples.
 
 Agora, o AEM Guides oferece uma maneira de publicar um tópico ou os elementos dentro de um tópico em um fragmento de conteúdo. Você pode criar um mapeamento baseado em JSON entre um tópico e um modelo de fragmento de conteúdo. Use esse mapeamento para publicar em um fragmento de conteúdo o conteúdo presente em alguns ou todos os elementos de um tópico.
 
-Aproveite o potencial do AEM Guides e dos fragmentos de conteúdo e use fragmentos de conteúdo em qualquer site de AEM. Também é possível extrair os detalhes por meio de APIs compatíveis com fragmentos de conteúdo.
+Aproveite o potencial do AEM Guides e dos fragmentos de conteúdo e use fragmentos de conteúdo em qualquer site do AEM. Também é possível extrair os detalhes por meio de APIs compatíveis com fragmentos de conteúdo.
 
-![opção para publicar o fragmento de conteúdo](assets/content-fragment-publish.png){width="550" align="left"}
+![opção para publicar o fragmento de conteúdo](assets/content-fragment-publish.png){width="550"}
 
 
 ## Revisar melhorias
@@ -66,7 +66,7 @@ O AEM Guides agora oferece um recurso aprimorado de revisão com as seguintes fu
 Agora, o AEM Guides torna suas análises mais simples. Ele fornece o painel Revisões no Editor da Web. O painel Revisões exibe todos os projetos de revisão e as tarefas de revisão ativas nos projetos de revisão dos quais você faz parte.
 
 Como autor, esse recurso ajuda você a abrir facilmente as tarefas de revisão, exibir os comentários e endereçar rapidamente os comentários em uma exibição centralizada.
-![](assets/active-review-task-comments.png){width="800" align="left"}
+![](assets/active-review-task-comments.png){width="800"}
 Para obter mais detalhes, consulte a descrição do recurso **Revisão** na seção [Painel esquerdo](../user-guide/web-editor-features.md#id2051EA0M0HS).
 
 ### Pesquisar tópicos de revisão
@@ -75,7 +75,7 @@ Realizar revisões é um recurso essencial do AEM Guides. Ajuda os revisores a r
 Agora é possível pesquisar um tópico inserindo alguma parte do texto do título ou caminho de arquivo na barra de pesquisa da exibição de tópicos do painel de revisão. Você também pode optar por exibir todos os tópicos ou exibir tópicos com comentários. Por padrão, é possível exibir todos os tópicos presentes na tarefa de revisão.
 
 
-![Pesquisar em um painel de tópicos de revisão](assets/review-search-topic.png){width="800" align="left"}
+![Pesquisar em um painel de tópicos de revisão](assets/review-search-topic.png){width="800"}
 
 Para obter mais detalhes, consulte [Tópicos da revisão](../user-guide/review-topics.md).
 
@@ -85,19 +85,19 @@ Crie pacotes personalizados sobre o AEM Guides para fornecer extensibilidade usa
 
 
 
-## Aprimoramentos de PDF nativo
+## Aprimoramentos no PDF nativo
 
 Os seguintes aprimoramentos do PDF nativo foram feitos na versão 4.3.0 para tornar o AEM Guides um produto mais robusto:
 
 ### Suporte para variáveis de idioma
 
-O AEM Guides oferece suporte para variáveis de idioma. Você pode usar variáveis de idioma para definir uma versão localizada dos rótulos prontos para uso como Observação, Cuidado e Aviso ou texto estático na saída de PDF.
-Você pode adicionar as variáveis de idioma ou a versão localizada dos rótulos às seções apropriadas na saída de PDF e nos modelos de saída.
+O AEM Guides oferece suporte para variáveis de idioma. Você pode usar variáveis de idioma para definir uma versão localizada dos rótulos prontos para uso como Observação, Cuidado e Aviso ou texto estático na saída do PDF.
+Você pode adicionar as variáveis de idioma ou a versão localizada dos rótulos às seções apropriadas na saída do PDF e nos modelos de saída.
 
-#### Variáveis de linguagem na saída do PDF
+#### Variáveis de idioma na saída do PDF
 
-Você pode usar as variáveis de idioma para definir rótulos localizados para elementos como Nota, Cuidado e Aviso. Você pode atualizar o valor dessas variáveis em um ou mais idiomas e, em seguida, o valor localizado é escolhido automaticamente na saída do PDF.
-Por exemplo, você pode apresentar o rótulo Observação na saída de PDF das seguintes maneiras:
+Você pode usar as variáveis de idioma para definir rótulos localizados para elementos como Nota, Cuidado e Aviso. Você pode atualizar o valor dessas variáveis em um ou mais idiomas e, em seguida, o valor localizado é selecionado automaticamente na saída do PDF.
+Por exemplo, você pode apresentar o rótulo Observação na saída do PDF das seguintes maneiras:
 
 * Inglês: Note
 * Francês: Remarque
@@ -105,25 +105,25 @@ Por exemplo, você pode apresentar o rótulo Observação na saída de PDF das s
 
 #### Variáveis de idioma nos modelos de saída
 
-Se você quisesse criar a saída de PDF em vários idiomas, seria necessário criar diferentes modelos de PDF contendo texto localizado para cada idioma. Agora, com o recurso de variáveis de idioma, é necessário criar o modelo apenas uma vez. Em seguida, para qualquer texto estático que precise localizar, é possível criar variáveis de idioma correspondentes e usá-las no modelo.
+Se você quisesse criar a saída do PDF em vários idiomas, seria necessário criar diferentes modelos do PDF contendo texto localizado para cada idioma. Agora, com o recurso de variáveis de idioma, é necessário criar o modelo apenas uma vez. Em seguida, para qualquer texto estático que precise localizar, é possível criar variáveis de idioma correspondentes e usá-las no modelo.
 É possível criar variáveis de idioma para textos mais longos, como uma frase inteira ou até mesmo um parágrafo. Também é possível aplicar estilos e usar a marcação HTML para formatar essas variáveis de idioma.
 
 Para obter mais detalhes, consulte [Suporte para variáveis de idioma](../native-pdf/native-pdf-language-variables.md).
 
 ### Adicionar uma marca d&#39;água à saída do PDF para documentos de rascunho
 
-Agora você pode adicionar uma marca d&#39;água à saída em PDF do documento que ainda não foi aprovado. Essa marca d&#39;água não aparecerá se você gerar o PDF para o documento no estado de documento &#39;Aprovado&#39;. Por exemplo, você pode adicionar um Rascunho de marca d&#39;água para a saída de PDF.
+Agora é possível adicionar uma marca d&#39;água à saída do PDF do documento que ainda não foi aprovado. Essa marca d&#39;água não aparecerá se você gerar a PDF para o documento no estado de documento &quot;Aprovado&quot;. Por exemplo, você pode adicionar um rascunho de marca d&#39;água para a saída do PDF.
 
-Para obter mais detalhes, exiba [Adicionar uma marca d&#39;água à saída de PDF para documentos de rascunho](../native-pdf/use-javascript-content-style.md#watermark-draft-document).
+Para obter mais detalhes, exiba [Adicionar uma marca d&#39;água à saída do PDF para documentos de rascunho](../native-pdf/use-javascript-content-style.md#watermark-draft-document).
 
-### Capacidade de usar metadados de AEM em layouts de PDF
+### Capacidade de usar metadados do AEM em layouts do PDF
 
 Os metadados são a descrição ou definição do seu conteúdo. Esses metadados são armazenados no conteúdo do mapa DITA de origem.
 
-Agora, no AEM Guides, também é possível selecionar as propriedades de metadados dos ativos e adicioná-las ao layout da página. Em seguida, o AEM Guides escolhe essas propriedades de metadados de seus ativos e as publica na saída de PDF.
+Agora, no AEM Guides, também é possível selecionar as propriedades de metadados dos ativos e adicioná-las ao layout da página. Em seguida, o AEM Guides escolhe essas propriedades de metadados de seus ativos e as publica na saída do PDF.
 
 
-![adicionar metadados para pdf nativo](assets/native-pdf-metadata-asset.png){width="300" align="left"}
+![adicionar metadados para pdf nativo](assets/native-pdf-metadata-asset.png){width="300"}
 
 >[!NOTE]
 >
@@ -151,7 +151,7 @@ Para obter mais detalhes, consulte [Ordem das páginas](../native-pdf/components
 
 ### Mesclar páginas
 
-Em uma saída de PDF nativo por padrão, todas as seções começam em uma nova página. Agora é possível mesclar uma seção com sua página anterior ou com a próxima página. Isso publica a seção em continuação com a página selecionada na saída do PDF e não há quebra de página entre elas.
+Em uma saída PDF nativa por padrão, todas as seções começam em uma nova página. Agora é possível mesclar uma seção com sua página anterior ou com a próxima página. Isso publica a seção em continuação com a página selecionada na saída do PDF e não há quebra de página entre elas.
 
 Para obter mais detalhes, exiba a descrição do recurso Mesclar páginas na seção [Ordem das páginas](../native-pdf/components-pdf-template.md#page-order).
 
@@ -180,15 +180,15 @@ Para obter mais detalhes, consulte [Referências cruzadas](../native-pdf/compone
 Agora, você também pode iniciar um capítulo da página atual. Se você optar por fazer isso, todos os capítulos serão publicados sem nenhuma quebra de página. Por exemplo, se um capítulo terminar no meio da página 15, o próximo capítulo também começará a partir da própria 15ª página.
 
 
-### Capacidade de acessar arquivos de HTML temporários ao gerar a saída de PDF nativa
+### Capacidade de acessar arquivos temporários do HTML ao gerar a saída nativa do PDF
 
-Agora, o AEM Guides permite baixar os arquivos de HTML temporários criados ao gerar a saída de PDF nativa. Nas configurações de predefinição de saída, selecione a opção para baixar os arquivos temporários.  O AEM Guides permite baixar os arquivos temporários criados ao gerar a saída usando essa predefinição.
+Agora, o AEM Guides permite baixar os arquivos temporários do HTML criados ao gerar a saída nativa do PDF. Nas configurações de predefinição de saída, selecione a opção para baixar os arquivos temporários.  O AEM Guides permite baixar os arquivos temporários criados ao gerar a saída usando essa predefinição.
 
 Esse recurso permite obter melhores insights sobre o processo de geração, com acesso a estilos e layouts provisórios, e ajuda a corrigir ou alterar os estilos CSS de acordo com os requisitos.
 
-![a caixa de diálogo de configurações avançadas do pdf nativo](assets/native-pdf-advanced-settings.png){width="800" align="left"}
+![a caixa de diálogo de configurações avançadas do pdf nativo](assets/native-pdf-advanced-settings.png){width="800"}
 
-Para obter mais detalhes, consulte [Criar uma predefinição de saída de PDF](../web-editor/native-pdf-web-editor.md#create-output-preset).
+Para obter mais detalhes, consulte [Criar uma predefinição de saída do PDF](../web-editor/native-pdf-web-editor.md#create-output-preset).
 
 
 ### Reformulação do editor de CSS
@@ -199,7 +199,7 @@ Agora, o editor de CSS foi reprojetado para obter uma melhor experiência do usu
 
 Agora é possível usar seletores personalizados para adicionar estilos complexos. O novo campo Seletor ajuda você a adicionar seletores personalizados além da combinação Classe, Tag e Pseudo Classe. Por exemplo, você pode criar o estilo `table a.link` para todos os hiperlinks dentro de uma tabela.
 
-![adicionando estilos nos modelos pdf nativos](assets/add-styles-native-pdf.png){width="300" align="left"}
+![adicionando estilos nos modelos pdf nativos](assets/add-styles-native-pdf.png){width="300"}
 
 #### Personalizar propriedades de estilo
 
@@ -210,14 +210,14 @@ Agora, o AEM Guides apresenta a você um novo painel de propriedades na seção 
 
 Agora, você também pode renomear ou mover um arquivo do painel do repositório. Esse recurso é útil e ajuda a gerenciar os arquivos facilmente no painel Repositório. Você pode selecionar um arquivo e renomeá-lo ou movê-lo usando o menu **Opções** para o arquivo selecionado. O AEM Guides exibe uma mensagem de sucesso ao mover ou renomear um arquivo.
 
-![menu de opções de um arquivo](assets/rename-move-assets.png){width="550" align="left"}
+![menu de opções de um arquivo](assets/rename-move-assets.png){width="550"}
 
 Para obter mais detalhes sobre o menu Opções de um arquivo, exiba a descrição do recurso **Exibição do repositório** na seção [Painel esquerdo](../user-guide/web-editor-features.md#id2051EA0M0HS).
 
 ## Relatório de Links quebrados no Editor da Web
 
 O AEM Guides permite verificar a integridade geral dos documentos técnicos e gerar relatórios do Editor da Web. Agora, na versão de junho de 2023, o AEM Guides fornece o recurso para visualizar e corrigir links com falha. Esse é um relatório útil que ajuda a gerenciar links com falha. É possível visualizar facilmente os links corrompidos presentes no mapa DITA e corrigi-los.
-![relatório de links corrompidos](assets/broken-link-report.png){width="800" align="left"}
+![relatório de links corrompidos](assets/broken-link-report.png){width="800"}
 
 Depois de corrigir um link, ele não é exibido abaixo da lista de links quebrados.
 
@@ -249,32 +249,32 @@ Para obter mais detalhes, consulte [Definir padrões abstratos](../user-guide/su
 
 O AEM Guides também oferece suporte ao formato XML Localization Interchange File Format (XLIFF) na tradução. Agora você também pode optar por **Criar um novo projeto de tradução XLIFF** para converter o conteúdo XML no formato XLIFF. O AEM Guides é compatível com a versão 1.2 do XLIFF.
 
-Usando esse formato, você pode exportar o conteúdo para o formato XLIFF padrão do setor e, em seguida, fornecer o mesmo aos fornecedores de tradução. Para obter mais detalhes, consulte [Criar um projeto de tradução](../user-guide/translate-documents-web-editor.md#create-translation-project).
+Usando este formato, você pode exportar o conteúdo para o formato XLIFF padrão do setor e fornecer o mesmo aos fornecedores de tradução. Para obter mais detalhes, consulte [Criar um projeto de tradução](../user-guide/translate-documents-web-editor.md#create-translation-project).
 
-![tipos de projetos de tradução](assets/translation-project-types.png){width="350" align="left"}
+![tipos de projetos de tradução](assets/translation-project-types.png){width="350"}
 
 
 ## Melhorias na coleção de mapas
 
 Uma Coleção de mapas ajuda a organizar vários mapas e a publicá-los em lote. Muitos aprimoramentos novos foram feitos na Coleção de mapas:
 
-* Agora é possível adicionar predefinições de saída de PDF nativo a uma coleção de mapas e usá-las para gerar a saída de PDF.
-* É possível visualizar as predefinições de perfil global e de pasta criadas pelo administrador e usá-las para gerar a saída do PDF.
+* Agora é possível adicionar predefinições de saída do PDF nativo a uma coleção de mapas e usá-las para gerar a saída do PDF.
+* É possível exibir as predefinições de perfil global e de pasta criadas pelo administrador e usá-las para gerar a saída do PDF.
 * Agora, é possível não apenas selecionar uma predefinição individual, mas também ativar todas as predefinições de perfil de pasta para um mapa DITA de uma só vez.
-  ![editar uma coleção de mapas](assets/edit-map-collection.png){width="800" align="left"}
+  ![editar uma coleção de mapas](assets/edit-map-collection.png){width="800"}
 
 Para obter mais detalhes, consulte [Usar Coleção de Mapas para geração de saída](../user-guide/generate-output-use-map-collection-output-generation.md).
 
-## Suporte nativo a PDF no painel Publish em massa
+## Suporte nativo do PDF no painel de publicação em massa
 
 
-Com o recurso de Ativação em massa do AEM Guides, você pode ativar rápida e facilmente seu conteúdo, desde a criação até a instância de publicação. No mapa de Ativação em massa, é possível incluir a predefinição de saída de PDF nativo, o site AEM, PDF, HTML5, Personalizado e saída JSON.
+Com o recurso de Ativação em massa do AEM Guides, você pode ativar rápida e facilmente seu conteúdo, desde a criação até a instância de publicação. No mapa de Ativação em massa, é possível incluir a predefinição de saída do PDF nativo, o site do AEM, o PDF, o HTML5, o Personalizado e a saída JSON.
 Para obter mais detalhes, exiba [Ativação em massa do conteúdo publicado](../user-guide/conf-bulk-activation.md).
 
 ## Ferramenta de movimentação em massa aprimorada
 
 Agora, como administrador, você pode usar a aprimorada Ferramenta de movimentação em massa para mover pastas com muitos arquivos de um local para outro.
-Você pode usar a caixa de diálogo Procurar arquivo para selecionar as pastas de origem que deseja mover. Você também pode procurar e selecionar o local de destino para mover as pastas de origem. Selecione o ![ícone de informações](assets/info-icon.svg) {width="25" align="left"} próximo a um campo para exibir mais informações sobre ele.
+Você pode usar a caixa de diálogo Procurar arquivo para selecionar as pastas de origem que deseja mover. Você também pode procurar e selecionar o local de destino para mover as pastas de origem. Selecione o ![ícone de informações](assets/info-icon.svg) {width="25"} próximo a um campo para exibir mais informações sobre ele.
 
 Para obter mais detalhes, exiba [Mover arquivos em massa](../user-guide/authoring-file-management.md#move-files-bulk).
 
@@ -282,7 +282,7 @@ Para obter mais detalhes, exiba [Mover arquivos em massa](../user-guide/authorin
 
 O AEM Guides ajuda você a criar uma coleção ou lista de favoritos de seus arquivos e pastas e usá-los facilmente. Agora o menu **Opções** também está disponível no painel **Favoritos**. Você pode renomear ou excluir a coleção selecionada no menu **Opções**. Você pode selecionar a opção **Atualizar** para obter uma lista atualizada de arquivos ou pastas do repositório. Também é possível visualizar o conteúdo da pasta na interface do usuário do Assets.
 
-![o painel favoritos](assets/favorites-options.png){width="650" align="left"}
+![o painel favoritos](assets/favorites-options.png){width="650"}
 
 >[!NOTE]
 >
@@ -294,6 +294,6 @@ Para obter mais detalhes sobre o menu **Opções** de uma coleção Favoritos, e
 
 Agora, também é possível usar o tema do dispositivo. Usando as **Preferências do Usuário**, você pode configurar o AEM Guides para alternar automaticamente entre temas claros e escuros com base no tema do seu dispositivo.
 
-![preferências do usuário](assets/device-theme-user-preferences.png){width="550" align="left"}
+![preferências do usuário](assets/device-theme-user-preferences.png){width="550"}
 
 Para obter mais detalhes, exiba a descrição do recurso **Preferências do Usuário** na seção [Barra de ferramentas principal](../user-guide/web-editor-features.md#id2051EA0G05Z).

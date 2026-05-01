@@ -1,12 +1,12 @@
 ---
-title: Notas de versão | Novidades da versão 4.2.1 do Adobe Experience Manager Guides
+title: Notas de versão | Novidades na versão 4.2.1 do Adobe Experience Manager Guides
 description: Conheça os recursos novos e aprimorados das versões 4.2.1 do Adobe Experience Manager Guides
 exl-id: 441aa7ec-d88c-42cb-83f0-d0f6e58bfa41
 feature: What's New
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '706'
 ht-degree: 0%
 
 ---
@@ -19,14 +19,14 @@ Para obter mais detalhes sobre as instruções de atualização, a matriz de com
 
 ## Navegar do Editor da Web para a página inicial do AEM
 
-Agora é possível navegar facilmente do Editor da Web para a página de Navegação do AEM.
+Agora é possível navegar facilmente do Editor da Web para a página Navegação do AEM.
 
-![](assets/web-editor-launch-page.png){width="800" align="left"}
+![](assets/web-editor-launch-page.png){width="800"}
 
-* Clique no ícone **Guias** (![](assets/aem-guides-icon.png) ) para voltar à página de Navegação por AEM.
+* Clique no ícone **Guias** (![](assets/aem-guides-icon.png) ) para voltar para a página Navegação do AEM.
 
 
-Para obter mais detalhes, consulte [página de Navegação por AEM](../user-guide/web-editor-launch-editor.md#id2056BG00RZJ).
+Para obter mais detalhes, consulte a [página Navegação do AEM](../user-guide/web-editor-launch-editor.md#id2056BG00RZJ).
 
 ## Suporte a metadados avançados na publicação do PDF
 
@@ -34,9 +34,9 @@ O AEM Guides agora fornece suporte avançado para os metadados que são mapeados
 
 <img src="assets/pdf-metadata.png" alt=" metadados pdf nativos">
 
-Você pode importar um arquivo XMP e o AEM Guides pode selecionar as informações do arquivo. Também há a opção de fornecer os nomes e valores dos metadados usando a lista suspensa. Você também pode adicionar metadados personalizados digitando diretamente no campo de nome.
+Você pode importar um arquivo do XMP e o AEM Guides pode selecionar as informações do arquivo. Também há a opção de fornecer os nomes e valores dos metadados usando a lista suspensa. Você também pode adicionar metadados personalizados digitando diretamente no campo de nome.
 
-Para obter mais detalhes, consulte a descrição do recurso **Metadados** em [Criar uma predefinição de saída de PDF](../web-editor/native-pdf-web-editor.md).
+Para obter mais detalhes, consulte a descrição do recurso **Metadados** em [Criar uma predefinição de saída do PDF](../web-editor/native-pdf-web-editor.md).
 
 ### Painel Modo de Exibição de Estrutura de Tópicos Avançado
 
@@ -65,7 +65,7 @@ Para obter mais detalhes, consulte a descrição do recurso Gerar um relatório 
 
 ## PDF nativo | Alterar barra para indicar tópicos alterados no Sumário
 
-O AEM Guides agora permite identificar rapidamente os tópicos alterados no índice da saída de PDF.  Ela mostra uma barra de alterações à esquerda dos tópicos alterados no índice. Você pode clicar no tópico no índice e exibir as alterações detalhadas.
+O AEM Guides agora permite identificar rapidamente os tópicos alterados no índice da saída do PDF.  Ela mostra uma barra de alterações à esquerda dos tópicos alterados no índice. Você pode clicar no tópico no índice e exibir as alterações detalhadas.
 
 <img src="assets/change-marker-toc.png" alt="Alterar marcador no sumário " width="500">
 

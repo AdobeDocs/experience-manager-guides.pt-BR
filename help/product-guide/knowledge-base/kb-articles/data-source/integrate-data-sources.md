@@ -1,9 +1,10 @@
 ---
 title: Arquitetura da integração de fontes de dados externas no AEM Guides
 description: Saiba mais sobre a arquitetura da Integração de fontes de dados externas no AEM Guides.
-source-git-commit: b0cf652023770eda24ea27ff105ed6dc2cdd1f08
+exl-id: ce99033a-0ce1-4696-9d4c-89187273b0bd
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '653'
 ht-degree: 0%
 
 ---
@@ -35,7 +36,7 @@ Estas são algumas das fontes de dados que você pode conectar pelo Experience M
 - Gerenciamento de informações do produto (PIM) / Gerenciamento do ciclo de vida do produto (PLM)
    - Pimcore, Salsify, Akeneo e Informatica
 - Sistemas de gerenciamento de produtos
-   - JIRA e placas DevOps do Microsoft Azure (ADO)
+   - JIRA e placas Microsoft Azure DevOps (ADO)
 - Sistemas OLAP (Online Analytical Processing, processamento analítico online) e Analytics
 
 ### Integração no Experience Manager Guides
@@ -53,7 +54,6 @@ Execute as seguintes etapas para integrar o conteúdo ao Experience Manager Guid
 1. **Configurar o conector de fonte de dados**
    - O conector da fonte de dados serve como interface para estabelecer conectividade com as fontes de dados externas. Você deve configurar o conector para estabelecer a conexão e incluir os métodos de autenticação, como `Basic Auth` ou `API key Auth`. Todos os detalhes de configuração, incluindo informações criptografadas, são armazenados com segurança no Adobe Experience Manager.
    - A camada do conector é projetada para ser extensível, permitindo que você crie suas implementações para conexão com vários sistemas que não são fornecidos prontos para uso pela Experience Manager Guides.
-
      ![Camada de conector](assets/data-source-connector-layer.jpg)
    >[!NOTE]
    >
@@ -99,11 +99,9 @@ Execute as seguintes etapas para integrar o conteúdo ao Experience Manager Guid
         ```
 
       - Modelos
-
-        ![Mecanismo de modelo](assets/data-source-TemplatingEngine.png){width="800" align="left"}
+        ![Mecanismo de modelo](assets/data-source-TemplatingEngine.png){width="800"}
       - Dados gerados a partir da mesma fonte de dados, mas com modelos diferentes
-
-        ![Dados Gerados](assets/data-source-templates-topics.png){width="800" align="left"}
+        ![Dados Gerados](assets/data-source-templates-topics.png){width="800"}
 
 1. **Gerar conteúdo usando os modelos**
    - Você pode gerar o conteúdo a partir dos modelos criados.
@@ -113,8 +111,8 @@ Execute as seguintes etapas para integrar o conteúdo ao Experience Manager Guid
       - Tópico DITA + Mapa: Você também pode gerar um mapa completo com o tópico e, em seguida, usar os dados para publicação direta ou usá-los como um *Componente reutilizável* em outros dados.
 
 
-1. **Publish o conteúdo integrado**
-   - A publicação é o recurso OOTB do Experience Manager Guides e você pode publicar diretamente todos os dados gerados a partir do sistema externo como saída do PDF ou do site AEM.
+1. **Publicar o conteúdo integrado**
+   - A publicação é o recurso OOTB do Experience Manager Guides e você pode publicar diretamente todos os dados gerados a partir do sistema externo como saída do PDF ou do AEM Site.
 
 >[!MORELIKETHIS]
 >

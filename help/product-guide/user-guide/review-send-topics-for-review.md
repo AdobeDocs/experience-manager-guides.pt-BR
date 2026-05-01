@@ -4,9 +4,9 @@ description: Saiba como criar uma tarefa de revisão e enviar tópicos para revi
 exl-id: c486eb6a-7e1f-4faa-973d-b47252d3e7c5
 feature: Reviewing
 role: User
-source-git-commit: c36dbb3861f904bda1aee176fc5f4c0dd69b97dc
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '3135'
+source-wordcount: '3161'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Para criar uma tarefa de revisão e enviar tópicos para revisão, execute as se
 
 1. Escolha o ícone **Selecionar** na ação rápida e selecione os tópicos que deseja enviar para revisão.
 
-   ![](images/select-asset-62.png){width="300" align="left"}
+   ![](images/select-asset-62.png){width="300"}
 
 1. Na barra de ferramentas, selecione **Criar Tarefa de Revisão**. A página de criação da tarefa de revisão é exibida.
 
@@ -100,7 +100,7 @@ Para criar uma tarefa de revisão e enviar tópicos para revisão, execute as se
 
    A página Content é exibida.
 
-   ![](images/content_page_review.png){align="left"}
+   ![](images/content_page_review.png)
 
 1. Na página Conteúdo, selecione uma versão do tópico que você deseja compartilhar para revisão.
 
@@ -121,7 +121,7 @@ Para criar uma tarefa de revisão e enviar tópicos para revisão, execute as se
 
    A página Revisores é exibida, onde você pode adicionar ou remover revisores. Por padrão, os revisores adicionados ao campo Atribuir a são adicionados automaticamente a cada tópico selecionado para a revisão.
 
-   ![](images/add-reviewers-topics.png){width="650" align="left"}
+   ![](images/add-reviewers-topics.png){width="650"}
 
 1. Na página Revisores, você pode adicionar ou remover revisores. As seguintes operações estão disponíveis na página Revisores:
 
@@ -219,7 +219,7 @@ Para enviar um ou vários tópicos juntamente com o arquivo de mapa para revisã
 
    A página Conteúdo é exibida com todos os tópicos referenciados do arquivo de mapa. Se o mapa DITA contiver mapas aninhados, os tópicos desses mapas também serão listados aqui.
 
-   ![](images/content-page-map-review.png){align="left"}
+   ![](images/content-page-map-review.png)
 
 1. Na página Conteúdo, selecione uma versão do tópico que você deseja compartilhar para revisão.
 

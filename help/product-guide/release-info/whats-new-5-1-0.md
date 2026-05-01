@@ -1,10 +1,11 @@
 ---
-title: Notas de versão | Novidades da versão 5.1.0 do Adobe Experience Manager Guides
+title: Notas de versão | Novidades na versão 5.1.0 do Adobe Experience Manager Guides
 description: Saiba mais sobre os recursos novos e aprimorados da versão 5.1.0 do Adobe Experience Manager Guides
 role: Leader
-source-git-commit: f6617b727d385d31ba66d575ee48f29e77ac716f
+exl-id: 4f65cf99-3ea2-47aa-91fd-ce0c8d9eaa11
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1398'
+source-wordcount: '1401'
 ht-degree: 0%
 
 ---
@@ -42,9 +43,9 @@ Os principais destaques são os seguintes:
 - **Suporte aprimorado para sinalização na criação de arquivos DITAVAL:** o Experience Manager Guides oferece novos recursos para personalizar a publicação de conteúdo por meio do suporte aprimorado à sinalização em arquivos DITAVAL. Agora é possível aplicar sinalizadores de início e término ao redor de um conteúdo específico, incluindo imagens, e enriquecer as seções sinalizadas com opções de formatação como negrito, itálico e muito mais. Para lidar com sobreposições de condição, o **conflito de estilo** pode ser configurado, o que inclui a definição de uma cor de fundo e texto padrão, garantindo clareza e consistência na saída. Esses sinalizadores são totalmente compatíveis na geração do PDF nativo, e a saída resultante reflete de forma precisa e abrangente todos os elementos de estilo aplicados.
 Para obter mais detalhes, consulte [Usar o Editor DITAVAL](../user-guide/ditaval-editor.md).
 
-  ![](assets/ditaval-flag-style-new.png){width="350" align="left"}
+  ![](assets/ditaval-flag-style-new.png){width="350"}
 
-- **Suporte a vários arquivos DITAVAL para PDF PDF Nativo:** Agora, vários arquivos DITAVAL podem ser adicionados para que cada um seja exibido como uma entrada marcada, facilitando a identificação e a remoção, oferecendo maior flexibilidade e controle sobre o conteúdo condicional nas saídas do PDF
+- **Suporte a vários arquivos DITAVAL para PDF Nativo:** Agora, vários arquivos DITAVAL podem ser adicionados para que cada um seja exibido como uma entrada marcada, facilitando a identificação e a remoção, oferecendo maior flexibilidade e controle sobre o conteúdo condicional nas saídas do PDF
 
   Além disso, essa atualização melhora a criação de predefinições de saída, permitindo campos DITAVAL editáveis em todos os formatos, permitindo que os usuários especifiquem manualmente os caminhos DITAVAL.
 
@@ -60,7 +61,7 @@ Essa versão traz melhorias na interface do usuário para o recurso de filtragem
 
 Para obter mais detalhes, consulte [Solução de problemas básica](../user-guide/generate-output-basic-troubleshooting.md).
 
-![](./assets/log-file-new.png){align="left"}
+![](./assets/log-file-new.png)
 
 
 ### Os arquivos temporários para saída publicada agora incluem Autor e URLs de publicação em um novo arquivo de configuração
@@ -117,7 +118,7 @@ O Experience Manager Guides apresenta uma nova opção **Usar nomes de arquivos 
 
 Para obter mais detalhes, consulte [Baixar arquivos](../user-guide/authoring-download-assets.md#download-a-dita-map-file-from-the-editor).
 
-![](assets/download-map-dialog-new.png){width="300" align="left"}
+![](assets/download-map-dialog-new.png){width="300"}
 
 ### Solicitação de tempo limite da sessão para evitar perda acidental de conteúdo
 
@@ -141,10 +142,3 @@ Com esta versão, as configurações em **Preferências do usuário** na página
 Além disso, na barra de ferramentas do Editor, alguns alternadores de acesso rápido para habilitar ou desabilitar o Controle de Alterações, Marcas e Espaços Não Separáveis agora estão agrupados na opção **Mostrar** na lista suspensa Menu para melhor usabilidade.
 
 Para obter mais detalhes, exiba [Barra de ferramentas no Editor](../user-guide/web-editor-toolbar.md#menu-dropdown).
-
-
-
-
-
-
-

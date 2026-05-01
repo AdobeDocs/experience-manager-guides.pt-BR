@@ -5,7 +5,7 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: 4e47536a-ad78-4c97-9cea-a6af854f6e2f
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '2775'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Para criar uma tarefa de revisão e enviar tópicos para revisão, execute as se
 
 1. Clique no ícone Selecionar na ação rápida e selecione os tópicos que deseja enviar para revisão.
 
-   ![](images/select-asset-62.png){width="300" align="left"}
+   ![](images/select-asset-62.png){width="300"}
 
 1. Na barra de ferramentas, clique em **Criar tarefa de revisão**. A página de criação da tarefa de revisão é exibida.
 
@@ -54,7 +54,7 @@ Para criar uma tarefa de revisão e enviar tópicos para revisão, execute as se
    >
    > É possível criar uma tarefa de revisão somente para os tópicos que têm uma revisão. Caso o tópico selecionado não tenha uma revisão, você receberá um prompt.
 
-   ![](images/create-review-task-023.png){width="650" align="left"}
+   ![](images/create-review-task-023.png){width="650"}
 
 1. Digite um **Título** para a tarefa e selecione um **Projeto** DITA na lista suspensa.
 
@@ -94,7 +94,7 @@ Para criar uma tarefa de revisão e enviar tópicos para revisão, execute as se
 
    A página Content é exibida.
 
-   ![](images/content_page_review.png){width="800" align="left"}
+   ![](images/content_page_review.png){width="800"}
 
 1. Na página Conteúdo, selecione uma versão do tópico que você deseja compartilhar para revisão.
 
@@ -115,7 +115,7 @@ Para criar uma tarefa de revisão e enviar tópicos para revisão, execute as se
 
    A página Revisores é exibida, onde você pode adicionar ou remover revisores. Por padrão, os revisores adicionados ao campo Atribuir a são adicionados automaticamente a cada tópico selecionado para a revisão.
 
-   ![](images/add-reviewers-topics.png){width="650" align="left"}
+   ![](images/add-reviewers-topics.png){width="650"}
 
 1. Na página Revisores, você pode adicionar ou remover revisores. As seguintes operações estão disponíveis na página Revisores:
 
@@ -211,7 +211,7 @@ Para enviar um ou vários tópicos juntamente com o arquivo de mapa para revisã
 
    A página Conteúdo é exibida com todos os tópicos referenciados do arquivo de mapa. Se o mapa DITA contiver mapas aninhados, os tópicos desses mapas também serão listados aqui.
 
-   ![](images/content-page-map-review.png){width="800" align="left"}
+   ![](images/content-page-map-review.png){width="800"}
 
 1. Na página Conteúdo, selecione uma versão do tópico que você deseja compartilhar para revisão.
 

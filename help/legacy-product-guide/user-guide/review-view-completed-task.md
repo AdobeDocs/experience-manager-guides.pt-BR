@@ -5,7 +5,7 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: f74269fe-a7a9-4bb3-b476-f8214387ffd0
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Como revisor, você pode ver um indicador no painel de comentários para mostrar
 
 No entanto, é possível pesquisar ou filtrar comentários. Você também pode optar por mostrar ou ocultar condições e exibir conteúdo condicional de acordo. Você pode baixar qualquer anexo, mas não pode fazer upload nem excluir anexos para os comentários.
 
-![](images/complete-task-reviewer.png){width="800" align="left"}
+![](images/complete-task-reviewer.png){width="800"}
 
 
 ## Como autor
@@ -31,6 +31,6 @@ Como autor, você pode ver o status como fechado no painel Revisão. Você pode 
 
 No entanto, é possível pesquisar ou filtrar comentários. Você pode baixar qualquer anexo, mas não pode fazer upload nem excluir anexos para os comentários.
 
-![](images/completed-task-author.png){width="800" align="left"}
+![](images/completed-task-author.png){width="800"}
 
 Assim, como revisor ou autor, você pode visualizar o conteúdo revisado junto com os comentários, mas não pode fazer alterações em uma tarefa de revisão concluída.

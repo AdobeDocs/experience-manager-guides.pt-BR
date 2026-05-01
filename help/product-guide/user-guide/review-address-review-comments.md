@@ -4,9 +4,9 @@ description: Saiba como tratar comentários de revisão como autor no AEM Guides
 exl-id: 4c969788-f700-4fd6-8afa-8e5b411b59f3
 feature: Reviewing
 role: User
-source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1228'
+source-wordcount: '1233'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Um Autor pode endereçar comentários em um documento do Editor. Indicadores vis
 >
 > Ao abordar os comentários de revisão \(para um documento de revisão ativo\), certifique-se de não abrir o tópico em revisão em várias guias com a exibição de tags completas ativada, e não alterne entre os modos de exibição Autor e Source.
 
-![](images/comments-page-web-editor_cs-new.png){align="left"}
+![](images/comments-page-web-editor_cs-new.png)
 
 No Editor, o painel direito contém os ícones Revisar e Controlar alterações. O painel Revisão mostra todos os comentários feitos em seu documento por Revisores. O painel **Controlar alterações** mostra o status de todos os comentários inseridos e excluídos no documento.
 
@@ -53,11 +53,11 @@ No Editor, o painel direito contém os ícones Revisar e Controlar alterações.
 
   Se quiser incorporar a alteração sugerida \(inserção ou exclusão\) uma de cada vez, basta clicar com o botão direito do mouse no comentário no conteúdo e selecionar Aceitar alteração ou Rejeitar alteração. Dependendo da sua seleção, o comentário será aceito ou rejeitado. No caso de comentário aceito, o conteúdo é adicionado ao conteúdo; e no caso de rejeição, ele é removido do conteúdo. Além disso, o status do comentário é alterado no painel Revisão.
 
-  ![](images/import-comment-accept-web-editor_cs-new.png){align="left"}
+  ![](images/import-comment-accept-web-editor_cs-new.png)
 
   Você também pode usar o painel Controlar alterações para aceitar ou rejeitar comentários. Selecionar qualquer comentário realça o comentário no documento.
 
-  ![](images/changes-tab_cs-new.png){align="left"}
+  ![](images/changes-tab_cs-new.png)
 
   >[!IMPORTANT]
   >
@@ -71,7 +71,7 @@ No Editor, o painel direito contém os ícones Revisar e Controlar alterações.
 
 - **I**: aplicar um filtro aos comentários. Você pode filtrar para exibir comentários com base no Tipo de revisão \(todos, destacados, excluídos, inseridos ou nota adesiva\), Status da revisão \(todos, aceitos, rejeitados ou nenhum\), Revisores \(todos ou revisores específicos\(s\)\) ou Versões de tópico. Por padrão, nenhum dos filtros é selecionado.
 
-  ![](images/review-comments-author-filter.png){width="350" align="left"}
+  ![](images/review-comments-author-filter.png){width="350"}
   **Responder a um comentário marcando outros usuários**
 
 Como Autor e iniciador da tarefa de revisão, você pode responder a comentários de revisão e marcar outros usuários envolvidos na mesma tarefa de revisão para direcionar sua atenção ou atribuir acompanhamentos. Essa funcionalidade só está disponível para tarefas de revisão ativas.
@@ -80,7 +80,7 @@ Como Autor e iniciador da tarefa de revisão, você pode responder a comentário
 >
 > Para exibir a lista de usuários atribuídos a uma tarefa de revisão e marcá-los em um comentário, você deve ter acesso de *Leitura* aos nós `/home/users and /home/groups`. Para obter detalhes, consulte [Administração e segurança do usuário](../cs-install-guide/user-admin-sec.md#additional-notes-on-user-groups). <br> Se a marcação ainda não estiver disponível após a confirmação do acesso, talvez o administrador precise atribuir uma licença do `user-admin` para habilitar essa funcionalidade.
 
-![](images/tag-users-review.png){width="350" align="left"}
+![](images/tag-users-review.png){width="350"}
 *Legenda:Tag usuários como iniciador/Autor*
 
 Os usuários marcados recebem um email e uma notificação do AEM, garantindo que sejam informados imediatamente. Para obter mais detalhes sobre como as notificações de revisão disparam, consulte [Noções básicas sobre notificações de revisão](./review-understanding-review-notifications.md).
@@ -89,6 +89,6 @@ Os usuários marcados recebem um email e uma notificação do AEM, garantindo qu
 
 Se você for o iniciador ou o Autor de uma tarefa de revisão e abri-la no **console de Projetos**, o tópico será iniciado na interface de Revisão. Como essa tarefa não está atribuída a você, você pode exibir e responder aos comentários, mas não pode executar nenhuma ação de revisão. A barra de ferramentas de comentários permanece desativada para usuários que não estão atribuídos à tarefa.
 
-![](images/review-comments-toolbar-disabled.png){width="350" align="left"}
+![](images/review-comments-toolbar-disabled.png){width="350"}
 
 **Tópico pai:**&#x200B;[&#x200B; Introdução à revisão](review.md)

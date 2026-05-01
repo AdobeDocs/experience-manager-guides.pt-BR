@@ -5,7 +5,7 @@ exl-id: 6e6dbba3-da41-4066-b7b2-735a3d92b70a
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 0%
@@ -38,7 +38,7 @@ A seguinte definição da classe `custom-bookmark` é adicionada ao arquivo CSS:
 
 Na saída do PDF, a tabela *Lista de contatos* é adicionada no segundo nível da lista de marcadores do PDF, conforme mostrado abaixo:
 
-![](assets/custom-bookmark-in-pdf-output.png) {width="300" align="left"}
+![](assets/custom-bookmark-in-pdf-output.png) {width="300"}
 
 >[!NOTE]
 >

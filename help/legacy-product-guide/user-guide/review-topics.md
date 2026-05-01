@@ -5,7 +5,7 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: 371d89b8-fe05-4477-9bf8-cc47c0899108
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '2362'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Execute as seguintes etapas para revisar um tópico:
 
    A tela a seguir é exibida quando um mapa DITA é usado para iniciar o workflow de revisão:
 
-   ![](images/multiple-topics-review.png){width="800" align="left"}
+   ![](images/multiple-topics-review.png){width="800"}
 
    As seguintes opções estão disponíveis nesta tela:
 
@@ -64,13 +64,13 @@ Execute as seguintes etapas para revisar um tópico:
 
    Todos os tópicos no mapa são mostrados como um único documento composto. Os tópicos que o revisor tem permissão para revisar são mostrados normalmente. Os tópicos que a revisão não tem permissão para revisar não são mostrados.
 
-   ![](images/review-read-only.png){width="800" align="left"}
+   ![](images/review-read-only.png){width="800"}
 
    Na captura de tela acima, o tópico Descrição geral é compartilhado para revisão do revisor atual, exibido normalmente. No entanto, o próximo tópico, Histórico do conteúdo do voo, não é compartilhado para revisão e é exibido no modo somente leitura. O tópico atualmente em foco também é destacado no índice.
 
    A tela a seguir é exibida quando um ou vários tópicos são selecionados e compartilhados para revisão:
 
-   ![](images/review-composite-view.png){width="800" align="left"}
+   ![](images/review-composite-view.png){width="800"}
 
    >[!NOTE]
    >
@@ -92,15 +92,15 @@ Execute as seguintes etapas para revisar um tópico:
 
 Ao exibir um único tópico, você obtém uma opção adicional para alternar de volta para a exibição do documento. Na captura de tela a seguir, um tópico específico de um arquivo de mapa é aberto para revisão. A opção realçada — **Mostrar Exibição de Documento** permite que o usuário alterne de volta para a exibição de documento do arquivo de mapa.
 
-![](images/switch-document-view.png){width="800" align="left"}
+![](images/switch-document-view.png){width="800"}
 
 **Trabalhando com diferentes tipos de ferramentas de comentários** - Você pode adicionar comentários incorporados realçando o texto, percorrendo o texto, inserindo texto ou adicionando uma nota de comentário. Os diferentes tipos de ferramentas de comentários fornecidos na barra de ferramentas Comentários estão descritos abaixo:
 
-![](images/comments-toolbar.png){width="350" align="left"}
+![](images/comments-toolbar.png){width="350"}
 
 - **Realçar** \(![](images/review-highlight-icon.svg)\): para adicionar um comentário de realce, selecione o texto e clique no ícone Realçar. Ou clique no ícone de Realce e selecione o texto desejado:
 
-  ![](images/highlight-comment.png){width="650" align="left"}
+  ![](images/highlight-comment.png){width="650"}
 
   Um pop-up é exibido no painel Comentários, onde você pode adicionar seu comentário ao conteúdo destacado.
 
@@ -119,7 +119,7 @@ Também é possível destacar ou tachar o texto rapidamente com a barra de ferra
 
 1. Selecione o texto que deseja realçar ou tachar. A barra de ferramentas contextual é exibida.
 
-   ![](images/review-quick-launch-toolbar.png){width="550" align="left"}
+   ![](images/review-quick-launch-toolbar.png){width="550"}
 
 1. Clique no ícone **Realçar** ou **Tachado**.
 1. É possível adicionar comentários no painel de comentários para a ação de realce ou tachado.
@@ -135,7 +135,7 @@ As tarefas que você pode executar usando o painel Comentários estão descritas
 - Você pode editar seu próprio comentário clicando no texto comentado no painel Comentários e selecionando **Editar** no menu Opções.
 - Você pode excluir seus próprios comentários clicando no comentário no painel Comentários e selecionando a opção **Excluir** no menu Opções.
 
-  ![](images/review-comment-options-menu.png){width="300" align="left"}
+  ![](images/review-comment-options-menu.png){width="300"}
 
   >[!NOTE]
   >
@@ -149,17 +149,17 @@ As tarefas que você pode executar usando o painel Comentários estão descritas
 
 - A captura de tela a seguir mostra o conteúdo no modo *Revisão*:
 
-![](images/review-author-mode.png){width="550" align="left"}
+![](images/review-author-mode.png){width="550"}
 
 A captura de tela a seguir mostra o conteúdo no modo *Visualização*:
 
-![](images/review-preview-mode.png){width="550" align="left"}
+![](images/review-preview-mode.png){width="550"}
 
-**Adicionar anexos aos comentários** -   Se quiser complementar seu comentário fornecendo informações adicionais que estão disponíveis em algum outro arquivo, anexe-o ao seu comentário. Como revisor, você pode adicionar facilmente um ou vários arquivos do sistema local ao comentário. Um arquivo pode ser adicionado a todas as formas de comentários aceitos - Realce, Tachado, Inserir texto ou um Comentário.
+**Adicionar anexos aos comentários** - Se quiser complementar seu comentário fornecendo informações adicionais que estão disponíveis em algum outro arquivo, anexe-o ao comentário. Como revisor, você pode adicionar facilmente um ou vários arquivos do sistema local ao comentário. Um arquivo pode ser adicionado a todas as formas de comentários aceitos - Realce, Tachado, Inserir texto ou um Comentário.
 
 Quando você insere qualquer um dos comentários, o pop-up de comentários é exibido. Depois de fornecer comentários ou informações adicionais na janela pop-up, você pode enviá-las pressionando Enter. Depois que o comentário for adicionado, você terá a opção de adicionar um anexo a ele.
 
-![](images/comment-pop-up-panel.png){width="800" align="left"}
+![](images/comment-pop-up-panel.png){width="800"}
 
 Na captura de tela acima, o documento contém o pop-up do comentário de destaque e o comentário também é adicionado no painel Comentários. O ícone de anexo de arquivo ![](images/file-attach-review.svg) está disponível junto com o comentário em ambos os locais.
 
@@ -184,30 +184,30 @@ Execute as seguintes etapas para adicionar o anexo ao seu comentário:
 
 - Por padrão, somente dois arquivos anexados com um comentário são exibidos. Se houver mais arquivos, o botão **Exibir Anexo** à direita mostrará o número de todos os anexos \(que são mais de dois\) associados ao comentário. Você pode clicar no número para exibir todos os anexos. Por exemplo, se você tiver quatro anexos com um comentário, verá +2 no botão.
 
-![](images/review-view-attachment.png){width="550" align="left"}
+![](images/review-view-attachment.png){width="550"}
 
 - Passar o ponteiro do mouse sobre um anexo fornece as opções para baixar ou remover o anexo. A remoção do anexo só estará disponível se o revisor atual tiver adicionado esse comentário, conforme mostrado na seguinte captura de tela:
 
-![](images/current-user-comment-options.png){width="550" align="left"}
+![](images/current-user-comment-options.png){width="550"}
 
 Os outros revisores ou autores obtêm somente a opção de download de anexo.
 
-![](images/other-reviewer-download.png){width="550" align="left"}
+![](images/other-reviewer-download.png){width="550"}
 
 - Você pode baixar todos os anexos associados a um comentário na caixa de diálogo **Exibir Anexos**. Selecione os anexos e clique no ícone **Baixar** no nível de comentário.
 
 - Você também pode excluir os anexos associados a um comentário da caixa de diálogo **Exibir anexos**. Selecione os anexos e clique no ícone **Excluir**.
 
-![](images/attach-files-comments-panel.png){width="550" align="left"}
+![](images/attach-files-comments-panel.png){width="550"}
 
 
-**Painel de condições** -   Se o seu tópico tiver conteúdo condicional, você verá o ícone **Condições** \(![](images/conditions-icon.svg)\) à direita. Clicar no ícone **Condições** abre o painel Condições, que permite realçar o conteúdo de acordo com as condições disponíveis no tópico.
+**Painel de condições** - Se o seu tópico tiver conteúdo condicional, você verá o ícone **Condições** \(![](images/conditions-icon.svg)\) à direita. Clicar no ícone **Condições** abre o painel Condições, que permite realçar o conteúdo de acordo com as condições disponíveis no tópico.
 
-:   Por padrão, a opção **Realçar Todas as Condições** está habilitada, todas as condições são selecionadas, o conteúdo inteiro é exibido e o conteúdo condicional é mostrado como realçado tanto no modo de revisão quanto no modo de visualização.
+: por padrão, a opção **Realçar todas as condições** está habilitada, todas as condições são selecionadas, o conteúdo inteiro é exibido e o conteúdo condicional é exibido como realçado no modo de revisão e pré-visualização.
 
-:   Você pode desabilitar a opção **Realçar Todas as Condições** e ver todo o conteúdo presente no tópico como texto normal sem realces.
+: Você pode desabilitar a opção **Realçar Todas as Condições** e ver todo o conteúdo presente no tópico como texto normal sem realces.
 
-![](images/review-conditions-panel.png){width="350" align="left"}
+![](images/review-conditions-panel.png){width="350"}
 
 Você pode optar por ocultar ou mostrar uma condição específica.
 
@@ -215,11 +215,11 @@ Você pode optar por ocultar ou mostrar uma condição específica.
 - Se você mostrar uma condição, o conteúdo condicional será realçado no modo de revisão. Por exemplo, na captura de tela a seguir, somente o conteúdo usa duas condições - `win` e `mac` é realçado.
 
 
-![](images/review-condition-normal-mode.png){width="650" align="left"}
+![](images/review-condition-normal-mode.png){width="650"}
 
 No modo de visualização, são exibidos o conteúdo não-condicional e o conteúdo condicional que usa as duas condições mostradas - `win` e `mac`. O conteúdo condicional restante para o qual as condições estão ocultas não é exibido.
 
-**Revisão em tempo real** -   O painel Comentários é atualizado em tempo real com comentários e o feedback ou a ação realizada pelo autor nos comentários.
+**Revisão em tempo real** - O painel Comentários é atualizado em tempo real com comentários e o feedback ou a ação realizada pelo autor sobre os comentários.
 
 - Vários revisores poderão deixar comentários ou responder a comentários simultaneamente no mesmo documento. Você pode descobrir quem está revisando o documento no momento, passando o mouse sobre o ícone do usuário no canto superior direito da tela.
 
@@ -227,7 +227,7 @@ No modo de visualização, são exibidos o conteúdo não-condicional e o conte�
 
 - Clicar no ícone Comentário desatualizado \(![](images/outdated-comment-icon.svg)\) exibe as diferenças entre a versão mais recente e a versão comentada do documento. Os números de versão \(das versões que estão sendo comparadas\) são exibidos na parte superior dos documentos.
 
-  ![](images/comments-page-review-mode.png){width="800" align="left"}
+  ![](images/comments-page-review-mode.png){width="800"}
 
   >[!NOTE]
   >
@@ -235,7 +235,7 @@ No modo de visualização, são exibidos o conteúdo não-condicional e o conte�
 
 - Clicar em um comentário desatualizado abre a versão desse comentário no painel esquerdo. A versão anterior é mostrada no painel esquerdo e a versão atual é exibida no painel direito. Todos os comentários sobre a versão desatualizada são importados no lado esquerdo. Você pode comparar a versão anterior com a versão atual.
 
-**Filtrar comentários** -   Você pode filtrar comentários em um documento para exibir comentários específicos conforme necessário. Para filtrar comentários, clique no ícone **Filtro** \(![](images/filter-search-icon.svg)\) que aparece no menu à direita da caixa de texto Pesquisar Comentários, no painel Comentários.
+**Filtrar comentários** - Você pode filtrar comentários em um documento para exibir comentários específicos conforme necessário. Para filtrar comentários, clique no ícone **Filtro** \(![](images/filter-search-icon.svg)\) que aparece no menu à direita da caixa de texto Pesquisar Comentários, no painel Comentários.
 
 Selecione uma ou mais das seguintes opções de filtragem na caixa de diálogo **Tipo de Filtro** e clique em **Aplicar**.
 

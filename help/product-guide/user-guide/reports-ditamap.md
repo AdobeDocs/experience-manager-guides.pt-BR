@@ -4,9 +4,9 @@ description: Gere relatórios de mapa DITA no painel de mapa no AEM Guides. Saib
 exl-id: 7fe52ee0-e940-467b-9b8d-3d2371de7a84
 feature: Report Generation
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '769'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Execute as seguintes etapas para exibir o Relatório de mapa DITA:
 
 1. Selecione **Relatórios**.
 
-   ![](images/reports-page-uuid-new.png){align="left"}
+   ![](images/reports-page-uuid-new.png)
 
    A página Relatórios está dividida em duas partes:
 
@@ -37,7 +37,7 @@ Execute as seguintes etapas para exibir o Relatório de mapa DITA:
 
      Quando você seleciona um tópico, é exibido um relatório detalhado do tópico selecionado.
 
-     ![](images/detailed-report-uuid-new.png){align="left"}
+     ![](images/detailed-report-uuid-new.png)
 
      Os itens realçados em **A**, **B**, **C** e **D** estão descritos abaixo:
 
@@ -82,18 +82,18 @@ Execute as seguintes etapas para gerar o CSV de um relatório de mapa DITA:
 
 1. Selecione **Gerar relatório** no canto superior esquerdo para gerar o relatório de mapa DITA.
 
-   ![](images/generate-DITA-map-report-new.png){align="left"}
+   ![](images/generate-DITA-map-report-new.png)
 
 1. Você receberá uma notificação assim que o relatório estiver pronto para download. Selecione **Baixar** para baixar o CSV do relatório gerado.
 
-   ![](images/download-report-dialog-new.png){width="550" align="left"}
+   ![](images/download-report-dialog-new.png){width="550"}
 
 
    Posteriormente, também é possível baixar o CSV do relatório gerado na Caixa de entrada de notificações da Experience Manager.
 
    Selecione o relatório gerado na Caixa de entrada para baixar o relatório.
 
-   ![](images/report-inbox--notification.png){width="300" align="left"}
+   ![](images/report-inbox--notification.png){width="300"}
 
 Depois que o relatório for baixado na Caixa de entrada, você também poderá selecionar o relatório e usar o ícone Abrir na parte superior para abrir o relatório selecionado.
 

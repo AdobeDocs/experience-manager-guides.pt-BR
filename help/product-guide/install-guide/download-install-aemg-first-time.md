@@ -5,7 +5,7 @@ exl-id: 830a4381-303c-419c-b87f-9563352a7eeb
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 3%
@@ -34,7 +34,7 @@ Execute as seguintes etapas para baixar e instalar o AEM Guides pela primeira ve
 
    O Gerenciador de pacotes gerencia os pacotes na instalação local do AEM. Para obter mais informações sobre como trabalhar com o Gerenciador de Pacotes, consulte [Como trabalhar com pacotes](https://helpx.adobe.com/br/experience-manager/6-5/sites/administering/using/package-manager.html) na documentação do AEM.
 
-   ![](assets/package-manager.png){width="650" align="left"}
+   ![](assets/package-manager.png){width="650"}
 
 1. Para carregar o pacote do AEM Guides, clique em **Carregar Pacote**.
 
@@ -44,7 +44,7 @@ Execute as seguintes etapas para baixar e instalar o AEM Guides pela primeira ve
 
 1. Para instalar o pacote, clique em **Instalar**.
 
-   ![](assets/install-package.png){width="650" align="left"}
+   ![](assets/install-package.png){width="650"}
 
 1. Na caixa de diálogo Instalar Pacote, clique em **Instalar**.
 

@@ -5,7 +5,7 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '5239'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Além disso, você pode delegar as configurações específicas da pasta a um de
 
 Ao usar o bloco Perfis de pasta nas configurações de Guias, você pode definir as configurações nas seguintes guias:
 
-![](assets/folder-profile-tabs.png){width="800" align="left"}
+![](assets/folder-profile-tabs.png){width="800"}
 
 - **Geral**: a guia geral só está disponível quando você está definindo as configurações no nível da pasta \(ou projeto/produto\). É possível definir configurações, como os caminhos de pasta aos quais as configurações serão aplicáveis e os usuários que terão direitos administrativos para criar ou atualizar configurações.
 
@@ -98,7 +98,7 @@ Execute as seguintes etapas para configurar o perfil global:
 
    Pela primeira vez, a página Perfis de pasta é exibida somente com o bloco Perfil global.
 
-   ![](assets/folder-profile-global.png){width="800" align="left"}
+   ![](assets/folder-profile-global.png){width="800"}
 
 1. Clique no bloco **Perfil Global**.
 
@@ -127,7 +127,7 @@ Execute as seguintes etapas para configurar um perfil no nível da pasta:
 
 1. Clique em **Criar**.
 
-   ![](assets/create-folder-profile.png){width="300" align="left"}
+   ![](assets/create-folder-profile.png){width="300"}
 
 1. Insira os seguintes detalhes na caixa de diálogo **Criar Perfil de Pasta**:
    - Nome do perfil da pasta.
@@ -259,7 +259,7 @@ Execute as seguintes etapas para adicionar o tópico, mapa ou modelos do PDF em 
    >
    > Por padrão, todos os modelos são armazenados na pasta /content/dam/dita-templates. A pasta `dita-templates` contém subpastas `topics`, `maps` e `PDF` para armazenar os modelos de tópico, mapa e PDF. Você pode adicionar seus modelos personalizados \(.dita,.xml ou .ditamapfiles\) nas pastas de modelo padrão. Depois de adicionar o modelo à pasta padrão, é possível adicioná-los ao perfil global ou de pasta. Para obter mais informações sobre como criar modelos personalizados usando o Editor da Web, consulte [Criar modelo de criação personalizado](#id1917D0EG0HJ).
 
-   ![](assets/search-author-temp.png){width="800" align="left"}
+   ![](assets/search-author-temp.png){width="800"}
 
 1. Adicione os modelos de tópico, mapa e PDF necessários ao seu perfil.
 
@@ -267,7 +267,7 @@ Execute as seguintes etapas para adicionar o tópico, mapa ou modelos do PDF em 
 
    - Escolha **Pesquisar ou Digitar** e digite ou selecione o nome de um modelo na lista suspensa. A lista suspensa consiste em todos os modelos padrão e qualquer novo modelo criado.
 
-     ![](assets/default-template-list.png){width="800" align="left"}
+     ![](assets/default-template-list.png){width="800"}
 
    - Clique em **Procurar** e selecione um modelo do DAM.
 
@@ -275,7 +275,7 @@ Execute as seguintes etapas para adicionar o tópico, mapa ou modelos do PDF em 
 
    Os modelos selecionados são adicionados à lista de modelos.
 
-   ![](assets/author-templ-added-list.png){width="800" align="left"}
+   ![](assets/author-templ-added-list.png){width="800"}
 
    >[!NOTE]
    >
@@ -433,7 +433,7 @@ Execute as seguintes etapas para definir a configuração de IA padrão no perfi
 
 1. Na página do perfil, selecione a guia **Configuração de IA**.
 
-   ![Guia de configuração de IA no perfil global](assets/global-profile-AI-configuration-cs.png) {width="800" align="left"}
+   ![Guia de configuração de IA no perfil global](assets/global-profile-AI-configuration-cs.png) {width="800"}
 
 1. Selecione **Editar**.
 1. Como administrador, você pode definir as seguintes configurações:

@@ -5,7 +5,7 @@ feature: Metadata Management
 role: User
 hide: true
 exl-id: dd5b2648-37e1-4737-bd9d-8618f735d11f
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 0%
@@ -26,12 +26,12 @@ Execute as seguintes etapas para criar tags inteligentes:
 1. Abra o tópico no modo de Visualização e selecione o ícone **Reprocessar Assets** na barra de ferramentas principal.
 1. Selecione Extração de palavra-chave XML para extrair palavras-chave relevantes.
 
-   ![](images/smart-tag-reprocess-asset.png){width="300" align="left"}
+   ![](images/smart-tag-reprocess-asset.png){width="300"}
 
 1. Selecione a opção Executar Pós-Processamento. Uma mensagem é exibida no início bem-sucedido da ferramenta.
 1. As tags são extraídas automaticamente e podem ser vistas na página Propriedades do tópico selecionado.
 
-   ![](images/properties-smart-tags.png){width="800" align="left"}
+   ![](images/properties-smart-tags.png){width="800"}
 
    >[!NOTE]
    >

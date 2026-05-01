@@ -4,9 +4,10 @@ description: Saiba como gerenciar versões
 feature: Version Management
 role: Admin
 level: Experienced
-source-git-commit: b416334318a83e882c32318bc4769d24268cdd1c
+exl-id: 4ca4292a-a97a-4b54-ab9d-17f73e4a100f
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '2293'
+source-wordcount: '2309'
 ht-degree: 0%
 
 ---
@@ -113,7 +114,7 @@ Além disso, você também pode configurar o para mostrar uma mensagem de aviso 
 
 1. Selecione a opção **Desabilitar Edição sem Check-out**.
 
-   ![](assets/xml-editor-config.png){width="650" align="left"}
+   ![](assets/xml-editor-config.png){width="650"}
 
    Com essa opção, os usuários não verão a opção Editar na barra de ferramentas até que façam check-out de um arquivo.
 
@@ -209,7 +210,7 @@ Para dar suporte a este recurso, uma nova propriedade de índice `drivelock` é 
 
 `/oak:index/damAssetLucene/indexRules/dam:Asset/properties/drivelock`
 
-![](assets/index-property-oak-index-drivelock.png){width="800" align="left"}
+![](assets/index-property-oak-index-drivelock.png){width="800"}
 
 Além da nova propriedade de índice, verifique se as seguintes propriedades estão definidas em `/oak:index/damAssetLucene`:
 
@@ -247,7 +248,7 @@ Use as instruções fornecidas em [Substituições de configuração](download-i
 
 | PID | Chave de propriedade | Valor de propriedade |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `block.unsafe.delete` | Os valores possíveis são: <br> - allow\_unsafe\_delete\_for\_all <br> -   allow\_unsafe\_delete\_for\_delete\_assets\_group <br> - block\_unsafe\_delete\_for\_all <br> **Valor padrão**: `allow_unsafe_delete_for_delete_assets_group` <br> Os detalhes dessas constantes são fornecidos a seguir. |
+| `com.adobe.fmdita.config.ConfigManager` | `block.unsafe.delete` | Os valores possíveis são: <br> - allow\_unsafe\_delete\_for\_all <br> - allow\_unsafe\_delete\_for\_delete\_assets\_group <br> - block\_unsafe\_delete\_for\_all <br> **Valor padrão**: `allow_unsafe_delete_for_delete_assets_group` <br> Os detalhes dessas constantes são fornecidos a seguir. |
 
 Dependendo de quem você deseja conceder acesso para exclusão, especifique uma das seguintes constantes:
 
@@ -279,11 +280,11 @@ Dependendo de quem você deseja conceder acesso para exclusão, especifique uma 
 
    - allow\_unsafe\_delete\_for\_all: dê permissão a todos os usuários para excluir arquivos. Nesse caso, se o arquivo\(s\) contiver referências ou for referenciado por outros arquivos, você também poderá excluí-lo à força\(s\). Antes de excluir o arquivo, você verá um prompt com as referências. Você pode cancelar a operação de exclusão, remover as referências e finalmente excluir o arquivo\(s\). Ou você pode forçar a exclusão do arquivo\(s\) sem remover as referências.
 
-     ![](assets/allow_unsafe_delete-force-delete.PNG){width="550" align="left"}
+     ![](assets/allow_unsafe_delete-force-delete.PNG){width="550"}
 
    - allow\_unsafe\_delete\_for\_delete\_assets\_group: um Administrador ou um usuário pertencente ao grupo *delete-assets* tem permissão para excluir arquivos. Se qualquer outro usuário tentar excluir arquivos com qualquer referência, não será permitido excluir esses arquivos até que todas as referências sejam removidas. A captura de tela a seguir é exibida quando um usuário sem permissões tenta excluir arquivos.
 
-     ![](assets/allow_unsafe_delete_for_delete_assets_group.PNG){width="550" align="left"}
+     ![](assets/allow_unsafe_delete_for_delete_assets_group.PNG){width="550"}
 
    - block\_unsafe\_delete\_for\_all: proibir todos os usuários \(incluindo Administradores\) de excluir arquivos até que as referências para e do arquivo\(s\) sejam removidas.
 

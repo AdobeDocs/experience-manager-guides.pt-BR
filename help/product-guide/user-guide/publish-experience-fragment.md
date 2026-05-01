@@ -4,7 +4,7 @@ description: Publique um tópico ou os elementos dentro de um tópico em um Frag
 feature: Publishing
 role: User
 exl-id: 4cdce8c2-2ccf-4bf1-8b92-4dfeb10de186
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '996'
 ht-degree: 0%
@@ -36,12 +36,11 @@ Por exemplo:
 
      Se você não definir um modelo permitido para uma pasta, os modelos serão escolhidos da pasta principal ou da pasta de modelos por padrão.
    * **Solicitável**: permite alterar a ordem dos ativos dentro de uma pasta.
-
-     ![adicionar detalhes de configuração da nuvem nas propriedades da pasta](images/experience-fragment-folder-properties.png){width="650" align="left"}
+     ![adicionar detalhes de configuração da nuvem nas propriedades da pasta](images/experience-fragment-folder-properties.png){width="650"}
      *Adicione a configuração da nuvem nas propriedades da pasta para conectá-la aos modelos de fragmento.*
 1. Para gerar um Fragmento de Experiência, selecione **Nova Saída** ![novo ícone de saída](./images/Add_icon.svg) na seção **Saídas** em **Propriedades do Arquivo** de um tópico.
 1. Selecione **Fragmento de experiência**.\
-   ![guia de opções de propriedades do arquivo](./images/file-properties-outputs-new.png){width="300" align="left"}
+   ![guia de opções de propriedades do arquivo](./images/file-properties-outputs-new.png){width="300"}
 
    *Adicionar um novo Fragmento de experiência das Propriedades do arquivo de um tópico*.
 
@@ -50,7 +49,7 @@ Por exemplo:
    > Você também pode publicar um Fragmento de experiência da **Exibição do repositório**. Selecione o tópico que deseja publicar como um Fragmento de experiência. Em seguida, no menu **Opções**, selecione **Publicar como** > **Fragmento de experiência**.
 
 1. Na caixa de diálogo **Gerar fragmento de experiência**, preencha os seguintes detalhes:
-   ![Adicionar o modelo do fragmento e os detalhes do mapeamento na caixa de diálogo Publicar como fragmento de experiência](images/experience-fragment-generate.png){width="500" align="left"}
+   ![Adicionar o modelo do fragmento e os detalhes do mapeamento na caixa de diálogo Publicar como fragmento de experiência](images/experience-fragment-generate.png){width="500"}
 
    *Adicione o caminho, o modelo e os detalhes de mapeamento para publicar um tópico ou seus elementos como um Fragmento de experiência. Você pode substituir um fragmento de experiência existente.*
 
@@ -80,7 +79,7 @@ Por exemplo:
 1. Selecione **Gerar** para publicar o Fragmento de experiência.
 1. Você pode exibir os Fragmentos de experiência de um tópico na seção **Saídas** em **Propriedades do arquivo**. Os Fragmentos de experiência são exibidos de acordo com a data e a hora de sua publicação, sendo que o mais recente é o primeiro.
 
-   ![Exibir os Fragmentos de experiência de um tópico](images/experience-fragment-outputs-new.png){width=300 align=&quot;left&quot;}
+   ![Exibir os Fragmentos de Experiência de um tópico](images/experience-fragment-outputs-new.png){width=300}
 
    *Exiba os Fragmentos de Experiência presentes para um tópico e publique-os novamente.*
 

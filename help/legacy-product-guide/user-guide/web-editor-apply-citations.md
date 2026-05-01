@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: 832dbc5d-85f7-41fd-8f5d-789732b46f80
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1896'
 ht-degree: 0%
@@ -36,14 +36,14 @@ Para adicionar citações, siga estas etapas:
 1. Selecione o ícone **Citações** ![citações](images/citations-icon.svg) no painel esquerdo.
 O painel **Citações** é aberto.
 
-   ![](images/citation-panel.png){width="300" align="left"}
+   ![](images/citation-panel.png){width="300"}
 
 1. No painel **Citações**, selecione ![Ícone Adicionar](images/Add_icon.svg). Na lista suspensa, é possível optar por adicionar uma nova citação ou importar uma citação.
 
 1. Selecione **Nova Citação** para adicionar uma nova citação.
 A caixa de diálogo **Adicionar Citação** é aberta.
 
-   ![painel de citação no editor da web](images/citation-add.png) {width="300" align="left"}
+   ![painel de citação no editor da web](images/citation-add.png) {width="300"}
 
 
 1. Preencha os campos na caixa de diálogo **Adicionar Citação**.
@@ -160,7 +160,7 @@ A citação selecionada é editada.
 
 Para visualizar uma citação, siga estas etapas:
 
-Passe o mouse sobre o nome da citação na lista. Selecionar     Ícone ![](images/options.svg) **Opções**.
+Passe o mouse sobre o nome da citação na lista. Selecione o ícone ![](images/options.svg) **Opções**.
 
 1. Selecione **Visualizar**.
 Você pode visualizar o conteúdo e o formato da citação no painel de visualização.
@@ -171,7 +171,7 @@ Você pode visualizar o conteúdo e o formato da citação no painel de visualiz
 
 1. Clique em qualquer lugar na tela para fechar a caixa de visualização.
 
-   ![](images/citation-preview.png){width="550" align="left"}
+   ![](images/citation-preview.png){width="550"}
 
 >[!NOTE]
 >
@@ -191,7 +191,7 @@ Execute as seguintes etapas para inserir citações a um tópico:
 
 1. Selecione o ícone **Citations** ![citations &#x200B;](images/citations-icon.svg) na barra de ferramentas principal.
 1. Na caixa de diálogo **Citações**, escolha a citação. Também é possível selecionar várias citações.
-   ![caixa de diálogo de citação](images/citation-dialog-main-toolbar.png){width="300" align="left"}
+   ![caixa de diálogo de citação](images/citation-dialog-main-toolbar.png){width="300"}
 1. Você pode filtrar citações digitando os primeiros alfabetos no painel de pesquisa da caixa de diálogo **Citação**.
 
 1. Clique em **Concluído**.
@@ -228,7 +228,7 @@ Para excluir uma citação do painel Citações, siga estas etapas:
 
 1. Passe o mouse sobre o nome da citação na lista.
 1. Selecione o ícone ![](images/options.svg) **Opções**.
-1. Selecione o   **Excluir** ![](images/Delete_icon.svg).
+1. Selecione a **Excluir** ![](images/Delete_icon.svg).
 A caixa de diálogo de confirmação é aberta.
 1. Selecione **Sim**.
 A citação selecionada é excluída do painel de citações.

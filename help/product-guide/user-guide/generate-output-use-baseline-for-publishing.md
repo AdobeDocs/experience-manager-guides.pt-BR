@@ -4,9 +4,9 @@ description: Conhecer o uso de linhas de base no AEM Guides. Saiba como criar, e
 exl-id: 0554947f-3038-4fd2-8a62-ac0d4b858e94
 feature: Publishing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1790'
+source-wordcount: '1803'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Execute as seguintes etapas para criar uma linha de base:
 2. Selecione **Criar** no canto superior esquerdo.
 3. Na página Linha de Base, digite um nome para a Linha de Base no campo **Nome da Linha de Base**.
 
-   ![](images/create-baseline-assets-ui.png){width="300" align="left"}
+   ![](images/create-baseline-assets-ui.png){width="300"}
 
 4. Em **Definir a versão com base em**, selecione uma das seguintes opções:
 
@@ -81,7 +81,7 @@ Execute as seguintes etapas para editar uma linha de base existente:
 1. Faça as alterações necessárias na linha de base. É possível alterar o nome e a versão do tópico ou conteúdo referenciado.
 1. Se quiser usar uma versão diferente para um ou mais tópicos, selecione manualmente esses tópicos. Selecione **Procurar Tópico**, selecione o tópico para o qual deseja usar uma versão diferente. Na lista suspensa Selecionar uma Versão para o tópico selecionado, selecione uma versão do tópico que deseja usar na linha de base e selecione **OK**.
 
-   ![](images/baseline-select-version-drop-down.png){align="left"}
+   ![](images/baseline-select-version-drop-down.png)
 
    As informações sobre o tópico e sua versão selecionada são armazenadas no back-end. Você pode repetir essa etapa para alterar a versão selecionada de vários tópicos.
 
@@ -128,7 +128,7 @@ Execute as seguintes etapas para adicionar um rótulo a vários tópicos e conte
 
 1. Selecione **Adicionar rótulos**.
 
-   ![](images/add-label-baseline-uuid.png){align="left"}
+   ![](images/add-label-baseline-uuid.png)
 
 1. Na caixa de diálogo **Adicionar Rótulo**, especifique um rótulo exclusivo para associar a esta linha de base.
 
@@ -139,7 +139,7 @@ Execute as seguintes etapas para adicionar um rótulo a vários tópicos e conte
    - Selecione **Adicionar**.
 O rótulo especificado é adicionado ao mapa DITA e aos tópicos e conteúdo referenciados.
 
-     ![](images/label-added-baseline-uuid.png){width="650" align="left"}
+     ![](images/label-added-baseline-uuid.png){width="650"}
 
 
 ## Exportar Linha de Base traduzida
@@ -158,7 +158,7 @@ Execute as seguintes etapas para exportar uma Linha de Base traduzida:
 
 1. Na guia **Tradução**, expanda a opção **Linha de Base**, disponível no painel esquerdo.
 
-   ![](images/export-baseline-new.png){align="left"}
+   ![](images/export-baseline-new.png)
 
 1. Selecione a opção **Usar Linha de Base** e escolha a Linha de Base que deseja exportar.
 

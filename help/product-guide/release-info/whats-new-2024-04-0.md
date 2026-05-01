@@ -1,10 +1,10 @@
 ---
-title: Notas de versão | Novidades da versão 2024.4.0 do Adobe Experience Manager Guides
+title: Notas de versão | Novidades na versão 2024.4.0 do Adobe Experience Manager Guides
 description: Saiba mais sobre os recursos novos e aprimorados da versão 2024.4.0 do Adobe Experience Manager Guides as a Cloud Service.
 exl-id: e9db535a-5ad5-4ff0-94af-b4425594316a
-source-git-commit: 5d99274da8fdacbd255d426fa4913b5773ca45f8
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1806'
+source-wordcount: '1821'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Por exemplo, se você precisar traduzir o conteúdo para alguns países na Europ
 
 
 
-![painel de tradução](assets/translation-languages-2404.png){width="300" align="left"}
+![painel de tradução](assets/translation-languages-2404.png){width="300"}
 
 *Selecione os grupos de idiomas ou idiomas para os quais você deseja traduzir os documentos.*
 
@@ -51,7 +51,7 @@ Excluir um projeto remove permanentemente todos os arquivos e pastas presentes n
 
 Você pode desativar os projetos de tradução se desejar usá-los posteriormente.
 
-![](assets/editor-setting-translation.png){width="550" align="left"}
+![](assets/editor-setting-translation.png){width="550"}
 
 
 *Defina os grupos de idiomas e as configurações de limpeza para projetos de tradução.*
@@ -62,13 +62,13 @@ Saiba mais sobre como [excluir ou desabilitar automaticamente o projeto de tradu
 
 ## Ativar a saída dos mapas na coleção de ativação em massa na instância de Visualização
 
-Agora, além de ativar a saída para sua coleção de ativação em massa na instância de publicação, o Experience Manager Gudies as Cloud Service fornece o recurso para ativá-lo na instância **Preview**.
+Agora, além de ativar a saída para sua coleção de ativação em massa na instância de publicação, o Experience Manager Guides as Cloud Services fornece o recurso para ativá-la na instância **Preview**.
 
 
-Este recurso ajuda a ativar o conteúdo para uma instância de visualização, permitindo verificar sua aparência e funcionamento antes de ativá-lo para a instância do **Publish**.
+Este recurso ajuda a ativar o conteúdo para uma instância de visualização, permitindo verificar sua aparência e funcionamento antes de ativá-lo para a instância **Publicar**.
 
 
-![&#x200B; criou a guia de histórico de auditoria da coleção de ativação em massa](assets/bulk-collection-audit-history.png){width="800" align="left"}
+![&#x200B; criou a guia de histórico de auditoria da coleção de ativação em massa](assets/bulk-collection-audit-history.png){width="800"}
 
 *Exiba as informações sobre as saídas do mapa ativado na guia **Histórico de Auditoria**.*
 
@@ -81,13 +81,13 @@ Os seguintes aprimoramentos foram feitos nos conectores de fonte de dados da ver
 
 ### Conecte-se às fontes de dados do Salsify, Akeneo e Microsoft Azure DevOps Boards (ADO)
 
-Além dos conectores prontos para uso existentes, o Experience Manager Guides também fornece conectores para fontes de dados do Salsify, Akeneo e Microsoft Azure DevOps Boards (ADO). Como administrador, você pode baixar e instalar esses conectores. Em seguida, configure os conectores instalados.
+Além dos conectores prontos para uso existentes, a Experience Manager Guides também fornece conectores para fontes de dados do Salsify, Akeneo e Microsoft Azure DevOps Boards (ADO). Como administrador, você pode baixar e instalar esses conectores. Em seguida, configure os conectores instalados.
 
 ### Copie e cole o exemplo de consulta para criar um trecho de conteúdo ou tópico
 
 Você pode copiar e colar facilmente uma amostra de consulta de dados no gerador para criar um trecho de conteúdo ou tópico. Com esse recurso, não é necessário lembrar a sintaxe ou criar um query manualmente. Em vez de digitar manualmente a consulta, você pode copiar e colar uma consulta de exemplo, editá-la e usá-la para buscar os dados de acordo com suas necessidades.
 
-![caixa de diálogo inserir trecho do conteúdo](assets/insert-content-snippet.png){width="800" align="left"}
+![caixa de diálogo inserir trecho do conteúdo](assets/insert-content-snippet.png){width="800"}
 
 *Copie e edite uma consulta de exemplo para criar o trecho de conteúdo.*
 
@@ -100,7 +100,7 @@ Esse recurso ajuda você a usar os dados armazenados em seus arquivos JSON e reu
 
 ### Configure vários URLs de recursos para um conector criar trechos de conteúdo ou tópicos
 
-Como administrador, você pode configurar vários URLs de recursos para alguns conectores, como Cliente REST genérico, Salsify, Akeneo e placas DevOps (ADO) do Microsoft Azure.
+Como administrador, você pode configurar vários URLs de recursos para alguns conectores, como Generic REST Client, Salsify, Akeneo e Microsoft Azure DevOps Boards (ADO).
 
 Em seguida, como autor, conecte-se às fontes de dados para criar trechos de conteúdo ou tópicos usando os geradores. Esse recurso é útil, pois você não precisa criar uma fonte de dados para cada URL. Ele ajuda você a buscar dados rapidamente de qualquer um dos recursos de uma fonte de dados específica em um único trecho de conteúdo ou tópico.
 
@@ -114,7 +114,7 @@ A caixa de diálogo **Preferências do Usuário** no Editor da Web agora inclui 
 
 Você pode configurar a exibição dos arquivos por título ou nome de arquivo e alterar o tema do aplicativo e a exibição do código-fonte. Também ajuda a definir as configurações para localizar um arquivo aberto na exibição de repositório e lidar com espaços não separáveis.
 
-![guia aparência das preferências do usuário](assets/user_preference_editor_appearance.png){width="550" align="left"}
+![guia aparência das preferências do usuário](assets/user_preference_editor_appearance.png){width="550"}
 
 *Personalize a aparência de acordo com suas preferências.*
 
@@ -154,13 +154,13 @@ Saiba como [desabilitar o pós-processamento para uma pasta](../cs-install-guide
 Agora, você tem uma experiência aprimorada ao filtrar arquivos. A funcionalidade renovada para filtrar arquivos fornece uma maneira aprimorada de pesquisar e navegar facilmente pelos arquivos.
 
 
-![pesquisar arquivos no modo de exibição de repositório](assets/repository-filter-search-2404.png){width="300" align="left"}
+![pesquisar arquivos no modo de exibição de repositório](assets/repository-filter-search-2404.png){width="300"}
 
 *Pesquisar os arquivos que contêm o texto`general purpose.`*
 
 Aproveite benefícios como acesso mais rápido a arquivos relevantes e uma interface do usuário mais intuitiva, tornando sua experiência de pesquisa mais estável e eficiente.
 
-![filtro de pesquisa rápida &#x200B;](assets/repository-filter-search-quick.png) {width="300" align="left"}
+![filtro de pesquisa rápida &#x200B;](assets/repository-filter-search-quick.png) {width="300"}
 
 *Use os filtros rápidos para procurar arquivos DITA e não DITA.*
 
@@ -173,7 +173,7 @@ Ao editar um documento no Editor da Web, agora é possível exibir uma lista sep
 * **Elementos válidos no local atual** que você pode inserir no próprio local do cursor atual.
 * **Elementos válidos fora do local atual** que você pode inserir depois de qualquer um dos pais para o elemento atual na hierarquia de elementos.
 
-![Inserir caixa de diálogo do elemento](assets/insert-element-dialog.png){width="300" align="left"}
+![Inserir caixa de diálogo do elemento](assets/insert-element-dialog.png){width="300"}
 
 *Exiba as listas segregadas de elementos válidos para inserir um elemento no local atual.*
 
@@ -190,7 +190,7 @@ Agora, as Propriedades de Conteúdo **Tipo** aparecem como um menu suspenso. Voc
 Esse menu suspenso ajuda a acessar rapidamente as tags relevantes na estrutura hierárquica.
 
 
-![menu suspenso de tipos nas propriedades de conteúdo](assets/content-properties-type.png){width="300" align="left"}
+![menu suspenso de tipos nas propriedades de conteúdo](assets/content-properties-type.png){width="300"}
 
 *Selecione uma marca da hierarquia para a marca atual.*
 
@@ -203,7 +203,7 @@ Saiba mais sobre o recurso **Propriedades de Conteúdo** na seção [Painel Dire
 O Experience Manager Guides melhora o desempenho e a experiência do recurso de check-in de arquivos em massa do Editor de mapas. Essa melhoria ajuda a fazer o check-in dos arquivos em massa com mais rapidez.
 Você também pode visualizar o progresso da operação de check-in para os arquivos da caixa de diálogo **Salvar como nova versão e Desbloquear**. Por fim, a mensagem de sucesso é exibida após a conclusão da operação e o check-in de todos os arquivos com check-out selecionados.
 
-![Salvar como nova versão e desbloquear a caixa de diálogo](./assets/save-version-lock.png){width="300" align="left"}
+![Salvar como nova versão e desbloquear a caixa de diálogo](./assets/save-version-lock.png){width="300"}
 
 *Exiba a lista e o status dos arquivos com check-in em massa do Editor de Mapas.*
 
@@ -211,7 +211,7 @@ Saiba como [trabalhar com o Editor de Mapa Avançado](../user-guide/map-editor-a
 
 ## Baixar o arquivo temporário ao gerar a saída pelo DITA-OT
 
-Você também pode baixar os arquivos temporários gerados ao publicar a saída do site AEM, HTML, Personalizada, JSON ou PDF por meio do DITA-OT. Esse recurso ajuda você a analisar quaisquer problemas que possam ocorrer durante o processo de geração de saída e solucionar problemas com eficiência.  
+Você também pode baixar os arquivos temporários gerados ao publicar a saída do AEM Site, HTML, Custom, JSON ou PDF por meio do DITA-OT. Esse recurso ajuda você a analisar quaisquer problemas que possam ocorrer durante o processo de geração de saída e solucionar problemas com eficiência.  
 Você também pode baixar o arquivo metadata.xml se tiver selecionado quaisquer propriedades de metadados que foram passados para a saída gerada usando DITA-OT. 
 
 Para obter mais detalhes sobre as predefinições, consulte [Noções básicas sobre as predefinições de saída](../user-guide/generate-output-understand-presets.md).

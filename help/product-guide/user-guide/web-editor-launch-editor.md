@@ -4,9 +4,9 @@ description: Saiba como iniciar o Editor na Página de navegação do AEM, na in
 exl-id: cdde7c29-ee49-4e17-902e-1e2bd6f32e8a
 feature: Authoring, Web Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '718'
 ht-degree: 0%
 
 ---
@@ -25,19 +25,19 @@ As seções a seguir abordam os detalhes de como você pode acessar e iniciar o 
 
 Ao fazer logon no Experience Manager, você verá a página Navegação:
 
-![](images/web-editor-from-navigation-page.png){align="left"}
+![](images/web-editor-from-navigation-page.png)
 
 Ao selecionar o link **Guias**, você será direcionado para a [Página inicial do Adobe Experience Manager Guides](./intro-home-page.md).
 
-![](images/aem-home-page.png){align="left"}
+![](images/aem-home-page.png)
 
 Para iniciar o Editor, vá para a barra de navegação e selecione **Editor** na lista suspensa. A página inicial é selecionada por padrão.
 
-![](images/editor-home-page-dropdown.png){width="350" align="left"}
+![](images/editor-home-page-dropdown.png){width="350"}
 
 Como você iniciou o Editor sem selecionar nenhum arquivo, uma tela em branco do Editor é exibida. Você pode abrir um arquivo para edição no **Repositório** da Experience Manager ou em suas **Coleções**.
 
-![](images/web-editor-launch-page.png){align="left"}
+![](images/web-editor-launch-page.png)
 
 Como alternativa, você também pode iniciar o Editor abrindo os arquivos existentes presentes no widget **Arquivos recentes** e **Coleções** da [experiência da página inicial do Adobe Experience Manager Guides](./intro-home-page.md).
 
@@ -57,7 +57,7 @@ Para abrir um tópico no Editor, siga estas etapas:
    >
    > Você também pode exibir a UUID do tópico.
 
-   ![](images/assets_ui_with_uuid_cs.png){align="left"}
+   ![](images/assets_ui_with_uuid_cs.png)
 
    >[!IMPORTANT]
    >
@@ -79,15 +79,15 @@ Para abrir um tópico no Editor, siga estas etapas:
    >
    > Se quiser abrir vários tópicos para edição, selecione os tópicos desejados na interface do usuário do Assets e selecione **Editar**. Certifique-se de que o navegador não tenha um bloqueador de pop-ups ativado, caso contrário, somente o primeiro tópico na lista selecionada será aberto para edição.
 
-   ![](images/edit-from-preview_cs.png){align="left"}
+   ![](images/edit-from-preview_cs.png)
 
    Se você não quiser visualizar um tópico e quiser abri-lo diretamente no Editor, selecione o ícone **Editar** no menu de ação rápida da exibição de cartão:
 
-   ![](images/edit-topic-from-quick-action_cs.png){align="left"}
+   ![](images/edit-topic-from-quick-action_cs.png)
 
    O tópico é aberto no Editor.
 
-   ![](images/edit-mode.png){align="left"}
+   ![](images/edit-mode.png)
 
 Você também pode abrir um arquivo de mapa na interface do usuário do Assets e iniciar o Editor para editar os tópicos no arquivo de mapa.
 
@@ -98,7 +98,7 @@ Para abrir um mapa no Editor, siga estas etapas:
 1. Selecione o arquivo de tópico que deseja editar.
 1. Selecione **Editar Tópico**.
 
-   ![](images/edit-topics-map-console_cs.png){align="left"}
+   ![](images/edit-topics-map-console_cs.png)
 
 1. O tópico é aberto no Editor.
 
@@ -112,21 +112,21 @@ Para abrir o Editor no console Mapa, siga estas etapas:
 
 1. Abra a página inicial e inicie o console Mapa.
 
-   ![](images/editor-map-console-dropdown.png){width="350" align="left"}
+   ![](images/editor-map-console-dropdown.png){width="350"}
 
    Como você iniciou o console de Mapa sem selecionar nenhum arquivo de mapa, uma tela em branco do console de Mapa é exibida. Você também pode abrir um arquivo de mapa no **Repositório** da Experience Manager ou em suas **Coleções**.
 
-   ![](images/launch-map-console.png){width="500" align="left"}
+   ![](images/launch-map-console.png){width="500"}
 
 1. Escolha **Selecionar mapa** para abrir um arquivo de mapa contendo os tópicos que você deseja editar no Editor.
 1. Selecione o caminho onde o arquivo de mapa está localizado. O arquivo de mapa selecionado é adicionado ao console Mapa.
 1. Navegue até o arquivo de mapa e selecione **Abrir no editor** na lista suspensa.
 
-   ![](images/map-console-open-in-editor.png){align="left"}
+   ![](images/map-console-open-in-editor.png)
 
    O arquivo de mapa que contém os tópicos está aberto para edição no Editor.
 
-   ![](images/map-console-edit-topics.png){align="left"}
+   ![](images/map-console-edit-topics.png)
 
 
 
