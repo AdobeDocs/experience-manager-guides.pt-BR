@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Aumente a eficiência com a Ajuda inteligente no Assistente de IA (Beta)
 
-O Experience Manager Guides fornece a Ajuda inteligente baseada em GenAI, um recurso de pesquisa conversacional que ajuda a localizar conteúdo relevante na [documentação do Adobe Experience Manager Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
+O Experience Manager Guides fornece a Ajuda inteligente baseada em GenAI, um recurso de pesquisa conversacional que ajuda a localizar conteúdo relevante na [documentação do Adobe Experience Manager Guides](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using/overview).
 
 Você pode fazer suas perguntas e obter respostas de forma informativa. A resposta à sua consulta baseia-se no conteúdo da documentação do produto. Essa busca é totalmente conversacional. Você pode fazer perguntas sobre os vários recursos do Experience Manager Guides ou optar por fazer consultas de solução de problemas. Com base na resposta, você também pode fazer mais perguntas. A resposta também inclui links para documentos de origem, os quais você pode consultar para obter detalhes.
 

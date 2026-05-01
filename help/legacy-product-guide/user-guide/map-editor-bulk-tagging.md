@@ -16,7 +16,7 @@ ht-degree: 0%
 
 As tags permitem agrupar ou classificar o conteúdo no repositório de conteúdo e também na saída publicada. Se você tiver aplicado tags ao seu conteúdo, poderá encontrar facilmente tópicos relacionados em um mapa DITA que podem ajudá-lo a criar conteúdo. Com a saída publicada, os usuários finais poderão localizar o conteúdo correto mais rapidamente com as tags apropriadas em vigor.
 
-O AEM Guides permite marcar o conteúdo DITA com apenas alguns cliques. Você pode usar o recurso de marcação em massa para aplicar várias tags a vários tópicos, um mapa DITA ou um submapa. Ou você também pode aplicar tags a um tópico individual. A marcação é o recurso nativo no AEM. Você pode encontrar mais detalhes sobre como criar e gerenciar tags na seção [Administração de tags](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) da documentação da AEM.
+O AEM Guides permite marcar o conteúdo DITA com apenas alguns cliques. Você pode usar o recurso de marcação em massa para aplicar várias tags a vários tópicos, um mapa DITA ou um submapa. Ou você também pode aplicar tags a um tópico individual. A marcação é o recurso nativo no AEM. Você pode encontrar mais detalhes sobre como criar e gerenciar tags na seção [Administração de tags](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=pt-BR) da documentação da AEM.
 
 Por padrão, a AEM Guides não concede acesso de leitura a nenhum usuário na pasta em que todas as tags do repositório do AEM estão armazenadas. Para usar tags definidas no repositório do AEM, você deve solicitar que o administrador do sistema conceda acesso à pasta em que as tags estão armazenadas.
 
