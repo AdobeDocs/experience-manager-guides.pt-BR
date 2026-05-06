@@ -285,4 +285,4 @@ O ícone do tópico **Histórico de versão** será exibido assim que a tarefa d
 
 ![](images/version-history-dialog.png)
 
-**Tópico pai:**[ Introdução à revisão](review.md)
+**Tópico pai:**&#x200B;[&#x200B; Introdução à revisão](review.md)

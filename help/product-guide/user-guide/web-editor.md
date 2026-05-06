@@ -51,4 +51,4 @@ No momento, o novo editor não oferece suporte aos seguintes recursos. Esses rec
 O Editor antigo no Experience Manager Guides oferece uma experiência de criação simples e confiável para conteúdo estruturado, abstraindo as complexidades do DITA e garantindo a conformidade com padrões compatíveis, como o DITA 1.2, 1.3, DITA leve e DITA especializado. Ele fornece ferramentas essenciais para trabalhar com blocos comuns e elementos em linha, tornando-o adequado para a criação de conteúdo consistente e controlada em uma estrutura estruturada.
 
 
-**Tópico pai:**[ Conteúdo de autor usando o Experience Manager Guides](authoring-content-xml-doc.md)
+**Tópico pai:**&#x200B;[&#x200B; Conteúdo de autor usando o Experience Manager Guides](authoring-content-xml-doc.md)
