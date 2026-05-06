@@ -3,7 +3,7 @@ title: Guias de publicação de benchmarks no AEMaaCS
 description: Entenda os limites do sistema em Publicação na AEM Cloud.
 feature: Publishing
 role: User, Admin
-source-git-commit: 6e2577f04f1092ec9d8445ddbb97aa34be1e53a4
+source-git-commit: b6e4fd5051018ce6c60aadf66e6bf7375322aaa1
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 20%
