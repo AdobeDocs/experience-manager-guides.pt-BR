@@ -4,14 +4,18 @@ description: Saiba como usar o painel de Pesquisa na interface do Editor.
 feature: Authoring
 role: User
 exl-id: cf3c03b5-383c-464c-8ef1-2f0f825c4e56
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: f188c2827a9e27249d0162c9f9913e090b29672d
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
 
 # Painel Pesquisar
+
+>[!INFO]
+>
+>Este tópico se aplica ao Novo editor e ao Editor antigo. Embora a funcionalidade principal permaneça consistente, diferenças na interface do usuário, terminologia e interações são indicadas no conteúdo usando guias e chamadas de retorno, quando aplicável.
 
 O painel Pesquisar no Editor aumenta a produtividade, fornecendo acesso rápido a um subconjunto de arquivos, exibidos com base em termos de pesquisa ou filtros aplicados ao editar conteúdo. Ele ajuda a abrir facilmente um ou vários arquivos pesquisados ou usá-los em um arquivo existente simplesmente arrastando e soltando em um tópico ou mapa. Você pode localizar o **painel de Pesquisa** na parte inferior do Editor.
 
@@ -55,7 +59,17 @@ Ao trabalhar na interface do Editor, você pode filtrar o conjunto de arquivos p
 
 Depois que os resultados da pesquisa forem exibidos no painel Pesquisar, você poderá trabalhar com eles, abrindo e editando um ou vários arquivos diretamente no painel, ou arrastando e soltando arquivos selecionados em um tópico ou mapa existente para adicionar referências.
 
+>[!BEGINTABS]
+
+>[!TAB Novo editor]
+
+![](images/edit-search-panel-editor-2-0.png)
+
+>[!TAB Editor Antigo]
+
 ![](images/edit-search-panel.png)
+
+>[!ENDTABS]
 
 ## Pesquisar na interface do Repositório na página inicial
 

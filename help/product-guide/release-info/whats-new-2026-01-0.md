@@ -3,7 +3,7 @@ title: Notas de versão | Novidades na versão 2026.01.0 do Adobe Experience Man
 description: Saiba mais sobre os recursos novos e aprimorados da versão 2026.01.0 do Adobe Experience Manager Guides
 role: Leader
 exl-id: f24a6f4a-2754-48d9-b0ce-79229dc8dba9
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
 workflow-type: tm+mt
 source-wordcount: '1599'
 ht-degree: 0%
@@ -109,7 +109,7 @@ Para obter detalhes, exiba [painel direito no Editor](../user-guide/web-editor-r
 
 ### As propriedades de metadados não são mais editáveis para arquivos somente leitura
 
-Com esta versão, quando a configuração `Disable Edit Without Checkout` está habilitada, as propriedades do arquivo não podem mais ser editadas se um arquivo estiver no modo **Somente leitura**.
+Com esta versão, quando a configuração `Disable edit without locking the file` está habilitada, as propriedades do Arquivo não poderão mais ser editadas se um arquivo estiver no modo **Somente leitura**.
 
 Essa restrição se aplica a todos os pontos de entrada nos quais as propriedades podem ser modificadas, incluindo:
 

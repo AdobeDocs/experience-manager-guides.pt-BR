@@ -4,7 +4,7 @@ description: Criação de documentos de markdown a partir do Editor. Saiba como 
 exl-id: def14e35-27c5-4b90-bc3d-eef7e8f317d2
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
 workflow-type: tm+mt
 source-wordcount: '1211'
 ht-degree: 1%
@@ -32,6 +32,7 @@ Execute as seguintes etapas para criar um tópico do Markdown no editor:
    >[!NOTE]
    >
    > No caso de uma atualização, é necessário adicionar o modelo do Markdown ao perfil da pasta atual em uso. Você pode [criar um novo modelo de marcação a partir do Editor](./web-editor-features.md#templates) ou usar um modelo existente para criação de marcação. Para obter detalhes sobre como adicionar modelos de criação no Experience Manager Guides, exiba [Configurar perfis globais ou de nível de pasta](../cs-install-guide/conf-folder-level.md).
+
 1. Selecione **Criar**.
 
    O tópico do Markdown é criado no caminho selecionado e está aberto para edição.
@@ -175,4 +176,4 @@ Os seguintes recursos do Experience Manager Guides não se aplicam à criação 
 
 
 
-**Tópico pai:**&#x200B;[&#x200B; Introdução ao Editor](web-editor.md)
+**Tópico pai:**[ Introdução ao Editor](web-editor.md)

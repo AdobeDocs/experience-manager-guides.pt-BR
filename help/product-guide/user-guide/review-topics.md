@@ -4,9 +4,9 @@ description: Saiba como revisar tópicos e usar os recursos como revisor, exibi�
 exl-id: fc87fc37-f1cd-4a19-96c2-3a08a8222002
 feature: Reviewing
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: f188c2827a9e27249d0162c9f9913e090b29672d
 workflow-type: tm+mt
-source-wordcount: '2670'
+source-wordcount: '2787'
 ht-degree: 0%
 
 ---
@@ -274,4 +274,15 @@ Selecione uma ou mais das seguintes opções de filtragem na caixa de diálogo *
 
 Para remover o filtro e exibir todos os comentários, desmarque todos os filtros da caixa de diálogo **Tipo de Filtro** e selecione **Aplicar**.
 
-**Tópico pai:**&#x200B;[&#x200B; Introdução à revisão](review.md)
+
+## Histórico de versão do Revisor
+
+O recurso Histórico de versões permite que os revisores comparem a versão atual da tarefa de revisão com versões de tarefas de revisão fechadas anteriormente nas quais os revisores trabalharam. Isso ajuda os revisores a validar as alterações feitas desde a última revisão concluída e a manter a continuidade entre os ciclos de revisão.
+
+![](images/version-history-icon.png)
+
+O ícone do tópico **Histórico de versão** será exibido assim que a tarefa de revisão for fechada pelo autor. Se o revisor fechar a tarefa, ela ainda só estará disponível depois que o autor também a fechar. Para cada versão concluída da tarefa de revisão, os revisores podem acessar o histórico de versões na lista suspensa na caixa de diálogo Histórico de versões. A partir daí, os revisores podem comparar alterações controladas, rótulos, comentários e outros detalhes relacionados à tarefa entre versões.
+
+![](images/version-history-dialog.png)
+
+**Tópico pai:**[ Introdução à revisão](review.md)

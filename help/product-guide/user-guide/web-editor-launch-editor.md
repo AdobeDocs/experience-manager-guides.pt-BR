@@ -4,14 +4,18 @@ description: Saiba como iniciar o Editor na Página de navegação do AEM, na in
 exl-id: cdde7c29-ee49-4e17-902e-1e2bd6f32e8a
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: f188c2827a9e27249d0162c9f9913e090b29672d
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '798'
 ht-degree: 0%
 
 ---
 
 # Iniciar o editor {#id2056B0140HS}
+
+>[!INFO]
+>
+> Este tópico se aplica ao Novo editor e ao Editor antigo. Embora a funcionalidade principal permaneça consistente, diferenças na interface do usuário, terminologia e interações são indicadas no conteúdo usando guias e chamadas de retorno, quando aplicável.
 
 Você pode iniciar o Editor nos seguintes locais:
 
@@ -85,9 +89,23 @@ Para abrir um tópico no Editor, siga estas etapas:
 
    ![](images/edit-topic-from-quick-action_cs.png)
 
-   O tópico é aberto no Editor.
+O tópico é aberto no Editor.
 
-   ![](images/edit-mode.png)
+>[!BEGINTABS]
+
+>[!TAB Novo editor]
+
+Esta visualização mostra como o conteúdo é renderizado no Novo editor
+
+![](images/edit-mode-editor-2-0.png)
+
+>[!TAB Editor Antigo]
+
+Esta visualização mostra como o conteúdo é renderizado no Editor antigo
+
+![](images/edit-mode.png)
+
+>[!ENDTABS]
 
 Você também pode abrir um arquivo de mapa na interface do usuário do Assets e iniciar o Editor para editar os tópicos no arquivo de mapa.
 
@@ -124,13 +142,25 @@ Para abrir o Editor no console Mapa, siga estas etapas:
 
    ![](images/map-console-open-in-editor.png)
 
-   O arquivo de mapa que contém os tópicos está aberto para edição no Editor.
-
-   ![](images/map-console-edit-topics.png)
+O arquivo de mapa que contém os tópicos está aberto para edição no Editor.
 
 
+>[!BEGINTABS]
+
+>[!TAB Novo editor]
+
+Modo de edição de mapa no novo editor:
+
+![](images/map-console-edit-topics-editor-2-0.png)
+
+>[!TAB Editor Antigo]
+
+Modo de edição de mapa no Editor antigo:
+
+![](images/map-console-edit-topics.png)
 
 
+>[!ENDTABS]
 
 
 **Tópico pai**: [Introdução ao Editor](web-editor.md)

@@ -4,7 +4,7 @@ description: Crie e gerencie uma nova linha de base (Beta) no console de mapa no
 feature: Authoring, Features of Web Editor, Publishing
 role: User
 exl-id: 574806bb-21c5-41fe-b8be-4c6506ce8cce
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
 workflow-type: tm+mt
 source-wordcount: '1315'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> Este artigo se aplica à nova linha de base, atualmente disponível como um recurso do *Beta*, que oferece melhor desempenho e estabilidade disponíveis na versão Experience Manager Guides 2026.03.0. Para habilitar o novo recurso de linha de base em sua configuração, entre em contato com a Equipe de sucesso do cliente.
+> Este artigo se aplica à nova linha de base, atualmente disponível como um recurso do *Beta*, que oferece melhor desempenho e estabilidade disponíveis na versão 2026.04.0 do Experience Manager Guides. Para habilitar o novo recurso de linha de base em sua configuração, entre em contato com a Equipe de sucesso do cliente.
 
 O novo recurso básico trata dos problemas críticos de confiabilidade e desempenho associados a mapas grandes e complexos. Ela vem com uma arquitetura de linha de base reprojetada que oferece uma experiência de linha de base mais rápida, estável e consistente. Antes de analisarmos os detalhes, assista a um pequeno vídeo explicativo que destaca os recursos do novo recurso de linha de base.
 

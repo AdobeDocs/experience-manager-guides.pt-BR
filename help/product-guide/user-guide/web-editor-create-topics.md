@@ -4,14 +4,18 @@ description: Saiba como criar tipos de tópicos DITA usando modelos personalizad
 exl-id: 84e9cfdf-e188-487f-9181-68708029c101
 feature: Authoring
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: f188c2827a9e27249d0162c9f9913e090b29672d
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '917'
 ht-degree: 0%
 
 ---
 
 # Criar tópicos {#id2056AL00O5Z}
+
+>[!INFO]
+>
+>Este tópico se aplica ao Novo editor e ao Editor antigo. Embora a funcionalidade principal permaneça consistente, diferenças na interface do usuário, terminologia e interações são indicadas no conteúdo usando guias e chamadas de retorno, quando aplicável.
 
 O Adobe Experience Manager Guides permite criar tópicos DITA do tipo — tópico, tarefa, conceito, referência, glossário, DITAVAL, Markdown e muito mais. Além de criar tópicos com base nos modelos prontos para uso, também é possível definir seus modelos personalizados. Esses modelos devem ser adicionados ao perfil da pasta para serem exibidos no Blueprint de seleção de modelo e no Editor.
 
@@ -45,11 +49,25 @@ Execute as seguintes etapas para criar um tópico a partir do Editor:
 
 4. Selecione **Criar**.
 
-   ![](images/create-topic-dialog-new.png){width="300"}
+   ![](images/create-topic-dialog-new.png){width="350"}
 
 O tópico é criado no caminho especificado. Além disso, o tópico é aberto no Editor para edição.
 
+>[!BEGINTABS]
+
+>[!TAB Novo editor]
+
+Esta visualização mostra como o conteúdo é renderizado no Novo editor.
+
+![](images/new-topic-editor-new-editor-2-0.png)
+
+>[!TAB Editor Antigo]
+
+Esta visualização mostra como o conteúdo é renderizado no Editor antigo.
+
 ![](images/new-topic-editor.png)
+
+>[!ENDTABS]
 
 ## Criar tópicos na interface do usuário do Assets
 
@@ -83,9 +101,13 @@ Execute as seguintes etapas para criar um tópico na interface do usuário do As
 
 **Informações adicionais**
 
-1. Todo tópico novo criado na interface do usuário do Assets **Criar** \> **Tópico DITA** ou no Editor recebe uma ID de tópico exclusiva. O valor dessa ID é o próprio nome do arquivo. Além disso, um novo documento é salvo como a cópia de trabalho mais recente do tópico no DAM. Até salvar uma revisão de um tópico recém-criado, você não exibirá nenhum número de versão no Histórico de versões. Se você abrir o tópico para edição, as informações da versão serão mostradas no canto superior direito da barra de ferramentas:
+>[!INFO]
+>
+> A interface do usuário pode variar dependendo do Editor que você está usando.
 
-   ![](images/topic-version-none_cs.png){width="550"}
+1. Todo tópico novo criado na interface do usuário do Assets **Criar** \> **Tópico DITA** ou no Editor recebe uma ID de tópico exclusiva. O valor dessa ID é o próprio nome do arquivo. Além disso, um novo documento é salvo como a cópia de trabalho mais recente do tópico no DAM. Até salvar uma revisão de um tópico recém-criado, você não exibirá nenhum número de versão no Histórico de versões. Se você abrir o tópico para edição, as informações da versão serão mostradas no canto superior direito da barra de ferramentas:
+_
+   ![](images/version-none.png){width="550"}
 
 2. As informações de versão de um tópico recém-criado são mostradas como *nenhuma*. Ao salvar uma nova versão, um número de versão é atribuído como 1.0.
 
@@ -93,4 +115,4 @@ Execute as seguintes etapas para criar um tópico na interface do usuário do As
 
 4. Depois de criar o tópico DITA, continue salvando as alterações na sua cópia de trabalho e crie uma nova versão após concluir as atualizações do tópico.
 
-**Tópico pai:**&#x200B;[&#x200B; Criar e visualizar tópicos](create-preview-topics.md)
+**Tópico pai:**[ Criar e visualizar tópicos](create-preview-topics.md)

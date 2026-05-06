@@ -4,18 +4,32 @@ description: Conheça a barra de guias no editor. Saiba mais sobre a interface e
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 02e45d34-898f-411c-bd80-bd4f2364b7d7
-source-git-commit: e14b19ff7c128899b4536d5b8c4290c476991bef
+source-git-commit: 4d7daf0dc3c6c915701e60d6811822df9f6a64aa
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
 
 # Barra de guias no editor
 
-A barra de guias está na parte superior da interface do Editor e fornece acesso aos seguintes recursos:
+>[!INFO]
+>
+> Este tópico se aplica ao Novo editor e ao Editor antigo. Embora a funcionalidade principal permaneça consistente, diferenças na interface do usuário, terminologia e interações são indicadas no conteúdo usando guias e chamadas de retorno, quando aplicável.
+
+A barra de guias está na parte superior da interface do Editor e fornece acesso aos vários recursos de nível de arquivo.
+
+>[!BEGINTABS]
+
+>[!TAB Novo editor]
+
+![](./images/web-editor-tab-bar-editor-2-0.png)
+
+>[!TAB Editor Antigo]
 
 ![](./images/web-editor-tab-bar.png)
+
+>[!ENDTABS]
 
 **Guias**
 
@@ -23,7 +37,7 @@ Exibe os tópicos atualmente abertos no Editor como guias de arquivo. É possív
 
 >[!NOTE]
 >
-> Como administrador, você também pode optar por exibir a lista de arquivos por nomes de arquivo nas guias. Selecione a opção **Nome do arquivo** da seção **Configuração de exibição dos arquivos do editor** em [Preferências do usuário](./intro-home-page.md#user-preferences).
+> Como administrador, você também pode optar por exibir a lista de arquivos por nomes de arquivo nas guias. Selecione a opção **Nome do arquivo** na seção **Configuração de exibição dos arquivos do editor** em [Preferências do usuário](./intro-home-page.md#user-preferences).
 
 Selecionar a guia Arquivo abre um menu de contexto com as opções Salvar como nova versão, Copiar, Localizar em, Adicionar a, Propriedades, Dividir, Baixar como PDF e Fechar.
 
@@ -57,4 +71,6 @@ Uma ferramenta avançada orientada por IA, projetada para melhorar a produtivida
 >
 > Se estiver usando o Adobe Experience Manager Guides em uma configuração no local, a opção de configurações do Workspace continuará a aparecer como **Configurações** no menu Mais ações.
 
-**Tópico pai:**&#x200B;[&#x200B; Introdução ao Editor](web-editor.md)
+- **Configurações do editor**: Leva você à caixa de diálogo Configurações do editor, onde é possível personalizar o comportamento do editor em um nível de autor individual. Ela permite controlar a visibilidade e o comportamento de tags, comentários e outras configurações no nível do editor durante a criação. Para obter detalhes, exiba [Configurações do editor](./config-editor-settings.md).
+
+**Tópico pai:**[ Introdução ao Editor](web-editor.md)

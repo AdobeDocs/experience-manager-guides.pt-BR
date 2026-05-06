@@ -4,20 +4,25 @@ description: Exibir tópicos no modo de autor, origem e visualização. Saiba co
 exl-id: 74db2902-4507-4904-85d8-6b52e4af4c55
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: f188c2827a9e27249d0162c9f9913e090b29672d
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1593'
 ht-degree: 0%
 
 ---
 
 # Visualizações do editor para tópicos {#id204GK0D0V5Z}
 
-A interface do Editor no Adobe Experience Manager permite a visualização de tópicos em três modos ou visualizações diferentes:
+>[!INFO]
+>
+>Este tópico se aplica ao Novo editor e ao Editor antigo. Embora a funcionalidade principal permaneça consistente, diferenças na interface do usuário, terminologia e interações são indicadas no conteúdo usando guias e chamadas de retorno, quando aplicável.
+
+A interface do Editor no Adobe Experience Manager permite a visualização de tópicos em quatro modos ou visualizações diferentes:
 
 * [Autor](#author)
 * [Origem](#source)
 * [Visualização](#preview)
+* [Lado a lado](#side-by-side)
 
 ## Autor
 
@@ -88,6 +93,17 @@ Para obter mais detalhes, exiba a descrição do recurso **Localizar e Substitui
   | Localizar recursivamente a palavra atual \(na direção inversa\) | **Shift**+**Ctrl**+**F3** |
 
 
+## Lado a lado
+
+>[!NOTE]
+>
+>Este recurso está disponível somente no Novo editor.
+
+A exibição lado a lado permite que você visualize e trabalhe nas exibições Autor e Source simultaneamente na mesma tela. A visualização Autor do WYSIWYG e a visualização Source XML subjacente são exibidas adjacentes, permitindo o conteúdo paralelo e a edição estrutural sem alternar as visualizações. Ambas as exibições permanecem sincronizadas em tempo real, garantindo que a posição do cursor e a seleção na exibição Autor sejam refletidas no local correspondente na exibição do Source, fornecendo melhor precisão e controle durante a criação de conteúdo estruturado.
+
+![](images/side-by-side-editor-2-0.png){width="650"}
+
+
 ## Visualização
 
 Abrir um tópico no modo de Visualização mostra como um tópico será exibido quando for visualizado por um usuário em seu navegador. No caso de um mapa DITA, uma visualização do mapa é mostrada, onde um único documento composto de todos os tópicos no mapa é mostrado.
@@ -102,9 +118,19 @@ O modo de Visualização oferece as seguintes funcionalidades:
 
 Se você tiver usado condições em seu tópico ou mapa, essas condições serão mostradas no painel Filtros. Por padrão, todas as condições são selecionadas e todo o conteúdo é exibido. Se você desmarcar uma condição, o conteúdo que tem essa condição será removido da visualização. Você também pode optar por destacar conteúdo condicional.
 
-A imagem a seguir mostra um tópico que usa duas condições — `Audience` e `Product`. O conteúdo condicional é realçado com o plano de fundo amarelo.
+A imagem a seguir mostra um tópico que usa duas condições: `Audience` e `Platfor`. O conteúdo condicional é realçado com o plano de fundo amarelo.
 
-![](images/preview-filters.png)
+>[!BEGINTABS]
+
+>[!TAB Novo editor]
+
+![](images/preview-filters-editor-2-0.png){width="650"}
+
+>[!TAB Editor Antigo]
+
+![](images/preview-filters.png){width="650"}
+
+>[!ENDTABS]
 
 ### Exibir as marcações de alterações de controle {#id2114BJ00CE8}
 
@@ -149,4 +175,4 @@ Para exportar um tópico como PDF, siga estas etapas:
    A PDF é gerada e aberta em uma nova guia ou você verá uma caixa de diálogo para salvar a PDF no sistema local.
 
 
-**Tópico pai:**&#x200B;[&#x200B; Introdução ao Editor](web-editor.md)
+**Tópico pai:**[ Introdução ao Editor](web-editor.md)

@@ -4,14 +4,18 @@ description: Conheça o painel esquerdo no editor. Saiba mais sobre a interface 
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 92496d39-b423-4635-8b05-c67fd6af47de
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: d369972ced74b8a66280c018fc7ab29b174da36e
 workflow-type: tm+mt
-source-wordcount: '11002'
+source-wordcount: '11080'
 ht-degree: 0%
 
 ---
 
 # Painel esquerdo no editor
+
+>[!INFO]
+>
+>Este tópico se aplica ao Novo editor e ao Editor antigo. Embora a funcionalidade principal permaneça consistente, diferenças na interface do usuário, terminologia e interações são indicadas no conteúdo usando guias e chamadas de retorno, quando aplicável.
 
 O painel esquerdo fornece acesso rápido a Coleções, Exibição de repositório, Exibição de mapa e muito mais recursos. Você pode expandir o painel selecionando o ícone **Expandir** posicionado no canto inferior esquerdo da interface. Depois de expandido, use o ícone **Recolher** para recolher o painel. Na exibição expandida, ele mostra os nomes dos ícones que aparecem como dicas de ferramentas na exibição recolhida.
 
@@ -61,7 +65,7 @@ Por padrão, é possível visualizar os arquivos por títulos. Ao passar o mouse
 
 >[!NOTE]
 >
-> Como administrador, você também pode optar por visualizar a lista de arquivos por nomes de arquivo no Editor. Selecione a opção **Nome do arquivo** da seção **Configuração de exibição dos arquivos do editor** em **Preferências do usuário**.
+> Como administrador, você também pode optar por visualizar a lista de arquivos por nomes de arquivo no Editor. Selecione a opção **Nome do arquivo** na seção **Configuração de exibição dos arquivos do editor** em **Preferências do usuário**.
 
 <details>
     <summary> Criar uma nova coleção </summary>
@@ -127,7 +131,7 @@ Ao selecionar o ícone Repositório, você obtém uma lista de arquivos e pastas
 
 >[!NOTE]
 >
-> Como administrador, você também pode optar por visualizar a lista de arquivos por nomes de arquivo no Editor. Selecione a opção **Nome do arquivo** da seção **Configuração de exibição dos arquivos do editor** em **Preferências do usuário**.
+> Como administrador, você também pode optar por visualizar a lista de arquivos por nomes de arquivo no Editor. Selecione a opção **Nome do arquivo** na seção **Configuração de exibição dos arquivos do editor** em **Preferências do usuário**.
 
 São carregados 75 arquivos de cada vez. Cada vez que você seleciona **Carregar mais**... 75 arquivos são carregados e o botão para de ser exibido quando todos os arquivos forem listados. Esse carregamento em lote é eficiente, e você pode acessar os arquivos mais rapidamente em comparação ao carregamento de todos os arquivos existentes em uma pasta.
 
@@ -138,6 +142,8 @@ a visualização do vídeo. No menu de atalho, você também tem as opções par
 velocidade ou visualizar imagem na imagem.
 
 Selecione um mapa e pressione Enter ou clique duas vezes para abri-lo na **Exibição do mapa**. Para obter mais detalhes, consulte a descrição do recurso **Exibição de mapa** no painel esquerdo. Selecione um tópico e pressione Enter ou clique duas vezes para abri-lo na [área de edição de conteúdo](./web-editor-content-editing-area.md). Ser capaz de navegar e abrir um arquivo diretamente do Editor economiza tempo e aumenta a produtividade.
+
+
 
 ## Filtrar pesquisa no repositório
 
@@ -160,7 +166,7 @@ Você tem as seguintes opções para filtrar os arquivos e restringir sua pesqui
 - **Arquivos DITA**: você pode procurar todos os **tópicos DITA** e **mapas DITA** presentes no caminho selecionado. Elas são selecionadas por padrão.
 - **Arquivos não DITA**: você pode pesquisar por **Arquivos Ditaval**, **Arquivos de Imagem**, **Multimídia**, **Documentos** e **JSON** no caminho selecionado.
 
-  ![filtro de pesquisa rápida &#x200B;](images/repository-filter-search-quick.png) {width="300"}
+  ![filtro de pesquisa rápida ](images/repository-filter-search-quick.png) {width="300"}
 
   *Use os filtros rápidos para procurar arquivos DITA e não DITA.*
 
@@ -288,7 +294,7 @@ Etapas para criar uma nova pasta:
 
   Se o administrador tiver habilitado a opção UUIDs no *XMLEditorConfig*, você exibirá a UUID da imagem carregada na propriedade **Source**.
 
-  ![](images/uuid-in-source-upload-image_cs.png){  }
+  ![](images/image-properties.png)
 
   Após um upload bem-sucedido, a seguinte caixa de diálogo de confirmação será exibida:
 
@@ -770,7 +776,17 @@ O painel Condições exibe os atributos condicionais definidos pelo administrado
 
 Você também pode aplicar várias condições a um elemento arrastando e soltando várias condições em um elemento. Quando você aplica várias condições em um elemento, o painel Propriedades exibe as condições aplicadas separadas por vírgula.
 
-![](images/multiple-conditions-applied_cs.png){  }
+>[!BEGINTABS]
+
+>[!TAB Novo editor]
+
+![](images/multiple-conditions-applied_cs-editor-2-0.png){width="650"}
+
+>[!TAB Editor Antigo]
+
+![](images/multiple-conditions-applied_cs.png){width="650"}
+
+>[!ENDTABS]
 
 No entanto, na visualização Código, as condições são separadas usando um delimitador de espaço. Ao adicionar ou editar uma condição na Visualização de código, certifique-se de que várias condições sejam separadas usando um espaço.
 
@@ -778,7 +794,18 @@ No entanto, na visualização Código, as condições são separadas usando um d
 >
 > A captura de tela a seguir é de um usuário com privilégios administrativos. Como um usuário com privilégios administrativos, você pode adicionar, editar e excluir condições. Senão, como um autor normal, você só terá a opção de aplicar condições.
 
-![](images/conditional-content-through-panel_cs.png){  }
+>[!BEGINTABS]
+
+>[!TAB Novo editor]
+
+![](images/conditional-content-through-panel_cs-editor-2-0.png){width="650"}
+
+>[!TAB Editor Antigo]
+
+![](images/conditional-content-through-panel_cs.png){width="650"}
+
+>[!ENDTABS]
+
 
 Para adicionar ou definir uma condição, selecione o ícone + ao lado do painel Condições para exibir a caixa de diálogo Definir condição:
 
@@ -852,7 +879,7 @@ O exemplo a seguir mostra como usar o esquema de assunto no Experience Manager G
 
    ![](images/subject-scheme-panel-new.png){width="300"}
 
-1. Salve o arquivo com a extensão a.ditamap e faça upload dele para qualquer pasta no DAM.
+1. Salve o arquivo com uma extensão .ditamap e faça upload dele para qualquer pasta no DAM.
 
    >[!NOTE]
    >
@@ -991,6 +1018,19 @@ Execute as seguintes etapas para alterar o valor:
 
 Você também pode aplicar valores a um atributo selecionando vários valores na lista suspensa.
 
+>[!BEGINTABS]
+
+>[!TAB Novo editor]
+
+![](images/subject-scheme-new.png){width="650"}
+
+>[!TAB Editor Antigo]
+
+![](images/subject-scheme-right-panel.png){width="550"}
+
+>[!ENDTABS]
+
+
 **exibição do Source**
 
 Você também pode alterar os valores do menu suspenso do atributo na visualização Source. A visualização Source também impede que você adicione qualquer valor incorreto.
@@ -1015,7 +1055,8 @@ Os trechos são pequenos fragmentos de conteúdo que podem ser reutilizados em v
 >
 > A captura de tela a seguir é de um usuário com privilégios administrativos. Como usuário com privilégios administrativos, você pode adicionar, editar e excluir trechos. Caso contrário, como autor normal, você só terá as opções para visualizar e inserir um trecho.
 
-![](images/snippets-panel_cs.png)
+
+![](images/snippets-panel_cs-editor-2-0.png){width="650"}
 
 **Criar um trecho**
 
@@ -1065,7 +1106,12 @@ Por padrão, é possível visualizar os arquivos por títulos. Ao passar o mouse
 
 Para saber como criar modelos personalizados, exiba [Criar mapas com base em modelos personalizados](./create-maps-customized-templates.md).
 
+
 ## Citações
+
+>[!NOTE]
+>
+> As citações são compatíveis somente com o Editor antigo e não estão disponíveis no Novo editor. As informações neste artigo se aplicam somente se você estiver usando o Editor antigo.
 
 No Experience Manager Guides, você pode adicionar e importar citações e aplicá-las ao seu conteúdo. É possível adicionar essas citações de qualquer fonte de livros, sites e diários.
 
@@ -1102,7 +1148,7 @@ O recurso Localizar e substituir pode ser usado em dois modos distintos, depende
   > - **Para serviços em nuvem**: uma implantação de índice personalizada deve ser executada. Para obter detalhes, consulte [Implantando índice personalizado](/help/product-guide/cs-install-guide/custom-indexing.md). Depois de concluído, entre em contato com a equipe de Sucesso do cliente para ativar esse recurso.
   > - **Para No Local**: a reindexação do conteúdo existente é necessária antes que o recurso possa ser usado. Para obter detalhes, exiba [Reindexação de conteúdo](/help/product-guide/install-guide/custom-indexing-prem.md). Depois de concluído, entre em contato com a equipe de Sucesso do cliente para ativar esse recurso.
 
-  ![](images/map-find-replace-with-source-mode.png)
+  ![](images/find-replace-new.png)
 
 <br>
 
@@ -1323,4 +1369,4 @@ Para exibir os comentários de revisão nas tarefas de revisão ativas que estã
 
 </details>
 
-**Tópico pai:**&#x200B;[&#x200B; Introdução ao Editor](web-editor.md)
+**Tópico pai:**[ Introdução ao Editor](web-editor.md)
