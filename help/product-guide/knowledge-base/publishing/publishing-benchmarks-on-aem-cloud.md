@@ -3,7 +3,7 @@ title: Guias de publicação de benchmarks no AEMaaCS
 description: Entenda os limites do sistema em Publicação na AEM Cloud.
 feature: Publishing
 role: User, Admin
-source-git-commit: 6e2577f04f1092ec9d8445ddbb97aa34be1e53a4
+source-git-commit: b6e4fd5051018ce6c60aadf66e6bf7375322aaa1
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 20%
@@ -14,7 +14,7 @@ ht-degree: 20%
 
 Este benchmark avalia o desempenho das novas APIs de publicação em diferentes predefinições de saída e no aumento do tamanho dos mapas no AEM Guides as a Cloud Service. O objetivo é entender o comportamento de escalabilidade e identificar gargalos de desempenho.
 
-O serviço de publicação usa uma [arquitetura baseada em microsserviços](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/publish-microservice-architecture-and-performance) com dimensionamento automático, permitindo a manipulação de cargas de trabalho maiores por meio de pods adicionais.
+O serviço de publicação usa uma [arquitetura baseada em microsserviços](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/publish-microservice-architecture-and-performance) com dimensionamento automático, permitindo a manipulação de cargas de trabalho maiores por meio de pods adicionais.
 
 ## Ambiente de execução
 
