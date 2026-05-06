@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leia a documentação do produto do Adobe Experience Manager Guides.
 breadcrumb-title: Documentação do AEM Guides
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 3f38264b6ce09366d07cdd302c9c53e8abcf4b7c
 workflow-type: tm+mt
-source-wordcount: '3316'
+source-wordcount: '3342'
 ht-degree: 7%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 7%
       - Cloud Services {#cloud-release-notes}
          - {hide-from-toc}[Instruções de implantação](./release-info/deploy-xml-on-aemaacs.md)
          - Versões de 2026 {#2026-releases}
+            - Versão 2026.05.0 {#2605-release}
+               - [Novidades](./release-info/whats-new-2026-05-0.md)
+               - [Problemas corrigidos](./release-info/fixed-issues-2026-05-0.md)
+               - [Instruções de atualização](./release-info/upgrade-instructions-2026-05-0.md)
             - Versão 2026.04.0 {#2604-release}
                - [Novidades](./release-info/whats-new-2026-04-0.md)
                - [Problemas corrigidos](./release-info/fixed-issues-2026-04-0.md)
@@ -188,14 +192,14 @@ ht-degree: 7%
                - [Notas de versão 4.2.1](./release-info/release-notes-4-2-1.md)
                - [Notas de versão 4.2](./release-info/release-notes-4-2.md)
          - [Notas de versão 4.1.x](./release-info/release-notes-4-1.md)
-         - [Notas de versão 4.0.x](https://helpx.adobe.com/br/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [Notas de versão do 3.8.x](https://helpx.adobe.com/br/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [Notas de versão 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [Notas de versão do 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Guia do usuário (nova interface do usuário) {#user-guide}
    - Introdução {#about-aemg}
       - [Sobre [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides] trabalhando e os principais recursos {#aemg-works-features}
          - [Como [!DNL AEM Guides] funciona](./user-guide/intro-how-dxml-works.md)
-         - [Recursos da chave [!DNL AEM Guides] &#x200B;](./user-guide/intro-dxml-features.md)
+         - [Recursos da chave [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
    - Home page {#home-page}
       - [Experiência da página inicial [!DNL AEM Guides]](./user-guide/intro-home-page.md)
       - [Interface do repositório](./user-guide/home-page-repository-view.md)
@@ -229,6 +233,7 @@ ht-degree: 7%
          - [Usar dados de suas fontes de dados](./user-guide/web-editor-content-snippet.md)
          - [Estado do documento](./user-guide/web-editor-document-states.md)
          - [Usar rótulos](./user-guide/web-editor-use-label.md)
+         - [Configurações do editor](./user-guide/config-editor-settings.md)
       - Editor de mapa {#map-editor}
          - [Introdução ao Editor de Mapa](./user-guide/map-editor.md)
          - [Criar um mapa](./user-guide/map-editor-create-map.md)
@@ -396,7 +401,7 @@ ht-degree: 7%
       - Resolução de problemas {#troubleshooting}
          - [Tempo limite da sessão](./user-guide/session-timeout-prompt.md)
 - Guia do usuário (interface antiga) {#user-guide-old-ui}
-   - [Visão geral do AEM Guides](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [Visão geral do AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Instalação e configuração {#install-guide}
    - No local {#on-prem-ig}
       - {hide-from-toc}[Noções básicas no local](./install-guide/introduction.md)
@@ -664,6 +669,7 @@ ht-degree: 7%
          - [Configurar exibição de tabelas coladas para o Cloud Service](./install-conf-guide/conf-pasted-tables.md)
          - [Configurar a geração de PDF de um único tópico para o Cloud Service](./install-conf-guide/conf-pdf-generation-dita-ot.md)
          - [Configurar o recurso de tradução no Editor da Web do Cloud Service](./install-conf-guide/conf-translation-editor.md)
+         - [Configurar a lista de propriedades para ignorar metadados do Cloud Service](./install-conf-guide/conf-metadata-prop.md)
       - Configuração do editor para no local {#editor-on-prem-settings}
          - [Configurar caracteres especiais adicionais para no local](/help/product-guide/web-editor/conf-additional-special-characters.md)
          - [Configurar o título para os ícones de Check-in e Check-out para no local](./install-conf-guide/conf-checkin-checkout-title.md)
@@ -778,6 +784,7 @@ ht-degree: 7%
             - Widgets {#framework-widgets}
                - [Widgets de renderização](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
                - [Widgets básicos](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
+            - [Alterações na estrutura de extensão do Editor 2.0](./guides-ui-extensions/getting-started/editor-extension-guide.md)
          - Introdução {#getting-started}
             - [Introdução](./guides-ui-extensions/getting-started/introduction.md)
             - [Guia de instalação](./guides-ui-extensions/getting-started/integrating-customisations.md)
@@ -813,7 +820,7 @@ ht-degree: 7%
          - [Configurar a publicação baseada em microsserviços com autenticação JWT](./knowledge-base/publishing/configure-microservices.md)
          - [Configurar a publicação baseada em microsserviço com autenticação OAuth](./knowledge-base/publishing/configure-microservices-imt-config.md)
          - [Configurar o Edge Delivery Services (Beta)](./knowledge-base/publishing/configure-eds.md)
-         - [Publicando referências de desempenho na nuvem do AEM](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
+         - [Publicando referências de desempenho na nuvem do AEM](./knowledge-base/publishing/publishing-benchmarks-on-aem-cloud.md)
       - Fluxos de trabalhos {#workflows}
          - [Fluxo de trabalho de pós-geração](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
       - Tradução {#translation}
