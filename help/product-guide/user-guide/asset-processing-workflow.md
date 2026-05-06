@@ -241,7 +241,7 @@ O AEM oferece suporte à assimilação de conteúdo em massa por meio de provedo
 
 - Assimilação programada: a assimilação de conteúdo pode ser programada para ocorrer durante períodos predefinidos, garantindo impacto mínimo ou inexistente sobre os usuários finais e as operações em andamento.
 
-Para obter mais informações, consulte [Usando Importação em Massa](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/migration/bulk-import).
+Para obter mais informações, consulte [Usando Importação em Massa](https://experienceleague.adobe.com/pt-br/docs/experience-manager-learn/cloud-service/migration/bulk-import).
 
 ## Assimilação em massa usando upload do AEM
 
