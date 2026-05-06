@@ -4,9 +4,9 @@ description: Saiba como criar uma tarefa de revisão e enviar tópicos para revi
 exl-id: c486eb6a-7e1f-4faa-973d-b47252d3e7c5
 feature: Reviewing
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
 workflow-type: tm+mt
-source-wordcount: '3161'
+source-wordcount: '3343'
 ht-degree: 0%
 
 ---
@@ -77,6 +77,18 @@ Para criar uma tarefa de revisão e enviar tópicos para revisão, execute as se
    >[!NOTE]
    >
    > Ao atingir o prazo final, um email é enviado ao iniciador notificando que a tarefa de revisão foi concluída. O iniciador pode estender o prazo da tarefa de revisão no [Painel de Revisão](review-manage-tasks-review-dashboard.md#).
+
+1. Habilite o **Lembrete automatizado** para configurar notificações de lembrete agendadas (e lembretes de email) para revisores. Isso pode ser feito antes da data de vencimento de uma tarefa de revisão e depois de ela se tornar vencida.
+
+   >[!NOTE]
+   >
+   >O botão de alternância Lembretes automatizados permanece desativado até que você selecione uma Data de conclusão para a tarefa de revisão.
+
+   - **Lembretes de antes da data de vencimento**: você pode configurar vários lembretes (máximo de 3) até 60 dias antes da data de vencimento para informar os revisores antecipadamente. O Lembrete 1 pode ser configurado para o número de dias restantes de hoje até a data de vencimento, e os valores de lembrete devem seguir uma ordem decrescente, representando o número de dias antes da data de vencimento.
+
+   - **Lembretes de data de vencimento**: você também pode configurar lembretes (máximo de 3) a serem enviados após a data de vencimento para notificar os revisores de que a tarefa está vencida. Os lembretes de atraso podem ser configurados até 30 dias após a data de vencimento. Os valores de lembrete devem seguir uma ordem crescente, representando o número de dias após a data de vencimento.
+
+   Com base no agendamento configurado, o sistema envia notificações do AEM e lembretes de email para os revisores nas datas de lembrete planejadas.
 
 1. Selecione o mapa raiz no **Caminho do mapa de raiz**. Esse roteiro é usado para resolver todas as principais referências e termos do glossário usados no conteúdo da revisão. Se você não selecionar o roteiro, as referências principais ou os termos do glossário associados ao tópico DITA não serão resolvidos antes de enviar o tópico para revisão.
 

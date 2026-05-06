@@ -4,9 +4,9 @@ description: Saiba mais sobre as várias configurações disponíveis na interfa
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 10df0495-1d52-4c7c-a11a-059fe72d09f2
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
 workflow-type: tm+mt
-source-wordcount: '2220'
+source-wordcount: '2275'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,17 @@ Selecione esta opção para habilitar o recurso [Assistente de IA](../user-guide
    - **Mostrar esquema de assunto no painel Condições**: selecione esta opção para exibir um esquema de assunto no painel Condições. Se você desmarcar essa opção, as condições definidas serão mostradas no painel Condições.
 
 - **Verificação ortográfica**
-Há duas opções: **verificação ortográfica do AEM** e **verificação ortográfica do navegador**. Por padrão, o editor usa o recurso de verificação ortográfica do navegador, no qual a verificação ortográfica é executada usando o dicionário interno do navegador. Você pode alternar para a verificação ortográfica do AEM para usar o dicionário do Adobe Experience Manager, que também pode ser personalizado para adicionar sua lista de palavras personalizada. Para obter mais informações sobre como personalizar o dicionário do AEM, consulte [Personalizar o dicionário padrão do AEM](../install-conf-guide/customize-aem-default-dictionary.md) na seção Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service.
+
+  Há duas opções: verificação ortográfica do AEM e verificação ortográfica do navegador.
+
+   - **Verificação ortográfica do navegador**: por padrão, o editor usa o recurso de verificação ortográfica do navegador, no qual a verificação ortográfica é executada usando o dicionário interno do navegador.
+
+   - **Verificação ortográfica do AEM**: você pode alternar para a verificação ortográfica do AEM para usar o dicionário da Adobe Experience Manager, que também pode ser personalizado para adicionar sua lista de palavras personalizada. Para obter mais informações sobre como personalizar o dicionário do AEM, consulte [Personalizar o dicionário padrão do AEM](../install-conf-guide/customize-aem-default-dictionary.md).
+
+     >[!NOTE]
+     >
+     > A verificação ortográfica do AEM usa o idioma selecionado na propriedade idioma do arquivo. Se o idioma não for especificado para o arquivo, a verificação ortográfica voltará para o idioma do servidor do AEM.
+     >Para garantir resultados precisos de verificação ortográfica, o dicionário do idioma selecionado deve estar disponível no AEM. Se o dicionário necessário para o idioma configurado não estiver disponível, a verificação ortográfica padrão será `en_us`.
 
 
 ## Painéis

@@ -4,14 +4,18 @@ description: Saiba mais sobre os tipos de estados de documentos no Adobe Experie
 exl-id: 3a68b2ed-b917-4f05-8b2b-d2722a740502
 feature: Authoring, Features of Web Editor, Document State
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: f188c2827a9e27249d0162c9f9913e090b29672d
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1089'
 ht-degree: 0%
 
 ---
 
 # Estado do documento {#id1821HC00URO}
+
+>[!INFO]
+>
+> Este tópico se aplica ao Novo editor e ao Editor antigo. Embora a funcionalidade principal permaneça consistente, diferenças na interface do usuário, terminologia e interações são indicadas no conteúdo usando guias e chamadas de retorno, quando aplicável.
 
 Para gerenciar a prontidão dos documentos, o Adobe Experience Manager Guides fornece a propriedade de estado do documento para indicar o estado atual do documento. Os estados do documento ajudam você a descobrir rapidamente se um documento é novo, está em revisão ou se está no estado concluído.
 
@@ -96,11 +100,23 @@ Para usar o recurso de aprovação de documento, execute as seguintes etapas:
 
 1. Depois que o documento for marcado com êxito como aprovado, uma **Visualização** do documento será mostrada no modo somente leitura. Todas as opções de edição são removidas de todos os três modos - Autor, Source e Visualização. Entretanto, você ainda terá acesso à lista suspensa **Menu** que apresenta as opções **Histórico de versões** e **Marcas**.
 
-   ![](images/approved-doc-read-only.png){width="650"}
+>[!BEGINTABS]
 
-   >[!NOTE]
-   >
-   > No modo de Visualização, a lista suspensa Menu com o histórico de Versões e as opções de Tags é removida da barra de ferramentas.
+>[!TAB Novo editor]
+
+![](images/approved-doc-read-only-editor-2-0.png){width="650"}
+
+>[!TAB Editor Antigo]
+
+![](images/approved-doc-read-only.png){width="650"}
+
+>[!ENDTABS]
+
+
+
+>[!NOTE]
+>
+> No modo de Visualização, a lista suspensa Menu com o histórico de Versões e as opções de Tags é removida da barra de ferramentas.
 
 
 Depois que um documento é marcado como aprovado, ele não fica mais disponível para edição. Se quiser usar o documento para a próxima versão, você precisará trazê-lo de volta para o estado *Rascunho*. Para alterar novamente o estado de um documento aprovado para o modo *Rascunho*, execute as seguintes etapas:

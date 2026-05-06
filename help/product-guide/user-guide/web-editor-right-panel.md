@@ -4,9 +4,9 @@ description: Conheça o painel direito no Editor. Saiba mais sobre a interface e
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 6a0f4ed2-6eca-4b3c-bd3a-3f72f6919b36
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
 workflow-type: tm+mt
-source-wordcount: '1297'
+source-wordcount: '1479'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,21 @@ O painel direito fornece acesso aos seguintes recursos:
 
 Você pode acessar o recurso **Propriedades de conteúdo** selecionando o ícone **Propriedades de conteúdo** no painel direito. O painel **Propriedades de conteúdo** contém informações sobre o tipo de elemento atualmente selecionado no documento e seus atributos.
 
-**Tipo**: você pode exibir e selecionar as marcas da hierarquia completa para a marca atual na lista suspensa.
+Para o conteúdo referenciado, o painel também mostra as opções **Caminho do link** e **UUID do link** que ajudam a identificar e copiar a referência selecionada.
+
+>[!NOTE]
+>
+> Para arquivos baseados em HTML, as opções Caminho do link e UUID do link não estão disponíveis. Estes arquivos continuam a usar o comportamento existente **URL do link**.
+
+![](images/web-editor-cross-ref-options.png)
+
+**Tipo**: exibir e selecionar as marcas da hierarquia completa da marca atual na lista suspensa.
+
+**Caminho do link**: mostra o caminho relativo da referência selecionada. Use **Copiar Caminho** para copiar o caminho absoluto.
+
+**UUID do link**: mostra a UUID da referência selecionada. Use **Copiar UUUID** para copiar a UUID.
+
+Se você colar uma UUID válida diretamente no campo Caminho do link, ela será resolvida automaticamente para o caminho de arquivo absoluto, e a UUID correspondente será exibida no campo UUID do link. Isso facilita a identificação e a cópia do caminho do ativo e de sua referência baseada em UUID.
 
 **Atributos**: o painel suspenso **Atributos** está disponível nos modos de exibição Layout, Autor e Source. É possível adicionar, editar ou excluir facilmente os atributos.
 
@@ -66,6 +80,10 @@ Se o administrador tiver criado um perfil para atributos, você obterá esses at
 
 Visualize as propriedades do arquivo selecionado selecionando o ícone Propriedades do arquivo no painel direito. O recurso Propriedades do arquivo está disponível em todos os quatro modos ou exibições: Layout, Autor, Source e Visualização.
 
+>[!NOTE]
+>
+> O painel Propriedades do arquivo fornece opções para exibir e modificar várias propriedades de metadados associadas a um arquivo. No entanto, quando um arquivo está no modo somente leitura, essas propriedades de metadados não podem ser modificadas. Essa limitação se aplica somente a arquivos DITA e Markdown. Para ativos que não são DITA (como imagens e multimídia), as propriedades dos metadados permanecem editáveis mesmo no modo somente leitura.
+
 As propriedades do Arquivo têm as duas seções a seguir:
 
 **Geral**
@@ -83,7 +101,7 @@ A seção Geral fornece acesso aos seguintes recursos:
   > O recurso **Contagem de palavras** foi introduzido na versão 2026.01.0 do Experience Manager Guides as a Cloud Service. Qualquer novo tópico DITA criado após a atualização para esta versão terá automaticamente a contagem de palavras calculadas no painel Direito. Para tópicos existentes, é necessário [reprocessar os ativos](./asset-processor.md).
 
 - **Marcas**: estas são as marcas de metadados do tópico. Eles são definidos no campo tags na página propriedades. Você pode digitá-los ou selecioná-los na lista suspensa.  As tags são exibidas na lista suspensa. Para excluir uma tag, selecione o ícone de cruz ao lado da tag.
-- **Editar mais propriedades**: você pode editar mais propriedades (para arquivos que não estão no modo **Somente leitura**) na página Propriedades do arquivo.
+- **Editar mais propriedades**: permite exibir e editar propriedades adicionais do arquivo aberto no momento.
 
   >[!NOTE]
   >

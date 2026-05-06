@@ -4,7 +4,7 @@ description: Descubra o uso de rótulos para diferentes versões de um arquivo n
 exl-id: d116906d-b469-4a97-b0af-4fadbe15222b
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
 workflow-type: tm+mt
 source-wordcount: '535'
 ht-degree: 0%
@@ -25,8 +25,6 @@ Execute as seguintes etapas para adicionar um rótulo ao seu tópico do Editor:
 
 1. No painel Repositório, navegue até um tópico e abra-o no Editor.
 1. Selecione **Rótulo de versão** na lista suspensa **Menu**.
-
-   ![](images/version-label-option.png){width="400"}
 
    A caixa de diálogo **Gerenciamento de Rótulos de Versão** é exibida.
 

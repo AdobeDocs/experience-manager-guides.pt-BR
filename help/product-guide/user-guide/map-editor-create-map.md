@@ -4,7 +4,7 @@ description: Crie um mapa com o Editor de mapas no Experience Manager Guides. En
 exl-id: b9cda118-ab6f-4d6b-9616-a083180ba069
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
 workflow-type: tm+mt
 source-wordcount: '1599'
 ht-degree: 0%
@@ -62,7 +62,7 @@ Execute as seguintes etapas para adicionar tópicos a um arquivo de mapa no cons
 
    - **A** - \(*Barra de guias*\): é semelhante à barra de guias do Editor. Exiba a [barra de guias](./web-editor-tab-bar.md) no Editor para obter mais detalhes.
 
-   - **B** - \(*Barra de Ferramentas*\) Esta é a barra de ferramentas que permite trabalhar com arquivos de mapa. Para obter mais informações sobre as funcionalidades disponíveis na barra de ferramentas, exiba [Recursos disponíveis na barra de ferramentas do Editor de Mapas](#features-available-in-the-map-editors-toolbar).
+   - **B** - \(*Barra de Ferramentas*\) Esta é a barra de ferramentas que permite trabalhar com arquivos de mapa. Para obter mais informações sobre as funcionalidades disponíveis na barra de ferramentas, exiba [Recursos disponíveis na barra de ferramentas do Editor de Mapas](./map-editor-advanced-map-editor.md).
 
    - **C** - \(*Visualizações de mapa*\): permite que você alterne o Editor de mapa entre Layout, Autor, Source e Visualização. O modo de exibição **Layout** permite que você organize os tópicos em um mapa DITA. Isso fornece a exibição em árvore ou hierárquica do mapa. O modo de exibição **Autor** permite que você edite os tópicos no Editor de Mapa. Isso também fornece a visualização WYSIWYG do arquivo de mapa. A exibição **Source** permite trabalhar com o XML subjacente do arquivo de mapa. A Visualização fornece uma exibição consolidada de todos os tópicos e submapas no arquivo de mapa.
 

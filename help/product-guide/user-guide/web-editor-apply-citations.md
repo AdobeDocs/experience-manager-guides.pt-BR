@@ -4,14 +4,18 @@ description: Adicionar e gerenciar citações no AEM Guides. Saiba como aplicar,
 exl-id: 685d747d-e017-4350-a6bf-822fd55c76e8
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
 workflow-type: tm+mt
-source-wordcount: '1932'
+source-wordcount: '1962'
 ht-degree: 0%
 
 ---
 
 # Adicionar e gerenciar citações no seu conteúdo
+
+>[!NOTE]
+>
+> As citações são compatíveis somente com o Editor antigo e não estão disponíveis no Novo editor. As informações neste artigo se aplicam somente se você estiver usando o Editor antigo.
 
 Citações são referências à fonte de informações adicionada ao conteúdo. Usando citações, você pode creditar os autores das informações de origem e ajudar os leitores a acompanhar as informações de origem. Adicionar citações torna seu conteúdo mais confiável e evita plágios. Eles também permitem exibir conteúdo bem pesquisado.
 

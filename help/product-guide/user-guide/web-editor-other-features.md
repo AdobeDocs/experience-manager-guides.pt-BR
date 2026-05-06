@@ -4,9 +4,9 @@ description: Explore outros recursos do Editor no Adobe Experience Manager Guide
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: f188c2827a9e27249d0162c9f9913e090b29672d
 workflow-type: tm+mt
-source-wordcount: '3690'
+source-wordcount: '4271'
 ht-degree: 0%
 
 ---
@@ -30,13 +30,34 @@ Você obtém as seguintes funções no menu de contexto da guia de um arquivo de
 
 Você obtém as seguintes funções no menu de contexto de uma guia de arquivo aberta:
 
+>[!BEGINTABS]
+
+>[!TAB Novo editor]
+
+![](images/single-file-context-menu-editor-2-0.png){width="400"}
+
+>[!TAB Editor Antigo]
+
 ![](images/single-file-context-menu.png){width="400"}
+
+>[!ENDTABS]
 
 **Vários arquivos**
 
 Quando tiver múltiplos arquivos abertos, então você terá mais opções no menu de contexto:
 
+>[!BEGINTABS]
+
+>[!TAB Novo editor]
+
+
+![](images/multiple-files-context-menu-editor-2-0.png){width="550"}
+
+>[!TAB Editor Antigo]
+
 ![](images/multiple-files-context-menu.png){width="550"}
+
+>[!ENDTABS]
 
 As várias opções no menu de contexto são explicadas abaixo:
 
@@ -144,6 +165,90 @@ O Editor fornece uma caixa de diálogo de procura inteligente de arquivos. O edi
 >[!NOTE]
 >
 > No caso de um arquivo de imagem, áudio ou vídeo, a caixa de diálogo de navegação de arquivo assume como padrão o local do arquivo e não o último local usado.
+
+## Trabalhar com tabelas no novo editor
+
+O novo editor permite criar, formatar e organizar tabelas diretamente no seu conteúdo usando várias ações contextuais.
+
+Esta seção aborda os vários recursos de criação de tabela disponíveis no Novo editor.
+
+**Modificar a tabela usando o menu de contexto**
+
+O menu de contexto é exibido quando você clica com o botão direito do mouse dentro de uma célula da tabela. As seguintes opções estão disponíveis com base no tipo de tabela com a qual você está trabalhando.
+
+![](images/table-context-menu.png){width="550"}
+
+- Inserir linhas, colunas ou células
+
+- Dividir células horizontalmente ou verticalmente (Não disponível para tabelas Simples)
+
+- Mesclar células para a direita ou para baixo (Não disponível para tabelas Simples)
+
+- Excluir linhas ou colunas
+
+**Definir formatação e alinhamento de texto usando a barra de ferramentas contextual**
+
+A barra de ferramentas contextual é exibida ao selecionar conteúdo ou células dentro de uma tabela. A barra de ferramentas fornece opções relevantes para a seleção.
+
+- Selecione o conteúdo da célula para acessar as seguintes opções de formatação:
+
+  ![](images/text-formatting-options-table.png){width="550"}
+
+  Use as opções Negrito, Itálico ou Sublinhado para formatar o texto.
+- Para acessar a barra de ferramentas contextual de uma única célula, use o `Ctrl+click` para Windows e o `Command+click` para macOS.
+
+  ![](images/cell-selection-contextual-toolbar.png){width="550"}
+
+- Da mesma forma, você também pode selecionar várias células e usar a barra de ferramentas contextual para aplicar a formatação e o alinhamento de texto a elas de uma só vez.
+
+  Opções disponíveis para seleção de linha única ou múltipla:
+
+  ![](images/set-alignment-rows.png){width="550"}
+
+   - Alinhamento de texto horizontal (Não disponível para tabelas Simples)
+   - Alinhamento de texto vertical (Não disponível para tabelas Simples)
+   - Inserir linha acima
+   - Inserir linha abaixo
+   - Remover linha
+   - Mesclar células (Não disponível para tabelas Simples)
+
+  Opções disponíveis para seleção de coluna única ou múltipla:
+
+  ![](images/set-alignment-columns.png){width="550"}
+
+   - Alinhamento de texto horizontal (Não disponível para tabelas Simples)
+   - Alinhamento de texto vertical (Não disponível para tabelas Simples)
+   - Inserir linha acima
+   - Inserir linha abaixo
+   - Remover linha
+   - Inserir coluna acima
+   - Inserir coluna abaixo
+   - Remover coluna
+   - Mesclar células (Não disponível para tabelas Simples)
+
+- Selecione a tabela para aplicar a formatação de texto e o alinhamento à tabela inteira.
+
+  ![](images/text-alignment-table.png){width="550"}
+
+- Adicionar linhas ou colunas usando um botão de adição interativo
+
+  Para adicionar uma nova linha ao final da tabela, passe o mouse sobre a última linha e selecione o botão **+**. Uma nova linha é adicionada na parte inferior da tabela.
+
+  ![](images/add-row.png){width="550"}
+
+  Da mesma forma, passe o mouse sobre a última coluna e selecione o botão **+** para adicionar uma nova coluna ao lado mais à direita da tabela.
+
+  ![](images/add-column.png){width="550"}
+
+- Adicionar várias linhas ou colunas a uma tabela usando as opções Inserir (Não disponível para tabelas Simples)
+
+  Para adicionar várias linhas ou colunas a uma tabela, primeiro selecione o número de linhas ou colunas que deseja adicionar e, em seguida, selecione as opções Insert row (above or below) or Insert column (left or right). O mesmo número de linhas ou colunas é adicionado à tabela com base em sua seleção.
+
+- Arrastar e soltar linhas e colunas (Não disponível para tabelas Simples)
+
+  Mova facilmente as linhas e colunas dentro da tabela usando a função arrastar e soltar. Quando você arrasta uma linha ou coluna, ela é exibida com um plano de fundo semitransparente para indicar que está sendo movida. Uma linha azul destaca a posição do target em que a linha ou coluna será colocada após o lançamento.
+
+  ![](images/drag-and-drop-table-rows.png){width="550"}
 
 ## Procurar arquivos e pastas no Experience Manager Guides
 
@@ -314,7 +419,19 @@ Insira uma nota de rodapé em seu conteúdo usando o elemento `fn`. No modo de c
 
 O Editor exibe a navegação estrutural do elemento na parte inferior esquerda do tópico. Se quiser trocar ou substituir um elemento por outro elemento, faça isso no menu de contexto da navegação estrutural. Por exemplo, você pode trocar o elemento `p` por `note` ou qualquer outro elemento válido no contexto.
 
+>[!BEGINTABS]
+
+>[!TAB Novo editor]
+
+![](images/rename-element-editor-2-0.png){width="400"}
+
+>[!TAB Editor Antigo]
+
+
 ![](images/rename-element.png){width="400"}
+
+
+>[!ENDTABS]
 
 Na navegação estrutural, clique com o botão direito do mouse no nome de um elemento que deseja substituir e selecione Renomear elemento no menu de contexto. A caixa de diálogo Renomear elemento exibe todos os elementos válidos permitidos no local atual. Na caixa de diálogo Renomear elemento, selecione o elemento que deseja usar. O elemento original é substituído pelo novo elemento.
 
@@ -392,11 +509,19 @@ Selecionar **IDs duplicadas** abre um pop-over listando todas as IDs duplicadas.
 
 ## Manuseio de arquivos grandes no Editor
 
+>[!NOTE]
+>
+> Esta seção se aplica somente ao Editor antigo. Com o novo editor, a experiência de edição para tópicos grandes e complexos é aprimorada por meio de carregamento mais rápido e interações mais responsivas, juntamente com o suporte para desfazer/refazer e marcador sujo.
+
 Os principais recursos destinados a melhorar o tratamento de arquivos grandes são mencionados da seguinte forma:
 
 - Para aprimorar o desempenho, determinadas funcionalidades como desfazer, refazer, o painel de estrutura de tópicos e o marcador sujo são desativadas. É recomendável dividir os tópicos em tópicos menores para obter uma experiência ideal.
 
 - Uma mensagem de alerta é exibida na parte superior para arquivos grandes, como mostrado no trecho abaixo. Este alerta destaca o número de elementos com base no valor especificado no parâmetro **largeFileTagCount** do arquivo uiconfig.json. Por padrão, **largeFileTagCount** está definido como 2500.
+
+  >[!NOTE]
+  >
+  > Esta mensagem de alerta se aplica somente ao Editor Antigo, onde é exibida com base no parâmetro `largeFileTagCount` configurado. No novo editor, arquivos grandes são carregados perfeitamente sem disparar alertas. Além disso, funcionalidades relacionadas que não funcionam na função Editor antigo normalmente no Novo editor.
 
 ![](images/add-toast-notification.png){width="600"}
 
@@ -407,5 +532,6 @@ Os principais recursos destinados a melhorar o tratamento de arquivos grandes s�
 
 
 - A mensagem de alerta está disponível somente para arquivos DITA e está visível em todas as exibições: Autor, Source e Layout.
+
 
 **Tópico pai:**&#x200B;[&#x200B; Introdução ao Editor](web-editor.md)

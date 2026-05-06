@@ -4,29 +4,38 @@ description: Conhecer os recursos do Editor de mapas no Adobe Experience Manager
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: c882db84a263165d62dcc6fda9c22a5a643f6eff
 workflow-type: tm+mt
-source-wordcount: '2703'
+source-wordcount: '2918'
 ht-degree: 0%
 
 ---
 
 # Recursos do Editor de Mapa {#id1942D0S0IHS}
 
+>[!INFO]
+>
+> Este tópico se aplica ao Novo editor e ao Editor antigo. Embora a funcionalidade principal permaneça consistente, diferenças na interface do usuário, terminologia e interações são indicadas no conteúdo usando guias e chamadas de retorno, quando aplicável.
+
 A barra de ferramentas no Editor de Mapa é semelhante ao Editor de tópico. As operações básicas, como alternar o painel esquerdo, salvar o mapa, criar uma nova versão do mapa, desfazer/refazer a última operação e excluir os elementos selecionados, são comuns em ambos os editores. Para obter detalhes sobre como essas operações funcionam, exiba a [Barra de ferramentas na seção Editor](web-editor-toolbar.md#).
 
-As opções exibidas na barra de ferramentas do editor se baseiam na visualização Editor de mapa. Há quatro exibições disponíveis no Editor de mapa:
+As opções exibidas na barra de ferramentas do editor se baseiam na visualização Editor de mapa. Há cinco exibições disponíveis no Editor de mapa:
 
 - [Layout](#layout-view)
 - [Autor](#author-view)
 - [Origem](#source-view)
 - [Visualização](#preview)
+- [Visualização lado a lado](#side-by-side-view-available-in-new-editor-only)
 
 As seções a seguir abordam as opções da barra de ferramentas disponíveis nas diferentes visualizações do Editor de mapas:
 
 ## Exibição de layout
 
-Quando você abre um mapa para edição, ele abre a exibição de layout do Editor de mapas. A exibição de layout mostra a hierarquia de mapa em uma exibição em árvore e permite organizar os tópicos em um mapa.
+>[!NOTE]
+>
+> No Novo Editor, o recurso **Layout** não tem suporte no momento.
+
+Quando você abre um mapa para edição, ele abre a exibição de Layout do Editor de Mapas. A exibição de layout mostra a hierarquia de mapa em uma exibição em árvore e permite organizar os tópicos em um mapa.
 
 >[!NOTE]
 >
@@ -138,15 +147,27 @@ Se você tiver aplicado condições em um tópico, um ícone de filtro será exi
 
 ## Visualização do autor
 
-A exibição **Author** permite editar o mapa DITA no Editor. Isso mostra a visualização WYSIWYG do Editor de mapas e alguns dos ícones exibidos na visualização Autor são iguais à visualização Layout.
+A exibição **Author** permite editar o mapa DITA no Editor. Isso mostra a visualização WYSIWYG do Editor de mapa.
+
+>[!BEGINTABS]
+
+>[!TAB Novo editor]
+
+![](images/map-editor-author-view-editor-2-0.png)
+
+>[!TAB Editor Antigo]
 
 ![](images/map-editor-author-view.png)
+
+>[!ENDTABS]
+
+As opções disponíveis na lista suspensa **Menu** são as mesmas disponíveis na [Barra de ferramentas do editor](./web-editor-toolbar.md#menu-dropdown).
 
 Além disso, você pode exibir os seguintes ícones e executar as tarefas relacionadas na exibição Autor:
 
 **Inserir antes/Inserir depois de** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
-Exibe a caixa de diálogo **Inserir elemento antes ou &#x200B;** Inserir elemento após. Selecione o elemento que deseja inserir no mapa. Dependendo da operação, o novo elemento é inserido antes ou depois do elemento atual no mapa.
+Exibe a caixa de diálogo **Inserir elemento antes de** ou **Inserir elemento após**. Selecione o elemento que deseja inserir no mapa. Dependendo da operação, o novo elemento é inserido antes ou depois do elemento atual no mapa.
 
 **Elemento** - ![](images/Add_icon.svg)
 
@@ -229,9 +250,17 @@ Permite manter o atributo `@navtitle` e o elemento `title` de um arquivo referen
 
 Mostra ou oculta as marcas de formatação XML. As tags servem como dicas visuais que indicam o limite de um elemento. Nesse modo, se você quiser inserir uma referência de tópico/mapa, arraste e solte o arquivo desejado antes ou depois da tag. A barra horizontal não é mostrada no modo de Exibição de tags.
 
+>[!NOTE]
+>
+> No Novo Editor, as Opções para adicionar ou remover **Marcas** estão disponíveis nas configurações do Editor. Para obter mais detalhes, consulte [Configurações do editor](./config-editor-settings.md).
+
 **Controlar alterações** - ![](images/track-changes.svg)
 
 Você pode acompanhar todas as atualizações feitas no arquivo de mapa habilitando o modo Controlar Alterações. Depois de ativar o controle de alterações, todas as inserções e exclusões são capturadas no documento. Para obter mais detalhes, consulte [Controlar alterações](web-editor-features.md#track-changes) no Editor.
+
+>[!NOTE]
+>
+> No Novo Editor, o recurso **Controlar alterações** não é suportado no momento.
 
 **Criar tarefa de revisão** - ![](images/create-review-task.svg)
 
@@ -276,6 +305,10 @@ Você pode executar as seguintes tarefas adicionais no modo de visualização:
 
 **Atualizar tópicos ou mapa**
 
+>[!NOTE]
+>
+> Esta seção se aplica somente ao Editor antigo. No Novo editor, os mapas e seus tópicos são atualizados automaticamente.
+
 Quando um mapa é aberto no modo Visualização e você volta a ele a partir de outra guia no Editor, a visualização não é atualizada automaticamente. Para recarregar a visualização do mapa, é necessária uma atualização manual.
 
 Você pode usar a funcionalidade Atualizar, disponível no modo Visualização do mapa, de duas maneiras:
@@ -300,13 +333,18 @@ Você pode acessar a visualização de um mapa em:
 
   ![](images/map-preview-icon.png){width="650"}
 
-  A visualização do mapa é exibida em uma caixa pop-up.
-
-  ![](images/map-editor-preview-pop-up.png){width="500"}
 
 **Mapear propriedades**
 
 Exibe a caixa de diálogo Propriedades do Mapa, na qual você pode definir os atributos e as informações de metadados do mapa.
+
+## Visualização lado a lado (disponível somente no novo editor)
+
+A visualização Lado a lado no Novo editor permite que você visualize as visualizações Autor e Source próximas uma da outra. Isso facilita a compreensão de como o mapa é criado e garante que todas as alterações feitas sejam alinhadas à estrutura desejada.
+
+Por exemplo, se um tópico não estiver aparecendo corretamente na saída, você poderá usar a exibição Autor para verificar seu posicionamento no mapa enquanto revisa simultaneamente a exibição do Source para revisar a referência ou os atributos do tópico.
+
+![](images/map-editor-side-by-side-view.png)
 
 
 ## Editar tópicos por meio do mapa DITA {#id17ACJ0F0FHS}
@@ -317,59 +355,84 @@ O Experience Manager Guides permite que os autores abram um mapa DITA no Editor 
 
 Para editar tópicos por meio de um mapa DITA, execute as seguintes etapas:
 
-1. No painel Repositório, navegue e abra o arquivo de mapa DITA que deseja editar.
+1. Navegue até o Explorer e abra o arquivo de mapa que deseja editar.
 
    O arquivo de mapa é aberto na visualização Mapa.
 
->[!NOTE]
->
-> Também é possível usar a interface do usuário do Assets para abrir um arquivo de mapa DITA. Navegue até o arquivo de mapa DITA que contém os tópicos que você deseja editar e selecione **Editar tópicos** na barra de ferramentas principal para iniciar o Editor.
+   >[!NOTE]
+   >
+   > Também é possível usar a interface do usuário do Assets para abrir um arquivo de mapa. Navegue até o arquivo de mapa DITA que contém os tópicos que você deseja editar e selecione **Editar tópicos** na barra de ferramentas principal para iniciar o Editor.
 
-1. Selecione qualquer link de tópico para abri-lo no Editor para edição.
+1. Selecione qualquer tópico para abri-lo no Editor para edição.
 
    É possível abrir vários tópicos no editor e cada tópico é aberto em uma nova guia no editor. Mesmo que o mapa DITA contenha submapas, os tópicos desses submapas também serão abertos em uma nova guia para edição. Se quiser exibir os tópicos em um submapa, selecione e expanda o submapa.
 
-   ![](images/web-editor-multiple-topics.png)
-
    Se você selecionar um arquivo de mapa, o mapa será aberto em uma nova guia do Editor.
 
-1. Quando terminar de editar os tópicos, você poderá fazer o seguinte:
+>[!BEGINTABS]
 
-   - Você pode salvá-los individualmente. Se fechar sem salvar os tópicos, você verá uma caixa de diálogo solicitando que salve os tópicos não salvos:
+>[!TAB Novo editor]
 
-     ![](images/save-multiple-topics-new.png){width="300"}
+![](images/web-editor-multiple-topics-editor-2-0.png)
 
-     Você pode optar por salvar todos os tópicos selecionados ou desmarcar os tópicos que não deseja salvar.
+>[!TAB Editor Antigo]
 
-   - Você pode desbloquear o tópico usando a opção **Salvar como nova versão**. Quando você salva uma versão do tópico, uma nova versão é criada e o bloqueio também é lançado.
+![](images/web-editor-multiple-topics.png)
 
-     É recomendável salvar as alterações antes de desbloquear os arquivos.  Quando você salva as alterações, o arquivo XML é validado.
+>[!ENDTABS]
 
-   - Você também pode exibir o progresso dos tópicos da caixa de diálogo **Salvar como nova versão**. Uma mensagem de sucesso é exibida quando os arquivos são desbloqueados.
+Quando terminar de editar os tópicos, você poderá fazer o seguinte:
 
-   - Se o administrador tiver ativado a opção de desbloquear arquivos ao fechar, você receberá um prompt para salvar os arquivos sempre que os arquivos bloqueados forem fechados. Com essa opção ativada, ao fechar o editor com arquivos alterados, você verá a lista de arquivos bloqueados que precisam ser salvos. Os arquivos bloqueados são mostrados com um ícone de bloqueio:
+- Você pode salvá-los individualmente. Se fechar sem salvar os tópicos, você verá uma caixa de diálogo solicitando que salve os tópicos não salvos:
 
-     ![](images/save-on-close-new.png){width="350"}
+  ![](images/save-multiple-topics-new.png){width="300"}
+
+  Você pode optar por salvar todos os tópicos selecionados ou desmarcar os tópicos que não deseja salvar.
+
+- Você pode desbloquear o tópico usando a opção **Salvar como nova versão**. Quando você salva uma versão do tópico, uma nova versão é criada e o bloqueio também é lançado.
+
+  É recomendável salvar as alterações antes de desbloquear os arquivos.  Quando você salva as alterações, o arquivo XML é validado.
+
+- Você também pode exibir o progresso dos tópicos da caixa de diálogo **Salvar como nova versão**. Uma mensagem de sucesso é exibida quando os arquivos são desbloqueados.
+
+- Se o administrador tiver ativado a opção de desbloquear arquivos ao fechar, você receberá um prompt para salvar os arquivos sempre que os arquivos bloqueados forem fechados. Com essa opção ativada, ao fechar o editor com arquivos alterados, você verá a lista de arquivos bloqueados que precisam ser salvos. Os arquivos bloqueados são mostrados com um ícone de bloqueio:
+
+  ![](images/save-on-close-new.png){width="350"}
 
 ## Painel direito no Editor de mapa
 
-O painel direito exibe as Propriedades do Conteúdo e as Propriedades do Mapa na exibição de Layout do Editor de Mapas.
+O painel direito exibe as propriedades Conteúdo e as propriedades Mapa na exibição Layout do Editor de Mapa.
 
 **Propriedades do conteúdo**
 
-O painel Propriedades de conteúdo contém informações sobre o tipo de tópico atualmente selecionado no mapa, o URL do link e os atributos. Para obter mais detalhes, consulte [Propriedades do conteúdo](web-editor-features.md#right-panel) no Editor.
+O painel Propriedades de conteúdo contém informações sobre o tópico atualmente selecionado no mapa, incluindo tipo, caminho do link, UUID do link e atributos.
 
-- **Outros atributos** Se o administrador tiver criado um perfil para atributos, você obterá esses atributos junto com seus valores configurados. Usando o painel de propriedades de conteúdo, você pode escolher esses atributos e atribuí-los ao conteúdo relevante em seu tópico. Você também pode atribuir atributos configurados pelo administrador em **Exibir atributos**. Os atributos definidos para um elemento são exibidos na exibição Layout e Estrutura de Tópicos. Isso ajuda você a ter uma olhada rápida em todos os tópicos em um mapa para o qual um determinado atributo é definido. Por exemplo, todos os tópicos que têm o atributo `audience` são definidos como `US`.
+Para obter mais detalhes, exiba [Propriedades do conteúdo](web-editor-features.md#right-panel) no Editor.
 
-  ![exibição de layout](images/layout-inline-attributes.png){width="650"}
+**Outros atributos** Se o administrador tiver criado um perfil para atributos, você obterá esses atributos junto com seus valores configurados. Usando o painel de propriedades de conteúdo, você pode escolher esses atributos e atribuí-los ao conteúdo relevante em seu tópico. Você também pode atribuir atributos configurados pelo administrador em **Exibir atributos**. Os atributos definidos para um elemento são exibidos na exibição Layout e Estrutura de Tópicos. Isso ajuda você a ter uma olhada rápida em todos os tópicos em um mapa para o qual um determinado atributo é definido. Por exemplo, todos os tópicos que têm o atributo `audience` são definidos como `US`.
+
+![exibição de layout](images/layout-inline-attributes.png){width="650"}
+
+Consulte as guias abaixo para comparar como os atributos são exibidos na visualização Autor no Novo editor e no Editor antigo.
+
+>[!BEGINTABS]
+
+>[!TAB Novo editor]
+
+![exibição do autor](images/author-inline-attributes-editor-2-0.png){width="650"}
+
+>[!TAB Editor Antigo]
+
+![exibição do autor](images/author-inline-attributes.png){width="650"}
+
+>[!ENDTABS]
 
 
-  Para obter mais detalhes, consulte [Exibir atributos](../cs-install-guide/workspace-settings.md#display-attributes).
+Para obter mais detalhes, consulte [Exibir atributos](../cs-install-guide/workspace-settings.md#display-attributes).
 
-- **Metadados** Usando os metadados, você pode definir as informações de metadados. Você pode definir o Título de navegação, Texto do link, Descrição curta e Palavras-chave.
+**Metadados** Usando os metadados, você pode definir as informações de metadados. Você pode definir o Título de navegação, Texto do link, Descrição curta e Palavras-chave.
 
 Para obter mais informações sobre atributos e metadados de tópico padrão, consulte a documentação [topicref](https://docs.oasis-open.org/dita/v1.2/os/spec/langref/topicref.html) na Especificação de Linguagem OASIS DITA.
-
 
 
 

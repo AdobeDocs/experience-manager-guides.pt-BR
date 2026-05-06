@@ -4,9 +4,9 @@ description: Conheça a barra de Cabeçalho no Editor. Saiba mais sobre a interf
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 97f72025-e0d1-494e-957a-32bba5732dc5
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: f188c2827a9e27249d0162c9f9913e090b29672d
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '136'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,21 @@ ht-degree: 0%
 
 A barra de cabeçalho é a barra superior do Editor que exibe o logotipo do Adobe Experience Manager (ou um Unified Shell, se você estiver usando o Unified Shell como a interface do Experience Manager Guides). Ao selecionar o logotipo, ele direciona você para a página Navegação do Experience Manager.
 
+>[!BEGINTABS]
+
+>[!TAB Novo editor]
+
+Esta visualização mostra como o conteúdo é renderizado no Novo editor
+
+![](./images/web-editor-header-bar-editor-2-0.png)
+
+>[!TAB Editor Antigo]
+
+Esta visualização mostra como o conteúdo é renderizado no Editor antigo
+
 ![](./images/web-editor-header-bar.png)
+
+>[!ENDTABS]
 
 Use o ícone **Expandir** na barra de ferramentas para ocultar a barra de cabeçalho e maximizar a área de conteúdo. Para restaurar o modo de exibição padrão, selecione **Sair do modo de exibição expandido**.
 
