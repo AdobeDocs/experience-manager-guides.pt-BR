@@ -2,9 +2,9 @@
 title: Notas de versão | Novidades na versão 2026.05.0 do Adobe Experience Manager Guides
 description: Saiba mais sobre os recursos novos e aprimorados da versão 2026.05.0 do Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 3f38264b6ce09366d07cdd302c9c53e8abcf4b7c
+source-git-commit: 2c9e91a85bb9cfbfec05dbe5c2e9eae9e240d571
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1031'
 ht-degree: 0%
 
 ---
@@ -104,7 +104,7 @@ Para obter detalhes, exiba [Propriedades do conteúdo](../user-guide/web-editor-
 
 Os seguintes aprimoramentos de revisão foram feitos como parte desta versão:
 
-- Agora você pode habilitar **Lembretes automatizados** para agendar notificações do AEM e lembretes de email para revisores, antes da data de vencimento de uma tarefa de revisão e depois dela se tornar vencida. Você pode configurar vários lembretes em cada caso, com lembretes de atraso enviados em uma sequência definida e lembretes de atraso acionados depois que a tarefa é marcada como vencida, com base no agendamento de lembrete configurado. Para obter detalhes sobre como configurar os lembretes para tarefas de revisão, exiba [Enviar um ou mais tópicos para revisão](../user-guide/review-send-topics-for-review.md#send-one-or-more-topics-for-review).
+- Agora você pode habilitar **Lembretes automatizados** para agendar notificações do AEM e lembretes de email para revisores, antes da data de vencimento de uma tarefa de revisão e depois dela se tornar vencida. Você pode configurar vários lembretes em cada caso, com lembretes de atraso enviados em uma sequência definida e lembretes de atraso acionados depois que a tarefa é marcada como vencida, com base no agendamento de lembrete configurado. Para obter detalhes, exiba [Enviar tópicos para revisão](../user-guide/review-send-topics-for-review.md).
 
 - Os revisores agora podem acessar o Histórico de versão para tópicos em revisão, permitindo visualizar e comparar versões revisadas e atualizadas anteriormente do mesmo tópico em tarefas de revisão anteriores. Isso ajuda os revisores a validar as alterações feitas desde ciclos de revisão anteriores e manter a continuidade, revisando comentários, rótulos e outros detalhes relacionados no contexto de revisão atual. Para obter detalhes, exiba o [Histórico de versões do Revisor](../user-guide/review-topics.md#version-history-for-the-reviewer).
 

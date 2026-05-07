@@ -3,7 +3,7 @@ title: Configurações do editor
 description: Saiba como definir as configurações do Editor no AEM Guides.
 feature: Web Editor
 role: User
-source-git-commit: 3f38264b6ce09366d07cdd302c9c53e8abcf4b7c
+source-git-commit: 2c9e91a85bb9cfbfec05dbe5c2e9eae9e240d571
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Configurações do editor
 
->[!INFO]
+>[!NOTE]
 >
-> Este artigo se aplica ao Novo editor. Entre em contato com a equipe de Sucesso do cliente da AEM Guides para ativar o Novo editor em seu ambiente.
+> Este artigo se aplica somente ao Novo editor. Para ativar esse recurso em seu ambiente, entre em contato com a equipe de Sucesso do cliente da AEM Guides.
 
 As configurações do Editor fornecem um painel de configuração centralizado que permite personalizar o comportamento do Editor em um nível de autor individual. Ele oferece maior flexibilidade, consistência e controle durante o processo de criação.
 
