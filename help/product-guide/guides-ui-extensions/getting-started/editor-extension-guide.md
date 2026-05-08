@@ -4,7 +4,7 @@ description: Saiba mais sobre as alterações na estrutura de extensão do Edito
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 3f38264b6ce09366d07cdd302c9c53e8abcf4b7c
+source-git-commit: 2ba8eadcb30faca01170cb13ae2da6fdf7da19c8
 workflow-type: tm+mt
 source-wordcount: '2003'
 ht-degree: 3%
@@ -668,7 +668,7 @@ As decorações são identificadas por uma cadeia de caracteres `id` para que po
   | `dropcursor` | `prosemirror-dropcursor` |
   | `markdown` | `prosemirror-markdown` |
 
-  **Exemplo: criar um plug-in de decoração de nó**
+  **Exemplo: Criar um plug-in de decoração de nó**
 
   ```js
   const myPluginKey = new guides.editor.prosemirror.state.PluginKey("myPlugin");
@@ -745,7 +745,7 @@ As decorações são identificadas por uma cadeia de caracteres `id` para que po
   };
   ```
 
-## Inserção de CSS no Editor
+## Inserção de CSS no editor
 
 O editor DITA do Guides carrega seus estilos de conteúdo no modo de autor de uma clientlib com a categoria `apps.guides.dita_editor.content`. Essa clientlib tem uma declaração `embed` que obtém automaticamente qualquer clientlib registrado na categoria:
 
@@ -846,7 +846,7 @@ guides.ready(() => {
 > Esse CSS só se aplica dentro do DOM de sombra do Novo editor. Isso não afeta o restante da página nem o editor herdado.
 
 
-## Extensões do menu de contexto (`contextMenuWidget`)
+## Extensões do Menu de Contexto (`contextMenuWidget`)
 
 As extensões podem adicionar itens ao menu de contexto de clique com o botão direito do mouse/navegação estrutural do editor declarando um campo `contextMenuWidget` em sua configuração de extensão. Isso informa à estrutura o menu do editor a ser direcionado.
 
