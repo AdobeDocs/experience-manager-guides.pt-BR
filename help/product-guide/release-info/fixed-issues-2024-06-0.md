@@ -2,10 +2,30 @@
 title: Notas de versão | Correção de problemas na versão 2024.06.0 do Adobe Experience Manager Guides
 description: Saiba mais sobre as correções de erros na versão 2024.06.0 do Adobe Experience Manager Guides as a Cloud Service.
 exl-id: 608e5b2c-72af-4498-9b63-935e698231d4
-source-git-commit: d525775afeeb89754762ff514126b1c3a3307b3f
+TQID: https://experienceleague.adobe.com/PWXSeB-BhL9Gc104XoVpfqdWqywq7T6bphx8im92C4c
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+  - id: d6596f3f-92a7-43ec-b444-237db6adad05
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '784'
-ht-degree: 1%
+source-wordcount: 781
+ht-degree: 6%
 
 ---
 
@@ -17,7 +37,7 @@ Para obter mais informações sobre os novos recursos e aprimoramentos, consulte
 
 Saiba mais sobre [as instruções de atualização para a versão 2024.06.0](upgrade-instructions-2024-06-0.md).
 
-## Criação  
+## Criação
 
 - A operação de copiar e colar de tópicos acima de 15 KB falha com um erro inesperado. (17171)
 - A funcionalidade para alterar o estado do documento do painel **Propriedades do Arquivo** não está funcionando corretamente e muda para o estado *Rascunho*. (17088)
@@ -52,11 +72,11 @@ Saiba mais sobre [as instruções de atualização para a versão 2024.06.0](upg
 
 - A vinculação de mapa cruzado não exibe todos os mapas principais nas configurações de contexto de publicação para um link que tem o `peer @scope`. (16700)
 - Ao adicionar atributos novos ou remover atributos existentes, os atributos antigos são retidos nas **Predefinições de condição**. (15890)
-- O conteúdo da linguagem RTL não é manipulado corretamente na saída de publicação PDF nativo. (15709)
-- A versão do primeiro PDF não é criada quando uma saída de PDF nativo é gerada. (10305)
+- O conteúdo da linguagem RTL não é manipulado corretamente na saída de publicação do PDF nativo. (15709)
+- A primeira PDF não recebe controle de versão quando uma saída de PDF nativo é gerada. (10305)
 - No PDF nativo, os tópicos DITA aninhados são exibidos incorretamente no índice. (16742)
-- As miniaturas geradas no Dynamic Media para arquivos de vídeo não persistem na saída publicada. (15656)
-- Falha na geração de saída para Publicação de PDF Nativo em um processador ARM64. (16968)
+- As miniaturas geradas pelo Dynamic Media para arquivos de vídeo não persistem na saída publicada. (15656)
+- Falha na geração de saída para Publicação Nativa do PDF em um processador ARM64. (16968)
 
 ## Gerenciamento
 
@@ -66,10 +86,10 @@ Saiba mais sobre [as instruções de atualização para a versão 2024.06.0](upg
 
 - Os projetos de tradução não conseguem adicionar novos trabalhos de idioma ao Adobe Experience Manager 6.5 SP18 com a versão de outubro de 2023 do Experience Manager Guides. (15398)
 
-## Serviço em nuvem
+## Cloud Service
 
 - A navegação das Ferramentas do Adobe Experience Manager não responde. (17118)
-- A fase de Transformação de compilação na implantação do Cloud Service falha com erros da base de código DITA. (14432)
+- A fase de Transformação de compilação na implantação do Cloud Services falha com erros da base de código DITA. (14432)
 
 ## Relatórios
 
@@ -79,8 +99,8 @@ Saiba mais sobre [as instruções de atualização para a versão 2024.06.0](upg
 
 ## Problemas conhecidos
 
-O Adobe identificou os seguintes problemas conhecidos para a versão 2024.06.0:
+A Adobe identificou os seguintes problemas conhecidos para a versão 2024.06.0:
 
-- A publicação do PDF nativo falha quando o conteúdo do Vimeo é adicionado ao tópico.
+- A publicação nativa do PDF falha quando o conteúdo do Vimeo é adicionado ao tópico.
 - As **propriedades de Tópico** não são exibidas de acordo com o formato selecionado nos campos de metadados de um layout de página.
 - Não é possível clicar em `xrefs` na exibição **Assets** quando o Dynamic Media está habilitado.

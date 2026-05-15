@@ -1,14 +1,36 @@
 ---
-title: Notas de versão | Correção de problemas na versão 4.6.0 do Adobe Experience Manager Guides
+title: Notas de versão | Correção de problemas na versão Adobe Experience Manager Guides 4.6.0
 description: Saiba mais sobre as correções de erros na versão 4.6.0 do Adobe Experience Manager Guides
 role: Leader
-source-git-commit: d51cc5ed621d5f533815c677e23bd4c1f4a52de3
+exl-id: fd12d627-5163-4edd-b28e-bef13267fcc9
+TQID: https://experienceleague.adobe.com/zaQd6UfebgClEP7JxSWRwsGqIziDkIN3QLLP-iGufhM
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: c38bc65b-dea9-4a6e-9de3-3daf1d2b388b
+  - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+  - id: d6596f3f-92a7-43ec-b444-237db6adad05
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '2011'
-ht-degree: 0%
+source-wordcount: 2019
+ht-degree: 5%
 
 ---
-
 
 # Correção de problemas na versão 4.6.0 (setembro de 2024)
 
@@ -20,9 +42,9 @@ Para obter mais informações sobre os novos recursos e aprimoramentos, consulte
 
 Saiba mais sobre [as instruções de atualização para a versão 4.6.0](../release-info/upgrade-instructions-4-6-0.md).
 
-## Criação  
+## Criação
 
-- A opção **Localizar** não está funcionando na exibição **Source**. 18610)
+- A opção **Localizar** não está funcionando na exibição **Source**. (18610)
 - Os ícones **Check-out** e **Check-in** aparecem juntos quando `autocheckout` está configurado no xmleditor. (18088)
 - Os mapas DITA grandes são carregados lentamente e demoram para alternar para a exibição **Layout**.  (17590)
 - Erros de IDs de imagem duplicadas nos tópicos impedem que o usuário salve ou crie um tópico. (17528)
@@ -62,14 +84,14 @@ Saiba mais sobre [as instruções de atualização para a versão 4.6.0](../rele
 - O `<conref>` não pode ser atualizado do painel **Atributos** ao fazer alterações. (15209)
 - A célula inteira é selecionada ao selecionar uma imagem em uma célula de tabela. (15188)
 - O painel **Atributos** não é exibido no modo de exibição Source do Editor da Web. (14387)
-- `<Topicref>` adicionado usando `<keyref>` não é exibido no PDF nativo. (1974)
+- `<Topicref>` adicionado usando `<keyref>` não é exibido no PDF Nativo. (11974)
 - Espaços indesejados e não separáveis são adicionados durante a edição no final de uma tag no Editor da Web. (11786)
 - O conteúdo é excluído ao corrigir os erros de ortografia em arquivos DITA. (11610)
 - Abrir um tópico DITA ou mapa em uma nova guia para edição congela a navegação de seleção na interface do Assets. (4992)
 - A exclusão de nós de revisão interrompe a capacidade de abrir e exibir comentários no Adobe Experience Manager Guides. (15366)
-- A versão DITA exibe incorretamente o nome de usuário na interface do usuário do Assets. 17580)
+- A versão DITA exibe incorretamente o nome de usuário na interface do usuário do Assets. (17580)
 - O elemento `<title>` é adicionado automaticamente quando o elemento `<fig>` é inserido como um trecho. (18562)
-- Ocorrem problemas ao carregar um grande número de arquivos com conjuntos de dados densos para a Experience Manager Guides.(17008)
+- Ocorrem problemas ao carregar um grande número de arquivos com conjuntos de dados densos no Experience Manager Guides.(17008)
 - O Editor da Web não exibe a palavra-chave correta por padrão, especialmente se a palavra-chave for definida de forma diferente em mapas secundários. (14748)
 - O **Estado do Documento** não é exibido ao editar as propriedades de mais de 50 arquivos em massa na exibição de Mapa do Editor da Web. (14574)
 - O comportamento do botão Fechar é inconsistente ao usar a funcionalidade de Salvamento automático. (10996)
@@ -79,35 +101,35 @@ Saiba mais sobre [as instruções de atualização para a versão 4.6.0](../rele
 
 ## Publicação
 
-- A referência cruzada para a chave não está sendo resolvida na saída de PDF nativo. (18087)
+- A referência cruzada para a chave não está sendo resolvida na saída do PDF nativo. (18087)
 - O erro **duplicate_value** ocorre intermitentemente ao republicar um artigo existente no Salesforce. (17932)
 - A validação da conexão do Salesforce falha com o URL do lightning. (17797)
-- Ao selecionar a opção **Usar metadados adicionados ao topicmeta**, as propriedades de metadados não são propagadas nas propriedades do documento da saída de PDF nativo.(17283)
-- A filtragem de condição na saída de PDF nativo não está funcionando como esperado em comparação ao DITA-OT. (17095)
-- O índice não respeita as tags `<sub>` ou `<sup>` na saída de PDF nativo. (17028)
+- Ao selecionar a opção **Usar metadados adicionados ao topicmeta**, as propriedades dos metadados não são propagadas nas propriedades do documento da saída do PDF Nativo.(17283)
+- A filtragem de condição na saída nativa do PDF não está funcionando como esperado em comparação ao DITA-OT. (17095)
+- O índice não respeita as marcas `<sub>` ou `<sup>` na saída do PDF Nativo. (17028)
 - A vinculação de mapa cruzado não exibe todos os mapas principais nas configurações de contexto de publicação para um link que tem o `scope="peer"`. (16700)
-- A geração de sites de AEM e a API de publicação incremental não estão funcionando como esperado. (16666)
-- Falha na geração de saída do Site AEM quando a opção **Excluir Site Órfão** está habilitada. (15896)
+- A geração do site do AEM e a API de publicação incremental não estão funcionando como esperado. (16666)
+- Falha na geração de saída do AEM Site quando a opção **Excluir Site Órfão** está habilitada. (15896)
 - Os atributos antigos são mantidos nas **Predefinições de condição** ao adicionar ou remover atributos novos ou existentes. (15890)
 - Na saída JSON, os metadados do mapa DITA ou dos tópicos não são propagados para os arquivos de saída JSON. (15713)
-- O conteúdo da linguagem RTL não é manipulado corretamente na saída de publicação PDF nativo. (15709)
-- A publicação de PDF nativo falha quando a predefinição é renomeada. (15662)
-- A propriedade **sourcePath** está incorreta na saída do site AEM publicada. (15502)
-- A seleção e a personalização de variáveis de idioma não estão funcionando corretamente na Predefinição de saída de PDF nativo. (15399)
-- A geração de PDF nativo falha ao usar uma folha de estilos grande ou modelo de layout. (15344)
+- O conteúdo da linguagem RTL não é tratado corretamente na saída de publicação do PDF nativo. (15709)
+- A publicação no PDF nativo falha quando a predefinição é renomeada. (15662)
+- A propriedade **sourcePath** está incorreta na saída do site publicado do AEM. (15502)
+- A seleção e a personalização de variáveis de idioma não estão funcionando corretamente na Predefinição de saída nativa do PDF. (15399)
+- A geração de PDF nativo falha ao usar uma folha de estilos ou modelo de layout grande. (15344)
 - O conteúdo não é renderizado corretamente na saída publicada se `<conref>` for usado com um caminho absoluto. (15222)
 - A redução de URL do AEM Sites não está funcionando devido a conflitos entre `fmdita rewriter` e `ResourceResolver`. (14793)
 - A geração de PDF nativo falha com um erro relacionado à obtenção de dependências para Node.js. (14445)
 - Os atributos **processing-role=&quot;resource-only&quot;**, **search=&quot;no&quot;** e **chunk=&quot;to-content&quot;** aparecem independentemente na saída do AEM Sites. (14442)
-- `<Conref>` não é resolvido no modo `Preview` do Editor da Web e da saída PDF nativa. (17827)
+- `<Conref>` não é resolvido no modo `Preview` do Editor da Web e da saída do PDF Nativo. (17827)
 - No PDF nativo, os tópicos DITA aninhados são exibidos incorretamente no índice. (16742)
 - As miniaturas geradas pelo **Dynamic Media** para arquivos de vídeo não persistem na saída publicada. (15656)
-- O PDF referenciado não é ativado no **Painel do Publish em massa** durante a Ativação em massa do conteúdo publicado. (17793)
+- O PDF referenciado não é ativado no **Painel de Publicação em Massa** durante a Ativação em Massa do conteúdo publicado. (17793)
 - Se uma pasta que contém mapas 2k estiver definida no caminho da pasta dentro de qualquer perfil de pasta, as alterações aplicadas à predefinição de saída falharão. (14852)
 - A regeneração de tópico falha devido à falha da API de publicação incremental ou de Regeneração de Tópico OOTB. (18452)
 - A predefinição de condição não busca atributos atualizados após a atualização do Experience Manager Guides. (18174)
-- As referências de conteúdo não serão resolvidas corretamente para a saída de PDF nativo se o arquivo que contém as definições de chave não estiver na mesma pasta que o mapa DITA. (15062)
-- O Painel do Publish em massa mostra mapas em branco que ainda estão no processo de tradução. (19352)
+- As referências de conteúdo não serão resolvidas corretamente para a saída do PDF nativo se o arquivo que contém as definições de chave não estiver na mesma pasta que o mapa DITA. (15062)
+- O Painel de publicação em massa mostra mapas em branco que ainda estão no processo de tradução. (19352)
 - A Ativação em massa de conteúdo publicado não está funcionando para mapas localizados. (17638)
 
 
@@ -139,7 +161,7 @@ Saiba mais sobre [as instruções de atualização para a versão 4.6.0](../rele
 
 ## Tradução
 
-- As referências de ativos traduzidos não são atualizadas. 18086)
+- As referências de ativos traduzidos não são atualizadas. (18086)
 - Não é possível criar projetos XLIFF com tradução humana. (16964)
 - O título com `<conref>` ou `<conkeyref>` não é resolvido nos painéis Linha de Base e Tradução do Editor da Web. (16961, 16879)
 - Os projetos de tradução não conseguem adicionar novos trabalhos de idioma ao Adobe Experience Manager 6.5 SP18 com a versão 4.3.1 do Experience Manager Guides. (15398)
@@ -154,17 +176,13 @@ Saiba mais sobre [as instruções de atualização para a versão 4.6.0](../rele
 
 ## Problemas conhecidos
 
-O Adobe identificou os seguintes problemas conhecidos para a versão 4.6.0:
+A Adobe identificou os seguintes problemas conhecidos para a versão 4.6.0:
 - Abrir uma predefinição do **AEM Sites** (não herdada) marca o tópico como sujo.
 - O painel selecionado não está sendo retido na atualização do navegador da guia **Saída**.
 - Não é possível arrastar e soltar tópicos entre dois `topicrefs` na exibição **Autor**.
-- A filtragem de condição aplicada na predefinição não está sendo aplicada via **Baixar como PDF**.
+- A filtragem de condição aplicada na predefinição não está sendo aplicada via **Download como PDF**.
 - A geração de um único tópico a partir do painel de mapa gera todos os tópicos selecionados na predefinição do **AEM Sites** (não herdado).
 - A referência do tópico aparece quebrada na interface do usuário quando inserida na barra de ferramentas superior do mapa DITA.
-- A geração de PDF nativo falha para um mapa DITA se houver referências ausentes.
+- A geração nativa do PDF falha para um mapa DITA se houver referências ausentes.
 - Depois que o estado do documento de um tópico for atualizado para **Concluído**, o ícone **Iniciar uma Nova Versão** só estará disponível no modo **Visualizar** do tópico.
 - Ao selecionar um arquivo DITA na interface do usuário do Assets, a opção **Abrir no FrameMaker** é exibida, mesmo que esteja desabilitada nas definições de configuração.
-
-
-
-

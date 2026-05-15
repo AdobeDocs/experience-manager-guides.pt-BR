@@ -4,9 +4,24 @@ description: Este breve artigo informa como o AEM Guides e o DITA ajudam a econo
 role: User, Admin
 author: Pulkit Nagpal(punagpal)
 exl-id: 1522ebf5-2aea-4d8f-ade7-367227b31dd9
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+TQID: https://experienceleague.adobe.com/zCktDt9h2K-lCluedb39M5cc40j34GATjIvm04kU-nc
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: 557
 ht-degree: 0%
 
 ---
@@ -17,8 +32,8 @@ O Adobe AEM Guides aproveita os pontos fortes do DITA para fornecer uma interfac
 
 Este artigo abordará:
 
-1. [Reusabilidade usando referência de tópico (](#reusability-using-topic-referencestopicref)
-2. [Reutilização usando referência de conteúdo (](#reusability-using-content-reference-conref--conkeyref)
+1. [Reusabilidade usando referência de tópico (`topicrefs`)](#reusability-using-topic-referencestopicref)
+2. [Reusabilidade usando referência de conteúdo (`conref` e `conkeyref`)](#reusability-using-content-reference-conref--conkeyref)
 3. [Dica de bônus para reutilizar conteúdo com arrastar e soltar no AEM Guides](#reuse-content-with-a-single-click-in-aem-guides)
 
 ## Reusabilidade usando referências de tópico (topicref)
@@ -167,4 +182,4 @@ Verifique se você abriu o mapa raiz/mapa pai na exibição de mapa, que tem uma
 <br>
 
 
-Publique qualquer consulta no [fórum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=pt) da Comunidade do AEM Guides.
+Publique qualquer consulta no [fórum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) da Comunidade do AEM Guides.

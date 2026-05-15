@@ -3,10 +3,17 @@ title: Botão
 description: Botão
 role: User, Admin
 exl-id: 40e3f254-f94e-4f43-8ff5-2e6e1eb1cb6f
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+TQID: https://experienceleague.adobe.com/pmhyi9TN4gFF0opdy2SsTEUr4l1uLZMwhIwmUPMJSA0
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 5%
+source-wordcount: 62
+ht-degree: 4%
 
 ---
 
@@ -25,7 +32,7 @@ const buttonJSON = {
 ```
 
 Isso produzirá um botão com o rótulo `Yes, login`. As outras propriedades incluem, entre outras, variante, rótulo, clique.
-> **_OBSERVAÇÃO:_** `on-<events>` é a sintaxe para invocar os comandos nos controladores.
+> **_NOTE:_** `on-<events>` é a sintaxe para invocar os comandos nos controladores.
 
 O botão renderizado terá esta aparência:
 

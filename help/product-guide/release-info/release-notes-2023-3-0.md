@@ -4,10 +4,22 @@ description: Versão de março do Adobe Experience Manager Guides as a Cloud Ser
 exl-id: 6a0bba92-7d7d-4b20-ad46-0eacc91268da
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/eIPiGBWr-vxglYwzI0zYT64a4orZXm42hWthchmcceU
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2:
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 0%
+source-wordcount: 565
+ht-degree: 2%
 
 ---
 
@@ -32,7 +44,7 @@ Execute as seguintes etapas para indexar o conteúdo existente e usar o novo tex
 * Execute uma solicitação POST para o servidor (com autenticação correta) - `http://<server:port>/bin/guides/map-find/indexing`.
 (Opcional: é possível passar caminhos específicos dos mapas para indexá-los; por padrão, todos os mapas serão indexados || Exemplo: `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
-* A API retornará um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação GET com a ID do trabalho para o mesmo ponto de extremidade - `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
+* A API retornará um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação do GET com a ID do trabalho para o mesmo ponto de extremidade - `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
 (Por exemplo: http://&lt;_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
 
 * Quando o trabalho for concluído, a solicitação do GET acima responderá com sucesso e mencionará se algum mapa falhou. Os mapas indexados com êxito podem ser confirmados nos logs do servidor.
@@ -64,7 +76,7 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 * Saída JSON | Mapear metadados com o valor de propriedade como `"value in spaces and double quotes"` leva a um erro de publicação. (11438)
 * A inserção de arquivos multimídia de áudio e vídeo falha no formato YouTube sob o ícone **Inserir multimídia**. (11320)
 * O erro de validação ocorre quando um mapa é criado usando o modelo que tem um elemento de título especializado. (11212)
-* PDF nativo | a nota de rodapé presente no cabeçalho da tabela leva a negrito e texto alinhado ao centro no rodapé da página correspondente na saída do PDF. (10610)
+* PDF nativo | a nota de rodapé presente no cabeçalho da tabela resulta em texto em negrito e alinhado ao centro no rodapé da página correspondente na saída do PDF. (10610)
 >[!NOTE]
 >
 >Para refletir a alteração do PDF nativo, exclua a pasta do PDF localizada em /content/dam/dita-templates e atualize para a build mais recente. (10610)

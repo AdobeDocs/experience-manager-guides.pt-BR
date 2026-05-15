@@ -5,9 +5,19 @@ feature: Content Management
 role: User
 hide: true
 exl-id: 35663aa1-9e52-4909-aaee-0f01cf47dc64
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+TQID: https://experienceleague.adobe.com/njK8ud-RQO0Ev2PnOnXuB7OUUorvKtnMHwLBx8cD1jI
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '3144'
+source-wordcount: 3144
 ht-degree: 0%
 
 ---
@@ -138,7 +148,7 @@ Para mover arquivos em massa, execute as seguintes etapas:
 
    >[!TIP]
    >
-   > Selecionar <img src="images/info-icon.svg" width="25">   próximo a qualquer campo para exibir mais detalhes sobre ele.
+   > Selecionar <img src="images/info-icon.svg" width="25"> próximo a qualquer campo para ver mais detalhes sobre ele.
 
 
    - **Adicionar sufixo a pastas duplicadas**: caso esteja movendo pastas com o mesmo nome, você deve selecionar esta opção. Por exemplo, na captura de tela anterior, o **caminho do Source** contém o nome das pastas a serem movidas. A pasta chamada topic existe em dois locais diferentes — test-A e test-B. Ao selecionar essa opção, as pastas serão movidas com êxito. A primeira pasta movida será chamada de topic, enquanto a segunda pasta será chamada topic0. A operação de movimentação adiciona um sufixo em séries sequenciais \(0, 1, 2 e assim por diante\) às pastas com o mesmo nome.
@@ -147,7 +157,7 @@ Para mover arquivos em massa, execute as seguintes etapas:
 
    - **Caminho do Source\(s\)**: especifique o local das pastas que deseja mover.
 
-      - Selecionar **Pasta de Navegação**  <img src="images/browse-folder-icon.svg" width="25">    para abrir a caixa de diálogo procurar arquivo. Selecione as pastas que deseja mover e clique em **Selecionar** para concluir o processo.
+      - Selecionar **Pasta de Navegação**  <img src="images/browse-folder-icon.svg" width="25"> para abrir a caixa de diálogo procurar arquivo. Selecione as pastas que deseja mover e clique em **Selecionar** para concluir o processo.
 
       - Você também pode digitar ou copiar e colar o local de origem. Pressione Enter para adicionar a pasta à lista.
 
@@ -179,7 +189,7 @@ Para mover arquivos em massa, execute as seguintes etapas:
 
    >[!TIP]
    >
-   > Selecionar <img src="images/info-icon.svg" width="25">   próximo a qualquer campo para exibir mais detalhes sobre ele.
+   > Selecionar <img src="images/info-icon.svg" width="25"> próximo a qualquer campo para ver mais detalhes sobre ele.
 
    - **Tamanho do lote**: especifique o número de arquivos a serem movidos em um único lote. Os valores padrão são 50 arquivos.
    - **Intervalo de suspensão (segundos)**: especifique o tempo em segundos que o processo aguardará antes de iniciar o próximo lote. Durante esse intervalo de suspensão, o sistema corrige as referências de e para os arquivos movidos. O intervalo de suspensão padrão é de 60 segundos.
@@ -196,7 +206,7 @@ Para mover arquivos em massa, execute as seguintes etapas:
 
    - **Caminho do Source\(s\)**: especifique o local das pastas que deseja mover.
 
-      - Selecionar **Pasta de Navegação**  <img src="images/browse-folder-icon.svg" width="25">    para abrir a caixa de diálogo procurar arquivo. Selecione as pastas que deseja mover e clique em **Selecionar** para concluir o processo.
+      - Selecionar **Pasta de Navegação**  <img src="images/browse-folder-icon.svg" width="25"> para abrir a caixa de diálogo procurar arquivo. Selecione as pastas que deseja mover e clique em **Selecionar** para concluir o processo.
 
       - Você também pode digitar ou copiar e colar o local de origem. Pressione Enter para adicionar a pasta à lista.
 

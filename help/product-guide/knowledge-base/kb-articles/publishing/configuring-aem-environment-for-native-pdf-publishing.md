@@ -1,33 +1,48 @@
 ---
-title: Configuração do ambiente AEM para publicação de PDF nativo
-description: Configuração do ambiente AEM para publicação de PDF nativo
+title: Configuração do ambiente AEM para publicação nativa no PDF
+description: Configuração do ambiente AEM para publicação nativa no PDF
 exl-id: 40266ca0-0b0b-4418-b606-f70270addbaa
 feature: Native PDF Output
 role: User, Admin
-source-git-commit: 1baed01b2e573d79d4baaa6a551966ce59449136
+TQID: https://experienceleague.adobe.com/SLuPn9YigAcHvcSEdrbbQOz29Y6DeWGYnWktWY9L9nQ
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+  - id: d6596f3f-92a7-43ec-b444-237db6adad05
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: 931
 ht-degree: 1%
 
 ---
 
-# Configuração do ambiente AEM para publicação de PDF nativo
+# Configuração do ambiente AEM para publicação nativa no PDF
 
-O AEM Guides inclui um mecanismo de publicação PDF nativo que permite aos usuários projetar, desenvolver e publicar o conteúdo no formato PDF.
+O AEM Guides inclui um mecanismo de publicação nativo do PDF que permite aos usuários projetar, desenvolver e publicar o conteúdo no formato PDF.
 
-Ele fornece a capacidade de criar diferentes layouts de página, modelos CSS e projetar os modelos de PDF em conjunto com os layouts de página e CSS.
+Ele fornece a capacidade de criar diferentes layouts de página, modelos CSS e projetar os modelos do PDF em conjunto com os layouts de página e CSS.
 
 As etapas para configurar esse PDF nativo no AEM Guides diferem dependendo do sistema operacional. Use as etapas de configuração abaixo com base no sistema operacional no qual o AEM está instalado.
 
 ## Pré-requisitos
 
-Requisitos mínimos para a configuração do PDF nativo:
+Requisitos mínimos para configurar o PDF nativo:
 
 - Plataforma Java instalada, Standard Edition 8 ou 11 JDK (Java SE Development Kit) e JRE (Java SE Runtime Environment) instalados
 - AEM 6.5 SP13, SP12, SP11 ou SP10
 - Guias 4.1 e versões posteriores (não UUID ou UUID)
 
-O mecanismo de publicação PDF nativo precisa do JDK do Oracle para gerar os módulos de nó na pasta AEM crx-quickstart. Por padrão, ele é compatível com os seguintes sistemas operacionais:
+O mecanismo de publicação nativo do PDF precisa do Oracle JDK para gerar os módulos de nó na pasta crx-quickstart do AEM. Por padrão, ele é compatível com os seguintes sistemas operacionais:
 
 - Windows 10, Windows 2019 Server e superior.
 - Linux - (RHEL 8 e superior, CentOS 7 e superior, Ubuntu 18 e versões superiores)
@@ -35,7 +50,7 @@ O mecanismo de publicação PDF nativo precisa do JDK do Oracle para gerar os m�
 
 ## Etapas de configuração para Windows Server (JAVA 11/8)
 
-1. Certifique-se de que o servidor AEM esteja desativado.
+1. Certifique-se de que o servidor do AEM esteja desativado.
 2. Na barra de tarefas do Windows, clique com o botão direito do mouse no ícone do Windows e selecione Sistema.
 3. Na janela Configurações, em Configurações relacionadas, clique em Configurações avançadas do sistema.
 4. Na guia Avançado, clique em Variáveis de ambiente.
@@ -69,12 +84,12 @@ O mecanismo de publicação PDF nativo precisa do JDK do Oracle para gerar os m�
 
 10. Clique em &#39;OK&#39; novamente na caixa de diálogo Variáveis de ambiente.
 11. Clique novamente em &#39;OK&#39; na caixa de diálogo Propriedades do sistema.
-12. Agora, inicie o servidor AEM.
+12. Agora, inicie o servidor do AEM.
 13. Gerar PDF nativo a partir de predefinições no editor da Web.
 
 ## Etapas de configuração para servidor Linux (RHEL7/centOS 7)
 
-1. Verifique se o servidor AEM está desativado
+1. Verifique se o servidor do AEM está desativado
 2. Verifique a variável JAVA_HOME fazendo echo $JAVA_HOME
 3. Se a variável JAVA_HOME não estiver definida, siga a etapa 4. Caso contrário, vá diretamente para a etapa 5.
 4. Defina a variável JAVA_HOME usando os comandos abaixo com base na versão instalada do java
@@ -92,8 +107,8 @@ O mecanismo de publicação PDF nativo precisa do JDK do Oracle para gerar os m�
    1. exportar JAVA\_HOME=/usr/lib/jvm/java-11.0.15.1
    2. caminho de exportação=$PATH: $JAVA\_HOME/bin
 
-5. Reinicie o Servidor AEM e vá para a Etapa 12, se estiver usando o Guides versão 4.2 e superior.
-6. Copie o &quot;_node_modules.zip_&quot; anexado na parte inferior deste artigo no diretório crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166/.
+5. Reinicie o AEM Server e vá para a Etapa 12, se estiver usando o Guides versão 4.2 e superior.
+6. Copie o &quot;_node_ modules.zip_&quot; anexado na parte inferior deste artigo no diretório crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166/.
 7. Abra o terminal no crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166/.
 8. Exclua o diretório node_modules usando o comando abaixo
 
@@ -117,7 +132,7 @@ A importação manual dos módulos de nó baixados para o sistema operacional Li
 
 ## Etapas de configuração para a máquina do Mac (JAVA 11/8)
 
-1. Instale o Oracle JAVA 11 ou o Oracle JAVA 8.
+1. Instale o Oracle JAVA 11 ou Oracle JAVA 8.
 2. Defina a variável de ambiente JAVA_HOME para o diretório JAVA instalado.
 3. Abra um shell Unix.
 (O Bash é usado aqui para definir a configuração)
@@ -138,17 +153,17 @@ A importação manual dos módulos de nó baixados para o sistema operacional Li
 
 6. Verifique se JAVA_HOME está definido usando o comando echo $JAVA_HOME
 
-7. Execute os três comandos abaixo a partir do caminho de instalação do AEM
+7. Execute os três comandos abaixo no caminho de instalação do AEM
 
    C:/{aem-installation-folder}/crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166
 
    i) encontrar . -type d -exec chmod 0755 {} \;
 ii) encontrar . -type f -exec chmod 0755 {} \;
-iii)/node-darwin/bin/node node-darwin/lib/node_modules/npm/bin/npm-cli.js —prefix . install — unsafe-perm — scripts-prepend-node-path
+iii) ./node-darwin/bin/node node-darwin/lib/node_modules/npm/bin/npm-cli.js —prefix . install — unsafe-perm — scripts-prepend-node-path
 
 8. Verifique se o Java está instalado usando o comando abaixo
 
-   i) Execute **.comando /node-darwin/bin/node** da pasta /crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166
+   i) Execute o comando **./node-darwin/bin/node** em /crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166 folder
 
    ![mac](../assets/publishing/mac.png)
 
@@ -161,7 +176,7 @@ Comando: apt install fontconfig
 
 ## Resolução de problemas
 
-Abaixo estão os erros comuns que podem ocorrer durante a Geração de PDF quando as variáveis de ambiente não estão definidas corretamente.
+Abaixo estão os erros comuns que podem ocorrer durante a geração do PDF, quando as variáveis de ambiente não estão definidas corretamente.
 
 ### Exceção de ponteiro nulo no sistema operacional Windows/Mac
 
@@ -177,7 +192,7 @@ Se o problema persistir mesmo após a correção das configurações do ambiente
 
 ![bibliotecas ausentes](../assets/publishing/missing-libraries.png)
 
-### Tempo limite do processo do Publish. O processo não foi concluído no tempo especificado de 0 ms
+### Tempo limite do processo de publicação. O processo não foi concluído no tempo especificado de 0 ms
 
 ![tempo limite do processo de publicação](../assets/publishing/publish-process-timeout.png)
 
@@ -185,4 +200,4 @@ Valide o valor da propriedade timeout do nó nodejs em /var/dxml/profiles/b1aad0
 
 
 
-Se você encontrar problemas ao executar qualquer uma das etapas acima, poste sua pergunta no [fórum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=pt) da Comunidade do AEM Guides para obter assistência.
+Se você encontrar problemas ao executar qualquer uma das etapas acima, poste sua pergunta no [fórum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) da Comunidade do AEM Guides para obter assistência.

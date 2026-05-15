@@ -4,10 +4,30 @@ description: Saiba mais sobre as correções de erros e como atualizar para a ve
 feature: Release Notes
 role: Leader
 exl-id: 63efe42a-b817-49df-8f76-df8d7acf9194
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/dswxcBt1RlZEgMOSEay8bmaQxtgb8kjeSHxKxnGp3g8
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: cda0baeb-996e-4aaa-92d1-41032e34fd68
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+  - id: d6596f3f-92a7-43ec-b444-237db6adad05
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1319'
-ht-degree: 1%
+source-wordcount: 1341
+ht-degree: 3%
 
 ---
 
@@ -78,7 +98,7 @@ Execute as seguintes etapas para pós-processar o conteúdo existente e usar o n
 
 1. Execute uma solicitação POST para o servidor (com autenticação correta) - `http://<server>//bin/guides/reports/upgrade`.
 
-1. A API retorna um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação GET com a ID do trabalho para o mesmo ponto de extremidade - `http://<server>/bin/guides/reports/upgrade?jobId= {jobId}`
+1. A API retorna um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação do GET com a ID do trabalho para o mesmo ponto de extremidade - `http://<server>/bin/guides/reports/upgrade?jobId= {jobId}`
 (Por exemplo: `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
 1. Quando o trabalho for concluído, a solicitação anterior do GET responderá com êxito. Se a tarefa falhar por algum motivo, a falha poderá ser vista nos logs do servidor.
@@ -91,7 +111,7 @@ Execute as seguintes etapas para pós-processar o conteúdo existente e usar o n
 
 Execute as seguintes etapas para indexar o conteúdo existente e usar o novo texto de localização e substituição no nível do mapa e da lista de tópicos na guia relatórios:
 
-1. Execute uma solicitação POST para o servidor (com autenticação correta) - `http://<server:port>/bin/guides/map-find/indexing`. (Opcional: é possível passar caminhos específicos dos mapas para indexá-los; por padrão, todos os mapas serão indexados|| Por exemplo: `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
+1. Execute uma solicitação POST para o servidor (com autenticação correta) - `http://<server:port>/bin/guides/map-find/indexing`. (Opcional: é possível passar caminhos específicos dos mapas para indexá-los, por padrão, todos os mapas serão indexados|| Por exemplo: `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
 1. Você também pode passar uma pasta raiz para indexar os mapas DITA de uma pasta específica (e suas subpastas). Por exemplo, `http://<server:port>/bin/guides/map-find/indexing?root=/content/dam/test`. Observe que se os parâmetros de caminhos e de raiz forem transmitidos, somente o parâmetro de caminhos será considerado.
 
@@ -143,7 +163,7 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 
 ### Criação
 
-- O **Título** na guia Editor da Web é truncado após um caractere de ponto (.). (14372)
+- O **Título** na guia Editor da Web é truncado após um ponto (.) caractere. (14372)
 - As mensagens de erro para nomes de mapa duplicados na interface do Assets não são atualizadas. (14320)
 - Ocorre um erro na lógica de criação de versão durante a ação de arrastar e soltar ativos. (14291)
 - O conteúdo reutilizável ignora as IDs do elemento. (14213)

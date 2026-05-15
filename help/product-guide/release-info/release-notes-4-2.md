@@ -4,10 +4,25 @@ description: Saiba mais sobre as correções de erros e como atualizar para as v
 exl-id: 8a7fef77-63af-462f-89c5-054ab31e079b
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/NYtiFRSNt197F9PWTh8q-CyhpZz4F8pSFIQgph0twKk
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1390'
-ht-degree: 1%
+source-wordcount: 1409
+ht-degree: 5%
 
 ---
 
@@ -78,7 +93,7 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 * Acertar o espaço traseiro no final de um item de lista remove a lista inteira. (10540)
 * A tela é exibida em branco no Chrome v106 ao arrastar e soltar qualquer elemento da interface do usuário ( por exemplo, no painel Condições ). (10524)
 * O botão Recuo Automático está ausente na barra de ferramentas do modo de exibição **Source**. (10448)
-* O primeiro caractere de um item de lista é perdido às vezes quando a lista está sendo criada no editor.(10447)
+* O primeiro caractere de um item de lista é perdido às vezes quando a lista está sendo criada no editor.( 10447)
 * **Desfazer** ou **Refazer** não está funcionando corretamente em alguns arquivos. (10373)
 * Os metadados personalizados não são mantidos na ação de copiar e colar. (10367)
 * Ocorre um erro ao fazer uma cópia (ctrl+c) e colar (ctrl+v) de conteúdo. (10304)
@@ -109,7 +124,7 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 * Tradução | A tarefa de tradução não é iniciada devido a /libs/fmdita/i18n/ja.json inválido. (10543)
 * Tradução | Ocorre um erro em um projeto de tradução de escopo criado a partir do painel de tradução (Tradução humana). (10526)
 * Tradução | O pós-processamento está bloqueado para toda a pasta de idioma cujos ativos estão presentes em um projeto de tradução ativo. (10332)
-* Tradução| Os metadados e as tags não estão sendo propagados para as cópias traduzidas. (4696)
+* Tradução | Os metadados e as tags não estão sendo propagados para as cópias traduzidas. (4696)
 * Vários pop-ups são exibidos para qualquer ativo se a versão for alterada e salva no editor de linha de base. (10399)
 * O Vazamento de Sessão ocorre em com.day.cq.search.impl.builder.QueryBuilderImpl.createResourceResolver(QueryBuilderImpl.java:210). (10279)
 * O arquivo de vídeo está ausente na linha de base se a pasta pai contiver espaço no nome. (10031)
@@ -119,21 +134,21 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 * A regeneração de tópico não está funcionando para alguns cenários. (10635)
 * A publicação no PDF falha ao gerar a saída para uma predefinição duplicada (de uma predefinição existente). (10584)
 * O botão Exibir log não funciona caso ocorra falha na geração de PDF para uma predefinição. (10576)
-* O Publishlistener não exibe os dados solicitados em logs de informações e também contém alguns logs de lixo eletrônico.(10567)
-* PDF nativo | Falha na geração do PDF com uma exceção de Null Pointer. (10950)
+* O Publishlistener não exibe os dados solicitados em logs de informações e também contém alguns logs de lixo eletrônico.( 10567)
+* PDF nativo | A geração de PDF falha com uma exceção de Null Pointer. (10950)
 * PDF nativo | conkeyref não está sendo resolvido na saída gerada. (10564)
-* PDF nativo | Ocorrem problemas com os metadados de um mapa que precisa ser referido na saída do PDF.(10556)
-* PDF nativo | Ocorrem problemas ao girar o cabeçalho da tabela. (10555)
+* PDF nativo | Ocorrem problemas com os metadados de um mapa que precisa ser referido na saída do PDF.( 10556)
+* PDF nativo | Problemas ao girar o cabeçalho da tabela. (10555)
 * PDF nativo | Ocorrem problemas ao remover tópicos com função de processamento=&#39;resource-only&#39;. (10554)
-* PDF nativo | Keyrefs vazios são exibidos na saída do PDF. (10553)
+* PDF nativo | Teclas vazias são exibidas na saída do PDF. (10553)
 * PDF nativo | `<indexterm>` aninhados não estão aninhados na exportação nativa do PDF. (10521)
 * PDF nativo | O PDF nativo usa o estilo em linha em vez do nome da classe para as tags geradas. (10498)
-* PDF nativo | Os tópicos aninhados ref nos apêndices são todos transformados em h1 no HTML temporário.(10454)
-* PDF nativo | Não é possível ocultar tópicos de destaque do sumário. (10355)
+* PDF nativo | Tópicos aninhados nos apêndices são todos transformados em h1 no HTML temporário.( 10454)
+* PDF nativo | Não é possível ocultar tópicos do assunto principal do sumário. (10355)
 * PDF nativo | Atributo de quadro de tabela não propagado para o HTML temporário (como classe). (10353)
 * PDF nativo | Arquivos temporários do HTML adicionam as classes colsep e rowsep a <td> e <th> mesmo que o valor seja 0 no DITA de origem. (10352)
 * PDF nativo | Reiniciar os números de página no layout do capítulo inicia aleatoriamente a numeração a partir do final do capítulo anterior. (10154)
-* PDF nativo | As principais referências para keydefs com imagem ou links externos não estão sendo resolvidas. (10063)
+* PDF nativo | As referências principais de keydefs com imagem ou links externos não estão sendo resolvidas. (10063)
 * PDF nativo | O apêndice está sendo exibido como um capítulo no PDF gerado. (9829)
 * A guia Modelo no editor xml não está sendo exibida para os administradores de Perfil de pasta. (10266)
 * Falha na publicação da linha de base para o PDF gerado usando o FrameMaker Publishing Server 2020. (10551)

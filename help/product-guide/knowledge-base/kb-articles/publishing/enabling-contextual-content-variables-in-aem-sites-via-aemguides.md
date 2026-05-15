@@ -4,10 +4,20 @@ description: Trabalhar com variáveis de conteúdo contextual (CCVAR) em página
 feature: Web Editor
 role: User, Admin
 exl-id: f9adbb3f-6c1c-4d6f-b55d-1fb45acca91a
-source-git-commit: 4020534552bdb77545c2a283f2a90adc3aebc729
+TQID: https://experienceleague.adobe.com/ehW4uJQaj3XqejwquxVwFo4vFx6q7qCsVIm6MowolZE
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 1%
+source-wordcount: 497
+ht-degree: 2%
 
 ---
 
@@ -23,27 +33,27 @@ A CCVAR permite que os autores insiram variáveis dinâmicas em seu conteúdo, q
 
 ## Como ativar a CVAR em páginas do AEM Sites geradas pelo AEM Guides?
 
-Considerando que o AEM Guides é usado como a fonte de todo o conteúdo (incluindo AEM Sites, PDF ou HTML5), para habilitar CCVARs em páginas geradas pelo AEM Guides, é necessário usar palavras-chave para definir o nome do CCVAR. Para fazer isso em Guias, defina **palavras-chave** no mapa DITA usando elementos `<keydef>`. Essas palavras-chave podem corresponder a valores dinâmicos (ou nomes CVAR), permitindo que você as referencie em seus tópicos DITA.
+Considerando que o AEM Guides é usado como a fonte de todo o conteúdo (incluindo AEM Sites, PDF ou HTML5), para ativar as CCVARs nas páginas geradas pelo AEM Guides, é necessário usar palavras-chave para definir o nome da CCVAR. Para fazer isso em Guias, defina **palavras-chave** no mapa DITA usando elementos `<keydef>`. Essas palavras-chave podem corresponder a valores dinâmicos (ou nomes CVAR), permitindo que você as referencie em seus tópicos DITA.
 
 
 ## Pré-requisitos
 
 Antes de continuar, verifique se os seguintes pré-requisitos foram atendidos:
 
-1. **Comuns AEM ACS Instalados**:
-   - Certifique-se de que o **ACS AEM Commons** esteja instalado em sua instância do AEM. Isso é necessário para usar a CCVAR.
+1. **AEM ACS Commons Instalado**:
+   - Verifique se o **ACS AEM Commons** está instalado em sua instância do AEM. Isso é necessário para usar a CCVAR.
 
 2. **Configuração de variáveis de conteúdo contextuais**:
    - Conclua a configuração para **Variáveis de Conteúdo Contextual** no AEM usando a [documentação oficial](https://adobe-consulting-services.github.io/acs-aem-commons/features/contextual-content-variables/index.html). Isso inclui:
       - Habilitando **Agregação de Propriedades**.
-      - Configurando **Reescrita de HTML** (se estiver usando a saída de HTML).
+      - Configurando a **regravação de HTML** (se estiver usando a saída do HTML).
       - Configurando **regravação de JSON** (se estiver usando a saída JSON).
 
 
 
 ## Etapas para ativar a CCVAR no AEM Guides
 
-### 1. Definir palavras-chave no mapa DITA
+### &#x200B;1. Definir palavras-chave no mapa DITA
 
 - No AEM Guides, defina palavras-chave usando elementos `<keydef>` no mapa DITA para corresponder ao CCVAR.
 - Por exemplo:
@@ -61,7 +71,7 @@ Antes de continuar, verifique se os seguintes pré-requisitos foram atendidos:
 - O atributo `keys` (`product` neste exemplo) será usado para fazer referência a esta variável nos seus tópicos DITA.
 
 
-## 2. Usar palavras-chave em tópicos DITA
+## &#x200B;2. Usar palavras-chave em tópicos DITA
 
 - No tópico, use a palavra-chave onde quer que a CCVar seja usada.
 - Por exemplo:
@@ -74,7 +84,7 @@ Antes de continuar, verifique se os seguintes pré-requisitos foram atendidos:
 - Durante a geração da saída, a palavra-chave será substituída pelo valor CCVar correspondente.
 
 
-## 3. Gerar saída
+## &#x200B;3. Gerar saída
 
 - Ao gerar a saída para o AEM Sites, as referências de palavra-chave serão resolvidas para os valores dinâmicos correspondentes.
 - Por exemplo:

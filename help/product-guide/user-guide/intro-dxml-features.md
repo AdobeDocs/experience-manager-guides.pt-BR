@@ -4,16 +4,32 @@ description: Explore os principais recursos do Experience Manager Guides, criaç
 exl-id: 978d7027-08da-40f7-ae9e-bb4d559a84dc
 feature: Introduction
 role: User
-source-git-commit: afa77e42eec4ea900efff14f1ae5f79464591505
+TQID: https://experienceleague.adobe.com/qfne-WSiweRnvK-cGU8A9IJ0xh2yJ9pBHNWcRzDrBe8
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1068'
+source-wordcount: 1116
 ht-degree: 0%
 
 ---
 
 # Principais recursos do Adobe Experience Manager Guides {#id167G9I060SI}
 
-**Criação avançada de DITA e gerenciamento de conteúdo**
+**Criação e gerenciamento de conteúdo avançados de DITA**
 Aumente significativamente a produtividade da criação por meio da fonte única de informações modulares otimizadas para reutilização eficaz em nível detalhado (módulos, componentes, palavras, gráficos, multimídia e traduções\).
 
 O editor integrado baseado na Web ajuda você a criar e gerenciar com facilidade tópicos, mapas e arquivos DITAVAL DITA. O editor integrado tem uma interface de processamento de texto simples e intuitiva, que fornece uma entrada fácil para especialistas no assunto, colaboradores casuais e revisores que podem não ser treinados para usar o DITA. Com a funcionalidade inteligente Inserir elemento, você não precisa se preocupar em colocar um elemento no local correto. Um elemento é sempre inserido no próximo local válido disponível.
@@ -38,12 +54,12 @@ O Experience Manager Guides oferece recursos de análise baseados na Web avança
 
 Todos os documentos no DAM agora recebem um status de documento. Este status de documento ajuda a identificar o estado no processo de documentação do documento. Como administrador do sistema, você pode definir os estados do documento, os estados inicial e final padrão e a transição de estado do documento para seus documentos.
 
-**Gerenciamento de tradução e suporte de localização líderes do setor**
+**O melhor suporte de gerenciamento e localização para tradução do setor**
 Obtenha economias significativas no tempo e nos custos de tradução e garanta que o conteúdo publicado não contenha erros de tradução.
 
 O Adobe Experience Manager vem com conectores integrados para os principais provedores de tradução. Aproveite esses conectores para gerenciar conteúdo específico do local. Aproveite ao máximo os relatórios de tradução prontos para uso detalhados para identificar o conteúdo não traduzido antes da publicação e tomar as ações corretivas adequadas. Você pode gerenciar o status do conteúdo traduzido em relação às atualizações do idioma principal para realizar a tradução somente para os arquivos DITA atualizados. A identificação manual e demorada dos arquivos a serem enviados para tradução não é necessária.
 
-**A melhor publicação multicanal da classe de conteúdo DITA**
+**A melhor publicação multicanal da categoria de conteúdo DITA**
 Simplifique a publicação de conteúdo corporativo com uma abordagem contínua de um toque que acelera o tempo de entrada no mercado.
 
 Com o suporte ao DITA nativo adicionado ao Experience Manager, gere saída para Experience Manager Sites, PDF, HTML5, EPUBS ou saída personalizada por meio do DITA-OT. Você pode aproveitar a saída totalmente configurável para fornecer experiências de conteúdo altamente personalizadas, relevantes e imersivas para os usuários finais. Você também pode facilmente executar a geração de lotes ou usar a Linha de base para publicar uma versão específica da documentação.
@@ -57,10 +73,10 @@ Libere a publicação de erros verificando e corrigindo facilmente o conteúdo a
 **Suporte extensivo ao gerenciamento de marcas para saída personalizada**\
 Impulsionar maior engajamento do usuário final e adoção de conteúdo por meio de experiências de conteúdo altamente relevantes. Com o Experience Manager Guides, você pode aproveitar o amplo suporte ao gerenciamento de tags na Experience Manager para aplicar tags relevantes ao conteúdo de origem DITA. Use essas tags para fornecer experiências de conteúdo altamente personalizadas para os usuários finais.
 
-**Ajuda inteligente fornecida pela GenAI e criação**
+**Ajuda inteligente e criação avançadas do GenAI**
 Aumente a produtividade com os recursos de ajuda inteligente alimentados por IA e reutilização de conteúdo do Experience Manager Guides. Use a ajuda inteligente baseada em GenAI para encontrar rapidamente conteúdo relevante na documentação do Experience Manager Guides. Use sugestões inteligentes para reutilizar o conteúdo do repositório de conteúdo existente ou aumentar a produtividade com recursos de aprimoramento de conteúdo, como converter um parágrafo de forma inteligente em uma lista, criar uma breve descrição, melhorar e traduzir o conteúdo selecionado.
 
-**Aproveite a integração nativa com o Adobe Workfront para obter recursos avançados de gerenciamento de trabalho**
+**Aproveite a integração nativa com o Adobe Workfront para obter recursos robustos de gerenciamento de trabalho**
 Libere os recursos robustos de gerenciamento de projetos do Experience Manager Guides, que permitem planejar, alocar e rastrear tarefas com eficiência sem depender de várias ferramentas não integradas. Gerencie com facilidade todos os fluxos de trabalho do Experience Manager Guides, inclusive criação, revisão, publicação e tradução de conteúdo de uma interface. Experimente o gerenciamento simplificado de projetos e desbloqueie novos níveis de eficiência e produtividade.
 
 **Integração nativa com o Adobe FrameMaker**
@@ -72,11 +88,11 @@ Usando o conector do AEM no FrameMaker, você pode gerenciar os arquivos do Fram
 
 ## Recursos adicionais
 
-Veja a seguir uma lista de outros recursos úteis do Experience Manager Guides, que estão disponíveis na página [Aprendizagem e Suporte](https://helpx.adobe.com/br/support/xml-documentation-for-experience-manager.html):
+Veja a seguir uma lista de outros recursos úteis do Experience Manager Guides, que estão disponíveis na página [Aprendizagem e Suporte](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html):
 
 * Guia do usuário
 * Guia de referência de API
 * Guia de início rápido
-* Página de arquivamento [Ajuda*](https://helpx.adobe.com/br/xml-documentation-for-experience-manager/archive.html) (acesse a documentação de versão mais antiga)
+* Página de arquivamento [Ajuda*](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) (acesse a documentação de versão mais antiga)
 
 **Tópico pai:**&#x200B;[&#x200B; Sobre o Adobe Experience Manager Guides as a Cloud Service](intro.md)

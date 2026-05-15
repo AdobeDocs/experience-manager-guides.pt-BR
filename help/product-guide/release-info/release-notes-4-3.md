@@ -4,10 +4,25 @@ description: Saiba mais sobre as correções de erros e como atualizar para as v
 exl-id: 7fb568a0-0b88-4ea0-9b79-2625336348ff
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/tpIgdm6yEWAcTHYKOXC4d3xR6yTLpVF5M9BVxquyahw
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1085'
-ht-degree: 1%
+source-wordcount: 1075
+ht-degree: 4%
 
 ---
 
@@ -46,7 +61,7 @@ Esta seção lista a matriz de compatibilidade para os aplicativos de software c
 **4.3.0 Não UUID**
 Versão 6.5 Service Pack 18, 17, 16, 15 ou 14
 
-**4.3.0 UUID**
+UUID do **4.3.0**
 Versão 6.5 Service Pack 18, 17, 16, 15 ou 14
 
 Para obter mais detalhes, consulte a seção *Requisitos técnicos* no guia Instalar e configurar o Adobe Experience Manager Guides.
@@ -77,7 +92,7 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 
 - O arquivo de tópico não está desbloqueado no Editor da Web, embora as opções Desbloquear o arquivo e Não salvar estejam selecionadas. (12558)
 - Não é possível fazer check-out de um arquivo no Editor da Web, apesar de escolher a opção NÃO para descartar as alterações antes do check-in. (12557)
-- As dicas de ferramentas para os ícones Bloquear e Desbloquear arquivo na barra de ferramentas principal no Editor da Web não são consistentes com os ícones exibidos na Exibição do repositório.(12555)
+- As dicas de ferramentas para os ícones Bloquear e Desbloquear arquivos na barra de ferramentas principal no Editor da Web não são consistentes com os ícones exibidos na Exibição do repositório.(12555)
 - A opção Cancelar check-out e Desbloquear é exibida para um arquivo no Editor da Web que ainda não foi submetido a check-out na Exibição de mapa. (12556)
 - Não é possível selecionar os ativos do PDF nos links &quot;topicref&quot; existentes. (12477).
 - Ao fazer uma mesclagem e divisão nas tabelas, o AEM Guides 4.2 gera células de tabela adicionais. (11793)
@@ -85,8 +100,8 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 - Os resultados da pesquisa são desativados no painel Localizar e substituir após abrir um arquivo pesquisado. (12142)
 - A tecla numérica &quot;8&quot; no teclado lateral não está funcionando no editor do AEM Guides. (12106)
 - Os atributos em linha/Exibição não aparecem na exibição de layout do Editor da Web. (12498)
-- A configuração da interface do usuário do perfil global não corresponde ao Perfil da pasta. (1970)
-- As referências de conteúdo são quebradas quando os arquivos DITA são copiados e colados. (1959)
+- A configuração da interface do usuário do perfil global não corresponde ao Perfil da pasta. (11970)
+- As referências de conteúdo são quebradas quando os arquivos DITA são copiados e colados. (11959)
 - Não é possível editar o fragmento de conteúdo na exibição de coluna com o AEM Guides instalado. (7342)
 - O conteúdo é perdido quando uma refex não encapsulada está sob tags de um subelemento. (12532)
 - O fluxo de trabalho de aprovação não funciona quando o docstate é alterado para &quot;estado final&quot; nas propriedades File do painel direito. (11026)
@@ -102,7 +117,7 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 ### Gerenciamento
 
 - O campo &quot;title&quot; nas propriedades de metadados do mapa DITA é substituído pelo elemento `<title>` para o mapa. (10702)
-- Ao tentar abrir ou atualizar a versão dos tópicos na linha de base, o carregador &quot;Buscando informações do servidor&quot; é executado indefinidamente.(12478)
+- Ao tentar abrir ou atualizar a versão de tópicos na linha de base, o carregador &quot;Buscando informações do servidor&quot; é executado indefinidamente.(12478)
 
 
 ### Revisar
@@ -116,11 +131,11 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 - PDF nativo | Os metadados de idioma não podem ser definidos no PDF gerado para estar em conformidade com a WCAG 2.0. (12407)
 - A publicação no site do AEM falha ao ler arquivos temporários do pod que podem ter sido atualizados ou reiniciados. (12113)
 - PDF nativo | Os atributos personalizados não são propagados para o mecanismo temporário do HTML ou PDF. (DXML-12005)
-- PDF nativo |  Java OutOfMemoryError ocorre ao publicar conteúdo grande. (11789)
+- PDF nativo | Java OutOfMemoryError ocorre ao publicar conteúdo grande. (11789)
 - PDF nativo | Xref está imprimindo o conteúdo do título do tópico href em vez do rótulo Xref. (11322)
 - PDF nativo | Não é possível salvar as configurações do modelo do PDF. (10751)
-- PDF nativo | O texto se estende além da largura da coluna ao incluir várias xrefs. (10876)
-- PDF nativo | O elemento `<note>` `</note>` não gera um título de extensão extra de seu tipo. (10549)
+- PDF nativo | O texto se estende além da largura da coluna ao incluir vários xrefs. (10876)
+- PDF nativo O elemento | `<note>` `</note>` não gera um título de extensão extra de seu tipo. (10549)
 - Saída JSON | A propriedade `fmUuid` no nó jcr:content do JSON é diferente da &quot;id&quot; dentro do JSON. (11564)
 - Saída JSON | Se o mapa e o tópico com o mesmo nome de arquivo estiverem presentes, o JSON do mapa será removido. (11524)
 

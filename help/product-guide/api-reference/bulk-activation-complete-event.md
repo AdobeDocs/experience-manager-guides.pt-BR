@@ -5,16 +5,22 @@ feature: Bulk Activation Event Handler
 role: Developer
 level: Experienced
 exl-id: 08b153d7-3d13-4804-9e3e-38790dbea1f3
-source-git-commit: 9b8971bf7065a94a2e42669094249c822c555718
+TQID: https://experienceleague.adobe.com/M8Q8A8auCkKjmoilHsUfU2ztNSCxOWstwPC1bMLmvD0
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: 185
 ht-degree: 6%
 
 ---
 
 # Manipulador de eventos de ativação em massa concluída
 
-O Experience Manager Guides expõe o evento `com/adobe/fmdita/replication/complete` usado para executar qualquer operação após a conclusão de um processo de ativação em massa. Esse evento é acionado sempre que um processo de ativação em massa é concluído. Por exemplo, se você executar a ativação em massa de uma predefinição de site AEM de um mapa, esse evento será chamado após o término do processo de ativação.
+O Experience Manager Guides expõe o evento `com/adobe/fmdita/replication/complete` usado para executar qualquer operação após a conclusão de um processo de ativação em massa. Esse evento é acionado sempre que um processo de ativação em massa é concluído. Por exemplo, se você executar a ativação em massa de uma predefinição de site do AEM de um mapa, esse evento será chamado após o término do processo de ativação.
 
 É necessário criar um manipulador de eventos do AEM para ler as propriedades disponíveis nesse evento e executar processamento adicional.
 

@@ -4,9 +4,21 @@ description: Saiba como usar variáveis para definir as opções Caminho de dest
 exl-id: 3396c971-6332-45b5-b2ef-b07f0abf97f7
 feature: Publishing
 role: User
-source-git-commit: 358d38ca761661eaee7aeac2cc7d46c53105c543
+TQID: https://experienceleague.adobe.com/JiQKZ28KLI-TI5cqYdpKLyW79uOzlR2VV3zqZPFoVWc
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2:
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: 399
 ht-degree: 0%
 
 ---
@@ -25,7 +37,7 @@ A tabela a seguir lista as variáveis compatíveis prontas para uso:
 | `${preset_name}` | Usa o nome da predefinição de saída para criar o caminho de destino. | **Nome da Predefinição de Saída**:<br>`AEM Guides PDF Output`<br><br>**Nome do arquivo de mapa DITA**:<br>`SampleDita.ditamap`<br><br>**Caminho de Destino** configurado como:<br>`/content/output/sites/${preset_name}`<br><br>**Local de saída final**:<br>`/content/output/sites/AEM Guides PDF Output/SampleDita.html` |
 | `${language_code}` | Usa o código do idioma em que o arquivo de mapa está localizado para criar o caminho de destino. | **Nome do arquivo de mapa DITA**:<br>`SampleDita.ditamap`<br><br>**Caminho do arquivo de mapa DITA**:<br>`/content/dam/projects/AEM-Guides/en/user-guide/`<br><br>**Caminho de Destino** configurado como:<br>`/content/output/sites/${language_code}`<br><br>**Local de saída final**:<br>`/content/output/sites/en/SampleDita.html` |
 | `${map_parentpath}` | Usa o caminho completo do arquivo de mapa para criar o caminho de destino.A variável <br><br>**Nota**:This não pode ser usada para especificar o Nome de Site do AEM ou o Nome de Arquivo do PDF. | **Nome do arquivo de mapa DITA**:<br>`SampleDita.ditamap`<br><br>**Caminho do arquivo de mapa DITA**:<br>`/content/dam/projects/AEM-Guides/en/user-guide`/<br><br>**Caminho de Destino** configurado como:<br>`/content/output/sites/${map_parentpath}`<br><br>**Local de saída final**:<br>`/content/output/sites/content/dam/projects/AEM-Guides/en/user-guide/SampleDita.html` |
-| `${path_after_langfolder}` | Usa o caminho do arquivo de mapa após a pasta de idioma para criar o caminho de destino.<br><br>**Observação**: esta variável não pode ser usada para especificar o Nome de Site do AEM ou o Nome de Arquivo do PDF. | **Nome do arquivo de mapa DITA**:<br>`SampleDita.ditamap`<br><br>**Caminho do arquivo de mapa DITA**:<br>`/content/dam/projects/AEM-Guides/en/user-guide/`<br><br>**Caminho de Destino** configurado como:<br>`/content/output/sites/${path\_after\_langfolder}`<br><br>**Local de saída final**:<br>`/content/output/sites/user-guide/SampleDita.html` |
+| `${path_after_langfolder}` | Usa o caminho do arquivo de mapa após a pasta de idioma para criar o caminho de destino.<br><br>**Observação**: esta variável não pode ser usada para especificar o Nome do Site do AEM ou o Nome do Arquivo do PDF. | **Nome do arquivo de mapa DITA**:<br>`SampleDita.ditamap`<br><br>**Caminho do arquivo de mapa DITA**:<br>`/content/dam/projects/AEM-Guides/en/user-guide/`<br><br>**Caminho de Destino** configurado como:<br>`/content/output/sites/${path\_after\_langfolder}`<br><br>**Local de saída final**:<br>`/content/output/sites/user-guide/SampleDita.html` |
 | `${system_date}` | Usa a data atual do servidor para criar o caminho de destino. | **Nome do arquivo de mapa DITA**: <br> `SampleDita.ditamap` <br><br> **Caminho do arquivo de mapa DITA:** <br> `/content/dam/projects/AEM-Guides/en/user-guide/` <br><br> **Caminho de Destino** configurado como: <br> `/content/output/sites/${system_date}` <br> <br> **Local de saída final:** <br> /`content/output/sites/08252023/SampleDita.html` |
 | `${system_time}` | Usa a hora atual do servidor para criar o caminho de destino. | **Nome do arquivo de mapa DITA:** <br>`SampleDita.ditamap` <br> <br> **Caminho do arquivo de mapa DITA:** <br>`/content/dam/projects/AEM-Guides/en/user-guide/` <br><Br>**Caminho de Destino** configurado como: <br> `/content/output/sites/${system_time}`<br><br>**Local de saída final:**<br>`/content/output/sites/055612/SampleDita.html` |
 

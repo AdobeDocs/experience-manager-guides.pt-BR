@@ -2,10 +2,27 @@
 title: Novos recursos de UX e IA no AEM Guides
 description: Descubra como a experiência do usuário e os assistentes de IA reprojetados no AEM Guides otimizam a criação, melhoram a navegação e adicionam inteligência em tempo real aos seus fluxos de trabalho de conteúdo.
 exl-id: 26daaae5-1f10-42bf-91b5-93cdb6df6625
-source-git-commit: 1b41b2eb7e917c389c6f15ff73037f89353e8269
+TQID: https://experienceleague.adobe.com/TAhZh5BFgI-0Lh8DqGJnGUEA6-7yEAgDURA3WNxPcyk
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: ac5ecfc1-cc78-4ecc-a90a-0362685062ce
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: bf7fca06-df97-4229-884f-76afcfade5ad
+  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 1%
+source-wordcount: 338
+ht-degree: 0%
 
 ---
 
@@ -38,11 +55,11 @@ Nesta sessão, abordamos:
 
 ## Recursos relacionados
 
-- [Nova experiência de página inicial](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using/user-guide/home-page/intro-home-page)
+- [Nova experiência de página inicial](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/home-page/intro-home-page)
 
-- [Recursos de IA no AEM Guides](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using/user-guide/ai-assistant-aem/ai-assistant)
+- [Recursos de IA no AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/ai-assistant-aem/ai-assistant)
 
-- [Configurar o Assistente de IA](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-smart-suggestions)
+- [Configurar o assistente de IA](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-smart-suggestions)
 
 
 

@@ -2,9 +2,20 @@
 title: Ícone de configuração para tipos personalizados
 description: Saiba como definir ícones para tipos de listas personalizadas para mostrar seus ícones em diferentes interfaces do usuário no AEM
 exl-id: 5a259ea0-3b5f-4c6e-b488-1586767aa991
-source-git-commit: 7355f48ba8ad0ac15c54be183d9aa91bb88724e8
+TQID: https://experienceleague.adobe.com/OFZePwGXAKS5XhsNcrCqOya-bgEHmtO4yl1IciNUxdQ
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: 496
 ht-degree: 0%
 
 ---
@@ -29,14 +40,14 @@ Podemos implementar as etapas acima para mostrar o ícone no editor da Web (exib
 
 ## Mostrando ícone de tópico/mapa personalizado na exibição do editor da Web
 
-_Etapa 1:_ Determine o tipo dita para o tópico/ap dita personalizado
+_Etapa 1 :_Determine o tipo dita para o tópico/ap dita personalizado
 - Abra a visualização de repositório no editor da web > abra o console do desenvolvedor no navegador
-- Inspect o espaço de ícones ao lado do tópico/mapa listado
+- Inspecionar o espaço do ícone ao lado do tópico/mapa listado
 - Verifique a classe atribuída ao tópico personalizado
 - Veja a captura de tela abaixo para obter mais detalhes ![Veja a captura de tela](../assets/authoring/custom-ditatype-icon-knowditatype.png)
 - Usaremos esta classe para atribuir ícone e escrever css para isto
 
-_Etapa 2:_ criar css e atribuir um ícone a este tipo dita
+_Etapa 2 :_Criar css e atribuir ícone a este tipo dita
 - Crie uma biblioteca do cliente em /apps, digamos que você crie um cq:ClientLibraryFolder no caminho desejado
    - adicione categorias &quot;apps.fmdita.xml_editor.page&quot; a ela
 - crie uma pasta &quot;assets&quot; neste diretório e adicione todos os ícones que deseja usar para tipos dita personalizados
@@ -66,10 +77,10 @@ E a saída final é mostrada abaixo da captura de tela
 
 ## Exibição do ícone de tópico/mapa personalizado na interface do usuário do Assets
 
-_Etapa 1:_ determinando o tipo dita do tópico/mapa dita personalizado
+_Etapa 1 :_determinando o tipo dita do tópico/mapa dita personalizado
 - isso é explicado na Etapa 1 dos métodos anteriores
 
-_Etapa 2:_ Crie Javacscript para definir quais ícones serão carregados para o tipo dita personalizado para tipos de tópico/mapa personalizados
+_Etapa 2 :_Crie Javacscript para definir quais ícones serão carregados para o tipo dita personalizado para tipos de tópico/mapa personalizados
 - Crie uma biblioteca do cliente em /apps, digamos que você crie um cq:ClientLibraryFolder no caminho desejado
    - adicione as seguintes propriedades a ele:
       - valor &quot;categories&quot;(cadeia de caracteres multivalor) como &quot;dam.gui.admin.coral&quot;

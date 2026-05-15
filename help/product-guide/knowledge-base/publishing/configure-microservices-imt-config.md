@@ -4,9 +4,21 @@ description: Saiba como configurar a publicação baseada em microsserviços com
 feature: Microservice in AEM Guides
 role: Admin
 exl-id: db0c83c7-1ece-4010-b214-f8d806d26bc9
-source-git-commit: c51a372dc44921a489219f5ac99e3ad180ccc91d
+TQID: https://experienceleague.adobe.com/iAlQIB0z2bxI-BaOXp62M6YJjzS-RzGfJaJbl8BWNUc
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: d6596f3f-92a7-43ec-b444-237db6adad05
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: 850
 ht-degree: 0%
 
 ---
@@ -15,13 +27,13 @@ ht-degree: 0%
 
 O microsserviço de publicação permite executar grandes cargas de trabalho de publicação simultaneamente no Experience Manager Guides as a Cloud Service e aproveitar a plataforma Adobe I/O Runtime sem servidor, líder do setor.
 
-Para cada solicitação de publicação, o Experience Manager Guides as a Cloud Service um contêiner separado que é dimensionado horizontalmente de acordo com as solicitações do usuário. Dessa forma, você pode executar várias solicitações de publicação e obter um desempenho melhor do que seus grandes servidores locais do Adobe Experience Manager.
+Para cada solicitação de publicação, o Experience Manager Guides as a Cloud Service executa um contêiner separado que é dimensionado horizontalmente de acordo com as solicitações do usuário. Dessa forma, você pode executar várias solicitações de publicação e obter um desempenho melhor do que seus grandes servidores locais do Adobe Experience Manager.
 
 >[!NOTE]
 >
-> A publicação com base em microsserviços no Experience Manager Guides é compatível com os tipos de predefinições de saída PDF (baseado em DITA e nativo), HTML5, JSON e CUSTOM.
+> A publicação com base em microsserviços no Experience Manager Guides é compatível com os tipos de predefinições de saída PDF (baseados em DITA e nativo), HTML5, JSON e CUSTOM.
 
-Como o serviço de publicação na nuvem é protegido pela autenticação baseada em OAuth do Adobe IMS, execute as seguintes etapas para integrar seus ambientes com fluxos de trabalho de autenticação baseados em token seguro do Adobe e comece a usar a solução de publicação escalável baseada em nuvem.
+Como o serviço de publicação na nuvem é protegido pela autenticação baseada em OAuth do Adobe IMS, execute as seguintes etapas para integrar seus ambientes aos fluxos de trabalho de autenticação baseados em token seguro da Adobe e comece a usar a solução de publicação escalável baseada em nuvem.
 
 
 ## Criar configurações do IMS no Adobe Developer Console
@@ -86,13 +98,13 @@ Você configurou os detalhes de autenticação do OAuth e baixou os detalhes do 
 >
 >Se você já tiver criado um projeto OAuth para sugestões inteligentes, poderá reutilizar o mesmo projeto para microsserviços e ignorar as etapas a seguir para adicionar a configuração do IMS ao ambiente.
 
-### Atualizar configuração existente (JWT)   para OAuth shift )
+### Atualizar configuração existente (JWT para OAuth shift )
 
 Se você já estiver usando um microsserviço para publicar usando o JWT (obsoleto), execute as seguintes etapas para atualizar as configurações:
 
 
 
-1. Abra **Experience Manager** e selecione o programa que contém o ambiente que você deseja configurar.
+1. Abra o **Experience Manager** e selecione o programa que contém o ambiente que você deseja configurar.
 1. Alterne para a guia **Ambientes**.
 1. Selecione o nome do ambiente que deseja configurar. Você deve ir para a página **Informações sobre o ambiente**.
 1. Alterne para a guia **Configuração**.
@@ -109,7 +121,7 @@ Se você já estiver usando um microsserviço para publicar usando o JWT (obsole
 ### Primeira configuração
 
 Para usar um microsserviço de publicação pela primeira vez, atualize as configurações de acordo com as seguintes etapas:
-1. Abra **Experience Manager** e selecione o programa que contém o ambiente que você deseja configurar.
+1. Abra o **Experience Manager** e selecione o programa que contém o ambiente que você deseja configurar.
 1. Alterne para a guia **Ambientes**.
 1. Selecione o nome do ambiente que deseja configurar. Você deve ir para a página **Informações sobre o ambiente**.
 1. Alterne para a guia **Configuração**.
@@ -143,7 +155,7 @@ Depois disso, você poderá usar a publicação na nuvem com base em microsservi
 ## Perguntas frequentes
 
 
-1. Se as configurações de OSGi para usar o microsserviço estiverem ativadas, o processo de publicação funcionará no servidor de Experience Manager local com a mesma base de código?
+1. Se as configurações de OSGi para usar o microsserviço estiverem habilitadas, o processo de publicação funcionará no servidor Experience Manager local com a mesma base de código?
    * Não, se o sinalizador `dxml.use.publish.microservice` estiver definido como `true`, ele sempre procurará configurações de microsserviço. Defina `dxml.use.publish.microservice` como `false` para que a publicação funcione em seu servidor local.
 1. Quanta memória é alocada para o processo DITA ao usar a publicação baseada em microsserviços? Isso é orientado pelo perfil e pelos parâmetros DITA?
    * Com a publicação baseada em microsserviços, a alocação de memória não é orientada pelo perfil e pelos parâmetros DITA. A memória total disponível no container de serviço é de 8 GB, dos quais 6 GB são alocados para o processo DITA-OT.
@@ -166,7 +178,7 @@ Depois disso, você poderá usar a publicação na nuvem com base em microsservi
 
 **Conteúdo**:
 * `dxml.use.publish.microservice`: Alternar para habilitar a publicação baseada em microsserviço usando DITA-OT
-* `dxml.use.publish.microservice.native.pdf`: Alternar para habilitar a publicação de PDF nativo baseado em microsserviços
+* `dxml.use.publish.microservice.native.pdf`: Alternar para habilitar a publicação PDF Nativa baseada em microsserviços
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>

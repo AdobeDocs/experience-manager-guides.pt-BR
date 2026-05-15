@@ -2,10 +2,24 @@
 title: Notas de versão | Correção de problemas na versão 2025.04.0 do Adobe Experience Manager Guides
 description: Saiba mais sobre as correções de erros na versão 2025.04.0 do Adobe Experience Manager Guides as a Cloud Service.
 exl-id: ad3e95b5-4903-4387-8e4d-c4b9ba77fee2
-source-git-commit: 70078864379eedd82ae21da70614055c60f0b114
+TQID: https://experienceleague.adobe.com/v7tg4-eP4JVt9bR0S4Ld4lWb0YbdlT-uJc7PrXPT4Wg
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 0%
+source-wordcount: 764
+ht-degree: 3%
 
 ---
 
@@ -17,7 +31,7 @@ Para obter mais informações sobre os novos recursos e aprimoramentos, consulte
 
 Saiba mais sobre [as instruções de atualização para a versão 2025.04.0](upgrade-instructions-2025-04-0.md).
 
-## Criação  
+## Criação
 
 - A caixa de inserção de caracteres especiais no Editor não é carregada para o locale alemão. (24537)
 - Comentários e rótulos adicionados ao salvar uma nova versão de um arquivo DITAVAL não são salvos no Histórico de versões com a nova versão. (24076)
@@ -61,10 +75,10 @@ A Adobe identificou os seguintes problemas conhecidos para a versão 2025.04.0:
 - Uma linha vazia é inserida automaticamente ao colar o novo conteúdo em uma nova linha em um elemento `codeblock`.(27842)
 - Alternar entre predefinições que usam a mesma Linha de Base desativa o botão **Salvar** para a predefinição atual. (28025)
 - Um tópico em um mapa DITA não é publicado na saída do AEM Sites quando está sendo usado como `keydef` e `topicref` em seus submapas. (22269)
-- Um erro de aplicativo ocorre quando vários tópicos de um mapa são editados e fechados usando a opção **Fechar tudo**, com a configuração **Perguntar ao salvar versão ao fechar** habilitada.(27931)
+- Ocorre um erro de aplicativo quando vários tópicos de um mapa são editados e fechados com a opção **Fechar tudo**, com a configuração **Perguntar ao salvar versão ao fechar** habilitada.(27931)
 
 A Adobe identificou o seguinte problema conhecido com uma solução alternativa:
 
-+++Na saída do AEM Sites, as imagens são interrompidas quando a Linha de base não é aplicada durante a publicação. (28043)
++++Na saída do AEM Sites, as imagens são quebradas quando a Linha de base não é aplicada durante a publicação. (28043)
 ***Solução alternativa:*** você pode publicar esses ativos na **Interface do usuário do Assets**, postar onde o link se tornará operacional.
 +++

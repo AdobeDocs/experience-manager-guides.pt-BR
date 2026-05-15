@@ -4,10 +4,26 @@ description: Saiba mais sobre as correções de erros e como atualizar para as v
 exl-id: a75ec83f-564b-4243-b5c5-341049521adb
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/nuIWAZRdaGgE-lpjfhk2ptAOeglH8cVhxKZMVPcncYY
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '876'
-ht-degree: 1%
+source-wordcount: 874
+ht-degree: 5%
 
 ---
 
@@ -72,7 +88,7 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 ### Criação
 
 * Navtitle é removido do conteúdo ao alternar da exibição de layout para a exibição de autor ou fonte. (12174)
-* O botão Fechar no Editor da Web não abre a página Navegação do AEM. (1948)
+* O botão Fechar no Editor da Web não abre a página Navegação do AEM. (11948)
 * Às vezes, ocorre um erro no aplicativo ao clicar em um mapa DITA. (11842)
 * Ocorre um problema ao mover (arrastar e soltar) no lugar de um item de lista existente com o Controle de alterações ativado. (11570)
 * Ocorre um problema ao mover (arrastar e soltar) como um novo item de lista com a opção Controlar alterações ativada. (11569)
@@ -81,8 +97,8 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 * Dificuldade em arrastar e soltar um item de lista, o texto é movido no lugar do item de lista. (11566)
 * Ao criar no elemento exibido em verde (Controlar alterações), o novo conteúdo é exibido como rastrear alteração mesmo que a opção rastrear alteração esteja desativada. (7021)
 * O navegador (Editor da Web) congela ao carregar conteúdo com um esquema personalizado. (11211)
-* PDF nativo | Ao criar uma predefinição de saída com a opção &quot;Adicionar ao perfil de pasta&quot;, a geração de PDF falha com uma exceção de ponteiro nulo. (10950)
-* PDF nativo | A tag de imagem adiciona o atributo display-inline a todas as imagens. (10653)
+* PDF nativo | Ao criar uma predefinição de saída com a opção &quot;Adicionar ao perfil da pasta&quot;, a geração do PDF falha com uma exceção de ponteiro nulo. (10950)
+* PDF nativo | Marca de imagem adiciona o atributo display-inline a todas as imagens. (10653)
 * A inserção de arquivos multimídia de áudio e vídeo falha no formato YouTube sob o ícone **Inserir multimídia**. (11320)
 * O erro de validação ocorre quando um mapa é criado usando o modelo que tem um elemento de título especializado. (11212)
 * Editor da Web | O espaço sem quebra é adicionado no Editor de XML ao editar um tópico. (11786)
@@ -96,8 +112,8 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 
 ### Publicação
 
-* PDF nativo | A publicação de conteúdo que tem uma classe de saída com colchetes() leva a um congelamento da publicação. (1936)
-* Saída JSON | Mapear metadados com o valor de propriedade como `"value in spaces and double quotes"` leva a um erro de publicação. (1933)
+* PDF nativo | A publicação de conteúdo que tem uma classe de saída com colchetes() resulta em um congelamento da publicação. (11936)
+* Saída JSON | Mapear metadados com o valor de propriedade como `"value in spaces and double quotes"` leva a um erro de publicação. (11933)
 * Problema ocorre na pesquisa do site do AEM (não funciona além de nós de nível 2-3). (11352)
 * Editor da Web | O caminho de saída e o modelo não podem ser selecionados na Predefinição do AEM. (11530)
 * Ao atualizar da versão 4.1.x para a 4.2, o mecanismo Native PDF não funciona e lança NullPointerException mesmo para o sistema operacional compatível.(11526)
@@ -105,7 +121,7 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 * PDF nativo | Comentários de rascunho são ocultos por padrão na saída gerada. (10560)
 * PDF nativo | navtitle não é homenageado por topichead. (10509)
 * PDF nativo | Adicionar `xref` a uma imagem não renderiza a imagem no PDF gerado. (11346)
-* PDF nativo | a nota de rodapé presente no cabeçalho da tabela leva a negrito e texto alinhado ao centro no rodapé da página correspondente na saída do PDF. (10610)
+* PDF nativo | a nota de rodapé presente no cabeçalho da tabela resulta em texto em negrito e alinhado ao centro no rodapé da página correspondente na saída do PDF. (10610)
 
 ### Tradução
 

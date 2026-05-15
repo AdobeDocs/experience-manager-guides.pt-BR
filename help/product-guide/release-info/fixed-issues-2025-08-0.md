@@ -1,9 +1,21 @@
 ---
 title: Notas de versão | Correção de problemas na versão 2025.08.0 do Adobe Experience Manager Guides
 description: Saiba mais sobre as correções de erros na versão 2025.08.0 do Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 5abe5c153d8cedc7b555d6ca82709557cc38d28f
+exl-id: 05fe0e2c-ec65-4aec-a543-9b9a75c82f2c
+TQID: https://experienceleague.adobe.com/7J25vfpTwwPyT3-qNF6-LLbPra8EePs5XaKqkAjEk5I
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: 713
 ht-degree: 0%
 
 ---
@@ -57,6 +69,3 @@ A Adobe identificou os seguintes problemas conhecidos para a versão 2025.08.0:
 - Quando um arquivo aberto no Editor é renomeado ou movido, alternar entre os modos (como **Autor**, **Visualização** e outros) atualiza o conteúdo na área de edição, mas não realça visualmente o modo ativo no canto inferior direito. (GUIDES-32719) <br> **Solução alternativa**: atualize a página para resolver o problema.
 - Imagens com espaços em nomes de arquivo não são exibidas na saída quando sinalizadas usando atributos condicionais. (GUIDES-33858)
 - No painel **Propriedades de conteúdo**, o campo Atributos é fechado automaticamente quando você tenta atualizar uma referência da caixa de diálogo **Atualizar link**, impedindo a atualização do link. (GUIDES-17767)
-
-
-

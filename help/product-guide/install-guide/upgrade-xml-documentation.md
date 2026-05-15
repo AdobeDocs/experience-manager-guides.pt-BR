@@ -5,9 +5,26 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+TQID: https://experienceleague.adobe.com/ga5xY7Qjubm-GcHwxt6QWbLU5MZ-VXTD3ML2pHFBOIE
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+  - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2:
+  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+  - id: cdab8659-8d50-4417-b6fd-762f347c13ee
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '9267'
+source-wordcount: 9267
 ht-degree: 1%
 
 ---
@@ -26,7 +43,7 @@ Você pode atualizar sua versão atual do Experience Manager Guides para a vers�
 - Se você estiver usando a versão 4.3.x, 4.2, 4.2.1 (Hotfix 4.2.1.3), 4.1 ou 4.1.x, será necessário atualizar para a versão 4.4 antes de atualizar para a versão 5.0.0.
 - Se você estiver usando a versão 4.0, será necessário atualizar para a versão 4.2 antes de atualizar para a versão 4.3.x.
 - Se você estiver usando a versão 3.8.5, será necessário atualizar para a versão 4.0 antes de atualizar para a versão 4.2.
-- Se você estiver usando uma versão anterior à 3.8.5, consulte a seção Atualizar Experience Manager Guides no guia de instalação específico do produto, disponível no [arquivo PDF de ajuda do Adobe Experience Manager Guides](https://helpx.adobe.com/br/xml-documentation-for-experience-manager/archive.html).
+- Se você estiver usando uma versão anterior à 3.8.5, consulte a seção Atualizar Experience Manager Guides no guia de instalação específico do produto, disponível no [arquivo PDF de ajuda do Adobe Experience Manager Guides](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 
 >[!NOTE]
@@ -59,7 +76,7 @@ Antes de executar o processo, há determinadas tarefas que você deve concluir. 
 
 >[!NOTE]
 >
-> Este processo de atualização é aplicável somente da versão 3.8.5 para a versão 4.0. Para o processo de atualização da versão 3.4 ou superior para a 3.8.5, consulte a seção *Atualizar Experience Manager Guides* no guia de instalação específico do produto, disponível em [arquivo PDF de ajuda do Adobe Experience Manager Guides](https://helpx.adobe.com/br/xml-documentation-for-experience-manager/archive.html).
+> Este processo de atualização é aplicável somente da versão 3.8.5 para a versão 4.0. Para o processo de atualização da versão 3.4 ou superior para a 3.8.5, consulte a seção *Atualizar Experience Manager Guides* no guia de instalação específico do produto, disponível em [arquivo PDF de ajuda do Adobe Experience Manager Guides](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 
 
@@ -1299,7 +1316,7 @@ Durante esta atualização, como o valor de `'order'` é alterado de 1000 para 5
 
 ## Etapas para reindexar o damAssetLucene
 
-A definição do índice é atualizada para damAssetLucene com Guias. Consulte [este artigo](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-kcs/kbarticles/ka-16460) para reindexar o damAssetLucene depois de atualizar para a versão 5.0.0.
+A definição do índice é atualizada para damAssetLucene com Guias. Consulte [este artigo](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) para reindexar o damAssetLucene depois de atualizar para a versão 5.0.0.
 
 >[!NOTE]
 >
@@ -1466,7 +1483,7 @@ Durante esta atualização, como o valor de `'order'` é alterado de 1000 para 5
 
 ## Etapas para reindexar o damAssetLucene
 
-A definição do índice é atualizada para damAssetLucene com Guias. Consulte [este artigo](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-kcs/kbarticles/ka-16460) para reindexar o damAssetLucene depois de atualizar para a versão 5.1.0.
+A definição do índice é atualizada para damAssetLucene com Guias. Consulte [este artigo](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) para reindexar o damAssetLucene depois de atualizar para a versão 5.1.0.
 
 >[!NOTE]
 >

@@ -5,9 +5,23 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: ef7ab117-7541-4e89-9ba4-22254a17efc0
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/ri2JBIGaro4dVmRbzq1KfOjt4DghBghn6hQ2-dbZ42E
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1521'
+source-wordcount: 1559
 ht-degree: 0%
 
 ---
@@ -53,11 +67,11 @@ Implemente as seguintes funções importantes:
 |---|---|---|
 | getLogoUrl |  | <ul><li> Esse método retorna o URL usado como o logotipo do conector. <li> Por padrão, retorna uma string vazia, indicando que nenhum URL de logotipo é fornecido, a menos que seja substituído. <br><b> Observações Adicionais</b>: <br> <ul><li> Se você fornecer um URL de logotipo e um nome de classe de logotipo, o URL do logotipo será usado para exibi-lo na interface do usuário. <li> Se você especificar o URL do logotipo por meio das definições de configuração, ele substituirá o URL definido na implementação do método. |
 | validateConnection | Sim | <ul><li> Use esse método para validar se o conector pode estabelecer uma conexão com sua fonte de dados. <li> Usa um objeto `ConfigDto` como parâmetro, que contém as definições de configuração, como credenciais de conexão e URLs de ponto de extremidade. <li> O método retornará true se a validação (teste de conexão) for bem-sucedida, indicando que o conector pode se conectar à sua fonte de dados. |
-| executar | sim | <ul><li>Use esse método para executar uma única consulta para o conector, interagindo com uma fonte de dados. <li> Os conectores que oferecem suporte a essa operação lidam com a execução da consulta, analisam a resposta e a convertem em uma cadeia de caracteres JSON, se necessário. <li> Encapsule a consulta a ser executada neste método em um objeto `QueryInfoDto`, que contém detalhes como a cadeia de caracteres de consulta e parâmetros. <li> O método retorna uma string JSON que representa a resposta da execução da consulta. <br><b> Notas adicionais</b>: <li>As implementações desse método variam dependendo do conector específico e de sua interação com a fonte de dados. <li> Use o `KonnectException` para manipular quaisquer exceções ou erros que ocorram durante a execução ou conexão com a fonte de dados. |
-| executeWithLimit | sim | <ul><li> Use este método para a mesma finalidade de `execute()`, mas com a funcionalidade adicional de aplicar uma consulta de limitação, normalmente para mostrar as visualizações nos componentes da interface do usuário. <li> Os conectores que oferecem suporte a essa operação lidam com a execução da consulta, analisam a resposta e a convertem em uma cadeia de caracteres JSON, se necessário. <li> Encapsule a consulta a ser executada neste método em um objeto `QueryInfoDto`, semelhante ao método anterior. <br><b> Notas adicionais</b>: <ul><li> `QueryResultDto` é uma classe personalizada ou objeto de transferência de dados que encapsula o resultado da execução da consulta, incluindo metadados sobre a consulta e seu status de execução. |
-| getSampleQuery | | <ul><li>Esse método retorna uma amostra da sequência de consulta que pode ser exibida na interface, por exemplo, na caixa de diálogo em que os usuários podem inserir ou editar consultas. <li>Por padrão, retorna uma string vazia, indicando que nenhuma consulta de exemplo é fornecida, a menos que seja substituída. <br><b> Notas adicionais</b>: <ul> <li> Se você não definir uma consulta de exemplo e o método retornar uma string vazia, nenhuma consulta de exemplo será exibida na caixa de diálogo Inserir consulta da interface. |
+| executar | sim | <ul><li>Use esse método para executar uma única consulta para o conector, interagindo com uma fonte de dados. <li> Os conectores que oferecem suporte a essa operação lidam com a execução da consulta, analisam a resposta e a convertem em uma cadeia de caracteres JSON, se necessário. <li> Encapsule a consulta a ser executada neste método em um objeto `QueryInfoDto`, que contém detalhes como a cadeia de caracteres de consulta e parâmetros. <li> O método retorna uma string JSON que representa a resposta da execução da consulta. <br><b> Observações Adicionais</b>: <li>As implementações desse método variam dependendo do conector específico e de sua interação com a fonte de dados. <li> Use o `KonnectException` para manipular quaisquer exceções ou erros que ocorram durante a execução ou conexão com a fonte de dados. |
+| executeWithLimit | sim | <ul><li> Use este método para a mesma finalidade de `execute()`, mas com a funcionalidade adicional de aplicar uma consulta de limitação, normalmente para mostrar as visualizações nos componentes da interface do usuário. <li> Os conectores que oferecem suporte a essa operação lidam com a execução da consulta, analisam a resposta e a convertem em uma cadeia de caracteres JSON, se necessário. <li> Encapsule a consulta a ser executada neste método em um objeto `QueryInfoDto`, semelhante ao método anterior. <br><b> Observações Adicionais</b>: <ul><li> `QueryResultDto` é uma classe personalizada ou objeto de transferência de dados que encapsula o resultado da execução da consulta, incluindo metadados sobre a consulta e seu status de execução. |
+| getSampleQuery | | <ul><li>Esse método retorna uma amostra da sequência de consulta que pode ser exibida na interface, por exemplo, na caixa de diálogo em que os usuários podem inserir ou editar consultas. <li>Por padrão, retorna uma string vazia, indicando que nenhuma consulta de exemplo é fornecida, a menos que seja substituída. <br><b> Observações Adicionais</b>: <ul> <li> Se você não definir uma consulta de exemplo e o método retornar uma string vazia, nenhuma consulta de exemplo será exibida na caixa de diálogo Inserir consulta da interface. |
 | getTemplates | | <ul> <li> Esse método retorna uma lista de templates associados ao conector. <li> Por padrão, retorna uma lista vazia, indicando que nenhum template é fornecido, a menos que seja substituído. |
-| getLogoClassName | | <ul> <li> Esse método retorna o nome da classe como o logotipo do conector. Por padrão, retorna uma string vazia, indicando que nenhum nome de classe de logotipo é fornecido, a menos que seja substituído. <br><b> Notas adicionais</b>: <ul><li> Se você fornecer um URL de logotipo e um nome de classe de logotipo, o URL do logotipo será usado para exibi-lo na interface do usuário. <li> Se você especificar o nome de classe do logotipo por meio das definições de configuração, ele substituirá o nome de classe definido na implementação do método. |
+| getLogoClassName | | <ul> <li> Esse método retorna o nome da classe como o logotipo do conector. Por padrão, retorna uma string vazia, indicando que nenhum nome de classe de logotipo é fornecido, a menos que seja substituído. <br><b> Observações Adicionais</b>: <ul><li> Se você fornecer um URL de logotipo e um nome de classe de logotipo, o URL do logotipo será usado para exibi-lo na interface do usuário. <li> Se você especificar o nome de classe do logotipo por meio das definições de configuração, ele substituirá o nome de classe definido na implementação do método. |
 | habilitado | sim | <ul><li> Este método verifica se um `connector` está habilitado. <li> Por padrão, o método retorna false, o que significa que o conector não é habilitado, a menos que seja substituído por uma classe que esteja implementando esse método. |
 | getDescription | | <ul><li>Use esse método para retornar uma string de descrição que pode ser exibida na interface. <li> Por padrão, retorna uma string vazia, indicando que nenhuma descrição é fornecida, a menos que seja substituída. |
 | getAuthor | | <ul><li> Esse método fornece uma maneira de recuperar o nome do autor que criou ou é responsável pelo conector. <li> Normalmente, ajuda a identificar e reconhecer o criador ou mantenedor do conector em um sistema ou estrutura. |

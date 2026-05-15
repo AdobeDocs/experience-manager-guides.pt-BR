@@ -1,9 +1,26 @@
 ---
-title: Notas de versão | Correção de problemas na versão 5.1.0 do Adobe Experience Manager Guides
+title: Notas de versão | Problemas corrigidos no Adobe Experience Manager Guides, versão 5.1.0
 description: Saiba mais sobre as correções de erros na versão 5.1.0 do Adobe Experience Manager Guides.
-source-git-commit: 6c29d5540f48c850416db279b4392b6042c8ca2c
+exl-id: 08c35e97-10ca-4b75-892b-d95b79432158
+TQID: https://experienceleague.adobe.com/NPJCIq5JuyFf0E-Uf3GMxXmW6zxehES4f-iL9xeqEow
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+  - id: d6596f3f-92a7-43ec-b444-237db6adad05
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1789'
+source-wordcount: 1790
 ht-degree: 0%
 
 ---
@@ -82,7 +99,7 @@ Saiba mais sobre [as instruções de atualização para a versão 5.1.0](upgrade
 - Ao gerar páginas do site do AEM com títulos que incluem várias palavras separadas por espaços, o título do mapa exibe hifens em vez de espaços. (GUIDES-27903)
 - Para o PDF Nativo, um nome de propriedade de metadados inválido não está sendo resolvido e é exibido como `unresolved property name` em **propriedades do documento**. (GUIDES-25680)
 - O texto multilinha em `codeblock` causa problemas de estouro de texto durante a geração do PDF. (GUIDES-15541)
-- Ao adicionar mapas à coleção de mapas, os ativos diferentes dos mapas (curtidas, tópicos etc.) são exibidos e os idiomas do mapa traduzido também não são classificados corretamente.(GUIDES-25085)
+- Ao adicionar mapas à coleção de mapas, os ativos que não são mapas (curtidas, tópicos etc.) são exibidos e os idiomas do mapa traduzido também não são classificados corretamente.(GUIDES-25085)
 - Na saída herdada do AEM Sites, os links de seção dentro de tópicos aninhados de um mapa não são resolvidos corretamente quando definidos manualmente no modo Source ou o conteúdo é importado de uma fonte externa. Em vez de navegar até a seção desejada, eles redirecionam para o tópico principal que contém o tópico aninhado. (GUIDES-26103)
 - Se o atributo `scope=external` estiver ausente em links externos em um tópico DITA, a publicação do HTML5 falhará sem indicar os arquivos em que esse atributo está ausente nos logs de erro. (GUIDES-25969)
 - Não é possível incorporar links de vídeo no PDF Nativo, mesmo quando a opção **Incorporar Arquivos de Multimídia** está habilitada na predefinição do PDF. (GUIDES-9989)
@@ -110,6 +127,6 @@ A Adobe identificou os seguintes problemas conhecidos para a versão 5.1.0:
 - O comentário mais recente no nível da tarefa é exibido na notificação por e-mail ao iniciador da tarefa se o Revisor concluir a tarefa sem adicionar um comentário. (GUIDES-33590)
 - Na caixa de diálogo Mesclar, a lista suspensa exibe incorretamente o Conteúdo principal em vez de mostrar as versões disponíveis do tópico selecionado. (GUIDES-30820)
 - Alternar entre predefinições que usam a mesma Linha de base desativa o botão Salvar da predefinição atual. (GUIDES-28025)
-- Uma linha vazia é inserida automaticamente ao colar o novo conteúdo em uma nova linha em um elemento de bloco de código.(GUIDES-27842)
+- Uma linha vazia é inserida automaticamente ao colar o novo conteúdo em uma nova linha em um elemento codeblock.(GUIDES-27842)
 - Um tópico em um mapa DITA não é publicado na saída do AEM Sites quando está sendo usado como keydef e topicref em seus submapas. (GUIDES-22269)
 - No painel Propriedades de conteúdo, o campo Atributos é fechado automaticamente quando você tenta atualizar uma referência na caixa de diálogo Atualizar link, impedindo que o link seja atualizado. (GUIDES-17767)

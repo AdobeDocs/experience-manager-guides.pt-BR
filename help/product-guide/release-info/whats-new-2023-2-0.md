@@ -4,9 +4,20 @@ description: Versão de fevereiro do Adobe Experience Manager Guides as a Cloud 
 exl-id: 090eaf94-fe3a-47e9-9937-f84f8434550d
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+TQID: https://experienceleague.adobe.com/8alpUFz4njJtpUZrGcZ5wdrbmqSGOjSVqaHX1T4YeJ4
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1426'
+source-wordcount: 1445
 ht-degree: 0%
 
 ---
@@ -43,7 +54,7 @@ Você também pode gerar o CSV para baixar o instantâneo atual da multimídia u
 
 ## UX renovado para a funcionalidade de revisão
 
-Agora, os guias de AEM fornecem um UX aprimorado que ajuda a analisar os tópicos compartilhados para análise. Na experiência mais recente, a funcionalidade de revisão tem as seguintes melhorias:
+Agora, os guias do AEM fornecem um UX aprimorado que ajuda a revisar os tópicos compartilhados para revisão. Na experiência mais recente, a funcionalidade de revisão tem as seguintes melhorias:
 
 * Interface do usuário atualizada
 * Painel Condições, que permite realçar o conteúdo de acordo com as condições disponíveis no tópico
@@ -87,7 +98,7 @@ Algumas das referências no painel de tradução podem estar em andamento. Agora
 
 ## Gerar saída em vários formatos no Editor da Web
 
-Agora é possível gerar facilmente a saída dos tópicos ou do mapa DITA no Editor da Web. Você pode configurar várias predefinições de saída como AEM Site, PDF, HTML5,
+Agora é possível gerar facilmente a saída dos tópicos ou do mapa DITA no Editor da Web. É possível configurar várias predefinições de saída, como AEM Site, PDF, HTML5,
 JSON (um formato de saída headless) e saída personalizada. Você pode usá-los para gerar as respectivas saídas.
 
 Você pode definir atributos em seus tópicos DITA e, em seguida, usar a predefinição de condição para aplicar uma condição ao publicar a saída. Você também pode usar o recurso de publicação de linha de base para publicar seletivamente uma versão específica do mapa ou tópico DITA.
@@ -143,6 +154,6 @@ Agora é possível estilizar o marcador de página nas notas de rodapé. Por exe
 
 ## PDF nativo | Alterar barra para indicar tópicos alterados no Sumário
 
-O AEM Guides agora permite identificar rapidamente os tópicos alterados no índice da saída de PDF.  Ela mostra uma barra de alterações à esquerda dos tópicos alterados no índice. Você pode clicar no tópico no índice e exibir as alterações detalhadas.
+O AEM Guides agora permite identificar rapidamente os tópicos alterados no índice da saída do PDF.  Ela mostra uma barra de alterações à esquerda dos tópicos alterados no índice. Você pode clicar no tópico no índice e exibir as alterações detalhadas.
 
 <img src="assets/change-marker-toc.png" alt="Alterar marcador no sumário " width="500">

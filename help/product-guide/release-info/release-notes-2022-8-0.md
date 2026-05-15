@@ -4,10 +4,23 @@ description: Versão de agosto do Adobe Experience Manager Guides as a Cloud Ser
 exl-id: a01bfe8a-4715-438c-bb94-aa1d31f6662d
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/ozowf4-i02AJDe40hzWHjuqYZ0Q-eIG3nnPpI9mvBqI
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1169'
-ht-degree: 0%
+source-wordcount: 1176
+ht-degree: 1%
 
 ---
 
@@ -98,7 +111,7 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 * O tópico DITA não é atualizado automaticamente com as alterações feitas na página **Propriedades**. (8745)
 * O elemento Frontmatter, quando adicionado a um mapa DITA, não funciona corretamente. (9507)
 * PDF nativo | Um PDF em branco é gerado ao usar a **Geração rápida** para vários arquivos quando um elemento vazio é selecionado. (9822)
-* PDF nativo | O apêndice é publicado como um capítulo na saída do PDF. (9829)
+* PDF nativo | O apêndice foi publicado como um capítulo na saída do PDF. (9829)
 * PDF nativo | Quando uma imagem do SVG é editada, ela não é mostrada atualizada no layout da página. (9069)
 * Um caractere de hífen regular é inserido quando um caractere `Nonbreaking Hyphen` é inserido usando a caixa de diálogo **Inserir Caractere Especial**. (8919)
 * O Editor de XML não mostra imagens atualizadas nos tópicos se elas tiverem sido editadas. (9500)
