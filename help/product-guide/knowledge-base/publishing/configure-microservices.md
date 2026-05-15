@@ -4,9 +4,14 @@ description: Saiba como Configurar a nova publicação baseada em microsserviço
 exl-id: 92e3091d-6337-4dc6-9609-12b1503684cd
 feature: Microservice in AEM Guides
 role: User, Admin
-source-git-commit: f929d4fd74e98e2025d80c14dbef6aeb464c0dd5
+TQID: https://experienceleague.adobe.com/1M-gDrJclVMkYHOo69FPmKqkJvzYaDHK0ljK5dIh-tA
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: d6596f3f-92a7-43ec-b444-237db6adad05
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: 740
 ht-degree: 0%
 
 ---
@@ -21,11 +26,11 @@ ht-degree: 0%
 
 
 
-A publicação com base em microsserviços no para Adobe Experience Manager Guides as a Cloud Service suporta os tipos de predefinições de saída PDF (baseados em DITA e nativo), HTML5, JSON e CUSTOM.
+A publicação com base em microsserviços no para Adobe Experience Manager Guides as a Cloud Service é compatível com os tipos de predefinições de saída PDF (baseados em DITA e nativo), HTML5, JSON e CUSTOM.
 
 Como as credenciais da Conta de serviço (JWT) foram substituídas, é recomendável usar a autenticação baseada em OAuth do Adobe IMS. Saiba como [configurar a publicação baseada em microsserviço com autenticação OAuth](configure-microservices-imt-config.md).
 
-Para o serviço de publicação na nuvem protegido pela autenticação baseada em JWT do Adobe IMS, os clientes devem seguir as etapas fornecidas abaixo para integrar seus ambientes com fluxos de trabalho de autenticação baseados em token seguro do Adobe e começar a usar a nova solução de publicação escalável baseada em nuvem.
+Para o serviço de publicação na nuvem protegido pela autenticação baseada em JWT do Adobe IMS, os clientes devem seguir as etapas fornecidas abaixo para integrar seus ambientes aos fluxos de trabalho de autenticação baseados em token seguro da Adobe e começar a usar a nova solução de publicação escalável baseada em nuvem.
 
 
 ## Criar configurações do IMS no Adobe Developer Console
@@ -100,7 +105,7 @@ Depois disso, você poderá usar a nova publicação na nuvem baseada em micross
 
 1. Uma única chave pode ser usada em vários ambientes de nuvem?
    * Sim, você pode gerar uma chave privada e usá-la para todos os ambientes, mas precisa configurar as variáveis de ambiente para todos os ambientes e usar a mesma chave.
-1. Se as configurações de OSGi para usar o microsserviço estiverem ativadas, o processo de publicação funcionará no servidor AEM local com a mesma base de código?
+1. Se as configurações de OSGi para usar o microsserviço estiverem habilitadas, o processo de publicação funcionará no servidor do AEM local com a mesma base de código?
    * Não, se o sinalizador `dxml.use.publish.microservice` estiver definido como `true`, ele sempre procurará configurações de microsserviço. Defina `dxml.use.publish.microservice` como `false` para que a publicação funcione no seu local.
 1. Quanta memória é alocada para o processo DITA ao usar a publicação baseada em microsserviços? Isso é feito por meio de parâmetros de formigas de perfis DITA?
    * Com a publicação baseada em microsserviços, a alocação de memória não é orientada pelos parâmetros ant do perfil DITA. A memória total disponível no container de serviço é de 8 GB, dos quais 6 GB são alocados para o processo DITA-OT.
@@ -124,7 +129,7 @@ Depois disso, você poderá usar a nova publicação na nuvem baseada em micross
 
 **Conteúdo**:
 * `dxml.use.publish.microservice`: Alternar para habilitar a publicação baseada em microsserviço usando DITA-OT
-* `dxml.use.publish.microservice.native.pdf`: Alternar para habilitar a publicação de PDF nativo baseado em microsserviços
+* `dxml.use.publish.microservice.native.pdf`: Alternar para habilitar a publicação PDF Nativa baseada em microsserviços
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>

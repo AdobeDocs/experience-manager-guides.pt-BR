@@ -1,11 +1,16 @@
 ---
-title: Notas de versão | Instruções de atualização e problemas corrigidos na versão 2024.10.0 do Adobe Experience Manager Guides
+title: Notas de versão | Instruções de atualização e problemas corrigidos no Adobe Experience Manager Guides versão 2024.10.0
 description: Saiba mais sobre a matriz de compatibilidade e como atualizar para a versão 2024.10.0 do Adobe Experience Manager Guides as a Cloud Service.
 exl-id: 2405a0f2-ab7c-4bb9-b33d-c94e252d69e9
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/7Bo6-ge1PPWOmFmuTKmynGPZLvrHrXGRLfmSShX9IkY
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: afb45297-4313-4f67-818e-bc0b03abe086id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0eid: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2: id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: cda0baeb-996e-4aaa-92d1-41032e34fd68id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 0%
+source-wordcount: 1025
+ht-degree: 1%
 
 ---
 
@@ -108,7 +113,7 @@ Execute as seguintes etapas para pós-processar o conteúdo existente e usar o n
 
 1. Execute uma solicitação POST para o servidor (com autenticação correta) - `http://<server>//bin/guides/reports/upgrade`.
 
-1. A API retorna um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação GET com a ID do trabalho para o mesmo ponto de extremidade - `http://<server>/bin/guides/reports/upgrade?jobId= {jobId}`
+1. A API retorna um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação do GET com a ID do trabalho para o mesmo ponto de extremidade - `http://<server>/bin/guides/reports/upgrade?jobId= {jobId}`
 (Por exemplo: `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
 1. Quando o trabalho for concluído, a solicitação anterior do GET responderá com êxito. Se a tarefa falhar por algum motivo, a falha poderá ser vista nos logs do servidor.
@@ -121,7 +126,7 @@ Execute as seguintes etapas para pós-processar o conteúdo existente e usar o n
 
 Execute as seguintes etapas para indexar o conteúdo existente e usar o novo texto de localização e substituição no nível do mapa e da lista de tópicos na guia relatórios:
 
-1. Execute uma solicitação POST para o servidor (com autenticação correta) - `http://<server:port>/bin/guides/map-find/indexing`. (Opcional: é possível passar caminhos específicos dos mapas para indexá-los; por padrão, todos os mapas são indexados|| Exemplo: `https://<Server:port>/bin/guides/map-find/indexing?paths=<path of the MAP in repository>`)
+1. Execute uma solicitação POST para o servidor (com autenticação correta) - `http://<server:port>/bin/guides/map-find/indexing`. (Opcional: é possível passar caminhos específicos dos mapas para indexá-los, por padrão, todos os mapas são indexados|| Exemplo: `https://<Server:port>/bin/guides/map-find/indexing?paths=<path of the MAP in repository>`)
 
 1. Você também pode passar uma pasta raiz para indexar os mapas DITA de uma pasta específica (e suas subpastas). Por exemplo, `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Observe que se os parâmetros de caminhos e de raiz forem transmitidos, somente o parâmetro de caminhos será considerado.
 

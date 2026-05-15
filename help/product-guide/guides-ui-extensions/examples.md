@@ -2,9 +2,12 @@
 title: Exemplos
 description: Lista de exemplos de personalização
 exl-id: 40cdc703-7a78-4979-a7b5-1158558d4868
-source-git-commit: 924c34a2ec6249b81cbdddf72392dac600e22e9f
+TQID: https://experienceleague.adobe.com/Fgry-byLX0-N5gxaBk2TiN9QyzSPTXLepzGiQ4w1hSU
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: 462
 ht-degree: 0%
 
 ---
@@ -13,7 +16,7 @@ ht-degree: 0%
 
 Neste pacote, também fornecemos alguns exemplos de personalização (disponíveis em `guides_extension/src`). Veja abaixo uma breve descrição de cada uma delas.
 
-1. [Menu de contexto](./examples/file_options.ts)
+1. [Menu de Contexto](./examples/file_options.ts)
 Neste exemplo, personalizamos o menu de contexto `file_options`, para remover as opções `Delete` e `Edit`, e substituir a opção `Duplicate` por uma opção `Download`.
 
 2. [Painel esquerdo](./examples/left_panel_container.ts)
@@ -35,11 +38,11 @@ Neste exemplo, personalizamos o botão **Gerenciar** (localizado no painel Metad
 1. [Caixa de ferramentas de anotação](./examples/review_app_examples/annotation_extension.ts)
 Neste exemplo, adicionamos outro botão à caixa de ferramentas de anotação que abre o tópico de revisão atual no AEM.
 
-2. [Comentário da avaliação](./examples/review_app_examples/review_comment.ts)
+2. [Comentário da revisão](./examples/review_app_examples/review_comment.ts)
 Neste exemplo, adicionamos substituímos o nome de usuário pelas informações do usuário (que consistem no nome completo e no título do comentarista), adicionamos uma ID de comentário exclusiva, um ícone mailTo e adicionamos campos de entrada para mencionar a gravidade e o motivo do comentário.
 Também adicionamos um botão `accept with modification` em comentários no lado do XMLEditor que abre uma caixa de diálogo.
 
-3. [Resposta ao comentário](./examples/review_app_examples/comment_reply.ts)
+3. [Comentário/Resposta](./examples/review_app_examples/comment_reply.ts)
 Neste exemplo, adicionamos substituímos o nome de usuário por informações do usuário (que consistem no nome completo e no título do comentarista) e adicionamos um ícone mailTo no cabeçalho do comentário.
 
 4. [Painel de revisão em linha](./examples/review_app_examples/inline_review_panel.ts)

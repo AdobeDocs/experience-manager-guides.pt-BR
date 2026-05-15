@@ -4,10 +4,15 @@ description: Saiba mais sobre as correções de erros e como atualizar para a ve
 exl-id: f1765c6a-cb8e-4a06-a6f4-f5c225b6bc88
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/f69cfjH9sRM1AFE7od0cvU4VBNLYjbuidmrZ5-pSBBA
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0eid: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2: id: a44282cf-0adb-456f-8700-3ec7a3f89fd4id: ad602516-aca3-4247-9ae8-f393d958efa9id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 0%
+source-wordcount: 925
+ht-degree: 2%
 
 ---
 
@@ -78,7 +83,7 @@ as a Cloud Service, para criar o arquivo de configuração.
 
 1. Execute uma solicitação POST para o servidor (com autenticação correta) - `http://<server:port>//bin/guides/reports/upgrade`.
 
-1. A API retornará um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação GET com a ID do trabalho para o mesmo ponto de extremidade - `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
+1. A API retornará um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação do GET com a ID do trabalho para o mesmo ponto de extremidade - `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
 (Por exemplo: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
 1. Quando o trabalho for concluído, a solicitação anterior do GET responderá com sucesso. Se o trabalho falhar por algum motivo, a falha poderá ser vista nos logs do servidor.
@@ -129,8 +134,8 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 - Os atributos em linha/Exibição não aparecem na exibição de layout do Editor da Web. (12498)
 - Upload de arquivos no plug-in Oxygen para o AEM Guides não está funcionando nos serviços em nuvem se você tiver o! no nome do arquivo. (12207)
 - A publicação de mapas DITA é muito lenta com o modelo editável. (12075)
-- A configuração da interface do usuário do perfil global não corresponde ao Perfil da pasta. (1970)
-- As referências de conteúdo são quebradas quando os arquivos DITA são copiados e colados. (1959)
+- A configuração da interface do usuário do perfil global não corresponde ao Perfil da pasta. (11970)
+- As referências de conteúdo são quebradas quando os arquivos DITA são copiados e colados. (11959)
 - Não é possível editar o fragmento de conteúdo na exibição de coluna com o AEM Guides instalado. (7342)
 - O conteúdo é perdido quando uma refex não encapsulada está sob tags de um subelemento. (12532)
 

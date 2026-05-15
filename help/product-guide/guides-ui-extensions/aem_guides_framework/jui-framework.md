@@ -3,9 +3,13 @@ title: Estrutura Jui
 description: Noções Básicas Sobre A Estrutura Jui
 role: User, Admin
 exl-id: c193cf90-5916-4d8c-88f1-be5014beca1c
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+TQID: https://experienceleague.adobe.com/AQFEy2bHTDHXq6QH8KTBOEzUvtA3Hf2ojhxvD0dsI7o
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552eid: c6d09140-3c91-45d3-b7ed-b681af752f43id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: 268
 ht-degree: 1%
 
 ---
@@ -17,10 +21,10 @@ Para que possamos estendê-la efetivamente.
 
 ## Introdução
 
-A JUI é uma estrutura MVC sobre componentes do React e do Espectro de Reação Adobe. A JUI é a interface do usuário JSON. Ele consiste em vários repositórios Git.
+A JUI é uma estrutura MVC sobre componentes do React e do Adobe React Spectrum. A JUI é a interface do usuário JSON. Ele consiste em vários repositórios Git.
 
 JUI-Core é a biblioteca principal com toda a lógica para converter a configuração JSON em componentes de reação em funcionamento e vinculá-la a uma instância de classe de controlador relevante.
-JUI-React-Spectrum  A biblioteca tem widgets de wrapper de componentes do React Spectrum Adobe
+A biblioteca JUI-React-Spectrum tem widgets de wrapper dos componentes do Adobe React Spectrum
 
 ## Design de núcleo JUI
 
@@ -42,7 +46,7 @@ JUI-React-Spectrum  A biblioteca tem widgets de wrapper de componentes do React
 
 ### Elemento
 
-- É um componente de HTML/React.
+- É um componente do HTML/React.
 - Não tem nenhum modelo, o usa um modelo de widget principal.
 
 ### Manipulador de eventos

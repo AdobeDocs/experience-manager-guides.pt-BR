@@ -2,10 +2,16 @@
 title: Notas de versão | Correção de problemas na versão 2024.4.0 do Adobe Experience Manager Guides
 description: Saiba mais sobre as correções de erros na versão 2024.04.0 do Adobe Experience Manager Guides as a Cloud Service.
 exl-id: 35351d71-7739-4ad3-a063-67adf64906bf
-source-git-commit: 5d99274da8fdacbd255d426fa4913b5773ca45f8
+TQID: https://experienceleague.adobe.com/cHKuFCElWbjxik0EHgoTrtlq2t3I62LQ5zUArzBoMqk
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d6596f3f-92a7-43ec-b444-237db6adad05id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0efid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '578'
-ht-degree: 0%
+source-wordcount: 577
+ht-degree: 6%
 
 ---
 
@@ -17,7 +23,7 @@ Para obter mais informações sobre os novos recursos e aprimoramentos, consulte
 
 Saiba mais sobre [as instruções de atualização para a versão 2024.04.0](upgrade-instructions-2024-04-0.md).
 
-## Criação  
+## Criação
 
 - A função **Copiar** não duplica as pastas vazias no Adobe Experience Manager as a Cloud Service. (15353)
 - O Editor da Web não pode carregar arquivos .pptx. (14837)
@@ -37,12 +43,12 @@ Saiba mais sobre [as instruções de atualização para a versão 2024.04.0](upg
 
 ## Publicação
 
-- Falha na geração de saída do Site AEM quando a opção **Excluir Site Órfão** está habilitada. (15896)
+- Falha na geração de saída do AEM Site quando a opção **Excluir Site Órfão** está habilitada. (15896)
 - A funcionalidade de edição não funciona ao adicionar arquivos à Coleção de mapas. (15813)
 - Na saída JSON, os metadados do mapa DITA ou dos tópicos não são propagados para os arquivos de saída JSON. (15713)
-- Falha na publicação do PDF nativo ao renomear a predefinição. (15662)
-- A propriedade **sourcePath** está incorreta na saída do site AEM publicada. (15502)
-- A seleção e a personalização das variáveis de idioma não estão funcionando corretamente na Predefinição de saída de PDF nativo. (15399)
+- Falha na publicação nativa do PDF ao renomear a predefinição. (15662)
+- A propriedade **sourcePath** está incorreta na saída do site publicado do AEM. (15502)
+- A seleção e a personalização das variáveis de idioma não estão funcionando corretamente na Predefinição de saída nativa do PDF. (15399)
 - A geração de PDF nativo falha ao usar um modelo com uma folha de estilos ou layout grande. (15344)
 - O conteúdo não é renderizado corretamente na saída publicada se `<conref>` for usado com um caminho absoluto.
 - A redução de URL do AEM Sites não está funcionando devido a conflitos entre `fmdita rewriter` e `ResourceResolver`. (14793)
@@ -51,7 +57,7 @@ Saiba mais sobre [as instruções de atualização para a versão 2024.04.0](upg
 
 ## Gerenciamento
 
-- **Resolvedores de Recursos** não fechados causam um aumento na contagem de sessões e erros de PathNotFoundException após a versão de outubro de 2023 do Experience Manager Guides as a Cloud Service. (15604)
+- **Resolvedores de Recursos** não fechados causam um aumento na contagem de sessões e nos erros de PathNotFoundException após a versão de outubro de 2023 do Experience Manager Guides as a Cloud Service. (15604)
 - O sinalizador de recurso **fmdita.useapproval** não está funcionando como esperado. (15310)
 - A criação de uma linha de base usando a API do Java não funciona com a versão de junho de 2023 do Experience Manager Guides as a Cloud Service. (14787)
 - A API `/bin/fmdita/import` permanece presa na solicitação pendente indefinidamente quando os ativos de carregamento excedem 500 MB. (14743)

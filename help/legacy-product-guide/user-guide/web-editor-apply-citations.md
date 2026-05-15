@@ -5,9 +5,14 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: 832dbc5d-85f7-41fd-8f5d-789732b46f80
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/3xNOR02eoj4FGibPTf4IMtqHf2O-M4DHaf5-MZy87uU
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1896'
+source-wordcount: 1896
 ht-degree: 0%
 
 ---
@@ -99,7 +104,7 @@ Para importar citações, siga estas etapas:
 
    >[!NOTE]
    > <ol><li> O AEM Guides importa somente as citações que são exclusivas e que ainda não estão presentes.
-   > &gt; <li> O AEM Guides pode importar citações de um Livro, Diário ou Site. Atualmente, não aceita citações de outras fontes.
+    &gt; <li> O AEM Guides pode importar citações de um Livro, Diário ou Site. Atualmente, não aceita citações de outras fontes.
 
 ## Gerenciar citações
 
@@ -189,7 +194,7 @@ Execute as seguintes etapas para inserir citações a um tópico:
 
 ### Na barra de ferramentas principal
 
-1. Selecione o ícone **Citations** ![citations &#x200B;](images/citations-icon.svg) na barra de ferramentas principal.
+1. Selecione o ícone **Citations** ![citations ](images/citations-icon.svg) na barra de ferramentas principal.
 1. Na caixa de diálogo **Citações**, escolha a citação. Também é possível selecionar várias citações.
    ![caixa de diálogo de citação](images/citation-dialog-main-toolbar.png){width="300"}
 1. Você pode filtrar citações digitando os primeiros alfabetos no painel de pesquisa da caixa de diálogo **Citação**.
@@ -204,7 +209,7 @@ A citação selecionada é adicionada no local do cursor em seu tópico.
 > 
 >Para exibir o ícone **Citações** no painel esquerdo, o administrador do sistema deve selecionar a opção **Citações** na guia **Painéis** das **Configurações do Editor**.
 
-1. Selecione o ícone **Citações** ![citações &#x200B;](images/citations-icon.svg) no painel esquerdo.
+1. Selecione o ícone **Citações** ![citações ](images/citations-icon.svg) no painel esquerdo.
 1. Arraste a citação do painel **Citações** e solte-a no local apropriado no tópico.
 
    Você também pode selecionar **Inserir** de ![](images/options.svg) **Opções** para inserir uma citação.

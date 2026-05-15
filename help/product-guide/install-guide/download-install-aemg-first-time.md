@@ -5,9 +5,12 @@ exl-id: 830a4381-303c-419c-b87f-9563352a7eeb
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/9EMSF4ux-NFRH6AuxPWneqRyp7AEGwm8ZTjbCvAx-XQ
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: 262
 ht-degree: 3%
 
 ---
@@ -32,7 +35,7 @@ Execute as seguintes etapas para baixar e instalar o AEM Guides pela primeira ve
    http://<server name>:<port>/crx/packmgr/index.jsp
    ```
 
-   O Gerenciador de pacotes gerencia os pacotes na instalação local do AEM. Para obter mais informações sobre como trabalhar com o Gerenciador de Pacotes, consulte [Como trabalhar com pacotes](https://helpx.adobe.com/br/experience-manager/6-5/sites/administering/using/package-manager.html) na documentação do AEM.
+   O Gerenciador de pacotes gerencia os pacotes na instalação local do AEM. Para obter mais informações sobre como trabalhar com o Gerenciador de Pacotes, consulte [Como trabalhar com pacotes](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html) na documentação do AEM.
 
    ![](assets/package-manager.png){width="650"}
 
@@ -55,4 +58,4 @@ Execute as seguintes etapas para baixar e instalar o AEM Guides pela primeira ve
 >
 > Execute o procedimento de instalação em todas as instâncias dos servidores AEM na sua configuração.
 
-**Tópico pai:**&#x200B;[&#x200B; Baixar e instalar](download-install.md)
+**Tópico pai:**[ Baixar e instalar](download-install.md)

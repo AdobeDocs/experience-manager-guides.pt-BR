@@ -1,12 +1,18 @@
 ---
-title: Notas de versão | Novidades da versão 4.2 do Adobe Experience Manager Guides
+title: Notas de versão | Novidades na versão 4.2 do Adobe Experience Manager Guides
 description: Conheça os recursos novos e aprimorados das versões 4.2 do Adobe Experience Manager Guides
 exl-id: 46367ccf-58ff-4889-8314-cdd5bf5d0f1d
 feature: What's New
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+TQID: https://experienceleague.adobe.com/Ig3Lc-OGmHe83U44eEebdfUwquPqskLorbUgGX4JHJ4
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2: id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '2423'
+source-wordcount: 2435
 ht-degree: 0%
 
 ---
@@ -35,7 +41,7 @@ Você pode aplicar tags a um tópico individual ou usar o recurso de marcação 
 
 ## UX renovado para a funcionalidade de revisão
 
-Agora, os guias de AEM fornecem um UX aprimorado que ajuda a analisar os tópicos compartilhados para análise. Na experiência mais recente, a funcionalidade de revisão tem as seguintes melhorias:
+Agora, os guias do AEM fornecem um UX aprimorado que ajuda a revisar os tópicos compartilhados para revisão. Na experiência mais recente, a funcionalidade de revisão tem as seguintes melhorias:
 
 * Interface do usuário atualizada
 * Painel Condições que permite realçar o conteúdo de acordo com as condições disponíveis no tópico.
@@ -92,7 +98,7 @@ Para obter mais detalhes, consulte a seção *Traduzir documentos do Editor da W
 
 ## Gerar saída em vários formatos no Editor da Web
 
-Agora é possível gerar facilmente a saída dos tópicos ou do mapa DITA no Editor da Web. Você pode configurar várias predefinições de saída como AEM Site, PDF, HTML5,
+Agora é possível gerar facilmente a saída dos tópicos ou do mapa DITA no Editor da Web. É possível configurar várias predefinições de saída, como AEM Site, PDF, HTML5,
 JSON (um formato de saída headless) e saída personalizada. Use-os para gerar as respectivas saídas. Você pode definir atributos em seus tópicos DITA e, em seguida, usar a predefinição de condição para aplicar uma condição ao publicar a saída. Você também pode usar o recurso de publicação de linha de base para publicar seletivamente uma versão específica do mapa ou tópico DITA.
 
 **Gerenciar predefinições de saída de Perfil Global e de Pasta**
@@ -102,7 +108,7 @@ O AEM Guides fornece o recurso para criar e gerenciar predefinições de saída 
 <img alt="adicionar predefinição" src="assets/add-global-output-preset.png" width="400">
 
 
-Essas predefinições globais aparecem na guia **Saída** de todos os mapas relacionados. Você pode usá-los para gerar a saída para todos os mapas relacionados. É possível selecionar a predefinição como a predefinição de PDF padrão para gerar a saída de PDF. Você também pode **Editar**, **Renomear**, **Duplicar** ou **Excluir** uma predefinição de saída existente do menu **Opções**.
+Essas predefinições globais aparecem na guia **Saída** de todos os mapas relacionados. Você pode usá-los para gerar a saída para todos os mapas relacionados. É possível selecionar a predefinição como a predefinição padrão do PDF para gerar a saída do PDF. Você também pode **Editar**, **Renomear**, **Duplicar** ou **Excluir** uma predefinição de saída existente do menu **Opções**.
 
 >[!NOTE]
 >
@@ -190,23 +196,23 @@ Quando a operação de expurgação estiver concluída, você poderá verificar 
 
 Agora, o AEM Guides permite escolher a opção **Usar Título no Editor e no Gerenciador de Mapas** em Configurações. Se você selecionar essa opção, o título do arquivo será exibido na guia do arquivo quando aberto no Editor ou no Gerenciador de mapas DITA. Se você não selecionar essa opção, a UUID do arquivo será exibida na guia do arquivo.
 
-## Interface de metadados disponível para predefinições de PDF
+## Interface de metadados disponível para predefinições do PDF
 
 É possível definir os metadados na predefinição de saída de um mapa DITA. É possível definir os metadados de Título, Autor, Assunto e Palavras-chave. Esses metadados são mapeados para os metadados nas Propriedades do arquivo do PDF de saída. Esses metadados substituem os definidos no nível de livro. Você pode definir os metadados especificamente em cada predefinição de saída e passá-los para o PDF de saída.
 
 ## PDF nativo | PDF com barra de alterações que mostra a diferença entre as versões do documento
 
-Agora você pode criar um PDF que mostra as diferenças no conteúdo entre duas versões usando a barra de alteração. Você pode optar por comparar a versão atual com uma linha de base da versão anterior ou comparar entre as duas versões de linha de base selecionadas.
+Agora você pode criar uma PDF que mostra as diferenças no conteúdo entre duas versões usando a barra de alteração. Você pode optar por comparar a versão atual com uma linha de base da versão anterior ou comparar entre as duas versões de linha de base selecionadas.
 
 <img src="assets/pdf-change-version.png" alt="pdf-change-version" width="600">
 
-Uma barra de alteração aparece no PDF para indicar o conteúdo modificado, inserido ou excluído. Você também tem as opções para fazer o seguinte:
+Uma barra de alteração é exibida no PDF para indicar o conteúdo modificado, inserido ou excluído. Você também tem as opções para fazer o seguinte:
 * Mostrar o conteúdo inserido em verde e sublinhado
 * Mostrar o conteúdo excluído em vermelho e marcado com um tachado
 
-## PDF nativo | Suporte de variável para caminho de saída e nome do arquivo PDF
+## PDF nativo | Suporte a variáveis para Caminho de saída e Nome de arquivo do PDF
 
-Agora, você também pode usar as variáveis prontas para uso a seguir para definir o Caminho de saída e o Arquivo PDF. Você pode usar uma única variável ou uma combinação de variáveis para definir essas opções:
+Agora, você também pode usar as variáveis prontas para uso a seguir para definir o Caminho de saída e o Arquivo do PDF. Você pode usar uma única variável ou uma combinação de variáveis para definir essas opções:
 * `${map_filename}`
 * `${map_title}`
 * `${preset_name}`
@@ -216,7 +222,7 @@ Agora, você também pode usar as variáveis prontas para uso a seguir para defi
 
 ## PDF nativo | Gerar sumário para mapas DITA e reordenar layouts de página
 
-Agora, você também pode gerar o índice em mapas DITA usando uma configuração de PDF avançada do modelo. Você pode optar por ativar ou desativar a exibição dos vários layouts de página e também reordenar sua posição.
+Agora, também é possível gerar o índice em mapas DITA usando uma configuração avançada do PDF do modelo. Você pode optar por ativar ou desativar a exibição dos vários layouts de página e também reordenar sua posição.
 
 ## PDF nativo | Adicionar um marcador personalizado na saída do PDF
 

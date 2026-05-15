@@ -2,9 +2,15 @@
 title: Ocultar a opção Criar DitaMap nas opções do menu de contexto Pasta para usuários ou grupos específicos.
 description: Saiba como personalizar o editor da Web ocultando a opção "DitaMap" do menu de contexto de pasta para usuários/grupos específicos
 exl-id: 796bfe3a-3950-4ade-9215-c33534791055
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+TQID: https://experienceleague.adobe.com/fAMBEOKlPA4KHsE81zfI-6EJ6zwaQOgRfx0w-cx-mmw
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: 571
 ht-degree: 0%
 
 ---
@@ -65,7 +71,7 @@ const folderOptions = {
   Uma nova criação de widget (customoptions.ts) é necessária para escrever a lógica e ocultar essa opção somente para usuários não autores. Para isso, usamos a chave &quot;show&quot;, que atua como um botão de alternância em nossa estrutura JSON.
 
   Você pode gravar seu próprio servlet externo para verificar os detalhes do grupo. Dessa forma, você também pode personalizar as opções de menu de pastas para seu grupo personalizado.
-Neste exemplo, aproveitamos a chamada OOTB AEM &quot;rolesapi&quot; para buscar os detalhes do usuário e definir a resposta em &quot;isAuthor&quot;, como mostrado nos trechos acima.
+Neste exemplo, aproveitamos a chamada &quot;rolesapi&quot; do OOTB AEM para buscar os detalhes do usuário e definir a resposta em &quot;isAuthor&quot;, como mostrado nos trechos acima.
 
 ```typescript
 const folderOptions = {

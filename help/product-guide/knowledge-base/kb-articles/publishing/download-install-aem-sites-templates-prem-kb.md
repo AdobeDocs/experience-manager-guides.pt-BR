@@ -5,9 +5,13 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: aa843a72-ff0d-4c9a-a87d-48d099087b5e
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/d-eC5SHwAeCMEZhZJzN-12rdk37TjqBy0SYXC6lfbUI
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: 469
 ht-degree: 0%
 
 ---
@@ -36,7 +40,7 @@ Antes de continuar com a configuração, verifique se os seguintes pré-requisit
 ## Instalação de pacote usando o Gerenciador de pacotes do CRX
 
 1. **Instalar o Pacote de Componentes:**
-   1. Navegue até [**CRX Package Manager**](http://&lt;your-aem-instance>/crx/packmgr).
+   1. Navegue até [**CRX Package Manager**](http://<your-aem-instance>/crx/packmgr).
    2. Carregue e instale o pacote no local-guides-components.all-1.x.0.zip.
 
 2. **Instalar o Pacote do Sites:** Carregue e instale o pacote aemg-docs.all-1.x.0.zip usando o Gerenciador de Pacotes do CRX.
@@ -86,7 +90,7 @@ Antes de continuar com a configuração, verifique se os seguintes pré-requisit
    2. Crie uma nova página de produto na estrutura do site OOTB.
    3. Navegue até **Documentação do AEMG** > **Inglês** > **Documentação**.
 
-      ![Criar página na estrutura de Site do AEM &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-page.png){width="350"}
+      ![Criar página na estrutura de Site do AEM ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-page.png){width="350"}
 
    4. Selecione o bloco **Página inicial** e selecione **Avançar**.
 

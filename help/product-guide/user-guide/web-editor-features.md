@@ -5,9 +5,15 @@ exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
 hide: true
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/b4HsxgVJpLBqXXJ-uEddivoBiHdnJlyfp-S-aiJL3bQ
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552eid: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: afb45297-4313-4f67-818e-bc0b03abe086id: c6d09140-3c91-45d3-b7ed-b681af752f43id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41id: ad602516-aca3-4247-9ae8-f393d958efa9id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8id: d6596f3f-92a7-43ec-b444-237db6adad05id: f6b497f1-f8e0-42ce-8e95-56c28d94026eid: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0efid: f9dbea21-a714-40dd-bc90-080d8046c93f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '18790'
+source-wordcount: 18790
 ht-degree: 0%
 
 ---
@@ -340,7 +346,7 @@ Para acessar o histórico de versões e reverter para uma versão específica do
 
    Guia **Metadata**: os metadados recém-adicionados estão em fonte verde e os metadados excluídos estão em fonte vermelha.
 
-   ![Diferença de metadados para versões &#x200B;](images/metadata-version-diff.png){width="550"}
+   ![Diferença de metadados para versões ](images/metadata-version-diff.png){width="550"}
 
    *Comparar os metadados de diferentes versões no histórico de Versões.*
 
@@ -999,7 +1005,7 @@ Você tem as seguintes opções para filtrar os arquivos e restringir sua pesqui
 - **Arquivos DITA**: você pode procurar todos os **tópicos DITA** e **mapas DITA** presentes no caminho selecionado. Elas são selecionadas por padrão.
 - **Arquivos não DITA**: você pode pesquisar por **Arquivos Ditaval**, **Arquivos de Imagem**, **Multimídia**, **Documentos** e **JSON** no caminho selecionado.
 
-  ![filtro de pesquisa rápida &#x200B;](images/repository-filter-search-quick.png) {width="300"}
+  ![filtro de pesquisa rápida ](images/repository-filter-search-quick.png) {width="300"}
 
   *Use os filtros rápidos para procurar arquivos DITA e não DITA.*
 
@@ -1974,7 +1980,7 @@ Você pode acessar o recurso **Propriedades de conteúdo** selecionando o ícone
 
 1. No painel suspenso **Atributo**, selecione o atributo na lista suspensa e especifique o valor de um atributo.  Em seguida, selecione **Adicionar**.
 
-   ![painel de atributos com vários atributos &#x200B;](images/attributes-multiple-properties.png){width="300"}
+   ![painel de atributos com vários atributos ](images/attributes-multiple-properties.png){width="300"}
 
 1. Para editar o atributo, passe o mouse sobre ele e selecione **Editar** ![ícone de edição](images/edit_pencil_icon.svg).
 

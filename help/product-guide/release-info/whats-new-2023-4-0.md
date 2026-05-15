@@ -1,12 +1,18 @@
 ---
-title: Notas de versão | Versão as a Cloud Service do Adobe Experience Manager Guides de abril de 2023
+title: Notas de versão | Adobe Experience Manager Guides as a Cloud Service, versão de abril de 2023
 description: Versão de abril de 2023 do Adobe Experience Manager Guides as a Cloud Service
 exl-id: 269e3a13-584d-4cff-a18a-d4fa89646a5a
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+TQID: https://experienceleague.adobe.com/c1aOcwHgxAs11yAalOnlW-ghsTP1Or32TnBwLsc59-M
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2: id: d6596f3f-92a7-43ec-b444-237db6adad05
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: 386
 ht-degree: 0%
 
 ---
@@ -23,7 +29,7 @@ O AEM Guides agora fornece suporte avançado para os metadados que são mapeados
 
 <img src="assets/pdf-metadata.png" alt=" metadados pdf nativos">
 
-Você pode importar um arquivo XMP e o AEM Guides pode selecionar as informações do arquivo. Também há a opção de fornecer os nomes e valores dos metadados usando a lista suspensa. Você também pode adicionar metadados personalizados digitando diretamente no campo de nome.
+Você pode importar um arquivo do XMP e o AEM Guides pode selecionar as informações do arquivo. Também há a opção de fornecer os nomes e valores dos metadados usando a lista suspensa. Você também pode adicionar metadados personalizados digitando diretamente no campo de nome.
 
 
 ## Painel Modo de Exibição de Estrutura de Tópicos Avançado
@@ -43,5 +49,5 @@ A Exibição de estrutura de tópicos fornece as seguintes melhorias:
 
 O AEM Guides as a Cloud Service fornece o recurso para executar grandes cargas de trabalho de publicação simultaneamente com a publicação baseada em microsserviços e aproveitar a plataforma Adobe I/O Runtime sem servidor, líder do setor.
 
-Agora, na versão de abril, você pode executar várias solicitações de publicação simultaneamente e gerar saídas de PDF em massa de maneira muito eficiente, usando a publicação de PDF nativo baseada em microsserviços.
+Agora, na versão de abril, é possível executar várias solicitações de publicação simultaneamente e gerar saídas em massa do PDF com muita eficiência usando a publicação nativa do PDF baseada em microsserviços.
 Para obter mais detalhes, consulte [Configurar nova publicação baseada em microsserviço para o AEM Guides as a Cloud Service](../knowledge-base/publishing/configure-microservices.md).

@@ -4,9 +4,14 @@ description: Crie e edite documentos estruturados usando o editor. Saiba como tr
 exl-id: 285d3ad3-fb4e-4cdd-ab83-493ffce891d6
 feature: Authoring, Web Editor
 role: User
-source-git-commit: cf167b0e8217f2536e7796a9c2e93e688139ab2e
+TQID: https://experienceleague.adobe.com/SZs-Hc4QAGj6Mfdm-Rsaio-UEaIRpLQArxVP2FUydok
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: 481
 ht-degree: 0%
 
 ---
@@ -51,4 +56,4 @@ No momento, o novo editor não oferece suporte aos seguintes recursos. Esses rec
 O Editor antigo no Experience Manager Guides oferece uma experiência de criação simples e confiável para conteúdo estruturado, abstraindo as complexidades do DITA e garantindo a conformidade com padrões compatíveis, como o DITA 1.2, 1.3, DITA leve e DITA especializado. Ele fornece ferramentas essenciais para trabalhar com blocos comuns e elementos em linha, tornando-o adequado para a criação de conteúdo consistente e controlada em uma estrutura estruturada.
 
 
-**Tópico pai:**&#x200B;[&#x200B; Conteúdo de autor usando o Experience Manager Guides](authoring-content-xml-doc.md)
+**Tópico pai:**[ Conteúdo de autor usando o Experience Manager Guides](authoring-content-xml-doc.md)

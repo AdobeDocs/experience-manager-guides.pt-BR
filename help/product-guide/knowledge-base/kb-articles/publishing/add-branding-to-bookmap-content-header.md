@@ -4,9 +4,15 @@ description: Obtenha a marca da empresa ao integrar a página de capa e a págin
 feature: Native PDF Output
 author: Pulkit Nagpal(punagpal)
 role: User, Admin
-source-git-commit: a9f8622dc5a2647bcff32c8895700d5c5933be4a
+exl-id: ab452529-3c7f-4057-a0f6-212b9f52a99d
+TQID: https://experienceleague.adobe.com/6CGRK2QWFZ6nIXmIAQZy3lX7t4KYP2-HeyqlVW2-7eE
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2: id: d6596f3f-92a7-43ec-b444-237db6adad05
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: 422
 ht-degree: 0%
 
 ---
@@ -18,17 +24,17 @@ ht-degree: 0%
 Obter a marca corporativa ao mesclar perfeitamente a página de capa com a página de capítulo, garantindo que a identidade da empresa seja exibida de forma destacada na parte superior do conteúdo.
 
 - [Configurar seu conteúdo](#set-up-your-content)
-- [Faça as alterações necessárias no modelo de PDF](#create-necessary-changes-in-pdf-template)
+- [Faça as alterações necessárias no modelo do PDF](#create-necessary-changes-in-pdf-template)
 
 **Antes:**
 
-![Antes de corrigir a identidade visual: captura de tela mostrando o layout de PDF pré-marca](../assets/publishing/branding-image1.png)
+![Antes de corrigir a identidade visual: captura de tela mostrando o layout de PDF pré-marcado](../assets/publishing/branding-image1.png)
 <br>
 <br>
 
 **Depois de:**
 
-![Após corrigir a identidade visual: captura de tela mostrando o layout de PDF pós-identidade visual](../assets/publishing/branding-image2.png)
+![Após corrigir a identidade visual: captura de tela mostrando o layout de PDF pós-marca](../assets/publishing/branding-image2.png)
 
 ## Configurar seu conteúdo
 
@@ -75,13 +81,13 @@ Exemplo de estrutura Ditamap:
 O FrontCover do PDF é gerado automaticamente se o Bookmap contiver `<frontmatter>`.
 
 
-## Faça as alterações necessárias no modelo de PDF
+## Faça as alterações necessárias no modelo do PDF
 
 Nesta seção, definiremos nosso template. (Você pode usar ou duplicar o modelo Hi-tech para começar.)
 
 ### Configurar seu Modelo:
 
-- Vá para o modelo de PDF nativo.
+- Vá para o modelo PDF nativo.
 - Vá para o layout da página do FrontCover e edite-o.
 - Aqui, adicione sua imagem de marca em `data-region="content"`.
 - Adicione outras alterações necessárias no modelo de capítulo, se necessário.
@@ -90,16 +96,16 @@ Nesta seção, definiremos nosso template. (Você pode usar ou duplicar o modelo
 
 #### Se estiver usando Ditamap para geração de PDF:
 
-Ao publicar um DITAMAP, o PDF nativo fornece a funcionalidade para gerar automaticamente uma página de capa. A opção para habilitar ou desabilitar a geração de páginas do FrontCover pode ser configurada no modelo de PDF nativo.
+Ao publicar um DITAMAP, o PDF nativo fornece a funcionalidade para gerar automaticamente uma página de capa. A opção para habilitar ou desabilitar a geração de páginas do FrontCover pode ser configurada no modelo PDF Nativo.
 
 Para mesclar:
-- Acesse as configurações do modelo de PDF nativo —> Ordem do layout da página
+- Acesse as configurações do modelo PDF nativo —> Ordem do layout da página
 - Agora, mescle o FrontCover com a Próxima página, ou seja, Capítulo e tópicos.
-  ![Mesclando capa frontal com capítulo: captura de tela mostrando configurações de modelo de PDF nativo](../assets/publishing/branding-image3.png)
+  ![Mesclando o FrontCover com o Capítulo: captura de tela mostrando as configurações do modelo do PDF Nativo](../assets/publishing/branding-image3.png)
 - Salve o modelo, selecione esse modelo para sua predefinição e publique!
 
 
-#### Se estiver usando o Bookmap para geração de PDF
+#### Se você estiver usando o Bookmap para geração de PDF
 
 No caso de um Bookmap, a sequência da Ordem de layout da página é controlada pela estrutura do Bookmap, em vez da ordem do modelo.
 
@@ -132,16 +138,15 @@ window.addEventListener('DOMContentLoaded', function () {
 - Ativar o JavaScript na sua opção predefinida
   ![Habilitar configuração de predefinição do JavaScript: captura de tela mostrando a configuração de Predefinição para habilitar o JavaScript](../assets/publishing/branding-image5.png)
 
-- Publish!
+- Publicar!
 
 ## Anexos:
 
-- [Baixe o pacote de modelo de PDF de amostra para ver as alterações aplicadas.](../assets/publishing/NativePDF_DemoTemplate.zip)
-- [Baixe o pacote de amostra de predefinição de PDF para ver as alterações aplicadas.](../assets/publishing/Preset_Package.zip)
+- [Baixe o pacote de modelo de amostra do PDF para ver as alterações aplicadas.](../assets/publishing/NativePDF_DemoTemplate.zip)
+- [Baixe o pacote de amostra de predefinição do PDF para ver as alterações aplicadas.](../assets/publishing/Preset_Package.zip)
 
 
 ## Outros recursos:
 
 - [Como incluir o índice do DITA Bookmap no PDF](./how-to-include-bookmap-toc-in-pdf-publishing.md)
 - [Vídeo de sessão com um especialista sobre o PDF nativo](../../expert-sessions/native-pdf-publishing-eamples-part1-june2023.md)
-

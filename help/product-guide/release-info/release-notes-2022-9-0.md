@@ -4,10 +4,16 @@ description: Versão de setembro do Adobe Experience Manager Guides as a Cloud S
 exl-id: f6247f91-43cc-43a4-a6f8-3b1f09d0533f
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/vzzg-FlQ0IsMKzYDYcIJjh9hGRnuzV-tiuMa7tvO85o
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: afb45297-4313-4f67-818e-bc0b03abe086
+subfeature_v2: id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1299'
-ht-degree: 0%
+source-wordcount: 1300
+ht-degree: 3%
 
 ---
 
@@ -24,8 +30,8 @@ Atualize sua configuração atual do Adobe Experience Manager Guides as a Cloud 
 
 Execute as seguintes etapas para indexar o conteúdo existente e usar o novo texto de localização e substituição no nível do mapa:
 * Execute uma solicitação POST para o servidor (com autenticação correta) - `http://<server:port>/bin/guides/map-find/indexin`.
-(Opcional: é possível passar caminhos específicos dos mapas para indexá-los; por padrão, todos os mapas serão indexados ||  Exemplo:   `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
-* A API retornará um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação GET com a ID do trabalho para o mesmo ponto de extremidade - `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
+(Opcional: é possível passar caminhos específicos dos mapas para indexá-los; por padrão, todos os mapas serão indexados || Exemplo: `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
+* A API retornará um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação do GET com a ID do trabalho para o mesmo ponto de extremidade - `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
 (Por exemplo: `http://<_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)`
 * Quando o trabalho for concluído, a solicitação do GET acima responderá com sucesso e mencionará se algum mapa falhou. Os mapas indexados com êxito podem ser confirmados nos logs do servidor.
 
@@ -97,30 +103,30 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 * Editor da Web | Ao mover elementos em um tópico, as IDs atribuídas nos elementos são substituídas pelas IDs atribuídas automaticamente. (7895)
 * Controlar alterações | O conteúdo é perdido quando um novo elemento é inserido usando a tecla Enter. (10246)
 * Submapa referido ao mapa principal em dita-templates não está sendo criado. (10231)
-* Editor XML | O comando copiar-colar não funciona no modo de autor. (10309)
+* Editor XML | Copiar-colar não funciona no modo de autor. (10309)
 * Vários rótulos de versão, uma vez selecionados, não são desmarcados. (9561)
 * A navegação automática para o caminho na caixa de diálogo de navegação do site não funciona como a navegação de arquivo. (9920)
 * O painel Estrutura de Tópicos não exibe conteúdo quando alternado do modo **Autor** para o modo **Source**. (10319)
 * O Conref em um novo tópico criado usando um conteúdo no modelo de tópico não funciona. A ID de hash copiada não é atualizada na cópia de conteúdo. (9890)
 * Editor da Web | Não existe carregador ao criar um mapa a partir do modelo de mapa. (9891)
-* Novo Editor de Mapa | O texto em negrito ou itálico adicionado no título do mapa não será retido se alternarmos do modo de exibição **Autor** para o **Layout**. (10218)
+* Novo Editor de Mapa | O texto em negrito ou itálico adicionado no título do mapa não será retido se alternarmos do **Autor** para a exibição do **Layout**. (10218)
 * Novo Editor de Mapa | As condições aplicadas em qualquer referência não podem ser removidas da exibição de layout. (10213)
-* Novo Editor de Mapa | A aplicação de referências de condições não funciona na exibição de layout como na exibição de autor. (10198)
+* Novo Editor de Mapa | A aplicação de referências de condições não funciona na exibição de Layout, como na exibição Autor. (10198)
 * Novo Editor de Mapa | Mover para a esquerda no menu de contexto remove a referência se ela não puder ser movida para a esquerda. (10219)
 * Novo Editor de Mapa |O ícone é exibido incorretamente para as referências em um mapa criado usando o modo Layout. (10197)
-* Painel Repositório | O clique com o botão direito do mouse no painel repositório fornece um erro de aplicativo. (10123)
+* Painel Repositório | Clicar com o botão direito do mouse no painel repositório gera um erro de aplicativo. (10123)
 * Localizar e substituir | O modo escuro não é legível para Resultados de pesquisa no Editor da Web. (9978)
 * Tradução | Os metadados e as tags não são propagados para as cópias traduzidas. (4696)
 * O conteúdo de copiar e colar (ctrl+c/ctrl+v) gera um erro no modo de autor. (10304)
-* Modelo do PDF | A adição de imagens de plano de fundo a qualquer layout de página exibe Caminho da imagem absoluto, e as imagens não são exibidas na PDF de saída. (10297)
+* Modelo do PDF | A adição de imagens de plano de fundo a qualquer layout de página exibe Caminho da imagem absoluto e as imagens não são exibidas no PDF de saída. (10297)
 * PDF nativo | O título do capítulo e o cabeçalho do capítulo não funcionam na publicação do PDF. (9947)
 * PDF nativo | `xref` para um conceito não foi resolvido corretamente para um tópico DITA específico. (10229)
-* PDF nativo | Não é possível exibir o texto de legenda de uma tabela na saída de PDF gerada. (9827)
-* PDF nativo | As referências nos apêndices não são exibidas como apêndices na saída do PDF. (10182)
+* PDF nativo | Não é possível exibir o texto da legenda de uma tabela na saída gerada do PDF. (9827)
+* PDF nativo | As referências nos anexos não são exibidas como apêndices na saída do PDF. (10182)
 * PDF nativo | O atributo de quadro de uma tabela não é propagado para a HTML temporária (como classe). (10353)
 * PDF nativo | os arquivos temporários do HTML adicionam as classes colsep e rowsep a td e o mesmo se o valor for 0 no DITA de origem. (10352)
-* PDF nativo |  Os metadados para o critério adicionado no layout da página não estão sendo respeitados. (10377)
-* PDF nativo |  A geração de PDF falha para um conteúdo específico. (9927)
+* PDF nativo | Os metadados para o critério adicionado no layout da página não estão sendo respeitados. (10377)
+* PDF nativo | A geração de PDF falha para conteúdo específico. (9927)
 * PDF nativo | O conteúdo via conkeyref não é exibido na saída do PDF. (9836)
 * PDF nativo | As principais referências de Keydefs com imagens ou links externos não são resolvidas. (10063)
 * A visualização de autor de um mapa não exibe o texto do espaço reservado para a lista de tabelas e a lista de figuras. (10330)

@@ -5,9 +5,14 @@ exl-id: dab654f5-555d-4a89-bc94-55b1e938f255
 feature: Rest API Output Management
 role: Developer
 level: Experienced
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/7vLVD99129fILw0haQUZFlUn5y7pqMcTxakT6OeW3Uo
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552eid: c6d09140-3c91-45d3-b7ed-b681af752f43
+subfeature_v2: id: ac94cb1b-ba77-439b-aa1f-2d8a6bec3dc3
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1175'
+source-wordcount: 1204
 ht-degree: 6%
 
 ---
@@ -36,7 +41,7 @@ Retorna uma matriz de objetos Predefinição de Saída JSON, cada objeto contend
 | Elemento | Descrição |
 |-------|-----------|
 | `outputName` | Nome da predefinição de saída. Os nomes de saída são exclusivos no escopo do mapa DITA em que estão definidos. |
-| `outputType` | Tipo de saída gerada usando essa predefinição, por exemplo, AEM Site, PDF, EPUB ou outro. As opções disponíveis são:<br>-   AEMSITE <br>-   PDF <br>-   HTML5 <br>-   EPUB <br>-   PERSONALIZAR |
+| `outputType` | Tipo de saída gerada usando essa predefinição, por exemplo, AEM Site, PDF, EPUB ou outro. As opções disponíveis são:<br>- AEMSITE <br>- PDF <br>- HTML5 <br>- EPUB <br>- PERSONALIZADO |
 | `outputTitle` | Um nome descritivo para as configurações de predefinição de saída. Isso é usado para definir o valor da propriedade Nome da configuração para a predefinição de saída. |
 | `ditaValPathList` | Matriz de caminhos de arquivo DITAVAL a serem usados para gerar a saída desejada. |
 | `targetPath` | Caminho onde a saída é publicada ou armazenada. |
@@ -46,7 +51,7 @@ Retorna uma matriz de objetos Predefinição de Saída JSON, cada objeto contend
 | `generateTOC` | *\(Para saída de Site do AEM\)* Especifique se um índice é gerado \(true\) ou não \(false\). |
 | `generateBreadcrumbs` | *\(Para saída de Site do AEM\)* Especifique se as navegações estruturais são geradas \(true\) ou não \(false\). |
 | `overwriteStrategy` | *\(Para saída de Site do AEM\)* Especifique se os arquivos no destino serão substituídos \(true\) ou não \(false\). |
-| `pdfGenerator` | Especifique o mecanismo de geração do PDF a ser usado. Os valores possíveis são:<br>-   DITAOT <br>-   FMPS |
+| `pdfGenerator` | Especifique o mecanismo de geração do PDF a ser usado. Os valores possíveis são:<br>- DITAOT <br>- FMPS |
 
 >[!NOTE]
 >
@@ -66,7 +71,7 @@ http://*&lt;aem-guides-server\>*: *&lt;número-porta\>*/bin/publishlistener
 | `:operation` | String | Sim | Nome da operação que está sendo chamada. O valor deste parâmetro é ``createoutput``.<br> **Observação:** o valor não diferencia maiúsculas de minúsculas. |
 | `sourcePath` | String | Sim | Caminho absoluto do arquivo de mapa DITA. |
 | `outputTitle` | String | Sim | Um nome descritivo para as configurações de predefinição de saída. Isso é usado para definir o valor da propriedade Setting Name para a predefinição de saída.<br> **Observação:** quando uma nova predefinição de saída é criada, o sistema back-end direciona um nome exclusivo para a predefinição de saída do título fornecido. |
-| `outputType` | String | Sim | Tipo de saída gerada usando essa predefinição, por exemplo, AEM Site, PDF, EPUB ou outro. As opções disponíveis são:<br>-   AEMSITE <br>-   PDF <br>-   HTML5 <br>-   EPUB <br>-   PERSONALIZAR |
+| `outputType` | String | Sim | Tipo de saída gerada usando essa predefinição, por exemplo, AEM Site, PDF, EPUB ou outro. As opções disponíveis são:<br>- AEMSITE <br>- PDF <br>- HTML5 <br>- EPUB <br>- PERSONALIZADO |
 
 **Valores de resposta**:
 
@@ -112,7 +117,7 @@ http://*&lt;aem-guides-server\>*: *&lt;número-porta\>*/bin/publishlistener
 | Elemento | Descrição |
 |-------|-----------|
 | `outputName` | Nome da predefinição de saída. Os nomes de saída são exclusivos no escopo do mapa DITA em que estão definidos. |
-| `outputType` | Tipo de saída gerada usando essa predefinição, por exemplo, AEM Site, PDF, EPUB ou outro. As opções disponíveis são:<br>-   AEMSITE <br>-   PDF <br>-   HTML5 <br>-   EPUB <br>-   PERSONALIZAR <br> |
+| `outputType` | Tipo de saída gerada usando essa predefinição, por exemplo, AEM Site, PDF, EPUB ou outro. As opções disponíveis são:<br>- AEMSITE <br>- PDF <br>- HTML5 <br>- EPUB <br>- PERSONALIZADO <br> |
 | `outputTitle` | Um nome descritivo para as configurações de predefinição de saída. Isso é usado para definir o valor da propriedade Nome da configuração para a predefinição de saída. |
 | `ditaValPathList` | Matriz de caminhos de arquivo DITAVAL a serem usados para gerar a saída desejada. |
 | `targetPath` | Caminho onde a saída é publicada ou armazenada. |
@@ -123,7 +128,7 @@ http://*&lt;aem-guides-server\>*: *&lt;número-porta\>*/bin/publishlistener
 | `generateTOC` | \(Para saída do site do AEM\) Especifique se um índice é gerado \(true\) ou não \(false\). |
 | `generateBreadcrumbs` | \(Para saída do site do AEM\) Especifique se as navegações estruturais são geradas \(true\) ou não \(false\). |
 | `overwriteFiles` | \(Para saída do site do AEM\) Especifique se os arquivos no destino são substituídos \(true\) ou não \(false\). |
-| `pdfGenerator` | Especifique o mecanismo de geração do PDF a ser usado. Os valores possíveis são:<br>-   DITAOT <br>-   FMPS |
+| `pdfGenerator` | Especifique o mecanismo de geração do PDF a ser usado. Os valores possíveis são:<br>- DITAOT <br>- FMPS |
 
 >[!NOTE]
 >

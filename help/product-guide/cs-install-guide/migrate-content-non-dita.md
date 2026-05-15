@@ -5,9 +5,14 @@ exl-id: cf437fb8-ed33-47af-aa7e-ffd8acd232da
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+TQID: https://experienceleague.adobe.com/EoyXmpAq2512icOucboiDrqOSyOaIESRz32v3QXzQSM
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '2581'
+source-wordcount: 2581
 ht-degree: 0%
 
 ---
@@ -128,7 +133,7 @@ O processo de conversão envolve as seguintes ações no back-end:
 - Criação e validação de tópicos e arquivos de mapa DITA individuais.
 - Exclusão de arquivos temporários.
 
-De maneira geral, o processo de conversão requer que você [Prepare arquivos do InDesign para a conversão](appendix.md#id195DBF0045Z) [appendix.md\#id195DBF0045Z](appendix.md#id195DBF0045Z) e [Prepare o arquivo de mapeamento para a migração do InDesign para o DITA](appendix.md#id194AF0003HT) [appendix.md\#id194AF0003HT](appendix.md#id194AF0003HT). Em seguida, você precisa seguir o procedimento fornecido para executar o processo de conversão.
+De maneira geral, o processo de conversão requer que você [Prepare arquivos do InDesign para a conversão](appendix.md#id195DBF0045Z)[appendix.md\#id195DBF0045Z](appendix.md#id195DBF0045Z) e [Prepare o arquivo de mapeamento para a migração do InDesign para o DITA](appendix.md#id194AF0003HT)[appendix.md\#id194AF0003HT](appendix.md#id194AF0003HT). Em seguida, você precisa seguir o procedimento fornecido para executar o processo de conversão.
 
 Execute as seguintes etapas para converter seus documentos existentes do InDesign em um documento do tipo de tópico DITA:
 
@@ -402,4 +407,4 @@ Para converter os documentos estruturados existentes no formato DITA, execute as
 
 Usando o bloco `<config> </config>`, você pode definir um ou vários blocos de configurações para conversão. O fluxo de trabalho de conversão é executado e a saída final na forma de um tópico DITA é salva no local especificado no elemento `outputDir`.
 
-**Tópico pai:**&#x200B;[&#x200B; Migrar conteúdo existente](migrate-content.md)
+**Tópico pai:**[ Migrar conteúdo existente](migrate-content.md)

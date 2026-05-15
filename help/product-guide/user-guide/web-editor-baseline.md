@@ -4,9 +4,14 @@ description: Crie e gerencie linhas de base no console de mapas no Adobe Experie
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/SSfVuVDBo6RbMZM15CoDlR2zltDGj78D6SYCyyJta2g
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0efid: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1929'
+source-wordcount: 1929
 ht-degree: 0%
 
 ---
@@ -172,5 +177,5 @@ Usando o ícone Filtros no painel **Filtros da linha de base**, você pode aplic
 
 Depois de editar a linha de base, selecione **Salvar** para salvar as alterações na linha de base. Você pode selecionar **Redefinir** se não quiser salvar a alteração e redefinir a linha de base. Quando você seleciona **Redefinir**, é exibido um aviso de que as alterações não salvas serão perdidas.
 
-**Tópico pai:**&#x200B;[&#x200B; Geração de saída](generate-output.md)
+**Tópico pai:**[ Geração de saída](generate-output.md)
 

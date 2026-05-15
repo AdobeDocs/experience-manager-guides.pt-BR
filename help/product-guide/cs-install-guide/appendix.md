@@ -5,9 +5,14 @@ exl-id: 71b09039-b220-45f3-b334-c23f5b09dadc
 feature: InDesign File Conversion, Troubleshooting
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+TQID: https://experienceleague.adobe.com/etvy4eVDOfc8wWTt4LDk-XtEbAvQxESduB3-N114X-0
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: d90290ec-3e61-4ebd-8649-bcafe0836803
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '2866'
+source-wordcount: 2866
 ht-degree: 0%
 
 ---
@@ -34,7 +39,7 @@ Execute as seguintes etapas para verificar as referências usando o script de va
 1. Execute o script de validação \[`/bin/fmdita/validatebtree?operation=validate`\] para verificar se há novas referências corrompidas.
 1. Caso o script de validação reporte algum erro, você poderá corrigi-lo usando o script de correção.
 1. Registre os detalhes fornecidos a seguir e, se necessário, compartilhe-os com a equipe de sucesso do cliente:
-1. &#x200B;
+1. 
    - Logs impressos pelo script de validação
 - Pacote de &quot;`/content/fmdita/references`&quot;
 - Quaisquer outros detalhes necessários, dependendo do cenário relatado
@@ -50,7 +55,7 @@ Execute as seguintes etapas para corrigir referências quebradas, usando o scrip
 > É recomendável copiar e salvar os logs para fins de referência.
 
 1. Quando o script de patch for executado com sucesso, você poderá fazer as seguintes verificações:
-1. &#x200B;
+1. 
    - Verificar se um novo nó &quot;`references_backup_<timestamp>"`&quot; foi criado em `/content/fmdita`
 - Verifique se as referências foram corrigidas
 
@@ -344,7 +349,7 @@ O exemplo a seguir mostra como mover um `title` para um `table`:
 
 Os elementos `paragraphStyleRule` estão descritos abaixo:
 
-**&#x200B; `paraRule` elemento**
+** `paraRule` elemento**
 
 O elemento `paraRule` é obrigatório. Especifica as regras de mapeamento para todos os Estilos de parágrafo. Em um documento do InDesign, todo o texto está contido em uma subestrutura de Estilos de parágrafo. Mesmo parágrafos sem nenhum estilo são nomeados como `\[No paragraph style\]`. Os colchetes indicam um nome de estilo InDesign incorporado.
 

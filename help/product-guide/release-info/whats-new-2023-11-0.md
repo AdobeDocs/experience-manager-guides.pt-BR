@@ -4,9 +4,13 @@ description: Saiba mais sobre os recursos novos e aprimorados da versão de nove
 exl-id: 83c04e01-92f1-41b0-8866-a202f4106b51
 feature: What's New
 role: Leader
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/XAwjfiapDvgvcwAuWm943W36PsAEiBfJUkN37DJeSZ0
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: 811
 ht-degree: 0%
 
 ---
@@ -66,7 +70,7 @@ Agora você pode escolher a maneira padrão de exibir os arquivos no Editor da W
 
 Você pode definir atributos de condição em seus tópicos DITA. Em seguida, use os atributos de condição na predefinição de condição para publicar o conteúdo em um mapa DITA. O Experience Manager Guides agora também permite criar e gerenciar predefinições de condição no Editor da Web. Também é possível editá-los, duplicá-los ou excluí-los facilmente.
 
-![Predefinições de condição da guia Gerenciar do editor da Web &#x200B;](assets/web-editor-manage-condition-presets.png){width="550"}
+![Predefinições de condição da guia Gerenciar do editor da Web ](assets/web-editor-manage-condition-presets.png){width="550"}
 
 Para obter mais detalhes, consulte [Usar predefinições de condição](../user-guide/generate-output-use-condition-presets.md).
 

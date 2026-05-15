@@ -5,9 +5,15 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: 045cafac-393f-49e9-9432-6533a4c6dc01
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/9w3IF2Rc9cuXjKjo9u-p87TtYndxelRKyy8vkug9PSs
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552eid: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: afb45297-4313-4f67-818e-bc0b03abe086id: c6d09140-3c91-45d3-b7ed-b681af752f43id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41id: ad602516-aca3-4247-9ae8-f393d958efa9id: b0521e56-a0b2-40b6-bf47-ebc98751f9baid: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8id: e2fdbf15-a7e4-4d2a-84cc-bd581e74b56did: f6b497f1-f8e0-42ce-8e95-56c28d94026eid: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '18945'
+source-wordcount: 18945
 ht-degree: 0%
 
 ---
@@ -752,7 +758,7 @@ Para acessar o histórico de versões e reverter para uma versão específica do
    Guia **Visualizar**: o conteúdo recém-adicionado está em fonte verde e o conteúdo excluído está em fonte vermelha.
 
    Guia **Metadata**: os metadados recém-adicionados estão em fonte verde e os metadados excluídos estão em fonte vermelha.
-   ![Diferença de metadados para versões &#x200B;](images/metadata-version-diff.png){width="550"}
+   ![Diferença de metadados para versões ](images/metadata-version-diff.png){width="550"}
    *Comparar os metadados de diferentes versões no histórico de Versões.*
 
    >[!NOTE]
@@ -936,7 +942,7 @@ Você tem as seguintes opções para filtrar os arquivos e restringir sua pesqui
 - **Arquivos DITA**: você pode procurar todos os **tópicos DITA** e **mapas DITA** presentes no caminho selecionado. Elas são selecionadas por padrão.
 - **Arquivos não DITA**: você pode pesquisar por **Arquivos Ditaval**, **Arquivos de Imagem**, **Multimídia**, **Documentos** e **Json** no caminho selecionado.
 
-![filtro de pesquisa rápida &#x200B;](images/repository-filter-search-quick.png) {width="300"}
+![filtro de pesquisa rápida ](images/repository-filter-search-quick.png) {width="300"}
 
 *Use os filtros rápidos para procurar arquivos DITA e não DITA.*
 
@@ -1969,7 +1975,7 @@ Você pode acessar o recurso **Propriedades de Conteúdo** selecionando o ícone
 
 1. No painel suspenso **Atributo**, selecione o atributo na lista suspensa e especifique o valor de um atributo.  Depois clique em **Adicionar**.
 
-   ![painel de atributos com vários atributos &#x200B;](images/attributes-multiple-properties.png){width="300"}
+   ![painel de atributos com vários atributos ](images/attributes-multiple-properties.png){width="300"}
 
 1. Para editar o atributo, passe o mouse sobre ele e selecione **Editar** ![ícone de edição](images/edit_pencil_icon.svg).
    ![editar atributos](images/edit-attributes-content-properties.png){width="300"}
@@ -2004,7 +2010,7 @@ A seção Geral fornece acesso aos seguintes recursos:
 - **Idioma**: mostra o idioma do tópico. Ele é definido no campo Language na página de propriedades.
 - **Criado em**: Exibe a data e a hora em que o tópico foi criado.
 - **Retirado por**: mostra o usuário que fez check-out do tópico.
-- **Estado do Documento**: você pode selecionar e atualizar o estado do documento do tópico aberto no momento. Para obter mais detalhes, consulte [Estado do Documento &#x200B;](web-editor-document-states.md#)*.*
+- **Estado do Documento**: você pode selecionar e atualizar o estado do documento do tópico aberto no momento. Para obter mais detalhes, consulte [Estado do Documento ](web-editor-document-states.md#)*.*
 
 **Observação:** você pode copiar os valores de atributo de vários campos nas propriedades de Arquivo para a área de transferência.
 
@@ -2047,4 +2053,4 @@ Usando o recurso Alterações controladas do painel direito, você pode exibir a
 >
 > O recurso Alterações controladas mostra todas as atualizações que foram controladas usando o recurso Habilitar/Desabilitar Controlar alterações da barra de ferramentas principal. Para obter mais detalhes, consulte [Habilitar/Desabilitar o Controle de Alterações](#id205DF0203Y4).
 
-**Tópico pai:**&#x200B;[&#x200B; Trabalhar com o Editor da Web](web-editor.md)
+**Tópico pai:**[ Trabalhar com o Editor da Web](web-editor.md)

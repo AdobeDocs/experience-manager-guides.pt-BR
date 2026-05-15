@@ -2,10 +2,16 @@
 title: Notas de versão | Correção de problemas na versão 2025.02.0 do Adobe Experience Manager Guides
 description: Saiba mais sobre as correções de erros na versão 2025.02.0 do Adobe Experience Manager Guides as a Cloud Service.
 exl-id: e7dec4a2-e11a-4b78-8111-a331d20ce73d
-source-git-commit: 71971c25094b842cb7a0bd1f5bd2acbca4212a66
+TQID: https://experienceleague.adobe.com/MD7NijfBau5f6OzG4xZPdK6qFTLQfcFN8OdF06Cq-mY
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0eid: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8id: d6596f3f-92a7-43ec-b444-237db6adad05id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1325'
-ht-degree: 0%
+source-wordcount: 1327
+ht-degree: 4%
 
 ---
 
@@ -18,24 +24,24 @@ Para obter mais informações sobre os novos recursos e aprimoramentos, consulte
 Saiba mais sobre [as instruções de atualização para a versão 2025.02.0](upgrade-instructions-2025-02-0.md).
 
 
-## Criação  
+## Criação
 
 - Ao atualizar as condições do perfil da pasta, todos os grupos de condições são perdidos e as condições são niveladas. (23526)
 - A alteração do valor das linhas de cabeçalho de uma tabela no painel **Propriedades de conteúdo** não aplica o valor atualizado. (23213)
 - Para transições subsequentes de estado do documento de Guias, é necessária uma atualização de página. (19421)
 - Ao adicionar tópicos no mapa DITA usando a caixa de diálogo de elemento **Referência de tópico** na exibição **Autor**, os tópicos selecionados são inseridos na ordem inversa de serem selecionados. (8031)
-- Ao alternar entre a exibição **Autor** e a exibição **Source**, os espaços à esquerda nos elementos `<pre>` ou `<codeblock>` são excluídos e o arquivo é salvo com esta exclusão. (1998)
-- O Estado do Documento marcado como **Concluído** reverte para **Rascunho** antes de salvar uma nova versão, resultando no estado **Concluído** que não persiste em nenhuma versão do documento. (2006)
+- Ao alternar entre a exibição **Autor** e a exibição **Source**, os espaços à esquerda nos elementos `<pre>` ou `<codeblock>` são excluídos e o arquivo é salvo com esta exclusão. (19987)
+- O Estado do Documento marcado como **Concluído** reverte para **Rascunho** antes de salvar uma nova versão, resultando no estado **Concluído** que não persiste em nenhuma versão do documento. (20006)
 - Quando os itens de lista são movidos para fora da tag para, o conteúdo do item de lista é perdido. (22764)
 - Ao adicionar tópicos no mapa DITA usando a caixa de diálogo de elemento **Referência de tópico** na exibição **Autor**, os tópicos selecionados são inseridos na ordem inversa de serem selecionados. (22858)
 - Ao adicionar novas referências de tópico no mapa DITA usando a caixa de diálogo de elemento **Referência de tópico** no modo de exibição **Layout**, as referências adicionadas serão mostradas como links desfeitos. (22859)
 - Ao clicar com o botão direito do mouse na tag `<simpletable>` dentro de um tópico, a opção **Renomear** não é exibida. (22860)
-- Quando você insere um `xref` que utiliza uma referência baseada em chave com texto de link, o texto do link não é exibido no Experience Manager Guides. 18775)
+- Quando você insere um `xref` que utiliza uma referência baseada em chave com texto de link, o texto do link não é exibido no Experience Manager Guides. (18775)
 - Arrastar e soltar uma imagem em um tópico na exibição **Autor** faz com que a referência da imagem seja interrompida, resultando em perda de dados. (25769)
 - Ao pesquisar arquivos no repositório usando a funcionalidade **Pesquisar e filtrar**, não é possível selecionar vários arquivos. (25104)
 - Ao copiar uma imagem de qualquer produto externo (por exemplo, MS PowerPoint) e colá-la nos Guias, a funcionalidade de fazer upload do ativo instantaneamente para uso no arquivo do é interrompida. (24983)
 - Arrastar um `topicref` sobre outro (no modo de exibição **Autor** ou **Layout**) solicita uma confirmação para substituição em vez de aninhar, e selecionar **Não** na caixa de diálogo de confirmação ainda fará com que o conteúdo seja substituído, resultando em perda de dados. (18602)
-- Não é possível adicionar vários atalhos a um único evento, nem adicionar um argumento a um evento ao acioná-lo a partir de um atalho. (1906)
+- Não é possível adicionar vários atalhos a um único evento, nem adicionar um argumento a um evento ao acioná-lo a partir de um atalho. (19066)
 - Ao recarregar o navegador, a guia de imagem fechada anteriormente é reaberta. (19267)
 - Selecionar parcialmente o texto em um elemento de parágrafo ou lista e arrastá-lo para fora do elemento causa perda de conteúdo ao alternar entre as exibições do **Author** e do **Source**. (25790)
 
@@ -66,8 +72,8 @@ Saiba mais sobre [as instruções de atualização para a versão 2025.02.0](upg
 - O título e o ícone da caixa de diálogo **Forçar exclusão** estão desalinhados na interface do Assets. (21933)
 - Quando qualquer JSON é atualizado no perfil de pasta para Configuração do editor XML, a operação de salvamento interrompe a configuração do editor XML. (22414)
 - Ao duplicar qualquer perfil de pasta, sua lista de usuários administradores também é copiada do perfil da pasta original. (19067)
-- Ocorre um erro ao mover pastas grandes (com um grande volume de conteúdo DITA, até 200.000 itens) da interface do Assets. (2010)
-- Ao usar o título dinâmico com `<conkeyref>`, ele não é resolvido corretamente na **Lista de Tópicos de Relatório de Guias**. (2014)
+- Ocorre um erro ao mover pastas grandes (com um grande volume de conteúdo DITA, até 200.000 itens) da interface do Assets. (20107)
+- Ao usar o título dinâmico com `<conkeyref>`, ele não é resolvido corretamente na **Lista de Tópicos de Relatório de Guias**. (20144)
 - A edição do perfil **Pasta** com o Unified Shell habilitado resulta em uma interface em branco. (22212)
 - Ao excluir pastas que contêm um grande número de arquivos, a operação falha. (17107)
 - Ao cancelar/excluir o trabalho de tradução ou excluir o projeto, o painel de tradução mostra o status **Em andamento**. (18417)

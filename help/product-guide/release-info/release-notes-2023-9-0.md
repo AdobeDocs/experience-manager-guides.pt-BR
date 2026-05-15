@@ -4,10 +4,16 @@ description: Saiba mais sobre as correções de erros e como atualizar para a ve
 exl-id: 795b86a0-e763-404a-a4bb-35d3d2a42672
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/CoWG1c1gE-wPrI90-qp0QJu-oOE4pDLcY6bIEN2QQpE
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: afb45297-4313-4f67-818e-bc0b03abe086id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0eid: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: cda0baeb-996e-4aaa-92d1-41032e34fd68id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1485'
-ht-degree: 0%
+source-wordcount: 1492
+ht-degree: 3%
 
 ---
 
@@ -78,7 +84,7 @@ as a Cloud Service, para criar o arquivo de configuração.
 
 1. Execute uma solicitação POST para o servidor (com autenticação correta) - `http://<server:port>//bin/guides/reports/upgrade`.
 
-1. A API retornará um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação GET com a ID do trabalho para o mesmo ponto de extremidade - `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
+1. A API retornará um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação do GET com a ID do trabalho para o mesmo ponto de extremidade - `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
 (Por exemplo: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
 1. Quando o trabalho for concluído, a solicitação anterior do GET responderá com sucesso. Se o trabalho falhar por algum motivo, a falha poderá ser vista nos logs do servidor.
@@ -134,7 +140,7 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 
 - O arquivo de tópico não está desbloqueado no Editor da Web, embora as opções Desbloquear o arquivo e Não salvar estejam selecionadas. (12558)
 - Não é possível fazer check-out de um arquivo no Editor da Web, apesar de escolher a opção NÃO para descartar as alterações antes do check-in. (12557)
-- As dicas de ferramentas para os ícones Bloquear e Desbloquear arquivo na barra de ferramentas principal no Editor da Web não são consistentes com os ícones exibidos na Exibição do repositório.(12555)
+- As dicas de ferramentas para os ícones Bloquear e Desbloquear arquivos na barra de ferramentas principal no Editor da Web não são consistentes com os ícones exibidos na Exibição do repositório.(12555)
 - A opção Cancelar check-out e Desbloquear é exibida para um arquivo no Editor da Web que ainda não foi submetido a check-out na Exibição de mapa. (12556)
 - Não é possível selecionar os ativos do PDF nos links &quot;topicref&quot; existentes. (12477).
 - Na Exibição de repositório, os tópicos ou imagens não podem ser arrastados após o uso da funcionalidade Pesquisar/Filtrar. (12396)
@@ -155,22 +161,22 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 
 - O campo &quot;title&quot; nas propriedades de metadados do mapa DITA é substituído pelo elemento `<title>` para o mapa. (10702)
 - A referência de conteúdo é quebrada ao copiar e colar arquivos DITA quando a ID do tópico não é a mesma que o GUID. (12614)
-- Nas linhas de base dinâmicas, a lista de rótulos não é retirada das referências diretas da cópia de trabalho de um mapa DITA. (1917)
+- Nas linhas de base dinâmicas, a lista de rótulos não é retirada das referências diretas da cópia de trabalho de um mapa DITA. (11917)
 
 ### Publicação
 
 - Falha na publicação ao renomear uma predefinição nativa do PDF. (12564)
 - A duplicação de um modelo PDF nativo duplica para o local do modelo padrão em vez do local do modelo personalizado fornecido. (12563)
 
-- PDF nativo | A inclusão de várias referências cruzadas estende o texto além da largura da coluna. (13004)
+- PDF nativo | A inclusão de várias xrefs estende o texto além da largura da coluna. (13004)
 - PDF nativo | Quando o tópico e o título têm a mesma ID, isso resulta em uma geração mal formada da saída do PDF. (12644)
-- PDF nativo | Ao adicionar uma classe de saída a um elemento pai `<topicref>` em um mapa DITA e aplicar um estilo personalizado à classe de saída, o estilo é aplicado aos elementos no corpo do tópico, incluindo títulos de seção.(12166)
+- PDF nativo | Ao adicionar uma classe de saída a um elemento `<topicref>` pai em um mapa DITA e aplicar um estilo personalizado à classe de saída, o estilo é aplicado aos elementos no corpo do tópico, incluindo títulos de seção.(12166)
 - A publicação incremental não funciona se um mapa DITA tiver várias ditavalrefs. (12117)
-- Site do AEM | Ao criar um mapa com keydef apontando para um tópico como uma variável e adicionar processing-role=resource-only, você cria algumas páginas inesperadas. (12099)
+- Site do AEM | Ao criar um mapa com keydef apontando para um tópico como uma variável e adicionar processing-role=resource-only, serão criadas algumas páginas inesperadas. (12099)
 - Se quaisquer ativos do DAM do AEM forem usados em qualquer saída diferente do site do AEM, os metadados &quot;jcr:createdBy&quot; não refletirão o nome do editor ou o nome do usuário que modificou o mapa ou tópico DITA por último. (12090)
-- AEM Sites | O mapa DITA com cabeçalho de tópico no navtitle (com caracteres não compatíveis) resulta em URLs de página inválidos. (1978)
-- PDF nativo | Problemas ocorrem no suporte a topichead / topicmeta / navtitle no Frontmatter e Backmatter. (1969)
-- PDF nativo | Gerar PDFs para documentos grandes é demorado. (1955)
+- AEM Sites | O mapa DITA com cabeçalho de tópico no navtitle (com caracteres não compatíveis) resulta em URLs de página inválidos. (11978)
+- PDF nativo | Problemas ocorrem no suporte a topichead / topicmeta / navtitle no Frontmatter e Backmatter. (11969)
+- PDF nativo | Gerar PDFs para documentos grandes é uma tarefa demorada. (11955)
 - PDF nativo | Renomear uma predefinição gera uma NullPointerException ao gerar uma saída PDF. (11889)
 - O conteúdo `<conref>` não é mostrado na saída do PDF. (11131)
 - Um espaço extra é adicionado dentro dos elementos `<div>` ao alternar entre as exibições Autor e Source no editor de layout de página. (10750)

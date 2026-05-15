@@ -1,13 +1,19 @@
 ---
-title: Notas de versão | Instruções de atualização e problemas corrigidos na versão 4.3.1 do Adobe Experience Manager Guides
+title: Notas de versão | Instruções de atualização e problemas corrigidos na versão Adobe Experience Manager Guides 4.3.1
 description: Saiba mais sobre as correções de erros e como atualizar para as versões 4.3.1 do Adobe Experience Manager Guides
 exl-id: 3fb6dc31-ec6e-40f5-ab3f-a6e591da315e
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/4JTSMRLeqxbaz3rBMzz43V76o1HtTfTMtjpdT6wW1LM
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: afb45297-4313-4f67-818e-bc0b03abe086
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: cda0baeb-996e-4aaa-92d1-41032e34fd68id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1307'
-ht-degree: 1%
+source-wordcount: 1302
+ht-degree: 4%
 
 ---
 
@@ -46,7 +52,7 @@ Esta seção lista a matriz de compatibilidade dos aplicativos de software compa
 **4.3.1 Não UUID**
 Versão 6.5 Service Pack 18, 17, 16, 15 ou 14
 
-**4.3.1 UUID**
+UUID do **4.3.1**
 Versão 6.5 Service Pack 18, 17, 16, 15 ou 14
 
 Para obter mais detalhes, consulte a seção *Requisitos técnicos* no guia Instalar e configurar o Adobe Experience Manager Guides.
@@ -108,20 +114,20 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 ### Publicação
 
 - PDF nativo | A ordem dos tópicos não é corrigida quando a saída do PDF é gerada. (13157)
-- PDF nativo| Nenhuma marca de estilo padrão está disponível para o elemento `<p>`. (12559)
-- PDF nativo | Os estilos embutidos aplicados à região de conteúdo não se aplicam aos tópicos em primeiro e segundo plano. (13510)
+- PDF Nativo| Nenhuma marca de estilo padrão está disponível para o elemento `<p>`. (12559)
+- PDF nativo | Os estilos em linha aplicados à região de conteúdo não se aplicam aos tópicos em primeiro e segundo plano. (13510)
 - O atributo `DeliveryTarget` não é propagado ao gerar a saída do site do AEM.  (13132)
 - O fluxo de trabalho **Publicar** trava ao gerar a saída do site do AEM para conteúdo com determinados erros. (12000)
 
-- PDF nativo | A inclusão de várias referências cruzadas estende o texto além da largura da coluna. (13004)
+- PDF nativo | A inclusão de várias xrefs estende o texto além da largura da coluna. (13004)
 - PDF nativo | Quando o tópico e o título têm a mesma ID, isso resulta em uma geração mal formada da saída do PDF. (12644)
-- PDF nativo | Ao adicionar uma classe de saída a um elemento pai `<topicref>` em um mapa DITA e aplicar um estilo personalizado à classe de saída, o estilo é aplicado aos elementos no corpo do tópico, incluindo títulos de seção. (12166)
+- PDF nativo | Ao adicionar uma classe de saída a um elemento `<topicref>` principal em um mapa DITA e aplicar um estilo personalizado à classe de saída, o estilo é aplicado aos elementos no corpo do tópico, incluindo títulos de seção. (12166)
 - A publicação incremental não funciona se um mapa DITA tiver várias ditavalrefs. (12117)
-- Site do AEM | Ao criar um mapa com keydef apontando para um tópico como uma variável e adicionar processing-role=resource-only, você cria algumas páginas inesperadas. (12099)
+- Site do AEM | Ao criar um mapa com keydef apontando para um tópico como uma variável e adicionar processing-role=resource-only, serão criadas algumas páginas inesperadas. (12099)
 - Se quaisquer ativos do DAM do AEM forem usados em qualquer saída diferente do site do AEM, os metadados &quot;jcr:createdBy&quot; não refletirão o nome do editor ou o nome do usuário que modificou o mapa ou tópico DITA por último. (12090)
-- AEM Sites | O mapa DITA com cabeçalho de tópico no navtitle (com caracteres não compatíveis) resulta em URLs de página inválidos. (1978)
-- PDF nativo | Problemas ocorrem no suporte a topichead / topicmeta / navtitle no Frontmatter e Backmatter. (1969)
-- PDF nativo | Gerar PDFs para documentos grandes é demorado. (1955)
+- AEM Sites | O mapa DITA com cabeçalho de tópico no navtitle (com caracteres não compatíveis) resulta em URLs de página inválidos. (11978)
+- PDF nativo | Problemas ocorrem no suporte a topichead / topicmeta / navtitle no Frontmatter e Backmatter. (11969)
+- PDF nativo | Gerar PDFs para documentos grandes é uma tarefa demorada. (11955)
 - PDF nativo | Renomear uma predefinição gera uma NullPointerException ao gerar uma saída PDF. (11889)
 - O conteúdo `<conref>` não é mostrado na saída do PDF. (11131)
 - Um espaço extra é adicionado dentro dos elementos `<div>` ao alternar entre as exibições Autor e Source no editor de layout de página. (10750)
@@ -132,7 +138,7 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 
 - O Histórico de versões não é exibido mesmo se a propriedade `dc:format` não estiver presente para um ativo. (10463)
 - A referência de conteúdo é quebrada ao copiar e colar arquivos DITA quando a ID do tópico não é a mesma que o GUID. (12614)
-- Nas linhas de base dinâmicas, a lista de rótulos não é retirada das referências diretas da cópia de trabalho de um mapa DITA. (1917)
+- Nas linhas de base dinâmicas, a lista de rótulos não é retirada das referências diretas da cópia de trabalho de um mapa DITA. (11917)
 - A Linha de Base mostra o número incorreto de arquivos no Painel do Mapa ao usar a funcionalidade Procurar todos os tópicos. (13265)
 - No Editor da Web, a linha de base mostra o título da versão anterior em vez da versão selecionada do arquivo DITA. (13444)
 

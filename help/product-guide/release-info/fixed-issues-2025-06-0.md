@@ -2,9 +2,15 @@
 title: Notas de versão | Correção de problemas na versão 2025.06.0 do Adobe Experience Manager Guides
 description: Saiba mais sobre as correções de erros na versão 2025.06.0 do Adobe Experience Manager Guides as a Cloud Service.
 exl-id: 0f362ab3-0fae-4eba-bbd6-0b64ae1f2599
-source-git-commit: c137f18d3cb85ed47547d5523c4dea08c22f9560
+TQID: https://experienceleague.adobe.com/kfgmTuMdfq1c1IUcTKiPef9ijJ0tG-fPUuoJlaQEhQA
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d6596f3f-92a7-43ec-b444-237db6adad05
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: 514
 ht-degree: 0%
 
 ---
@@ -17,7 +23,7 @@ Para obter mais informações sobre os novos recursos e aprimoramentos, consulte
 
 Saiba mais sobre [as instruções de atualização para a versão 2025.06.0](upgrade-instructions-2025-06-0.md).
 
-## Criação  
+## Criação
 
 - Falha ao fechar conexões da sessão JCR ao atualizar ou criar tópicos resulta em vazamentos de memória e tempo de inatividade do serviço. (GUIDES-26282)
 - Arrastar as colunas altera a largura de porcentagem para valores de pixel, o que resulta em tabelas distorcidas ou desalinhadas.(GUIDES-23128)
@@ -34,7 +40,7 @@ Saiba mais sobre [as instruções de atualização para a versão 2025.06.0](upg
 - Ao gerar páginas do site do AEM com títulos que incluem várias palavras separadas por espaços, o título do mapa exibe hifens em vez de espaços. (GUIDES-27903)
 - Para o PDF Nativo, um nome de propriedade de metadados inválido não está sendo resolvido e é exibido como `unresolved property name` em **propriedades do documento**. (GUIDES-25680)
 - O texto multilinha em `codeblock` causa problemas de estouro de texto durante a geração do PDF. (GUIDES-15541)
-- Ao adicionar mapas à coleção de mapas, os ativos diferentes dos mapas (curtidas, tópicos etc.) são exibidos e os idiomas do mapa traduzido também não são classificados corretamente.(GUIDES-25085)
+- Ao adicionar mapas à coleção de mapas, os ativos que não são mapas (curtidas, tópicos etc.) são exibidos e os idiomas do mapa traduzido também não são classificados corretamente.(GUIDES-25085)
 
 
 ## Revisar

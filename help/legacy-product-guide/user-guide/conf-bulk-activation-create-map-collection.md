@@ -5,9 +5,14 @@ feature: Publishing, Bulk Activation
 role: User
 hide: true
 exl-id: a242efde-2b29-4d2b-8a50-fd4ae7e8f239
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/ADaV0D2fpnxIo3tKN9zw-oUKyN6wWgALOMmgt3yJfgw
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2: id: c38bc65b-dea9-4a6e-9de3-3daf1d2b388b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: 735
 ht-degree: 0%
 
 ---
@@ -46,7 +51,7 @@ Para criar uma coleção de mapas de ativação em massa, execute as seguintes e
 
 Os arquivos de mapa DITA são adicionados à sua coleção de mapas de ativação em massa.
 
-![&#x200B; criou a coleção de ativação em massa](images/bulk-activation-collection-created.png){width="800"}
+![ criou a coleção de ativação em massa](images/bulk-activation-collection-created.png){width="800"}
 
 ## Guia Mapas e predefinições
 
@@ -85,7 +90,7 @@ A guia **Histórico de Auditoria** apresenta informações sobre as saídas de m
 
 - **Modificado**: indica se o mapa DITA foi atualizado após a última publicação. Com base nessas informações, você pode decidir se ativará a saída para esse mapa DITA.
 - **Publicado**: mostra a data e a hora da última saída publicada (ou ativada). Se você selecionar o link, a página Resultados da ativação será exibida, contendo os logs com informações sobre o caminho raiz onde o conteúdo é ativado.
-  ![&#x200B; criou a guia de histórico de auditoria da coleção de ativação em massa](images/bulk-collection-audit-history.png){width="800"}
+  ![ criou a guia de histórico de auditoria da coleção de ativação em massa](images/bulk-collection-audit-history.png){width="800"}
 
   *Exiba as informações sobre as saídas do mapa ativado na guia **Histórico de Auditoria**.*
 
@@ -106,4 +111,4 @@ As seguintes opções de filtro estão disponíveis no painel esquerdo:
 
 Os filtros são atualizados quando você alterna da guia **Mapas e Predefinições** para a guia **Histórico de Auditoria** e vice-versa.
 
-**Tópico pai: &#x200B;** [Ativação em massa de conteúdo publicado](conf-bulk-activation.md)
+**Tópico pai: **[Ativação em massa de conteúdo publicado](conf-bulk-activation.md)

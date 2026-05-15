@@ -5,9 +5,15 @@ hide: true
 exl-id: 9a140564-27eb-404e-93a5-f5c81364e7f7
 feature: Oxygen Plugin, Authoring, Web Editor
 role: User, Admin
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/3ZkAlpDfF7-v0biHN9N5aiospS63Kr9veXsBqKHevtY
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0eid: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2: id: a44282cf-0adb-456f-8700-3ec7a3f89fd4id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41id: ad602516-aca3-4247-9ae8-f393d958efa9id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '6522'
+source-wordcount: 6522
 ht-degree: 0%
 
 ---
@@ -43,7 +49,7 @@ Depois de ter o instalador, instale-o no computador local onde o Oxygen XML Auth
 
 >[!IMPORTANT]
 >
->Se você tiver uma versão mais antiga do plug-in instalada em seu sistema, desinstale-a antes de iniciar o processo de instalação. Consulte a seção **Desinstalando Pacotes** no artigo [Como trabalhar com pacotes](https://helpx.adobe.com/br/experience-manager/6-4/sites/administering/using/package-manager.html) para obter instruções de desinstalação.
+>Se você tiver uma versão mais antiga do plug-in instalada em seu sistema, desinstale-a antes de iniciar o processo de instalação. Consulte a seção **Desinstalando Pacotes** no artigo [Como trabalhar com pacotes](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html) para obter instruções de desinstalação.
 
 Execute as seguintes etapas no sistema em que o Oxygen XML Author está instalado:
 
@@ -77,7 +83,7 @@ Execute as seguintes etapas no sistema em que o Oxygen XML Author está instalad
 
 >[!IMPORTANT]
 >
->Se você tiver uma versão mais antiga do plug-in instalada em seu sistema, desinstale-a antes de iniciar o processo de instalação. Consulte a seção **Desinstalando Pacotes** no artigo [Como Trabalhar com Pacotes](https://helpx.adobe.com/br/experience-manager/6-4/sites/administering/using/package-manager.html) para obter instruções sobre como desinstalar.
+>Se você tiver uma versão mais antiga do plug-in instalada em seu sistema, desinstale-a antes de iniciar o processo de instalação. Consulte a seção **Desinstalando Pacotes** no artigo [Como Trabalhar com Pacotes](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html) para obter instruções sobre como desinstalar.
 
 Execute as seguintes etapas no sistema em que o Oxygen XML Author está instalado:
 
@@ -116,7 +122,7 @@ Como administrador do AEM, execute as seguintes etapas para instalar o pacote:
 
    `http://<server name>:<port>/crx/packmgr/index.jsp`
 
-   O Gerenciador de pacotes gerencia os pacotes na instalação local do AEM. Para obter mais informações sobre como trabalhar com o Gerenciador de Pacotes, consulte [Como trabalhar com pacotes](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager.html?lang=pt-BR) na documentação do AEM.
+   O Gerenciador de pacotes gerencia os pacotes na instalação local do AEM. Para obter mais informações sobre como trabalhar com o Gerenciador de Pacotes, consulte [Como trabalhar com pacotes](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager.html?lang=en) na documentação do AEM.
 
    ![Gerenciador de pacotes](images/package-manager.png) {width="650"}
 
@@ -208,7 +214,7 @@ Execute as seguintes etapas para definir as configurações de conexão no Plug-
 
 1. No painel AEM Guides, clique no ícone de configurações e selecione **Configurações**.
 
-   ![Configurações de conexão &#x200B;](images/settings.png){width="800"}
+   ![Configurações de conexão ](images/settings.png){width="800"}
 
 1. Especifique os seguintes detalhes:
    - **URL do Servidor**: URL do servidor AEM, por exemplo:

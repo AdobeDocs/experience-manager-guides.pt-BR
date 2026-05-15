@@ -5,9 +5,12 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: f3ed7e82-8bb8-400f-9406-367da9e0052c
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/9A3QCOjdrMwovrnsHnRAQZv9iFryLXrgJP-dCjCGN04
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1302'
+source-wordcount: 1302
 ht-degree: 0%
 
 ---
@@ -125,4 +128,4 @@ O relatório de status da tarefa de revisão contém os seguintes detalhes:
 - Número total de comentários feitos em todos os tópicos. No caso de vários tópicos em revisão, o número de comentários para cada tópico é mencionado \(entre parênteses\) em relação ao nome do tópico.
 - A data em que qualquer tópico foi acessado pela última vez pelo revisor.
 
-**Tópico pai:**&#x200B;[&#x200B; Tópicos ou mapas de revisão](review.md)
+**Tópico pai:**[ Tópicos ou mapas de revisão](review.md)

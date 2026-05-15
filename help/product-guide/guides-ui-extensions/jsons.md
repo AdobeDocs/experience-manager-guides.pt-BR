@@ -3,9 +3,13 @@ title: JSONs expostos
 description: Lista de JSONs expostos
 role: User, Admin
 exl-id: 7ad86795-d26b-464a-94f6-ffaf3376b252
-source-git-commit: 0af09be192bf3ead5e34c39c42282fa7556fbe9a
+TQID: https://experienceleague.adobe.com/Pj3XGB5Vj4jfDL-FyautZrebugbAcooLs29dMQ9-BXw
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: 377
 ht-degree: 0%
 
 ---
@@ -14,7 +18,7 @@ ht-degree: 0%
 
 Editor:
 
-- [&quot;other_attribute_list_item&quot;](./jsons/editor/other_attribute_list_item.json)
+- [`other_attribute_list_item`](./jsons/editor/other_attribute_list_item.json)
 
   Personalize a configuração de atributos exibida no painel direito das Propriedades de conteúdo, na subseção &quot;Atributos&quot;.
 
@@ -50,7 +54,7 @@ Menus de contexto:
 
 Aplicativo de revisão:
 
-- [&quot;inline_review_panel&quot;](./jsons/review_app/inline_review_panel.json)
+- [`inline_review_panel`](./jsons/review_app/inline_review_panel.json)
 
   Ajuste o painel direito da página de revisão e a interface do usuário de Guias para exibir comentários.
 
@@ -58,31 +62,31 @@ Aplicativo de revisão:
 
   Configure a caixa de ferramentas que contém botões para adicionar comentários na página de revisão.
 
-- [&quot;review_comment&quot;](./jsons/review_app/review_comment.json)
+- [`review_comment`](./jsons/review_app/review_comment.json)
 
   Modifique a aparência e a funcionalidade da caixa de comentário na página de revisão.
 
-- [&quot;comment_reply&quot;](./jsons/review_app/comment_reply.json)
+- [`comment_reply`](./jsons/review_app/comment_reply.json)
 
   Personalize a seção de resposta dos comentários na interface de revisão.
 
-- [&quot;comment_new_reply&quot;](./jsons/review_app/comment_new_reply.json)
+- [`comment_new_reply`](./jsons/review_app/comment_new_reply.json)
 
   Personalize a área de texto para criar novas respostas a comentários existentes.
 
-- [&quot;review_toolbar&quot;](./jsons/review_app/review_toolbar.json)
+- [`review_toolbar`](./jsons/review_app/review_toolbar.json)
 
   Personalize a barra de ferramentas exibida na parte superior da página de revisão.
 
-- [&quot;review_left_panels_container&quot;](./jsons/review_app/review_left_panels_container.json)
+- [`review_left_panels_container`](./jsons/review_app/review_left_panels_container.json)
 
   Modifique o painel esquerdo da página de revisão, incluindo a adição ou remoção de painéis específicos.
 
-- [&quot;review_left_panel_topics&quot;](./jsons/review_app/review_left_panel_topics.json)
+- [`review_left_panel_topics`](./jsons/review_app/review_left_panel_topics.json)
 
   Personalize a hierarquia ou lista de tópicos na página de revisão e no painel esquerdo do editor de Guias.
 
-- [&quot;review_left_panel_item&quot;](./jsons/review_app/review_left_panel_item.json)
+- [`review_left_panel_item`](./jsons/review_app/review_left_panel_item.json)
 
   Personalize itens individuais na lista de tópicos para melhorar a usabilidade.
 
@@ -102,7 +106,7 @@ Widgets:
 
   Personalize o widget que mostra os detalhes da versão e fornece a opção para atualizar ou abrir a caixa de diálogo &quot;Salvar como nova versão&quot;.
 
-- [&quot;file_lock&quot;](./jsons/widgets/file_lock.json)
+- [`file_lock`](./jsons/widgets/file_lock.json)
 
   Defina a funcionalidade do botão bloquear/desbloquear para arquivos na barra de ferramentas do editor.
 
@@ -110,11 +114,11 @@ Widgets:
 
 Barras de ferramentas:
 
-- [&quot;editor_toolbar&quot;](./jsons/toolbars/editor_toolbar.json)
+- [`editor_toolbar`](./jsons/toolbars/editor_toolbar.json)
 
   Personalize a barra de ferramentas do editor para arquivos abertos no editor da Web.
 
-- [&quot;editor_tab_bar&quot;](./jsons/toolbars/editor_tab_bar.json)
+- [`editor_tab_bar`](./jsons/toolbars/editor_tab_bar.json)
 
   Modifique os botões da barra de abas acima da barra de ferramentas do editor, incluindo as opções &quot;Salvar tudo&quot; e &quot;Configurações&quot;.
 
@@ -122,14 +126,14 @@ Barras de ferramentas:
 
   Configure os botões na barra de ação do console de mapa, mostrando informações como nome predefinido, nome do relatório, contagem de registros e botões associados.
 
-- [&quot;map_console_navigation_bar&quot;](./jsons/toolbars/map_console_navigation_bar.json)
+- [`map_console_navigation_bar`](./jsons/toolbars/map_console_navigation_bar.json)
 
   Personalize a barra de navegação do console de mapa para exibir o nome do mapa, os menus suspensos para alterar mapas e a navegação para o editor.
 
-- [&quot;home_navigation_bar&quot;](./jsons/toolbars/home_navigation_bar.json)
+- [`home_navigation_bar`](./jsons/toolbars/home_navigation_bar.json)
 
   Gerencie a barra de navegação na página inicial da interface do usuário do Guides, incluindo o perfil da pasta e os botões de seção de visão geral.
 
-- [&quot;file_mode_switcher&quot;](./jsons/toolbars/file_mode_switcher.json)
+- [`file_mode_switcher`](./jsons/toolbars/file_mode_switcher.json)
 
   Personalize o alternador de modo para selecionar modos de aplicativo (por exemplo, Autor, Source, Visualização) na parte inferior de cada arquivo aberto.

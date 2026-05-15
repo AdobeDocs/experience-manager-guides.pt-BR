@@ -5,9 +5,14 @@ exl-id: 6277e52d-1b05-4dd7-8d2b-4b94f329e2d7
 feature: Rest API DITA Map
 role: Developer
 level: Experienced
-source-git-commit: 1843cae11aac38053abc3c50fa2d00c050520470
+TQID: https://experienceleague.adobe.com/GT4JRw1nFV7M18tJX-0t0Gx-g0I9tA8XfXLGnnhvif0
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552eid: c6d09140-3c91-45d3-b7ed-b681af752f43
+subfeature_v2: id: b7cb7f25-3b6d-4e58-beab-fe9279275fe4
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: 626
 ht-degree: 4%
 
 ---
@@ -18,7 +23,7 @@ A API REST a seguir permite trabalhar com mapas DITA no AEM Guides.
 
 ## Baixar mapa DITA com dependentes
 
-Um método GET que baixa um mapa DITA com todos os seus dependentes, como tópicos, submapas, imagens e DTDs referenciados usados no mapa e nos tópicos.
+Um método do GET que baixa um mapa DITA com todos os seus dependentes, como tópicos referenciados, submapas, imagens e DTDs usados no mapa e nos tópicos.
 
 **Solicitar URL**:
 http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/fmdita/exportditamap
@@ -27,7 +32,7 @@ http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/fmdita/exportditamap
 
 | Nome | Tipo | Obrigatório | Descrição |
 |----|----|--------|-----------|
-| `ditamap` | String | Sim | Caminho absoluto do arquivo de mapa DITA no repositório AEM. |
+| `ditamap` | String | Sim | Caminho absoluto do arquivo de mapa DITA no repositório do AEM. |
 | `baseline` | String | Não | O título da linha de base usada para recuperar o conteúdo com versão. <br> **Observação:** o valor diferencia maiúsculas de minúsculas. |
 
 **Valores de resposta**:
@@ -44,9 +49,9 @@ http:*//&lt;aem-guides-server\>: &lt;número-porta\>/bin/dxml/async-export*
 
 | Nome | Tipo | Obrigatório | Descrição |
 |----|----|--------|-----------|
-| `ditamap` | String | Sim | Caminho absoluto do arquivo de mapa DITA no repositório AEM. |
+| `ditamap` | String | Sim | Caminho absoluto do arquivo de mapa DITA no repositório do AEM. |
 | `baseline` | String | Não | O título da linha de base usada para recuperar o conteúdo com versão. <br> **Observação:** o valor diferencia maiúsculas de minúsculas. |
-| `flatFS` | Booleano | Não | \(Opcional\) Se definido como verdadeiro, então uma estrutura simples de arquivos é retornada no arquivo ZIP. Por exemplo, se o mapa DITA fizer referência ao conteúdo em várias pastas, todos os arquivos referenciados serão colocados em uma única pasta. Caso haja arquivos com o mesmo nome, eles serão renomeados adicionando um sufixo numérico. Todas as referências \(no mapa DITA e em tópicos\) são manipuladas automaticamente, pois são atualizadas com base no novo local dos arquivos na estrutura de pasta simples. Se definido como falso, a estrutura de pastas será mantida como está no arquivo ZIP. Se o mapa DITA se referir a arquivos de vários locais, todos esses locais também serão criados no arquivo ZIP. Ao restaurar o arquivo ZIP, a estrutura de pastas exata é criada no local de destino. <br> O valor padrão para este parâmetro é false. |
+| `flatFS` | Booleano | Não | \(Opcional\) Se definido como verdadeiro, então uma estrutura simples de arquivos é retornada no arquivo ZIP. Por exemplo, se o mapa DITA fizer referência ao conteúdo em várias pastas, todos os arquivos referenciados serão colocados em uma única pasta. Caso haja arquivos com o mesmo nome, eles serão renomeados adicionando um sufixo numérico. Todas as referências \(no mapa DITA e em tópicos\) são manipuladas automaticamente, pois são atualizadas com base no novo local dos arquivos na estrutura de pasta simples. Se definido como falso, a estrutura de pastas será mantida como está no arquivo ZIP. Se o mapa DITA se referir a arquivos de vários locais, todos esses locais também serão criados no arquivo ZIP. Ao restaurar o arquivo ZIP, a estrutura de pastas exata é criada no local de destino. <br> O valor padrão desse parâmetro é false. |
 
 **Valores de resposta**:
 

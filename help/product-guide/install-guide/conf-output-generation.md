@@ -5,9 +5,15 @@ exl-id: 6df31e3c-683c-4188-b917-9c1855d9b95b
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/IkHZuSR5DLwAFy2ll9n0MN2syoqjScq7oUh7pRiQyjA
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: cb8c6a2a-3c38-4e40-867c-756f8c36bb0eid: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2: id: baa3aa24-d162-4a57-b73a-d27341145083id: ccd46b93-df7f-4458-ba4c-90a3562d9ab0id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3id: df6fa66f-4542-4a6d-90ca-9f146eb5d494id: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '5886'
+source-wordcount: 5886
 ht-degree: 1%
 
 ---
@@ -185,7 +191,7 @@ Execute as seguintes etapas para especificar seu próprio modelo de design a ser
 >
 > Depois de criar um nó de modelo de design personalizado, você deve atualizar a opção Design nas predefinições de saída do site do AEM para usar o nó de modelo de design personalizado.
 
-Para obter mais informações, consulte [Criar o seu primeiro site do Adobe Experience Manager 6.3](https://helpx.adobe.com/experience-manager/using/first_aem63_website.html) e [Noções básicas](https://helpx.adobe.com/br/experience-manager/6-3/sites/developing/using/the-basics.html) sobre como desenvolver seu próprio site no AEM.
+Para obter mais informações, consulte [Criar o seu primeiro site do Adobe Experience Manager 6.3](https://helpx.adobe.com/experience-manager/using/first_aem63_website.html) e [Noções básicas](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/the-basics.html) sobre como desenvolver seu próprio site no AEM.
 
 ### Usar o título do documento para gerar a saída do site do AEM
 
@@ -332,7 +338,7 @@ Para excluir o elemento `table` do nivelamento, adicione a seguinte propriedade 
 
 ### Configurar o controle de versão para páginas excluídas na saída do site do AEM
 
-Ao gerar a saída de Site do AEM com as opções **Excluir e** Criar **&#x200B;**&#x200B;selecionadas para a configuração Páginas de Saída Existentes, uma versão é criada para a página\(s\) que está sendo excluída. Você pode configurar o sistema para interromper a criação de uma versão antes da exclusão.
+Ao gerar a saída de Site do AEM com as opções **Excluir e** Criar ****selecionadas para a configuração Páginas de Saída Existentes, uma versão é criada para a página\(s\) que está sendo excluída. Você pode configurar o sistema para interromper a criação de uma versão antes da exclusão.
 
 Execute as seguintes etapas para interromper a criação de uma versão para a página\(s\) que está sendo excluída:
 
@@ -642,11 +648,11 @@ A AEM Guides fornece a categoria `apps.fmdita.dashboard-extn` para personalizar 
 
 >[!NOTE]
 >
-> Para obter mais informações sobre como criar a Biblioteca de Cliente do AEM, consulte [Usando Bibliotecas do Lado do Cliente](https://helpx.adobe.com/br/experience-manager/6-4/sites/developing/using/clientlibs.html).
+> Para obter mais informações sobre como criar a Biblioteca de Cliente do AEM, consulte [Usando Bibliotecas do Lado do Cliente](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/clientlibs.html).
 
 ## Manipular a representação da imagem durante a geração da saída {#id177BF0G0VY4}
 
-O AEM vem com um conjunto de workflows e manipuladores de mídia padrão para processar ativos. No AEM, há fluxos de trabalho predefinidos para lidar com o processamento de ativos para os tipos MIME mais comuns. Normalmente, para cada imagem que você carrega, o AEM cria várias representações da mesma em formato binário. Essas representações podem ser de tamanhos diferentes, com uma resolução diferente, com uma marca d&#39;água adicionada ou alguma outra característica alterada. Para obter mais informações sobre como o AEM lida com ativos, consulte [Processando o Assets usando Manipuladores e fluxos de trabalho de mídia](https://helpx.adobe.com/br/experience-manager/6-5/assets/using/media-handlers.html) na documentação do AEM.
+O AEM vem com um conjunto de workflows e manipuladores de mídia padrão para processar ativos. No AEM, há fluxos de trabalho predefinidos para lidar com o processamento de ativos para os tipos MIME mais comuns. Normalmente, para cada imagem que você carrega, o AEM cria várias representações da mesma em formato binário. Essas representações podem ser de tamanhos diferentes, com uma resolução diferente, com uma marca d&#39;água adicionada ou alguma outra característica alterada. Para obter mais informações sobre como o AEM lida com ativos, consulte [Processando o Assets usando Manipuladores e fluxos de trabalho de mídia](https://helpx.adobe.com/experience-manager/6-5/assets/using/media-handlers.html) na documentação do AEM.
 
 O AEM Guides permite configurar qual representação de imagem usar no momento da geração de saída para seus documentos. Por exemplo, você pode escolher uma das representações de imagem padrão ou criar uma e usar a mesma para publicar seus documentos. O mapeamento de representação de imagem para publicação de seus documentos está armazenado no arquivo `/libs/fmdita/config/ **renditionmap.xml**`. Um trecho do arquivo `renditionmap.xml` é o seguinte:
 

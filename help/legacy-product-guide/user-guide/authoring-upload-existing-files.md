@@ -5,9 +5,13 @@ feature: Content Management
 role: User
 hide: true
 exl-id: fcb2cc43-6a36-42f2-a695-7a50ae1031a0
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+TQID: https://experienceleague.adobe.com/Kcxzs3D9Vcp7hhgttmCx7jdetS8NWR8YTP85UY0DlJU
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: 451
 ht-degree: 0%
 
 ---
@@ -18,19 +22,19 @@ Provavelmente você teria um repositório de conteúdo DITA existente que gostar
 
 >[!IMPORTANT]
 >
-> Consulte [Adicionar ativos digitais ao Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=pt-BR) para obter informações detalhadas sobre os métodos de carregamento de conteúdo compatíveis no AEM.
+> Consulte [Adicionar ativos digitais ao Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html) para obter informações detalhadas sobre os métodos de carregamento de conteúdo compatíveis no AEM.
 
 ## Interface do usuário do console do Assets
 
-Você pode selecionar o conteúdo na área de trabalho e arrastar a interface do usuário do AEM \(navegador da Web\) para a pasta de destino. Para obter mais detalhes, consulte [Fazer upload de ativos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=pt-BR#upload-assets) na documentação do AEM.
+Você pode selecionar o conteúdo na área de trabalho e arrastar a interface do usuário do AEM \(navegador da Web\) para a pasta de destino. Para obter mais detalhes, consulte [Fazer upload de ativos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#upload-assets) na documentação do AEM.
 
 ## Aplicativo de desktop do AEM
 
-Use o aplicativo de desktop do AEM se você for um profissional criativo e quiser gerenciar os ativos no desktop local. É possível abrir e editar esses ativos com seus aplicativos de desktop. Você também pode manter versões e compartilhar seus arquivos com outros usuários. Para obter mais detalhes, consulte [aplicativo de desktop do AEM](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html?lang=pt-BR).
+Use o aplicativo de desktop do AEM se você for um profissional criativo e quiser gerenciar os ativos no desktop local. É possível abrir e editar esses ativos com seus aplicativos de desktop. Você também pode manter versões e compartilhar seus arquivos com outros usuários. Para obter mais detalhes, consulte [aplicativo de desktop do AEM](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html).
 
 ## Assimilador de ativos em massa
 
-Se você tiver migrações em grande escala e assimilações ocasionais em massa, use o Assimilador de ativos em massa para fazer upload de conteúdo. Com essa ferramenta, você pode fazer upload de conteúdo em massa de armazenamentos de dados compatíveis, como o Azure ou S3. Para obter mais detalhes, consulte [Assimilação de ativos em massa](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=pt-BR#asset-bulk-ingestor).
+Se você tiver migrações em grande escala e assimilações ocasionais em massa, use o Assimilador de ativos em massa para fazer upload de conteúdo. Com essa ferramenta, você pode fazer upload de conteúdo em massa de armazenamentos de dados compatíveis, como o Azure ou S3. Para obter mais detalhes, consulte [Assimilação de ativos em massa](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=en#asset-bulk-ingestor).
 
 ## Usar o FrameMaker para upload em massa
 
@@ -48,4 +52,4 @@ Para obter mais detalhes sobre como os vários cenários de carregamento de arqu
 
 Caso use uma ferramenta como o aplicativo de desktop do AEM ou o Assimilador de ativos em massa, a ação a ser executada em um arquivo duplicado é controlada por uma configuração no servidor do AEM. Entre em contato com o administrador do sistema para saber sobre essa configuração.
 
-**Tópico pai:**&#x200B;[&#x200B; Gerenciar conteúdo](authoring.md)
+**Tópico pai:**[ Gerenciar conteúdo](authoring.md)

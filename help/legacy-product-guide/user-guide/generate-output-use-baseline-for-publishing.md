@@ -5,9 +5,14 @@ feature: Publishing
 role: User
 hide: true
 exl-id: d4892eca-2715-4bd6-8ac8-0a8edff2c4f8
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/gekOxsimiTMF2Ch3cRsMAkMMnI7tRKVKZmdTVU9cxTs
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1972'
+source-wordcount: 1972
 ht-degree: 0%
 
 ---
@@ -53,7 +58,7 @@ Execute as seguintes etapas para criar uma linha de base:
 
    Ao selecionar **Rótulo**, você também receberá uma opção adicional para usar a versão mais recente de tópicos que não têm o rótulo especificado aplicado a eles. Se você não selecionar essa opção e houver qualquer tópico ou arquivo de mídia sem o rótulo especificado, o processo de criação da linha de base falhará. Para obter mais informações sobre como adicionar rótulos, consulte [Usar rótulos](web-editor-use-label.md#).
 
-   - **Versão em** &lt;*carimbo de data/hora*\>: Seleciona a versão dos tópicos como na data e hora especificadas. Observe que a hora especificada aqui corresponde ao fuso horário do seu servidor AEM. Se o servidor estiver em um fuso horário diferente, os tópicos serão abordados de acordo com o fuso horário do servidor e não do fuso horário local.
+   - **Versão em** &lt;*carimbo de data/hora*\>: escolhe a versão dos tópicos como na data e hora especificadas. Observe que a hora especificada aqui corresponde ao fuso horário do seu servidor AEM. Se o servidor estiver em um fuso horário diferente, os tópicos serão abordados de acordo com o fuso horário do servidor e não do fuso horário local.
 
    Depois de selecionar um rótulo ou uma versão como na data, todos os tópicos e arquivos de mídia referenciados no mapa são selecionados adequadamente. Essa seleção de tópicos não é exibida na interface do usuário, mas é salva no back-end.
 
@@ -183,4 +188,4 @@ Execute as seguintes etapas para exportar uma Linha de Base traduzida:
 1. \(Opcional\) Para exportar uma Linha de Base que já foi exportada, selecione **Substituir Linha de Base Existente** e clique em **Exportar Linha de Base**.
 
 
-**Tópico pai:**&#x200B;[&#x200B; Geração de saída](generate-output.md)
+**Tópico pai:**[ Geração de saída](generate-output.md)

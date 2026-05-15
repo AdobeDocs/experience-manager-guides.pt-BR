@@ -5,9 +5,15 @@ feature: Authoring
 role: User
 hide: true
 exl-id: c2c24b6f-08e8-47be-be33-b3e9fb50052e
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/hTvisfQhFZYZ5DBE4EBhhx8-i635Wbt1rt0tmzXQo3g
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8id: f6b497f1-f8e0-42ce-8e95-56c28d94026eid: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1863'
+source-wordcount: 1863
 ht-degree: 0%
 
 ---
@@ -219,4 +225,4 @@ Se a coluna Com check-out não estiver visível, selecione **Configurações de 
 
   Uma nova ramificação é criada a partir da versão selecionada do tópico. O processo acima também é aplicável para reverter para uma versão específica de um tópico. Reverter para uma versão específica tecnicamente significa que você cria uma nova ramificação da versão selecionada e torna essa versão a cópia de trabalho atual do tópico. Você também pode exibir o histórico de arquivos que foram revertidos no relatório Histórico de reversão da versão. Para obter mais detalhes sobre este relatório, consulte [Relatório de histórico de versão de arquivos revertidos](reports-reverted-file-version-history.md#).
 
-**Tópico pai:**&#x200B;[&#x200B; Criar e visualizar tópicos](create-preview-topics.md)
+**Tópico pai:**[ Criar e visualizar tópicos](create-preview-topics.md)

@@ -5,10 +5,14 @@ exl-id: b801c2b3-445f-4aa7-a4f2-029563d7cb3a
 feature: Java-Based API Packages
 role: Developer
 level: Experienced
-source-git-commit: ed0b0e6124a8656e711a8e64b290b805569fbd48
+TQID: https://experienceleague.adobe.com/g5Mp7tMM9JaAYwNmMyPmaFEcI0fx66vrX8ry97lIUF8
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552eid: a3bd6397-2eb2-4908-a61c-226e26855dcaid: c6d09140-3c91-45d3-b7ed-b681af752f43
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 1%
+source-wordcount: 618
+ht-degree: 0%
 
 ---
 
@@ -83,7 +87,7 @@ throws GuidesApiException
 | `json` | String | Sequência JSON que determina o pacote do CRX a ser criado. Use o formato a seguir para criar a cadeia de caracteres JSON: <br>- `activate`: É do tipo Booleano \(`true`/`false`\). Determina se o pacote do CRX criado na instância do autor é replicado para a instância de publicação. <br> - `rules`: É do tipo Matriz JSON. Uma matriz de regras JSON, que são processadas sequencialmente para criar o pacote do CRX. <br> - `rootPath`: É do tipo String. O caminho base no qual as consultas de nó/propriedade são executadas. Se nenhuma consulta de nó/propriedade estiver presente, o caminho raiz e todos os nós presentes no caminho raiz serão incluídos no pacote do CRX. <br> - `nodeQueries`: É do tipo Matriz Regex. Uma matriz de expressões regulares usadas para incluir arquivos específicos no caminho raiz. <br> - `propertyQueries`: É do tipo Matriz JSON. Uma matriz de Objetos JSON com cada Objeto JSON que consiste em uma consulta XPath a ser executada no caminho raiz e o nome de uma propriedade presente em cada nó JCR após a execução da consulta. O valor da propriedade em cada nó JCR deve ser um caminho ou uma matriz de caminhos. Os caminhos presentes nessa propriedade são adicionados ao pacote do CRX. |
 | `outputstream` | java.io.OutputStream | Isso é usado para gravar o resultado de vários estágios, como execução de consulta, inclusão de arquivo, criação de pacote do CRX ou ativação. Qualquer erro encontrado durante o processo de criação ou ativação é gravado no `outputstream`. Isso é útil para depuração. |
 | `session` | String | Uma sessão JCR válida com permissão de ativação. |
-| `activationTarget` | String | (*Opcional*) `preview` ou `publish` para o Cloud Service e `publish` para o Software Local <br> - Para o Cloud Service, se o parâmetro contiver um valor inválido, a ativação do pacote falhará. <br> - Para Software Local, se o parâmetro contiver um valor inválido, o erro será registrado e a publicação será feita usando o valor padrão, `publish`. |
+| `activationTarget` | String | (*Opcional*) `preview` ou `publish` para Cloud Service e `publish` para Software Local <br> - Para Cloud Service, se o parâmetro contiver um valor inválido, a ativação do pacote falhará. <br> - Para Software Local, se o parâmetro contiver um valor inválido, o erro será registrado e a publicação será feita usando o valor padrão, `publish`. |
 
 **Exceção**:
 

@@ -5,9 +5,14 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: a9551eb0-ad30-424d-b1c8-c079125d8118
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/CyM9kTBYOhhD-dO1WE--B1vrT-LYhl4WEhjoHC-CUSQ
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: 1036
 ht-degree: 0%
 
 ---
@@ -74,4 +79,4 @@ No modo Editor da Web, o painel direito contém os ícones Revisar e Alteraçõe
 - **I**: aplicar um filtro aos comentários. Você pode filtrar para ver comentários com base no Tipo de revisão \(todos, realçado, excluído, inserido ou nota adesiva\), Status da revisão \(todos, aceitos, rejeitados ou nenhum\), Revisores \(todos ou revisores específicos\(s\)\) ou Versões do tópico.
 
 
-**Tópico pai:**&#x200B;[&#x200B; Tópicos ou mapas de revisão](review.md)
+**Tópico pai:**[ Tópicos ou mapas de revisão](review.md)

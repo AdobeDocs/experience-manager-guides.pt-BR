@@ -5,9 +5,15 @@ exl-id: 05d4d876-f83b-473c-bf31-14d6565e80e2
 feature: AEM Guides FrameMaker Publishing Server
 author: Pulkit Nagpal(punagpal)
 role: User, Admin
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+TQID: https://experienceleague.adobe.com/-qkx3TRKOd-kPx1tFrguuWvBY4hIIyqLdCfKDQzR5jg
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: 779
 ht-degree: 0%
 
 ---
@@ -19,9 +25,9 @@ O artigo ajuda na configuração e execução do FMPS com o AEM Guides.
 
 ## Compatibilidade do FMPS com o AEM Guides
 
-- Compatibilidade com o 4.1 AEM Guides: [4.1 matriz de compatibilidade](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=pt-BR/#compatibility-matrix)
+- Compatibilidade com o 4.1 AEM Guides: [4.1 matriz de compatibilidade](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=en/#compatibility-matrix)
 - Compatibilidade com o AEM Guides 4.0: [Matriz de compatibilidade 4.0](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html/#Compatibility%20matrix)
-- Versão mais recente: [Informações da versão mais recente](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=pt-BR)
+- Versão mais recente: [Informações da versão mais recente](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=en)
 
 ## Instalação
 
@@ -85,7 +91,7 @@ Você pode publicar suas linhas de base já criadas com o FMPS2020.0.2 ou versã
 ### A linha de base não está sendo publicada do FMPS
 
 >O FMPS2020.0.2 ou versões posteriores são compatíveis com a publicação da linha de base.
->Certifique-se de que sua linha de base foi criada corretamente. Para verificar, vá para o Painel do mapa — Tópicos— Download  Mapeie e escolha &quot;Usar linha de base&quot;.
+>Verifique se a linha de base foi criada corretamente. Para verificar, vá para o Painel do mapa — Tópicos — Baixe o mapa e escolha &quot;Usar linha de base&quot;.
 
 ### Tarefas de Publicação do FMPS levam mais tempo do que outros Mecanismos
 
@@ -93,10 +99,10 @@ Você pode publicar suas linhas de base já criadas com o FMPS2020.0.2 ou versã
 
 ## Outros recursos:
 
-[Aprendizagem e Suporte do FMPS](https://helpx.adobe.com/br/support/framemaker-publishing-server.html)
+[Aprendizagem e suporte do FMPS](https://helpx.adobe.com/support/framemaker-publishing-server.html)
 
-[Aprendizagem e Suporte do AEM Guides](https://helpx.adobe.com/in/support/xml-documentation-for-experience-manager.html)
+[Aprendizagem e suporte do AEM Guides](https://helpx.adobe.com/in/support/xml-documentation-for-experience-manager.html)
 
 [Comunidade FrameMaker e FMPS](https://community.adobe.com/t5/framemaker/ct-p/ct-framemaker?page=1&sort=latest_replies&lang=all&tabid=all)
 
-[Comunidade AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=pt)
+[Comunidade AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)

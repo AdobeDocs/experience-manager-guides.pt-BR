@@ -3,9 +3,15 @@ title: Notas de versão | Novidades na versão 4.4.0 do Adobe Experience Manager
 description: Saiba mais sobre os recursos novos e aprimorados da versão 4.4.0 do Adobe Experience Manager Guides
 role: Leader
 exl-id: 63a2e93b-b4cf-4423-88e4-b01c6a52a532
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/7pICeMz0HYAqm1W-OLS3Tk-7VY1DCNGvf4crX-uFz28
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d6596f3f-92a7-43ec-b444-237db6adad05id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0efid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '2318'
+source-wordcount: 2318
 ht-degree: 0%
 
 ---
@@ -33,7 +39,7 @@ Saiba mais sobre a descrição do recurso **Histórico de Versões** na seção 
 
 Você pode definir atributos de condição em seus tópicos DITA. Em seguida, use os atributos de condição na predefinição de condição para publicar o conteúdo em um mapa DITA. O Experience Manager Guides agora também oferece uma experiência aprimorada no Editor da Web, que ajuda a criar e gerenciar predefinições de condição com mais eficiência. Também é possível editá-los, duplicá-los ou excluí-los facilmente.
 
-![Predefinições de condição da guia Gerenciar do editor da Web &#x200B;](assets/web-editor-manage-condition-presets.png){width="550"}
+![Predefinições de condição da guia Gerenciar do editor da Web ](assets/web-editor-manage-condition-presets.png){width="550"}
 
 Para obter mais detalhes, consulte [Usar predefinições de condição](../user-guide/generate-output-use-condition-presets.md).
 
@@ -80,7 +86,7 @@ As opções **Atualização manual** e **Atualização automática** são mais i
 Também permite duplicar uma linha de base com base no rótulo. A versão de referência é separada com base no rótulo fornecido (se existir) durante a duplicação, ou então escolhe a versão da linha de base duplicada.
 
 
-![duplicar uma linha de base &#x200B;](assets/duplicate-baseline.png) {width="300"}
+![duplicar uma linha de base ](assets/duplicate-baseline.png) {width="300"}
 
 *Duplique uma linha de base com base em um rótulo ou crie uma cópia exata.*
 

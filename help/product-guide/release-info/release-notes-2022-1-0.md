@@ -4,10 +4,16 @@ description: Versão de janeiro do  [!DNL Adobe Experience Manager Guides] as a 
 exl-id: b2da77fa-f17c-440b-be59-acaafcd9a57c
 feature: Release Notes
 role: Leader
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+TQID: https://experienceleague.adobe.com/-ddCfI97I7XJ-OuoritVp7KRCRst5veYuu3oSQWZw9Y
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: cb8c6a2a-3c38-4e40-867c-756f8c36bb0eid: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2: id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '2440'
-ht-degree: 0%
+source-wordcount: 2463
+ht-degree: 3%
 
 ---
 
@@ -195,7 +201,7 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 ### Mapear painel
 
 * Não é possível ver o conteúdo conref no título de um tópico nos tópicos do painel do mapa ou na guia de relatórios. (8263)
-* O AEM Sites Output | jcr:title da página de site gerada não é atualizado quando o título do tópico DITA é atualizado. (8131)
+* Saída do AEM Sites | jcr:title da página de site gerada não é atualizado quando o título do tópico DITA é atualizado. (8131)
 * Baixar MAPA não baixa os arquivos de vídeo usados nos tópicos. (8070)
 * Os arquivos de mídia não são baixados quando a tag do objeto é usada por meio da API de download de mapa. (8057)
 * Um relatório incorreto é mostrado na guia Relatórios se qualquer tópico tiver conref para o arquivo cujo título começa com conref. (4698)
@@ -234,9 +240,9 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 
 ### Importação de conteúdo
 
-* Conversão do HTML em DITA | A tabela com entradas &#39;td&#39; vazias provoca linhas adicionais na saída. (8132)
-* Conversão do HTML para o DITA | O HTML com uma tabela com vários corpos falha, com exceção. (7940)
-* Conversão de HTML para DITA | erros desativados se o HTML de origem tiver comentários. (7937)
+* Conversão do HTML em DITA | A tabela com &#39;tr&#39; com entradas &#39;td&#39; vazias causa linhas adicionais na saída. (8132)
+* Conversão do HTML em DITA | O HTML que tem uma tabela com vários corpos falha, com exceção. (7940)
+* Conversão do HTML em DITA | erros serão excluídos se o HTML de origem tiver comentários. (7937)
 * A importação de arquivos DITA 1.3 DITA faz com que alguns href se transformem em links malformados. (8019)
 
 ## Problemas conhecidos

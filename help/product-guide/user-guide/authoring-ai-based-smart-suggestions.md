@@ -2,9 +2,14 @@
 title: Sugestões inteligentes alimentadas por IA para criar conteúdo
 description: Saiba como visualizar e utilizar sugestões inteligentes habilitadas por IA no Editor da Web.
 exl-id: 23c5285e-0d4f-484a-a062-fe1ba1608b8d
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/M46mebqRPlx-9qmpAG3rB3xwREgEbW9yx-VKLyuNFyg
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: ac5ecfc1-cc78-4ecc-a90a-0362685062ce
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: bf7fca06-df97-4229-884f-76afcfade5adid: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: 690
 ht-degree: 0%
 
 ---
@@ -24,18 +29,18 @@ Execute as seguintes etapas para exibir as sugestões inteligentes para adiciona
 
 
 1. Selecione o conteúdo do tópico para exibir as sugestões relacionadas. Verifique se o comprimento de caracteres do conteúdo excede o que o administrador definiu no perfil da pasta para que as sugestões de conteúdo sejam exibidas.
-1. No **Painel de criação** do Assistente de IA, selecione **Sugerir conteúdo reutilizável** ![ia sugerir ícone de conteúdo reutilizável &#x200B;](./images/ai-suggest-reusable-content-icon.svg).
+1. No **Painel de criação** do Assistente de IA, selecione **Sugerir conteúdo reutilizável** ![ia sugerir ícone de conteúdo reutilizável ](./images/ai-suggest-reusable-content-icon.svg).
 
 1. Selecione uma tag para exibir as sugestões de criação para a tag atual.  As sugestões para exibir e adicionar referências de conteúdo dos arquivos indexados são exibidas com base no conteúdo da tag atual. Também é possível selecionar várias tags.
 
 
-1. Selecione todas as tags para exibir as sugestões com base no conteúdo presente no documento completo.  O ícone **Sugerir conteúdo reutilizável** ![ai sugerir conteúdo reutilizável &#x200B;](./images/ai-suggest-reusable-content-icon.svg) é exibido ao lado do conteúdo, onde uma correspondência adequada é encontrada.
+1. Selecione todas as tags para exibir as sugestões com base no conteúdo presente no documento completo.  O ícone **Sugerir conteúdo reutilizável** ![ai sugerir conteúdo reutilizável ](./images/ai-suggest-reusable-content-icon.svg) é exibido ao lado do conteúdo, onde uma correspondência adequada é encontrada.
 
 
 
    >[!NOTE]
    >
-   > Você só pode exibir as sugestões para o visor atual (o conteúdo visível na tela). Para exibir sugestões para qualquer outro conteúdo do documento, role para cima ou para baixo para exibi-lo no visor e selecione **Sugerir conteúdo reutilizável** ![ai sugerir ícone de conteúdo reutilizável &#x200B;](./images/ai-suggest-reusable-content-icon.svg).
+   > Você só pode exibir as sugestões para o visor atual (o conteúdo visível na tela). Para exibir sugestões para qualquer outro conteúdo do documento, role para cima ou para baixo para exibi-lo no visor e selecione **Sugerir conteúdo reutilizável** ![ai sugerir ícone de conteúdo reutilizável ](./images/ai-suggest-reusable-content-icon.svg).
 
 
 1. Você pode exibir as sugestões inteligentes no painel de sugestões.  O Experience Manager Guides fornece sugestões de conteúdo que é contextualmente semelhante ou tem o mesmo significado. Por exemplo, você pode pesquisar pelo tópico que contém o número exato da versão, como &quot;versão 2023.03.12&quot;. Você também pode pesquisar por &quot;Adobe tem sede em San Jose, Califórnia&quot; e encontrar conteúdo semelhante a &quot;San Jose tem o quartel de muitas empresas de software, como a Adobe&quot;.
@@ -49,7 +54,7 @@ Execute as seguintes etapas para exibir as sugestões inteligentes para adiciona
    1. O caminho do arquivo que contém a referência de conteúdo.
    1. O tipo de referência para o qual o conteúdo é referenciado.
    1. Os nomes dos arquivos DITA para os quais o tópico é referido são exibidos como hiperlinks.
-1. Selecione o **ícone de visualização** ![para comparar o conteúdo atual com o conteúdo sugerido. &#x200B;](./images/expand-icon.svg)Isso o ajuda a comparar as diferenças e determinar se deseja adicionar a referência de conteúdo para o conteúdo sugerido e torná-lo consistente ou manter o conteúdo atual.
+1. Selecione o **ícone de visualização** ![para comparar o conteúdo atual com o conteúdo sugerido. ](./images/expand-icon.svg)Isso o ajuda a comparar as diferenças e determinar se deseja adicionar a referência de conteúdo para o conteúdo sugerido e torná-lo consistente ou manter o conteúdo atual.
 
    ![Sugerir visualização de conteúdo reutilizável](images/ai-assistant-suggest-reusable-content.png)
 

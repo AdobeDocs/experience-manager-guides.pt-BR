@@ -4,10 +4,15 @@ description: Conhecer o uso de predefinições de condição no AEM Guides. Saib
 exl-id: f6865a34-abdd-4d23-b903-0211bebd13b7
 feature: Publishing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+TQID: https://experienceleague.adobe.com/IKcIREoHuXjW-uUDFS6ifRhjzzUoKCXPMW5ip2OKBZU
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2: id: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1152'
-ht-degree: 1%
+source-wordcount: 1154
+ht-degree: 2%
 
 ---
 
@@ -58,7 +63,7 @@ A exibição **Predefinições de Condição** fornece informações detalhadas 
 1. Selecione **Remover** na barra de ações na parte superior para remover os atributos selecionados no painel direito.
 1. (Opcional) Se necessário, é possível substituir a ação aplicada aos atributos.
 
-   Siga um destes procedimentos:
+   Siga uma das seguintes opções:
 Para qualquer atributo, selecione uma das seguintes ações no menu suspenso Ação ou na barra de ferramentas.
 
    - Incluir
@@ -169,4 +174,4 @@ A ação é definida como ação padrão para todos os atributos, sejam eles adi
 1. Selecione o botão **Remover**.
 1. Selecione **Remover** para confirmar a ação.
 
-**Tópico pai:**&#x200B;[&#x200B; Geração de saída](generate-output.md)
+**Tópico pai:**[ Geração de saída](generate-output.md)
