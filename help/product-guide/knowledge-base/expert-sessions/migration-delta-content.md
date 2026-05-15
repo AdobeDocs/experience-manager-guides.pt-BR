@@ -54,7 +54,7 @@ Nesta sessão, abordamos:
 - [Utilização do gerenciador de pacotes para transferir conteúdo](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager)
 - [Migrando conteúdo de não UUID para UUID](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/on-prem-ig/content-migration/migration-process/migrate-non-uuid-uuid)
 - [AEM Guides: mover o conteúdo UUID do local/AMS para a nuvem](../../cs-install-guide/migrate-on-premise-content-cloud.md)
-- [Migrar para a AEM Cloud](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/getting-started)
+- [Migrar para a AEM Cloud](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/migration-journey/getting-started)
 - [AEM Guides: migração de conteúdo não uuid para a nuvem](../../install-guide/migrate-uuid-non-uuid.md)
 
 ### Fórum da comunidade

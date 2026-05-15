@@ -24,7 +24,7 @@ ht-degree: 0%
 
 O AEM Guides é um plug-in que é instalado sobre o Adobe Experience Manager. A instalação do AEM exige a compreensão de alguns conceitos básicos do AEM e cenários de implantação recomendados. Os links a seguir ajudarão você a começar a instalação do AEM:
 
-- [Conceitos básicos de AEM](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/deploy.html#BasicConcepts)
+- [Conceitos básicos de AEM](https://helpx.adobe.com/br/experience-manager/6-5/sites/deploying/using/deploy.html#BasicConcepts)
 
 - [Implantações recomendadas do AEM](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/recommended-deploys.html)
 
@@ -33,7 +33,7 @@ O AEM Guides é um plug-in que é instalado sobre o Adobe Experience Manager. A 
 >
 > Se você estiver usando o Java 11 com o AEM 6.5.x, poderá enfrentar um problema - *O JDK 11 causa`NoClassDefFoundError`*. Consulte o artigo [JDK 11 cause NoClassDefFoundError \| AEM 6.5](https://helpx.adobe.com/experience-manager/kb/jdk-11-causes-noclassdeffounderror---aem-6-5.html) para resolver esse problema.
 
-Depois de identificar a estratégia de implantação que funciona melhor para sua organização, execute o processo de instalação conforme descrito na seção *[Introdução](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/deploy.html#GettingStarted)* da documentação do AEM.
+Depois de identificar a estratégia de implantação que funciona melhor para sua organização, execute o processo de instalação conforme descrito na seção *[Introdução](https://helpx.adobe.com/br/experience-manager/6-5/sites/deploying/using/deploy.html#GettingStarted)* da documentação do AEM.
 
 Se você planeja atualizar sua instância do AEM, siga a sequência fornecida:
 
