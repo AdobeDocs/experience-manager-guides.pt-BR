@@ -6,8 +6,11 @@ role: User
 hide: true
 exl-id: 371d89b8-fe05-4477-9bf8-cc47c0899108
 TQID: https://experienceleague.adobe.com/q07HdBMHuEyjdQ12idI4-PuBol-NpCWXTsOuZgcAhps
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 2362
@@ -253,4 +256,4 @@ Selecione uma ou mais das seguintes opções de filtragem na caixa de diálogo *
 
 Para remover o filtro e exibir todos os comentários, desmarque todos os filtros da caixa de diálogo **Tipo de Filtro** e clique em **Aplicar**.
 
-**Tópico pai:**[ Tópicos ou mapas de revisão](review.md)
+**Tópico pai:**&#x200B;[&#x200B; Tópicos ou mapas de revisão](review.md)

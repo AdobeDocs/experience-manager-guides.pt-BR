@@ -6,11 +6,17 @@ role: User
 hide: true
 exl-id: d0fc902a-0b50-4af5-9e24-5564d216396c
 TQID: https://experienceleague.adobe.com/hhpFHjRAKTqhGfNNGNREL3-9-XXzCt7vFsbmPYnuLo0
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: d90290ec-3e61-4ebd-8649-bcafe0836803
-subfeature_v2: id: cdab8659-8d50-4417-b6fd-762f347c13ee
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2:
+  - id: cdab8659-8d50-4417-b6fd-762f347c13ee
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 2384
@@ -121,7 +127,7 @@ O relatório **Multimídia** fornece informações detalhadas sobre a multimídi
 1. Clique duas vezes em **Multimídia** à esquerda. A lista de multimídia presente no mapa DITA é exibida.
 1. No painel **Filtros**, você pode ordenar a lista por multimídia ou pelos nomes de usados nas referências.
 
-   - Ao fazer o pedido por **Multimídia**, o****nome da multimídia é exibido na primeira coluna e, em seguida, os nomes de todas as referências nas quais foram usados são exibidos em outra coluna na mesma linha. Por exemplo, a captura de tela a seguir mostra a multimídia WarmCoolForC.gif na primeira coluna e três referências nas quais ela é usada são exibidas na terceira coluna na mesma linha.
+   - Ao fazer o pedido por **Multimídia**, o&#x200B;**&#x200B;**&#x200B;nome da multimídia é exibido na primeira coluna e, em seguida, os nomes de todas as referências nas quais foram usados são exibidos em outra coluna na mesma linha. Por exemplo, a captura de tela a seguir mostra a multimídia WarmCoolForC.gif na primeira coluna e três referências nas quais ela é usada são exibidas na terceira coluna na mesma linha.
 
      ![](images/multimedia-report-file-order.png){width="650"}
 
@@ -200,4 +206,4 @@ Clique em **Atualizar** para obter uma nova lista de links com falha e exibir qu
 1. Clique em **Baixar CSV** para baixar o instantâneo atual dos links corrompidos no mapa DITA. O CSV contém as colunas selecionadas e os links quebrados filtrados na exibição Links quebrados. Em seguida, você pode abrir e visualizar esse arquivo CSV em qualquer editor CSV.
 
 
-**Tópico pai:**[ Relatórios](reports-intro.md)
+**Tópico pai:**&#x200B;[&#x200B; Relatórios](reports-intro.md)
