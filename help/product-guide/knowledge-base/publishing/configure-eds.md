@@ -5,7 +5,7 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: a4623088-a867-4079-80d6-20866c99683e
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: e4031aa4309a2c02ffb3a678586643f2a8bdc44b
 workflow-type: tm+mt
 source-wordcount: '1613'
 ht-degree: 1%
@@ -24,7 +24,7 @@ Para habilitar a publicação do Experience Manager Guides no EDS (Beta), você 
 2. [Criar e configurar um perfil de publicação para EDS (Beta) no Experience Manager Guides](#create-and-configure-a-publish-profile-for-eds-beta-in-experience-manager)
 3. [Personalizar saída usando blocos EDS](#customize-output-using-eds-blocks)
 
-Para obter uma apresentação rápida em vídeo, exiba [Publicação no AEM Guides](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25).
+Para obter uma apresentação rápida em vídeo, exiba [Publicação no AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25).
 
 
 
@@ -60,12 +60,14 @@ Execute as seguintes etapas para instalar e configurar o aplicativo *AEM Code Sy
 
    >[!NOTE]
    >
-   > Ao instalar o aplicativo, certifique-se de usar a mesma conta GitHub que possui o repositório.
+   >Ao instalar o aplicativo, certifique-se de usar a mesma conta GitHub que possui o repositório.
 
    ![](assets/eds-aem-code-sync-page.png)
+
 3. Na próxima página, conceda acesso ao repositório criado. Para fazer isso, selecione a opção **Selecionar apenas repositórios** e selecione seu repositório na lista suspensa.
 
    ![](assets/eds-aem-code-sync-install-authorize.png){width="350"}
+
 4. Selecione **Instalar e autorizar**.
 
 Você é redirecionado para a página de configuração do GitHub, confirmando o registro bem-sucedido do aplicativo *AEM Code Sync*. Você também pode salvar a Visualização e os URLs em tempo real do seu site nesta página.
@@ -79,7 +81,9 @@ Você é redirecionado para a página de configuração do GitHub, confirmando o
 3. Selecione **Novo aplicativo GitHub**.
 
    ![](assets/eds-new-github-app.png){width="650"}
+
 4. Na página **Registrar novo aplicativo GitHub**, forneça os seguintes detalhes:
+
    - **Nome do aplicativo GitHub**: digite um nome para o aplicativo. Por exemplo, `USERNAME-eds-app` onde USERNAME é seu nome de usuário do GitHub.
    - **URL da Página Inicial**: Insira a URL para a instância do Experience Manager Guides.
 
@@ -89,6 +93,7 @@ Você é redirecionado para a página de configuração do GitHub, confirmando o
    - **URL de retorno**: igual à URL da Página Inicial.
    - **URL do Webhook**: desabilite esta opção.
    - **Permissões do repositório**: Defina **Permissões de Leitura e Gravação** para *Ações, Administração e Atestado*.
+
 5. Selecione **Criar aplicativo GitHub**.
 
 Seu aplicativo está pronto agora. Você é redirecionado para a página **Configurações** do seu aplicativo GitHub.
@@ -237,5 +242,6 @@ Em alguns casos, convém estilizar apenas uma parte específica do conteúdo. Ex
 6. Confirme as alterações e gere novamente a saída.
 
 O conteúdo selecionado agora exibe o estilo personalizado definido no bloco.
+
 
 ![](assets/eds-example-output.png){width="650"}
