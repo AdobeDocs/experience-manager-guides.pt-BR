@@ -5,9 +5,9 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: a4623088-a867-4079-80d6-20866c99683e
-source-git-commit: e4031aa4309a2c02ffb3a678586643f2a8bdc44b
+source-git-commit: 18a4473776955700003c2381494dd5325120ea89
 workflow-type: tm+mt
-source-wordcount: '1613'
+source-wordcount: '1616'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ Para habilitar a publicação do Experience Manager Guides no EDS (Beta), você 
 2. [Criar e configurar um perfil de publicação para EDS (Beta) no Experience Manager Guides](#create-and-configure-a-publish-profile-for-eds-beta-in-experience-manager)
 3. [Personalizar saída usando blocos EDS](#customize-output-using-eds-blocks)
 
-Para obter uma apresentação rápida em vídeo, exiba [Publicação no AEM Guides](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25).
+Para obter uma apresentação rápida em vídeo, exiba [Publicação no AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25).
 
 
 
@@ -38,7 +38,7 @@ O EDS (Beta) requer um repositório GitHub com uma estrutura predefinida. O Adob
 
 Execute as seguintes etapas para criar seu repositório:
 
-1. Abra o repositório de modelos padronizados do Experience Manager Guides [`aem-guides-boilerplate`](https://github.com/adobe/aem-guides-boilerplate).
+1. Abra o repositório de modelos padronizados do Experience Manager Guides [aem-guides-boilerplate](https://github.com/adobe/aem-guides-boilerplate).
    ![](assets/eds-boilerplate-template.png)
 
 2. Crie um novo repositório usando este modelo. Saiba mais sobre [Criação de um repositório a partir de um modelo](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template). Verifique se a visibilidade do repositório está definida como *Pública* para que possa ser acessada pelo EDS.
@@ -90,6 +90,7 @@ Você é redirecionado para a página de configuração do GitHub, confirmando o
      Amostra da URL (formato): `https://<aem-author-url>/libs/fmdita/clientlibs/xmleditor/page.html`
 
      Amostra da URL: `https://author-p16602-e335172-cmstg.adobeaemcloud.com/libs/fmdita/clientlibs/xmleditor/page.html`
+
    - **URL de retorno**: igual à URL da Página Inicial.
    - **URL do Webhook**: desabilite esta opção.
    - **Permissões do repositório**: Defina **Permissões de Leitura e Gravação** para *Ações, Administração e Atestado*.
@@ -111,10 +112,13 @@ Execute as seguintes etapas para criar um novo aplicativo OAuth:
 3. Selecione **Novo aplicativo OAuth**.
 
    ![](assets/eds-new-oauth-app.png){width="650"}
+
 4. Registre seu aplicativo fornecendo os seguintes detalhes obrigatórios:
+
    - **Nome do aplicativo**: insira o nome do seu repositório EDS
    - **URL da Página Inicial**: Insira a URL para a instância do Experience Manager Guides. (Para formato de URL de exemplo, consulte a etapa 4 da seção [Criar um novo Aplicativo GitHub](#create-a-new-github-app)).
    - **URL de retorno de chamada**: Igual à URL da Página Inicial
+
 5. Selecione a opção **Habilitar Fluxo de Dispositivo** e selecione **Registrar aplicativo** para concluir o registro.
 
    ![](assets/eds-new-github-app-register.png){width="650"}
@@ -131,6 +135,7 @@ O EDS (Beta) lê o conteúdo de um caminho de repositório do GitHub definido co
 Para configurar a URL do ponto de montagem no arquivo `fstab.yaml`:
 
 1. Abra o arquivo `fstab.yaml` em seu repositório e atualize o seguinte:
+
    - `your-user-name`
    - `your-repo-name`
 
@@ -139,13 +144,16 @@ Para configurar a URL do ponto de montagem no arquivo `fstab.yaml`:
    > Na URL do ponto de montagem, `main` indica a ramificação na qual você deseja publicar o conteúdo e `docs` indica a pasta raiz do repositório EDS (Beta) no qual você está trabalhando. Se preferir alterar o nome da ramificação no GitHub, atualize o mesmo nome de ramificação na URL *mountpoint* (no arquivo `fstab.yaml`) e o perfil de publicação de EDS correspondente no Experience Manager Guides.
 
    ![](assets/eds-fstab-yaml-file.png){width="650"}
+
 2. Selecione **Confirmar alterações**, insira os detalhes da confirmação e confirme.
 3. Retorne às [Configurações do desenvolvedor](https://github.com/settings/apps), localize seu aplicativo e selecione **Editar**.
 
    ![](assets/eds-edit-github-app.png){width="650"}
+
 4. Navegue até a página **Instalar aplicativo** e selecione **Instalar**.
 
    ![](assets/eds-install-eds-app.png){width="650"}
+
 5. Repita as etapas 2 e 3 da seção [Conectar o GitHub à Adobe por meio da Sincronização de Código AEM](#connect-github-to-adobe-via-aem-code-sync) para autorizar o repositório.
 
 ## Criar e configurar um perfil de publicação para EDS (Beta) no Experience Manager
@@ -156,6 +164,7 @@ As seções abaixo descrevem cada etapa em sequência e explicam como configurar
 
 1. Vá para **[Configurações do Workspace](/help/product-guide/cs-install-guide/workspace-settings.md)** **>** **Publicar perfis**.
 2. Selecione o ícone **+** para criar um novo perfil de publicação e fornecer os seguintes detalhes:
+
    - **Tipo de servidor**: selecione **GitHub Edge Delivery Services (Beta)** na lista suspensa.
    - **Nome**: insira um nome para este perfil.
    - **Nome do repositório**: use o nome do repositório GitHub criado a partir do modelo padrão.
@@ -163,9 +172,11 @@ As seções abaixo descrevem cada etapa em sequência e explicam como configurar
    - **Ramificação principal**: definir como principal (padrão).
    - **Pasta raiz**: definir como documentos (padrão).
    - **ID do Cliente e Segredo do Cliente**: busque-os no Aplicativo GitHub (Consulte a seção [Criar um novo Aplicativo OAuth](#create-a-new-oauth-app) para obter detalhes).
+
 3. Selecione **Logon** para autenticar.
 
    ![](assets/eds-publish-profile.png){width="650"}
+
 4. Na autenticação bem-sucedida, selecione **Salvar**.
 
 O perfil de publicação de EDS (Beta) agora está configurado.
@@ -192,7 +203,7 @@ O perfil de publicação de EDS (Beta) agora está configurado.
 
 >[!NOTE]
 >
-> A saída gerada é armazenada na pasta **docs** do repositório EDS (Beta).
+>A saída gerada é armazenada na pasta **docs** do repositório EDS (Beta).
 
 A saída de EDS (Beta) agora é gerada. O conteúdo é apresentado em um layout limpo e responsivo. Inclui elementos regulares, como o título da página, navegações estruturais, conteúdo do corpo e quaisquer blocos usados no tópico. O índice à esquerda (gerado pelo mapa) ajuda a navegar pelos tópicos, enquanto um mini índice à direita destaca as seções na página atual. A saída inteira responde totalmente, garantindo uma experiência de leitura otimizada e consistente em todos os dispositivos.
 
@@ -236,12 +247,13 @@ Em alguns casos, convém estilizar apenas uma parte específica do conteúdo. Ex
 4. Crie uma nova pasta com o mesmo nome que `outputclass` dentro do diretório `blocks`. Saiba mais sobre [adicionando arquivos a um repositório](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository#adding-a-file-to-a-repository-using-the-command-line).
 
    ![](assets/eds-example-folder.png){width="650"}
+
 5. Adicione os arquivos `css` necessários e `js` opcionais.
 
    ![](assets/eds-example-folder-subfolders.png){width="650"}
+
 6. Confirme as alterações e gere novamente a saída.
 
 O conteúdo selecionado agora exibe o estilo personalizado definido no bloco.
-
 
 ![](assets/eds-example-output.png){width="650"}
