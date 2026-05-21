@@ -6,22 +6,13 @@ feature: API Introduction
 role: Developer
 level: Experienced
 TQID: https://experienceleague.adobe.com/dNO8nZusaPCor506Q-2drrcJGf68mx-Hxo4uaT-cDtM
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: c6d09140-3c91-45d3-b7ed-b681af752f43
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2:
-  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
-  - id: f3645292-50bd-4f4a-ac6a-29dcecdf8abe
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: null
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552eid: a3bd6397-2eb2-4908-a61c-226e26855dcaid: c6d09140-3c91-45d3-b7ed-b681af752f43id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: f3645292-50bd-4f4a-ac6a-29dcecdf8abe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 0047d3917ffcc8b83a319be5b7c12780c0f2ef55
 workflow-type: tm+mt
-source-wordcount: 686
+source-wordcount: 656
 ht-degree: 0%
 
 ---
@@ -132,15 +123,11 @@ Essas APIs são ideais para:
 
 Para obter informações detalhadas sobre o uso da API, parâmetros e solicitações de exemplo, exiba os tópicos relevantes na seção **Referência da API** da documentação da Experience Manager Guides.
 
->[!NOTE]
->
-> Você também pode consultar a **documentação do Swagger** para as APIs REST disponíveis publicamente em `https://<aem-author-url>/libs/fmdita/clientlibs/xmleditor/page.html`. Atualmente, somente APIs relacionadas ao Assets, Linha de base e Relatórios estão disponíveis na documentação do Swagger.
-
 ## Recursos adicionais
 
-Veja a seguir uma lista de outros recursos úteis do AEM Guides, que estão disponíveis na página [Aprendizagem e Suporte](https://helpx.adobe.com/br/support/xml-documentation-for-experience-manager.html):
+Veja a seguir uma lista de outros recursos úteis do AEM Guides, que estão disponíveis na página [Aprendizagem e Suporte](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html):
 
 - Guia do usuário
 - Guia de instalação e configuração
 - Guia de início rápido
-- [Página de Arquivamento da Ajuda](https://helpx.adobe.com/br/xml-documentation-for-experience-manager/archive.html) \(acesse a documentação de versão mais antiga\)
+- [Página de Arquivamento da Ajuda](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \(acesse a documentação de versão mais antiga\)
