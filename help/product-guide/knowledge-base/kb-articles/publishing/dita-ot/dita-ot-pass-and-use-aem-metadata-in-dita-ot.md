@@ -36,7 +36,7 @@ Em um nível superior, abaixo estão as etapas que você aprenderá neste artigo
 ## Fundo
 
 Com o AEM Guides, você pode usar plug-ins DITA-OT para publicar em formatos de saída de sua escolha usando os plug-ins configurados e
-você também pode passar metadados dos ativos gerenciados no AEM DAM para o processo DITA-OT para usá-los na saída gerada. consulte a documentação sobre [como configurar ditamap/tópicos para passar metadados pela predefinição de saída](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/pass-metadata-dita-ot)
+você também pode passar metadados dos ativos gerenciados no AEM DAM para o processo DITA-OT para usá-los na saída gerada. consulte a documentação sobre [como configurar ditamap/tópicos para passar metadados pela predefinição de saída](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using/user-guide/output-gen/pass-metadata-dita-ot)
 
 
 ## Suposições
@@ -180,7 +180,7 @@ Quando o comando acima for executado, você poderá verificar a saída no diret�
 
 ### Implantação
 
-Depois de desenvolver o plug-in DITA-OT, você poderá integrá-lo ao DITA-OT usando o comando _dita —install_ no diretório DITA-OT e implantá-lo no servidor do AEM [consulte este artigo para obter mais detalhes](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/steps-to-setup-a-custom-dita-ot/td-p/407659)
+Depois de desenvolver o plug-in DITA-OT, você poderá integrá-lo ao DITA-OT usando o comando _dita —install_ no diretório DITA-OT e implantá-lo no servidor do AEM [consulte este artigo para obter mais detalhes](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/steps-to-setup-a-custom-dita-ot/td-p/407659?profile.language=pt)
 
 
 ## Recursos

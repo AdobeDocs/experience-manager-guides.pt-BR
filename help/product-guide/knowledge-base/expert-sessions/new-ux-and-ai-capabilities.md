@@ -55,11 +55,11 @@ Nesta sessão, abordamos:
 
 ## Recursos relacionados
 
-- [Nova experiência de página inicial](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/home-page/intro-home-page)
+- [Nova experiência de página inicial](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using/user-guide/home-page/intro-home-page)
 
-- [Recursos de IA no AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/ai-assistant-aem/ai-assistant)
+- [Recursos de IA no AEM Guides](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using/user-guide/ai-assistant-aem/ai-assistant)
 
-- [Configurar o assistente de IA](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-smart-suggestions)
+- [Configurar o assistente de IA](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-smart-suggestions)
 
 
 

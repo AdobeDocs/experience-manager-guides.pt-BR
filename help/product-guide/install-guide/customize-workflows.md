@@ -37,7 +37,7 @@ Para obter mais informações sobre fluxos de trabalho no AEM, consulte:
 
 - [Administração de fluxos de trabalho](https://helpx.adobe.com/br/experience-manager/6-5/sites/administering/using/workflows.html)
 
-- Aplicando e participando de fluxos de trabalho: [Trabalhando com fluxos de trabalho](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/workflows.html).
+- Aplicando e participando de fluxos de trabalho: [Trabalhando com fluxos de trabalho](https://helpx.adobe.com/br/experience-manager/6-5/sites/authoring/using/workflows.html).
 
 - Criação de modelos de fluxo de trabalho e extensão da funcionalidade do fluxo de trabalho: [Desenvolvimento e extensão de Fluxos de Trabalho](https://helpx.adobe.com/br/experience-manager/6-5/sites/developing/using/workflows.html).
 
