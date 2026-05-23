@@ -139,7 +139,7 @@ Uma nova tarefa é criada e listada na guia **Criado por você**.
 
 >[!NOTE]
 >
-> Como gerente de projeto, você pode visualizar essa tarefa recém-criada no painel do Adobe Workfront juntamente com outros detalhes importantes da tarefa. Para obter mais detalhes, consulte [Compreender painéis](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/dashboards/understand-dashboards/understand-dashboards).
+> Como gerente de projeto, você pode visualizar essa tarefa recém-criada no painel do Adobe Workfront juntamente com outros detalhes importantes da tarefa. Para obter mais detalhes, consulte [Compreender painéis](https://experienceleague.adobe.com/pt-br/docs/workfront/using/reporting/dashboards/understand-dashboards/understand-dashboards).
 
 ### Gerenciar tarefas criadas por você
 

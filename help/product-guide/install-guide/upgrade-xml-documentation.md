@@ -43,7 +43,7 @@ Você pode atualizar sua versão atual do Experience Manager Guides para a vers�
 - Se você estiver usando a versão 4.3.x, 4.2, 4.2.1 (Hotfix 4.2.1.3), 4.1 ou 4.1.x, será necessário atualizar para a versão 4.4 antes de atualizar para a versão 5.0.0.
 - Se você estiver usando a versão 4.0, será necessário atualizar para a versão 4.2 antes de atualizar para a versão 4.3.x.
 - Se você estiver usando a versão 3.8.5, será necessário atualizar para a versão 4.0 antes de atualizar para a versão 4.2.
-- Se você estiver usando uma versão anterior à 3.8.5, consulte a seção Atualizar Experience Manager Guides no guia de instalação específico do produto, disponível no [arquivo PDF de ajuda do Adobe Experience Manager Guides](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
+- Se você estiver usando uma versão anterior à 3.8.5, consulte a seção Atualizar Experience Manager Guides no guia de instalação específico do produto, disponível no [arquivo PDF de ajuda do Adobe Experience Manager Guides](https://helpx.adobe.com/br/xml-documentation-for-experience-manager/archive.html).
 
 
 >[!NOTE]
@@ -76,7 +76,7 @@ Antes de executar o processo, há determinadas tarefas que você deve concluir. 
 
 >[!NOTE]
 >
-> Este processo de atualização é aplicável somente da versão 3.8.5 para a versão 4.0. Para o processo de atualização da versão 3.4 ou superior para a 3.8.5, consulte a seção *Atualizar Experience Manager Guides* no guia de instalação específico do produto, disponível em [arquivo PDF de ajuda do Adobe Experience Manager Guides](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
+> Este processo de atualização é aplicável somente da versão 3.8.5 para a versão 4.0. Para o processo de atualização da versão 3.4 ou superior para a 3.8.5, consulte a seção *Atualizar Experience Manager Guides* no guia de instalação específico do produto, disponível em [arquivo PDF de ajuda do Adobe Experience Manager Guides](https://helpx.adobe.com/br/xml-documentation-for-experience-manager/archive.html).
 
 
 
@@ -1316,7 +1316,7 @@ Durante esta atualização, como o valor de `'order'` é alterado de 1000 para 5
 
 ## Etapas para reindexar o damAssetLucene
 
-A definição do índice é atualizada para damAssetLucene com Guias. Consulte [este artigo](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) para reindexar o damAssetLucene depois de atualizar para a versão 5.0.0.
+A definição do índice é atualizada para damAssetLucene com Guias. Consulte [este artigo](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-kcs/kbarticles/ka-16460) para reindexar o damAssetLucene depois de atualizar para a versão 5.0.0.
 
 >[!NOTE]
 >
@@ -1483,7 +1483,7 @@ Durante esta atualização, como o valor de `'order'` é alterado de 1000 para 5
 
 ## Etapas para reindexar o damAssetLucene
 
-A definição do índice é atualizada para damAssetLucene com Guias. Consulte [este artigo](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) para reindexar o damAssetLucene depois de atualizar para a versão 5.1.0.
+A definição do índice é atualizada para damAssetLucene com Guias. Consulte [este artigo](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-kcs/kbarticles/ka-16460) para reindexar o damAssetLucene depois de atualizar para a versão 5.1.0.
 
 >[!NOTE]
 >

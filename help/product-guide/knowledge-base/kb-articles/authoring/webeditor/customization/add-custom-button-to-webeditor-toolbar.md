@@ -71,7 +71,7 @@ Use os perfis de pasta para verificar o *ui_config.json* na guia &quot;Configura
 }
 ```
 
-[use este link para saber mais sobre Perfil de pasta e configuração ui_config.json](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=en)
+[use este link para saber mais sobre Perfil de pasta e configuração ui_config.json](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=pt-BR)
 
 
 ### Manipular o evento ao clicar para o novo botão

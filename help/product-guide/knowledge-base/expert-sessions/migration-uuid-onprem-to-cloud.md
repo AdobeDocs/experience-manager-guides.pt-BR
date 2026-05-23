@@ -63,12 +63,12 @@ E Etapas para mover guias (uuid) para a nuvem:
 
 - [Migrar para a AEM Cloud](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/migration-journey/getting-started)
 - [AEM Guides: mover o conteúdo UUID do local/AMS para a nuvem](../../cs-install-guide/migrate-on-premise-content-cloud.md)
-- [Ferramenta Transferência de conteúdo: perguntas frequentes](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/migration/moving-to-aem-as-a-cloud-service/content-migration/faq)
+- [Ferramenta Transferência de conteúdo: perguntas frequentes](https://experienceleague.adobe.com/pt-br/docs/experience-manager-learn/cloud-service/migration/moving-to-aem-as-a-cloud-service/content-migration/faq)
 - [AEM Guides: migração de conteúdo não uuid para a nuvem](../../install-guide/migrate-uuid-non-uuid.md)
 
 ### Fórum da comunidade
 
-- Para ver as interações da comunidade específicas da sessão no Experience League, visite o [Fórum do AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- Para ver as interações da comunidade específicas da sessão no Experience League, visite o [Fórum do AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=pt).
 
 
 >[!NOTE]
