@@ -5,7 +5,7 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: a4623088-a867-4079-80d6-20866c99683e
-source-git-commit: 18a4473776955700003c2381494dd5325120ea89
+source-git-commit: e3a10752fa872baabf8cfc339510d3ea907a17d1
 workflow-type: tm+mt
 source-wordcount: '1616'
 ht-degree: 1%
@@ -24,7 +24,7 @@ Para habilitar a publicação do Experience Manager Guides no EDS (Beta), você 
 2. [Criar e configurar um perfil de publicação para EDS (Beta) no Experience Manager Guides](#create-and-configure-a-publish-profile-for-eds-beta-in-experience-manager)
 3. [Personalizar saída usando blocos EDS](#customize-output-using-eds-blocks)
 
-Para obter uma apresentação rápida em vídeo, exiba [Publicação no AEM Guides](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25).
+Para obter uma apresentação rápida em vídeo, exiba [Publicação no AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25).
 
 
 
@@ -99,7 +99,7 @@ Você é redirecionado para a página de configuração do GitHub, confirmando o
 
 Seu aplicativo está pronto agora. Você é redirecionado para a página **Configurações** do seu aplicativo GitHub.
 
-![](assets/eds-github-app-registered-page.png){}
+![](assets/eds-github-app-registered-page.png)
 
 ### Criar um novo aplicativo OAuth
 
