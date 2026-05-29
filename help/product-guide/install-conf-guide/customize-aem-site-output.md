@@ -210,7 +210,7 @@ Você também pode configurar as outras propriedades, como usar letras minúscul
 
 1. Procure e clique no pacote *com.adobe.fmdita.common.SanitizeNodeNameImpl*.
 
-1. Na propriedade **Conjunto de Caracteres Não Permitido para Publicação na AEM Sites**, verifique se a propriedade está definida como `<>``@$`. Você pode adicionar mais caracteres especiais a essa lista, no entanto, ela deve ter esses caracteres especiais necessários.
+1. Na propriedade **Conjunto de Caracteres Não Permitido para Publicação na AEM Sites**, verifique se a propriedade está definida como `<>` `@$`. Você pode adicionar mais caracteres especiais a essa lista, no entanto, ela deve ter esses caracteres especiais necessários.
 
    >[!NOTE]
    >
@@ -363,7 +363,7 @@ Para excluir o elemento `table` do nivelamento, adicione a seguinte propriedade 
 
 ## Configurar o controle de versão para páginas excluídas na saída do site do AEM
 
-Ao gerar a saída de Site do AEM com as opções **Excluir e** Criar ****selecionadas para a configuração Páginas de Saída Existentes, uma versão é criada para a página\(s\) que está sendo excluída. Você pode configurar o sistema para interromper a criação de uma versão antes da exclusão.
+Ao gerar a saída de Site do AEM com as opções **Excluir e** Criar **&#x200B;**&#x200B;selecionadas para a configuração Páginas de Saída Existentes, uma versão é criada para a página\(s\) que está sendo excluída. Você pode configurar o sistema para interromper a criação de uma versão antes da exclusão.
 
 As guias a seguir fornecem instruções para interromper a criação de uma versão para a página\(s\) que está sendo excluída com base na configuração do Experience Manager Guides: Cloud Service ou No local.
 

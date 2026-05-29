@@ -5,11 +5,21 @@ exl-id: 2f202b41-85d9-4a5a-aa28-e25715ce5e2e
 feature: Report Generation
 role: User
 TQID: https://experienceleague.adobe.com/xdXqtXEAU5vpR862gE1s9gD1TRFOSpT3B-Firp7O9Ew
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: d90290ec-3e61-4ebd-8649-bcafe0836803
-subfeature_v2: id: cdab8659-8d50-4417-b6fd-762f347c13eeid: f9dbea21-a714-40dd-bc90-080d8046c93f
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2:
+  - id: cdab8659-8d50-4417-b6fd-762f347c13ee
+  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
 source-wordcount: 2649
@@ -274,4 +284,4 @@ Você pode exibir o relatório de links desfeitos executando as seguintes etapas
 1. Selecione **Baixar** para baixar o instantâneo de todos os links corrompidos no mapa DITA. O arquivo do Excel contém as colunas selecionadas e os links quebrados filtrados na exibição Links quebrados.
 
 
-**Tópico pai:**[ Introdução aos relatórios](reports-intro.md)
+**Tópico pai:**&#x200B;[&#x200B; Introdução aos relatórios](reports-intro.md)
