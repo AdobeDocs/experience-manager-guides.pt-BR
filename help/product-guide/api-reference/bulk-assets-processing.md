@@ -11,14 +11,18 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 591
-ht-degree: 9%
+source-wordcount: 639
+ht-degree: 8%
 
 ---
 
 # API para iniciar o processamento em massa de ativos
+
+>[!NOTE]
+>
+> Para obter as definições mais recentes de ponto de extremidade de API REST e detalhes relacionados, exiba a documentação do Swagger em `https://<aem-author-url>/libs/fmdita/clientlibs/api-docs/index.html` (substitua `<aem-author-url>` pela URL do servidor do AEM). Como este artigo está programado para ser arquivado em outubro de 2026, recomendamos usar a documentação do Swagger a partir de agora para obter as informações mais atualizadas da API.
 
 Um método POST que inicia o processamento de ativos em massa para um caminho especificado. Essa API oferece suporte ao processamento de ativos baseado em JCR e em banco de dados. Ele inicia um trabalho assíncrono que processa todos os ativos no caminho determinado e em seus subcaminhos. Após a inicialização, a API retorna uma ID de processamento exclusiva, que pode ser usada para rastrear o status da tarefa.
 
@@ -79,7 +83,7 @@ processingId para sondar para obter o status de trabalho assíncrono.
 
 ## Verificar status do trabalho
 
-Um método do GET que recupera o status atual de um trabalho de processamento de ativos iniciado anteriormente.
+Um método GET que recupera o status atual de um trabalho de processamento de ativos iniciado anteriormente.
 
 **Solicitar URL**
 
@@ -245,7 +249,7 @@ Uma API POST que reinicia uma solicitação de processamento de ativos em massa 
 
 ## Exibir histórico de tarefas
 
-Uma API do GET que retorna as últimas execuções &quot;N&quot; de pós-processamento de ativos.
+Uma API GET que retorna as últimas execuções &quot;N&quot; de Pós-processamento de ativos.
 
 **Solicitar URL**
 
@@ -253,7 +257,7 @@ Uma API do GET que retorna as últimas execuções &quot;N&quot; de pós-process
 
 **Solicitar Parâmetros**
 
-Nenhum. Esta solicitação GET recupera o histórico de processos sem exigir parâmetros de entrada.
+Nenhum. Esta solicitação GET recupera o histórico de trabalhos sem exigir parâmetros de entrada.
 
 **Exemplo de resposta**
 

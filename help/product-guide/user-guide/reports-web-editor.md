@@ -20,9 +20,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 2716
+source-wordcount: 2649
 ht-degree: 0%
 
 ---
@@ -166,7 +166,7 @@ Para atualizar os metadados, execute as seguintes etapas:
 
 Esse recurso permite adicionar colunas de metadados personalizadas de acordo com o requisito, que são exibidas nos relatórios de metadados. Também oferece maior flexibilidade nos relatórios de metadados. Para adicionar uma nova coluna de metadados personalizada, execute as seguintes etapas:
 
-1. Para adicionar uma coluna de metadados personalizada, selecione **Configurações do Workspace** (aparecendo como **Configurações** para **No local**) nos três pontos no canto superior direito da página de metadados.
+1. Para adicionar uma coluna de metadados personalizada, selecione **Configurações do Workspace** (aparecendo como **Configurações** para **Configuração no local anterior à versão 5.2**) nos três pontos no canto superior direito da página de metadados.
 
    ![](images/custom-metadata-setting.png){width="600"}
 

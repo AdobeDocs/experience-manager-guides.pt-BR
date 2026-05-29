@@ -4,9 +4,9 @@ description: Crie e gerencie uma nova linha de base (Beta) no console de mapa no
 feature: Authoring, Features of Web Editor, Publishing
 role: User
 exl-id: 574806bb-21c5-41fe-b8be-4c6506ce8cce
-source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
+source-git-commit: 179e9016b12edb14c09ce9352a318e06a4fc628a
 workflow-type: tm+mt
-source-wordcount: '1315'
+source-wordcount: '1327'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> Este artigo se aplica à nova linha de base, atualmente disponível como um recurso do *Beta*, que oferece melhor desempenho e estabilidade disponíveis na versão 2026.04.0 do Experience Manager Guides. Para habilitar o novo recurso de linha de base em sua configuração, entre em contato com a Equipe de sucesso do cliente.
+> - Este artigo se aplica à nova linha de base, atualmente disponível como um recurso do *Beta*, que oferece melhor desempenho e estabilidade disponíveis na versão 2026.04.0 do Experience Manager Guides.
+> - Para ativar o novo recurso de linha de base para o Cloud Service, entre em contato com a Equipe de sucesso do cliente.
+> - Para habilitar o novo recurso de linha de base para No Local, exiba [Configurar Nova Linha de Base](../install-conf-guide/conf-new-baseline-on-prem.md).
 
 O novo recurso básico trata dos problemas críticos de confiabilidade e desempenho associados a mapas grandes e complexos. Ela vem com uma arquitetura de linha de base reprojetada que oferece uma experiência de linha de base mais rápida, estável e consistente. Antes de analisarmos os detalhes, assista a um pequeno vídeo explicativo que destaca os recursos do novo recurso de linha de base.
 

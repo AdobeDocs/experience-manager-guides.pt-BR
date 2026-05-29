@@ -17,9 +17,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 1599
+source-wordcount: 1606
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 >[!INFO]
 >
->Na versão 2025.11.0, o **Repositório** foi renomeado para **Explorer**. Para configuração no local, ele continua disponível como Repositório até a versão 5.1 do Experience Manager Guides.
+>A partir da versão 2025.11.0 para o Cloud Service a e da versão 5.2 para No Local, o **Repositório** é renomeado para **Explorer**. Para configuração no local anterior à versão 5.2, ele continua disponível como Repositório.
 
 O Adobe Experience Manager Guides fornece dois modelos de mapa prontos para uso - mapa DITA e mapa de livros. Você também pode criar seus próprios modelos de mapa e compartilhá-los com seus autores para criar arquivos de mapa.
 

@@ -4,10 +4,11 @@ description: Saiba como atualizar o Adobe Experience Manager Guides
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 453da51a42984b912547570f2e1de70806b41171
+exl-id: f84bc82a-505c-4511-8336-bb87c8eb78e3
+source-git-commit: aac604893134edc2b28e8f6d7977e92256fe7e63
 workflow-type: tm+mt
-source-wordcount: '1661'
-ht-degree: 0%
+source-wordcount: '1884'
+ht-degree: 2%
 
 ---
 
@@ -19,9 +20,9 @@ Este artigo fornece instruções para atualizar suas versões do Experience Mana
 >
 > Siga as instruções de atualização específicas para a versão licenciada do seu produto.
 
-Você pode atualizar sua versão atual do Experience Manager Guides para a versão 5.1.0 Service Pack 3:
+Você pode atualizar sua versão atual do Experience Manager Guides para a versão 5.2.0:
 
-- Se você estiver usando a versão 5.1.0 ou 5.1.x, é possível atualizar diretamente para a versão 5.1.0 Service Pack 3.
+- Se você estiver usando a versão 5.0.0, 5.0.3, 5.1.0 ou 5.1.3, é possível atualizar diretamente para a versão 5.2.0.
 - Se você estiver usando a versão 4.6.0, 4.6.x, 5.0.0 ou 5.0.x, será necessário atualizar para a versão 5.1.0.
 - Se você estiver em uma versão anterior à 4.6.0, consulte [Atualizar o Adobe Experience Manager Guides para a versão 4.4.0 e anterior](./upgrade-aemg-prev-versions.md) para obter instruções detalhadas de atualização.
 
@@ -31,6 +32,7 @@ Você pode atualizar sua versão atual do Experience Manager Guides para a vers�
 
 Para obter mais detalhes, consulte os seguintes procedimentos:
 
+- [Atualizar para a versão 5.2.0](#upgrade-to-version-510)
 - [Atualizar para a versão 5.1.0](#upgrade-to-version-510)
 - [Atualizar para a versão 5.0.0](#upgrade-to-version-500)
 - [Atualizar para a versão 4.6.0](#upgrade-to-version-460)
@@ -38,6 +40,33 @@ Para obter mais detalhes, consulte os seguintes procedimentos:
 >[!IMPORTANT]
 >
 > Antes de começar a atualização, faça um backup completo do sistema para evitar perda de dados.
+
+
+## Atualizar para a versão 5.2.0
+
+>[!IMPORTANT]
+>
+> Se você estiver usando o AEM 6.5 e planeja migrar para o AEM 6.5 LTS, conclua a atualização do AEM primeiro antes de prosseguir com a atualização do Experience Manager Guides 5.2.0. Para obter detalhes, consulte [Atualização para o Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
+
+**Pré-requisitos**
+
+>[!NOTE]
+>
+>Se você estiver atualizando para a versão 5.2.0, precisará estar na versão 5.0.0, 5.0.3, 5.1.0 ou 5.1.3 do Experience Manager Guides. O processo de atualização da versão 5.2.0 segue as mesmas etapas da versão 5.1.0.
+
+Antes de iniciar o processo de atualização do Experience Manager Guides 5.2.0, verifique se você tem:
+
+1. Atualizado para o Experience Manager Guides versão 5.0.0, 5.0.3, 5.1.0 ou 5.1.3.
+1. (Opcional) Todas as tarefas de tradução foram fechadas.
+1. Alterado o nível de log para **INFO** para a classe `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` e anexado esses logs em um novo arquivo de log, por exemplo, `logs/translation_upgrade.log`.
+
+>[!NOTE]
+>
+> O pós-processamento e a indexação podem levar algumas horas. Recomendamos que você inicie o processo de atualização fora do horário de pico.
+
+**Instalar versão 5.2.0**
+
+Baixe o pacote da versão 5.2.0 do [Portal de Distribuição de Software da Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) e siga as instruções fornecidas em [Fluxo de trabalho de atualização de instalação e pós-instalação](#installation-and-post-installation-upgrade-workflow) para concluir o processo de atualização.
 
 
 ## Atualizar para a versão 5.1.0
@@ -229,9 +258,9 @@ Execute as seguintes etapas para indexar o conteúdo existente:
 
 - Execute uma solicitação POST no servidor \(com autenticação correta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Opcional: é possível passar caminhos específicos dos mapas para indexá-los; por padrão, todos os mapas serão indexados || Exemplo: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
-- A API retornará um `jobId`. Para verificar o status do trabalho, você pode enviar uma solicitação do GET com a ID do trabalho para o mesmo ponto de extremidade - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(por exemplo: ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
+- A API retornará um `jobId`. Para verificar o status do trabalho, você pode enviar uma solicitação GET com a ID do trabalho para o mesmo ponto de extremidade - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(por exemplo: ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
-- Quando o trabalho for concluído, a solicitação do GET acima responderá com sucesso e mencionará se algum mapa falhou. Os mapas indexados com êxito podem ser confirmados nos logs do servidor.
+- Quando o trabalho for concluído, a solicitação GET acima responderá com sucesso e mencionará se algum mapa falhou. Os mapas indexados com êxito podem ser confirmados nos logs do servidor.
 
 
 >[!NOTE]
@@ -254,4 +283,3 @@ A definição do índice é atualizada para damAssetLucene com AEM Guides. Depoi
 >[!NOTE]
 >
 > Ao seguir a documentação, verifique se ambas as propriedades (`reindex=true` e `reindex-async=true` para `/oak:index/damAssetLucene`) foram atualizadas simultaneamente por meio da operação Salvar.
-

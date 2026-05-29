@@ -5,7 +5,7 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: a4623088-a867-4079-80d6-20866c99683e
-source-git-commit: 18a4473776955700003c2381494dd5325120ea89
+source-git-commit: e3a10752fa872baabf8cfc339510d3ea907a17d1
 workflow-type: tm+mt
 source-wordcount: '1616'
 ht-degree: 1%
@@ -99,7 +99,7 @@ Você é redirecionado para a página de configuração do GitHub, confirmando o
 
 Seu aplicativo está pronto agora. Você é redirecionado para a página **Configurações** do seu aplicativo GitHub.
 
-![](assets/eds-github-app-registered-page.png){}
+![](assets/eds-github-app-registered-page.png)
 
 ### Criar um novo aplicativo OAuth
 

@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leia a documentação do produto do Adobe Experience Manager Guides.
 breadcrumb-title: Documentação do AEM Guides
-source-git-commit: e1c94e180a89b8d68ea6e0812a2c576b272ffdf5
+source-git-commit: ffe43716d6f922cf6da9bd94244fc80a80d99b2f
 workflow-type: tm+mt
-source-wordcount: '3347'
+source-wordcount: '3384'
 ht-degree: 7%
 
 ---
@@ -129,6 +129,10 @@ ht-degree: 7%
             - [Notas de versão de janeiro](./release-info/release-notes-2022-1-0.md)
       - No local/Managed Services {#on-prem-release-notes}
          - [Versões de [!DNL AEM Guides]](./release-info/latest-release-info.md)
+         - Versão 5.2.0 {#520-release}
+            - [Novidades](./release-info/whats-new-5-2-0.md)
+            - [Problemas corrigidos](./release-info/fixed-issues-5-2-0.md)
+            - [Instruções de atualização](./release-info/upgrade-instructions-5-2-0.md)
          - Versão 5.1.0 SP4 {#510-sp4-release}
             - [Problemas corrigidos](./release-info/fixed-issues-5-1-0-sp4.md)
             - [Instruções de atualização](./release-info/upgrade-instructions-5-1-0-sp4.md)
@@ -664,15 +668,16 @@ ht-degree: 7%
       - [Configurar filtros de texto](./install-conf-guide/conf-text-filters.md)
       - [Configurar filtros para a caixa de diálogo de procura de arquivos](./install-conf-guide/conf-custom-file-filters.md)
       - [Instalar pacotes para publicação baseada em artigo](./install-conf-guide/conf-article-based-publishing.md)
+      - [Configurar a lista para ignorar de propriedades de metadados](./install-conf-guide/conf-metadata-prop.md)
       - Configuração do editor para o Cloud Service {#editor-cloud-settings}
          - [Configurar as sugestões inteligentes habilitadas por IA para criação no Cloud Service](./install-conf-guide/conf-smart-suggestions.md)
          - [Configure a Ajuda inteligente habilitada para IA para pesquisar conteúdo para o Cloud Service](./install-conf-guide/conf-smart-help.md)
          - [Configure a opção para editar no Oxygen for Cloud Service](./install-conf-guide/conf-edit-in-oxygen.md)
          - [Configurar exibição de tabelas coladas para o Cloud Service](./install-conf-guide/conf-pasted-tables.md)
          - [Configurar a geração de PDF de um único tópico para o Cloud Service](./install-conf-guide/conf-pdf-generation-dita-ot.md)
-         - [Configurar o recurso de tradução no Editor da Web do Cloud Service](./install-conf-guide/conf-translation-editor.md)
-         - [Configurar a lista de propriedades para ignorar metadados do Cloud Service](./install-conf-guide/conf-metadata-prop.md)
+         - [Configurar o recurso de Tradução no Editor da Web para Cloud Service](./install-conf-guide/conf-translation-editor.md)
       - Configuração do editor para no local {#editor-on-prem-settings}
+         - [Configurar novo editor](./install-conf-guide/conf-new-editor-on-prem.md)
          - [Configurar caracteres especiais adicionais para no local](/help/product-guide/web-editor/conf-additional-special-characters.md)
          - [Configurar o título para os ícones de Check-in e Check-out para no local](./install-conf-guide/conf-checkin-checkout-title.md)
          - [Configurar o número de LimitReads para uma consulta no local](./install-conf-guide/conf-query-limitreads.md)
@@ -714,9 +719,13 @@ ht-degree: 7%
       - [Integrar editores de XML baseados em desktop](./install-conf-guide/integrate-desktop-editors.md)
       - [Configurar o Workfront para o Cloud Service](./install-conf-guide/conf-workfront.md)
       - [Configurar tradução](./install-conf-guide/conf-translation.md)
+      - [Configurar inicialização da cópia de destino para No local](./install-conf-guide/conf-translation-copies-on-prem.md)
+      - [Configurar nova linha de base para no local](./install-conf-guide/conf-new-baseline-on-prem.md)
+      - [Configurar o cancelamento de links de mesmo nível para No local](./install-conf-guide/conf-skip-peer-links-on-prem.md)
    - Extensão dos recursos {#aemg-customization}
       - [Implantar índice personalizado para o recurso Localizar e substituir do Cloud Service](./install-conf-guide/custom-indexing-cs.md)
       - [Reindexar para Localizar e substituir o recurso no Local](./install-conf-guide/custom-indexing-on-prem.md)
+      - [Configurar o recurso Localizar e substituir no local](./install-conf-guide/conf-find-replace-on-prem.md)
       - [Mapeamento de componentes do AEM Sites](./install-conf-guide/component-mapping.md)
    - Apêndice {#appendix}
       - [Apêndice](./install-conf-guide/aemg-appendix.md)

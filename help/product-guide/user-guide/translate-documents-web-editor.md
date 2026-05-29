@@ -21,9 +21,9 @@ subfeature_v2:
   - id: fd456af4-cb12-4a34-8cc4-b74adf885626
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 2536
+source-wordcount: 2473
 ht-degree: 0%
 
 ---
@@ -188,7 +188,7 @@ Para obter detalhes sobre como configurar perfis globais e de nível de pasta, c
 
 O Experience Manager Guides permite passar o rótulo do arquivo de origem para o arquivo de destino. Isso ajudará você a identificar facilmente a versão de origem do arquivo traduzido.
 
-Para adicionar o rótulo da versão de origem na cópia de destino, o administrador do sistema deve habilitar a opção **Propagar rótulos da versão de origem para a versão de destino** na guia **Tradução** em **Configurações do Workspace** (exibidas como **Configurações** para **No local**).
+Para adicionar o rótulo da versão de origem na cópia de destino, o administrador do sistema deve habilitar a opção **Propagar rótulos da versão de origem para a versão de destino** na guia **Tradução** em **Configurações do Workspace** (exibidas como **Configurações** para **Configuração no local anterior à versão 5.2**).
 
 Por exemplo, se você tiver alguns arquivos de origem com o rótulo da versão `Release 1.0` aplicado a eles, você também poderá passar o rótulo de origem \(`Release 1.0`\) para o arquivo traduzido.
 

@@ -4,9 +4,9 @@ description: Saiba mais sobre as várias configurações disponíveis na interfa
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 10df0495-1d52-4c7c-a11a-059fe72d09f2
-source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
+source-git-commit: e41cf263f42e91bc384aa09fd1135b46e429c86a
 workflow-type: tm+mt
-source-wordcount: '2275'
+source-wordcount: '2212'
 ht-degree: 0%
 
 ---
@@ -15,8 +15,8 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> Na configuração no local, a opção **Configurações** aparece na barra de guias do Editor. Na configuração do Cloud Service, esta opção foi renomeada para **configurações do Workspace**. Todas as opções de configuração existentes disponíveis em **Configurações do editor** permanecem inalteradas.
-> ![Configuração do editor para No local](assets/editor-settings-on-prem.png){width="650"}
+> Na configuração no local anterior à versão 5.2, a opção **Configurações** aparece na barra de guias do Editor. Para configurações do Cloud Service e no local na versão 5.2 e posterior, esta opção foi renomeada para **configurações do Workspace**. Todas as opções de configuração existentes disponíveis em **Configurações do editor** permanecem inalteradas.
+> ![Configuração do editor para local](assets/editor-settings-on-prem.png){width="650"}
 
 
 A opção **Configurações do Workspace** presente na [Barra de guias](../user-guide/web-editor-tab-bar.md) do Editor está disponível somente para administradores e administradores de perfil de pasta e permite definir as seguintes configurações:
