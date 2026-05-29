@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leia a documentação do produto do Adobe Experience Manager Guides.
 breadcrumb-title: Documentação do AEM Guides
-source-git-commit: ffe43716d6f922cf6da9bd94244fc80a80d99b2f
+source-git-commit: efd7ab95f0ed7f35e99587a2f47eaeac7a330221
 workflow-type: tm+mt
-source-wordcount: '3384'
+source-wordcount: '3391'
 ht-degree: 7%
 
 ---
@@ -198,14 +198,14 @@ ht-degree: 7%
                - [Notas de versão 4.2.1](./release-info/release-notes-4-2-1.md)
                - [Notas de versão 4.2](./release-info/release-notes-4-2.md)
          - [Notas de versão 4.1.x](./release-info/release-notes-4-1.md)
-         - [Notas de versão 4.0.x](https://helpx.adobe.com/br/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [Notas de versão do 3.8.x](https://helpx.adobe.com/br/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [Notas de versão 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [Notas de versão do 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Guia do usuário (nova interface do usuário) {#user-guide}
    - Introdução {#about-aemg}
       - [Sobre [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides] trabalhando e os principais recursos {#aemg-works-features}
          - [Como [!DNL AEM Guides] funciona](./user-guide/intro-how-dxml-works.md)
-         - [Recursos da chave [!DNL AEM Guides] &#x200B;](./user-guide/intro-dxml-features.md)
+         - [Recursos da chave [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
    - Home page {#home-page}
       - [Experiência da página inicial [!DNL AEM Guides]](./user-guide/intro-home-page.md)
       - [Interface do repositório](./user-guide/home-page-repository-view.md)
@@ -407,7 +407,7 @@ ht-degree: 7%
       - Resolução de problemas {#troubleshooting}
          - [Tempo limite da sessão](./user-guide/session-timeout-prompt.md)
 - Guia do usuário (interface antiga) {#user-guide-old-ui}
-   - [Visão geral do AEM Guides](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [Visão geral do AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Instalação e configuração {#install-guide}
    - No local {#on-prem-ig}
       - {hide-from-toc}[Noções básicas no local](./install-guide/introduction.md)
@@ -620,7 +620,8 @@ ht-degree: 7%
          - [Substituições de configuração para o Cloud Service](./install-conf-guide/download-install-config-override.md)
       - No local {#on-prem}
          - [Atualizar o AEM Guides no Local 4.6.0 e posterior](./install-conf-guide/upgrade-aemg-latest-version.md)
-         - [Atualizar versões anteriores do AEM Guides no Local](./install-conf-guide/upgrade-aemg-prev-versions.md)
+         - [Atualizar versões anteriores do AEM Guides no local](./install-conf-guide/upgrade-aemg-prev-versions.md)
+         - [Atualizações de configuração para versões do Experience Manager Guides](./install-conf-guide/configuration-on-prem.md)
    - Recomendações para a otimização do desempenho {#performance-optimization-aemg}
       - [Otimização do desempenho para o Cloud Service](./install-conf-guide/perf-optimization-cs.md)
       - [Otimização de desempenho para No Local](./install-conf-guide/perf-optimization-on-prem.md)
