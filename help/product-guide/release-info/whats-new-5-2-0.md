@@ -2,7 +2,7 @@
 title: Notas de versão | Novidades na versão 5.2.0 do Adobe Experience Manager Guides
 description: Saiba mais sobre os recursos novos e aprimorados da versão 5.2.0 do Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 179e9016b12edb14c09ce9352a318e06a4fc628a
+source-git-commit: efd7ab95f0ed7f35e99587a2f47eaeac7a330221
 workflow-type: tm+mt
 source-wordcount: '4132'
 ht-degree: 0%
@@ -94,17 +94,17 @@ O novo editor aprimora a experiência de trabalhar com tópicos grandes e comple
 
 O Repositório, agora acessível diretamente da página inicial, serve como um espaço centralizado para a descoberta aprimorada de pastas e arquivos. Ele apresenta o **painel de navegação de pasta** dedicado e uma **exibição tabular do Repositório** personalizável. A experiência de pesquisa e filtro renovada facilita significativamente a localização e a localização de arquivos. Para obter mais detalhes, consulte [Conhecer a interface do Repositório](../user-guide/home-page-repository-view.md).
 
-![](assets/repository-view-home.png){align="left"}
+![](assets/repository-view-home.png)
 
 No Editor, a experiência de Pesquisa e filtro para arquivos agora é consistente com a Página inicial. Um novo [painel de Pesquisa](../user-guide/search-panel-explorer.md), localizado na parte inferior da interface do Editor, foi introduzido para exibir resultados de pesquisa. Além disso, o Repositório agora é renomeado para **Explorer** no Editor, permitindo que você procure pastas e arquivos como antes.
 
-![](assets/search-panel-explorer.png){align="left"}
+![](assets/search-panel-explorer.png)
 
 ### Suporte para filtro de estado do documento
 
 Você também pode filtrar os resultados da pesquisa do Repositório com base no estado atual do documento dos arquivos. Com o filtro de estado do Documento, você pode restringir sua pesquisa usando os valores de filtro disponíveis definidos no arquivo `ui_config.json` no perfil de Pasta.
 
-![](assets/document-state-filter-repository.png){align="left"}
+![](assets/document-state-filter-repository.png)
 
 Os valores de filtro padrão disponíveis para o estado do Documento são: Rascunho, Editar, Em revisão, Aprovado, Revisado e Concluído.
 
@@ -118,7 +118,7 @@ Os valores de filtro padrão disponíveis para o estado do Documento são: Rascu
 
 Todos os arquivos multimídia são exibidos com ícones de miniatura, facilitando a identificação visual e a localização de imagens no **Repositório**. Esse aprimoramento também se aplica à pesquisa de arquivos no **painel Pesquisar**, ajudando você a distinguir rapidamente os ativos multimídia de outros tipos de arquivos.
 
-![](assets/thumbnail-repository.png){align="left"}
+![](assets/thumbnail-repository.png)
 
 ## Introdução à pesquisa no modo Source em Localizar e substituir
 
@@ -126,7 +126,7 @@ O Experience Manager Guides introduziu várias melhorias no recurso Localizar e 
 
 Ativar esse modo permite executar uma pesquisa global não apenas no conteúdo visível, mas também no conteúdo original subjacente (estrutura XML, incluindo elementos, tags e valores de atributo) da string pesquisada. Esse modo garante uma pesquisa abrangente em todo o conteúdo.
 
-![](assets/map-find-replace-with-source-mode.png){width="650" align="left"}
+![](assets/map-find-replace-with-source-mode.png){width="650"}
 
 Nesse modo, é possível aplicar filtros para restringir a pesquisa por Tipo de arquivo, Estado do documento, Data da última modificação e muito mais. Você também tem a opção de baixar um relatório CSV detalhado após executar a operação Substituir tudo, que fornece um instantâneo de todas as ações de substituição executadas, juntamente com seus status de sucesso e falha.
 
@@ -142,7 +142,7 @@ Esta versão apresenta uma interface mais limpa e intuitiva para navegar pelos a
 
 Ao navegar pelos arquivos, a caixa de diálogo **Selecionar arquivo** renovada agora apresenta um layout com guias com duas exibições - **Repositório** para navegar por todo o repositório de conteúdo em um formato tabular e **Coleções** para acesso rápido a tópicos, mapas e imagens usados com frequência.
 
-![](assets/select-file.png){width="650" align="left"}
+![](assets/select-file.png){width="650"}
 
 Os principais aprimoramentos incluem:
 
@@ -154,7 +154,7 @@ Os principais aprimoramentos incluem:
 
 A caixa de diálogo **Selecionar caminho** também apresenta uma exibição estruturada em árvore aprimorada para navegação de pastas, garantindo uma maneira mais organizada e eficiente de selecionar caminhos no repositório de conteúdo.
 
-![](assets/select-path-dialog-new.png){width="350" align="left"}
+![](assets/select-path-dialog-new.png){width="350"}
 
 Para obter mais detalhes, exiba [seção Procurar arquivos e pastas no Experience Manager Guides](../user-guide/web-editor-other-features.md#browse-files-and-folders-in-experience-manager-guides) em _Outros recursos no Editor_.
 
@@ -178,15 +178,15 @@ Os seguintes aprimoramentos foram feitos na interface do usuário do Schematron 
 
 - No painel Validação, uma mensagem de estado vazio é exibida quando nenhum arquivo do Schematron é adicionado, fornecendo melhor clareza e direção para as próximas etapas.
 
-  ![](assets/schematron-panel.png){width="350" align="left"}
+  ![](assets/schematron-panel.png){width="350"}
 
 - Quando vários arquivos do Schematron são adicionados, eles são organizados em uma opção consolidada, fornecendo melhor visibilidade dos arquivos do Schematron configurados.
 
-  ![](assets/schematron-panel-error.png){width="350" align="left"}
+  ![](assets/schematron-panel-error.png){width="350"}
 
 - Com base no atributo de função definido no arquivo Schematron, os resultados da validação agora são categorizados como: `Fatal`, `Error`, `Warn` ou `Info`. Cada categoria inclui uma contagem visível juntamente com uma dica de ferramenta contextual para uma interpretação mais clara.
 
-  ![](assets/schematron-validation-errors.png){width="350" align="left"}
+  ![](assets/schematron-validation-errors.png){width="350"}
 
 Para obter mais detalhes sobre como usar arquivos Schematron no Experience Manager Guides, exiba [Suporte para arquivos Schematron](../user-guide/support-schematron-file.md).
 
@@ -194,7 +194,7 @@ Para obter mais detalhes sobre como usar arquivos Schematron no Experience Manag
 
 Uma nova seção **Traduções** está disponível no painel direito em *Propriedades do arquivo*, no Editor. Esta seção fornece acesso direto a todas as cópias de idioma disponíveis para o ativo aberto no momento (mapa, tópico, imagem etc.). Não é mais necessário navegar para a interface do usuário do Assets para exibir ou acessar essas cópias de idioma.
 
-![](assets/translations-right-panel.png){width="350" align="left"}
+![](assets/translations-right-panel.png){width="350"}
 
 Para cada cópia de idioma, é possível passar o mouse sobre o arquivo para localizar seu caminho no repositório ou simplesmente selecioná-lo para abri-lo no Editor. Além de abrir arquivos, você também pode executar muitas ações usando o menu **Opções**. Algumas das ações que você pode executar incluem Editar, Visualizar, Copiar UUID, Copiar caminho, Adicionar às coleções e Propriedades.
 
@@ -210,11 +210,11 @@ Apresentando a nova funcionalidade **Atualizar** para mapas que já estão abert
 
 - Para atualizar o mapa inteiro (incluindo todos os tópicos), um novo botão **Atualizar** é introduzido no canto superior esquerdo do Editor.
 
-  ![](assets/refresh-map.png){width="600" align="left"}
+  ![](assets/refresh-map.png){width="600"}
 
 - Para atualizar o conteúdo de tópicos individuais, uma nova opção **Atualizar tópico** é introduzida no menu de contexto.
 
-  ![](assets/refresh-topic.png){width="600" align="left"}
+  ![](assets/refresh-topic.png){width="600"}
 
 Para obter mais detalhes, consulte [Recursos do editor de mapas](../user-guide/map-editor-advanced-map-editor.md).
 
@@ -222,7 +222,7 @@ Para obter mais detalhes, consulte [Recursos do editor de mapas](../user-guide/m
 
 Agora é possível rastrear a contagem de palavras presente em um mapa ou arquivo de tópico. O novo campo **Contagem de palavras** do painel direito exibiria o número total de palavras presentes em um tópico (ou mapa), onde as palavras separadas por espaços são contadas como palavras individuais. Ele é atualizado automaticamente sempre que você salva as alterações. Para referências cruzadas, somente o texto de exibição é incluído, enquanto as teclas são excluídas.
 
-![](assets/file-properties-new.png){width="350" align="left"}
+![](assets/file-properties-new.png){width="350"}
 
 Para obter detalhes, exiba [painel direito no Editor](../user-guide/web-editor-right-panel.md#file-properties).
 
@@ -232,7 +232,7 @@ O Experience Manager Guides agora inclui um botão **IDs duplicadas** no Editor 
 
 Para obter mais detalhes, exiba [Recursos adicionais no Editor](../user-guide/web-editor-other-features.md).
 
-![](assets/duplicate-element-IDs.png){width="350" align="left"}
+![](assets/duplicate-element-IDs.png){width="350"}
 
 ### Melhorias nos filtros de Repositório e Relatórios
 
@@ -244,7 +244,7 @@ Agora você pode pesquisar citações em todos os campos do Diário, como *Títu
 
 Para obter mais detalhes sobre como adicionar citações no Experience Manager Guides, exiba [Adicionar e gerenciar citações em seu conteúdo](../user-guide/web-editor-apply-citations.md).
 
-![](assets/add-citations.png){width="350" align="left"}
+![](assets/add-citations.png){width="350"}
 
 ### Agora, as configurações do são renomeadas para Configurações do Workspace e podem ser acessadas na Página inicial
 
@@ -279,7 +279,7 @@ Como iniciador de uma tarefa de revisão, agora é possível verificar o status 
 
 Para obter mais detalhes, exiba [Solicitar uma revisão ou feche uma tarefa de revisão como um Autor](../user-guide/review-close-review-task.md).
 
-![](assets/check-review-status-icon.png){width="350" align="left"}
+![](assets/check-review-status-icon.png){width="350"}
 
 ### Atribuição do revisor com base na seleção de projeto ativa
 
@@ -298,7 +298,7 @@ Para obter mais detalhes, exiba [Enviar tópicos para revisão](../user-guide/re
 
 Você pode adicionar novos tópicos a uma tarefa de revisão em andamento (se eles não tiverem sido enviados anteriormente para revisão) ou remover tópicos de uma tarefa de revisão em andamento sem afetar o fluxo de trabalho de revisão. Na página **Detalhes da Tarefa**, você pode simplesmente selecionar ou desmarcar tópicos para modificar a lista de tópicos. Os revisores são notificados (via AEM e email) sobre qualquer alteração nos tópicos atribuídos por meio de notificações do AEM e por email. Para obter mais detalhes, exiba [Enviar tópicos para revisão](../user-guide/review-send-topics-for-review.md).
 
-![](assets/modify-review-topics.png){width="650" align="left"}
+![](assets/modify-review-topics.png){width="650"}
 
 ## Aprimoramentos de tradução
 
@@ -312,7 +312,7 @@ Se um arquivo contiver alterações sem controle de versão (não salvas como um
 
 Para obter mais detalhes, exiba [Traduzir documentos do Console de Mapa](../user-guide/translate-documents-web-editor.md).
 
-![](assets/unversioned-changes-translation.png){width="650" align="left"}
+![](assets/unversioned-changes-translation.png){width="650"}
 
 
 ## Aprimoramentos no gerenciamento de ativos
