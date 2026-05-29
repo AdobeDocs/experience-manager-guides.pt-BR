@@ -4,9 +4,10 @@ description: Saiba como configurar o processamento de ativos para o Cloud Servic
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 0b66a515-d8f1-4ea6-913f-e152ae114698
+source-git-commit: 5af3356dff3c42b8a93ed97b5ee20b23976769a4
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '121'
 ht-degree: 3%
 
 ---
@@ -39,7 +40,7 @@ As guias a seguir fornecem instruções para configurar o recurso de processamen
 
 1. Procure e selecione o pacote *com.adobe.fmdita.config.ConfigManager*.
 
-1. Defina a configuração `Enable Guides asset processing scheduled job` de acordo com seu requisito. A configuração é ativada por padrão.
+1. Defina a configuração **Habilitar o trabalho agendado de processamento de ativos do Guides** (`enable.asset.processing.scheduler`) de acordo com sua necessidade. A configuração é ativada por padrão.
 
 1. Selecione **Salvar**.
 

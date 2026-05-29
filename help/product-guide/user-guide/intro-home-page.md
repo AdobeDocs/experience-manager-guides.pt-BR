@@ -4,9 +4,9 @@ description: Conheça a página inicial da Adobe Experience Manager Guides.
 feature: Authoring
 role: User
 exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: e41cf263f42e91bc384aa09fd1135b46e429c86a
 workflow-type: tm+mt
-source-wordcount: '2105'
+source-wordcount: '2136'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Os recursos disponíveis na barra de navegação são explicados da seguinte man
 
      >[!NOTE]
      >
-     > Na Página inicial, a opção de configurações do Workspace está disponível somente para a configuração do Cloud Services. Em uma configuração no local, a opção Mais ações não está disponível na página inicial. No entanto, ainda é possível acessar as configurações relevantes por meio da interface do Editor e do console Mapa, navegando até Mais opções > Configurações.
+     > Na página inicial, a opção de configurações do Workspace está disponível para o Cloud Services e para configurações no local na versão 5.2 e posterior. Em uma configuração no local anterior à versão 5.2, a opção Mais ações não está disponível na página inicial. No entanto, ainda é possível acessar as configurações relevantes por meio da interface do Editor e do console Mapa, navegando até Mais opções > Configurações.
 
 - **Expandir exibição**: permite expandir a exibição de página usando o ícone **Expandir**. Nesta visualização, a barra do cabeçalho fica oculta, maximizando o espaço de conteúdo. Para retornar ao modo de exibição padrão, use o ícone **Sair do modo de exibição expandido**.
 
@@ -68,7 +68,7 @@ Os recursos disponíveis na barra de navegação são explicados da seguinte man
 
 >[!NOTE]
 >
-> O repositório está disponível no painel Esquerdo somente para configuração do serviço na nuvem a partir da versão 2025.11.0. Para configuração no local, o Repositório continua a ser acessado da interface do Editor.
+> O repositório está disponível no painel Esquerdo para configuração do serviço na nuvem a partir da versão 2025.11.0 e para configuração no local a partir da versão 5.2. Para configuração no local anterior à versão 5.2, o Repositório continua a ser acessado da interface do Editor.
 
 O painel esquerdo fornece acesso rápido aos recursos Visão geral, Repositório, Coleções de mapas, Publicação em massa, Fila de publicação e Preferências do usuário. Você pode expandir o painel selecionando o ícone **Expandir** posicionado no canto inferior esquerdo da interface. Depois de expandido, use o ícone **Recolher** para recolher o painel.
 
@@ -202,4 +202,4 @@ As preferências do usuário estão disponíveis para todos os autores. Usando a
 
   >[!NOTE]
   >
-  >Na versão 2025.11.0, a configuração **Sempre localizar arquivos no repositório** foi renomeada para **Sempre localizar arquivos no explorador**. Para configuração no local, ele continua disponível como Sempre localizar arquivos no repositório até a versão 5.1 do Experience Manager Guides.
+  >A partir da versão 2025.11.0 para Cloud Service e da versão 5.2.0 para No local, a configuração **Sempre localizar arquivos no repositório** é renomeada para **Sempre localizar arquivos no explorador**. Para configuração no local anterior à versão 5.2, ele continua disponível como Sempre localizar arquivos no repositório.

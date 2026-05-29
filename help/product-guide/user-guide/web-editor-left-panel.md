@@ -5,27 +5,14 @@ feature: Authoring, Features of Web Editor
 role: User
 exl-id: 92496d39-b423-4635-8b05-c67fd6af47de
 TQID: https://experienceleague.adobe.com/GbsiDGw2pByOZ-AfWM2yH46QYWm95Z4ShDSvqyedViU
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: d6596f3f-92a7-43ec-b444-237db6adad05
-  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d6596f3f-92a7-43ec-b444-237db6adad05id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0efid: f9dbea21-a714-40dd-bc90-080d8046c93f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 11080
+source-wordcount: 11025
 ht-degree: 0%
 
 ---
@@ -144,7 +131,7 @@ Também é possível executar muitas ações usando o menu Opções disponível 
 
 >[!NOTE]
 >
-> A partir da versão 2025.11.0, o **Repositório** no Editor será substituído pelo **Explorer** para a configuração do **Cloud service**. Para a configuração **No local**, você continuará a visualizar e usar o Repositório por meio da interface do Editor até a versão 5.1 do Experience Manager Guides.
+> A partir da versão 2025.11.0 para Cloud Service e da versão 5.2.0 para No local, **Repositório** é substituído pelo **Explorer**. No local antes da versão 5.2, você continuará a visualizar e usar o Repositório por meio da interface do Editor.
 
 Ao selecionar o ícone Repositório, você obtém uma lista de arquivos e pastas disponíveis no DAM. Por padrão, é possível visualizar os arquivos por títulos. Ao passar o mouse sobre um arquivo, é possível exibir o título e o nome do arquivo como uma dica de ferramenta.
 
@@ -185,7 +172,7 @@ Você tem as seguintes opções para filtrar os arquivos e restringir sua pesqui
 - **Arquivos DITA**: você pode procurar todos os **tópicos DITA** e **mapas DITA** presentes no caminho selecionado. Elas são selecionadas por padrão.
 - **Arquivos não DITA**: você pode pesquisar por **Arquivos Ditaval**, **Arquivos de Imagem**, **Multimídia**, **Documentos** e **JSON** no caminho selecionado.
 
-  ![filtro de pesquisa rápida &#x200B;](images/repository-filter-search-quick.png) {width="300"}
+  ![filtro de pesquisa rápida ](images/repository-filter-search-quick.png) {width="300"}
 
   *Use os filtros rápidos para procurar arquivos DITA e não DITA.*
 
@@ -493,7 +480,7 @@ As várias opções no menu Opções são explicadas abaixo:
 
 >[!NOTE]
 >
-> A partir da versão 2025.11.0, o termo Repositório no Editor será substituído por **Explorer** para configuração do serviço na nuvem. A configuração no local continuará a ver e acessar o Repositório no Editor.
+> A partir da versão 2025.11.0 para Cloud Service e da versão 5.2.0 para No local, **Repositório** é substituído pelo **Explorer**. No local antes da versão 5.2, você continuará a visualizar e usar o Repositório por meio da interface do Editor.
 
 O Explorer fornece a maioria dos recursos disponíveis anteriormente no Repository, incluindo:
 
@@ -730,7 +717,7 @@ Se um elemento de bloco tiver seu próprio texto, ele será exibido junto com es
 
 ![](images/outline-view-block-element.png){width="550"}
 
-Se o administrador tiver criado um perfil para atributos, você obterá esses atributos junto com seus valores configurados. Você também pode atribuir atributos de exibição configurados pelo administrador na guia **Atributos de exibição** das **Configurações do Workspace** (exibidas como **Configurações** para **No local**). Os atributos definidos para um elemento são exibidos na exibição Layout e Estrutura de Tópicos.
+Se o administrador tiver criado um perfil para atributos, você obterá esses atributos junto com seus valores configurados. Você também pode atribuir atributos de exibição configurados pelo administrador na guia **Atributos de exibição** das **Configurações do Workspace** (exibidos como **Configurações** da **Configuração no local anterior à versão 5.2**). Os atributos definidos para um elemento são exibidos na exibição Layout e Estrutura de Tópicos.
 
 
 **Recurso de pesquisa**
@@ -1060,7 +1047,7 @@ Você também pode alterar os valores do menu suspenso do atributo na visualiza�
 
 Você também pode exibir e aplicar o esquema de assunto do painel Condições.
 
-Para exibir o esquema do assunto no painel Condições, o administrador do sistema deve selecionar a opção **Mostrar esquema do assunto no painel Condições** na guia Geral das **configurações do Workspace** (exibidas como **Configurações** para **No local**). Para obter mais detalhes, exiba a [Barra de guias](./web-editor-tab-bar.md).
+Para exibir o esquema do assunto no painel Condições, o administrador do sistema deve selecionar a opção **Mostrar esquema do assunto no painel Condições** na guia Geral em **Configurações do Workspace** (exibida como **Configurações** para **Configuração no local antes da versão 5.2**). Para obter mais detalhes, exiba a [Barra de guias](./web-editor-tab-bar.md).
 
 O painel Condições exibe a estrutura vertical plana das definições de assunto dentro do esquema de assunto.
 
@@ -1229,7 +1216,7 @@ Para executar a pesquisa global e substituir pelo modo Source, execute as seguin
 
    >[!NOTE]
    >
-   >Para habilitar o botão **Substituir tudo**, o administrador do perfil da pasta ou o administrador do sistema deve selecionar a opção **Habilitar Substituir tudo** na guia **Geral** das **Configurações do Workspace** (exibidas como **Configurações** para **No local**).
+   >Para habilitar o botão **Substituir tudo**, o administrador do perfil da pasta ou o administrador do sistema deve selecionar a opção **Habilitar Substituir tudo** na guia **Geral** das **Configurações do Workspace** (exibidas como **Configurações** para a **Instalação no local antes da versão 5.2**).
 
 1. Você também pode passar o mouse sobre um arquivo da lista de resultados da pesquisa para exibir o ícone **Substituir tudo no arquivo** à direita, que permite substituir todas as ocorrências do termo em um único arquivo.
 
@@ -1303,7 +1290,7 @@ Para executar a pesquisa global e substituir sem o modo Source, execute as segui
 
    >[!NOTE]
    >
-   > Para habilitar o ícone **Substituir tudo**, o administrador do perfil de pasta ou o administrador do sistema deve selecionar a opção **Habilitar Substituir tudo** na guia **Geral** das **configurações do Workspace** (exibidas como **Configurações** para **No local**). Se ocorrerem erros durante a operação de substituição, esses arquivos serão ignorados devido a problemas de análise XML ou erros relacionados a DITA.
+   > Para habilitar o ícone **Substituir tudo**, o administrador de perfil de Pasta ou o administrador do Sistema deve selecionar a opção **Habilitar Substituir Tudo** na guia **Geral** das **Configurações do Workspace** (exibidas como **Configurações** para **Instalação no local antes da versão 5.2**). Se ocorrerem erros durante a operação de substituição, esses arquivos serão ignorados devido a problemas de análise XML ou erros relacionados a DITA.
 
    ![](images/replace-all.png){width="350"}
 
@@ -1388,4 +1375,4 @@ Para exibir os comentários de revisão nas tarefas de revisão ativas que estã
 
 </details>
 
-**Tópico pai:**&#x200B;[&#x200B; Introdução ao Editor](web-editor.md)
+**Tópico pai:**[ Introdução ao Editor](web-editor.md)

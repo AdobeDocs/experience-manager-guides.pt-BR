@@ -1,24 +1,24 @@
 ---
-title: Configurar o trabalho de limpeza da árvore B para serviços em nuvem
-description: Configurar o trabalho de limpeza da árvore B para serviços em nuvem
+title: Configurar trabalho de limpeza do armazenamento de referência
+description: Configurar trabalho de limpeza do armazenamento de referência
 feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 58f98313-fc91-43b3-9553-aa5ab4946925
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 370a28a06a37b632873a79c9b83b8660a0221dd8
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '247'
 ht-degree: 3%
 
 ---
 
-# Configurar limpeza da árvore B
+# Configurar limpeza do armazenamento de referência
 
-Configure o trabalho de limpeza da árvore B e gerencie a configuração `Guides BTree deletion` para manter o sistema otimizado e o armazenamento limpo.
+Configure o trabalho de limpeza do repositório de Referência e gerencie a configuração `Guides BTree deletion` para manter o sistema otimizado e o armazenamento limpo.
 
-## Configurar trabalho de limpeza da árvore B
+## Configurar trabalho de limpeza de armazenamento de referência
 
-As guias a seguir fornecem instruções para configurar o trabalho de limpeza da árvore B com base na configuração do Experience Manager Guides: Cloud Service ou No local.
+As guias a seguir fornecem instruções para configurar o trabalho de limpeza da loja de referência com base na configuração do Experience Manager Guides: Cloud Service ou No local.
 
 >[!BEGINTABS]
 
@@ -44,9 +44,9 @@ As guias a seguir fornecem instruções para configurar o trabalho de limpeza da
 
 1. Procure e selecione o pacote *com.adobe.guides.utils.schedulers.GuidesBTreesCleanupSchedulerJob*.
 
-1. Atualize a expressão cron para configurar a frequência de execução do trabalho do agendador de limpeza da árvore B.
+1. Atualize a expressão cron para configurar a frequência de execução do trabalho do agendador de limpeza de armazenamento de referência.
 
-1. Configure o programador de limpeza da árvore B como mostrado abaixo.
+1. Configure o Agendador de limpeza de armazenamento de referência conforme mostrado abaixo.
 
    ![](assets/btree-cleanup-config.png)
 
@@ -81,7 +81,7 @@ As guias a seguir fornecem instruções para ativar a configuração com base na
    ```
 
 1. Procure e selecione o pacote *com.adobe.fmdita.config.ConfigManager*.
-1. Habilitar a configuração `Guides btree deletion enabled`.
+1. Habilitar a configuração **Exclusão de btree de guias habilitada** (btree.deletion.enabled).
 
    ![](assets/btree-cleanup-setting.png)
 
