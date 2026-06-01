@@ -4,9 +4,10 @@ description: Saiba como configurar filtros de estado do documento
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 6dee8479-770f-48d7-9939-5035388d16d8
+source-git-commit: 4d8a6cd1e683af7ac3496464a2e0ed930eb9e8fc
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '208'
 ht-degree: 0%
 
 ---
@@ -26,40 +27,41 @@ Execute as seguintes etapas para configurar os filtros de estado do documento:
 1. Selecione o ícone **Baixar** para baixar o arquivo `ui\_config.json` no sistema local.
 No arquivo `ui\_config.json` baixado, consulte a seguinte seção:
 
-       &quot;
-       &quot;repositoryFilters&quot;: &lbrack;
-       &lbrace;
-       &quot;título&quot;: &quot;Estado do documento&quot;,
-       &quot;propriedade&quot;: &quot;jcr:content/metadata/docstate&quot;,
-       &quot;filhos&quot;: &lbrack;
-       &lbrace;
-       &quot;título&quot;: &quot;Rascunho&quot;,
-       &quot;valor&quot;: &quot;Rascunho&quot;
-       ,
-       &lbrace;
-       &quot;título&quot;: &quot;Editar&quot;,
-       &quot;valor&quot;: &quot;Editar&quot;
-       ,
-       &lbrace;
-       &quot;title&quot;: &quot;Em revisão&quot;,
-       &quot;valor&quot;: &quot;Em revisão&quot;
-       ,
-       &lbrace;
-&rbrace;       &quot;título&quot;: &quot;Aprovado&quot;,
-       &quot;valor&quot;: &quot;Aprovado&quot;
-       ,
-       &lbrace;
-       &quot;título&quot;: &quot;Revisado&quot;,
-       &quot;valor&quot;: &quot;Revisado&quot;
-       ,
-       &lbrace;
-       &quot;título&quot;: &quot;Concluído&quot;,
-       &quot;valor&quot;: &quot;Concluído&quot;
-       
-       &rbrack;
-       
-       &rbrack;
-       &quot;
+   ```
+   "repositoryFilters": [
+       {
+       "title": "Document state",
+       "property": "jcr:content/metadata/docstate",
+       "children": [
+           {
+           "title": "Draft",
+           "value": "Draft"
+           },
+           {
+           "title": "Edit",
+           "value": "Edit"
+           },
+           {
+           "title": "In-Review",
+           "value": "In-Review"
+           },
+           {
+           "title": "Approved",
+           "value": "Approved"
+           },
+           {
+           "title": "Reviewed",
+           "value": "Reviewed"
+           },
+           {
+           "title": "Done",
+           "value": "Done"
+           }
+       ]
+       }
+   ]
+   ```
+
    Este trecho representa os filtros de estado de documento padrão disponíveis no Experience Manager Guides.
 
 1. Você pode personalizar os valores de filtro com base no fluxo de trabalho da sua organização. Por exemplo, para adicionar um estado de documento personalizado **Pendente**, insira a seguinte entrada em `children`:

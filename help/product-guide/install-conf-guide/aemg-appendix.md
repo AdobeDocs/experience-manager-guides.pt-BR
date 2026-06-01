@@ -4,9 +4,10 @@ description: Saiba como preparar documentos do InDesign para migração
 feature: InDesign File Conversion, Troubleshooting
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 6e757850-c563-42c5-aeac-b23c3f2ce679
+source-git-commit: 35fdbf480b4b70b70193772d0eae3a3cedec0077
 workflow-type: tm+mt
-source-wordcount: '2852'
+source-wordcount: '2866'
 ht-degree: 0%
 
 ---
@@ -44,9 +45,9 @@ Execute as seguintes etapas para corrigir referências quebradas, usando o scrip
 
 1. Execute o script de patch `[/bin/fmdita/validatebtree?operation=patch]` para corrigir as referências corrompidas. A execução do script leva alguns minutos e imprime os registros conforme avança. Quando a execução for concluída, ele imprimirá &quot;`Done`&quot; no final.
 
->[!NOTE]
->
-> É recomendável copiar e salvar os logs para fins de referência.
+   >[!NOTE]
+   >
+   > É recomendável copiar e salvar os logs para fins de referência.
 
 1. Quando o script de patch for executado com sucesso, você poderá fazer as seguintes verificações:
 1. &#x200B;
