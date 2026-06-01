@@ -4,9 +4,10 @@ description: Saiba como configurar um conector de fonte de dados usando as ferra
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: ea09ea67-3051-4231-90e2-3b8a3ceb9270
+source-git-commit: d7d8ae300695fb6e637265766e7f44e0e0226e3a
 workflow-type: tm+mt
-source-wordcount: '1204'
+source-wordcount: '1172'
 ht-degree: 0%
 
 ---
@@ -37,6 +38,7 @@ As guias a seguir fornecem instruções para configurar um conector com base na 
    *Exibir ou criar um conector de fonte de dados.*
 1. Clique em **Criar**.
 1. Selecione o banco de dados para o qual deseja criar o conector. Por exemplo, o conector Elasticsearch.
+
    >[!NOTE]
    >
    >Todos os bancos de dados prontos para uso disponíveis são listados.
@@ -55,16 +57,11 @@ As guias a seguir fornecem instruções para configurar um conector com base na 
    * **Senha**: digite seu nome de usuário e senha.
    * **URL**: adicionar a URL da API.
 
-
 1. Selecione a opção **Excluir modelos de fábrica** para impedir que os modelos de fábrica sejam usados para geração de tópico e trecho. Eles não aparecerão na lista suspensa **Modelo de mapeamento de dados** na caixa de diálogo **Adicionar gerador de trecho de conteúdo** ou **Adicionar gerador de tópico**.
-
 
 1. Selecione **Testar conexão**. Você pode exibir o botão **Testar Conexão** habilitado somente após adicionar os detalhes necessários. Veja uma mensagem de sucesso se os detalhes da conexão estiverem corretos. Caso contrário, você poderá exibir uma mensagem de erro.
 
-
-
 1. Selecione **Salvar** na parte superior para salvar o conector.     Exiba o botão **Salvar** habilitado depois que você preencher todos os detalhes e a conexão for bem-sucedida.
-
 
    Se o conector for salvo com sucesso, você poderá exibir a fonte de dados conectada na página.
 
@@ -78,7 +75,6 @@ Execute as seguintes etapas para criar um recurso:
 1. Configure todos os detalhes na caixa de diálogo **Adicionar recurso**.
 1. Clique em **Adicionar**.
 1. Você pode editar o ![ícone de edição](assets/edit_pencil_icon.svg) ou excluir o recurso ![excluir](assets/Delete_icon.svg) da lista de recursos de URL.
-
 1. Você também pode usar os recursos padrão disponíveis para fontes de dados como Salsify, Akeneo e Microsoft ADO. Ative as opções DESATIVADAS para o recurso que você não deseja configurar para uma fonte de dados.
 
 Isso ajuda a buscar dados rapidamente de qualquer um dos recursos de uma fonte de dados específica em um único trecho de conteúdo ou tópico.
@@ -88,7 +84,6 @@ Isso ajuda a buscar dados rapidamente de qualquer um dos recursos de uma fonte d
 Para publicar uma dependência presente no [repositório central Maven](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides) nos Serviços de nuvem, você precisa incluir e incorporar a dependência de um conector de código aberto.
 
 1. Adicione a dependência em `all/pom.xml` no código do projeto Git do Cloud Manager. Por exemplo, você pode adicionar a seguinte dependência para o conector de origem de dados das placas Microsoft Azure DevOps.
-
 
    ```
    <dependency>
@@ -101,15 +96,15 @@ Para publicar uma dependência presente no [repositório central Maven](https://
 
 1. Incorpore a dependência adicionada.
 
-       &quot;
-       &lt;incorporada>
-       &lt;groupId>com.adobe.aem.addon.guides&lt;/groupId>
-       &lt;artifactId>konnect-azure-devops&lt;/artifactId>
-       &lt;type>jar&lt;/type>
-       &lt;target>/apps/aemdoxonaemcsstageprogram-vendor-packages/content/install&lt;/target>
-       &lt;/embedded>
-       &quot;
-   
+   ```
+   <embedded>
+       <groupId>com.adobe.aem.addon.guides</groupId>
+       <artifactId>konnect-azure-devops</artifactId>
+       <type>jar</type>
+       <target>/apps/aemdoxonaemcsstageprogram-vendor-packages/content/install</target>
+   </embedded> 
+   ```
+
 1. Execute o pipeline para aplicar as alterações nos Serviços em nuvem.
 O conector é instalado em seu ambiente.
 
@@ -126,6 +121,7 @@ O conector é instalado em seu ambiente.
    *Exibir ou criar um conector de fonte de dados.*
 1. Clique em **Criar**.
 1. Selecione o banco de dados para o qual deseja criar o conector. Por exemplo, o conector Elasticsearch.
+
    >[!NOTE]
    >
    >Todos os bancos de dados prontos para uso disponíveis são listados.
@@ -146,7 +142,6 @@ O conector é instalado em seu ambiente.
 1. Selecione **Testar conexão**. Você pode exibir o botão **Testar Conexão** habilitado somente após adicionar os detalhes necessários. Veja uma mensagem de sucesso se os detalhes da conexão estiverem corretos. Caso contrário, você poderá exibir uma mensagem de erro.
 
 1. Selecione **Salvar** na parte superior para salvar o conector.     Exiba o botão **Salvar** habilitado depois que você preencher todos os detalhes e a conexão for bem-sucedida.
-
 
    Se o conector for salvo com sucesso, você poderá exibir a fonte de dados conectada na página.
 
@@ -172,7 +167,6 @@ Você verá um erro se existir um conector com o mesmo nome.
 
 * **Excluir**: excluir o conector selecionado.
 
-
 Após configurar a fonte de dados, o conector será listado no **painel Fontes de Dados** do Editor da Web. Em seguida, você pode se conectar à fonte de dados e inserir um trecho de conteúdo em seus tópicos. Para obter mais detalhes, exiba [Inserir um trecho de conteúdo da sua fonte de dados](../user-guide/web-editor-content-snippet.md).
 
-Somente para configuração no local, também é possível criar conectores personalizados e usá-los com fontes de dados diferentes. Saiba como [configurar conectores personalizados](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using/knowledge-base/kb-articles/external-data-source/conf-custom-data-source-connector).
+Somente para configuração no local, também é possível criar conectores personalizados e usá-los com fontes de dados diferentes. Saiba como [configurar conectores personalizados](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/external-data-source/conf-custom-data-source-connector).
