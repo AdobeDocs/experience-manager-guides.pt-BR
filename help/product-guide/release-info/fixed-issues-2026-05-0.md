@@ -1,9 +1,9 @@
 ---
 title: Notas de versão | Correção de problemas na versão 2026.05.0 do Adobe Experience Manager Guides
 description: Saiba mais sobre as correções de erros na versão 2026.05.0 do Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: a6b8ed1df3e10db69586686bac53cf8169cc5e02
+source-git-commit: 4a22e6f8e2505a5e2a990ec38571913c838d0ea1
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1255'
 ht-degree: 0%
 
 ---
@@ -80,4 +80,5 @@ A Adobe identificou os seguintes problemas conhecidos para a versão 2026.05.0:
 - Quando um mapa contém um `topicref` externo que aponta para um recurso não DITA (como `.html` ou `.htm`), sua visualização não é exibida na interface do usuário do Assets. (GUIDES-45409)
 - Na interface do Assets, o conteúdo referenciado com o `conref` não é exibido para tópicos DITA, embora seja renderizado corretamente na visualização do Editor. (GUIDES-45505)<br>**Solução alternativa**: para esse conteúdo, você pode usar a visualização do Editor.
 - Quando a propriedade `xmleditor.uniquefilenames` é habilitada, os novos tópicos criados usando um modelo não incluem o título do tópico. (GUIDES-44737)
+- As APIs `getAsset`, `startAssetProcessing` e `getAssetProcessingStatus` não estão disponíveis para uso com o Java SDK.
 
