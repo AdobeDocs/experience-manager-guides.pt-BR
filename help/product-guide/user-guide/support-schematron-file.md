@@ -15,9 +15,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 9f5364625d113f2f1fd147b6df30b0ca3d439029
+source-git-commit: de26a643364cab57b415d8eff9e863ea1b4bfe62
 workflow-type: tm+mt
-source-wordcount: 907
+source-wordcount: 984
 ht-degree: 0%
 
 ---
@@ -28,8 +28,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> O editor é compatível com o esquema ISO.
-
+>O editor é compatível com o esquema ISO.
 
 ## Importar arquivos do Schematron
 
@@ -57,7 +56,7 @@ Quando você abre um tópico no Editor, um painel Validação do Schematron é e
 
    >[!NOTE]
    >
-   > Quando um arquivo de esquema inválido é adicionado, uma mensagem de erro é exibida no painel Validação.
+   >Quando um arquivo de esquema inválido é adicionado, uma mensagem de erro é exibida no painel Validação:
 
    ![](images/schematron-panel-error.png){width="350"}
 
@@ -123,8 +122,8 @@ Ao validar os tópicos DITA com o Schematron, você recebe uma mensagem para os 
 ### Demonstrativo do relatório
 
 Uma instrução de relatório gera uma mensagem quando uma instrução de teste é avaliada como verdadeira. Por exemplo, se você quiser que a descrição curta tenha 150 caracteres ou menos, poderá definir uma instrução de relatório para verificar os tópicos em que a descrição curta tem mais de 150 caracteres.
-Ao validar os tópicos DITA com o Schematron, você obtém um relatório completo das regras em que a instrução do relatório é avaliada como verdadeira. Assim, você recebe uma mensagem para os tópicos em que a descrição curta tem mais de 150 caracteres.
 
+Ao validar os tópicos DITA com o Schematron, você obtém um relatório completo das regras em que a instrução do relatório é avaliada como verdadeira. Assim, você recebe uma mensagem para os tópicos em que a descrição curta tem mais de 150 caracteres.
 
 ```XML
 <sch:rule context="shortdesc"> 
@@ -137,7 +136,7 @@ Ao validar os tópicos DITA com o Schematron, você obtém um relatório complet
 
 >[!NOTE]
 >
-> Use somente expressões Xpath 2.0 ao gravar as regras do Schematron.
+>Use somente expressões Xpath 2.0 ao gravar as regras do Schematron.
 
 ## Usar expressões Regex{#schematron-regex-espressions}
 
@@ -155,9 +154,7 @@ No one word titles.
 
 O Experience Manager Guides também oferece suporte a padrões abstratos no Schematron. Você pode definir padrões abstratos genéricos e reutilizar esses padrões abstratos.  Você pode criar parâmetros de espaço reservado que especificam o padrão real.
 
-
 O uso de padrões abstratos pode simplificar o esquema Schematron, reduzindo a duplicação de regras e facilitando o gerenciamento e a atualização da lógica de validação. Ela também pode facilitar a compreensão do esquema, pois é possível definir uma lógica de validação complexa em um único padrão abstrato que pode ser reutilizado em todo o esquema.
-
 
 Por exemplo, o código XML a seguir cria um padrão abstrato e, em seguida, o padrão real se refere a ele usando a id.
 
