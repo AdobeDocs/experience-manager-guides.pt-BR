@@ -6,19 +6,13 @@ role: User
 hide: true
 exl-id: c743baac-b6c1-4684-bbd1-8f9834ab272a
 TQID: https://experienceleague.adobe.com/RTjruUSe-4ZbghbPl3au1OjZd3D5-7VN3R4GP8UqsRM
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 9f5364625d113f2f1fd147b6df30b0ca3d439029
 workflow-type: tm+mt
-source-wordcount: 766
+source-wordcount: 673
 ht-degree: 0%
 
 ---
@@ -57,6 +51,7 @@ Quando você abre um tópico no Editor da Web, um painel Validação do Schematr
 1. Clique no ícone Esquematron () para abrir o painel Esquematron.
 1. Use Adicionar arquivo de esquema para adicionar arquivos de esquema.
 1. Se o arquivo do Schematron não tiver erros, ele será adicionado e listado no painel Validação. Uma mensagem de erro é exibida para o arquivo do Schematron contendo erros.
+
    >[!NOTE]
    >
    >Você pode usar o ícone de cruz próximo ao nome do arquivo do Schematron para removê-lo.
@@ -115,7 +110,6 @@ Por exemplo, você pode usá-la para exibir uma mensagem se o título contiver a
 No one word titles.
 </assert>  
 ```
-
 
 ## Definir padrões abstratos{#schematron-abstract-patterns}
 
