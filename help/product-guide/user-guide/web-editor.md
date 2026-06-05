@@ -15,14 +15,14 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: 95496b7275fc8d94afb75703ff2ef5b7c5750644
 workflow-type: tm+mt
 source-wordcount: 481
 ht-degree: 0%
 
 ---
 
-# Introdução aos editores {#id181OD0QE05Z}
+# Introdução ao editor {#id181OD0QE05Z}
 
 O Experience Manager Guides vem com um editor fácil de usar para criar e editar documentos estruturados. O editor oculta todas as complexidades da estrutura DITA do autor. O editor fornece uma lista de elementos DITA que um usuário normalmente precisaria para trabalhar em um documento.
 
