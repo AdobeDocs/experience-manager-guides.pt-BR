@@ -6,22 +6,14 @@ role: Admin
 level: Experienced
 exl-id: d48709b8-f5b2-4545-ac65-838c5d8b1bae
 TQID: https://experienceleague.adobe.com/mzWOXyP0Zr-tScAYAc4R1BBm9LaFKVhOIRbbb9DrVRQ
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 9555f90917819727b77daea4520b6bba2350129f
 workflow-type: tm+mt
-source-wordcount: 947
+source-wordcount: 951
 ht-degree: 1%
 
 ---
@@ -102,7 +94,7 @@ Se você tiver um tópico DITA sobre &quot;Instruções de instalação&quot;, o
 >
 > Certifique-se de que os componentes que usam sling:resourceType em `wcm/foundation/components` sejam migrados para o `core/wcm/components` correspondente.
 
-Adicione o mesmo (contêiner e componente de texto) na estrutura do mesmo modelo:
+Adicionar o mesmo componente de contêiner na estrutura do mesmo modelo:
 
 ![Adicionando contêiner e componente de texto](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-and-text-component.png){width="650"}
 
@@ -114,7 +106,7 @@ Consulte a tabela abaixo para obter a lista de componentes e seu uso:
 
 | Destaque | Nome do componente | Descrição | Modelo recomendado |
 |---|---|---|---|
-| Índice | guidessidenavigation | Renderiza o índice completo do mapa DITA | Contêiner da documentação |
+| Índice | guidessidenavigation | Renderiza o índice completo do mapa DITA | Página de tópico |
 | Redirecionamento de página | filho direto | Redireciona para a primeira página de tópico do mapa | Contêiner da documentação |
 | Mini TOC | minitoc | Exibe o índice do tópico atual | Página de tópico |
 | Última atualização | pageproperty | Exibe a última data de modificação | Página de tópico |
@@ -135,7 +127,7 @@ Por padrão, as bibliotecas de clientes (clientlibs) fornecidas no pacote de com
 
 1. **Editar o Modelo:**
 
-   1. Abra a **Página do Produto** no **Modo Editor**.
+   1. Abra o **Modelo de página de contêiner** e o **Modelo de página de tópico** no modo Editor.
    2. Selecione **Editar Modelo** (isso abrirá uma URL como conf/settings/wcm/templates/structure.html).
 
       ![Editar modelo](/help/product-guide/knowledge-base/kb-articles/assets/publishing/edit-template.png){width="650"}
@@ -154,4 +146,4 @@ Por padrão, as bibliotecas de clientes (clientlibs) fornecidas no pacote de com
 
 >[!NOTE]
 >
-> Verifique se os modelos foram testados em um ambiente de não produção antes de implantar na produção.<br><br>Consulte a documentação oficial do [AEM Guides](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using/overview) e do [AEM Sites](https://experienceleague.adobe.com/pt-br/docs/experience-manager-core-components/using/get-started/authoring) para obter detalhes adicionais.
+> Verifique se os modelos foram testados em um ambiente de não produção antes de implantar na produção.<br><br>Consulte a documentação oficial do [AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview) e do [AEM Sites](https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/get-started/authoring) para obter detalhes adicionais.

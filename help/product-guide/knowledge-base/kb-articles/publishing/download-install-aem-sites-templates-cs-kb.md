@@ -6,18 +6,13 @@ role: Admin
 level: Experienced
 exl-id: 67f7ff26-fbc7-426c-aa7d-9bf4debf05d8
 TQID: https://experienceleague.adobe.com/fj9JDKmklfdc-3UHShHD3PqynCcnnH5cK8lQNqCLD2c
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 6d10f55ace72536266723331313c73ce33cddcf1
 workflow-type: tm+mt
-source-wordcount: 705
-ht-degree: 0%
+source-wordcount: 698
+ht-degree: 1%
 
 ---
 
@@ -53,9 +48,9 @@ Instale o **Pacote de Componentes (guides-components.all-1.x.x.zip)** e execute 
       ![Selecionar informações do Repositório de Acesso](/help/product-guide/knowledge-base/kb-articles/assets/publishing/access-repo.png){width="350"}
 
    3. Clonar o repositório no sistema local usando o nome de usuário e a senha fornecidos (gerar senha, se necessário).
-2. **Adicionar Pacote ao Pacote Maven:**
-   1. No repositório clonado localmente, crie um novo pacote Maven ou adicione a um existente.
-   2. Verifique se a estrutura `/jcr_root/apps/fmdita/` instalada existe no projeto Maven.
+2. **Adicionar Pacote ao módulo do Projeto:**
+   1. No repositório clonado localmente, crie um novo módulo do Project ou adicione a um existente.
+   2. Verifique se a estrutura `/jcr_root/apps/fmdita/` está instalada.
 
       ![Estrutura em projeto Maven](/help/product-guide/knowledge-base/kb-articles/assets/publishing/maven-structure.png){width="650"}
 
@@ -65,8 +60,7 @@ Instale o **Pacote de Componentes (guides-components.all-1.x.x.zip)** e execute 
 3. **Atualizar filters.xml:**
 
    1. Abra o arquivo filters.xml localizado na pasta META-INF do diretório de conteúdo principal.
-   2. Adicionar o filtro a seguir: raiz do filtro=`/apps/fmdita` modo=`merge`/
-
+   2. Adicionar o filtro a seguir: `<filter root=/apps/fmdita  mode=merge/>`.
 
       ![Adicionar filtro](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-filter-xml.png){width="650"}
 
@@ -143,4 +137,4 @@ Instale o **Pacote de Componentes (guides-components.all-1.x.x.zip)** e execute 
 
 >[!NOTE]
 >
-> Verifique se todas as configurações foram testadas em um ambiente de não produção antes de implantar na produção. <br><br> Consulte a [Documentação de implantação do AEM as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/implementing/deploying/overview) oficial para obter mais detalhes.
+> Verifique se todas as configurações foram testadas em um ambiente de não produção antes de implantar na produção. <br><br> Consulte a [Documentação de implantação do AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview) oficial para obter mais detalhes.
