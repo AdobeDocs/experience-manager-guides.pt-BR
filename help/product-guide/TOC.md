@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leia a documentação do produto do Adobe Experience Manager Guides.
 breadcrumb-title: Documentação do AEM Guides
-source-git-commit: efd7ab95f0ed7f35e99587a2f47eaeac7a330221
+source-git-commit: 5f626c210e74c6d11e2441f719cfbfeb33bf55c5
 workflow-type: tm+mt
-source-wordcount: '3391'
+source-wordcount: '3406'
 ht-degree: 7%
 
 ---
@@ -237,6 +237,7 @@ ht-degree: 7%
          - [Criação de documentos do Markdown a partir do editor](./user-guide/web-editor-markdown-topic.md)
          - [Adicionar citações ao seu conteúdo](./user-guide/web-editor-apply-citations.md)
          - [Usar dados de suas fontes de dados](./user-guide/web-editor-content-snippet.md)
+         - {hide-from-toc}[Importar conteúdo usando o Conector Git (Beta)](./user-guide/web-editor-git-connector.md)
          - [Estado do documento](./user-guide/web-editor-document-states.md)
          - [Usar rótulos](./user-guide/web-editor-use-label.md)
          - [Configurações do editor](./user-guide/config-editor-settings.md)
@@ -685,6 +686,7 @@ ht-degree: 7%
       - Conector da fonte de dados {#data-source}
          - [Configurar um conector de fonte de dados na interface do usuário](./install-conf-guide/conf-data-source-connector-tools.md)
          - [Configurar um conector de fonte de dados para o Cloud Service](./install-conf-guide/conf-data-source-connector-cs.md)
+         - {hide-from-toc}[Criar e configurar o Conector Git a partir da interface de usuário](./install-conf-guide/conf-git-connector.md)
    - Perfis globais e em nível de pasta {#global-folder-profiles}
       - [Configurar perfis globais ou de nível de pasta](./install-conf-guide/conf-profiles.md)
    - Tópico e modelos de mapa {#topic-map-template}
