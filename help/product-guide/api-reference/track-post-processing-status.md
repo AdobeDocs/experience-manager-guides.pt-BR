@@ -6,23 +6,16 @@ role: Developer
 level: Experienced
 exl-id: f902fac1-2717-4696-a835-c4b0bb8add3d
 TQID: https://experienceleague.adobe.com/Lyv-S5o-Z40bMqqIHhbxKrsmn9CCqHRnqnpiq91EjGU
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 1d80ca88a3a6637a118657367b86b499675f6d0e
 workflow-type: tm+mt
-source-wordcount: 198
-ht-degree: 8%
+source-wordcount: 150
+ht-degree: 10%
 
 ---
 
 # API para rastrear o status pós-processamento de uma pasta ou um ativo
-
->[!NOTE]
->
-> Para obter as definições mais recentes de ponto de extremidade de API REST e detalhes relacionados, exiba a documentação do Swagger em `https://<aem-author-url>/libs/fmdita/clientlibs/api-docs/index.html` (substitua `<aem-author-url>` pela URL do servidor do AEM). Como este artigo está programado para ser arquivado em outubro de 2026, recomendamos usar a documentação do Swagger a partir de agora para obter as informações mais atualizadas da API.
 
 Veja a seguir um método POST que inicia um trabalho assíncrono para obter o status dos ativos.
 
