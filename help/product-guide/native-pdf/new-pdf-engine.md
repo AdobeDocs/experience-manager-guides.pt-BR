@@ -24,7 +24,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 2b6a0f1a6ac03984286e9d3df40c197f28d52f8d
+source-git-commit: 39af88b1d4bd424a8e56f3a217bcd8ee79f4be15
 workflow-type: tm+mt
 source-wordcount: 844
 ht-degree: 0%
@@ -43,7 +43,7 @@ Para obter detalhes sobre como habilitar o mecanismo nativo do PDF v2 em seu amb
 
 ## Atualizações de CSS recomendadas para o novo mecanismo de publicação
 
-Se você quiser preservar a aparência da saída do PDF gerada pelo mecanismo PDF nativo v1 ao usar o mecanismo PDF nativo v2, talvez seja necessário atualizar seu CSS personalizado. As alterações de CSS recomendadas descritas abaixo podem ajudar a manter a consistência da saída após ativar a nova configuração.
+Se você quiser restaurar a aparência da saída do PDF gerada pelo mecanismo nativo do PDF v1 ao usar o mecanismo nativo do PDF v2, talvez seja necessário atualizar seu CSS personalizado. As alterações de CSS recomendadas descritas abaixo podem ajudar a manter a consistência da saída após ativar a nova configuração.
 
 | Descrição | Atualização de CSS recomendada |
 |-------------|------------------------------------------------|
