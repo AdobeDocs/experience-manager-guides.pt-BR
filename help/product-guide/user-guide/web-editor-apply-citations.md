@@ -5,42 +5,31 @@ exl-id: 685d747d-e017-4350-a6bf-822fd55c76e8
 feature: Authoring, Features of Web Editor
 role: User
 TQID: https://experienceleague.adobe.com/FHH8Sah-KUCBl7R3XRrKXgW3aNcaeTkzJnDqRBg6OWU
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 4eddfbe75d7dba679c1a414369394827162706f9
 workflow-type: tm+mt
-source-wordcount: 1962
+source-wordcount: 1890
 ht-degree: 0%
 
 ---
 
 # Adicionar e gerenciar citações no seu conteúdo
 
->[!NOTE]
->
-> As citações são compatíveis somente com o Editor antigo e não estão disponíveis no Novo editor. As informações neste artigo se aplicam somente se você estiver usando o Editor antigo.
-
 Citações são referências à fonte de informações adicionada ao conteúdo. Usando citações, você pode creditar os autores das informações de origem e ajudar os leitores a acompanhar as informações de origem. Adicionar citações torna seu conteúdo mais confiável e evita plágios. Eles também permitem exibir conteúdo bem pesquisado.
 
 No Adobe Experience Manager Guides, você pode adicionar e importar citações e aplicá-las ao seu conteúdo. É possível adicionar essas citações de qualquer fonte de livros, sites e diários.
 
-
 O Experience Manager Guides ajuda a editar, visualizar e classificar as citações. Depois de adicionar suas citações ao conteúdo, você pode gerar a saída usando o PDF nativo. Você também pode adicionar a página de bibliografia ou referências na saída do PDF nativo.
 
-O Experience Manager Guides suporta vários estilos de citações, como a Modern Language Association (MLA), American Psychological Association (APA), Chicago, Institute for Electrical and Electronics Engineers (IEEE) e American Heart Association (AHA). A recomendação é usá-los de forma clara e consistente.
+O Experience Manager Guides suporta vários estilos de citações, como a Modern Language Association (MLA), American Psychological Association (APA), Chicago, Institute for Electrical and Electronics Engineers (IEEE), American Heart Association (AHA) e American Medical Association (AMA). A recomendação é usá-los de forma clara e consistente.
 
 
 >[!NOTE]
 >
->Atualmente, o Experience Manager Guides só oferece suporte ao PDF nativo para citações.
+>O Experience Manager Guides aceita todos os estilos de citação ao publicar no PDF nativo. Para a saída do AEM Sites, somente as citações de estilo AMA são compatíveis no momento.
 
 
 ## Adicionar citações
@@ -71,7 +60,7 @@ Para adicionar citações, siga estas etapas:
    | Livro | Site | Diário |
    | --- | ---|---|
    | **Source** <br> No menu suspenso, selecione a origem da citação como um Livro. | **Source**<br> No menu suspenso, selecione a origem da citação como um Site. | **Source** <br> No menu suspenso, selecione a origem da citação como um Diário. |
-   | **Pesquisar por** <br> Selecione **ISBN** ou **DOI** no menu suspenso para procurar a identificação digital vinculada à citação.  <br> DOI: Identificador de Objeto Digital <br> ISBN: Identificador de Livro Numérico Exclusivo | **Pesquisar por** <br> Selecione **DOI** no menu suspenso para procurar a identificação digital vinculada à citação. | **Pesquisar por** <ul><li>Selecione **DOI** ou **PubMed ID** no menu suspenso para procurar a ID digital vinculada à citação.</li><li>Selecione **Qualquer campo** da lista suspensa para pesquisar em todos os campos do Diário, como *Título*, *Título do diário*, *Autor*, *Ano*, *Volume*, *Número* e *Páginas*. <br> A pesquisa retorna a citação mais próxima com base no texto inserido.</li> |
+   | **Pesquisar por** <br> Selecione **ISBN** ou **DOI** no menu suspenso para procurar a identificação digital vinculada à citação.  <br> DOI: Identificador de Objeto Digital <br> ISBN: Identificador de Livro Numérico Exclusivo | **Pesquisar por** <br> Selecione **DOI** no menu suspenso para procurar a identificação digital vinculada à citação. | **Pesquisar por** <ul><li>Selecione **DOI** ou **PubMed ID** no menu suspenso para procurar a ID digital vinculada à citação.</li><li>Selecione **Qualquer campo** da lista suspensa para pesquisar em todos os campos do Diário, como *Título*, *Título do diário*, *Autor*, *Ano*, *Volume*, *Número* e *Páginas*. <br> A pesquisa retorna a citação mais próxima com base no texto inserido.</li><li> Selecione **Analisar citação** no menu suspenso para analisar uma citação AMA compatível e preencher automaticamente os campos de citação. |
    | **Autor** <br> Adicione o nome e o sobrenome do autor da citação. Selecione ![](images/Add_icon.svg) para adicionar mais nomes. | **Autor** <br> Adicione o nome e o sobrenome do autor da citação. Selecione ![](images/Add_icon.svg) para adicionar mais nomes. | **Autor** <br> Adicione o nome e o sobrenome do autor da citação. Selecione ![](images/Add_icon.svg) para adicionar mais nomes. |
    | **Título** <br> Adicione o título do livro. | **Título** <br> Adicione o título da página da Web. | **Título** <br> Adicione o título do artigo. |
    | **Editor** <br> Adicione o editor do livro. | **Nome do Site** <br> Adicione o nome do site. | **Título do diário** <br> Adicione o título do trabalho no qual o artigo é encontrado. |
@@ -111,7 +100,7 @@ Para importar citações, siga estas etapas:
 
    >[!NOTE]
    > <ol><li> O Experience Manager Guides importa somente as citações que são exclusivas e que ainda não estão presentes.
-   > &gt; <li> O Experience Manager Guides pode importar citações de um Livro, Diário ou Site. Atualmente, não aceita citações de outras fontes.
+    &gt; <li> O Experience Manager Guides pode importar citações de um Livro, Diário ou Site. Atualmente, não aceita citações de outras fontes.
 
 ## Gerenciar citações
 
@@ -201,7 +190,7 @@ Execute as seguintes etapas para inserir citações a um tópico:
 
 ### Na barra de ferramentas principal
 
-1. Selecione o ícone **Citations** ![citations &#x200B;](images/citations-icon.svg) na barra de ferramentas principal.
+1. Selecione o ícone **Citations** ![citations ](images/citations-icon.svg) na barra de ferramentas principal.
 1. Na caixa de diálogo **Citações**, escolha a citação. Também é possível selecionar várias citações.
    ![caixa de diálogo de citação](images/citation-dialog-main-toolbar.png){width="300"}
 1. Você pode filtrar citações digitando os primeiros alfabetos no painel de pesquisa da caixa de diálogo **Citação**.
@@ -216,7 +205,7 @@ A citação selecionada é adicionada no local do cursor em seu tópico.
 > 
 >Para exibir o ícone **Citações** no painel esquerdo, o administrador do sistema deve habilitar a opção **Citações** na guia **Painéis** das **Configurações**.
 
-1. Selecione o ícone **Citações** ![citações &#x200B;](images/citations-icon.svg) no painel esquerdo.
+1. Selecione o ícone **Citações** ![citações ](images/citations-icon.svg) no painel esquerdo.
 1. Arraste a citação do painel **Citações** e solte-a no local apropriado no tópico.
 
    Você também pode selecionar **Inserir** de ![](images/options.svg) **Opções** para inserir uma citação.

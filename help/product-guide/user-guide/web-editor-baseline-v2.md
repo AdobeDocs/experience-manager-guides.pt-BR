@@ -4,9 +4,9 @@ description: Crie e gerencie uma nova linha de base (Beta) no console de mapa no
 feature: Authoring, Features of Web Editor, Publishing
 role: User
 exl-id: 574806bb-21c5-41fe-b8be-4c6506ce8cce
-source-git-commit: 179e9016b12edb14c09ce9352a318e06a4fc628a
+source-git-commit: 5fe9e9476b001a1ad74c045bf05e3061702f5e42
 workflow-type: tm+mt
-source-wordcount: '1327'
+source-wordcount: '1409'
 ht-degree: 0%
 
 ---
@@ -57,13 +57,14 @@ Antes de migrar para o novo modelo de linha de base, analise as alterações de 
 
 | Área | Alteração (descrição) |
 |------|-------------|
-| **Resolução de referência** | As referências de mapa direto são classificadas como **DIRECT**. Referências inválidas são ignoradas, e as referências de `reltable` continuam a ser excluídas. |
-| **Escolher Automaticamente** | A seleção da versão é avaliada imediatamente antes da resolução de referências diretas, garantindo uma resolução de versão precisa. |
+| **Resolução de referência** | As referências de mapa direto são classificadas como **DIRECT**. Referências inválidas são ignoradas, e as referências de `reltable` continuam a ser excluídas. Isso é suportado em linhas de base editadas e novas, mas não em linhas de base que apenas foram migradas. |
+| **Escolher Automaticamente** | A seleção da versão é avaliada imediatamente antes da resolução de referências diretas para garantir uma resolução de versão precisa. Isso é suportado em linhas de base editadas e novas, mas não em linhas de base que apenas foram migradas. |
 | **Regras de criação da linha de base** | A versão **1.0** é obrigatória. Linhas de base com versões ausentes ou ambíguas podem resolver de forma diferente após a migração. |
 | **Manipulação de migração** | Referências inválidas são ignoradas. As referências **DIRECT** têm prioridade, as referências desafixadas são movidas para a versão mais recente e metadados adicionais são adicionados a partir da versão **5.0**. |
 | **Modelo de dados de linha de base** | O novo modelo de linha de base baseado em gráfico remove campos mutáveis e não é compatível com o modelo de linha de base anterior. |
 | **Uso da API** | As operações de linha de base são suportadas por meio das APIs REST e do Java SDK. Os objetos de linha de base bruta não são mais expostos. |
 | **Limpeza de versão** | Após a migração, a limpeza de versão considera somente as linhas de base armazenadas no novo repositório de linhas de base. |
+| **IU** | As linhas de base dinâmicas podem ser visualizadas e a edição de versão de referência é simplificada. |
 
 ## Migrar para nova linha de base
 
@@ -86,7 +87,12 @@ Execute as etapas a seguir para migrar a linha de base existente para a nova.
 1. Forneça os seguintes detalhes na caixa de diálogo:
 
    1. **Tipo de recurso**: selecione **Linha de Base** na lista suspensa.
-   1. **Selecionar pasta(s) e arquivo(s)**: navegue e escolha uma ou várias pastas e arquivos para processar.
+   1. **Selecionar pasta(s) e arquivo(s)**: navegue e escolha uma ou várias pastas e arquivos para processar. Você pode selecionar somente pastas para migração de linha de base.
+
+      >[!NOTE]
+      >
+      > Selecione a pasta que contém todo o conteúdo do guia e mapeie os arquivos. Se os arquivos de mapa forem armazenados separadamente, escolha o diretório onde os arquivos de mapa estão localizados.
+
    1. **Selecione as pastas a serem ignoradas**: como opção, selecione as subpastas dentro da pasta pai escolhida para excluir da migração.
 
    ![nova-linha-de-base-de-processo](images/new-process-baseline.png)

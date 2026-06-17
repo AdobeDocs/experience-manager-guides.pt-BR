@@ -5,18 +5,13 @@ feature: Authoring
 role: User
 exl-id: 8c12ed9b-6309-40bf-b264-a2323cd6f4b3
 TQID: https://experienceleague.adobe.com/SWlP2-iWhN1x25K9s-mrMcfUTy5Fxv7TVWg6G2ucufc
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 0763896c75767d8a4bffc019d42c129e2e34f4be
 workflow-type: tm+mt
-source-wordcount: 467
+source-wordcount: 557
 ht-degree: 0%
 
 ---
@@ -72,11 +67,13 @@ As outras opções disponíveis no menu Inserir na barra de ferramentas do Edito
 
   Você pode configurar as respostas corretas e outros campos obrigatórios por meio do painel **Propriedades de conteúdo**. Para obter mais detalhes, consulte [Tipos de pergunta](./quiz-insert-questions.md). É possível adicionar vários tipos de pergunta usando as opções de verificação de conhecimento, conforme mostrado abaixo.
 
+  Além disso, você pode habilitar a opção **Exigir verificação de conhecimento para continuar** para garantir que os alunos tentem uma verificação de conhecimento designada antes de avançar para o conteúdo de curso subsequente. Esse recurso ajuda a reforçar os principais objetivos de aprendizado, impedindo que os alunos pulem pontos de verificação críticos da avaliação. O recurso é suportado quando **os alunos devem progredir pelo conteúdo em uma ordem sequencial**. A configuração é ativada ao configurar a saída predefinida de SCORM, garantindo que a progressão do curso siga o caminho de aprendizado pretendido.
+
   ![](assets/knowledge-check-content-properties.png){width="650"}
 
-- **Campo de entrada:** Adiciona um campo de entrada de texto junto com um botão ao seu conteúdo. Você pode usar essa combinação para capturar a entrada do usuário e acionar ações específicas. Um botão Reproduzir é adicionado ao conteúdo, conforme mostrado abaixo.
+- **Campo de entrada:** Adiciona um campo de entrada de texto junto com um botão ao seu conteúdo. Você pode usar essa combinação para capturar a entrada do usuário e acionar ações específicas. Agora também é possível adicionar uma área de texto multilinha para respostas mais longas, como explicações ou comentários abertos. A área de texto multilinha oferece suporte a quebras de linha e quebra automática de texto.
 
-  ![](assets/button-learning-content.png){width="650"}
+  ![](assets/input-field-lc.png){width="650"}
 
 - **Mais opções:** você tem opções adicionais para aprimorar o conteúdo de aprendizado, incluindo a inserção de uma linha horizontal, quebra de linha, caixa de texto, caixa de texto posicionada e HTML inserido.
 
