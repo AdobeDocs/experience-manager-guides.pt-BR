@@ -12,9 +12,9 @@ feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: 9132140a0305eb0507598a7caf5f704861879a93
 workflow-type: tm+mt
-source-wordcount: 114
+source-wordcount: 127
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Execute as seguintes etapas para gerar uma saída SCORM:
 1. Depois de definir todas as configurações necessárias para a saída SCORM com base em suas preferências, navegue até a barra de ferramentas da página de predefinições SCORM.
 1. Selecione **Gerar saída**.
 
-   ![](assets/scorm-generate-output.png){width="650"}
+   ![](assets/scorm-generate-output-new.png){width="650"}
 
 1. Quando a geração for concluída, uma mensagem de êxito será exibida confirmando que o arquivo **filename.zip** foi criado. Você pode visualizar a saída usando **Exibir saída** na mensagem de sucesso.
 
@@ -34,6 +34,7 @@ Execute as seguintes etapas para gerar uma saída SCORM:
 
 1. Você pode baixar ou visualizar a saída selecionando **Baixar saída** ou **Visualizar saída**, respectivamente.
 
-   ![](assets/scorm-view-output.png){width="650"}
+   ![](assets/scorm-view-output-new.png){width="650"}
 
-Faça upload do arquivo ZIP no LMS para disponibilizar o curso aos seus alunos.
+Carregue o arquivo ZIP no LMS para disponibilizar o curso aos seus alunos com a opção **Carregar** da guia **Publicar no LMS** para a predefinição SCORM.
+

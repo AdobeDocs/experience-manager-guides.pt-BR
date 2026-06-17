@@ -15,9 +15,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 95496b7275fc8d94afb75703ff2ef5b7c5750644
+source-git-commit: c003b524d168d0c1826f6af44278223e2fa4bf0b
 workflow-type: tm+mt
-source-wordcount: 481
+source-wordcount: 458
 ht-degree: 0%
 
 ---
@@ -48,9 +48,8 @@ O novo editor oferece uma evolução significativa da experiência de criação,
 No momento, o novo editor não oferece suporte aos seguintes recursos. Esses recursos estão planejados para serem introduzidos em versões futuras.
 
 - Criação com a opção Controlar alterações ativada (todas as alterações controladas existentes são preservadas e tratadas como conteúdo regular)
-- Novas citações (todas as citações existentes no conteúdo são preservadas)
 - Redimensionador de imagem na exibição Autor
-- Usando dados de origens de dados (por exemplo, JIRA, Bancos de Dados SQL, PIM ou PLM)
+
 
 >[!NOTE]
 >

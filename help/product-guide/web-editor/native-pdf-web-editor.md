@@ -25,9 +25,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: 2ec33566b72205a2c64510f38f588adf51b2175a
 workflow-type: tm+mt
-source-wordcount: 3366
+source-wordcount: 3403
 ht-degree: 0%
 
 ---
@@ -81,6 +81,7 @@ Use para especificar configurações básicas de saída, como especificar o cami
 | **Usar Linha de Base** | Se tiver criado uma Linha de Base para o mapa DITA selecionado, selecione essa opção para especificar a versão que deseja publicar. Exiba [Trabalhar com Linha de Base](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html) para obter mais detalhes. |
 | **Criar PDF com Barra de Alterações entre Versões Publicadas** | Use as opções a seguir para criar uma PDF mostrando as diferenças no conteúdo entre duas versões usando as barras de alteração: <br><ul><li> **Linha de Base da Versão Anterior** Escolha a versão de linha de base que você deseja comparar com a versão atual ou outra linha de base. Uma barra de alteração é exibida na PDF para indicar o conteúdo modificado. Uma barra de alteração é uma linha vertical que identifica visualmente o conteúdo novo ou revisado. A barra de alterações aparece à esquerda do conteúdo que foi inserido, alterado ou excluído. <br> **Observação**: se você selecionar **Usar Linha de Base** e escolher uma linha de base para publicar, a comparação será feita entre as duas versões de linha de base selecionadas. Por exemplo, se você escolher Versão 1.3 da linha de base em **Usar linha de base** e Versão 1.1 em **Linha de base da Versão Anterior**, a comparação será feita entre a Versão 1.1 da linha de base e a Versão 1.3 da linha de base. <br><li> **Mostrar Texto Adicionado** Selecione para mostrar o texto inserido na cor verde e sublinhado. Essa opção é selecionada por padrão. <br> <li> **Mostrar texto excluído** Selecione para mostrar o texto excluído em vermelho e marcado com um tachado. Essa opção é selecionada por padrão. <br>**Observação** Você também pode personalizar o estilo da barra de alterações, o conteúdo inserido ou o conteúdo excluído usando a folha de estilos.<br></ul> |
 | **Idioma** | Selecione o idioma para que a saída seja traduzida. <br> **Observação**: textos de referência cruzada como &quot;Veja no capítulo&quot; ou &quot;Veja na página&quot; são controlados por uma variável de idioma. A variável usa o idioma definido no tópico por meio do atributo `xml:lang`. Se nenhum idioma for especificado, será usado o idioma predefinido. Se ambos estiverem ausentes, o padrão será inglês (en_US). |
+| **Argumentos de Linha de Comando DITA-OT** | Ao habilitar **Habilitar pré-processamento de DITA-OT**, o campo **Argumentos da linha de comando DITA-OT** ficará disponível. Aqui, você pode especificar os argumentos adicionais que você deseja que o DITA-OT processe ao gerar saída. Para obter detalhes sobre os argumentos de linha de comando com suporte no DITA-OT, exiba a [documentação do DITA-OT](https://www.dita-ot.org/).<br>**OBSERVAÇÃO:** os links relacionados definidos nas tabelas de relação do DITA (`<reltable>`) não são incluídos na saída do PDF Nativo por padrão. Use esse campo para passar os argumentos DITA-OT necessários e incluir os links relacionados na saída do PDF nativo. |
 | **Fluxo de Trabalho de Pós-Geração** | Selecione para mostrar uma lista suspensa que contém todos os workflows configurados no AEM. Você pode selecionar o workflow que deseja executar após a conclusão do workflow de geração do PDF. |
 
 **Metadados**
@@ -96,6 +97,7 @@ Estes metadados estão mapeados para os metadados na guia **Descrição** nas **
 <img src="assets/pdf-metadata.png" alt="guia metadados" width="600">
 
 Nas predefinições de Saída, selecione **PDF** > **Native-PDF** > **Metadata** para adicionar e personalizar opções de metadados.
+
 * **Usar metadados adicionados ao topicmeta**
 
   Essa opção é selecionada por padrão. Você pode usar os metadados adicionados no elemento topicmeta do mapa DITA para preencher os campos de metadados da saída do PDF.

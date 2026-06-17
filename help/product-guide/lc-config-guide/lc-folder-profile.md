@@ -25,9 +25,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: 9132140a0305eb0507598a7caf5f704861879a93
 workflow-type: tm+mt
-source-wordcount: 1666
+source-wordcount: 1960
 ht-degree: 0%
 
 ---
@@ -211,6 +211,41 @@ Execute as seguintes etapas para criar um novo modelo de saída para o conteúdo
 
    ![](assets/scorm-template-added.png){width="350"}
 
+### Configurar layouts de página para modelos de saída SCORM
+
+Os modelos de saída SCORM permitem atribuir diferentes layouts de página a diferentes tipos de tópico em um curso. Isso permite personalizar a apresentação de lições, questionários, páginas de visão geral e outros tipos de conteúdo no pacote SCORM gerado.
+
+Por exemplo, uma página de lição pode usar um layout que inclua cabeçalho, área de conteúdo e rodapé, enquanto uma página de questionário pode usar um layout simplificado sem rodapé. Você também pode criar layouts dedicados para páginas de visão geral ou qualquer outro tipo de tópico e mapeá-los de acordo.
+
+As atribuições de layout estão configuradas no nível **Modelo de Saída**. Qualquer predefinição de SCORM que use o modelo de saída configurado aplicará os mapeamentos de layout selecionados ao gerar cursos.
+Siga as etapas abaixo para configurar o layout da página para os modelos:
+
+1. Navegue até **Modelos de saída** e abra o **Modelo de saída SCORM** necessário.
+
+2. Selecione a guia **Configurações**.
+
+3. Na janela **Layouts de página**, localize os tipos de tópicos disponíveis.
+
+   ![](assets/page-layout-scorm.png){width="650"}
+
+4. Para cada tipo de tópico, selecione o layout de página que será usado durante a geração do curso.
+
+   **Exemplo:**
+   - **Layout Padrão da Página**: Lição
+   - **Questionário**: questionário
+   - **Visão geral**: lição
+
+5. Para usar um novo layout, crie o layout de página necessário no modelo de saída usando a opção **Novo Layout de Página** do menu de contexto do painel **Modelos de saída**.
+
+   ![](assets/new-page-layout-scorm.png){width="650"}
+
+6. Retorne à guia **Configurações** e atribua o layout recém-criado ao tipo de tópico apropriado.
+
+7. Salve o layout da página para o modelo de saída usando o ícone Salvar no canto direito da barra de guias .
+
+
+Quando um curso é gerado usando uma predefinição SCORM que usa o modelo de saída configurado, cada tópico é renderizado usando o layout atribuído ao seu tipo de tópico. Isso permite que diferentes tipos de conteúdo no mesmo curso tenham estruturas de página e apresentação visual personalizadas.
+
 ### Remover ou reordenar modelos
 
 Depois de adicionado, é possível remover ou reordenar os modelos no painel Configurações.
@@ -244,10 +279,10 @@ A guia Output presets permite definir quais formatos de saída estão disponíve
 
 ## Gerenciar perfis de publicação
 
-Esta seção permite exibir, criar e gerenciar os perfis de publicação usados para publicar cursos na Nuvem SCORM. Cada perfil define as configurações de conexão e os detalhes de configuração necessários para publicar um curso de aprendizado em um ambiente específico da SCORM Cloud.
+Esta seção permite exibir, criar e gerenciar os perfis de publicação usados para publicar cursos na Nuvem SCORM ou no Adobe Learning Manager (ALM). Cada perfil define as configurações de conexão e os detalhes de configuração necessários para publicar um curso de aprendizado em um servidor de publicação selecionado.
 
-É possível criar vários perfis se você precisar publicar em diferentes contas do SCORM Cloud, garantindo flexibilidade e controle sobre o processo de publicação.
+É possível criar vários perfis para publicar conteúdo em diferentes contas do SCORM Cloud ou instâncias do ALM, fornecendo flexibilidade e controle sobre o fluxo de trabalho de publicação.
 
-Forneça os detalhes do servidor, juntamente com a ID do cliente e o segredo do cliente do aplicativo de nuvem SCORM associado, para configurar o perfil de publicação para a nuvem SCORM.
+Para configurar um perfil de publicação, selecione o servidor de publicação desejado (SCORM Cloud ou Adobe Learning Manager) e forneça os detalhes de conexão necessários. Para a SCORM Cloud, insira as informações do servidor junto com a ID do cliente e o Segredo do cliente do aplicativo SCORM Cloud associado. Para o Adobe Learning Manager, forneça o servidor correspondente e os detalhes de autenticação necessários para seu ambiente ALM.
 
 ![](assets/configure-publish-profiles.png){width="350"}

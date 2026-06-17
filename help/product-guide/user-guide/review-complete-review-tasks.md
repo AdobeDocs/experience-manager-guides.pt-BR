@@ -12,9 +12,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: 0763896c75767d8a4bffc019d42c129e2e34f4be
 workflow-type: tm+mt
-source-wordcount: 544
+source-wordcount: 691
 ht-degree: 0%
 
 ---
@@ -57,6 +57,17 @@ Você marcou com êxito a tarefa como concluída e seu status agora está defini
 Com base no feedback, se o Autor ou iniciador da tarefa decidir [fechar a tarefa de revisão](./review-close-review-task.md), o status da tarefa na Interface de revisão será alterado para **Fechado**.
 
 ![](images/review-status-closed-review-ui.png){width="350"}
+
+>[!NOTE]
+>
+>Por padrão, quando um revisor marca uma tarefa de revisão como **Concluída**, a tarefa permanece na Caixa de Entrada do AEM do revisor até que o autor ou iniciador da tarefa revise os comentários e feche a tarefa de revisão.
+>
+>No entanto, você pode optar por habilitar a sincronização de tarefas entre a interface do usuário de revisão e a Caixa de entrada do AEM. Quando este recurso está habilitado, marcar uma tarefa de revisão como **Concluída** na Interface do usuário de Revisão automaticamente conclui a tarefa correspondente e a remove da Caixa de Entrada do AEM do revisor. Da mesma forma, concluir uma tarefa na Caixa de entrada do AEM a marca automaticamente como concluída na interface de revisão.
+>
+>O autor ou iniciador da tarefa ainda poderá revisar o feedback e reatribuir a tarefa se uma revisão adicional for necessária. Quando uma tarefa é reatribuída, uma nova notificação da Caixa de entrada do AEM é gerada para o revisor, permitindo que a tarefa seja revisada novamente.
+>
+>Para ativar esse recurso em seu ambiente, entre em contato com a equipe de sucesso do cliente.
+
 
 ## Exibir comentários no nível da tarefa
 

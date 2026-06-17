@@ -15,32 +15,27 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: 4eddfbe75d7dba679c1a414369394827162706f9
 workflow-type: tm+mt
-source-wordcount: 1962
+source-wordcount: 1890
 ht-degree: 0%
 
 ---
 
 # Adicionar e gerenciar citações no seu conteúdo
 
->[!NOTE]
->
-> As citações são compatíveis somente com o Editor antigo e não estão disponíveis no Novo editor. As informações neste artigo se aplicam somente se você estiver usando o Editor antigo.
-
 Citações são referências à fonte de informações adicionada ao conteúdo. Usando citações, você pode creditar os autores das informações de origem e ajudar os leitores a acompanhar as informações de origem. Adicionar citações torna seu conteúdo mais confiável e evita plágios. Eles também permitem exibir conteúdo bem pesquisado.
 
 No Adobe Experience Manager Guides, você pode adicionar e importar citações e aplicá-las ao seu conteúdo. É possível adicionar essas citações de qualquer fonte de livros, sites e diários.
 
-
 O Experience Manager Guides ajuda a editar, visualizar e classificar as citações. Depois de adicionar suas citações ao conteúdo, você pode gerar a saída usando o PDF nativo. Você também pode adicionar a página de bibliografia ou referências na saída do PDF nativo.
 
-O Experience Manager Guides suporta vários estilos de citações, como a Modern Language Association (MLA), American Psychological Association (APA), Chicago, Institute for Electrical and Electronics Engineers (IEEE) e American Heart Association (AHA). A recomendação é usá-los de forma clara e consistente.
+O Experience Manager Guides suporta vários estilos de citações, como a Modern Language Association (MLA), American Psychological Association (APA), Chicago, Institute for Electrical and Electronics Engineers (IEEE), American Heart Association (AHA) e American Medical Association (AMA). A recomendação é usá-los de forma clara e consistente.
 
 
 >[!NOTE]
 >
->Atualmente, o Experience Manager Guides só oferece suporte ao PDF nativo para citações.
+>O Experience Manager Guides aceita todos os estilos de citação ao publicar no PDF nativo. Para a saída do AEM Sites, somente as citações de estilo AMA são compatíveis no momento.
 
 
 ## Adicionar citações
@@ -71,7 +66,7 @@ Para adicionar citações, siga estas etapas:
    | Livro | Site | Diário |
    | --- | ---|---|
    | **Source** <br> No menu suspenso, selecione a origem da citação como um Livro. | **Source**<br> No menu suspenso, selecione a origem da citação como um Site. | **Source** <br> No menu suspenso, selecione a origem da citação como um Diário. |
-   | **Pesquisar por** <br> Selecione **ISBN** ou **DOI** no menu suspenso para procurar a identificação digital vinculada à citação.  <br> DOI: Identificador de Objeto Digital <br> ISBN: Identificador de Livro Numérico Exclusivo | **Pesquisar por** <br> Selecione **DOI** no menu suspenso para procurar a identificação digital vinculada à citação. | **Pesquisar por** <ul><li>Selecione **DOI** ou **PubMed ID** no menu suspenso para procurar a ID digital vinculada à citação.</li><li>Selecione **Qualquer campo** da lista suspensa para pesquisar em todos os campos do Diário, como *Título*, *Título do diário*, *Autor*, *Ano*, *Volume*, *Número* e *Páginas*. <br> A pesquisa retorna a citação mais próxima com base no texto inserido.</li> |
+   | **Pesquisar por** <br> Selecione **ISBN** ou **DOI** no menu suspenso para procurar a identificação digital vinculada à citação.  <br> DOI: Identificador de Objeto Digital <br> ISBN: Identificador de Livro Numérico Exclusivo | **Pesquisar por** <br> Selecione **DOI** no menu suspenso para procurar a identificação digital vinculada à citação. | **Pesquisar por** <ul><li>Selecione **DOI** ou **PubMed ID** no menu suspenso para procurar a ID digital vinculada à citação.</li><li>Selecione **Qualquer campo** da lista suspensa para pesquisar em todos os campos do Diário, como *Título*, *Título do diário*, *Autor*, *Ano*, *Volume*, *Número* e *Páginas*. <br> A pesquisa retorna a citação mais próxima com base no texto inserido.</li><li> Selecione **Analisar citação** no menu suspenso para analisar uma citação AMA compatível e preencher automaticamente os campos de citação. |
    | **Autor** <br> Adicione o nome e o sobrenome do autor da citação. Selecione ![](images/Add_icon.svg) para adicionar mais nomes. | **Autor** <br> Adicione o nome e o sobrenome do autor da citação. Selecione ![](images/Add_icon.svg) para adicionar mais nomes. | **Autor** <br> Adicione o nome e o sobrenome do autor da citação. Selecione ![](images/Add_icon.svg) para adicionar mais nomes. |
    | **Título** <br> Adicione o título do livro. | **Título** <br> Adicione o título da página da Web. | **Título** <br> Adicione o título do artigo. |
    | **Editor** <br> Adicione o editor do livro. | **Nome do Site** <br> Adicione o nome do site. | **Título do diário** <br> Adicione o título do trabalho no qual o artigo é encontrado. |

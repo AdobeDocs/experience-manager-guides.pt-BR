@@ -5,9 +5,9 @@ feature: Profiles
 role: Admin
 level: Experienced
 exl-id: 0292a9cd-0f94-4039-8758-1740106feb71
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: cb82a816ac9513fcdf7a3ad32ed46f1e44c5a7f3
 workflow-type: tm+mt
-source-wordcount: '6078'
+source-wordcount: '6098'
 ht-degree: 0%
 
 ---
@@ -224,11 +224,11 @@ Se você estiver usando um atributo personalizado, ele deverá ser um atributo D
    >
    > O arquivo DTD especializado deve fazer parte da implantação do código personalizado. DTDs em /apps fazem parte da implantação do produto e, portanto, é substituído pela instalação de qualquer nova versão. É recomendável adicionar um DTD especializado em /var/dxml/dita\_resources na pasta do projeto e incluir o caminho do DTD/catálogo no perfil DITA.Para obter mais informações, consulte [Integrar especialização de DITA](dita-ot-specialization.md#id211MB0E00XA).
 
-1. Use o Gerenciador de pacotes para baixar o arquivo /libs/fmdita/config/condAttrList.xml:
+1. Use o Gerenciador de Pacotes para baixar o arquivo `/libs/fmdita/config/condAttrList.csv`. Dependendo da versão em uso, o arquivo `libs/fmdita/config/condAttrList.xml` também pode estar disponível para download.
 
-1. Crie uma cópia do arquivo condAttrList.xml no seguinte local no repositório Git da Cloud Manager:
+1. Crie uma cópia do arquivo `condAttrList.csv` no seguinte local no repositório Git da Cloud Manager:
 
-   `/apps/fmdfmdita/config/condAttrList.xml`
+   `/apps/fmdfmdita/config/condAttrList.csv`
 
 1. Salve o arquivo.
 
@@ -252,15 +252,17 @@ Se você estiver usando um atributo personalizado, ele deverá ser um atributo D
 
    Isso limpará o cache do sistema.
 
-1. Navegue até o arquivo condAttrList.xml disponível no seguinte local:
+1. Navegue até o arquivo `condAttrList.csv` disponível no seguinte local:
 
-   /libs/fmdita/config/condAttrList.xml
+   `/libs/fmdita/config/condAttrList.csv`
+
+   Dependendo da versão em uso, o arquivo `libs/fmdita/config/condAttrList.xml` também pode estar disponível no mesmo local.
 
 1. Crie um nó de sobreposição da pasta `config` no nó `apps`.
 
 1. Navegue até o arquivo condAttrList.xml e adicione-o no nó `apps`:
 
-   `/apps/fmdita/config/condAttrList.xml`
+   `/apps/fmdita/config/condAttrList.csv`
 
 1. Salve o arquivo.
 
