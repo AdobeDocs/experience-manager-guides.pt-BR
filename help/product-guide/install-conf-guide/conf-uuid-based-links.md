@@ -49,4 +49,4 @@ Use as instruções fornecidas em [Substituições de configuração](download-i
 
 >[!ENDTABS]
 
-**Tópico pai:**[ Personalizar editor](customize-overview.md)
+**Tópico pai:**&#x200B;[&#x200B; Personalizar editor](customize-overview.md)

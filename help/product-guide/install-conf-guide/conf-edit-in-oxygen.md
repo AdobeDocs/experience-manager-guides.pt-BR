@@ -28,4 +28,4 @@ Use as instruções fornecidas em [Substituições de configuração](download-i
 >
 > Essa configuração é desativada por padrão e a opção não está disponível no Editor.
 
-**Tópico pai:**[ Personalizar editor](customize-overview.md)
+**Tópico pai:**&#x200B;[&#x200B; Personalizar editor](customize-overview.md)

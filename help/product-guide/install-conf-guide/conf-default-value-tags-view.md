@@ -37,4 +37,4 @@ O AEM Guides permite configurar o estado padrão para a Exibição de tags no ed
 >
 > A preferência do usuário no Editor para ativar/desativar a Visualização de tags tem precedência sobre este valor padrão. Portanto, se um usuário ativar a Visualização de tags no Editor, ela permanecerá ativada mesmo nas sessões.
 
-**Tópico pai:**[ Personalizar editor](customize-overview.md)
+**Tópico pai:**&#x200B;[&#x200B; Personalizar editor](customize-overview.md)

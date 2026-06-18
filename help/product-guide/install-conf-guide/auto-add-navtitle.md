@@ -91,4 +91,4 @@ Com essa configuração, cada arquivo de referência adicionado a um mapa conter
 
 >[!ENDTABS]
 
-**Tópico pai:**[ Personalizar editor](customize-overview.md)
+**Tópico pai:**&#x200B;[&#x200B; Personalizar editor](customize-overview.md)

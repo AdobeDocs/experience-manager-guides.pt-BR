@@ -77,4 +77,4 @@ No arquivo `ui\_config.json` baixado, consulte a seguinte seção:
 
 Os filtros configurados são exibidos no painel **Filtros** em Repositório, na Home page.
 
-**Tópico pai:**[ Personalizar editor](customize-overview.md)
+**Tópico pai:**&#x200B;[&#x200B; Personalizar editor](customize-overview.md)

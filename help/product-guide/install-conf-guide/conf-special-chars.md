@@ -82,4 +82,4 @@ A estrutura do arquivo `symbols.json` é explicada abaixo:
 
 >[!ENDTABS]
 
-**Tópico pai:**[ Personalizar editor](customize-overview.md)
+**Tópico pai:**&#x200B;[&#x200B; Personalizar editor](customize-overview.md)

@@ -58,4 +58,4 @@ Essa configuração afeta os seguintes locais de onde você pode acessar o tópi
 
 - Guia Relatórios no console de mapa DITA
 
-**Tópico pai:**[ Personalizar editor](customize-overview.md)
+**Tópico pai:**&#x200B;[&#x200B; Personalizar editor](customize-overview.md)

@@ -64,4 +64,4 @@ Para configurar um padrão para a ID gerada automaticamente, crie um arquivo de 
 
 >[!ENDTABS]
 
-**Tópico pai:**[ Personalizar editor](customize-overview.md)
+**Tópico pai:**&#x200B;[&#x200B; Personalizar editor](customize-overview.md)

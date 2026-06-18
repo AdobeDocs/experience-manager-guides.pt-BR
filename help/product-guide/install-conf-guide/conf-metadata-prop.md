@@ -70,4 +70,4 @@ O AEM Guides inclui um conjunto padrão de propriedades de metadados na lista de
 
 Somente as propriedades de metadados que não estão incluídas na lista de itens a serem ignorados são consideradas para marcar a versão de um documento como suja.
 
-**Tópico pai:**[ Personalizar editor](customize-overview.md)
+**Tópico pai:**&#x200B;[&#x200B; Personalizar editor](customize-overview.md)

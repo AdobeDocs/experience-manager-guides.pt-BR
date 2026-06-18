@@ -56,4 +56,4 @@ Para habilitar a publicação baseada em artigos, baixe e instale os seguintes p
 >[!ENDTABS]
 
 
-**Tópico pai:**[ Personalizar editor](customize-overview.md)
+**Tópico pai:**&#x200B;[&#x200B; Personalizar editor](customize-overview.md)
