@@ -4,16 +4,17 @@ description: Saiba como Configurar o valor padrão para a exibição de tags
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: d54e3a3c-9f61-43cf-a925-12e4ce948a55
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '210'
 ht-degree: 0%
 
 ---
 
 # Configurar valor padrão para a exibição de tags {#id223GN0M0NDC}
 
-O AEM Guides permite configurar o estado padrão para a Exibição de tags no Editor da Web, o que ajuda a manter a Exibição de tags ativada ou desativada por padrão para a sessão de um novo usuário. Execute as seguintes etapas para configurar o valor padrão para a Exibição de tags:
+O AEM Guides permite configurar o estado padrão para a Exibição de tags no editor, o que ajuda a manter a Exibição de tags ativada ou desativada por padrão para a sessão de um novo usuário.Execute as seguintes etapas para configurar o valor padrão para a Exibição de tags:
 
 1. Baixe o arquivo de configuração da interface do usuário fazendo logon no Adobe Experience Manager como administrador.
 1. Clique no link do Adobe Experience Manager na parte superior e escolha **Ferramentas**.
@@ -34,6 +35,6 @@ O AEM Guides permite configurar o estado padrão para a Exibição de tags no Ed
 
 >[!NOTE]
 >
-> A preferência do usuário no Editor da Web para ativar/desativar a Visualização de tags tem precedência sobre esse valor padrão. Portanto, se um usuário ativar a Exibição de tags no Editor da Web, ela permanecerá ativada mesmo nas sessões.
+> A preferência do usuário no Editor para ativar/desativar a Visualização de tags tem precedência sobre este valor padrão. Portanto, se um usuário ativar a Visualização de tags no Editor, ela permanecerá ativada mesmo nas sessões.
 
-**Tópico pai:**&#x200B;[&#x200B; Personalizar editor da Web](customize-overview.md)
+**Tópico pai:**[ Personalizar editor](customize-overview.md)

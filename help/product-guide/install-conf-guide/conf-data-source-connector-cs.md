@@ -4,18 +4,19 @@ description: Saiba como configurar um conector de fonte de dados
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: bb70cca8-cfa5-455b-bc48-a8d26ec5326c
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
 
 # Configurar um conector de fonte de dados para o Cloud Service
 
-O AEM Guides fornece conectores prontos para uso para bancos de dados JIRA, SQL (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce e Elasticsearch. Você também pode adicionar outros conectores estendendo as interfaces padrão. A configuração a seguir ajuda a adicionar facilmente as várias fontes de dados. Depois de adicionado, você pode exibir as fontes de dados no Editor da Web.
+O AEM Guides fornece conectores prontos para uso para bancos de dados JIRA, SQL (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce e Elasticsearch. Você também pode adicionar outros conectores estendendo as interfaces padrão. A configuração a seguir ajuda a adicionar facilmente as várias fontes de dados. Depois de adicionado, é possível exibir as fontes de dados no Editor.
 
-Execute as seguintes etapas para configurar um conector de origem de dados e, em seguida, usá-lo no Editor da Web:
+Execute as seguintes etapas para configurar um conector de origem de dados e, em seguida, usá-lo no Editor:
 
 ## Configurar um conector
 
@@ -282,4 +283,4 @@ Por exemplo, `/content/dam/jira.json`
 
 Você pode registrar a configuração usando a API REST. Para obter mais detalhes, consulte a seção *REST API para registrar um conector de fonte de dados* na Referência de API para Adobe Experience Manager Guides.
 
-Após configurar a fonte de dados, o conector é listado no painel Fontes de dados do Editor da Web. Em seguida, você pode se conectar à fonte de dados e inserir um trecho de conteúdo em seus tópicos. Para obter mais detalhes, exiba [Inserir um trecho de conteúdo da sua fonte de dados](../user-guide/web-editor-content-snippet.md).
+Após configurar a fonte de dados, o conector é listado no painel Fontes de dados do Editor. Em seguida, você pode se conectar à fonte de dados e inserir um trecho de conteúdo em seus tópicos. Para obter mais detalhes, exiba [Inserir um trecho de conteúdo da sua fonte de dados](../user-guide/web-editor-content-snippet.md).

@@ -1,24 +1,24 @@
 ---
-title: Configurar o salvamento automático de arquivos no Editor da Web
-description: Saiba como configurar o salvamento automático de arquivos no Editor da Web
+title: Configurar o salvamento automático de arquivos no Editor
+description: Saiba como configurar o salvamento automático de arquivos no editor
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 142a588a-3d26-48ee-a3fe-23882922243c
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '275'
 ht-degree: 1%
 
 ---
 
-# Configurar o salvamento automático de arquivos no Editor da Web {#id199CC0J0M5Z}
+# Configurar o salvamento automático de arquivos no Editor {#id199CC0J0M5Z}
 
-Um dos recursos mais comuns no editor baseado em navegador é a capacidade de salvar dados após um período específico. O Editor da Web do AEM Guides também oferece suporte ao salvamento automático de arquivos de tópico e de mapa no intervalo de tempo especificado. Quando esse recurso é acionado, a cópia de trabalho do tópico ou mapa é salva. Não é criada uma nova versão do tópico ou mapa. Para criar uma nova versão, é necessário clicar no ícone Salvar revisão na barra de ferramentas do Editor da Web.
+Um dos recursos mais comuns no editor baseado em navegador é a capacidade de salvar dados após um período específico. O Editor do AEM Guides também oferece suporte ao salvamento automático de arquivos de tópico e de mapa no intervalo de tempo especificado. Quando esse recurso é acionado, a cópia de trabalho do tópico ou mapa é salva. Não é criada uma nova versão do tópico ou mapa. Para criar uma nova versão, é necessário clicar no ícone Salvar revisão na barra de ferramentas do Editor.
 
 O recurso de salvamento automático não está habilitado por padrão e você precisa habilitá-lo usando o arquivo de configuração para o Cloud Service e do `configMgr` para No local.
 
-As guias a seguir fornecem instruções para ativar o recurso de salvamento automático no Editor da Web com base na configuração do Experience Manager Guides: Cloud Service ou no local.
+As guias a seguir fornecem instruções para ativar o recurso de salvamento automático no Editor com base na configuração do Experience Manager Guides: Cloud Service ou no local.
 
 >[!BEGINTABS]
 

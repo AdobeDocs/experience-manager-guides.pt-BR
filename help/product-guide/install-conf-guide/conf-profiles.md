@@ -5,18 +5,18 @@ feature: Profiles
 role: Admin
 level: Experienced
 exl-id: 0292a9cd-0f94-4039-8758-1740106feb71
-source-git-commit: cb82a816ac9513fcdf7a3ad32ed46f1e44c5a7f3
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '6098'
+source-wordcount: '6082'
 ht-degree: 0%
 
 ---
 
 # Configurar perfis globais ou de nível de pasta {#id181AH2003PF}
 
-Em uma empresa, diferentes grupos ou produtos podem usar diferentes modelos de criação, modelos de saída, perfis de atributo condicional \(ou esquemas de assunto\) e configurações do Editor da Web. Configurar esses apenas em nível corporativo \(ou global\) pode dificultar a experiência dos autores, pois eles verão modelos ou perfis que não são relevantes para eles.
+Em uma empresa, diferentes grupos ou produtos podem usar diferentes modelos de criação, modelos de saída, perfis de atributo condicional \(ou esquemas de assunto\) e configurações do Editor. Configurar esses apenas em nível corporativo \(ou global\) pode dificultar a experiência dos autores, pois eles verão modelos ou perfis que não são relevantes para eles.
 
-O AEM Guides permite configurar a criação de modelos \(tópico ou mapa\), modelos de saída, atributo condicional e configurações do Editor da Web em nível corporativo \(global\), bem como em nível de pasta. Dessa forma, você pode separar as configurações de diferentes departamentos ou produtos em sua empresa.
+O AEM Guides permite configurar a criação de modelos \(tópico ou mapa\), modelos de saída, atributo condicional e configurações de Editor em nível corporativo \(global\), bem como em nível de pasta. Dessa forma, você pode separar as configurações de diferentes departamentos ou produtos em sua empresa.
 
 Além disso, você pode delegar as configurações específicas da pasta a um departamento ou administradores de produtos para descentralizar a administração.
 
@@ -70,7 +70,7 @@ Ao usar o bloco Perfis de pasta nas configurações de Guias, você pode definir
 
   Os editores podem usar essas predefinições de saída prontas para uso para publicar conteúdo. Essas predefinições podem ser configuradas por um administrador do perfil global ou de nível de pasta. Após configuradas, as predefinições de publicação ficam disponíveis para os editores para mapas DITA recém-criados. Você também pode aplicar predefinições de publicação a mapas DITA existentes. Consulte [Aplicar alterações predefinidas](#id18AGD0K0OHS) para obter mais detalhes.
 
-- **Configurações do Editor XML**: use esta guia para personalizar a aparência e os vários recursos do Editor da Web. As seguintes configurações configuráveis estão disponíveis para o Editor da Web:
+- **Configurações do Editor XML**: use esta guia para personalizar a aparência e os vários recursos do Editor. As seguintes configurações configuráveis estão disponíveis para o Editor:
 
    - Configuração da interface do Editor de XML
    - Layout de página do editor XML somente para Cloud Service
@@ -196,7 +196,7 @@ Execute as seguintes etapas para configurar atributos condicionais padrão compa
 
 1. Insira o **Nome**, **Valor** e um **Rótulo** para o atributo condicional.
 
-   Você pode salvar um perfil somente com o nome do atributo. No entanto, um atributo só pode ser usado quando tem um valor especificado. Se você especificar ambos - valor e rótulo para um atributo, o Editor da Web mostrará o rótulo do atributo condicional. Além disso, o rótulo é mostrado ao administrador de publicação no momento da criação de uma predefinição condicional.
+   Você pode salvar um perfil somente com o nome do atributo. No entanto, um atributo só pode ser usado quando tem um valor especificado. Se você especificar ambos - valor e rótulo para um atributo, o Editor mostrará o rótulo do atributo condicional. Além disso, o rótulo é mostrado ao administrador de publicação no momento da criação de uma predefinição condicional.
 
    A captura de tela a seguir mostra a definição do atributo `platform` com valores e rótulos possíveis.
 
@@ -304,7 +304,7 @@ Execute as seguintes etapas para adicionar o tópico, mapa ou modelos do PDF em 
 
    >[!NOTE]
    >
-   > Por padrão, todos os modelos são armazenados na pasta /content/dam/dita-templates. A pasta `dita-templates` contém subpastas `topics`, `maps` e `PDF` para armazenar os modelos de tópico, mapa e PDF. Você pode adicionar seus modelos personalizados \(.dita,.xml ou .ditamapfiles\) nas pastas de modelo padrão. Depois de adicionar o modelo à pasta padrão, é possível adicioná-los ao perfil global ou de pasta. Para obter mais informações sobre como criar modelos personalizados usando o Editor da Web, consulte [Criar modelo de criação personalizado](#id1917D0EG0HJ).
+   > Por padrão, todos os modelos são armazenados na pasta /content/dam/dita-templates. A pasta `dita-templates` contém subpastas `topics`, `maps` e `PDF` para armazenar os modelos de tópico, mapa e PDF. Você pode adicionar seus modelos personalizados \(.dita,.xml ou .ditamapfiles\) nas pastas de modelo padrão. Depois de adicionar o modelo à pasta padrão, é possível adicioná-los ao perfil global ou de pasta. Para obter mais informações sobre como criar modelos personalizados usando o Editor, consulte [Criar modelo de criação personalizado](#id1917D0EG0HJ).
 
    ![](assets/search-author-temp.png){width="800"}
 
@@ -366,7 +366,7 @@ Execute as seguintes etapas para adicionar o tópico ou mapear modelos em um per
 
    >[!NOTE]
    >
-   > Por padrão, todos os modelos de criação são armazenados na pasta /content/dam/dita-templates. A pasta `dita-templates` contém subpastas `topics` e `maps` para armazenar o tópico e mapear modelos. Você pode adicionar seus modelos personalizados \(.dita,.xml ou .ditamapfiles\) nas pastas de modelo padrão. Depois de adicionar o modelo à pasta padrão, é possível adicioná-los ao perfil global ou de pasta. Para obter mais informações sobre como criar modelos personalizados usando o Editor da Web, consulte [Criar modelo de criação personalizado](#id1917D0EG0HJ).
+   > Por padrão, todos os modelos de criação são armazenados na pasta /content/dam/dita-templates. A pasta `dita-templates` contém subpastas `topics` e `maps` para armazenar o tópico e mapear modelos. Você pode adicionar seus modelos personalizados \(.dita,.xml ou .ditamapfiles\) nas pastas de modelo padrão. Depois de adicionar o modelo à pasta padrão, é possível adicioná-los ao perfil global ou de pasta. Para obter mais informações sobre como criar modelos personalizados usando o Editor, consulte [Criar modelo de criação personalizado](#id1917D0EG0HJ).
 
    ![](assets/search-author-temp.png){width="550"}
 
@@ -400,7 +400,7 @@ Caso tenha configurado os modelos em um perfil no nível da pasta, os modelos co
 
 ## Criar modelo de criação personalizado {#id1917D0EG0HJ}
 
-O AEM Guides oferece uma maneira fácil de criar modelos de criação. Como administrador do sistema, você pode usar o Editor da Web para criar modelos de criação do zero. Em seguida, você pode adicionar o novo modelo no perfil global ou atribuí-lo a uma pasta específica usando o perfil específico da pasta.
+O AEM Guides oferece uma maneira fácil de criar modelos de criação. Como administrador do sistema, você pode usar o Editor para criar modelos de criação do zero. Em seguida, você pode adicionar o novo modelo no perfil global ou atribuí-lo a uma pasta específica usando o perfil específico da pasta.
 
 Execute as seguintes etapas para criar um modelo de criação personalizado:
 
@@ -434,7 +434,7 @@ Execute as seguintes etapas para criar um modelo de criação personalizado:
 
    A mensagem Topic Created (Tópico criado) é exibida.
 
-   Você pode optar por abrir o modelo para edição no Editor da Web ou salvar o arquivo de modelo no local de armazenamento do modelo. Depois que o modelo for criado, você poderá usar o Editor da Web para personalizar o modelo de acordo com suas necessidades de criação. Depois que um modelo estiver em vigor, certifique-se de associá-lo a um perfil global ou de nível de pasta.
+   Você pode optar por abrir o modelo para edição no Editor ou salvar o arquivo de modelo no local de armazenamento do modelo. Depois que o modelo for criado, você poderá usar o Editor para personalizar o modelo de acordo com suas necessidades de criação. Depois que um modelo estiver em vigor, certifique-se de associá-lo a um perfil global ou de nível de pasta.
 
 
 ## Configurar predefinições de saída {#id18AGD0IH0Y4}
@@ -517,7 +517,7 @@ Se você tiver atualizado uma predefinição de saída existente ou quiser dispo
 
 ## Configurar o AI Assistant para obter ajuda inteligente e criação (somente para o Cloud Service)
 
-Para Experience Manager Guides as a Cloud Service (![nuvem AEM &#x200B;](assets/aem-cloud-icon.svg)).
+Para Experience Manager Guides as a Cloud Service (![nuvem AEM ](assets/aem-cloud-icon.svg)).
 
 O Assistente de IA do Adobe Experience Manager Guides é uma ferramenta avançada orientada por IA, projetada para aprimorar o conteúdo por meio de criação inteligente e experiências de reutilização de conteúdo. Ele reúne dois recursos avançados de IA — **Criação** e **Ajuda** — na interface do Experience Manager Guides, permitindo que você crie documentos e acesse informações de maneira mais rápida e eficiente.
 
@@ -568,7 +568,7 @@ Execute as seguintes etapas para definir a configuração de IA padrão no perfi
    >
    > O último status indexado do perfil da pasta é exibido na parte superior depois que você salva o arquivo.
 
-Saiba mais sobre como exibir e adicionar [sugestões inteligentes baseadas em IA](../user-guide/authoring-ai-based-smart-suggestions.md) para adicionar referências de conteúdo durante a criação no Editor da Web.
+Saiba mais sobre como exibir e adicionar [sugestões inteligentes baseadas em IA](../user-guide/authoring-ai-based-smart-suggestions.md) para adicionar referências de conteúdo durante a criação no Editor.
 
 ### Restrições de perfil de pasta
 
@@ -603,9 +603,9 @@ Para garantir que as sugestões inteligentes funcionem de maneira eficaz, lembre
 
 **Personalizar as perguntas padrão da ajuda inteligente**
 
-Para Experience Manager Guides as a Cloud Service (![nuvem AEM &#x200B;](assets/aem-cloud-icon.svg)).
+Para Experience Manager Guides as a Cloud Service (![nuvem AEM ](assets/aem-cloud-icon.svg)).
 
-Você pode configurar a **Ajuda** inteligente baseada em IA para ajudar os Autores a fazer perguntas e localizar facilmente o conteúdo necessário da [documentação do Experience Manager Guides](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using/overview).
+Você pode configurar a **Ajuda** inteligente baseada em IA para ajudar os Autores a fazer perguntas e localizar facilmente o conteúdo necessário da [documentação do Experience Manager Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 
 A guia **Configuração do Editor XML** permite configurar as perguntas padrão do painel **Ajuda**.
 
@@ -662,7 +662,7 @@ As guias a seguir fornecem informações com base na configuração do Experienc
 
 Essa configuração permite criar extensões JSON que refletem as modificações feitas no arquivo `ui_config.json`. É possível fazer upload dessas extensões de maneira independente no nível do perfil da pasta, oferecendo mais flexibilidade e personalização. Por exemplo, quando você faz alterações na **Configuração do Editor XML**, como a atualização de um botão, o sistema identifica automaticamente as diferenças. Ao carregar essas alterações na **Configuração da Interface do Usuário do Editor de XML** e convertê-las em extensões JSON usando o botão **Converter Configuração da Interface do Usuário em JSON**, o sistema gera uma extensão que incorpora a nova funcionalidade.
 
-Saiba mais sobre [personalização de configurações JSON e conversão de configurações de interface do usuário para o novo Editor do AEM Guides](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+Saiba mais sobre [personalização de configurações JSON e conversão de configurações de interface do usuário para o novo Editor do AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 >[!NOTE]
 >
@@ -682,19 +682,19 @@ Essa configuração controla a barra de ferramentas e os outros elementos da int
 
 >[!TAB No local]
 
-Essa configuração controla a barra de ferramentas e os outros elementos da interface do usuário do Editor da Web. Clique no ícone **Baixar** para baixar o arquivo ui\_config.json mais recente em seu sistema local. Em seguida, é possível fazer alterações no arquivo e fazer o upload da mesma maneira. Clique no ícone **Baixar padrão** para baixar o arquivo padrão ui\_config.json no sistema local. Você sempre pode baixar o arquivo padrão, fazer alterações nele e carregá-lo.Dependendo de onde você estiver fazendo upload do arquivo no perfil global ou de nível de pasta, as alterações serão aplicadas adequadamente. Para obter mais detalhes sobre como personalizar o Editor de XML usando o arquivo ui\_config.json, consulte [Personalizar barra de ferramentas](customize-toolbar.md#).
+Essa configuração controla a barra de ferramentas e os outros elementos da interface do usuário do Editor. Clique no ícone **Baixar** para baixar o arquivo ui\_config.json mais recente em seu sistema local. Em seguida, é possível fazer alterações no arquivo e fazer o upload da mesma maneira. Clique no ícone **Baixar padrão** para baixar o arquivo padrão ui\_config.json no sistema local. Você sempre pode baixar o arquivo padrão, fazer alterações nele e carregá-lo.Dependendo de onde você estiver fazendo upload do arquivo no perfil global ou de nível de pasta, as alterações serão aplicadas adequadamente. Para obter mais detalhes sobre como personalizar o Editor de XML usando o arquivo ui\_config.json, consulte [Personalizar barra de ferramentas](customize-toolbar.md#).
 
 >[!ENDTABS]
 
 **Layout do modelo CSS**
 
-Baixe o arquivo disponível nesta seção para personalizar a aparência do documento quando ele for visualizado ou aberto para edição no Editor da Web. O arquivo CSS padrão disponível para download é apenas um arquivo de teste, que não deve ser usado para personalização. Você pode criar um arquivo CSS com personalizações para o Editor da Web e fazer upload do mesmo. Por exemplo, você pode criar um arquivo .css com o seguinte código:
+Baixe o arquivo disponível nesta seção para personalizar a aparência do documento quando ele for visualizado ou aberto para edição no Editor. O arquivo CSS padrão disponível para download é apenas um arquivo de teste, que não deve ser usado para personalização. Você pode criar um arquivo CSS com personalizações para o Editor e fazer upload do mesmo. Por exemplo, você pode criar um arquivo .css com o seguinte código:
 
 ```
 .title {    font-size: 9em;}
 ```
 
-Salve este arquivo e faça upload na seção Layout de modelo CSS. Na próxima vez que você baixar o arquivo, obterá o arquivo CSS mais recente em uso no Editor da Web.
+Salve este arquivo e faça upload na seção Layout de modelo CSS. Na próxima vez que você baixar o arquivo, obterá o arquivo CSS mais recente em uso no Editor.
 
 **Trechos do Editor XML**
 
@@ -745,7 +745,7 @@ No exemplo acima, o &quot;label1&quot; é o identificador para a sequência do r
 
 >[!IMPORTANT]
 >
-> Para que as configurações no nível da pasta entrem em vigor, os usuários precisariam selecionar o perfil em suas Preferências do usuário no Editor da Web.
+> Para que as configurações no nível da pasta entrem em vigor, os usuários precisariam selecionar o perfil em suas Preferências do usuário no Editor.
 
 **Roteiro**
 

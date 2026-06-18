@@ -5,9 +5,9 @@ feature: Version Management
 role: Admin
 level: Experienced
 exl-id: 4ca4292a-a97a-4b54-ab9d-17f73e4a100f
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '2309'
+source-wordcount: '2307'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ As guias a seguir fornecem instruções para habilitar a opção **Criar nova ve
 
 ## Definir configurações para permitir a edição de arquivos com check-out
 
-O AEM Guides Web Editor permite criar e atualizar tópicos DITA. Você pode configurar o Editor da Web para permitir a edição apenas dos documentos que foram submetidos a check-out no repositório. Isso garante que nenhum outro autor substitua acidentalmente um tópico que esteja aberto para edição por outro autor. Quando um tópico é aberto para edição, um autor pode fazer check-in do arquivo no momento de fechá-lo.
+O Editor do AEM Guides permite criar e atualizar tópicos DITA. Você pode configurar o Editor para permitir a edição apenas dos documentos que foram submetidos a check-out no repositório. Isso garante que nenhum outro autor substitua acidentalmente um tópico que esteja aberto para edição por outro autor. Quando um tópico é aberto para edição, um autor pode fazer check-in do arquivo no momento de fechá-lo.
 
 Outra regra importante é garantir que os arquivos dos quais foi feito check-out sejam devolvidos ao sistema. Isso impede que os usuários fechem os arquivos acidentalmente sem fazer o check-in deles novamente.
 
@@ -314,7 +314,7 @@ Execute as seguintes etapas para expurgar as versões mais antigas:
 
    ![](assets/preview-purge-report.png)
 
-1. &#x200B;
+1. 
    - **Número de Versões a Reter da Versão Mais Recente**: insira o número de versões que devem ser retidas e não removidas. Por exemplo, se informarmos 5, as últimas 5 versões serão retidas e as versões anteriores serão qualificadas para expurgação caso outras condições de expurgação sejam atendidas.
    - **Reter versões criadas dentro do período \(Em dias\)**: insira a idade máxima de uma versão em dias. As versões anteriores ao número de dias especificado são qualificadas para expurgação caso outras condições de expurgação sejam atendidas. Por exemplo, se informarmos 100, todas as versões criadas antes de 100 dias serão qualificadas para expurgação caso outras condições de expurgação sejam atendidas.
    - **Caminho**: selecione o caminho do arquivo ou pasta cujos arquivos você deseja limpar.

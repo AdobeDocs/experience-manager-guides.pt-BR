@@ -4,7 +4,8 @@ description: Saiba como incluir o atributo @navtitle por padrão
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 80784efb-e897-47cc-a10a-4050236b0fad
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 1%
@@ -90,4 +91,4 @@ Com essa configuração, cada arquivo de referência adicionado a um mapa conter
 
 >[!ENDTABS]
 
-**Tópico pai:**&#x200B;[&#x200B; Personalizar editor da Web](customize-overview.md)
+**Tópico pai:**[ Personalizar editor](customize-overview.md)

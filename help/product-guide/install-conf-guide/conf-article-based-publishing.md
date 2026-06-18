@@ -4,16 +4,17 @@ description: Saiba como instalar pacotes para publicação baseada em artigo
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 24e47af6-8d81-4994-8d97-474f5029392b
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---
 
 # Instalar pacotes para publicação baseada em artigo {#id21BNL02052Z}
 
-O AEM Guides fornece um poderoso recurso de publicação baseado em artigos integrado ao Editor da Web. Com esse recurso, você pode publicar um ou mais tópicos simultaneamente. Depois de abrir um mapa no Editor de mapa, você pode navegar até a guia Saídas para criar uma predefinição e, em seguida, escolher um ou mais tópicos para gerar a saída. Você pode usar o recurso de publicação com base em artigo para gerar de forma incremental a saída de um ou mais tópicos ou publicar seu conteúdo em uma plataforma da base de conhecimento, artigo por artigo. Para obter mais detalhes, consulte *Publicação baseada em artigo da seção Editor da Web* no Guia do usuário.
+O AEM Guides fornece um poderoso recurso de publicação baseado em artigos integrado ao Editor. Com esse recurso, você pode publicar um ou mais tópicos simultaneamente. Depois de abrir um mapa no Editor de mapa, você pode navegar até a guia Saídas para criar uma predefinição e, em seguida, escolher um ou mais tópicos para gerar a saída. Você pode usar o recurso de publicação com base em artigo para gerar de forma incremental a saída de um ou mais tópicos ou publicar seu conteúdo em uma plataforma da base de conhecimento, artigo por artigo. Para obter mais detalhes, consulte *Publicação baseada em artigo da seção Editor* no Guia do usuário.
 
 As guias a seguir fornecem instruções para criar um site do AEM para publicar saída baseada em artigos com base na configuração do Experience Manager Guides: Cloud Service ou No local.
 
@@ -43,11 +44,11 @@ As guias a seguir fornecem instruções para criar um site do AEM para publicar 
    > É possível criar vários sites do AEM usando o mesmo modelo.
 
 
-Você pode usar o site do AEM para publicar seu artigo usando as predefinições de saída do Editor da Web.
+Você pode usar o site do AEM para publicar seu artigo usando as predefinições de saída do Editor.
 
 >[!TAB No local]
 
-Para habilitar a publicação baseada em artigos, baixe e instale os seguintes pacotes do Portal de distribuição de software da Adobe. Instale-os para criar um site Tragopan. \(O site do Tragopan é um exemplo de site da AEM da base de conhecimento com modelos para uma categoria, seção e páginas de artigo.\) Atualize o site do Tragopan para gerar a saída do site do AEM usando as predefinições de saída do Editor da Web.
+Para habilitar a publicação baseada em artigos, baixe e instale os seguintes pacotes do Portal de distribuição de software da Adobe. Instale-os para criar um site Tragopan. \(O site do Tragopan é um exemplo de site da AEM da base de conhecimento com modelos para uma categoria, seção e páginas de artigo.\) Atualize o site do Tragopan para gerar a saída do site do AEM usando as predefinições de saída do Editor.
 
 - Modelo da knowledge base para publicação baseada em artigo
 - Pacote de componentes para publicação baseada em artigo
@@ -55,4 +56,4 @@ Para habilitar a publicação baseada em artigos, baixe e instale os seguintes p
 >[!ENDTABS]
 
 
-**Tópico pai:**&#x200B;[&#x200B; Personalizar editor da Web](customize-overview.md)
+**Tópico pai:**[ Personalizar editor](customize-overview.md)

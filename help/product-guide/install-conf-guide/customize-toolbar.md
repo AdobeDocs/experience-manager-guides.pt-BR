@@ -4,22 +4,23 @@ description: Saiba como personalizar a barra de ferramentas
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 5057f9935982d4b13c245453f15a93f48679f16b
+exl-id: 42f1ee19-cc59-49da-b882-5d97ec387df6
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '1717'
+source-wordcount: '1710'
 ht-degree: 0%
 
 ---
 
 # Personalizar barra de ferramentas {#id172FB00L0V6}
 
-Por padrão, o Editor da Web é fornecido com os recursos editoriais mais comuns exigidos por qualquer editor DITA. Recursos como inserir elementos da lista de tipos \(numerada ou com marcadores\), referência cruzada, referência de conteúdo, tabela, parágrafo e formatação de caracteres estão disponíveis no editor. Além desses elementos básicos, você pode personalizar o Editor da Web para inserir elementos usados no seu ambiente de criação.
+Por padrão, o Editor é fornecido com os recursos editoriais mais comuns exigidos por qualquer editor DITA. Recursos como inserir elementos da lista de tipos \(numerada ou com marcadores\), referência cruzada, referência de conteúdo, tabela, parágrafo e formatação de caracteres estão disponíveis no editor. Além desses elementos básicos, você pode personalizar o Editor para inserir elementos que são usados em seu ambiente de criação.
 
 >[!NOTE]
 >
-> Ao migrar da interface antiga para a nova interface do AEM Guides (aplicável a partir das versões 2502 e 5.0 do AEM Guides), as atualizações do `ui_config` devem ser convertidas em configurações de interface mais flexíveis e modulares. Essa estrutura ajuda a adotar alterações facilmente na editor_toolbar e em outro widget do target, conforme aplicável. Para obter detalhes, consulte [Visão geral da configuração da interface de conversão](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+> Ao migrar da interface antiga para a nova interface do AEM Guides (aplicável a partir das versões 2502 e 5.0 do AEM Guides), as atualizações do `ui_config` devem ser convertidas em configurações de interface mais flexíveis e modulares. Essa estrutura ajuda a adotar alterações facilmente na editor_toolbar e em outro widget do target, conforme aplicável. Para obter detalhes, consulte [Visão geral da configuração da interface de conversão](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
-Há duas maneiras de personalizar a barra de ferramentas do Editor da Web:
+Há duas maneiras de personalizar a barra de ferramentas do Editor:
 
 - Adicionar uma nova funcionalidade à barra de ferramentas
 
@@ -28,7 +29,7 @@ Há duas maneiras de personalizar a barra de ferramentas do Editor da Web:
 
 ## Adicionar um recurso na barra de ferramentas
 
-Adicionar uma funcionalidade ao Editor da Web envolve duas tarefas principais: adicionar um ícone para o recurso no arquivo *ui\_config.json* e adicionar a funcionalidade em segundo plano no JavaScript.
+Adicionar uma funcionalidade ao Editor envolve duas tarefas principais: adicionar um ícone para o recurso no arquivo *ui\_config.json* e adicionar a funcionalidade em segundo plano no JavaScript.
 
 As guias a seguir fornecem instruções com base na configuração do Experience Manager Guides: Cloud Service ou No local.
 
@@ -47,44 +48,44 @@ As guias a seguir fornecem instruções com base na configuração do Experience
 
    Normalmente, você pode criar um novo grupo de botões da barra de ferramentas e adicionar um ou mais botões da barra de ferramentas a ele. Ou você pode adicionar um novo botão de barra de ferramentas em um grupo existente. Os detalhes a seguir são necessários para criar um novo grupo de barras de ferramentas:
 
-   **tipo**:   Especifique `blockGroup` como o valor `type`. Esse valor indica que você está criando um grupo de blocos que conteria um ou mais grupos da barra de ferramentas.
+   **tipo**: especifique `blockGroup` como o valor `type`. Esse valor indica que você está criando um grupo de blocos que conteria um ou mais grupos da barra de ferramentas.
 
-   **classe_de_extração**:   Nome da classe ou classes separadas por espaço.
+   **extraclass**: nome da(s) classe(s) separada(s) por espaço.
 
-   **itens**:   Especifique a definição de todos os grupos na barra de ferramentas. Cada grupo pode conter um ou vários ícones da barra de ferramentas. Para definir ícones em um grupo de barras de ferramentas, você precisa definir novamente o atributo `type` em `items` e definir seu valor como `buttonGroup`. Especifique um ou mais nomes de classe na propriedade `extraclass`. Especifique o nome do recurso na propriedade `label`. O trecho a seguir do arquivo `ui_config.json` mostra a definição do bloco da barra de ferramentas principal, seguida pela definição `buttonGroup`:
+   **itens**: especifique a definição de todos os grupos na barra de ferramentas. Cada grupo pode conter um ou vários ícones da barra de ferramentas. Para definir ícones em um grupo de barras de ferramentas, você precisa definir novamente o atributo `type` em `items` e definir seu valor como `buttonGroup`. Especifique um ou mais nomes de classe na propriedade `extraclass`. Especifique o nome do recurso na propriedade `label`. O trecho a seguir do arquivo `ui_config.json` mostra a definição do bloco da barra de ferramentas principal, seguida pela definição `buttonGroup`:
 
        &quot;
-       &quot;barra de ferramentas&quot;: &lbrace;
-       &quot;type&quot;: &quot;blockGroup&quot;,
-       &quot;classe de extração&quot;:
-       &quot;operações da barra de ferramentas&quot;,
-       &quot;itens&quot;: &lbrack;
-       &lbrace;
-       &quot;tipo&quot;: &quot;buttonGroup&quot;,
-       &quot;extraclass&quot;: &quot;left-controls&quot;,
-       &quot;rótulo&quot;: &quot;Controles de Esquerda&quot;,
-       &quot;itens&quot;: &lbrack;
-       &quot;
+     &quot;barra de ferramentas&quot;: {
+     &quot;tipo&quot;: &quot;blockGroup&quot;,
+     &quot;extraclass&quot;:
+     &quot;operações de barra de ferramentas&quot;,
+     &quot;itens&quot;: [
+     {
+     &quot;tipo&quot;: &quot;buttonGroup&quot;,
+     &quot;extraclass&quot;: &quot;left-controls&quot;,
+     &quot;rótulo&quot;: &quot;Left-controls&quot;: Controles&quot;,
+     &quot;itens&quot;: [
+     &quot;
    
    Na coleção `items`, é necessário especificar a definição de um ou mais ícones da barra de ferramentas.
 
    É necessário definir as seguintes propriedades para adicionar um ícone da barra de ferramentas:
 
-   **tipo**:   Especifique `button` como o valor `type`. Esse valor indica que você está adicionando um botão da barra de ferramentas.
+   **tipo**: especifique `button` como o valor `type`. Esse valor indica que você está adicionando um botão da barra de ferramentas.
 
-   **ícone**:   Especifique o nome do ícone Coral que deseja usar na barra de ferramentas.
+   **ícone**: especifique o nome do ícone Coral que você deseja usar na barra de ferramentas.
 
-   **variante**:   Especifique `quiet` como o valor `variant`.
+   **variante**: especifique `quiet` como o valor `variant`.
 
-   **título**:   Especifique a dica de ferramenta do ícone.
+   **título**: especifique a dica de ferramenta para o ícone.
 
-   **ao clicar**:   Especifique o nome do comando definido para o recurso no arquivo JavaScript. Se o comando exigir parâmetros de entrada, especifique o nome do comando como:
+   **ao clicar**: especifique o nome do comando definido para o recurso no arquivo JavaScript. Se o comando exigir parâmetros de entrada, especifique o nome do comando como:
 
        &quot;Javascript
-       &quot;ao clicar&quot;: {&quot;name&quot;: &quot;AUTHOR_INSERT_ELEMENT&quot;, &quot;args&quot;: &quot;simpletable&quot;}
-       &quot;
+     &quot;ao clicar&quot;: {&quot;name&quot;: &quot;AUTHOR_INSERT_ELEMENT&quot;, &quot;args&quot;: &quot;simpletable&quot;}
+     &quot;
    
-   **mostrar ou ocultar**:   Se você estiver definindo a propriedade `show`, especifique os modos nos quais o ícone será exibido. Os valores possíveis são - `@isAuthorMode`, `@isSourceMode`, `@isPreviewMode`, `true` \(exibir em todos os modos\), ou `false` \(ocultar em todos os modos\).
+   **mostrar ou ocultar**: se estiver definindo a propriedade `show`, especifique os modos nos quais o ícone será exibido. Os valores possíveis são - `@isAuthorMode`, `@isSourceMode`, `@isPreviewMode`, `true` \(exibir em todos os modos\), ou `false` \(ocultar em todos os modos\).
 
    No lugar de `show`, você também pode definir a propriedade `hide`. Os valores possíveis são os mesmos da propriedade `show` com a única diferença de que o ícone não é exibido para o modo especificado.
 
@@ -114,7 +115,7 @@ As guias a seguir fornecem instruções com base na configuração do Experience
 
 1. Atualize a propriedade categories da pasta *clientlib* atribuindo o valor de *apps.fmdita.xml\_editor.page\_overrides*.
 
-1. Salve o arquivo *ui\_config.json* e recarregue o Editor da Web.
+1. Salve o arquivo *ui\_config.json* e recarregue o Editor.
 
 >[!TAB No local]
 
@@ -132,7 +133,7 @@ As guias a seguir fornecem instruções com base na configuração do Experience
 
 1. No arquivo `ui_config.json`, adicione a definição do novo recurso na seção de barras de ferramentas. Normalmente, você pode criar um novo grupo de botões da barra de ferramentas e adicionar um ou mais botões da barra de ferramentas a ele. Ou você pode adicionar um novo botão de barra de ferramentas em um grupo existente. Os detalhes a seguir são necessários para criar um novo grupo de barras de ferramentas:
 
-   - **tipo:**&#x200B;especifique `blockGroup` como o valor `type`. Esse valor indica que você está criando um grupo de blocos que conteria um ou mais grupos da barra de ferramentas.
+   - **tipo:**especifique `blockGroup` como o valor `type`. Esse valor indica que você está criando um grupo de blocos que conteria um ou mais grupos da barra de ferramentas.
 
    - **classe(s) de extração:** Nome da(s) classe(s) separada(s) por espaço.
 
@@ -176,7 +177,7 @@ As guias a seguir fornecem instruções com base na configuração do Experience
 
 1. Atualize a propriedade categories da pasta *clientlib* atribuindo o valor de *apps.fmdita.xml\_editor.page\_overrides*.
 
-1. Salve o arquivo *ui\_config.json* e recarregue o Editor da Web.
+1. Salve o arquivo *ui\_config.json* e recarregue o Editor.
 
 
 **Amostras de código do JavaScript**
@@ -192,7 +193,7 @@ Adicione o seguinte código a um arquivo do JavaScript:
 * Step 1. Create a clientlib folder and add save a file with your *JavaScript code into this folder. A code sample is shared below.
 * Step 2: Update the categories property of the clientlib folder by *assigning it the value of 
 * "apps.fmdita.xml_editor.page_overrides".
-* Step 3: Add the feature in the ui_config.json file as shown after the *sample code. Save the ui_config.json file and reload the Web Editor
+* Step 3: Add the feature in the ui_config.json file as shown after the *sample code. Save the ui_config.json file and reload the Editor
  */
 
 (function (window) {
@@ -233,7 +234,7 @@ O exemplo a seguir mostra como alterar o estado de um documento de um arquivo at
 * Step 1. Create a clientlib folder and add save a file with your *JavaScript code into this folder. A code sample is shared below.
 * Step 2: Update the categories property of the clientlib folder by *assigning it the value of 
 * "apps.fmdita.xml_editor.page_overrides".
-* Step 3: Add the feature in the ui_config.json file as shown after the *sample code. Save the ui_config.json file and reload the Web Editor
+* Step 3: Add the feature in the ui_config.json file as shown after the *sample code. Save the ui_config.json file and reload the Editor
  */
 
 (function (window) {
@@ -294,7 +295,7 @@ Adicione o recurso no arquivo ui\_config.json como:
 
 ## Remover um recurso da barra de ferramentas
 
-Às vezes, você pode não querer fornecer todos os recursos atualmente disponíveis no Editor da Web. Nesse caso, você pode remover o recurso indesejado da barra de ferramentas do Editor da Web.
+Às vezes, você pode não querer fornecer todos os recursos atualmente disponíveis no Editor. Nesse caso, você pode remover o recurso indesejado da barra de ferramentas do Editor.
 
 As guias a seguir fornecem instruções para remover qualquer recurso indesejado da barra de ferramentas com base na configuração do Experience Manager Guides: Cloud Service ou No local.
 
@@ -312,11 +313,11 @@ As guias a seguir fornecem instruções para remover qualquer recurso indesejado
 
    O arquivo `ui_config.json` tem três seções:
 
-   1. **barras de ferramentas**:   Esta seção contém a definição de todos os recursos disponíveis na barra de ferramentas do editor, como Inserir/Remover lista numerada, \(arquivo\) Fechar, Salvar, Comentários e muito mais.
+   1. **barras de ferramentas**: esta seção contém a definição de todos os recursos disponíveis na barra de ferramentas do editor, como Inserir/Remover Lista Numerada, \(arquivo\) Fechar, Salvar, Comentários e muito mais.
 
-   1. **atalhos**:   Esta seção contém a definição de atalhos de teclado atribuídos a um recurso específico no editor.
+   1. **atalhos**: esta seção contém a definição de atalhos de teclado atribuídos a um recurso específico no editor.
 
-   1. **modelos**:   Esta seção contém a estrutura predefinida de elementos DITA que você pode usar no documento. Por padrão, a seção de modelos contém definições de modelo para um parágrafo, tabela simples, tabela e elementos de corpo. É possível criar uma definição de modelo para qualquer elemento adicionando uma estrutura XML válida para o elemento desejado. Por exemplo, se você deseja adicionar um elemento `p` a cada novo elemento `li` em uma lista, é possível adicionar o seguinte código no final da seção de modelos para fazer isso:
+   1. **modelos**: esta seção contém a estrutura predefinida de elementos DITA que você pode usar em seu documento. Por padrão, a seção de modelos contém definições de modelo para um parágrafo, tabela simples, tabela e elementos de corpo. É possível criar uma definição de modelo para qualquer elemento adicionando uma estrutura XML válida para o elemento desejado. Por exemplo, se você deseja adicionar um elemento `p` a cada novo elemento `li` em uma lista, é possível adicionar o seguinte código no final da seção de modelos para fazer isso:
 
    ```css
    "li": "<li><p></p></li>"
@@ -324,7 +325,7 @@ As guias a seguir fornecem instruções para remover qualquer recurso indesejado
 
 1. Na seção de barras de ferramentas, remova a entrada do recurso que você não deseja expor aos usuários.
 
-1. Salve o arquivo *ui\_config.json* e recarregue o Editor da Web.
+1. Salve o arquivo *ui\_config.json* e recarregue o Editor.
 
 >[!TAB No local]
 
@@ -341,11 +342,11 @@ As guias a seguir fornecem instruções para remover qualquer recurso indesejado
 1. Navegue e abra o arquivo `ui_config.json` no nó `apps` para edição.
 O arquivo `ui_config.json` tem três seções:
 
-- **barras de ferramentas:**   Esta seção contém a definição de todos os recursos disponíveis na barra de ferramentas do editor, como Inserir/Remover lista numerada, \(arquivo\) Fechar, Salvar, Comentários e muito mais.
+- **barras de ferramentas:** Esta seção contém a definição de todos os recursos disponíveis na barra de ferramentas do editor, como Inserir/Remover Lista Numerada, \(arquivo\) Fechar, Salvar, Comentários e muito mais.
 
-- **atalhos:**   Esta seção contém a definição de atalhos de teclado atribuídos a um recurso específico no editor.
+- **atalhos:** esta seção contém a definição de atalhos de teclado atribuídos a um recurso específico no editor.
 
-- **modelos:**   Esta seção contém a estrutura predefinida de elementos DITA que você pode usar no documento. Por padrão, a seção de modelos contém definições de modelo para um parágrafo, tabela simples, tabela e elementos de corpo. É possível criar uma definição de modelo para qualquer elemento adicionando uma estrutura XML válida para o elemento desejado. Por exemplo, se você deseja adicionar um elemento `p` a cada novo elemento `li` em uma lista, é possível adicionar o seguinte código no final da seção de modelos para fazer isso:
+- **modelos:** esta seção contém a estrutura predefinida de elementos DITA que você pode usar no documento. Por padrão, a seção de modelos contém definições de modelo para um parágrafo, tabela simples, tabela e elementos de corpo. É possível criar uma definição de modelo para qualquer elemento adicionando uma estrutura XML válida para o elemento desejado. Por exemplo, se você deseja adicionar um elemento `p` a cada novo elemento `li` em uma lista, é possível adicionar o seguinte código no final da seção de modelos para fazer isso:
 
 ```HTML
 "li": "<li><p></p></li>"
@@ -353,6 +354,6 @@ O arquivo `ui_config.json` tem três seções:
 
 1. Na seção de barras de ferramentas, remova a entrada do recurso que você não deseja expor aos usuários.
 
-1. Salve o arquivo `*ui\_config.json*` e recarregue o Editor da Web.
+1. Salve o arquivo `*ui\_config.json*` e recarregue o Editor.
 
 >[!ENDTABS]

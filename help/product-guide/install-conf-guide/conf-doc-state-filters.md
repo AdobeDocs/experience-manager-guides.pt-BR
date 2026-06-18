@@ -5,9 +5,9 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 6dee8479-770f-48d7-9939-5035388d16d8
-source-git-commit: 4d8a6cd1e683af7ac3496464a2e0ed930eb9e8fc
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
@@ -77,4 +77,4 @@ No arquivo `ui\_config.json` baixado, consulte a seguinte seção:
 
 Os filtros configurados são exibidos no painel **Filtros** em Repositório, na Home page.
 
-**Tópico pai:**&#x200B;[&#x200B; Personalizar editor da Web](customize-overview.md)
+**Tópico pai:**[ Personalizar editor](customize-overview.md)

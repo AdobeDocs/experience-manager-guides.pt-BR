@@ -4,18 +4,19 @@ description: Saiba como configurar o prompt para fazer check-in de um arquivo ao
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 6b1b5894-0d55-4230-83cf-6b219e969116
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '317'
 ht-degree: 1%
 
 ---
 
 # Configurar prompt para fazer check-in de um arquivo ao fechar {#id222HC040PE8}
 
-Quando o usuário tenta fechar um arquivo aberto no Editor da Web usando o botão **Fechar** na guia do arquivo ou a opção **Fechar** no menu Opções, uma caixa de diálogo é exibida se o arquivo tiver dados não salvos ou uma versão não salva. O usuário será solicitado a desbloquear o arquivo se ele estiver bloqueado.
+Quando o usuário tenta fechar um arquivo aberto no Editor usando o botão **Fechar** na guia do arquivo ou a opção **Fechar** no menu Opções, uma caixa de diálogo é exibida se o arquivo tiver dados não salvos ou uma versão não salva. O usuário será solicitado a desbloquear o arquivo se ele estiver bloqueado.
 
-As guias a seguir fornecem instruções para configurar o prompt para fazer check-in de um arquivo na opção fechar por padrão no Editor da Web com base na configuração do Experience Manager Guides: Cloud Service ou no local.
+As guias a seguir fornecem instruções para configurar o prompt para fazer check-in de um arquivo na opção fechar por padrão no Editor com base na configuração do Experience Manager Guides: Cloud Service ou No local.
 
 >[!BEGINTABS]
 
@@ -35,7 +36,7 @@ Para obter mais detalhes, consulte a seção *Cenários de fechamento e salvamen
 
 >[!NOTE]
 >
->A caixa de seleção **Desbloquear o Arquivo** não está habilitada por padrão e você precisa habilitá-la no configMgr. Execute as seguintes etapas para habilitar a opção por padrão no Editor da Web:
+>A caixa de seleção **Desbloquear o Arquivo** não está habilitada por padrão e você precisa habilitá-la no configMgr. Execute as seguintes etapas para ativar a opção por padrão no Editor:
 
 1. Abra a página Configuração do console da Web do Adobe Experience Manager.
 
@@ -58,4 +59,4 @@ Para obter mais detalhes, consulte a seção *Cenários de fechamento e salvamen
 
 >[!ENDTABS]
 
-**Tópico pai:**&#x200B;[&#x200B; Personalizar editor da Web](customize-overview.md)
+**Tópico pai:**[ Personalizar editor](customize-overview.md)

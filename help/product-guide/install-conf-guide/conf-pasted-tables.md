@@ -1,12 +1,13 @@
 ---
-title: Personalizar editor da Web
+title: Personalizar editor
 description: Saiba como personalizar a exibição de tabelas coladas no Editor
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: e66c13e4-6dc0-41a0-8582-32bacec9ae6c
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
