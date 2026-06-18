@@ -29,7 +29,7 @@ Com a solução [!DNL AEM Guides], as empresas podem oferecer experiências perf
 
   _Saiba como criar, organizar, criar e publicar conteúdo com o [!DNL Adobe Experience Manager Guides]._
 
-- **[[!DNL Experience Manager Guides] Criação no Editor interno](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html){target="blank"}**
+- **[[!DNL Experience Manager Guides] Criação no Editor interno](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=pt-BR){target="blank"}**
 
   _Saiba como criar conteúdo usando o Editor nativo no [!DNL Adobe Experience Manager Guides]. Obter compreensão completa das preferências do usuário, configurações do editor, configuração, barras de ferramentas e muito mais._
 
@@ -40,8 +40,8 @@ Com a solução [!DNL AEM Guides], as empresas podem oferecer experiências perf
 
 ## Recursos adicionais
 
-- [Guia do Usuário do [!DNL Experience Manager Guides] (Interface antiga)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
-- [Aprendizagem e suporte do [!DNL AEM Guides]](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
+- [Guia do Usuário do [!DNL Experience Manager Guides] (Interface antiga)](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+- [Aprendizagem e suporte do [!DNL AEM Guides]](https://helpx.adobe.com/br/support/xml-documentation-for-experience-manager.html)
 - [Experience League - Explorar o AEM](https://business.adobe.com/br/products/experience-manager/adobe-experience-manager.html)
 
 
