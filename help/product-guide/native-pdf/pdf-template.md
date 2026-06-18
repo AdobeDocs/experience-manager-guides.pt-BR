@@ -18,9 +18,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 1181
+source-wordcount: 1099
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Você pode criar modelos personalizados do PDF com layouts de página específic
 
 Para criar um novo modelo do PDF, execute as seguintes etapas:
 
-1. No Editor da Web, vá para a guia **Saída**.
+1. No Editor, vá para a guia **Saída**.
 1. Selecionar **Modelos** <img src="./assets/template.png" alt= "ícone de modelos" width="25"> no painel esquerdo.
 
    <img src="assets/create-pdf-template.png" alt="Criar modelo do PDF" width="400">
@@ -64,7 +64,7 @@ Para criar um novo modelo com os mesmos layouts e formatação de página de um 
 
 Para duplicar um template do PDF existente, siga as etapas abaixo:
 
-1. No Editor da Web, vá para a guia **Saída**.
+1. No Editor, vá para a guia **Saída**.
 1. Selecionar **Modelos** <img src="./assets/template.svg" alt= "ícone de modelos" width="25"> no painel esquerdo. Isso abre a janela **Modelos**.
 1. Passe o mouse sobre o modelo que você deseja duplicar, selecione o ícone **...** *Opções* e escolha **Duplicar** no menu de contexto.
 
@@ -132,7 +132,7 @@ Para obter detalhes sobre como configurar perfis globais e de nível de pasta, c
 
 Para personalizar um modelo do PDF, execute as seguintes etapas:
 
-1. No Editor da Web, vá para a guia **Saída**.
+1. No Editor, vá para a guia **Saída**.
 1. Expanda a barra lateral esquerda e selecione **Modelos**.
 
    Isso abre o painel **Modelos**.

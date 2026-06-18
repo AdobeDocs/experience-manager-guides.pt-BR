@@ -15,9 +15,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 371
+source-wordcount: 370
 ht-degree: 4%
 
 ---
@@ -43,7 +43,7 @@ Saiba mais sobre [as instruções de atualização para o 4.6.0 Service Pack 3 v
 - A publicação no Salesforce falha quando o conteúdo contém espaços não separáveis. (23664)
 - Para tópicos com erros como links quebrados, a publicação no Salesforce falha e a barra de progresso é exibida indefinidamente. (22985)
 - Para mapas com links quebrados, a publicação do Salesforce falha e a barra de progresso é exibida indefinidamente. (24963)
-- Se um link externo contiver uma UUID, ele entrará no pós-processamento e converterá o link externo em link UUID, quebrando o link no editor da Web e também nos sites de publicação. (22574)
+- Se um link externo contiver uma UUID, ele entrará no pós-processamento e converterá o link externo em link UUID, quebrando o link no editor e também nos sites de publicação. (22574)
 - O `xref` converte em link relativo mesmo quando o **escopo** do link está definido como **externo**. (23059)
 - Falha na geração de PDF nativo para conteúdo com o atributo **chunk** definido como **to-content**. (21772)
 - A caixa de diálogo **Editar propriedades** de uma linha de base não mostra os critérios salvos anteriormente para a linha de base dinâmica. (23964)

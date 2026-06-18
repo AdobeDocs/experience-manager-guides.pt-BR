@@ -5,16 +5,16 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 51099b42-706f-42b4-993e-7d9577b5a4f0
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '265'
 ht-degree: 1%
 
 ---
 
 # Personalizar o dicionário padrão do AEM {#id209SD8000WU}
 
-O Editor da Web pode ser configurado para usar o verificador ortográfico do AEM ou o verificador ortográfico do navegador. Se optar por trabalhar com o verificador ortográfico do AEM, você terá a flexibilidade de definir sua lista de palavras personalizadas. Essas palavras personalizadas são adicionadas ao dicionário do AEM e essas palavras não são sinalizadas \(como incorreto\) no Editor da Web.
+O Editor pode ser configurado para usar o verificador ortográfico do AEM ou o verificador ortográfico do navegador. Se optar por trabalhar com o verificador ortográfico do AEM, você terá a flexibilidade de definir sua lista de palavras personalizadas. Essas palavras personalizadas são adicionadas ao dicionário do AEM e essas palavras não são sinalizadas \(como incorreto\) no Editor.
 
 As guias a seguir fornecem instruções para criar sua lista de palavras personalizadas, que são adicionadas ao dicionário da AEM com base na configuração do Experience Manager Guides: Cloud Service ou No local.
 
@@ -37,7 +37,7 @@ As guias a seguir fornecem instruções para criar sua lista de palavras persona
    Confirme as alterações e execute o pipeline de Cloud Manager \(CI/CD\) para implantar alterações de configuração.
 
 
-Os autores precisariam reiniciar a sessão do Editor da Web para atualizar a lista de palavras personalizadas no dicionário do AEM.
+Os autores precisariam reiniciar a sessão do editor para atualizar a lista de palavras personalizadas no dicionário do AEM.
 
 >[!TAB No local]
 
@@ -58,8 +58,8 @@ Os autores precisariam reiniciar a sessão do Editor da Web para atualizar a lis
 1. Salvar e fechar o arquivo.
 
 
-Os autores precisariam reiniciar a sessão do Editor da Web para atualizar a lista de palavras personalizadas no dicionário do AEM.
+Os autores precisariam reiniciar a sessão do editor para atualizar a lista de palavras personalizadas no dicionário do AEM.
 
 >[!ENDTABS]
 
-**Tópico pai:**&#x200B;[&#x200B; Personalizar editor da Web](customize-overview.md)
+**Tópico pai:**&#x200B;[&#x200B; Personalizar editor](customize-overview.md)

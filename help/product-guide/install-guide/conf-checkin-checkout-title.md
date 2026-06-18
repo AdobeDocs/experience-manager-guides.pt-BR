@@ -16,16 +16,16 @@ subfeature_v2:
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 166
+source-wordcount: 165
 ht-degree: 0%
 
 ---
 
 # Configurar o título para os ícones Fazer check-in e Check-out
 
-O AEM Guides permite configurar o título para os ícones Check-in e Check-out no Editor da Web. Execute as seguintes etapas para configurar o título para os ícones Fazer check-in e Fazer check-out:
+O AEM Guides permite configurar o título para os ícones Fazer check-in e Fazer check-out no Editor. Execute as seguintes etapas para configurar o título para os ícones Fazer check-in e Fazer check-out:
 
 1. Baixe o arquivo de configuração da interface do usuário fazendo logon no Adobe Experience Manager como administrador.
 1. Clique no link do Adobe Experience Manager na parte superior e escolha **Ferramentas**.

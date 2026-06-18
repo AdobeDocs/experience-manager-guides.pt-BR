@@ -15,16 +15,16 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 241
+source-wordcount: 240
 ht-degree: 0%
 
 ---
 
 # Remover a opção &quot;Excluir&quot; do menu de contexto do arquivo no editor da Web
 
-Neste artigo, aprenderemos como ocultar a opção &quot;Excluir&quot; do menu de contexto de arquivo no AEM Guides Web Editor para usuários ou grupos específicos. Para outras personalizações em opções de menu de contexto de arquivo, verifique a Estrutura de extensão de guias. Mais detalhes podem ser encontrados [aqui](https://github.com/adobe/guides-extension/tree/main).
+Neste artigo, aprenderemos como ocultar a opção &quot;Excluir&quot; no menu de contexto do arquivo no Editor do AEM Guides para usuários ou grupos específicos. Para outras personalizações em opções de menu de contexto de arquivo, verifique a Estrutura de extensão de guias. Mais detalhes podem ser encontrados [aqui](https://github.com/adobe/guides-extension/tree/main).
 
 Como você pode ver abaixo do trecho, o menu de contexto do arquivo tem a opção &quot;Excluir&quot; disponível para este usuário específico.
 
@@ -58,5 +58,5 @@ O menu de contexto do arquivo agora terá esta aparência:
 ![Menu de contexto de arquivo sem Excluir](../../../assets/authoring/file-contextmenu-Delete-removed.png)
 
 ```
-Please note that these steps would also remove 'move' and 'rename' options from the Web Editor as they are also tied to delete process at the backend.
+Please note that these steps would also remove 'move' and 'rename' options from the Editor as they are also tied to delete process at the backend.
 ```

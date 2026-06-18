@@ -4,9 +4,10 @@ description: Saiba como configurar a opção para editar no plug-in do conector 
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+exl-id: 41ecbbb2-81c3-473d-b48b-7370a74a6474
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '104'
 ht-degree: 1%
 
 ---
@@ -25,6 +26,6 @@ Use as instruções fornecidas em [Substituições de configuração](download-i
 
 >[!NOTE]
 >
-> Essa configuração é desativada por padrão e a opção não está disponível no Editor da Web.
+> Essa configuração é desativada por padrão e a opção não está disponível no Editor.
 
-**Tópico pai:**&#x200B;[&#x200B; Personalizar editor da Web](customize-overview.md)
+**Tópico pai:**&#x200B;[&#x200B; Personalizar editor](customize-overview.md)

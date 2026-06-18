@@ -4,16 +4,17 @@ description: Saiba como Configurar filtros de texto
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 08502168-a995-44bc-9ce3-c3e562714c06
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '614'
 ht-degree: 0%
 
 ---
 
 # Configurar filtros de texto {#id21BPD0FK0XA}
 
-O AEM Guides fornece o recurso para procurar texto nos arquivos presentes no caminho selecionado do repositório do AEM. Você pode usar a pesquisa de filtro para pesquisar arquivos no painel de repositório ou para procurar arquivos. Ao trabalhar no Editor da Web, é necessário usar a caixa de diálogo de navegação de arquivos para inserir elementos como imagem, referência ou referência de chave.
+O AEM Guides fornece o recurso para procurar texto nos arquivos presentes no caminho selecionado do repositório do AEM. Você pode usar a pesquisa de filtro para pesquisar arquivos no painel de repositório ou para procurar arquivos. Ao trabalhar no Editor, é necessário usar a caixa de diálogo de navegação de arquivos para inserir elementos como imagem, referência ou referência de chave.
 
 Por padrão, você pode usar alguns filtros aprimorados para pesquisar os arquivos no repositório do AEM. Você pode filtrar todos os arquivos DITA ou arquivos não DITA presentes no caminho selecionado. Também é possível pesquisar valores específicos nos atributos de elementos DITA. Você também pode procurar arquivos cujo check-out tenha sido feito pelo usuário especificado.
 
@@ -165,4 +166,4 @@ Os filtros configurados estão disponíveis no painel Filtros.
 
 >[!ENDTABS]
 
-**Tópico pai:**&#x200B;[&#x200B; Personalizar editor da Web](customize-overview.md)
+**Tópico pai:**&#x200B;[&#x200B; Personalizar editor](customize-overview.md)

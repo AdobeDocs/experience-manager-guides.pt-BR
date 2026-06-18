@@ -15,9 +15,9 @@ subfeature_v2:
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 263
+source-wordcount: 262
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Consulte a seção **Preferências do Usuário** em [Página 41 do Guia do Usuá
 Use as condições para condicionar seções de conteúdo:
 Consulte a seção **Condições** em [Página 90 do Guia do Usuário](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)
 
-![Usar Condições no Editor da Web](assets/conditions-in-web-editor.png)
+![Usar condições no editor](assets/conditions-in-web-editor.png)
 
 **Etapa 4**
 

@@ -18,9 +18,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 387
+source-wordcount: 386
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Nesta sessão, você aprendeu sobre o seguinte:
 - Entenda o que todas as interfaces podem ser estendidas usando essa estrutura de extensão
 - Entender o que já está disponível para que você comece facilmente a criar seus próprios recursos personalizados
 - Personalização aprendida tomando exemplos:
-   - Adicionando a seção Ajuda e suporte no editor da Web
+   - Adicionar a seção Ajuda e suporte no Editor
    - Adicionar mais um painel esquerdo - diga para visualizar as tarefas do usuário atual
    - Adição de mais um botão da barra de ferramentas para tópico/mapa usando esta estrutura
    - Extensão das informações mostradas no painel de propriedades de conteúdo no editor da Web - adicionando informações de pós-processamento para indicar se o pós-processamento é feito em um determinado arquivo ou não

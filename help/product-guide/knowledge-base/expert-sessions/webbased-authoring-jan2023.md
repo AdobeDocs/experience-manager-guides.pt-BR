@@ -1,6 +1,6 @@
 ---
 title: Criação de conteúdo baseado na Web
-description: Saiba como criar conteúdo estruturado usando o editor da Web.
+description: Saiba como criar conteúdo estruturado usando o Editor.
 exl-id: ab051c14-5c1e-4685-89e8-3c90dff9ea5e
 feature: Web Editor, Troubleshooting
 role: User, Admin
@@ -22,20 +22,20 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 241
+source-wordcount: 238
 ht-degree: 1%
 
 ---
 
 # Criação de conteúdo baseado na Web
 
-O AEM Guides vem com um editor da Web integrado para a criação de conteúdo estruturado. Você pode trabalhar com uma experiência de criação simplificada baseada na Web, mas ainda escolher usar ou ativar recursos avançados, como validação condicional de conteúdo, verificação ortográfica, reutilização de conteúdo, validação de referência, nomes amigáveis e equações matemáticas de criação.
+O AEM Guides vem com um editor integrado para a criação de conteúdo estruturado. Você pode trabalhar com uma experiência de criação simplificada baseada na Web, mas ainda escolher usar ou ativar recursos avançados, como validação condicional de conteúdo, verificação ortográfica, reutilização de conteúdo, validação de referência, nomes amigáveis e equações matemáticas de criação.
 
 ## Visão geral da sessão
 
-Nesta sessão, você aprenderá a criar, publicar e gerenciar conteúdo usando o editor da Web.
+Nesta sessão, você aprenderá a criar, publicar e gerenciar conteúdo usando o Editor.
 
 ## Gravação da sessão
 

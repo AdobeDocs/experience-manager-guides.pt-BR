@@ -26,9 +26,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 6522
+source-wordcount: 6471
 ht-degree: 0%
 
 ---
@@ -342,7 +342,7 @@ A tela a seguir mostra o painel AEM Guides.
 As funções do plug-in Oxygen para AEM Guides estão disponíveis ao clicar com o botão direito do mouse em uma pasta ou arquivo no repositório do AEM. As funções disponíveis para as pastas são diferentes dos arquivos. Esta é uma lista completa das funções no menu de contexto do Plug-in Oxygen para AEM Guides:
 
 - **Abrir**: abre o arquivo selecionado ou expande a pasta selecionada.
-- **Abrir em**: você pode optar por abrir o arquivo selecionado no Editor da Web do AEM Guides, no Painel de Mapas ou no Editor de Mapas. Para obter mais informações sobre essas opções, consulte [Abrir arquivo no editor do AEM Guides](#id195GH0V30KX).
+- **Abrir em**: você pode optar por abrir o arquivo selecionado no Editor do AEM Guides, no Painel de Mapa ou no Editor de Mapa. Para obter mais informações sobre essas opções, consulte [Abrir arquivo no editor do AEM Guides](#id195GH0V30KX).
 - **Check-out**: faz o check-out de um arquivo do repositório do AEM. Para obter mais detalhes, consulte [Arquivos de check-out](#id195HC020TS4).
 - **Check-out com dependentes**: faz check-out de um arquivo com suas referências diretas. Para obter mais detalhes, consulte [Arquivos de check-out](#id195HC020TS4).
 - **Fazer check-out com dependentes somente leitura**: faz check-out do arquivo selecionado junto com seus dependentes. Não é possível fazer alterações nos arquivos dependentes. Para obter mais detalhes, consulte [Arquivos de check-out](#id195HC020TS4).
@@ -391,7 +391,7 @@ Se quiser usar os editores disponíveis no AEM Guides, selecione a opção neces
 
 1. Selecione **Abrir em** no menu de contexto e escolha entre as seguintes opções:
 
-   - **Editor de Tópicos da Web**: se o arquivo que você está abrindo for um arquivo .xml ou .dita, poderá abri-lo para edição no Editor da Web. Escolha a opção **Editor de Tópicos da Web** para abrir o arquivo selecionado para edição no Editor da Web.
+   - **Editor de Tópicos da Web**: se o arquivo que você está abrindo for um arquivo .xml ou .dita, poderá abri-lo para edição no Editor. Escolha a opção **Editor de Tópicos da Web** para abrir o arquivo selecionado para edição no Editor.
 
    - **Painel de Mapa**: você pode optar por editar um arquivo .ditamap no painel de mapa no qual é possível executar várias operações no arquivo de mapa. Essas operações dependem da função/grupo ao qual você pertence.
 

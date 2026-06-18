@@ -1,6 +1,6 @@
 ---
-title: Configurar caracteres especiais adicionais na barra de ferramentas do Editor da Web
-description: Saiba como configurar caracteres especiais adicionais no editor da Web do AEM Guides.
+title: Configurar caracteres especiais adicionais na barra de ferramentas do editor
+description: Saiba como configurar caracteres especiais adicionais no editor do AEM Guides.
 feature: Web Editor
 role: User
 exl-id: 0fbc05a5-a6b0-4f6b-bbc4-8fca03581d90
@@ -12,14 +12,14 @@ feature_v2:
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 273
+source-wordcount: 262
 ht-degree: 0%
 
 ---
 
-# Como configurar caracteres especiais adicionais na barra de ferramentas do Editor da Web para No local
+# Como configurar caracteres especiais adicionais na barra de ferramentas do Editor para No local
 
 Há uma opção de atalho na barra de ferramentas do editor da Web para permitir que o autor insira os caracteres especiais.
 O mesmo pode ser visto na captura de tela abaixo:

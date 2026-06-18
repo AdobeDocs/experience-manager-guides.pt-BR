@@ -19,9 +19,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 437
+source-wordcount: 399
 ht-degree: 0%
 
 ---
@@ -33,9 +33,9 @@ Por design, o editor da Web aproveita a configuração do esquema DITA no sistem
 
 Além do suporte para regras DITA, o editor da Web também oferece suporte à validação de conteúdo com base nas regras &quot;*Schematron*&quot;.
 
-&quot;*Schematron*&quot; refere-se a uma linguagem de validação baseada em regras usada para definir testes para um arquivo XML. É possível importar os arquivos do Schematron e editá-los no Editor da Web. Usando um arquivo de &quot;Esquematron&quot;, você pode definir determinadas regras e validá-las para um tópico DITA ou um mapa. As regras de esquema podem garantir a consistência da estrutura XML, impondo restrições definidas como regras. Estas restrições são impostas por PME que detêm a qualidade e a coerência do conteúdo.
+&quot;*Schematron*&quot; refere-se a uma linguagem de validação baseada em regras usada para definir testes para um arquivo XML. É possível importar os arquivos do Schematron e editá-los no Editor. Usando um arquivo de &quot;Esquematron&quot;, você pode definir determinadas regras e validá-las para um tópico DITA ou um mapa. As regras de esquema podem garantir a consistência da estrutura XML, impondo restrições definidas como regras. Estas restrições são impostas por PME que detêm a qualidade e a coerência do conteúdo.
 
-OBSERVAÇÃO: o editor da Web é compatível com o Schematron ISO.
+OBSERVAÇÃO: o editor é compatível com o esquema ISO.
 
 
 ## Saber como o &quot;Schematron&quot; funciona no editor da Web

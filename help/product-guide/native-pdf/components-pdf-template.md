@@ -14,9 +14,9 @@ feature_v2:
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 4767
+source-wordcount: 4601
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Conteúdo (índice), índice, página em branco, Páginas de primeiro plano, Pá
 >
 >Há exemplos de layouts de página que foram enviados imediatamente. É possível personalizar esses layouts ou criar novos layouts de página.
 
-1. No Editor da Web, vá para a guia **Saída**.
+1. No Editor, vá para a guia **Saída**.
 1. Expanda a barra lateral esquerda e clique em **Modelos**.
 1. Abra o modelo com o qual deseja trabalhar.
 
@@ -199,7 +199,7 @@ Para adicionar um arquivo de ativo à pasta Recursos, siga as etapas abaixo:
 
 1. Clique em **Escolher arquivos** para procurar o arquivo de ativo de seu computador local
 
-1. Clique em **Fazer upload**.
+1. Clique em **Carregar**.
 O arquivo selecionado é importado e listado na pasta Recursos.
 
 ## Configurações avançadas do PDF {#advanced-pdf-settings}
@@ -245,7 +245,7 @@ Para aplicar a estrutura de índice e os níveis de cabeçalho de estilo, consul
   >Se você for um desenvolvedor de CSS, também poderá definir o formato de líder diretamente no arquivo CSS.
 
 * **Usar marcador de continuação de tabela**: selecione essa opção para definir marcadores para tabelas longas que se espalham por várias páginas.
-Você pode definir o texto a ser exibido antes e depois da quebra. Por exemplo, uma tabela é quebrada na página 5 e você define `<Continued on page %page-num%>` para **Texto antes da quebra**.  O texto exibe &quot;Continuado na página 6&quot; na parte inferior da página 5.
+Você pode definir o texto a ser exibido antes e depois da quebra. Por exemplo, uma tabela é quebrada na página 5 e você define `<Continued on page %page-num%>` para **Texto antes da quebra**. O texto exibe &quot;Continuado na página 6&quot; na parte inferior da página 5.
 
   Use variáveis de idioma para definir o texto do marcador de continuação antes e depois da interrupção. Dependendo do idioma escolhido, o valor localizado é escolhido automaticamente na saída do PDF. Por exemplo, você pode publicar `Continued on page %page-num%` como texto em inglês e `Fortsetzung auf Seite %page-num%` em alemão.
 

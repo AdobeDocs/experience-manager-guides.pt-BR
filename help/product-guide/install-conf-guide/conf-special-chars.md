@@ -4,16 +4,17 @@ description: Saiba como Configurar caracteres especiais permitidos
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: e3747a18-b6a1-46fd-a4d1-28a9c087e924
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
 
 # Configurar caracteres especiais permitidos {#id20CIL600035}
 
-O Editor da Web permite inserir alguns caracteres especiais prontos para uso. Entretanto, é possível personalizar a lista de caracteres especiais que os autores podem inserir nos documentos. Se você personalizar a lista de caracteres especiais, ela substituirá o conjunto padrão de caracteres especiais. Somente os caracteres especiais adicionados em sua configuração são disponibilizados aos autores.
+O Editor permite inserir alguns caracteres especiais prontos para uso. Entretanto, é possível personalizar a lista de caracteres especiais que os autores podem inserir nos documentos. Se você personalizar a lista de caracteres especiais, ela substituirá o conjunto padrão de caracteres especiais. Somente os caracteres especiais adicionados em sua configuração são disponibilizados aos autores.
 
 As guias a seguir fornecem instruções para substituir a lista padrão de caracteres especiais com base na configuração do Experience Manager Guides: Cloud Service ou No local.
 
@@ -81,4 +82,4 @@ A estrutura do arquivo `symbols.json` é explicada abaixo:
 
 >[!ENDTABS]
 
-**Tópico pai:**&#x200B;[&#x200B; Personalizar editor da Web](customize-overview.md)
+**Tópico pai:**&#x200B;[&#x200B; Personalizar editor](customize-overview.md)

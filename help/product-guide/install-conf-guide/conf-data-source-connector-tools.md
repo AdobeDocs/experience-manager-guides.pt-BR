@@ -5,9 +5,9 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: ea09ea67-3051-4231-90e2-3b8a3ceb9270
-source-git-commit: d7d8ae300695fb6e637265766e7f44e0e0226e3a
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1171'
 ht-degree: 0%
 
 ---
@@ -167,6 +167,6 @@ Você verá um erro se existir um conector com o mesmo nome.
 
 * **Excluir**: excluir o conector selecionado.
 
-Após configurar a fonte de dados, o conector será listado no **painel Fontes de Dados** do Editor da Web. Em seguida, você pode se conectar à fonte de dados e inserir um trecho de conteúdo em seus tópicos. Para obter mais detalhes, exiba [Inserir um trecho de conteúdo da sua fonte de dados](../user-guide/web-editor-content-snippet.md).
+Após configurar a fonte de dados, o conector será listado no **painel Fontes de Dados** do Editor. Em seguida, você pode se conectar à fonte de dados e inserir um trecho de conteúdo em seus tópicos. Para obter mais detalhes, exiba [Inserir um trecho de conteúdo da sua fonte de dados](../user-guide/web-editor-content-snippet.md).
 
 Somente para configuração no local, também é possível criar conectores personalizados e usá-los com fontes de dados diferentes. Saiba como [configurar conectores personalizados](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using/knowledge-base/kb-articles/external-data-source/conf-custom-data-source-connector).

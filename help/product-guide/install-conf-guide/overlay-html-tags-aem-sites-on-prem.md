@@ -4,16 +4,17 @@ description: Defina as configurações de vídeo e imagem para a saída do aem s
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: af349df4-04bf-4b9b-885f-d8bca32a4484
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '170'
 ht-degree: 0%
 
 ---
 
 # Sobrepor tags HTML na saída do AEM Sites para no local
 
-Você pode adicionar e personalizar tags HTML na saída do AEM Sites gerada usando a predefinição do AEM Sites com base no mapeamento dos componentes principais do Editor da Web. Para personalizar as marcas HTML, você pode sobrepor o arquivo `config.xml`. Por exemplo, você pode configurar os mapas de vídeo e imagem na saída do AEM Sites.
+Você pode adicionar e personalizar tags HTML na saída do AEM Sites gerada usando a predefinição do AEM Sites com base no mapeamento dos componentes principais do editor. Para personalizar as marcas HTML, você pode sobrepor o arquivo `config.xml`. Por exemplo, você pode configurar os mapas de vídeo e imagem na saída do AEM Sites.
 
 Execute as seguintes etapas para sobrepor e atualizar o arquivo `config.xml`:
 

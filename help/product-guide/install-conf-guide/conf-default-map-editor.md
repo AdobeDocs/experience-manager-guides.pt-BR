@@ -4,9 +4,10 @@ description: Saiba como definir o Editor de mapa avançado como padrão
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 60205ca4-518f-49fa-b63b-f1a56d70fc01
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
@@ -16,9 +17,9 @@ ht-degree: 0%
 >[!NOTE]
 >
 > O Editor de mapa básico, anteriormente disponível no Experience Manager Guides, foi descontinuado a partir da versão 4.3 e 2307. Não é possível acessar o Editor de mapa básico para criar e gerenciar mapas DITA.
->É recomendável usar o Editor de mapa avançado. O Editor de mapa avançado oferece recursos aprimorados e melhores opções de personalização. Saiba mais sobre como trabalhar com o [Editor de mapa avançado](../user-guide/map-editor-advanced-map-editor.md).
+>É recomendável usar o Editor de Mapa Avançado. O Editor de mapa avançado oferece recursos aprimorados e melhores opções de personalização. Saiba mais sobre como trabalhar com o [Editor de mapa avançado](../user-guide/map-editor-advanced-map-editor.md).
 
-Para versões anteriores à 4.3 e 2307, o Experience Manager Guides vem com um Editor de mapa básico e um Editor de mapa avançado. O Editor de mapa básico fornece todos os recursos necessários para criar seu arquivo de mapa. O Editor de mapa avançado possui muito mais recursos e está integrado ao Editor da Web. O Editor de mapa avançado permite que os autores criem e editem arquivos de mapa DITA com uma interface fácil de usar.
+Para versões anteriores à 4.3 e 2307, o Experience Manager Guides vem com um Editor de mapa básico e um Editor de mapa avançado. O Editor de mapa básico fornece todos os recursos necessários para criar seu arquivo de mapa. O Editor de mapa avançado tem muito mais recursos e está integrado ao Editor. O Editor de mapa avançado permite que os autores criem e editem arquivos de mapa DITA com uma interface fácil de usar.
 
 Por padrão, sempre que um novo arquivo de mapa é criado, ele é aberto no Editor de mapa básico. Você pode alterar esse comportamento ativando a configuração para abrir o Editor de mapa avançado por padrão.
 
@@ -57,4 +58,4 @@ Use as instruções fornecidas em [Substituições de configuração](download-i
 
 >[!ENDTABS]
 
-**Tópico pai:**&#x200B;[&#x200B; Personalizar editor da Web](customize-overview.md)
+**Tópico pai:**&#x200B;[&#x200B; Personalizar editor](customize-overview.md)

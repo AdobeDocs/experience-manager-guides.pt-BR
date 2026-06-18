@@ -4,9 +4,9 @@ description: Saiba como configurar e ignorar listas para propriedades de metadad
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 8e8b24bea8504ad9fcca1117bd9e7b400e757dff
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -70,4 +70,4 @@ O AEM Guides inclui um conjunto padrão de propriedades de metadados na lista de
 
 Somente as propriedades de metadados que não estão incluídas na lista de itens a serem ignorados são consideradas para marcar a versão de um documento como suja.
 
-**Tópico pai:**&#x200B;[&#x200B; Personalizar editor da Web](customize-overview.md)
+**Tópico pai:**&#x200B;[&#x200B; Personalizar editor](customize-overview.md)

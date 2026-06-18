@@ -15,9 +15,9 @@ subfeature_v2:
   - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 343
+source-wordcount: 342
 ht-degree: 0%
 
 ---
@@ -55,4 +55,4 @@ Execute as seguintes etapas para configurar elementos para que tenham uma ID ger
 1. Clique em **Salvar**.
 
 
-**Tópico pai:**&#x200B;[&#x200B; Personalizar editor da Web](conf-web-editor.md)
+**Tópico pai:**&#x200B;[&#x200B; Personalizar editor](conf-web-editor.md)

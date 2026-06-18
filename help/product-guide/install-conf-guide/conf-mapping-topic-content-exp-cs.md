@@ -4,9 +4,10 @@ description: Saiba como configurar o mapeamento baseado em JSON entre um tópico
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: f37cd341-aa8b-4af0-9a40-1d034eea3be6
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
@@ -156,6 +157,6 @@ Arquivo de exemplo:
 
 
 
-Ao publicar os Fragmentos de experiência no Editor da Web, selecione o `Template` na lista suspensa da caixa de diálogo **Gerar fragmento de experiência** para exibir o mapeamento disponível para o modelo no campo **Mapeamento**. Se nenhum mapeamento personalizado estiver presente para um modelo, o mapeamento padrão será listado. Você pode usar o mapeamento padrão para publicar todo o tópico como um Fragmento de experiência.
+Ao publicar os Fragmentos de experiência no Editor, selecione o `Template` na lista suspensa da caixa de diálogo **Gerar fragmento de experiência** para exibir o mapeamento disponível para o modelo no campo **Mapeamento**. Se nenhum mapeamento personalizado estiver presente para um modelo, o mapeamento padrão será listado. Você pode usar o mapeamento padrão para publicar todo o tópico como um Fragmento de experiência.
 
 Para obter mais detalhes, consulte [Publicar Fragmentos de Experiência](../user-guide/publish-experience-fragment.md).
