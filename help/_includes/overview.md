@@ -25,7 +25,7 @@ Com a solução [!DNL AEM Guides], as empresas podem oferecer experiências perf
 
 ## Novidades
 
-- **[[!DNL Experience Manager Guides] Introdução ao curso](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/getting-started/overview.html){target="blank"}**
+- **[[!DNL Experience Manager Guides] Introdução ao curso](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/getting-started/overview.html?lang=pt-BR){target="blank"}**
 
   _Saiba como criar, organizar, criar e publicar conteúdo com o [!DNL Adobe Experience Manager Guides]._
 
@@ -33,7 +33,7 @@ Com a solução [!DNL AEM Guides], as empresas podem oferecer experiências perf
 
   _Saiba como criar conteúdo usando o Editor nativo no [!DNL Adobe Experience Manager Guides]. Obter compreensão completa das preferências do usuário, configurações do editor, configuração, barras de ferramentas e muito mais._
 
-- **[Geração de saída com [!DNL Experience Manager Guides]](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/overview.html){target="blank"}**
+- **[Geração de saída com [!DNL Experience Manager Guides]](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/overview.html?lang=pt-BR){target="blank"}**
 
   _Saiba como gerar saída usando o [!DNL Adobe Experience Manager Guides]. Saiba mais sobre os vários recursos disponíveis para geração de saída - relatórios, linhas de base, condições, solução de problemas, publicação e ativação em massa._
 
