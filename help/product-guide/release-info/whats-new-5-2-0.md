@@ -2,9 +2,9 @@
 title: Notas de versão | Novidades na versão 5.2.0 do Adobe Experience Manager Guides
 description: Saiba mais sobre os recursos novos e aprimorados da versão 5.2.0 do Adobe Experience Manager Guides
 role: Leader
-source-git-commit: efd7ab95f0ed7f35e99587a2f47eaeac7a330221
+source-git-commit: 166dd4eec428d81bfe3db92ebc5a54f1760fe7dc
 workflow-type: tm+mt
-source-wordcount: '4132'
+source-wordcount: '4052'
 ht-degree: 0%
 
 ---
@@ -345,13 +345,6 @@ Se um arquivo for Somente leitura, você deverá primeiro fazer check-out do arq
 Agora é possível usar o regex para ativar ou desativar o pós-processamento para pastas. Esse aprimoramento permite que os administradores definam regras de pós-processamento que se aplicam a várias pastas ou hierarquias de pastas inteiras usando uma única configuração, em vez de especificar caminhos de pastas individuais.
 
 Para obter mais detalhes, exiba [Usar regex para habilitar ou desabilitar o pós-processamento](../install-conf-guide/conf-folder-post-processing.md).
-
-- Executar o processamento de ativos nos níveis de pasta e de arquivo individual
-- Filtre ativos escolhendo tipos específicos de ativos, como tópicos, mapas, Markdown, HTML/CSS, DITAVAL ou outros arquivos compatíveis, para processar somente os arquivos necessários.
-- Aplique filtros com base em data para limitar o escopo de processamento por um período especificado.
-- Reprocesse ativos diretamente usando a nova opção (**Reprocessar ativos**) disponível no menu de contexto de arquivos e pastas no modo de exibição Repositório e no painel Explorador.
-
-Para obter mais detalhes sobre o processamento de ativos, consulte [Processar ativos](../user-guide/asset-processor.md).
 
 ### Limpeza automatizada da árvore B para desempenho ideal
 
