@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leia a documentação do produto do Adobe Experience Manager Guides.
 breadcrumb-title: Documentação do AEM Guides
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+source-git-commit: 1aea696b5f5eba9027a71246f7bff0d0fef93221
 workflow-type: tm+mt
-source-wordcount: '2528'
+source-wordcount: '2527'
 ht-degree: 9%
 
 ---
@@ -661,7 +661,7 @@ ht-degree: 9%
          - [Arquitetura e desempenho de microsserviços](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
          - [Configurar a publicação baseada em microsserviços com autenticação JWT](./knowledge-base/publishing/configure-microservices.md)
          - [Configurar a publicação baseada em microsserviço com autenticação OAuth](./knowledge-base/publishing/configure-microservices-imt-config.md)
-         - [Configurar o Edge Delivery Services (Beta)](./knowledge-base/publishing/configure-eds.md)
+         - [Configurar Edge Delivery Services](./knowledge-base/publishing/configure-eds.md)
          - [Publicando referências de desempenho na nuvem do AEM](./knowledge-base/publishing/publishing-benchmarks-on-aem-cloud.md)
       - Fluxos de trabalhos {#workflows}
          - [Fluxo de trabalho de pós-geração](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
