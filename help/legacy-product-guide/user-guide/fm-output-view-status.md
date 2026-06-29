@@ -17,9 +17,9 @@ subfeature_v2:
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: c1b7d852b148187cb5d33256223d5e0f5498aa7e
+source-git-commit: 7ba2ad081f90fcbd38c7b34524a9ed1378e64f0d
 workflow-type: tm+mt
-source-wordcount: 449
+source-wordcount: 544
 ht-degree: 0%
 
 ---
@@ -66,22 +66,50 @@ Execute as seguintes etapas para exibir a fila de geração de saída:
 >
 > </details>
 
-## Definir atributos em várias células, linha inteira ou coluna de uma tabela
+
+
+**Definir atributos em várias células, linha inteira ou coluna de uma tabela**
 
 Você pode definir atributos no nível de célula, linha ou coluna.
 
+<details>
+<summary>Mostrar etapas</summary>
+
+Você também pode definir atributos em várias células, linha inteira ou coluna de uma tabela. Por exemplo, para alinhar a célula da tabela, arraste e selecione a célula necessária. No painel Propriedades de Conteúdo (à direita), a propriedade **Type** é alterada para **entry**.
+
+1. Na seção **Atributos**, selecione **+Adicionar**.
+1. Selecione o atributo `@valign` na lista suspensa **Atributo**.
+1. Na lista suspensa de valores, selecione o alinhamento de texto desejado que deseja aplicar às células selecionadas da tabela.
+1. Selecione **Adicionar.**
+
+   ![](images/align-table-cell_cs.png)
+
+   </details>
+
+>[!BEGINSHADEBOX]
+>
+> **Como definir atributos em várias células, linha inteira ou coluna de uma tabela**
+>
+> Você pode definir atributos no nível de célula, linha ou coluna.
+>
 > <details>
 >&gt; <summary>Mostrar etapas</summary>
 >
-> Você também pode definir atributos em várias células, linha inteira ou coluna de uma tabela. Por exemplo, para alinhar a célula da tabela, arraste e selecione a célula necessária. No painel Propriedades de Conteúdo (à direita), a propriedade **Type** é alterada para **entry**.
+> Você também pode definir atributos em várias células, uma linha inteira ou uma coluna de uma tabela. Por exemplo, para alinhar uma célula de tabela, arraste e selecione a célula necessária. No painel Propriedades de Conteúdo (à direita), a propriedade **Type** é alterada para **entry**.
 >
 > 1. Na seção **Atributos**, selecione **+Adicionar**.
 > 1. Selecione o atributo `@valign` na lista suspensa **Atributo**.
-> 1. Na lista suspensa de valores, selecione o alinhamento de texto desejado que deseja aplicar às células selecionadas da tabela.
-> 1. Selecione **Adicionar.**
+> 1. Na lista suspensa **Valor**, selecione o alinhamento de texto desejado.
+> 1. Selecione **Adicionar**.
 >
 > ![](images/align-table-cell_cs.png)
 >
 > </details>
+>
+>[!ENDSHADEBOX]
+
+
+
 
 **Tópico pai:**&#x200B;[&#x200B; Gerar saída de documentos do FrameMaker](fm-output-generatation.md)
+
