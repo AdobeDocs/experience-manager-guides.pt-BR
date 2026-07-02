@@ -17,9 +17,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: e8cdb1fe05d839d9167e834577f46e17f9ed28b5
 workflow-type: tm+mt
-source-wordcount: 1460
+source-wordcount: 1470
 ht-degree: 0%
 
 ---
@@ -57,8 +57,7 @@ A visualização Source exibe o XML subjacente que compõe o tópico. Se você s
 
   Na captura de tela acima, um destaque cruzado é usado para apontar a linha que contém XML incorreto.
 
-- O recurso Localizar e substituir permite procurar qualquer texto, elemento ou atributo na Exibição do Source.
-Para obter mais detalhes, consulte a descrição do recurso **Localizar e Substituir** na seção [Barra de ferramentas principal](web-editor-features.md#id#id2051EA0G05Z).
+- O recurso Localizar e substituir permite procurar qualquer texto, elemento ou atributo na Exibição do Source.Para obter mais detalhes, consulte a descrição do recurso **Localizar e Substituir** na seção [Barra de ferramentas principal](web-editor-features.md#id#id2051EA0G05Z).
 
 - A Exibição do Source fornece muitos atalhos para ajudá-lo a navegar e trabalhar rapidamente em um documento. A tabela a seguir lista as ações compatíveis e suas teclas de atalho:
 
@@ -162,6 +161,8 @@ Para exportar um tópico como PDF, siga estas etapas:
    > Certifique-se de ter ativado a janela pop-up na configuração do navegador; caso contrário, o PDF não será baixado.
 
    A PDF é gerada e aberta em uma nova guia ou você verá uma caixa de diálogo para salvar a PDF no sistema local.
+
+   Para obter detalhes, [Exiba a PDF](./images/best-practices-guide.pdf)
 
 
 **Tópico pai:**&#x200B;[&#x200B; Trabalhar com o Editor da Web](web-editor.md)
