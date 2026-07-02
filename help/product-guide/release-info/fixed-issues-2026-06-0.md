@@ -1,9 +1,9 @@
 ---
 title: Notas de versão | Correção de problemas na versão 2026.06.0 do Adobe Experience Manager Guides
 description: Saiba mais sobre as correções de erros na versão 2026.06.0 do Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 010a11e20d518064549ce7d66648586f49f572ec
+source-git-commit: 318f2b7a530e50ca4432313650801b2293d6697e
 workflow-type: tm+mt
-source-wordcount: '2174'
+source-wordcount: '2171'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ A Adobe identificou os seguintes problemas conhecidos para a versão 2026.06.0:
 
 - Alternar entre os modos Source e Autor causa inconsistências no conteúdo, com partes do tópico desaparecendo ou não sendo refletidas entre os modos. (GUIDES-47432)
 
-- Ao trabalhar no modo de exibição de Estrutura de Tópicos com **Rastrear alterações** habilitado, rejeitar uma alteração removerá todo o conteúdo dentro da marca em vez de apenas rejeitar o conteúdo modificado específico. (GUIDES-48319)
+- Ao trabalhar com a opção Controlar alterações, rejeitar uma inserção de texto importado remove todo o conteúdo da tag, em vez de rejeitar apenas o conteúdo específico inserido. (GUIDES-48319)
 
 - O botão **Exportar como PDF** no modo de Visualização não executa nenhuma ação quando a barra de ferramentas do editor é personalizada usando `editor_toolbar.json` em um perfil de pasta. (GUIDES-47525)
 
