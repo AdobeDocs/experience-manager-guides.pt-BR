@@ -12,9 +12,9 @@ feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 318f2b7a530e50ca4432313650801b2293d6697e
+source-git-commit: 4433d28a41c3d9d797b38dbf732119fc3ea69f36
 workflow-type: tm+mt
-source-wordcount: 125
+source-wordcount: 124
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Execute as seguintes etapas para gerar uma saída SCORM:
 
    ![](assets/scorm-generate-output-new.png){width="650"}
 
-1. Quando a geração for concluída, uma mensagem de êxito será exibida confirmando que o arquivo **filename.zip** foi criado. Você pode visualizar a saída usando **Exibir saída** na mensagem de sucesso.
+1. Quando a geração for concluída, uma mensagem de êxito será exibida confirmando que o arquivo **filename.zip** foi criado. Você pode visualizar a saída usando a opção **Exibir saída** na mensagem de sucesso.
 
    ![](assets/scorm-success-message.png){width="350"}
 
@@ -36,5 +36,5 @@ Execute as seguintes etapas para gerar uma saída SCORM:
 
    ![](assets/scorm-view-output-new.png){width="650"}
 
-Carregue o arquivo ZIP no LMS para disponibilizar o curso aos seus alunos com a opção **Carregar** da guia **Publicar no LMS** para a predefinição SCORM.
+Carregue o arquivo ZIP no LMS para disponibilizar o curso aos alunos com a opção **Carregar** da guia **Publicar no LMS** da predefinição SCORM.
 
