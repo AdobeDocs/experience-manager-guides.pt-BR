@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leia a documentação do produto do Adobe Experience Manager Guides.
 breadcrumb-title: Documentação do AEM Guides
-source-git-commit: 31ea563a6878c340bba73dfa549fae7cd399720f
+source-git-commit: 944f0c06731cec941f72581a1e47aba25c451c6a
 workflow-type: tm+mt
-source-wordcount: '2537'
+source-wordcount: '2533'
 ht-degree: 9%
 
 ---
@@ -404,7 +404,6 @@ ht-degree: 9%
          - [Configurar perfis de pasta](./lc-config-guide/lc-folder-profile.md)
          - [Práticas recomendadas para configurar a estrutura de pastas](./lc-config-guide/best-practices-folder-structure.md)
          - [Definir outras configurações](./lc-config-guide/lc-other-settings.md)
-         - [Configurar filtros de visualização SCORM](./lc-config-guide/conf-scorm-preview-filters.md)
          - [Métricas principais do SCORM](./lc-config-guide/learning-course-parameters.md)
       - Tutoriais em vídeo {#lc-video}
          - [Fluxo de trabalho do autor](./lc-video-tutorials/author-workflow.md)
