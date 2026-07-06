@@ -17,9 +17,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: e8cdb1fe05d839d9167e834577f46e17f9ed28b5
+source-git-commit: 83f5a8409e8bb9c8a6ccc33ffadf64e6c7875f6f
 workflow-type: tm+mt
-source-wordcount: 1470
+source-wordcount: 1478
 ht-degree: 0%
 
 ---
@@ -164,5 +164,8 @@ Para exportar um tópico como PDF, siga estas etapas:
 
    Para obter detalhes, [Exiba a PDF](./images/best-practices-guide.pdf)
 
+
+
+   Para obter detalhes, [Exiba o ícone do PDF](./images/best-practices-guide.pdf) do PDF![](./images/pdf_icon.png "documento do PDF")
 
 **Tópico pai:**&#x200B;[&#x200B; Trabalhar com o Editor da Web](web-editor.md)
