@@ -4,9 +4,10 @@ description: Saiba como fazer o mapeamento de componentes para o AEM Sites
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 9243592c-1a3c-4218-8674-19305dd6f17a
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1052'
 ht-degree: 0%
 
 ---
@@ -22,8 +23,7 @@ Use uma matriz JSON de regras (seu `componentmapping.json`) para converter o HTM
 ### Direcionar o elemento HTML e sua classe
 
 - Escreva o nome da marca HTML em `name`.
-- Inclua a classe CSS aplicada nesse elemento em `class`, se a classe existir.
-Exemplo:
+- Inclua a classe CSS aplicada nesse elemento em `class`, se a classe existir.Exemplo:
 
   ```html
   <div class ="sample-class">
@@ -48,8 +48,7 @@ Ao definir os elementos acima, verifique o seguinte:
 
 ### Use attributeMap para salvar propriedades no nó JCR
 
-Adicione entradas a `attributeMap` para definir propriedades no nó de saída. Cada entrada produz `attrs[to] = value`.
-Padrões comuns:
+Adicione entradas a `attributeMap` para definir propriedades no nó de saída. Cada entrada produz `attrs[to] = value`.Padrões comuns:
 
 ```json
 // copy an attribute
@@ -165,8 +164,7 @@ Saiba como criar um componente de tabela personalizado que exibe imagens em suas
 
 ### O que você vai criar
 
-Um componente de tabela personalizado que aceita o conteúdo de tabela do HTML e substitui cada `<img>` dentro dele pela saída do componente de imagem principal do AEM. Isso permite reutilizar os recursos da Imagem principal (imagens responsivas, tratamento alternativo, acessibilidade), mantendo o controle total sobre a marcação da tabela.
-Usando essa abordagem, você pode criar outros componentes personalizados para seu site do AEM (usando o mapeamento de componentes compostos).
+Um componente de tabela personalizado que aceita o conteúdo de tabela do HTML e substitui cada `<img>` dentro dele pela saída do componente de imagem principal do AEM. Isso permite reutilizar os recursos da Imagem principal (imagens responsivas, tratamento alternativo, acessibilidade), mantendo o controle total sobre a marcação da tabela.Usando essa abordagem, você pode criar outros componentes personalizados para seu site do AEM (usando o mapeamento de componentes compostos).
 
 ### Por que essa abordagem
 
