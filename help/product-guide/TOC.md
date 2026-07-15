@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leia a documentação do produto do Adobe Experience Manager Guides.
 breadcrumb-title: Documentação do AEM Guides
-source-git-commit: 5dd840e3286511dff9eccc17b048bb7701f4ac9c
+source-git-commit: d24dd017dcedb08e71cfbcf6c4f0aabdc8f20d85
 workflow-type: tm+mt
-source-wordcount: '2499'
+source-wordcount: '2502'
 ht-degree: 10%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 10%
    - Notas de versão {#release-notes}
       - Cloud Services {#cloud-release-notes}
          - {hide-from-toc}[Instruções de implantação](./release-info/deploy-xml-on-aemaacs.md)
+         - {hide-from-toc}[Versões da nuvem](./release-info/latest-release-info-cs.md)
          - Versões de 2026 {#2026-releases}
             - Versão 2026.07.0 {#2607-release}
                - [Problemas corrigidos](./release-info/fixed-issues-2026-07-0.md)
@@ -212,7 +213,7 @@ ht-degree: 10%
       - [Sobre [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides] trabalhando e os principais recursos {#aemg-works-features}
          - [Como [!DNL AEM Guides] funciona](./user-guide/intro-how-dxml-works.md)
-         - [Recursos da chave [!DNL AEM Guides] &#x200B;](./user-guide/intro-dxml-features.md)
+         - [Recursos da chave [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
    - Home page {#home-page}
       - [Experiência da página inicial [!DNL AEM Guides]](./user-guide/intro-home-page.md)
       - [Interface do repositório](./user-guide/home-page-repository-view.md)
@@ -417,7 +418,7 @@ ht-degree: 10%
       - Resolução de problemas {#troubleshooting}
          - [Tempo limite da sessão](./user-guide/session-timeout-prompt.md)
 - Guia do usuário (interface antiga) {#user-guide-old-ui}
-   - [Visão geral do AEM Guides](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [Visão geral do AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Instalação e configuração {#install-conf-guide}
    - [Download, instalação e atualização](./install-conf-guide/introduction.md)
    - Processo de instalação do Cloud Service {#deploy-conf-aemg-cs}
@@ -602,6 +603,7 @@ ht-degree: 10%
       - [Publicação no AEM Guides](./knowledge-base/expert-sessions/publishing-in-aem-guides-aug25.md)
       - [Revisão de conteúdo no AEM Guides](./knowledge-base/expert-sessions/review-in-aem-guides-jan2026.md)
    - Artigos {#kb-articles}
+      - [Visão geral](./knowledge-base/kb-articles/introduction.md)
       - Criação {#authoring}
          - Editor {#webeditor}
             - [Reutilização de conteúdo no AEM Guides](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
