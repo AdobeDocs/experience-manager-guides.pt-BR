@@ -5,18 +5,12 @@ exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
 TQID: https://experienceleague.adobe.com/mI3V4UN3L9sHBCY89xOyOmR5UANb0Ko7Fg1CWi4Tkhc
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: c6cc5b187f72c1da1dc6f28186047989c3c1faa1
 workflow-type: tm+mt
-source-wordcount: 3300
+source-wordcount: 3195
 ht-degree: 0%
 
 ---
@@ -68,7 +62,7 @@ Quando a operação for concluída, uma notificação de sucesso ou falha será 
 
 **Arrastar e soltar com nomes de arquivo legíveis por humanos**
 
-- *Arrastar e soltar no mesmo local*: você tem as opções de **Substituir Arquivo Existente\(s\)**, **Manter Ambos os Arquivos\(s\)** e uma opção para criar uma versão da cópia de trabalho existente.
+- *Arrastar e soltar no mesmo local*: você tem as opções de **Substituir Arquivo Existente\(s\)**, **Manter Arquivo(s\)**.
 
   ![](images/uuid-human-readable-drag-drop-same-location.PNG){width="650" align="center"}
 
@@ -94,18 +88,16 @@ Quando a operação for concluída, uma notificação de sucesso ou falha será 
 
 **Arrastar e soltar com nomes de arquivo baseados em um padrão UUID**
 
-*Arraste e solte o arquivo no mesmo local*: você tem as opções de **Substituir arquivo existente\(s\)** junto com a opção de criar uma versão da cópia de trabalho existente.
+*Arraste e solte o arquivo no mesmo local*: você tem as opções de **Substituir arquivo existente\(s\)**.
 
 ![](images/uuid-drag-drop-same-location.PNG){width="650" align="center"}
 
 Quando o arquivo é substituído, não há alteração no nome do arquivo ou em sua UUID.
 
-Se você selecionar a opção **Criar Versão para a Cópia de Trabalho Existente**, será criada uma nova versão a partir da cópia de trabalho do documento; o novo arquivo será carregado, uma nova versão do arquivo também será criada e será feita como a cópia de trabalho do documento.
-
 O recurso **Criar nova versão para arquivo carregado** deve ser habilitado pelo administrador. Se esse recurso estiver ativado, uma nova versão do arquivo carregado será criada. Se a opção estiver desmarcada, uma versão do arquivo carregado não será criada. Para obter mais detalhes, consulte a seção *Criar nova versão para arquivo carregado* em Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service.
 
 
-*Arrastar e soltar arquivo em local diferente*: você tem as opções de **Substituir Arquivo Existente\(s\)**, **Mover Arquivo\(s\) para Novo Local** e uma opção para criar uma versão da cópia de trabalho existente.
+*Arrastar e soltar arquivo em local diferente*: você tem as opções de **Substituir Arquivo Existente\(s\)**, **Mover Arquivo\(s\) para Novo Local**.
 
 ![](images/uuid-drag-drop-different-location.PNG){width="650" align="center"}
 
@@ -164,18 +156,18 @@ Para mover arquivos em massa, execute as seguintes etapas:
 
    - **Caminho do Source\(s\)**: especifique o local das pastas que deseja mover.
 
-      - Selecionar **Pasta de Navegação**  <img src="images/browse-folder-icon.svg" width="25"> para abrir a caixa de diálogo **Selecionar caminho**. Selecione as pastas que deseja mover e escolha **Selecionar** para concluir o processo. Você pode selecionar várias pastas colocadas em locais diferentes no navegador de caminho. O caminho das pastas selecionadas será mantido, permitindo que você as revise ou modifique facilmente ao reabrir a caixa de diálogo.
+     - Selecionar **Pasta de Navegação**  <img src="images/browse-folder-icon.svg" width="25"> para abrir a caixa de diálogo **Selecionar caminho**. Selecione as pastas que deseja mover e escolha **Selecionar** para concluir o processo. Você pode selecionar várias pastas colocadas em locais diferentes no navegador de caminho. O caminho das pastas selecionadas será mantido, permitindo que você as revise ou modifique facilmente ao reabrir a caixa de diálogo.
 
-      - Você também pode digitar ou copiar e colar o local de origem. Pressione Enter para adicionar a pasta à lista.
+     - Você também pode digitar ou copiar e colar o local de origem. Pressione Enter para adicionar a pasta à lista.
 
-        As pastas selecionadas são listadas junto com seu caminho. Passe o mouse sobre a tag da pasta para visualizar o caminho completo.
-      - Você também pode remover qualquer pasta selecionando **Remover** <img src="images/remove-folder.svg" width="25"> próximo à pasta.
+       As pastas selecionadas são listadas junto com seu caminho. Passe o mouse sobre a tag da pasta para visualizar o caminho completo.
+     - Você também pode remover qualquer pasta selecionando **Remover** <img src="images/remove-folder.svg" width="25"> próximo à pasta.
 
 
    - **Caminho de destino**: especifique o local para onde deseja mover as pastas de origem.
 
-      - Selecionar **Pasta de Navegação** <img src="images/browse-folder-icon.svg" width="25"> para abrir a caixa de diálogo procurar arquivo. Selecione o local para onde deseja mover as pastas de origem. e escolha Selecionar para concluir o processo.
-      - Também é possível digitar ou copiar e colar o caminho de destino.
+     - Selecionar **Pasta de Navegação** <img src="images/browse-folder-icon.svg" width="25"> para abrir a caixa de diálogo procurar arquivo. Selecione o local para onde deseja mover as pastas de origem. e escolha Selecionar para concluir o processo.
+     - Também é possível digitar ou copiar e colar o caminho de destino.
 
      A pasta selecionada é exibida junto com seu caminho na caixa de texto.
 
@@ -213,20 +205,20 @@ Para mover arquivos em massa, execute as seguintes etapas:
 
    - **Caminho do Source\(s\)**: especifique o local das pastas que deseja mover.
 
-      - Selecionar **Pasta de Navegação**  <img src="images/browse-folder-icon.svg" width="25"> para abrir a caixa de diálogo **Selecionar caminho**. Selecione as pastas que deseja mover e escolha **Selecionar** para concluir o processo. Você pode selecionar várias pastas colocadas em locais diferentes no navegador de caminho. O caminho das pastas selecionadas será mantido, permitindo que você as revise ou modifique facilmente ao reabrir a caixa de diálogo.
+     - Selecionar **Pasta de Navegação**  <img src="images/browse-folder-icon.svg" width="25"> para abrir a caixa de diálogo **Selecionar caminho**. Selecione as pastas que deseja mover e escolha **Selecionar** para concluir o processo. Você pode selecionar várias pastas colocadas em locais diferentes no navegador de caminho. O caminho das pastas selecionadas será mantido, permitindo que você as revise ou modifique facilmente ao reabrir a caixa de diálogo.
 
-      - Você também pode digitar ou copiar e colar o local de origem. Pressione Enter para adicionar a pasta à lista.
+     - Você também pode digitar ou copiar e colar o local de origem. Pressione Enter para adicionar a pasta à lista.
 
-        As pastas selecionadas são listadas junto com seu caminho. Passe o mouse sobre a tag da pasta para visualizar o caminho completo.
-      - Você também pode remover qualquer pasta selecionando **Remover** <img src="images/remove-folder.svg" width="25"> próximo à pasta.
+       As pastas selecionadas são listadas junto com seu caminho. Passe o mouse sobre a tag da pasta para visualizar o caminho completo.
+     - Você também pode remover qualquer pasta selecionando **Remover** <img src="images/remove-folder.svg" width="25"> próximo à pasta.
 
 
    - **Caminho de destino**: especifique o local para onde deseja mover as pastas de origem.
 
-      - Selecionar **Pasta de Navegação** <img src="images/browse-folder-icon.svg" width="25"> para abrir a caixa de diálogo procurar arquivo. Selecione o local para onde deseja mover as pastas de origem. e escolha Selecionar para concluir o processo.
-      - Também é possível digitar ou copiar e colar o caminho de destino.
+     - Selecionar **Pasta de Navegação** <img src="images/browse-folder-icon.svg" width="25"> para abrir a caixa de diálogo procurar arquivo. Selecione o local para onde deseja mover as pastas de origem. e escolha Selecionar para concluir o processo.
+     - Também é possível digitar ou copiar e colar o caminho de destino.
 
-        A pasta selecionada é exibida junto com seu caminho na caixa de texto.
+       A pasta selecionada é exibida junto com seu caminho na caixa de texto.
 
    - Selecione **Movimentação em massa**.
 
@@ -335,4 +327,4 @@ Se o arquivo de mídia tiver sofrido alterações, você poderá localizar e vis
    ![](images/media-version-preview.png){width="650" align="center"}
 
 
-**Tópico pai:**&#x200B;[&#x200B; Gerenciar conteúdo](authoring.md)
+**Tópico pai:**[ Gerenciar conteúdo](authoring.md)

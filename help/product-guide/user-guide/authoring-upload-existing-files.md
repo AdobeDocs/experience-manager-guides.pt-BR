@@ -5,17 +5,12 @@ exl-id: b5430242-1122-43df-a0b2-275b1dea33f2
 feature: Content Management
 role: User
 TQID: https://experienceleague.adobe.com/GG5Bx2yyJz2GaQFmMsDZ6wq6xzb4XUAsSBxEkRNvEVE
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: d1a4b75ef3acd3d02cce2225f03e1f9b3a086ef7
 workflow-type: tm+mt
-source-wordcount: 536
+source-wordcount: 695
 ht-degree: 0%
 
 ---
@@ -26,21 +21,34 @@ Provavelmente você teria um repositório de conteúdo DITA existente que gostar
 
 >[!IMPORTANT]
 >
-> Exiba [Adicionar ativos digitais ao Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=pt-BR) para obter informações detalhadas sobre os métodos de carregamento de conteúdo com suporte no Adobe Experience Manager.
+> Exiba [Adicionar ativos digitais ao Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html) para obter informações detalhadas sobre os métodos de carregamento de conteúdo com suporte no Adobe Experience Manager.
 
 ## Interface do usuário do console do Assets
 
-Para [adicionar ativos digitais ao Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=pt-BR#filename-handling?lang=pt-BR#upload-assets) usando a interface de usuário do Console do Assets, selecione o ativo necessário na área de trabalho e arraste na interface de usuário do Adobe Experience Manager \(navegador da Web\) para a pasta de destino. Ao fazer upload de ativos, verifique se os nomes de arquivo não incluem caracteres não permitidos ou proibidos.
+Para [adicionar ativos digitais ao Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#filename-handling#upload-assets) usando a interface de usuário do Console do Assets, selecione o ativo necessário na área de trabalho e arraste na interface de usuário do Adobe Experience Manager \(navegador da Web\) para a pasta de destino. Ao fazer upload de ativos, verifique se os nomes de arquivo não incluem caracteres não permitidos ou proibidos.
 
-Para obter mais detalhes, exiba a seção [Manipulação de nome de arquivo e caracteres proibidos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=pt-BR#filename-handling) na documentação do Adobe Experience Manager.
+Para obter mais detalhes, exiba a seção [Manipulação de nome de arquivo e caracteres proibidos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#filename-handling) na documentação do Adobe Experience Manager.
+
+### Upload de arquivos usando a interface do Assets
+
+Ao carregar arquivos usando **Criar** > **Arquivos** e selecionar um arquivo do sistema, o **Carregar Assets** é exibido. Essa caixa de diálogo permite revisar e, opcionalmente, renomear o arquivo antes de iniciar o upload. Você pode manter o nome do arquivo original ou fornecer um novo nome com base em seus requisitos.
+
+![](images/upload-file.png){width="350"}
+
+Após iniciar o carregamento, o status é mostrado na caixa de diálogo **Carregar Assets**, exibindo o progresso do carregamento de cada arquivo que está sendo carregado. Se você precisar interromper a operação antes que ela seja concluída, cancele o carregamento a qualquer momento selecionando a opção **Cancelar** ou o ícone Cancelar. Cancelar a operação encerra o upload e o arquivo não é adicionado ao repositório.
+
+![](images/upload-status.png){width="350"}
+
+Quando o upload for concluído com êxito, o sistema exibirá uma mensagem de confirmação indicando que o arquivo foi carregado com êxito. Essa mensagem confirma que o arquivo agora está disponível no local selecionado no repositório do Assets.
+
 
 ## Aplicativo de desktop do Adobe Experience Manager
 
-Use o aplicativo de desktop do Adobe Experience Manager se você for um profissional criativo e quiser gerenciar os ativos no desktop local. É possível abrir e editar esses ativos com seus aplicativos de desktop. Você também pode manter versões e compartilhar seus arquivos com outros usuários. Para obter mais detalhes, consulte [aplicativo de desktop do Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html?lang=pt-BR).
+Use o aplicativo de desktop do Adobe Experience Manager se você for um profissional criativo e quiser gerenciar os ativos no desktop local. É possível abrir e editar esses ativos com seus aplicativos de desktop. Você também pode manter versões e compartilhar seus arquivos com outros usuários. Para obter mais detalhes, consulte [aplicativo de desktop do Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html).
 
 ## Assimilador de ativos em massa
 
-Se você tiver migrações em grande escala e assimilações ocasionais em massa, use o Assimilador de ativos em massa para fazer upload de conteúdo. Com essa ferramenta, você pode fazer upload de conteúdo em massa de armazenamentos de dados compatíveis, como o Azure ou S3. Para obter mais detalhes, consulte [Assimilação de ativos em massa](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=pt-BR#asset-bulk-ingestor).
+Se você tiver migrações em grande escala e assimilações ocasionais em massa, use o Assimilador de ativos em massa para fazer upload de conteúdo. Com essa ferramenta, você pode fazer upload de conteúdo em massa de armazenamentos de dados compatíveis, como o Azure ou S3. Para obter mais detalhes, consulte [Assimilação de ativos em massa](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=en#asset-bulk-ingestor).
 
 ## Usar o FrameMaker para upload em massa
 
@@ -58,4 +66,7 @@ Para obter mais detalhes sobre como os vários cenários de carregamento de arqu
 
 Caso use uma ferramenta como o aplicativo de desktop do Adobe Experience Manager ou o Assimilador de ativos em massa, a ação a ser executada em um arquivo duplicado é controlada por uma configuração no servidor do Adobe Experience Manager. Entre em contato com o administrador do sistema para saber sobre essa configuração.
 
-**Tópico pai:**&#x200B;[&#x200B; Gerenciar conteúdo](authoring.md)
+
+
+
+**Tópico pai:**[ Gerenciar conteúdo](authoring.md)

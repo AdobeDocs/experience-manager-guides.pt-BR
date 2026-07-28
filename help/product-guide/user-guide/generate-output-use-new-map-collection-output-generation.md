@@ -4,47 +4,40 @@ description: Saiba como criar e excluir uma nova coleção de mapas e adicionar 
 feature: Publishing
 role: User
 TQID: https://experienceleague.adobe.com/4ZtP8sNNhuZwJ-bTKThXiRZwVXvJ2PvfKyyo91HO1bE
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-subfeature_v2:
-  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
-  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: f7c0b10f032c2584fb6e951da898faaeb4ca7aaf
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2: id: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 56c9710820f790ed64e58521dd0d0f9ac343825f
 workflow-type: tm+mt
-source-wordcount: 1447
+source-wordcount: 1548
 ht-degree: 0%
 
 ---
 
-# Usar nova coleção de mapas para geração de saída (Beta)
+# Usar nova coleção de mapas para geração de saída
 
 >[!IMPORTANT]
 >
-> A nova coleção de mapas está disponível no Experience Manager Guides as a Cloud Service a partir da versão 2026.06.0. Entre em contato com a equipe de Sucesso do cliente para habilitar esse recurso.
+> A nova coleção de mapas está disponível no Experience Manager Guides as a Cloud Service a partir da versão 2026.08.0. Entre em contato com a equipe de Sucesso do cliente para habilitar esse recurso.
 
 A coleção de mapas no Adobe Experience Manager Guides permite que os especialistas de publicação organizem vários documentos em uma única coleção, controlem a saída gerada para cada documento e gerem e publiquem saídas em lotes com eficiência, a partir de um painel centralizado. Ele também oferece visibilidade do progresso da geração de saída, destaca as alterações feitas nos mapas desde a última saída publicada e permite republicar o conteúdo quando necessário.
 
-A Nova coleção de mapas consolida a funcionalidade anteriormente distribuída pela antiga coleção de mapas e a publicação em massa em uma única interface unificada. Após a ativação, é possível gerenciar mapas, predefinições, histórico de geração, histórico de publicação, metadados e associação à coleção de um único local.
+A nova coleção de mapas consolida a funcionalidade anteriormente distribuída pela coleção de mapas antiga e a publicação em massa em uma única interface unificada. Após a ativação, é possível gerenciar mapas, predefinições, histórico de geração, histórico de publicação, metadados e associação à coleção de um único local.
 
 ## Criar uma coleção de mapas e adicionar mapas DITA
 
 Para criar uma coleção de mapas e adicionar mapas a ela, execute as seguintes etapas:
 
-1. Abra a página inicial do Experience Manager Guides e selecione **Novas coleções de mapas**.
+1. Abra a página inicial do Experience Manager Guides e selecione **Mapear coleções**.
 
    A página **Mapear coleções** é aberta.
 
    ![](images/new-maps-collection.png){width="650"}
 
 
-1. Na página **Coleções de mapas**, selecione **Criar** no canto superior direito e forneça um **Nome** para sua nova coleção de mapas.
+1. Na página **Coleções de mapas**, selecione **Criar** no canto superior direito e forneça um **Nome** para sua coleção de mapas.
 
    ![](images/create-new-map-collection.png){width="350"}
 
@@ -90,6 +83,10 @@ Para criar uma coleção de mapas e adicionar mapas a ela, execute as seguintes 
 
 Você obtém uma lista de todos os mapas desejados com o Título do mapa, o Nome do arquivo correspondente, o Idioma em que está disponível e as predefinições configuradas.
 
+>[!NOTE]
+>
+> Quando um grande número de mapas é adicionado a uma coleção de mapas, as guias Mapas e predefinições exibem no máximo quatro mapas por vez, juntamente com as predefinições associadas. Uma exibição paginada é fornecida na parte inferior da tela, permitindo que os usuários naveguem entre páginas e acessem mapas e predefinições adicionais. Se você selecionar um mapa ou predefinição, a seleção será retida enquanto você navega pelos mapas e predefinições restantes em páginas diferentes.
+
 ![Guias de mapas e predefinições](./images/maps-presets-tab.png)
 
 A guia **Mapas e Predefinições** apresenta informações com base nos mapas selecionados para um idioma específico nas seguintes colunas:
@@ -107,7 +104,7 @@ As seguintes opções de filtro estão disponíveis no painel direito da página
 
 - **Modificado desde a geração**: você pode selecionar Sim, Não ou Ainda não gerado. Se você selecionar Sim, somente os mapas que foram modificados desde a geração serão exibidos na guia Mapas e Predefinições.
 - **Modificado desde a publicação**: você pode selecionar Sim, Não ou Ainda não gerado. Se você selecionar Sim, somente os mapas que foram modificados desde a publicação serão exibidos na guia Mapas e predefinições.
-- **Predefinições**: selecione uma predefinição para a qual deseja filtrar os arquivos de mapa. Por exemplo, se você escolher a predefinição *Site do AEM*, serão exibidos apenas os mapas que tiverem a predefinição de saída *Site do AEM* configurada.
+- **Tipos de predefinição**: selecione uma predefinição para a qual deseja filtrar os arquivos de mapa. Por exemplo, se você escolher a predefinição *Site do AEM*, serão exibidos apenas os mapas que tiverem a predefinição de saída *Site do AEM* configurada.
 - **Idioma**: você pode selecionar qualquer um dos códigos de idioma disponíveis e exibir somente o idioma selecionado na guia Mapas e Predefinições.
 
   ![Filtros em guias de mapas e predefinições](./images/filters-maps-presets.png)
@@ -136,6 +133,9 @@ Para gerar a saída usando uma Coleção de Mapas, execute as seguintes etapas:
    - **Concluído (Verde)**: geração concluída com êxito.
    - **Concluído (Vermelho)**: geração concluída com erros. Os detalhes do erro podem ser exibidos nos logs.
    - **Em execução (Azul)**: a geração está em andamento.
+   - **Falha (Vermelho)**: falha na geração.
+   - **Aguardando (Azul)**: a geração está na fila.
+
 
    ![Tipos de status](./images/status-types.png)
 
@@ -150,6 +150,10 @@ Para gerar a saída usando uma Coleção de Mapas, execute as seguintes etapas:
 
 
 ## Publicar a saída usando uma coleção de mapas
+
+>[!NOTE]
+>
+> A publicação a partir do Histórico de Geração sempre publica a saída mais recente de uma predefinição em vez da geração selecionada.
 
 Para publicar (se configurada) a saída usando uma Coleção de mapas, execute as seguintes etapas:
 
@@ -192,4 +196,4 @@ As propriedades de metadados são atualizadas em massa para os mapas DITA seleci
 As propriedades de metadados estão sincronizadas com as propriedades do arquivo. Depois de atualizá-los, você poderá exibi-los no painel **Propriedades do arquivo** do Editor.
 
 
-**Tópico pai:**&#x200B;[&#x200B; Geração de saída](generate-output.md)
+**Tópico pai:**[ Geração de saída](generate-output.md)

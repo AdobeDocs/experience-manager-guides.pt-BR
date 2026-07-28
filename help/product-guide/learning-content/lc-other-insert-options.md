@@ -5,18 +5,13 @@ feature: Authoring
 role: User
 exl-id: 8c12ed9b-6309-40bf-b264-a2323cd6f4b3
 TQID: https://experienceleague.adobe.com/SWlP2-iWhN1x25K9s-mrMcfUTy5Fxv7TVWg6G2ucufc
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 0763896c75767d8a4bffc019d42c129e2e34f4be
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 7989955248054571a569ad34d92ae7e26fe70ffd
 workflow-type: tm+mt
-source-wordcount: 557
+source-wordcount: 577
 ht-degree: 0%
 
 ---
@@ -65,12 +60,14 @@ As outras opções disponíveis no menu Inserir na barra de ferramentas do Edito
 
   A equação é inserida com o plano de fundo cinza-claro. A qualquer momento, você pode atualizar uma equação clicando com o botão direito do mouse em uma equação existente e selecionando **Editar equação matemática** no menu de contexto. Para obter detalhes sobre a validação de equações do MathML no Experience Manager Guides, exiba [Validação de equações no editor do MathML](../user-guide/web-editor-other-features.md#validation-of-equations-in-the-mathml-editor).
 
-- **Verificação de conhecimento:** permite adicionar perguntas nos formatos disponíveis (Correção Simples, Correção Múltipla, Verdadeiro/Falso, Corresponder ao Seguinte ou inserir do banco de perguntas) ao seu tópico para revisão e para confirmar a compreensão sem classificação. Essas perguntas espelham formatos padrão e excluem a pontuação, tornando-as ideais para autoavaliação e adequadas como parte do conteúdo do curso ou de um tópico antes de um questionário ou avaliação posteriormente, se disponível.
+- **Verificação de conhecimento:** permite adicionar perguntas nos formatos disponíveis (Correção Simples, Correção Múltipla, Verdadeiro/Falso, Corresponder ao Seguinte ou inserir do banco de perguntas) ao seu tópico para revisão e para confirmar a compreensão sem classificação. Essas perguntas espelham formatos padrão e excluem a pontuação, tornando-as ideais para autoavaliação e adequadas como parte do conteúdo do curso ou de um tópico antes de um questionário ou avaliação posteriormente, se disponível. Você pode configurar as respostas corretas e outros campos obrigatórios por meio do painel **Propriedades de conteúdo**. Para obter mais detalhes, consulte [Tipos de pergunta](./quiz-insert-questions.md).
 
   ![](assets/knowledge-check-topic.png){width="650"}
 
 
-  Você pode configurar as respostas corretas e outros campos obrigatórios por meio do painel **Propriedades de conteúdo**. Para obter mais detalhes, consulte [Tipos de pergunta](./quiz-insert-questions.md). É possível adicionar vários tipos de pergunta usando as opções de verificação de conhecimento, conforme mostrado abaixo.
+  Se um aluno enviar uma resposta incorreta a uma pergunta de verificação de conhecimento, os campos de resposta serão destacados juntamente com uma mensagem de erro, orientando o aluno a selecionar **Tentar novamente** para repetir a mesma pergunta.
+
+  ![](assets/knowledge-check-try-again.png){width="650"}
 
   Além disso, você pode habilitar a opção **Exigir verificação de conhecimento para continuar** para garantir que os alunos tentem uma verificação de conhecimento designada antes de avançar para o conteúdo de curso subsequente. Esse recurso ajuda a reforçar os principais objetivos de aprendizado, impedindo que os alunos pulem pontos de verificação críticos da avaliação. O recurso é suportado quando **os alunos devem progredir pelo conteúdo em uma ordem sequencial**. A configuração é ativada ao configurar a saída predefinida de SCORM, garantindo que a progressão do curso siga o caminho de aprendizado pretendido.
 

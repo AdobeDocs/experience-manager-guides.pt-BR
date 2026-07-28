@@ -4,9 +4,9 @@ description: Saiba mais sobre as várias configurações disponíveis na interfa
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 10df0495-1d52-4c7c-a11a-059fe72d09f2
-source-git-commit: e41cf263f42e91bc384aa09fd1135b46e429c86a
+source-git-commit: 2386f02cf0752ca6c97ca1e3697bfbd03e6ca4d5
 workflow-type: tm+mt
-source-wordcount: '2212'
+source-wordcount: '2304'
 ht-degree: 0%
 
 ---
@@ -53,17 +53,27 @@ Selecione esta opção para habilitar o recurso [Assistente de IA](../user-guide
 
   No menu **Ações rápidas de criação**, você pode:
 
-   - use os botões para ativar ou desativar opções específicas que os autores podem acessar ao trabalhar com o Assistente de IA.
+  - use os botões para ativar ou desativar opções específicas que os autores podem acessar ao trabalhar com o Assistente de IA.
 
-   - altere a ordem na qual as opções são exibidas, arraste-as e solte-as conforme necessário.
+  - altere a ordem na qual as opções são exibidas, arraste-as e solte-as conforme necessário.
 
   ![](../user-guide/images/authoring-quick-actions-new.png){width="350"}
 
+- **IA de guias**
 
+  >[!NOTE]
+  >
+  > Para usar o recurso de IA do Guides em seu ambiente, entre em contato com a equipe de Sucesso do cliente. Somente uma experiência de IA pode ser ativada por vez; o Guides AI ou o Assistente de IA.
+
+  Selecione a opção **Guides AI** para habilitar este recurso no Experience Manager Guides.Desmarque para desabilitar o recurso.
+
+  Depois de ativar essa opção, você poderá acessar o recurso de IA de guias na barra de navegação na página inicial e na barra de guias na interface do editor. Para obter detalhes sobre como gerar tags sugeridas de IA para tópicos, exiba [Introdução à IA de guias](../user-guide/guides-ai.md).
+
+  ![](assets/guides-ai-workspace.png){width="350"}
 
 - **Criação**
 
-   - **Habilitar Substituir Tudo**: selecione esta opção para exibir o ícone **Substituir Tudo** no painel **Localizar e substituir**.
+  - **Habilitar Substituir Tudo**: selecione esta opção para exibir o ícone **Substituir Tudo** no painel **Localizar e substituir**.
 
 - **Citações**
 
@@ -71,28 +81,28 @@ Selecione esta opção para habilitar o recurso [Assistente de IA](../user-guide
 
 - **Condição**
 
-   - **Realçar texto condicional no modo de exibição Autor**: selecione essa opção para realçar o texto condicional no modo de exibição Autor. O conteúdo condicional é realçado usando a cor definida para a condição.
+  - **Realçar texto condicional no modo de exibição Autor**: selecione essa opção para realçar o texto condicional no modo de exibição Autor. O conteúdo condicional é realçado usando a cor definida para a condição.
 
-   - **Validar com atributos de condição**: selecione essa opção para permitir a validação dos valores definidos para os atributos. Isso impede que você adicione qualquer valor incorreto.
+  - **Validar com atributos de condição**: selecione essa opção para permitir a validação dos valores definidos para os atributos. Isso impede que você adicione qualquer valor incorreto.
 
-   - **Mostrar chave com o título no painel Esquema de Assunto**: selecione essa opção para mostrar as chaves junto com títulos no esquema de assunto. Se você não selecionar essa opção, somente os títulos serão exibidos. Por exemplo, aqui as chaves &quot;os&quot;, &quot;audience&quot; e &quot;other&quot; também são mostradas junto com títulos.
+  - **Mostrar chave com o título no painel Esquema de Assunto**: selecione essa opção para mostrar as chaves junto com títulos no esquema de assunto. Se você não selecionar essa opção, somente os títulos serão exibidos. Por exemplo, aqui as chaves &quot;os&quot;, &quot;audience&quot; e &quot;other&quot; também são mostradas junto com títulos.
 
-     ![](../user-guide/images/subject-scheme-title.png){width="550"}
+    ![](../user-guide/images/subject-scheme-title.png){width="550"}
 
-   - **Mostrar esquema de assunto no painel Condições**: selecione esta opção para exibir um esquema de assunto no painel Condições. Se você desmarcar essa opção, as condições definidas serão mostradas no painel Condições.
+  - **Mostrar esquema de assunto no painel Condições**: selecione esta opção para exibir um esquema de assunto no painel Condições. Se você desmarcar essa opção, as condições definidas serão mostradas no painel Condições.
 
 - **Verificação ortográfica**
 
   Há duas opções: verificação ortográfica do AEM e verificação ortográfica do navegador.
 
-   - **Verificação ortográfica do navegador**: por padrão, o editor usa o recurso de verificação ortográfica do navegador, no qual a verificação ortográfica é executada usando o dicionário interno do navegador.
+  - **Verificação ortográfica do navegador**: por padrão, o editor usa o recurso de verificação ortográfica do navegador, no qual a verificação ortográfica é executada usando o dicionário interno do navegador.
 
-   - **Verificação ortográfica do AEM**: você pode alternar para a verificação ortográfica do AEM para usar o dicionário da Adobe Experience Manager, que também pode ser personalizado para adicionar sua lista de palavras personalizada. Para obter mais informações sobre como personalizar o dicionário do AEM, consulte [Personalizar o dicionário padrão do AEM](../install-conf-guide/customize-aem-default-dictionary.md).
+  - **Verificação ortográfica do AEM**: você pode alternar para a verificação ortográfica do AEM para usar o dicionário da Adobe Experience Manager, que também pode ser personalizado para adicionar sua lista de palavras personalizada. Para obter mais informações sobre como personalizar o dicionário do AEM, consulte [Personalizar o dicionário padrão do AEM](../install-conf-guide/customize-aem-default-dictionary.md).
 
-     >[!NOTE]
-     >
-     > A verificação ortográfica do AEM usa o idioma selecionado na propriedade idioma do arquivo. Se o idioma não for especificado para o arquivo, a verificação ortográfica voltará para o idioma do servidor do AEM.
-     >Para garantir resultados precisos de verificação ortográfica, o dicionário do idioma selecionado deve estar disponível no AEM. Se o dicionário necessário para o idioma configurado não estiver disponível, a verificação ortográfica padrão será `en_us`.
+    >[!NOTE]
+    >
+    > A verificação ortográfica do AEM usa o idioma selecionado na propriedade idioma do arquivo. Se o idioma não for especificado para o arquivo, a verificação ortográfica voltará para o idioma do servidor do AEM.
+    >Para garantir resultados precisos de verificação ortográfica, o dicionário do idioma selecionado deve estar disponível no AEM. Se o dicionário necessário para o idioma configurado não estiver disponível, a verificação ortográfica padrão será `en_us`.
 
 
 ## Painéis
@@ -152,24 +162,24 @@ Ela contém os Perfis que podem ser usados para publicar a saída da **Base de D
 
 - Ao configurar o aplicativo conectado, verifique o seguinte:
 
-   - Especifique o retorno de chamada.
+  - Especifique o retorno de chamada.
 
-     `URL: http://<server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
+    `URL: http://<server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
 
-   - Selecione os seguintes escopos do OAuth:
-      - Acesso total (total)
-      - Selecione Gerenciar dados do usuário por meio das APIs (api)
+  - Selecione os seguintes escopos do OAuth:
+    - Acesso total (total)
+    - Selecione Gerenciar dados do usuário por meio das APIs (api)
 
-     Depois que o aplicativo é configurado, a Salesforce fornece uma **Chave do consumidor** e um **Segredo do consumidor**. Eles podem ser usados para criar o perfil do Salesforce.
+    Depois que o aplicativo é configurado, a Salesforce fornece uma **Chave do consumidor** e um **Segredo do consumidor**. Eles podem ser usados para criar o perfil do Salesforce.
 
 
-   - Para criar um perfil do Salesforce, selecione a Base de Dados de Conhecimento **Salesforce** na lista suspensa **Tipo de servidor**. Insira um Nome de perfil. No **URL do Site**, insira o site do consumidor que você usaria para publicar a saída e adicionar a **Chave do Consumidor** e o **Segredo do Consumidor** fornecidos pelo site do consumidor do Salesforce. Em seguida, **Validar** e **Salvar** o perfil recém-criado.
+  - Para criar um perfil do Salesforce, selecione a Base de Dados de Conhecimento **Salesforce** na lista suspensa **Tipo de servidor**. Insira um Nome de perfil. No **URL do Site**, insira o site do consumidor que você usaria para publicar a saída e adicionar a **Chave do Consumidor** e o **Segredo do Consumidor** fornecidos pelo site do consumidor do Salesforce. Em seguida, **Validar** e **Salvar** o perfil recém-criado.
 
-     ![perfil de publicação do salesforce nas configurações do espaço de trabalho](../user-guide/images/salesforce-publish-profile.png){width="550"}
+    ![perfil de publicação do salesforce nas configurações do espaço de trabalho](../user-guide/images/salesforce-publish-profile.png){width="550"}
 
-     >[!NOTE]
-     >
-     >Para configurar um proxy para o Salesforce no Experience Manager Guides, use Configuração de proxy de componentes HTTP do Apache no AEM. Saiba como [configurar proxy para o Verificador de Links do AEM](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
+    >[!NOTE]
+    >
+    >Para configurar um proxy para o Salesforce no Experience Manager Guides, use Configuração de proxy de componentes HTTP do Apache no AEM. Saiba como [configurar proxy para o Verificador de Links do AEM](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
 
 
 **Criar um perfil do ServiceNow**
@@ -235,24 +245,24 @@ Essa guia contém as opções para criar grupos de idiomas, propagar os rótulos
 
   Execute as seguintes etapas para criar um novo grupo de idiomas:
 
-   1. Selecione **Adicionar**.
-   1. Informe o nome do grupo de idiomas. Cada idioma deve ter um nome exclusivo. Você pode exibir um erro se o campo de nome estiver vazio ou se o nome não for exclusivo.
-   1. Selecione os idiomas na lista suspensa. Você pode selecionar vários idiomas.
+  1. Selecione **Adicionar**.
+  1. Informe o nome do grupo de idiomas. Cada idioma deve ter um nome exclusivo. Você pode exibir um erro se o campo de nome estiver vazio ou se o nome não for exclusivo.
+  1. Selecione os idiomas na lista suspensa. Você pode selecionar vários idiomas.
 
-      Digite os primeiros caracteres do idioma ou o código do idioma para filtrar os idiomas desejados. Por exemplo, digite &#39;en&#39; para filtrar todos os idiomas que contêm &#39;en&#39; no início de seu nome ou código.
+     Digite os primeiros caracteres do idioma ou o código do idioma para filtrar os idiomas desejados. Por exemplo, digite &#39;en&#39; para filtrar todos os idiomas que contêm &#39;en&#39; no início de seu nome ou código.
 
-   1. Selecione o ícone Concluído para adicionar os idiomas selecionados ao grupo. Os idiomas são exibidos. Quando você adiciona três ou mais idiomas, a opção **Mostrar mais** é exibida. Você pode selecionar **Mostrar mais** para exibir todos os idiomas presentes no grupo.
+  1. Selecione o ícone Concluído para adicionar os idiomas selecionados ao grupo. Os idiomas são exibidos. Quando você adiciona três ou mais idiomas, a opção **Mostrar mais** é exibida. Você pode selecionar **Mostrar mais** para exibir todos os idiomas presentes no grupo.
 
-      >[!TIP]
-      >
-      > Alternar **Mostrar mais** para **Mostrar menos** e exibir apenas alguns idiomas.
+     >[!TIP]
+     >
+     > Alternar **Mostrar mais** para **Mostrar menos** e exibir apenas alguns idiomas.
 
-   1. Passe o mouse sobre os idiomas em um grupo para editar o ![ícone de edição](../user-guide/images/edit_pencil_icon.svg) ou excluir os grupos de idiomas ![excluir](../user-guide/images/Delete_icon.svg).
-   1. Salve as **Configurações**.
+  1. Passe o mouse sobre os idiomas em um grupo para editar o ![ícone de edição](../user-guide/images/edit_pencil_icon.svg) ou excluir os grupos de idiomas ![excluir](../user-guide/images/Delete_icon.svg).
+  1. Salve as **Configurações**.
 
-      >[!NOTE]
-      >
-      >Como usuário, você pode exibir os grupos de idiomas configurados para o perfil da pasta.
+     >[!NOTE]
+     >
+     >Como usuário, você pode exibir os grupos de idiomas configurados para o perfil da pasta.
 
 - **Propagar rótulos de versão de origem para a versão de destino**: selecione esta opção para passar o rótulo da versão do arquivo de origem para o arquivo traduzido. Por padrão, está desativado.
 - **Limpeza do projeto de tradução após a conclusão**: selecione essa opção para configurar os projetos de tradução a serem desabilitados ou excluídos automaticamente após a tradução. Por padrão, **Nenhum** está selecionado, portanto, o projeto existe após a tradução.

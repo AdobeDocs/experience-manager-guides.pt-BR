@@ -5,23 +5,14 @@ feature: Publishing
 role: User
 exl-id: f3657268-9dee-43af-b643-499dbc3ca948
 TQID: https://experienceleague.adobe.com/o-vv28SWWNym2aSVCshJDbPTWkpwH-KNwES4M5MKKJ8
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2:
-  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
-  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: fd5e1e85933eb2785b0a74b0fa49fec1da4ca0c2
 workflow-type: tm+mt
-source-wordcount: 3616
+source-wordcount: 3727
 ht-degree: 0%
 
 ---
@@ -64,7 +55,7 @@ Execute as seguintes etapas para criar a predefinição do AEM Sites usando o ma
    A predefinição do AEM Sites é criada.
 
 
-   ![Novo(a) &#x200B;](images/new-aem-sites-dialog-box.png){width="300"}
+   ![Novo(a) ](images/new-aem-sites-dialog-box.png){width="300"}
 
 <!--
 ### Generate the AEM Sites output using the templates
@@ -103,7 +94,7 @@ No console Mapa, as opções de configuração predefinidas para o mapeamento de
 - Lista de tópicos
 - Referências de mapa cruzado
 
-![Novo(a) &#x200B;](images/aem-sites-new-config.png){width="650"}
+![Novo(a) ](images/aem-sites-new-config.png){width="650"}
 
 **Geral**
 
@@ -112,14 +103,18 @@ A guia **Geral** contém as seguintes opções de configuração:
 | Opções do AEM Sites | Descrição |
 | --- | --- |
 | Usar caminho do site | Use essa opção para publicar seu conteúdo em um site do Experience Manager. |
-| Caminho do site | **Esta opção aparecerá se você selecionar a opção** Usar caminho do site **&#x200B;**. Procure o caminho predefinido do site do Experience Manager ou especifique um caminho personalizado no qual deseja que a saída seja publicada. A opção **Usar sites** permite especificar o caminho de publicação inteiro mesmo que o caminho especificado não tenha sido pré-criado dentro da estrutura do AEM Sites. Nesses casos, o sistema cria a estrutura necessária durante o processo de publicação usando o modelo de página inicial do mapa selecionado.<br><br>Você também pode usar variáveis ao definir o caminho do Site. Para obter detalhes, exiba [Use variáveis para definir as opções Caminho de Destino, Nome do Site ou Nome do Arquivo](./generate-output-use-variables.md) |
-| Mapear modelo de página | **Esta opção aparecerá se você selecionar a opção** Usar caminho do site **&#x200B;**. Selecione um modelo que deseja aplicar às páginas iniciais do mapa. |
+| Caminho do site | **Esta opção aparecerá se você selecionar a opção** Usar caminho do site ****. Procure o caminho predefinido do site do Experience Manager ou especifique um caminho personalizado no qual deseja que a saída seja publicada. A opção **Usar sites** permite especificar o caminho de publicação inteiro mesmo que o caminho especificado não tenha sido pré-criado dentro da estrutura do AEM Sites. Nesses casos, o sistema cria a estrutura necessária durante o processo de publicação usando o modelo de página inicial do mapa selecionado.<br><br>Você também pode usar variáveis ao definir o caminho do Site. Para obter detalhes, exiba [Use variáveis para definir as opções Caminho de Destino, Nome do Site ou Nome do Arquivo](./generate-output-use-variables.md) |
+| Mapear modelo de página | **Esta opção aparecerá se você selecionar a opção** Usar caminho do site ****. Selecione um modelo que deseja aplicar às páginas iniciais do mapa. |
 | Site | Nome da Experience Manager Sites na qual você deseja publicar seu conteúdo. As opções na lista suspensa são preenchidas com base na lista de sites disponíveis no AEM Sites. <br>Selecione **Atualizar** ![ícone de atualização](images/navtitle-refresh-icon.svg) para obter uma nova lista de opções e refletir os dados atualizados. |
 | Caminho de publicação | O caminho no repositório do AEM onde a saída é armazenada. O Caminho de publicação é preenchido com todos os caminhos que contêm páginas criadas com base no modelo da Página inicial. A saída do AEM Sites do mapa DITA é gerada nesse caminho.  Por exemplo, se você especificar o Site como `AEMG-Docs` e o Caminho de Publicação como `aemg-docs-en/docs/product-abc.`, a saída do AEM Sites será gerada sob o nó `aemg-docs-en/docs/product-abc/` em `crx/de`. |
 | Modelo de página de tópico | Selecione o template que deseja aplicar a todos os tópicos de saída. |
 | Gerar nomes de página com base em | **Nome do arquivo de tópico**: usa o nome de arquivo do tópico DITA para criar a URL do Site. <br> **Título do tópico**: usa o título do tópico DITA para criar os nomes de site do Experience Manager. |
 | Limpar páginas geradas anteriormente | - **Excluir páginas geradas anteriormente para tópico removido do mapa**: se a estrutura do mapa de DTIA for alterada, você poderá usar esta opção para remover as páginas geradas anteriormente para os tópicos removidos. Este recurso está disponível apenas para publicação de mapa completo.<br><br>Digamos que você tenha publicado um mapa DITA, que contém os tópicos a.dita, b.dita e c.dita. Antes de publicar o mapa novamente, você removeu o tópico b.dita do mapa. Agora, se você selecionou essa opção, todo o conteúdo relacionado a b.dita é removido da saída do AEM Sites e somente a.dita e c.dita são publicadas.<br><br>**Observação**: informações sobre páginas excluídas também são capturadas nos logs de geração de saída. Para obter mais informações sobre como acessar os arquivos de log, [Exiba e verifique o arquivo de log](generate-output-basic-troubleshooting.md#id1821I0Y0G0A__id1822G0P0CHS). <br><br>**Cuidado**: ao excluir os tópicos, as páginas ficam indisponíveis no site publicado. Portanto, antes que os tópicos sejam excluídos, um aviso é exibido. Você deve confirmar a exclusão.<br><br>- **Excluir todas as páginas criadas por outras fontes neste caminho**: se você selecionar esta opção, todas as páginas publicadas neste caminho de outros mapas, tópicos individuais ou qualquer outra fonte serão excluídas. As páginas também se tornam indisponíveis no site publicado. Portanto, antes que os tópicos sejam excluídos, um aviso é exibido. Você deve confirmar a exclusão deles. |
 | Fluxo de trabalho de pós-geração | Ao escolher essa opção, uma nova lista suspensa Fluxo de trabalho de pós-geração é exibida contendo todos os fluxos de trabalho configurados no AEM. Você deve selecionar um workflow que deseja executar após a conclusão do workflow de geração de saída. |
+
+>[!NOTE]
+>
+>Se o [recurso de verificação de integridade](../install-conf-guide/conf-health-check-preset.md) estiver configurado para o perfil da pasta, um botão **Executar verificação de integridade antes da geração de saída** adicional será exibido na guia Geral. Use-a para que uma verificação de integridade seja executada automaticamente sempre que você gerar uma saída com essa predefinição, de modo que não seja necessário acioná-la manualmente no mapa. O relatório é anexado ao log de publicação e é meramente informativo. Ele não bloqueará ou atrasará sua saída, mesmo se a verificação encontrar erros ou avisos não resolvidos. Saiba mais sobre [Como usar a verificação de recurso de integridade no Experience Manager Guides](./map-editor-other-features.md#run-health-check-on-a-map).
 
 **Conteúdo**
 
@@ -168,17 +163,22 @@ No console Mapa, as opções de configuração predefinidas para o mapeamento de
 - Conteúdo
 - Referências de mapa cruzado
 
-![Novo(a) &#x200B;](images/aem-sites-preset-legacy-config.png){width="500"}
+![Novo(a) ](images/aem-sites-preset-legacy-config.png){width="500"}
 
 **Geral**
 
 A guia **Geral** contém as seguintes opções de configuração:
+
+>[!NOTE]
+>
+>Se o [recurso de verificação de integridade](../install-conf-guide/conf-health-check-preset.md) estiver configurado para o perfil da pasta, um botão **Executar verificação de integridade antes da geração de saída** adicional será exibido na guia Geral. Use-a para que uma verificação de integridade seja executada automaticamente sempre que você gerar uma saída com essa predefinição, de modo que não seja necessário acioná-la manualmente no mapa. O relatório é anexado ao log de publicação e é meramente informativo. Ele não bloqueará ou atrasará sua saída, mesmo se a verificação encontrar erros ou avisos não resolvidos. Saiba mais sobre [Como usar a verificação de recurso de integridade no Experience Manager Guides](./map-editor-other-features.md#run-health-check-on-a-map).
 
 | Opções do AEM Sites | Descrição |
 | --- | --- |
 | Nome do site | Um nome de site onde a saída é armazenada no repositório do AEM.<br><br>Um nó no repositório do AEM é criado com o nome especificado aqui. Se você não especificar o Nome do site, o nó do site será criado com o nome do arquivo de mapa DITA.<br><br>O Nome do Site especificado aqui também é usado como o título na guia do navegador.<br><br>Você também pode usar variáveis ao definir o Nome do Site. Para obter detalhes, exiba [Use variáveis para definir as opções Caminho de Destino, Nome do Site ou Nome do Arquivo](./generate-output-use-variables.md) |
 | Caminho de saída | O caminho no repositório do AEM onde a saída é armazenada. Ao gerar a saída final, o Nome do site e o Caminho de saída são combinados. Por exemplo, se você especificar o nome do site como `user-guide` e o Caminho de Saída como `/content/output/aem-guides`, a saída final será gerada sob o nó `/content/output/aem-guides/user-guide`.<br><br>Você também pode usar variáveis ao definir o caminho de saída. Para obter detalhes, exiba [Use variáveis para definir as opções Caminho de Destino, Nome do Site ou Nome do Arquivo](./generate-output-use-variables.md) |
 | Páginas de saída existentes | Selecione a opção **Substituir conteúdo** para substituir o conteúdo nas páginas existentes. Essa opção substitui somente o conteúdo presente nos nós de conteúdo e cabeçalho da página. Essa opção permite a publicação combinada de conteúdo. Selecionar essa opção fornece uma opção para selecionar a exclusão de páginas órfãs da saída publicada. Esta também é a opção *padrão* para criar a saída do AEM Sites.<br><br>Selecione a opção **Excluir e Criar** para forçar a exclusão de páginas existentes durante a publicação. Essa opção exclui o nó da página, juntamente com seu conteúdo e todas as páginas secundárias sob ele. Use essa opção se tiver alterado o modelo de design da predefinição de saída ou se desejar que qualquer página extra já presente no destino seja removida. |
+| Gerar nomes de página com base em | **Nome do arquivo de tópico**: usa o nome do arquivo de tópico para criar a URL do Site. <br> **Título do tópico**: usa o título do tópico para criar os nomes de site do Experience Manager. <br> **Observação**: esta opção está disponível somente quando habilitada para o seu ambiente. Entre em contato com a Equipe de sucesso do cliente da Adobe para ativá-la. Quando disponível, o valor selecionado nessa predefinição substitui a configuração `aemsite.pagetitle` no nível da pasta. Para obter mais detalhes, exiba [Personalizar saída de site do AEM existente](../install-conf-guide/customize-aem-site-output.md) |
 | Excluir páginas geradas anteriormente para tópicos removidos do mapa | Se a estrutura do mapa de DTIA for alterada, você poderá usar essa opção para remover as páginas geradas anteriormente para os tópicos removidos. Este recurso está disponível apenas para publicação de mapa completo.<br><br>Digamos que você tenha publicado um mapa DITA, que contém os tópicos a.dita, b.dita e c.dita. Antes de publicar o mapa novamente, você removeu o tópico b.dita do mapa. Agora, se você selecionou essa opção, todo o conteúdo relacionado a b.dita é removido da saída do AEM Sites e somente a.dita e c.dita são publicadas.<br><br>**Observação**: informações sobre páginas excluídas também são capturadas nos logs de geração de saída. Para obter mais informações sobre como acessar os arquivos de log, [Exiba e verifique o arquivo de log](generate-output-basic-troubleshooting.md#id1821I0Y0G0A__id1822G0P0CHS). <br><br>**Cuidado**: ao excluir os tópicos, as páginas ficam indisponíveis no site publicado. Portanto, antes que os tópicos sejam excluídos, um aviso é exibido. Você deve confirmar a exclusão deles. |
 | Design | Selecione o modelo de design que deseja usar para gerar a saída.<br><br>Para obter detalhes sobre como usar modelos de design personalizados para gerar saída, contate o administrador de publicação. |
 | Fluxo de trabalho de pós-geração | Ao escolher essa opção, uma nova lista suspensa Fluxo de trabalho de pós-geração é exibida contendo todos os fluxos de trabalho configurados no AEM. Você deve selecionar um workflow que deseja executar após a conclusão do workflow de geração de saída. |
@@ -186,7 +186,7 @@ A guia **Geral** contém as seguintes opções de configuração:
 
 **Conteúdo**
 
-![Novo(a) &#x200B;](images/aem-sites-content-tab.png){width="650"}
+![Novo(a) ](images/aem-sites-content-tab.png){width="650"}
 
 A guia **Conteúdo** contém as seguintes opções de configuração:
 

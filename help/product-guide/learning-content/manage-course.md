@@ -5,17 +5,12 @@ feature: Authoring
 role: User
 exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
 TQID: https://experienceleague.adobe.com/Ffg1tESMpsZU71BF5UcWu-bSBTekVGiv-dv24jD-tjA
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 75954eab3ac1738705fe2a7280973af39b9214df
 workflow-type: tm+mt
-source-wordcount: 709
+source-wordcount: 740
 ht-degree: 0%
 
 ---
@@ -47,11 +42,16 @@ O conteúdo selecionado é criado e adicionado ao curso. Para ter uma visão ger
 Você pode adicionar conteúdo existente do seu repositório de conteúdo ao curso. Execute as seguintes etapas para adicionar conteúdo existente:
 
 1. Selecione o menu **Opções** > **Adicionar existente**.
-2. Selecione o tipo de conteúdo do curso que deseja criar.
-3. Na caixa de diálogo **Selecionar arquivo**, navegue até o local do conteúdo e selecione o conteúdo de Aprendizado desejado.
+1. Selecione o tipo de conteúdo do curso que deseja criar.
+1. Na caixa de diálogo **Selecionar arquivo**, navegue até o local do conteúdo e selecione o conteúdo de Aprendizado desejado.
 
-   ![](assets/add-existing-learning-content.png)
-4. Escolha **Selecionar**.
+>[!NOTE]
+>
+> Ao adicionar um tópico do HTML a um mapa do grupo de aprendizado, o atributo `format="html"` é automaticamente adicionado ao `topicref` correspondente no mapa. Isso garante que o tópico seja processado e publicado corretamente.
+
+![](assets/add-existing-learning-content.png)
+
+1. Escolha **Selecionar**.
 
 O conteúdo selecionado do curso é adicionado ao curso a partir do repositório.
 

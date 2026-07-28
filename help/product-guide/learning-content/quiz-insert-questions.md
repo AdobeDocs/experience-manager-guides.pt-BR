@@ -5,17 +5,12 @@ feature: Authoring
 role: User
 exl-id: dff38476-c078-4970-b967-05a902430015
 TQID: https://experienceleague.adobe.com/2VGxq0TrCbvFXYL44fOo5xIjP6GBLi9aKfVSTfLD3jg
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: ff08b63bf8668fddc89c43391b3264a733a824e7
 workflow-type: tm+mt
-source-wordcount: 649
+source-wordcount: 691
 ht-degree: 0%
 
 ---
@@ -53,6 +48,13 @@ Você pode configurar as perguntas usando as seguintes propriedades de pergunta 
 - **Multa por resposta incorreta**: especifique os pontos a serem deduzidos por uma resposta incorreta.
 - **Rótulo da pergunta**: habilitar para adicionar um rótulo de pergunta.
 - **Feedback**: habilite a fornecer o feedback para resposta correta ou incorreta.
+
+  >[!NOTE]
+  >
+  > Na saída publicada do curso, depois de tentar todas as perguntas em um questionário, os alunos podem usar a opção **Revisar respostas** para consultar novamente as respostas enviadas e ver quais respostas estavam corretas ou incorretas. Isso não requer nenhuma instalação ou configuração adicional.
+
+  ![](assets/review-answer-quiz.png){width="350"}
+
 - **Opção de fixação na posição**: quando uma opção específica para uma pergunta é fixada, ela permanece fixa na posição especificada na lista de opções, mesmo se **Randomizar opções de resposta para cada tentativa** estiver habilitada na configuração predefinida de SCORM, o que, de outra forma, reorganizaria as opções disponíveis. Você pode passar o mouse sobre a opção desejada de uma pergunta no painel Propriedades de conteúdo e fixá-la.
 
   ![](assets/pin-question.png){width="350"}

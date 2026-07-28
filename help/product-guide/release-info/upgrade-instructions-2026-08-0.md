@@ -1,0 +1,67 @@
+---
+title: Notas de versão | Instruções de atualização e problemas corrigidos no Adobe Experience Manager Guides versão 2026.08.0
+description: Saiba mais sobre a matriz de compatibilidade e como atualizar para a versão 2026.08.0 do Adobe Experience Manager Guides as a Cloud Service.
+source-git-commit: 0de22d4883096f6a9f3b2ca8acfad4a10992f5e7
+workflow-type: tm+mt
+source-wordcount: '417'
+ht-degree: 1%
+
+---
+
+# Instruções de atualização para a versão 2026.08.0
+
+Este artigo aborda as instruções de atualização e a matriz de compatibilidade da versão 2026.08.0 do Adobe Experience Manager Guides as a Cloud Service.
+
+Para obter mais informações sobre os novos recursos e aprimoramentos, consulte [Novidades na versão 2026.08.0](whats-new-2026-08-0.md).
+
+Para obter a lista de problemas corrigidos nesta versão, consulte [Problemas corrigidos na versão 2026.08.0](fixed-issues-2026-08-0.md).
+
+## Matriz de compatibilidade
+
+Esta seção aponta a matriz de compatibilidade dos aplicativos de software compatíveis com a versão 2026.08.0 do Experience Manager Guides as a Cloud Service.
+
+### Recursos do Java SDK
+
+Use os recursos a seguir ao desenvolver plug-ins Java personalizados ou integrações com o Experience Manager Guides. Verifique se a versão do SDK corresponde à versão instalada do Experience Manager Guides.
+
+| Versão | Versão do Java SDK | Maven Central | Referência da API Java |
+|---|---|---|----|
+| 2026.08.0 | 2026.8.0 | [API do AEM Guides SDK 2026.8.0](https://central.sonatype.com/artifact/com.adobe.aem/aem-dox-sdk-api/2026.8.0) | [Javadoc 2026.8.0](https://javadoc.io/doc/com.adobe.aem/aem-dox-sdk-api/latest/index.html) |
+
+Para obter mais detalhes, consulte [Configurar e usar o JAR da API do repositório central Maven](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/api-reference/introduction).
+
+### FRAMEMAKER e FRAMEMAKER PUBLISHING SERVER
+
+| Versão do Experience Manager Guides as a Cloud | FMPS | FrameMaker | Oxygen Author |
+| --- | --- | --- | --- |
+| 2026.08.0 | Não compatível | 2022 ou superior | 26.1 |
+
+
+### Conector de oxigênio
+
+| Versão do Experience Manager Guides as a Cloud | Janelas do conector Oxygen | Conector Oxygen Mac | Editar no Oxygen Windows | Editar no Oxygen Mac |
+| --- | --- | --- | --- | --- |
+| 2026.08.0 | 3.8 -uuid 1 | 3.8 -uuid 1 | 2,3 | 2,3 |
+
+
+### Versão do modelo de site do AEM
+
+| Versão dos componentes | Versão do site |
+|---|---|
+| guides-components.all-1.5.1 | aemg-sites-template-1.3.0 |
+
+### Versão do modelo da knowledge base
+
+| Nome do pacote de componentes | Versão dos componentes | Versão do modelo |
+|---|---|---|
+| Pacote de conteúdo dos componentes do Experience Manager Guides para Cloud Service | guides-components.all-1.4.0 | aem-site-template-dxml-1.0.17 |
+
+## Atualização para a versão 2026.08.0
+
+O Experience Manager Guides é atualizado automaticamente após a atualização para a versão mais recente do Experience Manager as a Cloud Service.
+
+>[!IMPORTANT]
+>
+> A versão inclui atualizações nas configurações de perfil da pasta (ui_config.json). Se você estiver usando configurações personalizadas, certifique-se de fazer um backup delas antes da atualização. Após a atualização, revise e ajuste suas configurações para alinhar-se às alterações introduzidas na versão mais recente.
+
+Revise e valide as configurações de configuração para confirmar se elas estão implementadas corretamente. Se você tiver introduzido alterações na configuração personalizada, exiba [Configuração adicional para atualizar o Cloud Service](../install-conf-guide/additional-config-for-upgrade.md) para quaisquer procedimentos adicionais aplicáveis à versão da qual você está atualizando.

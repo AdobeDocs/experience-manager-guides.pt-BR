@@ -5,19 +5,13 @@ exl-id: c486eb6a-7e1f-4faa-973d-b47252d3e7c5
 feature: Reviewing
 role: User
 TQID: https://experienceleague.adobe.com/mrpBKOZcVm1XHdkEy9PBFOt-cbjfmyjqhT-BRbg3Swo
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: a668e1b862702ae1154b05d974414b54b43559ea
 workflow-type: tm+mt
-source-wordcount: 3343
+source-wordcount: 3663
 ht-degree: 0%
 
 ---
@@ -81,7 +75,9 @@ Para criar uma tarefa de revisão e enviar tópicos para revisão, execute as se
 
 1. Insira uma **Descrição** para a tarefa.
 
-   Essa descrição é usada como o corpo do email de notificação enviado aos revisores.
+   A descrição é usada como o corpo do email de notificação enviado aos revisores. Ele também é exibido na caixa de diálogo **Detalhes da revisão**, acessível por meio do ícone *Informações* ao lado do cabeçalho **Comentários** na interface da Revisão e na interface do Editor.
+
+   ![](images/review-details.png)
 
 1. Selecione a **Data de vencimento** e a hora para marcar o prazo final para a revisão.
 
@@ -108,6 +104,35 @@ Para criar uma tarefa de revisão e enviar tópicos para revisão, execute as se
    >[!NOTE]
    >
    > O mapa raiz selecionado tem a precedência mais alta para resolver referências principais. Para obter mais detalhes, consulte [Resolver referências de chave](map-editor-other-features.md#id176GD01H05Z).
+
+1. Anexar arquivos DITAVAL (Disponível somente quando ativado para o seu ambiente)
+
+   >[!NOTE]
+   >
+   > O recurso para anexar arquivos DITAVAL a uma tarefa de revisão é ativado por padrão. Se preferir não usar esse recurso em seu ambiente, entre em contato com a equipe de Sucesso do cliente.
+
+   Se o tópico que você está enviando para revisão usar condições, será possível anexar um ou mais arquivos DITAVAL à tarefa de revisão.
+
+   ![](./images/attach-ditaval-review-task.png)
+
+   >[!NOTE]
+   >
+   > O seletor de arquivos aceita apenas arquivos DITAVAL. Se você selecionar qualquer outro tipo de arquivo, como um tópico ou um mapa, uma mensagem de erro solicitará que você selecione um arquivo DITAVAL.
+
+   As condições definidas nos arquivos DITAVAL anexados são usadas para pré-selecionar os alternadores no painel Condições do revisor, para que os revisores tenham acesso ao mesmo conjunto de condições que você, como iniciador, pretende para essa revisão.
+
+   Você também tem a caixa de seleção **Permitir alterações de condição do revisor**, que controla se os revisores podem alterar as opções predefinidas:
+
+   ![](./images/reviewer-conditions.png)
+
+   - Se essa opção for selecionada, os revisores poderão ativar ou desativar qualquer condição durante sua revisão, substituindo os valores definidos pelos arquivos DITAVAL.
+   - Se desmarcadas, as opções permanecerão desativadas para os revisores e eles poderão revisar o conteúdo somente conforme filtrado pelos arquivos DITAVAL anexados.
+
+   **Observações adicionais**:
+
+   - É possível anexar vários arquivos DITAVAL a uma única tarefa de revisão. Se dois ou mais arquivos anexados definirem valores conflitantes para a mesma condição, o arquivo que foi adicionado primeiro (na ordem de inserção) terá precedência.
+   - As condições que não são cobertas por nenhum arquivo DITAVAL anexado não são afetadas; elas mantêm o comportamento padrão (não filtrado) na interface de revisão.
+   - Depois que a tarefa de revisão for criada, você poderá atualizá-la na página Detalhes da Tarefa para adicionar, remover ou substituir os arquivos DITAVAL anexados e alterar a configuração **Permitir alterações de condição do revisor**.
 
 1. Como é possível atribuir diferentes revisores a tópicos diferentes, a opção **Permitir que os Atribuídos revisem qualquer tópico** controla se os revisores podem revisar todos os tópicos em uma tarefa de revisão ou apenas aqueles tópicos aos quais estão atribuídos para revisão.
 
@@ -334,4 +359,4 @@ Quando a tarefa de revisão for atualizada, os revisores receberão notificaçõ
 Para obter mais detalhes, consulte [Noções básicas sobre notificações de revisão](./review-understanding-review-notifications.md).
 
 
-**Tópico pai:**&#x200B;[&#x200B; Introdução à revisão](review.md)
+**Tópico pai:**[ Introdução à revisão](review.md)

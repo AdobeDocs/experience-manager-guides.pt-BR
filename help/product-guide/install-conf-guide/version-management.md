@@ -5,9 +5,9 @@ feature: Version Management
 role: Admin
 level: Experienced
 exl-id: 4ca4292a-a97a-4b54-ab9d-17f73e4a100f
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+source-git-commit: 84be6501066dae623e057c15ac79b748d3e631f1
 workflow-type: tm+mt
-source-wordcount: '2307'
+source-wordcount: '2277'
 ht-degree: 0%
 
 ---
@@ -63,11 +63,6 @@ As guias a seguir fornecem instruções para habilitar a opção **Criar nova ve
    Quando a opção é selecionada, ocorre um novo mecanismo de gerenciamento de versão e substitui o comportamento de upload padrão para qualquer upload subsequente. Ele salva o conteúdo do arquivo carregado como uma nova versão. Se a opção estiver desmarcada, o AEM Guides usará o mecanismo de gerenciamento de versão padrão do AEM.
 
 1. Clique em **Salvar**.
-
-
->[!NOTE]
->
-> Você pode carregar arquivos em lotes de 70 ou menos se habilitar a propriedade **Criar Nova Versão para Arquivo Carregado** \(create.ver.new.content\) e usar a **Interface do usuário do Assets** para carregar ativos em massa.
 
 >[!ENDTABS]
 
@@ -314,7 +309,7 @@ Execute as seguintes etapas para expurgar as versões mais antigas:
 
    ![](assets/preview-purge-report.png)
 
-1. &#x200B;
+1. 
    - **Número de Versões a Reter da Versão Mais Recente**: insira o número de versões que devem ser retidas e não removidas. Por exemplo, se informarmos 5, as últimas 5 versões serão retidas e as versões anteriores serão qualificadas para expurgação caso outras condições de expurgação sejam atendidas.
    - **Reter versões criadas dentro do período \(Em dias\)**: insira a idade máxima de uma versão em dias. As versões anteriores ao número de dias especificado são qualificadas para expurgação caso outras condições de expurgação sejam atendidas. Por exemplo, se informarmos 100, todas as versões criadas antes de 100 dias serão qualificadas para expurgação caso outras condições de expurgação sejam atendidas.
    - **Caminho**: selecione o caminho do arquivo ou pasta cujos arquivos você deseja limpar.
