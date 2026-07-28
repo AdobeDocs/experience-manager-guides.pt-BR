@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leia a documentação do produto do Adobe Experience Manager Guides.
 breadcrumb-title: Documentação do AEM Guides
-source-git-commit: c3a30c22dd49ab8af898ecd2ff032101d2f9d93f
+source-git-commit: b866964c30a565eab0f6f9aec4b3fc9013f15f75
 workflow-type: tm+mt
-source-wordcount: '2568'
-ht-degree: 10%
+source-wordcount: '2573'
+ht-degree: 9%
 
 ---
 
@@ -217,7 +217,7 @@ ht-degree: 10%
     - [Sobre [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
     - [!DNL AEM Guides] trabalhando e os principais recursos {#aemg-works-features}
       - [Como [!DNL AEM Guides] funciona](./user-guide/intro-how-dxml-works.md)
-      - [Recursos da chave [!DNL AEM Guides] &#x200B;](./user-guide/intro-dxml-features.md)
+      - [Recursos da chave [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
   - Home page {#home-page}
     - [Experiência da página inicial [!DNL AEM Guides]](./user-guide/intro-home-page.md)
     - [Interface do repositório](./user-guide/home-page-repository-view.md)
@@ -365,7 +365,8 @@ ht-degree: 10%
     - [Assistente de IA para criar documentos de forma inteligente](./user-guide/ai-assistant-right-panel.md)
     - [Sugestões inteligentes habilitadas por IA para criar conteúdo](./user-guide/authoring-ai-based-smart-suggestions.md)
     - [Perguntas frequentes](./user-guide/ai-assistant-faq.md)
-  - [Introdução à IA de Guias](./user-guide/guides-ai.md)
+  - IA de guias no AEM Guides {#guides-ai-aem}
+    - [Introdução à IA de Guias](./user-guide/guides-ai.md)
   - Gerenciar conteúdo de aprendizado {#learning-training-content}
     - Guia de introdução {#get-started}
       - Introdução {#intro-lc}
@@ -425,7 +426,7 @@ ht-degree: 10%
       - [Tempo limite da sessão](./user-guide/session-timeout-prompt.md)
       - [A sequência de caracteres é muito longa na exportação de metadados](./user-guide/metadata-export-failure.md)
 - Guia do usuário (interface antiga) {#user-guide-old-ui}
-  - [Visão geral do AEM Guides](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+  - [Visão geral do AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Instalação e configuração {#install-conf-guide}
   - [Download, instalação e atualização](./install-conf-guide/introduction.md)
   - Processo de instalação do Cloud Service {#deploy-conf-aemg-cs}
