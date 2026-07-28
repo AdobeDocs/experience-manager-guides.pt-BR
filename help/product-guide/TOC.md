@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leia a documentação do produto do Adobe Experience Manager Guides.
 breadcrumb-title: Documentação do AEM Guides
-source-git-commit: 2108fea9ba6d35a9439f672b66e5d25aeb19f0ca
+source-git-commit: c3a30c22dd49ab8af898ecd2ff032101d2f9d93f
 workflow-type: tm+mt
-source-wordcount: '2548'
+source-wordcount: '2568'
 ht-degree: 10%
 
 ---
@@ -217,7 +217,7 @@ ht-degree: 10%
     - [Sobre [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
     - [!DNL AEM Guides] trabalhando e os principais recursos {#aemg-works-features}
       - [Como [!DNL AEM Guides] funciona](./user-guide/intro-how-dxml-works.md)
-      - [Recursos da chave [!DNL AEM Guides] &#x200B;](./user-guide/intro-dxml-features.md)
+      - [Recursos da chave [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
   - Home page {#home-page}
     - [Experiência da página inicial [!DNL AEM Guides]](./user-guide/intro-home-page.md)
     - [Interface do repositório](./user-guide/home-page-repository-view.md)
@@ -423,8 +423,9 @@ ht-degree: 10%
       - [Processar ativos](./user-guide/asset-processor.md)
     - Resolução de problemas {#troubleshooting}
       - [Tempo limite da sessão](./user-guide/session-timeout-prompt.md)
+      - [A sequência de caracteres é muito longa na exportação de metadados](./user-guide/metadata-export-failure.md)
 - Guia do usuário (interface antiga) {#user-guide-old-ui}
-  - [Visão geral do AEM Guides](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+  - [Visão geral do AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Instalação e configuração {#install-conf-guide}
   - [Download, instalação e atualização](./install-conf-guide/introduction.md)
   - Processo de instalação do Cloud Service {#deploy-conf-aemg-cs}
@@ -499,7 +500,8 @@ ht-degree: 10%
       - [Configure a opção para editar no Oxygen for Cloud Service](./install-conf-guide/conf-edit-in-oxygen.md)
       - [Configurar exibição de tabelas coladas para o Cloud Service](./install-conf-guide/conf-pasted-tables.md)
       - [Configurar a geração de PDF de um único tópico para o Cloud Service](./install-conf-guide/conf-pdf-generation-dita-ot.md)
-      - [Configurar o recurso de Tradução no Editor do Cloud Service](./install-conf-guide/conf-translation-editor.md)
+      - [Configurar o recurso de tradução no editor do Cloud Service](./install-conf-guide/conf-translation-editor.md)
+      - [Criar e gerenciar predefinições de verificação de integridade](./install-conf-guide/conf-health-check-preset.md)
     - Configuração do editor para no local {#editor-on-prem-settings}
       - [Configurar novo editor](./install-conf-guide/conf-new-editor-on-prem.md)
       - [Configurar caracteres especiais adicionais para no local](/help/product-guide/web-editor/conf-additional-special-characters.md)
@@ -568,6 +570,7 @@ ht-degree: 10%
     - [Implantar índice personalizado para o recurso Localizar e substituir do Cloud Service](./install-conf-guide/custom-indexing-cs.md)
     - [Reindexar para Localizar e substituir o recurso no Local](./install-conf-guide/custom-indexing-on-prem.md)
     - [Configurar o recurso Localizar e substituir no local](./install-conf-guide/conf-find-replace-on-prem.md)
+    - [Indexar tópicos em uma tarefa de revisão](./install-conf-guide/index-review-tasks.md)
     - [Mapeamento de componentes do AEM Sites](./install-conf-guide/component-mapping.md)
     - [Configurar predefinições do modelo para geração de saída](./install-conf-guide/template-presets-output-generation.md)
   - Apêndice {#appendix}
