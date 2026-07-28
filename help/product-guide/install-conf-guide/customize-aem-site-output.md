@@ -5,9 +5,9 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 0849544d-fa7b-4c66-b418-1ffcd1ca09df
-source-git-commit: 179e9016b12edb14c09ce9352a318e06a4fc628a
+source-git-commit: 75954eab3ac1738705fe2a7280973af39b9214df
 workflow-type: tm+mt
-source-wordcount: '3190'
+source-wordcount: '3264'
 ht-degree: 1%
 
 ---
@@ -122,6 +122,9 @@ Use as instruções fornecidas em [Substituições de configuração](download-i
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `aemsite.pagetitle` | Booleano \(true/false\). Caso queira gerar a saída usando o título da página, defina essa propriedade como true. Por padrão, é definido para usar o nome do arquivo.<br> **Valor padrão**: falso |
 
+>[!NOTE]
+>
+> A propriedade `aemsite.pagetitle` define o comportamento padrão em nível de pasta para títulos de página do Site do AEM. Se a opção para selecionar `Topic filename` ou `Topic title` estiver disponível na predefinição do AEM Sites para o seu ambiente, a seleção de nível de predefinição terá prioridade e substituirá a configuração de nível de pasta `aemsite.pagetitle` para essa saída. Por exemplo, se `aemsite.pagetitle=true`, mas o usuário selecionar *Nome do arquivo de tópico* na predefinição de saída, o nome do arquivo de tópico será usado. Se `aemsite.pagetitle=false`, mas o usuário selecionar *Título do tópico*, o título do tópico será usado.
 
 >[!TAB No local]
 
@@ -210,7 +213,7 @@ Você também pode configurar as outras propriedades, como usar letras minúscul
 
 1. Procure e clique no pacote *com.adobe.fmdita.common.SanitizeNodeNameImpl*.
 
-1. Na propriedade **Conjunto de Caracteres Não Permitido para Publicação na AEM Sites**, verifique se a propriedade está definida como `<>` `@$`. Você pode adicionar mais caracteres especiais a essa lista, no entanto, ela deve ter esses caracteres especiais necessários.
+1. Na propriedade **Conjunto de Caracteres Não Permitido para Publicação na AEM Sites**, verifique se a propriedade está definida como `<>`&#x200B;`@$`. Você pode adicionar mais caracteres especiais a essa lista, no entanto, ela deve ter esses caracteres especiais necessários.
 
    >[!NOTE]
    >

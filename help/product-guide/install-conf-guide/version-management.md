@@ -5,9 +5,9 @@ feature: Version Management
 role: Admin
 level: Experienced
 exl-id: 4ca4292a-a97a-4b54-ab9d-17f73e4a100f
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+source-git-commit: 84be6501066dae623e057c15ac79b748d3e631f1
 workflow-type: tm+mt
-source-wordcount: '2307'
+source-wordcount: '2277'
 ht-degree: 0%
 
 ---
@@ -63,11 +63,6 @@ As guias a seguir fornecem instruções para habilitar a opção **Criar nova ve
    Quando a opção é selecionada, ocorre um novo mecanismo de gerenciamento de versão e substitui o comportamento de upload padrão para qualquer upload subsequente. Ele salva o conteúdo do arquivo carregado como uma nova versão. Se a opção estiver desmarcada, o AEM Guides usará o mecanismo de gerenciamento de versão padrão do AEM.
 
 1. Clique em **Salvar**.
-
-
->[!NOTE]
->
-> Você pode carregar arquivos em lotes de 70 ou menos se habilitar a propriedade **Criar Nova Versão para Arquivo Carregado** \(create.ver.new.content\) e usar a **Interface do usuário do Assets** para carregar ativos em massa.
 
 >[!ENDTABS]
 

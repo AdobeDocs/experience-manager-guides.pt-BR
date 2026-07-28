@@ -21,9 +21,9 @@ subfeature_v2:
   - id: fd456af4-cb12-4a34-8cc4-b74adf885626
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
+source-git-commit: 077335fcbb539ef545ce2ca9903e4a8223b3f6ce
 workflow-type: tm+mt
-source-wordcount: 2473
+source-wordcount: 2562
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ Antes de executar etapas neste procedimento, verifique se você criou a raiz de 
 
    - Você pode optar por **Criar estrutura somente** para o projeto de tradução.
    - Você pode optar por **Criar um novo projeto de tradução XLIFF** para converter o conteúdo XML no XLIFF (XML Localization Interchange File Format). XLIFF é um formato aberto baseado em XML usado para padronizar a transferência de dados entre várias ferramentas usadas no processo de tradução de conteúdo. O Experience Manager Guides é compatível com a versão 1.2 do XLIFF.
-Em um projeto XLIFF, o conteúdo é exportado para o formato XLIFF padrão do setor, que pode ser fornecido para fornecedores de tradução. O formato XLIFF permite a potencial reutilização de segmentos que você já traduziu durante a fase de tradução.\
+     Em um projeto XLIFF, o conteúdo é exportado para o formato XLIFF padrão do setor, que pode ser fornecido para fornecedores de tradução. O formato XLIFF permite a potencial reutilização de segmentos que você já traduziu durante a fase de tradução.\
      Após a tradução do conteúdo XLIFF, ele pode ser importado para o Experience Manager Guides, criando uma versão traduzida do projeto DITA original.
 
    >[!NOTE]
@@ -145,15 +145,24 @@ Em um projeto XLIFF, o conteúdo é exportado para o formato XLIFF padrão do se
    - Se você já tiver um projeto de tradução, poderá adicionar tópicos a esse projeto. Selecione a opção **Adicionar ao projeto de tradução existente** na lista Projeto e escolha um projeto na lista Projeto de tradução existente. Você pode classificar esses projetos por ordem mais recente, crescente ou decrescente.
 
    - Se você selecionar **Adicionar ao projeto de tradução existente**, essa operação atualizará a entrada do ativo existente no projeto se o ativo já estiver adicionado e o estado do trabalho de tradução relacionado estiver no estado *Rascunho*.
-      - Se o idioma de destino não estiver presente no projeto, um novo projeto será criado para o projeto de tradução em um único idioma e um novo trabalho será criado para o projeto de tradução em vários idiomas.
+     - Se o idioma de destino não estiver presente no projeto, um novo projeto será criado para o projeto de tradução em um único idioma e um novo trabalho será criado para o projeto de tradução em vários idiomas.
 
-      - Se o trabalho já estiver presente para o idioma de destino e o status do trabalho não estiver no estado *Rascunho*, um novo trabalho será criado no mesmo projeto para adicionar os ativos para tradução.
+     - Se o trabalho já estiver presente para o idioma de destino e o status do trabalho não estiver no estado *Rascunho*, um novo trabalho será criado no mesmo projeto para adicionar os ativos para tradução.
 
    >[!NOTE]
    >
    > Se o projeto existente for um projeto de escopo, &quot;\(Scoping\)&quot; será anexado ao nome.
 
    - Se precisar criar o escopo para que um projeto seja traduzido, você pode selecionar **Criar um novo projeto de tradução de escopo**. Isso não enviará as cópias para tradução e o status original da tradução dos arquivos será mantido. Não há impacto na cópia do idioma de destino dos tópicos referenciados enviados para definição do escopo.
+1. No campo **Caminho**, selecione onde o novo projeto de tradução deve ser criado:
+
+   - Se você estiver criando um novo projeto de tradução, selecione a pasta na qual deseja criar o projeto.
+
+     ![Insira o caminho do projeto](images/project-path.png){width="650"}
+
+   - Se estiver adicionando a um projeto de tradução existente, selecione o caminho em que esse projeto já existe. Em seguida, na lista **Projeto de tradução existente**, selecione o projeto ao qual deseja adicionar a tarefa de tradução atual. Você também pode usar os **Filtros** disponíveis para restringir a lista.
+
+     ![Insira o caminho do projeto existente](images/existing-project-path.png){width="650"}
 
 1. No campo **Título do projeto**, informe um título para o projeto.
 1. Selecione **Enviar** para criar um novo projeto de tradução.

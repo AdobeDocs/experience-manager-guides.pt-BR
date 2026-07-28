@@ -19,10 +19,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: fd5e1e85933eb2785b0a74b0fa49fec1da4ca0c2
 workflow-type: tm+mt
-source-wordcount: 927
-ht-degree: 1%
+source-wordcount: 1020
+ht-degree: 0%
 
 ---
 
@@ -46,6 +46,10 @@ Execute as seguintes etapas para criar a predefinição do EPUB no painel de map
 1. Selecione **Concluído** para salvar as configurações predefinidas.
 
 As seguintes opções de configuração estão disponíveis para a predefinição do EPUB:
+
+>[!NOTE]
+>
+>Se o [recurso de verificação de integridade](../install-conf-guide/conf-health-check-preset.md) estiver configurado para o perfil da pasta, um botão **Executar verificação de integridade antes da geração de saída** adicional será exibido na guia Geral. Use-a para que uma verificação de integridade seja executada automaticamente sempre que você gerar uma saída com essa predefinição, de modo que não seja necessário acioná-la manualmente no mapa. O relatório é anexado ao log de publicação e é meramente informativo. Ele não bloqueará ou atrasará sua saída, mesmo se a verificação encontrar erros ou avisos não resolvidos. Saiba mais sobre [como usar o recurso de verificação de integridade no Experience Manager Guides](./map-editor-other-features.md#run-health-check-on-a-map).
 
 | Opções do ePub | Descrição |
 | --- | --- |

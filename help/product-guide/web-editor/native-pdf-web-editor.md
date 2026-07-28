@@ -25,9 +25,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: b9ab219dd067047e2c9f00ead6d0538df450eb66
+source-git-commit: fd5e1e85933eb2785b0a74b0fa49fec1da4ca0c2
 workflow-type: tm+mt
-source-wordcount: 3455
+source-wordcount: 3561
 ht-degree: 0%
 
 ---
@@ -73,6 +73,10 @@ Depois que a predefinição é criada, defina as configurações de predefiniç�
 
 Use para especificar configurações básicas de saída, como especificar o caminho de saída, o nome do arquivo do PDF e muito mais.
 
+>[!NOTE]
+>
+>Se o [recurso de verificação de integridade](../install-conf-guide/conf-health-check-preset.md) estiver configurado para o perfil da pasta, um botão **Executar verificação de integridade antes da geração de saída** adicional será exibido na guia Geral. Use-a para que uma verificação de integridade seja executada automaticamente sempre que você gerar uma saída com essa predefinição, de modo que não seja necessário acioná-la manualmente no mapa. O relatório é anexado ao log de publicação e é meramente informativo. Ele não bloqueará ou atrasará sua saída, mesmo se a verificação encontrar erros ou avisos não resolvidos. Saiba mais sobre [como usar o recurso de verificação de integridade no Experience Manager Guides](../user-guide/map-editor-other-features.md#run-health-check-on-a-map).
+
 | Configuração | Descrição |
 | --- | --- |
 | **Caminho de saída** | O caminho no repositório do AEM onde a saída do PDF está armazenada. Verifique se o caminho de saída não está localizado na pasta do projeto. O caminho de saída é definido por meio da variável `${base_output_path}`, que é configurada pelo Administrador. Para configurar o Caminho de saída, exiba [Configurar localização de saída básica para serviços em nuvem](../native-pdf/configure-base-location-cs.md) ou [Configurar localização de saída básica para serviços no local](../native-pdf/configure-base-output-location.md) com base no serviço que você está usando. <br>Você também pode usar as variáveis prontas para uso a seguir para definir o Caminho de Saída. Você pode usar uma única variável ou uma combinação de variáveis para definir essa opção. <br> `${map_filename}`: usa o nome dos arquivos de mapa DITA para criar o caminho de destino. <br> `${map_title}`: usa o título do mapa DITA para criar o caminho de destino. <br>`${preset_name}`: usa o nome da predefinição de saída para criar o caminho de destino. <br> `${language_code}`: Usa o código de idioma em que o arquivo de mapa está localizado para criar o caminho de destino. <br> `${map_parentpath}`: Usa o caminho completo do arquivo de mapa para criar o caminho de destino.  <br>`${path_after_langfolder}`: Usa o caminho do arquivo de mapa após a pasta de idioma para criar o caminho de destino. |
@@ -81,8 +85,13 @@ Use para especificar configurações básicas de saída, como especificar o cami
 | **Usar Linha de Base** | Se tiver criado uma Linha de Base para o mapa DITA selecionado, selecione essa opção para especificar a versão que deseja publicar. Exiba [Trabalhar com Linha de Base](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html) para obter mais detalhes. |
 | **Criar PDF com Barra de Alterações entre Versões Publicadas** | Use as opções a seguir para criar uma PDF mostrando as diferenças no conteúdo entre duas versões usando as barras de alteração: <br><ul><li> **Linha de Base da Versão Anterior** Escolha a versão de linha de base que você deseja comparar com a versão atual ou outra linha de base. Uma barra de alteração é exibida na PDF para indicar o conteúdo modificado. Uma barra de alteração é uma linha vertical que identifica visualmente o conteúdo novo ou revisado. A barra de alterações aparece à esquerda do conteúdo que foi inserido, alterado ou excluído. <br> **Observação**: se você selecionar **Usar Linha de Base** e escolher uma linha de base para publicar, a comparação será feita entre as duas versões de linha de base selecionadas. Por exemplo, se você escolher Versão 1.3 da linha de base em **Usar linha de base** e Versão 1.1 em **Linha de base da Versão Anterior**, a comparação será feita entre a Versão 1.1 da linha de base e a Versão 1.3 da linha de base. <br><li> **Mostrar Texto Adicionado** Selecione para mostrar o texto inserido na cor verde e sublinhado. Essa opção é selecionada por padrão. <br> <li> **Mostrar texto excluído** Selecione para mostrar o texto excluído em vermelho e marcado com um tachado. Essa opção é selecionada por padrão. <br>**Observação** Você também pode personalizar o estilo da barra de alterações, o conteúdo inserido ou o conteúdo excluído usando a folha de estilos.<br></ul> |
 | **Idioma** | Selecione o idioma para que a saída seja traduzida. <br> **Observação**: textos de referência cruzada como &quot;Veja no capítulo&quot; ou &quot;Veja na página&quot; são controlados por uma variável de idioma. A variável usa o idioma definido no tópico por meio do atributo `xml:lang`. Se nenhum idioma for especificado, será usado o idioma predefinido. Se ambos estiverem ausentes, o padrão será inglês (en_US). |
-| **Argumentos de Linha de Comando DITA-OT** | Ao habilitar **Habilitar pré-processamento de DITA-OT**, o campo **Argumentos da linha de comando DITA-OT** ficará disponível. Aqui, você pode especificar os argumentos adicionais que você deseja que o DITA-OT processe ao gerar saída. Para obter detalhes sobre os argumentos de linha de comando com suporte no DITA-OT, exiba a [documentação do DITA-OT](https://www.dita-ot.org/).<br>**OBSERVAÇÃO:** os links relacionados definidos nas tabelas de relação do DITA (`<reltable>`) não são incluídos na saída do PDF Nativo por padrão. Use os argumentos `-Dargs.rellinks=nofamily` do DITA-OT para incluir esses links relacionados na saída do PDF nativo. |
+| **Argumentos de Linha de Comando DITA-OT** | Ao habilitar **Habilitar pré-processamento de DITA-OT**, o campo **Argumentos da linha de comando DITA-OT** ficará disponível. Aqui, você pode especificar os argumentos adicionais que você deseja que o DITA-OT processe ao gerar saída. Para obter detalhes sobre os argumentos de linha de comando com suporte no DITA-OT, exiba a [documentação do DITA-OT](https://www.dita-ot.org/).<br>**OBSERVAÇÃO:** <br> Os links relacionados definidos nas tabelas de relação do DITA (`<reltable>`) não são incluídos na saída do PDF Nativo por padrão. Use o argumento `-Dargs.rellinks=nofamily` DITA-OT para incluir esses links relacionados na saída do PDF nativo. <br> Para mapas aninhados, o atributo `toc="no"` definido em uma referência de mapa não exclui seus tópicos filhos do índice por padrão. Use o argumento `-Dpreprocess.move-meta-entries.skip=false` DITA-OT para garantir que os tópicos secundários sejam excluídos do índice desses mapas. |
 | **Fluxo de Trabalho de Pós-Geração** | Selecione para mostrar uma lista suspensa que contém todos os workflows configurados no AEM. Você pode selecionar o workflow que deseja executar após a conclusão do workflow de geração do PDF. |
+
+>[!NOTE]
+>
+>&#x200B;- Links relacionados definidos em tabelas de relacionamento DITA (`<reltable>`) não são incluídos na saída do PDF Nativo por padrão. Use este campo para passar o argumento DITA-OT `-Dargs.rellinks=nofamily` e incluir os links relacionados na saída.
+>
 
 **Metadados**
 
@@ -109,19 +118,21 @@ Nas predefinições de Saída, selecione **PDF** > **Native-PDF** > **Metadata**
   [Download](assets/SampleXMP.xmp)
 
   Como alternativa, você pode gerar um arquivo XMP usando o Adobe Acrobat.
-   1. Selecione **Arquivo** > **Propriedades** no Acrobat.
-   1. Em **Descrição**, selecione **Metadados Adicionais**.
-   1. No painel esquerdo, selecione **Avançado**.
-   1. Selecione **Salvar**.
+  1. Selecione **Arquivo** > **Propriedades** no Acrobat.
+  1. Em **Descrição**, selecione **Metadados Adicionais**.
+  1. No painel esquerdo, selecione **Avançado**.
+  1. Selecione **Salvar**.
 
   O arquivo XMP é salvo no dispositivo.
 
 * **Forneça nomes e valores de metadados**
 
-   1. Adicione um nome selecionando no menu suspenso ou adicione um metadado personalizado digitando diretamente no campo de nome.
-   1. Insira o valor dos metadados e selecione o ícone &quot;+&quot;.Os metadados são adicionados à lista para o PDF.
+  1. Adicione um nome selecionando no menu suspenso ou adicione um metadado personalizado digitando diretamente no campo de nome.
+  1. Insira o valor dos metadados e selecione o ícone &quot;+&quot;.
+     Os metadados são adicionados à lista para o PDF.
 
-Também é possível usar variáveis para definir os valores de metadados.  Você pode usar os metadados definidos para o mapa DITA ou arquivo de mapa como variáveis. Os metadados podem ser encontrados no nó `/jcr:content/metadata` do mapa DITA ou do arquivo de mapa.Quando você usa uma variável, seu valor é escolhido das propriedades dos metadados.
+Também é possível usar variáveis para definir os valores de metadados.  Você pode usar os metadados definidos para o mapa DITA ou arquivo de mapa como variáveis. Os metadados podem ser encontrados no nó `/jcr:content/metadata` do mapa DITA ou do arquivo de mapa.
+Quando você usa uma variável, seu valor é escolhido das propriedades dos metadados.
 
 Para usar uma variável, você precisa defini-la no formato `${<variable>}`.
 
@@ -165,10 +176,10 @@ Proteja seu PDF adicionando restrições para abrir e ler o arquivo. Use as opç
 Defina as configurações de produção de impressão para atribuir marcas de impressora, selecionar modelos de cores e especificar propriedades relacionadas à impressão da saída do PDF.
 
 * **Marcas da impressora**: quando você prepara um documento para produção de impressão, marcas da impressora são adicionadas aos limites da página para auxiliar no alinhamento, corte e seleção de cores adequados durante a impressão. Ao selecionar uma marca de impressora, o limite da página é estendido para acomodar a marca, que é aparada durante a impressão. Você pode optar por exibir as seguintes marcas de impressora na saída do PDF:
-   * **Marcas de aparagem**: selecione a opção para colocar uma marca em cada canto da área de aparagem para indicar onde o papel precisa ser aparado após a impressão.
-   * **Marcas de sangria**: selecione para colocar uma marca em cada canto da caixa de sangria para indicar a área de aparagem da imagem estendida.
-   * **Marcas de registro**: selecione para colocar uma marca fora da área de corte para alinhar as diferentes separações em um documento colorido.
-   * **Barras de Cores**: selecione para adicionar uma faixa de cores fora da área de aparagem para manter a consistência de cores e ajustar a densidade da tinta ao imprimir.
+  * **Marcas de aparagem**: selecione a opção para colocar uma marca em cada canto da área de aparagem para indicar onde o papel precisa ser aparado após a impressão.
+  * **Marcas de sangria**: selecione para colocar uma marca em cada canto da caixa de sangria para indicar a área de aparagem da imagem estendida.
+  * **Marcas de registro**: selecione para colocar uma marca fora da área de corte para alinhar as diferentes separações em um documento colorido.
+  * **Barras de Cores**: selecione para adicionar uma faixa de cores fora da área de aparagem para manter a consistência de cores e ajustar a densidade da tinta ao imprimir.
 
   Defina dimensões para as marcas de impressora selecionadas usando as opções **Largura da Linha**, **Cor da Linha** e **Largura da Caixa de Sangria**.
 

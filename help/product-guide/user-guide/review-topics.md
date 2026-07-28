@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: a668e1b862702ae1154b05d974414b54b43559ea
 workflow-type: tm+mt
-source-wordcount: 2787
+source-wordcount: 3068
 ht-degree: 0%
 
 ---
@@ -97,7 +97,7 @@ Execute as seguintes etapas para revisar um tópico:
 1. Abra o painel Comentários selecionando o ícone **Comentários** no canto superior direito da barra de ferramentas.
 
    Forneça comentários de revisão selecionando um tipo de comentário apropriado na barra de ferramentas e pressione Enter para enviar seu comentário.
-A caixa de comentário suporta entradas de várias linhas e permite que os usuários as expandam conforme necessário para fornecer feedback detalhado. Você pode usar **Shift** + **Enter** para ir para a próxima linha enquanto escreve o comentário.
+   A caixa de comentário suporta entradas de várias linhas e permite que os usuários as expandam conforme necessário para fornecer feedback detalhado. Você pode usar **Shift** + **Enter** para ir para a próxima linha enquanto escreve o comentário.
 
    >[!NOTE]
    >
@@ -107,7 +107,9 @@ A caixa de comentário suporta entradas de várias linhas e permite que os usuá
 
 ## Recursos adicionais disponíveis na tela de revisão
 
-**Exibição de documento e exibição de tópico** - Por padrão, se vários tópicos forem compartilhados para revisão, uma exibição de documento composto de tópicos será mostrada aos revisores. No caso de uma revisão de mapa DITA, todos os tópicos do mapa são apresentados na forma de um único documento, semelhante a uma exibição de livro. Se desejar, você também poderá selecionar um tópico específico e somente esse tópico será exibido na tela de revisão.
+### Exibição de documento e de tópico
+
+Por padrão, se vários tópicos forem compartilhados para revisão, uma exibição de documento composto de tópicos será mostrada aos revisores. No caso de uma revisão de mapa DITA, todos os tópicos do mapa são apresentados na forma de um único documento, semelhante a uma exibição de livro. Se desejar, você também poderá selecionar um tópico específico e somente esse tópico será exibido na tela de revisão.
 
 Ao exibir um único tópico, você obtém uma opção adicional para alternar de volta para a exibição do documento. Na captura de tela a seguir, um tópico específico de um arquivo de mapa é aberto para revisão. A opção realçada — **Mostrar Exibição de Documento** permite que o usuário alterne de volta para a exibição de documento do arquivo de mapa.
 
@@ -115,11 +117,11 @@ Ao exibir um único tópico, você obtém uma opção adicional para alternar de
 >
 > Qualquer resolução de tela com largura superior a 1600 px é compatível com as larguras padrão do painel (esquerda e direita), garantindo que nenhuma barra de rolagem horizontal seja exibida e que o conteúdo permaneça alinhado corretamente na exibição do documento. Além disso, sempre é possível redimensionar a tela para manter a exibição apropriada do documento na interface de revisão.
 
-
-
 ![](images/switch-document-view.png)
 
-**Trabalhando com diferentes tipos de ferramentas de comentários** - Você pode adicionar comentários incorporados realçando o texto, percorrendo o texto, inserindo texto ou adicionando uma nota de comentário. Os diferentes tipos de ferramentas de comentários fornecidos na barra de ferramentas Comentários estão descritos abaixo:
+### Trabalhar com diferentes tipos de ferramentas de comentários
+
+É possível adicionar comentários em linha realçando o texto, percorrendo o texto, inserindo texto ou adicionando uma nota de comentário. Os diferentes tipos de ferramentas de comentários fornecidos na barra de ferramentas Comentários estão descritos abaixo:
 
 ![](images/comments-toolbar.png){width="350"}
 
@@ -138,7 +140,7 @@ Ao exibir um único tópico, você obtém uma opção adicional para alternar de
 - **Adicionar comentário**\(![](images/review-comment-icon.svg)\): se quiser adicionar um tipo de comentário de nota adesiva, selecione o ícone Adicionar comentário e insira o comentário na janela pop-up.
 
 
-**Barra de ferramentas contextual**
+### Barra de ferramentas contextual
 
 Também é possível destacar ou tachar o texto rapidamente com a barra de ferramentas contextual. Execute as seguintes etapas para comentar usando a barra de ferramentas contextual:
 
@@ -149,7 +151,9 @@ Também é possível destacar ou tachar o texto rapidamente com a barra de ferra
 1. Selecione o ícone **Realçar** ou **Tachado**.
 1. É possível adicionar comentários no painel de comentários para a ação de realce ou tachado.
 
-**Revisar usando o painel Comentários** - O painel Comentários exibe uma lista de comentários fornecidos sobre o tópico atual. Esse painel também lista comentários de outros revisores, se o tópico for enviado a vários revisores. Cada comentário no painel de comentários é vinculado ao texto correspondente no tópico atual. Isso ajuda a identificar o texto comentado. Cada comentário exibe o nome do revisor que adicionou o comentário junto com o carimbo de data e hora.
+### Revisar usando o painel Comentários
+
+O painel Comentários exibe uma lista de comentários feitos sobre o tópico atual. Esse painel também lista comentários de outros revisores, se o tópico for enviado a vários revisores. Cada comentário no painel de comentários é vinculado ao texto correspondente no tópico atual. Isso ajuda a identificar o texto comentado. Cada comentário exibe o nome do revisor que adicionou o comentário junto com o carimbo de data e hora.
 
 Os comentários são exibidos na ordem do texto comentado no documento. Por exemplo, há um comentário de destaque na primeira frase e um comentário de texto de inserção na segunda frase do primeiro parágrafo, depois o comentário de texto de destaque é exibido antes do comentário de texto inserido.
 
@@ -168,9 +172,9 @@ As tarefas que você pode executar usando o painel Comentários estão descritas
 
 - Todos os usuários participantes podem responder aos comentários enviados por outros usuários. Em um comentário, selecione **Responder** e pressione Enter para enviar uma resposta. A caixa de resposta tem várias linhas e pode ser expandida, o que ajuda os usuários a fornecer respostas detalhadas aos comentários. Você pode usar **Shift** + **Enter** para ir para a próxima linha enquanto escreve a resposta.
 
-**Modo de visualização**
+### Modo de visualização
 
-- Abrir um tópico no modo de Visualização mostra como um tópico será exibido quando for visualizado por um autor após a aplicação de todas as alterações. Por exemplo, todo o texto inserido é mostrado como texto normal e todo o texto destacado \(excluído\) é removido do conteúdo.
+Abrir um tópico no modo de Visualização mostra como um tópico será exibido quando for visualizado por um autor após a aplicação de todas as alterações. Por exemplo, todo o texto inserido é mostrado como texto normal e todo o texto destacado \(excluído\) é removido do conteúdo.
 
 - A captura de tela a seguir mostra o conteúdo no modo *Revisão*:
 
@@ -181,7 +185,7 @@ A captura de tela a seguir mostra o conteúdo no modo *Visualização*:
 ![](images/review-preview-mode.png){width="550"}
 
 
-**Marcar usuários da tarefa em um comentário**
+### Marcar usuários da tarefa em um comentário
 
 Ao colaborar em uma tarefa de revisão com vários revisores, é possível aprimorar a comunicação marcando usuários específicos em novos comentários e respostas. Como revisor, você pode iniciar um comentário ou responder a um existente enquanto marca outros usuários envolvidos na mesma tarefa de revisão para chamar sua atenção ou atribuir acompanhamentos. Essa funcionalidade só está disponível para tarefas de revisão ativas.
 
@@ -191,11 +195,17 @@ Ao colaborar em uma tarefa de revisão com vários revisores, é possível aprim
 
 ![](images/tag-users-review-ui.png){width="350"}
 
+Para marcar um usuário, digite `@` em um comentário ou resposta e selecione um usuário na lista de revisores. O nome de exibição, juntamente com um endereço de email do usuário, é exibido para facilitar a identificação. Se um endereço de email não estiver disponível, a ID do usuário será exibida.
+
+![](images/tagged-users-with-email.png)
+
 Os usuários marcados recebem um email e uma notificação do AEM, garantindo que sejam informados imediatamente. Para obter mais detalhes sobre como as notificações de revisão disparam, consulte [Noções básicas sobre notificações de revisão](./review-understanding-review-notifications.md).
 
 ![](images/mentioned-in-tags-author.png){width="350"}
 
-**Adicionar anexos aos comentários** - Se quiser complementar seu comentário fornecendo informações adicionais que estão disponíveis em algum outro arquivo, anexe-o ao comentário. Como revisor, você pode adicionar facilmente um ou vários arquivos do sistema local ao comentário. Um arquivo pode ser adicionado a todas as formas de comentários aceitos - Realce, Tachado, Inserir texto ou um Comentário.
+### Adicionar anexos a comentários
+
+Se quiser complementar seu comentário fornecendo informações adicionais que estão disponíveis em algum outro arquivo, anexe-o ao seu comentário. Como revisor, você pode adicionar facilmente um ou vários arquivos do sistema local ao comentário. Um arquivo pode ser adicionado a todas as formas de comentários aceitos - Realce, Tachado, Inserir texto ou um Comentário.
 
 Quando você insere qualquer um dos comentários, o pop-up de comentários é exibido. Depois de fornecer comentários ou informações adicionais na janela pop-up, você pode enviá-las pressionando Enter. Depois que o comentário for adicionado, você terá a opção de adicionar um anexo a ele.
 
@@ -241,25 +251,64 @@ Os outros revisores ou autores obtêm somente a opção de download de anexo.
 ![](images/attach-files-comments-panel.png){width="550"}
 
 
-**Painel de condições** - Se o seu tópico tiver conteúdo condicional, você verá o ícone **Condições** \(![](images/conditions-icon.svg)\) à direita. Selecionar o ícone **Condições** abre o painel Condições, que permite realçar o conteúdo de acordo com as condições disponíveis no tópico.
+### Trabalhar com o painel Condições
 
-: por padrão, a opção **Realçar todas as condições** está habilitada, todas as condições são selecionadas, o conteúdo inteiro é exibido e o conteúdo condicional é exibido como realçado no modo de revisão e pré-visualização.
+Se o seu tópico tiver conteúdo condicional, você verá o ícone **Condições** \(![](images/conditions-icon.svg)\) à direita. Selecionar o ícone **Condições** abre o painel Condições, que permite realçar o conteúdo de acordo com as condições disponíveis no tópico.
 
-: Você pode desabilitar a opção **Realçar Todas as Condições** e exibir todo o conteúdo presente no tópico como texto normal sem realces.
+- Por padrão, a opção **Realçar Todas as Condições** está habilitada, todas as condições são selecionadas, o conteúdo inteiro é exibido e o conteúdo condicional é mostrado como realçado tanto no modo de revisão quanto no modo de visualização.
 
-![](images/review-conditions-panel.png){width="350"}
+- Você pode desabilitar a opção **Realçar Todas as Condições** e exibir todo o conteúdo presente no tópico como texto normal sem realces.
+
+  ![](images/review-conditions-panel.png){width="350"}
 
 Você pode optar por ocultar ou mostrar uma condição específica.
 
 - Se você ocultar uma condição, o conteúdo que a apresenta não será destacado no modo de revisão.
 - Se você mostrar uma condição, o conteúdo condicional será realçado no modo de revisão. Por exemplo, na captura de tela a seguir, somente o conteúdo usa duas condições - `win` e `mac` é realçado.
 
-
-![](images/review-condition-normal-mode.png){width="650"}
+  ![](images/review-condition-normal-mode.png){width="650"}
 
 No modo de visualização, são exibidos o conteúdo não-condicional e o conteúdo condicional que usa as duas condições mostradas - `win` e `mac`. O conteúdo condicional restante para o qual as condições estão ocultas não é exibido.
 
-**Revisão em tempo real** - O painel Comentários é atualizado em tempo real com comentários e o feedback ou a ação realizada pelo autor sobre os comentários.
+### Painel Condições com condições baseadas em DITAVAL
+
+>[!NOTE]
+>
+>Esse recurso é ativado por padrão. Se preferir não usar esse recurso em seu ambiente, entre em contato com a equipe de Sucesso do cliente.
+
+Se a tarefa de revisão for criada com um ou mais arquivos DITAVAL anexados, o painel Condições apresentará condições de forma diferente do descrito na seção [Trabalhar com o painel Condições](#work-with-conditions-panel). Cada condição é controlada por um switch de alternância, em vez de um ícone de olho, e os alternadores são predefinidos para refletir as condições definidas nos arquivos DITAVAL anexados, para que você possa revisar o conteúdo da maneira desejada pelo iniciador de revisão.
+
+>[!BEGINTABS]
+
+>[!TAB Painel de condições (sem condição baseada em DITAVAL)]
+
+![](./images/review-conditions-panel.png){width="350"}
+
+>[!TAB Painel de condições (com condição baseada em DITAVAL)]
+
+![](./images/review-condition-panel-ditaval.png)
+
+>[!ENDTABS]
+
+Ao contrário do ícone de olho, que só adiciona ou remove um destaque no conteúdo condicionado, desativar um botão no painel Condições oculta esse conteúdo da interface de revisão, de modo que o conteúdo não aparece no documento. Ativar novamente o alternador exibe o conteúdo novamente.
+
+O modo de Visualização reflete os mesmos estados de alternância descritos na seção [Trabalhar com Painel Condicional](#work-with-conditions-panel).
+
+Dependendo de como o iniciador da revisão configurou a tarefa de revisão, você pode ou não conseguir alterar estes botões:
+
+- Se o iniciador tiver permitido alterações, você poderá ativar ou desativar qualquer alternância para revisar o conteúdo em condições diferentes.
+
+  ![](./images/review-conditions-enabled.png)
+
+- Se o iniciador não tiver permitido alterações, os alternadores serão desativados e refletirão apenas as configurações do iniciador.
+
+  ![](./images/review-conditions-disabled.png)
+
+Quaisquer alterações feitas nos botões se aplicam somente à sessão atual. Atualizar a página redefine os alternadores para o estado definido pelos arquivos DITAVAL anexados.
+
+### Revisão em tempo real
+
+O painel Comentários é atualizado em tempo real com comentários e o feedback ou a ação realizada pelo autor nos comentários.
 
 - Vários revisores poderão deixar comentários ou responder a comentários simultaneamente no mesmo documento. Você pode descobrir quem está revisando o documento no momento, passando o mouse sobre o ícone do usuário no canto superior direito da tela.
 
@@ -275,7 +324,9 @@ No modo de visualização, são exibidos o conteúdo não-condicional e o conte�
 
 - Selecionar um comentário desatualizado abre a versão desse comentário no painel esquerdo. A versão anterior é mostrada no painel esquerdo e a versão atual é exibida no painel direito. Todos os comentários sobre a versão desatualizada são importados no lado esquerdo. Você pode comparar a versão anterior com a versão atual.
 
-**Filtrar comentários** - Você pode filtrar comentários em um documento para exibir comentários específicos conforme necessário. Para filtrar comentários, selecione o ícone **Filtro** \(![](images/filter-search-icon.svg)\) que aparece no menu à direita da caixa de texto Pesquisar Comentários, no painel Comentários.
+### Filtrar comentários
+
+Você pode filtrar comentários em um documento para exibir comentários específicos conforme necessário. Para filtrar comentários, selecione o ícone **Filtro** \(![](images/filter-search-icon.svg)\) que aparece no menu à direita da caixa de texto Pesquisar Comentários, no painel Comentários.
 
 Selecione uma ou mais das seguintes opções de filtragem na caixa de diálogo **Tipo de Filtro** e selecione **Aplicar**.
 
@@ -289,7 +340,6 @@ Selecione uma ou mais das seguintes opções de filtragem na caixa de diálogo *
 
 
 Para remover o filtro e exibir todos os comentários, desmarque todos os filtros da caixa de diálogo **Tipo de Filtro** e selecione **Aplicar**.
-
 
 ## Histórico de versão do Revisor
 

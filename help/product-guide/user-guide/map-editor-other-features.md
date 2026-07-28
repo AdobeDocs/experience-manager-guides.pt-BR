@@ -15,9 +15,9 @@ subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: fd5e1e85933eb2785b0a74b0fa49fec1da4ca0c2
 workflow-type: tm+mt
-source-wordcount: 662
+source-wordcount: 1281
 ht-degree: 0%
 
 ---
@@ -81,6 +81,90 @@ Uma referência de navegação do arquivo de mapa selecionado é adicionada no l
 ![](./images/navref-added-layout-view.png)
 
 *Modo de exibição de layout*
+
+## Executar verificação de integridade em um mapa
+
+A opção Executar verificação de integridade no menu de contexto permite executar uma verificação de integridade no mapa selecionado para detectar problemas, como links desfeitos, IDs duplicadas e falhas de validação do Schematron, antes da publicação.
+
+>[!NOTE]
+>
+> Esse recurso é ativado por padrão. Se preferir não usar esse recurso em seu ambiente, entre em contato com a equipe de Sucesso do cliente.
+
+As verificações disponíveis para execução são definidas por uma predefinição de verificação de integridade, criada e gerenciada por um administrador no nível do perfil da pasta. Para obter detalhes, exiba [Criar e gerenciar predefinições de verificação de integridade](../install-conf-guide/conf-health-check-preset.md).
+
+Execute as seguintes etapas para executar uma verificação de integridade em um mapa:
+
+1. Abra um mapa no Editor.
+1. No menu Opções, selecione **Executar verificação de integridade**.
+   ![](./images/run-health-check-option.png)
+1. A caixa de diálogo Executar verificação de integridade é exibida. Selecione uma predefinição de verificação de integridade a ser executada. Somente as predefinições configuradas para o perfil da pasta estão disponíveis para seleção.
+
+   Selecionar uma predefinição carrega as verificações definidas na caixa de diálogo.
+
+   ![](./images/health-check-selected-checks.png)
+1. *Opcional* Selecione uma Linha de Base. Se você não quiser usar uma linha de base, selecione **Nenhum**.
+1. Selecione **Executar**.
+
+Você também pode executar uma verificação de integridade em um mapa no painel **Relatório de verificação de integridade**. Para isso, abra um mapa no modo de exibição de Mapa e selecione o ícone do **Relatório de verificação de integridade**.
+
+![](./images/health-check-report-icon.png)
+
+>[!NOTE]
+>
+>Esta opção é exibida somente para um mapa no qual nenhuma verificação de integridade foi executada ainda. Se uma verificação de integridade já tiver sido executada no mapa, selecionar o ícone **Relatório de verificação de integridade** abrirá o relatório existente.
+
+No painel, selecione **Executar verificação de integridade**.
+
+![](./images/run-health-check-report-panel.png)
+
+Isso abre a mesma caixa de diálogo **Executar verificação de integridade**, na qual você pode selecionar uma predefinição de verificação de integridade e uma linha de base para executar uma verificação de integridade no mapa, conforme descrito nas etapas acima.
+
+## Usar o relatório de verificação de integridade no editor
+
+Quando você executa uma verificação de integridade para um mapa, o relatório é aberto no painel **Relatório de verificação de integridade**, conforme mostrado abaixo:
+
+![](./images/health-check-report-panel-editor.png)
+
+### Barra de ferramentas Relatório
+
+A barra de ferramentas na parte superior do painel exibe o seguinte:
+
+- **Nome do mapa**: o nome do mapa para o qual o relatório foi gerado.
+- **Ícone de informações**: selecione para exibir o nome predefinido, a versão do mapa e a linha de base (se houver) usada para gerar o relatório.
+- **Filtro**: restringe o relatório a uma regra específica, por exemplo, para exibir apenas os resultados de Links desfeitos. O filtro lista apenas os tipos de regras que produziram resultados no relatório atual.
+- **Baixar relatório**: baixa o relatório.
+- **Regenerar**: executa a verificação de integridade novamente.
+
+### Resultados da verificação de integridade
+
+Cada resultado produzido pelas verificações selecionadas é listado com os seguintes detalhes:
+- **Severidade**: O nível de severidade do resultado, por exemplo, Erro, Aviso, Informações ou Fatal.
+- **Nome da predefinição de verificação de integridade**: Nome da predefinição de verificação de integridade usada para gerar o relatório
+- **Nome da regra**: a regra que produziu o resultado, por exemplo, links desfeitos ou ID Duplicada.
+- **Número da linha**: a linha no arquivo em que o problema ocorre.
+- **Ativo**: o arquivo no qual o problema foi encontrado.
+
+Selecione um resultado para abrir o arquivo correspondente na linha exata em que o problema persiste.
+
+![](./images/health-check-preset-report-selected.png)
+
+>[!NOTE]
+>
+>Os resultados de link corrompido abrem o arquivo no modo Autor. Os resultados de validação de ID duplicada e Esquematron abrem o arquivo no modo Source.
+
+### Gerar o relatório novamente
+
+Depois de corrigir um problema, selecione **Regenerar** na barra de ferramentas para executar a verificação de integridade novamente e confirmar se o problema foi resolvido. Na caixa de diálogo **Gerar novamente** exibida, selecione as verificações que deseja incluir no relatório gerado novamente.
+
+![](./images/health-check-preset-report-regenerate.png)
+
+>[!NOTE]
+>
+> Os relatórios de verificação de integridade são específicos do usuário que os gerou. Se vários usuários gerarem um relatório para o mesmo mapa, cada usuário visualizará seus próprios resultados. Os administradores, no entanto, sempre têm acesso ao relatório mais recente gerado para o mapa.
+
+### Baixar o relatório
+
+Selecione **Baixar relatório** para baixar o relatório no formato XLS, com informações detalhadas para cada resultado.
 
 
 **Tópico pai:**&#x200B;[&#x200B; Introdução ao Editor de Mapa](map-editor.md)

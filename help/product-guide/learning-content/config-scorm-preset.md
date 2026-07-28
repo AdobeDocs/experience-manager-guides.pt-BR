@@ -13,34 +13,62 @@ feature_v2:
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: f7c0b10f032c2584fb6e951da898faaeb4ca7aaf
+source-git-commit: dbb138a7804d102d1b9aa9cfbc3564e827ef199e
 workflow-type: tm+mt
-source-wordcount: 331
+source-wordcount: 678
 ht-degree: 0%
 
 ---
 
 # Configurar predefinição de saída SCORM
 
-Após a criação da predefinição, defina as configurações de predefinição SCORM. As opções de configuração predefinidas são organizadas nas guias Geral, Conteúdo e Publicar.
+Após a criação da predefinição, defina as configurações de predefinição SCORM. As opções de configuração predefinidas estão organizadas nas guias Geral, Conteúdo, Experiência do aluno e Publicar.
 
-- **Geral:** usado para especificar as configurações básicas de saída, como a versão suportada, o caminho de saída, o nome do arquivo ZIP, o modelo de saída e outras opções relacionadas à experiência do aluno.
+- **Geral:** usado para especificar configurações básicas de saída, como a versão com suporte, o caminho de saída, o nome de arquivo SCORM (zip), o modelo de saída e o Fluxo de Trabalho de Pós-Geração para uma nova lista suspensa de Fluxo de Trabalho de Pós-Geração que contém todos os fluxos de trabalho configurados.
 
   ![](assets/scorm-general-tab-v3.png){width="650"}
 
-  **Experiência do aluno**
-
-   - **Os alunos devem avançar pelo conteúdo em ordem sequencial**: garante que os alunos avancem pelo questionário em uma sequência fixa e não possam pular adiante ou saltar entre perguntas.
-   - **Os alunos devem tentar responder todas as perguntas para continuar**: exige que os alunos tentem responder todas as perguntas antes de enviarem o questionário, evitando envios incompletos.
-   - **Randomizar a ordem das perguntas para cada tentativa**: exibe as perguntas dos questionários em uma ordem diferente para cada tentativa, ajudando a reduzir a previsibilidade.
-   - **Randomizar opções de resposta para cada tentativa**: embaralha as opções de resposta para cada pergunta em cada tentativa, reduzindo a chance de adivinhação com base na posição.
-   - **Usar id de pergunta nos relatórios de questionários**: inclui a ID de pergunta exclusiva nos relatórios de questionários, facilitando o rastreamento, a análise e o mapeamento dos resultados para perguntas específicas.
-   - **Fluxo de Trabalho de Pós-Geração**: ao escolher essa opção, uma nova lista suspensa de Fluxo de Trabalho de Pós-Geração que contém todos os fluxos de trabalho configurados é exibida.
 
 - **Conteúdo:** use para especificar a filtragem condicional disponível (usando DITAVAL ou usando alguma predefinição de condição) e o conjunto de variáveis.
 
   ![](assets/scorm-content-tab.png){width="650"}
 
+- **Experiência do aluno**: a guia **Experiência do aluno** permite configurar como os alunos interagem com o e navegam pelo resultado do SCORM. As configurações estão organizadas em **Geral**, **Navegação** e **Questionário**, permitindo que você controle a acessibilidade do conteúdo, o fluxo de navegação e o comportamento do questionário para obter uma experiência de aprendizado personalizada.
+
+  ![](assets/learner-experience.png){width="650"}
+
+  - **Geral:** configure opções de nível de saída, como habilitar downloads do PDF para alunos.
+
+    - **Permitir que os alunos baixem o curso PDF**: Quando habilitada, esta opção adiciona um ícone PDF à saída SCORM. Clicar nesse ícone permite que o aluno baixe uma versão do PDF do conteúdo do curso diretamente da saída publicada.
+
+      **Pré-requisitos:** Antes de habilitar esta opção, verifique o seguinte:
+
+      - O **Modelo de saída** deve ser configurado com o ícone **Incorporar PDF** no local desejado e o mesmo modelo deve ser selecionado na opção **Modelo de saída** na guia **Geral** ao configurar uma Predefinição SCORM.
+
+        ![](assets/embed-pdf.png){width="650"}
+
+      - A **Predefinição de PDF nativa** associada deve ter sido gerada pelo menos uma vez. Selecionar uma predefinição do PDF não gerada resultará em um erro solicitando que o usuário publique a predefinição.
+
+    Depois que a saída SCORM é gerada com as configurações acima, a saída resultante inclui um ícone do PDF, como mostrado abaixo, permitindo que os alunos baixem o PDF do curso.
+
+    ![](assets/pdf-icon.png){width="650"}
+
+  - **Navegação:** defina como os alunos se movem pelo curso, incluindo a progressão sequencial, as condições de conclusão obrigatórias e as regras para desbloquear o botão **Avançar**.
+
+    - **Os alunos devem avançar pelo conteúdo em ordem sequencial**: garante que os alunos percorram o curso em uma sequência fixa e não possam pular para a frente ou saltar entre os componentes do curso.
+    - **Desabilitar o botão Avançar se o aluno não passar no questionário**: impede o aluno de ir para a próxima seção/página até que ele passe no questionário.
+    - **Os alunos devem tentar responder todas as perguntas para continuar**: exige que os alunos tentem responder todas as perguntas antes de enviarem o questionário, evitando envios incompletos.
+    - **Bloquear o progresso até a conclusão**: impede a navegação pelo curso até que todas as subcondições configuradas abaixo dele sejam satisfeitas, desabilitando o botão **Avançar** no curso.
+      - **Todos os elementos interativos abertos**: exige que o aluno abra todos os elementos interativos da página.
+      - **Todas as mídias assistidas**: exige que o aluno assista a todas as mídias de vídeo/áudio na página.
+      - **Tentativa de todas as verificações de conhecimento**: exige que o aluno tente todas as perguntas de verificação de conhecimento da página.
+      - **Tempo mínimo gasto na página**: exige que o aluno permaneça na página pelo menos pela duração especificada antes que o botão Avançar seja habilitado. Depois de habilitado, você precisa inserir o tempo necessário, conforme mencionado abaixo.
+        - **Tempo necessário (segundos)**: o número mínimo de segundos (por exemplo, `30`) que um aluno deve permanecer na página para que essa condição seja atendida.
+
+  - **Questionário:** configure o comportamento relacionado ao questionário, como a aleatoriedade da ordem das perguntas e as opções de resposta, para reduzir a previsibilidade entre tentativas.
+
+    - **Randomizar a ordem das perguntas para cada tentativa**: exibe as perguntas dos questionários em uma ordem diferente para cada tentativa, ajudando a reduzir a previsibilidade.
+    - **Randomizar opções de resposta para cada tentativa**: embaralha as opções de resposta para cada pergunta em cada tentativa, reduzindo as chances de adivinhação.
 
 - **Publicar no LMS:** Use essa configuração para publicar seu conteúdo diretamente no Adobe Learning Manager (ALM). Na lista suspensa **Servidor de publicação**, selecione **Adobe Learning Manager** e escolha o **Perfil de publicação** necessário que foi configurado anteriormente nas configurações do Workspace. O perfil selecionado é usado para estabelecer a conexão e carregar o conteúdo gerado no ALM.
 

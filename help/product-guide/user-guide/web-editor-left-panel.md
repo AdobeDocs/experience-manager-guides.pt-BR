@@ -23,9 +23,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
+source-git-commit: fd5e1e85933eb2785b0a74b0fa49fec1da4ca0c2
 workflow-type: tm+mt
-source-wordcount: 11025
+source-wordcount: 11073
 ht-degree: 0%
 
 ---
@@ -213,17 +213,17 @@ Está sincronizado com a caixa de pesquisa na janela do repositório. Por exempl
 - **Arquivos não DITA**: você pode pesquisar por **Arquivos Ditaval**, **Arquivos de Imagem**, **Multimídia**, **Documentos** e **JSON** no caminho selecionado.
 - **Bloqueado por**: exibe uma lista de usuários. A lista é paginada e carregada de forma assíncrona, mostrando um conjunto limitado de usuários de cada vez e buscando mais à medida que você rola a tela ou navega. Isso melhora a velocidade de carregamento e o desempenho geral, especialmente ao trabalhar com um grande número de usuários.
 - **Modificado após** / **Modificado antes**: filtre o conteúdo com base na data de modificação. Selecione um intervalo de datas no calendário ou escolha uma das seguintes opções de intervalo de tempo:
-   - Nas últimas duas horas
-   - Na semana passada
-   - No mês passado
-   - No ano passado
+  - Nas últimas duas horas
+  - Na semana passada
+  - No mês passado
+  - No ano passado
 - **Marcas**: filtrar conteúdo com base em marcas.
 
 **Avançado**
 
 - **Elementos DITA**: você também pode procurar valores específicos nos atributos dos elementos DITA especificados.
-   - Selecione **Adicionar elemento** para adicionar os elementos, atributos e valores.
-   - Aplique os filtros selecionados.
+  - Selecione **Adicionar elemento** para adicionar os elementos, atributos e valores.
+  - Aplique os filtros selecionados.
 
 - Selecione **Limpar tudo** para limpar todos os filtros aplicados.
 
@@ -325,13 +325,13 @@ Etapas para criar uma nova pasta:
 
   Se o nome do arquivo do ativo que está sendo carregado contiver caracteres inválidos (como * / : [\] | # % { } ?), os seguintes cenários podem ocorrer:
 
-   - **Carregamento parcial**: indica que um ou mais ativos que estão sendo carregados contêm caracteres inválidos em seus nomes de arquivo.
+  - **Carregamento parcial**: indica que um ou mais ativos que estão sendo carregados contêm caracteres inválidos em seus nomes de arquivo.
 
-     ![](images/partial-asset-upload.png)
+    ![](images/partial-asset-upload.png)
 
-   - **Falha ao Carregar** : indica que todos os ativos que estão sendo carregados contêm caracteres inválidos em seus nomes de arquivo.
+  - **Falha ao Carregar** : indica que todos os ativos que estão sendo carregados contêm caracteres inválidos em seus nomes de arquivo.
 
-     ![](images/upload-asset-failed.png)
+    ![](images/upload-asset-failed.png)
 
   Para resolver esses conflitos, remova os caracteres inválidos dos nomes de arquivo dos ativos e, em seguida, faça upload deles novamente para o repositório.
 
@@ -404,9 +404,9 @@ As várias opções no menu Opções são explicadas abaixo:
 - **Duplicar**: use esta opção para criar uma duplicata ou uma cópia do arquivo selecionado. Você também tem a opção de renomear o arquivo duplicado no prompt Duplicar ativo. Por padrão, o arquivo é criado com um sufixo \(como nomedoarquivo\_1.extensão\). O título do arquivo permanece o mesmo do arquivo de origem, e o novo arquivo começa com a versão 1.0. Todas as referências, tags e metadados são copiados, enquanto as linhas de base não são copiadas no arquivo duplicado.
 
 - **Mover para**: use esta opção para mover o arquivo selecionado para outra pasta.
-   - Você pode digitar o nome da pasta de destino ou escolher **Selecionar caminho** para selecionar a pasta de destino.
-   - É possível mover um arquivo de qualquer tipo para qualquer destino na pasta Conteúdo.
-   - Dois arquivos não podem ter o mesmo nome. Portanto, não é possível mover um arquivo para uma pasta na qual já exista um arquivo com o mesmo nome.
+  - Você pode digitar o nome da pasta de destino ou escolher **Selecionar caminho** para selecionar a pasta de destino.
+  - É possível mover um arquivo de qualquer tipo para qualquer destino na pasta Conteúdo.
+  - Dois arquivos não podem ter o mesmo nome. Portanto, não é possível mover um arquivo para uma pasta na qual já exista um arquivo com o mesmo nome.
 
   Se você tentar mover um arquivo para uma pasta onde existe um arquivo com o mesmo nome mas com um título diferente, a caixa de diálogo Renomear e mover arquivo é exibida e você precisa renomear o arquivo antes de movê-lo. O arquivo movido na pasta de destino tem o novo nome de arquivo.
 
@@ -420,9 +420,9 @@ As várias opções no menu Opções são explicadas abaixo:
 
   O Experience Manager Guides não permite renomear ou mover um arquivo nos seguintes cenários:
 
-   - Não é possível mover ou renomear um arquivo se ele fizer parte de um fluxo de trabalho de revisão ou tradução.
+  - Não é possível mover ou renomear um arquivo se ele fizer parte de um fluxo de trabalho de revisão ou tradução.
 
-   - Se qualquer outro usuário bloquear o arquivo, você não poderá renomeá-lo ou movê-lo. Você não visualizará a opção Renomear ou Mover para do arquivo.
+  - Se qualquer outro usuário bloquear o arquivo, você não poderá renomeá-lo ou movê-lo. Você não visualizará a opção Renomear ou Mover para do arquivo.
 
   >[!NOTE]
   >
@@ -435,30 +435,30 @@ As várias opções no menu Opções são explicadas abaixo:
   </details>
 
 - **Renomear**: use esta opção para renomear o arquivo selecionado. Digite o nome do novo arquivo na caixa de diálogo **Renomear ativo**.
-   - É possível renomear arquivos de qualquer tipo.
-   - Não é possível alterar a extensão de um arquivo.
-   - Dois arquivos não podem ter o mesmo nome. Portanto, não é possível renomear um arquivo com um nome que já existe. Um erro é exibido.
+  - É possível renomear arquivos de qualquer tipo.
+  - Não é possível alterar a extensão de um arquivo.
+  - Dois arquivos não podem ter o mesmo nome. Portanto, não é possível renomear um arquivo com um nome que já existe. Um erro é exibido.
 
 - **Excluir**: use esta opção para excluir o arquivo selecionado. Um prompt de confirmação é exibido antes de excluir o arquivo.
 
-   - Um prompt de confirmação é exibido antes de excluir o arquivo.
-   - Se o arquivo não for referenciado a partir de outro arquivo, ele será excluído e uma mensagem de sucesso será exibida.
-   - Se o arquivo estiver bloqueado, não será possível excluí-lo e uma mensagem de erro será exibida.
+  - Um prompt de confirmação é exibido antes de excluir o arquivo.
+  - Se o arquivo não for referenciado a partir de outro arquivo, ele será excluído e uma mensagem de sucesso será exibida.
+  - Se o arquivo estiver bloqueado, não será possível excluí-lo e uma mensagem de erro será exibida.
 
-     >[!NOTE]
-     >
-     > Se o administrador tiver impedido a exclusão de arquivos bloqueados, somente a mensagem de erro será exibida. Para obter mais detalhes, consulte *Impedir exclusão de arquivos com check-out* na seção Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service.
+    >[!NOTE]
+    >
+    > Se o administrador tiver impedido a exclusão de arquivos bloqueados, somente a mensagem de erro será exibida. Para obter mais detalhes, consulte *Impedir exclusão de arquivos com check-out* na seção Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service.
 
-   - Se o arquivo for adicionado a uma coleção, a caixa de diálogo **Forçar Exclusão** será exibida e você poderá excluí-la à força.
-   - Se o arquivo for referenciado a partir de qualquer outro arquivo, a caixa de diálogo **Forçar Exclusão** com a mensagem de confirmação será exibida e você poderá forçar a exclusão do arquivo:
+  - Se o arquivo for adicionado a uma coleção, a caixa de diálogo **Forçar Exclusão** será exibida e você poderá excluí-la à força.
+  - Se o arquivo for referenciado a partir de qualquer outro arquivo, a caixa de diálogo **Forçar Exclusão** com a mensagem de confirmação será exibida e você poderá forçar a exclusão do arquivo:
 
-     ![](images/options-menu-force-delete.png){width="300"}
+    ![](images/options-menu-force-delete.png){width="300"}
 
-     >[!NOTE]
-     >
-     > Se o administrador concedeu permissão para excluir o arquivo, a **Exclusão Forçada** será habilitada. Senão, **Forçar Exclusão** está desabilitado e será exibida uma mensagem informando que você não tem permissão para excluir os arquivos referenciados. Para obter mais detalhes, consulte *Impedir exclusão dos arquivos referenciados* na seção Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service.
+    >[!NOTE]
+    >
+    > Se o administrador concedeu permissão para excluir o arquivo, a **Exclusão Forçada** será habilitada. Senão, **Forçar Exclusão** está desabilitado e será exibida uma mensagem informando que você não tem permissão para excluir os arquivos referenciados. Para obter mais detalhes, consulte *Impedir exclusão dos arquivos referenciados* na seção Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service.
 
-   - Se você excluir um tópico referenciado e tiver aberto o arquivo contendo referências para edição, ele mostrará o link corrompido para o arquivo referenciado.
+  - Se você excluir um tópico referenciado e tiver aberto o arquivo contendo referências para edição, ele mostrará o link corrompido para o arquivo referenciado.
 
   >[!NOTE]
   >
@@ -467,15 +467,15 @@ As várias opções no menu Opções são explicadas abaixo:
 - **Gerar**: use a opção para publicar um mapa ou tópicos em um mapa em uma página do Sites, Fragmento de Conteúdo ou Fragmento de Experiência.
 
 - **Adicionar a**: você pode escolher entre as seguintes opções:
-   - **Coleções**: adiciona o arquivo selecionado às Coleções. Você pode optar por adicioná-la a uma coleção existente ou nova.
+  - **Coleções**: adiciona o arquivo selecionado às Coleções. Você pode optar por adicioná-la a uma coleção existente ou nova.
 
-   - **Conteúdo reutilizável**: adiciona o arquivo selecionado à lista de conteúdo reutilizável no painel esquerdo.
+  - **Conteúdo reutilizável**: adiciona o arquivo selecionado à lista de conteúdo reutilizável no painel esquerdo.
 
 - **Copiar**: você pode escolher entre as seguintes opções:
 
-   - **Copiar UUUID**: Copiar a UUID do arquivo selecionado para a Área de Transferência.
+  - **Copiar UUUID**: Copiar a UUID do arquivo selecionado para a Área de Transferência.
 
-   - **Copiar Caminho**: Copie o caminho completo do arquivo selecionado para a Área de Transferência.
+  - **Copiar Caminho**: Copie o caminho completo do arquivo selecionado para a Área de Transferência.
 
 - **Reprocessar ativo**: aciona o processamento para o ativo selecionado.
 
@@ -533,7 +533,7 @@ As seguintes opções estão disponíveis para um arquivo de mapa na exibição 
 
 Você pode executar as seguintes ações usando o menu Opções do arquivo de mapa:
 
-![](images/options-menu-map-view_cs.png){  }
+![](images/options-menu-map-view_cs.png)
 
 - **Editar**: abrir o arquivo de mapa para edição no Editor de Mapa.
 
@@ -550,21 +550,25 @@ Você pode executar as seguintes ações usando o menu Opções do arquivo de ma
 - **Visualização**: abrir uma visualização do arquivo de mapa. Nesta exibição, todos os arquivos de tópico no mapa são mostrados em uma única exibição unificada página por página.
 
 - **Copiar**: você pode escolher entre as seguintes opções:
-   - **Copiar UUUID**: Copiar a UUID do arquivo de mapa para a Área de Transferência.
-   - **Copiar Caminho**: Copiar o caminho completo do arquivo de mapa para a Área de Transferência.
+  - **Copiar UUUID**: Copiar a UUID do arquivo de mapa para a Área de Transferência.
+  - **Copiar Caminho**: Copiar o caminho completo do arquivo de mapa para a Área de Transferência.
 
 - **Localizar no explorador**: mostra o local do arquivo de mapa no explorador\(ou DAM\).
 
 - **Adicionar a**: você pode escolher entre as seguintes opções:
-   - **Coleções**: adiciona o arquivo de mapa às coleções. Você pode optar por adicioná-la a uma coleção existente ou nova.
+  - **Coleções**: adiciona o arquivo de mapa às coleções. Você pode optar por adicioná-la a uma coleção existente ou nova.
 
-   - **Conteúdo reutilizável**: adiciona o arquivo de mapa à lista de conteúdo reutilizável no painel esquerdo.
+  - **Conteúdo reutilizável**: adiciona o arquivo de mapa à lista de conteúdo reutilizável no painel esquerdo.
 
 - **Propriedades**: use esta opção para abrir a página de propriedades do arquivo de mapa. Essa página de propriedades também pode ser acessada na interface do usuário do Assets selecionando um arquivo e o ícone Propriedades na barra de ferramentas.
 
 - **Abrir painel de mapa**: abre o painel de mapa.
 
 - **Exibir na Interface do Usuário do Assets**: use esta opção para mostrar uma visualização do arquivo de mapa na Interface do Usuário do Assets. Nesta exibição, todos os arquivos de tópico no mapa são mostrados em uma única exibição unificada página por página.
+- **Executar verificação de integridade**: Habilite esta opção para executar verificações de integridade no mapa selecionado. Para obter mais detalhes sobre este recurso, exiba [Recursos adicionais no Editor de mapa](./map-editor-other-features.md#run-health-check-on-a-map).
+  >[!NOTE]
+  >
+  > Esse recurso é ativado por padrão. Se preferir não usar esse recurso em seu ambiente, entre em contato com a equipe de Sucesso do cliente.
 - **Baixar mapa**: selecione esta opção para abrir a caixa de diálogo **Baixar mapa**.
 
   Na caixa de diálogo **Baixar Mapa**, você pode escolher as seguintes opções:
@@ -584,7 +588,6 @@ Você pode executar as seguintes ações usando o menu Opções do arquivo de ma
   >[!NOTE]
   >
   >  Por padrão, os mapas baixados permanecem por cinco dias na Caixa de entrada de notificação do Adobe Experience Manager.
-
 - **Fechar contexto do mapa**: fecha o arquivo de mapa.
 
 A captura de tela a seguir mostra o menu Opções de um arquivo na exibição de mapa:
@@ -606,8 +609,8 @@ Você pode executar as seguintes ações usando o menu Opções:
 
 - **Visualização**: obtenha uma visualização rápida do arquivo (.dita, .xml, áudio, vídeo ou imagem) sem abri-lo. É possível redimensionar o painel de visualização. Se o conteúdo contiver qualquer `<xref>` ou `<conref>`, você poderá selecioná-lo para abri-lo em uma nova guia.  O título do arquivo aparece na janela. Se nenhum título estiver presente, o nome do arquivo será exibido. Para fechar o painel **Visualização**, você pode selecionar o ícone de fechamento ou selecionar qualquer lugar fora do painel.
 - **Copiar**: você pode escolher entre as seguintes opções:
-   - **Copiar UUUID**: Copiar a UUID do arquivo selecionado para a Área de Transferência.
-   - **Copiar Caminho**: copia o caminho completo do arquivo selecionado para a Área de Transferência.
+  - **Copiar UUUID**: Copiar a UUID do arquivo selecionado para a Área de Transferência.
+  - **Copiar Caminho**: copia o caminho completo do arquivo selecionado para a Área de Transferência.
 
 
 - **Localizar no explorador**: mostra o local do arquivo selecionado no explorador \(ou DAM\).
@@ -616,9 +619,9 @@ Você pode executar as seguintes ações usando o menu Opções:
 - **Recolher tudo**: Recolher todos os tópicos que fazem parte do arquivo de mapa atual.
 
 - **Adicionar a**: você pode escolher entre as seguintes opções:
-   - **Coleções**: adiciona o arquivo selecionado às coleções. Você pode optar por adicioná-la a uma coleção existente ou nova.
+  - **Coleções**: adiciona o arquivo selecionado às coleções. Você pode optar por adicioná-la a uma coleção existente ou nova.
 
-   - **Conteúdo reutilizável**: adiciona o arquivo selecionado à lista de conteúdo reutilizável no painel esquerdo.
+  - **Conteúdo reutilizável**: adiciona o arquivo selecionado à lista de conteúdo reutilizável no painel esquerdo.
 
 - **Propriedades**: use esta opção para abrir a página de propriedades do arquivo selecionado. Essa página de propriedades também pode ser acessada na interface do usuário do Assets selecionando um arquivo e o ícone Propriedades na barra de ferramentas.
 
@@ -773,10 +776,10 @@ Você pode definir as seguintes configurações da ferramenta Ponto de acesso:
 - **Ação**: você pode optar por pesquisar as chaves do glossário **Manualmente para cada tópico** ou **Automaticamente para todos os tópicos**. Se você escolher **Manualmente para cada tópico**, ele solicitará que você confirme antes de converter cada termo em cada tópico. Se você escolher **Automaticamente para todos os tópicos**, ele converterá automaticamente todos os termos em todos os tópicos.
 - **Converter**: você pode converter um **Texto pesquisado em termo de glossário** ou **Termo do glossário em texto.**
 - **Opções**: você pode selecionar entre as seguintes opções:
-   - **Correspondência que diferencia maiúsculas de minúsculas**: procura um termo para localizar a correspondência que tem a mesma capitalização. Por exemplo, &quot;USB&quot; não corresponderá a &quot;usb&quot;.
-   - **Converter apenas a primeira instância**: se várias instâncias do termo pesquisado estiverem presentes em um tópico, somente a primeira instância será convertida.
-   - **Bloquear arquivo antes da conversão**: o arquivo pesquisado é bloqueado antes da conversão dos termos.
-   - **Criar uma nova versão após a conversão**: uma nova versão do tópico é criada após a conclusão da conversão dos termos.
+  - **Correspondência que diferencia maiúsculas de minúsculas**: procura um termo para localizar a correspondência que tem a mesma capitalização. Por exemplo, &quot;USB&quot; não corresponderá a &quot;usb&quot;.
+  - **Converter apenas a primeira instância**: se várias instâncias do termo pesquisado estiverem presentes em um tópico, somente a primeira instância será convertida.
+  - **Bloquear arquivo antes da conversão**: o arquivo pesquisado é bloqueado antes da conversão dos termos.
+  - **Criar uma nova versão após a conversão**: uma nova versão do tópico é criada após a conclusão da conversão dos termos.
 - O botão **Avançar** será exibido se você selecionar **Manualmente para cada tópico**. Selecione **Avançar** para converter os termos de cada tópico com base nas configurações selecionadas. Ele solicita a conversão de termos em cada tópico e passa para o próximo arquivo. Você pode optar por converter um termo ou ignorá-lo e passar para o próximo termo.
 
   ![](images/manual-convert-skip.png){width="300"}
@@ -1101,8 +1104,8 @@ Para inserir um trecho, use um dos seguintes métodos:
 
 - Selecione um trecho no painel Snippets e arraste-o e solte-o no local desejado no seu tópico. Também é possível usar as opções de filtro na parte superior do painel Fragmentos para refinar a visualização:
 
-   - **Mostrar todos os trechos**: lista todos os trechos disponíveis, incluindo os formatos DITA e HTML.
-   - **Mostrar apenas os trechos aplicáveis**: Filtra a lista para mostrar apenas os trechos relevantes ao seu tópico ou contexto atual. Por exemplo, se estiver trabalhando em um tópico DITA, os trechos de HTML serão excluídos da lista para garantir a precisão contextual.
+  - **Mostrar todos os trechos**: lista todos os trechos disponíveis, incluindo os formatos DITA e HTML.
+  - **Mostrar apenas os trechos aplicáveis**: Filtra a lista para mostrar apenas os trechos relevantes ao seu tópico ou contexto atual. Por exemplo, se estiver trabalhando em um tópico DITA, os trechos de HTML serão excluídos da lista para garantir a precisão contextual.
 
 - Posicione o ponto de inserção onde deseja inserir o trecho. No menu Opções do trecho necessário, escolha Inserir trecho.
 
@@ -1195,14 +1198,14 @@ Para executar a pesquisa global e substituir pelo modo Source, execute as seguin
    - **Estado do documento**: você pode selecionar um estado de documento nas opções disponíveis. As opções de estado do documento exibidas são derivadas dos perfis de Pasta. Eles representam o conjunto combinado de todos os estados de documento possíveis nesses perfis. Os estados padrão incluem Em revisão, Concluído, Rascunho, Aprovado, Editar e Revisado.
    - **Última modificação**: filtrar conteúdo com base na data de modificação. Selecione um intervalo de datas no calendário ou escolha uma das seguintes opções de intervalo de tempo:
 
-      - Nas últimas 2 horas
-      - Na semana passada
-      - No mês passado
-      - No ano passado
+     - Nas últimas 2 horas
+     - Na semana passada
+     - No mês passado
+     - No ano passado
    - **Outros**: você pode configurar o seguinte:
-      - **Marcas**: filtrar conteúdo com base em marcas.
-      - **Pesquisa que diferencia maiúsculas de minúsculas**: habilita a pesquisa, garantindo que os resultados correspondam à letra exata de maiúsculas e minúsculas especificada.
-      - **Listar arquivos bloqueados por outros**: exibe os arquivos bloqueados por outros usuários, impedindo edições até que o bloqueio seja liberado.
+     - **Marcas**: filtrar conteúdo com base em marcas.
+     - **Pesquisa que diferencia maiúsculas de minúsculas**: habilita a pesquisa, garantindo que os resultados correspondam à letra exata de maiúsculas e minúsculas especificada.
+     - **Listar arquivos bloqueados por outros**: exibe os arquivos bloqueados por outros usuários, impedindo edições até que o bloqueio seja liberado.
 
 1. Pressione Enter ou selecione o ícone **Pesquisar** para realizar a pesquisa.
 
@@ -1365,8 +1368,8 @@ Para exibir os comentários de revisão nas tarefas de revisão ativas que estã
 
      A caixa de diálogo **Filtro** também inclui as seguintes opções que podem ser habilitadas ou desabilitadas usando a opção:
 
-      - **Tarefas iniciadas por mim**: quando habilitado, exibe somente as tarefas que você iniciou.
-      - **Mostrar somente tarefas ativas**: quando habilitado, filtra a lista de projetos para exibir somente as tarefas que estão ativas no momento.
+     - **Tarefas iniciadas por mim**: quando habilitado, exibe somente as tarefas que você iniciou.
+     - **Mostrar somente tarefas ativas**: quando habilitado, filtra a lista de projetos para exibir somente as tarefas que estão ativas no momento.
 
      Por padrão, ambas as opções estão desativadas. Além disso, o estado de alternância selecionado é mantido mesmo após a atualização da página.
 

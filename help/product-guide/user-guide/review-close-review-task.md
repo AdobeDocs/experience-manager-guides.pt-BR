@@ -12,18 +12,14 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: f6b42924258ff1092eb492dfdcc348f9247886f7
+source-git-commit: 7d0c757b647a2e6c5e563f0ed7db6a7225769033
 workflow-type: tm+mt
-source-wordcount: 604
+source-wordcount: 637
 ht-degree: 0%
 
 ---
 
 # Solicitar uma revisão ou fechar uma tarefa de revisão como um Autor
-
->[!IMPORTANT]
->
-> Os novos recursos descritos neste artigo são ativados por padrão com a versão 2508 do Experience Manager Guides as a Cloud Service. As revisões criadas antes da migração não são afetadas e continuarão a usar o fluxo de trabalho anterior. Se preferir continuar usando os recursos existentes sem essas atualizações, entre em contato com a equipe de Sucesso do cliente para desabilitar os novos recursos.
 
 Quando uma tarefa de revisão é marcada como concluída por um Revisor, uma notificação é disparada para o iniciador da tarefa, permitindo que ele acesse e revise a tarefa e os comentários relacionados no nível da tarefa.
 
@@ -31,6 +27,10 @@ Como iniciador da tarefa de revisão, você pode decidir como proceder com base 
 
 - Solicitar uma revisão
 - Fechar a tarefa de revisão
+
+>[!NOTE]
+>
+> Se o recurso Delegar estiver habilitado para o seu ambiente, um Revisor também poderá solicitar [adicionar outro revisor à tarefa de revisão](./review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer). Essas solicitações aparecem no formato de notificações na Caixa de entrada do AEM. Se o revisor recomendado não fizer parte do projeto associado, você terá a opção de adicioná-lo ao projeto primeiro. Caso contrário, você será direcionado para a guia **REVISORES** da página **Detalhes da Tarefa** para adicionar o revisor recomendado à tarefa de revisão. A decisão de adicionar o revisor recomendado sempre depende de você como iniciador da tarefa de revisão.
 
 ## Solicitar uma revisão ou fechar uma tarefa de revisão
 

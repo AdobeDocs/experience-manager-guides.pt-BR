@@ -20,9 +20,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: 550ca219c5664b33e5a4a3db74ff3cade05e0c68
 workflow-type: tm+mt
-source-wordcount: 6443
+source-wordcount: 6454
 ht-degree: 0%
 
 ---
@@ -297,13 +297,13 @@ A captura de tela a seguir destaca o conteúdo excluído e inserido junto com as
 
   As seguintes operações podem ser executadas em um documento com Tags:
 
-   - **Selecionar um elemento**: selecione a marca de abertura ou de fechamento de um elemento para selecionar seu conteúdo.
+  - **Selecionar um elemento**: selecione a marca de abertura ou de fechamento de um elemento para selecionar seu conteúdo.
 
-   - **Expandir ou recolher marcas**: selecione as marcas + ou - para expandir ou recolher uma marca.
+  - **Expandir ou recolher marcas**: selecione as marcas + ou - para expandir ou recolher uma marca.
 
-   - **Usar o menu de contexto**: o menu de contexto fornece opções para recortar, copiar ou colar o elemento selecionado. Também é possível inserir um elemento antes ou depois do elemento selecionado. As outras opções permitem Gerar ID ou abrir o painel Propriedades do elemento selecionado.
+  - **Usar o menu de contexto**: o menu de contexto fornece opções para recortar, copiar ou colar o elemento selecionado. Também é possível inserir um elemento antes ou depois do elemento selecionado. As outras opções permitem Gerar ID ou abrir o painel Propriedades do elemento selecionado.
 
-   - **Arrastar e soltar elementos**: selecione a marca de um elemento e arraste-a e solte-a facilmente no seu documento. Se o local de destino for um local válido onde o elemento é permitido, o elemento será colocado no local de destino.
+  - **Arrastar e soltar elementos**: selecione a marca de um elemento e arraste-a e solte-a facilmente no seu documento. Se o local de destino for um local válido onde o elemento é permitido, o elemento será colocado no local de destino.
 
 
   >[!NOTE]
@@ -463,6 +463,18 @@ O campo **Caminho do Source** mostra o caminho relativo da referência seleciona
 O campo **UUID do Source** mostra a UUID da referência selecionada. Use o botão **Copiar UUID** para copiar a UUID.
 
 Você pode redimensionar uma imagem fornecendo o valor de Altura ou Largura para o arquivo de imagem. A proporção da imagem é mantida automaticamente. Se desejar, você também pode optar por não manter as proporções do arquivo de imagem selecionando o ícone de cadeado \(de Manter Proporções\) e fornecendo valores de Altura e Largura.
+
+No Novo editor, você também pode redimensionar uma imagem arrastando suas alças no modo Autor:
+
+- **Alças de canto**: arrastar as alças de canto redimensiona a imagem, mantendo sua taxa de proporção.
+
+  ![](images/resize-corner-handles.png)
+
+- **Identificadores do meio**: pressione **Shift** para revelar identificadores do meio adicionais. Arrastar esses itens redimensiona a imagem sem manter a taxa de proporção, permitindo aumentar ou diminuir a altura ou a largura independentemente.
+
+  ![](images/resize-middle-handles.png)
+
+Conforme você arrasta, os valores de Altura e Largura no painel **Propriedades de conteúdo** são atualizados automaticamente para refletir as novas dimensões. Esse redimensionamento também é refletido no modo **Lado a lado** e no modo **Visualização**, para que você possa confirmar como a imagem redimensionada aparecerá antes da publicação.
 
 Você também pode especificar a configuração de Posicionamento para a imagem como Em linha ou Quebra. Caso opte por usar a opção Inserção de quebra, é possível escolher onde alinhar a imagem (esquerda, centro ou direita).
 

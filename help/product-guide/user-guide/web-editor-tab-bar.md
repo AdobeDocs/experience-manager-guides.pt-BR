@@ -16,9 +16,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
+source-git-commit: 018c2332a9e5a4ce8fb683a8cb0bcf859977922c
 workflow-type: tm+mt
-source-wordcount: 566
+source-wordcount: 671
 ht-degree: 0%
 
 ---
@@ -69,14 +69,22 @@ Uma ferramenta avançada orientada por IA, projetada para melhorar a produtivida
 >
 > O recurso Assistente de IA está disponível no momento para o Adobe Experience Manager Guides as a Cloud Service.
 
+**IA de guias**
+
+Traz para o editor habilidades inteligentes e agenciais de marcação inteligente do Colaborador corporativo do Adobe CX, permitindo a marcação de conteúdo natural e conversacional. Ele analisa seu conteúdo, recomenda tags relevantes e ajuda a aplicar metadados consistentes e precisos com o mínimo esforço. Você pode revisar as tags sugeridas e optar por aplicá-las ou rejeitá-las antes de confirmar sua seleção, melhorando a organização e a visibilidade do conteúdo.
+
+>[!NOTE]
+>
+> Para usar o recurso de IA do Guides em seu ambiente, entre em contato com a equipe de Sucesso do cliente. Após ativar o recurso, os administradores podem ativá-lo ou desativá-lo nas Configurações do Workspace. Somente uma experiência de IA pode ser ativada por vez; o Guides AI ou o Assistente de IA.
+
 **Expandir exibição**: permite expandir a exibição de página usando o ícone **Expandir**. Nesta visualização, a barra de cabeçalho que contém o logotipo do Adobe Experience Manager está oculta. Isso maximiza o espaço de conteúdo para edição. Para retornar ao modo de exibição padrão, use o ícone **Sair do modo de exibição expandido**.
 
 **Mais ações**: fornece acesso a opções adicionais. Selecionar esse botão abre um menu com as seguintes opções:
 
 - **Assets**: leva você a um destino com base em sua configuração.
-   - **Serviços em Nuvem**: se você estiver usando os Serviços em Nuvem, selecionar a opção **Assets** o levará à página Navegação da AEM.
+  - **Serviços em Nuvem**: se você estiver usando os Serviços em Nuvem, selecionar a opção **Assets** o levará à página Navegação da AEM.
 
-   - **Software Local**: se estiver usando o Adobe Experience Manager Guides (4.2.1 e posterior), selecionar a opção **Assets** levará você ao caminho do arquivo atual na interface do usuário do Assets.
+  - **Software Local**: se estiver usando o Adobe Experience Manager Guides (4.2.1 e posterior), selecionar a opção **Assets** levará você ao caminho do arquivo atual na interface do usuário do Assets.
 - **Configurações do Workspace**: Leva você à caixa de diálogo de configurações do Workspace. Para obter detalhes, consulte [Definir configurações do Workspace](../install-conf-guide/workspace-settings.md).
 
 >[!NOTE]

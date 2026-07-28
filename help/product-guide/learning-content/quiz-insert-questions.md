@@ -13,9 +13,9 @@ feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: ff08b63bf8668fddc89c43391b3264a733a824e7
 workflow-type: tm+mt
-source-wordcount: 649
+source-wordcount: 691
 ht-degree: 0%
 
 ---
@@ -53,6 +53,13 @@ Você pode configurar as perguntas usando as seguintes propriedades de pergunta 
 - **Multa por resposta incorreta**: especifique os pontos a serem deduzidos por uma resposta incorreta.
 - **Rótulo da pergunta**: habilitar para adicionar um rótulo de pergunta.
 - **Feedback**: habilite a fornecer o feedback para resposta correta ou incorreta.
+
+  >[!NOTE]
+  >
+  > Na saída publicada do curso, depois de tentar todas as perguntas em um questionário, os alunos podem usar a opção **Revisar respostas** para consultar novamente as respostas enviadas e ver quais respostas estavam corretas ou incorretas. Isso não requer nenhuma instalação ou configuração adicional.
+
+  ![](assets/review-answer-quiz.png){width="350"}
+
 - **Opção de fixação na posição**: quando uma opção específica para uma pergunta é fixada, ela permanece fixa na posição especificada na lista de opções, mesmo se **Randomizar opções de resposta para cada tentativa** estiver habilitada na configuração predefinida de SCORM, o que, de outra forma, reorganizaria as opções disponíveis. Você pode passar o mouse sobre a opção desejada de uma pergunta no painel Propriedades de conteúdo e fixá-la.
 
   ![](assets/pin-question.png){width="350"}

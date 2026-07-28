@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: fd5e1e85933eb2785b0a74b0fa49fec1da4ca0c2
 workflow-type: tm+mt
-source-wordcount: 1303
+source-wordcount: 1396
 ht-degree: 0%
 
 ---
@@ -67,6 +67,10 @@ A guia **Geral** contém as seguintes opções de configuração:
 - Filtragem condicional \(Se as condições forem definidas para um mapa\)
 - Usar linha de base \(Se uma linha de base for criada para um mapa\)
 - Fluxo de trabalho de pós-geração
+
+>[!NOTE]
+>
+>Se o [recurso de verificação de integridade](../install-conf-guide/conf-health-check-preset.md) estiver configurado para o perfil da pasta, um botão **Executar verificação de integridade antes da geração de saída** adicional será exibido na guia Geral. Use-a para que uma verificação de integridade seja executada automaticamente sempre que você gerar uma saída com essa predefinição, de modo que não seja necessário acioná-la manualmente no mapa. O relatório é anexado ao log de publicação e é meramente informativo. Ele não bloqueará ou atrasará sua saída, mesmo se a verificação encontrar erros ou avisos não resolvidos. Saiba mais sobre [como usar o recurso de verificação de integridade no Experience Manager Guides](./map-editor-other-features.md#run-health-check-on-a-map).
 
 **Avançado**
 

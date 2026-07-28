@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: e5812ebac255dc10f4b6bf7287cfaede92354e70
 workflow-type: tm+mt
-source-wordcount: 1233
+source-wordcount: 1526
 ht-degree: 0%
 
 ---
@@ -51,9 +51,9 @@ No Editor, o painel direito contém os ícones Revisar e Controlar alterações.
 
 - **B:** Selecione **Detalhes da revisão** ![](images/active-review-info-icon.svg) no painel **Comentários** para exibir mais informações sobre a tarefa de revisão:
 
-   - **Nome**: nome da tarefa de revisão.
-   - **Versão de Revisão**: Exibe a versão associada à tarefa de revisão selecionada. Isso ajuda a rastrear a versão que você compartilhou para revisão
-   - **Status**: status atual da tarefa de revisão.
+  - **Nome**: nome da tarefa de revisão.
+  - **Versão de Revisão**: Exibe a versão associada à tarefa de revisão selecionada. Isso ajuda a rastrear a versão que você compartilhou para revisão
+  - **Status**: status atual da tarefa de revisão.
 
   >[!NOTE]
   >
@@ -90,7 +90,8 @@ No Editor, o painel direito contém os ícones Revisar e Controlar alterações.
 - **I**: aplicar um filtro aos comentários. Você pode filtrar para exibir comentários com base no Tipo de revisão \(todos, destacados, excluídos, inseridos ou nota adesiva\), Status da revisão \(todos, aceitos, rejeitados ou nenhum\), Revisores \(todos ou revisores específicos\(s\)\) ou Versões de tópico. Por padrão, nenhum dos filtros é selecionado.
 
   ![](images/review-comments-author-filter.png){width="350"}
-  **Responder a um comentário marcando outros usuários**
+
+**Responder a um comentário marcando outros usuários**
 
 Como Autor e iniciador da tarefa de revisão, você pode responder a comentários de revisão e marcar outros usuários envolvidos na mesma tarefa de revisão para direcionar sua atenção ou atribuir acompanhamentos. Essa funcionalidade só está disponível para tarefas de revisão ativas.
 
@@ -108,5 +109,28 @@ Os usuários marcados recebem um email e uma notificação do AEM, garantindo qu
 Se você for o iniciador ou o Autor de uma tarefa de revisão e abri-la no **console de Projetos**, o tópico será iniciado na interface de Revisão. Como essa tarefa não está atribuída a você, você pode exibir e responder aos comentários, mas não pode executar nenhuma ação de revisão. A barra de ferramentas de comentários permanece desativada para usuários que não estão atribuídos à tarefa.
 
 ![](images/review-comments-toolbar-disabled.png){width="350"}
+
+## Exibir todas as tarefas de revisão de um tópico
+
+>[!NOTE]
+>
+> Esse recurso é ativado por padrão. Se preferir não usar esse recurso em seu ambiente, entre em contato com a equipe de Sucesso do cliente.
+
+Esse recurso permite selecionar uma tarefa de revisão (aberta ou fechada) associada ao tópico atualmente aberto no painel Comentários. Quando ativado, o painel Comentários na interface de revisão inclui uma lista suspensa que lista todas as tarefas de revisão das quais o tópico faz parte, juntamente com o estado de cada tarefa (Ativa ou Fechada) e o projeto ao qual pertence. Por padrão, a tarefa na qual você está trabalhando está marcada com uma marca **Atual**.
+
+![](./images/review-task-selection-dropdpwn.png){width="350"}
+
+Usando a lista suspensa tarefa de revisão, é possível selecionar qualquer uma dessas tarefas e passar pelos comentários, sem alternar entre projetos de revisão. Você também pode selecionar o ícone **(i)** ao lado de uma tarefa na lista suspensa para exibir os detalhes da tarefa.
+
+>[!NOTE]
+>
+> Se uma tarefa de revisão que você espera visualizar não aparecer no menu suspenso, talvez seja porque a tarefa foi criada antes desse recurso ser habilitado na sua instância. Entre em contato com o administrador para resolver o problema por [Execute a indexação para incluir todas as tarefas de revisão de um tópico no painel Comentários](../install-conf-guide/index-review-tasks.md).
+
+Ao usar esse recurso, observe que:
+
+- Alternar para um tópico diferente no Editor redefine o painel de volta para a tarefa Atual nos Comentários
+- Selecionar qualquer tarefa diferente de Atual abre a versão dessa tarefa do tópico e seus comentários no modo somente leitura. Você pode exibir os comentários, mas não pode editá-los, aceitá-los ou rejeitá-los, e a opção **Importar** está desabilitada. Somente comentários da tarefa atual podem ser importados para sua cópia de trabalho.
+- A filtragem e a pesquisa se aplicam somente aos comentários da tarefa selecionada; os comentários de outras tarefas não selecionadas não serão afetados.
+
 
 **Tópico pai:**&#x200B;[&#x200B; Introdução à revisão](review.md)
