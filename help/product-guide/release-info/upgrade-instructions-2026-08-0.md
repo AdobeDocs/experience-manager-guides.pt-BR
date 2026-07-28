@@ -28,7 +28,7 @@ Use os recursos a seguir ao desenvolver plug-ins Java personalizados ou integra�
 |---|---|---|----|
 | 2026.08.0 | 2026.8.0 | [API do AEM Guides SDK 2026.8.0](https://central.sonatype.com/artifact/com.adobe.aem/aem-dox-sdk-api/2026.8.0) | [Javadoc 2026.8.0](https://javadoc.io/doc/com.adobe.aem/aem-dox-sdk-api/latest/index.html) |
 
-Para obter mais detalhes, consulte [Configurar e usar o JAR da API do repositório central Maven](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/api-reference/introduction).
+Para obter mais detalhes, consulte [Configurar e usar o JAR da API do repositório central Maven](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using/api-reference/introduction).
 
 ### FRAMEMAKER e FRAMEMAKER PUBLISHING SERVER
 

@@ -22,7 +22,7 @@ ht-degree: 0%
 
 # Por que a exportação de metadados para uma pasta falha com a exceção &quot;A cadeia de caracteres é muito longa&quot;?
 
-Ao [exportar metadados](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/using/metadata#export-metadata) para uma pasta da interface do usuário do Assets, o trabalho de exportação pode falhar com a exceção `String is too long`. Isso normalmente acontece quando a pasta contém propriedades específicas do Experience Manager Guides que armazenam valores que não são de cadeia de caracteres, como `baselineObj`.
+Ao [exportar metadados](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/assets/using/metadata#export-metadata) para uma pasta da interface do usuário do Assets, o trabalho de exportação pode falhar com a exceção `String is too long`. Isso normalmente acontece quando a pasta contém propriedades específicas do Experience Manager Guides que armazenam valores que não são de cadeia de caracteres, como `baselineObj`.
 
 **Por que isso ocorre?**
 
