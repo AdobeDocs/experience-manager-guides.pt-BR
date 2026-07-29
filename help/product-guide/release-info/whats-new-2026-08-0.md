@@ -2,7 +2,7 @@
 title: Notas de versão | Novidades na versão 2026.08.0 do Adobe Experience Manager Guides
 description: Saiba mais sobre os recursos novos e aprimorados da versão 2026.08.0 do Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 2108fea9ba6d35a9439f672b66e5d25aeb19f0ca
+source-git-commit: b866964c30a565eab0f6f9aec4b3fc9013f15f75
 workflow-type: tm+mt
 source-wordcount: '1383'
 ht-degree: 0%
@@ -61,10 +61,9 @@ Isso dá aos revisores acesso a instruções, escopo e áreas de foco ao longo d
 
 ![](assets/review-details.png){width="350"}
 
-
 ### Identificação de usuário na lista de marcação durante a revisão
 
-Ao marcar usuários nos comentários de revisão ou respostas, a lista suspensa de marcação agora exibe o endereço de email de cada usuário junto com sua ID de usuário. Isso facilita a identificação e a seleção do revisor correto, especialmente em grandes organizações onde os nomes de exibição sozinhos podem ser ambíguos.
+Ao marcar usuários nos comentários de revisão ou respostas, a lista suspensa de marcação agora exibe o endereço de email de cada usuário junto com sua ID de usuário. Isso facilita a identificação e a seleção do Revisor correto, especialmente em grandes organizações onde os nomes de exibição sozinhos podem ser ambíguos.
 
 Se um endereço de email não estiver disponível, a ID do usuário será exibida. Para obter mais detalhes sobre como trabalhar com a Interface de revisão, exiba [Marcar usuários de tarefas em um comentário](../user-guide/review-topics.md#tag-task-users-in-a-comment).
 

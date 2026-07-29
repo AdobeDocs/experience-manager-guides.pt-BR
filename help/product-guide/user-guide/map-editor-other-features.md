@@ -15,9 +15,9 @@ subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: fd5e1e85933eb2785b0a74b0fa49fec1da4ca0c2
+source-git-commit: c3a30c22dd49ab8af898ecd2ff032101d2f9d93f
 workflow-type: tm+mt
-source-wordcount: 1281
+source-wordcount: 1285
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ A opção Executar verificação de integridade no menu de contexto permite exec
 >
 > Esse recurso é ativado por padrão. Se preferir não usar esse recurso em seu ambiente, entre em contato com a equipe de Sucesso do cliente.
 
-As verificações disponíveis para execução são definidas por uma predefinição de verificação de integridade, criada e gerenciada por um administrador no nível do perfil da pasta. Para obter detalhes, exiba [Criar e gerenciar predefinições de verificação de integridade](../install-conf-guide/conf-health-check-preset.md).
+As verificações disponíveis para execução são definidas por uma predefinição de verificação de integridade, criada e gerenciada por um administrador no nível do perfil da pasta. Para obter mais detalhes, exiba [Criar e gerenciar predefinições de verificação de integridade](../install-conf-guide/conf-health-check-preset.md).
 
 Execute as seguintes etapas para executar uma verificação de integridade em um mapa:
 
@@ -125,9 +125,9 @@ Quando você executa uma verificação de integridade para um mapa, o relatório
 
 ![](./images/health-check-report-panel-editor.png)
 
-### Barra de ferramentas Relatório
+### Opções do painel de relatório de verificação de integridade
 
-A barra de ferramentas na parte superior do painel exibe o seguinte:
+As seguintes opções estão disponíveis no painel de relatório Verificação de integridade:
 
 - **Nome do mapa**: o nome do mapa para o qual o relatório foi gerado.
 - **Ícone de informações**: selecione para exibir o nome predefinido, a versão do mapa e a linha de base (se houver) usada para gerar o relatório.

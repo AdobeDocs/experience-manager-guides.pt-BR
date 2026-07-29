@@ -4,7 +4,7 @@ description: Conheça a página inicial da Adobe Experience Manager Guides.
 feature: Authoring
 role: User
 exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
-source-git-commit: 018c2332a9e5a4ce8fb683a8cb0bcf859977922c
+source-git-commit: b866964c30a565eab0f6f9aec4b3fc9013f15f75
 workflow-type: tm+mt
 source-wordcount: '2247'
 ht-degree: 0%
@@ -50,6 +50,7 @@ Os recursos disponíveis na barra de navegação são explicados da seguinte man
   No momento, o recurso [Assistente de IA](./ai-assistant.md) está disponível apenas para o Adobe Experience Manager as Cloud Service.
 
 - **IA de Guias**: traz para o Editor habilidades inteligentes e agenciais de marcação inteligente do Colaborador corporativo do Adobe CX, permitindo a marcação de conteúdo natural e de conversação. Ele analisa seu conteúdo, recomenda tags relevantes e ajuda a aplicar metadados consistentes e precisos com o mínimo esforço. Você pode revisar as tags sugeridas e optar por aplicá-las ou rejeitá-las antes de confirmar sua seleção. A [IA de guias](../user-guide/guides-ai.md) simplifica o processo de marcação, melhorando a organização e a descoberta do conteúdo.
+
 
   >[!NOTE]
   >

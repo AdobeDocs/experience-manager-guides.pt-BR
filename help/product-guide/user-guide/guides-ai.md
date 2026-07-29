@@ -1,7 +1,7 @@
 ---
 title: IA de guias para o recurso de marcação inteligente
 description: Saiba como usar a IA de guias para o recurso de marcação inteligente para tópicos e mapas em uma única operação.
-source-git-commit: 75954eab3ac1738705fe2a7280973af39b9214df
+source-git-commit: b866964c30a565eab0f6f9aec4b3fc9013f15f75
 workflow-type: tm+mt
 source-wordcount: '1276'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Os seguintes componentes da IA do Guides ajudam a adicionar arquivos, configurar
 
 - **(D)** Espaço de resposta: revise as recomendações de marcas geradas pela IA e escolha aceitá-las, rejeitá-las ou modificá-las antes de aplicar as marcas.
 - **(E)** Espaço de prompt: insira uma solicitação de prompt para gerar recomendações de marca para o conteúdo selecionado.
-- **(F)** Anexar arquivos ou adicionar contexto: Adicione tópicos, mapas ou arquivos externos de seu sistema local para fornecer o conteúdo que a IA de Guias deve analisar para as recomendações de marca.
+- **(F)** Anexar arquivos ou adicionar contexto: adiciona tópicos, mapas ou arquivos externos de seu sistema local para fornecer o conteúdo que a IA de Guias deve analisar para as recomendações de marca.
 - Modelo **(G)**: exibe o modelo de IA usado para analisar o conteúdo e gerar recomendações de marca. Vários modelos OpenAI e Anthropic Claude estão disponíveis para seleção. Por padrão, a opção **Usar padrão do manifesto** está selecionada, que usa o modelo configurado para o assistente selecionado.
 - **(H)** Enviar: envia seu prompt e o conteúdo anexado para gerar recomendações de marca habilitada por IA.
 

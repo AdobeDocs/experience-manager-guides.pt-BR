@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a668e1b862702ae1154b05d974414b54b43559ea
+source-git-commit: c3a30c22dd49ab8af898ecd2ff032101d2f9d93f
 workflow-type: tm+mt
-source-wordcount: 3068
+source-wordcount: 3064
 ht-degree: 0%
 
 ---
@@ -280,11 +280,11 @@ Se a tarefa de revisão for criada com um ou mais arquivos DITAVAL anexados, o p
 
 >[!BEGINTABS]
 
->[!TAB Painel de condições (sem condição baseada em DITAVAL)]
+>[!TAB Painel Condições (sem DITAVAL)]
 
 ![](./images/review-conditions-panel.png){width="350"}
 
->[!TAB Painel de condições (com condição baseada em DITAVAL)]
+>[!TAB Painel Condições (com DITAVAL)]
 
 ![](./images/review-condition-panel-ditaval.png)
 
