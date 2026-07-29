@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c3a30c22dd49ab8af898ecd2ff032101d2f9d93f
+source-git-commit: 06126f77ee4db22865895739ad9af4efa787a7df
 workflow-type: tm+mt
-source-wordcount: 3064
+source-wordcount: 3089
 ht-degree: 0%
 
 ---
@@ -158,6 +158,10 @@ O painel Comentários exibe uma lista de comentários feitos sobre o tópico atu
 Os comentários são exibidos na ordem do texto comentado no documento. Por exemplo, há um comentário de destaque na primeira frase e um comentário de texto de inserção na segunda frase do primeiro parágrafo, depois o comentário de texto de destaque é exibido antes do comentário de texto inserido.
 
 As tarefas que você pode executar usando o painel Comentários estão descritas abaixo:
+
+- Use o ícone de informações ![](./images/info-icon.svg) para exibir os detalhes da tarefa de revisão, incluindo o nome da tarefa de revisão, a versão de revisão, o status e a descrição da tarefa.
+
+  ![](./images/review-details-review-ui.png)
 
 - Selecionar um comentário realça e mostra o local do comentário correspondente no documento.
 - Você pode adicionar respostas aos comentários.
