@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leia a documentação do produto do Adobe Experience Manager Guides.
 breadcrumb-title: Documentação do AEM Guides
-source-git-commit: 5da6c5239a4118d00f3a40707759950483aafdd8
+source-git-commit: 4788cae8de3b93a008b83f8be6a42fd675b21906
 workflow-type: tm+mt
-source-wordcount: '2570'
+source-wordcount: '2575'
 ht-degree: 9%
 
 ---
@@ -217,7 +217,7 @@ ht-degree: 9%
     - [Sobre [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
     - [!DNL AEM Guides] trabalhando e os principais recursos {#aemg-works-features}
       - [Como [!DNL AEM Guides] funciona](./user-guide/intro-how-dxml-works.md)
-      - [Recursos da chave [!DNL AEM Guides] &#x200B;](./user-guide/intro-dxml-features.md)
+      - [Recursos da chave [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
   - Home page {#home-page}
     - [Experiência da página inicial [!DNL AEM Guides]](./user-guide/intro-home-page.md)
     - [Interface do repositório](./user-guide/home-page-repository-view.md)
@@ -412,6 +412,7 @@ ht-degree: 9%
       - [Configurar perfis de pasta](./lc-config-guide/lc-folder-profile.md)
       - [Práticas recomendadas para configurar a estrutura de pastas](./lc-config-guide/best-practices-folder-structure.md)
       - [Definir outras configurações](./lc-config-guide/lc-other-settings.md)
+      - [Configurar CSP para Visualização de SCORM](./lc-config-guide/guides-scorm-preview-config.md)
       - [Métricas principais do SCORM](./lc-config-guide/learning-course-parameters.md)
     - Tutoriais em vídeo {#lc-video}
       - [Fluxo de trabalho do autor](./lc-video-tutorials/author-workflow.md)
@@ -426,7 +427,7 @@ ht-degree: 9%
       - [Tempo limite da sessão](./user-guide/session-timeout-prompt.md)
       - [A sequência de caracteres é muito longa na exportação de metadados](./user-guide/metadata-export-failure.md)
 - Guia do usuário (interface antiga) {#user-guide-old-ui}
-  - [Visão geral do AEM Guides](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+  - [Visão geral do AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Instalação e configuração {#install-conf-guide}
   - [Download, instalação e atualização](./install-conf-guide/introduction.md)
   - Processo de instalação do Cloud Service {#deploy-conf-aemg-cs}
