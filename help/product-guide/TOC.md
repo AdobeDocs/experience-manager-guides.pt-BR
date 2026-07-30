@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leia a documentação do produto do Adobe Experience Manager Guides.
 breadcrumb-title: Documentação do AEM Guides
-source-git-commit: 4788cae8de3b93a008b83f8be6a42fd675b21906
+source-git-commit: 3a0184bbedb9935ed4f2171245478330063904ba
 workflow-type: tm+mt
-source-wordcount: '2575'
+source-wordcount: '2578'
 ht-degree: 9%
 
 ---
@@ -217,7 +217,7 @@ ht-degree: 9%
     - [Sobre [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
     - [!DNL AEM Guides] trabalhando e os principais recursos {#aemg-works-features}
       - [Como [!DNL AEM Guides] funciona](./user-guide/intro-how-dxml-works.md)
-      - [Recursos da chave [!DNL AEM Guides] &#x200B;](./user-guide/intro-dxml-features.md)
+      - [Recursos da chave [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
   - Home page {#home-page}
     - [Experiência da página inicial [!DNL AEM Guides]](./user-guide/intro-home-page.md)
     - [Interface do repositório](./user-guide/home-page-repository-view.md)
@@ -427,7 +427,7 @@ ht-degree: 9%
       - [Tempo limite da sessão](./user-guide/session-timeout-prompt.md)
       - [A sequência de caracteres é muito longa na exportação de metadados](./user-guide/metadata-export-failure.md)
 - Guia do usuário (interface antiga) {#user-guide-old-ui}
-  - [Visão geral do AEM Guides](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+  - [Visão geral do AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Instalação e configuração {#install-conf-guide}
   - [Download, instalação e atualização](./install-conf-guide/introduction.md)
   - Processo de instalação do Cloud Service {#deploy-conf-aemg-cs}
@@ -592,6 +592,7 @@ ht-degree: 9%
   - [API para iniciar o processamento em massa de ativos](./api-reference/bulk-assets-processing.md)
   - [Manipulador de eventos de ativação em massa concluída](./api-reference/bulk-activation-complete-event.md)
   - [Manipulador de eventos do processo de conversão](./api-reference/conversion-complete-event.md)
+  - [Criar projeto de tradução](./api-reference/create-translation-project.md)
 - Knowledge Base {#knowledge-base}
   - Sessão com especialista {#expert-session}
     - [Visão geral da sessão com especialistas](./knowledge-base/expert-sessions/expert-session.md)
