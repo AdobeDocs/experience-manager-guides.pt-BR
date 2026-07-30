@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leia a documentação do produto do Adobe Experience Manager Guides.
 breadcrumb-title: Documentação do AEM Guides
-source-git-commit: 5a4aae4385951abb8c0a577d4b7f5542c8b1dde6
+source-git-commit: 3a0184bbedb9935ed4f2171245478330063904ba
 workflow-type: tm+mt
-source-wordcount: '2573'
+source-wordcount: '2578'
 ht-degree: 9%
 
 ---
@@ -412,6 +412,7 @@ ht-degree: 9%
       - [Configurar perfis de pasta](./lc-config-guide/lc-folder-profile.md)
       - [Práticas recomendadas para configurar a estrutura de pastas](./lc-config-guide/best-practices-folder-structure.md)
       - [Definir outras configurações](./lc-config-guide/lc-other-settings.md)
+      - [Configurar CSP para Visualização de SCORM](./lc-config-guide/guides-scorm-preview-config.md)
       - [Métricas principais do SCORM](./lc-config-guide/learning-course-parameters.md)
     - Tutoriais em vídeo {#lc-video}
       - [Fluxo de trabalho do autor](./lc-video-tutorials/author-workflow.md)
@@ -591,7 +592,7 @@ ht-degree: 9%
   - [API para iniciar o processamento em massa de ativos](./api-reference/bulk-assets-processing.md)
   - [Manipulador de eventos de ativação em massa concluída](./api-reference/bulk-activation-complete-event.md)
   - [Manipulador de eventos do processo de conversão](./api-reference/conversion-complete-event.md)
-  - [Criar projeto de tradução](./api-reference/translation-project.md)
+  - [Criar projeto de tradução](./api-reference/create-translation-project.md)
 - Knowledge Base {#knowledge-base}
   - Sessão com especialista {#expert-session}
     - [Visão geral da sessão com especialistas](./knowledge-base/expert-sessions/expert-session.md)

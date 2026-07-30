@@ -2,7 +2,7 @@
 title: Notas de versão | Novidades na versão 5.2.0 do Adobe Experience Manager Guides
 description: Saiba mais sobre os recursos novos e aprimorados da versão 5.2.0 do Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 166dd4eec428d81bfe3db92ebc5a54f1760fe7dc
+source-git-commit: 3a0184bbedb9935ed4f2171245478330063904ba
 workflow-type: tm+mt
 source-wordcount: '4052'
 ht-degree: 0%
@@ -42,10 +42,10 @@ Uma interface atualizada melhora a usabilidade geral, tornando a navegação e a
 
 - **Configurações consolidadas do Editor em nível de usuário**: um novo painel de configurações centralizado que oferece aos Autores um melhor controle sobre o comportamento do editor, permitindo que os usuários gerenciem preferências com mais facilidade a partir de um único local. As opções de configuração incluem, capacidade de ativar/desativar:
 
-   - Espaços ininterruptos no modo Autor
-   - Configurações de visibilidade de tag com ou sem atributos
-   - Comentários XML no modo Autor
-   - Menu de inserção rápida para inserção de elemento no editor
+  - Espaços ininterruptos no modo Autor
+  - Configurações de visibilidade de tag com ou sem atributos
+  - Comentários XML no modo Autor
+  - Menu de inserção rápida para inserção de elemento no editor
 
   ![](assets/editor-settings-dialog.png){width="350"}
 
@@ -78,9 +78,9 @@ Fornece ferramentas aprimoradas e flexibilidade para simplificar a criação e e
 
 - **Criação de tabela aprimorada**: melhora a experiência geral de criação de tabela com interações mais intuitivas e eficientes para criar e gerenciar tabelas.
 
-   - Interações fluidas e intuitivas: insira facilmente linhas e colunas, juntamente com suporte de arrastar e soltar para reordenar linhas e colunas.
-   - Barra de ferramentas contextual: Acesse ações específicas da tabela, como formatação, alinhamento, mesclagem e outras ações adicionais diretamente na tabela.
-   - Configuração de tabelas: adicione várias linhas ou colunas em uma única ação, reduzindo etapas repetitivas e melhorando a eficiência.
+  - Interações fluidas e intuitivas: insira facilmente linhas e colunas, juntamente com suporte de arrastar e soltar para reordenar linhas e colunas.
+  - Barra de ferramentas contextual: Acesse ações específicas da tabela, como formatação, alinhamento, mesclagem e outras ações adicionais diretamente na tabela.
+  - Configuração de tabelas: adicione várias linhas ou colunas em uma única ação, reduzindo etapas repetitivas e melhorando a eficiência.
 
   ![](assets/config-table.png){width="650"}
 
@@ -415,7 +415,7 @@ Para obter detalhes, exiba [Nova experiência de linha de base (Beta) no Experie
 
 As seguintes melhorias na API foram feitas como parte desta versão:
 
-- Novas APIs são introduzidas para criar um novo projeto de tradução e rastrear seu status. Essas APIs ajudam a automatizar o processo de tradução, reduzindo o esforço manual e melhorando a eficiência. Para obter detalhes, exiba [Criar projeto de tradução](../api-reference/translation-project.md)
+- Novas APIs são introduzidas para criar um novo projeto de tradução e rastrear seu status. Essas APIs ajudam a automatizar o processo de tradução, reduzindo o esforço manual e melhorando a eficiência. Para obter detalhes, consulte [Criar projeto de tradução](../api-reference/create-translation-project.md).
 - APIs de processamento de ativos aprimoradas com capacidade de filtragem aprimorada para arquivos e pastas. Para obter detalhes, consulte [Processar ativos](../api-reference/bulk-assets-processing.md).
 - A nova API está disponível para rastrear o status de pós-processamento de ativos e pastas individuais. Isso é especialmente útil para equipes que usam fluxos de trabalho automatizados, em que a publicação precisa ocorrer somente após o conteúdo ser totalmente processado. A API oferece uma maneira confiável de confirmar a prontidão, reduzindo o risco de falhas de publicação causadas por processamento incompleto. Além disso, com a introdução dessa API, os eventos de pós-processamento de ativos não serão acionados automaticamente. Em vez disso, os administradores agora podem habilitar esse evento por meio de uma configuração no `fmdita config manager`.
 Para obter detalhes, exiba a [API para rastrear o status pós-processamento de ativos e pastas individuais](../api-reference/track-post-processing-status.md) e a [Configuração do manipulador de eventos pós-processamento no gerenciador de configuração fmdita](../api-reference/post-process-event.md)

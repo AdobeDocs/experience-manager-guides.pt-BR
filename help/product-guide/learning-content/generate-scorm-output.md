@@ -12,9 +12,9 @@ feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4433d28a41c3d9d797b38dbf732119fc3ea69f36
+source-git-commit: 1eb7ff8740855a0781a8a290275d02f1b2bc53f4
 workflow-type: tm+mt
-source-wordcount: 124
+source-wordcount: 156
 ht-degree: 0%
 
 ---
@@ -33,6 +33,11 @@ Execute as seguintes etapas para gerar uma saída SCORM:
    ![](assets/scorm-success-message.png){width="350"}
 
 1. Você pode baixar ou visualizar a saída selecionando **Baixar saída** ou **Visualizar saída**, respectivamente.
+
+   >[!NOTE]
+   >
+   > A visualização SCORM está disponível ao gerar uma saída SCORM. Se o curso depender de domínios externos para fontes, folhas de estilos ou conteúdo inserido, configure os domínios permitidos em [Configurar visualização de SCORM](../lc-config-guide/guides-scorm-preview-config.md).
+
 
    ![](assets/scorm-view-output-new.png){width="650"}
 
