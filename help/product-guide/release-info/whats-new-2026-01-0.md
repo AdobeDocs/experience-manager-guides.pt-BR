@@ -3,7 +3,7 @@ title: Notas de versão | Novidades na versão 2026.01.0 do Adobe Experience Man
 description: Saiba mais sobre os recursos novos e aprimorados da versão 2026.01.0 do Adobe Experience Manager Guides
 role: Leader
 exl-id: f24a6f4a-2754-48d9-b0ce-79229dc8dba9
-source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
+source-git-commit: 5da6c5239a4118d00f3a40707759950483aafdd8
 workflow-type: tm+mt
 source-wordcount: '1599'
 ht-degree: 0%
@@ -184,5 +184,5 @@ Para obter mais detalhes sobre o processamento de ativos, consulte [Processar at
 
 As seguintes melhorias na API foram feitas como parte desta versão:
 
-- Novas APIs são introduzidas para criar um novo projeto de tradução e rastrear seu status. Essas APIs ajudam a automatizar o processo de tradução, reduzindo o esforço manual e melhorando a eficiência. Para obter detalhes, exiba [Criar projeto de tradução](../api-reference/translation-project.md)
+- Novas APIs são introduzidas para criar um novo projeto de tradução e rastrear seu status. Essas APIs ajudam a automatizar o processo de tradução, reduzindo o esforço manual e melhorando a eficiência. Para obter detalhes, consulte [Criar projeto de tradução](../api-reference/api-update-swagger.md).
 - APIs de processamento de ativos aprimoradas com capacidade de filtragem aprimorada para arquivos e pastas. Para obter detalhes, consulte [Processar ativos](../api-reference/bulk-assets-processing.md).
