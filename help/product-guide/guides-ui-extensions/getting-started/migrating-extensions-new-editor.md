@@ -6,8 +6,8 @@ role: Admin
 level: Experienced
 source-git-commit: 75954eab3ac1738705fe2a7280973af39b9214df
 workflow-type: tm+mt
-source-wordcount: '1904'
-ht-degree: 0%
+source-wordcount: '2006'
+ht-degree: 3%
 
 ---
 
@@ -23,7 +23,7 @@ Este guia ajuda os autores de extensões a entender o que está envolvido na mov
 ## Visão geral
 
 - **Seu registro não é alterado**: Continue usando o `window.extension` / `tcx.extension.register`.
-- **A tela do Editor é uma nova superfície.** Os itens do menu de contexto devem declarar a nova identificação do widget
+- **A tela Editor é uma nova superfície.** Os itens do menu de contexto devem declarar a nova ID do widget
   `markup_editor_menu`; o comportamento no editor deve parar de tocar no DOM.
 - **Parar de ler/gravar o DOM**: substituir o acesso DOM `tcx.curEditor.*` pelo
   API `guides.editor`: [ler com `runUtil(...)`](#migrate-reads-dom-runutil), [gravar com `runCommand(...)`](#migrate-writes-dom-mutation-runcommand), [estilo com decorações](#migrate-rendering-only-logic-dom-paint-decorations) e [executar ações globais (salvar) por meio de eventos de aplicativo](#migrate-global-actions-savefocus-app-events).
