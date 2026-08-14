@@ -2,7 +2,7 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leia a documentação do produto do Adobe Experience Manager Guides.
 breadcrumb-title: Documentação do AEM Guides
-source-git-commit: 3a0184bbedb9935ed4f2171245478330063904ba
+source-git-commit: 40ec0c4ba2bb7fae03dfae32c555f03311f1de64
 workflow-type: tm+mt
 source-wordcount: '2578'
 ht-degree: 9%
@@ -550,7 +550,7 @@ ht-degree: 9%
         - [Adicionar um marcador personalizado na saída do PDF](./native-pdf/add-custom-bookmark.md)
         - [Usar o JavaScript para trabalhar com conteúdo ou estilo](./native-pdf/use-javascript-content-style.md)
         - [Aplicar estilos a notas de rodapé](./native-pdf/footnote-number-style.md)
-      - [Configurar o novo mecanismo de publicação para o PDF Nativo](./native-pdf/conf-new-pdf-engine.md)
+        - [Configurar o novo mecanismo de publicação para o PDF Nativo](./native-pdf/conf-new-pdf-engine.md)
       - [Trabalhar com o mecanismo nativo do PDF v2](./native-pdf/new-pdf-engine.md)
       - [Configurar o processo de nó para publicação nativa do PDF para Cloud Service](./native-pdf/conf-node-options-cs.md)
       - [Configurar sinalizadores JVM para publicação nativa do PDF no local](./native-pdf/conf-jvm-flags-on-prem.md)
