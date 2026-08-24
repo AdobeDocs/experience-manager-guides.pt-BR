@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: eb30be6342a50ba52e8afd8b4a31148b3ad9c340
+source-git-commit: f8123b54fae2aa209efda73abb333e63cf722708
 workflow-type: tm+mt
-source-wordcount: 1352
+source-wordcount: 1409
 ht-degree: 0%
 
 ---
@@ -115,7 +115,9 @@ Execute as seguintes etapas para importar conteúdo de um repositório Git:
 
    >[!NOTE]
    >
-   > Você pode habilitar a **Sincronização automática** para sincronizar e importar automaticamente o conteúdo do seu repositório Git para o Experience Manager Guides. Se algum erro for detectado, a Sincronização Automática não será acionada e o Autor deverá importar o conteúdo manualmente selecionando **Importar tudo**. Depois de habilitada, a Sincronização automática não pode ser desabilitada para o importador.
+   > Se você estiver usando uma versão do Conector Git anterior à 1.0.1, a importação de um repositório que contenha submódulos Git poderá falhar durante a operação de busca. Atualize para a versão 1.0.1 ou posterior do Conector Git para evitar esse problema. A partir da versão 1.0.1, os submódulos Git são ignorados durante a clonagem e a importação e somente o conteúdo do repositório principal é importado.
+
+1. *(Opcional)* Você pode habilitar a **Sincronização Automática** para sincronizar e importar automaticamente o conteúdo do seu repositório Git para o Experience Manager Guides. Se algum erro for detectado, a Sincronização Automática não será acionada e o Autor deverá importar o conteúdo manualmente selecionando **Importar tudo**. Depois de habilitada, a Sincronização automática não pode ser desabilitada para o importador.
 
 Depois que o conteúdo é importado, ele é armazenado no **caminho raiz do AEM de destino** configurado ao configurar o Conector Git.
 

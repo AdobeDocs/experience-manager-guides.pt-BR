@@ -12,9 +12,9 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: 4f263fb5c60be66c1ec2d30d57dfb8f5be06eb92
 workflow-type: tm+mt
-source-wordcount: 324
+source-wordcount: 289
 ht-degree: 0%
 
 ---
@@ -30,18 +30,18 @@ Cada projeto de tradução gera vários grupos de usuários para acesso, resulta
 ## Se você estiver em uma build com mais de 4.6 (no local) ou 2404 (nuvem):
 
 - Marcar todos os projetos como &quot;Inativos&quot; depois que a tradução for concluída e aprovada.O projeto permanece disponível para revisão e é simplesmente marcado como inativo.
-   - Seguir essas etapas ajudará a manter o desempenho geral da tradução com boa integridade.
-     ![Projeto de tradução inativo &#x200B;](../assets/translation/translation-project-image1.png)
+  - Seguir essas etapas ajudará a manter o desempenho geral da tradução com boa integridade.
+    ![Projeto de tradução inativo &#x200B;](./assets/translation-project-image1.png)
 
 - Para a pasta de projetos mais antigos, que está marcada como inativa, aprovada e revisada deve ser excluída
-   - Seguir essas etapas ajudará a manter o desempenho geral da tradução com boa integridade, limpando os arquivos de tradução temporários e os grupos de usuários associados a esta pasta do projeto.
-     ![Excluir projeto e pasta de tradução &#x200B;](../assets/translation/translation-project-image2.png)
+  - Seguir essas etapas ajudará a manter o desempenho geral da tradução com boa integridade, limpando os arquivos de tradução temporários e os grupos de usuários associados a esta pasta do projeto.
+    ![Excluir projeto e pasta de tradução &#x200B;](./assets/translation-project-image2.png)
 
 
 ## Se você estiver no, build 4.6 ou 2404 ou posterior:
 
 Você pode continuar seguindo as mesmas etapas mencionadas acima. A partir da versão 4.6/2404, o AEM Guides apresenta uma configuração de editor para que os administradores desativem a exclusão automática de projetos de tradução.
 
-Consulte: [Excluir ou desabilitar automaticamente um projeto de tradução concluído](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/author-content/create-preview-topics/author-content-aem-guides/work-with-web-editor/translate-documents-web-editor#automatically-delete-or-disable-a-completed-translation-project)
+Consulte: [Excluir ou desabilitar automaticamente um projeto de tradução concluído](../../../user-guide/translate-documents-web-editor.md#automatically-delete-or-disable-a-completed-translation-project)
 
-![Configurações automatizadas para excluir e desabilitar o projeto de tradução no AEM Guides &#x200B;](../assets/translation/translation-project-image3.png)
+![Configurações automatizadas para excluir e desabilitar o projeto de tradução no AEM Guides &#x200B;](./assets/translation-project-image3.png)
