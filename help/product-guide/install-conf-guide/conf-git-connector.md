@@ -4,9 +4,9 @@ description: Saiba como configurar um Git no Experience Manager Guides.
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: eb30be6342a50ba52e8afd8b4a31148b3ad9c340
+source-git-commit: b73e904c7e0a6f398e471be6fc874de30742e519
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '568'
 ht-degree: 0%
 
 ---
@@ -40,19 +40,19 @@ Use a ferramenta Fontes de dados no Experience Manager Guides para criar e confi
    >[!TIP]
    >
    >* Focalizar <img src="./assets/info-details.svg" alt= "ícone de informações" width="25"> próximo ao campo para ver mais detalhes sobre ele.
-   >* Os campos com * são obrigatórios. Por exemplo, você pode inserir os detalhes a seguir para o conector do Elasticsearch.
+   >* Os campos com * são obrigatórios. Por exemplo, você pode inserir os seguintes detalhes para o conector Git.
 
-   &#x200B;- **Nome**: insira o nome da fonte de dados.
-   &#x200B;- **Caminho raiz do AEM de destino**: insira o caminho no repositório do AEM onde o conteúdo importado do Git deve ser armazenado.
-   &#x200B;- **Filtro de tipo de arquivo (inclusão)**: especifique os tipos de arquivo a serem incluídos durante a importação.
-   &#x200B;- **Caminho excluído (regex)**: especifique os padrões de caminho a serem excluídos da importação.
-   &#x200B;- **Tipo de autenticação**: selecione o tipo de autenticação na lista suspensa. Atualmente, o **PAT (Personal Access Token)** é o único método de autenticação com suporte. Insira o PAT durante a configuração do conector para autenticar e acessar o repositório Git.
+   - **Nome**: insira o nome da fonte de dados.
+   - **Caminho raiz do AEM de destino**: insira o caminho no repositório do AEM onde o conteúdo importado do Git deve ser armazenado.
+   - **Filtro de tipo de arquivo (inclusão)**: especifique os tipos de arquivo a serem incluídos durante a importação.
+   - **Caminho excluído (regex)**: especifique os padrões de caminho a serem excluídos da importação.
+   - **Tipo de autenticação**: selecione o tipo de autenticação na lista suspensa. Atualmente, o **PAT (Personal Access Token)** é o único método de autenticação com suporte. Insira o PAT durante a configuração do conector para autenticar e acessar o repositório Git.
 
      Saiba como [Gerar um token de acesso pessoal do GitHub](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic).
 
      Ao selecionar escopos durante a geração do PAT no GitHub, habilite os seguintes escopos:
-     &#x200B;- **repositório**: marque a caixa de seleção de nível superior. Todos os subescopos são selecionados automaticamente, concedendo acesso ao conteúdo do repositório, status de confirmação e implantações.
-     &#x200B;- **admin:org**: Selecione apenas **read:org**. Isso é necessário para resolver a organização e a associação à equipe.
+     - **repositório**: marque a caixa de seleção de nível superior. Todos os subescopos são selecionados automaticamente, concedendo acesso ao conteúdo do repositório, status de confirmação e implantações.
+     - **admin:org**: Selecione apenas **read:org**. Isso é necessário para resolver a organização e a associação à equipe.
    * **URL do repositório**: Insira a URL do repositório Git da qual o conteúdo deve ser importado.
    * **Ramificação**: insira a ramificação a ser usada para importação de conteúdo.
 
@@ -70,13 +70,17 @@ Use a ferramenta Fontes de dados no Experience Manager Guides para criar e confi
 
 Antes de o Conector Git estar disponível para configuração na página **Fontes de dados**, ele deve ser incorporado como uma dependência no seu projeto do AEM. Execute as seguintes etapas para adicionar a dependência:
 
+>[!NOTE]
+>
+> Para exibir as versões disponíveis do Conector Git, exiba [repositório central Maven](https://central.sonatype.com/artifact/com.adobe.aem.addon.guides/konnect-github).
+
 1. No `all/pom.xml` do seu projeto do AEM, adicione o Conector Git como uma dependência em `<dependencies>`:
 
    ```xml
    <dependency>
        <groupId>com.adobe.aem.addon.guides</groupId>
        <artifactId>konnect-github</artifactId>
-       <version>1.0.0</version>
+       <version>1.0.1</version>
    </dependency>
    ```
 
