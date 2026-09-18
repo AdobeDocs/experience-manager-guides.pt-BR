@@ -4,13 +4,12 @@ description: Saiba como migrar o conteúdo do software local para o Cloud Servic
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 453da51a42984b912547570f2e1de70806b41171
+exl-id: c8348aae-224c-4419-845a-b8910629e5b3
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 1%
-
+source-wordcount: '1034'
+ht-degree: 2%
 ---
-
 # Migrar conteúdo do local para o Cloud Service
 
 O Experience Manager as a Cloud Service fornece uma base de tecnologia escalável, segura e ágil para Experience Manager Guides, Assets, Forms e Screens. Isso permite que profissionais de marketing e TI se concentrem em fornecer experiências impactantes em escala.
@@ -41,7 +40,7 @@ Você pode baixar a **Ferramenta de Transferência de Conteúdo** como um arquiv
 
 ![baixar ferramenta de transferência de conteúdo](./assets/content-transfer-tool-software-portal.png)
 Em seguida, instale o pacote por meio do **Gerenciador de Pacotes** na instância do Adobe Experience Manager de origem. Baixe a versão mais recente.
-Para obter mais detalhes sobre a versão mais recente, consulte as [Notas de versão](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=pt-BR).
+Para obter mais detalhes sobre a versão mais recente, consulte as [Notas de versão](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=en).
 
 >[!NOTE]
 > 
@@ -107,7 +106,7 @@ Execute as seguintes etapas para migrar o conteúdo do Experience Manager Guides
    ![](./assets/migration-create-migration-set.png)
 
 1. Forneça o caminho que você deseja migrar e clique em **Salvar**.
-Por exemplo, `/content/sites`
+Por exemplo,  `/content/sites`
 ou
    `/content/dam/tech-docs`
    ![caminhos incluídos](./assets/migration-included-paths.png)
@@ -129,7 +128,7 @@ ou
 
 1. Clique em **Salvar**
 1. Selecione o **conjunto de migração** e selecione **Extrair** na parte superior.
-   ![extração do conjunto de migração &#x200B;](./assets/migration-extract.png)
+   ![extração do conjunto de migração ](./assets/migration-extract.png)
 
 1. Verifique os detalhes no pop-up **Extração do conjunto de migração** para os caminhos e configurações selecionados e clique em **Extrair**. A extração levará minutos, e você visualizará o status como atualizado.
    ![extração do conjunto de migração](./assets/migration-set-extraction.png)

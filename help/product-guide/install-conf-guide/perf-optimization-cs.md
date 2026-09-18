@@ -4,13 +4,12 @@ description: Conheça as recomendações para a otimização do desempenho
 feature: Performance Optimization
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 6c9684d4-180f-4ccb-bfd6-6c82a8a7b720
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 0%
-
+source-wordcount: '152'
+ht-degree: 5%
 ---
-
 # Recomendações para otimização de desempenho do Cloud Service {#id213BD0JG0XA}
 
 Para otimização de desempenho, considere os seguintes pontos:
@@ -22,4 +21,3 @@ Para otimização de desempenho, considere os seguintes pontos:
   *Configuração necessária*: substitua o arquivo Xerces Jar do pacote DITA-OT personalizado pelo arquivo OOTB fornecido. O arquivo `xercesImpl-2.11.0.jar` OOTB padrão está disponível no arquivo `/libs/fmdita/dita\_resources/DITA-OT.zip`. Renomeie o arquivo `xercesImpl-2.11.0.jar` para corresponder ao arquivo Xerces Jar antigo que está sendo substituído. Isso pode ser feito em tempo de execução.
 
   Essa alteração reduz o tempo de publicação e a utilização da memória durante a publicação de mapas DITA com um grande número de tópicos.
-

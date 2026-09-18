@@ -4,13 +4,12 @@ description: Saiba como verificar a instalação do AEM Guides
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 19cded6f-6545-42af-8511-7c32cf4ddf2d
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '311'
 ht-degree: 0%
-
 ---
-
 # Verificar a instalação do AEM Guides {#id213BD030FBE}
 
 Depois de instalar o AEM Guides, você precisa verificar se a instalação foi bem-sucedida ou não.
@@ -25,11 +24,11 @@ Execute as seguintes etapas para verificar a instalação:
 
 1. Acesse o Developer Console do seu Cloud Service.
 
-   Para obter detalhes sobre como acessar o Developer Console, consulte [Acesso ao Developer Console](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=pt-BR) na documentação do AEM.
+   Para obter detalhes sobre como acessar o Developer Console, consulte [Acesso ao Developer Console](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html) na documentação do AEM.
 
 1. Acesse a lista de pacotes OSGi no AEM.
 
-   Para obter detalhes sobre como acessar pacotes, consulte [Pacotes](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=pt-BR#bundles) na documentação do AEM.
+   Para obter detalhes sobre como acessar pacotes, consulte [Pacotes](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=en#bundles) na documentação do AEM.
 
 1. Procure por fmdita na lista de pacotes e verifique seu status.
 
@@ -59,5 +58,3 @@ Execute as seguintes etapas para verificar a instalação:
 > Há várias recomendações de otimização de desempenho que você pode considerar para melhorar o desempenho do seu sistema. Consulte [Recomendações para otimização de desempenho](perf-optimization-on-prem.md#) para obter detalhes.
 
 >[!ENDTABS]
-
-

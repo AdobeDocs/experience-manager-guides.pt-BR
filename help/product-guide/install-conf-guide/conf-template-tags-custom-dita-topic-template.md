@@ -4,13 +4,12 @@ description: Saiba como configurar um modelo de t처pico DITA personalizado
 feature: Template Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: aaf24a83-3a94-4f77-aa37-7b0398f6ae71
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '490'
 ht-degree: 2%
-
 ---
-
 # Configurar modelo de t처pico DITA personalizado {#id16A7G0O02TD}
 
 O AEM Guides vem com os seguintes modelos de t처pico DITA:
@@ -99,4 +98,4 @@ Se o local especificado existir no DAM, todos os modelos de mapa e t처pico padr�
 >[!ENDTABS]
 
 
-**T처pico pai:**&#x200B;[&#x200B; Configurar t처pico e mapear modelos](conf-template-tags.md)
+**T처pico pai:**[ Configurar t처pico e mapear modelos](conf-template-tags.md)

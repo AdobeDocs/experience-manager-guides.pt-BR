@@ -4,13 +4,12 @@ description: Saiba como personalizar e configurar os vários componentes do recu
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 2198b9c77a0dfa888edbce5994da4721cb6127e6
+exl-id: f1ee4b53-9fdc-4227-903f-082fcf67818b
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 0%
-
 ---
-
 # Publicação nativa no PDF
 
 Com o AEM Guides, você pode gerar PDFs de tópicos individuais ou um arquivo de mapa usando o recurso Geração de saída nativa do PDF. Você pode personalizar e usar modelos do PDF ao gerar a saída do PDF. Você pode criar e projetar layouts de página para apresentar as várias seções na saída do PDF de acordo com seus requisitos.
@@ -26,9 +25,9 @@ Para obter mais detalhes, veja o seguinte:
 * [Variáveis na saída do PDF](../native-pdf/native-pdf-variables.md)
 * [Adicionar um código de barras à saída do PDF](../native-pdf/add-barcode.md)
 * Estilos de conteúdo comuns {#content-styles}
-   * [Trabalhar com os estilos de conteúdo comuns](../native-pdf/stylesheet.md)
-   * [Trabalhar com estilos de barras de alteração personalizados](../native-pdf/change-bar-style.md)
-   * [Aplicar estilo personalizado em entradas de índice e conteúdo de tópico](../native-pdf/custom-style-toc.md)
-   * [Adicionar um marcador personalizado na saída do PDF](../native-pdf/add-custom-bookmark.md)
-   * [Usar o JavaScript para trabalhar com conteúdo ou estilo](../native-pdf/use-javascript-content-style.md)
-   * [Usar estilos personalizados em notas de rodapé](../native-pdf/footnote-number-style.md)
+  * [Trabalhar com os estilos de conteúdo comuns](../native-pdf/stylesheet.md)
+  * [Trabalhar com estilos de barras de alteração personalizados](../native-pdf/change-bar-style.md)
+  * [Aplicar estilo personalizado em entradas de índice e conteúdo de tópico](../native-pdf/custom-style-toc.md)
+  * [Adicionar um marcador personalizado na saída do PDF](../native-pdf/add-custom-bookmark.md)
+  * [Usar o JavaScript para trabalhar com conteúdo ou estilo](../native-pdf/use-javascript-content-style.md)
+  * [Usar estilos personalizados em notas de rodapé](../native-pdf/footnote-number-style.md)
