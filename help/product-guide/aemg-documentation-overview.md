@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 411756129e6ce756f8674d6d3feb27a1cd9a2f19
+source-git-commit: a45df7e9eef75b0c4684e944fd9611eb6e7b060e
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '289'
 ht-degree: 5%
 ---
 # Documentação do Experience Manager Guides
@@ -54,7 +54,7 @@ O Experience Manager Guides é um CCMS de nível empresarial com suporte ao DITA
 
 ::::landing-cards-container
 :::card
-![Ícone de administradores](./user-guide/images/admin.png)
+![Ícone de administradores](../assets/admin.png)
 
 Administradores
 
@@ -64,7 +64,7 @@ Configure perfis de pasta, permissões, configurações de fluxo de trabalho e m
 :::
 
 :::card
-![Ícone de autores](./user-guide/images/author.png)
+![Ícone de autores](../assets/author.png)
 
 Autores
 
@@ -74,7 +74,7 @@ Crie e gerencie tópicos DITA, mapas, reutilização de conteúdo e fluxos de tr
 :::
 
 :::card
-![Ícone de editores](./user-guide/images/publish.png)
+![Ícone de editores](../assets/publisher.png)
 
 Editores
 
@@ -84,7 +84,6 @@ Configure predefinições de saída, gerencie linhas de base e gere saída entre
 :::
 
 ::::
-
 
 <!--
 :::card
@@ -102,12 +101,12 @@ Design DITA specializations, schemas, and content architecture for your implemen
 
 ## Explorar por área de recurso
 
-<!-- Author note: Six cards will wrap to two rows of three in production. Same beta caveat as the role cards above applies here. -->
+<!-- Author note: Six cards wrap to two rows of three in production. The landing-cards-container component is in beta — verify rendering in production before publishing. -->
 
 ::::landing-cards-container
 
 :::card
-![Ícone de criação](./user-guide/images/author.svg)
+![Ícone de criação](../assets/authoring.png)
 
 Criação
 
@@ -117,7 +116,7 @@ Editor da Web, integração do FrameMaker, conteúdo reutilizável e ciclos de r
 :::
 
 :::card
-![Ícone de revisão](./user-guide/images/review.svg)
+![Ícone de revisão](../assets/review.png)
 
 Revisar
 
@@ -127,7 +126,7 @@ Revise tópicos, gerencie tarefas de revisão e revise notificações.
 :::
 
 :::card
-![Ícone de publicação](./user-guide/images/publish.svg)
+![Ícone de publicação](../assets/publishing.png)
 
 Publicação
 
@@ -137,7 +136,7 @@ Tipos de saída PDF, AEM Sites, HTML5, EPUB e JSON.
 :::
 
 :::card
-![Ícone de tradução](./user-guide/images/Smock_GlobeGrid_18_N.svg)
+![Ícone de tradução](../assets/translation.png)
 
 Tradução
 
@@ -147,7 +146,7 @@ Fluxos de trabalho de tradução humana e automática para conteúdo multilíngu
 :::
 
 :::card
-![Ícone de relatórios](./user-guide/images/Smock_Report_18_N.svg)
+![Ícone de relatórios](../assets/reports.png)
 
 Relatórios
 
@@ -157,7 +156,7 @@ Lista de tópicos, multimídia, links quebrados e relatórios de metadados.
 :::
 
 :::card
-![Ícone de configuração](./user-guide/images/config.svg)
+![Ícone de configuração](../assets/configure.png)
 
 Configuração
 
@@ -170,69 +169,49 @@ Perfis de pasta, personalização de DITA-OT e modelos de saída.
 
 ## Novidades
 
-<!-- Author note: Badges render correctly in markdown table cells per ExL spec. <br> is supported within cells. Update release version, links, and descriptions each release cycle. The What's new table is the primary update touchpoint on this page — aim to refresh it within one week of each cloud service release. -->
-::::landing-cards-container
+<!-- Author note: Update images, badge labels, feature titles, descriptions, and links each release cycle. Images are stored in /assets/. The shade box with a borderless HTML table provides the three-column layout. Blank lines inside each <td> are required for ExL to process badge and bold-link markdown syntax. -->
 
-:::card
-![Ícone de administrador](https://cdn.experienceleague.adobe.com/icons/admin.svg)
+>[!BEGINSHADEBOX]
 
-Conector Git
+<table>
+<tr style="border: 0;">
+<td>
+
+![Conector Git](../assets/whats-new-git-connector.svg)
+
+**[Importar conteúdo usando o Conector Git](./user-guide/web-editor-git-connector.md)**
 
 Importe conteúdo para os Guias diretamente dos repositórios Git.
 
-[Importar conteúdo usando o Conector Git](./user-guide/web-editor-git-connector.md)
-:::
+</td>
+<td>
 
-:::card
-![Ícone Solução de problemas](https://cdn.experienceleague.adobe.com/icons/atomic-search-troubleshoot.svg)
+![Coleção de Mapas](../assets/whats-new-map-collection.svg)
 
-Nova coleção de mapas
+**[Nova coleção de mapas](./user-guide/generate-output-use-new-map-collection-output-generation.md)**
 
 Interface unificada para gerenciamento de mapas e publicação de saídas.
 
-[Nova coleção de mapas](./user-guide/web-editor-git-connector.md)
-:::
+</td>
+<td>
 
-:::card
-![Ícone de livro](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
+![Delegar revisão](../assets/whats-new-delegate-review.svg)
 
-Delegar tarefa de revisão
+**[Delegar uma tarefa de revisão](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer)**
 
 Os revisores podem delegar uma tarefa de revisão a outro revisor.
-
-[Delegar uma tarefa de revisão](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer)
-:::
-
-::::
-
-<!--
-<table>
-<tr>
-<td>
-
-[!BADGE Feature]{type=Neutral} <br> [**Import content using Git Connector**](./user-guide/web-editor-git-connector.md)<br> Import content into Guides directly from Git repositories.
-
-</td>
-<td>
-
-[!BADGE Feature]{type=Neutral} <br> [**New map collection**](./user-guide/generate-output-use-new-map-collection-output-generation.md)<br> Unified interface for managing maps and publishing outputs
-
-</td>
-<td>
-
-[!BADGE Enhancement]{type=Neutral} <br> [**Delegate a review task**](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer) <br> Reviewers can delegate a review task to another reviewer
 
 </td>
 </tr>
 </table>
--->
 
+>[!ENDSHADEBOX]
 
 ## Recursos adicionais
 
 * [Notas de versão do Cloud Service](./release-info/latest-release-info-cs.md)
 * [Notas de versão para No local](./release-info/latest-release-info.md)
-* [comunidade do AEM Guides](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=pt){target="_blank"}
-* [Repositório do GitHub](https://github.com/AdobeDocs/experience-manager-guides.pt-BR){target="_blank"}
-* [Suporte](https://experienceleague.adobe.com/support/v2/en/?lang=pt-BR){target="_blank"}
-* [Tutoriais em vídeo](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [comunidade do AEM Guides](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
+* [Repositório do GitHub](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [Suporte](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [Tutoriais em vídeo](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
