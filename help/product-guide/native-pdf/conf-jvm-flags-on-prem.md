@@ -1,16 +1,15 @@
 ---
-title: PDF nativo | Configurar sinalizadores JVM para publicação PDF nativa
+title: PDF nativo | Configurar sinalizadores JVM para publicação nativa no PDF
 description: Configurar sinalizadores JVM para publicação nativa no PDF
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: a2a9f44c-cb17-4423-a66e-499bce921398
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '128'
 ht-degree: 1%
-
 ---
-
 # Configurar sinalizadores JVM para publicação nativa do PDF no local
 
 A publicação nativa do PDF inicia um processo JVM separado para gerar um PDF. Talvez seja necessário ajustar as configurações dessa JVM para suportar diferentes cenários. Por exemplo, para executar cargas de trabalho maiores, você deve aumentar o tamanho máximo do heap disponível para o processo JVM gerado.

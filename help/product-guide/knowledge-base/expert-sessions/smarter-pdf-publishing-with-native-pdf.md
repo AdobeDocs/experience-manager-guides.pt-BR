@@ -2,13 +2,12 @@
 title: Publicação mais inteligente do PDF com PDF nativo
 description: Esta sessão de especialistas aborda como o PDF nativo pode ser usado para criar o PDF pronto para DITA sem usar a experiência avançada em CSS ou XSLT, em vez de usar tecnologia de baixo código para gerar PDF
 keywords: Publicação DITA no PDF, AEM Guides, PDF nativo, DITA para PDF, fluxo de trabalho de publicação DITA, automação do PDF, publicação orientada por metadados, modelos DITA
-source-git-commit: 1ae89da4d2638e375f684c187ef68389baa5a5bc
+exl-id: 763ca6fb-1e5a-4676-9684-879c13ba9a8e
+source-git-commit: 2fde91e85c4283d114b29f77a38bae6d67e60112
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 1%
-
+source-wordcount: '266'
+ht-degree: 2%
 ---
-
 # Publicação mais inteligente do PDF com PDF nativo
 
 Nesta sessão, descobrimos como aprimorar o fluxo de trabalho de publicação de DITA para PDF usando recursos avançados do PDF no AEM Guides. Essa sessão demonstra como automatizar a personalização do PDF com metadados, marcas e localização, reduzindo a necessidade de vários modelos de publicação DITA. Saiba como esses recursos avançados ajudam as equipes do DITA a publicar de forma mais inteligente, rápida e em escala.

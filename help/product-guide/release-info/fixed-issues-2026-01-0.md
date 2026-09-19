@@ -1,13 +1,12 @@
 ---
 title: Notas de versão | Correção de problemas na versão 2026.01.0 do Adobe Experience Manager Guides
 description: Saiba mais sobre as correções de erros na versão 2026.01.0 do Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 8a9a82e79c757e403141e853aafbc64e1618c30a
+exl-id: fd95166b-683e-463c-ad58-ade317c31d6e
+source-git-commit: 100b115fcc6bd5522e88a3e236f3771d13ce389c
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '717'
 ht-degree: 0%
-
 ---
-
 # Correção de problemas na versão 2026.01.0
 
 Este artigo aborda os bugs corrigidos em várias áreas da versão 2026.01.0 do Adobe Experience Manager Guides as a Cloud Service.
@@ -57,15 +56,3 @@ A Adobe identificou os seguintes problemas conhecidos para a versão 2026.01.0:
 - Quando um tópico em revisão é removido de uma tarefa de revisão em andamento, seu estado do documento continua a ser **Na revisão**, mesmo que o tópico não faça mais parte de nenhuma tarefa de revisão. (GUIDES-38709)<br>**Solução alternativa**: altere o estado do documento do tópico de **Em Revisão** para o estado apropriado na página Propriedades ou no painel Propriedades do arquivo.
 - Ao executar uma pesquisa usando **Localizar e substituir**, se você abrir um arquivo a partir dos resultados da pesquisa, fechá-lo e tentar reabri-lo selecionando o resultado listado, o arquivo não será reaberto. (GUIDES-39050)<br>**Solução alternativa**: abra primeiro qualquer outro arquivo dos resultados da pesquisa e reabra o arquivo fechado anteriormente da lista para resolver o problema.
 - Ao usar Guias com servidor DB, para conteúdo que inclui autorreferências, o relatório Lista de tópicos exibe entradas inválidas para cada autorreferência, resultando em uma contagem de arquivos imprecisa. (GUIDES-39420)
-
-
-
-
-
-
-
-
-
-
-
-

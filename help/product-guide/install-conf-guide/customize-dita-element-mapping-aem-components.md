@@ -4,14 +4,12 @@ description: Saiba como personalizar o mapeamento de elementos de lista com comp
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: b712223f-c7df-423c-9a46-6b3704f4bd26
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1272'
 ht-degree: 1%
-
 ---
-
-
 # Personalizar o mapeamento de elemento DITA com componentes do AEM {#id1679J600HEL}
 
 Os elementos DITA no AEM Guides são mapeados para os componentes correspondentes do AEM. O AEM Guides usa esse mapeamento em fluxos de trabalho, como publicação e revisão, para converter o elemento DITA em um componente AEM correspondente. O mapeamento é definido no arquivo `elementmapping.xml`, que pode ser acessado usando o gerenciador de pacotes para instalação do Cloud Service e a partir da URL: `/libs/fmdita/config/elementmapping.xml` no modo CRXDE Lite para instalação no local.
@@ -166,16 +164,16 @@ A tabela a seguir descreve os elementos do esquema de elemento DITA:
 | `<ditaelement>` | O nó de nível superior de cada elemento de mapeamento. |
 | `<class>` | O atributo de classe do elemento DITA de destino para o qual você está gravando o componente.<br> Por exemplo, o atributo de classe para o tópico DITA é: <br> `- topic/topic` |
 | `<componentpath>` | O caminho CRXDE do componente do AEM mapeado. |
-| `<type>` | Valores possíveis:<br> -   **COMPOSITE**: processar elementos filho também <br> -   **INDEPENDENTE**: ignora o processamento de elementos filho |
+| `<type>` | Valores possíveis:<br> - **COMPOSITE**: também processa elementos filho <br> - **STANDALONE**: ignora o processamento de elementos filho |
 | `<attributeprop>` | Usado para mapear atributos e valores DITA serializados para nós do AEM como propriedade. Por exemplo, se você tiver o elemento `<note type="Caution">` e o componente mapeado para esse elemento tiver `<attributeprop>attr_t</ attributeprop>`, o atributo e o valor do nó serão serializados para a propriedade `attr_t` do nó AEM correspondente \( `attr_t->type="caution"`\). |
 | `<textprop>propname_t</textprop>` | Salvar a saída `getTextContent()` na propriedade definida por `propname_t.` <br> **Observação:** esta é uma propriedade otimizada. |
 | `<xmlprop>propname_x </xmlprop>` | Salvar XML serializado deste nó na propriedade definida por `propname_x.<br> `**Observação:** Esta é uma propriedade otimizada. |
 | `<xpath>` | Se o elemento XPath for fornecido no mapeamento de elementos, juntamente com o nome e a classe do elemento, a condição XPath também deverá ser atendida para que o mapeamento do componente seja usado. |
-| `<target>` | Coloque o elemento DITA no repositório crx no local especificado.<br> Valores possíveis: <br> - **cabeçalho**: Sob o nó de cabeçalho <br> - **texto**: Sob o nó de parágrafo |
+| `<target>` | Coloque o elemento DITA no repositório crx no local especificado.<br> Valores possíveis: <br> - **head**: Sob o nó de cabeçalho <br> - **text**: Sob o nó de parágrafo |
 | `<wrapelement>` | O elemento HTML no qual envolver o conteúdo. |
 | `<wrapclass>` | O valor do elemento para a propriedade `wrapclass.` |
 | `<attributemap>` | Nó de contêiner contendo um ou mais nós `<attribute>`. |
-| `<attribute from="attrname" to="propname" ispath="true\|false" rel="source\|target" />` | Mapeia os atributos DITA para propriedades do AEM: <br> -   **`from`**: Nome do atributo DITA <br> -   **`to`**: nome da propriedade do componente AEM <br> -   **`ispath`**: Se o atributo for um valor de caminho \(por exemplo: *image*\) <br> -   **`rel`**: Se o caminho for a origem ou o destino <br> **Observação:** se `attrname` começar com `%`, mapeie `attrname minus '%'` para prop &#39; `propname`&#39;. |
+| `<attribute from="attrname" to="propname" ispath="true\|false" rel="source\|target" />` | Mapeia os atributos DITA para propriedades AEM: <br> - **`from`**: Nome do atributo DITA <br> - **`to`**: Nome da propriedade do componente AEM <br> - **`ispath`**: Se o atributo for um valor de caminho \(por exemplo: *image*\) <br> - **`rel`**: Se o caminho for a origem ou o destino <br> **Observação:** se `attrname` começar com `%`, mapeie `attrname minus '%'` para prop &#39; `propname`&#39;. |
 
 **Observações adicionais**
 
@@ -188,5 +186,3 @@ A tabela a seguir descreve os elementos do esquema de elemento DITA:
 - Se você estiver planejando substituir alguns \(e não todos\) dos mapeamentos de elementos, não será necessário replicar todo o arquivo `elementmapping.xml`. É necessário criar um novo arquivo de mapeamento XML e definir apenas os elementos que você está substituindo.
 
 - Depois de criar o arquivo XML no local personalizado, atualize a configuração `Override Element Mapping` no pacote `com.adobe.fmdita.config.ConfigManager`.
-
-

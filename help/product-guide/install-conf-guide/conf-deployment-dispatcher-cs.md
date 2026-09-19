@@ -4,13 +4,12 @@ description: Saiba mais sobre a configuração de implantação e dispatcher no 
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 657a42be-36e7-4657-83d5-e866f8e55f09
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 3%
-
+source-wordcount: '347'
+ht-degree: 6%
 ---
-
 # Configuração de implantação e dispatcher
 
 Este artigo fornece informações sobre como implantar o Experience Manager Guides as a Cloud Service e configurar o Dispatcher.

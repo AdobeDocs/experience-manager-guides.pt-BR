@@ -4,13 +4,12 @@ description: Saiba como desativar o pós-processamento para uma pasta carregada 
 feature: Filename Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: eaf974f4-c804-4392-b1f3-f4f24dd441f7
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '427'
 ht-degree: 0%
-
 ---
-
 # Desativar pós-processamento para uma pasta
 
 Por padrão, todos os ativos carregados são processados usando o fluxo de trabalho Atualizar ativo do DAM. O Experience Manager Guides executa um processamento adicional, chamado pós-processamento, como parte desse fluxo de trabalho. Isso também ajuda a gerar as UUIDs
@@ -27,8 +26,8 @@ Use as instruções em [Substituições de configuração](download-install-conf
 
 | PID | Chave de propriedade | Valor de propriedade |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `ignored.post.processing.paths` | Valor da cadeia para definir qualquer NODE_OPTIONS padrão (propriedade de vários valores, cadeias com caminho que omitem `/` no final) <br> **Valor Padrão**: `/content/dam/projects/translation_output` |
-| `com.adobe.fmdita.config.ConfigManager` | `enabled.post.processing.paths` | Valor da cadeia para definir qualquer NODE_OPTIONS padrão (propriedade de vários valores, cadeias com caminho que omitem `/` no final) <br> **Valor Padrão**: `/content/dam` |
+| `com.adobe.fmdita.config.ConfigManager` | `ignored.post.processing.paths` | Valor da cadeia de caracteres para definir qualquer NODE_OPTIONS padrão (propriedade com vários valores, cadeias de caracteres com caminho que omitem `/` no final) <br> **Valor Padrão**: `/content/dam/projects/translation_output` |
+| `com.adobe.fmdita.config.ConfigManager` | `enabled.post.processing.paths` | Valor da cadeia de caracteres para definir qualquer NODE_OPTIONS padrão (propriedade com vários valores, cadeias de caracteres com caminho que omitem `/` no final) <br> **Valor Padrão**: `/content/dam` |
 
 >[!TAB No local]
 
@@ -77,4 +76,3 @@ Por padrão, o pós-processamento é feito para cada caminho de pasta na pasta d
 * Se o pai for ignorado para pós-processamento, mas a pasta filho estiver habilitada, o filho e todos os seus sucessores serão considerados habilitados.
 * Se o pai estiver ativado para pós-processamento, mas o filho for ignorado, o filho e todos os seus sucessores serão considerados ignorados.
 * Se o mesmo caminho de pasta existir nas configurações ignore.post.processing.paths e enabled.post.processing.paths, então ele será considerado ignorado para pós-processamento.
-

@@ -1,13 +1,12 @@
 ---
-title: Notas de versão | Instruções de atualização e problemas corrigidos na versão 2026.01.0 do Adobe Experience Manager Guides
+title: Notas de versão | Instruções de atualização e problemas corrigidos no Adobe Experience Manager Guides versão 2026.01.0
 description: Saiba mais sobre a matriz de compatibilidade e como atualizar para a versão 2026.01.0 do Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: e6dab21263731b42567729649a11e9d0a74f1dfd
+exl-id: 25513149-c852-4dd4-8a44-f03969af3bd6
+source-git-commit: 100b115fcc6bd5522e88a3e236f3771d13ce389c
 workflow-type: tm+mt
-source-wordcount: '1139'
-ht-degree: 0%
-
+source-wordcount: '1147'
+ht-degree: 1%
 ---
-
 # Instruções de atualização para a versão 2026.01.0
 
 Este artigo aborda as instruções de atualização e a matriz de compatibilidade da versão 2026.01.0 do Adobe Experience Manager Guides as a Cloud Service.
@@ -24,7 +23,7 @@ Esta seção aponta a matriz de compatibilidade dos aplicativos de software comp
 
 | Versão do Experience Manager Guides as a Cloud | FMPS | FrameMaker | Oxygen Author |
 | --- | --- | --- | --- |
-| 2026.01.0 | Não compatível | 2022 ou superior | 26,1 |
+| 2026.01.0 | Não compatível | 2022 ou superior | 26.1 |
 
 
 ### Conector de oxigênio
@@ -117,7 +116,7 @@ Execute as seguintes etapas para pós-processar o conteúdo existente e usar o n
 1. A API retorna um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação GET com a ID do trabalho para o mesmo ponto de extremidade - `http://<server>/bin/guides/reports/upgrade?jobId= {jobId}`
 (Por exemplo: `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
-1. Quando o trabalho for concluído, a solicitação anterior do GET responderá com êxito. Se a tarefa falhar por algum motivo, a falha poderá ser vista nos logs do servidor.
+1. Quando o trabalho for concluído, a solicitação GET anterior responderá com êxito. Se a tarefa falhar por algum motivo, a falha poderá ser vista nos logs do servidor.
 
 1. Reverta para o valor padrão ou existente anterior de `queryLimitReads` se você o alterou na etapa 1.
 
@@ -127,13 +126,13 @@ Execute as seguintes etapas para pós-processar o conteúdo existente e usar o n
 
 Execute as seguintes etapas para indexar o conteúdo existente e usar o novo texto de localização e substituição no nível do mapa e da lista de tópicos na guia relatórios:
 
-1. Execute uma solicitação POST para o servidor (com autenticação correta) - `http://<server:port>/bin/guides/map-find/indexing`. (Opcional: é possível passar caminhos específicos dos mapas para indexá-los; por padrão, todos os mapas são indexados|| Exemplo: `https://<Server:port>/bin/guides/map-find/indexing?paths=<path of the MAP in repository>`)
+1. Execute uma solicitação POST para o servidor (com autenticação correta) - `http://<server:port>/bin/guides/map-find/indexing`. (Opcional: é possível passar caminhos específicos dos mapas para indexá-los, por padrão, todos os mapas são indexados|| Exemplo: `https://<Server:port>/bin/guides/map-find/indexing?paths=<path of the MAP in repository>`)
 
 1. Você também pode passar uma pasta raiz para indexar os mapas DITA de uma pasta específica (e suas subpastas). Por exemplo, `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Observe que se os parâmetros de caminhos e de raiz forem transmitidos, somente o parâmetro de caminhos será considerado.
 
-1. A API retorna um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação do GET com a ID do trabalho para o mesmo ponto de extremidade - `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`(Por exemplo: `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
+1. A API retorna um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação GET com a ID do trabalho para o mesmo ponto de extremidade - `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`(Por exemplo: `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
-1. Quando o trabalho for concluído, a solicitação anterior do GET responderá com sucesso e mencionará se algum mapa falhou. Os mapas indexados com êxito podem ser confirmados nos logs do servidor.
+1. Quando o trabalho for concluído, a solicitação GET anterior responderá com sucesso e mencionará se algum mapa falhou. Os mapas indexados com êxito podem ser confirmados nos logs do servidor.
 
 ### Etapas para lidar com o conflito `'fmdita rewriter'`
 
@@ -172,7 +171,7 @@ Aguarde até que esse trabalho seja concluído antes de prosseguir para as próx
 >
 >Você deve verificar se o nó ainda está presente e o status do trabalho.
 
-GET:
+OBTER:
 
 ```
 http://<aem_domain>/var/dxml/executor-locks/cf-reference-store-btree-migration/1683190032886.json

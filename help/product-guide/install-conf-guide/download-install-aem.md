@@ -4,18 +4,17 @@ description: Saiba como instalar o Adobe Experience Manager
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: d72b007c-9f0a-41be-bca2-2d6b54c30de1
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '213'
 ht-degree: 0%
-
 ---
-
 # Instalar o Adobe Experience Manager {#id213BCI020E8}
 
 O AEM Guides é um plug-in que é instalado sobre o Adobe Experience Manager. A instalação do AEM exige a compreensão de alguns conceitos básicos do AEM e cenários de implantação recomendados. Os recursos de link a seguir ajudarão você a começar a instalação do AEM:
 
-- [Conceitos Básicos do AEM](https://helpx.adobe.com/br/experience-manager/6-5/sites/deploying/using/deploy.html#BasicConcepts)
+- [Conceitos básicos de AEM](https://helpx.adobe.com/br/experience-manager/6-5/sites/deploying/using/deploy.html#BasicConcepts)
 
 - [Implantações recomendadas do AEM](https://helpx.adobe.com/br/experience-manager/6-5/sites/deploying/using/recommended-deploys.html)
 

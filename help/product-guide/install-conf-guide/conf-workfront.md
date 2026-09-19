@@ -4,13 +4,12 @@ description: Saiba como configurar o Workfront no Experience Manager Guides
 feature: Authoring
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 694e9eeb-59a7-43e3-89b0-510b86be1f42
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '603'
 ht-degree: 2%
-
 ---
-
 # Configurar o Adobe Workfront para o Cloud Service
 
 O Adobe Workfront é uma solução de gerenciamento de trabalho baseada em nuvem que ajuda equipes e organizações a planejar, rastrear e gerenciar seu trabalho com eficiência. A integração entre o Experience Manager Guides e o Adobe Workfront oferece acesso a recursos robustos de gerenciamento de projetos além dos principais recursos do CCMS do Experience Manager Guides, permitindo planejar, alocar e rastrear tarefas com eficiência.

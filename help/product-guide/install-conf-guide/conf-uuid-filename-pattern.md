@@ -4,13 +4,12 @@ description: Saiba como configurar o padrão de nome de arquivo UUID
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 63d19ec4-1313-4691-b83e-38b67f9d2050
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '301'
 ht-degree: 1%
-
 ---
-
 # Configurar padrão de nome de arquivo UUID
 
 Ao importar conteúdo, não é necessário que os nomes de arquivo sejam baseados na UUID. Em um sistema que usa nomes de arquivo baseados em UUID, é obrigatório que todos os arquivos sejam referenciados usando seus UUIDs em vez de seus nomes de arquivo originais. Se um arquivo importado não tiver nomes de arquivos baseados em UUID, você poderá configurar o sistema para adicionar uma UUID à propriedade do arquivo. Essa UUID é então usada para se referir a esses arquivos, nos quais a UUID não é usada para nomear os arquivos.
@@ -50,8 +49,3 @@ Execute as seguintes etapas para verificar nomes de arquivo em relação a um pa
 1. Selecione **Salvar**.
 
 >[!ENDTABS]
-
-
-
-
-

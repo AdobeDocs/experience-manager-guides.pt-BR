@@ -4,13 +4,12 @@ description: Saiba como configurar substituições
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: baf48913-ced7-444f-a125-661c0213d847
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 0%
-
 ---
-
 # Substituições de configuração para o Cloud Service {#id216IFC003XA}
 
 Para fazer atualizações de configuração no Experience Manager Guides as a Cloud Service, a seguinte abordagem genérica deve ser usada:
@@ -38,4 +37,3 @@ Para fazer atualizações de configuração no Experience Manager Guides as a Cl
    ```
 
 1. Confirme as alterações e execute o pipeline do Cloud Manager para implantar a configuração atualizada.
-

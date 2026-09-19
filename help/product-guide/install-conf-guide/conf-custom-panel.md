@@ -4,13 +4,12 @@ description: Saiba como configurar um painel personalizado no painel esquerdo
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 5057f9935982d4b13c245453f15a93f48679f16b
+exl-id: 536e1113-1ff2-4e24-9946-bd4311d5d22e
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 0%
-
 ---
-
 # Configurar um painel personalizado no painel esquerdo {#id224JI200Y6F}
 
 

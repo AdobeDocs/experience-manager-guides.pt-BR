@@ -4,13 +4,12 @@ description: Saiba como configurar a pesquisa para a interface do usuário do AE
 feature: Search Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: bfb98000-7496-4d00-80f8-53b1a7ab4016
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '1844'
-ht-degree: 1%
-
+source-wordcount: '1870'
+ht-degree: 2%
 ---
-
 # Configurar pesquisa para a interface do usuário do AEM Assets {#id192SC800MY4}
 
 Por padrão, o AEM não reconhece o conteúdo DITA e, portanto, não fornece nenhum mecanismo para pesquisar conteúdo DITA em seu repositório. Além disso, não há recurso de OOTB para pesquisar conteúdo com base em sua UUID. O AEM Guides permite adicionar os recursos de pesquisa de conteúdo DITA e pesquisa baseada em UUID no repositório do AEM.

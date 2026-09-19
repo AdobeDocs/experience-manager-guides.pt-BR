@@ -4,13 +4,12 @@ description: Saiba como Configurar estados dos documentos
 feature: Document State
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 2f035c92-21f9-401a-a2cb-d1bc19c75598
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '1443'
 ht-degree: 0%
-
 ---
-
 # Configurar estados dos documentos {#id181GB0400UI}
 
 O AEM Guides permite definir os estados dos documentos para os tópicos DITA de acordo com os requisitos da organização. Você pode definir diferentes estados do seu documento do início ao fim. Por exemplo, o primeiro estado pode ser Rascunho e pode ser movido para Revisão, Aprovado, Traduzido e finalmente para Publicado.
@@ -61,11 +60,11 @@ Para criar estados de documento usando o Perfil de pasta, execute as seguintes e
    - Especifique o estado final do documento no **Estado Final**.
    - Especifique a transição de estado do documento em **De** e **Para** em **Transição de Estado**.
 
-      - Especifique os usuários e grupos de usuários que podem alterar o estado do documento em **Grupos**.
+     - Especifique os usuários e grupos de usuários que podem alterar o estado do documento em **Grupos**.
 
-      - Clique no botão **Adicionar** para adicionar uma transição de estado.
+     - Clique no botão **Adicionar** para adicionar uma transição de estado.
 
-      - Clique no ícone Excluir para excluir uma transição de estado.
+     - Clique no ícone Excluir para excluir uma transição de estado.
 
      >[!NOTE]
      >

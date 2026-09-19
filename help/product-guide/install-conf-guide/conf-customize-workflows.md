@@ -4,13 +4,12 @@ description: Saiba como configurar e personalizar workflows
 feature: Workflow Configuration
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 169d6e01-7ab2-4f0a-bd70-a3aee39cee8e
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '2158'
+source-wordcount: '2280'
 ht-degree: 2%
-
 ---
-
 # Configurar e personalizar workflows {#id181AI0OJ0RO}
 
 Os workflows permitem automatizar as atividades do Adobe Experience Manager \(AEM\). Um fluxo de trabalho consiste em uma série de etapas executadas em uma ordem específica. Você pode definir uma atividade distinta para executar em cada etapa. Por exemplo, você pode enviar uma notificação por email a todos os revisores em um grupo quando uma revisão de tópico é criada. Ou envie uma notificação para o editor quando uma tarefa de geração de saída for concluída.
@@ -95,7 +94,7 @@ Você pode criar esses scripts no nó `/etc/workflows/scripts`. A tabela a segui
 | `initiator` | String | ID do usuário que inicia a tarefa de revisão. |
 | `operation` | String | Um valor estático definido como `AEM_REVIEW`. |
 | `orgTopics` | String | Caminho dos tópicos que estão sendo compartilhados para revisão. Especifique vários tópicos separados por vírgula. |
-| `payloadJson` | Objeto JSON | Especifique os seguintes valores: -   `base`: caminho da pasta pai contendo o tópico enviado para revisão. <br> -   `asset`: caminho do tópico enviado para revisão. <br> -   `referrer`: deixe em branco. |
+| `payloadJson` | Objeto JSON | Especifique os seguintes valores: - `base`: caminho da pasta pai que contém o tópico enviado para revisão. <br> - `asset`: caminho do tópico enviado para revisão. <br> - `referrer`: deixe em branco. |
 | `deadline` | String | Especifique a hora no formato `yyyy-MM-dd'T'HH:mm:ss.SSSXXX`. |
 | `title` | String | Insira um título para a tarefa de revisão. |
 | `description` | String | Informe uma descrição para a tarefa de revisão. |
@@ -110,7 +109,7 @@ Você pode criar esses scripts no nó `/etc/workflows/scripts`. A tabela a segui
 | `ditamap` | String | Especificar o caminho do ditamap da tarefa de revisão |
 | `allowAllReviewers` | Booleano | falso/verdadeiro |
 | `notifyViaEmail` | Booleano | falso/verdadeiro |
-| `reviewVersion` | String | Especifica a versão atual do fluxo de trabalho de Revisão. O valor padrão está definido como `3.0`.<br> Para habilitar os novos recursos de fluxo de trabalho de revisão para [Autores](../user-guide/review-close-review-task.md) e [Revisores](../user-guide/review-complete-review-tasks.md), verifique se `reviewVersion` está definido como `3.0`. |
+| `reviewVersion` | String | Especifica a versão atual do fluxo de trabalho de Revisão. O valor padrão está definido como `3.0` .<br> Para habilitar os novos recursos de fluxo de trabalho de revisão para [Autores](../user-guide/review-close-review-task.md) e [Revisores](../user-guide/review-complete-review-tasks.md), verifique se `reviewVersion` está definido como `3.0`. |
 
 
 Depois de criar o script, chame-o antes de chamar o processo Criar revisão no workflow. Em seguida, dependendo das suas necessidades, você poderá chamar os outros processos de workflow de revisão.

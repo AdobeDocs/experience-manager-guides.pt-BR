@@ -1,13 +1,12 @@
 ---
 title: Notas de versão | Instruções de atualização do Adobe Experience Manager Guides 5.1.0 Service Pack 4
 description: Saiba mais sobre a matriz de compatibilidade e como atualizar para a versão 5.1.0 Service Pack 4 do Adobe Experience Manager Guides.
-source-git-commit: acc063d149f52a457d4ce2447c8eafaff6296dac
+exl-id: 4970ee05-2644-43d6-976b-bfaa91b41146
+source-git-commit: d11f910bde58b36a8db27d74be6799eb7891f3b5
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 3%
-
+source-wordcount: '595'
+ht-degree: 4%
 ---
-
 # Instruções de atualização do 5.1.0 Service Pack 4 (abril de 2026)
 
 Este artigo aborda as instruções de atualização e a matriz de compatibilidade da versão 5.1.0 Service Pack 4 do Adobe Experience Manager Guides.
@@ -71,7 +70,7 @@ Antes de prosseguir com a atualização para a versão 5.1.0 Service Pack 4 do E
 - Se você estiver usando a versão 4.3.x, 4.2, 4.2.1 (Hotfix 4.2.1.3), 4.1 ou 4.1.x, será necessário atualizar para a versão 4.4 antes de atualizar para a versão 5.0.0.
 - Se você estiver usando a versão 4.0, será necessário atualizar para a versão 4.2 antes de atualizar para a versão 4.3.x.
 - Se você estiver usando a versão 3.8.5, será necessário atualizar para a versão 4.0 antes de atualizar para a versão 4.2.
-- Se você estiver usando uma versão anterior à 3.8.5, consulte a seção Atualizar Experience Manager Guides no guia de instalação específico do produto, disponível no [arquivo PDF de ajuda do Adobe Experience Manager Guides](https://helpx.adobe.com/br/xml-documentation-for-experience-manager/archive.html).
+- Se você estiver usando uma versão anterior à 3.8.5, consulte a seção Atualizar Experience Manager Guides no guia de instalação específico do produto, disponível no [arquivo PDF de ajuda do Adobe Experience Manager Guides](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 >[!NOTE]
 >

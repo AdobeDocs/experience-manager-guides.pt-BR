@@ -4,13 +4,12 @@ description: Saiba como migrar conteúdo não DITA
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: b416334318a83e882c32318bc4769d24268cdd1c
+exl-id: e4afe8f8-6130-4c97-a3b8-f5963a79c534
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '3521'
+source-wordcount: '3599'
 ht-degree: 0%
-
 ---
-
 # Migrar conteúdo não DITA {#id181AH0R02HT}
 
 Esta seção orienta você durante o processo de migração para migrar documentos não-DITA para o formato DITA. O AEM Guides fornece a migração das seguintes fontes:
@@ -290,7 +289,7 @@ Os seguintes pontos devem ser considerados para fazer upload de documentos em um
   </html>
   ```
 
-  Observe que toda marca `ul` deve ter o atributo `class` definido como `book`. Da mesma forma, cada `li` de tag de `class` deve ser definido como `topicref`.
+  Observe que toda marca `ul` deve ter o atributo `class` definido como `book`. Da mesma forma, cada `class` de tag de `li` deve ser definido como `topicref`.
 
 - Se você usar estilos em linha, converta os estilos em linha em classes de estilo baseadas em CSS no arquivo XHTML. Em seguida, use o mapeamento style-attribute para converter esses estilos baseados em classes para o atributo DITA `outputclass` no arquivo DITA convertido.
 

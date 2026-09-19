@@ -4,13 +4,12 @@ description: Conheça as Recomendações para otimização de desempenho
 feature: Performance Optimization
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 0f289f7c-8300-427a-a4d9-9c2f31608240
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '888'
 ht-degree: 0%
-
 ---
-
 # Recomendações para otimização de desempenho no local {#id213BD0JG0XA}
 
 ## Configurar armazenamento de dados \(Obrigatório\)
@@ -50,7 +49,7 @@ Os parâmetros de inicialização da JVM devem ser cuidadosamente ajustados com 
 
 - Defina o tamanho do heap de JVM para um mínimo de 1/4 do total de memória disponível. Use o parâmetro `-Xmx<size>` para definir o tamanho da memória de heap. Defina o valor de -`Xms` igual a `-Xmx`.
 
-- Habilitar `-XX:+HeapDumpOnOutOfMemoryError` e definir o caminho para `-XX:HeapDumpPath=</path/to/folder` `>`.
+- Habilitar `-XX:+HeapDumpOnOutOfMemoryError` e definir o caminho para `-XX:HeapDumpPath=</path/to/folder`&#x200B;`>`.
 
 - Habilitar log do Java GC como:
 
@@ -112,4 +111,3 @@ Isso pode ser feito em tempo de execução por meio do console Felix ou por meio
 
 **Resultado desta alteração**
 Um número aumentado da propriedade **Limitar Páginas do Site do AEM na Heap** otimiza o processo de geração de saída do Site do AEM.
-
