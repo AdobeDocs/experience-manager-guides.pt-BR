@@ -211,7 +211,7 @@ Os revisores podem delegar uma tarefa de revisão a outro revisor.
 
 * [Notas de versão do Cloud Service](./release-info/latest-release-info-cs.md)
 * [Notas de versão para No local](./release-info/latest-release-info.md)
-* [comunidade do AEM Guides](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
-* [Repositório do GitHub](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
-* [Suporte](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
-* [Tutoriais em vídeo](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [comunidade do AEM Guides](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=pt){target="_blank"}
+* [Repositório do GitHub](https://github.com/AdobeDocs/experience-manager-guides.pt-BR){target="_blank"}
+* [Suporte](https://experienceleague.adobe.com/support/v2/en/?lang=pt-BR){target="_blank"}
+* [Tutoriais em vídeo](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
