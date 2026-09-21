@@ -1,15 +1,13 @@
 ---
 title: Uso do MCP com o Adobe Experience Manager Guides
 description: Saiba como usar o Protocolo de contexto de modelo (MCP) com o AEM Guides para trabalhar com tópicos, mapas, linhas de base e relatórios por meio de um assistente de IA
-feature: Authoring, Publishing
+feature: Authoring
 role: User
-source-git-commit: c724946a3426e28a1270ba01cdf2646bbf5f2a0d
+source-git-commit: 20e5b1099b3d9a7230a40415495ba8e77f438b2a
 workflow-type: tm+mt
-source-wordcount: '974'
+source-wordcount: '790'
 ht-degree: 0%
-
 ---
-
 
 # Usando o servidor MCP do Adobe Experience Manager Guides
 
@@ -17,7 +15,7 @@ O Protocolo de contexto de modelo (MCP) é uma maneira padrão para os assistent
 
 O servidor MCP do Adobe Experience Manager Guides traz isso para o Experience Manager Guides. Ele permite que um assistente de IA habilitado para MCP, como Anthropic Claude, se conecte ao seu ambiente do Experience Manager Guides e aja em seu nome, com suas próprias permissões do AEM. Depois de conectado, você pode trabalhar com seus mapas, tópicos, linhas de base e relatórios no Experience Manager Guides as a Cloud Service usando uma linguagem natural simples.
 
-Este artigo explica por que o MCP é útil para o Experience Manager Guides, o que o servidor MCP cobre, com quais aplicativos ele funciona, como configurá-lo e como usá-lo.
+Este artigo explica por que o MCP é útil para o Experience Manager Guides, o que o servidor MCP cobre, com quais aplicativos ele funciona e como usá-lo.
 
 ## Por que o MCP para Experience Manager Guides é útil
 
@@ -31,93 +29,22 @@ Por exemplo:
 
 ## Servidor MCP fornecido pela Experience Manager Guides
 
-O Experience Manager Guides expõe seus recursos de MCP por meio de um único endpoint HTTP.
+O Experience Manager Guides expõe os recursos do MCP para trabalhar com conteúdo do Experience Manager Guides e workflows relacionados. Dependendo das permissões do AEM, o servidor MCP fornece acesso aos seguintes recursos:
 
-| Servidor MCP | Terminal | Descrição |
-| --- | --- | --- |
-| **Experience Manager Guides** | `https://mcp.adobeaemcloud.com/adobe/mcp/guides` | Trabalhar com tópicos e mapas, linhas de base e relatórios no Experience Manager Guides. |
+* **Tópicos e mapas**: trabalhe com tópicos e mapas em todo o ciclo de vida do conteúdo, desde a criação e exibição até a atualização, controle de versão, bloqueio e exclusão do conteúdo.
+* **Linhas de Base**: trabalhe com linhas de base criando, listando, exportando, duplicando, recompilando e rotulando-as.
+  >[!NOTE]
+  >
+  > Para ambientes Cloud Service e locais, os recursos da linha de base estão disponíveis somente quando a [nova linha de base](../user-guide/web-editor-baseline-v2.md) está habilitada.
+* **Relatórios**: obtenha informações sobre seu conteúdo acessando listas de tópicos e metadados, identificando links com falha e revisando o uso de multimídia.
+* **Sistema**: compreenda o estado do seu sistema verificando as versões do pacote, a integridade do pacote e o diagnóstico do ambiente.
 
-Este endpoint abrange quatro áreas:
+Se você não tiver permissão para executar uma ação no AEM, não poderá executar a mesma ação por meio do MCP.
 
-- **Tópicos e mapas** - Criar, ler, atualizar, excluir, criar versão e bloquear tópicos e mapas.
-- **Linhas de Base** - Criar, listar, exportar, duplicar, recompilar e rotular linhas de base.
-- **Relatórios** - Listas de tópicos, metadados, links quebrados e uso de multimídia.
-- **Sistema** - Versão do pacote, integridade do pacote e diagnóstico de ambiente.
-
-As ferramentas exatas disponíveis podem mudar com o tempo. Em vez de depender de uma lista fixa, peça ao assistente para mostrar o que está disponível:
-
-```
-List all Experience Manager Guides tools available from the author https://author-pXXXX-eXXXX.adobeaemcloud.com and describe what they do.
-```
-
-## Solicitar acesso para sua organização
-
-O acesso ao servidor MCP do Experience Manager Guides é de **aceitação por organização**. Antes que qualquer pessoa em sua organização possa se conectar:
-
-- O Experience Manager Guides deve ser ativado no ambiente AEM as a Cloud Service.
-- A IMS Organization ID (ID da organização) de sua organização deve estar na lista de permissões da equipe do Adobe Guides.
-
-Para solicitar acesso, entre em contato com a equipe de Sucesso do cliente da Adobe.
 
 ## Aplicativos compatíveis
 
-O servidor MCP do Experience Manager Guides é um servidor **remoto**. Funciona com qualquer cliente MCP que suporta servidores remotos, incluindo:
-
-### Aplicativos de bate-papo
-
-- Claude Antrópico (web e desktop)
-
-### Ferramentas do desenvolvedor
-
-- Cursor
-- Código do Visual Studio
-- Outros IDEs compatíveis com MCP
-
-## Configurar
-
-Você não instala nada localmente. Você aponta seu cliente para o URL do servidor e autentica por meio do fluxo de entrada do Adobe IMS.
-
-### Claude Antrópico
-
-Siga a apresentação oficial: [Configurar Claude para o AEM MCP](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/ai-in-aem/mcp-support/chat-applications/setup-claude). Ao adicionar o conector personalizado, use o endpoint do Experience Manager Guides:
-
-```
-https://mcp.adobeaemcloud.com/adobe/mcp/guides
-```
-
-### Cursor/Código do Visual Studio
-
-Adicione o servidor à configuração MCP. Para Cursor, adicione-o a `.cursor/mcp.json`:
-
-```json
-{
-  "mcpServers": {
-    "aem-guides": {
-      "url": "https://mcp.adobeaemcloud.com/adobe/mcp/guides"
-    }
-  }
-}
-```
-
-Para clientes que oferecem suporte apenas a servidores locais (stdio), conecte-se ao ponto de extremidade remoto com [`mcp-remote`](https://www.npmjs.com/package/mcp-remote):
-
-```json
-{
-  "mcpServers": {
-    "aem-guides": {
-      "command": "npx",
-      "args": ["-y", "mcp-remote", "https://mcp.adobeaemcloud.com/adobe/mcp/guides"]
-    }
-  }
-}
-```
-
-## Autenticação
-
-O servidor MCP do Experience Manager Guides usa o **Adobe IMS** para autenticação.
-
-- Na primeira conexão, seu cliente abre uma janela de logon do navegador. Faça logon com sua Adobe ID para concluir a conexão.
-- Depois de fazer logon, cada ação é executada com suas permissões existentes do AEM. Se você não tiver permissão para uma ação no AEM, a mesma ação falhará por meio do MCP.
+O servidor MCP do Experience Manager Guides é um servidor MCP remoto que pode se conectar com clientes MCP compatíveis. Com base em seu ambiente, conecte seu cliente MCP e autentique-se no servidor MCP do Experience Manager Guides. Para obter detalhes, consulte [Configurar o servidor MCP do Experience Manager Guides](./configure-aem-guides-mcp.md).
 
 ## Usando o servidor MCP do Experience Manager Guides
 
@@ -125,7 +52,7 @@ Depois de conectado, descreva em linguagem simples o que você deseja. O assiste
 
 >[!IMPORTANT]
 >
->As solicitações que envolvem várias etapas ou levam tempo para serem concluídas, como exportações, builds de linha de base e atualizações em massa, funcionam melhor com um modelo de pensamento. Eles são executados em segundo plano: o assistente inicia o trabalho e verifica seu status até que o resultado, ou um link de download, esteja pronto.
+> As solicitações que envolvem várias etapas ou levam tempo para serem concluídas, como exportações, builds de linha de base e atualizações em massa, funcionam melhor com um modelo de pensamento. Eles são executados em segundo plano: o assistente inicia o trabalho e verifica seu status até que o resultado, ou um link de download, esteja pronto.
 
 ### Exemplo de prompts
 

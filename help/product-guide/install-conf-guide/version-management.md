@@ -5,13 +5,11 @@ feature: Version Management
 role: Admin
 level: Experienced
 exl-id: 4ca4292a-a97a-4b54-ab9d-17f73e4a100f
-source-git-commit: 84be6501066dae623e057c15ac79b748d3e631f1
+source-git-commit: 3574ed5fe856a1ceb6f8c933ba084b092589b544
 workflow-type: tm+mt
-source-wordcount: '2277'
-ht-degree: 0%
-
+source-wordcount: '2299'
+ht-degree: 1%
 ---
-
 # Gerenciamento de versão {#id181GB000XY4}
 
 O controle de versão é um aspecto importante de qualquer sistema de gerenciamento de conteúdo. Ele permite criar um instantâneo do seu ativo digital em um ponto específico do tempo. Com uma versão de um ativo digital em vigor, é possível restaurar a versão necessária do ativo e atualizá-lo. Normalmente, para criar uma versão de qualquer ativo, você faria check-out e check-in do ativo necessário.
@@ -287,15 +285,15 @@ Dependendo de quem você deseja conceder acesso para exclusão, especifique uma 
 
 >[!ENDTABS]
 
-## Limpar versões anteriores de arquivos DITA
+## Limpar versões mais antigas dos arquivos
 
-Quando você atualiza o conteúdo e cria novas versões, as versões anteriores dos arquivos DITA são mantidas no repositório. Muitas versões podem ser criadas para seus arquivos DITA durante um período e podem ocupar uma grande quantidade de espaço no repositório. O AEM Guides permite configurar as versões mais antigas que devem ser excluídas do repositório.
+Quando você atualiza o conteúdo e cria novas versões, as versões anteriores dos arquivos são mantidas no repositório. Muitas versões podem ser criadas para seus arquivos durante um período e podem ocupar uma grande quantidade de espaço no repositório. O AEM Guides permite configurar as versões mais antigas que devem ser excluídas do repositório.
 
-Você pode acessar esse utilitário usando o URL fornecido, se tiver direitos administrativos:
+>[!NOTE]
+>
+> Você pode limpar arquivos DITA e não DITA.
 
-`<server folder path> /libs/fmdita/clientlibs/xmleditor_version_purge/page.html`
-
-A versão de um arquivo DITA que atende a qualquer um dos critérios fornecidos é mantida e não é removida:
+A versão de um arquivo que atende a qualquer um dos critérios fornecidos é mantida e não é removida:
 
 - É a primeira versão de um arquivo
 - Está incluído em uma linha de base
@@ -305,20 +303,21 @@ A versão de um arquivo DITA que atende a qualquer um dos critérios fornecidos 
 
 Execute as seguintes etapas para expurgar as versões mais antigas:
 
+1. Selecione o logotipo do Adobe Experience Manager na parte superior e escolha **Ferramentas**.
+1. Selecione **Guias** no painel Ferramentas.
+1. Selecione o bloco **Limpeza de Versão**.
+
+   ![](assets/version-purge.png)
+
 1. Informe os seguintes detalhes sobre os arquivos que deseja expurgar:
 
-   ![](assets/preview-purge-report.png)
-
-1. &#x200B;
    - **Número de Versões a Reter da Versão Mais Recente**: insira o número de versões que devem ser retidas e não removidas. Por exemplo, se informarmos 5, as últimas 5 versões serão retidas e as versões anteriores serão qualificadas para expurgação caso outras condições de expurgação sejam atendidas.
    - **Reter versões criadas dentro do período \(Em dias\)**: insira a idade máxima de uma versão em dias. As versões anteriores ao número de dias especificado são qualificadas para expurgação caso outras condições de expurgação sejam atendidas. Por exemplo, se informarmos 100, todas as versões criadas antes de 100 dias serão qualificadas para expurgação caso outras condições de expurgação sejam atendidas.
    - **Caminho**: selecione o caminho do arquivo ou pasta cujos arquivos você deseja limpar.
 
-     >[!NOTE]
-     >
-     > Você só pode limpar arquivos DITA.
+     ![](assets/preview-purge-report.png)
 
-1. Clique em **Visualizar relatório de limpeza**.
+1. Selecione **Visualizar Relatório de Limpeza**.
 
    >[!NOTE]
    >
@@ -333,7 +332,7 @@ Execute as seguintes etapas para expurgar as versões mais antigas:
 
    O status de expurgação é exibido.
 
-   Clique em **Baixar relatório de limpeza de versão** para exibir as versões limpas. Esse relatório fornece o status de limpeza em todas as versões, juntamente com os motivos pelos quais uma versão específica foi retida ou foi removida.
+   Selecione **Baixar Relatório de Limpeza de Versão** para exibir as versões removidas. Esse relatório fornece o status de limpeza em todas as versões, juntamente com os motivos pelos quais uma versão específica foi retida ou foi removida.
 
 
 >[!NOTE]
