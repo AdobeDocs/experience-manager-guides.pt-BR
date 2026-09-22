@@ -7,23 +7,29 @@ role: User
 TQID: https://experienceleague.adobe.com/r6gZE2a3lXtL0mFWxurEjna8mUTJIMEQdz2eLw2OWcQ
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1833481e1801fa171901abafe5eb256baaa10b8f
+    internal-label: User
+source-git-commit: 811743900fefe761f10254ff13c741a7d8f41d27
 workflow-type: tm+mt
-source-wordcount: 4258
+source-wordcount: '4329'
 ht-degree: 0%
-
 ---
-
 # Recursos adicionais no editor {#id2056B0B0YPF}
 
 Existem outros recursos úteis no Editor que você pode usar:
@@ -220,26 +226,26 @@ A barra de ferramentas contextual é exibida ao selecionar conteúdo ou células
 
   ![](images/set-alignment-rows.png){width="550"}
 
-   - Alinhamento de texto horizontal (Não disponível para tabelas Simples)
-   - Alinhamento de texto vertical (Não disponível para tabelas Simples)
-   - Inserir linha acima
-   - Inserir linha abaixo
-   - Remover linha
-   - Mesclar células (Não disponível para tabelas Simples)
+  - Alinhamento de texto horizontal (Não disponível para tabelas Simples)
+  - Alinhamento de texto vertical (Não disponível para tabelas Simples)
+  - Inserir linha acima
+  - Inserir linha abaixo
+  - Remover linha
+  - Mesclar células (Não disponível para tabelas Simples)
 
   Opções disponíveis para seleção de coluna única ou múltipla:
 
   ![](images/set-alignment-columns.png){width="550"}
 
-   - Alinhamento de texto horizontal (Não disponível para tabelas Simples)
-   - Alinhamento de texto vertical (Não disponível para tabelas Simples)
-   - Inserir linha acima
-   - Inserir linha abaixo
-   - Remover linha
-   - Inserir coluna acima
-   - Inserir coluna abaixo
-   - Remover coluna
-   - Mesclar células (Não disponível para tabelas Simples)
+  - Alinhamento de texto horizontal (Não disponível para tabelas Simples)
+  - Alinhamento de texto vertical (Não disponível para tabelas Simples)
+  - Inserir linha acima
+  - Inserir linha abaixo
+  - Remover linha
+  - Inserir coluna acima
+  - Inserir coluna abaixo
+  - Remover coluna
+  - Mesclar células (Não disponível para tabelas Simples)
 
 - Selecione a tabela para aplicar a formatação de texto e o alinhamento à tabela inteira.
 
@@ -349,17 +355,17 @@ Você tem as seguintes opções para filtrar os arquivos e restringir sua pesqui
 
   Isso significa que:
 
-   - Se você estiver usando o Perfil global, os valores de filtros configurados no Perfil global serão aplicados.
-   - Se você selecionar um perfil de pasta específico, os valores de filtros definidos nesse perfil serão buscados.
+  - Se você estiver usando o Perfil global, os valores de filtros configurados no Perfil global serão aplicados.
+  - Se você selecionar um perfil de pasta específico, os valores de filtros definidos nesse perfil serão buscados.
 
   Os valores de filtro padrão disponíveis para o estado do documento são: Rascunho, Editar, Em revisão, Aprovado, Revisado e Concluído. Para obter detalhes sobre como personalizar valores de filtro para estados de documento, consulte [Configurar filtros de estado de documento](../cs-install-guide/config-doc-state-filters.md).
 
 - **Bloqueado por**: exibe uma lista de usuários. A lista é paginada e carregada de forma assíncrona, mostrando um conjunto limitado de usuários de cada vez e buscando mais à medida que você rola a tela ou navega. Isso melhora a velocidade de carregamento e o desempenho geral, especialmente ao trabalhar com um grande número de usuários.
 
 - **Última modificação**: filtrar conteúdo com base na data de modificação. Selecione um intervalo de datas no calendário ou escolha uma das seguintes opções de intervalo de tempo:
-   - Na semana passada
-   - No mês passado
-   - No ano passado
+  - Na semana passada
+  - No mês passado
+  - No ano passado
 
 - **Marcas**: filtrar conteúdo com base em marcas.
 
@@ -552,5 +558,4 @@ Os principais recursos destinados a melhorar o tratamento de arquivos grandes s�
 
 - A mensagem de alerta está disponível somente para arquivos DITA e está visível em todas as exibições: Autor, Source e Layout.
 
-
-**Tópico pai:**&#x200B;[&#x200B; Introdução ao Editor](web-editor.md)
+**Tópico pai:**[ Introdução ao Editor](web-editor.md)

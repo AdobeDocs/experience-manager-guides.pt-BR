@@ -7,29 +7,40 @@ exl-id: 92496d39-b423-4635-8b05-c67fd6af47de
 TQID: https://experienceleague.adobe.com/GbsiDGw2pByOZ-AfWM2yH46QYWm95Z4ShDSvqyedViU
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: d6596f3f-92a7-43ec-b444-237db6adad05
+    internal-label: Native PDF publishing
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: fd5e1e85933eb2785b0a74b0fa49fec1da4ca0c2
+    internal-label: Troubleshooting
+source-git-commit: 06a24bcf5a4dc05ba20846e9d745ea6f36ee8183
 workflow-type: tm+mt
-source-wordcount: 11073
+source-wordcount: '11296'
 ht-degree: 0%
-
 ---
-
 # Painel esquerdo no editor
 
 >[!INFO]
@@ -77,6 +88,10 @@ Para obter detalhes, consulte [integração com o Workfront](./workfront-integra
 A explicação detalhada dos recursos do painel esquerdo é a seguinte:
 
 ## Coleções
+
+>[!NOTE]
+>
+> A partir da versão 2026.09.0, o Experience Manager Guides oferece uma experiência de navegação aprimorada por meio do carregamento paginado. Esse recurso é ativado por padrão. Para desativá-lo, entre em contato com a equipe de Sucesso do cliente. Para obter mais informações, consulte [Carregamento paginado de arquivos e pastas](./web-editor-other-features.md#paginated-loading-of-files-and-folders).
 
 Se você trabalhar em um conjunto de arquivos ou pastas, poderá adicioná-los à sua lista de favoritos para acessá-los rapidamente. **Coleções** mostra a lista de documentos que você adicionou e outras listas de documentos acessíveis publicamente de outros usuários.
 
@@ -185,7 +200,7 @@ Você tem as seguintes opções para filtrar os arquivos e restringir sua pesqui
 - **Arquivos DITA**: você pode procurar todos os **tópicos DITA** e **mapas DITA** presentes no caminho selecionado. Elas são selecionadas por padrão.
 - **Arquivos não DITA**: você pode pesquisar por **Arquivos Ditaval**, **Arquivos de Imagem**, **Multimídia**, **Documentos** e **JSON** no caminho selecionado.
 
-  ![filtro de pesquisa rápida &#x200B;](images/repository-filter-search-quick.png) {width="300"}
+  ![filtro de pesquisa rápida ](images/repository-filter-search-quick.png) {width="300"}
 
   *Use os filtros rápidos para procurar arquivos DITA e não DITA.*
 
@@ -493,7 +508,8 @@ As várias opções no menu Opções são explicadas abaixo:
 
 >[!NOTE]
 >
-> A partir da versão 2025.11.0 para Cloud Service e da versão 5.2.0 para No local, **Repositório** é substituído pelo **Explorer**. No local antes da versão 5.2, você continuará a visualizar e usar o Repositório por meio da interface do Editor.
+>- A partir da versão 2025.11.0 para Cloud Service e da versão 5.2.0 para No local, **Repositório** é substituído pelo **Explorer**. No local antes da versão 5.2, você continuará a visualizar e usar o Repositório por meio da interface do Editor.
+>- A partir da versão 2026.09.0, o Experience Manager Guides oferece uma experiência de navegação aprimorada por meio do carregamento paginado. Esse recurso é ativado por padrão. Para desativá-lo, entre em contato com a equipe de Sucesso do cliente. Para obter mais informações, consulte [Carregamento paginado de arquivos e pastas](./web-editor-other-features.md#paginated-loading-of-files-and-folders).
 
 O Explorer fornece a maioria dos recursos disponíveis anteriormente no Repository, incluindo:
 
@@ -1116,6 +1132,10 @@ Para inserir um trecho, use um dos seguintes métodos:
 
 ## Modelos
 
+>[!NOTE]
+>
+> A partir da versão 2026.09.0, o Experience Manager Guides oferece uma experiência de navegação aprimorada por meio do carregamento paginado. Esse recurso é ativado por padrão. Para desativá-lo, entre em contato com a equipe de Sucesso do cliente. Para obter mais informações, consulte [Carregamento paginado de arquivos e pastas](./web-editor-other-features.md#paginated-loading-of-files-and-folders).
+
 O painel Modelos está disponível somente para administradores. Usando esse painel, o administrador pode criar e gerenciar facilmente modelos que podem ser usados pelos autores. Por padrão, os modelos são categorizados em *mapa* e *tópico* modelos de tipo.
 
 ![](images/templates-panel_cs.png){width="300"}
@@ -1391,4 +1411,4 @@ Para exibir os comentários de revisão nas tarefas de revisão ativas que estã
 
 </details>
 
-**Tópico pai:**&#x200B;[&#x200B; Introdução ao Editor](web-editor.md)
+**Tópico pai:**[ Introdução ao Editor](web-editor.md)

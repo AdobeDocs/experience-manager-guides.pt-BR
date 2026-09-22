@@ -7,22 +7,27 @@ role: User
 TQID: https://experienceleague.adobe.com/hdEk3etzBCch3Ejdl5SnIC37pSK6a-WERkTMqu-jlGM
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: e4019ae1e605bd26f7df676a4fab8c632fd8fa8e
 workflow-type: tm+mt
-source-wordcount: 1593
+source-wordcount: '1824'
 ht-degree: 0%
-
 ---
-
 # Visualizações do editor para tópicos {#id204GK0D0V5Z}
 
 >[!INFO]
@@ -122,15 +127,33 @@ Abrir um tópico no modo de Visualização mostra como um tópico será exibido 
 
 O modo de Visualização oferece as seguintes funcionalidades:
 
+* [Visualizar conteúdo usando a linha de base](#preview-content-using-baseline)
 * [Exibir conteúdo com base em filtros condicionais](#id2114BI00VXA)
 * [Exibir as marcações de alterações de controle](#id2114BJ00CE8)
 * [Exportar um tópico como PDF](#id2114BL00B5U)
+
+
+### Visualizar conteúdo usando linha de base (aplicável somente para mapa DITA)
+
+>[!NOTE]
+>
+>Entre em contato com a Equipe de sucesso do cliente para habilitar esse recurso em seu ambiente.
+
+O modo de visualização por padrão exibe a cópia de trabalho atual de um tópico ou mapa. Se um mapa tiver uma ou mais linhas de base estáticas, você poderá usar a opção **Visualizar usando linhas de base** para visualizar o mapa como ele existia em uma versão de linha de base específica. Este recurso só oferece suporte a linhas de base estáticas; as linhas de base dinâmicas não estão disponíveis para visualização.
+
+![](images/preview-baseline.png){width="650"}
+
+Ao selecionar uma linha de base na lista suspensa, a visualização resolve todos os tópicos, ativos, imagens e referências associados com base na linha de base selecionada, em vez da cópia de trabalho atual. Isso fornece uma representação precisa do conteúdo do mapa no momento em que a linha de base foi criada.
+
+Por exemplo, se uma imagem tiver sido substituída após a criação de uma linha de base, a visualização dessa linha de base exibirá a versão da imagem associada à linha de base, em vez da imagem da cópia de trabalho atual.
+
+O modo de visualização mostra um indicador de visualização de carregamento enquanto renderiza o conjunto inicial de tópicos. Ela não é atualizada automaticamente após a edição de um tópico ou da troca de versões. Para ver o conteúdo mais recente, atualize a visualização manualmente ou feche e reabra o tópico ou mapa. Além disso, as opções de Rastreamento (Sem marcação, Original e Mostrar marcação) não estão disponíveis ao visualizar um mapa para uma linha de base.
 
 ### Exibir conteúdo com base em filtros condicionais {#id2114BI00VXA}
 
 Se você tiver usado condições em seu tópico ou mapa, essas condições serão mostradas no painel Filtros. Por padrão, todas as condições são selecionadas e todo o conteúdo é exibido. Se você desmarcar uma condição, o conteúdo que tem essa condição será removido da visualização. Você também pode optar por destacar conteúdo condicional.
 
-A imagem a seguir mostra um tópico que usa duas condições: `Audience` e `Platfor`. O conteúdo condicional é realçado com o plano de fundo amarelo.
+A imagem a seguir mostra um tópico que usa duas condições: `Audience` e `Platform`. O conteúdo condicional é realçado com o plano de fundo amarelo.
 
 >[!BEGINTABS]
 
@@ -153,7 +176,7 @@ Se um documento contiver marcas de alteração de faixa \(ou dicas visuais\), vo
 Há três opções de **Rastreamento** que você pode escolher:
 
 * **Sem Marcação**: nesta exibição, todas as inserções e exclusões são aceitas, e uma exibição simples do documento é apresentada. Nesta exibição, você não visualiza nenhuma marcação de alteração de rastreamento.
-* **Original**: neste modo de exibição, todas as inserções são rejeitadas e todas as exclusões são restauradas novamente, e uma visualização é mostrada. Basta obter a forma original do documento antes de ativar o modo de controle de alterações.
+* **Original**: neste modo de exibição, todas as inserções são rejeitadas e todas as exclusões são restauradas novamente, e uma visualização é mostrada. Você obtém o formulário original do documento antes de ativar o modo de controle de alterações.
 * **Mostrar Marcação**: nesta exibição, você obtém todas as marcações para conteúdo inserido e excluído.
 
   A imagem a seguir mostra a pré-visualização de um arquivo de mapa com marcações:
@@ -186,5 +209,4 @@ Para exportar um tópico como PDF, siga estas etapas:
 
    A PDF é gerada e aberta em uma nova guia ou você verá uma caixa de diálogo para salvar a PDF no sistema local.
 
-
-**Tópico pai:**&#x200B;[&#x200B; Introdução ao Editor](web-editor.md)
+**Tópico pai:**[ Introdução ao Editor](web-editor.md)

@@ -5,18 +5,20 @@ feature: Release Notes
 role: Leader
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 06126f77ee4db22865895739ad9af4efa787a7df
+    internal-label: Customer experience
+source-git-commit: c581d44f5dab173cbe657e05c21d8a4a65844bc1
 workflow-type: tm+mt
-source-wordcount: 431
+source-wordcount: '441'
 ht-degree: 2%
-
 ---
-
 # Informações sobre a versão do Adobe Experience Manager Guides as a Cloud Service
 
 Esta página fornece as informações da versão mais recente do Adobe Experience Manager Guides as a Cloud Service. Encontre detalhes sobre novos recursos, aprimoramentos, problemas corrigidos, problemas conhecidos e instruções de atualização para ajudá-lo a se manter atualizado com cada versão.
@@ -25,6 +27,7 @@ Esta página fornece as informações da versão mais recente do Adobe Experienc
 
 | Versão [!DNL AEM Guides] | Notas de versão |
 |---|---|
+| **AEM Guides 2026.09.0** | [2026.09.0 Novidades](./whats-new-2026-09-0.md)<br><br>[2026.09.0 Problemas corrigidos](./fixed-issues-2026-09-0.md)<br><br>[Instruções de atualização de 2026.09.0](./upgrade-instructions-2026-09-0.md) |
 | **AEM Guides 2026.08.0** | [2026.08.0 Novidades](./whats-new-2026-08-0.md)<br><br>[2026.08.0 Problemas corrigidos](./fixed-issues-2026-08-0.md)<br><br>[Instruções de atualização de 2026.08.0](./upgrade-instructions-2026-08-0.md) |
 | **AEM Guides 2026.07.0** | [2026.07.0 Correção de problemas](./fixed-issues-2026-07-0.md)<br><br>[Instruções de atualização de 2026.07.0](./upgrade-instructions-2026-07-0.md) |
 | **AEM Guides 2026.06.0** | [2026.06.0 Novidades](./whats-new-2026-06-0.md)<br><br>[2026.06.0 Problemas corrigidos](./fixed-issues-2026-06-0.md)<br><br>[Instruções de atualização de 2026.06.0](./upgrade-instructions-2026-06-0.md) |

@@ -7,21 +7,25 @@ role: User
 TQID: https://experienceleague.adobe.com/Ln0JE2F8klsmIZJqtpy3Idi3VHdh1U900sfMrD0xpEU
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 67bbbc9afc5278722d7d60bf5574feb44a9ed69c
+    internal-label: User
+source-git-commit: 44b50108aa453052c1c9b429eaeb254cad746166
 workflow-type: tm+mt
-source-wordcount: 1409
+source-wordcount: '1497'
 ht-degree: 0%
-
 ---
-
 # Editar tópicos no Editor {#id2056B040VUI}
 
 >[!INFO]
@@ -91,16 +95,16 @@ Deixe o conteúdo selecionado em negrito, itálico, sublinhe o conteúdo selecio
 
 - Circundar o conteúdo com um elemento válido: execute as seguintes etapas para envolver o conteúdo com um elemento válido:
 
-   - Selecione o conteúdo em um elemento.
-   - Selecione o ícone ![adicionar](images/Add_icon.svg) na barra de ferramentas na parte superior para exibir a caixa de diálogo **Inserir elemento**. A caixa de diálogo lista os elementos válidos para o conteúdo selecionado.
+  - Selecione o conteúdo em um elemento.
+  - Selecione o ícone ![adicionar](images/Add_icon.svg) na barra de ferramentas na parte superior para exibir a caixa de diálogo **Inserir elemento**. A caixa de diálogo lista os elementos válidos para o conteúdo selecionado.
 
-     >[!NOTE]
-     >
-     > Você também pode visualizar a caixa de diálogo Inserir elemento selecionando o menu de contexto do conteúdo selecionado.
+    >[!NOTE]
+    >
+    > Você também pode visualizar a caixa de diálogo Inserir elemento selecionando o menu de contexto do conteúdo selecionado.
 
-   - Selecione um elemento na caixa de diálogo. O conteúdo selecionado é colocado sob esse elemento. Por exemplo, se você selecionar o conteúdo em um parágrafo e escolher o elemento `<note>` na caixa de diálogo **Inserir elemento**, o conteúdo selecionado será exibido abaixo de uma observação.
+  - Selecione um elemento na caixa de diálogo. O conteúdo selecionado é colocado sob esse elemento. Por exemplo, se você selecionar o conteúdo em um parágrafo e escolher o elemento `<note>` na caixa de diálogo **Inserir elemento**, o conteúdo selecionado será exibido abaixo de uma observação.
 
-     ![Caixa de diálogo Inserir elemento](./images/insert-element-editor.png) {width="300"}
+    ![Caixa de diálogo Inserir elemento](./images/insert-element-editor.png) {width="300"}
 
 ## Atualizar o navegador ao editar os arquivos
 
@@ -181,6 +185,14 @@ You can access the **Layout** view for read-only DITA maps. This view lets you s
 
  -->
 
+## Impedir a substituição de conteúdo durante a edição simultânea
+
+>[!NOTE]
+>
+> Habilite a configuração **Desabilitar edição sem bloquear o arquivo** do ConfigMgr para esta funcionalidade.
+
+Quando dois autores trabalham no mesmo tópico DITA ao mesmo tempo, as edições feitas sobre uma cópia desatualizada podem substituir, sem saber, as alterações de outro autor. Para evitar isso, selecionar **Bloquear** em um tópico atualiza automaticamente o Editor para carregar o conteúdo mais recente do servidor antes de você iniciar a edição, garantindo que as alterações sejam sempre baseadas na versão mais atual em vez de em uma cópia obsoleta.
+
 ## Localizar um arquivo aberto no Explorer
 
 Enquanto você abre um arquivo no Editor, o Experience Manager Guides fornece o recurso para localizar o arquivo no Explorer. Por exemplo, ela localiza o tópico atual enquanto você o edita.
@@ -191,4 +203,4 @@ Você pode desativar o recurso para localizar o arquivo com a opção **Sempre l
 >
 >Na versão 2025.11.0, a configuração **Sempre localizar arquivos no repositório** foi renomeada para **Sempre localizar arquivos no explorador**. Para configuração no local, ele continua disponível como Sempre localizar arquivos no repositório até a versão 5.1 do Experience Manager Guides.
 
-**Tópico pai:**&#x200B;[&#x200B; Trabalhar com o editor](web-editor.md)
+**Tópico pai:**[ Trabalhar com o editor](web-editor.md)

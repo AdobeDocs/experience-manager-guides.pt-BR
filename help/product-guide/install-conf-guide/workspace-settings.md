@@ -4,19 +4,17 @@ description: Saiba mais sobre as várias configurações disponíveis na interfa
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 10df0495-1d52-4c7c-a11a-059fe72d09f2
-source-git-commit: 2386f02cf0752ca6c97ca1e3697bfbd03e6ca4d5
+source-git-commit: 5ed0a5191e1852dd65e0461f02d520b195f7cc39
 workflow-type: tm+mt
-source-wordcount: '2304'
+source-wordcount: '2378'
 ht-degree: 0%
-
 ---
-
 # Configurações do Workspace
 
 >[!NOTE]
 >
 > Na configuração no local anterior à versão 5.2, a opção **Configurações** aparece na barra de guias do Editor. Para configurações do Cloud Service e no local na versão 5.2 e posterior, esta opção foi renomeada para **configurações do Workspace**. Todas as opções de configuração existentes disponíveis em **Configurações do editor** permanecem inalteradas.
-> ![Configuração do editor para local](assets/editor-settings-on-prem.png){width="650"}
+> ![Configuração do editor para No local](assets/editor-settings-on-prem.png){width="650"}
 
 
 A opção **Configurações do Workspace** presente na [Barra de guias](../user-guide/web-editor-tab-bar.md) do Editor está disponível somente para administradores e administradores de perfil de pasta e permite definir as seguintes configurações:
@@ -42,14 +40,27 @@ A opção **Configurações do Workspace** presente na [Barra de guias](../user-
 
 As configurações Gerais permitem definir as configurações para usar o Editor. Esta guia contém cinco seções: **Assistente de IA**, **Criação**, **Citações**, **Condição** e **Verificação ortográfica**.
 
-![](../user-guide/images/editor-setting-general.png){width="350"}
+![](assets/editor-setting-general-agentic.png){width="350"}
 
 - **Assistente de IA**
-Selecione esta opção para habilitar o recurso [Assistente de IA](../user-guide/ai-assistant.md) na Experience Manager Guides. Desmarque para desativar o recurso.
 
-  Depois de habilitar a opção de alternância **Assistente de IA**, você pode configurar quais opções serão exibidas na **guia Criação** para autores usando o menu **Ações rápidas de criação**, conforme mostrado abaixo.\
-  Essas alterações se aplicam ao perfil de pasta específico com o qual você está trabalhando. Se você criar um novo perfil de pasta, ele herdará as configurações do Workspace definidas no perfil de pasta **Global** por padrão. Você pode modificar essas configurações conforme necessário usando as **configurações do Workspace** e salvar a configuração atualizada.\
-  Para obter uma visão geral detalhada das opções disponíveis para Criação usando o Assistente de IA, exiba [Crie documentos de forma inteligente com o Assistente de IA](../user-guide/ai-assistant-right-panel.md).
+  >[!NOTE]
+  >
+  > Para usar o recurso Assistente de IA em modo Agêntico em seu ambiente, entre em contato com a equipe de Sucesso do cliente.
+
+  Selecione esta opção para habilitar o recurso [Assistente de IA](../user-guide/ai-assistant.md) no Experience Manager Guides. Desmarque para desativar o recurso.
+
+  O Assistente de IA está disponível de dois modos: **Agente** e **Padrão**. Você pode escolher entre os dois modos ativando os respectivos alternadores.
+
+  - **Agente**: depois de habilitar esta opção, você poderá acessar o recurso de Assistente de IA Agênica na barra de Navegação da Página Inicial e na barra de Guias da interface do Editor. Para obter detalhes sobre como gerar tags sugeridas de IA para tópicos, consulte [Usar o Assistente de IA no modo Agente](../user-guide/ai-assistant-agentic.md).
+
+  ![](assets/agentic-ai-workspace.png){width="350"}
+
+  - **Padrão**: depois de habilitar a opção **Padrão**, você pode configurar quais opções serão exibidas na **guia Criação** para autores usando o menu **Ações rápidas de criação**, conforme mostrado abaixo.
+
+    Essas alterações se aplicam ao perfil de pasta específico com o qual você está trabalhando. Se você criar um novo perfil de pasta, ele herdará as configurações do Workspace definidas no perfil de pasta **Global** por padrão. Você pode modificar essas configurações conforme necessário usando as **configurações do Workspace** e salvar a configuração atualizada.
+
+    Para obter uma visão geral detalhada das opções disponíveis para Criação usando o Assistente de IA, exiba [Crie documentos de forma inteligente com o Assistente de IA](../user-guide/ai-assistant-right-panel.md).
 
   No menu **Ações rápidas de criação**, você pode:
 
@@ -57,19 +68,7 @@ Selecione esta opção para habilitar o recurso [Assistente de IA](../user-guide
 
   - altere a ordem na qual as opções são exibidas, arraste-as e solte-as conforme necessário.
 
-  ![](../user-guide/images/authoring-quick-actions-new.png){width="350"}
-
-- **IA de guias**
-
-  >[!NOTE]
-  >
-  > Para usar o recurso de IA do Guides em seu ambiente, entre em contato com a equipe de Sucesso do cliente. Somente uma experiência de IA pode ser ativada por vez; o Guides AI ou o Assistente de IA.
-
-  Selecione a opção **Guides AI** para habilitar este recurso no Experience Manager Guides.Desmarque para desabilitar o recurso.
-
-  Depois de ativar essa opção, você poderá acessar o recurso de IA de guias na barra de navegação na página inicial e na barra de guias na interface do editor. Para obter detalhes sobre como gerar tags sugeridas de IA para tópicos, exiba [Introdução à IA de guias](../user-guide/guides-ai.md).
-
-  ![](assets/guides-ai-workspace.png){width="350"}
+  ![](assets/authoring-quick-actions-standard.png){width="350"}
 
 - **Criação**
 

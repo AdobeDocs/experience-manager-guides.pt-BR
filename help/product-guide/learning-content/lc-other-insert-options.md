@@ -7,20 +7,23 @@ exl-id: 8c12ed9b-6309-40bf-b264-a2323cd6f4b3
 TQID: https://experienceleague.adobe.com/SWlP2-iWhN1x25K9s-mrMcfUTy5Fxv7TVWg6G2ucufc
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 7989955248054571a569ad34d92ae7e26fe70ffd
+    internal-label: User
+source-git-commit: 2fcdb485f7527b5ffdfe1d42ed3d9bbdd576ce7a
 workflow-type: tm+mt
-source-wordcount: 577
+source-wordcount: '640'
 ht-degree: 0%
-
 ---
-
 # Outras opções no menu Inserir
 
 As outras opções disponíveis no menu Inserir na barra de ferramentas do Editor incluem:
@@ -52,11 +55,17 @@ As outras opções disponíveis no menu Inserir na barra de ferramentas do Edito
 
   ![](assets/upload-assets-option.png)
 
-  Depois de concluído, revise o conteúdo H5P no modo de Visualização e na saída publicada.
+  Depois de concluído, revise o conteúdo H5P no modo de Visualização e na saída publicada. O conteúdo H5P também é compatível com uma opção de exibição em tela cheia. Você pode ativar ou desativar o modo de tela cheia para cada elemento H5P incorporado por meio de uma alternância dedicada no painel Propriedades de conteúdo. Quando ativado, os alunos podem expandir o conteúdo para tela cheia; quando desativado, o conteúdo permanece em linha na visualização padrão. Essa configuração se aplica de forma consistente na saída publicada e no modo de Visualização.
 
   >[!NOTE]
   >
   > A edição ou criação de conteúdo H5P não é suportada no Adobe Experience Manager Guides. Prepare seu pacote H5P externamente antes de fazer upload.
+
+  ![](assets/h5p-fullscreen.png)
+
+  **Modo de visualização**
+
+  ![](assets/h5p-preview.png)
 
 
 - **Equação do MathML:** insere equações do MathML ao seu conteúdo. Você pode criar uma equação do MathML e selecionar **Inserir** para adicioná-la ao seu documento.

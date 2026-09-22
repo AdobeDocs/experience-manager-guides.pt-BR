@@ -1,25 +1,32 @@
 ---
-title: Usar o Assistente de IA para criar documentos com inteligência &grave;
+title: Usar o Assistente de IA para criar documentos com inteligência `
 description: Saiba como usar o Assistente de IA para criar documentos com eficiência inteligente.
 exl-id: 47d37323-20bf-4444-a2c9-41c44b2c8daf
 TQID: https://experienceleague.adobe.com/R61ig9pzRNSHnZrlnZRRPMwNXjJhvcKoJ5SCUQb3nzI
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: ae9ac69745555aa3683e0a6a648f6519377dd6d7
 workflow-type: tm+mt
-source-wordcount: 1059
+source-wordcount: '1074'
 ht-degree: 0%
-
 ---
-
 # Crie documentos com inteligência com o Assistente de IA (Beta)
+
+>[!NOTE]
+>
+>Esse recurso está disponível para o Assistente de IA no modo Padrão.
 
 O Adobe Experience Manager Guides fornece uma ferramenta de Assistente de IA que ajuda a tornar a criação mais inteligente e rápida. Com essa ferramenta, visualize as sugestões inteligentes para reutilizar o conteúdo do repositório de conteúdo existente. Use o recurso de prompt de texto para fornecer um prompt e alterar o conteúdo de acordo com seus requisitos. Use o Assistente de IA para converter um parágrafo em uma lista de maneira inteligente. Você pode criar uma breve descrição para o tópico atual com base no conteúdo selecionado. Esse recurso também ajuda a melhorar e traduzir facilmente o conteúdo selecionado.
 
@@ -34,7 +41,7 @@ Depois de selecionar o texto em um tópico, você pode optar por executar qualqu
 ## Sugerir conteúdo reutilizável
 
 
-Use o recurso **Sugerir conteúdo reutilizável** ![ai sugerir ícone de conteúdo reutilizável &#x200B;](./images/ai-suggest-reusable-content-icon.svg) para criar conteúdo de forma consistente e precisa. Você pode selecionar o conteúdo, e o Experience Manager Guides fornece sugestões sobre como reutilizar o conteúdo existente no repositório.
+Use o recurso **Sugerir conteúdo reutilizável** ![ai sugerir ícone de conteúdo reutilizável ](./images/ai-suggest-reusable-content-icon.svg) para criar conteúdo de forma consistente e precisa. Você pode selecionar o conteúdo, e o Experience Manager Guides fornece sugestões sobre como reutilizar o conteúdo existente no repositório.
 Saiba mais sobre como usar as [sugestões inteligentes habilitadas por IA para criar conteúdo](authoring-ai-based-smart-suggestions.md).
 
 
