@@ -126,7 +126,7 @@ Nas predefinições de Saída, selecione **PDF** > **Native-PDF** > **Metadata**
 
 * **Fornecer arquivo XMP**
 
-  Você também pode preencher diretamente os campos de metadados importando o arquivo [XMP](https://www.adobe.com/products/xmp.html) (Plataforma de Metadados Extensível). Você pode baixar um arquivo de amostra do XMP aqui.
+  Você também pode preencher diretamente os campos de metadados importando o arquivo [XMP](https://www.adobe.com/br/products/xmp.html) (Plataforma de Metadados Extensível). Você pode baixar um arquivo de amostra do XMP aqui.
 
   [Download](assets/SampleXMP.xmp)
 
@@ -256,7 +256,7 @@ Use as opções a seguir para especificar configurações avançadas para mescla
 | **Incluir alterações de controle** | Selecione essa opção se desejar incluir alterações controladas no PDF gerado para facilitar a revisão e a comparação. |
 | **Incluir comentários de rascunho** | Selecione esta opção se desejar incluir comentários de rascunho adicionados aos tópicos DITA do mapa selecionado no PDF gerado. <br> **Observação**: habilitar apenas esta opção não faz com que comentários de rascunho apareçam na saída. Um Administrador também deve definir a propriedade de exibição do estilo de comentário de rascunho como um valor visível (como `block`, `inline-block`, `grid` e mais) no modelo de saída usado para o mapa. Para obter detalhes, exiba [Mostrar ou ocultar comentários de rascunho na saída do PDF Nativo](../native-pdf/components-pdf-template.md#show-or-hide-draft-comments-in-native-pdf-output). |
 | **Reter arquivos temporários** | Selecione essa opção se quiser manter os arquivos provisórios do HTML criados ao gerar a saída do PDF nativo. Posteriormente, você pode baixar os arquivos temporários depois de gerar a saída. Os arquivos baixados também incluem o arquivo `system_config.xml`, que fornece informações sobre a URL do autor, a URL local e a URL de publicação. Essas URLs são definidas nas configurações de Externalização do AEM e são refletidas no arquivo `system_config.xml`. |
-| **Conformidade do PDF** | É o padrão para o qual você pretende salvar seu PDF para garantir sua conformidade. Selecione na lista suspensa para escolher na lista de padrões disponíveis do PDF. Para obter mais detalhes sobre os padrões compatíveis, consulte [Sobre os padrões da PDF](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
+| **Conformidade do PDF** | É o padrão para o qual você pretende salvar seu PDF para garantir sua conformidade. Selecione na lista suspensa para escolher na lista de padrões disponíveis do PDF. Para obter mais detalhes sobre os padrões compatíveis, consulte [Sobre os padrões da PDF](https://helpx.adobe.com/br/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
 | **Propriedades do arquivo** | Selecione os metadados que deseja passar para a publicação nativa do PDF. A lista suspensa lista as propriedades personalizadas e padrão. Por exemplo, `dc:description`, `dc:language`, `dc:title` e `docstate` são as propriedades padrão, enquanto você pode ter `author` como a propriedade personalizada. As propriedades de metadados selecionadas são passadas para o arquivo PDF gerado com o PDF Nativo. <br> Essas propriedades são selecionadas do arquivo `metadataList` disponível em:`/libs/fmdita/config/metadataList`. <br>Este arquivo pode ser sobreposto em: `/apps/fmdita/config/metadataList`. |
 
 
