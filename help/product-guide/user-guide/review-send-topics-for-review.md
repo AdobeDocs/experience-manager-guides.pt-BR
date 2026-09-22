@@ -7,21 +7,25 @@ role: User
 TQID: https://experienceleague.adobe.com/mrpBKOZcVm1XHdkEy9PBFOt-cbjfmyjqhT-BRbg3Swo
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+    internal-label: Document state
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a668e1b862702ae1154b05d974414b54b43559ea
+    internal-label: User
+source-git-commit: 279cf0605427042290a7bbf179636f022d4bfd46
 workflow-type: tm+mt
-source-wordcount: 3663
+source-wordcount: '4036'
 ht-degree: 0%
-
 ---
-
 # Enviar tópicos para revisão {#id199RD0S035Z}
 
 O fluxo de trabalho de revisão cria um ambiente de vários revisores em que o iniciador especifica uma lista de tópicos para revisão, adiciona vários revisores e atribui uma linha do tempo para a tarefa de revisão. O Adobe Experience Manager Guides permite que os usuários pertencentes aos grupos Autores e Editores iniciem uma revisão.
@@ -275,6 +279,10 @@ Para enviar um ou vários tópicos juntamente com o arquivo de mapa para revisã
 
    ![](images/content-page-map-review.png)
 
+   >[!NOTE]
+   >
+   > A forma como o conteúdo é organizado nessa página depende de o recurso de hierarquia de mapa estar ativado para o seu ambiente. Quando ativado, o mapa e seus submapas são exibidos em uma visualização hierárquica em vez de em uma lista simples de tópicos. Para obter mais detalhes, exiba [Exibir a hierarquia do mapa ao selecionar tópicos para revisão](#view-the-map-hierarchy-while-selecting-topics-for-review).
+
 1. Na página Conteúdo, selecione uma versão do tópico que você deseja compartilhar para revisão.
 
    Você pode usar um dos seguintes métodos para selecionar uma versão:
@@ -327,6 +335,33 @@ Para enviar um ou vários tópicos juntamente com o arquivo de mapa para revisã
 
 
 Um email é enviado para todos os revisores, notificando que eles receberam tópicos para revisão. O e-mail contém um link direto que eles podem usar para acessar o tópico em uma janela do navegador. Os tópicos, juntamente com o mapa DITA, são abertos no modo de revisão.
+
+### Exibir a hierarquia do mapa ao selecionar tópicos para revisão
+
+>[!NOTE]
+>
+> Esse recurso está desativado por padrão. Para ativá-lo em seu ambiente, entre em contato com a equipe de sucesso do cliente.
+
+Com este recurso, a estrutura ou hierarquia existente do conteúdo do mapa é exibida na página **Conteúdo**. Em vez de exibir todos os tópicos em um mapa como uma lista simples, o mapa e seus submapas são exibidos em sua hierarquia real para melhor referência ao selecionar o conteúdo para revisão.
+
+![](./images/review-map-hierarchy.png)
+
+>[!NOTE]
+>
+> - Se um mapa contiver apenas tópicos e nenhum submapa, uma lista simples de tópicos será exibida como de costume.
+> - Somente os tipos de conteúdo que podem ser incluídos em uma revisão são exibidos na hierarquia. Isso inclui tópicos Conceito, Tarefa, Referência e Genérico, juntamente com os tipos Mapa DITA, BookMap e Mapa de conteúdo de aprendizado. Itens não revisáveis, como referências de glossário, definições de chave e listas de glossário, não são exibidos na hierarquia do mapa.
+
+Por padrão, todos os mapas, submapas e tópicos na hierarquia são selecionados. Como Autor ou iniciador da tarefa de revisão, você pode selecionar ou desmarcar tópicos individuais ou concluir submapas com base no conteúdo que deseja enviar para revisão. Desmarcar um submapa também desmarca todos os tópicos dentro dele.
+
+Quando apenas alguns tópicos em um submapa são selecionados, a caixa de seleção do submapa é alterada para um estado indeterminado para indicar uma seleção parcial. Este estado de seleção é refletido nas páginas **Conteúdo** e **Revisores**, garantindo que o conteúdo selecionado permaneça consistente durante o fluxo de trabalho de revisão.
+
+![](./images/review-partial-selection-submap.png)
+
+Quando todos os tópicos de um submapa são selecionados ou desmarcados, o estado de seleção do submapa é automaticamente ajustado de acordo.
+
+Se o mesmo tópico for referenciado mais de uma vez na hierarquia do mapa, cada ocorrência após a primeira será marcada com um rótulo **Duplicado** para facilitar a identificação. A opção para selecionar, desmarcar ou alterar a versão desses tópicos duplicados está desativada. Qualquer seleção ou alteração de versão deve ser feita a partir da primeira ocorrência do tópico.
+
+![](./images/review-duplicate-topics-in-map.png)
 
 ## Adicionar ou remover tópicos de uma tarefa de revisão em andamento
 

@@ -7,27 +7,37 @@ role: User
 TQID: https://experienceleague.adobe.com/aSjUOzg8-jreMvbiuBZ5lRlbeikBHMHBLUww4L3-hZA
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+    internal-label: Document state
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd456af4-cb12-4a34-8cc4-b74adf885626
+    internal-label: Content translation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 077335fcbb539ef545ce2ca9903e4a8223b3f6ce
+    internal-label: User
+source-git-commit: 0db59f201b2418911634609b93ab7892477052c9
 workflow-type: tm+mt
-source-wordcount: 2562
+source-wordcount: '2794'
 ht-degree: 0%
-
 ---
-
 # Traduzir documentos no Console do Mapa {#id21BKF0Z0YZF}
 
 >[!TIP]
@@ -66,7 +76,8 @@ Antes de executar etapas neste procedimento, verifique se você criou a raiz de 
 
    >[!IMPORTANT]
    >
-   > Você só pode selecionar e traduzir para os idiomas para os quais criou a pasta de destino paralelamente ao idioma de origem. Uma pasta de idioma criada em qualquer outro nível, como um nível abaixo da pasta de idioma de origem, também não é exibida. Crie todas as pastas de idioma de destino no mesmo nível que a pasta de idioma de origem.
+   > * Você só pode selecionar e traduzir para os idiomas para os quais criou a pasta de destino paralelamente ao idioma de origem. Uma pasta de idioma criada em qualquer outro nível, como um nível abaixo da pasta de idioma de origem, também não é exibida. Crie todas as pastas de idioma de destino no mesmo nível que a pasta de idioma de origem.
+   > * Se você criar a pasta de destino para um idioma depois de criar o grupo de idiomas, atualize o navegador para habilitar o idioma nos grupos de idiomas.
 
 
 
@@ -80,7 +91,9 @@ Antes de executar etapas neste procedimento, verifique se você criou a raiz de 
 
    >[!NOTE]
    >
-   > Se você criar a pasta de destino para um idioma depois de criar o grupo de idiomas, atualize o navegador para habilitar o idioma nos grupos de idiomas.
+   > Se uma cópia individual do idioma de origem ou de destino (arquivo) for movida da pasta do idioma original para uma pasta diferente, o painel Tradução refletirá essa alteração da seguinte maneira:
+   > - Cópias de idioma de destino: se uma cópia de idioma de destino (destino) for movida da pasta de idioma de destino original para uma pasta diferente, o ativo correspondente será exibido como desativado no painel Tradução.
+   > - Cópias de idioma do Source: se uma cópia do idioma de origem for movida da pasta do idioma de origem original para uma pasta de idioma diferente, o ativo correspondente será exibido como ativado no painel Tradução, permitindo que a tradução continue conforme esperado.
 
 1. Se você escolher um idioma específico, ele será exibido como selecionado em todos os grupos de idiomas selecionados. Então, quando você traduz para qualquer idioma, ela é traduzida de uma só vez para todos os grupos de idiomas. Por exemplo, se o alemão estiver presente nos grupos de idiomas G1 e G2, ele será selecionado para ambos.
 
@@ -144,6 +157,10 @@ Antes de executar etapas neste procedimento, verifique se você criou a raiz de 
    - Você pode selecionar **Criar um novo projeto de tradução multilíngue**, que incluirá trabalhos de tradução para todos os idiomas selecionados para tradução. Por exemplo, se você tiver selecionado francês, alemão e espanhol, ele criará um projeto que contém trabalhos de tradução para os três idiomas.
    - Se você já tiver um projeto de tradução, poderá adicionar tópicos a esse projeto. Selecione a opção **Adicionar ao projeto de tradução existente** na lista Projeto e escolha um projeto na lista Projeto de tradução existente. Você pode classificar esses projetos por ordem mais recente, crescente ou decrescente.
 
+     >[!NOTE]
+     >
+     > Ao usar **Adicionar ao projeto de tradução existente** para enviar ativos adicionais para tradução, a operação falhará se uma solicitação anterior (criação de projeto ou Adicionar ao projeto existente) para o mesmo projeto ainda estiver em andamento. A seguinte mensagem é exibida: *Uma solicitação anterior para este projeto ainda está em andamento. Aguarde alguns minutos antes de tentar novamente*.
+
    - Se você selecionar **Adicionar ao projeto de tradução existente**, essa operação atualizará a entrada do ativo existente no projeto se o ativo já estiver adicionado e o estado do trabalho de tradução relacionado estiver no estado *Rascunho*.
      - Se o idioma de destino não estiver presente no projeto, um novo projeto será criado para o projeto de tradução em um único idioma e um novo trabalho será criado para o projeto de tradução em vários idiomas.
 
@@ -163,6 +180,7 @@ Antes de executar etapas neste procedimento, verifique se você criou a raiz de 
    - Se estiver adicionando a um projeto de tradução existente, selecione o caminho em que esse projeto já existe. Em seguida, na lista **Projeto de tradução existente**, selecione o projeto ao qual deseja adicionar a tarefa de tradução atual. Você também pode usar os **Filtros** disponíveis para restringir a lista.
 
      ![Insira o caminho do projeto existente](images/existing-project-path.png){width="650"}
+
 
 1. No campo **Título do projeto**, informe um título para o projeto.
 1. Selecione **Enviar** para criar um novo projeto de tradução.

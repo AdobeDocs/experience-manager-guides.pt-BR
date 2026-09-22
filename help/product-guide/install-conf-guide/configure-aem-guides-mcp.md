@@ -5,9 +5,9 @@ meta-feature: Authoring
 meta-product: Experience Manager, Experience Manager Guides
 meta-role: User
 meta-type: Documentation
-source-git-commit: e234425f1e277990de25057971f3e2453c93360f
+source-git-commit: 6841c373b75770e8691a2cac4d56aeb368b09480
 workflow-type: tm+mt
-source-wordcount: '1539'
+source-wordcount: '1557'
 ht-degree: 1%
 ---
 
@@ -141,7 +141,7 @@ Antes de conectar um cliente, entre em contato com o administrador do AEM para v
 
 O Claude Desktop oferece suporte às Extensões de Desktop (`.mcpb`). A extensão MCP do Experience Manager Guides empacota a configuração da conexão para que você não precise editar manualmente uma configuração JSON de MCP.
 
-1. Extraia o [arquivo zip .mcpb do AEM Guides](./mcpbfile.zip) e obtenha o arquivo de extensão `aem-guides-mcp.mcpb`.
+1. Obtenha o arquivo de extensão [`aem-guides-mcp.mcpb`](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/aemdox/other-packages/guides-mcp/aem-guides-mcp.zip).
 
 2. Abra o **Claude Desktop** e navegue até **Configurações > Extensões**.
 

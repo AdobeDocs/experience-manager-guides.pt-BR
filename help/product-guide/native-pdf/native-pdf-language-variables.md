@@ -8,18 +8,20 @@ level: Experienced
 TQID: https://experienceleague.adobe.com/Tl18qyeww079p8XGKwbKTN8TvoZLb-q9mPQ-8q660Dc
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 5ed0a5191e1852dd65e0461f02d520b195f7cc39
 workflow-type: tm+mt
-source-wordcount: 1604
+source-wordcount: '1891'
 ht-degree: 0%
-
 ---
-
 # Suporte para variáveis de idioma
 
 O Adobe Experience Manager Guides fornece o recurso para usar variáveis de idioma. Você pode usar variáveis de idioma para definir strings localizadas na saída do PDF ou para localizar qualquer texto estático nos templates de saída. Você pode usar estilos CSS para localizar as cadeias de caracteres provenientes de um CSS.
@@ -151,8 +153,6 @@ Também é possível editar os valores de uma variável de aplicativo. Posterior
 
 Você deve adicionar variáveis de idioma nos documentos localizados. Você pode inserir essas variáveis de idioma no layout de página que aparece em páginas diferentes nos documentos localizados. Por exemplo, você pode adicionar a variável de idioma para o `author-name` que aparece na área de cabeçalho do layout da página (ou qualquer outra parte, como o rodapé ou o corpo).
 
-
-
 <img alt="page-layout de um pdf" src="./assets/language-variable-page-layout.png" width="550">
 
 
@@ -180,6 +180,21 @@ Para inserir uma variável de idioma como o `copyright-label` na área de cabeç
 <img alt="inserir variável na área de cabeçalho" src="./assets/language-variable-header.png" width="550">
 
 *O `copyright-label` foi adicionado à área do cabeçalho.*
+
+Depois de inserido, o valor de uma variável de idioma na saída gerada depende do idioma configurado na predefinição de saída. Se o seu mapa já tiver um idioma definido com o atributo `xml:lang` e você quiser que o modelo use esse mesmo idioma, verifique se a opção **Usar idioma do mapa** está selecionada na predefinição de saída em vez de selecionar um idioma explicitamente. Exiba [Resolução de idioma para conteúdo DITA vs. variáveis de modelo de saída](#language-resolution-for-dita-content-vs-output-template-variables) para saber como um idioma é resolvido com base em seu tipo de conteúdo.
+
+### Resolução de idioma para conteúdo DITA versus variáveis de modelo de saída
+
+Seu documento pode conter dois tipos de conteúdo que precisam de tradução: conteúdo DITA, como referências cruzadas e marcadores de continuação de tabela, e conteúdo do modelo de saída, como front matter, back matter, cabeçalhos e rodapés inseridos usando variáveis de idioma.
+
+Use a tabela a seguir para entender como cada tipo de conteúdo resolve seu idioma.
+
+| Tipo de conteúdo | Exemplos | Ordem de resolução do idioma |
+|---|---|---|
+| Conteúdo DITA | Referências cruzadas (por exemplo, &quot;Consulte capítulo&quot; ou &quot;Consulte página&quot;), marcadores de continuação da tabela | &#x200B;1. Atributo `xml:lang` no tópico ou mapa <br> 2 mais próximo. Linguagem de predefinição de saída, se nenhum `xml:lang` estiver definido |
+| Variáveis de linguagem do modelo de saída | Front matter, back matter, headers, rodapés, running heads e labels gerados (Nota, Cuidado, Aviso) | &#x200B;1. Idioma selecionado na predefinição de saída <br> 2. Do mapa raiz `xml:lang`, se **Usar idioma do mapa** estiver selecionado <br> 3. Inglês (en_US), se nenhum estiver disponível |
+
+Se quiser que o conteúdo DITA siga um idioma específico, defina o atributo `xml:lang` no tópico ou mapa mais próximo desse conteúdo. As variáveis de idioma funcionam de forma diferente; como não fazem parte da fonte DITA, elas não têm `xml:lang` para herdar, portanto, você pode controlar seu idioma por meio da predefinição de saída.
 
 ### Aplicar estilo de conteúdo a variáveis de idioma
 

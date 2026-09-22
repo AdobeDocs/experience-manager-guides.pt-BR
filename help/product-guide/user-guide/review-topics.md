@@ -7,26 +7,34 @@ role: User
 TQID: https://experienceleague.adobe.com/FKASAXcwI6A5iGO8n758bBCNzjMitcz2zgnJWrNfM8U
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: b1210526-416b-4ef6-bcc0-1692e99f30e9
+    internal-label: Administration and security
   - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
 subfeature_v2:
   - id: c5fd2af0-6cbb-4746-ab0d-40ecb093af12
+    internal-label: Introduction
   - id: c8841798-1a28-4264-a46a-984860f8e6f6
+    internal-label: User administration
   - id: f7774ebe-aec9-42b6-97e4-5002acdc712e
+    internal-label: Review
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 06126f77ee4db22865895739ad9af4efa787a7df
+    internal-label: Administration
+source-git-commit: 5ed0a5191e1852dd65e0461f02d520b195f7cc39
 workflow-type: tm+mt
-source-wordcount: 3089
+source-wordcount: '3753'
 ht-degree: 0%
-
 ---
-
 # Revisar tópicos {#id2056B0W0FBI}
 
 Se você for um revisor, receberá um email de solicitação de revisão com o link para os tópicos da revisão. Usando este link, você pode acessar a página de revisão, na qual pode adicionar seu feedback sobre os tópicos compartilhados.
@@ -68,7 +76,7 @@ Execute as seguintes etapas para revisar um tópico:
      Selecione ![](images/view-options.svg) próximo à barra de pesquisa para optar por exibir todos os tópicos ou exibir tópicos com comentários. Por padrão, é possível exibir todos os tópicos presentes na tarefa de revisão.
 
 
-   - **D**: os números realçados por ***F*** podem ser filtrados escolhendo a opção de filtro desejada aqui. Você pode filtrar comentários por tipo, status, revisor ou versão. Por exemplo, se você deseja exibir quantos comentários de Tachado foram feitos em cada um dos tópicos em revisão, selecione o ícone de filtro e escolha **Tipo de revisão** \> **Exclusão**.
+   - **D**: os números realçados por ***E*** podem ser filtrados escolhendo a opção de filtro desejada aqui. Você pode filtrar comentários por tipo, status, revisor ou versão. Por exemplo, se você deseja exibir quantos comentários de Tachado foram feitos em cada um dos tópicos em revisão, selecione o ícone de filtro e escolha **Tipo de revisão** \> **Exclusão**.
 
      >[!NOTE]
      >
@@ -80,7 +88,7 @@ Execute as seguintes etapas para revisar um tópico:
    - **G**: Número de comentários recebidos sobre um tópico. Esse número é alterado com base no filtro aplicado.
 
 
-   Todos os tópicos no mapa são mostrados como um único documento composto. Os tópicos que o revisor tem permissão para revisar são mostrados normalmente. Os tópicos que a revisão não tem permissão para revisar não são mostrados.
+   Todos os tópicos no mapa são mostrados como um único documento composto. Os tópicos que o revisor tem permissão para revisar são mostrados normalmente. Os tópicos que o revisor não tem permissão para revisar são mostrados como desativados.
 
    ![](images/review-read-only.png)
 
@@ -104,6 +112,76 @@ Execute as seguintes etapas para revisar um tópico:
    > O painel Comentários mostra os comentários fornecidos apenas nos tópicos atuais. Quando você move o foco para outro tópico, os comentários dados sobre o outro tópico são mostrados.
 
 1. Selecione o botão **Fechar** depois de concluir a revisão do tópico. Ao selecionar o botão **Fechar**, você será redirecionado para a página de onde acessou o tópico de revisão.
+
+## Marcar tópicos individuais como concluídos em uma tarefa de revisão
+
+>[!NOTE]
+>
+> Esse recurso é ativado por padrão a partir da versão 2026.09.0 do Experience Manager Guides as a Cloud Service. Se preferir alternar para o comportamento anterior, entre em contato com a equipe de Sucesso do cliente para desativar esse recurso no seu ambiente.
+
+Se uma tarefa de revisão contiver um grande número de tópicos, talvez você não consiga revisá-los todos em uma única sessão. Por exemplo, se for atribuída a você uma tarefa de revisão com cerca de 50 tópicos, acompanhar os tópicos já revisados e aqueles que ainda precisam de sua atenção pode se tornar difícil quando você retornar à tarefa.
+
+O recurso **Marcar tópico como concluído** permite marcar tópicos individuais como concluídos à medida que você os analisa. Isso facilita a identificação dos tópicos já abordados e o foco nos tópicos que ainda estão pendentes.
+
+Execute as seguintes etapas para marcar tópicos individuais como concluídos em uma tarefa de revisão:
+
+1. Abra a tarefa de revisão atribuída a você.
+
+1. Na interface de Revisão, abra os tópicos atribuídos a você no painel **Tópicos** ou alterne para **exibição de documento** para exibir todos os tópicos juntos como um documento composto.
+
+1. Cada tópico é exibido de acordo com a caixa de seleção **Marcar tópico como concluído**, conforme mostrado abaixo.
+
+   >[!NOTE]
+   >
+   >Os tópicos incluídos na tarefa de revisão, mas não atribuídos a você, estão desativados e não podem ser marcados como concluído.
+
+   **Modo de exibição de painel de Tópicos:**
+
+   ![](images/topics-panel-view-mark-topic-as-done.png)
+
+   **Exibição de documento:**
+
+   ![](images/document-view-mark-topic-as-done.png)
+
+1. Revise um tópico e adicione comentários ou feedback, conforme necessário.
+
+1. Depois de terminar de revisar o tópico, marque a caixa de seleção **Marcar tópico como concluído**.
+
+   O acordeão de tópico é recolhido automaticamente. Você pode reabrir a opção a qualquer momento antes de concluir a tarefa de revisão. Se precisar adicionar mais comentários, basta expandir a opção de tópico e adicionar comentários.
+
+   >[!NOTE]
+   >
+   >Se a caixa de seleção **Marcar tópico como concluído** estiver marcada ou não, isso dependerá de quem está revisando o tópico e a versão que está sendo revisada:
+   >
+   > - **Quando vários revisores são atribuídos:** Sua seleção de caixa de seleção se aplica somente a você. Se você selecionar **Marcar tópico como concluído**, a caixa de seleção permanecerá inalterada para outros revisores atribuídos ao mesmo tópico.
+   > - **Quando a versão do tópico for alterada:** Sua seleção de caixa de seleção se aplica somente à versão que você revisou. Se você selecionar **Marcar tópico como concluído** para a versão 1.0 e o Autor alterar o tópico para a versão 1.1, a caixa de seleção será redefinida para você. Se o Autor voltar posteriormente para a versão 1.0, a caixa de seleção permanecerá desmarcada.
+
+1. Repita as etapas anteriores para os outros tópicos que você acabou de revisar.
+
+   >[!NOTE]
+   >
+   > Marcar tópicos individuais como concluídos ajuda a monitorar o progresso da revisão e não é necessário para concluir a tarefa de revisão. Você pode concluir a tarefa de revisão mesmo se alguns tópicos não estiverem marcados como concluídos.
+
+   ![](images/mark-topics-done-all.png)
+
+   Os seguintes indicadores visuais na interface de revisão ajudam a acompanhar o progresso:
+
+   - Um **ponto verde** aparece ao lado de um tópico no painel **Tópicos** quando você o marca como concluído.
+
+     ![](images/topics-done-green-dot-topics-panel.png)
+
+   - O indicador **Tópicos revisados** mostra o número de tópicos marcados como concluídos do número total de tópicos atribuídos a você.
+
+     ![](images/topics-reviewed-count-review-ui.png)
+
+   >[!NOTE]
+   >
+   > A caixa de seleção **Marcar tópico como concluído**, o indicador de ponto verde e o indicador **Tópicos revisados** estão visíveis somente para usuários que podem marcar tópicos ou revisar tarefas como concluídas. Autores e administradores com acesso somente para visualização à tarefa de revisão não veem essas opções ou indicadores.
+
+1. Depois de terminar de revisar os tópicos que deseja enviar ao Autor ou ao iniciador da tarefa, selecione **Concluir tarefa de revisão**.
+
+1. Na caixa de diálogo **Concluir tarefa de revisão**, adicione um comentário e selecione **Concluir** para confirmar a ação.
+
 
 ## Recursos adicionais disponíveis na tela de revisão
 
@@ -199,9 +277,17 @@ Ao colaborar em uma tarefa de revisão com vários revisores, é possível aprim
 
 ![](images/tag-users-review-ui.png){width="350"}
 
-Para marcar um usuário, digite `@` em um comentário ou resposta e selecione um usuário na lista de revisores. O nome de exibição, juntamente com um endereço de email do usuário, é exibido para facilitar a identificação. Se um endereço de email não estiver disponível, a ID do usuário será exibida.
+Para marcar um usuário, digite `@` em um comentário ou resposta e selecione um usuário na lista de usuários associados a este projeto. A lista exibe o nome do usuário, juntamente com detalhes adicionais para ajudar a identificar o usuário correto.
 
-![](images/tagged-users-with-email.png)
+Os detalhes do usuário são exibidos na seguinte ordem:
+
+`<Role>` | `<User name>` | `<Email address>`
+
+Se o endereço de email não estiver disponível, somente a função e o nome do usuário serão exibidos.
+
+Você também pode passar o mouse sobre um usuário na lista para visualizar seu nome de usuário, função e endereço de email em uma dica de ferramenta.
+
+![](images/tagged-users-in-review-ui.png)
 
 Os usuários marcados recebem um email e uma notificação do AEM, garantindo que sejam informados imediatamente. Para obter mais detalhes sobre como as notificações de revisão disparam, consulte [Noções básicas sobre notificações de revisão](./review-understanding-review-notifications.md).
 

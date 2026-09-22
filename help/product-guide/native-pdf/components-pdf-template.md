@@ -8,19 +8,22 @@ level: Experienced
 TQID: https://experienceleague.adobe.com/h8V5bE1J5ztJNJ9wMPoQR4k36-pZuiaYbnD7xPYX-zE
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+    internal-label: Admin
+source-git-commit: fde5d8f842d835708f1ae052879bca8a86bf8187
 workflow-type: tm+mt
-source-wordcount: 4601
+source-wordcount: '5053'
 ht-degree: 0%
-
 ---
-
 # Componentes de um modelo do PDF {#components-pdf-template}
 
 Um modelo do PDF tem quatro componentes: Layouts de página, Folhas de estilos, Recursos e Configurações. É possível criar um modelo personalizando esses componentes individuais e associando o modelo a uma predefinição de saída ao gerar uma saída do PDF. As seções a seguir abordam esses componentes e seu processo de personalização em detalhes.
@@ -199,8 +202,30 @@ Para adicionar um arquivo de ativo à pasta Recursos, siga as etapas abaixo:
 
 1. Clique em **Escolher arquivos** para procurar o arquivo de ativo de seu computador local
 
-1. Clique em **Carregar**.
+1. Clique em **Fazer upload**.
 O arquivo selecionado é importado e listado na pasta Recursos.
+
+## Mostrar ou ocultar comentários de rascunho na saída do PDF nativo
+
+Comentários de rascunho adicionados em um tópico DITA são excluídos da saída do PDF nativo por padrão. Isso é controlado pelo estilo `draft-comment` na folha de estilos de conteúdo do modelo de saída, onde a propriedade `display` está definida como `none`.
+
+Como Administrador, você pode atualizar esse estilo para que comentários de rascunho fiquem visíveis na saída:
+
+1. No painel **Modelos de saída**, abra o modelo que o mapa usa para publicação no PDF.
+2. Expanda **Folhas de estilos** e clique duas vezes em **conteúdo** para abrir a folha de estilos de conteúdo.
+3. No painel **Estilos**, localize e selecione **comentário de rascunho**.
+
+   Use o campo de pesquisa para encontrá-lo rapidamente se a lista for longa.
+
+4. No painel **Propriedades**, altere o valor da propriedade **display** de `none` para um valor visível (como `block`, `inline-block`, `grid` e muito mais).
+
+   ![Configurar a propriedade rascunho-comentário na folha de estilos de conteúdo](./assets/draft-comment-setting.png)
+
+5. Salve a folha de estilos.
+
+>[!NOTE]
+>
+>Esse estilo controla se os comentários de rascunho ficam visíveis no conteúdo estilizado em geral. Para incluir comentários de rascunho especificamente na saída do **PDF Nativo**, você também deve habilitar a opção **Incluir comentários de rascunho** na predefinição de saída do PDF Nativo. Para obter detalhes, exiba [predefinição de saída nativa do PDF](../web-editor/native-pdf-web-editor.md). Ambas as configurações são necessárias juntas para que os comentários de rascunho apareçam no PDF gerado exatamente como aparecem no editor.
 
 ## Configurações avançadas do PDF {#advanced-pdf-settings}
 
@@ -223,8 +248,8 @@ Defina as configurações básicas para iniciar um capítulo a partir de uma pá
 
 * **Estrutura do Sumário**: permite personalizar a hierarquia do Sumário. Ele usa as seguintes configurações adicionais:
 
-   * **Usar títulos até o nível**: permite ajustar o número de níveis de cabeçalho a serem exibidos na estrutura de índice do seu PDF.
-   * **Não mostrar número de página para o primeiro nível no índice**: selecione esta opção para ocultar os números de página correspondentes para todos os capítulos que contenham tópicos aninhados ou filhos. Considere o exemplo a seguir em que uma saída é criada sem selecionar essa opção.
+  * **Usar títulos até o nível**: permite ajustar o número de níveis de cabeçalho a serem exibidos na estrutura de índice do seu PDF.
+  * **Não mostrar número de página para o primeiro nível no índice**: selecione esta opção para ocultar os números de página correspondentes para todos os capítulos que contenham tópicos aninhados ou filhos. Considere o exemplo a seguir em que uma saída é criada sem selecionar essa opção.
 
   <img src="assets/page-number-in-toc.png" alt="Upload de ativos" width="250">
 
@@ -245,16 +270,20 @@ Para aplicar a estrutura de índice e os níveis de cabeçalho de estilo, consul
   >Se você for um desenvolvedor de CSS, também poderá definir o formato de líder diretamente no arquivo CSS.
 
 * **Usar marcador de continuação de tabela**: selecione essa opção para definir marcadores para tabelas longas que se espalham por várias páginas.
-Você pode definir o texto a ser exibido antes e depois da quebra. Por exemplo, uma tabela é quebrada na página 5 e você define `<Continued on page %page-num%>` para **Texto antes da quebra**. O texto exibe &quot;Continuado na página 6&quot; na parte inferior da página 5.
+Você pode definir o texto a ser exibido antes e depois da quebra. Por exemplo, uma tabela é quebrada na página 5 e você define `<Continued on page %page-num%>` para **Texto antes da quebra**.  O texto exibe &quot;Continuado na página 6&quot; na parte inferior da página 5.
 
   Use variáveis de idioma para definir o texto do marcador de continuação antes e depois da interrupção. Dependendo do idioma escolhido, o valor localizado é escolhido automaticamente na saída do PDF. Por exemplo, você pode publicar `Continued on page %page-num%` como texto em inglês e `Fortsetzung auf Seite %page-num%` em alemão.
 
   Focalizar <img src="./assets/info-details.svg" alt= "ícone de informações" width="25"> próximo à opção para ver mais detalhes sobre ele.
+
+  >[!NOTE]
+  >
+  > Ao usar uma variável de idioma no campo **Texto antes da quebra** ou **Texto após a quebra**, verifique se o texto inteiro está definido em uma única variável de idioma. Qualquer texto ou variável adicionada fora da variável de idioma nesses campos não é renderizada. Por exemplo, em vez de usar uma combinação de variáveis, como `${lng:Continued-from-page} %page-num%` no campo **Texto Após a Quebra**, use somente `${lng:Continued-from-page}` no campo e defina separadamente o valor da variável de idioma `Continued-from-page` como `Continued-from-page %page-num%`.
 * **Vincular termos do glossário à página do glossário**: selecione esta opção para mostrar os termos do glossário como hiperlinks no conteúdo e vinculá-los aos termos na página do glossário. Isso ajuda os leitores a visualizar rapidamente a definição de um termo definido no glossário.
 
   Para converter os termos do glossário em hiperlinks, é necessário:
-   * Habilite o **Glossário** na guia **Ordem de Layout da Página** para obter um mapa DITA.
-   * Adicione o Glossário nas Páginas do Back Matter para um mapa de Livros.
+  * Habilite o **Glossário** na guia **Ordem de Layout da Página** para obter um mapa DITA.
+  * Adicione o Glossário nas Páginas do Back Matter para um mapa de Livros.
 
   Se você não ativar a página Glossário, os termos do Glossário no conteúdo não serão convertidos em hiperlinks na saída do PDF.
   <!--For more information on using table continuation markers, see Use table continuation markers.-->
@@ -394,11 +423,11 @@ Selecione uma ordem de página que determine a sequência das páginas no docume
 * **Livreto**: todas as páginas são ordenadas como em um livreto.
 * **Livreto da Direita para a Esquerda**: todas as páginas estão na ordem do livreto da direita para a esquerda.
 * **Personalizado**: defina uma ordem personalizada das páginas em vez de uma ordem predefinida.
-   * &quot;a..b&quot; — Todas as páginas consecutivas de a a b.
-   * &quot;a,b,c&quot; — Ordem das novas páginas a, b, c.
-   * &quot;a*b&quot; — A página a é repetida b vezes.
-   * &quot;-a&quot; — Números de página negativos são contados retroativamente a partir da última página e podem ser combinados com outros pedidos personalizados.
-   * &quot;X&quot; — Todas as páginas do documento. Mesmo resultado que &quot;1..-1&quot;.
+  * &quot;a..b&quot; — Todas as páginas consecutivas de a a b.
+  * &quot;a,b,c&quot; — Ordem das novas páginas a, b, c.
+  * &quot;a*b&quot; — A página a é repetida b vezes.
+  * &quot;-a&quot; — Números de página negativos são contados retroativamente a partir da última página e podem ser combinados com outros pedidos personalizados.
+  * &quot;X&quot; — Todas as páginas do documento. Mesmo resultado que &quot;1..-1&quot;.
 
 Assim, por exemplo, você pode fornecer um pedido personalizado como &quot;2,3,5*2,7.10,-1,-2.
 A ordem de páginas fornecida resulta em um PDF com os seguintes números de página do documento original, supondo que ele tenha um total de 25 páginas: 2, 3, 5, 5,7, 8, 9, 10, 25, 24.

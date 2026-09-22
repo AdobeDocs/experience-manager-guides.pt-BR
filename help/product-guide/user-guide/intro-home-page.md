@@ -4,13 +4,11 @@ description: Conheça a página inicial da Adobe Experience Manager Guides.
 feature: Authoring
 role: User
 exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
-source-git-commit: b866964c30a565eab0f6f9aec4b3fc9013f15f75
+source-git-commit: 71ddd55d2a6848449d5810701b60e9f69a29112b
 workflow-type: tm+mt
-source-wordcount: '2247'
+source-wordcount: '2331'
 ht-degree: 0%
-
 ---
-
 # Experiência da página inicial do Experience Manager Guides
 
 A Página inicial é a primeira tela exibida ao fazer logon no Experience Manager Guides. Ele oferece uma experiência de tela de boas-vindas unificada e intuitiva, que inclui uma visualização rápida dos arquivos acessados recentemente, coleções e muito mais.
@@ -45,16 +43,17 @@ Os recursos disponíveis na barra de navegação são explicados da seguinte man
   - **Página inicial**: a página padrão exibida ao fazer logon no Experience Manager Guides.
   - **Editor**: um editor baseado na Web fácil de usar que permite criar e gerenciar documentos estruturados no Experience Manager Guides. [Conheça a interface do Editor](./web-editor.md).
   - **Console de mapas**: fornece um espaço de trabalho dedicado para tratar de todos os aspectos do gerenciamento e da publicação de mapas. [Conheça a interface do console de Mapa](./map-console-overview.md).
-- **Assistente de IA**: uma ferramenta avançada orientada por IA, projetada para aprimorar sua produtividade por meio de recursos de ajuda inteligentes. Além disso, ao trabalhar na interface do Editor, você pode aproveitar os recursos de criação inteligente do Assistente de IA, que tornam o processo de criação mais inteligente e rápido por meio de sugestões inteligentes para reutilização e otimização de conteúdo.
-
-  No momento, o recurso [Assistente de IA](./ai-assistant.md) está disponível apenas para o Adobe Experience Manager as Cloud Service.
-
-- **IA de Guias**: traz para o Editor habilidades inteligentes e agenciais de marcação inteligente do Colaborador corporativo do Adobe CX, permitindo a marcação de conteúdo natural e de conversação. Ele analisa seu conteúdo, recomenda tags relevantes e ajuda a aplicar metadados consistentes e precisos com o mínimo esforço. Você pode revisar as tags sugeridas e optar por aplicá-las ou rejeitá-las antes de confirmar sua seleção. A [IA de guias](../user-guide/guides-ai.md) simplifica o processo de marcação, melhorando a organização e a descoberta do conteúdo.
-
+- O **Assistente de IA**: o Assistente de IA está disponível de dois modos: **Agente** e **Padrão**.
 
   >[!NOTE]
   >
-  > Para usar o recurso de IA do Guides em seu ambiente, entre em contato com a equipe de Sucesso do cliente. Após ativar o recurso, os administradores podem ativá-lo ou desativá-lo nas Configurações do Workspace. Somente uma experiência de IA pode ser ativada por vez; o Guides AI ou o Assistente de IA.
+  > Para usar o recurso Assistente de IA em modo Agêntico em seu ambiente, entre em contato com a equipe de Sucesso do cliente. Após ativar o recurso, os administradores podem ativá-lo ou desativá-lo nas Configurações do Workspace. Somente um modo do Assistente de IA pode ser ativado por vez: Agente ou Padrão.
+
+  - **Agnetic**: traz a habilidade inteligente e agêntica de Marcação Inteligente do Adobe CX Enterprise Coworker para o Editor, permitindo a marcação de conteúdo natural e conversacional. Ele analisa seu conteúdo, recomenda tags relevantes e ajuda a aplicar metadados consistentes e precisos com o mínimo esforço. Você pode revisar as tags sugeridas e optar por aplicá-las ou rejeitá-las antes de confirmar sua seleção. [Usar o Assistente de IA no Modo de Agente](../user-guide/ai-assistant-agentic.md) simplifica o processo de marcação, melhorando a organização e a descoberta do conteúdo.
+
+  - **Padrão**: uma ferramenta avançada orientada por IA, projetada para aprimorar sua produtividade através de recursos de ajuda inteligentes. Além disso, ao trabalhar na interface do Editor, você pode aproveitar os recursos de criação inteligente do Assistente de IA, que tornam o processo de criação mais inteligente e rápido por meio de sugestões inteligentes para reutilização e otimização de conteúdo.
+
+  No momento, o recurso [Assistente de IA](./ai-assistant.md) está disponível apenas para o Adobe Experience Manager as Cloud Service.
 
 - **Seção de visão geral personalizada**: permite ocultar ou mostrar os widgets na seção Widgets.
 - **Perfil de pasta em uso**: exibe o perfil de pasta em uso no momento.
@@ -208,6 +207,7 @@ As preferências do usuário estão disponíveis para todos os autores. Usando a
 
   - **Sempre localizar arquivos no explorador**: selecione essa opção para mostrar o local de um arquivo no repositório ao editá-lo no Editor.
 
-  >[!NOTE]
-  >
-  >A partir da versão 2025.11.0 para Cloud Service e da versão 5.2.0 para No local, a configuração **Sempre localizar arquivos no repositório** é renomeada para **Sempre localizar arquivos no explorador**. Para configuração no local anterior à versão 5.2, ele continua disponível como Sempre localizar arquivos no repositório.
+    >[!NOTE]
+    >
+    >- A partir da versão 2025.11.0 para Cloud Service e da versão 5.2.0 para No local, a configuração **Sempre localizar arquivos no repositório** é renomeada para **Sempre localizar arquivos no explorador**. Para configuração no local anterior à versão 5.2, ele continua disponível como Sempre localizar arquivos no repositório.
+    >- A partir da versão 2026.09.0, o **Carregamento paginado de arquivos e pastas** é habilitado por padrão. Quando este recurso está habilitado, o **Sempre localizar arquivos no explorador** não está disponível nas Preferências do usuário. Para disponibilizar a preferência Sempre localizar arquivos no explorador, entre em contato com a equipe de Sucesso do cliente para desativar a configuração Carregamento paginado de arquivos e pastas. Para obter mais informações, consulte [Carregamento paginado de arquivos e pastas](./web-editor-other-features.md#paginated-loading-of-files-and-folders).

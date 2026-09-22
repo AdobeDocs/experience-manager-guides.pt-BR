@@ -7,31 +7,44 @@ role: User
 TQID: https://experienceleague.adobe.com/GV3iYtBdFVrQwFjdvfqnfDIWPMugO3hFjS4FZqspG2M
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: d6596f3f-92a7-43ec-b444-237db6adad05
+    internal-label: Native PDF publishing
   - id: f6b497f1-f8e0-42ce-8e95-56c28d94026e
+    internal-label: Conditional content
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: fd5e1e85933eb2785b0a74b0fa49fec1da4ca0c2
+    internal-label: Security
+source-git-commit: 5ed0a5191e1852dd65e0461f02d520b195f7cc39
 workflow-type: tm+mt
-source-wordcount: 3561
+source-wordcount: '4071'
 ht-degree: 0%
-
 ---
-
 # Predefinição de saída nativa do PDF
 
 Ao criar conteúdo, é essencial garantir que o conteúdo seja otimizado para visualização, edição e impressão. Usando padrões como o W3C CSS3 para estilos de conteúdo e padrões de mídia paginada CSS para propriedades de definição de página, como tamanho, margens, orientação, quebras de página, cabeçalhos, rodapés e numeração de página, você pode definir a exibição e o layout do documento do PDF, garantindo consistência e usabilidade. O recurso de publicação do PDF nativo usa esses padrões para gerar uma PDF.
@@ -84,13 +97,13 @@ Use para especificar configurações básicas de saída, como especificar o cami
 | **Aplicar Condições Usando** | Para conteúdo condicional, escolha entre as opções abaixo para gerar uma saída do PDF com base nessas condições: <br><ul> <li> **Nenhum Aplicado** Selecione esta opção se não quiser aplicar nenhuma condição no mapa e no conteúdo de origem. <br><li> **Arquivo DITAVAL** Selecione um arquivo DITAVAL para gerar conteúdo condicional. Você pode selecionar vários arquivos DITAVAL usando a caixa de diálogo Procurar ou inserindo o caminho do arquivo manualmente. Para remover um arquivo selecionado, clique no ícone cruzado ao lado de seu nome. Se um arquivo inválido for selecionado, uma mensagem de erro será exibida informando **Invalid DITAVAL file is seleted**. <br> <br>Cada arquivo DITAVAL pode conter várias propriedades, como condições de filtragem e estilos de sinalização. A sinalização permite marcar visualmente o conteúdo usando sinalizadores de início e fim, que podem incluir imagens ou formatação de texto, como negrito ou itálico. Em caso de sobreposição de condições ou conflitos de estilo, é possível definir uma cor de plano de fundo usando as configurações de conflito de estilo. Para obter mais detalhes, consulte [Usar o editor DITAVAL](../user-guide/ditaval-editor.md).<br><li> **Predefinição de condição** Selecione uma predefinição de condição no menu suspenso para aplicar uma condição ao publicar a saída. Essa opção estará visível se você tiver adicionado uma condição para o arquivo de mapa DITA. As configurações condicionais estão disponíveis na guia Predefinições de condição do console do mapa DITA. Para saber mais sobre a predefinição de condição, exiba [Usar predefinições de condição](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-condition-presets.html). <br> </ul> |
 | **Usar Linha de Base** | Se tiver criado uma Linha de Base para o mapa DITA selecionado, selecione essa opção para especificar a versão que deseja publicar. Exiba [Trabalhar com Linha de Base](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html) para obter mais detalhes. |
 | **Criar PDF com Barra de Alterações entre Versões Publicadas** | Use as opções a seguir para criar uma PDF mostrando as diferenças no conteúdo entre duas versões usando as barras de alteração: <br><ul><li> **Linha de Base da Versão Anterior** Escolha a versão de linha de base que você deseja comparar com a versão atual ou outra linha de base. Uma barra de alteração é exibida na PDF para indicar o conteúdo modificado. Uma barra de alteração é uma linha vertical que identifica visualmente o conteúdo novo ou revisado. A barra de alterações aparece à esquerda do conteúdo que foi inserido, alterado ou excluído. <br> **Observação**: se você selecionar **Usar Linha de Base** e escolher uma linha de base para publicar, a comparação será feita entre as duas versões de linha de base selecionadas. Por exemplo, se você escolher Versão 1.3 da linha de base em **Usar linha de base** e Versão 1.1 em **Linha de base da Versão Anterior**, a comparação será feita entre a Versão 1.1 da linha de base e a Versão 1.3 da linha de base. <br><li> **Mostrar Texto Adicionado** Selecione para mostrar o texto inserido na cor verde e sublinhado. Essa opção é selecionada por padrão. <br> <li> **Mostrar texto excluído** Selecione para mostrar o texto excluído em vermelho e marcado com um tachado. Essa opção é selecionada por padrão. <br>**Observação** Você também pode personalizar o estilo da barra de alterações, o conteúdo inserido ou o conteúdo excluído usando a folha de estilos.<br></ul> |
-| **Idioma** | Selecione o idioma para que a saída seja traduzida. <br> **Observação**: textos de referência cruzada como &quot;Veja no capítulo&quot; ou &quot;Veja na página&quot; são controlados por uma variável de idioma. A variável usa o idioma definido no tópico por meio do atributo `xml:lang`. Se nenhum idioma for especificado, será usado o idioma predefinido. Se ambos estiverem ausentes, o padrão será inglês (en_US). |
+| **Idioma** | Selecione o idioma para que a saída seja traduzida. Se preferir publicar a saída no mesmo idioma que o atributo `xml:lang` do mapa raiz, selecione a opção **Usar idioma do mapa** em vez de selecionar um idioma explicitamente. <br> Se o mapa não tiver `xml:lang` definido, a saída será definida como inglês (en_US) por padrão. Isso ajuda quando o mapa pai já tem um atributo `xml:lang` definido, de modo que você não precisa de uma predefinição de saída separada para cada idioma. Para entender como essa configuração afeta diferentes tipos de conteúdo, exiba [Resolução de idioma para conteúdo DITA vs. variáveis de modelo de saída](../native-pdf/native-pdf-language-variables.md#language-resolution-for-dita-content-vs-output-template-variables). |
 | **Argumentos de Linha de Comando DITA-OT** | Ao habilitar **Habilitar pré-processamento de DITA-OT**, o campo **Argumentos da linha de comando DITA-OT** ficará disponível. Aqui, você pode especificar os argumentos adicionais que você deseja que o DITA-OT processe ao gerar saída. Para obter detalhes sobre os argumentos de linha de comando com suporte no DITA-OT, exiba a [documentação do DITA-OT](https://www.dita-ot.org/).<br>**OBSERVAÇÃO:** <br> Os links relacionados definidos nas tabelas de relação do DITA (`<reltable>`) não são incluídos na saída do PDF Nativo por padrão. Use o argumento `-Dargs.rellinks=nofamily` DITA-OT para incluir esses links relacionados na saída do PDF nativo. <br> Para mapas aninhados, o atributo `toc="no"` definido em uma referência de mapa não exclui seus tópicos filhos do índice por padrão. Use o argumento `-Dpreprocess.move-meta-entries.skip=false` DITA-OT para garantir que os tópicos secundários sejam excluídos do índice desses mapas. |
 | **Fluxo de Trabalho de Pós-Geração** | Selecione para mostrar uma lista suspensa que contém todos os workflows configurados no AEM. Você pode selecionar o workflow que deseja executar após a conclusão do workflow de geração do PDF. |
 
 >[!NOTE]
 >
->&#x200B;- Links relacionados definidos em tabelas de relacionamento DITA (`<reltable>`) não são incluídos na saída do PDF Nativo por padrão. Use este campo para passar o argumento DITA-OT `-Dargs.rellinks=nofamily` e incluir os links relacionados na saída.
+>- Links relacionados definidos em tabelas de relacionamento DITA (`<reltable>`) não são incluídos na saída do PDF Nativo por padrão. Use este campo para passar o argumento DITA-OT `-Dargs.rellinks=nofamily` e incluir os links relacionados na saída.
 >
 
 **Metadados**
@@ -173,29 +186,54 @@ Proteja seu PDF adicionando restrições para abrir e ler o arquivo. Use as opç
 >
 > A partir da versão 5.0/2025.02.0 do Experience Manager Guides, a seção Imprimir agora faz parte da **predefinição de Saída Nativa do PDF**. Para os modelos existentes com configurações de impressão salvas, os dados de impressão permanecerão intactos, mas não aparecerão mais na interface do usuário nem serão aplicados durante a saída. Para continuar usando essas configurações, você deve reconfigurá-las na predefinição de Saída nativa do PDF.
 
-Defina as configurações de produção de impressão para atribuir marcas de impressora, selecionar modelos de cores e especificar propriedades relacionadas à impressão da saída do PDF.
+Configure as configurações de produção de impressão para atribuir marcas de impressora, definir caixas de página e definir opções de perfil de cores e ICC para a saída do PDF. A guia Imprimir está organizada em três seções, na ordem: **Marcas da Impressora**, **Caixas de Páginas** e **Cores e ICC**.
 
-* **Marcas da impressora**: quando você prepara um documento para produção de impressão, marcas da impressora são adicionadas aos limites da página para auxiliar no alinhamento, corte e seleção de cores adequados durante a impressão. Ao selecionar uma marca de impressora, o limite da página é estendido para acomodar a marca, que é aparada durante a impressão. Você pode optar por exibir as seguintes marcas de impressora na saída do PDF:
-  * **Marcas de aparagem**: selecione a opção para colocar uma marca em cada canto da área de aparagem para indicar onde o papel precisa ser aparado após a impressão.
-  * **Marcas de sangria**: selecione para colocar uma marca em cada canto da caixa de sangria para indicar a área de aparagem da imagem estendida.
-  * **Marcas de registro**: selecione para colocar uma marca fora da área de corte para alinhar as diferentes separações em um documento colorido.
-  * **Barras de Cores**: selecione para adicionar uma faixa de cores fora da área de aparagem para manter a consistência de cores e ajustar a densidade da tinta ao imprimir.
+## Marcas da impressora
 
-  Defina dimensões para as marcas de impressora selecionadas usando as opções **Largura da Linha**, **Cor da Linha** e **Largura da Caixa de Sangria**.
+Quando você prepara um documento para produção de impressão, marcas de impressora são adicionadas aos limites da página para auxiliar no alinhamento, na aparagem e na seleção de cores adequados durante a impressão. Ao selecionar uma marca de impressora, o limite da página é estendido para acomodar a marca e a área estendida é aparada após a impressão.
 
-* **Tamanho da Caixa de Mídia**: este é o tamanho geral da página, incluindo a área estendida ocupada pelas marcas da impressora. Use a opção suspensa para selecionar o tamanho da página para a saída do PDF ou criar seu próprio tamanho personalizado.
+Use as seguintes configurações para definir marcas de impressora para a saída PDF:
 
-* **Espaço de Cores**: você tem a opção de escolher espaços de cores RGB ou CMYK para imprimir seu documento PDF. Escolha RGB para exibir o PDF gerado digitalmente e o CMYK para impressão física. As cores definidas no documento são convertidas no espaço de cores escolhido.
+| Configuração | Descrição |
+| --- | --- |
+| **Todas as Marcas da Impressora** | Selecione para habilitar ou desabilitar todas as configurações de marca de impressora: **Marcas de Corte**, **Marcas de Sangria**, **Marcas de Registro** e **Barras de Cores** juntas. Se você habilitar ou desabilitar uma marca individual enquanto **Todas as Marcas de Impressora** estiver selecionado, esta configuração será automaticamente desativada. Quando essa configuração não estiver selecionada, você poderá ativar ou desativar marcas individuais. |
+| **Marcas aparadas** | Selecione para colocar uma marca em cada canto da área de aparagem para indicar onde o papel precisa ser aparado após a impressão. |
+| **Marcas de sangramento** | Selecione para colocar uma marca em cada canto da caixa de sangria para indicar a área de aparagem da imagem estendida. |
+| **Marcas de registro** | Selecione para colocar uma marca fora da área de corte para alinhar as diferentes separações em um documento colorido. |
+| **Barras de Cores** | Selecione para adicionar uma faixa de cores fora da área de acabamento para manter a consistência de cores e ajustar a densidade da tinta ao imprimir. |
+| **Largura da Linha** | Especifique a largura da linha usada para desenhar as marcas de impressora selecionadas. O valor é incrementado em etapas de 0,25 pt. |
+| **Cor da Linha** | Especificar a cor da linha usada para desenhar as marcas de impressora selecionadas. |
 
-* **Perfil ICC**: aqui, você pode gerenciar a precisão de cores entre dispositivos especificando um perfil ICC. Isso garante uma renderização de cores consistente na saída impressa.
+## Caixas de páginas
 
-Para definir essa configuração, especifique o caminho do arquivo de perfil ICC no servidor e forneça o nome do perfil ICC para facilitar a identificação. Como alternativa, se o perfil ICC for armazenado on-line, você poderá fornecer o URL em vez do caminho do arquivo.
+Use esta seção para definir o tamanho geral da página e a área de sangria para a saída do PDF.
+
+Use as seguintes configurações para definir as caixas de página:
+
+| Configuração | Descrição |
+| --- | --- |
+| **Tamanho da Caixa de Mídia** | Especifica o tamanho geral da página, incluindo a área estendida ocupada pelas marcas da impressora. Use a lista suspensa para selecionar o tamanho da página para a saída do PDF ou criar um tamanho personalizado. |
+| **Largura da Caixa de Sangria** | Especifique a largura da caixa de sangria, que é a área que se estende além da caixa de apara que acomode marcas de sangria e qualquer imagem que ultrapasse a linha de apara. |
+
+## Cor e ICC
+
+Use esta seção para escolher um espaço de cores para impressão e, opcionalmente, gerenciar a precisão de cores entre dispositivos usando um perfil ICC. Ao usar o espaço de cores CMYK, um perfil de cores ICC é necessário para as conformidades de PDF que exigem gerenciamento de cores.
 
 >[!NOTE]
 >
-> Um perfil de cores ICC é necessário para a criação do PDF/A se estiver usando o espaço de cores CMYK.
+> Para melhorar o tratamento do perfil de cores ICC, verifique se você está usando o [Mecanismo do PDF nativo v2](../native-pdf/new-pdf-engine.md), que inclui correções para problemas conhecidos do perfil de cores ICC no mecanismo do PDF nativo v1.
 
-<!--For more information on applying these print settings, see *Printing preferences*.-->
+Use as seguintes configurações para configurar o espaço de cores e o perfil ICC:
+
+| Configuração | Descrição |
+| --- | --- |
+| **Espaço de cor** | Escolha entre os espaços de cores do **RGB** e do **CMYK** para o documento do PDF. Escolha o **RGB** para PDFs destinados a exibição digital e o **CMYK** para impressão física. |
+| **Converter cores** | Permitir a conversão de cores definidas no documento para o espaço de cores selecionado acima. Essa opção é ativada por padrão para espaços de cores RGB e CMYK. Quando habilitado, o campo **Intenção de renderização** também fica disponível. |
+| **Tentativa de renderização** | Disponível somente quando a opção **Converter Cores** está habilitada. Selecione a tentativa de renderização a ser usada ao converter cores no espaço de cores de destino:<br>- **Padrão**: Usa o comportamento de renderização padrão.<br>- **Perceptivo**: ajusta as cores para preservar sua aparência visual geral.<br>- **Colorimétrica Relativa**: ajusta as cores com base no espaço de cores de destino, mantendo a precisão das cores sempre que possível.<br> **Observação**: ao usar este recurso com uma instalação do Adobe Experience Manager Guides no Local, verifique se o Java 20 ou posterior está disponível para que o mecanismo PDF Nativo subjacente aplique a tentativa de renderização especificada. |
+| **Nome do Identificador** | Insira o nome do identificador de saída. |
+| **Procurar Perfil** | Navegue até o arquivo de perfil ICC (`.icc` ou `.icm`) no servidor do AEM. Este campo é desabilitado quando a opção **Usar URL para Perfil** está habilitada. |
+| **Usar URL para Perfil** | Habilite esta opção para usar um perfil ICC hospedado online em vez de um arquivo local. |
+| **URL do Perfil** | Disponível apenas quando a **URL de Uso para o Perfil** está habilitada. Digite o URL onde o perfil ICC está hospedado. |
 
 **Avançado**
 
@@ -216,6 +254,7 @@ Use as opções a seguir para especificar configurações avançadas para mescla
 | **Habilitar equações do MathML** | Selecione essa opção para renderizar as equações do MathML presentes no seu conteúdo. As equações serão ignoradas caso contrário, por padrão. |
 | **Criar formulário interativo do PDF** | Selecione essa opção se desejar incluir campos de formulário interativos e personalizáveis do PDF para entrada aprimorada do usuário em saídas geradas do PDF. |
 | **Incluir alterações de controle** | Selecione essa opção se desejar incluir alterações controladas no PDF gerado para facilitar a revisão e a comparação. |
+| **Incluir comentários de rascunho** | Selecione esta opção se desejar incluir comentários de rascunho adicionados aos tópicos DITA do mapa selecionado no PDF gerado. <br> **Observação**: habilitar apenas esta opção não faz com que comentários de rascunho apareçam na saída. Um Administrador também deve definir a propriedade de exibição do estilo de comentário de rascunho como um valor visível (como `block`, `inline-block`, `grid` e mais) no modelo de saída usado para o mapa. Para obter detalhes, exiba [Mostrar ou ocultar comentários de rascunho na saída do PDF Nativo](../native-pdf/components-pdf-template.md#show-or-hide-draft-comments-in-native-pdf-output). |
 | **Reter arquivos temporários** | Selecione essa opção se quiser manter os arquivos provisórios do HTML criados ao gerar a saída do PDF nativo. Posteriormente, você pode baixar os arquivos temporários depois de gerar a saída. Os arquivos baixados também incluem o arquivo `system_config.xml`, que fornece informações sobre a URL do autor, a URL local e a URL de publicação. Essas URLs são definidas nas configurações de Externalização do AEM e são refletidas no arquivo `system_config.xml`. |
 | **Conformidade do PDF** | É o padrão para o qual você pretende salvar seu PDF para garantir sua conformidade. Selecione na lista suspensa para escolher na lista de padrões disponíveis do PDF. Para obter mais detalhes sobre os padrões compatíveis, consulte [Sobre os padrões da PDF](https://helpx.adobe.com/br/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
 | **Propriedades do arquivo** | Selecione os metadados que deseja passar para a publicação nativa do PDF. A lista suspensa lista as propriedades personalizadas e padrão. Por exemplo, `dc:description`, `dc:language`, `dc:title` e `docstate` são as propriedades padrão, enquanto você pode ter `author` como a propriedade personalizada. As propriedades de metadados selecionadas são passadas para o arquivo PDF gerado com o PDF Nativo. <br> Essas propriedades são selecionadas do arquivo `metadataList` disponível em:`/libs/fmdita/config/metadataList`. <br>Este arquivo pode ser sobreposto em: `/apps/fmdita/config/metadataList`. |
