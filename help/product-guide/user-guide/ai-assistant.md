@@ -24,7 +24,7 @@ topic_v2:
     internal-label: Security
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 5ed0a5191e1852dd65e0461f02d520b195f7cc39
+source-git-commit: 71ddd55d2a6848449d5810701b60e9f69a29112b
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 0%
@@ -41,7 +41,7 @@ O **Assistente de IA** do Adobe Experience Manager Guides é uma ferramenta avan
 
 >[!NOTE]
 >
->Para habilitar o Assistente de IA no modo Agente para o seu ambiente, entre em contato com a Equipe de sucesso do cliente.
+>Para ativar o Assistente de IA no modo Agente para o seu ambiente, entre em contato com a Equipe de sucesso do cliente.
 
 O Assistente de IA está disponível de dois modos: **Agente** e **Padrão**. Os administradores podem escolher entre os dois modos na seção **Assistente de IA** da guia **Geral** nas **configurações do Workspace**. O painel Assistente de IA permanece o mesmo em ambos os modos no Editor, mas os recursos disponíveis nele são diferentes:
 
@@ -79,7 +79,7 @@ Para obter mais detalhes, consulte a [Ajuda](./ai-based-smart-help.md).
 
 ## Introdução ao Assistente de IA no modo Padrão
 
-Ao usar o **Assistente de IA** no modo Padrão pela primeira vez, você será solicitado a enviar seu consentimento antes de usar os recursos de IA gerativa da Experience Manager Guides.
+Ao usar o **Assistente de IA** no modo Padrão pela primeira vez, você será solicitado a enviar seu consentimento antes de usar os recursos do Experience Manager Guides Generative AI.
 
 Execute as seguintes etapas para iniciar o Assistente de IA:
 

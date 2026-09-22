@@ -21,7 +21,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: e4019ae1e605bd26f7df676a4fab8c632fd8fa8e
+source-git-commit: 71ddd55d2a6848449d5810701b60e9f69a29112b
 workflow-type: tm+mt
 source-wordcount: '1098'
 ht-degree: 0%
@@ -77,7 +77,7 @@ Quando você abre um tópico no Editor, um painel Validação do Schematron é e
 
    >[!NOTE]
    >
-   > Os resultados da validação são exibidos com base no atributo de função definido no arquivo do Schematron. Para obter mais detalhes, consulte [Noções básicas sobre resultados de validação e níveis de severidade](#understanding-validation-results-and-serverity-levels).
+   > Os resultados da validação são exibidos com base no atributo de função definido no arquivo do Schematron. Para obter mais detalhes, consulte [Noções básicas sobre resultados de validação e níveis de gravidade](#understanding-validation-results-and-severity-levels).
 
 1. Selecione a mensagem de erro para realçar o elemento que contém o erro no tópico/mapa aberto.
 

@@ -1,7 +1,7 @@
 ---
 title: Notas de versão | Correção de problemas na versão 2026.09.0 do Adobe Experience Manager Guides
 description: Saiba mais sobre as correções de erros na versão 2026.09.0 do Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 2123962f8c168928c9b0a1ee1331e5cfd86db319
+source-git-commit: 71ddd55d2a6848449d5810701b60e9f69a29112b
 workflow-type: tm+mt
 source-wordcount: '1241'
 ht-degree: 0%
