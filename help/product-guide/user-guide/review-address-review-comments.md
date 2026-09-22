@@ -155,4 +155,4 @@ Ao usar esse recurso, observe que:
 - A filtragem e a pesquisa se aplicam somente aos comentários da tarefa selecionada; os comentários de outras tarefas não selecionadas não serão afetados.
 
 
-**Tópico pai:**[ Introdução à revisão](review.md)
+**Tópico pai:**&#x200B;[&#x200B; Introdução à revisão](review.md)
