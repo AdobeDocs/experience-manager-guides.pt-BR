@@ -7,22 +7,27 @@ exl-id: 02e45d34-898f-411c-bd80-bd4f2364b7d7
 TQID: https://experienceleague.adobe.com/sqNExkYi3iIqIxC7mdlhWw-59-LcAXCOU8w7GD63d8Q
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 018c2332a9e5a4ce8fb683a8cb0bcf859977922c
+    internal-label: User
+source-git-commit: 4546a7e24f9eea064f049d9f84eabd3253d257bd
 workflow-type: tm+mt
-source-wordcount: 671
+source-wordcount: '691'
 ht-degree: 0%
-
 ---
-
 # Barra de guias no editor
 
 >[!INFO]
@@ -61,21 +66,17 @@ Salva as alterações feitas em todos os tópicos abertos. Se você tiver vário
 >
 > A operação **Salvar tudo** não cria uma nova versão dos tópicos. Para criar uma nova versão, use a opção **Salvar como nova versão**.
 
-**Assistente de IA**
-
-Uma ferramenta avançada orientada por IA, projetada para melhorar a produtividade por meio de recursos inteligentes de ajuda e criação. Ele reúne dois recursos robustos de IA — **Criação** e **Ajuda** — na interface do Experience Manager Guides, permitindo que você crie conteúdo e acesse informações da documentação do Experience Manager Guides com mais rapidez e eficiência.
+O **Assistente de IA**: o Assistente de IA está disponível de dois modos: **Agente** e **Padrão**.
 
 >[!NOTE]
 >
-> O recurso Assistente de IA está disponível no momento para o Adobe Experience Manager Guides as a Cloud Service.
+> Para usar o recurso Assistente de IA em modo Agêntico em seu ambiente, entre em contato com a equipe de Sucesso do cliente. Após ativar o recurso, os administradores podem ativá-lo ou desativá-lo nas Configurações do Workspace. Somente um modo do Assistente de IA pode ser ativado por vez: Agente ou Padrão.
 
-**IA de guias**
+- **Agnetic**: traz a habilidade inteligente e agêntica de Marcação Inteligente do Adobe CX Enterprise Coworker para o Editor, permitindo a marcação de conteúdo natural e conversacional. Ele analisa seu conteúdo, recomenda tags relevantes e ajuda a aplicar metadados consistentes e precisos com o mínimo esforço. Você pode revisar as tags sugeridas e optar por aplicá-las ou rejeitá-las antes de confirmar sua seleção. [Usar o Assistente de IA no Modo de Agente](../user-guide/ai-assistant-agentic.md) simplifica o processo de marcação, melhorando a organização e a descoberta do conteúdo.
 
-Traz para o editor habilidades inteligentes e agenciais de marcação inteligente do Colaborador corporativo do Adobe CX, permitindo a marcação de conteúdo natural e conversacional. Ele analisa seu conteúdo, recomenda tags relevantes e ajuda a aplicar metadados consistentes e precisos com o mínimo esforço. Você pode revisar as tags sugeridas e optar por aplicá-las ou rejeitá-las antes de confirmar sua seleção, melhorando a organização e a visibilidade do conteúdo.
+- **Padrão**: uma ferramenta avançada orientada por IA, projetada para aprimorar sua produtividade através de recursos de ajuda inteligentes. Além disso, ao trabalhar na interface do Editor, você pode aproveitar os recursos de criação inteligente do Assistente de IA, que tornam o processo de criação mais inteligente e rápido por meio de sugestões inteligentes para reutilização e otimização de conteúdo.
 
->[!NOTE]
->
-> Para usar o recurso de IA do Guides em seu ambiente, entre em contato com a equipe de Sucesso do cliente. Após ativar o recurso, os administradores podem ativá-lo ou desativá-lo nas Configurações do Workspace. Somente uma experiência de IA pode ser ativada por vez; o Guides AI ou o Assistente de IA.
+No momento, o recurso [Assistente de IA](./ai-assistant.md) está disponível apenas para o Adobe Experience Manager as Cloud Service.
 
 **Expandir exibição**: permite expandir a exibição de página usando o ícone **Expandir**. Nesta visualização, a barra de cabeçalho que contém o logotipo do Adobe Experience Manager está oculta. Isso maximiza o espaço de conteúdo para edição. Para retornar ao modo de exibição padrão, use o ícone **Sair do modo de exibição expandido**.
 
@@ -91,6 +92,6 @@ Traz para o editor habilidades inteligentes e agenciais de marcação inteligent
 >
 >Se estiver usando o Adobe Experience Manager Guides em uma configuração no local anterior à versão 5.2, a opção de configurações do Workspace continuará a aparecer como **Configurações** no menu Mais ações.
 
-- **Configurações do editor**: Leva você à caixa de diálogo Configurações do editor, onde é possível personalizar o comportamento do editor em um nível de autor individual. Ela permite controlar a visibilidade e o comportamento de tags, comentários e outras configurações no nível do editor durante a criação. Para obter detalhes, exiba [Configurações do editor](../install-conf-guide/workspace-settings.md).
+- **Configurações do editor**: Leva você à caixa de diálogo Configurações do editor, onde é possível personalizar o comportamento do editor em um nível de autor individual. Ela permite controlar a visibilidade e o comportamento de tags, comentários e outras configurações no nível do editor durante a criação. Para obter detalhes, exiba [Configurações do editor](../user-guide/config-editor-settings.md).
 
-**Tópico pai:**&#x200B;[&#x200B; Introdução ao Editor](web-editor.md)
+**Tópico pai:**[ Introdução ao Editor](web-editor.md)
