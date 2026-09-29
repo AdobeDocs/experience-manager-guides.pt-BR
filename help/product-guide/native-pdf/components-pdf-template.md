@@ -19,9 +19,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: fde5d8f842d835708f1ae052879bca8a86bf8187
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
-source-wordcount: '5053'
+source-wordcount: '5049'
 ht-degree: 0%
 ---
 # Componentes de um modelo do PDF {#components-pdf-template}
@@ -61,6 +61,7 @@ Conteúdo (índice), índice, página em branco, Páginas de primeiro plano, Pá
      <img src="assets/add-layout-2.png" alt="Caixa de diálogo Adicionar layout" width="250">
 
 1. Especifique um nome para o novo layout de página.
+
    >[!NOTE]
    >
    >Evite usar caracteres especiais ao nomear um layout de página. Um espaço no nome é substituído por um sublinhado &quot;_&quot;.
@@ -196,6 +197,7 @@ Para adicionar um arquivo de ativo à pasta Recursos, siga as etapas abaixo:
    <img src="assets/resources-import-assets.png" alt="Upload de ativos" width="300">
 
    O caminho para onde o arquivo de ativo será carregado é mostrado no campo **Selecionar pasta de ativos**.
+
    >[!NOTE]
    >
    >Não é possível alterar o caminho para fazer upload de ativos. Por padrão, todos os ativos são armazenados na pasta `/content/dam/dita-templates/pdf/<PDF-template-name>`.
@@ -339,8 +341,6 @@ Para obter mais informações sobre layouts de página, consulte [Criar um layou
 
 Você pode mostrar ou ocultar as seguintes seções no PDF e também organizar a ordem em que elas devem aparecer na saída final do PDF:
 
-
-
 * TOC
 * Capítulos e tópicos
 * Lista de figuras
@@ -349,18 +349,16 @@ Você pode mostrar ou ocultar as seguintes seções no PDF e também organizar a
 * Glossário
 * Citação
 
-  <img src="assets/page-order-advance-settings.png" alt="Ordem do layout da página" width="550">
+<img src="assets/page-order-advance-settings.png" alt="Ordem do layout da página" width="550">
 
-  Se você não quiser mostrar uma seção específica na saída do PDF, oculte isso desativando o botão de alternância.
+Se você não quiser mostrar uma seção específica na saída do PDF, oculte isso desativando o botão de alternância.
 
-  Você também pode definir a ordem em que essas diferentes seções são geradas no PDF. Para alterar a ordem padrão dessas seções, selecione as barras pontilhadas para arrastar e soltar as seções no local desejado.
+Você também pode definir a ordem em que essas diferentes seções são geradas no PDF. Para alterar a ordem padrão dessas seções, selecione as barras pontilhadas para arrastar e soltar as seções no local desejado.
 
-  >[!NOTE]
-  >
-  > As configurações de ordem e inclusão se aplicam somente a um mapa DITA. Para um mapa, essas configurações não se aplicam. As páginas em um mapa são exibidas de acordo com a ordem das seções no mapa.
+>[!NOTE]
+>
+> As configurações de ordem e inclusão se aplicam somente a um mapa DITA. Para um mapa, essas configurações não se aplicam. As páginas em um mapa são exibidas de acordo com a ordem das seções no mapa.
 
-
-.
 O layout **Capítulo e Tópicos** é sempre habilitado por padrão. Não é possível alterná-lo.
 
 **Mesclar páginas**
@@ -479,6 +477,7 @@ Se você deixar o campo de texto em branco e não tiver definido o texto do link
 * **Tabela**: `{captionText}`
 
 A ordem de precedência das referências cruzadas é:
+
 * Texto do link adicionado nas referências cruzadas
 * Formato de referência cruzada definido no template PDF nativo
 * Formato de referência cruzada padrão
@@ -497,12 +496,11 @@ Por exemplo, é possível adicionar uma variável de idioma &quot;reference-labe
 Ao adicionar `${lng:<variable name>}` à seção Parágrafo, as referências cruzadas nos parágrafos da saída contêm o texto localizado e o número da página.\
 Por exemplo, as capturas de tela a seguir mostram as referências cruzadas &quot;View on page 1 &quot; em inglês e &quot;Einzelheiten finden Sie auf der Seite 1&quot; em alemão.
 
-<img src="./assets/english-output-corss-reference.png" alt="Inglês output of a cross-reference in a pragrah&quot; width =&quot;800" border="2px">
+<img src="./assets/english-output-corss-reference.png" alt="Inglês output of a cross-reference in a pragrah" width ="800" border="2px">
 
 *Uma referência cruzada dentro de um parágrafo quando publicado em inglês.*
 
-<img src="./assets/german-output-corss-reference.png" alt="Saída alemã de uma referência cruzada em um pragrah&quot; width =&quot;800" border="2px">
-
+<img src="./assets/german-output-corss-reference.png" alt="Saída alemã de uma referência cruzada em um pragrah" width ="800" border="2px">
 
 *Uma referência cruzada dentro de um parágrafo quando publicado em alemão.*
 

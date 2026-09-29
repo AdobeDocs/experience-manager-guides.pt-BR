@@ -7,23 +7,29 @@ exl-id: 52bc8f90-e4ae-4e83-bb1c-9d152fa9bb65
 TQID: https://experienceleague.adobe.com/NX3LuUjSmQKtirXc1iaJVZziVIvuDqANXwqPTi-1LIo
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: f7c0b10f032c2584fb6e951da898faaeb4ca7aaf
+    internal-label: Security
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
-source-wordcount: 3002
+source-wordcount: '3060'
 ht-degree: 0%
-
 ---
-
 # Configurar predefinição de saída do PDF
 
 Depois que a predefinição for criada, defina as configurações de predefinição do PDF. As opções de configuração predefinidas são organizadas nas guias General, Metadata, Layout, Security, Print e Advanced.
@@ -59,23 +65,23 @@ Nas predefinições de Saída, selecione **PDF** > **Native-PDF** > **Metadata**
 
 * **Fornecer arquivo XMP**
 
-  Você também pode preencher diretamente os campos de metadados importando o arquivo [XMP](https://www.adobe.com/br/products/xmp.html) (Plataforma de Metadados Extensível). Você pode baixar um arquivo de amostra do XMP aqui.
+  Você também pode preencher diretamente os campos de metadados importando o arquivo [XMP](https://www.adobe.com/products/xmp.html) (Plataforma de Metadados Extensível). Você pode baixar um arquivo de amostra do XMP aqui.
 
   [Download](assets/SampleXMP.xmp)
 
   Como alternativa, você pode gerar um arquivo XMP usando o Adobe Acrobat.
-   1. Selecione **Arquivo** > **Propriedades** no Acrobat.
-   1. Em **Descrição**, selecione **Metadados Adicionais**.
-   1. No painel esquerdo, selecione **Avançado**.
-   1. Selecione **Salvar**.
+  1. Selecione **Arquivo** > **Propriedades** no Acrobat.
+  1. Em **Descrição**, selecione **Metadados Adicionais**.
+  1. No painel esquerdo, selecione **Avançado**.
+  1. Selecione **Salvar**.
 
   O arquivo XMP é salvo no dispositivo.
 
 * **Forneça nomes e valores de metadados**
 
-   1. Adicione um nome selecionando no menu suspenso ou adicione um metadado personalizado digitando diretamente no campo de nome.
-   1. Insira o valor dos metadados e selecione o ícone &quot;+&quot;.
-Os metadados são adicionados à lista para o PDF.
+  1. Adicione um nome selecionando no menu suspenso ou adicione um metadado personalizado digitando diretamente no campo de nome.
+  1. Insira o valor dos metadados e selecione o ícone &quot;+&quot;.
+     Os metadados são adicionados à lista para o PDF.
 
 Também é possível usar variáveis para definir os valores de metadados.  Você pode usar os metadados definidos para o mapa DITA ou arquivo de mapa como variáveis. Os metadados podem ser encontrados no nó `/jcr:content/metadata` do mapa DITA ou do arquivo de mapa.
 Quando você usa uma variável, seu valor é escolhido das propriedades dos metadados.
@@ -115,10 +121,10 @@ Proteja seu PDF adicionando restrições para abrir e ler o arquivo. Use as opç
 Defina as configurações de produção de impressão para atribuir marcas de impressora, selecionar modelos de cores e especificar propriedades relacionadas à impressão da saída do PDF.
 
 * **Marcas da impressora**: quando você prepara um documento para produção de impressão, marcas da impressora são adicionadas aos limites da página para auxiliar no alinhamento, corte e seleção de cores adequados durante a impressão. Ao selecionar uma marca de impressora, o limite da página é estendido para acomodar a marca, que é aparada durante a impressão. Você pode optar por exibir as seguintes marcas de impressora na saída do PDF:
-   * **Marcas de aparagem**: selecione a opção para colocar uma marca em cada canto da área de aparagem para indicar onde o papel precisa ser aparado após a impressão.
-   * **Marcas de sangria**: selecione para colocar uma marca em cada canto da caixa de sangria para indicar a área de aparagem da imagem estendida.
-   * **Marcas de registro**: selecione para colocar uma marca fora da área de corte para alinhar as diferentes separações em um documento colorido.
-   * **Barras de Cores**: selecione para adicionar uma faixa de cores fora da área de aparagem para manter a consistência de cores e ajustar a densidade da tinta ao imprimir.
+  * **Marcas de aparagem**: selecione a opção para colocar uma marca em cada canto da área de aparagem para indicar onde o papel precisa ser aparado após a impressão.
+  * **Marcas de sangria**: selecione para colocar uma marca em cada canto da caixa de sangria para indicar a área de aparagem da imagem estendida.
+  * **Marcas de registro**: selecione para colocar uma marca fora da área de corte para alinhar as diferentes separações em um documento colorido.
+  * **Barras de Cores**: selecione para adicionar uma faixa de cores fora da área de aparagem para manter a consistência de cores e ajustar a densidade da tinta ao imprimir.
 
   Defina dimensões para as marcas de impressora selecionadas usando as opções **Largura da Linha**, **Cor da Linha** e **Largura da Caixa de Sangria**.
 
@@ -154,5 +160,5 @@ Use as opções a seguir para especificar configurações avançadas para mescla
 | **Criar formulário interativo do PDF** | Selecione essa opção se desejar incluir campos de formulário interativos e personalizáveis do PDF para entrada aprimorada do usuário em saídas geradas do PDF. |
 | **Incluir alterações de controle** | Selecione essa opção se desejar incluir alterações controladas no PDF gerado para facilitar a revisão e a comparação. |
 | **Reter arquivos temporários** | Selecione essa opção se quiser manter os arquivos provisórios do HTML criados ao gerar a saída do PDF nativo. Posteriormente, você pode baixar os arquivos temporários depois de gerar a saída. Os arquivos baixados também incluem o arquivo `system_config.xml`, que fornece informações sobre a URL do autor, a URL local e a URL de publicação. Essas URLs são definidas nas configurações de Externalização do AEM e são refletidas no arquivo `system_config.xml`. |
-| **Conformidade do PDF** | É o padrão para o qual você pretende salvar seu PDF para garantir sua conformidade. Selecione na lista suspensa para escolher na lista de padrões disponíveis do PDF. Para obter mais detalhes sobre os padrões compatíveis, consulte [Sobre os padrões da PDF](https://helpx.adobe.com/br/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
+| **Conformidade do PDF** | É o padrão para o qual você pretende salvar seu PDF para garantir sua conformidade. Selecione na lista suspensa para escolher na lista de padrões disponíveis do PDF. Para obter mais detalhes sobre os padrões compatíveis, consulte [Sobre os padrões da PDF](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
 | **Propriedades do arquivo** | Selecione os metadados que deseja passar para a publicação nativa do PDF. A lista suspensa lista as propriedades personalizadas e padrão. Por exemplo, `dc:description`, `dc:language`, `dc:title` e `docstate` são as propriedades padrão, enquanto você pode ter `author` como a propriedade personalizada. As propriedades de metadados selecionadas são passadas para o arquivo PDF gerado com o PDF Nativo. <br> Essas propriedades são selecionadas do arquivo `metadataList` disponível em:`/libs/fmdita/config/metadataList`. <br>Este arquivo pode ser sobreposto em: `/apps/fmdita/config/metadataList`. |

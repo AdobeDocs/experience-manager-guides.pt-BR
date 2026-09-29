@@ -17,7 +17,7 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 5ed0a5191e1852dd65e0461f02d520b195f7cc39
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
 source-wordcount: '1891'
 ht-degree: 0%
@@ -91,9 +91,9 @@ Você também pode criar novas variáveis de idioma. Por exemplo, você pode cri
 
 1. Selecionar **Adicionar Variável de Idioma** <img src="./assets/add-language-variable.svg" width="25"> para adicionar uma nova variável de idioma ao idioma selecionado. Adicionar uma variável a um idioma a adiciona automaticamente a todos os idiomas. Não é possível criar uma variável com o mesmo nome de uma variável existente. Um erro é exibido.
 
->[!NOTE]
->
-> Se você não selecionar **Adicionar variável de idioma**, a variável não será criada e adicionada à lista
+   >[!NOTE]
+   >
+   > Se você não selecionar **Adicionar variável de idioma**, a variável não será criada e adicionada à lista
 
 ## Exportar e importar variáveis de idioma
 
@@ -132,7 +132,7 @@ As variáveis com a mesma ID são importadas após a importação do arquivo. Os
 >[!NOTE]
 > 
 ><ul><li>Se o arquivo não for um arquivo XML ou se contiver um formato incorreto que não mapeie com as variáveis de idioma, você verá um erro de que há um problema com o arquivo XML. 
->&gt;<li>Se o arquivo não contiver variáveis com a mesma ID, você verá um aviso de que nenhuma variável de idioma correspondente é encontrada no arquivo importado.
+&gt;<li>Se o arquivo não contiver variáveis com a mesma ID, você verá um aviso de que nenhuma variável de idioma correspondente é encontrada no arquivo importado.
 
 ### Opções para uma variável de idioma
 
@@ -140,7 +140,7 @@ Passe o mouse sobre a variável para ver o menu **Opções** para ela.
 
 <img width="550" alt="menu de opções para variáveis de idioma" src="./assets/language-variable-user-options.png">
 
-*Use o menu **Opções**&#x200B;para excluir, visualizar ou duplicar uma variável de idioma.*
+*Use o menu **Opções**para excluir, visualizar ou duplicar uma variável de idioma.*
 
 Você pode visualizar as variáveis do aplicativo e do usuário. Para exibir como o valor da variável é exibido na saída, selecione **Visualizar** no menu **Opções** da variável selecionada.
 Você também pode optar por **Excluir** ou **Duplicar** as variáveis de usuário. A exclusão de uma variável de um idioma a exclui automaticamente de todos os idiomas.
