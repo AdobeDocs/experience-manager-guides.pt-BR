@@ -2,13 +2,11 @@
 title: Configurar o AI Assistant para obter ajuda e criação inteligentes
 description: Saiba como configurar o Assistente de IA no Experience Manager Guides
 exl-id: 59da626d-8433-44c6-ba69-654c7796a264
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
 source-wordcount: '992'
 ht-degree: 0%
-
 ---
-
 # Configurar o Assistente de IA para o Cloud Service
 
 Como administrador, você pode configurar o recurso Assistente de IA no Experience Manager Guides. O Assistente de IA é protegido pela autenticação baseada em autenticação do Adobe IMS. Integre seu ambiente com os workflows de autenticação seguros baseados em token da Adobe e comece a usar o recurso Assistente de IA. A configuração a seguir ajuda a adicionar a guia **Configuração de IA** ao perfil da pasta. Depois de adicionado, você pode usar o recurso Assistente de IA no Experience Manager Guides.

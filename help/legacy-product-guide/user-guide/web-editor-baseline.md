@@ -8,24 +8,31 @@ exl-id: f43bc3ae-b7b6-4a8c-b42d-28ec02d0d1d6
 TQID: https://experienceleague.adobe.com/j6uFt82jpyFbhL2-lS-cPIT-cseP4rpQg9aVjipDmio
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+    internal-label: Document state
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 5d63f33b8644b9adad67fd6badf4760aacbff063
 workflow-type: tm+mt
-source-wordcount: 1707
+source-wordcount: '1707'
 ht-degree: 0%
-
 ---
-
 # Criar e gerenciar linhas de base no Editor da Web {#id223MB0ZF043}
 
 >[!TIP]
@@ -52,22 +59,23 @@ Você pode criar uma linha de base no Editor da Web executando as seguintes etap
    - Em **Selecionar a versão baseada em,**, selecione uma das seguintes opções:
 
 
-      1. **Data** &lt;carimbo de data/hora\>: escolhe a versão dos tópicos como na data e hora especificadas.
-      1. **Rótulo**: selecione esta opção para escolher os tópicos de acordo com o rótulo aplicado a eles. Se os tópicos tiverem rótulos especificados para eles, eles serão listados na lista suspensa. Você pode escolher um rótulo na lista. Também é possível adicionar um rótulo na caixa de texto.
+     1. **Data** &lt;carimbo de data/hora\>: escolhe a versão dos tópicos como na data e hora especificadas.
+     1. **Rótulo**: selecione esta opção para escolher os tópicos de acordo com o rótulo aplicado a eles. Se os tópicos tiverem rótulos especificados para eles, eles serão listados na lista suspensa. Você pode escolher um rótulo na lista. Também é possível adicionar um rótulo na caixa de texto.
 
-         Para as referências diretas em linhas de base estáticas, os rótulos são extraídos da versão salva mais recente do mapa. Por exemplo, se você tiver criado os rótulos `Label Release 1.0` e `Label Release 1.1` para as versões 1.0 e 1.1 do Tópico A e, em seguida, adicionar o Tópico A ao mapa salvo como versão 1.0. Nesse caso, você pode exibir os rótulos `Label Release 1.0` e `Label Release 1.1` na lista suspensa de rótulos de linha de base estáticos.
+        Para as referências diretas em linhas de base estáticas, os rótulos são extraídos da versão salva mais recente do mapa. Por exemplo, se você tiver criado os rótulos `Label Release 1.0` e `Label Release 1.1` para as versões 1.0 e 1.1 do Tópico A e, em seguida, adicionar o Tópico A ao mapa salvo como versão 1.0. Nesse caso, você pode exibir os rótulos `Label Release 1.0` e `Label Release 1.1` na lista suspensa de rótulos de linha de base estáticos.
 
 
-         Ao selecionar **Rótulo**, você pode escolher as referências diretas e indiretas.
-         - Para referências diretas no mapa DITA, você tem a opção de usar a versão mais recente de tópicos que não têm o rótulo especificado aplicado a eles.
+        Ao selecionar **Rótulo**, você pode escolher as referências diretas e indiretas.
 
-           >[!NOTE]
-           >
-           > Se você inserir um rótulo que não existe e selecionar a opção **Não criar uma linha de base**, ocorrerá uma falha na criação da linha de base e será exibida uma mensagem de erro próxima ao nome da linha de base no painel Linha de Base.
+        - Para referências diretas no mapa DITA, você tem a opção de usar a versão mais recente de tópicos que não têm o rótulo especificado aplicado a eles.
 
-         - Para referências indiretas no mapa DITA, você tem uma opção adicional para usar a versão mais recente de tópicos que não têm o rótulo especificado aplicado. Você também pode optar por **Selecionar automaticamente** para o conteúdo referenciado, e o sistema escolhe automaticamente a versão do conteúdo referenciado correspondente à versão do conteúdo no qual ele é referenciado.
+          >[!NOTE]
+          >
+          > Se você inserir um rótulo que não existe e selecionar a opção **Não criar uma linha de base**, ocorrerá uma falha na criação da linha de base e será exibida uma mensagem de erro próxima ao nome da linha de base no painel Linha de Base.
 
-         Depois de selecionar um rótulo ou uma versão como na data, todos os tópicos e arquivos de mídia referenciados no mapa são selecionados adequadamente. Essa seleção de tópicos não é exibida na interface do usuário, mas é salva no back-end.
+        - Para referências indiretas no mapa DITA, você tem uma opção adicional para usar a versão mais recente de tópicos que não têm o rótulo especificado aplicado. Você também pode optar por **Selecionar automaticamente** para o conteúdo referenciado, e o sistema escolhe automaticamente a versão do conteúdo referenciado correspondente à versão do conteúdo no qual ele é referenciado.
+
+        Depois de selecionar um rótulo ou uma versão como na data, todos os tópicos e arquivos de mídia referenciados no mapa são selecionados adequadamente. Essa seleção de tópicos não é exibida na interface do usuário, mas é salva no back-end.
 
    **Atualização automática**: selecione esta opção para que a criação da linha de base escolha automaticamente os tópicos de acordo com o rótulo aplicado a eles.
 
@@ -76,7 +84,7 @@ Você pode criar uma linha de base no Editor da Web executando as seguintes etap
    ![Criar uma linha de base](images/dynamic-baseline.png){width="300"}
 
    - **Rótulos**: se os tópicos tiverem rótulos especificados para eles, use a lista suspensa **Rótulos** para escolher entre os [rótulos listados](#labels-list).
-Os rótulos selecionados primeiro recebem prioridade mais alta sobre os posteriores.
+     Os rótulos selecionados primeiro recebem prioridade mais alta sobre os posteriores.
 
      >[!NOTE]
      >
@@ -110,33 +118,34 @@ Você pode gerenciar suas linhas de base existentes usando os vários recursos n
 
   ![opções de uma linha de base](images/baseline-options.png){width="800"}
 
-
-
   Você também pode executar as seguintes operações na linha de base a partir do menu Opções:
 
 ### Duplicar uma linha de base
 
 Você pode duplicar uma linha de base e modificá-la de acordo com suas necessidades.
+
 ![duplicar uma linha de base](images/baseline-duplicate.png){width="300"}
 *Duplique uma linha de base com base em um rótulo ou crie uma cópia exata.*
 
 1. Selecione **Duplicar** no menu Opções de uma linha de base. A caixa de diálogo **Duplicar linha de base** é aberta.
->[!NOTE]
->
->O nome padrão da linha de base é `<selected baseline name>`_suffix (como sample-baseline_1). Você pode alterar o nome de acordo com suas necessidades.
+
+   >[!NOTE]
+   > 
+   >O nome padrão da linha de base é `<selected baseline name>`_suffix (como sample-baseline_1). Você pode alterar o nome de acordo com suas necessidades.
 
    Em **Selecionar a versão baseada em**, você pode escolher a opção **Cópia exata** ou a opção **Rótulo**:
 
    - **Cópia exata**: o Experience Manager Guides escolhe a mesma versão de todos os tópicos e cria uma cópia exata da linha de base duplicada.
    - **Rótulo**: usando a lista suspensa, você pode escolher um dos [rótulos listados](#labels-list). O Experience Manager Guides escolhe essas versões dos tópicos com o rótulo selecionado definido para eles, enquanto para os tópicos restantes, ele escolhe a versão da linha de base duplicada. Por exemplo, você seleciona o rótulo `Release 1.0` na lista suspensa e, em seguida, ele escolhe as versões dos tópicos para os quais você definiu esse rótulo. Para todos os outros tópicos, ele escolhe a versão da linha de base duplicada.
+
 1. Clique em **Duplicar**.
 
-- **Renomear** ou **Excluir** uma linha de base existente.
-- Adicione, remova ou faça alterações em rótulos existentes da opção **Gerenciar Rótulos** para linhas de base estáticas. Se o administrador tiver configurado rótulos predefinidos, esses rótulos serão exibidos na lista suspensa Adicionar rótulo. Para obter mais informações sobre como adicionar rótulos, consulte [Usar rótulos](web-editor-use-label.md#).
+   - **Renomear** ou **Excluir** uma linha de base existente.
+   - Adicione, remova ou faça alterações em rótulos existentes da opção **Gerenciar Rótulos** para linhas de base estáticas. Se o administrador tiver configurado rótulos predefinidos, esses rótulos serão exibidos na lista suspensa Adicionar rótulo. Para obter mais informações sobre como adicionar rótulos, consulte [Usar rótulos](web-editor-use-label.md#).
 
-  >[!NOTE]
-  >
-  > O processo para adicionar ou remover rótulos ocorre de forma assíncrona, para que você possa continuar trabalhando em outros arquivos no Editor da Web. Depois que o rótulo é adicionado ou removido, uma mensagem pop-up é exibida confirmando que o rótulo foi adicionado ou removido, e você também recebe uma notificação da Caixa de entrada para o mesmo.
+   >[!NOTE]
+   >
+   > O processo para adicionar ou remover rótulos ocorre de forma assíncrona, para que você possa continuar trabalhando em outros arquivos no Editor da Web. Depois que o rótulo é adicionado ou removido, uma mensagem pop-up é exibida confirmando que o rótulo foi adicionado ou removido, e você também recebe uma notificação da Caixa de entrada para o mesmo.
 
 - **Editar propriedades** de uma linha de base estática existente que você definiu ao criar a linha de base.
 - Exporte o instantâneo de uma linha de base em um arquivo do Microsoft Excel com a opção **Exportar Linha de Base**.
@@ -145,6 +154,7 @@ Você pode duplicar uma linha de base e modificá-la de acordo com suas necessid
 ### Lista de rótulos {#labels-list}
 
 Os rótulos listados na lista suspensa são baseados nos seguintes critérios:
+
 - Os rótulos devem ser adicionados a uma das versões dos tópicos no mapa DITA (no qual a linha de base é criada).
 - E somente as referências de primeiro nível (tópicos ou submapas) do mapa DITA são consideradas para a escolha dos rótulos.
 

@@ -8,21 +8,25 @@ level: Experienced
 TQID: https://experienceleague.adobe.com/etvy4eVDOfc8wWTt4LDk-XtEbAvQxESduB3-N114X-0
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Troubleshooting
+source-git-commit: d5800bf2b6aa807975b6c12c20bfb340a015b830
 workflow-type: tm+mt
-source-wordcount: 2866
+source-wordcount: '2866'
 ht-degree: 0%
-
 ---
-
 # Apêndice {#id195AD0L60Y4}
 
 ## Solução de problemas do AEM Guides
@@ -45,10 +49,10 @@ Execute as seguintes etapas para verificar as referências usando o script de va
 1. Execute o script de validação \[`/bin/fmdita/validatebtree?operation=validate`\] para verificar se há novas referências corrompidas.
 1. Caso o script de validação reporte algum erro, você poderá corrigi-lo usando o script de correção.
 1. Registre os detalhes fornecidos a seguir e, se necessário, compartilhe-os com a equipe de sucesso do cliente:
-1. &#x200B;
+
    - Logs impressos pelo script de validação
-- Pacote de &quot;`/content/fmdita/references`&quot;
-- Quaisquer outros detalhes necessários, dependendo do cenário relatado
+   - Pacote de &quot;`/content/fmdita/references`&quot;
+   - Quaisquer outros detalhes necessários, dependendo do cenário relatado
 
 **Script de correção**
 
@@ -56,13 +60,13 @@ Execute as seguintes etapas para corrigir referências quebradas, usando o scrip
 
 1. Execute o script de patch `[/bin/fmdita/validatebtree?operation=patch]` para corrigir as referências corrompidas. A execução do script leva alguns minutos e imprime os registros conforme avança. Quando a execução for concluída, ele imprimirá &quot;`Done`&quot; no final.
 
->[!NOTE]
->
-> É recomendável copiar e salvar os logs para fins de referência.
+   >[!NOTE]
+   >
+   > É recomendável copiar e salvar os logs para fins de referência.
 
 1. Quando o script de patch for executado com sucesso, você poderá fazer as seguintes verificações:
-1. &#x200B;
-   - Verificar se um novo nó &quot;`references_backup_<timestamp>"`&quot; foi criado em `/content/fmdita`
+
+- Verificar se um novo nó &quot;`references_backup_<timestamp>"`&quot; foi criado em `/content/fmdita`
 - Verifique se as referências foram corrigidas
 
 **Agente**
@@ -370,8 +374,9 @@ Os atributos usados em `paraRule` são explicados abaixo:
 - `@mapTo`: o nome de um elemento de destino DITA.
 
 - `@context`: Este atributo é usado para vincular a uma regra específica de **wrap** quando mais de uma opção de wrapper estiver disponível. Exemplo: o elemento `li` pode estar encapsulado em um elemento `ol` ou `ul`. Para identificar os diferentes tipos de lista, você pode usar um nome de estilo específico ou o atributo `@local` que pode mostrar o seguinte:
-   - `local="p[-|-|-|-|-|b|-|-]"` Onde &#39;`b`&#39; no campo 6 indica um item de lista com marcadores. Neste caso, defina `@context` como &#39;`bullet`&#39;.
-   - `local="p[-|-|-|-|-|n|-|-]"` Onde &#39;`n`&#39; no campo 6 indica um item de lista numerado. Neste caso, defina `@context` como &#39;`number`&#39;.
+
+  - `local="p[-|-|-|-|-|b|-|-]"` Onde &#39;`b`&#39; no campo 6 indica um item de lista com marcadores. Neste caso, defina `@context` como &#39;`bullet`&#39;.
+  - `local="p[-|-|-|-|-|n|-|-]"` Onde &#39;`n`&#39; no campo 6 indica um item de lista numerado. Neste caso, defina `@context` como &#39;`number`&#39;.
 
 - `@commentOut`: este atributo habilita o encapsulamento do elemento de destino em comentários XML para que as informações não sejam perdidas, mas possam ser manipuladas manualmente pelo usuário. Isso é útil se o conteúdo original não puder ser forçado a se adequar às regras de estrutura DITA.
 
@@ -402,9 +407,8 @@ Os atributos usados em `charRule` são explicados abaixo:
 - `@local`: Consulte [\#id194CG0V005Z](#id194CG0V005Z).
 - `@mapTo`: o nome de um elemento de destino DITA.
 - `@refactor`: Este atributo opcional tem uma opção de dois valores:
-   - `unwrap`: o elemento correspondente é removido enquanto mantém seu conteúdo.
-
-   - `drop`: o elemento correspondente e todo o seu conteúdo são removidos.
+  - `unwrap`: o elemento correspondente é removido enquanto mantém seu conteúdo.
+  - `drop`: o elemento correspondente e todo o seu conteúdo são removidos.
 
 
 **Regras de atributo**
@@ -434,11 +438,11 @@ Os atributos usados em `attributeRules` são explicados abaixo:
 > Esse elemento pode conter vários elementos secundários.
 
 - `addNew`: Adiciona um novo atributo ao elemento correspondente. Disponível para todos os contextos. Ela tem dois atributos:
-   - `@name`: deve ser um nome XML válido, de preferência, válido para o contexto DITA.
-   - `@value`: pode ser texto literal ou uma expressão XPath simples.
+  - `@name`: deve ser um nome XML válido, de preferência, válido para o contexto DITA.
+  - `@value`: pode ser texto literal ou uma expressão XPath simples.
 - `copyAtt`: copia um único atributo para o destino enquanto, opcionalmente, o renomeia no processo. O valor não é alterado. Disponível para os contextos `mapDoctypeParaRule`, `mapDoctypeElemRule`, `doctypeElemRule` e `elementRule`. Quando este elemento está presente, presume-se que o valor `@copyAllAtts` seja `false`. Ela tem dois atributos:
-   - `@name`: deve ser o nome de um atributo presente no elemento XML de origem.
-   - `@mapTo`: deve ser um nome XML válido, de preferência, válido para o contexto DITA.
+  - `@name`: deve ser o nome de um atributo presente no elemento XML de origem.
+  - `@mapTo`: deve ser um nome XML válido, de preferência, válido para o contexto DITA.
 
 **Códigos de formatação locais**
 
@@ -492,9 +496,9 @@ Os atributos usados em `elementRule` são explicados abaixo:
 
 - `@refactor`: Este atributo opcional tem uma opção de dois valores:
 
-   - `unwrap`: o elemento correspondente é removido enquanto mantém seu conteúdo.
+  - `unwrap`: o elemento correspondente é removido enquanto mantém seu conteúdo.
 
-   - `drop`: o elemento correspondente e todo o seu conteúdo são removidos.
+  - `drop`: o elemento correspondente e todo o seu conteúdo são removidos.
 
 - `@context`: este atributo é usado para vincular a uma regra de wrap específica quando mais de uma opção de wrap está disponível. Exemplo: o elemento `li` pode estar encapsulado em um elemento `ol` ou `ul`.
 

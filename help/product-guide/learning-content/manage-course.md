@@ -7,19 +7,22 @@ exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
 TQID: https://experienceleague.adobe.com/Ffg1tESMpsZU71BF5UcWu-bSBTekVGiv-dv24jD-tjA
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 75954eab3ac1738705fe2a7280973af39b9214df
+    internal-label: User
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
-source-wordcount: 740
+source-wordcount: '740'
 ht-degree: 0%
-
 ---
-
 # Gerenciar seu curso
 
 Depois de criar um curso, ele é aberto no painel Gerenciador de cursos. Você pode bloquear o curso e fazer todas as alterações necessárias no nível dele. As seções a seguir explicam as opções disponíveis para editar o curso.
@@ -50,11 +53,11 @@ Você pode adicionar conteúdo existente do seu repositório de conteúdo ao cur
 1. Selecione o tipo de conteúdo do curso que deseja criar.
 1. Na caixa de diálogo **Selecionar arquivo**, navegue até o local do conteúdo e selecione o conteúdo de Aprendizado desejado.
 
->[!NOTE]
->
-> Ao adicionar um tópico do HTML a um mapa do grupo de aprendizado, o atributo `format="html"` é automaticamente adicionado ao `topicref` correspondente no mapa. Isso garante que o tópico seja processado e publicado corretamente.
+   >[!NOTE]
+   >
+   > Ao adicionar um tópico do HTML a um mapa do grupo de aprendizado, o atributo `format="html"` é automaticamente adicionado ao `topicref` correspondente no mapa. Isso garante que o tópico seja processado e publicado corretamente.
 
-![](assets/add-existing-learning-content.png)
+   ![](assets/add-existing-learning-content.png)
 
 1. Escolha **Selecionar**.
 
