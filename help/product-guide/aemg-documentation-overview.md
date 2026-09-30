@@ -39,10 +39,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 863a9c706ce3aa62aaa24bef7242019e1886f255
+source-git-commit: ce193b31d44d3a67bb18d1db5531c23cb81c4803
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 5%
+source-wordcount: '459'
+ht-degree: 6%
 ---
 # Documentação do Experience Manager Guides
 
@@ -214,6 +214,63 @@ Os revisores podem delegar uma tarefa de revisão a outro revisor.
 A versão 2026.09.0 do Adobe Experience Manager Guides apresenta a marcação inteligente habilitada por IA no Assistente de IA, juntamente com aprimoramentos na criação, no gerenciamento de conteúdo, na publicação e na experiência geral do usuário.
 
 [Explore as novidades](./release-info/whats-new-2026-09-0.md)
+
+## Links rápidos
+
+>[!BEGINSHADEBOX]
+
+<table>
+<tr style="border: 0;">
+<td>
+
+![Novidades](../assets/whats-new-git-connector.svg)
+
+**Novidades no AEM Guides**
+
+Explore os recursos novos e aprimorados introduzidos na versão mais recente do Experience Manager Guides.
+
+- Marcação inteligente habilitada por IA no Assistente de IA
+- Marcar tópico como concluído em uma tarefa de revisão
+- Aprimoramentos no conteúdo de aprendizado
+
+[Explorar tudo](../../help/product-guide/release-info/whats-new-2026-09-0.md)
+
+</td>
+<td>
+
+![Notas de versão](../assets/whats-new-map-collection.svg)
+
+**Notas de versão**
+
+Explore as notas de versão e atualizações de produto mais recentes para implantações em nuvem e no local.
+
+- Versões na nuvem | [Exibir notas de versão](./release-info/latest-release-info-cs.md)
+- Versões no local | [Exibir notas de versão](./release-info/latest-release-info.md)
+
+[Exibir roteiro de versão](./release-info/aem-guides-releases-roadmap.md)
+
+</td>
+<td>
+
+![Aprendizagem e suporte](../assets/whats-new-delegate-review.svg)
+
+**Aprendizagem e suporte**
+
+Acesse recursos úteis, documentação e suporte para aproveitar ao máximo a plataforma.
+
+* [Repositório do GitHub](https://github.com/AdobeDocs/experience-manager-guides.pt-BR){target="_blank"}
+* [Suporte](https://experienceleague.adobe.com/support/v2/en/?lang=pt-BR){target="_blank"}
+* [Tutoriais em vídeo](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+
+[Interagir na Comunidade](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=pt)
+
+</td>
+</tr>
+</table>
+
+>[!ENDSHADEBOX]
+
+
 
 
 ## Recursos adicionais
