@@ -5,23 +5,29 @@ feature: Filename Configuration
 role: Admin
 level: Experienced
 exl-id: 42722c6f-1b1c-4a7e-89ef-a373623eb774
-TQID: https://experienceleague.adobe.com/UM-r83s-H3f2ldZSgNSnYrsV5Iu-zzX1ia4wcCOBB8M
+TQID: 'https://experienceleague.adobe.com/UM-r83s-H3f2ldZSgNSnYrsV5Iu-zzX1ia4wcCOBB8M'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ccd46b93-df7f-4458-ba4c-90a3562d9ab0
+    internal-label: Filename configuration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 584
+source-wordcount: '584'
 ht-degree: 0%
-
 ---
-
 # Desativar pós-processamento para uma pasta
 
 Por padrão, todos os ativos carregados são processados usando o fluxo de trabalho Atualizar ativo do DAM. O Experience Manager Guides executa um processamento adicional, chamado pós-processamento, como parte desse fluxo de trabalho. Isso também ajuda a gerar as UUIDs
@@ -36,11 +42,11 @@ Use as instruções em [Substituições de configuração](download-install-addi
 
 | PID | Chave de propriedade | Valor de propriedade |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `ignored.post.processing.paths` | Valor da cadeia para definir qualquer NODE_OPTIONS padrão (propriedade de vários valores, cadeias com caminho que omitem `/` no final ou regex) <br> **Valor Padrão**: `/content/dam/projects/translation_output` |
+| `com.adobe.fmdita.config.ConfigManager` | `ignored.post.processing.paths` | Valor da cadeia de caracteres para definir qualquer NODE_OPTIONS padrão (propriedade de vários valores, cadeias com caminho que omitem `/` no final ou regex) <br> **Valor Padrão**: `/content/dam/projects/translation_output` |
 
 | PID | Chave de propriedade | Valor de propriedade |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `enabled.post.processing.paths` | Valor da cadeia para definir qualquer NODE_OPTIONS padrão (propriedade de vários valores, cadeias com caminho que omitem `/` no final ou regex) <br> **Valor Padrão**: `/content/dam` |
+| `com.adobe.fmdita.config.ConfigManager` | `enabled.post.processing.paths` | Valor da cadeia de caracteres para definir qualquer NODE_OPTIONS padrão (propriedade de vários valores, cadeias com caminho que omitem `/` no final ou regex) <br> **Valor Padrão**: `/content/dam` |
 
 ## Regras para ativar ou desativar o pós-processamento
 

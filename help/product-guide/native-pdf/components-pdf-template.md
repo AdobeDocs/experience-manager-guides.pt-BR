@@ -5,7 +5,7 @@ exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
 feature: Output Generation
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/h8V5bE1J5ztJNJ9wMPoQR4k36-pZuiaYbnD7xPYX-zE
+TQID: 'https://experienceleague.adobe.com/h8V5bE1J5ztJNJ9wMPoQR4k36-pZuiaYbnD7xPYX-zE'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -16,10 +16,16 @@ feature_v2:
     internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
     internal-label: Configuration
+subfeature_v2:
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '5049'
 ht-degree: 0%
@@ -496,11 +502,11 @@ Por exemplo, é possível adicionar uma variável de idioma &quot;reference-labe
 Ao adicionar `${lng:<variable name>}` à seção Parágrafo, as referências cruzadas nos parágrafos da saída contêm o texto localizado e o número da página.\
 Por exemplo, as capturas de tela a seguir mostram as referências cruzadas &quot;View on page 1 &quot; em inglês e &quot;Einzelheiten finden Sie auf der Seite 1&quot; em alemão.
 
-<img src="./assets/english-output-corss-reference.png" alt="Inglês output of a cross-reference in a pragrah&quot; width =&quot;800" border="2px">
+<img src="./assets/english-output-corss-reference.png" alt="Inglês output of a cross-reference in a pragrah" width ="800" border="2px">
 
 *Uma referência cruzada dentro de um parágrafo quando publicado em inglês.*
 
-<img src="./assets/german-output-corss-reference.png" alt="Saída alemã de uma referência cruzada em um pragrah&quot; width =&quot;800" border="2px">
+<img src="./assets/german-output-corss-reference.png" alt="Saída alemã de uma referência cruzada em um pragrah" width ="800" border="2px">
 
 *Uma referência cruzada dentro de um parágrafo quando publicado em alemão.*
 

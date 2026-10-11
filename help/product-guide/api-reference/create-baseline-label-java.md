@@ -5,23 +5,33 @@ exl-id: 0e2ba1bb-f5bf-44da-848a-a55385460c83
 feature: Java-Based API Baseline
 role: Developer
 level: Experienced
-TQID: https://experienceleague.adobe.com/3vpR2zCp5a6dBn6RkSKgBeU7cS3Me-HE0KQxc-duYCk
+TQID: 'https://experienceleague.adobe.com/3vpR2zCp5a6dBn6RkSKgBeU7cS3Me-HE0KQxc-duYCk'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
   - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+    internal-label: APIs
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: bf030748-d9d2-479a-8289-e6c0d0f46df8
+    internal-label: Java Based API Baseline
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 944
+source-wordcount: '946'
 ht-degree: 2%
-
 ---
-
 # APIs baseadas em Java para trabalhar com rótulos e linhas de base {#id175UB30E05Z}
 
 >[!NOTE]
@@ -132,7 +142,7 @@ public static void applyLabel(Session session,
 | `session` | javax.jcr.Session | Uma sessão JCR válida. |
 | `sourcePath` | String | Caminho absoluto do arquivo de mapa DITA no repositório do AEM. |
 | ``baselineName`` | String | Nome do nó de linha de base no qual o rótulo deve ser aplicado. Para obter o nome do nó de linha de base, você pode usar o método [\#id185NFF0085Z](#id185NFF0085Z) ou verificar o nó de linhas de base do mapa DITA no CRXDE.<br> **Observação:** o rótulo é aplicado à versão dos arquivos referenciados diretamente do arquivo de mapa na linha de base. |
-| `label` | String | Um rótulo aplicado aos arquivos na linha de base. Certifique-se de que o rótulo não contenha os seguintes caracteres: &sol; &amp;vírgula; &amp;dois pontos; &amp;vírgula; &lbrack; &amp;vírgula; &rbrack; &amp;vírgula; &vert; &amp;vírgula; &ast; <br> Caso queira definir vários rótulos, separe-os com uma vírgula; por exemplo, Rótulo1, Rótulo2. |
+| `label` | String | Um rótulo aplicado aos arquivos na linha de base. Certifique-se de que o rótulo não contenha os seguintes caracteres: &amp;sol; &amp;vírgula; &amp;dois pontos; &amp;vírgula; &amp;lbrack; &amp;vírgula; &amp;rbrack; &amp;vírgula; &amp;vert; &amp;vírgula; &amp;ast; <br> Caso queira definir vários rótulos, separe-os com uma vírgula; por exemplo, Rótulo1, Rótulo2. |
 
 **Exceção**:
 Lança `RepositoryException`.

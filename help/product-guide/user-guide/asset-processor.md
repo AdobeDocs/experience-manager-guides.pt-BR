@@ -5,24 +5,33 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: 27786098-119c-4b7a-8275-8a89d435294f
-TQID: https://experienceleague.adobe.com/gAPjyNNTtHv3StIe0O-Fs8Wx0NhXjkML-TEkAPLosIE
+TQID: 'https://experienceleague.adobe.com/gAPjyNNTtHv3StIe0O-Fs8Wx0NhXjkML-TEkAPLosIE'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+  - id: 5be0fc8f-1cff-5c3e-bb92-2903a56a3de6
+    internal-label: Migration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Troubleshooting
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 677
+source-wordcount: '677'
 ht-degree: 0%
-
 ---
-
 # Processar ativos
 
 Em fluxos de trabalho com grande volume de dados, como publicações, o gerenciamento eficiente de ativos é fundamental para manter o desempenho e a confiabilidade. O fluxo de trabalho de processamento de ativos foi projetado para gerenciar ativos específicos do usuário que exigem operações de dados intensivas. Ele aborda principalmente dois casos: quando o processamento inicial falha devido a erros ou quando os arquivos permanecem não processados porque nenhum acionador de processamento de ativos foi iniciado. Ao ativar o processamento direcionado no nível da pasta, os usuários podem isolar e processar apenas os ativos necessários, evitando assim a sobrecarga de cálculos desnecessários. Essa abordagem seletiva melhora significativamente o desempenho, reduzindo o tempo necessário para operações críticas como publicação e geração de relatórios. Em geral, contribui para uma maior eficiência e velocidade no tratamento de tarefas complexas de dados.
@@ -74,7 +83,7 @@ Siga as etapas mencionadas abaixo para processar os ativos:
    1. **Selecionar pastas e arquivos**: navegue e escolha uma ou várias pastas e arquivos para processar.
    1. **Selecionar pastas a serem ignoradas**: como opção, selecione subpastas dentro da pasta pai escolhida para excluir do processamento.
    1. **Tipo de ativo**: na lista suspensa, selecione o tipo de ativo específico a ser processado (por exemplo, Tópico DITA, Mapa DITA, Markdown, HTML/CSS, DITAVAL ou outros arquivos). Somente o tipo de ativo selecionado é processado das pastas especificadas anteriormente.
-Exemplo: a seleção de Tópico DITA processa apenas tópicos DITA dentro da pasta selecionada, permitindo a filtragem direcionada.
+      Exemplo: a seleção de Tópico DITA processa apenas tópicos DITA dentro da pasta selecionada, permitindo a filtragem direcionada.
    1. **Criado após/Criado antes**: aplique filtros de data para processar ativos criados dentro do período de tempo especificado.
 
    >[!NOTE]

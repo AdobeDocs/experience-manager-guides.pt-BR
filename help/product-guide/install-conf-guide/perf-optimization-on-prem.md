@@ -5,7 +5,24 @@ feature: Performance Optimization
 role: Admin
 level: Experienced
 exl-id: 0f289f7c-8300-427a-a4d9-9c2f31608240
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: baa3aa24-d162-4a57-b73a-d27341145083
+    internal-label: Performance optimization
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '888'
 ht-degree: 0%
@@ -15,7 +32,7 @@ ht-degree: 0%
 ## Configurar armazenamento de dados \(Obrigatório\)
 
 **Qual é a alteração?**
-Defina a propriedade `minRecordLength` com um valor de `100` na configuração `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.`. Para obter mais informações sobre o armazenamento de dados do arquivo e o armazenamento de dados S3, consulte o artigo [Configurando armazenamentos de nós e armazenamentos de dados no AEM 6](https://helpx.adobe.com/br/experience-manager/6-5/sites/deploying/using/data-store-config.html).
+Defina a propriedade `minRecordLength` com um valor de `100` na configuração `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.`. Para obter mais informações sobre o armazenamento de dados do arquivo e o armazenamento de dados S3, consulte o artigo [Configurando armazenamentos de nós e armazenamentos de dados no AEM 6](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/data-store-config.html).
 
 >[!NOTE]
 >
@@ -49,7 +66,7 @@ Os parâmetros de inicialização da JVM devem ser cuidadosamente ajustados com 
 
 - Defina o tamanho do heap de JVM para um mínimo de 1/4 do total de memória disponível. Use o parâmetro `-Xmx<size>` para definir o tamanho da memória de heap. Defina o valor de -`Xms` igual a `-Xmx`.
 
-- Habilitar `-XX:+HeapDumpOnOutOfMemoryError` e definir o caminho para `-XX:HeapDumpPath=</path/to/folder`&#x200B;`>`.
+- Habilitar `-XX:+HeapDumpOnOutOfMemoryError` e definir o caminho para `-XX:HeapDumpPath=</path/to/folder``>`.
 
 - Habilitar log do Java GC como:
 

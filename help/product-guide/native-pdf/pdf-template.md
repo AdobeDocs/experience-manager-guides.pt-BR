@@ -5,26 +5,39 @@ exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
 feature: Output Generation
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/omjPXvRH20uR9prVDmOiw-yowtcyX3S9YUqFJWDCLqM
+TQID: 'https://experienceleague.adobe.com/omjPXvRH20uR9prVDmOiw-yowtcyX3S9YUqFJWDCLqM'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1099
+source-wordcount: '1170'
 ht-degree: 0%
-
 ---
-
 # Modelo do PDF {#PDF-template}
 
 O uso de um modelo garante a consistência do layout e da estrutura do conteúdo. Como os modelos são predefinidos, você pode evitar retrabalho em problemas de formatação que surgem para cada novo projeto ou atualização. Os modelos permitem criar layouts de página, estilizar o conteúdo e aplicar várias configurações para personalizar o PDF.
@@ -106,7 +119,7 @@ Selecione essa opção para exibir o modelo na interface do usuário do Assets. 
 
 Depois de criar o modelo personalizado, você pode escolhê-lo nos Layouts de página na predefinição de saída do PDF.
 
-Saiba como [publicar uma saída do PDF](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=pt-BR).
+Saiba como [publicar uma saída do PDF](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=en).
 
 >[!NOTE]
 >
@@ -160,14 +173,14 @@ Para personalizar um modelo do PDF, execute as seguintes etapas:
 
    * Folhas de estilos: as configurações na seção Folhas de estilos permitem personalizar a aparência dos componentes de layout da página, como índice, glossário, citações e muito mais. Além disso, também é possível personalizar os estilos do conteúdo DITA, como cabeçalhos, parágrafos, listas e muito mais. Para saber mais sobre como usar as folhas de estilos, consulte [Usar folhas de estilos para personalizar o PDF](components-pdf-template.md#stylesheet-customization).
    * Recursos: armazene arquivos de ativos que você precisaria personalizar ou criar modelos do PDF. Assets como logotipos, fontes personalizadas, imagens de fundo e muito mais são armazenados em Recursos.
-Você também pode usar os recursos presentes em qualquer outro local no repositório. Não é necessário criar recursos duplicados para cada modelo, e você pode mantê-los em uma pasta compartilhada e usá-los em todos os modelos nativos do PDF.
+     Você também pode usar os recursos presentes em qualquer outro local no repositório. Não é necessário criar recursos duplicados para cada modelo, e você pode mantê-los em uma pasta compartilhada e usá-los em todos os modelos nativos do PDF.
 
      Para saber mais sobre a utilização de recursos, consulte [Trabalhar com recursos](components-pdf-template.md#work-with-resources).
 
    * Configurações: defina as configurações de saída para gerar uma PDF usando o modelo. Esta seção permite definir o mapeamento de modelo para várias páginas em uma PDF, página inicial do capítulo, marcadores de impressão, citações e muito mais.
 
    Você também pode organizar a ordem em que eles devem aparecer na saída final do PDF.
-Para obter mais informações sobre como aplicar configurações, consulte [Configurações Avançadas do PDF](components-pdf-template.md#advanced-pdf-settings).
+   Para obter mais informações sobre como aplicar configurações, consulte [Configurações Avançadas do PDF](components-pdf-template.md#advanced-pdf-settings).
 
 
 1. Para personalizar um componente de modelo, clique duas vezes em um componente de modelo ou selecione o ícone > antes dele.

@@ -5,36 +5,54 @@ exl-id: d7bf7e69-fe12-4c48-8ce4-17b74a6c61e7
 feature: Profiles
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/YhhyPK2yQ7uarXyRP1OVfYtbAjYtcA0j6rb2YQ-CTKc
+TQID: 'https://experienceleague.adobe.com/YhhyPK2yQ7uarXyRP1OVfYtbAjYtcA0j6rb2YQ-CTKc'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
   - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: e13e7f13-0f4c-43f9-b0a7-1f33bd47e105
+    internal-label: Troubleshooting
   - id: e557051c-ff02-4ff8-9421-cf452af0edd5
+    internal-label: Installation
   - id: f7774ebe-aec9-42b6-97e4-5002acdc712e
+    internal-label: Review
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Administration
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 3974
+source-wordcount: '3974'
 ht-degree: 0%
-
 ---
-
 # Configurar perfis globais ou de nível de pasta {#id181AH2003PF}
 
 Em uma empresa, diferentes grupos ou produtos podem usar diferentes modelos de criação, modelos de saída, perfis de atributo condicional \(ou esquemas de assunto\) e configurações do Editor da Web. Configurar esses apenas em nível corporativo \(ou global\) pode dificultar a experiência dos autores, pois eles verão modelos ou perfis que não são relevantes para eles.
@@ -53,21 +71,21 @@ Ao usar o bloco Perfis de pasta nas configurações de Guias, você pode definir
 
 - **Modelo de criação**: use esta guia para configurar os modelos que seus autores usarão para criar conteúdo DITA. Os seguintes modelos de tópico estão disponíveis prontamente:
 
-   - Glossário
+  - Glossário
 
-   - Referência
+  - Referência
 
-   - Tópico
+  - Tópico
 
-   - Conceito
+  - Conceito
 
-   - Tarefa
+  - Tarefa
 
-   - Resolução de problemas
+  - Resolução de problemas
 
-   - Em branco
+  - Em branco
 
-   - DITAVAL
+  - DITAVAL
 
   >[!NOTE]
   >
@@ -75,31 +93,31 @@ Ao usar o bloco Perfis de pasta nas configurações de Guias, você pode definir
 
   Juntamente com os modelos de tópico, também é possível definir os modelos de mapa que serão disponibilizados aos autores. Os seguintes modelos de mapa estão disponíveis prontamente:
 
-   - Mapa
+  - Mapa
 
-   - Bookmap
+  - Bookmap
 
 - **Predefinição de Saída**: Assim como os Modelos de Criação, existem cinco predefinições de saída pré-configuradas:
 
-   - Site do AEM
+  - Site do AEM
 
-   - PDF
+  - PDF
 
-   - HTML 5
+  - HTML 5
 
-   - EPUB
+  - EPUB
 
-   - Personalizado
+  - Personalizado
 
   Os editores podem usar essas predefinições de saída prontas para uso para publicar conteúdo. Essas predefinições podem ser configuradas por um administrador do perfil global ou de nível de pasta. Após configuradas, as predefinições de publicação ficam disponíveis para os editores para mapas DITA recém-criados. Você também pode aplicar predefinições de publicação a mapas DITA existentes. Consulte [Aplicar alterações predefinidas](#id18AGD0K0OHS) para obter mais detalhes.
 
 - **Configurações do Editor XML**: use esta guia para personalizar a aparência e os vários recursos do Editor da Web. As seguintes configurações configuráveis estão disponíveis para o Editor da Web:
 
-   - Configuração da interface do Editor de XML
-   - Layout do modelo CSS
-   - Trechos do Editor de XML
-   - Rótulos da versão do conteúdo XML
-   - Roteiro \(somente no nível da pasta\)
+  - Configuração da interface do Editor de XML
+  - Layout do modelo CSS
+  - Trechos do Editor de XML
+  - Rótulos da versão do conteúdo XML
+  - Roteiro \(somente no nível da pasta\)
 
 Você pode configurar ambos — perfil global e perfil de nível de pasta. Em um perfil de nível de pasta, é possível definir as pastas nas quais as configurações serão aplicáveis. Essas configurações incluem atributos condicionais, modelos de criação, predefinições de saída e configurações do Editor XML. As predefinições condicionais, os modelos de criação e as configurações do Editor XML são então disponibilizados aos autores que trabalham nas pastas configuradas. Da mesma forma, os editores terão acesso às predefinições de saída configuradas definidas nas pastas configuradas.
 

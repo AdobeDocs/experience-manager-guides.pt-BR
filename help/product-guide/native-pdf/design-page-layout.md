@@ -5,26 +5,36 @@ exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
 feature: Output Generation
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/S-gzuvk3PoU8kiNR9m39L50ftQRTrt8RnZ3Lo9WJkZs
+TQID: 'https://experienceleague.adobe.com/S-gzuvk3PoU8kiNR9m39L50ftQRTrt8RnZ3Lo9WJkZs'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: d6596f3f-92a7-43ec-b444-237db6adad05
+    internal-label: Native PDF publishing
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 5060
+source-wordcount: '5089'
 ht-degree: 0%
-
 ---
-
 # Criar um layout de página {#design-page-layout}
 
 Ao criar um documento do PDF, você teria diferentes seções para apresentar diferentes tipos de informações. Por exemplo, um documento do PDF seria iniciado em uma página frontal ou de capa, que teria o logotipo, o título do livro ou as informações da versão da sua empresa. Em seguida, haveria capítulos, apêndices ou páginas de glossário. Cada seção em um documento do PDF é diferente, o que é obtido ao criar e personalizar o layout da página.
@@ -113,9 +123,9 @@ Ao projetar um layout de página, é essencial ter controle sobre várias propri
 * **Rotação de Exibição**: especifique o lado ou a direção na qual o lado superior original é representado após a rotação. Você pode escolher entre 90 e 90 graus no sentido horário ou 180 graus no sentido anti-horário. Isso é muito útil em uma situação em que você deseja usar uma combinação de layouts Retrato e Paisagem na saída. Por exemplo, você pode usar retrato como o layout de página genérico e pode definir um layout de página paisagem para renderizar tabelas largas. Nessa situação, você pode definir a exibição do conteúdo da tabela no sentido horário em 90 graus. Dessa forma, a página será orientada em paisagem e o conteúdo será girado 90 graus para manter a continuidade da exibição. Veremos como isso é feito, como exemplo, posteriormente nesta seção.
 
 * **Numeração de páginas** A numeração de páginas :The, por padrão, é contínua em uma PDF. Por exemplo, uma PDF de 100 páginas pode ter números de página contínuos de 1 a 100. Você também pode reiniciar a numeração a partir de um número específico em todas as diferentes seções ou na primeira ocorrência de uma seção.
-   * **Reiniciar de**: especifique o número da página onde a numeração deste layout de página será iniciada. Por exemplo, você pode definir o número de página a ser reiniciado para cada capítulo. Nesse caso, você precisa definir a propriedade restart from como 1 na variante de layout First page do layout da página do capítulo. Por padrão, a numeração de páginas continua a partir da página anterior.
+  * **Reiniciar de**: especifique o número da página onde a numeração deste layout de página será iniciada. Por exemplo, você pode definir o número de página a ser reiniciado para cada capítulo. Nesse caso, você precisa definir a propriedade restart from como 1 na variante de layout First page do layout da página do capítulo. Por padrão, a numeração de páginas continua a partir da página anterior.
 
-   * **Aplicar somente à primeira ocorrência**: também é possível iniciar com um número específico somente para a primeira ocorrência de uma seção. Por exemplo, você pode iniciar somente o primeiro capítulo de 1 e continuar os números de página de outros capítulos.
+  * **Aplicar somente à primeira ocorrência**: também é possível iniciar com um número específico somente para a primeira ocorrência de uma seção. Por exemplo, você pode iniciar somente o primeiro capítulo de 1 e continuar os números de página de outros capítulos.
 
 * **Layout**: especifique as margens da página junto com o preenchimento para os lados superior, inferior, esquerdo e direito. A ilustração a seguir explica como as margens, o preenchimento e as bordas são renderizados em torno do conteúdo. Observe que a margem na parte superior e inferior de uma página contém o cabeçalho e o rodapé.
 

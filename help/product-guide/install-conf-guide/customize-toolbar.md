@@ -5,20 +5,35 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 42f1ee19-cc59-49da-b882-5d97ec387df6
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: '1710'
+source-wordcount: '1728'
 ht-degree: 0%
-
 ---
-
 # Personalizar barra de ferramentas {#id172FB00L0V6}
 
 Por padrão, o Editor é fornecido com os recursos editoriais mais comuns exigidos por qualquer editor DITA. Recursos como inserir elementos da lista de tipos \(numerada ou com marcadores\), referência cruzada, referência de conteúdo, tabela, parágrafo e formatação de caracteres estão disponíveis no editor. Além desses elementos básicos, você pode personalizar o Editor para inserir elementos que são usados em seu ambiente de criação.
 
 >[!NOTE]
 >
-> Ao migrar da interface antiga para a nova interface do AEM Guides (aplicável a partir das versões 2502 e 5.0 do AEM Guides), as atualizações do `ui_config` devem ser convertidas em configurações de interface mais flexíveis e modulares. Essa estrutura ajuda a adotar alterações facilmente na editor_toolbar e em outro widget do target, conforme aplicável. Para obter detalhes, consulte [Visão geral da configuração da interface de conversão](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+> Ao migrar da interface antiga para a nova interface do AEM Guides (aplicável a partir das versões 2502 e 5.0 do AEM Guides), as atualizações do `ui_config` devem ser convertidas em configurações de interface mais flexíveis e modulares. Essa estrutura ajuda a adotar alterações facilmente na editor_toolbar e em outro widget do target, conforme aplicável. Para obter detalhes, consulte [Visão geral da configuração da interface de conversão](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 Há duas maneiras de personalizar a barra de ferramentas do Editor:
 
@@ -55,16 +70,16 @@ As guias a seguir fornecem instruções com base na configuração do Experience
    **itens**: especifique a definição de todos os grupos na barra de ferramentas. Cada grupo pode conter um ou vários ícones da barra de ferramentas. Para definir ícones em um grupo de barras de ferramentas, você precisa definir novamente o atributo `type` em `items` e definir seu valor como `buttonGroup`. Especifique um ou mais nomes de classe na propriedade `extraclass`. Especifique o nome do recurso na propriedade `label`. O trecho a seguir do arquivo `ui_config.json` mostra a definição do bloco da barra de ferramentas principal, seguida pela definição `buttonGroup`:
 
        &quot;
-     &quot;barra de ferramentas&quot;: &lbrace;
+     &quot;barra de ferramentas&quot;: {
      &quot;tipo&quot;: &quot;blockGroup&quot;,
      &quot;extraclass&quot;:
      &quot;operações de barra de ferramentas&quot;,
-     &quot;itens&quot;: &lbrack;
-     &lbrace;
+     &quot;itens&quot;: [
+     {
      &quot;tipo&quot;: &quot;buttonGroup&quot;,
      &quot;extraclass&quot;: &quot;left-controls&quot;,
      &quot;rótulo&quot;: &quot;Left-controls&quot;: Controles&quot;,
-     &quot;itens&quot;: &lbrack;
+     &quot;itens&quot;: [
      &quot;
    
    Na coleção `items`, é necessário especificar a definição de um ou mais ícones da barra de ferramentas.
@@ -133,7 +148,7 @@ As guias a seguir fornecem instruções com base na configuração do Experience
 
 1. No arquivo `ui_config.json`, adicione a definição do novo recurso na seção de barras de ferramentas. Normalmente, você pode criar um novo grupo de botões da barra de ferramentas e adicionar um ou mais botões da barra de ferramentas a ele. Ou você pode adicionar um novo botão de barra de ferramentas em um grupo existente. Os detalhes a seguir são necessários para criar um novo grupo de barras de ferramentas:
 
-   - **tipo:**&#x200B;especifique `blockGroup` como o valor `type`. Esse valor indica que você está criando um grupo de blocos que conteria um ou mais grupos da barra de ferramentas.
+   - **tipo:**especifique `blockGroup` como o valor `type`. Esse valor indica que você está criando um grupo de blocos que conteria um ou mais grupos da barra de ferramentas.
 
    - **classe(s) de extração:** Nome da(s) classe(s) separada(s) por espaço.
 
@@ -153,7 +168,7 @@ As guias a seguir fornecem instruções com base na configuração do Experience
      ```
 
      Na coleção `items`, é necessário especificar a definição de um ou mais ícones da barra de ferramentas.
-É necessário definir as seguintes propriedades para adicionar um ícone da barra de ferramentas:
+     É necessário definir as seguintes propriedades para adicionar um ícone da barra de ferramentas:
 
    - **tipo:** especifique `button` como o valor `type`. Esse valor indica que você está adicionando um botão da barra de ferramentas.
 

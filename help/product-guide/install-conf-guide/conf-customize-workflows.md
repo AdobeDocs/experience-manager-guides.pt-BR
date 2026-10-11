@@ -5,7 +5,24 @@ feature: Workflow Configuration
 role: Admin
 level: Experienced
 exl-id: 169d6e01-7ab2-4f0a-bd70-a3aee39cee8e
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: b455a250-64c4-4598-b015-7b6b6dc528b1
+    internal-label: Workflow configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '2280'
 ht-degree: 2%
@@ -18,13 +35,13 @@ Para obter mais informações sobre fluxos de trabalho no AEM, consulte
 
 | Cloud Service | No local |
 |-------------|------------|
-| <ul><li>[Administrando Instâncias de Fluxo de Trabalho](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html?lang=pt-BR)</li><li>Aplicando e participando de fluxos de trabalho: [Trabalhando com Fluxos de Trabalho de Projeto](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/projects/workflows.html?lang=pt-BR)</li></ul> | <ul><li>[Administrando Fluxos de Trabalho](https://helpx.adobe.com/br/experience-manager/6-5/sites/administering/using/workflows.html)</li><li>Aplicando e participando de fluxos de trabalho: [Trabalhando com Fluxos de Trabalho](https://helpx.adobe.com/br/experience-manager/6-5/sites/authoring/using/workflows.html)</li><li>Criando modelos de fluxo de trabalho e estendendo a funcionalidade do fluxo de trabalho: [Desenvolvendo e Estendendo Fluxos de Trabalho](https://helpx.adobe.com/br/experience-manager/6-5/sites/developing/using/workflows.html)</li><li>Melhorando o desempenho de fluxos de trabalho que usam recursos significativos do servidor: [Processamento de Fluxo de Trabalho Simultâneo](https://helpx.adobe.com/br/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance)</li></ul> |
+| <ul><li>[Administrando Instâncias de Fluxo de Trabalho](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html)</li><li>Aplicando e participando de fluxos de trabalho: [Trabalhando com Fluxos de Trabalho de Projeto](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/projects/workflows.html)</li></ul> | <ul><li>[Administrando Fluxos de Trabalho](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html)</li><li>Aplicando e participando de fluxos de trabalho: [Trabalhando com Fluxos de Trabalho](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/workflows.html)</li><li>Criando modelos de fluxo de trabalho e estendendo a funcionalidade do fluxo de trabalho: [Desenvolvendo e Estendendo Fluxos de Trabalho](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/workflows.html)</li><li>Melhorando o desempenho de fluxos de trabalho que usam recursos significativos do servidor: [Processamento de Fluxo de Trabalho Simultâneo](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance)</li></ul> |
 
 As seções neste tópico guiarão você pelas várias personalizações que podem ser feitas nos fluxos de trabalho padrão enviados no AEM Guides.
 
 ## Personalizar fluxo de trabalho de revisão {#id176NE0C00HS}
 
-A equipe de criação de conteúdo de cada organização trabalha de maneira específica para atender às suas necessidades de negócios. Em algumas organizações há um editor dedicado, enquanto outras poderiam ter um sistema automatizado de revisão editorial em vigor. Por exemplo, em uma organização, um fluxo de trabalho típico de criação e publicação pode incluir tarefas como: sempre que um autor é concluído com a criação de conteúdo, ele vai automaticamente para os revisores e, quando a revisão é concluída, vai para o editor para gerar a saída final. No AEM, as atividades que você faz no conteúdo e nos ativos podem ser combinadas no formato de um processo e mapeadas para um fluxo de trabalho do AEM. Para obter mais informações sobre fluxos de trabalho no AEM, consulte [Administração de fluxos de trabalho](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html?lang=pt-BR) na documentação do AEM.
+A equipe de criação de conteúdo de cada organização trabalha de maneira específica para atender às suas necessidades de negócios. Em algumas organizações há um editor dedicado, enquanto outras poderiam ter um sistema automatizado de revisão editorial em vigor. Por exemplo, em uma organização, um fluxo de trabalho típico de criação e publicação pode incluir tarefas como: sempre que um autor é concluído com a criação de conteúdo, ele vai automaticamente para os revisores e, quando a revisão é concluída, vai para o editor para gerar a saída final. No AEM, as atividades que você faz no conteúdo e nos ativos podem ser combinadas no formato de um processo e mapeadas para um fluxo de trabalho do AEM. Para obter mais informações sobre fluxos de trabalho no AEM, consulte [Administração de fluxos de trabalho](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html) na documentação do AEM.
 
 O AEM Guides permite personalizar o workflow de revisão padrão. Você pode usar os quatro processos personalizados relacionados à revisão a seguir com outros fluxos de trabalho de criação ou publicação.
 
@@ -131,7 +148,7 @@ Para obter mais detalhes sobre como configurar a **Configuração de limpeza de 
 
 ### Personalizar emails e notificações do AEM
 
-Vários workflows do AEM Guides usam notificações por email. Por exemplo, se você iniciar uma tarefa de revisão, uma notificação por email será enviada aos revisores. No entanto, para garantir que a notificação por email seja enviada, é necessário habilitar essa funcionalidade no AEM. Para habilitar a notificação por email no AEM, consulte o artigo [Envio de email](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html?lang=pt-BR#sending-email) na documentação do AEM.
+Vários workflows do AEM Guides usam notificações por email. Por exemplo, se você iniciar uma tarefa de revisão, uma notificação por email será enviada aos revisores. No entanto, para garantir que a notificação por email seja enviada, é necessário habilitar essa funcionalidade no AEM. Para habilitar a notificação por email no AEM, consulte o artigo [Envio de email](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html#sending-email) na documentação do AEM.
 
 O AEM Guides contém um conjunto de notificações por email e do AEM usadas no fluxo de trabalho de revisão que você pode personalizar. Execute as seguintes etapas para personalizar essas notificações:
 

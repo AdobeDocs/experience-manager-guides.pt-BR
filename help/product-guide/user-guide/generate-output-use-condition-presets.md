@@ -4,24 +4,32 @@ description: Conhecer o uso de predefinições de condição no AEM Guides. Saib
 exl-id: f6865a34-abdd-4d23-b903-0211bebd13b7
 feature: Publishing
 role: User
-TQID: https://experienceleague.adobe.com/IKcIREoHuXjW-uUDFS6ifRhjzzUoKCXPMW5ip2OKBZU
+TQID: 'https://experienceleague.adobe.com/IKcIREoHuXjW-uUDFS6ifRhjzzUoKCXPMW5ip2OKBZU'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1154
+source-wordcount: '1154'
 ht-degree: 2%
-
 ---
-
 # Usar predefinições de condição {#id1825FL004PN}
 
 Você pode definir atributos em seus tópicos DITA e usar a predefinição de condição para especificar o que acontece com o atributo na saída final. Por exemplo, você pode adicionar atributos como versão 1.0 e versão 2.0 no conteúdo e usar uma predefinição de condição para incluir a versão 1.0 para a versão 1.0 e excluir a versão 2.0. Da mesma forma, você pode adicionar atributos como SO Windows e OS Linux ao seu conteúdo e, em seguida, incluir ou excluir o conteúdo relevante para sua saída final de acordo com o sistema operacional.
@@ -70,7 +78,7 @@ A exibição **Predefinições de Condição** fornece informações detalhadas 
 1. (Opcional) Se necessário, é possível substituir a ação aplicada aos atributos.
 
    Siga uma das seguintes opções:
-Para qualquer atributo, selecione uma das seguintes ações no menu suspenso Ação ou na barra de ferramentas.
+   Para qualquer atributo, selecione uma das seguintes ações no menu suspenso Ação ou na barra de ferramentas.
 
    - Incluir
    - Excluir
@@ -134,7 +142,7 @@ Execute as seguintes etapas para criar uma predefinição de condição:
    - Excluir
    - Passagem
    - Sinalizador
-A ação é definida como ação padrão para todos os atributos, sejam eles adicionados à predefinição de condição ou não.
+     A ação é definida como ação padrão para todos os atributos, sejam eles adicionados à predefinição de condição ou não.
 
    Por exemplo, você tem 15 atributos de condição no documento e incluiu quatro deles na predefinição de condição. Se você selecionar **excluir** como ação padrão, ela será aplicada a todos os 15 atributos.
 
@@ -180,4 +188,4 @@ A ação é definida como ação padrão para todos os atributos, sejam eles adi
 1. Selecione o botão **Remover**.
 1. Selecione **Remover** para confirmar a ação.
 
-**Tópico pai:**&#x200B;[&#x200B; Geração de saída](generate-output.md)
+**Tópico pai:**[ Geração de saída](generate-output.md)

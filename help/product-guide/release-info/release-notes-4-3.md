@@ -4,28 +4,39 @@ description: Saiba mais sobre as correções de erros e como atualizar para as v
 exl-id: 7fb568a0-0b88-4ea0-9b79-2625336348ff
 feature: Release Notes
 role: Leader
-TQID: https://experienceleague.adobe.com/tpIgdm6yEWAcTHYKOXC4d3xR6yTLpVF5M9BVxquyahw
+TQID: 'https://experienceleague.adobe.com/tpIgdm6yEWAcTHYKOXC4d3xR6yTLpVF5M9BVxquyahw'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+    internal-label: FrameMaker Publishing Server
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
+  - id: fc07eb3b-d7d7-4e9a-a558-c3099c2b6f7b
+    internal-label: Release notes
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1075
+source-wordcount: '1075'
 ht-degree: 4%
-
 ---
-
 # Versão 4.3.0 do Adobe Experience Manager Guides (julho de 2023)
 
 Esta nota de versão aborda as instruções de atualização, a matriz de compatibilidade e os problemas corrigidos na versão 4.3.0 do Adobe Experience Manager Guides (mais tarde conhecido como *AEM Guides*).
@@ -135,7 +146,7 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 - PDF nativo | Xref está imprimindo o conteúdo do título do tópico href em vez do rótulo Xref. (11322)
 - PDF nativo | Não é possível salvar as configurações do modelo do PDF. (10751)
 - PDF nativo | O texto se estende além da largura da coluna ao incluir vários xrefs. (10876)
-- PDF nativo O elemento | `<note>` `</note>` não gera um título de extensão extra de seu tipo. (10549)
+- PDF nativo O elemento | `<note>``</note>` não gera um título de extensão extra de seu tipo. (10549)
 - Saída JSON | A propriedade `fmUuid` no nó jcr:content do JSON é diferente da &quot;id&quot; dentro do JSON. (11564)
 - Saída JSON | Se o mapa e o tópico com o mesmo nome de arquivo estiverem presentes, o JSON do mapa será removido. (11524)
 
@@ -146,18 +157,18 @@ A Adobe identificou o seguinte problema conhecido na versão 4.3.0 do AEM Guides
 - O layout de página comum definido no modelo Básico não é aplicado como modelo padrão.
 
   Solução alternativa:
-Adicione o layout de página comum como capa frontal e traseira e, em seguida, ele começa a vir para cada página.
+  Adicione o layout de página comum como capa frontal e traseira e, em seguida, ele começa a vir para cada página.
 - Problema ocorre na Pesquisa do site ao pesquisar na página de saída do site do AEM no AEM Service Pack 16 ou 17.
 
   Solução alternativa:
 
-   1. Abrir arquivo com o caminho: `/libs/foundation/components/search/search.jsp` em `crx/de`
-   1. Substituir o número de linha 234 pelo seguinte código:
+  1. Abrir arquivo com o caminho: `/libs/foundation/components/search/search.jsp` em `crx/de`
+  1. Substituir o número de linha 234 pelo seguinte código:
 
-      ```
-      <a href="<c:url value="${hit.URL}" context="/"/>" onclick="trackSelectedResult(this, ${status.index + 1})"><%= xssAPI.filterHTML(((Search.Hit) pageContext.getAttribute("hit")).getTitle()) %></a>
-      
-      *(Add the missing closing anchor tag at the end).
-      ```
+     ```
+     <a href="<c:url value="${hit.URL}" context="/"/>" onclick="trackSelectedResult(this, ${status.index + 1})"><%= xssAPI.filterHTML(((Search.Hit) pageContext.getAttribute("hit")).getTitle()) %></a>
+     
+     *(Add the missing closing anchor tag at the end).
+     ```
 
-   1. Salve o arquivo.
+  1. Salve o arquivo.

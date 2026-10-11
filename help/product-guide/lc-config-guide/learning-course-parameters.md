@@ -5,25 +5,33 @@ feature: Authoring
 role: Admin
 level: Experienced
 exl-id: f25cbbbd-5d9f-47b0-9260-8062e026913d
-TQID: https://experienceleague.adobe.com/ZyY9sjaqGANXlUI5l3OsP-i1Pu-es-B-iGnpPJjQYrY
+TQID: 'https://experienceleague.adobe.com/ZyY9sjaqGANXlUI5l3OsP-i1Pu-es-B-iGnpPJjQYrY'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Insights
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 281
+source-wordcount: '285'
 ht-degree: 1%
-
 ---
-
 # Métricas principais de SCORM para progresso do aluno e conclusão do curso
 
 O artigo lista os principais parâmetros capturados em um pacote SCORM, juntamente com seus campos correspondentes e exemplos. Esses parâmetros fornecem insights críticos sobre o progresso do aluno, a conclusão do curso, os detalhes da interação e o desempenho do questionário. Os administradores podem usar essas informações para validar o rastreamento, configurar relatórios e garantir análises precisas no ambiente do LMS. Abaixo estão exemplos de valores fornecidos para cada parâmetro como ele aparece no pacote SCORM.
@@ -38,7 +46,7 @@ O artigo lista os principais parâmetros capturados em um pacote SCORM, juntamen
 | **Visibilidade do índice e contagem de tópicos** | Mostra visibilidade do índice e detalhes de conclusão do tópico | Projeto.OcultarSumário, Projeto.TotalTopics, Projeto.TópicosConcluído | - |
 | **Status por tópico** | Status de conclusão e aprovação para cada tópico | Estado personalizado por lição | - |
 | **Estado de escolha por pergunta** | Rastreia as opções selecionadas do aluno por pergunta | value, generated_id, checked | - |
-| **Pontuação geral de perguntas** | Pontuação obtida no nível de perguntas e na agregação | {&quot;score&quot;:0,&quot;maxScore&quot;:1} e % | &quot;pontuação&quot;:33.33,&quot;maxScore&quot;:100,&quot;minScore&quot;:0 |
+| **Pontuação geral de perguntas** | Pontuação obtida no nível de perguntas e na agregação | {&quot;score&quot;:0,&quot;maxScore&quot;:1} e % | &quot;score&quot;:33.33,&quot;maxScore&quot;:100,&quot;minScore&quot;:0 |
 | **Interações em cada nível de pergunta** | Detalhes da interação do aluno por pergunta | id/tipo/carimbo de data e hora/correct_response/learner_response/result/latency | - |
 | **Status geral do curso** | Indica aprovação/falha e progresso geral | success_status, completion_status, score, progress_measure | Aprovado ou reprovado |
 | **Detalhes do aluno** | Identifica o aluno por ID e nome | cmi.learner_id, cmi.learner_name | Albert |

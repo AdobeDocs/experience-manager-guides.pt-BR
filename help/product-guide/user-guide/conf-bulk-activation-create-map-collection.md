@@ -4,23 +4,30 @@ description: Saiba como criar uma coleção de mapas de ativação em massa nos 
 exl-id: ea0bd465-a2d9-488f-83e9-62b336233eb1
 feature: Publishing, Bulk Activation
 role: User
-TQID: https://experienceleague.adobe.com/wsG3SOMPqESl5dtCXw0wERboSJ57RG2PIR9QKYow-5Q
+TQID: 'https://experienceleague.adobe.com/wsG3SOMPqESl5dtCXw0wERboSJ57RG2PIR9QKYow-5Q'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: c38bc65b-dea9-4a6e-9de3-3daf1d2b388b
+    internal-label: Bulk activation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 758
+source-wordcount: '758'
 ht-degree: 0%
-
 ---
-
 # Criar uma coleção de mapas de ativação em massa {#id214GG0E90EV}
 
 Para criar uma coleção de mapas de ativação em massa, execute as seguintes etapas:
@@ -58,7 +65,7 @@ Para criar uma coleção de mapas de ativação em massa, execute as seguintes e
 
 Os arquivos de mapa DITA são adicionados à sua coleção de mapas de ativação em massa.
 
-![&#x200B; criou a coleção de ativação em massa](images/bulk-activation-collection-created.png)
+![ criou a coleção de ativação em massa](images/bulk-activation-collection-created.png)
 
 ## Guia Mapas e predefinições
 
@@ -97,7 +104,7 @@ A guia **Histórico de Auditoria** apresenta informações sobre as saídas de m
 
 - **Modificado**: indica se o mapa DITA foi atualizado após a última publicação. Com base nessas informações, você pode decidir se ativará a saída para esse mapa DITA.
 - **Publicado**: mostra a data e a hora da última saída publicada (ou ativada). Se você selecionar o link, a página Resultados da ativação será exibida, contendo os logs com informações sobre o caminho raiz onde o conteúdo é ativado.
-  ![&#x200B; criou a guia de histórico de auditoria da coleção de ativação em massa](images/bulk-collection-audit-history.png)
+  ![ criou a guia de histórico de auditoria da coleção de ativação em massa](images/bulk-collection-audit-history.png)
 
   *Exiba as informações sobre as saídas do mapa ativado na guia **Histórico de Auditoria**.*
 
@@ -118,4 +125,4 @@ As seguintes opções de filtro estão disponíveis no painel esquerdo:
 
 Os filtros são atualizados quando você alterna da guia **Mapas e Predefinições** para a guia **Histórico de Auditoria** e vice-versa.
 
-**Tópico pai: &#x200B;** [Ativação em massa de conteúdo publicado](conf-bulk-activation.md)
+**Tópico pai: **[Ativação em massa de conteúdo publicado](conf-bulk-activation.md)

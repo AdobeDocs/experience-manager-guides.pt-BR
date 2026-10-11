@@ -3,13 +3,22 @@ title: Configurar Política de Segurança de Conteúdo para visualização SCORM
 description: Saiba como configurar a Política de segurança de conteúdo para visualização SCORM usando uma variável de ambiente no Cloud Manager
 feature: Authoring
 role: User
-source-git-commit: 730fe6021aa20aa2b57801807da0f471f84a7718
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 3%
-
 ---
-
 
 # Configurar a Política de segurança de conteúdo (CSP) para visualização de SCORM
 
@@ -68,7 +77,7 @@ Dependendo das suas necessidades, não é necessário preencher todos os valores
 2. Navegue até a guia **Configuração** do ambiente.
 3. Selecione **Adicionar/Atualizar** para adicionar uma variável de ambiente.
 
-   ![Adicionando nova variável ao Cloud Manager &#x200B;](assets/add-new-variable.png){width="650"}
+   ![Adicionando nova variável ao Cloud Manager ](assets/add-new-variable.png){width="650"}
 
 4. Insira o nome da variável (`GUIDES_SCORM_PREVIEW_CONFIG`) no campo **Nome**.
 

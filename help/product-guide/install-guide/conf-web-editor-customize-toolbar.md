@@ -5,34 +5,44 @@ exl-id: 14a82c7e-5c07-43a8-bd9e-b221d80f6d05
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/eZq4BTrrbSDDDuYas-D4iCw4WS6Pvzas2AhBPl67LKo
+TQID: 'https://experienceleague.adobe.com/eZq4BTrrbSDDDuYas-D4iCw4WS6Pvzas2AhBPl67LKo'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
   - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+    internal-label: Document state
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 967
+source-wordcount: '968'
 ht-degree: 0%
-
 ---
-
 # Personalizar barra de ferramentas {#id172FB00L0V6}
 
 Por padrão, o Editor da Web é fornecido com os recursos editoriais mais comuns exigidos por qualquer editor DITA. Recursos como inserir elementos da lista de tipos \(numerada ou com marcadores\), referência cruzada, referência de conteúdo, tabela, parágrafo e formatação de caracteres estão disponíveis no editor. Além desses elementos básicos, você pode personalizar o Editor da Web para inserir elementos usados no seu ambiente de criação.
 
 >[!NOTE]
 >
-> Ao migrar da interface antiga para a nova interface do AEM Guides (aplicável a partir das versões 2502 e 5.0 do AEM Guides), as atualizações do `ui_config` devem ser convertidas em configurações de interface mais flexíveis e modulares. Essa estrutura ajuda a adotar alterações facilmente na editor_toolbar e em outro widget do target, conforme aplicável. Para obter detalhes, consulte [Visão geral da configuração da interface de conversão](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+> Ao migrar da interface antiga para a nova interface do AEM Guides (aplicável a partir das versões 2502 e 5.0 do AEM Guides), as atualizações do `ui_config` devem ser convertidas em configurações de interface mais flexíveis e modulares. Essa estrutura ajuda a adotar alterações facilmente na editor_toolbar e em outro widget do target, conforme aplicável. Para obter detalhes, consulte [Visão geral da configuração da interface de conversão](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 Há duas maneiras de personalizar a barra de ferramentas do Editor da Web:
 
@@ -63,7 +73,7 @@ Execute as seguintes etapas para adicionar um recurso à barra de ferramentas do
 
 1. No arquivo `ui_config.json`, adicione a definição do novo recurso na seção de barras de ferramentas. Normalmente, você pode criar um novo grupo de botões da barra de ferramentas e adicionar um ou mais botões da barra de ferramentas a ele. Ou você pode adicionar um novo botão de barra de ferramentas em um grupo existente. Os detalhes a seguir são necessários para criar um novo grupo de barras de ferramentas:
 
-   - **tipo:**&#x200B;especifique `blockGroup` como o valor `type`. Esse valor indica que você está criando um grupo de blocos que conteria um ou mais grupos da barra de ferramentas.
+   - **tipo:**especifique `blockGroup` como o valor `type`. Esse valor indica que você está criando um grupo de blocos que conteria um ou mais grupos da barra de ferramentas.
 
    - **classe(s) de extração:** Nome da(s) classe(s) separada(s) por espaço.
 
@@ -83,7 +93,7 @@ Execute as seguintes etapas para adicionar um recurso à barra de ferramentas do
      ```
 
      Na coleção `items`, é necessário especificar a definição de um ou mais ícones da barra de ferramentas.
-É necessário definir as seguintes propriedades para adicionar um ícone da barra de ferramentas:
+     É necessário definir as seguintes propriedades para adicionar um ícone da barra de ferramentas:
 
    - **tipo:** especifique `button` como o valor `type`. Esse valor indica que você está adicionando um botão da barra de ferramentas.
 
@@ -254,4 +264,4 @@ O arquivo `ui_config.json` tem três seções:
 1. Salve o arquivo *ui\_config.json* e recarregue o Editor da Web.
 
 
-**Tópico pai:**&#x200B;[&#x200B; Personalizar editor da Web](conf-web-editor.md)
+**Tópico pai:**[ Personalizar editor da Web](conf-web-editor.md)

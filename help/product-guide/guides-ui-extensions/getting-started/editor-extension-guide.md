@@ -4,13 +4,28 @@ description: Saiba mais sobre as alterações na estrutura de extensão do Edito
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 2ba8eadcb30faca01170cb13ae2da6fdf7da19c8
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: '2003'
+source-wordcount: '2006'
 ht-degree: 3%
-
 ---
-
 # Alterações na estrutura de extensão do Editor 2.0 (Novo editor)
 
 Este documento abrange todas as APIs adicionadas a `guides.editor` (e `guides`) como parte da estrutura de extensão do Novo Editor (editor baseado em ProseMirror). Essas APIs permitem que extensões externas interajam com o editor sem manipulação direta de DOM ou conhecimento de implementação interna.
@@ -240,63 +255,63 @@ guides.ready(() => {
   | Localizar e substituir | `findNext` | _(nenhum)_ | Move para a próxima correspondência de pesquisa |
   | Localizar e substituir | `replaceAll` | `replacement?: string` | Substitui cada correspondência da consulta de pesquisa atual por `replacement` |
 
-   - **Exemplo: definir vários atributos em um nó**
+  - **Exemplo: definir vários atributos em um nó**
 
-     ```js
-     guides.editor.runCommand(
-       "setNodeXmlAttributes",
-       rootRange.from,
-       { createdDate: "2024-01-01", author: "Jane Doe" }
-     );
-     ```
+    ```js
+    guides.editor.runCommand(
+      "setNodeXmlAttributes",
+      rootRange.from,
+      { createdDate: "2024-01-01", author: "Jane Doe" }
+    );
+    ```
 
-   - **Exemplo: definir um único atributo em um nó**
+  - **Exemplo: definir um único atributo em um nó**
 
-     ```js
-     guides.editor.runCommand(
-       "setNodeXmlAttribute",
-       range.from,
-       "placeholdertext",
-       "Chapter 3 — Safety Requirements"
-     );
-     ```
+    ```js
+    guides.editor.runCommand(
+      "setNodeXmlAttribute",
+      range.from,
+      "placeholdertext",
+      "Chapter 3 — Safety Requirements"
+    );
+    ```
 
-   - **Exemplo: quebrar seleção com um elemento e definir atributos**
+  - **Exemplo: quebrar seleção com um elemento e definir atributos**
 
-     ```js
-     const didWrap = guides.editor.runCommand(
-       "surroundWithElement",
-       "ph",
-       { outputclass: "highlight" },
-       true   // replace text content with empty node
-     );
-     ```
+    ```js
+    const didWrap = guides.editor.runCommand(
+      "surroundWithElement",
+      "ph",
+      { outputclass: "highlight" },
+      true   // replace text content with empty node
+    );
+    ```
 
-   - **Exemplo: Quebrar seleção automaticamente em `<sup>` (ativar/desativar sobrescrito)**
+  - **Exemplo: Quebrar seleção automaticamente em `<sup>` (ativar/desativar sobrescrito)**
 
-     ```js
-     const didWrap = guides.editor.runCommand('surroundWithElement', 'sup');
-     if (!didWrap) {
-       tcx.util.showAlert("warning", "superscript is not allowed here");
-     }
-     ```
+    ```js
+    const didWrap = guides.editor.runCommand('surroundWithElement', 'sup');
+    if (!didWrap) {
+      tcx.util.showAlert("warning", "superscript is not allowed here");
+    }
+    ```
 
-   - **Exemplo: Decodificar nó atual (desativar sobrescrito)**
+  - **Exemplo: Decodificar nó atual (desativar sobrescrito)**
 
-     ```js
-     const didUnwrap = guides.editor.runCommand('unwrapNode');
-     ```
+    ```js
+    const didUnwrap = guides.editor.runCommand('unwrapNode');
+    ```
 
-   - **Exemplo: Inserir XML no cursor com o sinal de interpolação colocado dentro de**
+  - **Exemplo: Inserir XML no cursor com o sinal de interpolação colocado dentro de**
 
-     ```js
-     guides.editor.runCommand(
-       'insertXml',
-       '<sup></sup>',
-       undefined,
-       { setCursorInContent: true, focusEditor: true, selectInsertedXml: false }
-     );
-     ```
+    ```js
+    guides.editor.runCommand(
+      'insertXml',
+      '<sup></sup>',
+      undefined,
+      { setCursorInContent: true, focusEditor: true, selectInsertedXml: false }
+    );
+    ```
 
 - `guides.editor.canRunCommand(commandName, ...args)`: Verifica se um comando nomeado pode ser executado no momento, sem executá-lo de fato.
 
@@ -461,7 +476,7 @@ As decorações são identificadas por uma cadeia de caracteres `id` para que po
   | `filter` | `(node) => boolean` | Predicado opcional — somente nós onde isso retorna `true` são decorados |
 
   O objeto `context` passado para `computeAttributes` inclui:
-   - `index` — Posição do nó baseada em 0 entre irmãos que correspondem ao seletor
+  - `index` — Posição do nó baseada em 0 entre irmãos que correspondem ao seletor
 
   **Exemplo: adicionar uma classe CSS a todos os `<section>` elementos**
 

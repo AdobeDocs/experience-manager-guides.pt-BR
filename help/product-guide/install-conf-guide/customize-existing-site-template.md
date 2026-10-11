@@ -5,13 +5,28 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: eabaec57-e717-45a9-8321-4057b993d7fb
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: e557051c-ff02-4ff8-9421-cf452af0edd5
+    internal-label: Installation
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 1%
-
 ---
-
 # Personalizar novos modelos de site do AEM
 
 Este guia fornece instruções passo a passo para personalizar modelos de site do AEM existentes para uso com o AEM Guides para gerar AEM Sites a partir de mapas e tópicos DITA.
@@ -26,8 +41,8 @@ Se estiver usando o modelo pronto para uso do AEM Guides (AEMG Docs), as configu
 - Você tem uma hierarquia de site existente criada usando modelos editáveis.
 - Você tem pelo menos dois modelos do seu projeto existente:
 
-   - **Modelo de página de contêiner da documentação** usado para renderizar o mapa DITA como uma raiz de documentação.
-   - **Modelo de Página de Tópico** usado para renderizar páginas de tópico DITA individuais.
+  - **Modelo de página de contêiner da documentação** usado para renderizar o mapa DITA como uma raiz de documentação.
+  - **Modelo de Página de Tópico** usado para renderizar páginas de tópico DITA individuais.
 
 ## Considerações de nomenclatura do modelo
 
@@ -74,8 +89,8 @@ Se você tiver um mapa DITA para um manual de produto, o modelo de página do co
   ![Adicionando componente de texto com propriedade obrigatória](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component-mandatory-property.png){width="650"}
 
 - Esse espaço reservado é substituído pelo conteúdo real do tópico DITA durante a geração do site.
-   - O componente de texto normalmente é colocado dentro de um **Componente de contêiner** para garantir o layout e estilo adequados.
-   - Pode ser personalizado para incluir cabeçalhos, rodapés e elementos de navegação consistentes em todas as páginas de tópico.
+  - O componente de texto normalmente é colocado dentro de um **Componente de contêiner** para garantir o layout e estilo adequados.
+  - Pode ser personalizado para incluir cabeçalhos, rodapés e elementos de navegação consistentes em todas as páginas de tópico.
 
 **Exemplo de caso de uso:**
 Se você tiver um tópico DITA sobre &quot;Instruções de instalação&quot;, o modelo de página de tópico gerará uma página exibindo o conteúdo desse tópico.
@@ -140,4 +155,4 @@ Por padrão, as bibliotecas de clientes (clientlibs) fornecidas no pacote de com
 
 >[!NOTE]
 >
-> Verifique se os modelos foram testados em um ambiente de não produção antes de implantar na produção.<br><br>Consulte a documentação oficial do [AEM Guides](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using/overview) e do [AEM Sites](https://experienceleague.adobe.com/pt-br/docs/experience-manager-core-components/using/get-started/authoring) para obter detalhes adicionais.
+> Verifique se os modelos foram testados em um ambiente de não produção antes de implantar na produção.<br><br>Consulte a documentação oficial do [AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview) e do [AEM Sites](https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/get-started/authoring) para obter detalhes adicionais.

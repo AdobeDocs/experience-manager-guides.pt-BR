@@ -5,40 +5,61 @@ exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
 hide: true
-TQID: https://experienceleague.adobe.com/b4HsxgVJpLBqXXJ-uEddivoBiHdnJlyfp-S-aiJL3bQ
+TQID: 'https://experienceleague.adobe.com/b4HsxgVJpLBqXXJ-uEddivoBiHdnJlyfp-S-aiJL3bQ'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
   - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+    internal-label: APIs
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
 subfeature_v2:
   - id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41
+    internal-label: Map Editor
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+    internal-label: Document state
   - id: d6596f3f-92a7-43ec-b444-237db6adad05
+    internal-label: Native PDF publishing
   - id: f6b497f1-f8e0-42ce-8e95-56c28d94026e
+    internal-label: Conditional content
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Security
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 18790
+source-wordcount: '18797'
 ht-degree: 0%
-
 ---
-
 # Conhecer os recursos do Editor {#id176NC500V5Z}
 
 Esta seção aborda os vários recursos disponíveis no Editor. Podemos dividir o Editor nas seguintes seções ou áreas:
@@ -114,29 +135,29 @@ A opção **Configurações** está disponível somente para administradores e a
 
   ![](images/editor-setting-general.png){width="650"}
 
-   - **Verificação ortográfica**: há duas opções — **Verificação ortográfica do AEM** e **Verificação ortográfica do navegador**. Por padrão, o editor usa o recurso de verificação ortográfica do navegador, no qual a verificação ortográfica é executada usando o dicionário interno do navegador. Você pode alternar para a verificação ortográfica do AEM para usar o dicionário do Adobe Experience Manager, que também pode ser personalizado para adicionar sua lista de palavras personalizada. Para obter mais informações sobre como personalizar o dicionário do AEM, consulte [Personalizar o dicionário padrão do AEM](../cs-install-guide/customize-aem-custom-dictionary.md) na seção Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service.
+  - **Verificação ortográfica**: há duas opções — **Verificação ortográfica do AEM** e **Verificação ortográfica do navegador**. Por padrão, o editor usa o recurso de verificação ortográfica do navegador, no qual a verificação ortográfica é executada usando o dicionário interno do navegador. Você pode alternar para a verificação ortográfica do AEM para usar o dicionário do Adobe Experience Manager, que também pode ser personalizado para adicionar sua lista de palavras personalizada. Para obter mais informações sobre como personalizar o dicionário do AEM, consulte [Personalizar o dicionário padrão do AEM](../cs-install-guide/customize-aem-custom-dictionary.md) na seção Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service.
 
-   - **Condição**
+  - **Condição**
 
-      - **Realçar texto condicional no modo de exibição Autor**: selecione essa opção para realçar o texto condicional no modo de exibição Autor. O conteúdo condicional é realçado usando a cor definida para a condição.
+    - **Realçar texto condicional no modo de exibição Autor**: selecione essa opção para realçar o texto condicional no modo de exibição Autor. O conteúdo condicional é realçado usando a cor definida para a condição.
 
-      - **Validar com atributos de condição**: selecione essa opção para permitir a validação dos valores definidos para os atributos. Isso impede que você adicione qualquer valor incorreto.
+    - **Validar com atributos de condição**: selecione essa opção para permitir a validação dos valores definidos para os atributos. Isso impede que você adicione qualquer valor incorreto.
 
-      - **Mostrar chave com o título no painel Esquema de Assunto**: selecione essa opção para mostrar as chaves junto com títulos no esquema de assunto. Se você não selecionar essa opção, somente os títulos serão exibidos. Por exemplo, aqui as chaves &quot;os&quot;, &quot;audience&quot; e &quot;other&quot; também são mostradas junto com títulos.
+    - **Mostrar chave com o título no painel Esquema de Assunto**: selecione essa opção para mostrar as chaves junto com títulos no esquema de assunto. Se você não selecionar essa opção, somente os títulos serão exibidos. Por exemplo, aqui as chaves &quot;os&quot;, &quot;audience&quot; e &quot;other&quot; também são mostradas junto com títulos.
 
-        ![](images/subject-scheme-title.png){width="550"}
+      ![](images/subject-scheme-title.png){width="550"}
 
-      - **Mostrar esquema de assunto no painel Condições**: selecione esta opção para exibir um esquema de assunto no painel Condições. Se você desmarcar essa opção, as condições definidas serão mostradas no painel Condições.
+    - **Mostrar esquema de assunto no painel Condições**: selecione esta opção para exibir um esquema de assunto no painel Condições. Se você desmarcar essa opção, as condições definidas serão mostradas no painel Condições.
 
-   - **Criação**
+  - **Criação**
 
-      - **Habilitar Substituir Tudo**: selecione esta opção para exibir o ícone **Substituir Tudo** no painel **Localizar e substituir**.
+    - **Habilitar Substituir Tudo**: selecione esta opção para exibir o ícone **Substituir Tudo** no painel **Localizar e substituir**.
 
-   - **Citações**
-Alterar o estilo das citações. Escolha o estilo da citação no menu suspenso que deseja usar em seu projeto. Para obter mais detalhes, consulte [Alterar estilos de citação](./web-editor-apply-citations.md#change-citation-style).
+  - **Citações**
+    Alterar o estilo das citações. Escolha o estilo da citação no menu suspenso que deseja usar em seu projeto. Para obter mais detalhes, consulte [Alterar estilos de citação](./web-editor-apply-citations.md#change-citation-style).
 
-   - **Assistente de IA**
-Selecione esta opção para habilitar o recurso [Assistente de IA](./ai-assistant.md) na Experience Manager Guides. Desmarque para desativar o recurso.
+  - **Assistente de IA**
+    Selecione esta opção para habilitar o recurso [Assistente de IA](./ai-assistant.md) na Experience Manager Guides. Desmarque para desativar o recurso.
 
 **Painéis**: esta configuração controla os painéis exibidos nos painéis esquerdo e direito do Editor e do console de Mapa. Você pode alternar o botão para mostrar ou ocultar o painel desejado.
 
@@ -176,52 +197,52 @@ Na captura de tela a seguir, apenas 3 dos 4 elementos configurados da captura de
 
 - **Publicar perfis**: contém os Perfis que podem ser usados para publicar a saída da **Base de Dados de Conhecimento**. Você pode criar um novo perfil para uma base de dados de conhecimento de destino. Por exemplo, Salesforce ou ServiceNow.
 
-   - **Criar um perfil do Salesforce**
+  - **Criar um perfil do Salesforce**
 
-     **Pré-requisitos**
+    **Pré-requisitos**
 
-      - Crie um aplicativo conectado para o Salesforce. Para obter mais detalhes, consulte [Habilitar configurações do OAuth para integração com a API](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&type=5).
+    - Crie um aplicativo conectado para o Salesforce. Para obter mais detalhes, consulte [Habilitar configurações do OAuth para integração com a API](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&type=5).
 
-      - Ao configurar o aplicativo conectado, verifique o seguinte:
+    - Ao configurar o aplicativo conectado, verifique o seguinte:
 
-         - Especifique o retorno de chamada.
+      - Especifique o retorno de chamada.
 
-           `URL: http://<server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
+        `URL: http://<server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
 
-         - Selecione os seguintes escopos do OAuth:
-            - Acesso total (total)
-            - Selecione Gerenciar dados do usuário por meio das APIs (api)
+      - Selecione os seguintes escopos do OAuth:
+        - Acesso total (total)
+        - Selecione Gerenciar dados do usuário por meio das APIs (api)
 
-     Depois que o aplicativo é configurado, a Salesforce fornece uma **Chave do consumidor** e um **Segredo do consumidor**. Eles podem ser usados para criar o perfil do Salesforce.
-
-
-   - Para criar um perfil do Salesforce, selecione a Base de Dados de Conhecimento **Salesforce** na lista suspensa **Tipo de servidor**. Insira um Nome de perfil. No **URL do Site**, insira o site do consumidor que você usaria para publicar a saída e adicionar a **Chave do Consumidor** e o **Segredo do Consumidor** fornecidos pelo site do consumidor do Salesforce. Em seguida, **Validar** e **Salvar** o perfil recém-criado.
-
-     ![perfil de publicação do salesforce nas configurações do editor](./images/salesforce-publish-profile.png){width="550"}
-
-     >[!NOTE]
-     >
-     >Para configurar um proxy para o Salesforce no Experience Manager Guides, use Configuração de proxy de componentes HTTP do Apache no AEM. Saiba como [configurar proxy para o Verificador de Links do AEM](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
+    Depois que o aplicativo é configurado, a Salesforce fornece uma **Chave do consumidor** e um **Segredo do consumidor**. Eles podem ser usados para criar o perfil do Salesforce.
 
 
-   - **Criar um perfil do ServiceNow**
+  - Para criar um perfil do Salesforce, selecione a Base de Dados de Conhecimento **Salesforce** na lista suspensa **Tipo de servidor**. Insira um Nome de perfil. No **URL do Site**, insira o site do consumidor que você usaria para publicar a saída e adicionar a **Chave do Consumidor** e o **Segredo do Consumidor** fornecidos pelo site do consumidor do Salesforce. Em seguida, **Validar** e **Salvar** o perfil recém-criado.
 
-     **Pré-requisitos**
+    ![perfil de publicação do salesforce nas configurações do editor](./images/salesforce-publish-profile.png){width="550"}
 
-     Configure o servidor ServiceNow para fazer upload dos ativos.
-      - Conecte-se ao servidor **ServiceNow**.
-      - Navegue até **Propriedades do Sistema** > **Segurança**.
-      - Desmarque a seguinte opção:
+    >[!NOTE]
+    >
+    >Para configurar um proxy para o Salesforce no Experience Manager Guides, use Configuração de proxy de componentes HTTP do Apache no AEM. Saiba como [configurar proxy para o Verificador de Links do AEM](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
 
-        **Esta propriedade deve ser definida para ativar a verificação de tipo MIME para carregamentos (Todas as versões Eureka e superiores). Ativa (true) ou desativa (false) a validação do tipo MIME para os anexos de arquivo. Extensões de arquivo configuradas via glide.attachment.extensions serão verificadas em busca de tipo MIME durante o carregamento.**
 
-      - Selecione **Salvar**.
+  - **Criar um perfil do ServiceNow**
 
-     Depois de configurar o aplicativo, crie o perfil do **ServiceNow**.
+    **Pré-requisitos**
 
-   - Para criar um perfil, selecione a Base de Dados de Conhecimento ServiceNow na lista suspensa **Tipo de servidor**. Insira um perfil **Nome**. Na **URL do ServiceNow**, insira o site do consumidor que você usaria para publicar a saída e, em seguida, adicione o **Nome de Usuário** e a **Senha** fornecidos pelo site do consumidor do ServiceNow. Em seguida, **Validar** e **Salvar** o perfil recém-criado.
+    Configure o servidor ServiceNow para fazer upload dos ativos.
+    - Conecte-se ao servidor **ServiceNow**.
+    - Navegue até **Propriedades do Sistema** > **Segurança**.
+    - Desmarque a seguinte opção:
 
-     ![Perfil de publicação do ServiceNow](./images/service-now-publish-profile.png){width="550"}
+      **Esta propriedade deve ser definida para ativar a verificação de tipo MIME para carregamentos (Todas as versões Eureka e superiores). Ativa (true) ou desativa (false) a validação do tipo MIME para os anexos de arquivo. Extensões de arquivo configuradas via glide.attachment.extensions serão verificadas em busca de tipo MIME durante o carregamento.**
+
+    - Selecione **Salvar**.
+
+    Depois de configurar o aplicativo, crie o perfil do **ServiceNow**.
+
+  - Para criar um perfil, selecione a Base de Dados de Conhecimento ServiceNow na lista suspensa **Tipo de servidor**. Insira um perfil **Nome**. Na **URL do ServiceNow**, insira o site do consumidor que você usaria para publicar a saída e, em seguida, adicione o **Nome de Usuário** e a **Senha** fornecidos pelo site do consumidor do ServiceNow. Em seguida, **Validar** e **Salvar** o perfil recém-criado.
+
+    ![Perfil de publicação do ServiceNow](./images/service-now-publish-profile.png){width="550"}
 
   Depois de validar, você pode selecionar o Perfil de Publicação nas predefinições de saída de um Mapa DITA e usá-lo para gerar a saída para o servidor do **Salesforce** ou do **ServiceNow** escolhido.
 
@@ -230,17 +251,17 @@ Na captura de tela a seguir, apenas 3 dos 4 elementos configurados da captura de
 
 - **Validação**: esta guia contém opções para configurar as validações de Esquematron no Editor. Você pode ativar os seguintes recursos:
 
-   - **Executar verificação de validação antes de salvar o arquivo**: selecione essa opção para executar validações de Esquematron usando os arquivos de Esquematron selecionados antes de qualquer operação de salvamento. Você pode adicionar um arquivo do Schematron selecionando o ícone +. Os arquivos do Schematron selecionados são listados.
+  - **Executar verificação de validação antes de salvar o arquivo**: selecione essa opção para executar validações de Esquematron usando os arquivos de Esquematron selecionados antes de qualquer operação de salvamento. Você pode adicionar um arquivo do Schematron selecionando o ícone +. Os arquivos do Schematron selecionados são listados.
 
-     >[!NOTE]
-     >
-     >O(s) arquivo(s) de esquema selecionado(s) persistirá(ão) no perfil de pasta selecionado.
+    >[!NOTE]
+    >
+    >O(s) arquivo(s) de esquema selecionado(s) persistirá(ão) no perfil de pasta selecionado.
 
-     ![Validação nas configurações do editor](./images/editor-setting-validation.png){width="550"}
+    ![Validação nas configurações do editor](./images/editor-setting-validation.png){width="550"}
 
-     Isso impede que os usuários salvem qualquer arquivo que quebre uma regra definida no(s) arquivo(s) selecionado(s) do Schematron. Se esta opção não estiver selecionada, o arquivo não será validado antes de salvar as alterações.
+    Isso impede que os usuários salvem qualquer arquivo que quebre uma regra definida no(s) arquivo(s) selecionado(s) do Schematron. Se esta opção não estiver selecionada, o arquivo não será validado antes de salvar as alterações.
 
-   - **Permitir que todos os usuários adicionem arquivos de esquematron no painel de validação**: selecione essa opção para permitir que os usuários adicionem qualquer arquivo de Esquematron no painel Validação do Editor. Isso permite que os usuários adicionem arquivos do Schematron e, em seguida, validem os tópicos em relação ao arquivo Schematron. Se esta opção não estiver selecionada, a opção para adicionar o arquivo de esquematron **botão Adicionar Arquivo de Esquematron** não estará disponível para os usuários no **Painel de validação** do Editor.
+  - **Permitir que todos os usuários adicionem arquivos de esquematron no painel de validação**: selecione essa opção para permitir que os usuários adicionem qualquer arquivo de Esquematron no painel Validação do Editor. Isso permite que os usuários adicionem arquivos do Schematron e, em seguida, validem os tópicos em relação ao arquivo Schematron. Se esta opção não estiver selecionada, a opção para adicionar o arquivo de esquematron **botão Adicionar Arquivo de Esquematron** não estará disponível para os usuários no **Painel de validação** do Editor.
 
 
 - **Exibir atributos**: assim como a lista de atributos, você pode controlar a lista de atributos a serem exibidos na lista de atributos de um elemento. Por padrão, quatro **Atributos de exibição** — público-alvo, plataforma, produto e propriedades foram configurados para serem mostrados na lista de atributos de um elemento. Você também pode adicionar um atributo de exibição usando o ícone **Adicionar** na parte superior. Você também pode excluir qualquer um dos atributos de exibição usando o ícone **Excluir**.
@@ -253,33 +274,33 @@ Na captura de tela a seguir, apenas 3 dos 4 elementos configurados da captura de
 
   ![](images/editor-setting-translation.png){width="550"}
 
-   - **Grupos de Idiomas**: como administrador, você pode criar um grupo de idiomas e usá-los como um conjunto para traduzir o conteúdo.
+  - **Grupos de Idiomas**: como administrador, você pode criar um grupo de idiomas e usá-los como um conjunto para traduzir o conteúdo.
 
-     Execute as seguintes etapas para criar um novo grupo de idiomas:
+    Execute as seguintes etapas para criar um novo grupo de idiomas:
 
-      1. Selecione **Adicionar**.
-      1. Informe o nome do grupo de idiomas. Cada idioma deve ter um nome exclusivo. Você pode exibir um erro se o campo de nome estiver vazio ou se o nome não for exclusivo.
-      1. Selecione os idiomas na lista suspensa. Você pode selecionar vários idiomas.
+    1. Selecione **Adicionar**.
+    1. Informe o nome do grupo de idiomas. Cada idioma deve ter um nome exclusivo. Você pode exibir um erro se o campo de nome estiver vazio ou se o nome não for exclusivo.
+    1. Selecione os idiomas na lista suspensa. Você pode selecionar vários idiomas.
 
-         Digite os primeiros caracteres do idioma ou o código do idioma para filtrar os idiomas desejados. Por exemplo, digite &#39;en&#39; para filtrar todos os idiomas que contêm &#39;en&#39; no início de seu nome ou código.
+       Digite os primeiros caracteres do idioma ou o código do idioma para filtrar os idiomas desejados. Por exemplo, digite &#39;en&#39; para filtrar todos os idiomas que contêm &#39;en&#39; no início de seu nome ou código.
 
-      1. Selecione o ícone Concluído para adicionar os idiomas selecionados ao grupo. Os idiomas são exibidos. Quando você adiciona três ou mais idiomas, a opção **Mostrar mais** é exibida. Você pode selecionar **Mostrar mais** para exibir todos os idiomas presentes no grupo.
+    1. Selecione o ícone Concluído para adicionar os idiomas selecionados ao grupo. Os idiomas são exibidos. Quando você adiciona três ou mais idiomas, a opção **Mostrar mais** é exibida. Você pode selecionar **Mostrar mais** para exibir todos os idiomas presentes no grupo.
 
-         >[!TIP]
-         >
-         >Alternar **Mostrar mais** para **Mostrar menos** e exibir apenas alguns idiomas.
+       >[!TIP]
+       >
+       >Alternar **Mostrar mais** para **Mostrar menos** e exibir apenas alguns idiomas.
 
-      1. Passe o mouse sobre os idiomas em um grupo para editar o ![ícone de edição](images/edit_pencil_icon.svg) ou excluir os grupos de idiomas ![excluir](images/Delete_icon.svg).
-      1. Salve as **Configurações**.
+    1. Passe o mouse sobre os idiomas em um grupo para editar o ![ícone de edição](images/edit_pencil_icon.svg) ou excluir os grupos de idiomas ![excluir](images/Delete_icon.svg).
+    1. Salve as **Configurações**.
 
-         >[!NOTE]
-         >
-         >Como usuário, você pode exibir os grupos de idiomas configurados para o perfil da pasta.
+       >[!NOTE]
+       >
+       >Como usuário, você pode exibir os grupos de idiomas configurados para o perfil da pasta.
 
-   - **Propagar rótulos de versão de origem para a versão de destino**: selecione esta opção para passar o rótulo da versão do arquivo de origem para o arquivo traduzido. Por padrão, está desativado.
-   - **Limpeza do projeto de tradução após a conclusão**: selecione essa opção para configurar os projetos de tradução a serem desabilitados ou excluídos automaticamente após a tradução. Por padrão, **Nenhum** está selecionado, portanto, o projeto existe após a tradução.
+  - **Propagar rótulos de versão de origem para a versão de destino**: selecione esta opção para passar o rótulo da versão do arquivo de origem para o arquivo traduzido. Por padrão, está desativado.
+  - **Limpeza do projeto de tradução após a conclusão**: selecione essa opção para configurar os projetos de tradução a serem desabilitados ou excluídos automaticamente após a tradução. Por padrão, **Nenhum** está selecionado, portanto, o projeto existe após a tradução.
 
-     Você pode desativar os projetos de tradução se desejar usá-los posteriormente. A exclusão de um projeto exclui permanentemente todos os arquivos e pastas presentes no projeto.
+    Você pode desativar os projetos de tradução se desejar usá-los posteriormente. A exclusão de um projeto exclui permanentemente todos os arquivos e pastas presentes no projeto.
 
 
 - **Metadados**: você pode controlar os metadados da versão do tópico e seus valores a serem exibidos na caixa de diálogo **Histórico de versões**.  No caminho dos metadados, especifique a localização dos nós dos quais deseja selecionar os metadados. Também é possível definir um nome personalizado para os metadados como o rótulo. As propriedades padrão são Título, Estado do documento e Tags.
@@ -297,7 +318,7 @@ Na captura de tela a seguir, apenas 3 dos 4 elementos configurados da captura de
 
 
   Você também pode definir a ordem em que essas tags de metadados são exibidas. Para alterar a ordem padrão dessas tags, selecione as barras pontilhadas para arrastar e soltar as tags no local desejado.
-Os rótulos de metadados aparecem na mesma sequência na caixa de diálogo **Histórico de versões** do Editor.
+  Os rótulos de metadados aparecem na mesma sequência na caixa de diálogo **Histórico de versões** do Editor.
 
 ## Barra de ferramentas
 
@@ -367,7 +388,7 @@ Para acessar o histórico de versões e reverter para uma versão específica do
 
    Guia **Metadata**: os metadados recém-adicionados estão em fonte verde e os metadados excluídos estão em fonte vermelha.
 
-   ![Diferença de metadados para versões &#x200B;](images/metadata-version-diff.png){width="550"}
+   ![Diferença de metadados para versões ](images/metadata-version-diff.png){width="550"}
 
    *Comparar os metadados de diferentes versões no histórico de Versões.*
 
@@ -445,58 +466,58 @@ Quando você trabalha em um ambiente de vários autores, fica difícil rastrear 
 
   Para mesclar alterações em um tópico, execute as seguintes etapas:
 
-   1. Abra um tópico no Editor.
+  1. Abra um tópico no Editor.
 
-   1. Selecione **Mesclar**.
+  1. Selecione **Mesclar**.
 
-      A caixa de diálogo Mesclar é exibida.
+     A caixa de diálogo Mesclar é exibida.
 
-      ![](images/merge-changes-in-topic.png){width="550"}
+     ![](images/merge-changes-in-topic.png){width="550"}
 
-   1. *\(Opcional\)* Você também pode procurar e selecionar um novo arquivo em algum outro local do seu repositório.
+  1. *\(Opcional\)* Você também pode procurar e selecionar um novo arquivo em algum outro local do seu repositório.
 
-   1. Selecione uma versão do arquivo com a qual deseja comparar a versão atual do arquivo.
+  1. Selecione uma versão do arquivo com a qual deseja comparar a versão atual do arquivo.
 
-   1. Em Opções, escolha:
+  1. Em Opções, escolha:
 
-      - **Controlar alterações da versão selecionada**: esta opção mostra todas as atualizações de conteúdo na forma de alterações controladas. Você pode optar por aceitar ou rejeitar as alterações no documento, uma de cada vez, ou todas de uma só vez.
+     - **Controlar alterações da versão selecionada**: esta opção mostra todas as atualizações de conteúdo na forma de alterações controladas. Você pode optar por aceitar ou rejeitar as alterações no documento, uma de cada vez, ou todas de uma só vez.
 
-      - **Reverter para a versão selecionada**: essa opção reverte a versão atual do documento para a versão selecionada. Essa opção não oferece controle sobre qual conteúdo é aceito ou rejeitado.
+     - **Reverter para a versão selecionada**: essa opção reverte a versão atual do documento para a versão selecionada. Essa opção não oferece controle sobre qual conteúdo é aceito ou rejeitado.
 
-   1. Selecione **Concluído**.
+  1. Selecione **Concluído**.
 
-   1. Se você selecionou a opção **Controlar alterações da versão selecionada**, todas as alterações da versão selecionada serão mostradas no recurso Controlar alterações do painel direito.
+  1. Se você selecionou a opção **Controlar alterações da versão selecionada**, todas as alterações da versão selecionada serão mostradas no recurso Controlar alterações do painel direito.
 
-      Você pode optar por aceitar ou rejeitar todos os comentários do painel Alterações controladas ou aceitar ou rejeitar comentários individuais.
+     Você pode optar por aceitar ou rejeitar todos os comentários do painel Alterações controladas ou aceitar ou rejeitar comentários individuais.
 
 
 - **Mesclar arquivos de mapa**
 
   Para mesclar alterações em um arquivo de mapa, execute as seguintes etapas:
 
-   1. Abra um mapa no Editor.
+  1. Abra um mapa no Editor.
 
-   1. Selecione **Mesclar**.
+  1. Selecione **Mesclar**.
 
-      A caixa de diálogo Mesclar é exibida.
+     A caixa de diálogo Mesclar é exibida.
 
-      ![](images/merge-changes-in-map.png){width="550"}
+     ![](images/merge-changes-in-map.png){width="550"}
 
-   1. *\(Opcional\)* Você também pode procurar e selecionar um novo arquivo em algum outro local do seu repositório.
+  1. *\(Opcional\)* Você também pode procurar e selecionar um novo arquivo em algum outro local do seu repositório.
 
-   1. Selecione uma versão do arquivo com a qual deseja comparar a versão atual do arquivo.
+  1. Selecione uma versão do arquivo com a qual deseja comparar a versão atual do arquivo.
 
-   1. Em Opções, escolha:
+  1. Em Opções, escolha:
 
-      - **Controlar alterações da versão selecionada**: esta opção mostra todas as atualizações de conteúdo na forma de controlar alterações. Você pode optar por aceitar ou rejeitar as alterações no documento, uma de cada vez, ou todas de uma só vez.
+     - **Controlar alterações da versão selecionada**: esta opção mostra todas as atualizações de conteúdo na forma de controlar alterações. Você pode optar por aceitar ou rejeitar as alterações no documento, uma de cada vez, ou todas de uma só vez.
 
-      - **Reverter para a versão selecionada**: essa opção reverte a versão atual do documento para a versão selecionada. Essa opção não oferece controle sobre qual conteúdo é aceito ou rejeitado.
+     - **Reverter para a versão selecionada**: essa opção reverte a versão atual do documento para a versão selecionada. Essa opção não oferece controle sobre qual conteúdo é aceito ou rejeitado.
 
-   1. Selecione **Concluído**.
+  1. Selecione **Concluído**.
 
-   1. Se você selecionou a opção **Controlar alterações da versão selecionada**, todas as alterações da versão selecionada serão mostradas no painel Alterações controladas \(à direita\).
+  1. Se você selecionou a opção **Controlar alterações da versão selecionada**, todas as alterações da versão selecionada serão mostradas no painel Alterações controladas \(à direita\).
 
-      Você pode optar por aceitar ou rejeitar todas as alterações do painel Alterações controladas ou aceitar ou rejeitar alterações individuais no arquivo de mapa.
+     Você pode optar por aceitar ou rejeitar todas as alterações do painel Alterações controladas ou aceitar ou rejeitar alterações individuais no arquivo de mapa.
 
 
 **Criar tarefa de revisão**
@@ -1026,7 +1047,7 @@ Você tem as seguintes opções para filtrar os arquivos e restringir sua pesqui
 - **Arquivos DITA**: você pode procurar todos os **tópicos DITA** e **mapas DITA** presentes no caminho selecionado. Elas são selecionadas por padrão.
 - **Arquivos não DITA**: você pode pesquisar por **Arquivos Ditaval**, **Arquivos de Imagem**, **Multimídia**, **Documentos** e **JSON** no caminho selecionado.
 
-  ![filtro de pesquisa rápida &#x200B;](images/repository-filter-search-quick.png) {width="300"}
+  ![filtro de pesquisa rápida ](images/repository-filter-search-quick.png) {width="300"}
 
   *Use os filtros rápidos para procurar arquivos DITA e não DITA.*
 
@@ -1050,8 +1071,8 @@ Está sincronizado com a caixa de pesquisa na janela do repositório. Por exempl
 **Avançado**
 
 - **Elementos DITA**: você também pode procurar valores específicos nos atributos dos elementos DITA especificados.
-   - Selecione **Adicionar elemento** para adicionar os elementos, atributos e valores.
-   - Aplique os filtros selecionados.
+  - Selecione **Adicionar elemento** para adicionar os elementos, atributos e valores.
+  - Aplique os filtros selecionados.
 
 - Selecione **Limpar tudo** para limpar todos os filtros aplicados.
 
@@ -1078,45 +1099,45 @@ Você pode executar as seguintes ações usando o menu Opções disponível para
 - **Novo**: crie um novo tópico DITA, mapa DITA ou uma pasta.
 
   Etapas para criar um novo tópico:
-   1. Selecione **Novo** > **Tópico**.
-   2. A caixa de diálogo **Novo tópico** é exibida.
+  1. Selecione **Novo** > **Tópico**.
+  2. A caixa de diálogo **Novo tópico** é exibida.
 
-      ![](images/create-topic-dialog.png){width="300"}
+     ![](images/create-topic-dialog.png){width="300"}
 
-   3. Na caixa de diálogo **Novo tópico**, forneça os seguintes detalhes:
-      - Um Título para o tópico.
-      - \(Opcional\)* O nome do arquivo do tópico. O nome do arquivo é sugerido automaticamente com base no tópico Título. Caso o administrador tenha ativado nomes de arquivo automáticos com base na configuração UUID, você não visualizará o campo Nome.
-      - Um modelo no qual o tópico será baseado. Por exemplo, para uma configuração pronta para uso, você pode escolher entre os modelos Em branco, Conceito, DITAVAL, Referência, Tarefa, Tópico, Markdown, Glossário e Solução de problemas. Se a pasta tiver um Perfil de Pasta configurado, você visualizará somente os modelos de tópico configurados no perfil de Pasta.
+  3. Na caixa de diálogo **Novo tópico**, forneça os seguintes detalhes:
+     - Um Título para o tópico.
+     - \(Opcional\)* O nome do arquivo do tópico. O nome do arquivo é sugerido automaticamente com base no tópico Título. Caso o administrador tenha ativado nomes de arquivo automáticos com base na configuração UUID, você não visualizará o campo Nome.
+     - Um modelo no qual o tópico será baseado. Por exemplo, para uma configuração pronta para uso, você pode escolher entre os modelos Em branco, Conceito, DITAVAL, Referência, Tarefa, Tópico, Markdown, Glossário e Solução de problemas. Se a pasta tiver um Perfil de Pasta configurado, você visualizará somente os modelos de tópico configurados no perfil de Pasta.
 
-      - Caminho no qual você deseja salvar o arquivo de tópico. Por padrão, o caminho da pasta selecionada no momento no repositório é mostrado no campo Caminho.
+     - Caminho no qual você deseja salvar o arquivo de tópico. Por padrão, o caminho da pasta selecionada no momento no repositório é mostrado no campo Caminho.
 
-   4. Selecione **Criar**. O tópico é criado no caminho especificado. Além disso, o tópico é aberto no Editor para edição.
+  4. Selecione **Criar**. O tópico é criado no caminho especificado. Além disso, o tópico é aberto no Editor para edição.
 
   Etapas para criar um novo mapa DITA:
 
-   1. Selecione **Novo** > **Mapa DITA**.
-   2. A caixa de diálogo **Novo mapa** é exibida.
+  1. Selecione **Novo** > **Mapa DITA**.
+  2. A caixa de diálogo **Novo mapa** é exibida.
 
-      ![](images/create-map-dialog.png){width="300"}
+     ![](images/create-map-dialog.png){width="300"}
 
-   3. Na caixa de diálogo **Novo mapa**, forneça os seguintes detalhes:
-      - Um Título para o mapa.
-      - *\(Opcional\)* O nome de arquivo do mapa. O nome do arquivo é sugerido automaticamente com base no título do mapa. Caso o administrador tenha ativado nomes de arquivo automáticos com base na configuração UUID, você não visualizará o campo Nome.
-      - Um modelo no qual o mapa será baseado. Por exemplo, para uma configuração pronta para uso, é possível escolher entre os modelos de mapa Bookmap ou DITA.
-      - Caminho no qual você deseja salvar o arquivo de mapa. Por padrão, o caminho da pasta selecionada no momento no repositório é mostrado no campo Caminho.
-   4. Selecione **Criar**. O mapa é criado e adicionado na pasta especificada no campo Path. Além disso, o mapa é aberto na visualização Mapa. Você pode abrir o arquivo de mapa no Editor de mapa e adicionar tópico a ele. Para obter mais informações sobre como adicionar tópicos a um arquivo de mapa, exiba [Criar um mapa](map-editor-create-map.md#). Como alternativa, selecione **Abrir no console de mapa** para abrir o mapa no console de Mapa.
+  3. Na caixa de diálogo **Novo mapa**, forneça os seguintes detalhes:
+     - Um Título para o mapa.
+     - *\(Opcional\)* O nome de arquivo do mapa. O nome do arquivo é sugerido automaticamente com base no título do mapa. Caso o administrador tenha ativado nomes de arquivo automáticos com base na configuração UUID, você não visualizará o campo Nome.
+     - Um modelo no qual o mapa será baseado. Por exemplo, para uma configuração pronta para uso, é possível escolher entre os modelos de mapa Bookmap ou DITA.
+     - Caminho no qual você deseja salvar o arquivo de mapa. Por padrão, o caminho da pasta selecionada no momento no repositório é mostrado no campo Caminho.
+  4. Selecione **Criar**. O mapa é criado e adicionado na pasta especificada no campo Path. Além disso, o mapa é aberto na visualização Mapa. Você pode abrir o arquivo de mapa no Editor de mapa e adicionar tópico a ele. Para obter mais informações sobre como adicionar tópicos a um arquivo de mapa, exiba [Criar um mapa](map-editor-create-map.md#). Como alternativa, selecione **Abrir no console de mapa** para abrir o mapa no console de Mapa.
 
   Etapas para criar uma nova pasta:
 
-   1. Selecione **Nova** > **Pasta**.
-   2. A caixa de diálogo **Nova pasta** é exibida.
+  1. Selecione **Nova** > **Pasta**.
+  2. A caixa de diálogo **Nova pasta** é exibida.
 
-      ![](images/new-folder-dialog_cs.png){width="300"}
+     ![](images/new-folder-dialog_cs.png){width="300"}
 
-   3. Na caixa de diálogo **Nova pasta**, forneça os seguintes detalhes:
-      - Um Título para a pasta, que é convertido automaticamente no nome da pasta.
-      - Caminho no qual você deseja salvar a pasta. Por padrão, o caminho da pasta selecionada no momento no repositório é mostrado no campo Caminho.
-   4. Selecione **Criar**. A pasta é criada e adicionada à pasta de onde a opção criar pasta foi executada.
+  3. Na caixa de diálogo **Nova pasta**, forneça os seguintes detalhes:
+     - Um Título para a pasta, que é convertido automaticamente no nome da pasta.
+     - Caminho no qual você deseja salvar a pasta. Por padrão, o caminho da pasta selecionada no momento no repositório é mostrado no campo Caminho.
+  4. Selecione **Criar**. A pasta é criada e adicionada à pasta de onde a opção criar pasta foi executada.
 
 - **Carregar Assets**: carregue um arquivo do sistema local para a pasta selecionada no repositório do Adobe Experience Manager. Você também pode arrastar e soltar arquivos do seu sistema local no tópico de trabalho atual. Isso é muito útil se você quiser inserir imagens do sistema local no tópico.
 
@@ -1181,14 +1202,14 @@ As várias opções no menu Opções são explicadas abaixo:
   ![](images/quick-preview_cs.png)
 
 - **Renomear**: use esta opção para renomear o arquivo selecionado. Digite o nome do novo arquivo na caixa de diálogo **Renomear ativo**.
-   - É possível renomear arquivos de qualquer tipo.
-   - Não é possível alterar a extensão de um arquivo.
-   - Dois arquivos não podem ter o mesmo nome. Portanto, não é possível renomear um arquivo com um nome que já existe. Um erro é exibido.
+  - É possível renomear arquivos de qualquer tipo.
+  - Não é possível alterar a extensão de um arquivo.
+  - Dois arquivos não podem ter o mesmo nome. Portanto, não é possível renomear um arquivo com um nome que já existe. Um erro é exibido.
 
 - **Mover para**: use esta opção para mover o arquivo selecionado para outra pasta.
-   - Você pode digitar o nome da pasta de destino ou escolher **Selecionar caminho** para selecionar a pasta de destino.
-   - É possível mover um arquivo de qualquer tipo para qualquer destino na pasta Conteúdo.
-   - Dois arquivos não podem ter o mesmo nome. Portanto, não é possível mover um arquivo para uma pasta na qual já exista um arquivo com o mesmo nome.
+  - Você pode digitar o nome da pasta de destino ou escolher **Selecionar caminho** para selecionar a pasta de destino.
+  - É possível mover um arquivo de qualquer tipo para qualquer destino na pasta Conteúdo.
+  - Dois arquivos não podem ter o mesmo nome. Portanto, não é possível mover um arquivo para uma pasta na qual já exista um arquivo com o mesmo nome.
 
   Se você tentar mover um arquivo para uma pasta onde existe um arquivo com o mesmo nome mas com um título diferente, a caixa de diálogo Renomear e mover arquivo é exibida e você precisa renomear o arquivo antes de movê-lo. O arquivo movido na pasta de destino tem o novo nome de arquivo.
 
@@ -1202,9 +1223,9 @@ As várias opções no menu Opções são explicadas abaixo:
 
   O Experience Manager Guides não permite renomear ou mover um arquivo nos seguintes cenários:
 
-   - Não é possível mover ou renomear um arquivo se ele fizer parte de um fluxo de trabalho de revisão ou tradução.
+  - Não é possível mover ou renomear um arquivo se ele fizer parte de um fluxo de trabalho de revisão ou tradução.
 
-   - Se qualquer outro usuário bloquear o arquivo, você não poderá renomeá-lo ou movê-lo. Você não visualizará a opção Renomear ou Mover para do arquivo.
+  - Se qualquer outro usuário bloquear o arquivo, você não poderá renomeá-lo ou movê-lo. Você não visualizará a opção Renomear ou Mover para do arquivo.
 
   >[!NOTE]
   >
@@ -1218,24 +1239,24 @@ As várias opções no menu Opções são explicadas abaixo:
 
 - **Excluir**: use esta opção para excluir o arquivo selecionado. Um prompt de confirmação é exibido antes de excluir o arquivo.
 
-   - Um prompt de confirmação é exibido antes de excluir o arquivo.
-   - Se o arquivo não for referenciado a partir de outro arquivo, ele será excluído e uma mensagem de sucesso será exibida.
-   - Se o arquivo estiver bloqueado, não será possível excluí-lo e uma mensagem de erro será exibida.
+  - Um prompt de confirmação é exibido antes de excluir o arquivo.
+  - Se o arquivo não for referenciado a partir de outro arquivo, ele será excluído e uma mensagem de sucesso será exibida.
+  - Se o arquivo estiver bloqueado, não será possível excluí-lo e uma mensagem de erro será exibida.
 
-     >[!NOTE]
-     >
-     > Se o administrador tiver impedido a exclusão de arquivos bloqueados, somente a mensagem de erro será exibida. Para obter mais detalhes, consulte *Impedir exclusão de arquivos com check-out* na seção Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service.
+    >[!NOTE]
+    >
+    > Se o administrador tiver impedido a exclusão de arquivos bloqueados, somente a mensagem de erro será exibida. Para obter mais detalhes, consulte *Impedir exclusão de arquivos com check-out* na seção Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service.
 
-   - Se o arquivo for adicionado a uma coleção, a caixa de diálogo **Forçar Exclusão** será exibida e você poderá excluí-la à força.
-   - Se o arquivo for referenciado a partir de qualquer outro arquivo, a caixa de diálogo **Forçar Exclusão** com a mensagem de confirmação será exibida e você poderá forçar a exclusão do arquivo:
+  - Se o arquivo for adicionado a uma coleção, a caixa de diálogo **Forçar Exclusão** será exibida e você poderá excluí-la à força.
+  - Se o arquivo for referenciado a partir de qualquer outro arquivo, a caixa de diálogo **Forçar Exclusão** com a mensagem de confirmação será exibida e você poderá forçar a exclusão do arquivo:
 
-     ![](images/options-menu-force-delete.png){width="300"}
+    ![](images/options-menu-force-delete.png){width="300"}
 
-     >[!NOTE]
-     >
-     > Se o administrador concedeu permissão para excluir o arquivo, a **Exclusão Forçada** será habilitada. Senão, **Forçar Exclusão** está desabilitado e será exibida uma mensagem informando que você não tem permissão para excluir os arquivos referenciados. Para obter mais detalhes, consulte *Impedir exclusão dos arquivos referenciados* na seção Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service.
+    >[!NOTE]
+    >
+    > Se o administrador concedeu permissão para excluir o arquivo, a **Exclusão Forçada** será habilitada. Senão, **Forçar Exclusão** está desabilitado e será exibida uma mensagem informando que você não tem permissão para excluir os arquivos referenciados. Para obter mais detalhes, consulte *Impedir exclusão dos arquivos referenciados* na seção Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service.
 
-   - Se você excluir um tópico referenciado e tiver aberto o arquivo contendo referências para edição, ele mostrará o link corrompido para o arquivo referenciado.
+  - Se você excluir um tópico referenciado e tiver aberto o arquivo contendo referências para edição, ele mostrará o link corrompido para o arquivo referenciado.
 
   >[!NOTE]
   >
@@ -1243,14 +1264,14 @@ As várias opções no menu Opções são explicadas abaixo:
 
 - **Copiar**: você pode escolher entre as seguintes opções:
 
-   - **Copiar UUUID**: Copiar a UUID do arquivo selecionado para a Área de Transferência.
+  - **Copiar UUUID**: Copiar a UUID do arquivo selecionado para a Área de Transferência.
 
-   - **Copiar Caminho**: Copie o caminho completo do arquivo selecionado para a Área de Transferência.
+  - **Copiar Caminho**: Copie o caminho completo do arquivo selecionado para a Área de Transferência.
 
 - **Adicionar a**: você pode escolher entre as seguintes opções:
-   - **Coleções**: adiciona o arquivo selecionado às Coleções. Você pode optar por adicioná-la a uma coleção existente ou nova.
+  - **Coleções**: adiciona o arquivo selecionado às Coleções. Você pode optar por adicioná-la a uma coleção existente ou nova.
 
-   - **Conteúdo reutilizável**: adiciona o arquivo selecionado à lista de conteúdo reutilizável no painel esquerdo.
+  - **Conteúdo reutilizável**: adiciona o arquivo selecionado à lista de conteúdo reutilizável no painel esquerdo.
 
 - **Propriedades**: use esta opção para abrir a página de propriedades do arquivo selecionado. Essa página de propriedades também pode ser acessada na interface do usuário do Assets selecionando um arquivo e, em seguida, selecionando o ícone Propriedades na barra de ferramentas.
 
@@ -1315,15 +1336,15 @@ Você pode executar as seguintes ações usando o menu Opções do arquivo de ma
 - **Visualização**: abrir uma visualização do arquivo de mapa. Nesta exibição, todos os arquivos de tópico no mapa são mostrados em uma única exibição unificada página por página.
 
 - **Copiar**: você pode escolher entre as seguintes opções:
-   - **Copiar UUUID**: Copiar a UUID do arquivo de mapa para a Área de Transferência.
-   - **Copiar Caminho**: Copiar o caminho completo do arquivo de mapa para a Área de Transferência.
+  - **Copiar UUUID**: Copiar a UUID do arquivo de mapa para a Área de Transferência.
+  - **Copiar Caminho**: Copiar o caminho completo do arquivo de mapa para a Área de Transferência.
 
 - **Localizar no repositório**: mostra o local do arquivo de mapa no repositório \(ou DAM\).
 
 - **Adicionar a**: você pode escolher entre as seguintes opções:
-   - **Coleções**: adiciona o arquivo de mapa às coleções. Você pode optar por adicioná-la a uma coleção existente ou nova.
+  - **Coleções**: adiciona o arquivo de mapa às coleções. Você pode optar por adicioná-la a uma coleção existente ou nova.
 
-   - **Conteúdo reutilizável**: adiciona o arquivo de mapa à lista de conteúdo reutilizável no painel esquerdo.
+  - **Conteúdo reutilizável**: adiciona o arquivo de mapa à lista de conteúdo reutilizável no painel esquerdo.
 
 - **Propriedades**: use esta opção para abrir a página de propriedades do arquivo de mapa. Essa página de propriedades também pode ser acessada na interface do usuário do Assets selecionando um arquivo e o ícone Propriedades na barra de ferramentas.
 
@@ -1371,8 +1392,8 @@ Você pode executar as seguintes ações usando o menu Opções:
 
 - **Visualização**: obtenha uma visualização rápida do arquivo (.dita, .xml, áudio, vídeo ou imagem) sem abri-lo. É possível redimensionar o painel de visualização. Se o conteúdo contiver qualquer `<xref>` ou `<conref>`, você poderá selecioná-lo para abri-lo em uma nova guia.  O título do arquivo aparece na janela. Se nenhum título estiver presente, o nome do arquivo será exibido. Para fechar o painel **Visualização**, você pode selecionar o ícone de fechamento ou selecionar qualquer lugar fora do painel.
 - **Copiar**: você pode escolher entre as seguintes opções:
-   - **Copiar UUUID**: Copiar a UUID do arquivo selecionado para a Área de Transferência.
-   - **Copiar Caminho**: copia o caminho completo do arquivo selecionado para a Área de Transferência.
+  - **Copiar UUUID**: Copiar a UUID do arquivo selecionado para a Área de Transferência.
+  - **Copiar Caminho**: copia o caminho completo do arquivo selecionado para a Área de Transferência.
 
 
 - **Localizar no repositório**: mostra o local do arquivo selecionado no repositório \(ou DAM\).
@@ -1381,9 +1402,9 @@ Você pode executar as seguintes ações usando o menu Opções:
 - **Recolher tudo**: Recolher todos os tópicos que fazem parte do arquivo de mapa atual.
 
 - **Adicionar a**: você pode escolher entre as seguintes opções:
-   - **Coleções**: adiciona o arquivo selecionado às coleções. Você pode optar por adicioná-la a uma coleção existente ou nova.
+  - **Coleções**: adiciona o arquivo selecionado às coleções. Você pode optar por adicioná-la a uma coleção existente ou nova.
 
-   - **Conteúdo reutilizável**: adiciona o arquivo selecionado à lista de conteúdo reutilizável no painel esquerdo.
+  - **Conteúdo reutilizável**: adiciona o arquivo selecionado à lista de conteúdo reutilizável no painel esquerdo.
 
 - **Propriedades**: use esta opção para abrir a página de propriedades do arquivo selecionado. Essa página de propriedades também pode ser acessada na interface do usuário do Assets selecionando um arquivo e o ícone Propriedades na barra de ferramentas.
 
@@ -1529,10 +1550,10 @@ Você pode definir as seguintes configurações da ferramenta Ponto de acesso:
 - **Ação**: você pode optar por pesquisar as chaves do glossário **Manualmente para cada tópico** ou **Automaticamente para todos os tópicos**. Se você escolher **Manualmente para cada tópico**, ele solicitará que você confirme antes de converter cada termo em cada tópico. Se você escolher **Automaticamente para todos os tópicos**, ele converterá automaticamente todos os termos em todos os tópicos.
 - **Converter**: você pode converter um **Texto pesquisado em termo de glossário** ou **Termo do glossário em texto.**
 - **Opções**: você pode selecionar entre as seguintes opções:
-   - **Correspondência que diferencia maiúsculas de minúsculas**: procura um termo para localizar a correspondência que tem a mesma capitalização. Por exemplo, &quot;USB&quot; não corresponderá a &quot;usb&quot;.
-   - **Converter apenas a primeira instância**: se várias instâncias do termo pesquisado estiverem presentes em um tópico, somente a primeira instância será convertida.
-   - **Bloquear arquivo antes da conversão**: o arquivo pesquisado é bloqueado antes da conversão dos termos.
-   - **Criar uma nova versão após a conversão**: uma nova versão do tópico é criada após a conclusão da conversão dos termos.
+  - **Correspondência que diferencia maiúsculas de minúsculas**: procura um termo para localizar a correspondência que tem a mesma capitalização. Por exemplo, &quot;USB&quot; não corresponderá a &quot;usb&quot;.
+  - **Converter apenas a primeira instância**: se várias instâncias do termo pesquisado estiverem presentes em um tópico, somente a primeira instância será convertida.
+  - **Bloquear arquivo antes da conversão**: o arquivo pesquisado é bloqueado antes da conversão dos termos.
+  - **Criar uma nova versão após a conversão**: uma nova versão do tópico é criada após a conclusão da conversão dos termos.
 - O botão **Avançar** será exibido se você selecionar **Manualmente para cada tópico**. Selecione **Avançar** para converter os termos de cada tópico com base nas configurações selecionadas. Ele solicita a conversão de termos em cada tópico e passa para o próximo arquivo. Você pode optar por converter um termo ou ignorá-lo e passar para o próximo termo.
 
   ![](images/manual-convert-skip.png){width="300"}
@@ -2001,7 +2022,7 @@ Você pode acessar o recurso **Propriedades de conteúdo** selecionando o ícone
 
 1. No painel suspenso **Atributo**, selecione o atributo na lista suspensa e especifique o valor de um atributo.  Em seguida, selecione **Adicionar**.
 
-   ![painel de atributos com vários atributos &#x200B;](images/attributes-multiple-properties.png){width="300"}
+   ![painel de atributos com vários atributos ](images/attributes-multiple-properties.png){width="300"}
 
 1. Para editar o atributo, passe o mouse sobre ele e selecione **Editar** ![ícone de edição](images/edit_pencil_icon.svg).
 

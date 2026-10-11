@@ -1,13 +1,19 @@
 ---
 title: Notas de versão para Adobe Experience Manager Guides 3.8 e 3.8.5
 description: Principais novos recursos e aprimoramentos nas versões 3.8 e 3.8.5 do Adobe Experience Manager Guides (anteriormente conhecido como solução da XML Documentation).
-source-git-commit: ff3d35832b80f6221f1261498934ab74261b282b
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1589'
 ht-degree: 0%
-
 ---
-
 
 # Notas de versão | Adobe Experience Manager Guides 3.8
 
@@ -66,8 +72,8 @@ Foram introduzidos vários novos recursos e aprimoramentos nas seguintes áreas 
   ![Indicação de versão](assets/old-version-icon.avif)
 
 - Um novo recurso Histórico de versão foi introduzido nesta versão. Use o recurso Histórico de versão para:
-   - Exibir uma lista de todas as versões do tópico ativo no momento, juntamente com rótulos adicionados para cada versão.
-   - Reverter para uma versão anterior do tópico.
+  - Exibir uma lista de todas as versões do tópico ativo no momento, juntamente com rótulos adicionados para cada versão.
+  - Reverter para uma versão anterior do tópico.
 
   ![Histórico de Versões](assets/version-history.avif)
 
@@ -98,9 +104,9 @@ Foram introduzidos vários novos recursos e aprimoramentos nas seguintes áreas 
 #### Publicação
 
 - **Permitir a Configuração de Regras de Limpeza para Páginas de Site Geradas**: Como administrador, você pode definir as regras de limpeza para os nomes de arquivo do Site AEM gerado ou saída DITA-OT. Sempre que você gerar uma saída ou saída de site do AEM usando o DITA-OT, poderá configurar as regras abaixo para limpar os URLs ou nomes de arquivo gerados pela saída:
-   - Converter todos os caracteres em minúsculas.
-   - Substituir caracteres especiais por um separador.
-   - Restrinja um nome de arquivo longo a um número predefinido de caracteres.
+  - Converter todos os caracteres em minúsculas.
+  - Substituir caracteres especiais por um separador.
+  - Restrinja um nome de arquivo longo a um número predefinido de caracteres.
 
 - Envie facilmente a saída da instância do autor para a instância de publicação usando o Painel de ativação em massa. É possível trabalhar com um único mapa ou uma coleção de mapas e escolher a predefinição de saída que deseja usar para publicação.
 

@@ -3,18 +3,32 @@ title: Guias de publicação de benchmarks no AEMaaCS
 description: Entenda os limites do sistema em Publicação na AEM Cloud.
 feature: Publishing
 role: User, Admin
-source-git-commit: b6e4fd5051018ce6c60aadf66e6bf7375322aaa1
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 20%
-
 ---
-
 # Benchmarks de publicação do AEM Guides no AEMaaCS
 
 Este benchmark avalia o desempenho das novas APIs de publicação em diferentes predefinições de saída e no aumento do tamanho dos mapas no AEM Guides as a Cloud Service. O objetivo é entender o comportamento de escalabilidade e identificar gargalos de desempenho.
 
-O serviço de publicação usa uma [arquitetura baseada em microsserviços](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/publish-microservice-architecture-and-performance) com dimensionamento automático, permitindo a manipulação de cargas de trabalho maiores por meio de pods adicionais.
+O serviço de publicação usa uma [arquitetura baseada em microsserviços](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/publish-microservice-architecture-and-performance) com dimensionamento automático, permitindo a manipulação de cargas de trabalho maiores por meio de pods adicionais.
 
 ## Ambiente de execução
 

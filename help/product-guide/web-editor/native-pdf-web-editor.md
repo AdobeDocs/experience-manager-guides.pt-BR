@@ -4,7 +4,7 @@ description: Saiba como usar a publicação nativa do PDF, criar e gerar uma pre
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
 feature: Publishing, Native PDF Output
 role: User
-TQID: https://experienceleague.adobe.com/GV3iYtBdFVrQwFjdvfqnfDIWPMugO3hFjS4FZqspG2M
+TQID: 'https://experienceleague.adobe.com/GV3iYtBdFVrQwFjdvfqnfDIWPMugO3hFjS4FZqspG2M'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -19,6 +19,8 @@ feature_v2:
     internal-label: Knowledge base
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
     internal-label: Configuration
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
     internal-label: Editor
@@ -30,6 +32,10 @@ subfeature_v2:
     internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
     internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
+  - id: c4e6b17e-c50c-59a1-a719-9c33ce69e5b6
+    internal-label: Native PDF Output
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -40,7 +46,7 @@ topic_v2:
     internal-label: Accessibility
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 5ed0a5191e1852dd65e0461f02d520b195f7cc39
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '4071'
 ht-degree: 0%
@@ -126,7 +132,7 @@ Nas predefinições de Saída, selecione **PDF** > **Native-PDF** > **Metadata**
 
 * **Fornecer arquivo XMP**
 
-  Você também pode preencher diretamente os campos de metadados importando o arquivo [XMP](https://www.adobe.com/br/products/xmp.html) (Plataforma de Metadados Extensível). Você pode baixar um arquivo de amostra do XMP aqui.
+  Você também pode preencher diretamente os campos de metadados importando o arquivo [XMP](https://www.adobe.com/products/xmp.html) (Plataforma de Metadados Extensível). Você pode baixar um arquivo de amostra do XMP aqui.
 
   [Download](assets/SampleXMP.xmp)
 
@@ -256,7 +262,7 @@ Use as opções a seguir para especificar configurações avançadas para mescla
 | **Incluir alterações de controle** | Selecione essa opção se desejar incluir alterações controladas no PDF gerado para facilitar a revisão e a comparação. |
 | **Incluir comentários de rascunho** | Selecione esta opção se desejar incluir comentários de rascunho adicionados aos tópicos DITA do mapa selecionado no PDF gerado. <br> **Observação**: habilitar apenas esta opção não faz com que comentários de rascunho apareçam na saída. Um Administrador também deve definir a propriedade de exibição do estilo de comentário de rascunho como um valor visível (como `block`, `inline-block`, `grid` e mais) no modelo de saída usado para o mapa. Para obter detalhes, exiba [Mostrar ou ocultar comentários de rascunho na saída do PDF Nativo](../native-pdf/components-pdf-template.md#show-or-hide-draft-comments-in-native-pdf-output). |
 | **Reter arquivos temporários** | Selecione essa opção se quiser manter os arquivos provisórios do HTML criados ao gerar a saída do PDF nativo. Posteriormente, você pode baixar os arquivos temporários depois de gerar a saída. Os arquivos baixados também incluem o arquivo `system_config.xml`, que fornece informações sobre a URL do autor, a URL local e a URL de publicação. Essas URLs são definidas nas configurações de Externalização do AEM e são refletidas no arquivo `system_config.xml`. |
-| **Conformidade do PDF** | É o padrão para o qual você pretende salvar seu PDF para garantir sua conformidade. Selecione na lista suspensa para escolher na lista de padrões disponíveis do PDF. Para obter mais detalhes sobre os padrões compatíveis, consulte [Sobre os padrões da PDF](https://helpx.adobe.com/br/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
+| **Conformidade do PDF** | É o padrão para o qual você pretende salvar seu PDF para garantir sua conformidade. Selecione na lista suspensa para escolher na lista de padrões disponíveis do PDF. Para obter mais detalhes sobre os padrões compatíveis, consulte [Sobre os padrões da PDF](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
 | **Propriedades do arquivo** | Selecione os metadados que deseja passar para a publicação nativa do PDF. A lista suspensa lista as propriedades personalizadas e padrão. Por exemplo, `dc:description`, `dc:language`, `dc:title` e `docstate` são as propriedades padrão, enquanto você pode ter `author` como a propriedade personalizada. As propriedades de metadados selecionadas são passadas para o arquivo PDF gerado com o PDF Nativo. <br> Essas propriedades são selecionadas do arquivo `metadataList` disponível em:`/libs/fmdita/config/metadataList`. <br>Este arquivo pode ser sobreposto em: `/apps/fmdita/config/metadataList`. |
 
 

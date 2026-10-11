@@ -5,24 +5,32 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 991179c7-186e-4b23-b918-248f596644ec
-TQID: https://experienceleague.adobe.com/vC4GMa4uSMJY9W2bwkVw92zrrVuCdoU0BIUZ-1buIwM
+TQID: 'https://experienceleague.adobe.com/vC4GMa4uSMJY9W2bwkVw92zrrVuCdoU0BIUZ-1buIwM'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1213
+source-wordcount: '1214'
 ht-degree: 2%
-
 ---
-
 # Usar predefinições de condição {#id1825FL004PN}
 
 Você pode definir atributos em seus tópicos DITA e usar a predefinição de condição para especificar o que acontece com o atributo na saída final. Por exemplo, você pode adicionar atributos como versão 1.0 e versão 2.0 no conteúdo e usar uma predefinição de condição para incluir a versão 1.0 para a versão 1.0 e excluir a versão 2.0. Da mesma forma, você pode adicionar atributos como SO Windows e OS Linux ao seu conteúdo e, em seguida, incluir ou excluir o conteúdo relevante para sua saída final de acordo com o sistema operacional.
@@ -66,17 +74,17 @@ O painel **Atributos** mostra todos os atributos adicionados a quaisquer referê
    * Selecione um ou mais valores de atributo para adicioná-los à predefinição de condição. Por exemplo, você pode selecionar os valores `Unix` e `Win` do atributo platform
    * Selecione qualquer par de atributo e valor e arraste-o para o painel central. Por exemplo, você pode selecionar o valor `Unix` do atributo de plataforma e arrastá-lo.
    * **Selecione todos** para adicionar todos os atributos e seus valores à predefinição de condição.
-Por padrão, a ação de um atributo é `Include`.
+     Por padrão, a ação de um atributo é `Include`.
 
 1. Selecione **Adicionar**. Você pode repetir essa etapa para adicionar mais atributos. Os atributos adicionados são movidos do painel central para o direito.
 1. Selecione Remover na barra de ações na parte superior para remover os atributos selecionados no painel direito.
 1. (Opcional) Se necessário, é possível substituir a ação aplicada aos atributos.
 Siga uma das seguintes opções:
    * Para qualquer atributo, selecione uma das seguintes ações no menu suspenso Ação.
-      * Incluir
-      * Excluir
-      * Passagem
-      * Sinalizador
+     * Incluir
+     * Excluir
+     * Passagem
+     * Sinalizador
    * Selecione várias linhas de atributo no painel direito e escolha uma ação na barra de ações na parte superior. Por exemplo, você pode selecionar Excluir ação para os atributos selecionados.
 1. Selecione **Salvar** para salvar a predefinição de condição.
 
@@ -133,7 +141,7 @@ Execute as seguintes etapas para criar uma predefinição de condição:
    * Excluir
    * Passagem
    * Sinalizador
-A ação é definida como ação padrão para todos os atributos, sejam eles adicionados à predefinição de condição ou não.
+     A ação é definida como ação padrão para todos os atributos, sejam eles adicionados à predefinição de condição ou não.
 
    Por exemplo, você tem 15 atributos de condição no documento e incluiu quatro deles na predefinição de condição. Se você selecionar **excluir** como ação padrão, ela será aplicada a todos os 15 atributos.
 
@@ -179,4 +187,4 @@ A ação é definida como ação padrão para todos os atributos, sejam eles adi
 1. Clique no botão **Remover**.
 1. Clique em **Remover** para confirmar a ação.
 
-**Tópico pai:**&#x200B;[&#x200B; Geração de saída](generate-output.md)
+**Tópico pai:**[ Geração de saída](generate-output.md)

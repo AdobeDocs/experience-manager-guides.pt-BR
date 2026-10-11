@@ -5,13 +5,28 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: f84bc82a-505c-4511-8336-bb87c8eb78e3
-source-git-commit: aac604893134edc2b28e8f6d7977e92256fe7e63
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: e557051c-ff02-4ff8-9421-cf452af0edd5
+    internal-label: Installation
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1884'
 ht-degree: 2%
-
 ---
-
 # Atualizar o Adobe Experience Manager Guides para a versão 4.6.0 e superior
 
 Este artigo fornece instruções para atualizar suas versões do Experience Manager Guides para 4.6.0 e superior.
@@ -46,7 +61,7 @@ Para obter mais detalhes, consulte os seguintes procedimentos:
 
 >[!IMPORTANT]
 >
-> Se você estiver usando o AEM 6.5 e planeja migrar para o AEM 6.5 LTS, conclua a atualização do AEM primeiro antes de prosseguir com a atualização do Experience Manager Guides 5.2.0. Para obter detalhes, consulte [Atualização para o Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
+> Se você estiver usando o AEM 6.5 e planeja migrar para o AEM 6.5 LTS, conclua a atualização do AEM primeiro antes de prosseguir com a atualização do Experience Manager Guides 5.2.0. Para obter detalhes, consulte [Atualização para o Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
 
 **Pré-requisitos**
 
@@ -74,7 +89,7 @@ Baixe o pacote da versão 5.2.0 do [Portal de Distribuição de Software da Adob
 
 >[!IMPORTANT]
 >
-> Se você estiver usando o AEM 6.5 e planeja migrar para o AEM 6.5 LTS, conclua a atualização do AEM primeiro antes de prosseguir com a atualização do Experience Manager Guides 5.1.0. Para obter detalhes, consulte [Atualização para o Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
+> Se você estiver usando o AEM 6.5 e planeja migrar para o AEM 6.5 LTS, conclua a atualização do AEM primeiro antes de prosseguir com a atualização do Experience Manager Guides 5.1.0. Para obter detalhes, consulte [Atualização para o Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
 
 **Pré-requisitos**
 
@@ -193,15 +208,15 @@ Depois de instalar o Experience Manager Guides, você pode mesclar as várias co
 
      **Guia comum:**
 
-      - **Título:** Iniciador de Pós-Processamento DXML
+     - **Título:** Iniciador de Pós-Processamento DXML
 
-      - **Descrição**: etapa do iniciador do pós-processamento DXML que acionará um trabalho de sling para pós-processamento DXML do ativo modificado/criado
+     - **Descrição**: etapa do iniciador do pós-processamento DXML que acionará um trabalho de sling para pós-processamento DXML do ativo modificado/criado
 
      **Guia Processo**
 
-      - Selecione o **Iniciador de Pós-Processamento de DXML** na lista suspensa **Processo**
-      - Selecionar **Avanço do manipulador**
-      - Selecionar **Concluído**
+     - Selecione o **Iniciador de Pós-Processamento de DXML** na lista suspensa **Processo**
+     - Selecionar **Avanço do manipulador**
+     - Selecionar **Concluído**
 
 1. Selecione **Sincronizar** no canto superior direito depois de concluir as alterações. Você receberá uma notificação de sucesso.
 
@@ -278,7 +293,7 @@ Durante esta atualização, como o valor de `'order'` é alterado de 1000 para 5
 
 ### Etapas para reindexar o damAssetLucene
 
-A definição do índice é atualizada para damAssetLucene com AEM Guides. Depois de atualizar para a versão necessária, consulte [este artigo](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-kcs/kbarticles/ka-16460) para reindexar o damAssetLucene.
+A definição do índice é atualizada para damAssetLucene com AEM Guides. Depois de atualizar para a versão necessária, consulte [este artigo](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) para reindexar o damAssetLucene.
 
 >[!NOTE]
 >

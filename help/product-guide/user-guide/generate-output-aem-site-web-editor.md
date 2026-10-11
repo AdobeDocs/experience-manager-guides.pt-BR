@@ -4,28 +4,39 @@ description: Crie e configure a predefinição do AEM Sites no console do Mapa u
 feature: Publishing
 role: User
 exl-id: f3657268-9dee-43af-b643-499dbc3ca948
-TQID: https://experienceleague.adobe.com/o-vv28SWWNym2aSVCshJDbPTWkpwH-KNwES4M5MKKJ8
+TQID: 'https://experienceleague.adobe.com/o-vv28SWWNym2aSVCshJDbPTWkpwH-KNwES4M5MKKJ8'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: fd5e1e85933eb2785b0a74b0fa49fec1da4ca0c2
+    internal-label: Troubleshooting
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 3727
+source-wordcount: '3873'
 ht-degree: 0%
-
 ---
-
 # Predefinição do AEM Sites no console Mapa
 
 Você pode criar uma predefinição do AEM Sites no console Mapa e configurá-la para gerar a saída do AEM Sites. Há duas maneiras de criar a saída do AEM Sites:
@@ -64,7 +75,7 @@ Execute as seguintes etapas para criar a predefinição do AEM Sites usando o ma
    A predefinição do AEM Sites é criada.
 
 
-   ![Novo(a) &#x200B;](images/new-aem-sites-dialog-box.png){width="300"}
+   ![Novo(a) ](images/new-aem-sites-dialog-box.png){width="300"}
 
 <!--
 ### Generate the AEM Sites output using the templates
@@ -103,7 +114,7 @@ No console Mapa, as opções de configuração predefinidas para o mapeamento de
 - Lista de tópicos
 - Referências de mapa cruzado
 
-![Novo(a) &#x200B;](images/aem-sites-new-config.png){width="650"}
+![Novo(a) ](images/aem-sites-new-config.png){width="650"}
 
 **Geral**
 
@@ -112,8 +123,8 @@ A guia **Geral** contém as seguintes opções de configuração:
 | Opções do AEM Sites | Descrição |
 | --- | --- |
 | Usar caminho do site | Use essa opção para publicar seu conteúdo em um site do Experience Manager. |
-| Caminho do site | **Esta opção aparecerá se você selecionar a opção** Usar caminho do site **&#x200B;**. Procure o caminho predefinido do site do Experience Manager ou especifique um caminho personalizado no qual deseja que a saída seja publicada. A opção **Usar sites** permite especificar o caminho de publicação inteiro mesmo que o caminho especificado não tenha sido pré-criado dentro da estrutura do AEM Sites. Nesses casos, o sistema cria a estrutura necessária durante o processo de publicação usando o modelo de página inicial do mapa selecionado.<br><br>Você também pode usar variáveis ao definir o caminho do Site. Para obter detalhes, exiba [Use variáveis para definir as opções Caminho de Destino, Nome do Site ou Nome do Arquivo](./generate-output-use-variables.md) |
-| Mapear modelo de página | **Esta opção aparecerá se você selecionar a opção** Usar caminho do site **&#x200B;**. Selecione um modelo que deseja aplicar às páginas iniciais do mapa. |
+| Caminho do site | **Esta opção aparecerá se você selecionar a opção** Usar caminho do site ****. Procure o caminho predefinido do site do Experience Manager ou especifique um caminho personalizado no qual deseja que a saída seja publicada. A opção **Usar sites** permite especificar o caminho de publicação inteiro mesmo que o caminho especificado não tenha sido pré-criado dentro da estrutura do AEM Sites. Nesses casos, o sistema cria a estrutura necessária durante o processo de publicação usando o modelo de página inicial do mapa selecionado.<br><br>Você também pode usar variáveis ao definir o caminho do Site. Para obter detalhes, exiba [Use variáveis para definir as opções Caminho de Destino, Nome do Site ou Nome do Arquivo](./generate-output-use-variables.md) |
+| Mapear modelo de página | **Esta opção aparecerá se você selecionar a opção** Usar caminho do site ****. Selecione um modelo que deseja aplicar às páginas iniciais do mapa. |
 | Site | Nome da Experience Manager Sites na qual você deseja publicar seu conteúdo. As opções na lista suspensa são preenchidas com base na lista de sites disponíveis no AEM Sites. <br>Selecione **Atualizar** ![ícone de atualização](images/navtitle-refresh-icon.svg) para obter uma nova lista de opções e refletir os dados atualizados. |
 | Caminho de publicação | O caminho no repositório do AEM onde a saída é armazenada. O Caminho de publicação é preenchido com todos os caminhos que contêm páginas criadas com base no modelo da Página inicial. A saída do AEM Sites do mapa DITA é gerada nesse caminho.  Por exemplo, se você especificar o Site como `AEMG-Docs` e o Caminho de Publicação como `aemg-docs-en/docs/product-abc.`, a saída do AEM Sites será gerada sob o nó `aemg-docs-en/docs/product-abc/` em `crx/de`. |
 | Modelo de página de tópico | Selecione o template que deseja aplicar a todos os tópicos de saída. |
@@ -172,7 +183,7 @@ No console Mapa, as opções de configuração predefinidas para o mapeamento de
 - Conteúdo
 - Referências de mapa cruzado
 
-![Novo(a) &#x200B;](images/aem-sites-preset-legacy-config.png){width="500"}
+![Novo(a) ](images/aem-sites-preset-legacy-config.png){width="500"}
 
 **Geral**
 
@@ -195,7 +206,7 @@ A guia **Geral** contém as seguintes opções de configuração:
 
 **Conteúdo**
 
-![Novo(a) &#x200B;](images/aem-sites-content-tab.png){width="650"}
+![Novo(a) ](images/aem-sites-content-tab.png){width="650"}
 
 A guia **Conteúdo** contém as seguintes opções de configuração:
 

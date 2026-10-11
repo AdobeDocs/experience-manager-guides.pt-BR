@@ -5,13 +5,28 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 08502168-a995-44bc-9ce3-c3e562714c06
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 0%
-
 ---
-
 # Configurar filtros de texto {#id21BPD0FK0XA}
 
 O AEM Guides fornece o recurso para procurar texto nos arquivos presentes no caminho selecionado do repositório do AEM. Você pode usar a pesquisa de filtro para pesquisar arquivos no painel de repositório ou para procurar arquivos. Ao trabalhar no Editor, é necessário usar a caixa de diálogo de navegação de arquivos para inserir elementos como imagem, referência ou referência de chave.
@@ -74,11 +89,11 @@ As guias a seguir fornecem instruções para configurar os filtros de texto com 
 
       No trecho de código acima, o primeiro filtro é para Arquivos DITA. A definição do filtro usa os seguintes parâmetros:
 
-      **&#x200B;**&#x200B;Título&#x200B;**&#x200B;**: o nome para exibição do filtro. Este título aparece como a opção de filtragem na caixa de diálogo de procura de arquivo.
+      ****Título****: o nome para exibição do filtro. Este título aparece como a opção de filtragem na caixa de diálogo de procura de arquivo.
 
-      **&#x200B;**&#x200B;Propriedade&#x200B;**&#x200B;**: a propriedade que deve corresponder aos metadados do arquivo. Por exemplo, para permitir somente os arquivos que têm os metadados dita\_class em sua propriedade, o filtro de propriedade usa &quot;jcr:content/metadata/dita\_class&quot; como seu valor.
+      ****Propriedade****: a propriedade que deve corresponder aos metadados do arquivo. Por exemplo, para permitir somente os arquivos que têm os metadados dita\_class em sua propriedade, o filtro de propriedade usa &quot;jcr:content/metadata/dita\_class&quot; como seu valor.
 
-      **&#x200B;**&#x200B;Operação **:**&#x200B;especifique &quot;existe&quot; para corresponder à existência do valor especificado no parâmetro de propriedade
+      ****Operação **:**especifique &quot;existe&quot; para corresponder à existência do valor especificado no parâmetro de propriedade
 
 1. Carregue o arquivo ui\_config.json atualizado que contém os filtros adicionados.
 
@@ -166,4 +181,4 @@ Os filtros configurados estão disponíveis no painel Filtros.
 
 >[!ENDTABS]
 
-**Tópico pai:**&#x200B;[&#x200B; Personalizar editor](customize-overview.md)
+**Tópico pai:**[ Personalizar editor](customize-overview.md)

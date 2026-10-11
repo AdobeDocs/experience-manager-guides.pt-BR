@@ -3,7 +3,15 @@ title: Publicação mais inteligente do PDF com PDF nativo
 description: Esta sessão de especialistas aborda como o PDF nativo pode ser usado para criar o PDF pronto para DITA sem usar a experiência avançada em CSS ou XSLT, em vez de usar tecnologia de baixo código para gerar PDF
 keywords: Publicação DITA no PDF, AEM Guides, PDF nativo, DITA para PDF, fluxo de trabalho de publicação DITA, automação do PDF, publicação orientada por metadados, modelos DITA
 exl-id: 763ca6fb-1e5a-4676-9684-879c13ba9a8e
-source-git-commit: 2fde91e85c4283d114b29f77a38bae6d67e60112
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 2%
@@ -54,7 +62,7 @@ Nesta sessão, abordamos:
 
 ### Fórum da comunidade
 
-- Para ver as interações da comunidade específicas da sessão no Experience League, visite o [Fórum do AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=pt).
+- Para ver as interações da comunidade específicas da sessão no Experience League, visite o [Fórum do AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 
 

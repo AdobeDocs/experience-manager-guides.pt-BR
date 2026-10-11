@@ -4,27 +4,40 @@ description: Criar predefinições de saída no editor da Web. Saiba como editar
 exl-id: cd38b039-ef91-45c9-a226-433e57b09873
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-TQID: https://experienceleague.adobe.com/e5BEPmlmFDY2ipC8nNQPjrgGx3cV6AaD4PmZYw4hAYI
+TQID: 'https://experienceleague.adobe.com/e5BEPmlmFDY2ipC8nNQPjrgGx3cV6AaD4PmZYw4hAYI'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 368
+source-wordcount: '368'
 ht-degree: 0%
-
 ---
-
 # Criar predefinições de saída para Knowledge Base no Editor {#id218CL400JW3}
 
 Execute as seguintes etapas para criar predefinições de saída para o mapa DITA:
@@ -55,7 +68,7 @@ Execute as seguintes etapas para criar predefinições de saída para o mapa DIT
    A predefinição da Knowledge Base é criada.
 
 
-   ![Novo(a) &#x200B;](images/knowledge-base-preset-dialog-box.png)
+   ![Novo(a) ](images/knowledge-base-preset-dialog-box.png)
 
 Depois que a predefinição é criada, é possível gerar a saída para artigos específicos da base de conhecimento. Para fazer isso, navegue até a guia **Artigos** e selecione os tópicos para os quais deseja gerar a saída.
 1. Selecione **Gerar saída** na parte superior para gerar a saída.
@@ -64,7 +77,7 @@ Depois que a predefinição é criada, é possível gerar a saída para artigos 
 
 1. No prompt **Confirmar arquivos para publicação**, selecione os arquivos que deseja publicar e confirme selecionando **Publicar**.
 
-   ![Novo(a) &#x200B;](images/knowledge-base-confirm-files-for-publishing.png)
+   ![Novo(a) ](images/knowledge-base-confirm-files-for-publishing.png)
 
 Você visualizará o status do processo de geração de saída. A coluna **Tópicos** lista os tópicos para os quais a saída está sendo gerada, enquanto a coluna **Status** exibe o status de publicação de cada tópico.
 
@@ -80,4 +93,4 @@ Para exibir a saída, feche a caixa de diálogo Saída Gerada e selecione **Exib
 
 
 
-**Tópico pai:**&#x200B;[&#x200B; Publicação baseada em artigo do Editor](web-editor-article-publishing.md)
+**Tópico pai:**[ Publicação baseada em artigo do Editor](web-editor-article-publishing.md)

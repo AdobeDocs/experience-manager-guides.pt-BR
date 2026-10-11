@@ -1,13 +1,19 @@
 ---
 title: Notas de versão do Adobe Experience Manager Guides 4.0.x
 description: Saiba mais sobre as correções de erros, novos recursos e aprimoramentos nas versões 4.0, 4.0.1, 4.0.2 e 4.0.3 do Adobe Experience Manager Guides.
-source-git-commit: dc078c23c02c813fe39ca563e615dc3238c40253
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '3496'
 ht-degree: 5%
-
 ---
-
 
 # Notas de versão | Adobe Experience Manager Guides 4.0.x
 
@@ -209,10 +215,10 @@ Há várias melhorias e novos recursos introduzidos no Editor da Web:
 
 - Alterada a estrutura principal da interface baseada em Coral para a interface baseada em Espectro. Isso fornece uma interface de usuário muito padronizada e intuitiva.
 - O novo recurso Propriedades do arquivo foi introduzido no painel direito. Você pode verificar as propriedades de um documento ativo. As informações são categorizadas em duas seções:
-   - *Geral*: contém os detalhes gerais do arquivo, como nome do arquivo, UUID, marcas de metadados, idioma, data de criação, status de check-out e estado do documento.
-   - *Reference*: contém referências de entrada e saída.
+  - *Geral*: contém os detalhes gerais do arquivo, como nome do arquivo, UUID, marcas de metadados, idioma, data de criação, status de check-out e estado do documento.
+  - *Reference*: contém referências de entrada e saída.
 
-     ![Painel de propriedades do arquivo](assets/file-properties.avif)
+    ![Painel de propriedades do arquivo](assets/file-properties.avif)
 
 - O suporte para esquema de assunto também foi adicionado no Editor da Web. Agora você pode criar e usar o esquema de assunto usando o painel Esquema de assunto. Com a adição do esquema de assunto, agora é possível usar seus próprios metadados corporativos e taxonomia.
 

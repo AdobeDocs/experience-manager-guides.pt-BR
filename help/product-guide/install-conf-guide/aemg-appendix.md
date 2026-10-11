@@ -5,13 +5,32 @@ feature: InDesign File Conversion, Troubleshooting
 role: Admin
 level: Experienced
 exl-id: 6e757850-c563-42c5-aeac-b23c3f2ce679
-source-git-commit: 35fdbf480b4b70b70193772d0eae3a3cedec0077
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: f118db50-bb08-4bfa-a602-3b196f1f8882
+    internal-label: InDesign file conversion
+  - id: e13e7f13-0f4c-43f9-b0a7-1f33bd47e105
+    internal-label: Troubleshooting
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '2866'
 ht-degree: 0%
-
 ---
-
 # Apêndice {#id195AD0L60Y4}
 
 ## Solução de problemas do AEM Guides
@@ -34,7 +53,7 @@ Execute as seguintes etapas para verificar as referências usando o script de va
 1. Execute o script de validação \[`/bin/fmdita/validatebtree?operation=validate`\] para verificar se há novas referências corrompidas.
 1. Caso o script de validação reporte algum erro, você poderá corrigi-lo usando o script de correção.
 1. Registre os detalhes fornecidos a seguir e, se necessário, compartilhe-os com a equipe de sucesso do cliente:
-1. &#x200B;
+1. 
    - Logs impressos pelo script de validação
 - Pacote de &quot;`/content/fmdita/references`&quot;
 - Quaisquer outros detalhes necessários, dependendo do cenário relatado
@@ -50,7 +69,7 @@ Execute as seguintes etapas para corrigir referências quebradas, usando o scrip
    > É recomendável copiar e salvar os logs para fins de referência.
 
 1. Quando o script de patch for executado com sucesso, você poderá fazer as seguintes verificações:
-1. &#x200B;
+1. 
    - Verificar se um novo nó &quot;`references_backup_<timestamp>"`&quot; foi criado em `/content/fmdita`
 - Verifique se as referências foram corrigidas
 
@@ -344,7 +363,7 @@ O exemplo a seguir mostra como mover um `title` para um `table`:
 
 Os elementos `paragraphStyleRule` estão descritos abaixo:
 
-**&#x200B; `paraRule` elemento**
+** `paraRule` elemento**
 
 O elemento `paraRule` é obrigatório. Especifica as regras de mapeamento para todos os Estilos de parágrafo. Em um documento do InDesign, todo o texto está contido em uma subestrutura de Estilos de parágrafo. Mesmo parágrafos sem nenhum estilo são nomeados como `\[No paragraph style\]`. Os colchetes indicam um nome de estilo InDesign incorporado.
 
@@ -359,8 +378,8 @@ Os atributos usados em `paraRule` são explicados abaixo:
 - `@mapTo`: o nome de um elemento de destino DITA.
 
 - `@context`: Este atributo é usado para vincular a uma regra específica de **wrap** quando mais de uma opção de wrapper estiver disponível. Exemplo: o elemento `li` pode estar encapsulado em um elemento `ol` ou `ul`. Para identificar os diferentes tipos de lista, você pode usar um nome de estilo específico ou o atributo `@local` que pode mostrar o seguinte:
-   - `local="p[-|-|-|-|-|b|-|-]"` Onde &#39;`b`&#39; no campo 6 indica um item de lista com marcadores. Neste caso, defina `@context` como &#39;`bullet`&#39;.
-   - `local="p[-|-|-|-|-|n|-|-]"` Onde &#39;`n`&#39; no campo 6 indica um item de lista numerado. Neste caso, defina `@context` como &#39;`number`&#39;.
+  - `local="p[-|-|-|-|-|b|-|-]"` Onde &#39;`b`&#39; no campo 6 indica um item de lista com marcadores. Neste caso, defina `@context` como &#39;`bullet`&#39;.
+  - `local="p[-|-|-|-|-|n|-|-]"` Onde &#39;`n`&#39; no campo 6 indica um item de lista numerado. Neste caso, defina `@context` como &#39;`number`&#39;.
 
 - `@commentOut`: este atributo habilita o encapsulamento do elemento de destino em comentários XML para que as informações não sejam perdidas, mas possam ser manipuladas manualmente pelo usuário. Isso é útil se o conteúdo original não puder ser forçado a se adequar às regras de estrutura DITA.
 
@@ -391,9 +410,9 @@ Os atributos usados em `charRule` são explicados abaixo:
 - `@local`: Consulte [\#id194CG0V005Z](#id194CG0V005Z).
 - `@mapTo`: o nome de um elemento de destino DITA.
 - `@refactor`: Este atributo opcional tem uma opção de dois valores:
-   - `unwrap`: o elemento correspondente é removido enquanto mantém seu conteúdo.
+  - `unwrap`: o elemento correspondente é removido enquanto mantém seu conteúdo.
 
-   - `drop`: o elemento correspondente e todo o seu conteúdo são removidos.
+  - `drop`: o elemento correspondente e todo o seu conteúdo são removidos.
 
 
 **Regras de atributo**
@@ -423,11 +442,11 @@ Os atributos usados em `attributeRules` são explicados abaixo:
 > Esse elemento pode conter vários elementos secundários.
 
 - `addNew`: Adiciona um novo atributo ao elemento correspondente. Disponível para todos os contextos. Ela tem dois atributos:
-   - `@name`: deve ser um nome XML válido, de preferência, válido para o contexto DITA.
-   - `@value`: pode ser texto literal ou uma expressão XPath simples.
+  - `@name`: deve ser um nome XML válido, de preferência, válido para o contexto DITA.
+  - `@value`: pode ser texto literal ou uma expressão XPath simples.
 - `copyAtt`: copia um único atributo para o destino enquanto, opcionalmente, o renomeia no processo. O valor não é alterado. Disponível para os contextos `mapDoctypeParaRule`, `mapDoctypeElemRule`, `doctypeElemRule` e `elementRule`. Quando este elemento está presente, presume-se que o valor `@copyAllAtts` seja `false`. Ela tem dois atributos:
-   - `@name`: deve ser o nome de um atributo presente no elemento XML de origem.
-   - `@mapTo`: deve ser um nome XML válido, de preferência, válido para o contexto DITA.
+  - `@name`: deve ser o nome de um atributo presente no elemento XML de origem.
+  - `@mapTo`: deve ser um nome XML válido, de preferência, válido para o contexto DITA.
 
 **Códigos de formatação locais**
 
@@ -481,9 +500,9 @@ Os atributos usados em `elementRule` são explicados abaixo:
 
 - `@refactor`: Este atributo opcional tem uma opção de dois valores:
 
-   - `unwrap`: o elemento correspondente é removido enquanto mantém seu conteúdo.
+  - `unwrap`: o elemento correspondente é removido enquanto mantém seu conteúdo.
 
-   - `drop`: o elemento correspondente e todo o seu conteúdo são removidos.
+  - `drop`: o elemento correspondente e todo o seu conteúdo são removidos.
 
 - `@context`: este atributo é usado para vincular a uma regra de wrap específica quando mais de uma opção de wrap está disponível. Exemplo: o elemento `li` pode estar encapsulado em um elemento `ol` ou `ul`.
 
