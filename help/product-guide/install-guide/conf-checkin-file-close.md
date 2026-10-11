@@ -53,4 +53,4 @@ Quando esta configuração está habilitada, a caixa de seleção **Desbloquear 
 
 Para obter mais detalhes, consulte a seção *Cenários de fechamento e salvamento de arquivos* no guia Uso do Adobe Experience Manager Guides as a Cloud Service.
 
-**Tópico pai:**[ Personalizar editor](conf-web-editor.md)
+**Tópico pai:**&#x200B;[&#x200B; Personalizar editor](conf-web-editor.md)

@@ -51,4 +51,4 @@ O recurso de salvamento automático não está habilitado por padrão e você pr
 1. Clique em **Salvar**.
 
 
-**Tópico pai:**[ Personalizar editor](conf-web-editor.md)
+**Tópico pai:**&#x200B;[&#x200B; Personalizar editor](conf-web-editor.md)

@@ -79,4 +79,4 @@ Caso use uma ferramenta como o aplicativo de desktop do Adobe Experience Manager
 
 
 
-**Tópico pai:**[ Gerenciar conteúdo](authoring.md)
+**Tópico pai:**&#x200B;[&#x200B; Gerenciar conteúdo](authoring.md)

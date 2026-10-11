@@ -187,4 +187,4 @@ Execute as seguintes etapas para criar uma predefinição de condição:
 1. Clique no botão **Remover**.
 1. Clique em **Remover** para confirmar a ação.
 
-**Tópico pai:**[ Geração de saída](generate-output.md)
+**Tópico pai:**&#x200B;[&#x200B; Geração de saída](generate-output.md)

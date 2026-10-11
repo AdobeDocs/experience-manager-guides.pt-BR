@@ -67,4 +67,4 @@ ht-degree: 12%
 1. Clique em **Concluído**.
 
 
-**Tópico pai:**[ Ativação em massa do conteúdo publicado](conf-bulk-activation.md)
+**Tópico pai:**&#x200B;[&#x200B; Ativação em massa do conteúdo publicado](conf-bulk-activation.md)

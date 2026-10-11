@@ -63,4 +63,4 @@ Para ocultar a guia **Gerenciar** no Editor, execute as seguintes etapas:
 
 Observe que o filtro **Gerenciar** não está mais disponível.
 
-**Tópico pai:**[ Personalizar editor](customize-overview.md)
+**Tópico pai:**&#x200B;[&#x200B; Personalizar editor](customize-overview.md)

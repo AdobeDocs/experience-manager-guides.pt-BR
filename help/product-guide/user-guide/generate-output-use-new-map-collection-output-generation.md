@@ -212,4 +212,4 @@ As propriedades de metadados são atualizadas em massa para os mapas DITA seleci
 As propriedades de metadados estão sincronizadas com as propriedades do arquivo. Depois de atualizá-los, você poderá exibi-los no painel **Propriedades do arquivo** do Editor.
 
 
-**Tópico pai:**[ Geração de saída](generate-output.md)
+**Tópico pai:**&#x200B;[&#x200B; Geração de saída](generate-output.md)

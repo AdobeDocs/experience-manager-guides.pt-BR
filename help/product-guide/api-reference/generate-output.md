@@ -51,7 +51,7 @@ Detalhes do pacote:
 
 - Versão: **3.4**
 
-- Pacote: ****com.adobe.fmdita.api.maps****
+- Pacote: **&#x200B;**&#x200B;com.adobe.fmdita.api.maps&#x200B;**&#x200B;**
 
 - Detalhes da classe:
 
