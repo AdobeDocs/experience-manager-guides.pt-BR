@@ -5,30 +5,46 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/ga5xY7Qjubm-GcHwxt6QWbLU5MZ-VXTD3ML2pHFBOIE
+TQID: 'https://experienceleague.adobe.com/ga5xY7Qjubm-GcHwxt6QWbLU5MZ-VXTD3ML2pHFBOIE'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
   - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+    internal-label: APIs
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
 subfeature_v2:
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: cdab8659-8d50-4417-b6fd-762f347c13ee
+    internal-label: Report generation
+  - id: e557051c-ff02-4ff8-9421-cf452af0edd5
+    internal-label: Installation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Security
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 9267
+source-wordcount: '9271'
 ht-degree: 1%
-
 ---
-
 # Atualizar o Adobe Experience Manager Guides {#id224MBE0M0XA}
 
 >[!NOTE]
@@ -43,7 +59,7 @@ Você pode atualizar sua versão atual do Experience Manager Guides para a vers�
 - Se você estiver usando a versão 4.3.x, 4.2, 4.2.1 (Hotfix 4.2.1.3), 4.1 ou 4.1.x, será necessário atualizar para a versão 4.4 antes de atualizar para a versão 5.0.0.
 - Se você estiver usando a versão 4.0, será necessário atualizar para a versão 4.2 antes de atualizar para a versão 4.3.x.
 - Se você estiver usando a versão 3.8.5, será necessário atualizar para a versão 4.0 antes de atualizar para a versão 4.2.
-- Se você estiver usando uma versão anterior à 3.8.5, consulte a seção Atualizar Experience Manager Guides no guia de instalação específico do produto, disponível no [arquivo PDF de ajuda do Adobe Experience Manager Guides](https://helpx.adobe.com/br/xml-documentation-for-experience-manager/archive.html).
+- Se você estiver usando uma versão anterior à 3.8.5, consulte a seção Atualizar Experience Manager Guides no guia de instalação específico do produto, disponível no [arquivo PDF de ajuda do Adobe Experience Manager Guides](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 
 >[!NOTE]
@@ -76,7 +92,7 @@ Antes de executar o processo, há determinadas tarefas que você deve concluir. 
 
 >[!NOTE]
 >
-> Este processo de atualização é aplicável somente da versão 3.8.5 para a versão 4.0. Para o processo de atualização da versão 3.4 ou superior para a 3.8.5, consulte a seção *Atualizar Experience Manager Guides* no guia de instalação específico do produto, disponível em [arquivo PDF de ajuda do Adobe Experience Manager Guides](https://helpx.adobe.com/br/xml-documentation-for-experience-manager/archive.html).
+> Este processo de atualização é aplicável somente da versão 3.8.5 para a versão 4.0. Para o processo de atualização da versão 3.4 ou superior para a 3.8.5, consulte a seção *Atualizar Experience Manager Guides* no guia de instalação específico do produto, disponível em [arquivo PDF de ajuda do Adobe Experience Manager Guides](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 
 
@@ -104,7 +120,7 @@ Essa API foi projetada para avaliar o status atual do sistema e relatar se a atu
 
 | Ponto final | /bin/dxml/upgrade/3xto4x/report |
 | --- | --- |
-| Tipo de solicitação | **GET** Você pode usar um navegador da Web, no qual você tenha feito logon na instância do AEM como administrador. |
+| Tipo de solicitação | **GET** Você pode usar um navegador da Web, no qual você está conectado à instância do AEM como administrador. |
 | Resposta esperada | - Caso todos os nós necessários possam ser movidos, você receberá uma verificação aprovada. <br>- Caso haja um nó no local de destino, você receberá um erro relevante. Limpe o repositório \(delete node /var/dxml\) e reinstale o pacote de atualização e acione esse endpoint novamente. <br>**Observação:** não é um erro comum, pois o local de destino não foi usado anteriormente pelo Experience Manager Guides 3.x. <br> - Se esse script não for bem-sucedido, não continue e relate à equipe de êxito do cliente. |
 
 **API de migração de dados do sistema**
@@ -134,7 +150,7 @@ Esta API foi projetada para migrar os dados do sistema conforme mencionado na se
 
    - Se você estiver usando a versão UUID do software, procure por &quot;Versão 4.0 UUID para a solução XML Documentation para o AEM 6.5&quot;.
    - Se você estiver usando uma versão não UUID do software, procure por &quot;Versão 4.0 não UUID para a solução da XML Documentation para o AEM 6.5&quot;.
-Faça upload do pacote para a instância do servidor do AEM existente\(s\) usando o Gerenciador de pacotes do CRX e instale-o.
+     Faça upload do pacote para a instância do servidor do AEM existente\(s\) usando o Gerenciador de pacotes do CRX e instale-o.
 
    >[!NOTE]
    >
@@ -270,11 +286,11 @@ Execute as seguintes etapas para indexar o conteúdo existente e usar o novo tex
 
 - Execute uma solicitação POST no servidor \(com autenticação correta\) - `http://<server:port\>/bin/guides/map-find/indexing`. \(Opcional: é possível passar caminhos específicos dos mapas para indexá-los; por padrão, todos os mapas serão indexados \|\| Por exemplo: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`\)
 
-- A API retornará um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação do GET com a ID do trabalho para o mesmo ponto de extremidade -
+- A API retornará um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação GET com a ID do trabalho para o mesmo ponto de extremidade -
 
 `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(Por exemplo: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
 
-- Quando o trabalho for concluído, a solicitação do GET acima responderá com sucesso e mencionará se algum mapa falhou. Os mapas indexados com êxito podem ser confirmados nos logs do servidor.
+- Quando o trabalho for concluído, a solicitação GET acima responderá com sucesso e mencionará se algum mapa falhou. Os mapas indexados com êxito podem ser confirmados nos logs do servidor.
 
 Se o trabalho de atualização falhar e o log de erros mostrar o seguinte erro:
 
@@ -287,7 +303,7 @@ Isso pode ocorrer porque o índice não está configurado corretamente para a co
 1. Adicione um novo nó com o trecho de nome sob o nó.
 
    `/oak:index/damAssetLucene/indexRules/dam:Asset/properties`
-e defina as seguintes propriedades no nó:
+   e defina as seguintes propriedades no nó:
 
    ```
    name - rep:excerpt
@@ -492,10 +508,10 @@ Execute as seguintes etapas para indexar o conteúdo existente e usar o novo tex
 
 - Você também pode passar uma pasta raiz para indexar os mapas DITA de uma pasta específica (e suas subpastas). Por exemplo, `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Observe que se os parâmetros de caminhos e de raiz forem transmitidos, somente o parâmetro de caminhos será considerado.
 
-- A API retornará um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação do GET com ID do trabalho para o mesmo ponto de extremidade - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(Por exemplo: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
+- A API retornará um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação GET com a ID do trabalho para o mesmo ponto de extremidade - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(Por exemplo: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
 
 
-- Quando o trabalho for concluído, a solicitação do GET acima responderá com sucesso e mencionará se algum mapa falhou. Os mapas indexados com êxito podem ser confirmados nos logs do servidor.
+- Quando o trabalho for concluído, a solicitação GET acima responderá com sucesso e mencionará se algum mapa falhou. Os mapas indexados com êxito podem ser confirmados nos logs do servidor.
 
 
 ## Atualizar para a versão 4.3.0
@@ -547,9 +563,9 @@ Execute as seguintes etapas para o pós-processamento do conteúdo existente e u
 
    | Ponto final | /bin/guides/reports/upgrade |
    |---|---|
-   | Tipo de solicitação | **GET** |
+   | Tipo de solicitação | **OBTER** |
    | Param | jobId: transmita a jobId recebida da solicitação de publicação anterior. |
-   | Resposta esperada | - Quando o trabalho for concluído, a solicitação do GET responderá com êxito. <br> - Em caso de erro, compartilhe os logs de erro junto com a saída da API com a equipe de sucesso do cliente.  <br>Exemplo de URL: `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
+   | Resposta esperada | - Quando o trabalho for concluído, a solicitação GET responderá com êxito. <br> - Em caso de erro, compartilhe os logs de erro junto com a saída da API com a equipe de sucesso do cliente.  <br>Exemplo de URL: `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
 
 
 1. Reverta para o valor padrão ou existente anterior de `queryLimitReads` se você o alterou na etapa 1.
@@ -720,10 +736,10 @@ Execute as seguintes etapas para indexar o conteúdo existente e usar o novo tex
 - Execute uma solicitação POST no servidor \(com autenticação correta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Opcional: é possível passar caminhos específicos dos mapas para indexá-los; por padrão, todos os mapas serão indexados \|\| Por exemplo: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 
-- A API retornará um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação do GET com ID do trabalho para o mesmo ponto de extremidade - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(Por exemplo: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
+- A API retornará um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação GET com a ID do trabalho para o mesmo ponto de extremidade - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(Por exemplo: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
 
 
-- Quando o trabalho for concluído, a solicitação do GET acima responderá com sucesso e mencionará se algum mapa falhou. Os mapas indexados com êxito podem ser confirmados nos logs do servidor.
+- Quando o trabalho for concluído, a solicitação GET acima responderá com sucesso e mencionará se algum mapa falhou. Os mapas indexados com êxito podem ser confirmados nos logs do servidor.
 
 ## Etapas para pós-processar o conteúdo existente para usar o relatório de link corrompido
 
@@ -748,9 +764,9 @@ Execute as seguintes etapas para o pós-processamento do conteúdo existente e u
 
    | Ponto final | /bin/guides/reports/upgrade |
    |---|---|
-   | Tipo de solicitação | **GET** |
+   | Tipo de solicitação | **OBTER** |
    | Param | jobId: transmita a jobId recebida da solicitação de publicação anterior. |
-   | Resposta esperada | - Quando o trabalho for concluído, a solicitação do GET responderá com êxito. <br> - Em caso de erro, compartilhe os logs de erro junto com a saída da API com a equipe de sucesso do cliente.  <br>Exemplo de URL: `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
+   | Resposta esperada | - Quando o trabalho for concluído, a solicitação GET responderá com êxito. <br> - Em caso de erro, compartilhe os logs de erro junto com a saída da API com a equipe de sucesso do cliente.  <br>Exemplo de URL: `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
 
 
 1. Reverta para o valor padrão ou existente anterior de `queryLimitReads` se você o alterou na etapa 1.
@@ -922,9 +938,9 @@ Execute as seguintes etapas para indexar o conteúdo existente e usar o novo tex
 
 - Execute uma solicitação POST no servidor \(com autenticação correta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Opcional: é possível passar caminhos específicos dos mapas para indexá-los; por padrão, todos os mapas serão indexados \|\| Por exemplo: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
-- A API retornará um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação do GET com ID do trabalho para o mesmo ponto de extremidade - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(Por exemplo: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
+- A API retornará um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação GET com a ID do trabalho para o mesmo ponto de extremidade - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(Por exemplo: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
 
-- Quando o trabalho for concluído, a solicitação do GET acima responderá com sucesso e mencionará se algum mapa falhou. Os mapas indexados com êxito podem ser confirmados nos logs do servidor.
+- Quando o trabalho for concluído, a solicitação GET acima responderá com sucesso e mencionará se algum mapa falhou. Os mapas indexados com êxito podem ser confirmados nos logs do servidor.
 
 ## Etapas para pós-processar o conteúdo existente para usar o relatório de link corrompido
 
@@ -949,9 +965,9 @@ Execute as seguintes etapas para o pós-processamento do conteúdo existente e u
 
    | Ponto final | /bin/guides/reports/upgrade |
    |---|---|
-   | Tipo de solicitação | **GET** |
+   | Tipo de solicitação | **OBTER** |
    | Param | jobId: transmita a jobId recebida da solicitação de publicação anterior. |
-   | Resposta esperada | - Quando o trabalho for concluído, a solicitação do GET responderá com êxito. <br> - Em caso de erro, compartilhe os logs de erro junto com a saída da API com a equipe de sucesso do cliente.  <br>Exemplo de URL: `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
+   | Resposta esperada | - Quando o trabalho for concluído, a solicitação GET responderá com êxito. <br> - Em caso de erro, compartilhe os logs de erro junto com a saída da API com a equipe de sucesso do cliente.  <br>Exemplo de URL: `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
 
 1. Reverta para o valor padrão ou existente anterior de `queryLimitReads` se você o alterou na etapa 1.
 
@@ -985,7 +1001,7 @@ Procure por `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript Co
 >
 > Você deve verificar se o nó ainda está presente e o status do trabalho.
 
-**GET**: `http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/1683190032886.json`
+**OBTER**: `http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/1683190032886.json`
 
 
 
@@ -1137,9 +1153,9 @@ Execute as seguintes etapas para indexar o conteúdo existente:
 
 - Execute uma solicitação POST no servidor \(com autenticação correta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Opcional: é possível passar caminhos específicos dos mapas para indexá-los; por padrão, todos os mapas serão indexados || Exemplo: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
-- A API retornará um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação do GET com a ID do trabalho para o mesmo ponto de extremidade - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(por exemplo: ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
+- A API retornará um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação GET com a ID do trabalho para o mesmo ponto de extremidade - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(por exemplo: ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
-- Quando o trabalho for concluído, a solicitação do GET acima responderá com sucesso e mencionará se algum mapa falhou. Os mapas indexados com êxito podem ser confirmados nos logs do servidor.
+- Quando o trabalho for concluído, a solicitação GET acima responderá com sucesso e mencionará se algum mapa falhou. Os mapas indexados com êxito podem ser confirmados nos logs do servidor.
 
 
 >[!NOTE]
@@ -1292,9 +1308,9 @@ Execute as seguintes etapas para indexar o conteúdo existente:
 
 - Execute uma solicitação POST no servidor \(com autenticação correta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Opcional: é possível passar caminhos específicos dos mapas para indexá-los; por padrão, todos os mapas serão indexados || Exemplo: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
-- A API retornará um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação do GET com a ID do trabalho para o mesmo ponto de extremidade - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(por exemplo: ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
+- A API retornará um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação GET com a ID do trabalho para o mesmo ponto de extremidade - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(por exemplo: ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
-- Quando o trabalho for concluído, a solicitação do GET acima responderá com sucesso e mencionará se algum mapa falhou. Os mapas indexados com êxito podem ser confirmados nos logs do servidor.
+- Quando o trabalho for concluído, a solicitação GET acima responderá com sucesso e mencionará se algum mapa falhou. Os mapas indexados com êxito podem ser confirmados nos logs do servidor.
 
 
 >[!NOTE]
@@ -1459,9 +1475,9 @@ Execute as seguintes etapas para indexar o conteúdo existente:
 
 - Execute uma solicitação POST no servidor \(com autenticação correta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Opcional: é possível passar caminhos específicos dos mapas para indexá-los; por padrão, todos os mapas serão indexados || Exemplo: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
-- A API retornará um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação do GET com a ID do trabalho para o mesmo ponto de extremidade - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(por exemplo: ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
+- A API retornará um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação GET com a ID do trabalho para o mesmo ponto de extremidade - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(por exemplo: ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
-- Quando o trabalho for concluído, a solicitação do GET acima responderá com sucesso e mencionará se algum mapa falhou. Os mapas indexados com êxito podem ser confirmados nos logs do servidor.
+- Quando o trabalho for concluído, a solicitação GET acima responderá com sucesso e mencionará se algum mapa falhou. Os mapas indexados com êxito podem ser confirmados nos logs do servidor.
 
 
 >[!NOTE]

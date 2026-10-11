@@ -1,13 +1,19 @@
 ---
 title: Perguntas frequentes sobre desempenho de publicação e escalabilidade no Adobe Experience Manager Guides
 description: Saiba mais sobre as perguntas frequentes sobre desempenho de publicação e escalabilidade no Adobe Experience Manager Guides.
-source-git-commit: f188c2827a9e27249d0162c9f9913e090b29672d
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1666'
 ht-degree: 1%
-
 ---
-
 
 # Processamento de ativos
 
@@ -39,47 +45,47 @@ As etapas principais de processamento permanecem funcionais consistentes, mas ag
 ### Aprimoramentos de arquitetura
 
 - **Integração de banco de dados de gráfico**:
-   - Transição do JCR hierárquico para um banco de dados de gráficos nativo
-   - Permite a manipulação eficiente de relacionamentos e dependências
-   - Elimina a complexidade da simulação de operações de gráficos em armazenamento hierárquico
+  - Transição do JCR hierárquico para um banco de dados de gráficos nativo
+  - Permite a manipulação eficiente de relacionamentos e dependências
+  - Elimina a complexidade da simulação de operações de gráficos em armazenamento hierárquico
 - **Processamento distribuído multithread**:
-   - O processamento é executado em vários pods em um ambiente de nuvem
-   - Remove a dependência em um único nó líder
-   - Permite escalabilidade horizontal e execução paralela
+  - O processamento é executado em vários pods em um ambiente de nuvem
+  - Remove a dependência em um único nó líder
+  - Permite escalabilidade horizontal e execução paralela
 - **Eliminação de dependência de mapa pai:**
-   - Remove a necessidade de trajeto explícito do gráfico
-   - Reduz as operações de I/O e a latência de processamento
-   - Simplifica o pipeline de processamento
+  - Remove a necessidade de trajeto explícito do gráfico
+  - Reduz as operações de I/O e a latência de processamento
+  - Simplifica o pipeline de processamento
 - **Alocação de ID exclusiva sincronizada**
-   - A coordenação centralizada garante:
-   - Nenhuma duplicação de IDs de documento
-   - Consistência entre nós distribuídos
-   - Mantém a integridade referencial em um ambiente simultâneo
+  - A coordenação centralizada garante:
+  - Nenhuma duplicação de IDs de documento
+  - Consistência entre nós distribuídos
+  - Mantém a integridade referencial em um ambiente simultâneo
 - **Banco de dados escalonável nativo em nuvem (hospedado pela AWS)**
-   - Camada de banco de dados altamente disponível e resiliente
-   - Suporta dimensionamento elástico com base na carga de trabalho
-   - Melhora a confiabilidade e o desempenho geral do sistema
+  - Camada de banco de dados altamente disponível e resiliente
+  - Suporta dimensionamento elástico com base na carga de trabalho
+  - Melhora a confiabilidade e o desempenho geral do sistema
 
 ![](images/workflow.png)
 
 ## Vantagens da nova arquitetura
 
 - Melhorias de desempenho:
-   - A execução paralela reduz significativamente o tempo de processamento
-   - A eliminação de operações de travessia intensa reduz a latência
-   - O tratamento otimizado de gráficos melhora a velocidade da resolução de dependências
+  - A execução paralela reduz significativamente o tempo de processamento
+  - A eliminação de operações de travessia intensa reduz a latência
+  - O tratamento otimizado de gráficos melhora a velocidade da resolução de dependências
 - Escalabilidade:
-   - O dimensionamento horizontal entre pods permite lidar com grandes volumes de assimilação
-   - A infraestrutura nativa em nuvem se adapta dinamicamente às demandas de carga de trabalho
+  - O dimensionamento horizontal entre pods permite lidar com grandes volumes de assimilação
+  - A infraestrutura nativa em nuvem se adapta dinamicamente às demandas de carga de trabalho
 - Confiabilidade e disponibilidade:
-   - O processamento distribuído remove um único ponto de falha
-   - O banco de dados hospedado pela AWS garante alta disponibilidade e tolerância a falhas
+  - O processamento distribuído remove um único ponto de falha
+  - O banco de dados hospedado pela AWS garante alta disponibilidade e tolerância a falhas
 - Ganhos de eficiência:
-   - Redução da sobrecarga de I/O devido à remoção da travessia do mapa principal
-   - Melhor utilização dos recursos nos nós de computação
+  - Redução da sobrecarga de I/O devido à remoção da travessia do mapa principal
+  - Melhor utilização dos recursos nos nós de computação
 - Integridade dos dados:
-   - A alocação de ID sincronizada mantém a consistência entre sistemas distribuídos
-   - Mantém a robustez ao permitir a simultaneidade
+  - A alocação de ID sincronizada mantém a consistência entre sistemas distribuídos
+  - Mantém a robustez ao permitir a simultaneidade
 
 ## Configurar banco de dados
 
@@ -257,7 +263,7 @@ As implantações do Experience Manager Guides configuradas para usar um banco d
 Essa verificação de integridade permite que os usuários confirmem se o banco de dados está configurado, acessível e funcionando conforme esperado. Para verificar o status da conexão DB, siga as etapas abaixo.
 
 1. Abra qualquer navegador ou cliente REST
-2. Acione uma chamada do GET usando esta [URL](https://host:port/bin/guides/v1/system/status)
+2. Acione uma chamada GET usando esta [URL](https://host:port/bin/guides/v1/system/status)
 3. Os campos abaixo podem ser usados para determinar a configuração do sistema e o status de integridade
    1. isDatabase:
       - true: o ambiente está configurado com o banco de dados.

@@ -5,23 +5,29 @@ feature: Content Management
 role: User
 hide: true
 exl-id: 35663aa1-9e52-4909-aaee-0f01cf47dc64
-TQID: https://experienceleague.adobe.com/njK8ud-RQO0Ev2PnOnXuB7OUUorvKtnMHwLBx8cD1jI
+TQID: 'https://experienceleague.adobe.com/njK8ud-RQO0Ev2PnOnXuB7OUUorvKtnMHwLBx8cD1jI'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: 2afda568-c433-5cad-ab97-19b8847286b0
+    internal-label: Content Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 3144
+source-wordcount: '3144'
 ht-degree: 0%
-
 ---
-
 # Gerenciar arquivos e pastas {#id2116G0L08XA}
 
 Esta seção explica como o AEM Guides lida com as operações básicas de arquivo, como copiar, colar, arrastar e soltar e excluir arquivos. Os seguintes cenários são possíveis:
@@ -157,18 +163,18 @@ Para mover arquivos em massa, execute as seguintes etapas:
 
    - **Caminho do Source\(s\)**: especifique o local das pastas que deseja mover.
 
-      - Selecionar **Pasta de Navegação**  <img src="images/browse-folder-icon.svg" width="25"> para abrir a caixa de diálogo procurar arquivo. Selecione as pastas que deseja mover e clique em **Selecionar** para concluir o processo.
+     - Selecionar **Pasta de Navegação**  <img src="images/browse-folder-icon.svg" width="25"> para abrir a caixa de diálogo procurar arquivo. Selecione as pastas que deseja mover e clique em **Selecionar** para concluir o processo.
 
-      - Você também pode digitar ou copiar e colar o local de origem. Pressione Enter para adicionar a pasta à lista.
+     - Você também pode digitar ou copiar e colar o local de origem. Pressione Enter para adicionar a pasta à lista.
 
-        As pastas selecionadas são listadas junto com seu caminho. Passe o mouse sobre a tag da pasta para visualizar o caminho completo.
-      - Você também pode remover qualquer pasta clicando em **Remover** <img src="images/remove-folder.svg" width="25"> próximo à pasta.
+       As pastas selecionadas são listadas junto com seu caminho. Passe o mouse sobre a tag da pasta para visualizar o caminho completo.
+     - Você também pode remover qualquer pasta clicando em **Remover** <img src="images/remove-folder.svg" width="25"> próximo à pasta.
 
 
    - **Caminho de destino**: especifique o local para onde deseja mover as pastas de origem.
 
-      - Selecionar **Pasta de Navegação** <img src="images/browse-folder-icon.svg" width="25"> para abrir a caixa de diálogo procurar arquivo. Selecione o local para onde deseja mover as pastas de origem. e clique em Selecionar para concluir o processo.
-      - Também é possível digitar ou copiar e colar o caminho de destino.
+     - Selecionar **Pasta de Navegação** <img src="images/browse-folder-icon.svg" width="25"> para abrir a caixa de diálogo procurar arquivo. Selecione o local para onde deseja mover as pastas de origem. e clique em Selecionar para concluir o processo.
+     - Também é possível digitar ou copiar e colar o caminho de destino.
 
      A pasta selecionada é exibida junto com seu caminho na caixa de texto.
 
@@ -206,20 +212,20 @@ Para mover arquivos em massa, execute as seguintes etapas:
 
    - **Caminho do Source\(s\)**: especifique o local das pastas que deseja mover.
 
-      - Selecionar **Pasta de Navegação**  <img src="images/browse-folder-icon.svg" width="25"> para abrir a caixa de diálogo procurar arquivo. Selecione as pastas que deseja mover e clique em **Selecionar** para concluir o processo.
+     - Selecionar **Pasta de Navegação**  <img src="images/browse-folder-icon.svg" width="25"> para abrir a caixa de diálogo procurar arquivo. Selecione as pastas que deseja mover e clique em **Selecionar** para concluir o processo.
 
-      - Você também pode digitar ou copiar e colar o local de origem. Pressione Enter para adicionar a pasta à lista.
+     - Você também pode digitar ou copiar e colar o local de origem. Pressione Enter para adicionar a pasta à lista.
 
-        As pastas selecionadas são listadas junto com seu caminho. Passe o mouse sobre a tag da pasta para visualizar o caminho completo.
-      - Você também pode remover qualquer pasta clicando em **Remover** <img src="images/remove-folder.svg" width="25"> próximo à pasta.
+       As pastas selecionadas são listadas junto com seu caminho. Passe o mouse sobre a tag da pasta para visualizar o caminho completo.
+     - Você também pode remover qualquer pasta clicando em **Remover** <img src="images/remove-folder.svg" width="25"> próximo à pasta.
 
 
    - **Caminho de destino**: especifique o local para onde deseja mover as pastas de origem.
 
-      - Selecionar **Pasta de Navegação** <img src="images/browse-folder-icon.svg" width="25"> para abrir a caixa de diálogo procurar arquivo. Selecione o local para onde deseja mover as pastas de origem. e clique em Selecionar para concluir o processo.
-      - Também é possível digitar ou copiar e colar o caminho de destino.
+     - Selecionar **Pasta de Navegação** <img src="images/browse-folder-icon.svg" width="25"> para abrir a caixa de diálogo procurar arquivo. Selecione o local para onde deseja mover as pastas de origem. e clique em Selecionar para concluir o processo.
+     - Também é possível digitar ou copiar e colar o caminho de destino.
 
-        A pasta selecionada é exibida junto com seu caminho na caixa de texto.
+       A pasta selecionada é exibida junto com seu caminho na caixa de texto.
 
    - Clique em **Movimentação em massa**.
 

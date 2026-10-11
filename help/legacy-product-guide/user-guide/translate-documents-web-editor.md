@@ -5,29 +5,42 @@ feature: Authoring, Features of Web Editor, Translation
 role: User
 hide: true
 exl-id: a288a4d5-5c24-4021-8bfa-4b68cecf630f
-TQID: https://experienceleague.adobe.com/PXjRYkh69-gjZ5PFKWxh2LwUd1b8l0R7GNdKMq8jrrw
+TQID: 'https://experienceleague.adobe.com/PXjRYkh69-gjZ5PFKWxh2LwUd1b8l0R7GNdKMq8jrrw'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
+  - id: 626b0638-bd2d-504c-8ccd-53d63b856710
+    internal-label: Translation
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+    internal-label: Document state
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
   - id: fd456af4-cb12-4a34-8cc4-b74adf885626
+    internal-label: Content translation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 2358
+source-wordcount: '2363'
 ht-degree: 0%
-
 ---
-
 # Traduzir documentos do Editor da Web {#id21BKF0Z0YZF}
 
 >[!TIP]
@@ -119,7 +132,7 @@ Antes de executar etapas neste procedimento, verifique se você criou a raiz de 
 
    - Você pode optar por **Criar uma estrutura** somente para o projeto de tradução.
    - Você pode optar por **Criar um novo projeto de tradução XLIFF** para converter o conteúdo XML no XLIFF (XML Localization Interchange File Format). XLIFF é um formato aberto baseado em XML usado para padronizar a transferência de dados entre várias ferramentas usadas no processo de tradução de conteúdo. O AEM Guides é compatível com a versão 1.2 do XLIFF.
-Em um projeto XLIFF, o conteúdo é exportado para o formato XLIFF padrão do setor, que pode ser fornecido para fornecedores de tradução. O formato XLIFF permite a potencial reutilização de segmentos que você já traduziu durante a fase de tradução.\
+     Em um projeto XLIFF, o conteúdo é exportado para o formato XLIFF padrão do setor, que pode ser fornecido para fornecedores de tradução. O formato XLIFF permite a potencial reutilização de segmentos que você já traduziu durante a fase de tradução.\
      Após a tradução do conteúdo XLIFF, ele pode ser importado para o AEM Guides, criando uma versão traduzida do projeto DITA original.
 
      >[!NOTE]
@@ -130,8 +143,8 @@ Em um projeto XLIFF, o conteúdo é exportado para o formato XLIFF padrão do se
    - Se você já tiver um projeto de tradução, poderá adicionar tópicos a esse projeto. Selecione a opção Adicionar a **Projeto de tradução existente** na lista Projeto e escolha um projeto na lista Projeto de tradução existente. Você pode classificar esses projetos por ordem mais recente, crescente ou decrescente.
 
 - Se você selecionar **Projeto de tradução existente**, essa operação atualizará a entrada do ativo existente no projeto se o ativo já estiver adicionado e o estado do trabalho de tradução relacionado estiver no estado *Rascunho*.
-   - Se o idioma de destino não estiver presente no projeto, um novo projeto será criado para o projeto de tradução em um único idioma e um novo trabalho será criado para o projeto de tradução em vários idiomas.
-   - Se o trabalho já estiver presente para o idioma de destino e o status do trabalho não estiver no estado *Rascunho*, um novo trabalho será criado no mesmo projeto para adicionar os ativos para tradução.
+  - Se o idioma de destino não estiver presente no projeto, um novo projeto será criado para o projeto de tradução em um único idioma e um novo trabalho será criado para o projeto de tradução em vários idiomas.
+  - Se o trabalho já estiver presente para o idioma de destino e o status do trabalho não estiver no estado *Rascunho*, um novo trabalho será criado no mesmo projeto para adicionar os ativos para tradução.
 
   >[!NOTE]
   >

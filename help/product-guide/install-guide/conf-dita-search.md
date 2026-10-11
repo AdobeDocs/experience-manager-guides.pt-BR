@@ -5,25 +5,32 @@ exl-id: b920ba7f-e8fc-4af6-aa8a-b8516b1cffc0
 feature: Search Configuration
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/KIGBsoM0RSx7U8Woz5H49CRQ3iotlE2JwDtzJyuiDRg
+TQID: 'https://experienceleague.adobe.com/KIGBsoM0RSx7U8Woz5H49CRQ3iotlE2JwDtzJyuiDRg'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: c1a26c73-5f45-427a-a313-7cb7df2c304e
+    internal-label: Search configuration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1704
+source-wordcount: '1704'
 ht-degree: 1%
-
 ---
-
 # Configurar pesquisa para a interface do usuário do AEM Assets {#id192SC800MY4}
 
 Por padrão, o AEM não reconhece o conteúdo DITA e, portanto, não fornece nenhum mecanismo para pesquisar conteúdo DITA em seu repositório. O AEM Guides permite adicionar o recurso de pesquisa de conteúdo DITA no repositório do AEM.
@@ -190,7 +197,7 @@ Execute as seguintes etapas para adicionar elementos ou atributos DITA personali
 
 1. Abra a página Configuração do console da Web do Adobe Experience Manager. O URL padrão para acessar a página de configuração é:
 
-   http://&lt;server name\>:<port\>/system/console/configMgr
+   http://<server name\>:<port\>/system/console/configMgr
 
 1. Procure e clique no pacote *com.adobe.fmdita.config.ConfigManager*.
 
@@ -214,7 +221,7 @@ Execute as seguintes etapas para habilitar a opção de extração de metadados 
 
 1. Abra a página Configuração do console da Web do Adobe Experience Manager. O URL padrão para acessar a página de configuração é:
 
-   http://&lt;server name\>:<port\>/system/console/configMgr
+   http://<server name\>:<port\>/system/console/configMgr
 
 1. Procure e clique no pacote *com.adobe.fmdita.config.ConfigManager*.
 

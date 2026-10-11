@@ -2,13 +2,19 @@
 title: Notas de versão | Novidades na versão 2026.05.0 do Adobe Experience Manager Guides
 description: Saiba mais sobre os recursos novos e aprimorados da versão 2026.05.0 do Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 2c9e91a85bb9cfbfec05dbe5c2e9eae9e240d571
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
-
 ---
-
 # Novidades da versão 2026.05.0 (maio de 2026)
 
 Este artigo aborda os recursos novos e aprimorados introduzidos com a versão 2026.05.0 do Adobe Experience Manager Guides as a Cloud Service.
@@ -46,10 +52,10 @@ Uma interface atualizada melhora a usabilidade geral, tornando a navegação e a
 
 - **Configurações consolidadas do Editor em nível de usuário**: um novo painel de configurações centralizado que oferece aos Autores um melhor controle sobre o comportamento do editor, permitindo que os usuários gerenciem preferências com mais facilidade a partir de um único local. As opções de configuração incluem, capacidade de ativar/desativar:
 
-   - Espaços ininterruptos no modo Autor
-   - Configurações de visibilidade de tag com ou sem atributos
-   - Comentários XML no modo Autor
-   - Menu de inserção rápida para inserção de elemento no editor
+  - Espaços ininterruptos no modo Autor
+  - Configurações de visibilidade de tag com ou sem atributos
+  - Comentários XML no modo Autor
+  - Menu de inserção rápida para inserção de elemento no editor
 
   ![](assets/editor-settings-dialog.png){width="350"}
 
@@ -82,9 +88,9 @@ Fornece ferramentas aprimoradas e flexibilidade para simplificar a criação e e
 
 - **Criação de tabela aprimorada**: melhora a experiência geral de criação de tabela com interações mais intuitivas e eficientes para criar e gerenciar tabelas.
 
-   - Interações fluidas e intuitivas: insira facilmente linhas e colunas, juntamente com suporte de arrastar e soltar para reordenar linhas e colunas.
-   - Barra de ferramentas contextual: Acesse ações específicas da tabela, como formatação, alinhamento, mesclagem e outras ações adicionais diretamente na tabela.
-   - Configuração de tabelas: adicione várias linhas ou colunas em uma única ação, reduzindo etapas repetitivas e melhorando a eficiência.
+  - Interações fluidas e intuitivas: insira facilmente linhas e colunas, juntamente com suporte de arrastar e soltar para reordenar linhas e colunas.
+  - Barra de ferramentas contextual: Acesse ações específicas da tabela, como formatação, alinhamento, mesclagem e outras ações adicionais diretamente na tabela.
+  - Configuração de tabelas: adicione várias linhas ou colunas em uma única ação, reduzindo etapas repetitivas e melhorando a eficiência.
 
   ![](assets/config-table.png){width="650"}
 

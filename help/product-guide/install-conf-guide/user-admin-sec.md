@@ -5,13 +5,28 @@ feature: User Management
 role: Admin
 level: Experienced
 exl-id: c5ac6537-d7e8-4408-b85d-b82d7c038591
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: dc1f7602-db3c-4ad4-a440-ff999bb16455
+    internal-label: User management
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '796'
 ht-degree: 10%
-
 ---
-
 # Administração e segurança do usuário {#id181AED00G5Z}
 
 Para acessar e configurar recursos na AEM Guides, é necessário criar usuários. Esses usuários podem receber permissões para acessar todos os recursos ou recursos específicos na AEM Guides. Saiba como configurar e manter a autorização do usuário e também entenda a teoria por trás de como a autenticação e a autorização funcionam no AEM.
@@ -85,11 +100,11 @@ A lista a seguir contém algumas recomendações e pontos relacionados a grupos 
 
 - Por padrão, *Editores* recebem acesso e permissões nas seguintes pastas do DAM:
 
-   - `/content/fmdita` -\> Leitura e Gravação (Aplica-se a: ![](./assets/Smock_Cloud_18_N.svg))<br>``/var/dxml``-\> Leitura e Gravação (Aplica-se a: ![](./assets/Smock_Building_18_N.svg))
+  - `/content/fmdita` -\> Leitura e Gravação (Aplica-se a: ![](./assets/Smock_Cloud_18_N.svg))<br>``/var/dxml``-\> Leitura e Gravação (Aplica-se a: ![](./assets/Smock_Building_18_N.svg))
 
-   - `/content/dam/fmdita-outputs` -\> Ler e Gravar
+  - `/content/dam/fmdita-outputs` -\> Ler e Gravar
 
-   - `/content/output/sites` -\> Ler e Gravar
+  - `/content/output/sites` -\> Ler e Gravar
 
   Você deve conceder permissões explícitas de leitura e gravação ao editor se estiver usando qualquer outro local, exceto os locais de publicação padrão mencionados acima.
 

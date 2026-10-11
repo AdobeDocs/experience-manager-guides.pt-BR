@@ -5,25 +5,34 @@ feature: Publishing
 hide: true
 role: User
 exl-id: 682ca543-86f3-46b0-9e05-7e011a4cf7b8
-TQID: https://experienceleague.adobe.com/38V0xB6s3mfj40zBgsw9wBMAzP9xaxlGK3zGFdOUykQ
+TQID: 'https://experienceleague.adobe.com/38V0xB6s3mfj40zBgsw9wBMAzP9xaxlGK3zGFdOUykQ'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: e2fdbf15-a7e4-4d2a-84cc-bd581e74b56d
+    internal-label: Disclaimer
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 211
+source-wordcount: '211'
 ht-degree: 0%
-
 ---
-
 # Noções básicas sobre as predefinições de saída {#understanding_output_settings}
 
 O AEM Guides oferece suporte à criação de saída nos formatos mais populares, como AEM Site, PDF, Knowledge Base, HTML5, EPUB, JSON e saída personalizada por meio do DITA-OT, Native PDF e FMPS. Usando esses formatos de saída, é possível configurar várias predefinições de saída. Uma predefinição de saída representa um formato de saída personalizado no qual você deseja que o conteúdo seja publicado.

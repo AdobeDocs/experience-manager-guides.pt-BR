@@ -4,19 +4,23 @@ description: Gerencie tarefas de revisão no Painel de revisão no AEM Guides. S
 exl-id: 4fef5653-1c73-4b68-adf2-b24145555142
 feature: Reviewing
 role: User
-TQID: https://experienceleague.adobe.com/VHKsjdRxz2MOIAmYGi7fFDKJNPU3rTR466d-jj-QojU
+TQID: 'https://experienceleague.adobe.com/VHKsjdRxz2MOIAmYGi7fFDKJNPU3rTR466d-jj-QojU'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 72792fc7-6fd6-5775-a2c2-99253bb26dc2
+    internal-label: Reviewing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1440
+source-wordcount: '1440'
 ht-degree: 0%
-
 ---
-
 # Gerenciar tarefas de revisão usando o Painel de revisão {#id2056B0Y70X4}
 
 O fluxo de trabalho de gerenciamento de revisão pode incluir várias tarefas. Por exemplo, você pode adicionar revisores a um tópico específico ou estender o prazo para uma revisão. Você também pode querer marcar a tarefa de revisão como concluída se achar que todas as partes interessadas deram seu feedback. Essas tarefas podem ser gerenciadas usando o Painel de revisão.
@@ -139,9 +143,9 @@ O relatório de status da tarefa de revisão contém os seguintes detalhes:
 
 - Nome\(s\) do Revisor a quem a tarefa de revisão é atribuída.
 - A coluna Status indica o status da revisão. O Status pode ser um dos seguintes:
-   - **Não iniciado**: o Revisor ainda não abriu a tarefa de revisão.
-   - **Em andamento**: o Revisor abriu a tarefa de revisão e está em processo de revisão do tópico.
-   - **Concluído**: o Revisor concluiu a revisão e marcou a tarefa como concluída na Interface de Revisão. A tarefa de revisão está na Caixa de entrada de notificação do AEM para cada Revisor.
+  - **Não iniciado**: o Revisor ainda não abriu a tarefa de revisão.
+  - **Em andamento**: o Revisor abriu a tarefa de revisão e está em processo de revisão do tópico.
+  - **Concluído**: o Revisor concluiu a revisão e marcou a tarefa como concluída na Interface de Revisão. A tarefa de revisão está na Caixa de entrada de notificação do AEM para cada Revisor.
 - Quando um Revisor abre um link de revisão e navega até um tópico específico, esse tópico é adicionado à lista Tópicos revisados. Isso ajuda os autores a determinar se os revisores abriram ou não suas respectivas seções. Se forem feitos comentários, eles serão mostrados entre parênteses.
 - Número total de comentários feitos em todos os tópicos. No caso de vários tópicos em revisão, o número de comentários para cada tópico é mencionado \(entre parênteses\) em relação ao nome do tópico.
 - A data em que qualquer tópico foi acessado pela última vez pelo Revisor.

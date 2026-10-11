@@ -5,13 +5,28 @@ feature: Profiles
 role: Admin
 level: Experienced
 exl-id: 0292a9cd-0f94-4039-8758-1740106feb71
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '6082'
 ht-degree: 0%
-
 ---
-
 # Configurar perfis globais ou de nível de pasta {#id181AH2003PF}
 
 Em uma empresa, diferentes grupos ou produtos podem usar diferentes modelos de criação, modelos de saída, perfis de atributo condicional \(ou esquemas de assunto\) e configurações do Editor. Configurar esses apenas em nível corporativo \(ou global\) pode dificultar a experiência dos autores, pois eles verão modelos ou perfis que não são relevantes para eles.
@@ -30,21 +45,21 @@ Ao usar o bloco Perfis de pasta nas configurações de Guias, você pode definir
 
 - **Modelos**: use esta guia para configurar os modelos que os autores usarão para criar ou publicar conteúdo DITA. Os seguintes modelos de tópico estão disponíveis prontamente:
 
-   - Glossário
+  - Glossário
 
-   - Referência
+  - Referência
 
-   - Tópico
+  - Tópico
 
-   - Conceito
+  - Conceito
 
-   - Tarefa
+  - Tarefa
 
-   - Resolução de problemas
+  - Resolução de problemas
 
-   - Em branco
+  - Em branco
 
-   - DITAVAL
+  - DITAVAL
 
   >[!NOTE]
   >
@@ -52,33 +67,33 @@ Ao usar o bloco Perfis de pasta nas configurações de Guias, você pode definir
 
   Juntamente com os modelos de tópico, também é possível definir os modelos de mapa que serão disponibilizados aos autores. Os seguintes modelos de mapa estão disponíveis prontamente:
 
-   - Mapa
+  - Mapa
 
-   - Bookmap
+  - Bookmap
 
 - **Predefinição de Saída**: Semelhante aos Modelos, há cinco predefinições de saída pré-configuradas:
 
-   - Site do AEM
+  - Site do AEM
 
-   - PDF
+  - PDF
 
-   - HTML 5
+  - HTML 5
 
-   - EPUB
+  - EPUB
 
-   - Personalizado
+  - Personalizado
 
   Os editores podem usar essas predefinições de saída prontas para uso para publicar conteúdo. Essas predefinições podem ser configuradas por um administrador do perfil global ou de nível de pasta. Após configuradas, as predefinições de publicação ficam disponíveis para os editores para mapas DITA recém-criados. Você também pode aplicar predefinições de publicação a mapas DITA existentes. Consulte [Aplicar alterações predefinidas](#id18AGD0K0OHS) para obter mais detalhes.
 
 - **Configurações do Editor XML**: use esta guia para personalizar a aparência e os vários recursos do Editor. As seguintes configurações configuráveis estão disponíveis para o Editor:
 
-   - Configuração da interface do Editor de XML
-   - Layout de página do editor XML somente para Cloud Service
-   - Configuração do editor XML somente para Cloud Service
-   - Layout do modelo CSS
-   - Trechos do Editor de XML
-   - Rótulos da versão do conteúdo XML
-   - Roteiro \(somente no nível da pasta\)
+  - Configuração da interface do Editor de XML
+  - Layout de página do editor XML somente para Cloud Service
+  - Configuração do editor XML somente para Cloud Service
+  - Layout do modelo CSS
+  - Trechos do Editor de XML
+  - Rótulos da versão do conteúdo XML
+  - Roteiro \(somente no nível da pasta\)
 
 Você pode configurar ambos — perfil global e perfil de nível de pasta. Em um perfil de nível de pasta, é possível definir as pastas nas quais as configurações serão aplicáveis. Essas configurações incluem atributos condicionais, modelos, predefinições de saída e configurações do Editor de XML. As predefinições condicionais, os modelos e as configurações do Editor XML são então disponibilizados aos autores que trabalham nas pastas configuradas. Da mesma forma, os editores terão acesso às predefinições de saída configuradas definidas nas pastas configuradas.
 

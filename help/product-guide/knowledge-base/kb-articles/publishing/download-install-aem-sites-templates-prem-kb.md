@@ -5,21 +5,31 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: aa843a72-ff0d-4c9a-a87d-48d099087b5e
-TQID: https://experienceleague.adobe.com/d-eC5SHwAeCMEZhZJzN-12rdk37TjqBy0SYXC6lfbUI
+TQID: 'https://experienceleague.adobe.com/d-eC5SHwAeCMEZhZJzN-12rdk37TjqBy0SYXC6lfbUI'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: e557051c-ff02-4ff8-9421-cf452af0edd5
+    internal-label: Installation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 469
+source-wordcount: '469'
 ht-degree: 0%
-
 ---
-
 # Baixar e instalar modelos do AEM Sites (serviços no local)
 
 Este guia fornece instruções passo a passo para instalar e configurar o modelo mais recente do AEM Guides para gerar o AEM Sites. Siga estas etapas para instalar os pacotes necessários, criar e configurar predefinições e gerar o AEM Sites.
@@ -32,19 +42,19 @@ Antes de continuar com a configuração, verifique se os seguintes pré-requisit
 
 - **Permissões necessárias**: certifique-se de ter as seguintes permissões:
 
-   - Acesso ao **Portal de Distribuição de Software** para baixar os pacotes necessários
-   - Acesso ao **Gerenciador de Pacotes do CRX** para instalar pacotes no AEM.
-   - Permissões para criar e modificar predefinições no AEM Guides.
+  - Acesso ao **Portal de Distribuição de Software** para baixar os pacotes necessários
+  - Acesso ao **Gerenciador de Pacotes do CRX** para instalar pacotes no AEM.
+  - Permissões para criar e modificar predefinições no AEM Guides.
 
 - **Baixar Pacotes**: baixe os seguintes pacotes do **Portal de Distribuição de Software**:
 
-   - Pacote de componentes: no local-guides-components.all-1.x.0.zip
-   - Pacote do Sites: aemg-docs.all-1.x.0.zip
+  - Pacote de componentes: no local-guides-components.all-1.x.0.zip
+  - Pacote do Sites: aemg-docs.all-1.x.0.zip
 
 ## Instalação de pacote usando o Gerenciador de pacotes do CRX
 
 1. **Instalar o Pacote de Componentes:**
-   1. Navegue até [**CRX Package Manager**](http://&lt;your-aem-instance>/crx/packmgr).
+   1. Navegue até [**CRX Package Manager**](http://<your-aem-instance>/crx/packmgr).
    2. Carregue e instale o pacote no local-guides-components.all-1.x.0.zip.
 
 2. **Instalar o Pacote do Sites:** Carregue e instale o pacote aemg-docs.all-1.x.0.zip usando o Gerenciador de Pacotes do CRX.

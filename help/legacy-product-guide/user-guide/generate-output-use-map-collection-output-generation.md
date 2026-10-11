@@ -5,26 +5,35 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 4215618f-2203-4c55-adba-cdec76322e9e
-TQID: https://experienceleague.adobe.com/8iPLO5J6Xuh1eHb3SXAdFN2Vg-MgJqnHpHZyW-tDE-8
+TQID: 'https://experienceleague.adobe.com/8iPLO5J6Xuh1eHb3SXAdFN2Vg-MgJqnHpHZyW-tDE-8'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1211
+source-wordcount: '1211'
 ht-degree: 1%
-
 ---
-
 # Usar coleção de mapas para geração de saída {#id1723F20G0HS}
 
 Em qualquer organização, um produto pode ter vários tipos de documentação. Como um especialista em publicação, você gostaria de controlar qual saída deseja gerar para qual documento. Além disso, deve haver uma maneira de publicar vários documentos em lote com um único clique.
@@ -68,17 +77,17 @@ Para criar uma Coleção de mapas e adicionar mapas DITA à coleção, execute a
 As seguintes opções de filtro e detalhes do mapa são mostrados na página de coleção:
 
 - **Filtro:** O painel mais recente mostra os seguintes filtros:
-   - **Modificado**: você pode selecionar Sim ou Não. Se você selecionar sim, somente os mapas DITA modificados serão exibidos na tabela Mapas e predefinições.
-   - **Predefinição**: selecione uma predefinição para a qual deseja filtrar os arquivos de mapa. Por exemplo, se você escolher a predefinição *Site do AEM*, serão exibidos apenas os mapas que tiverem a predefinição de saída *Site do AEM* configurada.
-   - **Idioma**: você pode selecionar qualquer um dos códigos de idioma disponíveis e exibir somente o idioma selecionado na tabela Mapas e Predefinições.
+  - **Modificado**: você pode selecionar Sim ou Não. Se você selecionar sim, somente os mapas DITA modificados serão exibidos na tabela Mapas e predefinições.
+  - **Predefinição**: selecione uma predefinição para a qual deseja filtrar os arquivos de mapa. Por exemplo, se você escolher a predefinição *Site do AEM*, serão exibidos apenas os mapas que tiverem a predefinição de saída *Site do AEM* configurada.
+  - **Idioma**: você pode selecionar qualquer um dos códigos de idioma disponíveis e exibir somente o idioma selecionado na tabela Mapas e Predefinições.
 - Tabela **Mapas e Predefinições**: a tabela Mapas e Predefinições apresenta informações nas seguintes colunas:
-   - **Mapa**: mostra o título do arquivo de mapa DITA.
-   - **Nome do arquivo**: mostra o nome do arquivo do mapa DITA.
-   - **Idioma**: mostra o idioma do mapa DITA.
-   - **Predefinição**: mostra o tipo de predefinição de saída configurado no arquivo de mapa.
-   - **Linha de Base**: mostra a linha de base que é usada pela predefinição de saída.  Se nenhuma linha de base for usada, ela mostrará um hífen &quot;-&quot;
-   - **Modificado**: indica se o mapa DITA é atualizado após a última publicação. Com base nessas informações, você pode decidir se deseja republicar a saída desse mapa DITA ou não.
-   - **Última Geração**: mostra a data e a hora da última saída gerada.
+  - **Mapa**: mostra o título do arquivo de mapa DITA.
+  - **Nome do arquivo**: mostra o nome do arquivo do mapa DITA.
+  - **Idioma**: mostra o idioma do mapa DITA.
+  - **Predefinição**: mostra o tipo de predefinição de saída configurado no arquivo de mapa.
+  - **Linha de Base**: mostra a linha de base que é usada pela predefinição de saída.  Se nenhuma linha de base for usada, ela mostrará um hífen &quot;-&quot;
+  - **Modificado**: indica se o mapa DITA é atualizado após a última publicação. Com base nessas informações, você pode decidir se deseja republicar a saída desse mapa DITA ou não.
+  - **Última Geração**: mostra a data e a hora da última saída gerada.
 
 ## Configurar e gerar a saída usando uma coleção de mapas
 
