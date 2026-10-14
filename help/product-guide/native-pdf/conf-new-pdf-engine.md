@@ -21,19 +21,37 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: f89becea89888f7dec81e18c9220dcabda8f4e7d
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 2%
+source-wordcount: '161'
+ht-degree: 4%
 ---
 
 # Configurar o mecanismo nativo do PDF v2
 
 O novo mecanismo de publicação do PDF Nativo, ou seja, o _Mecanismo do PDF Nativo v2_, fornece recursos de renderização do PDF atualizados e correções para _Problemas do mecanismo do PDF Nativo v1_.
 
+>[!BEGINTABS]
+>[!TAB Cloud Service]
+
 Use as instruções fornecidas em [Substituições de configuração](../install-conf-guide/download-install-config-override.md) para criar o arquivo de configuração. No arquivo de configuração, forneça os seguintes detalhes (propriedade):
 
 | PID | Chave de propriedade | Valor de propriedade |
 |-----|--------------|----------------|
 | `com.adobe.fmdita.publish.config.GuidesPublishConfiguratorService` | `guides.publish.config` | `{"PDF_ENGINE": "v2"}` <br> Valor padrão: `v1` |
+
+>[!TAB No local]
+
+
+Para implantações no local, sua disponibilidade depende das versões do AEM e do Java.
+
+O _Mecanismo nativo do PDF v2_ requer o **Java 17 ou posterior**.
+
+- **AEM 6.5:** o mecanismo de publicação nativo do PDF v2 não tem suporte porque o AEM 6.5 é executado no Java 8.
+- **AEM 6.5 LTS:** o mecanismo de Publicação nativo do PDF v2 está habilitado por padrão. Nenhuma configuração adicional é necessária.
+
+Se preferir voltar para o _Native PDF engine v2_ com o AEM 6.5 LTS, desinstale o pacote do PDF publisher:
+`/crx/packmgr/index.jsp#/etc/packages/com.adobe.guides/pdf-publisher-package-3.0.0.zip` do Gerenciador de pacotes do CRX.
+
+>[!ENDTABS]
 
