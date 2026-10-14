@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 07928af0e6f028d01ff9e879d7ff79093a661a5d
 workflow-type: tm+mt
-source-wordcount: '2331'
+source-wordcount: '2351'
 ht-degree: 0%
 ---
 # Experiência da página inicial do Experience Manager Guides
@@ -180,7 +180,11 @@ O Repositório serve como um hub centralizado para descobrir pastas e arquivos c
 
 ### Mapear coleções
 
-O Experience Manager Guides oferece a capacidade de organizar seu conteúdo para publicação usando um painel chamado **Mapear coleções**. Para usar este recurso, selecione **Mapear coleções** no painel esquerdo. Você será direcionado para a página Mapear coleções na **Interface do usuário do Assets**, onde é possível [usar a coleção de mapas para geração de saída.](./generate-output-use-map-collection-output-generation.md)
+>[!NOTE]
+>
+> A nova coleção de mapas está disponível no Experience Manager Guides as a Cloud Service a partir da versão 2026.08.0. Entre em contato com a equipe de Sucesso do cliente para habilitar esse recurso.
+
+A coleção de mapas no Adobe Experience Manager Guides permite que os especialistas de publicação organizem vários documentos em uma única coleção, controlem a saída gerada para cada documento e gerem e publiquem saídas em lotes com eficiência, a partir de um painel centralizado. Saiba mais sobre [como usar a nova coleção de mapas para geração de saída.](./generate-output-use-new-map-collection-output-generation.md)
 
 ### Publicação em massa
 
