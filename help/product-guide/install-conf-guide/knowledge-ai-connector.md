@@ -4,7 +4,7 @@ description: Saiba como conectar o AEM Guides com a IA de conhecimento do Guides
 feature: Introduction
 role: Admin
 level: Experienced
-source-git-commit: 9f0ca688ae040c9f2f8a0aba0ac4547301a659ad
+source-git-commit: cdc177110720dbbe944a361142911a2e365ef8fa
 workflow-type: tm+mt
 source-wordcount: '663'
 ht-degree: 1%
@@ -44,7 +44,7 @@ Verifique se você tem o seguinte acesso e permissões antes de iniciar:
 
 A IA de conhecimento usa uma conta de serviço para se autenticar com segurança e acessar conteúdo.
 
-1. Siga as instruções em [Configurar IMT de Microsserviços](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/configure-microservices-imt-config)
+1. Siga as instruções em [Configurar IMT de Microsserviços](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/configure-microservices-imt-config)
 
 1. Crie uma nova Conta de serviço e baixe o arquivo de credenciais JSON gerado.
 
@@ -62,15 +62,13 @@ Depois de concluída, a conta de serviço deve ser associada com êxito ao seu a
 Para conceder acesso à IA do conhecimento, identifique a Conta de serviço.
 
 1. Abra o arquivo JSON da conta de serviço baixado.
-1. Procure pelo nome de campo `technical_account_email`.
+1. Procure pelo nome de campo `technical_account_email`. Exibir um valor semelhante ao seguinte:
 
-Exibir um valor semelhante ao seguinte:
-
-```json
-{
-"technical_account_email": "a1b2c3d4e5f6@techacct.adobe.com"
-}
-```
+   ```json
+   {
+   "technical_account_email": "a1b2c3d4e5f6@techacct.adobe.com"
+   }
+   ```
 
 1. Copie o endereço de email associado a `technical_account_email`. Você usará esse endereço de email na próxima etapa.
 
