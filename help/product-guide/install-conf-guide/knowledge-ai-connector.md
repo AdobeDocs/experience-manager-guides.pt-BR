@@ -4,9 +4,9 @@ description: Saiba como conectar o AEM Guides com a IA de conhecimento do Guides
 feature: Introduction
 role: Admin
 level: Experienced
-source-git-commit: cdc177110720dbbe944a361142911a2e365ef8fa
+source-git-commit: 05976e2a408e57256a454f181bb93d900dc091ab
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '665'
 ht-degree: 1%
 ---
 
@@ -44,7 +44,7 @@ Verifique se você tem o seguinte acesso e permissões antes de iniciar:
 
 A IA de conhecimento usa uma conta de serviço para se autenticar com segurança e acessar conteúdo.
 
-1. Siga as instruções em [Configurar IMT de Microsserviços](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/configure-microservices-imt-config)
+1. Siga as instruções em [Configurar IMT de Microsserviços](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/configure-microservices-imt-config).
 
 1. Crie uma nova Conta de serviço e baixe o arquivo de credenciais JSON gerado.
 
