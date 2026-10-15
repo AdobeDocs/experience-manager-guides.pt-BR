@@ -1,6 +1,6 @@
 ---
-title: Criar e gerenciar uma nova linha de base (Beta) no console Mapa
-description: Crie e gerencie uma nova linha de base (Beta) no console de mapa no Adobe Experience Manager Guides.
+title: Criar e gerenciar nova linha de base no console Mapa
+description: Crie e gerencie uma nova linha de base no console de mapas no Adobe Experience Manager Guides.
 feature: Authoring, Features of Web Editor, Publishing
 role: User
 exl-id: 574806bb-21c5-41fe-b8be-4c6506ce8cce
@@ -22,16 +22,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 4abf673f636ffd20d087c99b5112d8504929a6ee
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1400'
 ht-degree: 0%
 ---
-# Nova linha de base (Beta) no Experience Manager Guides
+# Nova linha de base no Experience Manager Guides
 
 >[!NOTE]
 >
-> - Este artigo se aplica à nova linha de base, atualmente disponível como um recurso do *Beta*, que oferece melhor desempenho e estabilidade disponíveis na versão 2026.04.0 do Experience Manager Guides.
+> - Este artigo se aplica à nova linha de base que oferece melhor desempenho e estabilidade disponíveis com a versão 2026.04.0 do Experience Manager Guides.
 > - Para ativar o novo recurso de linha de base para o Cloud Service, entre em contato com a Equipe de sucesso do cliente.
 > - Para habilitar o novo recurso de linha de base para No Local, exiba [Configurar Nova Linha de Base](../install-conf-guide/conf-new-baseline-on-prem.md).
 
