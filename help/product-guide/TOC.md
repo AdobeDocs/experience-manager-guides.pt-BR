@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leia a documentação do produto do Adobe Experience Manager Guides.
 breadcrumb-title: Documentação do AEM Guides
-source-git-commit: 2123962f8c168928c9b0a1ee1331e5cfd86db319
+source-git-commit: a9f16f7a9a4458a89664c1b8bdae41453d4d8c3f
 workflow-type: tm+mt
-source-wordcount: '2647'
-ht-degree: 10%
+source-wordcount: '2654'
+ht-degree: 9%
 ---
 
 # [!DNL Adobe Experience Manager Guides] {#using}
@@ -590,6 +590,7 @@ ht-degree: 10%
     - [Indexar tópicos em uma tarefa de revisão](./install-conf-guide/index-review-tasks.md)
     - [Mapeamento de componentes do AEM Sites](./install-conf-guide/component-mapping.md)
     - [Configurar predefinições do modelo para geração de saída](./install-conf-guide/template-presets-output-generation.md)
+    - [Conectar o AEM Guides com a IA de conhecimento do Guides](./install-conf-guide/knowledge-ai-connector.md)
   - Apêndice {#appendix}
     - [Apêndice](./install-conf-guide/aemg-appendix.md)
 

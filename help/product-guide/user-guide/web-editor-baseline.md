@@ -35,16 +35,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 4abf673f636ffd20d087c99b5112d8504929a6ee
 workflow-type: tm+mt
-source-wordcount: '1929'
+source-wordcount: '1927'
 ht-degree: 0%
 ---
 # Criar e gerenciar linhas de base do console de Mapa {#id223MB0ZF043}
 
 >[!NOTE]
 >
-> Uma nova Linha de base (Beta) que oferece melhor desempenho e estabilidade está disponível com a versão 2026.03.0 do Experience Manager Guides. Para usar essa linha de base, entre em contato com a Equipe de sucesso do cliente para ativar o recurso. Saiba mais sobre a [Nova Linha de Base (Beta)](./web-editor-baseline-v2.md).
+> Uma nova linha de base que oferece desempenho e estabilidade aprimorados está disponível com a versão 2026.03.0 do Experience Manager Guides. Para usar essa linha de base, entre em contato com a Equipe de sucesso do cliente para ativar o recurso. Saiba mais sobre a [Nova Linha de Base](./web-editor-baseline-v2.md).
 
 O recurso Linha de base permite criar uma versão dos tópicos e ativos que podem ser usados para publicação ou tradução. Por exemplo, se o seu mapa DITA tem `topicA` e `imageA`, você pode criar uma Linha de Base para usar a 3ª versão do `topicA`, mas a 4ª versão do `ImageA`. Depois de ter uma Linha de base em vigor, você poderá publicar ou traduzir tópicos de diferentes versões em uma única etapa.
 
