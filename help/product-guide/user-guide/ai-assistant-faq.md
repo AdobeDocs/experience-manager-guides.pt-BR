@@ -31,7 +31,7 @@ O Assistente de IA no Adobe Experience Manager Guides foi criado para garantir a
 
 ## O conteúdo fornecido ao Assistente de IA é compartilhado com outras pessoas?
 
-Não, o conteúdo e os prompts fornecidos ao Assistente de IA não são compartilhados com outros clientes. O Assistente de IA processa suas entradas somente para gerar respostas no seu espaço de trabalho e não as usa para treinar modelos para outras pessoas. Para obter mais detalhes, consulte as [diretrizes de usuário da IA gerativa da Adobe](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
+Não, o conteúdo e os prompts fornecidos ao Assistente de IA não são compartilhados com outros clientes. O Assistente de IA processa suas entradas somente para gerar respostas no seu espaço de trabalho e não as usa para treinar modelos para outras pessoas. Para obter mais detalhes, consulte as [diretrizes de usuário da IA gerativa da Adobe](https://www.adobe.com/br/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
 
 ## Posso fornecer feedback sobre as respostas do Assistente de IA?
 
