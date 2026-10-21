@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leia a documentação do produto do Adobe Experience Manager Guides.
 breadcrumb-title: Documentação do AEM Guides
-source-git-commit: a9f16f7a9a4458a89664c1b8bdae41453d4d8c3f
+source-git-commit: 564c62de840aee9858d3c0476db6343bf306785f
 workflow-type: tm+mt
-source-wordcount: '2654'
+source-wordcount: '2657'
 ht-degree: 9%
 ---
 
@@ -224,7 +224,7 @@ ht-degree: 9%
     - [Sobre [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
     - [!DNL AEM Guides] trabalhando e os principais recursos {#aemg-works-features}
       - [Como [!DNL AEM Guides] funciona](./user-guide/intro-how-dxml-works.md)
-      - [Recursos da chave [!DNL AEM Guides] &#x200B;](./user-guide/intro-dxml-features.md)
+      - [Recursos da chave [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
   - Home page {#home-page}
     - [Experiência da página inicial [!DNL AEM Guides]](./user-guide/intro-home-page.md)
     - [Interface do repositório](./user-guide/home-page-repository-view.md)
@@ -437,7 +437,7 @@ ht-degree: 9%
     - Gerenciamento de desempenho {#performance-management}
       - [Carregamento paginado de arquivos e pastas](./user-guide/paginated-loading-assets.md)
 - Guia do usuário (interface antiga) {#user-guide-old-ui}
-  - [Visão geral do AEM Guides](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+  - [Visão geral do AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Instalação e configuração {#install-conf-guide}
   - [Download, instalação e atualização](./install-conf-guide/introduction.md)
   - Processo de instalação do Cloud Service {#deploy-conf-aemg-cs}
@@ -632,6 +632,7 @@ ht-degree: 9%
     - [Novos recursos de UX e IA no AEM Guides](./knowledge-base/expert-sessions/new-ux-and-ai-capabilities.md)
     - [Publicação no AEM Guides](./knowledge-base/expert-sessions/publishing-in-aem-guides-aug25.md)
     - [Revisão de conteúdo no AEM Guides](./knowledge-base/expert-sessions/review-in-aem-guides-jan2026.md)
+    - [AEM GUIDES - MCP](./knowledge-base/expert-sessions/guides-mcp-oct2026.md)
   - Artigos {#kb-articles}
     - [Visão geral](./knowledge-base/kb-articles/introduction.md)
     - Criação {#authoring}
