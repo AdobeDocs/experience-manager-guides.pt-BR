@@ -39,11 +39,11 @@ Nesta sessão, você deverá:
 
 ## Recursos relacionados
 
-- **Configurar o AEM Guides MCP Server** - [no Experience League](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-conf-guide/aemg-integrations/mcp/configure-aem-guides-mcp)
+- **Configurar o AEM Guides MCP Server** - [no Experience League](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using/install-conf-guide/aemg-integrations/mcp/configure-aem-guides-mcp)
 
-- **Usando o AEM Guides MCP Server** - [no Experience League](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/mcp-servers/overview)
+- **Usando o AEM Guides MCP Server** - [no Experience League](https://experienceleague.adobe.com/pt-br/docs/experience-manager-learn/cloud-service/ai/mcp-servers/overview)
 
-- **Fórum da comunidade** - Para interações da comunidade específicas de sessão no Experience League, visite [Fórum do AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Fórum da comunidade** - Para interações da comunidade específicas de sessão no Experience League, visite [Fórum do AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=pt).
 
 >[!NOTE]
 >
