@@ -2,7 +2,7 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leia a documentação do produto do Adobe Experience Manager Guides.
 breadcrumb-title: Documentação do AEM Guides
-source-git-commit: 564c62de840aee9858d3c0476db6343bf306785f
+source-git-commit: 09b8fabaa75d656ae1465d741c8aac8307ce6231
 workflow-type: tm+mt
 source-wordcount: '2657'
 ht-degree: 9%
@@ -224,7 +224,7 @@ ht-degree: 9%
     - [Sobre [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
     - [!DNL AEM Guides] trabalhando e os principais recursos {#aemg-works-features}
       - [Como [!DNL AEM Guides] funciona](./user-guide/intro-how-dxml-works.md)
-      - [Recursos da chave [!DNL AEM Guides] &#x200B;](./user-guide/intro-dxml-features.md)
+      - [Recursos da chave [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
   - Home page {#home-page}
     - [Experiência da página inicial [!DNL AEM Guides]](./user-guide/intro-home-page.md)
     - [Interface do repositório](./user-guide/home-page-repository-view.md)
@@ -437,7 +437,7 @@ ht-degree: 9%
     - Gerenciamento de desempenho {#performance-management}
       - [Carregamento paginado de arquivos e pastas](./user-guide/paginated-loading-assets.md)
 - Guia do usuário (interface antiga) {#user-guide-old-ui}
-  - [Visão geral do AEM Guides](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+  - [Visão geral do AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Instalação e configuração {#install-conf-guide}
   - [Download, instalação e atualização](./install-conf-guide/introduction.md)
   - Processo de instalação do Cloud Service {#deploy-conf-aemg-cs}
@@ -590,7 +590,7 @@ ht-degree: 9%
     - [Indexar tópicos em uma tarefa de revisão](./install-conf-guide/index-review-tasks.md)
     - [Mapeamento de componentes do AEM Sites](./install-conf-guide/component-mapping.md)
     - [Configurar predefinições do modelo para geração de saída](./install-conf-guide/template-presets-output-generation.md)
-    - [Conectar o AEM Guides com a IA de conhecimento do Guides](./install-conf-guide/knowledge-ai-connector.md)
+    - {hide-from-toc}[Conectar o AEM Guides com a IA de conhecimento do Guides](./install-conf-guide/knowledge-ai-connector.md)
   - Apêndice {#appendix}
     - [Apêndice](./install-conf-guide/aemg-appendix.md)
 
