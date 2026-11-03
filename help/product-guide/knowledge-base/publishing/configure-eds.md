@@ -22,9 +22,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 63ae0f947d50646bed34cd815db6b9fb585fc015
+source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
 workflow-type: tm+mt
-source-wordcount: '1916'
+source-wordcount: '1913'
 ht-degree: 1%
 ---
 # EXPERIENCE MANAGER GUIDES e EDGE DELIVERY SERVICES
@@ -39,7 +39,7 @@ Para habilitar a publicação do Experience Manager Guides para o EDS, você dev
 2. [Criar e configurar um perfil de publicação para EDS no Experience Manager Guides](#create-and-configure-a-publish-profile-for-eds-in-experience-manager)
 3. [Personalizar saída usando blocos EDS](#customize-output-using-eds-blocks)
 
-Para obter uma apresentação rápida em vídeo, exiba [Publicação no AEM Guides](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25).
+Para obter uma apresentação rápida em vídeo, exiba [Publicação no AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25).
 
 
 

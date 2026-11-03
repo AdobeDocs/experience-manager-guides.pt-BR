@@ -2,9 +2,9 @@
 title: Notas de versão | Novidades na versão 2026.11.0 do Adobe Experience Manager Guides
 description: Explore novos recursos na versão 2026.11.0 do Adobe Experience Manager Guides, incluindo a ramificação no nível do mapa e a criação de conteúdo do Assistente de IA.
 role: Leader
-source-git-commit: ef5e433214f15b12102af7c9e38031536183ca72
+source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1508'
 ht-degree: 0%
 ---
 
@@ -18,7 +18,7 @@ Saiba mais sobre [as instruções de atualização para a versão 2026.11.0](../
 
 ## Introdução à ramificação e mesclagem em nível de mapa
 
-O Adobe Experience Manager Guides apresenta o recurso de ramificação e mesclagem no nível do mapa, permitindo que os autores trabalhem em várias versões de documentação, atualizações de recursos e correções críticas em paralelo, sem afetar o conteúdo principal. Os autores podem criar ramificações isoladas de um mapa DITA e suas dependências, garantindo que as edições, bloqueios e visualizações permaneçam específicas para cada ramificação.
+O Experience Manager Guides apresenta o recurso de ramificação e mesclagem no nível do mapa, permitindo que os autores trabalhem em várias versões de documentação, atualizações de recursos e correções críticas em paralelo, sem afetar o conteúdo principal. Os autores podem criar ramificações isoladas de um mapa DITA e suas dependências, garantindo que as edições, bloqueios e visualizações permaneçam específicas para cada ramificação.
 
 Esse recurso ajuda as equipes de documentação a gerenciar fluxos de trabalho paralelos, colaborar com eficiência e manter a estabilidade da versão principal da documentação. É possível:
 
@@ -40,11 +40,11 @@ Saiba mais sobre [Ramificação e mesclagem](../user-guide/branching-overview.md
 >
 >Para usar o Assistente de IA no modo Agente, sua organização deve ser integrada ao Adobe CX Enterprise Coworker e ter os créditos necessários.
 
-Agora, você pode usar o **Assistente do AI** para criar e importar conteúdo DITA usando prompts em linguagem natural. Com a tecnologia **Adobe CX Enterprise Coworker**, as novas habilidades do **Create** e do **Import** simplificam a criação de conteúdo estruturado e ajudam os autores a trabalhar com conteúdo DITA sem exigir uma ampla experiência em DITA.
+Agora você pode usar o **Assistente de IA** para criar e importar conteúdo DITA usando prompts em linguagem natural. Com a tecnologia **Adobe CX Enterprise Coworker**, as novas habilidades do **Create** e do **Import** simplificam a criação de conteúdo estruturado e ajudam os autores a trabalhar com conteúdo DITA sem exigir uma ampla experiência em DITA.
 
 - **Criar:** Gerar tópicos e mapas DITA a partir de prompts em linguagem natural, documentos de referência ou conteúdo existente, usando modelos de repositório. Você pode revisar o conteúdo gerado antes de salvá-lo e refinar iterativamente o conteúdo novo ou existente para atender aos seus requisitos.
-- **Importar:** converta arquivos PDF, DOCX ou Markdown existentes em tópicos e mapas DITA estruturados. Você pode visualizar e revisar o conteúdo convertido antes de salvá-lo no repositório.
-- **Marcação inteligente:** obtenha recomendações de marcas relevantes para seu conteúdo com base na taxonomia de sua organização. A experiência aprimorada permite que os administradores de perfis de pastas configurem namespaces de taxonomia nas configurações do Workspace, garantindo recomendações de tags consistentes e controladas.
+- **Importar:** converta arquivos PDF, DOCX ou Markdown existentes em tópicos e mapas DITA estruturados. Você pode revisar o conteúdo convertido antes de salvá-lo no repositório.
+- **Marcação inteligente:** obtenha recomendações de marcas relevantes para seu conteúdo com base na taxonomia de sua organização. A experiência aprimorada do permite que os administradores configurem namespaces de taxonomia nas configurações do Workspace, garantindo recomendações de tags consistentes e controladas.
 
 O painel **Assistente de IA** também introduz um modo de tela cheia e uma seção **Conversações ativas** para obter uma experiência de conversação aprimorada.
 
@@ -55,7 +55,7 @@ Para obter mais detalhes, consulte [Usar o Assistente de IA no modo Agencial](..
 
 ## Novo painel do assistente de Ajuda no Experience Manager Guides
 
-O recurso **Ajuda Inteligente** alimentado por IA generativa está disponível por meio do painel **Assistente de Ajuda** dedicado, acessível nas interfaces da Página Inicial, do Editor e do Console de Mapas. O painel oferece uma experiência de pesquisa conversacional, permitindo que você faça perguntas em linguagem natural e encontre rapidamente informações relevantes na documentação do Experience Manager Guides. Isso ajuda você a acessar orientação contextual e resolver consultas sem sair do Editor, simplificando seu fluxo de trabalho de criação.
+O recurso **Ajuda Inteligente** alimentado por IA generativa está disponível por meio do painel **Assistente de Ajuda** dedicado, acessível nas interfaces de console de Página Inicial, Editor e Mapa. O painel oferece uma experiência de pesquisa conversacional, permitindo que você faça perguntas em linguagem natural e encontre rapidamente informações relevantes na documentação do Experience Manager Guides. Isso ajuda você a acessar orientação contextual e resolver consultas sem sair do Editor, simplificando seu fluxo de trabalho de criação.
 
 Os administradores podem gerenciar a disponibilidade do painel do assistente de Ajuda por meio das configurações do Workspace. A seção **Assistente de Ajuda da IA** inclui um botão para ativar ou desativar o painel para os usuários.
 
@@ -99,9 +99,9 @@ Esses comentários aparecem no painel **Comentários** junto com comentários de
 
 ## Aprimoramentos de publicação
 
-### Exibir e gerenciar o histórico de saída no Console do Mapa
+### Exibir e gerenciar o histórico de saída no console Mapa
 
-O console de Mapa no Experience Manager Guides agora inclui uma guia **Histórico de saída**, permitindo que você visualize e gerencie tarefas de geração de saída diretamente do Editor sem navegar até o painel de mapa.
+O console Mapa no Experience Manager Guides agora inclui uma guia **Histórico de saída**, permitindo visualizar e gerenciar tarefas de geração de saída diretamente do Editor sem navegar até o painel Mapa.
 
 A guia fornece uma exibição consolidada de tarefas de geração de saída, incluindo status, detalhes predefinidos, data de geração e duração. Você pode pesquisar e filtrar tarefas, cancelar gerações em andamento, acessar saídas e logs gerados e remover entradas concluídas do histórico. Você também pode exportar o histórico de saída como um arquivo CSV para análise adicional. Os status de geração de saída usam indicadores de cor compatíveis com o painel Mapa.
 

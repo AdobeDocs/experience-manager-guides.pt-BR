@@ -1,9 +1,9 @@
 ---
 title: Criar tópicos e mapas com o Assistente de IA
 description: Saiba como redigir novos tópicos e mapas DITA a partir de suas notas, especificações ou conteúdo colado com o AI Assistant e, em seguida, analisá-los antes de salvar.
-source-git-commit: f936d474c6efcea89b244ccd25e03b065a478250
+source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '602'
 ht-degree: 0%
 ---
 
@@ -24,13 +24,13 @@ Você pode anexar um arquivo, selecionar um arquivo existente como referência p
 
    - **Usando atalho**: Digite `/` no campo Prompt e escolha **Adicionar referência do repositório** para escolher o arquivo do Repositório (ou **Adicionar arquivos do dispositivo** para carregar o arquivo do seu computador).
 
-   - **Usando o ícone Anexar arquivos ou adicionar contexto (+)**: adiciona arquivos do sistema local.
+   - **Usando o ícone Anexar arquivos ou adicionar contexto (+)**: adicionar arquivos do sistema local.
 
    - **Arrastar e soltar**: arraste e solte o arquivo que deseja rascunhar do sistema diretamente no espaço de prompt.
 
 1. *(Opcional)* No prompt inicial, selecione `[file]`. Selecione o tópico existente cujo tom você deseja que o rascunho corresponda. Você pode escolher o tópico do repositório ou de uma coleção. O nome do tópico substitui `[file]` no prompt.
 
-   ![Selecione o espaço reservado para arquivo para escolher o tópico](images/sample-create.png){width="350"}
+   ![Selecione o espaço reservado para arquivo para escolher o tópico](images/sample-create.png){width="650"}
 
 1. Selecione **Enviar**.
 
@@ -38,7 +38,7 @@ Você pode anexar um arquivo, selecionar um arquivo existente como referência p
 
 1. Responda a qualquer pergunta de acompanhamento do Assistente de IA para fornecer os detalhes necessários para gerar o conteúdo.
 
-   ![Selecione o espaço reservado para arquivo para escolher o tópico](images/folder-create.png){width="350"}
+   ![Selecione o espaço reservado para arquivo para escolher o tópico](images/folder-create.png){width="650"}
 
 1. Selecione **Visualizar** para revisar o tópico gerado.
 
