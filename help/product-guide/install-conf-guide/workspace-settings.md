@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 2eb766dc53b23f750dd6eb232ab21025b0c0c46d
+source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
 workflow-type: tm+mt
-source-wordcount: '2804'
+source-wordcount: '2799'
 ht-degree: 0%
 ---
 # Configurações do Workspace
@@ -55,15 +55,11 @@ As configurações Gerais permitem definir as configurações para usar o Editor
 
 ![](assets/editor-setting-general-agentic.png){width="350"}
 
-- **Recursos de IA**
+- **Recursos de IA**: use esta opção para habilitar o recurso Assistente de IA no Experience Manager Guides. O Assistente de IA está disponível de dois modos: **Agente** e **Padrão**. Você pode escolher entre os dois modos ativando os respectivos botões de opção.
 
   >[!NOTE]
   >
   > Para usar o recurso Assistente de IA em modo Agêntico em seu ambiente, entre em contato com a equipe de Sucesso do cliente.
-
-  Selecione para ativar o recurso Assistente de IA na Experience Manager Guides. Desmarque para desativar o recurso.
-
-  O Assistente de IA está disponível de dois modos: **Agente** e **Padrão**. Você pode escolher entre os dois modos ativando os respectivos botões de opção.
 
   - **Agente**: depois de habilitar esta opção, você pode acessar o Assistente de IA Agencial na barra de navegação do aplicativo Experience Manager Guides. Você também pode configurar os namespaces de taxonomia usados pela habilidade Marcação inteligente para gerar recomendações de tags. O AI Assistant considera somente as tags dos namespaces selecionados, com base nas tags definidas no AEM. Para obter detalhes, consulte [Modo de agente no Assistente de IA](../user-guide/ai-assistant.md#ai-assistant-modes).
 

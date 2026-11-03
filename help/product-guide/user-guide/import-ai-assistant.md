@@ -1,7 +1,7 @@
 ---
 title: Importar documentos como tópicos com o Assistente de IA
 description: Saiba como converter arquivos do PDF, Word e Markdown em tópicos DITA e um mapa com o AI Assistant e revise o resultado antes de salvá-lo.
-source-git-commit: f936d474c6efcea89b244ccd25e03b065a478250
+source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 0%
@@ -25,7 +25,7 @@ A habilidade **Importar** no modo de agente do Assistente de IA ajuda a converte
 
    - **Usando atalho**: Digite `/` no campo Prompt e escolha **Adicionar referência do repositório** para escolher o arquivo do Repositório (ou **Adicionar arquivos do dispositivo** para carregar o arquivo do seu computador).
 
-   - **Usando o ícone Anexar arquivos ou adicionar contexto (+)**: adiciona arquivos do sistema local para fornecer o conteúdo de importação.
+   - **Usando o ícone Anexar arquivos ou adicionar contexto (+)**: adicione arquivos do sistema local para fornecer o conteúdo de importação.
 
    - **Arrastar e soltar**: arraste e solte o arquivo que deseja importar do sistema diretamente no espaço de prompt.
 
@@ -39,7 +39,7 @@ A habilidade **Importar** no modo de agente do Assistente de IA ajuda a converte
 
    ![](images/folder-import.png)
 
-1. Escolha o nível de cabeçalho que se tornará um tópico. Por exemplo, H2 como mostrado na captura de tela.
+1. Escolha o nível de cabeçalho que se tornará um tópico. Por exemplo, H2, conforme mostrado na captura de tela.
 
    Responda a quaisquer perguntas de acompanhamento adicionais que pareçam fornecer os detalhes necessários para o processo de importação.
 
