@@ -390,4 +390,4 @@ Você também pode gerenciar os rótulos de versão do arquivo no painel Histór
 
 
 
-**Tópico pai:**[ Gerenciar conteúdo](authoring.md)
+**Tópico pai:**&#x200B;[&#x200B; Gerenciar conteúdo](authoring.md)

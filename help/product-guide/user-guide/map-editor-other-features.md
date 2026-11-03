@@ -173,4 +173,4 @@ Depois de corrigir um problema, selecione **Regenerar** na barra de ferramentas 
 Selecione **Baixar relatório** para baixar o relatório no formato XLS, com informações detalhadas para cada resultado.
 
 
-**Tópico pai:**[ Introdução ao Editor de Mapa](map-editor.md)
+**Tópico pai:**&#x200B;[&#x200B; Introdução ao Editor de Mapa](map-editor.md)

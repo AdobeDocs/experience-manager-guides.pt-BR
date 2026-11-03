@@ -428,4 +428,4 @@ Os comentários adicionados ficam visíveis para os revisores quando acessam a t
 
 
 
-**Tópico pai:**[ Introdução à revisão](review.md)
+**Tópico pai:**&#x200B;[&#x200B; Introdução à revisão](review.md)

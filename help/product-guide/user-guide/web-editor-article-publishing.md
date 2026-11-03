@@ -55,7 +55,7 @@ Execute as seguintes etapas para gerar uma saída baseada em artigo:
 1. Selecione **Gerar saída** na parte superior para gerar a saída.
 1. No prompt **Confirmar arquivos para publicação**, selecione os arquivos que deseja publicar e confirme selecionando **Publicar**.
 
-   ![Novo(a) ](images/knowledge-base-confirm-files-for-publishing.png)
+   ![Novo(a) &#x200B;](images/knowledge-base-confirm-files-for-publishing.png)
 
    Você visualizará o status do processo de geração de saída. A coluna **Tópicos** lista os tópicos para os quais a saída está sendo gerada, enquanto a coluna **Status** exibe o status de publicação de cada tópico.
 
@@ -113,4 +113,4 @@ Para usar esse recurso, verifique se o **Executar solicitações a qualquer mome
 A habilitação do suporte ao token de atualização no Experience Manager Guides habilita automaticamente o suporte ao PKCE. No entanto, a configuração correspondente também deve estar ativada no Salesforce para que a autenticação funcione com êxito.
 
 
-**Tópico pai:**[ Trabalhar com o editor](web-editor.md)
+**Tópico pai:**&#x200B;[&#x200B; Trabalhar com o editor](web-editor.md)
