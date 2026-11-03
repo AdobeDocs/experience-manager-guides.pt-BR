@@ -25,9 +25,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '5049'
+source-wordcount: '5098'
 ht-degree: 0%
 ---
 # Componentes de um modelo do PDF {#components-pdf-template}
@@ -287,14 +287,17 @@ Você pode definir o texto a ser exibido antes e depois da quebra. Por exemplo, 
   >[!NOTE]
   >
   > Ao usar uma variável de idioma no campo **Texto antes da quebra** ou **Texto após a quebra**, verifique se o texto inteiro está definido em uma única variável de idioma. Qualquer texto ou variável adicionada fora da variável de idioma nesses campos não é renderizada. Por exemplo, em vez de usar uma combinação de variáveis, como `${lng:Continued-from-page} %page-num%` no campo **Texto Após a Quebra**, use somente `${lng:Continued-from-page}` no campo e defina separadamente o valor da variável de idioma `Continued-from-page` como `Continued-from-page %page-num%`.
-* **Vincular termos do glossário à página do glossário**: selecione esta opção para mostrar os termos do glossário como hiperlinks no conteúdo e vinculá-los aos termos na página do glossário. Isso ajuda os leitores a visualizar rapidamente a definição de um termo definido no glossário.
+* **Vincular termos do glossário à página do glossário**: habilite esta opção para mostrar os termos do glossário como hiperlinks no conteúdo e vinculá-los aos termos na página do glossário. Isso ajuda os leitores a visualizar rapidamente a definição de um termo definido no glossário.
 
   Para converter os termos do glossário em hiperlinks, é necessário:
   * Habilite o **Glossário** na guia **Ordem de Layout da Página** para obter um mapa DITA.
   * Adicione o Glossário nas Páginas do Back Matter para um mapa de Livros.
 
   Se você não ativar a página Glossário, os termos do Glossário no conteúdo não serão convertidos em hiperlinks na saída do PDF.
-  <!--For more information on using table continuation markers, see Use table continuation markers.-->
+
+* **Mostrar todas as entradas do glossário**: habilite esta opção para incluir todas as entradas do glossário definidas no mapa, independentemente de o termo correspondente ser ou não referenciado no seu conteúdo. Por padrão, essa opção está desativada e somente os termos do glossário realmente usados em seu conteúdo são incluídos na página do glossário.
+
+<!--For more information on using table continuation markers, see Use table continuation markers.-->
 
 ### Layouts de página {#page-layouts}
 

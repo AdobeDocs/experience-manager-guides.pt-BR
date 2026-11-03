@@ -31,14 +31,14 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '541'
 ht-degree: 0%
 ---
 # Usar rótulos {#id164JBG0M0T1}
 
-O Adobe Experience Manager Guides permite adicionar rótulos a diferentes versões de um arquivo. Você pode usar esses rótulos para especificar a versão que deseja incluir em uma linha de base para publicação. Para obter mais informações sobre como usar rótulos para criar uma linha de base, consulte [Trabalhar com Linha de Base](generate-output-use-baseline-for-publishing.md#).
+O Adobe Experience Manager Guides permite adicionar rótulos a diferentes versões de um arquivo. Você pode usar rótulos de versão para especificar a versão de um tópico que deseja incluir em uma [linha de base](./generate-output-use-baseline-for-publishing.md) para publicação e para [gerenciar versões de arquivos não DITA](./authoring-file-management.md#work-with-media-and-other-non-dita-files), como imagens, arquivos multimídia, PDFs e arquivos ZIP.
 
 Por exemplo, se você quiser usar a *versão 1.0* de um tópico na *versão 1.0* e na *versão 1.1* do mesmo tópico na *versão 2.0*, poderá adicionar o rótulo *versão 1.0* na *versão 1.0* e na *versão 2.0* na *versão 1.1*.
 

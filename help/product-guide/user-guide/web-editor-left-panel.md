@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '11296'
+source-wordcount: '11329'
 ht-degree: 0%
 ---
 # Painel esquerdo no editor
@@ -859,7 +859,8 @@ Por exemplo, você pode criar grupos de condições de produtos como *Acrobat* e
 
 >[!NOTE]
 >
-> Digite para criar um novo grupo ou selecione um grupo existente para um determinado atributo.
+> - Digite para criar um novo grupo ou selecione um grupo existente para um determinado atributo.
+> - As condições no painel Condições são classificadas alfabeticamente com base em seu Rótulo em vez de seu Valor. A ordem de classificação é determinada pelos rótulos atribuídos às condições, independentemente dos valores correspondentes.
 
 Você pode usar `/` e definir subgrupos como `AEM Guides/Cloud Service`.
 

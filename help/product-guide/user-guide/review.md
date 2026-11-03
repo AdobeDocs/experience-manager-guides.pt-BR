@@ -21,9 +21,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '445'
 ht-degree: 0%
 ---
 # Introdução à revisão {#id1645H6010Q5}
@@ -42,6 +42,8 @@ Alguns dos principais recursos oferecidos pelo Adobe Experience Manager Guides a
 - Compartilhe uma versão atualizada do tópico para revisão no Painel de revisão.
 
 - Acesse comentários compartilhados em diferentes versões do tópico.
+- Adicione comentários a tópicos para fornecer contexto ou chamar a atenção dos revisores para um conteúdo específico.
+
 - Marque facilmente os usuários de tarefas de revisão específicas em comentários ou respostas para ações rápidas e acompanhamento. Os usuários marcados são notificados imediatamente por meio de notificações do AEM e por email.
 - Agrupar e filtrar comentários com base na versão do tópico.
 

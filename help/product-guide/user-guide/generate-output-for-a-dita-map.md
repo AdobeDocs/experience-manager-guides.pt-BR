@@ -34,9 +34,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '597'
 ht-degree: 0%
 ---
 # Gerar saída
@@ -76,6 +76,9 @@ Para exibir o log de erros, selecione **Ignorar**, passe o mouse sobre a guia de
 >
 > Se o mapa usar um arquivo DITAVAL, todas as imagens sinalizadas referenciadas no arquivo DITAVAL serão copiadas para um local relacionado ao mapa publicado na saída.  Além disso, se estiver usando vários arquivos DITAVAL para filtragem no mesmo mapa, certifique-se de usar nomes de arquivo `.ditaval` exclusivos para evitar problemas de nomes de arquivo duplicados durante a publicação.
 
+Você pode exibir o status atual da solicitação de geração de saída na guia **Histórico de saída**. Para obter mais informações, consulte [Exibir o status da tarefa de geração de saída](./generate-output-manage-process.md#view-and-manage-output-generation-tasks-from-the-editor).
+
+
 ## Gerar saída para um mapa DITA no painel Mapa
 
 Execute as seguintes etapas para gerar saída para um mapa DITA usando o painel Mapa:
@@ -91,7 +94,7 @@ Execute as seguintes etapas para gerar saída para um mapa DITA usando o painel 
 1. Selecione o ícone **Gerar** para iniciar o processo de geração de saída.
 
 
-Você pode visualizar o status atual da solicitação de geração de saída na guia **Saídas**. Para obter mais informações, consulte [Exibir o status da tarefa de geração de saída](./generate-output-manage-process.md#view-the-status-of-the-output-generation-task).
+Você pode visualizar o status atual da solicitação de geração de saída na guia **Saídas**. Para obter mais informações, consulte [Exibir o status da tarefa de geração de saída](./generate-output-manage-process.md#view-and-manage-output-generation-tasks-from-the-editor).
 
 >[!IMPORTANT]
 >

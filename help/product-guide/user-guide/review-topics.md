@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 63ae0f947d50646bed34cd815db6b9fb585fc015
 workflow-type: tm+mt
-source-wordcount: '3753'
+source-wordcount: '3746'
 ht-degree: 0%
 ---
 # Revisar tópicos {#id2056B0W0FBI}
@@ -235,7 +235,10 @@ Também é possível destacar ou tachar o texto rapidamente com a barra de ferra
 
 O painel Comentários exibe uma lista de comentários feitos sobre o tópico atual. Esse painel também lista comentários de outros revisores, se o tópico for enviado a vários revisores. Cada comentário no painel de comentários é vinculado ao texto correspondente no tópico atual. Isso ajuda a identificar o texto comentado. Cada comentário exibe o nome do revisor que adicionou o comentário junto com o carimbo de data e hora.
 
-Os comentários são exibidos na ordem do texto comentado no documento. Por exemplo, há um comentário de destaque na primeira frase e um comentário de texto de inserção na segunda frase do primeiro parágrafo, depois o comentário de texto de destaque é exibido antes do comentário de texto inserido.
+>[!NOTE]
+>
+> O iniciador da revisão também pode adicionar comentários a um tópico para fornecer contexto adicional ou chamar a atenção dos revisores para um conteúdo específico. Esses comentários são exibidos no painel **Comentários** juntamente com comentários de outros revisores. Para obter mais detalhes, exiba [Adicionar comentários para revisores](./review-send-topics-for-review.md#add-comments-for-reviewers).
+
 
 As tarefas que você pode executar usando o painel Comentários estão descritas abaixo:
 

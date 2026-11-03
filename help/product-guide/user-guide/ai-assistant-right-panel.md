@@ -17,12 +17,12 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: ae9ac69745555aa3683e0a6a648f6519377dd6d7
+source-git-commit: 01ef49b5e26c31359559d9849e6726f704393cd7
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1067'
 ht-degree: 0%
 ---
-# Crie documentos com inteligência com o Assistente de IA (Beta)
+# Crie documentos com inteligência com o Assistente de IA
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ O Adobe Experience Manager Guides fornece uma ferramenta de Assistente de IA que
 
 >[!NOTE]
 >
-> Esse recurso de criação está disponível somente para tópicos DITA e pode ser acessado somente na interface do Editor. Na Home page e no console Mapa, somente o painel **Ajuda** é exibido. As opções disponíveis no recurso de Criação são configuradas em nível de perfil de pasta pelos Administradores usando as configurações do Workspace.
+> Esse recurso de criação está disponível somente para tópicos DITA e pode ser acessado somente na interface do Editor. Na página inicial e no console Mapa. As opções disponíveis no recurso de Criação são configuradas em nível de perfil de pasta pelos Administradores usando as configurações do Workspace.
 
 Depois de selecionar o texto em um tópico, você pode optar por executar qualquer uma das ações do Assistente do AI:
 

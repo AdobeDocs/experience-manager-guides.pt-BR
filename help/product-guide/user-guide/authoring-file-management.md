@@ -22,9 +22,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '3213'
+source-wordcount: '3598'
 ht-degree: 0%
 ---
 # Gerenciar arquivos e pastas {#id2116G0L08XA}
@@ -321,22 +321,73 @@ Se as permissões de exclusão forem fornecidas a um grupo de usuários específ
 
 Nesse cenário, os usuários não poderão excluir arquivos até que todas as referências recebidas e enviadas sejam removidas.
 
-## Trabalhar com arquivos de mídia
+## Trabalhar com mídia e outros arquivos não DITA
 
-Arquivos de mídia como imagens e vídeos são parte integrante do seu conteúdo. Ao fazer upload e gerenciar o conteúdo, você também pode trabalhar com arquivos de mídia.
+Arquivos não-DITA, como imagens, arquivos multimídia, arquivos ZIP, PDFs e arquivos DOCX, são parte integrante do seu conteúdo. Ao fazer upload e gerenciar o conteúdo, talvez também seja necessário consultar as versões anteriores desses arquivos.
 
-Se o arquivo de mídia tiver sofrido alterações, você poderá localizar e visualizar os arquivos no **Histórico de Versões**.Para descobrir alterações nas diferentes versões de um arquivo de mídia:
+O Adobe Experience Manager Guides permite visualizar arquivos que não são DITA, visualizar seu histórico de versões e gerenciar rótulos de versão. Você pode usar rótulos de versão para identificar versões específicas de arquivos para versões de conteúdo e gerenciamento de linha de base.
+
+Você pode gerenciar as versões de arquivos que não são DITA por meio da interface do usuário do Assets ou diretamente do Editor.
+
+### Uso do Editor
+
+Você pode abrir arquivos que não são DITA diretamente no Editor para visualizar seu conteúdo e gerenciar suas versões sem navegar até a interface do usuário do Assets.
+
+>[!NOTE]
+>
+> Arquivos não DITA, como imagens, arquivos multimídia, arquivos ZIP, PDFs e arquivos DOCX, são abertos em um modo não editável no Editor. Você pode visualizar as versões e gerenciar os rótulos de versão, mas não pode modificar o conteúdo diretamente do Editor.
+
+
+Execute as seguintes etapas para exibir e gerenciar o histórico de versões e os rótulos de um arquivo não DITA:
+
+1. Abra o **Editor** e navegue até o arquivo não-DITA necessário no Explorer.
+2. Clique duas vezes no arquivo para abri-lo no Editor.
+
+   O arquivo é aberto em uma nova guia e exibe sua visualização.
+
+   >[!NOTE]
+   >
+   > Para arquivos que não podem ser renderizados, uma miniatura ou representação disponível é exibida no Editor. Se uma visualização não estiver disponível, uma mensagem apropriada de espaço reservado será exibida.
+
+   As informações da versão atual do arquivo selecionado são exibidas na [Barra de Ferramentas](./web-editor-toolbar.md).
+
+   ![](images/version-management-non-dita-files-editor.png){width="650" align="center"}
+
+3. Selecione o menu suspenso **Menu** na barra de ferramentas e escolha uma das seguintes opções:
+
+   - **Histórico de versões**: abre a caixa de diálogo Histórico de Versões, na qual você pode exibir as versões disponíveis do arquivo, juntamente com seus rótulos e comentários associados. É possível comparar versões e reverter para uma versão anterior.
+
+   - **Rótulo de versão**: abre a caixa de diálogo Rótulo de Versão, na qual você pode selecionar uma versão na lista suspensa e exibir seus rótulos associados. É possível adicionar ou atualizar rótulos de versão usando as opções disponíveis. A caixa de diálogo também exibe uma pré-visualização da versão de arquivo selecionada, se disponível.
+
+   Para obter mais informações, exiba as seções Histórico da versão e Rótulos da versão na [Barra de ferramentas do Editor](./web-editor-toolbar.md#menu-dropdown).
+
+4. Faça as alterações necessárias nos rótulos da versão ou revise as informações da versão.
+
+### Uso da interface do Assets
+
+Execute as seguintes etapas para exibir o histórico de versões de um arquivo não-DITA:
 
 1. Acesse o arquivo na **interface do Assets**.
 1. Selecione o arquivo para o qual deseja exibir o histórico de versões.
 1. No painel à esquerda, selecione **Histórico de Versões** e selecione uma versão.
 1. Você também pode visualizar as miniaturas das diferentes versões em Histórico de versões.
 
+   Por exemplo, a opção de gerenciamento de versão disponível para um arquivo de imagem é exibida da seguinte maneira:
+
    ![](images/media-version-history-icon.png){align="center"}
+
+   Da mesma forma, a opção de gerenciamento de versão para um arquivo do PDF é exibida da seguinte maneira:
+
+   ![](images/pdf-version-management.png){align="center"}
 
 1. Nas versões listadas, selecione aquela que você deseja usar como a versão base e selecione **Visualizar Versão**. A visualização da versão selecionada é mostrada na janela Visualização de versão.
 
    ![](images/media-version-preview.png){width="650" align="center"}
+
+Você também pode gerenciar os rótulos de versão do arquivo no painel Histórico de versão.
+
+
+
 
 
 **Tópico pai:**&#x200B;[&#x200B; Gerenciar conteúdo](authoring.md)

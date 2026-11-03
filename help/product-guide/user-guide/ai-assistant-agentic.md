@@ -9,49 +9,25 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 01ef49b5e26c31359559d9849e6726f704393cd7
 workflow-type: tm+mt
-source-wordcount: '1351'
+source-wordcount: '1086'
 ht-degree: 0%
 ---
 
-# Usar o Assistente de IA no modo Agente
+# Marcação inteligente com o Assistente de IA
 
->[!NOTE]
->
-> O Assistente de IA no modo Agente está disponível no Experience Manager Guides as a Cloud Service a partir da versão 2026.09.0. Ela exige que sua organização seja integrada à CX Enterprise Coworker; uma vez integrado, entre em contato com a equipe de Sucesso do cliente para ativar o recurso. Para obter detalhes sobre a configuração, consulte [Configurar o Assistente de IA no Modo Agencial](../install-conf-guide/configure-ai-assistant-agentic-mode-cs.md).
+A habilidade Marcação inteligente, disponível no modo Agente do assistente de IA por meio do Adobe CX Enterprise Coworker, torna a marcação de conteúdo mais rápida, fácil e consistente. Ele analisa seu conteúdo e recomenda tags relevantes com base na taxonomia de sua organização, eliminando a necessidade de revisar o conteúdo manualmente e identificar tags aplicáveis. O administrador pode configurar as taxonomias usadas para gerar recomendações de tags por meio de [configurações do Workspace](../install-conf-guide/workspace-settings.md#general), selecionando os namespaces relevantes para o seu espaço de trabalho.
 
-O Assistente de IA no modo Agente torna a marcação de conteúdo mais rápida, fácil e consistente. Usando a habilidade Marcação inteligente agênica da Adobe CX Enterprise Coworker, o Assistente de IA analisa seu conteúdo e recomenda tags relevantes com base na taxonomia de sua organização, em vez de ler manualmente o conteúdo para decidir quais tags se aplicam. Você permanece no controle revisando as tags sugeridas e optando por aplicá-las ou rejeitá-las antes de confirmar sua seleção, reduzindo o esforço manual, melhorando a precisão da marcação e garantindo metadados consistentes em toda a documentação.
+Mantenha o controle revisando as tags sugeridas e optando por aplicá-las ou rejeitá-las antes de confirmar a seleção. Isso reduz o esforço manual, melhora a precisão da marcação e ajuda a manter metadados consistentes em toda a documentação.
 
-## Painel Assistente de IA
-
-O painel Assistente de IA fornece todas as ferramentas necessárias para gerar, revisar e aplicar as tags sugeridas de IA.
-
-![Painel do Assistente de IA de agente](images/guides-ai-panel.png){width="650"}
-
-Os seguintes componentes do Assistente de IA no modo Agente ajudam a adicionar arquivos, configurar recomendações de tags e gerenciar o fluxo de trabalho de marcação inteligente:
-
-- **(A)** Histórico da conversa: exibir e reabrir conversas anteriores para analisar recomendações e ações de marcas anteriores.
-
-  ![Histórico de conversões do painel Assistente de IA de agente](images/chat-history.png){width="350"}
-
-- **(B)** Novo chat: inicia uma nova sessão de marcação para um tópico, mapa ou conjunto de arquivos diferente.
-- Namespace da marca **(C)**: selecione os namespaces de taxonomia de onde o Assistente de IA gera recomendações de marca. Somente as tags dos namespaces selecionados são consideradas.
-
-  ![Taxonomia do painel do Assistente de IA de agente](images/taxononmy.png){width="350"}
-
-- **(D)** Espaço de resposta: revise as recomendações de marcas geradas pela IA e escolha aceitá-las, rejeitá-las ou modificá-las antes de aplicar as marcas.
-- **(E)** Espaço de prompt: insira uma solicitação de prompt para gerar recomendações de marca para o conteúdo selecionado.
-- **(F)** Anexar arquivos ou adicionar contexto: adiciona tópicos, mapas ou arquivos externos do sistema local para fornecer o conteúdo que o AI Assistant analisa para obter recomendações de marcas.
-- Modelo **(G)**: exibe o modelo de IA usado para analisar o conteúdo e gerar recomendações de marca. Vários modelos OpenAI e Anthropic Claude estão disponíveis para seleção. Por padrão, a opção **Usar padrão do manifesto** está selecionada, que usa o modelo configurado para o assistente selecionado.
-- **(H)** Enviar: envia seu prompt e o conteúdo anexado para gerar recomendações de marca habilitada por IA.
 
 ## Aplicar tags a um ou vários tópicos com a habilidade de marcação inteligente
 
 Execute as seguintes etapas para usar o Assistente do AI para aplicar tags a um ou vários tópicos com a habilidade de marcação inteligente:
 
 1. Faça logon no Experience Manager Guides.
-1. Na página inicial, selecione **Assistente de IA** na barra de navegação. Certifique-se de que o Assistente de IA no modo Agente está ativado pelo seu administrador.
+1. Na página inicial, selecione **Assistente de IA** na barra de navegação. Certifique-se de que o [Assistente de IA no modo Agente](../install-conf-guide/workspace-settings.md) esteja habilitado pelo administrador.
 1. Adicione o tópico para o qual você deseja gerar recomendações de tag usando um dos seguintes métodos:
 
    - **Usando prompts sugeridos**: para o primeiro chat na área Resposta, selecione o prompt **Sugerir tags para um arquivo**. O prompt é adicionado automaticamente ao espaço do Prompt. Selecione `[file]` e escolha o tópico no Repositório ou em uma Coleção na caixa de diálogo **Selecionar arquivo**. Você pode selecionar um tópico da caixa de diálogo **Selecionar arquivo**.
@@ -136,8 +112,8 @@ Uma mensagem indica que o mapa selecionado contém vários tópicos. Selecione *
 1. Selecione **Confirmar**. O AI Assistant analisa os tópicos selecionados e exibe o número de recomendações de tag geradas para cada tópico.
 1. Selecione **Visualizar** para analisar as recomendações de marcas geradas pela IA.
 1. Revise as tags sugeridas para cada tópico e escolha uma das seguintes ações:
-   - **Aceitar tudo** para aplicar todas as marcas sugeridas para todos os tópicos.
-   - **Rejeitar tudo** para descartar todas as marcas sugeridas para todos os tópicos.
+   - **Aceitar** para aplicar todas as marcas sugeridas para todos os tópicos.
+   - **Rejeitar** para descartar todas as marcas sugeridas para todos os tópicos.
    - **Limpar todas as sugestões** para remover todas as marcas sugeridas para um tópico específico.
    - Selecione o ícone **X** ao lado de uma marca para remover uma sugestão de marca individual.
 

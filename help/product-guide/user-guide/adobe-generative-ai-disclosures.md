@@ -14,18 +14,16 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: a96b54b405c93383689c81bcb31e1b95d9d24182
 workflow-type: tm+mt
-source-wordcount: 408
+source-wordcount: '406'
 ht-degree: 2%
-
 ---
-
 # Divulgações de usuários da IA geradora da Adobe Experience Manager Guides
 
 As Diretrizes de usuário que regem o acesso e o uso do Assistente do Experience Manager Guides AI estão [aqui](https://www.adobe.com/br/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
 
-Ao usar o Assistente de IA &quot;beta&quot; (&quot;Beta&quot;), você reconhece que o uso do Beta é fornecido &quot;no estado em que se encontra&quot; sem garantias de nenhum tipo. A Adobe não tem nenhuma obrigação de manter, corrigir, atualizar, alterar, modificar ou oferecer suporte à Beta. É recomendável ter cuidado e não depender de forma alguma do funcionamento ou desempenho correto desse Beta e/ou dos materiais que o acompanham. O Beta é considerado Informações confidenciais da Adobe. A Adobe pode usar prompts, conteúdo, dados e outros materiais que são inseridos ou importados para a Beta e respostas fornecidas a você para melhoria e desenvolvimento de produtos. Qualquer &quot;Feedback&quot; (informação sobre o Beta incluindo, mas não se limitando a, problemas ou defeitos encontrados durante o uso do Beta, sugestões, melhorias e recomendações) fornecido por Você ao Adobe é atribuído ao Adobe, incluindo todos os direitos, cargos e interesses no e no Feedback. 
+Ao usar o Assistente de IA, você reconhece que o uso do Beta é fornecido &quot;no estado em que se encontra&quot; sem garantias de nenhum tipo. A Adobe não tem nenhuma obrigação de manter, corrigir, atualizar, alterar, modificar ou oferecer suporte à Beta. É recomendável ter cuidado e não depender de forma alguma do funcionamento ou desempenho correto desse Beta e/ou dos materiais que o acompanham. O Beta é considerado Informações confidenciais da Adobe. A Adobe pode usar prompts, conteúdo, dados e outros materiais que são inseridos ou importados para a Beta e respostas fornecidas a você para melhoria e desenvolvimento de produtos. Qualquer &quot;Feedback&quot; (informação sobre o Beta incluindo, mas não se limitando a, problemas ou defeitos encontrados durante o uso do Beta, sugestões, melhorias e recomendações) fornecido por Você ao Adobe é atribuído ao Adobe, incluindo todos os direitos, cargos e interesses no e no Feedback. 
 
 Além disso, sempre use sua opinião para avaliar a saída gerada e quaisquer atribuições de origem. Os recursos de IA gerativa do Experience Manager Guides são criados com base em tecnologias poderosas e emergentes de modelos de linguagem grandes, que podem gerar saídas imprecisas ou enganosas, ou refletir conteúdo que não representa as visualizações do Adobe.
 

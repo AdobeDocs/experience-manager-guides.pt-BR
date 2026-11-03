@@ -46,9 +46,9 @@ topic_v2:
     internal-label: Accessibility
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '4071'
+source-wordcount: '4203'
 ht-degree: 0%
 ---
 # Predefinição de saída nativa do PDF
@@ -264,6 +264,21 @@ Use as opções a seguir para especificar configurações avançadas para mescla
 | **Reter arquivos temporários** | Selecione essa opção se quiser manter os arquivos provisórios do HTML criados ao gerar a saída do PDF nativo. Posteriormente, você pode baixar os arquivos temporários depois de gerar a saída. Os arquivos baixados também incluem o arquivo `system_config.xml`, que fornece informações sobre a URL do autor, a URL local e a URL de publicação. Essas URLs são definidas nas configurações de Externalização do AEM e são refletidas no arquivo `system_config.xml`. |
 | **Conformidade do PDF** | É o padrão para o qual você pretende salvar seu PDF para garantir sua conformidade. Selecione na lista suspensa para escolher na lista de padrões disponíveis do PDF. Para obter mais detalhes sobre os padrões compatíveis, consulte [Sobre os padrões da PDF](https://helpx.adobe.com/br/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
 | **Propriedades do arquivo** | Selecione os metadados que deseja passar para a publicação nativa do PDF. A lista suspensa lista as propriedades personalizadas e padrão. Por exemplo, `dc:description`, `dc:language`, `dc:title` e `docstate` são as propriedades padrão, enquanto você pode ter `author` como a propriedade personalizada. As propriedades de metadados selecionadas são passadas para o arquivo PDF gerado com o PDF Nativo. <br> Essas propriedades são selecionadas do arquivo `metadataList` disponível em:`/libs/fmdita/config/metadataList`. <br>Este arquivo pode ser sobreposto em: `/apps/fmdita/config/metadataList`. |
+
+## Mapeamentos de elementos DITA no HTML intermediário
+
+Durante a geração do PDF nativo, o conteúdo DITA é transformado em HTML intermediário antes da saída do PDF ser gerada. Você pode acessar esses arquivos intermediários habilitando a opção **Reter arquivos temporários** na predefinição de saída do PDF Nativo.
+
+Como parte dessa transformação, determinados elementos DITA podem ser mapeados para diferentes elementos HTML no arquivo `merged.html` intermediário. Esses mapeamentos ajudam a preservar a renderização em linha esperada no PDF gerado.
+
+Se você usar personalizações ou automação que dependem da estrutura de elementos do HTML nos arquivos intermediários, considere esses mapeamentos ao processar o HTML gerado.
+
+Atualmente, o seguinte mapeamento de elemento DITA é aplicável no arquivo `merged.html` intermediário:
+
+| Elemento DITA | Elemento HTML | Descrição |
+|----|----|-----|
+| `<option>` | `<span>` | Mapeia o elemento DITA `<option>` para um elemento HTML `<span>` para preservar os espaços ao redor no PDF gerado. |
+
 
 
 

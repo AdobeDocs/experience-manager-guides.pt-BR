@@ -22,9 +22,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '3402'
+source-wordcount: '3665'
 ht-degree: 1%
 ---
 # Definir configurações de geração de saída {#id181AI0B0E30}
@@ -423,7 +423,12 @@ Quando você gera uma saída, ela é criada junto com os logs de saída. Para ma
 
 `/var/dxml/metadata/outputHistory`
 
-Durante um período de tempo, o tamanho coletivo de todos os arquivos de log poderia ficar em GB. O AEM Guides permite configurar um período para manter esses arquivos de log no repositório. Após o período especificado, os registros, juntamente com o histórico de geração de saída, são excluídos do repositório.
+Durante um período de tempo, o tamanho coletivo de todos os arquivos de log poderia ficar em GB. O AEM Guides permite controlar por quanto tempo os registros e o histórico de geração de saída são mantidos no repositório. Você pode reter o histórico de saída de uma das seguintes maneiras:
+
+- **Por idade (padrão):** Entradas anteriores ao número de dias especificado são removidas.
+- **Por contagem:** somente o número mais recente de entradas especificado por você é retido para cada mapa e predefinição. As entradas mais antigas são removidas, independentemente da idade.
+
+Você também pode escolher se a expurgação removerá toda a entrada do histórico de saída junto com seu log ou somente o log. Manter a entrada sem seu registro ajuda a reter um registro das saídas geradas para fins de auditoria e, ao mesmo tempo, reduz o tamanho do repositório.
 
 >[!NOTE]
 >
@@ -431,11 +436,15 @@ Durante um período de tempo, o tamanho coletivo de todos os arquivos de log pod
 
 A configuração do recurso de limpeza de histórico afeta a geração de saída para todos os mapas DITA no repositório. Na guia Saídas de um mapa DITA, o histórico é removido após o número especificado de dias e na hora especificada na configuração.
 
+
+
 >[!NOTE]
 >
 > A remoção dos arquivos de log e do histórico de geração de saída não afeta a saída gerada.
 
-As guias a seguir fornecem instruções para definir um dia e hora para limpar o histórico de saída e logs com base na configuração do Experience Manager Guides: Cloud Service ou No local.
+As guias a seguir fornecem instruções para configurar como o histórico e os logs de saída são removidos com base na configuração do Experience Manager Guides: Cloud Service ou No local.
+
+![](assets/purging-history-setting.png){width="600"}
 
 >[!BEGINTABS]
 
@@ -445,8 +454,11 @@ Use as instruções fornecidas em [Substituições de configuração](download-i
 
 | PID | Chave de propriedade | Valor de propriedade |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager\|output.history.purgeperiod` | Especifique o número de dias após os quais o histórico de saída, juntamente com os logs de saída, será removido. Se você quiser desativar esse recurso, defina essa propriedade como 0.Everyday no horário especificado em que o processo de limpeza é executado nas saídas geradas antes do número de dias especificados nessa propriedade. | **Valor padrão**: 5 |
-| `output.history.purgetime` | Especifique a hora em que o processo de expurgação será iniciado. | **Valor padrão**: 0:00 \(ou meia-noite\) |
+| `com.adobe.fmdita.config.ConfigManager` | `output.history.purgeperiod` | Especifique o número de dias após os quais o histórico de saída, juntamente com os logs de saída, será removido. Se você quiser desativar esse recurso, defina essa propriedade como 0. Todos os dias no horário especificado, o processo de limpeza é executado em saídas geradas antes do número de dias especificado nessa propriedade. Esta propriedade é usada somente quando `output.history.retention.mode` é `AGE`. **Valor padrão**: `5` |
+| `com.adobe.fmdita.config.ConfigManager` | `output.history.purgetime` | Especifique a hora em que o processo de expurgação será iniciado. Formato: `HH:MM` (por exemplo, `15:30`). **Valor padrão**: `0:00` (ou meia-noite) |
+| `com.adobe.fmdita.config.ConfigManager` | `output.history.retention.mode` | Especifique a estratégia de retenção para o histórico de saída. Os valores possíveis são `AGE` e `COUNT`. **Valor padrão**: `AGE` |
+| `com.adobe.fmdita.config.ConfigManager` | `output.history.retention.count` | Especifique o número de entradas do histórico de saída mais recentes a serem mantidas para cada mapa e predefinição. Insira um número inteiro positivo. Esta propriedade é usada somente quando `output.history.retention.mode` é `COUNT`. **Valor padrão**: `25` |
+| `com.adobe.fmdita.config.ConfigManager` | `output.history.retention.action` | Especifique o que acontece com as entradas do histórico de saída que são removidas por retenção, em qualquer um dos modos. Os valores possíveis são `DELETE_ENTRY` e `LOGS_ONLY`. **Valor padrão**: `DELETE_ENTRY` |
 
 >[!TAB No local]
 
@@ -460,13 +472,19 @@ Use as instruções fornecidas em [Substituições de configuração](download-i
 
 1. Procure e clique no pacote **com.adobe.fmdita.config.ConfigManager**.
 
-1. Na propriedade **Período de Limpeza do Histórico de Saída**, especifique o número de dias após o qual o histórico de saída, juntamente com os logs de saída, será limpo. Por padrão, é definido como 5 dias. Se você quiser desativar esse recurso, defina essa propriedade como 0.
+1. Na propriedade **Período de Limpeza do Histórico de Saída**, especifique o número de dias após o qual o histórico de saída, juntamente com os logs de saída, será limpo. Por padrão, é definido como 5 dias. Se você quiser desativar esse recurso, defina essa propriedade como 0. Esta propriedade é usada somente quando o **Modo de Retenção do Histórico de Saída** está definido como **IDADE**.
 
-1. Na propriedade **Tempo de Limpeza do Histórico de Saída**, especifique a hora em que o processo de limpeza será iniciado. Por padrão, é definido como 0:00 \(ou 12:00 meia-noite\). Todos os dias no momento, o processo de limpeza é executado em saídas geradas antes do número de dias especificado na propriedade **Período de Limpeza do Histórico de Saída**.
+1. Na propriedade **Tempo de Limpeza do Histórico de Saída**, especifique a hora em que o processo de limpeza será iniciado. Por padrão, é definido como 0:00 (ou meia-noite de 12:00). Todos os dias no momento, o processo de limpeza é executado em saídas geradas antes do número de dias especificado na propriedade **Período de Limpeza do Histórico de Saída**.
 
    >[!NOTE]
    >
-   > Por padrão, o recurso de limpeza é executado a cada meia-noite em saídas com mais de 5 dias.
+   >Por padrão, o recurso de limpeza é executado a cada meia-noite em saídas com mais de 5 dias.
+
+1. Na lista suspensa **Modo de Retenção do Histórico de Saída**, selecione a estratégia de retenção. Por padrão, está definido como **IDADE**. Os dois modos são mutuamente exclusivos.
+
+1. Na propriedade **Contagem de Retenção do Histórico de Saída (por predefinição)**, especifique o número de entradas do histórico de saída mais recentes a serem mantidas para cada mapa e predefinição. Por padrão, é definido como 25. Esta propriedade é usada somente quando o **Modo de Retenção do Histórico de Saída** está definido como **COUNT**.
+
+1. Na lista suspensa **Ação de retenção do histórico de saída**, selecione o que acontece com as entradas removidas por retenção. Por padrão, é definido como **DELETE_ENTRY**.
 
 1. Clique em **Salvar**.
 

@@ -27,9 +27,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '1565'
+source-wordcount: '1589'
 ht-degree: 0%
 ---
 # Usar nova coleção de mapas para geração de saída
@@ -101,7 +101,8 @@ Você obtém uma lista de todos os mapas desejados com o Título do mapa, o Nome
 
 >[!NOTE]
 >
-> Quando um grande número de mapas é adicionado a uma coleção de mapas, as guias Mapas e predefinições exibem no máximo quatro mapas por vez, juntamente com as predefinições associadas. Uma exibição paginada é fornecida na parte inferior da tela, permitindo que os usuários naveguem entre páginas e acessem mapas e predefinições adicionais. Se você selecionar um mapa ou predefinição, a seleção será retida enquanto você navega pelos mapas e predefinições restantes em páginas diferentes.
+>- Quando uma coleção contém muitos mapas, a guia Mapas e predefinições exibe no máximo quatro mapas por vez, juntamente com suas predefinições. As cópias traduzidas de um mapa são listadas como entradas separadas e são incluídas nessa contagem, portanto, os mapas e suas traduções podem ser distribuídos em várias páginas. Use os controles de paginação na parte inferior da tela para se mover entre páginas. Suas seleções são mantidas enquanto você navega.
+>- A classificação se aplica somente aos resultados exibidos na página atual. Ela não reorganiza a coleção completa em todas as páginas. Para localizar mapas específicos em toda a coleção, use os filtros descritos em Opções de filtro.
 
 ![Guias de mapas e predefinições](./images/maps-presets-tab.png)
 
@@ -109,8 +110,8 @@ A guia **Mapas e Predefinições** apresenta informações com base nos mapas se
 
 - **Predefinição**: mostra o tipo de predefinição de saída configurado no arquivo de mapa.
 - **Linha de Base**: mostra a linha de base que é usada pela predefinição de saída.  Se nenhuma linha de base for usada, ela mostrará um hífen `-`.
-- **Modificado desde a geração**: indica se o mapa DITA é atualizado após a geração. Com base nessas informações, você pode decidir se deseja publicar a saída desse mapa DITA ou não.
-- **Modificado desde a publicação**: indica se o mapa DITA é atualizado após a última publicação. Com base nessas informações, você pode decidir se deseja republicar a saída desse mapa DITA ou não.
+- **Modificado desde a geração**: indica que o mapa pode ter sido alterado desde que sua saída foi gerada pela última vez para esta predefinição. Você pode usar essa opção para decidir se irá gerar novamente a saída.
+- **Modificado desde a publicação**: indica que o mapa foi atualizado desde a última publicação de sua saída. Você pode usar isso para decidir se republica a saída.
 - **Última geração**: mostra a data e a hora da última saída gerada.
 - **Última publicação**: mostra a data e a hora da última saída publicada.
 

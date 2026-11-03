@@ -22,9 +22,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1140'
 ht-degree: 0%
 ---
 # Mapeamento de componentes do AEM Sites
@@ -171,9 +171,30 @@ Exemplos:
 ]
 ```
 
-Defina o elemento e a classe como destino, use `attributeMap` para definir as propriedades do nó, adicione uma entrada `path-attributes` para normalizar caminhos e escolha a `from` correta para os valores que deseja extrair. O `heroimage` usado acima é um componente em um site `we-retail`.
+Defina o elemento e a classe como destino, use `attributeMap` para definir as propriedades do nó, adicione uma entrada `path-attributes` para normalizar caminhos e escolha a `from` correta para os valores que deseja extrair. O `heroimage` usado acima é um componente em um site `we-retail`.  É importante discutir o rich text padrão e identificar os elementos para os quais ele é usado.
 
-**Observação**: é importante discutir o rich text padrão e identificar os elementos para os quais ele é utilizado.
+
+## Propagar metadados do prólogo para o cabeçalho da página
+
+Ao gerar a saída do AEM Sites com o mapeamento de componente, os metadados do prólogo, como autor, palavras-chave e ID de recurso, são adicionados ao corpo da página do AEM Sites gerada, em vez do cabeçalho da página.
+
+Para propagar os metadados do prólogo para o cabeçalho das páginas de saída, adicione o seguinte mapeamento ao arquivo de mapeamento de componentes:
+
+```json
+{
+  "name": "div",
+  "class": "prolog",
+  "resourceType": "guides-components/components/prolog",
+  "attributeMap": [
+    {
+      "from": "outerHTML",
+      "to": "prologContent"
+    }
+  ]
+}
+```
+
+Após adicionar esse mapeamento, os metadados do prólogo ficam disponíveis no cabeçalho das páginas geradas. Isso oferece suporte a casos de uso como indexação de pesquisa.
 
 ## Criar um componente personalizado
 

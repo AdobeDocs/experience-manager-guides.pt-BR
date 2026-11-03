@@ -37,9 +37,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '2794'
+source-wordcount: '2824'
 ht-degree: 0%
 ---
 # Traduzir documentos no Console do Mapa {#id21BKF0Z0YZF}
@@ -181,7 +181,7 @@ Antes de executar etapas neste procedimento, verifique se você criou a raiz de 
 
      ![Insira o caminho do projeto](images/project-path.png){width="650"}
 
-   - Se estiver adicionando a um projeto de tradução existente, selecione o caminho em que esse projeto já existe. Em seguida, na lista **Projeto de tradução existente**, selecione o projeto ao qual deseja adicionar a tarefa de tradução atual. Você também pode usar os **Filtros** disponíveis para restringir a lista.
+   - Se estiver adicionando a um projeto de tradução existente, selecione o caminho em que esse projeto já existe. Em seguida, na lista **Projeto de tradução existente**, selecione o projeto ao qual deseja adicionar a tarefa de tradução atual. Se vários projetos tiverem o mesmo título, use o caminho mostrado junto com cada título de projeto para identificar o correto. Você também pode usar os **Filtros** disponíveis para restringir a lista e também **Classificar** os projetos com base em sua necessidade
 
      ![Insira o caminho do projeto existente](images/existing-project-path.png){width="650"}
 

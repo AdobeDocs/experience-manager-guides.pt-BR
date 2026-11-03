@@ -23,9 +23,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '4036'
+source-wordcount: '4222'
 ht-degree: 0%
 ---
 # Enviar tópicos para revisão {#id199RD0S035Z}
@@ -400,6 +400,32 @@ Quando a tarefa de revisão for atualizada, os revisores receberão notificaçõ
 - **Concluído**: os revisores que concluírem sua revisão receberão uma notificação solicitando uma revisão.
 
 Para obter mais detalhes, consulte [Noções básicas sobre notificações de revisão](./review-understanding-review-notifications.md).
+
+## Adicionar comentários para revisores
+
+Como iniciador de uma tarefa de revisão, você pode adicionar comentários em linha aos tópicos enviados para revisão. Depois de criar uma tarefa de revisão, abra a tarefa na **Interface de revisão** para fornecer contexto adicional ou chamar a atenção dos revisores para um conteúdo específico.
+
+Execute as seguintes etapas para adicionar comentários a tópicos em uma tarefa de revisão:
+
+1. Crie uma tarefa de revisão e adicione os tópicos e revisores necessários.
+
+2. Abra a tarefa de revisão criada na **Interface de revisão**.
+
+   Como iniciador da revisão, você tem acesso ao painel **Comentários** e à lista de tópicos à esquerda, semelhante à exibição disponível para os revisores.
+
+   ![](./images/add-comments-as-author.png)
+
+3. Na lista de tópicos, selecione o tópico ao qual deseja adicionar um comentário.
+
+4. Selecione o conteúdo relevante e use as opções disponíveis no painel **Comentários** para adicionar seu feedback ou chamar a atenção dos revisores para um conteúdo específico.
+
+5. Repita essas etapas para adicionar comentários a outros tópicos na tarefa de revisão, conforme necessário.
+
+Os comentários adicionados ficam visíveis para os revisores quando acessam a tarefa de revisão. Os revisores também recebem uma notificação do AEM quando você adiciona um comentário.
+
+
+
+
 
 
 **Tópico pai:**&#x200B;[&#x200B; Introdução à revisão](review.md)

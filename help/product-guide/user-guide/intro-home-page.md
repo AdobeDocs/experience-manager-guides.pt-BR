@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 18996443646923fcf9db06c020ecbdd94b8a9564
+source-git-commit: b98bb66df096e0915c5d3c810b1c4b46d8473add
 workflow-type: tm+mt
-source-wordcount: '2380'
+source-wordcount: '2450'
 ht-degree: 0%
 ---
 # Experiência da página inicial do Experience Manager Guides
@@ -46,7 +46,7 @@ A barra de navegação exibe as ferramentas para alternar a navegação, persona
 >
 > Se estiver usando o Adobe Experience Manager Guides as a Cloud Service, um recurso adicional rotulado como **Assistente de IA** será exibido na barra de navegação.
 
-![](images/aem-home-nav-bar.png)
+![](images/aem-home-nav-bar-new.png)
 
 Os recursos disponíveis na barra de navegação são explicados da seguinte maneira:
 
@@ -60,12 +60,13 @@ Os recursos disponíveis na barra de navegação são explicados da seguinte man
   >
   > Para usar o recurso Assistente de IA em modo Agêntico em seu ambiente, entre em contato com a equipe de Sucesso do cliente. Após ativar o recurso, os administradores podem ativá-lo ou desativá-lo nas Configurações do Workspace. Somente um modo do Assistente de IA pode ser ativado por vez: Agente ou Padrão.
 
-  - **Agentic**: traz a habilidade inteligente e agentic de Marcação Inteligente do Adobe CX Enterprise Coworker para o Editor, permitindo a marcação de conteúdo natural e conversacional. Ele analisa seu conteúdo, recomenda tags relevantes e ajuda a aplicar metadados consistentes e precisos com o mínimo esforço. Você pode revisar as tags sugeridas e optar por aplicá-las ou rejeitá-las antes de confirmar sua seleção. [Usar o Assistente de IA no Modo de Agente](../user-guide/ai-assistant-agentic.md) simplifica o processo de marcação, melhorando a organização e a descoberta do conteúdo.
+  - **Agentic**: o modo de agente no Assistente de IA permite realizar tarefas relacionadas a conteúdo por meio de interações de linguagem natural. Você pode descrever seus requisitos no painel de bate-papo e o Assistente de IA planeja e executa tarefas enquanto fornece visibilidade sobre o progresso. Ele oferece suporte a habilidades como Importar, que converte arquivos do PDF, Word ou Markdown do repositório de dispositivos ou conteúdo em tópicos estruturados; Criar, que gera novos tópicos com base em seus requisitos e pode fazer referência ao conteúdo existente para tom e estilo; e Marcação inteligente, que recomenda tags relevantes com base na taxonomia da sua organização para melhorar a consistência dos metadados.
 
-  - **Padrão**: uma ferramenta avançada orientada por IA, projetada para aprimorar sua produtividade através de recursos de ajuda inteligentes. Além disso, ao trabalhar na interface do Editor, você pode aproveitar os recursos de criação inteligente do Assistente de IA, que tornam o processo de criação mais inteligente e rápido por meio de sugestões inteligentes para reutilização e otimização de conteúdo.
+  - **Padrão**: uma ferramenta avançada orientada por IA, projetada para aprimorar sua produtividade por meio de recursos de criação inteligentes do Assistente de IA, que torna seu processo de criação mais inteligente e rápido por meio de sugestões inteligentes para a reutilização e otimização de conteúdo.
 
   No momento, o recurso [Assistente de IA](./ai-assistant.md) está disponível apenas para o Adobe Experience Manager as Cloud Service.
 
+- **Assistente de ajuda**: o **Assistente de ajuda** do Experience Manager Guides é um recurso de pesquisa conversacional alimentado por IA que ajuda a encontrar informações sobre recursos, fluxos de trabalho e soluções de problemas do produto. Ele fornece respostas relevantes com base na documentação do Experience Manager Guides, oferece suporte a perguntas de acompanhamento e inclui links para artigos de origem para referência adicional. Para obter detalhes, consulte [Aumentar a eficiência com o Assistente de ajuda](./ai-based-smart-help.md).
 - **Seção de visão geral personalizada**: permite ocultar ou mostrar os widgets na seção Widgets.
 - **Perfil de pasta em uso**: exibe o perfil de pasta em uso no momento.
 - **Mais ações**: fornece acesso a opções adicionais. Selecionar esse botão abre um menu com as seguintes opções:
@@ -182,7 +183,7 @@ O Repositório serve como um hub centralizado para descobrir pastas e arquivos c
 
 >[!NOTE]
 >
->Você pode usar o novo recurso Coleções de mapas no Adobe Experience Manager Guides as a Cloud Service a partir da versão 2026.08.0, que combina o gerenciamento de mapas e a publicação em massa em uma interface unificada. Entre em contato com a equipe de Sucesso do cliente para habilitar esse recurso.Saiba mais sobre [como usar a nova coleção de mapas.](./generate-output-use-new-map-collection-output-generation.md)
+>Você pode usar o novo recurso Coleções de mapas no Adobe Experience Manager Guides as a Cloud Service a partir da versão 2026.08.0, que combina o gerenciamento de mapas e a publicação em massa em uma interface unificada. Entre em contato com a equipe de Sucesso do cliente para habilitar esse recurso. Saiba mais sobre [como usar a nova coleção de mapas.](./generate-output-use-new-map-collection-output-generation.md)
 
 O Experience Manager Guides oferece a capacidade de organizar seu conteúdo para publicação usando um painel chamado **Mapear coleções**. Para usar este recurso, selecione **Mapear coleções** no painel esquerdo. Você será direcionado para a página Mapear coleções na **Interface do usuário do Assets**, onde é possível [usar a coleção de mapas para geração de saída.](./generate-output-use-map-collection-output-generation.md)
 
