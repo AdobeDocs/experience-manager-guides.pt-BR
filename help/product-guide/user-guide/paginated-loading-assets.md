@@ -19,9 +19,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '724'
 ht-degree: 0%
 ---
 
@@ -70,6 +70,9 @@ As seções abaixo descrevem como cada uma dessas opções se aplica a interface
 - **Adicionar ou duplicar**: o novo arquivo aparece na parte superior da pasta.
 - **Mover**: mover entre pastas não relacionadas atualiza a pasta de origem para seu primeiro lote de ativos e adiciona o item na parte superior do destino (carregando o primeiro lote de ativos do destino, se ele ainda não estiver aberto).
 - **Atualizar**: um novo botão de atualização no cabeçalho do painel Explorer recarregará o nível raiz, mostrando o primeiro lote de ativos.
+- **Classificar**: use o botão Classificar na parte superior do painel do Explorer para alternar a ordem dos arquivos e pastas entre ordem crescente (padrão) e decrescente. Os arquivos e pastas no painel Explorer são classificados pelo nome exibido para eles, que depende da **Configuração de exibição dos arquivos do editor** em [Preferências do usuário](./intro-home-page.md#user-preferences). Se estiver definido como Título, os arquivos e as pastas serão classificados por título. Se for definido como Nome do arquivo, eles serão classificados por nome de arquivo.
+
+  ![classificação do explorador](images/explorer-sorting.png){width="350"}
 
 ### Painel Pesquisar
 

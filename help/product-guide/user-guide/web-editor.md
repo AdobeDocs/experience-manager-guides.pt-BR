@@ -21,13 +21,11 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 07f25eacbfa6e22c1de71d9c4012ad1e9b3440a8
+source-git-commit: 607a230b50d4c3025b6b0e91667138099b7a8000
 workflow-type: tm+mt
-source-wordcount: 453
+source-wordcount: '414'
 ht-degree: 0%
-
 ---
-
 # Introdução ao editor {#id181OD0QE05Z}
 
 O Experience Manager Guides vem com um editor fácil de usar para criar e editar documentos estruturados. O editor oculta todas as complexidades da estrutura DITA do autor. O editor fornece uma lista de elementos DITA que um usuário normalmente precisaria para trabalhar em um documento.
@@ -49,21 +47,13 @@ O novo editor oferece uma evolução significativa da experiência de criação,
 - Refinamentos de interface e UX: melhora a legibilidade e o conforto visual por meio de um tema escuro e um CSS padrão mais rico nos modos Autor e Visualização, fornecendo uma interface de edição mais moderna.
 - Configurações do editor centralizado: oferece um painel de configurações unificado para personalizar a experiência de criação, incluindo controle sobre tags, atributos, comentários XML, espaços sem quebra e menu de inserção rápida no editor.
 
-### Limitações do novo editor
-
-No momento, o novo editor não oferece suporte aos seguintes recursos. Esses recursos estão planejados para serem introduzidos em versões futuras.
-
-- Criação com a opção Controlar alterações ativada (todas as alterações controladas existentes são preservadas e tratadas como conteúdo regular)
-
-
 >[!NOTE]
 >
 >A exibição de layout para mapas DITA não será compatível com o novo editor.
-
 
 ## Editor antigo
 
 O Editor antigo no Experience Manager Guides oferece uma experiência de criação simples e confiável para conteúdo estruturado, abstraindo as complexidades do DITA e garantindo a conformidade com padrões compatíveis, como o DITA 1.2, 1.3, DITA leve e DITA especializado. Ele fornece ferramentas essenciais para trabalhar com blocos comuns e elementos em linha, tornando-o adequado para a criação de conteúdo consistente e controlada em uma estrutura estruturada.
 
 
-**Tópico pai:**&#x200B;[&#x200B; Conteúdo de autor usando o Experience Manager Guides](authoring-content-xml-doc.md)
+**Tópico pai:**[ Conteúdo de autor usando o Experience Manager Guides](authoring-content-xml-doc.md)

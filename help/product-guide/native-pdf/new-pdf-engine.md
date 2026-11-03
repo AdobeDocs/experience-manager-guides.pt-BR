@@ -45,9 +45,9 @@ topic_v2:
     internal-label: Accessibility
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '872'
 ht-degree: 0%
 ---
 # Trabalhar com o mecanismo nativo do PDF v2
@@ -102,3 +102,4 @@ Os seguintes problemas na saída do PDF gerada com o _Mecanismo Nativo do PDF v1
 - A ordem de leitura do conteúdo na saída nativa do PDF com as configurações de acessibilidade ativadas está incorreta. Os números de página dos rodapés são lidos antes do conteúdo principal em vez de no final. (GUIDES-27790)
 - A barra de cores na saída do PDF nativo não se alonga pela largura total da página e se sobrepõe quando o tamanho da página é personalizado, fazendo com que algumas caixas de cores fiquem ocultas. (GUIDES-15505)
 - O seletor `CSS:is()pseudo-class` não é respeitado na saída do PDF nativo, resultando em diferenças de estilo em comparação à renderização do navegador. (GUIDES-11328)
+- Determinados caracteres chineses (simplificados) são renderizados usando uma fonte japonesa na saída do PDF nativo, mesmo quando o idioma de saída é definido como chinês (zh-CN). (GUIDES-48094)

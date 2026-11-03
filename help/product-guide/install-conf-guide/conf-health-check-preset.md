@@ -21,9 +21,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '434'
 ht-degree: 0%
 ---
 # Criar e gerenciar predefinições de verificação de integridade
@@ -32,9 +32,9 @@ ht-degree: 0%
 >
 > Esse recurso é ativado por padrão. Se preferir não usar esse recurso em seu ambiente, entre em contato com a equipe de Sucesso do cliente.
 
-Como administrador, você pode configurar o recurso de verificação de integridade em um nível de perfil de pasta no Experience Manager, permitindo que Autores e Editores executem verificações de integridade em um mapa DITA. Isso inclui a detecção antecipada de problemas como links com falha, IDs duplicadas e falhas de validação de Schematron em um mapa antes da publicação, em vez de verificar cada arquivo individualmente. As verificações executadas são definidas por uma predefinição de verificação de integridade, um conjunto de regras que os autores e editores podem selecionar e executar.
+Como administrador, você pode configurar o recurso de verificação de integridade em um nível de perfil de pasta no Experience Manager, permitindo que autores e editores executem verificações de integridade em um mapa DITA. Isso inclui a detecção antecipada de problemas como links com falha, IDs duplicadas e falhas de validação de Schematron em um mapa antes da publicação, em vez de verificar cada arquivo individualmente. As verificações executadas são definidas por uma predefinição de verificação de integridade, um conjunto de regras que os autores e editores podem selecionar e executar.
 
-Este artigo fornece informações sobre como criar e gerenciar predefinições de verificação de integridade.
+O recurso de verificação de integridade está disponível no editor Novo e no editor Antigo.
 
 ## Criar uma predefinição de verificação de integridade
 

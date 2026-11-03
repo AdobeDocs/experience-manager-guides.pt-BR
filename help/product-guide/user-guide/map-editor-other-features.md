@@ -23,9 +23,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '1285'
+source-wordcount: '1297'
 ht-degree: 0%
 ---
 # Recursos adicionais no Editor de mapas {#id1942D0T0HUI}
@@ -90,7 +90,7 @@ Uma referência de navegação do arquivo de mapa selecionado é adicionada no l
 
 ## Executar verificação de integridade em um mapa
 
-A opção Executar verificação de integridade no menu de contexto permite executar uma verificação de integridade no mapa selecionado para detectar problemas, como links desfeitos, IDs duplicadas e falhas de validação do Schematron, antes da publicação.
+A opção **Executar verificação de integridade** no menu de contexto permite executar uma verificação de integridade no mapa selecionado para detectar problemas, como links desfeitos, IDs duplicadas e falhas de validação do Schematron, antes da publicação. Esse recurso está disponível no editor Novo e no editor Antigo.
 
 >[!NOTE]
 >
@@ -173,4 +173,4 @@ Depois de corrigir um problema, selecione **Regenerar** na barra de ferramentas 
 Selecione **Baixar relatório** para baixar o relatório no formato XLS, com informações detalhadas para cada resultado.
 
 
-**Tópico pai:**&#x200B;[&#x200B; Introdução ao Editor de Mapa](map-editor.md)
+**Tópico pai:**[ Introdução ao Editor de Mapa](map-editor.md)

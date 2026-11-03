@@ -20,36 +20,32 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ae9ac69745555aa3683e0a6a648f6519377dd6d7
+source-git-commit: 3aa727853173c89eb63ffa09f4caec92f6dff911
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '629'
 ht-degree: 0%
 ---
-# Aumente a eficiência com a Ajuda inteligente no Assistente de IA (Beta)
+# Aumente a eficiência com o Assistente de ajuda
 
->[!NOTE]
->
->Esse recurso está disponível para o Assistente de IA no modo Padrão.
-
-O Experience Manager Guides fornece a Ajuda inteligente baseada em GenAI, um recurso de pesquisa conversacional que ajuda a localizar conteúdo relevante na [documentação do Adobe Experience Manager Guides](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using/overview).
+O Experience Manager Guides fornece a Ajuda inteligente baseada em GenAI, um recurso de pesquisa conversacional que ajuda a localizar conteúdo relevante na [documentação do Adobe Experience Manager Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/about-aemg/intro).
 
 Você pode fazer suas perguntas e obter respostas de forma informativa. A resposta à sua consulta baseia-se no conteúdo da documentação do produto. Essa busca é totalmente conversacional. Você pode fazer perguntas sobre os vários recursos do Experience Manager Guides ou optar por fazer consultas de solução de problemas. Com base na resposta, você também pode fazer mais perguntas. A resposta também inclui links para documentos de origem, os quais você pode consultar para obter detalhes.
 
 Por exemplo, você pode fazer perguntas como *Como publicar um mapa?* Você recebe uma resposta e os links para os artigos relacionados. Em seguida, se quiser saber como usar um método específico para publicar o output, você poderá fazer perguntas sobre ele. Por exemplo, *Como publicar um mapa no PDF?*
 
-Quando você abre o **Assistente do AI** na Página Inicial, no console Mapa ou no Editor, o painel **Ajuda** é aberto à direita. No caso do Editor, o painel Criação também é exibido, oferecendo recursos de criação inteligentes. Para obter detalhes, exiba o [Assistente de IA para criar documentos de forma inteligente](./ai-assistant-right-panel.md)
+>[!NOTE]
+>
+>Ao usar o assistente da Ajuda pela primeira vez, você será solicitado a fornecer consentimento antes de acessar os recursos da IA gerativa da Experience Manager Guides. Se você já consentiu com as diretrizes de uso do recurso Assistente de IA, não será solicitado novamente e poderá continuar usando o assistente de Ajuda sem consentimento adicional.
 
-![Painel Ajuda Inteligente](images/smart-help-panel.png){width="300"}
+Execute as seguintes etapas para usar o painel **Assistente de ajuda** e encontrar o conteúdo apropriado e resolver suas consultas:
 
-*Exibir o painel **Ajuda**.*
-
-Execute as seguintes etapas para usar o painel Ajuda para encontrar o conteúdo apropriado e resolver suas consultas:
-
-1. Selecione **Assistente de IA** para abrir o painel da Ajuda.
+1. Selecione o ícone do **Assistente de ajuda** para abrir o painel do assistente de ajuda.
 
    >[!NOTE]
    >
    > Nos [perfis globais ou de nível de pasta](../cs-install-guide/conf-folder-level.md#conf-ai-guides-assistant), o administrador precisa definir as perguntas padrão que aparecem no painel.
+
+   ![Painel Ajuda Inteligente](images/smart-help-panel-new.png){width="300"}
 
 1. Digite a pergunta para encontrar o conteúdo relacionado na documentação do Experience Manager Guides. Você pode selecionar a pergunta padrão no painel ou digitar a pergunta na caixa de texto.
 
@@ -69,15 +65,18 @@ Execute as seguintes etapas para usar o painel Ajuda para encontrar o conteúdo 
 
 Em vez de pesquisar nos guias de usuário e documentos de referência, você pode usar o recurso **Ajuda** para encontrar rapidamente respostas relevantes para suas consultas. Isso ajuda a economizar tempo e permite que você se concentre na criação de conteúdo, resultando em maior produtividade e eficiência.
 
-## Opções disponíveis para respostas da Ajuda do assistente de IA
+## Opções disponíveis para respostas da Ajuda
 
-Ao receber uma resposta do Assistente de IA no painel **Ajuda**, você pode interagir com ele ou fornecer feedback para aprimorar sua precisão e confiabilidade. Seus comentários ajudam a equipe do Experience Manager Guides a aprimorar a precisão e a relevância das respostas do Assistente de IA, melhorando seu desempenho ao longo do tempo.
+Ao receber uma resposta do Assistente de Ajuda no painel **Assistente de Ajuda**, você pode interagir com ele ou fornecer feedback para aprimorar sua precisão e confiabilidade. Seus comentários ajudam a equipe do Experience Manager Guides a melhorar a precisão e a relevância das respostas, melhorando seu desempenho ao longo do tempo.
 
-As seguintes opções estão disponíveis para participação ou para fornecer feedback sobre as respostas fornecidas pelo painel **Ajuda** do Assistente de IA:
+As seguintes opções estão disponíveis para participação ou para fornecer feedback sobre as respostas fornecidas pelo painel do **assistente de ajuda**:
 
 ![](images/ai-assistant-response-options.png){width="300"}
 
 - **Copiar**: copie a resposta para usar em seus documentos.
 - **Curtir**: indica que a resposta foi útil ou precisa. Selecione o ícone Curtir para gostar da resposta e use a opção **Conte-nos mais** para fornecer feedback detalhado.
-- **Descurtir**: marque a resposta como inútil ou incorreta. Selecione o ícone Descurtir para gostar da resposta e use a opção **Conte-nos mais** para fornecer feedback detalhado.
+  ![](images/feedback-help.png){width="300"}
+- **Descurtir**: marque a resposta como inútil ou incorreta. Selecione o ícone Descurtir para gostar da resposta e use a opção **Conte-nos mais** para fornecer feedback detalhado.\
+  ![](images/dislike-help.png){width="300"}
 - **Relatório**: sinalizar a resposta para revisão se contiver erros ou conteúdo impreciso. Selecione o ícone de sinalizador para abrir a caixa de diálogo **Resultados do relatório**. Selecione entre as opções disponíveis ou forneça um feedback personalizado.
+  ![](images/report-help.png){width="300"}

@@ -25,9 +25,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 18996443646923fcf9db06c020ecbdd94b8a9564
+source-git-commit: 772cc098cfa0abfafed142062a1c191ef266bbcd
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '775'
 ht-degree: 0%
 ---
 # Barra de guias no editor
@@ -74,11 +74,13 @@ O **Assistente de IA**: o Assistente de IA está disponível de dois modos: **Ag
 >
 > Para usar o recurso Assistente de IA em modo Agêntico em seu ambiente, entre em contato com a equipe de Sucesso do cliente. Após ativar o recurso, os administradores podem ativá-lo ou desativá-lo nas Configurações do Workspace. Somente um modo do Assistente de IA pode ser ativado por vez: Agente ou Padrão.
 
-- **Agentic**: traz a habilidade inteligente e agentic de Marcação Inteligente do Adobe CX Enterprise Coworker para o Editor, permitindo a marcação de conteúdo natural e conversacional. Ele analisa seu conteúdo, recomenda tags relevantes e ajuda a aplicar metadados consistentes e precisos com o mínimo esforço. Você pode revisar as tags sugeridas e optar por aplicá-las ou rejeitá-las antes de confirmar sua seleção. [Usar o Assistente de IA no Modo de Agente](../user-guide/ai-assistant-agentic.md) simplifica o processo de marcação, melhorando a organização e a descoberta do conteúdo.
+- **Agentic**: o modo de agente no Assistente de IA permite realizar tarefas relacionadas a conteúdo por meio de interações de linguagem natural. Você pode descrever seus requisitos no painel de bate-papo e o Assistente de IA planeja e executa tarefas enquanto fornece visibilidade sobre o progresso. Ele oferece suporte a habilidades como Importar, que converte arquivos do PDF, Word ou Markdown do repositório de dispositivos ou conteúdo em tópicos estruturados; Criar, que gera novos tópicos com base em seus requisitos e pode fazer referência ao conteúdo existente para tom e estilo; e Marcação inteligente, que recomenda tags relevantes com base na taxonomia da sua organização para melhorar a consistência dos metadados.
 
 - **Padrão**: uma ferramenta avançada orientada por IA, projetada para aprimorar sua produtividade através de recursos de ajuda inteligentes. Além disso, ao trabalhar na interface do Editor, você pode aproveitar os recursos de criação inteligente do Assistente de IA, que tornam o processo de criação mais inteligente e rápido por meio de sugestões inteligentes para reutilização e otimização de conteúdo.
 
 No momento, o recurso [Assistente de IA](./ai-assistant.md) está disponível apenas para o Adobe Experience Manager as Cloud Service.
+
+**Assistente de ajuda**: o **Assistente de ajuda** do Experience Manager Guides é um recurso de pesquisa conversacional alimentado por IA que ajuda a encontrar informações sobre recursos, fluxos de trabalho e soluções de problemas do produto. Ele fornece respostas relevantes com base na documentação do Experience Manager Guides, oferece suporte a perguntas de acompanhamento e inclui links para artigos de origem para referência adicional. Para obter detalhes, consulte [Aumentar a eficiência com o Assistente de ajuda](./ai-based-smart-help.md).
 
 **Expandir exibição**: permite expandir a exibição de página usando o ícone **Expandir**. Nesta visualização, a barra de cabeçalho que contém o logotipo do Adobe Experience Manager está oculta. Isso maximiza o espaço de conteúdo para edição. Para retornar ao modo de exibição padrão, use o ícone **Sair do modo de exibição expandido**.
 
@@ -96,4 +98,4 @@ No momento, o recurso [Assistente de IA](./ai-assistant.md) está disponível ap
 
 - **Configurações do editor**: Leva você à caixa de diálogo Configurações do editor, onde é possível personalizar o comportamento do editor em um nível de autor individual. Ela permite controlar a visibilidade e o comportamento de tags, comentários e outras configurações no nível do editor durante a criação. Para obter detalhes, exiba [Configurações do editor](../user-guide/config-editor-settings.md).
 
-**Tópico pai:**&#x200B;[&#x200B; Introdução ao Editor](web-editor.md)
+**Tópico pai:**[ Introdução ao Editor](web-editor.md)

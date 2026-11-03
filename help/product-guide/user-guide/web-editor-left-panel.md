@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '11296'
+source-wordcount: '11329'
 ht-degree: 0%
 ---
 # Painel esquerdo no editor
@@ -202,7 +202,7 @@ Você tem as seguintes opções para filtrar os arquivos e restringir sua pesqui
 - **Arquivos DITA**: você pode procurar todos os **tópicos DITA** e **mapas DITA** presentes no caminho selecionado. Elas são selecionadas por padrão.
 - **Arquivos não DITA**: você pode pesquisar por **Arquivos Ditaval**, **Arquivos de Imagem**, **Multimídia**, **Documentos** e **JSON** no caminho selecionado.
 
-  ![filtro de pesquisa rápida &#x200B;](images/repository-filter-search-quick.png) {width="300"}
+  ![filtro de pesquisa rápida ](images/repository-filter-search-quick.png) {width="300"}
 
   *Use os filtros rápidos para procurar arquivos DITA e não DITA.*
 
@@ -859,7 +859,8 @@ Por exemplo, você pode criar grupos de condições de produtos como *Acrobat* e
 
 >[!NOTE]
 >
-> Digite para criar um novo grupo ou selecione um grupo existente para um determinado atributo.
+> - Digite para criar um novo grupo ou selecione um grupo existente para um determinado atributo.
+> - As condições no painel Condições são classificadas alfabeticamente com base em seu Rótulo em vez de seu Valor. A ordem de classificação é determinada pelos rótulos atribuídos às condições, independentemente dos valores correspondentes.
 
 Você pode usar `/` e definir subgrupos como `AEM Guides/Cloud Service`.
 
@@ -1413,4 +1414,4 @@ Para exibir os comentários de revisão nas tarefas de revisão ativas que estã
 
 </details>
 
-**Tópico pai:**&#x200B;[&#x200B; Introdução ao Editor](web-editor.md)
+**Tópico pai:**[ Introdução ao Editor](web-editor.md)

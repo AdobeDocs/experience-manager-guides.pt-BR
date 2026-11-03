@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 2eb766dc53b23f750dd6eb232ab21025b0c0c46d
 workflow-type: tm+mt
-source-wordcount: '2378'
+source-wordcount: '2804'
 ht-degree: 0%
 ---
 # Configurações do Workspace
@@ -51,25 +51,25 @@ A opção **Configurações do Workspace** presente na [Barra de guias](../user-
 
 ## Geral
 
-As configurações Gerais permitem definir as configurações para usar o Editor. Esta guia contém cinco seções: **Assistente de IA**, **Criação**, **Citações**, **Condição** e **Verificação ortográfica**.
+As configurações Gerais permitem definir as configurações para usar o Editor. Esta guia contém: **Recursos de IA**, **Assistente de Ajuda de IA**, **Criação**, **Citações**, **Condição**,**Editor do HTML**, **Conteúdo de aprendizado** e **Verificação ortográfica**.
 
 ![](assets/editor-setting-general-agentic.png){width="350"}
 
-- **Assistente de IA**
+- **Recursos de IA**
 
   >[!NOTE]
   >
   > Para usar o recurso Assistente de IA em modo Agêntico em seu ambiente, entre em contato com a equipe de Sucesso do cliente.
 
-  Selecione esta opção para habilitar o recurso [Assistente de IA](../user-guide/ai-assistant.md) no Experience Manager Guides. Desmarque para desativar o recurso.
+  Selecione para ativar o recurso Assistente de IA na Experience Manager Guides. Desmarque para desativar o recurso.
 
-  O Assistente de IA está disponível de dois modos: **Agente** e **Padrão**. Você pode escolher entre os dois modos ativando os respectivos alternadores.
+  O Assistente de IA está disponível de dois modos: **Agente** e **Padrão**. Você pode escolher entre os dois modos ativando os respectivos botões de opção.
 
-  - **Agente**: depois de habilitar esta opção, você poderá acessar o recurso de Assistente de IA Agênica na barra de Navegação da Página Inicial e na barra de Guias da interface do Editor. Para obter detalhes sobre como gerar tags sugeridas de IA para tópicos, consulte [Usar o Assistente de IA no modo Agente](../user-guide/ai-assistant-agentic.md).
+  - **Agente**: depois de habilitar esta opção, você pode acessar o Assistente de IA Agencial na barra de navegação do aplicativo Experience Manager Guides. Você também pode configurar os namespaces de taxonomia usados pela habilidade Marcação inteligente para gerar recomendações de tags. O AI Assistant considera somente as tags dos namespaces selecionados, com base nas tags definidas no AEM. Para obter detalhes, consulte [Modo de agente no Assistente de IA](../user-guide/ai-assistant.md#ai-assistant-modes).
 
-  ![](assets/agentic-ai-workspace.png){width="350"}
+    ![](assets/agentic-new.png){width="350"}
 
-  - **Padrão**: depois de habilitar a opção **Padrão**, você pode configurar quais opções serão exibidas na **guia Criação** para autores usando o menu **Ações rápidas de criação**, conforme mostrado abaixo.
+  - **Padrão**: depois de habilitar a opção **Padrão**, você pode configurar quais opções serão exibidas no menu **Ações rápidas de criação**, conforme mostrado abaixo.
 
     Essas alterações se aplicam ao perfil de pasta específico com o qual você está trabalhando. Se você criar um novo perfil de pasta, ele herdará as configurações do Workspace definidas no perfil de pasta **Global** por padrão. Você pode modificar essas configurações conforme necessário usando as **configurações do Workspace** e salvar a configuração atualizada.
 
@@ -82,6 +82,8 @@ As configurações Gerais permitem definir as configurações para usar o Editor
   - altere a ordem na qual as opções são exibidas, arraste-as e solte-as conforme necessário.
 
   ![](assets/authoring-quick-actions-standard.png){width="350"}
+
+- **Assistente de Ajuda da IA**: este recurso está desabilitado por padrão. Habilite este recurso para acessar o painel Assistente de Ajuda na página inicial, editor e interfaces do Console de mapa. O Assistente de ajuda permite fazer perguntas sobre recursos, fluxos de trabalho e solução de problemas do Experience Manager Guides, além de fornecer respostas relevantes com base na documentação do produto. Para obter detalhes, consulte a [Ajuda Inteligente](../user-guide/ai-based-smart-help.md).
 
 - **Criação**
 
@@ -115,7 +117,26 @@ As configurações Gerais permitem definir as configurações para usar o Editor
     >
     > A verificação ortográfica do AEM usa o idioma selecionado na propriedade idioma do arquivo. Se o idioma não for especificado para o arquivo, a verificação ortográfica voltará para o idioma do servidor do AEM.
     >Para garantir resultados precisos de verificação ortográfica, o dicionário do idioma selecionado deve estar disponível no AEM. Se o dicionário necessário para o idioma configurado não estiver disponível, a verificação ortográfica padrão será `en_us`.
+- **Conteúdo de aprendizado**: esta configuração permite habilitar ou desabilitar o recurso de conteúdo de Treinamento e Aprendizado do Produto para sua instância do Experience Manager Guides. Use a opção **Habilitar conteúdo de aprendizado** para habilitar ou desabilitar o recurso no nível de perfil de pasta. Por padrão, esse recurso permanece desativado para todas as instâncias.
 
+  Saiba mais sobre o recurso [Treinamento e conteúdo de aprendizado do produto](../learning-content/intro.md).
+
+  Os seguintes recursos/opções ficam disponíveis somente quando a configuração Conteúdo de aprendizado está ativada:
+
+  - **Criação do curso**: permite que opções criem e gerenciem cursos do editor e da página inicial.
+  - **Modelos SCORM**: habilita a opção para criar modelos SCORM em *Modelos de saída* no Editor.
+  - **Modelos de conteúdo e Predefinições de saída**: habilita as opções de configuração Modelos de conteúdo e Predefinições de saída na caixa de diálogo de configurações do Workspace.
+
+Quando o conteúdo de aprendizado está desativado, todas as opções acima ficam indisponíveis na interface do Experience Manager Guides.
+
+Para obter mais detalhes, consulte [Configurar perfis de pasta](../lc-config-guide/lc-folder-profile.md).
+
+- **Editor do HTML**: para conteúdo de aprendizado, essa configuração permite configurar o Editor para criação baseada no HTML. As principais opções de configuração presentes nessa configuração são as seguintes:
+
+  - **Ocultar estilo em linha**: habilite esta opção para impedir que os autores apliquem formatação em linha ao conteúdo do curso. Quando ativado, todas as opções de estilo em linha, como Fontes, Borda, Layout, Plano de fundo e Colunas presentes no painel direito do Editor permanecem ocultas para Autores. No entanto, os Autores ainda podem usar as opções de estilo baseadas em classe global disponíveis no painel **Estilos**. Isso ajuda a manter a consistência com as diretrizes de estilo de sua organização.
+  - **Ocultar o modo de exibição do Source para Autores**: habilite essa opção para restringir o acesso ao código-fonte do HTML. Isso é útil quando você deseja simplificar a experiência de edição ou evitar alterações acidentais no código subjacente.
+
+  Para obter mais detalhes, consulte [criando e personalizando conteúdo de aprendizado](../learning-content/lc-overview.md).
 
 ## Painéis
 
@@ -181,6 +202,12 @@ Ela contém os Perfis que podem ser usados para publicar a saída da **Base de D
   - Selecione os seguintes escopos do OAuth:
     - Acesso total (total)
     - Selecione Gerenciar dados do usuário por meio das APIs (api)
+    - Executar solicitações a qualquer momento (refresh_token, offline_access)
+
+    >[!NOTE]
+    >
+    >- Para usar a chave da prova para troca de código (PKCE), adicione `Perform requests at any time` aos escopos. Entre em contato também com a equipe de Sucesso do cliente para ativar esse recurso.
+    >- Habilite a configuração **Requer Chave de Prova para Troca de Código (PKCE) para Fluxos de Autorização com Suporte** no aplicativo conectado do Salesforce. O PKCE impede que um código de autorização interceptado seja trocado por um token de acesso, o que torna a conexão entre o Experience Manager Guides e o Salesforce mais segura.
 
     Depois que o aplicativo é configurado, a Salesforce fornece uma **Chave do consumidor** e um **Segredo do consumidor**. Eles podem ser usados para criar o perfil do Salesforce.
 
@@ -234,7 +261,7 @@ Esta guia contém opções para configurar as validações do Schematron no Edit
 
   Isso impede que os usuários salvem qualquer arquivo que quebre uma regra definida no(s) arquivo(s) selecionado(s) do Schematron. Se esta opção não estiver selecionada, o arquivo não será validado antes de salvar as alterações.
 
-- **Permitir que todos os usuários adicionem arquivos de esquematron no painel de validação**: selecione essa opção para permitir que os usuários adicionem qualquer arquivo de Esquematron no painel Validação do Editor. Isso permite que os usuários adicionem arquivos do Schematron e, em seguida, validem os tópicos em relação ao arquivo Schematron. Se esta opção não estiver selecionada, a opção para adicionar o arquivo de esquematron **botão Adicionar Arquivo de Esquematron** não estará disponível para os usuários no **Painel de validação** do Editor.
+- **Permitir que todos os usuários adicionem arquivos de esquematron no painel de validação**: selecione essa opção para permitir que os usuários adicionem qualquer arquivo de Esquematron no painel Validação do Editor. Isso permite que os usuários adicionem arquivos do Schematron e, em seguida, validem os tópicos em relação ao arquivo Schematron. Se esta opção não estiver selecionada, o botão **Adicionar arquivo do esquema** não estará disponível para os usuários no **Painel de validação** do Editor.
 
   ![Validação nas configurações do espaço de trabalho](../user-guide/images/editor-setting-validation.png){width="550"}
 

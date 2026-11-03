@@ -30,9 +30,9 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '5089'
+source-wordcount: '5425'
 ht-degree: 0%
 ---
 # Criar um layout de página {#design-page-layout}
@@ -481,6 +481,60 @@ Se você gosta de trabalhar diretamente com o código CSS e HTML, também é pos
 </p>
 …
 ```
+
+### Adicionar uma imagem dos metadados do mapa
+
+Se você usar o mesmo modelo para publicar vários mapas, poderá exibir uma imagem diferente para cada mapa em vez de uma imagem estática dos Recursos do modelo. Por exemplo, se seus produtos compartilham um modelo e diferem somente na imagem de capa, é possível adicionar um espaço reservado para a imagem ao layout da página de capa. Ao publicar um mapa, o espaço reservado é substituído pela imagem definida nos metadados desse mapa. O Mapa de Publicação 1 mostra a imagem definida no Mapa 1, e o Mapa de Publicação 2 mostra a imagem definida no Mapa 2. Se uma imagem não puder ser resolvida, o texto do espaço reservado especificado será exibido.
+
+Você pode definir a imagem no elemento `<bookmeta>` de um mapa ou no elemento `<topicmeta>` de um mapa DITA. Somente o elemento `<image>` tem suporte. Todos os formatos de imagem compatíveis com o Experience Manager Guides podem ser usados, incluindo GIF, JPG, BMP, PNG, SVG e TIFF.
+
+Para exibir uma imagem de um mapa:
+
+1. Defina a imagem no mapa, como mostrado nos exemplos a seguir.
+
+   Em um mapa, adicione a imagem no elemento `<bookmeta>`:
+
+   ```xml
+   <bookmeta>
+     <metadata>
+       <data><image href="media/cover.png" id="cover-image"/></data>
+     </metadata>
+   </bookmeta>
+   ```
+
+   Em um mapa DITA, adicione a imagem no elemento `<topicmeta>`:
+
+   ```xml
+   <topicmeta>
+     <data><image href="images/cover.png" id="cover-image"/></data>
+   </topicmeta>
+   ```
+
+   >[!NOTE]
+   >
+   >O elemento `<image>` deve ter um atributo `id`. O `id` é obrigatório e deve ser exclusivo para cada imagem no mapa.
+
+1. Em **Modelos de Saída**, abra o layout de página no qual deseja adicionar o espaço reservado para imagem, por exemplo, o layout de folha de rosto.
+
+1. Selecione **Campos** de **Mais opções**.
+
+1. Na guia **Metadados**, selecione **Adicionar formato**.
+
+1. Especifique os seguintes detalhes:
+
+   1. Em **Usar metadados de**, selecione **Mapear conteúdo**.
+   1. Digite o XPath da imagem ou o XPath de seu atributo `href`.
+   1. Insira o formato desejado.
+   1. Insira o texto do espaço reservado a ser exibido se a imagem não for resolvida.
+   1. Selecione **OK**.
+
+1. (*Opcional*) Use as **Folhas de estilos** para aplicar estilo às imagens. Os estilos CSS são compatíveis com o elemento de imagem.
+
+1. Gere a saída do PDF.
+
+>[!NOTE]
+>
+>Se você atualizar a imagem na interface do Assets, a imagem atualizada será usada na próxima vez que você gerar a saída do PDF.
 
 ## Trabalhar com a área de conteúdo {#content-area}
 

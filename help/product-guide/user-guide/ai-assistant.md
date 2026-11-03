@@ -24,18 +24,18 @@ topic_v2:
     internal-label: Security
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 71ddd55d2a6848449d5810701b60e9f69a29112b
+source-git-commit: 082688d62ed871fa52947e5152df35575b622164
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '773'
 ht-degree: 0%
 ---
-# Assistente de IA (Beta)
-
-O **Assistente de IA** do Adobe Experience Manager Guides é uma ferramenta avançada orientada por IA, projetada para aprimorar sua produtividade por meio de recursos inteligentes de ajuda, criação e marcação. No modo **Padrão**, ele reúne dois recursos avançados de IA: **Criação** e **Ajuda** para a interface do Experience Manager Guides, permitindo que você crie conteúdo e acesse informações da documentação do Experience Manager Guides de forma mais rápida e eficiente. No modo **Agente**, o Assistente de IA oferece **Marcação inteligente**, permitindo que você solicite, por meio de uma janela de prompt conversacional, recomendações de marcas para o seu conteúdo e as aplique em um ou mais tópicos.
+# Assistente de IA
 
 >[!NOTE]
 >
 > O recurso Assistente de IA está disponível no momento para o Adobe Experience Manager Guides as a Cloud Service.
+
+O Assistente de IA no Adobe Experience Manager Guides é uma ferramenta alimentada por IA projetada para melhorar a produtividade simplificando a criação de conteúdo, o gerenciamento e os fluxos de trabalho de criação. Ela oferece dois modos: Agentic e Standard. No **Modo de agente**, o AI Assistant permite executar tarefas relacionadas a conteúdo por meio de interações de linguagem natural, com habilidades como Importar, Criar e Marcação inteligente para simplificar a criação de conteúdo, a organização e o gerenciamento de metadados. No **modo Padrão**, o Assistente de IA fornece assistência de criação, ajudando você a criar, refinar e gerenciar conteúdo com mais eficiência.
 
 ## Modos do Assistente de IA
 
@@ -43,43 +43,48 @@ O **Assistente de IA** do Adobe Experience Manager Guides é uma ferramenta avan
 >
 >Para ativar o Assistente de IA no modo Agente para o seu ambiente, entre em contato com a Equipe de sucesso do cliente.
 
-O Assistente de IA está disponível de dois modos: **Agente** e **Padrão**. Os administradores podem escolher entre os dois modos na seção **Assistente de IA** da guia **Geral** nas **configurações do Workspace**. O painel Assistente de IA permanece o mesmo em ambos os modos no Editor, mas os recursos disponíveis nele são diferentes:
+O Assistente de IA está disponível de dois modos: **Agente** e **Padrão**. Os administradores podem selecionar o modo na seção **Recursos de IA** da guia **Geral** nas **configurações do Workspace**. O painel Assistente de IA no Editor permanece o mesmo em ambos os modos, mas os recursos disponíveis são diferentes:
 
-* O modo **Agente** usa a habilidade **Marcação inteligente** da Adobe CX Enterprise Coworker para analisar seu conteúdo e recomendar marcas relevantes com base na taxonomia de sua organização.
-* O modo **Padrão** fornece a experiência existente do Assistente de IA, com as guias **Ajuda** e **Criação** no painel Assistente de IA.
+- **Modo de agente:** usa habilidades **Importar**, **Criar** e **Marcação inteligente** para converter arquivos em tópicos estruturados, criar o primeiro rascunho de conteúdo e recomendar marcas relevantes com base na taxonomia da sua organização.
+- **Modo padrão:** fornece assistência de criação baseada em IA por meio de ações contextuais, como reutilização de conteúdo, tradução e melhorias na qualidade do conteúdo, para simplificar fluxos de trabalho de criação.
 
 ## Modo agente
 
-### Marcação inteligente
+>[!NOTE]
+>
+> Para usar o Assistente de IA no modo Agente, sua organização precisa ser integrada à Adobe CX Enterprise Coworker e ter créditos disponíveis; uma vez integrado, entre em contato com a equipe de sucesso do cliente para ativar o recurso. Para obter detalhes sobre a configuração, consulte [Configurar o Assistente de IA no Modo Agencial](../install-conf-guide/configure-ai-assistant-agentic-mode-cs.md).
 
-O Assistente de IA no modo Agente torna a marcação de conteúdo mais rápida e fácil por meio de uma janela de prompt de conversação. Usando a habilidade de marcação inteligente agêntica da Adobe CX Enterprise Coworker, o Assistente de IA recomenda tags relevantes para o seu conteúdo quando você solicita. Você permanece no controle revisando as tags sugeridas e optando por aplicá-las a um ou mais tópicos, incluindo vários tópicos em um mapa.
+O modo Agente no Assistente de IA permite executar uma grande variedade de tarefas relacionadas a conteúdo por meio de interações de linguagem natural, como criar e importar conteúdo, resumir tópicos, adicionar tópicos a mapas e gerenciar metadados. Você pode descrever seus requisitos no painel de chat, e o Assistente de IA planeja e executa tarefas enquanto fornece visibilidade sobre seu progresso. O modo de agente fornece acesso rápido às seguintes habilidades:
 
-Para obter mais detalhes, consulte [Introdução ao Assistente de IA Agêntica](./ai-assistant-agentic.md).
+- **Importar**: converte arquivos do PDF, Word ou Markdown do repositório de dispositivo ou conteúdo em tópicos estruturados. Para obter mais detalhes, consulte [Importar conteúdo com o Assistente de IA](./import-ai-assistant.md).
 
-![Marcação inteligente do assistente de ia](./images/suggested-prompts.png)
+- **Criar**: gera tópicos e mapas de rascunho a partir de materiais de entrada, como especificações, imagens do quadro de comunicações, capturas de tela e outros conteúdos de referência, com a opção de usar conteúdo existente para tom e estilo. Para obter mais detalhes, consulte [Criar conteúdo com o Assistente de IA](./create-ai-assistant.md).
+
+- **Marcação inteligente**: recomenda marcas relevantes para tópicos com base na taxonomia da sua organização para melhorar a consistência dos metadados. Para obter mais detalhes, consulte [Marcação inteligente com o Assistente de IA](./ai-assistant-agentic.md).
+
+Os seguintes componentes do painel do Assistente de IA ajudam a adicionar conteúdo, inserir prompts e iniciar tarefas:
+
+![Marcação inteligente do assistente de ia](./images/panel-new-agentic.png)
+
+- **(A)** Histórico da conversa: exibir e reabrir conversas anteriores para rever solicitações e respostas anteriores.
+- **(B)** Tela cheia: expande o painel Assistente de IA para tela cheia.
+- **(C)** Espaço de aviso: digite uma solicitação de aviso ou digite `/` para adicionar arquivos e gerar marcas.
+- **(D)** Anexar arquivos ou adicionar contexto: adiciona tópicos, mapas ou arquivos do sistema local para fornecer o conteúdo com o qual o AI Assistant trabalha.
+- **(E)** Enviar: envia seu prompt e o conteúdo anexado ao Assistente de IA.
+- **(F)** Ações rápidas: iniciar uma tarefa diretamente de um dos seguintes atalhos: **Importar**, **Criar** ou **Marca**.
 
 ## Modo padrão
 
-### Criação
+O modo Padrão torna seu processo de criação mais inteligente e rápido. Quando você seleciona um texto no Editor, o AI Assistant oferece ações rápidas, como gerar sugestões inteligentes para reutilização de conteúdo, tradução de conteúdo, melhoria da qualidade do conteúdo e muito mais, tudo com base no conteúdo selecionado. Isso melhora a experiência geral de criação e a produtividade dos autores.
 
-Quando o Assistente de IA é configurado no modo **Padrão**, o recurso **Criação** do Assistente de IA torna seu processo de criação mais inteligente e rápido. Ele oferece recursos como geração de sugestões inteligentes para reutilização de conteúdo, tradução de conteúdo, melhoria da qualidade do conteúdo e muito mais, tudo com base no conteúdo selecionado. Esse recurso melhora a experiência geral de criação e a produtividade dos autores.
-
-Para obter mais detalhes, consulte [Criação](./ai-assistant-right-panel.md).
+Para obter mais detalhes, exiba [Criar documentos com o Assistente de IA](./ai-assistant-right-panel.md).
 
 ![assistente de ia](./images/ai-assistant-panel.png)
 
-### Ajuda
 
-Quando o Assistente de IA é configurado no modo **Padrão**, o recurso **Ajuda** fornece uma experiência de chat intuitiva que ajuda você a entender o Experience Manager Guides, solucionar problemas e encontrar informações na documentação do Adobe Experience Manager Guides. Em vez de pesquisar nos guias de usuário e documentos de referência, você pode usar o recurso **Ajuda** para encontrar rapidamente respostas relevantes para suas consultas. Isso ajuda a economizar tempo e permite que você se concentre na criação de conteúdo, resultando em maior produtividade e eficiência.
+## Introdução ao Assistente de IA
 
-Para obter mais detalhes, consulte a [Ajuda](./ai-based-smart-help.md).
-
-
-![Painel Ajuda Inteligente](images/smart-help-panel.png)
-
-## Introdução ao Assistente de IA no modo Padrão
-
-Ao usar o **Assistente de IA** no modo Padrão pela primeira vez, você será solicitado a enviar seu consentimento antes de usar os recursos do Experience Manager Guides Generative AI.
+Ao usar o **Assistente de IA** pela primeira vez, você será solicitado a enviar seu consentimento antes de usar os recursos de IA gerativa da Experience Manager Guides.
 
 Execute as seguintes etapas para iniciar o Assistente de IA:
 
@@ -87,10 +92,11 @@ Execute as seguintes etapas para iniciar o Assistente de IA:
 1. Na página inicial, selecione **Assistente de IA** na parte superior. Certifique-se de que o administrador ativou o recurso Assistente de IA no modo desejado.
 
 O Assistente de IA exibe os principais recursos, o link de diretrizes do usuário e um botão **Introdução**.
-
-![Painel Ajuda Inteligente](images/get-started-ai.png)
-
 Leia as diretrizes de usuário cuidadosamente e selecione **Introdução** para iniciar o Assistente de IA.
+
+>[!NOTE]
+>
+>Se você já tiver consentido com as diretrizes de uso do recurso Assistente de ajuda, não será solicitado seu consentimento novamente e você poderá continuar usando o recurso Assistente de IA.
 
 **Tópicos relacionados**
 

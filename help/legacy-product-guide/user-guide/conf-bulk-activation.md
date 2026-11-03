@@ -28,7 +28,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Em um cenário real, os autores teriam acesso à instância de criação do AEM,
 
 >[!NOTE]
 >
-> Para obter mais detalhes sobre como configurar a instância do autor e da publicação no AEM, consulte [Visão geral da arquitetura do Author and Publish](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=pt-BR#prerequisites).
+> Para obter mais detalhes sobre como configurar a instância do autor e da publicação no AEM, consulte [Visão geral da arquitetura do Author and Publish](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites).
 
 Com o recurso de Ativação em massa do AEM Guides, você pode ativar rápida e facilmente seu conteúdo, desde a criação até a instância de publicação. O recurso de ativação em massa oferece flexibilidade para:
 
@@ -63,4 +63,5 @@ Predefinições de saída JSON.
 - **[Excluir uma coleção de mapas de ativação em massa](conf-bulk-activation-delete-map-collection.md)**
 
 
-**Tópico pai:**&#x200B;[&#x200B; Geração de saída](generate-output.md)
+**Tópico pai:**[ Geração de saída](generate-output.md)
+

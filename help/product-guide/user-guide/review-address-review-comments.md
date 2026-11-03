@@ -36,9 +36,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '1618'
+source-wordcount: '1613'
 ht-degree: 0%
 ---
 # Comentários de revisão de endereço {#id2056B0X0KBI}
@@ -130,9 +130,10 @@ Os usuários marcados recebem um email e uma notificação do AEM, garantindo qu
 
 **Acessar comentários de revisão usando a Interface de Revisão**
 
-Se você for o iniciador ou o Autor de uma tarefa de revisão e abri-la no **console de Projetos**, o tópico será iniciado na interface de Revisão. Como essa tarefa não está atribuída a você, você pode exibir e responder aos comentários, mas não pode executar nenhuma ação de revisão. A barra de ferramentas de comentários permanece desativada para usuários que não estão atribuídos à tarefa.
+Como iniciador de uma tarefa de revisão, você pode abrir a tarefa de revisão na **Interface de revisão** para exibir e responder aos comentários dos revisores. Você também pode adicionar comentários aos tópicos na tarefa de revisão para fornecer contexto adicional ou chamar a atenção dos revisores para um conteúdo específico.
 
-![](images/review-comments-toolbar-disabled.png){width="350"}
+Para obter mais detalhes, exiba [Adicionar comentários para revisores](./review-send-topics-for-review.md#add-comments-for-reviewers).
+
 
 ## Exibir todas as tarefas de revisão de um tópico
 
@@ -157,4 +158,4 @@ Ao usar esse recurso, observe que:
 - A filtragem e a pesquisa se aplicam somente aos comentários da tarefa selecionada; os comentários de outras tarefas não selecionadas não serão afetados.
 
 
-**Tópico pai:**&#x200B;[&#x200B; Introdução à revisão](review.md)
+**Tópico pai:**[ Introdução à revisão](review.md)

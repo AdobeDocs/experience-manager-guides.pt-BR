@@ -18,13 +18,11 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: dbb138a7804d102d1b9aa9cfbc3564e827ef199e
+source-git-commit: 6b1f5e5a0264c340240a52e59c1d0e5c093fed50
 workflow-type: tm+mt
-source-wordcount: 678
+source-wordcount: '1066'
 ht-degree: 0%
-
 ---
-
 # Configurar predefinição de saída SCORM
 
 Após a criação da predefinição, defina as configurações de predefinição SCORM. As opções de configuração predefinidas estão organizadas nas guias Geral, Conteúdo, Experiência do aluno e Publicar.
@@ -74,6 +72,41 @@ Após a criação da predefinição, defina as configurações de predefinição
 
     - **Randomizar a ordem das perguntas para cada tentativa**: exibe as perguntas dos questionários em uma ordem diferente para cada tentativa, ajudando a reduzir a previsibilidade.
     - **Randomizar opções de resposta para cada tentativa**: embaralha as opções de resposta para cada pergunta em cada tentativa, reduzindo as chances de adivinhação.
+
+  - **Relatórios**: use essas configurações para controlar quando os status de conclusão e aprovação/reprovação do curso serão publicados no Adobe Learning Manager (ALM).
+
+    ![Configurações de relatórios](assets/reporting-scorm.png)
+
+    - **Conclusão do curso**: define quando o curso é marcado como concluído e publicado no ALM.
+
+      - **Marcar o curso como concluído na inicialização**: marca o curso como concluído para o aluno assim que ele é iniciado. O aluno não é obrigado a interagir com nenhum conteúdo. Essa opção raramente é necessária, mas está disponível se o fluxo de trabalho exigi-la.
+      - **Com base nos tópicos concluídos**: marca o curso quando o aluno atinge um **percentual** ou **número** especificado dos tópicos concluídos. Escolha qualquer unidade, porcentagem ou número que caiba como você deseja definir o limite de conclusão.
+      - **Com base no questionário graduado**: marca a conclusão do curso com base no status do questionário do aluno, selecionado na lista suspensa:
+
+        - **Teste graduado realizado**
+        - **Teste graduado aprovado**
+        - **Teste graduado aprovado ou limite de tentativas atingido**
+
+      Quando ambos os **Com base nos tópicos concluídos** e **Com base no questionário com classificação** estiverem habilitados, use o seletor **AND**/**OR** para definir como as duas condições serão combinadas:
+
+      - **AND**: ambas as condições devem ser verdadeiras.
+      - **OR**: qualquer condição que seja verdadeira é suficiente.
+
+    - **Aprovação ou reprovação do curso**: define quando um status de aprovação ou reprovação é publicado no ALM. Relatar um status de aprovado ou reprovado é opcional.
+
+      - **Relatar um status de aprovação ou falha para LMS**: desabilite esta opção se não quiser que o status de aprovação/falha seja publicado no ALM. Quando desativadas, as opções restantes nesse grupo ficam ocultas.
+      - **Marcar o curso aprovado na inicialização**: marca o curso aprovado para o aluno assim que ele é iniciado.
+      - **Com base nos tópicos concluídos**: marca o curso quando o aluno atinge um **percentual** ou **número** especificado dos tópicos concluídos. Escolha qualquer unidade, porcentagem ou número que caiba como você deseja definir o limite de conclusão.
+      - **Com base no questionário graduado**: marca o curso como aprovado ou reprovado com base no status do questionário do aluno, selecionado na lista suspensa
+
+        - Tentativa de questionário com pontuação
+        - Teste graduado aprovado
+
+      Quando ambos os **Com base nos tópicos concluídos** e **Com base no questionário graduado** estiverem habilitados, use o seletor **AND**/**OR** para combiná-los, conforme descrito acima.
+
+    >[!NOTE]
+    >
+    >Por padrão, essas configurações correspondem ao comportamento anterior: conclusão em 100% dos tópicos concluídos e aprovação com base no questionário classificado passado e em 100% dos tópicos concluídos. Isso se aplica às predefinições SCORM novas e existentes, de modo que nada é alterado nos cursos existentes, a menos que você redefina essas configurações.
 
 - **Publicar no LMS:** Use essa configuração para publicar seu conteúdo diretamente no Adobe Learning Manager (ALM). Na lista suspensa **Servidor de publicação**, selecione **Adobe Learning Manager** e escolha o **Perfil de publicação** necessário que foi configurado anteriormente nas configurações do Workspace. O perfil selecionado é usado para estabelecer a conexão e carregar o conteúdo gerado no ALM.
 

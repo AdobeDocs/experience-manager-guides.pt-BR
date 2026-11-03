@@ -16,13 +16,11 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: ffb697b53a663370621af1a3a484de9c3218881f
 workflow-type: tm+mt
-source-wordcount: 590
+source-wordcount: '624'
 ht-degree: 0%
-
 ---
-
 # Adicionar blocos de construção básicos ao seu Tópico
 
 Para fornecer uma compreensão mais clara de como criar um Tópico de aprendizado e adicionar elementos básicos a ele, o vídeo a seguir oferece uma breve visão geral dos recursos disponíveis.
@@ -59,6 +57,10 @@ Você pode usar os recursos básicos de edição disponíveis na barra de ferram
 
 - **Imagem**: insere imagens no conteúdo junto com texto alternativo e uma dica de tela. As imagens podem ser adicionadas a partir do repositório ou por meio de um URL externo. Além disso, as propriedades de imagem podem ser modificadas usando o painel **Propriedades de Conteúdo**.
 
+  >[!NOTE]
+  >
+  > O formato de imagem AVIF também é compatível. Você pode fazer upload de um arquivo nesse formato para o repositório ou selecioná-lo ao inserir uma imagem no seu conteúdo. Isso funciona somente para a saída SCORM.
+
   ![](assets/image-learning-content.png){width="650"}
 
 - **Multimídia**: adiciona vídeo e áudio ao conteúdo. Você pode personalizar suas propriedades usando o painel **Propriedades de Conteúdo**.
@@ -67,14 +69,14 @@ Você pode usar os recursos básicos de edição disponíveis na barra de ferram
 
 - **Conteúdo reutilizável**: permite que você incorpore conteúdo existente de seus ativos ou repositório para reutilização. Execute as seguintes etapas para inserir um conteúdo reutilizável:
 
-   1. Selecione **Conteúdo reutilizável** na barra de ferramentas.
-A caixa de diálogo **Reutilizar conteúdo** é aberta.
-   2. Navegue e selecione o tópico desejado para incluir seu conteúdo no curso atual.
-   3. Selecione a ID do conteúdo que deseja adicionar; uma visualização será exibida junto com o para referência.
+  1. Selecione **Conteúdo reutilizável** na barra de ferramentas.
+     A caixa de diálogo **Reutilizar conteúdo** é aberta.
+  2. Navegue e selecione o tópico desejado para incluir seu conteúdo no curso atual.
+  3. Selecione a ID do conteúdo que deseja adicionar; uma visualização será exibida junto com o para referência.
 
-      ![](assets/reuse-content-dialog.png){width="650"}
+     ![](assets/reuse-content-dialog.png){width="650"}
 
-   4. Escolha **Selecionar**.
+  4. Escolha **Selecionar**.
 
   O conteúdo é inserido. Por exemplo, a seção Estrutura do veículo é um conteúdo reutilizado e adicionado ao tópico do curso. O tipo é mostrado como **Reference**, e sua **ID** é refletida no painel **Content properties**.
 

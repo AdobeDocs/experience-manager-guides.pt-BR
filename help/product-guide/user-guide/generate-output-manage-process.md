@@ -30,20 +30,75 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '1296'
 ht-degree: 0%
 ---
 # Gerenciar processo de geração de saída
 
-O Adobe Experience Manager Guides permite executar as seguintes ações na saída gerada:
+O Adobe Experience Manager Guides permite monitorar e gerenciar tarefas de geração de saída para seus mapas DITA. Você pode visualizar o status das tarefas de geração de saída, cancelar tarefas em andamento e remover entradas desatualizadas do histórico de geração de saída.
+
+Depois de iniciar uma tarefa de geração de saída para um mapa ou gerar novamente os tópicos selecionados, o Experience Manager Guides envia a tarefa para a fila de geração de saída. O status da tarefa é atualizado à medida que o processo de geração de saída avança.
+
+Você pode exibir e gerenciar tarefas de geração de saída usando a guia **Histórico de saída** no Editor ou a guia **SAÍDAS** na interface do Assets.
+
+
+## Exibir e gerenciar tarefas de geração de saída no Editor
+
+Você pode exibir e gerenciar tarefas de geração de saída diretamente na guia **Histórico de saída** do console de Mapa.
+
+Abra o mapa DITA no console Mapa e gere a saída usando qualquer predefinição de saída disponível no Experience Manager Guides. Alterne para a guia **Histórico de saída** para exibir o status da tarefa de geração de saída e outros detalhes, conforme mostrado abaixo:
+
+![](images/output-history-editor-view.png)
+
+Para cada tarefa de geração de saída, você pode exibir as seguintes informações:
+
+1. **Predefinição:** nome da predefinição de saída usada para gerar a saída.
+1. **Tipo de predefinição:** Tipo de predefinição de saída usado para geração de saída.
+1. **Status:** Status atual da tarefa de geração de saída, como Aguardando, Executando, Concluído, Com Falha, Pós-publicação ou Cancelado.
+1. **Gerado em:** Data e hora da geração da saída.
+1. **Duração:** tempo necessário para gerar a saída.
+1. **Gerado por:** Nome do usuário que iniciou a tarefa de geração de saída.
+
+>[!NOTE]
+>
+> Se uma tarefa de geração de saída estiver em andamento, o rótulo **Executando** na coluna **Status** indicará que a tarefa está sendo processada. Use a **Atualização** para exibir o status mais recente das tarefas de geração de saída.
+
+Você também pode cancelar uma tarefa de geração de saída em andamento. Para cancelar uma tarefa em andamento, passe o mouse sobre a linha da tarefa e selecione **Cancelar geração**.
+
+![](images/cancel-generation-editor.png)
+
+Quando a tarefa for cancelada, o rótulo **Cancelada** será exibido na coluna **Status**.
+
+Para tarefas de geração de saída concluídas, passe o mouse sobre a linha de tarefa para acessar as seguintes ações, dependendo do status da tarefa:
+
+![](images/output-history-editor-actions.png)
+
+- **Abrir saída:** Exiba a saída gerada em uma nova guia.
+- **Exibir logs:** Acesse os logs de geração de saída para examinar os detalhes da publicação e solucionar erros ou avisos.
+- **Excluir histórico de saída:** Remova a tarefa selecionada do histórico de geração de saída sem excluir a saída gerada.
+
+Você também pode usar as seguintes opções para trabalhar com o histórico de geração de saída:
+
+- **Pesquisa:** use o campo de pesquisa para localizar tarefas de geração de saída específicas no histórico.
+- **Baixar CSV:** Selecione **Baixar CSV** para baixar o histórico de geração de saída no formato CSV.
+- **Redimensionar coluna:** selecione a lista suspensa ao lado de um nome de coluna e selecione **Redimensionar coluna** para ajustar a largura da coluna.
+- **Filtro**: aplique filtros com base no tipo de predefinição de saída, no status da tarefa e no intervalo de data e hora para restringir o histórico de geração de saída.
+
+  ![](./images/output-history-filters.png)
+
+Além disso, os ícones codificados por cores indicam o status de cada tarefa: verde para tarefas bem-sucedidas, laranja para tarefas concluídas com mensagens e vermelho para tarefas com falha. Isso ajuda a identificar rapidamente as tarefas que exigem atenção.
+
+## Exibir e gerenciar tarefas de geração de saída na interface do usuário do Assets
+
+Usando a IA do Assets, você pode executar as seguintes ações na saída gerada:
 
 - [Exibir o status da tarefa de geração de saída](#view-the-status-of-the-output-generation-task)
 - [Cancelar uma tarefa de geração de saída](#cancel-an-output-generation-task)
 - [Excluir uma tarefa de saída](#delete-an-output-task)
 
-## Exibir o status da tarefa de geração de saída
+### Exibir o status da tarefa de geração de saída
 
 Depois de iniciar a tarefa de geração de saída para um mapa ou gerar novamente os tópicos selecionados, o Experience Manager Guides envia essa tarefa para a fila de geração de saída. Essa fila é atualizada em tempo real, mostrando o status de cada tarefa de geração de saída na fila.
 
@@ -67,14 +122,14 @@ Depois de iniciar a tarefa de geração de saída para um mapa ou gerar novament
 
      Nesta lista, você pode ter tarefas executadas com sucesso, tarefas executadas com mensagem ou tarefas com falha. As tarefas bem-sucedidas são mostradas com ícone de cor verde, as tarefas com uma mensagem têm um ícone de cor laranja e as tarefas com falha são mostradas com ícone de cor vermelha.
 
-     Para todas as tarefas, o processo de publicação cria um arquivo de log \(logs.txt\) que pode ser acessado selecionando o link na coluna Gerado em. Para tarefas que falharam ou têm mensagens, você pode verificar o arquivo de log, o que é explicado na seção [Exibir e verificar o arquivo de log](generate-output-basic-troubleshooting.md#id1822G0P0CHS).
+     Para todas as tarefas, o processo de publicação cria um arquivo de log \(logs.txt\) que pode ser acessado selecionando o link na coluna **Gerado às**. Para tarefas que falharam ou têm mensagens, você pode verificar o arquivo de log, o que é explicado na seção [Exibir e verificar o arquivo de log](generate-output-basic-troubleshooting.md#id1822G0P0CHS).
 
      >[!NOTE]
      >
      > Ao selecionar o link da saída gerada do PDF, você é solicitado a baixar a PDF.
 
 
-## Cancelar uma tarefa de geração de saída
+### Cancelar uma tarefa de geração de saída
 
 O Experience Manager Guides oferece aos editores uma maneira simples e fácil de cancelar qualquer tarefa de publicação em andamento. Como editor, você pode cancelar uma tarefa de publicação em andamento no console de mapas DITA ou no [Painel de Publicação](generate-output-publish-dashboard.md#).
 
@@ -101,7 +156,7 @@ Execute as seguintes etapas para cancelar uma tarefa de geração de saída no c
    ![](images/cancelled-output-task.png)
 
 
-## Excluir uma tarefa de saída
+### Excluir uma tarefa de saída
 
 Quando você gera várias saídas para um mapa DITA, durante um período de tempo, a lista Saídas geradas para esse mapa se torna muito longa. Como editor, você pode limpar o histórico de saída de qualquer arquivo de mapa removendo as tarefas desatualizadas da lista *Saídas Geradas*. Observe que a saída não é removida do sistema, apenas a entrada da saída gerada é removida da lista *Saídas Geradas*.
 
@@ -120,3 +175,20 @@ Execute as seguintes etapas para remover uma tarefa de saída da lista Saída Ge
 1. Selecione **Sim** no prompt de mensagem **Confirmar Exclusão**.
 
    A tarefa é excluída da lista Saída gerada.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leia a documentação do produto do Adobe Experience Manager Guides.
 breadcrumb-title: Documentação do AEM Guides
-source-git-commit: 09b8fabaa75d656ae1465d741c8aac8307ce6231
+source-git-commit: e1ea38759b90ccb044664bd70a5e7dbbaf9dd4f2
 workflow-type: tm+mt
-source-wordcount: '2657'
-ht-degree: 9%
+source-wordcount: '2699'
+ht-degree: 10%
 ---
 
 # [!DNL Adobe Experience Manager Guides] {#using}
@@ -20,6 +20,10 @@ ht-degree: 9%
       - {hide-from-toc}[Instruções de implantação](./release-info/deploy-xml-on-aemaacs.md)
       - [Versões na nuvem](./release-info/latest-release-info-cs.md)
       - Versões de 2026 {#2026-releases}
+        - Versão 2026.11.0 {#2611-release}
+          - [Novidades](./release-info/whats-new-2026-11-0.md)
+          - [Problemas corrigidos](./release-info/fixed-issues-2026-11-0.md)
+          - [Instruções de atualização](./release-info/upgrade-instructions-2026-11-0.md)
         - Versão 2026.09.0 {#2609-release}
           - [Novidades](./release-info/whats-new-2026-09-0.md)
           - [Problemas corrigidos](./release-info/fixed-issues-2026-09-0.md)
@@ -224,7 +228,7 @@ ht-degree: 9%
     - [Sobre [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
     - [!DNL AEM Guides] trabalhando e os principais recursos {#aemg-works-features}
       - [Como [!DNL AEM Guides] funciona](./user-guide/intro-how-dxml-works.md)
-      - [Recursos da chave [!DNL AEM Guides] &#x200B;](./user-guide/intro-dxml-features.md)
+      - [Recursos da chave [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
   - Home page {#home-page}
     - [Experiência da página inicial [!DNL AEM Guides]](./user-guide/intro-home-page.md)
     - [Interface do repositório](./user-guide/home-page-repository-view.md)
@@ -293,6 +297,10 @@ ht-degree: 9%
   - Gerenciamento e publicação de mapas {#map-management-publishing}
     - [Visão geral do console de mapa](./user-guide/map-console-overview.md)
     - [Abrir arquivos no console de Mapa](./user-guide/open-files-map-console.md)
+    - Ramificação e mesclagem {#work-with-branching}
+      - [Visão geral](./user-guide/branching-overview.md)
+      - [Criar e gerenciar ramificações](./user-guide/create-manage-branch.md)
+      - [Mesclar ramificações](./user-guide/merge-branches.md)
     - Relatórios {#reports-aem-guide}
       - [Introdução aos relatórios](./user-guide/reports-intro.md)
       - [Relatório de mapa DITA do console Mapa](./user-guide/reports-web-editor.md)
@@ -369,12 +377,15 @@ ht-degree: 9%
     - [Divulgações de usuários da IA geradora da Adobe](./user-guide/adobe-generative-ai-disclosures.md)
     - [Visão geral do Assistente de IA](./user-guide/ai-assistant.md)
     - Assistente de IA no modo Agente {#ai-assistant-agentic}
-      - [Usar o Assistente de IA no modo Agente](./user-guide/ai-assistant-agentic.md)
+      - [Importar conteúdo com o Assistente de IA](./user-guide/import-ai-assistant.md)
+      - [Criar o primeiro rascunho do conteúdo](./user-guide/create-ai-assistant.md)
+      - [Marcação inteligente com o Assistente de IA](./user-guide/ai-assistant-agentic.md)
     - Assistente de IA no modo Padrão {#ai-assistant-standard}
-      - [Ajuda inteligente habilitada por IA para pesquisar conteúdo](./user-guide/ai-based-smart-help.md)
       - [Assistente de IA para criar documentos de forma inteligente](./user-guide/ai-assistant-right-panel.md)
       - [Sugestões inteligentes habilitadas por IA para criar conteúdo](./user-guide/authoring-ai-based-smart-suggestions.md)
       - [Perguntas frequentes](./user-guide/ai-assistant-faq.md)
+  - Assistente de ajuda no AEM Guides {#help-assistant-aem}
+    - [Ajuda inteligente habilitada por IA para pesquisar conteúdo](./user-guide/ai-based-smart-help.md)
   - Gerenciar conteúdo de aprendizado {#learning-training-content}
     - Guia de introdução {#get-started}
       - Introdução {#intro-lc}
@@ -437,7 +448,7 @@ ht-degree: 9%
     - Gerenciamento de desempenho {#performance-management}
       - [Carregamento paginado de arquivos e pastas](./user-guide/paginated-loading-assets.md)
 - Guia do usuário (interface antiga) {#user-guide-old-ui}
-  - [Visão geral do AEM Guides](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+  - [Visão geral do AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Instalação e configuração {#install-conf-guide}
   - [Download, instalação e atualização](./install-conf-guide/introduction.md)
   - Processo de instalação do Cloud Service {#deploy-conf-aemg-cs}
@@ -563,6 +574,7 @@ ht-degree: 9%
         - [Aplicar estilos a notas de rodapé](./native-pdf/footnote-number-style.md)
         - [Configurar o novo mecanismo de publicação para o PDF Nativo](./native-pdf/conf-new-pdf-engine.md)
       - [Trabalhar com o mecanismo nativo do PDF v2](./native-pdf/new-pdf-engine.md)
+      - [Configurar a renderização do apêndice para a renderização do mapa para o PDF nativo](./install-conf-guide/conf-appendix-map-ref-native-pdf.md)
       - [Configurar o processo de nó para publicação nativa do PDF para Cloud Service](./native-pdf/conf-node-options-cs.md)
       - [Configurar sinalizadores JVM para Publicação Nativa do PDF no Local](./native-pdf/conf-jvm-flags-on-prem.md)
     - Configurar fragmentos de conteúdo e experiência para o Cloud Service {#conf-content-exp-fragment}
