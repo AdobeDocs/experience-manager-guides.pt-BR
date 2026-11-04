@@ -4,9 +4,9 @@ description: Saiba como configurar repositórios do GitLab, tokens de acesso, Cl
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: e5721ff1d6e2322213ac7bc988fb1d7e721cd148
+source-git-commit: 380089cbcfc56b23a9cb494d49c0e39e1813eabd
 workflow-type: tm+mt
-source-wordcount: '1256'
+source-wordcount: '1217'
 ht-degree: 3%
 ---
 
@@ -27,20 +27,9 @@ Para publicar conteúdo do Experience Manager Guides no Edge Delivery Services (
 - Função de Administrador do sistema ou Desenvolvedor de API na organização da Adobe para criar a integração de API do Cloud Manager.
 - Uma organização `aem.live` registrada no serviço de configuração. Saiba mais em [Configuração do serviço](https://www.aem.live/docs/config-service-setup).
 
-## Sequência de configuração
+## Configurar GitLab para Edge Delivery Services
 
-1. [Criar o site EDS usando GitHub](#1-create-the-eds-site-using-github)
-2. [Criar o repositório do GitLab](#2-create-the-gitlab-repository)
-3. [Configurar o URL do ponto de montagem](#3-configure-the-mountpoint-url)
-4. [Criar tokens de acesso do GitLab](#4-create-gitlab-access-tokens)
-5. [Adicionar o repositório GitLab ao Cloud Manager](#5-add-the-gitlab-repository-to-cloud-manager)
-6. [Gerar uma chave de API do Cloud Manager](#6-generate-a-cloud-manager-api-key)
-7. [Configurar o webhook do GitLab](#7-configure-the-gitlab-webhook)
-8. [Adicionar o site de EDS ao Cloud Manager](#8-add-the-eds-site-to-cloud-manager)
-9. [Conecte o repositório usando o Bring Your Own Git (Traga seu próprio Git)](#9-connect-the-repository-using-bring-your-own-git)
-10. [Configurar o site de EDS para usar o Cloud Manager](#10-configure-the-eds-site-to-use-cloud-manager)
-11. [Sincronizar e verificar](#11-sync-and-verify)
-12. [Publicar a partir do Experience Manager Guides](#12-publish-from-experience-manager-guides)
+Para configurar o GitLab para uso com o Edge Delivery Services, execute as seguintes etapas na sequência especificada para garantir a configuração e a integração adequadas.
 
 ### &#x200B;1. Criar o site EDS usando GitHub
 

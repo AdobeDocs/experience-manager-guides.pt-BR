@@ -24,7 +24,7 @@ topic_v2:
     internal-label: Security
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
+source-git-commit: b3c2c68321080aa4dde16befe4bfd0022bf9f61c
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 0%
@@ -86,13 +86,12 @@ Execute as seguintes etapas para iniciar o Assistente de IA:
 
 1. Faça logon no Experience Manager Guides.
 1. Na página inicial, selecione **Assistente de IA** na parte superior. Certifique-se de que o administrador ativou o recurso Assistente de IA no modo desejado.
-
 O Assistente de IA exibe os principais recursos, o link de diretrizes do usuário e um botão **Introdução**.
-Leia as diretrizes de usuário cuidadosamente e selecione **Introdução** para iniciar o Assistente de IA.
+1. Leia as diretrizes de usuário cuidadosamente e selecione **Introdução** para iniciar o Assistente de IA.
 
 >[!NOTE]
 >
->Se você já tiver consentido com as diretrizes de uso do recurso Assistente de ajuda, não será solicitado seu consentimento novamente e você poderá continuar usando o recurso Assistente de IA.
+>Se você já consentiu com as diretrizes de uso do recurso Assistente de ajuda, você não será solicitado a consentir novamente e poderá continuar usando o recurso Assistente de IA.
 
 **Tópicos relacionados**
 
