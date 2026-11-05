@@ -43,7 +43,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: de4730d6b52026979ba40224dc7ff811a8915412
+source-git-commit: ea5982aa0802068c9adc6ba38764f7102850996e
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 6%
@@ -126,7 +126,7 @@ Assistente de IA
 
 Acelere a criação de conteúdo, encontre respostas e aplique tags inteligentes com assistência alimentada por IA.
 
-[Assistente de IA](./install-conf-guide/conf-profiles.md)
+[Assistente de IA](./user-guide/ai-assistant.md)
 :::
 
 :::card
@@ -215,10 +215,10 @@ Explore as notas de versão e atualizações de produto mais recentes para impla
 
 Acesse recursos úteis, documentação e suporte para aproveitar ao máximo a plataforma.
 
-* [Repositório do GitHub](https://github.com/AdobeDocs/experience-manager-guides.pt-BR){target="_blank"}
-* [Suporte](https://experienceleague.adobe.com/support/v2/en/?lang=pt-BR){target="_blank"}
-* [Tutoriais em vídeo](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
-* [comunidade do AEM Guides](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?lang=pt){target="_blank"}
+* [Repositório do GitHub](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [Suporte](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [Tutoriais em vídeo](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [comunidade do AEM Guides](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
 
 </td>
 </tr>
