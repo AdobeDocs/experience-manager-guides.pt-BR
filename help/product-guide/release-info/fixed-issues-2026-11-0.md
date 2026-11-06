@@ -1,9 +1,9 @@
 ---
 title: Notas de versão | Correção de problemas na versão 2026.11.0 do Adobe Experience Manager Guides
 description: Saiba mais sobre as correções de erros na versão 2026.11.0 do Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: f33da832def2bf2cc8caf46f3b6f8102bcfafb19
+source-git-commit: 0ebd3941a6ea5160c86e68a9ca6bdda50900a78d
 workflow-type: tm+mt
-source-wordcount: '1448'
+source-wordcount: '1456'
 ht-degree: 0%
 
 ---
@@ -102,12 +102,12 @@ Quando o **Controle de alterações** está ativado:
 
 - Na saída do PDF nativo, a formatação sobrescrita e subscrita não é preservada nas entradas de índice. (GUIDES-58349)
 - Quando você usa a mesma predefinição global para gerar saída para mapas diferentes, a seleção de tópico do mapa anterior pode afetar a saída do novo mapa. (GUIDES-58346)
-- Quando um mapa de livro contém um capítulo com um `href` válido e uma referência de tópico aninhada, a publicação do mapa no AEM Sites resulta em uma página em branco. (GUIDES-58266)
+- A publicação de um mapa às vezes resulta em uma página em branco quando, em um cenário específico, um `<chapter>` define simultaneamente um destino `href` direto e esse capítulo contém elementos filho `<topicref>` aninhados. (GUIDES-58266)
 - Ao navegar para a guia **Histórico de saída** de uma predefinição com alterações não salvas, os botões **Salvar** e **Gerar saída** permanecem visíveis. (GUIDES-57989)
 - Quando um fluxo de trabalho de pós-publicação é configurado para uma predefinição, a duração da publicação mostrada em **Histórico de saídas** não inclui o tempo gasto pelo fluxo de trabalho. (GUIDES-57856)
 - Não é possível cancelar a geração de saída do PDF Nativo da página **Histórico de saída**. (GUIDES-57821)
 
 ### Revisar
 
-- Abrir uma tarefa de revisão criada na versão 2026.08.0 ou 2026.09.0 pode resultar em erros de aplicativo. (GUIDES-56583) <br>**Solução alternativa:** Conclua ou feche todas as tarefas de revisão criadas nessas versões antes de atualizar para a versão 2026.11.0.
+- Abrir uma tarefa de revisão criada na versão 2026.08.0 ou 2026.09.0 às vezes resulta em um erro de aplicativo quando o conteúdo revisado contém *qualquer anotação de revisão* com espaços não separáveis (`&nbsp;`). (GUIDES-56583) <br>**Solução alternativa:** Conclua ou feche todas as tarefas de revisão criadas nessas versões.
 
