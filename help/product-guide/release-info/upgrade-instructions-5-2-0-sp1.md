@@ -9,9 +9,9 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 7b1cfa6d7136e6a0802eaaab243218ff25b43fdc
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '927'
 ht-degree: 3%
 ---
 # Instruções de atualização do 5.2.0 Service Pack 1 (setembro de 2026)
@@ -68,8 +68,8 @@ Para obter mais detalhes, consulte [Configurar e usar o JAR da API do repositór
 
 | Guias do AEM | Versão do AEM | Versão dos componentes | Versão do site |
 |---|---|---| ---|
-| 5.2.0 UUID do Service Pack 1 | 6.5 LTS | guides-components.all-1.4.1 | aemg-sites-template-1.3.0 |
-| 5.2.0 UUID do Service Pack 1 | 6,5 | guides-components.all-1.4.0 | aemg-sites-template-1.3.0 |
+| 5.2.0 UUID do Service Pack 1 | 6.5 LTS | guides-components.all-1.4.1 | aemg-docs.all-1.2.0 |
+| 5.2.0 UUID do Service Pack 1 | 6,5 | guides-components.all-1.4.0 | aemg-docs.all-1.2.0 |
 
 ## Pré-requisitos
 
