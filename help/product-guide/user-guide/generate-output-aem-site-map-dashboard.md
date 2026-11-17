@@ -32,12 +32,16 @@ topic_v2:
     internal-label: Metadata
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 543a83c00a07931231dcd985e8ffdceb4306b4b7
 workflow-type: tm+mt
-source-wordcount: '2420'
+source-wordcount: '2589'
 ht-degree: 0%
 ---
 # Predefinições do AEM Sites no painel de mapa {#id205BE3008SW}
+
+>[!NOTE]
+>
+>A partir da versão 2027.01.0 para Cloud Service e da versão 5.4 para No local do Experience Manager Guides, o recurso do painel de Mapa será descontinuado para novos clientes. No entanto, ela permanecerá ativada para clientes existentes que já a estão usando. Se desejar desativar o painel Mapa, entre em contato com a equipe de Sucesso do cliente. É recomendável usar o console Mapa para gerenciamento e publicação de mapas a partir de agora.
 
 É possível criar predefinições do AEM Sites no painel de mapa e configurá-las para gerar a saída do AEM Sites.
 
@@ -57,7 +61,7 @@ As seguintes opções estão disponíveis para a saída do AEM Sites:
 | Reter arquivos temporários | Selecione essa opção para manter os arquivos temporários gerados pelo DITA-OT. Se ocorrerem erros durante a geração de saída pelo DITA-OT, selecione essa opção para manter os arquivos temporários. Você pode usar esses arquivos para solucionar erros de geração de saída.<br> <br> Depois de gerar a saída, selecione o ícone **Baixar arquivos temporários** ![baixar arquivos temporários](images/download-temp-files-icon.png) para baixar a pasta ZIP que contém os arquivos temporários. <br><br> **Observação**: se as propriedades do arquivo forem adicionadas durante a geração, os arquivos temporários de saída também incluirão um arquivo *metadata.xml* contendo essas propriedades. |
 | Gerar PDF separados para cada tópico | Se selecionada, uma PDF também será criada para cada tópico no mapa DITA. Ao escolher essa opção, uma nova opção Dividir caminho do PDF é exibida.<br><br>No campo Dividir Caminho do PDF, especifique o caminho para armazenar os PDFs gerados para cada tópico.<br><br>**Observação**: o AEM Guides usa o plug-in DITA-OT chamado pdfx para gerar o PDF para cada tópico. Esse plug-in é fornecido com o pacote DITA-OT pronto para uso. Você pode personalizar esse plug-in para gerar o PDF de acordo com suas necessidades. Se você usar um plug-in DITA-OT personalizado, certifique-se de integrar o plug-in pdfx para ter o recurso de geração de PDF no nível do tópico. |
 | Executar fluxo de trabalho de pós-geração | Ao escolher essa opção, uma nova lista suspensa Fluxo de trabalho de pós-geração é exibida contendo todos os fluxos de trabalho configurados no AEM. Você deve selecionar um workflow que deseja executar após a conclusão do workflow de geração de saída. |
-| Usar Linha de Base | Se você criou uma Linha de Base para o mapa DITA selecionado, selecione essa opção para especificar a versão que deseja publicar.<br><br>**Importante**: quando você está gerando saída incremental para o Site do AEM, a saída é criada usando a versão atual dos arquivos, e não a Linha de Base anexada.<br><br>Consulte [Trabalhar com Linha de Base](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) para obter mais detalhes. |
+| Usar Linha de Base | Se você criou uma Linha de Base para o mapa DITA selecionado, selecione essa opção para especificar a versão que deseja publicar.<br><br>**Importante**: quando você está gerando saída incremental para o Site do AEM, a saída é criada usando a versão atual dos arquivos, e não a Linha de Base anexada.<br><br>Consulte [Trabalhar com Linha de Base](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) para obter mais detalhes. <br>**Observação**: se você excluir uma Linha de Base que é usada na predefinição de saída, ela não será atualizada automaticamente. Faça o seguinte antes de gerar a saída: <ul><li>**Se você excluir apenas a Linha de Base**: A opção **Usar Linha de Base** permanece habilitada e o menu suspenso aparece em branco. A geração de saída nesse estado falha. Desative a opção Usar linha de base, atualize a página e gere a saída.</li><li>**Se você tiver várias Linhas de Base e excluir a selecionada**: o menu suspenso **Usar Linha de Base** continua a mostrar a Linha de Base excluída como selecionada. Selecione uma Linha de base válida no menu suspenso e gere a saída.</li></ul> |
 | Propriedades | Selecione as propriedades que deseja processar como metadados. Essas propriedades são definidas na página Propriedades do mapa DITA ou do arquivo de mapa. As propriedades selecionadas na lista suspensa aparecem no campo **Propriedades do arquivo**. Selecione o ícone cruzado ao lado da propriedade para removê-la. <br><br>**Observação**: as propriedades de metadados diferenciam maiúsculas de minúsculas.<br><br>*Se você tiver selecionado uma Linha de Base, os valores das propriedades serão baseados na versão da Linha de Base selecionada.<br>* Se você não tiver selecionado uma Linha de Base, os valores das propriedades serão baseados na versão mais recente.<br><br>Você também pode passar os metadados para a saída usando a publicação DITA-OT. Para obter mais detalhes, [Passe os metadados para a saída usando DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA).<br><br>**Observação**: se você não tiver definido o `cq:tags` na opção Propriedades, os valores de `cq:tags` serão escolhidos na cópia de trabalho atual, mesmo que você tenha selecionado uma Linha de Base para publicação. |
 | Usar propriedades do mapa como padrão | Se essa opção for selecionada, as propriedades definidas para o arquivo de mapa também serão copiadas para os tópicos em que essas propriedades não estão definidas. Considere os seguintes pontos ao usar esta opção:<br><br>*Somente as propriedades String, Date ou Long (único e de vários valores) podem ser passadas para as páginas do AEM Sites.<br>* Os valores de metadados de uma propriedade do tipo String não suportam caracteres especiais (como `@, #, " "`).<br>* Essa opção deve ser usada com a opção `Properties`. |
 
@@ -113,7 +117,7 @@ Execute as seguintes etapas para especificar o contexto de publicação para arq
 
    Ao selecionar um arquivo de mapa, a UUID do mapa é mostrada na coluna UUID do mapa principal. As Predefinições de saída associadas ao mapa selecionado são listadas na lista Predefinição do Mapa pai.
 
-1. Na lista suspensa Predefinição do mapa principal **&#x200B;**, selecione a predefinição de saída à qual deseja vincular a saída do mapa atual.
+1. Na lista suspensa Predefinição do mapa principal ****, selecione a predefinição de saída à qual deseja vincular a saída do mapa atual.
 
 1. Selecione o mapa necessário e sua predefinição de saída para todos os tópicos dependentes e selecione **Concluído**.
 
@@ -140,4 +144,4 @@ Você pode procurar por uma string na saída do AEM Sites. Por padrão, é poss�
 
 Para obter mais detalhes, consulte a seção *Configurar nivelamento da estrutura do nó do site do AEM* no guia Instalar e configurar o Adobe Experience Manager Guides.
 
-**Tópico pai:**&#x200B;[&#x200B; Noções básicas sobre as predefinições de saída](generate-output-understand-presets.md)
+**Tópico pai:**[ Noções básicas sobre as predefinições de saída](generate-output-understand-presets.md)

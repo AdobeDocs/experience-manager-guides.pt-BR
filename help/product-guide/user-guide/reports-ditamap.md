@@ -30,14 +30,16 @@ topic_v2:
     internal-label: Reporting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
 workflow-type: tm+mt
-source-wordcount: 769
+source-wordcount: '839'
 ht-degree: 0%
-
 ---
-
 # Relatório de mapa DITA no painel de mapa {#id205BB800EEN}
+
+>[!NOTE]
+>
+>A partir da versão 2027.01.0 para Cloud Service e da versão 5.4 para No local do Experience Manager Guides, o recurso do painel de Mapa será descontinuado para novos clientes. No entanto, ela permanecerá ativada para clientes existentes que já a estão usando. Se desejar desativar o painel Mapa, entre em contato com a equipe de Sucesso do cliente. É recomendável usar o console Mapa para gerenciamento e publicação de mapas a partir de agora.
 
 O Adobe Experience Manager Guides fornece aos administradores os recursos de relatórios para verificar a integridade geral da documentação antes que ela seja ativada ou disponibilizada para os usuários finais. O relatório de mapa DITA no painel de mapa no Experience Manager Guides fornece informações valiosas, como os tópicos ausentes, tópicos com elementos ausentes, UUID de tópicos e arquivos de mídia referenciados e status de revisão de cada tópico. Um relatório detalhado em nível de tópico individual também fornece informações relacionadas ao conteúdo DITA, como referências de conteúdo e imagens ausentes ou referências cruzadas.
 
@@ -67,23 +69,23 @@ Execute as seguintes etapas para exibir o Relatório de mapa DITA:
 
      Os itens realçados em **A**, **B**, **C** e **D** estão descritos abaixo:
 
-      - **Tópico**: O título do tópico especificado no mapa DITA. Passar o ponteiro do mouse sobre o título do tópico exibe o caminho completo do tópico. Se houver problemas no tópico, como referências ou imagens ausentes, um ponto vermelho será mostrado antes do título do tópico.
+     - **Tópico**: O título do tópico especificado no mapa DITA. Passar o ponteiro do mouse sobre o título do tópico exibe o caminho completo do tópico. Se houver problemas no tópico, como referências ou imagens ausentes, um ponto vermelho será mostrado antes do título do tópico.
 
-      - **Nome do Arquivo**: Nome do arquivo.
+     - **Nome do Arquivo**: Nome do arquivo.
 
-      - **UUID**: o identificador exclusivo universalmente \(UUID\) do arquivo.
+     - **UUID**: o identificador exclusivo universalmente \(UUID\) do arquivo.
 
-      - **Autor**: usuário que trabalhou por último neste tópico.
+     - **Autor**: usuário que trabalhou por último neste tópico.
 
-      - **Estado do Documento**: o estado atual do documento - Rascunho, Em Revisão ou Revisado.
+     - **Estado do Documento**: o estado atual do documento - Rascunho, Em Revisão ou Revisado.
 
-      - **Elementos ausentes**: lista o número de imagens ausentes ou referências cruzadas corrompidas, se houver.
+     - **Elementos ausentes**: lista o número de imagens ausentes ou referências cruzadas corrompidas, se houver.
 
-      - **Tópicos Ausentes \(B\)**: Se houver tópicos com referências quebradas, esses tópicos serão listados na lista Tópicos Ausentes.
+     - **Tópicos Ausentes \(B\)**: Se houver tópicos com referências quebradas, esses tópicos serão listados na lista Tópicos Ausentes.
 
-      - **Abrir no Framemaker \(C\)**: lista o número de imagens ausentes ou referências cruzadas corrompidas, se houver.
+     - **Abrir no Framemaker \(C\)**: lista o número de imagens ausentes ou referências cruzadas corrompidas, se houver.
 
-      - **Abrir no Editor \(D\)**: a seleção desse ícone abre o tópico no Editor.
+     - **Abrir no Editor \(D\)**: a seleção desse ícone abre o tópico no Editor.
 
 
    Os itens realçados em **E** estão descritos abaixo:
@@ -123,4 +125,4 @@ Execute as seguintes etapas para gerar o CSV de um relatório de mapa DITA:
 
 Depois que o relatório for baixado na Caixa de entrada, você também poderá selecionar o relatório e usar o ícone Abrir na parte superior para abrir o relatório selecionado.
 
-**Tópico pai:**&#x200B;[&#x200B; Introdução aos relatórios](reports-intro.md)
+**Tópico pai:**[ Introdução aos relatórios](reports-intro.md)
