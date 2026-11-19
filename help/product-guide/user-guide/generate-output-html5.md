@@ -34,9 +34,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
 workflow-type: tm+mt
-source-wordcount: '1653'
+source-wordcount: '1821'
 ht-degree: 0%
 ---
 # HTML 5 {#id205BE700XO1}
@@ -97,6 +97,10 @@ Para obter detalhes sobre as opções de configuração de predefinição, consu
 
 ## Criar predefinição de saída do HTML5 no painel Mapa
 
+>[!NOTE]
+>
+>A partir da versão 2027.01.0 para Cloud Service e da versão 5.4 para No local do Experience Manager Guides, o recurso do painel de Mapa será descontinuado para novos clientes. No entanto, ela permanecerá ativada para clientes existentes que já a estão usando. Se desejar desativar o painel Mapa, entre em contato com a equipe de Sucesso do cliente. É recomendável usar o console Mapa para gerenciamento e publicação de mapas a partir de agora.
+
 Execute as seguintes etapas para criar a predefinição do HTML5 no painel Mapa:
 
 1. Na interface do usuário do Assets, navegue até o mapa DITA e selecione-o para abri-lo no painel Mapa.
@@ -130,7 +134,7 @@ Por exemplo, **Caminho de saída/Caminho de destino** - Aqui, **Caminho de saíd
 | Fluxo de trabalho de pós-geração | Ao escolher essa opção, uma nova lista suspensa Fluxo de trabalho de pós-geração é exibida contendo todos os fluxos de trabalho configurados no AEM. Você deve selecionar um workflow que deseja executar após a conclusão do workflow de geração de saída.<br><br>**Obtenha mais informações**:For sobre como criar um fluxo de trabalho personalizado de geração de pós-saída, exiba _Personalizar fluxo de trabalho de geração de pós-saída_ em Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service. |
 | Nome da transformação | Especifique o tipo de saída que deseja gerar. Isso é necessário se você quiser gerar saída usando seu próprio plug-in personalizado, que está integrado ao plug-in DITA-OT. Por exemplo, se você deseja gerar saída XHTML, especifique `xhtml`. Para obter uma lista de transformações disponíveis no DITA-OT, exiba [transformações do DITA-OT (formatos de saída)](http://www.dita-ot.org/2.3/user-guide/AvailableTransforms.html) no Guia do Usuário do OASIS DITA-OT. |
 | Reter arquivos temporários | Selecione essa opção para manter os arquivos temporários gerados pelo DITA-OT. Se ocorrerem erros durante a geração de saída pelo DITA-OT, selecione essa opção para manter os arquivos temporários. Você pode usar esses arquivos para solucionar erros de geração de saída.<br> <br> Depois de gerar a saída, selecione o ícone **Baixar arquivos temporários** ![baixar arquivos temporários](images/download-temp-files-icon.svg) para baixar a pasta ZIP que contém os arquivos temporários. Os arquivos baixados também incluem o arquivo `system_config.xml`, que fornece informações sobre a URL do autor, a URL local e a URL de publicação. Essas URLs são definidas nas configurações de Externalização do AEM e são refletidas no arquivo `system_config.xml`. <br><br> **Observação**: se as propriedades do arquivo forem adicionadas durante a geração, os arquivos temporários de saída também incluirão um arquivo *metadata.xml* contendo essas propriedades. |
-| Usar Linha de Base | Se tiver criado uma Linha de Base para o mapa DITA selecionado, selecione essa opção para especificar a versão que deseja publicar.<br><br>Exibir [Trabalhar com Linha de Base](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) para obter mais detalhes. |
+| Usar Linha de Base | Se tiver criado uma Linha de Base para o mapa DITA selecionado, selecione essa opção para especificar a versão que deseja publicar. Exiba [Trabalhar com Linha de Base](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) para obter mais detalhes.<br>**Observação**: se você excluir uma Linha de Base usada na predefinição de saída, a predefinição não será atualizada automaticamente. Faça o seguinte antes de gerar a saída: <ul><li>**Se você excluir apenas a Linha de Base**: A opção **Usar Linha de Base** permanece habilitada e o menu suspenso aparece em branco. A geração de saída nesse estado falha. Desative a opção Usar linha de base, atualize a página e gere a saída.</li><li>**Se você tiver várias Linhas de Base e excluir a selecionada**: o menu suspenso **Usar Linha de Base** continua a mostrar a Linha de Base excluída como selecionada. Selecione uma Linha de base válida no menu suspenso e gere a saída.</li></ul> |
 | Nivelar hierarquia de arquivos | Selecione a opção para gerar a saída HTML5 em uma hierarquia de pastas simples. Todo o conteúdo é publicado no formato de saída HTML5 em uma hierarquia de arquivos simples e salvo em uma única pasta. <br> Se você desmarcar essa opção, a saída será gerada em uma hierarquia de pastas aninhada e toda a estrutura de pastas será replicada. |
 | Propriedades do arquivo | Selecione as propriedades que deseja processar como metadados. Essas propriedades são definidas na página Propriedades do mapa DITA ou do arquivo de mapa. As propriedades selecionadas na lista suspensa aparecem no campo **Propriedades do arquivo**. Selecione o ícone cruzado ao lado da propriedade para removê-la. <br><br>**Observação**: você também pode passar os metadados para a saída usando a publicação DITA-OT. Para obter mais detalhes, [Passe os metadados para a saída usando DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
 

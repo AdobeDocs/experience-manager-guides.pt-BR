@@ -25,9 +25,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 543a83c00a07931231dcd985e8ffdceb4306b4b7
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '223'
 ht-degree: 0%
 ---
 # Editar, duplicar ou excluir uma predefinição de saída {#id205BEH0K09Z}
@@ -49,6 +49,10 @@ Além disso, você pode duplicar ou excluir uma predefinição de saída usando 
 
 
 ## Uso do painel do Mapa
+
+>[!NOTE]
+>
+>A partir da versão 2027.01.0 para Cloud Service e da versão 5.4 para No local do Experience Manager Guides, o recurso do painel de Mapa será descontinuado para novos clientes. No entanto, ela permanecerá ativada para clientes existentes que já a estão usando. Se desejar desativar o painel Mapa, entre em contato com a equipe de Sucesso do cliente. É recomendável usar o console Mapa para gerenciamento e publicação de mapas a partir de agora.
 
 É possível editar, duplicar e excluir uma predefinição de saída usando o painel de mapa, selecionando a guia necessária na barra superior, como mostrado abaixo.
 

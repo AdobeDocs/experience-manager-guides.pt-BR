@@ -19,9 +19,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
 workflow-type: tm+mt
-source-wordcount: '1573'
+source-wordcount: '1643'
 ht-degree: 5%
 ---
 # Traduzir conteúdo {#id181GB0400UI}
@@ -75,6 +75,10 @@ Quando seu provedor de serviços de tradução não fornece um conector para int
 > Consulte a seção *Tradução* no guia de práticas recomendadas para obter práticas recomendadas sobre a tradução de conteúdo.
 
 ## Configure a guia Tradução no painel de mapa DITA
+
+>[!NOTE]
+>
+>A partir da versão 2027.01.0 para Cloud Service e da versão 5.4 para No local do Experience Manager Guides, o recurso do painel de Mapa será descontinuado para novos clientes. No entanto, ela permanecerá ativada para clientes existentes que já a estão usando. Se desejar desativar o painel Mapa, entre em contato com a equipe de Sucesso do cliente. É recomendável usar o console Mapa para gerenciamento e publicação de mapas a partir de agora.
 
 As guias a seguir fornecem instruções para ocultar a guia Tradução no painel de mapa DITA com base na configuração do Experience Manager Guides: Cloud Service ou No local.
 

@@ -27,9 +27,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 543a83c00a07931231dcd985e8ffdceb4306b4b7
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '934'
 ht-degree: 0%
 ---
 # Baixar arquivos {#id216MC0H0BE8}
@@ -89,6 +89,10 @@ Execute as seguintes etapas para baixar um arquivo de mapa DITA do Editor:
 Após o download do mapa, você pode selecionar o mapa e usar o ícone Abrir na parte superior para abrir o conteúdo baixado. Para exibir os metadados associados do mapa baixado, abra o arquivo `metdata.json` incluído no conteúdo baixado. Este arquivo está disponível para as opções *Hierarquia de arquivos* - Nivelar hierarquia de arquivos e Reter hierarquia de arquivos.
 
 ## Baixar um arquivo de mapa DITA no painel Mapa
+
+>[!NOTE]
+>
+>A partir da versão 2027.01.0 para Cloud Service e da versão 5.4 para No local do Experience Manager Guides, o recurso do painel de Mapa será descontinuado para novos clientes. No entanto, ela permanecerá ativada para clientes existentes que já a estão usando. Se desejar desativar o painel Mapa, entre em contato com a equipe de Sucesso do cliente. É recomendável usar o console Mapa para gerenciamento e publicação de mapas a partir de agora.
 
 Depois de ter o arquivo de mapa DITA no repositório do Adobe Experience Manager, você pode baixar o arquivo de mapa junto com seus dependentes. Isso proporciona a flexibilidade de compartilhar o arquivo de mapa completo para edição, validação, revisão ou simplesmente criação de um backup offline.
 
