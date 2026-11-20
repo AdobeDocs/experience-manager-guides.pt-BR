@@ -9,9 +9,9 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 9fc07666f2f53b6f0ca43e3203ac817daf8039d9
+source-git-commit: e21e39b2acf48c4115101ab806e97b45844fa191
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '431'
 ht-degree: 1%
 ---
 # Notas de versão do Service Pack 1 2026.11.0 (novembro de 2026)
@@ -26,7 +26,7 @@ Use os recursos a seguir ao desenvolver plug-ins Java personalizados ou integra�
 |---|---|---|----|
 | Service Pack 1 2026.11.0 | 2026.11.0 | [API do AEM Guides SDK 2026.11.0](https://central.sonatype.com/artifact/com.adobe.aem/aem-dox-sdk-api/2026.11.0) | [Javadoc 2026.11.0](https://javadoc.io/doc/com.adobe.aem/aem-dox-sdk-api/latest/index.html) |
 
-Para obter mais detalhes, consulte [Configurar e usar o JAR da API do repositório central Maven](https://experienceleague.adobe.com/pt-br/docs/experience-manager-guides/using/api-reference/introduction).
+Para obter mais detalhes, consulte [Configurar e usar o JAR da API do repositório central Maven](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/api-reference/introduction).
 
 
 ## Problemas corrigidos
@@ -46,5 +46,5 @@ Os seguintes problemas ocorrem ao publicar no AEM Sites usando uma linha de base
 A Adobe identificou os seguintes problemas conhecidos para o Service Pack 1 2026.11.0:
 
 - Ao usar o Experience Manager Guides as a Cloud Service 2026.11.0 ou posterior, a publicação falha com um erro de aplicativo se o AEM reiniciar determinados serviços internos durante o processo de publicação, como quando uma instância de servidor é iniciada. (GUIDES-60804)<br>**Solução alternativa:** Para resolver o problema, tente publicar novamente.
-- Ao gerar saída para várias predefinições do AEM Sites (usando mapeamento de componente composto) ou predefinições do PDF Nativo por meio de **Coleção de mapas** ou API, a geração de saída falha com uma exceção `Rebuild the Baseline`. (GUIDES-60877) <br>**Solução alternativa:** publique as predefinições sequencialmente em vez de simultaneamente para evitar o problema.
+- Ao gerar saída para várias predefinições AEM Sites (usando mapeamento de componente composto) ou predefinições PDF nativas usando a mesma linha de base por meio da **Coleção de mapas** ou API, a geração de saída falha com uma exceção `Rebuild the Baseline`. (GUIDES-60877) <br>**Solução alternativa:** publique as predefinições sequencialmente em vez de simultaneamente para evitar o problema.
 
