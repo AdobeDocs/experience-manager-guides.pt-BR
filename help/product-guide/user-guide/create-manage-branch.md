@@ -23,9 +23,9 @@ topic_v2:
     internal-label: Security
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 6359bacca2ef4114a81049d9792214f3439de364
+source-git-commit: 4dbc008bb913b34a534eb65a146b33e9939febb8
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1158'
 ht-degree: 0%
 ---
 
@@ -45,7 +45,7 @@ Execute as seguintes etapas para criar uma ramificação:
 
    >[!NOTE]
    >
-   > Se outro mapa já estiver aberto no Editor, uma caixa de diálogo de confirmação será exibida. Selecione **Abrir** para abrir o mapa selecionado na ramificação atual. Para obter mais informações, exiba [Abrir conteúdo fora do contexto do mapa atual](#open-content-outside-the-current-map-context).
+   > Se outro mapa já estiver aberto no Editor, uma caixa de diálogo de confirmação será exibida. Selecione **Abrir** para abrir o mapa selecionado na ramificação atual. Para obter mais informações, exiba [Abrir um mapa fora do contexto do mapa atual](#open-a-map-outside-the-current-map-context).
 
 1. Selecione a lista suspensa de ramificação **principal** e verifique se o mapa DITA necessário está selecionado.
 
@@ -53,7 +53,7 @@ Execute as seguintes etapas para criar uma ramificação:
 
 1. Selecione **Nova ramificação** para criar uma ramificação do mapa selecionado.
 
-1. Na caixa de diálogo **Nova ramificação**, digite um nome para a nova ramificação e selecione a ramificação pai a partir da qual deseja criá-la.
+1. Na caixa de diálogo **Nova ramificação**, digite um nome para a nova ramificação e selecione a **ramificação do Source** (agindo como uma ramificação pai) da qual deseja criá-la.
 
    ![](./images/new-branch-creation.png)
 
@@ -76,13 +76,9 @@ Execute as seguintes etapas para alternar ramificações:
 
 Agora é possível trabalhar no mapa e seu conteúdo associado dentro da ramificação selecionada.
 
-![](./images/branch-switched.png)
-
 >[!NOTE]
 >
 >Se um tópico tiver alterações não salvas ao alternar ramificações, será exibida uma caixa de diálogo solicitando que você salve as alterações antes de alternar para a ramificação selecionada.
-
-Agora é possível trabalhar no mapa e seu conteúdo associado dentro da ramificação selecionada.
 
 ## Edição isolada em uma ramificação
 
@@ -174,7 +170,7 @@ Você pode arquivar ramificações de um mapa DITA que não são mais usadas ati
 >
 > A ramificação padrão (`main`) não pode ser arquivada.
 
-Para arquivar uma ramificação, execute as seguintes etapas:
+Execute as seguintes etapas para arquivar uma ramificação:
 
 1. No painel **Ramificações**, selecione o ícone **Gerenciar**.
 
@@ -199,7 +195,7 @@ Para arquivar uma ramificação, execute as seguintes etapas:
 
 Você pode restaurar uma ramificação arquivada de um mapa DITA quando precisar retomar o trabalho em seu conteúdo.
 
-Para restaurar uma ramificação arquivada, execute as seguintes etapas:
+Execute as seguintes etapas para restaurar uma ramificação arquivada:
 
 1. No painel **Ramificações**, selecione o ícone **Gerenciar**.
 2. Na caixa de diálogo **Gerenciar ramificações**, selecione a guia **Arquivado**.
