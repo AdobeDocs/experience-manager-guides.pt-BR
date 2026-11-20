@@ -18,7 +18,7 @@ ht-degree: 10%
     - Cloud Services {#cloud-release-notes}
       - {hide-from-toc}[Instruções de implantação](./release-info/deploy-xml-on-aemaacs.md)
       - [Versões na nuvem](./release-info/latest-release-info-cs.md)
-      - Versões de {hide-from-toc} 2026 {#2026-releases}
+      - {hide-from-toc}Versões de  2026 {#2026-releases}
         - Versão 2026.11.0 SP1 {#2611-sp1-release}
           - {hide-from-toc}[Notas de versão](./release-info/release-notes-2026-11-0-sp1.md)
         - Versão 2026.11.0 {#2611-release}
@@ -232,7 +232,7 @@ ht-degree: 10%
     - [Sobre [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
     - [!DNL AEM Guides] trabalhando e os principais recursos {#aemg-works-features}
       - [Como [!DNL AEM Guides] funciona](./user-guide/intro-how-dxml-works.md)
-      - [Recursos da chave [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
+      - [Recursos da chave [!DNL AEM Guides] &#x200B;](./user-guide/intro-dxml-features.md)
   - Home page {#home-page}
     - [Experiência da página inicial [!DNL AEM Guides]](./user-guide/intro-home-page.md)
     - [Interface do repositório](./user-guide/home-page-repository-view.md)
