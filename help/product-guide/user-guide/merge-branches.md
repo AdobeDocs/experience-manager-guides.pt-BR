@@ -23,18 +23,18 @@ topic_v2:
     internal-label: Security
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 6359bacca2ef4114a81049d9792214f3439de364
+source-git-commit: 92654f51cb5f9ad4b0d625460e8b16908e01b2a5
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1041'
 ht-degree: 0%
 ---
 # Mesclar uma ramificação à principal
 
 No Experience Manager Guides, você pode mesclar alterações de uma ramificação de um mapa DITA na ramificação `main`. A mesclagem permite incorporar atualizações concluídas na documentação do `main` sem copiar manualmente as alterações no `main`.
 
-Por exemplo, considere um mapa DITA chamado `install-the-lift.ditamap` com uma ramificação chamada `Release 2`. Os autores podem atualizar as instruções de instalação nesta ramificação enquanto a documentação existente permanece inalterada no `main`.
+Por exemplo, considere um mapa DITA chamado `install-the-lift.ditamap` com uma ramificação chamada `Release 2.0`. Os autores podem atualizar as instruções de instalação (abordadas em um dos tópicos do mapa) nesta ramificação, enquanto a documentação existente permanece inalterada no `main`.
 
-Quando as atualizações estiverem prontas, os autores poderão mesclar as alterações de `Release 2` em `main`.
+Quando as atualizações estiverem prontas, os autores poderão mesclar as alterações de `Release 2.0` em `main`.
 
 ## Entender a mesclagem de ramificações
 
@@ -49,7 +49,7 @@ Se a mesma parte de um tópico/mapa tiver sido modificada em ambas as ramificaç
 
 Você pode mesclar alterações de uma ramificação selecionada de um mapa DITA em `main`.
 
-Para mesclar uma ramificação, execute as seguintes etapas:
+Execute as seguintes etapas para mesclar uma ramificação:
 
 1. Abra o mapa DITA necessário no console Mapa.
 2. Navegue até a guia **Ramificações**.
@@ -64,14 +64,12 @@ Para mesclar uma ramificação, execute as seguintes etapas:
 
 5. Selecione a solicitação de mesclagem.
 
-   A solicitação de mesclagem é aberta na exibição **Merge branch**. Revise as alterações e resolva os conflitos, se necessário.
-6. Conclua a mesclagem.
+   A solicitação de mesclagem é aberta na exibição **Mesclar ramificação**, que lista os arquivos com conflitos e os arquivos que podem ser mesclados sem conflitos.
+6. Se a solicitação de mesclagem contiver conflitos, resolva-os. Para obter mais informações, consulte [Resolver conflitos de mesclagem](#resolve-merge-conflicts).
 
-   Revise as alterações e resolva os conflitos, se necessário. Para obter mais informações, consulte [Resolver conflitos de mesclagem](#resolve-merge-conflicts).
+7. Selecione **Mesclar tudo**.
 
-   Depois que todos os conflitos forem resolvidos, selecione **Mesclar tudo** para mesclar as alterações em `main`.
-
-   As alterações são mescladas na ramificação `main`.
+   As alterações da ramificação são mescladas no `main`.
 
 ## Resolver conflitos de mesclagem
 
@@ -143,20 +141,17 @@ Execute as seguintes etapas para resolver conflitos de mesclagem:
 
    Como alternativa, você pode revisar ou editar o conteúdo diretamente no painel **Mesclado** e selecionar **Marcar como resolvido** para manter o conteúdo mesclado.
 
-4. Revise o conteúdo final no painel **Mesclado** e selecione **Marcar como resolvido** para marcar o arquivo como resolvido.
-
-5. Repita as etapas para todos os arquivos listados em **Conflitos**.
+4. Repita as etapas para todos os arquivos listados em **Conflitos**.
 
    Depois que todos os conflitos forem resolvidos, a opção **Mesclar tudo** ficará disponível.
 
-6. Selecione **Mesclar tudo** para mesclar os arquivos resolvidos e as atualizações limpas em `main`.
+5. Selecione **Mesclar tudo** para mesclar os arquivos resolvidos e as atualizações limpas em `main`.
 
    >[!NOTE]
    > 
    > A opção **Mesclar tudo** permanece desabilitada até que todos os conflitos sejam resolvidos.
 
    As alterações resolvidas foram mescladas em `main`. Uma mesclagem concluída não pode ser desfeita. No entanto, é possível criar uma nova solicitação de mesclagem para mesclar as alterações subsequentes no principal.
-
 
 
 ## Gerenciar uma solicitação de mesclagem

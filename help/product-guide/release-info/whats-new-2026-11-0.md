@@ -2,9 +2,9 @@
 title: Notas de versão | Novidades na versão 2026.11.0 do Adobe Experience Manager Guides
 description: Explore novos recursos na versão 2026.11.0 do Adobe Experience Manager Guides, incluindo a ramificação no nível do mapa e a criação de conteúdo do Assistente de IA.
 role: Leader
-source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
+source-git-commit: 88172f3fd5c6da80091581a082db9b05d5d13483
 workflow-type: tm+mt
-source-wordcount: '1508'
+source-wordcount: '1544'
 ht-degree: 0%
 ---
 
@@ -17,6 +17,10 @@ Para obter a lista de problemas corrigidos nesta versão, consulte [Problemas co
 Saiba mais sobre [as instruções de atualização para a versão 2026.11.0](../release-info/upgrade-instructions-2026-11-0.md).
 
 ## Introdução à ramificação e mesclagem em nível de mapa
+
+>[!NOTE]
+>
+> Atualmente, o recurso **Ramificação e mesclagem** só tem suporte em ambientes Cloud Service que usam uma configuração de banco de dados e está desabilitado por padrão. Para permitir a ramificação e a mesclagem em seu ambiente, entre em contato com a equipe de sucesso do cliente.
 
 O Experience Manager Guides apresenta o recurso de ramificação e mesclagem no nível do mapa, permitindo que os autores trabalhem em várias versões de documentação, atualizações de recursos e correções críticas em paralelo, sem afetar o conteúdo principal. Os autores podem criar ramificações isoladas de um mapa DITA e suas dependências, garantindo que as edições, bloqueios e visualizações permaneçam específicas para cada ramificação.
 
