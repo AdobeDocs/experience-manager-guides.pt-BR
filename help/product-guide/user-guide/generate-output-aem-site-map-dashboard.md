@@ -32,16 +32,16 @@ topic_v2:
     internal-label: Metadata
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 543a83c00a07931231dcd985e8ffdceb4306b4b7
+source-git-commit: 2296e0706603eef5c4a76542c4a58f7eb2e13c6c
 workflow-type: tm+mt
-source-wordcount: '2589'
+source-wordcount: '2595'
 ht-degree: 0%
 ---
 # Predefinições do AEM Sites no painel de mapa {#id205BE3008SW}
 
 >[!NOTE]
 >
->A partir da versão 2027.01.0 para Cloud Service e da versão 5.4 para No local do Experience Manager Guides, o recurso do painel de Mapa será descontinuado para novos clientes. No entanto, ela permanecerá ativada para clientes existentes que já a estão usando. Se desejar desativar o painel Mapa, entre em contato com a equipe de Sucesso do cliente. É recomendável usar o console Mapa para gerenciamento e publicação de mapas a partir de agora.
+>A partir da versão 2027.01.0 do Experience Manager Guides Cloud Service e da versão 5.3 no local, o painel de Mapa será descontinuado para novos clientes. Os novos clientes usarão o console Mapa por padrão. Com a versão 2027.03.0, o Painel do mapa será desativado por padrão. Recomendamos o uso do console de Mapas para gerenciamento e publicação de mapas a partir de agora. Se você ainda precisar de acesso ao painel do Mapa, entre em contato com a equipe de Sucesso do cliente para obter assistência.
 
 É possível criar predefinições do AEM Sites no painel de mapa e configurá-las para gerar a saída do AEM Sites.
 

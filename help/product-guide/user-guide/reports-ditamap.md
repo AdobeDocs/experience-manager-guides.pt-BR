@@ -30,16 +30,16 @@ topic_v2:
     internal-label: Reporting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
+source-git-commit: 2296e0706603eef5c4a76542c4a58f7eb2e13c6c
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '845'
 ht-degree: 0%
 ---
 # Relatório de mapa DITA no painel de mapa {#id205BB800EEN}
 
 >[!NOTE]
 >
->A partir da versão 2027.01.0 para Cloud Service e da versão 5.4 para No local do Experience Manager Guides, o recurso do painel de Mapa será descontinuado para novos clientes. No entanto, ela permanecerá ativada para clientes existentes que já a estão usando. Se desejar desativar o painel Mapa, entre em contato com a equipe de Sucesso do cliente. É recomendável usar o console Mapa para gerenciamento e publicação de mapas a partir de agora.
+>A partir da versão 2027.01.0 do Experience Manager Guides Cloud Service e da versão 5.3 no local, o painel de Mapa será descontinuado para novos clientes. Os novos clientes usarão o console Mapa por padrão. Com a versão 2027.03.0, o Painel do mapa será desativado por padrão. Recomendamos o uso do console de Mapas para gerenciamento e publicação de mapas a partir de agora. Se você ainda precisar de acesso ao painel do Mapa, entre em contato com a equipe de Sucesso do cliente para obter assistência.
 
 O Adobe Experience Manager Guides fornece aos administradores os recursos de relatórios para verificar a integridade geral da documentação antes que ela seja ativada ou disponibilizada para os usuários finais. O relatório de mapa DITA no painel de mapa no Experience Manager Guides fornece informações valiosas, como os tópicos ausentes, tópicos com elementos ausentes, UUID de tópicos e arquivos de mídia referenciados e status de revisão de cada tópico. Um relatório detalhado em nível de tópico individual também fornece informações relacionadas ao conteúdo DITA, como referências de conteúdo e imagens ausentes ou referências cruzadas.
 

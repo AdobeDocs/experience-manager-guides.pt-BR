@@ -32,9 +32,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
+source-git-commit: 7a29c5f8373907c02c84a125da8da5ad38584173
 workflow-type: tm+mt
-source-wordcount: '1749'
+source-wordcount: '1755'
 ht-degree: 0%
 ---
 # Criar predefinição de saída DITA-OT PDF {#id205BE600HAH}
@@ -99,7 +99,7 @@ Para obter detalhes sobre as opções de configuração de predefinição, consu
 
 >[!NOTE]
 >
->A partir da versão 2027.01.0 para Cloud Service e da versão 5.4 para No local do Experience Manager Guides, o recurso do painel de Mapa será descontinuado para novos clientes. No entanto, ela permanecerá ativada para clientes existentes que já a estão usando. Se desejar desativar o painel Mapa, entre em contato com a equipe de Sucesso do cliente. É recomendável usar o console Mapa para gerenciamento e publicação de mapas a partir de agora.
+>A partir da versão 2027.01.0 do Experience Manager Guides Cloud Service e da versão 5.3 no local, o painel de Mapa será descontinuado para novos clientes. Os novos clientes usarão o console Mapa por padrão. Com a versão 2027.03.0, o Painel do mapa será desativado por padrão. Recomendamos o uso do console de Mapas para gerenciamento e publicação de mapas a partir de agora. Se você ainda precisar de acesso ao painel do Mapa, entre em contato com a equipe de Sucesso do cliente para obter assistência.
 
 Execute as seguintes etapas para criar a predefinição do PDF no painel de mapa:
 
