@@ -32,16 +32,16 @@ topic_v2:
     internal-label: Metadata
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 543a83c00a07931231dcd985e8ffdceb4306b4b7
+source-git-commit: 2296e0706603eef5c4a76542c4a58f7eb2e13c6c
 workflow-type: tm+mt
-source-wordcount: '2589'
+source-wordcount: '2595'
 ht-degree: 0%
 ---
 # Predefinições do AEM Sites no painel de mapa {#id205BE3008SW}
 
 >[!NOTE]
 >
->A partir da versão 2027.01.0 para Cloud Service e da versão 5.4 para No local do Experience Manager Guides, o recurso do painel de Mapa será descontinuado para novos clientes. No entanto, ela permanecerá ativada para clientes existentes que já a estão usando. Se desejar desativar o painel Mapa, entre em contato com a equipe de Sucesso do cliente. É recomendável usar o console Mapa para gerenciamento e publicação de mapas a partir de agora.
+>A partir da versão 2027.01.0 do Experience Manager Guides Cloud Service e da versão 5.3 no local, o painel de Mapa será descontinuado para novos clientes. Os novos clientes usarão o console Mapa por padrão. Com a versão 2027.03.0, o Painel do mapa será desativado por padrão. Recomendamos o uso do console de Mapas para gerenciamento e publicação de mapas a partir de agora. Se você ainda precisar de acesso ao painel do Mapa, entre em contato com a equipe de Sucesso do cliente para obter assistência.
 
 É possível criar predefinições do AEM Sites no painel de mapa e configurá-las para gerar a saída do AEM Sites.
 
@@ -117,7 +117,7 @@ Execute as seguintes etapas para especificar o contexto de publicação para arq
 
    Ao selecionar um arquivo de mapa, a UUID do mapa é mostrada na coluna UUID do mapa principal. As Predefinições de saída associadas ao mapa selecionado são listadas na lista Predefinição do Mapa pai.
 
-1. Na lista suspensa Predefinição do mapa principal **&#x200B;**, selecione a predefinição de saída à qual deseja vincular a saída do mapa atual.
+1. Na lista suspensa Predefinição do mapa principal ****, selecione a predefinição de saída à qual deseja vincular a saída do mapa atual.
 
 1. Selecione o mapa necessário e sua predefinição de saída para todos os tópicos dependentes e selecione **Concluído**.
 
@@ -144,4 +144,4 @@ Você pode procurar por uma string na saída do AEM Sites. Por padrão, é poss�
 
 Para obter mais detalhes, consulte a seção *Configurar nivelamento da estrutura do nó do site do AEM* no guia Instalar e configurar o Adobe Experience Manager Guides.
 
-**Tópico pai:**&#x200B;[&#x200B; Noções básicas sobre as predefinições de saída](generate-output-understand-presets.md)
+**Tópico pai:**[ Noções básicas sobre as predefinições de saída](generate-output-understand-presets.md)

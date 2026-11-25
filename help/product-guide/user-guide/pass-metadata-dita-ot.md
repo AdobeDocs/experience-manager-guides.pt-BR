@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Metadata
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
+source-git-commit: 2296e0706603eef5c4a76542c4a58f7eb2e13c6c
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '696'
 ht-degree: 0%
 ---
 # Transmita os metadados para a saída usando DITA-OT {#id21BJ00QD0XA}
@@ -66,7 +66,7 @@ Execute as seguintes etapas para transmitir os metadados para a saída usando a 
 
    Este arquivo pode ser sobreposto em: `/apps/fmdita/config/metadataList`.
 
-   Para passar uma propriedade personalizada para a qual você já definiu os valores, exiba [Usar metadados do AEM na saída do DITA-OT PDF](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880?profile.language=pt).
+   Para passar uma propriedade personalizada para a qual você já definiu os valores, exiba [Usar metadados do AEM na saída do DITA-OT PDF](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880).
 
 1. As propriedades selecionadas são listadas abaixo da lista suspensa.
 
@@ -85,7 +85,7 @@ As propriedades de metadados selecionadas serão passadas para a saída gerada u
 
 >[!NOTE]
 >
->A partir da versão 2027.01.0 para Cloud Service e da versão 5.4 para No local do Experience Manager Guides, o recurso do painel de Mapa será descontinuado para novos clientes. No entanto, ela permanecerá ativada para clientes existentes que já a estão usando. Se desejar desativar o painel Mapa, entre em contato com a equipe de Sucesso do cliente. É recomendável usar o console Mapa para gerenciamento e publicação de mapas a partir de agora.
+>A partir da versão 2027.01.0 do Experience Manager Guides Cloud Service e da versão 5.3 no local, o painel de Mapa será descontinuado para novos clientes. Os novos clientes usarão o console Mapa por padrão. Com a versão 2027.03.0, o Painel do mapa será desativado por padrão. Recomendamos o uso do console de Mapas para gerenciamento e publicação de mapas a partir de agora. Se você ainda precisar de acesso ao painel do Mapa, entre em contato com a equipe de Sucesso do cliente para obter assistência.
 
 Se estiver trabalhando na **Interface do usuário do Assets**, execute as seguintes etapas para transmitir os metadados para a saída usando a publicação DITA-OT:
 
@@ -105,7 +105,7 @@ Se estiver trabalhando na **Interface do usuário do Assets**, execute as seguin
 
    Este arquivo pode ser sobreposto em: `/apps/fmdita/config/metadataList`.
 
-   Para passar uma propriedade personalizada para a qual você já definiu os valores, exiba [Usar metadados do AEM na saída do DITA-OT PDF](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880?profile.language=pt).
+   Para passar uma propriedade personalizada para a qual você já definiu os valores, exiba [Usar metadados do AEM na saída do DITA-OT PDF](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880).
 
 1. Na lista suspensa **Propriedades**, selecione as propriedades padrão e personalizadas necessárias. Por exemplo, selecione `author`, `dc:title` e `dc:description`. Estes são os `metadata/properties` padrão que são criados quando criamos um arquivo. As propriedades selecionadas são listadas abaixo da dropbox.
 
@@ -118,4 +118,4 @@ As propriedades de metadados selecionadas serão passadas para a saída gerada u
 
 
 
-**Tópico pai:**&#x200B;[&#x200B; Geração de saída](generate-output.md)
+**Tópico pai:**[ Geração de saída](generate-output.md)

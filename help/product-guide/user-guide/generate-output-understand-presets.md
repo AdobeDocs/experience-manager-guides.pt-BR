@@ -27,16 +27,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
+source-git-commit: 2296e0706603eef5c4a76542c4a58f7eb2e13c6c
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '299'
 ht-degree: 1%
 ---
 # Noções básicas sobre as predefinições de saída {#understanding_output_settings}
 
 >[!NOTE]
 >
->A partir da versão 2027.01.0 para Cloud Service e da versão 5.4 para No local do Experience Manager Guides, o recurso do painel de Mapa será descontinuado para novos clientes. No entanto, ela permanecerá ativada para clientes existentes que já a estão usando. Se desejar desativar o painel Mapa, entre em contato com a equipe de Sucesso do cliente. É recomendável usar o console Mapa para gerenciamento e publicação de mapas a partir de agora.
+>A partir da versão 2027.01.0 do Experience Manager Guides Cloud Service e da versão 5.3 no local, o painel de Mapa será descontinuado para novos clientes. Os novos clientes usarão o console Mapa por padrão. Com a versão 2027.03.0, o Painel do mapa será desativado por padrão. Recomendamos o uso do console de Mapas para gerenciamento e publicação de mapas a partir de agora. Se você ainda precisar de acesso ao painel do Mapa, entre em contato com a equipe de Sucesso do cliente para obter assistência.
 
 O Experience Manager Guides oferece suporte à criação de saída nos formatos mais populares, como AEM Sites, PDF, Knowledge Base, HTML5, EPUB, JSON e saída personalizada por meio de DITA-OT, PDF nativo e FMPS. Usando esses formatos de saída, é possível configurar várias predefinições de saída. Aqui, uma predefinição de saída representa um formato de saída personalizado no qual você deseja que o conteúdo seja publicado.
 
@@ -67,4 +67,4 @@ As seguintes opções predefinidas estão disponíveis para os formatos de saíd
 
 Como administrador, o Experience Manager Guides permite criar e gerenciar predefinições de saída para os Perfis global e de pasta. Para obter mais detalhes, consulte [Gerenciar predefinições de saída de Perfil Global e de Pasta](./web-editor-manage-output-presets.md).
 
-**Tópico pai:**&#x200B;[&#x200B; Geração de saída](generate-output.md)
+**Tópico pai:**[ Geração de saída](generate-output.md)

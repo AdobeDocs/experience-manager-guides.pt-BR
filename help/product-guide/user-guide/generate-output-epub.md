@@ -32,16 +32,16 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 543a83c00a07931231dcd985e8ffdceb4306b4b7
+source-git-commit: 2296e0706603eef5c4a76542c4a58f7eb2e13c6c
 workflow-type: tm+mt
-source-wordcount: '1201'
+source-wordcount: '1204'
 ht-degree: 0%
 ---
 # EPUB {#id205BED020YT}
 
 >[!NOTE]
 >
->A partir da versão 2027.01.0 para Cloud Service e da versão 5.4 para No local do Experience Manager Guides, o recurso do painel de Mapa será descontinuado para novos clientes. Portanto, a criação da predefinição do EPUB não estaria disponível.  No entanto, o recurso Painel de mapa permanecerá ativado para clientes existentes que já o estão usando. Se desejar desativar o painel Mapa, entre em contato com a equipe de Sucesso do cliente. É recomendável usar o console Mapa para gerenciamento e publicação de mapas a partir de agora.
+>A partir da versão 2027.01.0 do Experience Manager Guides Cloud Service e da versão 5.3 no local, o painel de Mapa será descontinuado para novos clientes. Portanto, a criação da predefinição do EPUB não estaria disponível. Os novos clientes usarão o console Mapa por padrão. Com a versão 2027.03.0, o Painel do mapa será desativado por padrão. Recomendamos o uso do console de Mapas para gerenciamento e publicação de mapas a partir de agora. Se você ainda precisar de acesso ao painel do Mapa, entre em contato com a equipe de Sucesso do cliente para obter assistência.
 
 É possível criar a predefinição do EPUB no painel de mapa.
 
@@ -81,4 +81,4 @@ As seguintes opções de configuração estão disponíveis para a predefiniçã
 | Usar Linha de Base | Se tiver criado uma Linha de Base para o mapa DITA selecionado, selecione essa opção para especificar a versão que deseja publicar. Exiba [Trabalhar com Linha de Base](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) para obter mais detalhes. <br>**Observação**: se você excluir uma Linha de Base que é usada na predefinição de saída, ela não será atualizada automaticamente. Faça o seguinte antes de gerar a saída: <ul><li>**Se você excluir apenas a Linha de Base**: A opção **Usar Linha de Base** permanece habilitada e o menu suspenso aparece em branco. A geração de saída nesse estado falha. Desative a opção Usar linha de base, atualize a página e gere a saída.</li><li>**Se você tiver várias Linhas de Base e excluir a selecionada**: o menu suspenso **Usar Linha de Base** continua a mostrar a Linha de Base excluída como selecionada. Selecione uma Linha de base válida no menu suspenso e gere a saída.</li></ul> |
 | Propriedades | Selecione as propriedades que deseja processar como metadados. Essas propriedades são definidas na página Propriedades do mapa DITA ou do arquivo de mapa. As propriedades selecionadas na lista suspensa estão listadas abaixo do campo Propriedades e são removidas da lista suspensa. Depois de definidas, essas propriedades também são copiadas para os tópicos do mapa.<br><br>**Observação**: você também pode passar os metadados para a saída usando a publicação DITA-OT. Para obter mais detalhes, [Passe os metadados para a saída usando DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
 
-**Tópico pai:**&#x200B;[&#x200B; Noções básicas sobre as predefinições de saída](generate-output-understand-presets.md)
+**Tópico pai:**[ Noções básicas sobre as predefinições de saída](generate-output-understand-presets.md)
